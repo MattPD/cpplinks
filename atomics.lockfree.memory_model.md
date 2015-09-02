@@ -81,32 +81,33 @@ YouTube videos on consistency models:
 
 ## Papers - Data Structures
 
-Shared memory consistency models tutorial (Adve and Gharachorloo) 
-http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-95-7.pdf
-
-Treiber’s lock-free stack
-R. Treiber. Systems programming: Coping with parallelism. Technical report, IBM Almaden Research Center, 1986.
-http://domino.research.ibm.com/library/cyberdig.nsf/papers/58319A2ED2B1078985257003004617EF/$File/rj5118.pdf
-
 Keir Fraser. Practical lock freedom. Cambridge University Technical Report UCAM-CL-TR-579.
 https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-579.pdf
+
 Practical lock-free data structures
 https://www.cl.cam.ac.uk/research/srg/netos/projects/lock-free/
 
+Shared memory consistency models tutorial (Adve and Gharachorloo)   
+http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-95-7.pdf
+
+Treiber’s lock-free stack
+R. Treiber. Systems programming: Coping with parallelism. Technical report, IBM Almaden Research Center, 1986.  
+http://domino.research.ibm.com/library/cyberdig.nsf/papers/58319A2ED2B1078985257003004617EF/$File/rj5118.pdf
+
 ## Papers - Implementation
 
-Common Compiler Optimisations are Invalid in the C11 Memory Model and what we can do about it
+Common Compiler Optimisations are Invalid in the C11 Memory Model and what we can do about it  
 http://www.di.ens.fr/~zappa/readings/c11comp.pdf
 
-N4455 No Sane Compiler Would Optimize Atomics
+N4455 No Sane Compiler Would Optimize Atomics  
 http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/n4455.html
 
 ## Papers - Memory Model
 
-AutoMO: Automatic Inference of Memory Order Parameters for C/C++11 | SPLASH 2015 OOPSLA
+AutoMO: Automatic Inference of Memory Order Parameters for C/C++11 | SPLASH 2015 OOPSLA  
 http://plrg.eecs.uci.edu/publications/oopsla15inference.pdf
 
-Common Compiler Optimisations are Invalid in the C11 Memory Model and what we can do about it 
+Common Compiler Optimisations are Invalid in the C11 Memory Model and what we can do about it   
 http://plv.mpi-sws.org/c11comp/popl15.pdf
 
 C++ Memory Model, Martin Kempf
@@ -132,7 +133,9 @@ http://rsim.cs.illinois.edu/~sadve/Publications/computer96.pdf
 
 Simple and Efficient Semantics for Concurrent Programming Languages
 http://web.cs.ucla.edu/~todd/research/memmodels.html
-- The Silently Shifting Semicolon (SNAPL 2015) - http://web.cs.ucla.edu/~todd/research/snapl15.pdf - proposes the designation "Weak DRF0 (WDRF0)" for the C++ memory model:
+
+The Silently Shifting Semicolon (SNAPL 2015) - http://web.cs.ucla.edu/~todd/research/snapl15.pdf  
+Proposes the designation "Weak DRF0 (WDRF0)" for the C++ memory model:
 "C/C++ has settled for a memory model weaker than DRF0, which we call Weak DRF0 (WDRF0). DRF programs are not guaranteed SC semantics in WDRF0. To get SC, programmers have to additionally avoid the use of the so-called low-level atomic primitives. The weak semantics of DRF programs in C++ is similar in complexity to the semantics of non-DRF programs in Java."
 
 The x86 Memory Model
@@ -216,22 +219,22 @@ https://www.kernel.org/doc/Documentation/volatile-considered-harmful.txt
 
 # Slides
 
-Concurrency Kit talks
-http://concurrencykit.org/slides.html
+Concurrency Kit talks  
+http://concurrencykit.org/slides.html  
 Lock-Free Algorithms: An Introduction, Introduction to Lock-Free Algorithms: Through a case study, Safe Memory Reclamation: Epoch Reclamation, Towards accessible non-blocking technology for C, Fast Bounded-Concurrency Hash Tables
 
-Foundations of the C++ Concurrency Memory Model
+Foundations of the C++ Concurrency Memory Model  
 http://www.cs.rice.edu/~johnmc/comp522/lecture-notes/COMP522-2014-Lecture11-C++-MemoryModel.pdf
 
-"Memory Consistency Models", Sarita Adve
+"Memory Consistency Models", Sarita Adve  
 http://rsim.cs.uiuc.edu/~sadve/JavaWorkshop00/talk.pdf
 
-Memory Management in C++14 and Beyond
-Chicago C++ Meetup July 7, 2015
+Memory Management in C++14 and Beyond  
+Chicago C++ Meetup July 7, 2015  
 Info: http://www.meetup.com/Chicago-C-CPP-Users-Group/events/223318263/
 Slides: http://ccug.chicago.il.us/Spertus7jul2015.pdf
 
-Memory models: Making sense of thread level parallelism and shared memory access
+Memory models: Making sense of thread level parallelism and shared memory access  
 http://www.cs.rice.edu/~johnmc/comp522/lecture-notes/COMP522-2014-Lecture8-MemoryModels.pdf
 
 # Software, Tools
@@ -239,123 +242,123 @@ http://www.cs.rice.edu/~johnmc/comp522/lecture-notes/COMP522-2014-Lecture8-Memor
 Boost.Lockfree
 http://www.boost.org/doc/libs/release/doc/html/lockfree.html
 
-CDS C++ library
-https://github.com/khizmax/libcds
+CDS C++ library  
+https://github.com/khizmax/libcds  
 The Concurrent Data Structures (CDS) library is a collection of concurrent containers that don't require external (manual) synchronization for shared access, and safe memory reclamation (SMR) algorithms like Hazard Pointer and user-space RCU. CDS is mostly header-only template library. Only SMR core implementation is segregated to .so/.dll file.
 
-CDSChecker: A Model Checker for C11 and C++11 Atomics
-http://demsky.eecs.uci.edu/c11modelchecker.html
+CDSChecker: A Model Checker for C11 and C++11 Atomics  
+http://demsky.eecs.uci.edu/c11modelchecker.html  
 http://plrg.eecs.uci.edu/publications/c11modelcheck.pdf
 
-Concurrency Kit
-Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems.
+Concurrency Kit  
+Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems.  
 https://github.com/concurrencykit/ck
 
-CppMem: Interactive C/C++ memory model
+CppMem: Interactive C/C++ memory model  
 http://svr-pes20-cppmem.cl.cam.ac.uk/cppmem/
 
-moodycamel::ConcurrentQueue (MPMC): https://github.com/cameron314/concurrentqueue
-moodycamel::ReaderWriterQueue (SPSC): SPSC: https://github.com/cameron314/readerwriterqueue
-http://moodycamel.com/blog/2013/a-fast-lock-free-queue-for-c++
-http://moodycamel.com/blog/2014/a-fast-general-purpose-lock-free-queue-for-c++
-http://moodycamel.com/blog/2014/detailed-design-of-a-lock-free-queue
+moodycamel::ConcurrentQueue (MPMC): https://github.com/cameron314/concurrentqueue  
+moodycamel::ReaderWriterQueue (SPSC): SPSC: https://github.com/cameron314/readerwriterqueue  
+http://moodycamel.com/blog/2013/a-fast-lock-free-queue-for-c++  
+http://moodycamel.com/blog/2014/a-fast-general-purpose-lock-free-queue-for-c++  
+http://moodycamel.com/blog/2014/detailed-design-of-a-lock-free-queue  
 http://moodycamel.com/blog/2014/solving-the-aba-problem-for-lock-free-free-lists
 
-Relacy Race Detector 
+Relacy Race Detector  
 http://www.1024cores.net/home/relacy-race-detector
 
 # Talks, Videos
 
-ACCU 2015: Atomic Counters or A Lesson on Performance and Hardware Concurrency
-Info: http://accu.org/index.php/conferences/accu_conference_2015/accu2015_sessions#atomic_counters_or_a_lesson_on_performance_and_hardware_concurrency
-Slides: http://accu.org/content/conf2015/DetlefVollmann-Atomic%20Counters.pdf
-Slides: http://www.vollmann.ch/en/presentations/atomic-counters-accu-2015.pdf
+ACCU 2015: Atomic Counters or A Lesson on Performance and Hardware Concurrency  
+Info: http://accu.org/index.php/conferences/accu_conference_2015/accu2015_sessions#atomic_counters_or_a_lesson_on_performance_and_hardware_concurrency  
+Slides: http://accu.org/content/conf2015/DetlefVollmann-Atomic%20Counters.pdf  
+Slides: http://www.vollmann.ch/en/presentations/atomic-counters-accu-2015.pdf  
 Video: http://www.infoq.com/presentations/atomic-counters
 
-ACCU 2015: Safety: off. How not to shoot yourself in the foot with C++ atomics
-Info: http://accu.org/index.php/conferences/accu_conference_2015/accu2015_sessions#safety-off._how_not_to_shoot_yourself_in_the_foot_with_c_atomics
+ACCU 2015: Safety: off. How not to shoot yourself in the foot with C++ atomics  
+Info: http://accu.org/index.php/conferences/accu_conference_2015/accu2015_sessions#safety-off._how_not_to_shoot_yourself_in_the_foot_with_c_atomics  
 Slides: http://accu.org/content/conf2015/AnthonyWilliams-safety_off.pdf
 
-ACCU 2015: The Dos and Don'ts of Multithreading
-Info: http://accu.org/index.php/conferences/accu_conference_2015/accu2015_sessions#the_dos_and_don_ts_of_multithreading
-Slides: http://accu.org/content/conf2015/HubertMatthews-Multithreading%20Dos%20And%20Donts.pdf
-Video: http://www.infoq.com/presentations/multithreading
+ACCU 2015: The Dos and Don'ts of Multithreading  
+Info: http://accu.org/index.php/conferences/accu_conference_2015/accu2015_sessions#the_dos_and_don_ts_of_multithreading  
+Slides: http://accu.org/content/conf2015/HubertMatthews-Multithreading%20Dos%20And%20Donts.pdf  
+Video: http://www.infoq.com/presentations/multithreading  
 Note: more on atomics & memory ordering compared to the NDC 2014 version.
 
-Atmosphere 2014: Lockless programming - Tomasz Baranski
+Atmosphere 2014: Lockless programming - Tomasz Baranski  
 https://www.youtube.com/watch?v=JUeaCfhwvHE
 
-Black Hat USA 2013 - Shattering Illusions in Lock-Free Worlds: Compiler/Hardware Behaviors OSes/VMs
+Black Hat USA 2013 - Shattering Illusions in Lock-Free Worlds: Compiler/Hardware Behaviors OSes/VMs  
 https://www.youtube.com/watch?v=wYFADkO-ZsA
 
-BoostCon 2010: Tony Van Eerd: The Basics of Lock-free Programming
+BoostCon 2010: Tony Van Eerd: The Basics of Lock-free Programming  
 https://www.youtube.com/watch?v=LbOB_moUa94
 
-BoostCon 2010: Tony Van Eerd: Lockfree Programming Part 2: Data Structures
-https://www.youtube.com/watch?v=O4Jdq4PtfPA
-(Part 2: continuing from where BoostCon 2010 left off)
+BoostCon 2010: Tony Van Eerd: Lockfree Programming Part 2: Data Structures  
+https://www.youtube.com/watch?v=O4Jdq4PtfPA  
+(Part 2: continuing from where BoostCon 2010 left off)  
 Slides: https://github.com/boostcon/2011_presentations/raw/master/wed/lockfree_2011_slides.pdf
 
-C++ and Beyond 2012: atomic Weapons: The C++ Memory Model and Modern Hardware
-https://channel9.msdn.com/Shows/Going+Deep/Cpp-and-Beyond-2012-Herb-Sutter-atomic-Weapons-1-of-2
-https://channel9.msdn.com/Shows/Going+Deep/Cpp-and-Beyond-2012-Herb-Sutter-atomic-Weapons-2-of-2
+C++ and Beyond 2012: atomic Weapons: The C++ Memory Model and Modern Hardware  
+https://channel9.msdn.com/Shows/Going+Deep/Cpp-and-Beyond-2012-Herb-Sutter-atomic-Weapons-1-of-2  
+https://channel9.msdn.com/Shows/Going+Deep/Cpp-and-Beyond-2012-Herb-Sutter-atomic-Weapons-2-of-2  
 
-C++Now! 2013 Tony Van Eerd: Low Level Threading with C++11
+C++Now! 2013 Tony Van Eerd: Low Level Threading with C++11  
 https://www.youtube.com/watch?v=dKLAwNaNvAY
 
-C++ Wroclaw 0x03: Volodymyr Volkov - std::atomic explained
-http://www.cppwroclaw.pl/dokuwiki/spotkania/003/info
+C++ Wroclaw 0x03: Volodymyr Volkov - std::atomic explained  
+http://www.cppwroclaw.pl/dokuwiki/spotkania/003/info  
 https://vimeo.com/80599339
 
-CppCon 2014: Herb Sutter, "Lock-Free Programming (or, Juggling Razor Blades)"
-http://herbsutter.com/2014/10/18/my-cppcon-talks-2/
-Part 1: http://youtu.be/c1gO9aB9nbs - Lazy initialization with DCL vs. call_once vs. function local statics, and lock-free mailbox algorithms
-Part 2: http://youtu.be/CmxkPChOcvw - Lock-free linked lists, the ABA problem, and atomic smart pointers
+CppCon 2014: Herb Sutter, "Lock-Free Programming (or, Juggling Razor Blades)"  
+http://herbsutter.com/2014/10/18/my-cppcon-talks-2/  
+Part 1: http://youtu.be/c1gO9aB9nbs - Lazy initialization with DCL vs. call_once vs. function local statics, and lock-free mailbox algorithms  
+Part 2: http://youtu.be/CmxkPChOcvw - Lock-free linked lists, the ABA problem, and atomic smart pointers  
 
-CppCon 2014: Jeff Preshing, "How Ubisoft Develops Games for Multicore - Before and After C++11"
-Code: https://gist.github.com/preshing/4d28abad8da4e40cb1d4
+CppCon 2014: Jeff Preshing, "How Ubisoft Develops Games for Multicore - Before and After C++11"  
+Code: https://gist.github.com/preshing/4d28abad8da4e40cb1d4  
 Video: https://www.youtube.com/watch?v=X1T3IQ4N-3g
 
-CppCon 2014: Paul E. McKenney, "C++ Memory Model Meets High-Update-Rate Data Structures"
+CppCon 2014: Paul E. McKenney, "C++ Memory Model Meets High-Update-Rate Data Structures"  
 https://www.youtube.com/watch?v=1Q-RH2tiyt0
 
-CppCon 2014: Tony Van Eerd, "Lock-free by Example"
-https://www.youtube.com/watch?v=Xf35TLFKiO8
+CppCon 2014: Tony Van Eerd, "Lock-free by Example"  
+https://www.youtube.com/watch?v=Xf35TLFKiO8  
 https://channel9.msdn.com/Events/CPP/C-PP-Con-2014/Lock-free-by-Example
 
-ECOOP 2015: Brijesh Dongol - "Defining Correctness Conditions for Concurrent Objects in Multicore Architectures"
+ECOOP 2015: Brijesh Dongol - "Defining Correctness Conditions for Concurrent Objects in Multicore Architectures"  
 https://www.youtube.com/watch?v=PDQXpKE_Kao
 
-GoingNative 2012: Hans Boehm, "Threads and Shared Variables in C++11"
+GoingNative 2012: Hans Boehm, "Threads and Shared Variables in C++11"  
 https://channel9.msdn.com/Events/GoingNative/GoingNative-2012/Threads-and-Shared-Variables-in-C-11
 
-LLVM Developers' Meeting 2014: Blowing up the (C++11) atomic barrier - Optimizing C++11 atomics in LLVM
-Slides: http://llvm.org/devmtg/2014-10/Slides/Morisset-AtomicsPresentation.pdf
-Video (Google Tech Talk): https://www.youtube.com/watch?v=hE4HW1Y2Dao
-Video (720p): http://llvm.org/devmtg/2014-10/Videos/Blowing%20up%20the%20Atomic%20Barrier-720.mov
+LLVM Developers' Meeting 2014: Blowing up the (C++11) atomic barrier - Optimizing C++11 atomics in LLVM  
+Slides: http://llvm.org/devmtg/2014-10/Slides/Morisset-AtomicsPresentation.pdf  
+Video (Google Tech Talk): https://www.youtube.com/watch?v=hE4HW1Y2Dao  
+Video (720p): http://llvm.org/devmtg/2014-10/Videos/Blowing%20up%20the%20Atomic%20Barrier-720.mov  
 Video (360p): http://llvm.org/devmtg/2014-10/Videos/Blowing%20up%20the%20Atomic%20Barrier-360.mov
 
-LLVM Developers' Meeting 2015: European LLVM Conference
-Keynote: "C Concurrency: Still Tricky", Francesco Zappa Nardelli
-Video HD: http://llvm.org/devmtg/2015-04/Videos/HD/Day%201/Francesco%20Zappa%20Nardelli%20(keynote).mp4
-Video SD: http://llvm.org/devmtg/2015-04/Videos/SD/Day%201/Francesco%20Zappa%20Nardelli%20(keynote)_1.mp4
+LLVM Developers' Meeting 2015: European LLVM Conference  
+Keynote: "C Concurrency: Still Tricky", Francesco Zappa Nardelli  
+Video HD: http://llvm.org/devmtg/2015-04/Videos/HD/Day%201/Francesco%20Zappa%20Nardelli%20(keynote).mp4  
+Video SD: http://llvm.org/devmtg/2015-04/Videos/SD/Day%201/Francesco%20Zappa%20Nardelli%20(keynote)_1.mp4  
 Slides: http://llvm.org/devmtg/2015-04/slides/CConcurrency_EuroLLVM2015.pdf
 
-Hans-J. Boehm: C++11 Threads Surprises
-Slides: https://parasol.tamu.edu/bjarnefest/program/boehm-slides.PDFs
+Hans-J. Boehm: C++11 Threads Surprises  
+Slides: https://parasol.tamu.edu/bjarnefest/program/boehm-slides.PDFs  
 Video (slides not visible): https://www.youtube.com/watch?v=UWx4EA2uBzs / https://www.youtube.com/watch?v=TnCWTPuWzIk
 
-Meeting C++ 2014: The C++ Memory Model - Valentin Ziegler
+Meeting C++ 2014: The C++ Memory Model - Valentin Ziegler  
 https://www.youtube.com/watch?v=gpsz8sc6mNU
 
-NDC 2014: Hubert Matthews - The Dos and Don'ts of Multithreaded Programming
+NDC 2014: Hubert Matthews - The Dos and Don'ts of Multithreaded Programming  
 https://vimeo.com/113725137
 
-NDC 2014: Mike Long - The C++ memory model
-https://vimeo.com/97419179
-https://www.youtube.com/watch?v=BiLX7n_z9s4
-https://github.com/meekrosoft/cppmemmodel
-Slides: https://meekrosoft.github.io/cppmemmodel/
+NDC 2014: Mike Long - The C++ memory model  
+https://vimeo.com/97419179  
+https://www.youtube.com/watch?v=BiLX7n_z9s4  
+https://github.com/meekrosoft/cppmemmodel  
+Slides: https://meekrosoft.github.io/cppmemmodel/  
 
 NDC 2015: Chris Shore - Memory Access Ordering in Complex Embedded Systems
 https://vimeo.com/131637104
