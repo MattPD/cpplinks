@@ -15,69 +15,67 @@ Bartosz Milewski
 - https://corensic.wordpress.com/category/sequential-consistency/
 
 Comparison: Lockless programming with atomics in C++ 11 vs. mutex and RW-locks
-
-https://www.arangodb.com/2015/02/comparing-atomic-mutex-rwlocks/
+- https://www.arangodb.com/2015/02/comparing-atomic-mutex-rwlocks/
 
 Fast Bounded-Concurrency Hash Tables
-http://backtrace.io/blog/blog/2015/03/13/workload-specialization/
+- http://backtrace.io/blog/blog/2015/03/13/workload-specialization/
 
 Jeff Preshing
-http://preshing.com/20111118/locks-arent-slow-lock-contention-is/
-http://preshing.com/20120515/memory-reordering-caught-in-the-act/
-http://preshing.com/20120612/an-introduction-to-lock-free-programming/
-http://preshing.com/20120625/memory-ordering-at-compile-time/
-http://preshing.com/20120710/memory-barriers-are-like-source-control-operations/
-http://preshing.com/20120913/acquire-and-release-semantics/
-http://preshing.com/20120930/weak-vs-strong-memory-models/
-http://preshing.com/20121019/this-is-why-they-call-it-a-weakly-ordered-cpu/
-http://preshing.com/20130505/introducing-mintomic-a-small-portable-lock-free-api/
-http://preshing.com/20130529/a-lock-free-linear-search/
-http://preshing.com/20130605/the-worlds-simplest-lock-free-hash-table/
-http://preshing.com/20130618/atomic-vs-non-atomic-operations
-http://preshing.com/20130702/the-happens-before-relation/
-http://preshing.com/20130823/the-synchronizes-with-relation/
-http://preshing.com/20130922/acquire-and-release-fences/
-http://preshing.com/20130930/double-checked-locking-is-fixed-in-cpp11/
-http://preshing.com/20131125/acquire-and-release-fences-dont-work-the-way-youd-expect/
-http://preshing.com/20140709/the-purpose-of-memory_order_consume-in-cpp11/
-http://preshing.com/20141124/fixing-gccs-implementation-of-memory_order_consume/
-http://preshing.com/20150402/you-can-do-any-kind-of-atomic-read-modify-write-operation/
+- http://preshing.com/20111118/locks-arent-slow-lock-contention-is/
+- http://preshing.com/20120515/memory-reordering-caught-in-the-act/
+- http://preshing.com/20120612/an-introduction-to-lock-free-programming/
+- http://preshing.com/20120625/memory-ordering-at-compile-time/
+- http://preshing.com/20120710/memory-barriers-are-like-source-control-operations/
+- http://preshing.com/20120913/acquire-and-release-semantics/
+- http://preshing.com/20120930/weak-vs-strong-memory-models/
+- http://preshing.com/20121019/this-is-why-they-call-it-a-weakly-ordered-cpu/
+- http://preshing.com/20130505/introducing-mintomic-a-small-portable-lock-free-api/
+- http://preshing.com/20130529/a-lock-free-linear-search/
+- http://preshing.com/20130605/the-worlds-simplest-lock-free-hash-table/
+- http://preshing.com/20130618/atomic-vs-non-atomic-operations
+- http://preshing.com/20130702/the-happens-before-relation/
+- http://preshing.com/20130823/the-synchronizes-with-relation/
+- http://preshing.com/20130922/acquire-and-release-fences/
+- http://preshing.com/20130930/double-checked-locking-is-fixed-in-cpp11/
+- http://preshing.com/20131125/acquire-and-release-fences-dont-work-the-way-youd-expect/
+- http://preshing.com/20140709/the-purpose-of-memory_order_consume-in-cpp11/
+- http://preshing.com/20141124/fixing-gccs-implementation-of-memory_order_consume/
+- http://preshing.com/20150402/you-can-do-any-kind-of-atomic-read-modify-write-operation/
 
 Kukuryku Hub Series
-http://kukuruku.co/hub/cpp/lock-free-data-structures-introduction
-http://kukuruku.co/hub/cpp/lock-free-data-structures-basics-atomicity-and-atomic-primitives
-http://kukuruku.co/hub/cpp/lock-free-data-structures-memory-model-part-3
-http://kukuruku.co/hub/cpp/lock-free-data-structures-the-inside-memory-management-schemes
-http://kukuruku.co/hub/cpp/lock-free-data-structures-the-inside-rcu
-http://kukuruku.co/hub/cpp/lock-free-data-structures-the-evolution-of-a-stack
-http://kukuruku.co/hub/cpp/lock-free-data-structures-yet-another-treatise
-http://kukuruku.co/hub/cpp/lock-free-data-structures-exploring-queues
+- http://kukuruku.co/hub/cpp/lock-free-data-structures-introduction
+- http://kukuruku.co/hub/cpp/lock-free-data-structures-basics-atomicity-and-atomic-primitives
+- http://kukuruku.co/hub/cpp/lock-free-data-structures-memory-model-part-3
+- http://kukuruku.co/hub/cpp/lock-free-data-structures-the-inside-memory-management-schemes
+- http://kukuruku.co/hub/cpp/lock-free-data-structures-the-inside-rcu
+- http://kukuruku.co/hub/cpp/lock-free-data-structures-the-evolution-of-a-stack
+- http://kukuruku.co/hub/cpp/lock-free-data-structures-yet-another-treatise
+- http://kukuruku.co/hub/cpp/lock-free-data-structures-exploring-queues
 
 "Moody Camel" Series:
-http://moodycamel.com/blog/2013/a-fast-lock-free-queue-for-c++
-http://moodycamel.com/blog/2014/a-fast-general-purpose-lock-free-queue-for-c++
-http://moodycamel.com/blog/2014/detailed-design-of-a-lock-free-queue
-http://moodycamel.com/blog/2014/solving-the-aba-problem-for-lock-free-free-lists
+- http://moodycamel.com/blog/2013/a-fast-lock-free-queue-for-c++
+- http://moodycamel.com/blog/2014/a-fast-general-purpose-lock-free-queue-for-c++
+- http://moodycamel.com/blog/2014/detailed-design-of-a-lock-free-queue
+- http://moodycamel.com/blog/2014/solving-the-aba-problem-for-lock-free-free-lists
 
 PSA: you should use WTF::Lock and WTF::Condition instead of WTF::SpinLock, WTF::Mutex, WTF::ThreadCondition, std::mutex, std::condition_variable, or std::condition_variable_any
-http://permalink.gmane.org/gmane.os.opendarwin.webkit.devel/27578
+- http://permalink.gmane.org/gmane.os.opendarwin.webkit.devel/27578
 
 The difficulty of lock-free programming: a bug in lockfree stack
-http://mdf356.blogspot.com/2015/06/the-difficulty-of-lock-free-programming.html
+- http://mdf356.blogspot.com/2015/06/the-difficulty-of-lock-free-programming.html
 
 Trip Report: Ad-Hoc Meeting on Threads in C++
-http://www.artima.com/cppsource/threads_meeting.html
+- http://www.artima.com/cppsource/threads_meeting.html
 
-# Courses
+## Courses
 
-CS/ECE 7810 Advanced Computer Architecture 
-http://www.eng.utah.edu/~cs7810/
-Lecture 11: Consistency Models: [Slides (pdf)](http://www.eng.utah.edu/~cs7810/pres/14-7810-11.pdf)
+CS/ECE 7810 Advanced Computer Architecture: http://www.eng.utah.edu/~cs7810/  
+Lecture 11: Consistency Models: [Slides (pdf)](http://www.eng.utah.edu/~cs7810/pres/14-7810-11.pdf)  
 YouTube videos on consistency models:
-[YouTube Video 68](http://www.youtube.com/watch?v=VfIeD_B4YhM) (Example multi-threaded programs and sequentially consistent results)
-[YouTube Video 69](http://www.youtube.com/watch?v=DzGk1FXrQEo) (Hardware support for sequential consistency, example of how SC is violated if program order is violated)
-[YouTube Video 70](http://www.youtube.com/watch?v=AOhRBI7GyZU) (Example on how a coherence protocol may violate write atomicity and sequential consistency, hardware support for sequential consistency, safe optimizations to speed up the hardware)
-[YouTube Video 71](http://www.youtube.com/watch?v=JjRnHP_u-aY) (A hardware-software approach to improving performance with relaxed consistency models and fences)
+- [YouTube Video 68](http://www.youtube.com/watch?v=VfIeD_B4YhM) (Example multi-threaded programs and sequentially consistent results)
+- [YouTube Video 69](http://www.youtube.com/watch?v=DzGk1FXrQEo) (Hardware support for sequential consistency, example of how SC is violated if program order is violated)
+- [YouTube Video 70](http://www.youtube.com/watch?v=AOhRBI7GyZU) (Example on how a coherence protocol may violate write atomicity and sequential consistency, hardware support for sequential consistency, safe optimizations to speed up the hardware)
+- [YouTube Video 71](http://www.youtube.com/watch?v=JjRnHP_u-aY) (A hardware-software approach to improving performance with relaxed consistency models and fences)
 
 # Papers
 
