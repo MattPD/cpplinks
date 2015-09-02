@@ -1,4 +1,4 @@
-# C++ links: x86 Assembly
+# [C++ links](README.md): x86 Assembly
 
 Note: the main focus is on the 64-bit variant (x86-64): thus, primarily up-to-date materials (i.e., 64-bit, AVX) are preferred.
 
@@ -142,7 +142,7 @@ http://www.fysnet.net/faq/
 /r/asm - where every byte counts
 https://www.reddit.com/r/asm
 
-#asm, Freenode IRC network
+`#asm`, Freenode IRC network
 http://goo.gl/vZ4xwd
 
 CS270 x86 Assembly Blog
