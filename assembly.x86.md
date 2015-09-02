@@ -48,67 +48,76 @@ http://eli.thegreenplace.net/2012/01/03/understanding-the-x64-code-models
 Why Intel Added the CLWB and PCOMMIT Instructions
 http://danluu.com/clwb-pcommit/
 
-Windows x64 ABI
-Part 1: Intro to the Windows x64 calling convention 
-http://www.gamasutra.com/view/news/171088/x64_ABI_Intro_to_the_Windows_x64_calling_convention.php
-Part 2: Stack frames 
+Windows x64 ABI  
+Part 1: Intro to the Windows x64 calling convention   
+http://www.gamasutra.com/view/news/171088/x64_ABI_Intro_to_the_Windows_x64_calling_convention.php  
+Part 2: Stack frames  
 http://www.gamasutra.com/view/news/178446/Indepth_Windows_x64_ABI_Stack_frames.php
 
 ## Background
-
-From NAND to Tetris Building a Modern Computer From First Principles 
-http://www.nand2tetris.org/
 
 The Hardware/Software Interface
 https://www.coursera.org/course/hwswinterface
 
 Onur Mutlu's Lecture Videos and Materials
-// Highly recommended -- both the videos as well as the carefully selected, highly relevant readings!
+// Strongly recommended -- both the videos as well as the carefully selected, highly relevant readings!  
 https://users.ece.cmu.edu/~omutlu/lecture-videos.html
 - [Undergraduate Computer Architecture Course](http://www.ece.cmu.edu/~ece447/s15/doku.php?id=schedule)
 - [Graduate Computer Architecture Course](http://www.ece.cmu.edu/~ece740/f13/doku.php?id=schedule)
 - [Parallel Computer Architecture Course](http://www.ece.cmu.edu/~ece742/f12/doku.php?id=lectures)
 - [Memory Systems Short Course Materials](http://users.ece.cmu.edu/~omutlu/acaces2013-memory.html)
 
-CS/EE 6810 Computer Architecture 
-http://www.eng.utah.edu/~cs6810/
+CS/EE 6810 Computer Architecture: http://www.eng.utah.edu/~cs6810/  
 https://www.youtube.com/playlist?list=PL8EC1756A7B1764F6
 
-Computer Architecture
-https://www.coursera.org/course/comparch
+Computer Architecture: https://www.coursera.org/course/comparch
 
 ### Background -- Books
 
-Digital Design and Computer Architecture, 2nd Edition
-http://store.elsevier.com/Digital-Design-and-Computer-Architecture/David-Harris/isbn-9780123944245/
-http://booksite.elsevier.com/9780123944245/
-- (background; no prerequisites beyond basic programming) digital logic, hardware 
+1. From NAND to Tetris Building a Modern Computer From First Principles 
+http://www.nand2tetris.org/
+(no prerequisites)
+
+101. Digital Design and Computer Architecture, 2nd Edition  
+http://store.elsevier.com/Digital-Design-and-Computer-Architecture/David-Harris/isbn-9780123944245/  
+http://booksite.elsevier.com/9780123944245/  
+(background; no prerequisites beyond basic programming) digital logic, hardware 
+
+101. Computer Systems: A Programmer's Perspective (CS:APP)  
+http://csapp.cs.cmu.edu/  
+(undergraduate level, basic programming background helpful)
+
+102. David A. Patterson, John L. Hennessy: "Computer Organization and Design: The Hardware-Software Interface"  
+http://store.elsevier.com/Computer-Organization-and-Design/David-Patterson/isbn-9780124077263/
+(undergraduate level)
+
+201. John L. Hennessy, David A. Patterson "Computer Architecture, Fifth Edition: A Quantitative Approach"
+http://store.elsevier.com/Computer-Architecture/John-Hennessy/isbn-9780123838728/
+(graduate level)
+
+301. Readings in Computer Architecture: http://booksite.elsevier.com/9781558605398/
+(a collection of seminal papers in computer architecture)
 
 ## Books
 
-Assembly Language Succinctly
+Assembly Language Succinctly  
 https://www.syncfusion.com/resources/techportal/details/ebooks/assemblylanguage
 
-Computer Systems: A Programmer's Perspective
-http://csapp.cs.cmu.edu/
-http://booksite.mkp.com/patterson/
-
-Introduction to 64 Bit Assembly Language Programming 
-- Introduction to 64 Bit Assembly Language Programming for Linux and OS X
-- Introduction to 64 Bit Windows Assembly Programming 
-http://rayseyfarth.com/asm/
+Introduction to 64 Bit Assembly Language Programming   
+(Two versions: "Linux and OS X" and Windows)  
+http://rayseyfarth.com/asm/  
 http://rayseyfarth.com/asm/purchase.html
 
-Modern X86 Assembly Language Programming: 32-bit, 64-bit, SSE, and AVX
+Modern X86 Assembly Language Programming: 32-bit, 64-bit, SSE, and AVX  
 https://www.apress.com/9781484200650
 
 PC Assembly Language Tutorial
 http://www.drpaulcarter.com/pcasm/
 
-Programming from the Ground Up Book
-An introduction to programming using Linux assembly language
-https://savannah.nongnu.org/projects/pgubook/
-http://programminggroundup.blogspot.com/
+Programming from the Ground Up Book  
+An introduction to programming using Linux assembly language  
+https://savannah.nongnu.org/projects/pgubook/  
+http://programminggroundup.blogspot.com/  
 Download: http://download.savannah.gnu.org/releases/pgubook/
 
 Wikibooks: x86 Assembly
@@ -141,43 +150,38 @@ http://cs270assembly.tumblr.com/
 
 ## Courses
 
-In-Depth: C/C++ Low Level Curriculum
-(defunct) http://www.altdevblogaday.com/author/alex-darby/
-http://altdevblog.com/2011/11/09/a-low-level-curriculum-for-c-and-c/
-http://altdevblog.com/?s=Alex+Darby
-http://altdevblog.com/2013/05/22/cc-low-level-curriculum-part-12-multiple-inheritance/
-
-http://altdevblog.com/2011/10/25/why-i-became-an-educator/
-http://altdevblog.com/2011/11/09/a-low-level-curriculum-for-c-and-c/
-http://altdevblog.com/2011/11/24/c-c-low-level-curriculum-part-2-data-types/
-
-- original location down; various mirrors available (follow the links to the previous parts):
-https://web.archive.org/web/20130810050325/http://www.altdevblogaday.com/author/alex-darby/
-http://www.gamasutra.com/view/news/184430/InDepth_CC_Low_Level_Curriculum_Part_10_User_Defined_Types.php
-http://jahej.com/alt/2013_05_22_cc-low-level-curriculum-part-12-multiple-inheritance.html
+In-Depth: C/C++ Low Level Curriculum  
+(defunct) http://www.altdevblogaday.com/author/alex-darby/  
+original location down; various mirrors available (follow the links to the previous parts):  
+http://altdevblog.com/2011/11/09/a-low-level-curriculum-for-c-and-c/  
+http://altdevblog.com/?s=Alex+Darby  
+http://altdevblog.com/2013/05/22/cc-low-level-curriculum-part-12-multiple-inheritance/  
+http://altdevblog.com/2011/10/25/why-i-became-an-educator/  
+http://altdevblog.com/2011/11/09/a-low-level-curriculum-for-c-and-c/  
+http://altdevblog.com/2011/11/24/c-c-low-level-curriculum-part-2-data-types/  
+https://web.archive.org/web/20130810050325/http://www.altdevblogaday.com/author/alex-darby/  
+http://www.gamasutra.com/view/news/184430/InDepth_CC_Low_Level_Curriculum_Part_10_User_Defined_Types.php  
+http://jahej.com/alt/2013_05_22_cc-low-level-curriculum-part-12-multiple-inheritance.html  
 https://web.archive.org/web/20130810043026/http://www.altdevblogaday.com/2013/01/05/cc-low-level-curriculum-part-10-user-defined-types/
 
-NASM Assembly Language Tutorials - asmtutor.com
+NASM Assembly Language Tutorials - asmtutor.com  
 http://asmtutor.com/
 
-Introductory Intel x86: Architecture, Assembly, Applications, & Alliteration
-http://opensecuritytraining.info/IntroX86.html
+Introductory Intel x86: Architecture, Assembly, Applications, & Alliteration  
+http://opensecuritytraining.info/IntroX86.html  
 YouTube: https://www.youtube.com/playlist?list=PL038BE01D3BAEFDB0
 
-Intermediate Intel x86: Architecture, Assembly, Applications, & Alliteration
-http://opensecuritytraining.info/IntermediateX86.html
+Intermediate Intel x86: Architecture, Assembly, Applications, & Alliteration  
+http://opensecuritytraining.info/IntermediateX86.html  
 YouTube: https://www.youtube.com/playlist?list=PL8F8D45D6C1FFD177
 
-Introduction To Reverse Engineering Software
-http://opensecuritytraining.info/IntroductionToReverseEngineering.html
+Introduction To Reverse Engineering Software  
+http://opensecuritytraining.info/IntroductionToReverseEngineering.html  
 YouTube: https://www.youtube.com/playlist?list=PL416CEDF4A931DB0D
 
-Learning assembly for linux-x64
-https://github.com/0xAX/asm
+Learning assembly for linux-x64  
+https://github.com/0xAX/asm  
 https://0xax.github.io/categories/assembly/
-
-The Hardware/Software Interface
-https://www.coursera.org/course/hwswinterface
 
 ## Links
 
@@ -189,21 +193,21 @@ http://www.agner.org/optimize/#links
 
 ## References
 
-Agner Fog: Software optimization resources
-http://www.agner.org/optimize/
-1. Optimizing software in C++: An optimization guide for Windows, Linux and Mac platforms
-http://www.agner.org/optimize/optimizing_cpp.pdf
-2. Optimizing subroutines in assembly language: An optimization guide for x86 platforms
-http://www.agner.org/optimize/optimizing_assembly.pdf
-3. The microarchitecture of Intel, AMD and VIA CPUs: An optimization guide for assembly programmers and compiler makers
-http://www.agner.org/optimize/microarchitecture.pdf
-4. Instruction tables: Lists of instruction latencies, throughputs and micro-operation breakdowns for Intel, AMD and VIA CPUs
-http://www.agner.org/optimize/instruction_tables.pdf
-5. Calling conventions for different C++ compilers and operating systems
+Agner Fog: Software optimization resources  
+http://www.agner.org/optimize/  
+1. Optimizing software in C++: An optimization guide for Windows, Linux and Mac platforms  
+http://www.agner.org/optimize/optimizing_cpp.pdf  
+2. Optimizing subroutines in assembly language: An optimization guide for x86 platforms  
+http://www.agner.org/optimize/optimizing_assembly.pdf  
+3. The microarchitecture of Intel, AMD and VIA CPUs: An optimization guide for assembly programmers and compiler makers  
+http://www.agner.org/optimize/microarchitecture.pdf  
+4. Instruction tables: Lists of instruction latencies, throughputs and micro-operation breakdowns for Intel, AMD and VIA CPUs  
+http://www.agner.org/optimize/instruction_tables.pdf  
+5. Calling conventions for different C++ compilers and operating systems  
 http://www.agner.org/optimize/calling_conventions.pdf
 
-AMD64 Application Binary Interface (ABI)
-http://www.x86-64.org/documentation.html
+AMD64 Application Binary Interface (ABI)  
+http://www.x86-64.org/documentation.html  
 http://www.x86-64.org/documentation_folder/abi.pdf
 
 Assembly Optimization Tips
@@ -212,73 +216,73 @@ http://mark.masmcode.com/
 Assembler x86 (FPU, MMX, SSE, SSE2, SSE3, SSSE3, SSE4, AVX, AVX2, AVX512)
 http://wm.ite.pl/articles/#assembler-x86-fpu-mmx-sse-sse2-sse3-ssse3-sse4-avx-avx2-avx512-new
 
-Brennan's Guide to Inline Assembly
-http://www.delorie.com/djgpp/doc/brennan/brennan_att_inline_djgpp.html
+Brennan's Guide to Inline Assembly  
+http://www.delorie.com/djgpp/doc/brennan/brennan_att_inline_djgpp.html  
 AT&T/UNIX syntax <-> Intel syntax
 
-Chess Programming Wiki - Hardware: x86-64 
+Chess Programming Wiki - Hardware: x86-64  
 https://chessprogramming.wikispaces.com/x86-64
 
-CPU: Intel® 64 and IA-32 Architectures Software Developer Manuals
+CPU: Intel® 64 and IA-32 Architectures Software Developer Manuals  
 https://www-ssl.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html
 
-CPU: Developer Guides, Manuals & ISA Documents
+CPU: Developer Guides, Manuals & ISA Documents  
 http://developer.amd.com/resources/documentation-articles/developer-guides-manuals/
 
-GCC-Inline-Assembly-HOWTO
+GCC-Inline-Assembly-HOWTO  
 http://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html
 
-Instruction latencies and throughput for AMD and Intel x86 processors
+Instruction latencies and throughput for AMD and Intel x86 processors  
 https://gmplib.org/~tege/x86-timing.pdf
 
-Inline assembly for x86 in Linux
-http://www.ibm.com/developerworks/linux/library/l-ia/index.html
+Inline assembly for x86 in Linux  
+http://www.ibm.com/developerworks/linux/library/l-ia/
 
-Intel Intrinsics Guide
+Intel Intrinsics Guide  
 https://software.intel.com/sites/landingpage/IntrinsicsGuide/
 
-Linux Assembly HOWTO
+Linux Assembly HOWTO  
 http://asm.sourceforge.net/howto.html
 
-sandpile.org -- The world's leading source for technical x86 processor information
+sandpile.org -- "The world's leading source for technical x86 processor information"  
 http://www.sandpile.org/
 
-The Minimal 80x86 Instruction Set
-http://www.plantation-productions.com/Webster/www.writegreatcode.com/Vol2/wgc2_OA.pdf
+The Minimal 80x86 Instruction Set  
+http://www.plantation-productions.com/Webster/www.writegreatcode.com/Vol2/wgc2_OA.pdf  
 Appendix A of Write Great Code, Volume 2: https://www.nostarch.com/greatcode2.htm
 
-The Netwide Assembler: NASM
-Chapter 11: Writing 64-bit Code (Unix, Win64)
-http://www.nasm.us/xdoc/2.11.09rc1/html/nasmdo11.html
+The Netwide Assembler: NASM  
+Chapter 11: Writing 64-bit Code (Unix, Win64)  
+http://www.nasm.us/xdoc/2.11.09rc1/html/nasmdo11.html  
 Links to the latest versions: http://www.nasm.us/docs.php
 
-Wikipedia: x86 assembly topics
+Wikipedia: x86 assembly topics  
 https://en.wikipedia.org/wiki/Template:X86_assembly_topics
 
-x86 Instruction Set Reference
-http://felixcloutier.com/x86/
+x86 Instruction Set Reference  
+http://felixcloutier.com/x86/  
 https://github.com/zneak/x86doc
 
-x86 intrinsics cheat sheet v2.2: A cheat sheet containing most x86 intrinsics, like SSE and AVX intrinsics, grouped in an intuitive fashion
-http://www3.in.tum.de/~finis/
+x86 intrinsics cheat sheet v2.2: A cheat sheet containing most x86 intrinsics, like SSE and AVX intrinsics, grouped in an intuitive fashion  
+http://www3.in.tum.de/~finis/  
 http://www3.in.tum.de/~finis/x86-intrin-cheatsheet-v2.2.pdf
 
-x86, x64 Instruction Latency, Memory Latency and CPUID dumps 
+x86, x64 Instruction Latency, Memory Latency and CPUID dumps  
 http://users.atw.hu/instlatx64/
 
-x86_64 NASM Assembly Quick Reference ("Cheat Sheet")
+x86_64 NASM Assembly Quick Reference ("Cheat Sheet")  
 https://www.cs.uaf.edu/2010/fall/cs301/support/x86_64/index.html
 
-X86-64 Instruction Encoding
+X86-64 Instruction Encoding  
 http://wiki.osdev.org/X86-64_Instruction_Encoding
 
-X86 Opcode and Instruction Reference
+X86 Opcode and Instruction Reference  
 http://ref.x86asm.net/
 
-x86 Opcode Structure and Instruction Overview
+x86 Opcode Structure and Instruction Overview  
 http://net.cs.uni-bonn.de/fileadmin/user_upload/plohmann/x86_opcode_structure_and_instruction_overview.pdf
  
-x86 oddities
+x86 oddities  
 http://x86.corkami.com 
 
 ## Slides
@@ -286,85 +290,85 @@ http://x86.corkami.com
 Assembly: The mother of all languages
 https://speakerdeck.com/takipiadmin/assembly-the-mother-of-all-languages
 
-Creating a language using only assembly language
-https://speakerdeck.com/nineties/creating-a-language-using-only-assembly-language
+Creating a language using only assembly language  
+https://speakerdeck.com/nineties/creating-a-language-using-only-assembly-language  
 https://github.com/nineties/amber
 
-x86 Assembly Primer for C Programmers
-https://speakerdeck.com/vsergeev/x86-assembly-primer-for-c-programmers
+x86 Assembly Primer for C Programmers  
+https://speakerdeck.com/vsergeev/x86-assembly-primer-for-c-programmers  
 https://github.com/vsergeev/apfcp
 
 ## Software
 
-Assemblers
+Assemblers  
 https://en.wikipedia.org/wiki/Comparison_of_assemblers#x86_assemblers
 
-Capstone disassembly/disassembler framework
-Core (Arm, Arm64, Mips, PPC, Sparc, SystemZ, X86, X86_64, XCore) + bindings (Python, Java, Ocaml)
+Capstone disassembly/disassembler framework  
+Core (Arm, Arm64, Mips, PPC, Sparc, SystemZ, X86, X86_64, XCore) + bindings (Python, Java, Ocaml)  
 http://www.capstone-engine.org/
 
-EmilPRO
-EmilPRO is a graphical disassembler for a large number of instruction sets. It's a reimplementation and replacement for the Dissy disassembler. 
-http://www.emilpro.com/
+EmilPRO  
+EmilPRO is a graphical disassembler for a large number of instruction sets. It's a reimplementation and replacement for the Dissy disassembler.   
+http://www.emilpro.com/  
 https://github.com/SimonKagstrom/emilpro
 
-GCC Explorer: an interactive compiler
-https://gcc.godbolt.org/
+GCC Explorer: an interactive compiler  
+https://gcc.godbolt.org/  
 https://github.com/mattgodbolt/gcc-explorer
 
-HeavyThing x86_64 assembly language library and showcase programs
-https://2ton.com.au/HeavyThing/
+HeavyThing x86_64 assembly language library and showcase programs  
+https://2ton.com.au/HeavyThing/  
 rwasa web server (bundled with the HeavyThing library): https://2ton.com.au/rwasa/
 
-Run Nasm x86/x64 Assembly Code Online
+Run Nasm x86/x64 Assembly Code Online  
 https://dbgr.cc/l/nasm
 
-SASM: Simple crossplatform IDE for NASM, MASM, GAS, FASM assembly languages
+SASM: Simple crossplatform IDE for NASM, MASM, GAS, FASM assembly languages  
 https://dman95.github.io/SASM/english.html
 
-SERVASM: Your other webserver
-Literate webserver in assembler.
-https://zarkzork.com/servasm.html
+SERVASM: Your other webserver  
+Literate webserver in assembler.  
+https://zarkzork.com/servasm.html  
 https://github.com/zarkzork/servasm
 
-STOKE - a stochastic optimizer for x86_64 assembly
-https://github.com/StanfordPL/stoke-release
-http://stoke.stanford.edu/
+STOKE - a stochastic optimizer for x86_64 assembly  
+https://github.com/StanfordPL/stoke-release  
+http://stoke.stanford.edu/  
 Google Tech Talk: https://www.youtube.com/watch?v=aD9mZDJzb58
 
-Udis86: Disassembler Library for x86 and x86-64
+Udis86: Disassembler Library for x86 and x86-64  
 https://github.com/vmt/udis86
 
-Zyan Disassembler Engine (Zydis)
-Fast and lightweight x86/x86-64 disassembler library.
+Zyan Disassembler Engine (Zydis)  
+Fast and lightweight x86/x86-64 disassembler library.  
 https://github.com/zyantific/zyan-disassembler-engine
 
 ## Videos
 
-Assembly Language Programming 
-https://www.youtube.com/playlist?list=PLPedo-T7QiNsIji329HyTzbKBuCAHwNFC
+Assembly Language Programming   
+https://www.youtube.com/playlist?list=PLPedo-T7QiNsIji329HyTzbKBuCAHwNFC  
 http://www.rasmurtech.com/free-online-video-classes/programming/assembly-programming-tutorial/
 
-Borislav Petkov: x86 instruction encoding and the nasty hacks we do in the kernel
-https://www.youtube.com/watch?v=CUAXCeRjw3c
+Borislav Petkov: x86 instruction encoding and the nasty hacks we do in the kernel  
+https://www.youtube.com/watch?v=CUAXCeRjw3c  
 Slides: http://www.slideshare.net/ennael/kr2014-x86instructions
 
-Linux x64 Assembly 
+Linux x64 Assembly   
 https://www.youtube.com/playlist?list=PLKK11Ligqiti8g3gWRtMjMgf1KoKDOvME
 
-Practical x64 Assembly and C++ Tutorials 
-https://youtube.com/playlist?list=PL0C5C980A28FEE68D
+Practical x64 Assembly and C++ Tutorials  
+https://youtube.com/playlist?list=PL0C5C980A28FEE68D  
 Slides: http://www.whatsacreel.net76.net/asmtutes.html
 
-Such a weird processor - messing with x86 opcodes (and a little bit of PE...)
-https://www.youtube.com/watch?v=MJvsshovITE
-https://code.google.com/p/corkami/wiki/hashdays2011
-x86 & PE: https://speakerdeck.com/ange/x86-and-pe
+Such a weird processor - messing with x86 opcodes (and a little bit of PE...)  
+https://www.youtube.com/watch?v=MJvsshovITE  
+https://code.google.com/p/corkami/wiki/hashdays2011  
+x86 & PE: https://speakerdeck.com/ange/x86-and-pe  
 Slides: http://www.slideshare.net/ange4771/such-a-weird-processor-messing-with-opcodes-and-a-little-bit-of-pe
 
-x64 Assembly Multithreading 
+x64 Assembly Multithreading   
 https://youtube.com/playlist?list=PLKK11LigqithTIZFLTXu7jUB2IvErM_nH
 
-x86 Internals for Fun and Profit - Matt Godbolt
-https://www.youtube.com/watch?v=hgcNM-6wr34
+x86 Internals for Fun and Profit - Matt Godbolt  
+https://www.youtube.com/watch?v=hgcNM-6wr34  
 Slides: http://gotocon.com/dl/goto-chicago-2014/slides/MattGodbolt_X86InternalsForFunAndProfit.pdf
