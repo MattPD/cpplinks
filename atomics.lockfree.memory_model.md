@@ -1,4 +1,4 @@
-# C++ links: atomics, lock free, memory model
+# [C++ links](README.md): atomics, lock free, memory model
 
 ## Blogs: Posts and Series
 
