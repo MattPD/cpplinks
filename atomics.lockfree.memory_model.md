@@ -1,20 +1,21 @@
-C++ links: atomics, lock free, memory model
+# C++ links: atomics, lock free, memory model
 
-# Blogs: Posts and Series
+## Blogs: Posts and Series
 
 Anthony Williams
-https://www.justsoftwaresolutions.co.uk/threading/implementing_dekkers_algorithm_with_fences.html
-https://www.justsoftwaresolutions.co.uk/threading/memory_models_and_synchronization.html
-https://www.justsoftwaresolutions.co.uk/threading/intel-memory-ordering-and-c++-memory-model.html
-https://www.justsoftwaresolutions.co.uk/threading/intel-and-amd-memory-ordering-defined.html
-https://www.justsoftwaresolutions.co.uk/threading/non_blocking_lock_free_and_wait_free.html
+- https://www.justsoftwaresolutions.co.uk/threading/implementing_dekkers_algorithm_with_fences.html
+- https://www.justsoftwaresolutions.co.uk/threading/memory_models_and_synchronization.html
+- https://www.justsoftwaresolutions.co.uk/threading/intel-memory-ordering-and-c++-memory-model.html
+- https://www.justsoftwaresolutions.co.uk/threading/intel-and-amd-memory-ordering-defined.html
+- https://www.justsoftwaresolutions.co.uk/threading/non_blocking_lock_free_and_wait_free.html
 
 Bartosz Milewski
-http://bartoszmilewski.com/2008/11/11/who-ordered-sequential-consistency/
-http://bartoszmilewski.com/2008/12/01/c-atomics-and-memory-ordering/
-https://corensic.wordpress.com/category/sequential-consistency/
+- http://bartoszmilewski.com/2008/11/11/who-ordered-sequential-consistency/
+- http://bartoszmilewski.com/2008/12/01/c-atomics-and-memory-ordering/
+- https://corensic.wordpress.com/category/sequential-consistency/
 
 Comparison: Lockless programming with atomics in C++ 11 vs. mutex and RW-locks
+
 https://www.arangodb.com/2015/02/comparing-atomic-mutex-rwlocks/
 
 Fast Bounded-Concurrency Hash Tables
