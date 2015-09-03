@@ -115,6 +115,9 @@ Introduction to 64 Bit Assembly Language Programming
 http://rayseyfarth.com/asm/  
 http://rayseyfarth.com/asm/purchase.html
 
+Introduction to Computer Organization with x86-64 Assembly Language & GNU/Linux  
+http://bob.cs.sonoma.edu/
+
 Modern X86 Assembly Language Programming: 32-bit, 64-bit, SSE, and AVX  
 https://www.apress.com/9781484200650
 
@@ -126,6 +129,9 @@ An introduction to programming using Linux assembly language
 https://savannah.nongnu.org/projects/pgubook/  
 http://programminggroundup.blogspot.com/  
 Download: http://download.savannah.gnu.org/releases/pgubook/
+
+Reverse Engineering for Beginners  
+http://beginners.re/
 
 Wikibooks: x86 Assembly
 https://en.wikibooks.org/wiki/X86_Assembly
