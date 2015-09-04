@@ -186,6 +186,9 @@ http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2007/n2338.html
 GCC Wiki - Atomic: https://gcc.gnu.org/wiki/Atomic/
 GCC Wiki - The C++11 Memory Model and GCC: https://gcc.gnu.org/wiki/Atomic/GCCMM
 
+glibc wiki: Concurrency  
+https://sourceware.org/glibc/wiki/Concurrency
+
 Is Parallel Programming Hard, And If So, What Can You Do About It?, Paul E. McKenney
 http://www.rdrop.com/~paulmck/
 https://kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html
@@ -225,6 +228,12 @@ Lock-Free Algorithms: An Introduction, Introduction to Lock-Free Algorithms: Thr
 
 Foundations of the C++ Concurrency Memory Model  
 http://www.cs.rice.edu/~johnmc/comp522/lecture-notes/COMP522-2014-Lecture11-C++-MemoryModel.pdf
+
+GNU Tools Cauldron 2015, Torvald Riegel: Modern concurrent code in C/C++  
+https://gcc.gnu.org/wiki/cauldron2015?action=AttachFile&do=get&target=Torvald+Riegel_+Modern+concurrent+code+in+C.pdf
+
+GNU Tools Cauldron 2015, Torvald Riegel: Updating glibc concurrency  
+https://gcc.gnu.org/wiki/cauldron2015?action=AttachFile&do=get&target=Torvald+Riegel_+Updating+glibc+concurrency.pdf
 
 "Memory Consistency Models", Sarita Adve  
 http://rsim.cs.uiuc.edu/~sadve/JavaWorkshop00/talk.pdf
