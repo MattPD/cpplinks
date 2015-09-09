@@ -248,6 +248,12 @@ http://www.cs.rice.edu/~johnmc/comp522/lecture-notes/COMP522-2014-Lecture8-Memor
 
 # Software, Tools
 
+ASCYLIB  
+https://github.com/LPD-EPFL/ASCYLIB  
+ASCYLIB is a concurrent-search data-structure library with over 30 implementantions of linked lists, hash tables, skip lists, and binary search trees.  
+ASCYLIB was developed for: Asynchronized Concurrency: The Secret to Scaling Concurrent Search Data Structures, Tudor David, Rachid Guerraoui, Vasileios Trigonakis (alphabetical order), ASPLOS '15. http://infoscience.epfl.ch/record/207109/files/ascy_asplos15.pdf  
+Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/asynchronized-concurrency-the-secret-to-scaling-concurrent-search-data-structures/
+
 Boost.Lockfree
 http://www.boost.org/doc/libs/release/doc/html/lockfree.html
 
@@ -369,5 +375,5 @@ https://www.youtube.com/watch?v=BiLX7n_z9s4
 https://github.com/meekrosoft/cppmemmodel  
 Slides: https://meekrosoft.github.io/cppmemmodel/  
 
-NDC 2015: Chris Shore - Memory Access Ordering in Complex Embedded Systems
+NDC 2015: Chris Shore - Memory Access Ordering in Complex Embedded Systems  
 https://vimeo.com/131637104
