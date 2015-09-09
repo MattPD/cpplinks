@@ -87,9 +87,6 @@ https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-579.pdf
 Practical lock-free data structures
 https://www.cl.cam.ac.uk/research/srg/netos/projects/lock-free/
 
-Shared memory consistency models tutorial (Adve and Gharachorloo)   
-http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-95-7.pdf
-
 R. Treiber. Systems programming: Coping with parallelism. Technical report, IBM Almaden Research Center, 1986.  
 http://domino.research.ibm.com/library/cyberdig.nsf/papers/58319A2ED2B1078985257003004617EF/$File/rj5118.pdf  
 Includes Treiber's lock-free stack.
@@ -136,8 +133,9 @@ http://cacm.acm.org/magazines/2010/8/96610-memory-models-a-case-for-rethinking-p
 Programming with Threads: Questions Frequently Asked by C and C++ Programmers
 http://www.hboehm.info/c++mm/user-faq.html
 
-Shared Memory Consistency Models: A Tutorial
-http://rsim.cs.illinois.edu/~sadve/Publications/computer96.pdf
+Shared Memory Consistency Models: A Tutorial (Adve and Gharachorloo)  
+http://rsim.cs.illinois.edu/~sadve/Publications/computer96.pdf  
+http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-95-7.pdf
 
 Simple and Efficient Semantics for Concurrent Programming Languages
 http://web.cs.ucla.edu/~todd/research/memmodels.html
