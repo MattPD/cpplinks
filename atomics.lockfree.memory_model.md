@@ -90,9 +90,17 @@ https://www.cl.cam.ac.uk/research/srg/netos/projects/lock-free/
 Shared memory consistency models tutorial (Adve and Gharachorloo)   
 http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-95-7.pdf
 
-Treiber’s lock-free stack
 R. Treiber. Systems programming: Coping with parallelism. Technical report, IBM Almaden Research Center, 1986.  
-http://domino.research.ibm.com/library/cyberdig.nsf/papers/58319A2ED2B1078985257003004617EF/$File/rj5118.pdf
+http://domino.research.ibm.com/library/cyberdig.nsf/papers/58319A2ED2B1078985257003004617EF/$File/rj5118.pdf  
+Includes Treiber's lock-free stack.
+
+References: Synchrobench 30+ data structures papers  
+https://github.com/gramoli/synchrobench#data-structures  
+Evaluated in Synchrobench: V. Gramoli. More than You Ever Wanted to Know about Synchronization. PPoPP 2015. https://sites.google.com/site/synchrobench/
+
+References: CDS C++ library data structures  
+(lock-free lock-free stack, queues, unordered set/map, skip-list)  
+https://github.com/khizmax/libcds#references  
 
 ## Papers - Implementation
 
@@ -281,6 +289,10 @@ http://moodycamel.com/blog/2014/solving-the-aba-problem-for-lock-free-free-lists
 
 Relacy Race Detector  
 http://www.1024cores.net/home/relacy-race-detector
+
+Synchrobench  
+https://github.com/gramoli/synchrobench  
+A benchmark to compare synchronization techniques for multicore programming
 
 # Talks, Videos
 
