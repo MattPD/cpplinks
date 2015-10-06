@@ -326,7 +326,7 @@ https://www.youtube.com/watch?v=wYFADkO-ZsA
 BoostCon 2010: Tony Van Eerd: The Basics of Lock-free Programming  
 https://www.youtube.com/watch?v=LbOB_moUa94
 
-BoostCon 2010: Tony Van Eerd: Lockfree Programming Part 2: Data Structures  
+BoostCon 2011: Tony Van Eerd: Lockfree Programming Part 2: Data Structures  
 https://www.youtube.com/watch?v=O4Jdq4PtfPA  
 (Part 2: continuing from where BoostCon 2010 left off)  
 Slides: https://github.com/boostcon/2011_presentations/raw/master/wed/lockfree_2011_slides.pdf
@@ -334,6 +334,9 @@ Slides: https://github.com/boostcon/2011_presentations/raw/master/wed/lockfree_2
 C++ and Beyond 2012: atomic Weapons: The C++ Memory Model and Modern Hardware  
 https://channel9.msdn.com/Shows/Going+Deep/Cpp-and-Beyond-2012-Herb-Sutter-atomic-Weapons-1-of-2  
 https://channel9.msdn.com/Shows/Going+Deep/Cpp-and-Beyond-2012-Herb-Sutter-atomic-Weapons-2-of-2  
+
+C++Now! 2012 Tony Van Eerd: Don't Try This at Work -- Low Level Threading with C++11
+https://www.youtube.com/watch?v=b9wWC5uSqLE&list=PL_AKIMJc4roWXECUOVFsSTn6zs-145shM&index=20
 
 C++Now! 2013 Tony Van Eerd: Low Level Threading with C++11  
 https://www.youtube.com/watch?v=dKLAwNaNvAY
