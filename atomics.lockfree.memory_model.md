@@ -14,6 +14,9 @@ Bartosz Milewski
 - http://bartoszmilewski.com/2008/12/01/c-atomics-and-memory-ordering/
 - https://corensic.wordpress.com/category/sequential-consistency/
 
+Concurrency Freaks
+- http://concurrencyfreaks.blogspot.com/
+
 Comparison: Lockless programming with atomics in C++ 11 vs. mutex and RW-locks
 - https://www.arangodb.com/2015/02/comparing-atomic-mutex-rwlocks/
 
@@ -270,6 +273,10 @@ The Concurrent Data Structures (CDS) library is a collection of concurrent conta
 CDSChecker: A Model Checker for C11 and C++11 Atomics  
 http://demsky.eecs.uci.edu/c11modelchecker.html  
 http://plrg.eecs.uci.edu/publications/c11modelcheck.pdf
+
+ConcurrencyFreaks
+https://github.com/pramalhe/ConcurrencyFreaks
+A library of concurrent data structures and synchronization mechanisms.
 
 Concurrency Kit  
 Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems.  
