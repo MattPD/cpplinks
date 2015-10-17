@@ -397,3 +397,8 @@ Slides: https://meekrosoft.github.io/cppmemmodel/
 
 NDC 2015: Chris Shore - Memory Access Ordering in Complex Embedded Systems  
 https://vimeo.com/131637104
+
+SOSP 2013: Everything you always wanted to know about synchronization but were afraid to ask  
+Video: https://www.youtube.com/watch?v=Dfagg__PuKw  
+Article: http://sigops.org/sosp/sosp13/papers/p33-david.pdf  
+Tudor David, Rachid Guerraoui, and Vasileios Trigonakis. "Everything you always wanted to know about synchronization but were afraid to ask." Proceedings of the Twenty-Fourth ACM Symposium on Operating Systems Principles. ACM, 2013, pp. 33-48.
