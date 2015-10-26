@@ -198,7 +198,7 @@ GCC Wiki - The C++11 Memory Model and GCC: https://gcc.gnu.org/wiki/Atomic/GCCMM
 glibc wiki: Concurrency  
 https://sourceware.org/glibc/wiki/Concurrency
 
-Is Parallel Programming Hard, And If So, What Can You Do About It?, Paul E. McKenney
+"Is Parallel Programming Hard, And If So, What Can You Do About It?" by Paul E. McKenney
 http://www.rdrop.com/~paulmck/
 https://kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html
 
@@ -220,12 +220,13 @@ http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1276.htm
 Relaxed-Memory Concurrency
 https://www.cl.cam.ac.uk/~pes20/weakmemory/
 
-"The C11 and C++11 Concurrency Model" by Mark Batty (2015 SIGPLAN John C. Reynolds Doctoral Dissertation award)  
-https://www.cs.kent.ac.uk/people/staff/mjb211/toc.pdf  
-2015 SIGPLAN John C. Reynolds Doctoral Dissertation award citation: "Mark Batty’s dissertation makes significant contributions to the understanding of memory models for C and C++. The ISO C++ committee proposed a design for C and C++ concurrency that was not up to the task of capturing a realistic relaxed-memory concurrency model. Batty’s work uncovered a number of subtle and serious flaws in the design, and produced an improved design in completely rigorous and machine-checked mathematics. Using software tools to explore the consequences of the design, derived directly from the mathematics, it showed that it has the desired behavior on many examples, and developed mechanized proofs that the design meets some of the original goals, showing that for programs in various subsets of the language one can reason in simpler models. The standards committee have adopted this work in their C11, C++11, and C++14 standards. The members of the award committee were impressed with the quality of the work, the impact it has had on the standardization process for C++, and the clarity of the presentation." // Source: http://www.sigplan.org/Awards/Dissertation/#2015
-
 Some notes on lock-free and wait-free algorithms
 http://www.rossbencina.com/code/lockfree
+
+"The C11 and C++11 Concurrency Model" by Mark Batty  
+https://www.cs.kent.ac.uk/people/staff/mjb211/toc.pdf  
+2015 SIGPLAN John C. Reynolds Doctoral Dissertation award citation: "Mark Batty’s dissertation makes significant contributions to the understanding of memory models for C and C++. The ISO C++ committee proposed a design for C and C++ concurrency that was not up to the task of capturing a realistic relaxed-memory concurrency model. Batty’s work uncovered a number of subtle and serious flaws in the design, and produced an improved design in completely rigorous and machine-checked mathematics. Using software tools to explore the consequences of the design, derived directly from the mathematics, it showed that it has the desired behavior on many examples, and developed mechanized proofs that the design meets some of the original goals, showing that for programs in various subsets of the language one can reason in simpler models. The standards committee have adopted this work in their C11, C++11, and C++14 standards. The members of the award committee were impressed with the quality of the work, the impact it has had on the standardization process for C++, and the clarity of the presentation."  
+Source: http://www.sigplan.org/Awards/Dissertation/#2015
 
 Threads and memory model for C++
 http://hboehm.info/c++mm/
