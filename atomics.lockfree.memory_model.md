@@ -366,6 +366,22 @@ CppCon 2014: Tony Van Eerd, "Lock-free by Example"
 https://www.youtube.com/watch?v=Xf35TLFKiO8  
 https://channel9.msdn.com/Events/CPP/C-PP-Con-2014/Lock-free-by-Example
 
+CppCon 2015: Fedor Pikus "Live Lock-Free or Deadlock (Practical Lock-free Programming)"  
+Part 1: https://www.youtube.com/watch?v=lVBvHbJsg5Y  
+Part 2: https://www.youtube.com/watch?v=1obZeHnAwz4
+
+CppCon 2015: Michael Wong "C++11/14/17 Atomics the Deep dive: the gory details, before the story consumes you!"  
+https://www.youtube.com/watch?v=DS2m7T6NKZQ
+
+CppCon 2015: Paul E. McKenney "C++ Atomics: The Sad Story of memory_order_consume: A Happy Ending At Last?"  
+https://www.youtube.com/watch?v=ZrNQKpOypqU
+
+CppCon 2015: Pedro Ramalhete "How to make your data structures wait-free for reads"  
+https://www.youtube.com/watch?v=FtaD0maxwec
+
+CppCon 2015: Timur Doumler “C++ in the Audio Industry”  
+https://www.youtube.com/watch?v=boPEO2auJj4
+
 ECOOP 2015: Brijesh Dongol - "Defining Correctness Conditions for Concurrent Objects in Multicore Architectures"  
 https://www.youtube.com/watch?v=PDQXpKE_Kao
 
