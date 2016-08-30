@@ -321,8 +321,12 @@ Capstone disassembly/disassembler framework
 Core (Arm, Arm64, Mips, PPC, Sparc, SystemZ, X86, X86_64, XCore) + bindings (Python, Java, Ocaml)  
 http://www.capstone-engine.org/
 
+disasm: Interactive Disassembler GUI  
+Optional Intel Architecture Code Analyzer (IACA) integration  
+https://github.com/mongodb-labs/disasm
+
 EmilPRO  
-EmilPRO is a graphical disassembler for a large number of instruction sets. It's a reimplementation and replacement for the Dissy disassembler.   
+EmilPRO is a graphical disassembler for a large number of instruction sets. It's a reimplementation and replacement for the Dissy disassembler.  
 http://www.emilpro.com/  
 https://github.com/SimonKagstrom/emilpro
 
