@@ -338,6 +338,11 @@ HeavyThing x86_64 assembly language library and showcase programs
 https://2ton.com.au/HeavyThing/  
 rwasa web server (bundled with the HeavyThing library): https://2ton.com.au/rwasa/
 
+Radare2  
+http://rada.re/  
+https://github.com/radare/radare2  
+Radare project started as a forensics tool, a scriptable commandline hexadecimal editor able to open disk files, but later support for analyzing binaries, disassembling code, debugging programs, attaching to remote gdb servers, etc.
+
 Run Nasm x86/x64 Assembly Code Online  
 https://dbgr.cc/l/nasm
 
