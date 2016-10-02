@@ -14,6 +14,7 @@ Hopefully some will find this of some use and interest, too :-)
 - [Atomics, lock free, memory model](atomics.lockfree.memory_model.md)
 - [Compilers](compilers.md)
 - [Computer Architecture](comparch.md)
+- [Performance tools](performance.tools.md)
 - [Standardization](std.md)
 
 
