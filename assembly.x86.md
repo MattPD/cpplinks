@@ -2,6 +2,8 @@
 
 Note: the main focus is on the 64-bit variant (x86-64): thus, primarily up-to-date materials (i.e., 64-bit, AVX) are preferred.
 
+Note: see [Computer Architecture](comparch.md) -- recommended background (which makes the following significantly more approachable) includes at least an undegraduate-level course.
+
 ## Why?
 
 C++ is often used for systems programming; in these contexts (and even if you're just plain curious), there are plenty of reasons to familiarize oneself with assembly language:
@@ -53,57 +55,6 @@ Part 1: Intro to the Windows x64 calling convention
 http://www.gamasutra.com/view/news/171088/x64_ABI_Intro_to_the_Windows_x64_calling_convention.php  
 Part 2: Stack frames  
 http://www.gamasutra.com/view/news/178446/Indepth_Windows_x64_ABI_Stack_frames.php
-
-## Background
-
-### Background -- Courses
-
-The Hardware/Software Interface - University of Washington | Coursera  
-https://www.coursera.org/course/hwswinterface
-
-Onur Mutlu's Lecture Videos and Materials - Carnegie Mellon    
-// Strongly recommended -- both the videos as well as the carefully selected, highly relevant readings!  
-https://users.ece.cmu.edu/~omutlu/lecture-videos.html
-- [Undergraduate Computer Architecture Course](http://www.ece.cmu.edu/~ece447/s15/doku.php?id=schedule)
-- [Graduate Computer Architecture Course](http://www.ece.cmu.edu/~ece740/f13/doku.php?id=schedule)
-- [Parallel Computer Architecture Course](http://www.ece.cmu.edu/~ece742/f12/doku.php?id=lectures)
-- [Memory Systems Short Course Materials](http://users.ece.cmu.edu/~omutlu/acaces2013-memory.html)
-
-CS/EE 6810 Computer Architecture: http://www.eng.utah.edu/~cs6810/  
-https://www.youtube.com/playlist?list=PL8EC1756A7B1764F6
-
-Computer Architecture - Princeton University | Coursera  
-https://www.coursera.org/course/comparch
-
-### Background -- Books
-
-1. From NAND to Tetris Building a Modern Computer From First Principles 
-http://www.nand2tetris.org/
-(no prerequisites)
-
-101. Patt & Patel: Introduction to Computing Systems: From Bits and Gates to C and Beyond!
-http://www.mhhe.com/engcs/compsci/patt/
-(no prerequisites, freshmen year level)
-
-101. Digital Design and Computer Architecture, 2nd Edition  
-http://store.elsevier.com/Digital-Design-and-Computer-Architecture/David-Harris/isbn-9780123944245/  
-http://booksite.elsevier.com/9780123944245/  
-(background; no prerequisites beyond basic programming) digital logic, hardware 
-
-101. Computer Systems: A Programmer's Perspective (CS:APP)  
-http://csapp.cs.cmu.edu/  
-(undergraduate level, basic programming background helpful)
-
-102. David A. Patterson, John L. Hennessy: "Computer Organization and Design: The Hardware-Software Interface"  
-http://store.elsevier.com/Computer-Organization-and-Design/David-Patterson/isbn-9780124077263/
-(undergraduate level)
-
-201. John L. Hennessy, David A. Patterson "Computer Architecture, Fifth Edition: A Quantitative Approach"
-http://store.elsevier.com/Computer-Architecture/John-Hennessy/isbn-9780123838728/
-(graduate level)
-
-301. Readings in Computer Architecture: http://booksite.elsevier.com/9781558605398/
-(a collection of seminal papers in computer architecture)
 
 ## Books
 
