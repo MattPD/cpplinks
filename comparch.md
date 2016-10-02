@@ -89,6 +89,15 @@ http://www.morganclaypool.com/toc/cac/11/1
 * Parallel Computer Architecture and Programming (CMU 15-418/618)  
   http://15418.courses.cs.cmu.edu/
 
+* MIT 6.004 Computation Structures
+  - OCW: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2009/
+  - edX Part 1: Digital Circuits - https://www.edx.org/course/computation-structures-part-1-digital-mitx-6-004-1x-0
+  - edX Part 2: Computer Architecture - https://www.edx.org/course/computation-structures-2-computer-mitx-6-004-2x
+  - edX Part 3: Computer Organization - https://www.edx.org/course/computation-structures-3-computer-mitx-6-004-3x-0
+
+* High Performance Computer Architecture | Udacity by Georgia Institute of Technology
+  - https://www.udacity.com/course/high-performance-computer-architecture--ud007
+
 ## Emulation & Simulation
 
 * gem5 - http://gem5.org/
