@@ -9,8 +9,10 @@
   - https://github.com/DigitalInBlue/Celero
 * hayai - the C++ benchmarking framework
   - https://github.com/nickbruun/hayai
-* moodycamel::microbench: https://github.com/cameron314/microbench
-* geiger: A micro benchmark library in C++ that supports hardware performance counters: https://github.com/david-grs/geiger
+* moodycamel::microbench
+  - https://github.com/cameron314/microbench
+* geiger: A micro benchmark library in C++ that supports hardware performance counters
+  - https://github.com/david-grs/geiger
 * Nonius
   - https://nonius.io/
 
@@ -29,8 +31,7 @@ Systems Benchmarking Crimes - Gernot Heiser - https://www.cse.unsw.edu.au/~gerno
 
 # Profiling
 
-* Agner Fog's test programs for measuring clock cycles and performance monitoring
-http://www.agner.org/optimize/#testp
+* Agner Fog's test programs for measuring clock cycles and performance monitoring - http://www.agner.org/optimize/#testp
 
 * BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more 
   - https://iovisor.github.io/bcc/
@@ -49,12 +50,11 @@ http://www.agner.org/optimize/#testp
   "The fastest malloc we’ve seen; works particularly well with threads and STL. Also: thread-friendly heap-checker, heap-profiler, and cpu-profiler."
   - https://github.com/gperftools/gperftools
 
-* Intel Architecture Code Analyzer (IACA)
-https://software.intel.com/en-us/articles/intel-architecture-code-analyzer
+* Intel Architecture Code Analyzer (IACA) - https://software.intel.com/en-us/articles/intel-architecture-code-analyzer
 
 * Intel Performance Counter Monitor (PCM)
-http://www.intel.com/software/pcm
-https://intel-pcm-api-documentation.github.io/
+ - http://www.intel.com/software/pcm
+ - https://intel-pcm-api-documentation.github.io/
 
 * Likwid: Performance monitoring and benchmarking suite
   - https://github.com/RRZE-HPC/likwid
@@ -74,8 +74,7 @@ https://intel-pcm-api-documentation.github.io/
 * perf-tools
   - https://github.com/brendangregg/perf-tools
 
-* perf_events: The Unofficial Linux Perf Events Web-Page
-http://web.eece.maine.edu/~vweaver/projects/perf_events/
+* perf_events: The Unofficial Linux Perf Events Web-Page - http://web.eece.maine.edu/~vweaver/projects/perf_events/
 
 * perfmon2 - http://perfmon2.sourceforge.net/
   - "Perfmon2 aims to be a portable interface across all modern processors. It is designed to give full access to a given PMU and all the corresponding hardware performance counters. Typically the PMU hardware implementations use a different number of registers, counters with different length and possibly other unique features, a complexity that the software has to cope with. Although processors have different PMU implementations, they usually use configurations registers and data registers. Perfmon2 provides a uniform abstract model of these registers and exports read/write operations accordingly."
@@ -86,11 +85,11 @@ http://web.eece.maine.edu/~vweaver/projects/perf_events/
   - http://www.drdobbs.com/tools/performance-monitoring-with-papi/184406109
   - papi-wrapper (C++ library) - https://github.com/sean-chester/papi-wrapper
 
-* pmu tools: Intel PMU profiling tools 
-- https://github.com/andikleen/pmu-tools
-- https://github.com/andikleen/pmu-tools/wiki/toplev-manual
-- pmu-tools part I - introduction, ocperf - http://halobates.de/blog/p/245
-- pmu-tools part II - toplev - http://halobates.de/blog/p/262
+* pmu tools: Intel PMU profiling tools
+  - https://github.com/andikleen/pmu-tools
+  - https://github.com/andikleen/pmu-tools/wiki/toplev-manual
+  - pmu-tools part I - introduction, ocperf - http://halobates.de/blog/p/245
+  - pmu-tools part II - toplev - http://halobates.de/blog/p/262
 
 * sysdig
   - https://github.com/draios/sysdig
