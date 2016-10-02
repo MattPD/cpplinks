@@ -7,6 +7,7 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 * Advanced Compilers
   - Weeks 1 and 2: http://blog.regehr.org/archives/1419
   - Weeks 3-5: http://blog.regehr.org/archives/1428
+* Anders Hejlsberg on Modern Compiler Construction - https://channel9.msdn.com/Blogs/Seth-Juarez/Anders-Hejlsberg-on-Modern-Compiler-Construction
 * "Compiler Technologies" - Jim Hogg - Northwest C++ Users' Group - http://nwcpp.org/october-2014.html
 * Jordan Rose (Swift team) recommendations - http://belkadan.com/blog/2015/11/Recommendations/
 * GCC Wiki - List of compiler books - https://gcc.gnu.org/wiki/ListOfCompilerBooks
@@ -31,17 +32,23 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 # Implementations
 
 * LLVM - http://llvm.org/
+  - LLVM Developers' Meeting - http://llvm.org/devmtg/
   - http://blog.llvm.org/
   - http://llvmweekly.org/
 * GCC (GNU Compiler Collection) - https://gcc.gnu.org/
+  - GNU Tools Cauldron - https://gcc.gnu.org/wiki#Events
   - https://twitter.com/gnutools/
 * Visual C++ - https://www.visualstudio.com/vs/cplusplus/
   - https://blogs.msdn.microsoft.com/vcblog/
 
 # Optimization
 
-* GoingNative 50: New Visual C++ Code Optimizer
-https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-50-New-Visual-C-Code-Optimizer
+* Automatic Feedback Directed Optimizer (AutoFDO)
+  - https://gcc.gnu.org/wiki/AutoFDO
+  - https://github.com/google/autofdo
+* Devirtualization in C++ - https://hubicka.blogspot.com/search/label/devirtualization
+* Link time optimization (LTO) - https://hubicka.blogspot.com/search/label/link-time%20optimization
+* GoingNative 50: New Visual C++ Code Optimizer - https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-50-New-Visual-C-Code-Optimizer
 
 ## Superoptimization
 
