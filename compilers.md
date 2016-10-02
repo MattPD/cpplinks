@@ -46,6 +46,10 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 * Automatic Feedback Directed Optimizer (AutoFDO)
   - https://gcc.gnu.org/wiki/AutoFDO
   - https://github.com/google/autofdo
+* Compiler Optimization Options
+  - GCC: https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html
+  - Clang: http://clang.llvm.org/docs/CommandGuide/clang.html#cmdoption-O0 - https://stackoverflow.com/questions/15548023/clang-optimization-levels
+  - Visual C++: https://msdn.microsoft.com/en-us/library/19z1t1wy.aspx
 * Devirtualization in C++ - https://hubicka.blogspot.com/search/label/devirtualization
 * Link time optimization (LTO) - https://hubicka.blogspot.com/search/label/link-time%20optimization
 * GoingNative 50: New Visual C++ Code Optimizer - https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-50-New-Visual-C-Code-Optimizer
