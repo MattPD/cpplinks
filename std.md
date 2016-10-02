@@ -1,3 +1,5 @@
+[C++ links](README.md): standardization
+
 # Compiler Support
 
 * C++ compiler support - http://en.cppreference.com/w/cpp/compiler_support
@@ -52,7 +54,9 @@
 * Bjarne Stroustrup (1994) "The Design of C++" Lecture - http://www.computerhistory.org/collections/catalog/102624733
 * Bjarne Stroustrup (2002) "C and C++: Siblings" - http://www.stroustrup.com/siblings_short.pdf
 * Bjarne Stroustrup (2002) "Sibling rivalry: C and C++" - http://www.stroustrup.com/sibling_rivalry.pdf
-* Bjarne Stroustrup (2007) "Evolving a language in and for the real world: C++ 1991-2006" - http://www.stroustrup.com/hopl-almost-final.pdf - slides & videos: http://portal.acm.org/toc.cfm?id=1238844 - http://www.stroustrup.com/hopl-almost-final.pdf
+* Bjarne Stroustrup (2007) "Evolving a language in and for the real world: C++ 1991-2006"
+  - http://www.stroustrup.com/hopl-almost-final.pdf
+  - slides & videos: http://portal.acm.org/toc.cfm?id=1238844
 * Brian Kernighan (2012) "The Lasting Legacy of Dennis Ritchie: The Impact of Software on Society." - https://www.youtube.com/watch?v=uxtKwJZbYr0
 * Brian Kernighan (2015) Computerphile - https://www.youtube.com/playlist?list=PLzH6n4zXuckqZ90zLyy36qjO5YIn1RulG
 * Brian Kernighan (2015) "How to succeed in language design without really trying" - https://www.youtube.com/watch?v=Sg4U4r_AgJU
