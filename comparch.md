@@ -41,6 +41,28 @@ https://dl.acm.org/citation.cfm?id=2591635&picked=prox
 302. Synthesis Lectures on Computer Architecture - Morgan & Claypool Publishers
 http://www.morganclaypool.com/toc/cac/11/1
 
+# Competitions
+
+* The 1st JILP Championship Branch Prediction Competition (CBP-1)
+  - http://www.jilp.org/cbp/
+* The 1st JILP Data Prefetching Championship (DPC-1)
+  - http://www.jilp.org/dpc/
+* The 2nd Data Prefetching Championship (DPC-2)
+  - http://comparch-conf.gatech.edu/dpc2/
+
+## Journal of Instruction-Level Parallelism (JILP) Workshop on Computer Architecture Competitions (JWAC)
+
+* 1st JILP Workshop on Computer Architecture Competitions (JWAC-1): Cache Replacement Championship (CRC)
+  - http://www.jilp.org/jwac-1/
+* 2nd JILP Workshop on Computer Architecture Competitions (JWAC-2): Championship Branch Prediction (CBP-2)
+  - http://www.jilp.org/jwac-2/
+* 3rd JILP Workshop on Computer Architecture Competitions (JWAC-3): Memory Scheduling Championship (MSC)
+  - https://www.cs.utah.edu/~rajeev/jwac12/
+* 4th JILP Workshop on Computer Architecture Competitions (JWAC-4): Championship Branch Prediction (CBP-4)
+  - http://www.jilp.org/cbp2014/
+* 5th JILP Workshop on Computer Architecture Competitions (JWAC-5): Championship Branch Prediction (CBP-5)
+- http://www.jilp.org/cbp2016/
+
 ## Conferences
 
 * ASPLOS: International Conference on Architectural Support for Programming Languages and Operating Systems - http://dblp.uni-trier.de/db/conf/asplos/
@@ -108,8 +130,12 @@ http://www.morganclaypool.com/toc/cac/11/1
 * Sniper - http://snipersim.org/
 * ZSim - https://github.com/s5z/zsim - http://zsim.csail.mit.edu/tutorial/
 
-## Journals
+## Journals & Publications
 
+* ACM SIGARCH - https://www.sigarch.org/
+  + Computer Architecture News: http://dl.acm.org/citation.cfm?id=J89* ACM Transactions on Architecture and Code Optimization - http://taco.acm.org/
 * ACM Transactions on Architecture and Code Optimization - http://taco.acm.org/
+* Computer Architecture Journals List - http://pascal.eng.uci.edu/info/jounral_list.htm
 * MICRO Test of Time (ToT) Award - http://www.microarch.org/Micro-ToT-Award/
+* IEEE Computer Architecture Letters (CAL) - https://www.computer.org/web/cal
 * Influential ISCA Paper Award - https://www.sigarch.org/awards/acm-sigarchieee-cs-tcca-influential-isca-paper-award/
