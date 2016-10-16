@@ -4,11 +4,6 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 
 # Background
 
-* Advanced Compilers
-  - Weeks 1 and 2: http://blog.regehr.org/archives/1419
-  - Weeks 3-5: http://blog.regehr.org/archives/1428
-* Anders Hejlsberg on Modern Compiler Construction - https://channel9.msdn.com/Blogs/Seth-Juarez/Anders-Hejlsberg-on-Modern-Compiler-Construction
-* "Compiler Technologies" - Jim Hogg - Northwest C++ Users' Group - http://nwcpp.org/october-2014.html
 * Jordan Rose (Swift team) recommendations - http://belkadan.com/blog/2015/11/Recommendations/
 * GCC Wiki - List of compiler books - https://gcc.gnu.org/wiki/ListOfCompilerBooks
 * Let’s Build A Simple Interpreter - https://ruslanspivak.com/lsbasi-part1/
@@ -21,6 +16,19 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 * Object Files and Symbols - http://nickdesaulniers.github.io/blog/2016/08/13/object-files-and-symbols/
 * Validation & testing: http://web.cs.ucdavis.edu/~su/emi-project/
 * https://github.com/melling/ComputerLanguages/blob/master/compilers.org
+
+# Courses
+
+* Advanced Compilers - John Regehr, University of Utah
+  - Weeks 1 and 2: http://blog.regehr.org/archives/1419
+  - Weeks 3-5: http://blog.regehr.org/archives/1428
+* Compilers -  Alex Aiken, Stanford OpenEdX
+  - http://online.stanford.edu/course/compilers-0
+* CSEP 501, Compilers - Hal Perkins, UW CSE
+  - https://courses.cs.washington.edu/courses/csep501/
+  - Winter 2016 Homepage: https://courses.cs.washington.edu/courses/csep501/16wi/
+  - Winter 2016 Playlist: https://www.youtube.com/playlist?list=PLTPQEx-31JXhfAWGnGzwbfhB2zUB7Jd4C
+  - Winter 2016 Topics: https://courses.cs.washington.edu/courses/csep501/16wi/calendar/lecturelist.html
 
 # Documentation
 
@@ -66,6 +74,44 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 # Sanitizers
 
 https://maitesin.github.io/clang_sanitizers/
+
+# Talks
+
+## 2016
+
+* Introduction to LLVM – Projects, Components, Integration, Internals - Renato Golin
+  - Linaro Connect Las Vegas 2016 (LAS16) \ LAS16-501
+  - http://connect.linaro.org/resource/las16/las16-501/
+* Anders Hejlsberg on Modern Compiler Construction
+  - Channel 9; May 12, 2016
+   https://channel9.msdn.com/Blogs/Seth-Juarez/Anders-Hejlsberg-on-Modern-Compiler-Construction
+* STOKE: Search-Based Compiler Optimization - Alex Aiken
+  - UCI CS Distinguished Lecture; April 29, 2016
+  - https://www.youtube.com/watch?v=rZFeTTFp7x4
+
+## 2015
+
+* Understanding Compiler Optimization - Chandler Carruth
+  - Opening Keynote Meeting C++ 2015
+  - https://www.youtube.com/watch?v=FnGCDLhaxKU
+* Stochastic Optimization for x86 Binaries - Eric Schkufza
+  - Google Tech Talks; January 12, 2015
+  - https://www.youtube.com/watch?v=aD9mZDJzb58
+
+## 2014
+
+* Superoptimizing LLVM - John Regehr
+  - UW CSE Colloquium; December 2, 2014
+  - https://www.youtube.com/watch?v=Ux0YnVEaI6A
+* Compiler Technologies - Jim Hogg
+ - Northwest C++ Users' Group; October 15, 2014
+ - http://nwcpp.org/october-2014.html
+
+## 2013
+
+* Compiler Confidential - Eric Brumer
+  - GoingNative 2013
+  - https://channel9.msdn.com/Events/GoingNative/2013/Compiler-Confidential
 
 # Warnings
 
