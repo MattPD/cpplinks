@@ -61,7 +61,7 @@ http://www.morganclaypool.com/toc/cac/11/1
 * 4th JILP Workshop on Computer Architecture Competitions (JWAC-4): Championship Branch Prediction (CBP-4)
   - http://www.jilp.org/cbp2014/
 * 5th JILP Workshop on Computer Architecture Competitions (JWAC-5): Championship Branch Prediction (CBP-5)
-- http://www.jilp.org/cbp2016/
+  - http://www.jilp.org/cbp2016/
 
 ## Conferences
 
@@ -133,7 +133,7 @@ http://www.morganclaypool.com/toc/cac/11/1
 ## Journals & Publications
 
 * ACM SIGARCH - https://www.sigarch.org/
-  + Computer Architecture News: http://dl.acm.org/citation.cfm?id=J89* ACM Transactions on Architecture and Code Optimization - http://taco.acm.org/
+  + Computer Architecture News: http://dl.acm.org/citation.cfm?id=J89
 * ACM Transactions on Architecture and Code Optimization - http://taco.acm.org/
 * Computer Architecture Journals List - http://pascal.eng.uci.edu/info/jounral_list.htm
 * MICRO Test of Time (ToT) Award - http://www.microarch.org/Micro-ToT-Award/
