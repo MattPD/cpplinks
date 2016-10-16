@@ -50,6 +50,10 @@ Systems Benchmarking Crimes - Gernot Heiser - https://www.cse.unsw.edu.au/~gerno
   "The fastest malloc we’ve seen; works particularly well with threads and STL. Also: thread-friendly heap-checker, heap-profiler, and cpu-profiler."
   - https://github.com/gperftools/gperftools
 
+* gprof2dot  
+  "Python script to convert the output from many profilers into a dot graph."
+  - https://github.com/jrfonseca/gprof2dot
+
 * Intel Architecture Code Analyzer (IACA) - https://software.intel.com/en-us/articles/intel-architecture-code-analyzer
 
 * Intel Performance Counter Monitor (PCM)
