@@ -101,7 +101,10 @@ http://www.morganclaypool.com/toc/cac/11/1
 ## Emulation & Simulation
 
 * gem5 - http://gem5.org/
+* GPGPU-Sim - http://www.gpgpu-sim.org/ - https://github.com/gpgpu-sim/gpgpu-sim_distribution
+* Intel Software Development Emulator (SDE) - https://software.intel.com/en-us/articles/intel-software-development-emulator
 * MARSSx86 - http://marss86.org/
+* Multi2Sim - http://www.multi2sim.org/ - https://github.com/Multi2Sim/multi2sim
 * Sniper - http://snipersim.org/
 * ZSim - https://github.com/s5z/zsim - http://zsim.csail.mit.edu/tutorial/
 
