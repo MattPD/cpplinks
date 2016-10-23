@@ -8,7 +8,7 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 * GCC Wiki - List of compiler books - https://gcc.gnu.org/wiki/ListOfCompilerBooks
 * Let’s Build A Simple Interpreter - https://ruslanspivak.com/lsbasi-part1/
 * Life of an instruction in LLVM - http://eli.thegreenplace.net/2012/11/24/life-of-an-instruction-in-llvm
-* Life of an instruction in Clang / LLVM: https://github.com/thegameg/llvm-life/
+* Life of an instruction in Clang / LLVM - https://github.com/thegameg/llvm-life/
 * LLVM - Chris Lattner, The Architecture of Open Source Applications - http://www.aosabook.org/en/llvm.html
 * LLVM Tutorial: Kaleidoscope - http://llvm.org/docs/tutorial/
   - Haskell version: http://www.stephendiehl.com/llvm/
@@ -25,11 +25,14 @@ Note: see also [Assembly (x86)](assembly.x86.md)
   - Weeks 3-5: http://blog.regehr.org/archives/1428
 * Compilers -  Alex Aiken, Stanford OpenEdX
   - http://online.stanford.edu/course/compilers-0
-* CSEP 501, Compilers - Hal Perkins, UW CSE
+* Compilers - Hal Perkins, CSEP 501, UW CSE
   - https://courses.cs.washington.edu/courses/csep501/
   - Winter 2016 Homepage: https://courses.cs.washington.edu/courses/csep501/16wi/
   - Winter 2016 Playlist: https://www.youtube.com/playlist?list=PLTPQEx-31JXhfAWGnGzwbfhB2zUB7Jd4C
   - Winter 2016 Topics: https://courses.cs.washington.edu/courses/csep501/16wi/calendar/lecturelist.html
+* Program Analysis and Reliability - Nick Sumner, CMPT 886, Spring 2015, SFU
+  - Playlist: https://www.youtube.com/playlist?list=PLNC6lmsIySCOPjY8IwKBtD2cqe-MMgIGM
+  - Schedule & Slides: http://www.cs.sfu.ca/~wsumner/teaching/886/15/schedule.html
 
 # Documentation
 
