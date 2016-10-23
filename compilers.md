@@ -2,16 +2,17 @@
 
 Note: see also [Assembly (x86)](assembly.x86.md)
 
-# Background
+# Background & Resources
 
 * Jordan Rose (Swift team) recommendations - http://belkadan.com/blog/2015/11/Recommendations/
 * GCC Wiki - List of compiler books - https://gcc.gnu.org/wiki/ListOfCompilerBooks
 * Let’s Build A Simple Interpreter - https://ruslanspivak.com/lsbasi-part1/
+* Life of an instruction in LLVM - http://eli.thegreenplace.net/2012/11/24/life-of-an-instruction-in-llvm
 * Life of an instruction in Clang / LLVM: https://github.com/thegameg/llvm-life/
+* LLVM - Chris Lattner, The Architecture of Open Source Applications - http://www.aosabook.org/en/llvm.html
 * LLVM Tutorial: Kaleidoscope - http://llvm.org/docs/tutorial/
   - Haskell version: http://www.stephendiehl.com/llvm/
 * LLVM for Grad Students - http://adriansampson.net/blog/llvm.html
-* Linkers - 20 part linker essay by Ian Lance Taylor - https://lwn.net/Articles/276782/
 * Resources for Amateur Compiler Writers - http://c9x.me/compile/bib/
 * Object Files and Symbols - http://nickdesaulniers.github.io/blog/2016/08/13/object-files-and-symbols/
 * Validation & testing: http://web.cs.ucdavis.edu/~su/emi-project/
@@ -48,6 +49,13 @@ Note: see also [Assembly (x86)](assembly.x86.md)
   - https://twitter.com/gnutools/
 * Visual C++ - https://www.visualstudio.com/vs/cplusplus/
   - https://blogs.msdn.microsoft.com/vcblog/
+
+# Linking
+
+* _The missing link: explaining ELF static linking, semantically._ Stephen Kell, Dominic P. Mulligan, and Peter Sewell. OOPSLA 2016.
+  - http://www.cl.cam.ac.uk/~pes20/rems/papers/oopsla-elf-linking-2016.pdf
+  - https://bitbucket.org/Peter_Sewell/linksem/
+* Linkers - 20 part linker essay by Ian Lance Taylor - https://lwn.net/Articles/276782/
 
 # Optimization
 
