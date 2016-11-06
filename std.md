@@ -22,6 +22,7 @@
 
 # C++17
 
+* C++17 for the daily job - Marco Arena, C++ Day 2016 – Italian C++ Community - http://www.italiancpp.org/wp-content/uploads/2016/10/Cpp17-for-the-daily-job.pdf
 * What are the new features in C++17? - http://stackoverflow.com/questions/38060436/what-are-the-new-features-in-c17/38060437#38060437
 * CppCon 2016: Alisdair Meredith "C++17 in Breadth"
   - part 1: https://www.youtube.com/watch?v=22jIHfvelZk
