@@ -319,6 +319,10 @@ https://github.com/zyantific/zyan-disassembler-engine
 
 ## Videos
 
+An In-Depth Analysis of Disassembly on Full-Scale x86/x64 Binaries  
+https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/andriesse  
+https://www.vusec.net/projects/disassembly/
+
 Assembly Language Programming   
 https://www.youtube.com/playlist?list=PLPedo-T7QiNsIji329HyTzbKBuCAHwNFC  
 http://www.rasmurtech.com/free-online-video-classes/programming/assembly-programming-tutorial/
