@@ -15,6 +15,7 @@
 * C++ standard draft
   - https://github.com/cplusplus/draft  
   - http://eel.is/c++draft/
+* C++ Standards Drafts in HTML - https://ubershmekel.github.io/cppdrafts/
 * Current Status - https://isocpp.org/std/status
 * Standardization - Standard C++ Foundation - https://isocpp.org/std
 * JTC1/SC22/WG21 - The C++ Standards Committee - ISOCPP - http://www.open-std.org/jtc1/sc22/wg21/
@@ -22,6 +23,7 @@
 
 # C++17
 
+* C++11/14/17: A cheat sheet of modern C++ language and library features - https://github.com/AnthonyCalandra/modern-cpp-features
 * C++17 for the daily job - Marco Arena, C++ Day 2016 – Italian C++ Community - http://www.italiancpp.org/wp-content/uploads/2016/10/Cpp17-for-the-daily-job.pdf
 * What are the new features in C++17? - http://stackoverflow.com/questions/38060436/what-are-the-new-features-in-c17/38060437#38060437
 * CppCon 2016: Alisdair Meredith "C++17 in Breadth"
