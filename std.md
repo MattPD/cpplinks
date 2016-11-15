@@ -30,6 +30,10 @@
   - part 1: https://www.youtube.com/watch?v=22jIHfvelZk
   - part 2: https://www.youtube.com/watch?v=-rIixnNJM4k
 
+## 2016-11 Issaquah
+
+* Trip report: Fall ISO C++ standards meeting (Issaquah) - https://herbsutter.com/2016/11/15/trip-report-fall-iso-c-standards-meeting-issaquah/
+
 ## 2016-06 Oulu 
 
 * C++17, All Final Features from Oulu in a Few Slides
