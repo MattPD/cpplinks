@@ -14,6 +14,8 @@ Hopefully some will find this of some use and interest, too :-)
 - [Atomics, lock free, memory model](atomics.lockfree.memory_model.md)
 - [Compilers](compilers.md)
 - [Computer architecture](comparch.md)
+  - [Computer architecture: FPGA](comparch.fpga.md)
+  - [Computer architecture: GPU](comparch.gpu.md)
 - [Performance tools](performance.tools.md)
 - [Standardization](std.md)
 
