@@ -2,6 +2,14 @@
 
 Note: see also [computer architecture](comparch.md)
 
+## Communities
+
+* comp.arch.fpga - https://groups.google.com/d/forum/comp.arch.fpga
+* comp.lang.verilog - https://groups.google.com/d/forum/comp.lang.verilog
+* comp.lang.vhdl - https://groups.google.com/d/forum/comp.lang.vhdl
+* /r/FPGA - everything about programmable hardware - https://www.reddit.com/r/FPGA
+* IRC ​Channel #​#fpga - freenode - http://irc.netsplit.de/channels/details.php?room=%23%23fpga&net=freenode
+
 ## HDL
 
 ### Verilog
