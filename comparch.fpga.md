@@ -24,10 +24,12 @@ Note: see also [computer architecture](comparch.md)
 ### SystemVerilog
 
 * Appendix A "Hardware Description Languages" from Neil Weste, David Harris (2010) "CMOS VLSI Design: A Circuits and Systems Perspective" (4th Edition) - http://pages.hmc.edu/harris/cmosvlsi/4e/cmosvlsidesign_4e_App.pdf
-* Cliff Cummings' Papers - http://www.sunburst-design.com/papers/#papers_top
-* Conference Papers Authored or Co-Authored by Stuart Sutherland - http://www.sutherland-hdl.com/papers.html
-  - Standard Gotchas: Subtleties in Verilog and SystemVerilog That Every Engineer Should Know - http://www.sutherland-hdl.com/papers/2006-SNUG-Boston_standard_gotchas_paper.pdf
-  - More Standard Gotchas: Subtleties in Verilog and SystemVerilog That Every Engineer Should Know - http://www.sutherland-hdl.com/papers/2007-SNUG-SanJose_gotcha_again_paper.pdf
 * IEEE Standard 1800-2012 - http://standards.ieee.org/getieee/1800/download/1800-2012.pdf 
+* Papers
+  - Cliff Cummings - http://www.sunburst-design.com/papers/#papers_top
+  - Don Mills - http://www.lcdm-eng.com/html/papers.html
+  - Stuart Sutherland - http://www.sutherland-hdl.com/papers.html
+    - Standard Gotchas: Subtleties in Verilog and SystemVerilog That Every Engineer Should Know - http://www.sutherland-hdl.com/papers/2006-SNUG-Boston_standard_gotchas_paper.pdf
+    - More Standard Gotchas: Subtleties in Verilog and SystemVerilog That Every Engineer Should Know - http://www.sutherland-hdl.com/papers/2007-SNUG-SanJose_gotcha_again_paper.pdf
 * SystemVerilog Central - http://www.asic-world.com/systemverilog/
 * SystemVerilog Training and Examples from Doulos - The Guide to SystemVerilog - https://www.doulos.com/knowhow/sysverilog/
