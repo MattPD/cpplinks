@@ -17,6 +17,8 @@ Note: see also [computer architecture](comparch.md)
 * EDA Playground - Verilog Tutorials
   - http://eda-playground.readthedocs.io/en/latest/code-examples/verilog.html
   - https://www.youtube.com/playlist?list=PLScWdLzHpkAfbPhzz1NKHDv2clv1SgsMo
+* FPGA Resources - http://fpgacpu.ca/fpga/
+  - HDL References - http://fpgacpu.ca/fpga/hdl/
 * HDLBits — Verilog Practice - http://verilog.stuffedcow.net/
 * Learning Verilog for FPGAs: The Tools and Building an Adder - http://hackaday.com/2015/08/19/learning-verilog-on-a-25-fpga-part-i/
 * Verilog Page - http://www.asic-world.com/verilog/
