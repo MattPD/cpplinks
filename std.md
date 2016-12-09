@@ -32,6 +32,7 @@
 
 ## 2016-11 Issaquah
 
+* The view from Nov 2016 C++ Standard Meeting Issaquah - https://www.codeplay.com/portal/12-09-16-the-view-from-nov-2016-cpp-standard-meeting-issaquah
 * Trip Report: C++ Standards Meeting in Issaquah, November 2016 - https://botondballo.wordpress.com/2016/11/25/trip-report-c-standards-meeting-in-issaquah-november-2016/
 * Trip report: Fall ISO C++ standards meeting (Issaquah) - https://herbsutter.com/2016/11/15/trip-report-fall-iso-c-standards-meeting-issaquah/
 
