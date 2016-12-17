@@ -10,7 +10,9 @@ Hopefully some will find this of some use and interest, too :-)
 
 ## Categories
 
-- [Assembly (x86)](assembly.x86.md)
+- Assembly
+  - [Assembly (x86)](assembly.x86.md)
+  - [Assembly (ARM)](assembly.arm.md)
 - [Atomics, lock free, memory model](atomics.lockfree.memory_model.md)
 - [Compilers](compilers.md)
 - [Computer architecture](comparch.md)
