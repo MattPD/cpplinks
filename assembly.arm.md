@@ -9,7 +9,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 ## References
 
-* ARM Processor Architecture - https://www.arm.com/products/processors/instruction-set-architectures/
+* ARM Processor Architecture - https://www.arm.com/products/processors/instruction-set-architectures/index.php
 * ARM Architecture Reference Manual ARMv8, for ARMv8-A architecture profile - https://developer.arm.com/docs/ddi0487/a/arm-architecture-reference-manual-armv8-for-armv8-a-architecture-profile
 * ARM architecture documentation set - http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.set.architecture/
 * ARM Info Center Reference Material - https://wiki.linaro.org/Resources/HowTo/DeveloperReferences
