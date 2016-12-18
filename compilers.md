@@ -14,7 +14,6 @@ Note: see also [Assembly (x86)](assembly.x86.md)
   - Haskell version: http://www.stephendiehl.com/llvm/
 * LLVM for Grad Students - http://adriansampson.net/blog/llvm.html
 * Resources for Amateur Compiler Writers - http://c9x.me/compile/bib/
-* Object Files and Symbols - http://nickdesaulniers.github.io/blog/2016/08/13/object-files-and-symbols/
 * Validation & testing: http://web.cs.ucdavis.edu/~su/emi-project/
 * https://github.com/melling/ComputerLanguages/blob/master/compilers.org
 
@@ -55,10 +54,14 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 
 # Linking
 
-* _The missing link: explaining ELF static linking, semantically._ Stephen Kell, Dominic P. Mulligan, and Peter Sewell. OOPSLA 2016.
+* Linkers - 20 part linker essay by Ian Lance Taylor - https://lwn.net/Articles/276782/
+* Nick Desaulniers' posts
+  - Part 1 – Object Files and Symbols - http://nickdesaulniers.github.io/blog/2016/08/13/object-files-and-symbols/
+  - Part 2 – Static and Dynamic Libraries - http://nickdesaulniers.github.io/blog/2016/11/20/static-and-dynamic-libraries/
+* The missing link: explaining ELF static linking, semantically - Stephen Kell, Dominic P. Mulligan, Peter Sewell - OOPSLA 2016
   - http://www.cl.cam.ac.uk/~pes20/rems/papers/oopsla-elf-linking-2016.pdf
   - https://bitbucket.org/Peter_Sewell/linksem/
-* Linkers - 20 part linker essay by Ian Lance Taylor - https://lwn.net/Articles/276782/
+* Understanding the classical model for linking - Raymond Chen - https://blogs.msdn.microsoft.com/oldnewthing/tag/linker
 
 # Optimization
 
