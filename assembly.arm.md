@@ -20,6 +20,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * ARM Optimized Routines - https://github.com/ARM-software/optimized-routines
 * ARM Performance Libraries - https://developer.arm.com/products/software-development-tools/hpc/arm-performance-libraries
 * Profiling Tools - https://developer.arm.com/hpc/hpc-software/categories/profiling-tools
+* VisUAL - A highly visual ARM emulator - http://salmanarif.bitbucket.org/visual/
 
 ## Tutorials
 
