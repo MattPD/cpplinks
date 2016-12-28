@@ -6,6 +6,7 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 
 * Jordan Rose (Swift team) recommendations - http://belkadan.com/blog/2015/11/Recommendations/
 * GCC Wiki - List of compiler books - https://gcc.gnu.org/wiki/ListOfCompilerBooks
+* How To Write Shared Libraries - Ulrich Drepper - https://www.akkadia.org/drepper/dsohowto.pdf
 * Let’s Build A Simple Interpreter - https://ruslanspivak.com/lsbasi-part1/
 * Life of an instruction in LLVM - http://eli.thegreenplace.net/2012/11/24/life-of-an-instruction-in-llvm
 * Life of an instruction in Clang / LLVM - https://github.com/thegameg/llvm-life/
@@ -14,6 +15,9 @@ Note: see also [Assembly (x86)](assembly.x86.md)
   - Haskell version: http://www.stephendiehl.com/llvm/
 * LLVM for Grad Students - http://adriansampson.net/blog/llvm.html
 * Resources for Amateur Compiler Writers - http://c9x.me/compile/bib/
+* Static Single Assignment (SSA) Book - http://ssabook.gforge.inria.fr/latest/book.pdf - https://gforge.inria.fr/scm/viewvc.php/ssabook/book/
+* Tutorial: Creating an LLVM Backend for the Cpu0 Architecture - https://jonathan2251.github.io/lbd/
+* Tutorial: Creating an LLVM Toolchain for the Cpu0 Architecture - http://jonathan2251.github.io/lbt/
 * Validation & testing: http://web.cs.ucdavis.edu/~su/emi-project/
 * https://github.com/melling/ComputerLanguages/blob/master/compilers.org
 
@@ -26,11 +30,11 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 * CASES: Compilers, Architecture, and Synthesis for Embedded Systems - http://www.esweek.org/cases - http://dblp.uni-trier.de/db/conf/cases/
 * CC: The International Conference on Compiler Construction - http://conf.researchr.org/series/CC - http://dblp.uni-trier.de/db/conf/cc/
 * CGO: International Symposium on Code Generation and Optimization - http://cgo.org/ - http://dblp.uni-trier.de/db/conf/cgo/
-* OOPSLA: Object-Oriented Programming Systems, Languages and Applications - http://www.sigplan.org/Conferences/OOPSLA/ - http://dblp.uni-trier.de/db/conf/oopsla/
 * HPCA: International Symposium on High-Performance Computer Architecture - http://www.hpcaconf.org/ - http://dblp.uni-trier.de/db/conf/hpca/
 * ICFP: International Conference on Functional Programming - http://icfpconference.org/ - http://dblp.uni-trier.de/db/conf/icfp/
 * ISMM: International Symposium on Memory Management - http://www.sigplan.org/Conferences/ISMM/ - http://dblp.uni-trier.de/db/conf/iwmm/
 * LCTES: Languages, Compilers, and Tools for Embedded Systems - http://lctes.org/ - http://dblp.uni-trier.de/db/conf/lctrts/
+* OOPSLA: Object-Oriented Programming Systems, Languages and Applications - http://www.sigplan.org/Conferences/OOPSLA/ - http://dblp.uni-trier.de/db/conf/oopsla/
 * PACT: International Conference on Parallel Architecture and Compilation - http://pactconf.org/ - http://dblp.uni-trier.de/db/conf/IEEEpact/
 * PLDI: Programming Language Design and Implementation - http://www.sigplan.org/Conferences/PLDI/ - http://dblp.uni-trier.de/db/conf/pldi/
 * POPL: Principles of Programming Languages - http://www.sigplan.org/Conferences/POPL/ - http://dblp.uni-trier.de/db/conf/popl/
@@ -58,6 +62,10 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 * Clang documentation - http://clang.llvm.org/docs/
 * GCC online documentation - https://gcc.gnu.org/onlinedocs/
+  - Cynbe's GCC Debugging Hints - http://muq.org/~cynbe/gcc/
+    - Debugging Resources - http://muq.org/~cynbe/gcc/offsite-resources.html
+    - Comments on the Internals Manual - http://muq.org/~cynbe/gcc/gccint.html
+  - GCC Wiki - https://gcc.gnu.org/wiki
 * LLVM documentation - http://llvm.org/docs/
 * Visual C++ documentation - https://msdn.microsoft.com/en-us/library/60k1461a.aspx
 
@@ -73,8 +81,9 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 * Visual C++ - https://www.visualstudio.com/vs/cplusplus/
   - https://blogs.msdn.microsoft.com/vcblog/
 
-# Linking
+# Linking and Loading
 
+* An Evil Copy: How the Loader Betrays You - https://nebelwelt.net/publications/files/17NDSS.pdf
 * Linkers - 20 part linker essay by Ian Lance Taylor - https://lwn.net/Articles/276782/
 * Nick Desaulniers' posts
   - Part 1 – Object Files and Symbols - http://nickdesaulniers.github.io/blog/2016/08/13/object-files-and-symbols/
