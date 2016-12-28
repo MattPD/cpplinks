@@ -17,6 +17,27 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 * Validation & testing: http://web.cs.ucdavis.edu/~su/emi-project/
 * https://github.com/melling/ComputerLanguages/blob/master/compilers.org
 
+# Conferences
+
+Compilers Call For Papers for Conferences, Workshops and Journals at WikiCFP - http://www.wikicfp.com/cfp/call?conference=compilers  
+Computer Architecture and Compilers Conference Map - http://archconfmap.com/
+
+* ASPLOS: International Conference on Architectural Support for Programming Languages and Operating Systems - http://dblp.uni-trier.de/db/conf/asplos/
+* CASES: Compilers, Architecture, and Synthesis for Embedded Systems - http://www.esweek.org/cases - http://dblp.uni-trier.de/db/conf/cases/
+* CC: The International Conference on Compiler Construction - http://conf.researchr.org/series/CC - http://dblp.uni-trier.de/db/conf/cc/
+* CGO: International Symposium on Code Generation and Optimization - http://cgo.org/ - http://dblp.uni-trier.de/db/conf/cgo/
+* OOPSLA: Object-Oriented Programming Systems, Languages and Applications - http://www.sigplan.org/Conferences/OOPSLA/ - http://dblp.uni-trier.de/db/conf/oopsla/
+* HPCA: International Symposium on High-Performance Computer Architecture - http://www.hpcaconf.org/ - http://dblp.uni-trier.de/db/conf/hpca/
+* ICFP: International Conference on Functional Programming - http://icfpconference.org/ - http://dblp.uni-trier.de/db/conf/icfp/
+* ISMM: International Symposium on Memory Management - http://www.sigplan.org/Conferences/ISMM/ - http://dblp.uni-trier.de/db/conf/iwmm/
+* LCTES: Languages, Compilers, and Tools for Embedded Systems - http://lctes.org/ - http://dblp.uni-trier.de/db/conf/lctrts/
+* PACT: International Conference on Parallel Architecture and Compilation - http://pactconf.org/ - http://dblp.uni-trier.de/db/conf/IEEEpact/
+* PLDI: Programming Language Design and Implementation - http://www.sigplan.org/Conferences/PLDI/ - http://dblp.uni-trier.de/db/conf/pldi/
+* POPL: Principles of Programming Languages - http://www.sigplan.org/Conferences/POPL/ - http://dblp.uni-trier.de/db/conf/popl/
+* PPoPP: ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming - http://www.sigplan.org/Conferences/PPOPP/ - http://dblp.uni-trier.de/db/conf/ppopp/
+* SAS: International Static Analysis Symposium - http://www.staticanalysis.org/ - http://dblp.uni-trier.de/db/conf/sas/
+* SCOPES: International Workshop on Software and Compilers for Embedded Systems - http://www.scopesconf.org/ - http://dblp.uni-trier.de/db/conf/scopes/
+
 # Courses
 
 * Advanced Compilers - John Regehr, University of Utah
