@@ -14,7 +14,7 @@ Note: see also [computer architecture](comparch.md)
   - Life of a Triangle - https://latchup.blogspot.com/2016/02/life-of-triangle.html
   - VideoCore QPU Pipeline - https://latchup.blogspot.com/2016/03/videocore-qpu-pipeline.html
 
-* Demystifying GPU Microarchitecture through Microbenchmarking - http://www.eecg.toronto.edu/~myrto/gpuarch-ispass2010.pdf
+* Demystifying GPU Microarchitecture through Microbenchmarking - http://www.eecg.toronto.edu/~myrto/gpuarch-ispass2010.pdf - microbenchmark suite: http://www.stuffedcow.net/research/cudabmk
 
 * GPU Concurrency: Weak Behaviours and Programming Assumptions  
   Alglave, J.; Batty, M.; Donaldson, A. F.; Gopalakrishnan, G.; Ketema, J.; Poetzl, D.; Sorensen, T.; and Wickerson, J. In 20th ACM Int. Conf. on Architectural Support for Programming Languages and Operating Systems (ASPLOS '15), 2015. Invited for fast-track submission to ACM Transactions on Computer Systems (TOCS).
