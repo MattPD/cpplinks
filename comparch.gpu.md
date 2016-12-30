@@ -107,7 +107,7 @@ Note: see also [computer architecture](comparch.md)
 
 # Talks
 
-* An Introduction to Graphics Processing Unit Architecture and Programming Models
+* An Introduction to Graphics Processing Unit Architecture and Programming Models  
   Tim Warburton, Virginia Tech - ATPESC16 (Argonne Training Program on Extreme-Scale Computing, Summer 2016)
   - https://www.youtube.com/watch?v=Uk4DtWkEFh4
 
