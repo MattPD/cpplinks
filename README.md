@@ -11,8 +11,9 @@ Hopefully some will find this of some use and interest, too :-)
 ## Categories
 
 - Assembly
-  - [Assembly (x86)](assembly.x86.md)
   - [Assembly (ARM)](assembly.arm.md)
+  - [Assembly (RISC-V)](assembly.riscv.md)
+  - [Assembly (x86)](assembly.x86.md)
 - [Atomics, lock free, memory model](atomics.lockfree.memory_model.md)
 - [Compilers](compilers.md)
 - [Computer architecture](comparch.md)
@@ -20,5 +21,3 @@ Hopefully some will find this of some use and interest, too :-)
   - [Computer architecture: GPU](comparch.gpu.md)
 - [Performance tools](performance.tools.md)
 - [Standardization](std.md)
-
-
