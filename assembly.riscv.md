@@ -32,7 +32,7 @@ https://riscv.org/publications/
 
 * "Computer Organization and Design: The Hardware Software Interface: RISC-V Edition" by David A. Patterson, John L. Hennessy (2017) - http://store.elsevier.com/product.jsp?isbn=9780128122754
 
-## Open Source Projects
+## Open-Source Hardware Projects
 
 * BOOM: The Berkeley Out-of-Order RISC-V Processor
   - https://ccelio.github.io/riscv-boom-doc/
@@ -65,6 +65,8 @@ https://riscv.org/publications/
   - http://rise.cse.iitm.ac.in/shakti.html
   - SHAKTI Tutorial at the VLSI Design Conference - http://www.slideshare.net/GSMadhusudan/shaktivlsidtutorial
   - https://bitbucket.org/casl/shakti_public
+* SiFive's Freedom platforms RTL source files
+  - https://github.com/sifive/freedom
 * Sodor Processor Collection - educational microarchitectures
   - https://github.com/ucb-bar/riscv-sodor
 * YARVI - Yet Another RISC-V Implementation
@@ -76,6 +78,7 @@ https://riscv.org/publications/
 https://riscv.org/specifications/
 
 * Calling Convention - http://riscv.org/wp-content/uploads/2015/01/riscv-calling.pdf
+* Notes on RISC-V assembly - https://www.imperialviolet.org/2016/12/31/riscv.html
 * Reference Card - https://www.cl.cam.ac.uk/teaching/1617/ECAD+Arch/files/docs/RISCVGreenCardv8-20151013.pdf
 * RISC-V Instruction Set Listing - https://github.com/michaeljclark/riscv-meta/blob/master/doc/pdf/riscv-instructions.pdf
 * RISC-V Instruction Types - https://github.com/michaeljclark/riscv-meta/blob/master/doc/pdf/riscv-types.pdf
@@ -89,6 +92,8 @@ https://riscv.org/specifications/
 https://riscv.org/software-tools/
 
 * Debian port - https://wiki.debian.org/RISC-V
+* L3 Specification of the RISC-V ISA - https://github.com/SRI-CSL/l3riscv
+* RISC-V Formal Verification Framework - https://github.com/cliffordwolf/riscv-formal
 * RISC-V Meta – a suite of tools that operate on RISC-V ISA - https://github.com/michaeljclark/riscv-meta/
 * RISCVEMU - http://bellard.org/riscvemu/  
   RISCVEMU is a system emulator for the RISC-V architecture. Its purpose is to be small and simple while being complete. Among its features the support of 128 bit addressing and 128 bit floating point makes it ready for the future!
