@@ -4,9 +4,11 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 
 # Background & Resources
 
-* Jordan Rose (Swift team) recommendations - http://belkadan.com/blog/2015/11/Recommendations/
+* A Tourist’s Guide to the LLVM Source Code - http://blog.regehr.org/archives/1453
+* Computer Language Notes: Compilers and Interpreters - https://github.com/melling/ComputerLanguages/blob/master/compilers.org
 * GCC Wiki - List of compiler books - https://gcc.gnu.org/wiki/ListOfCompilerBooks
 * How To Write Shared Libraries - Ulrich Drepper - https://www.akkadia.org/drepper/dsohowto.pdf
+* Jordan Rose (Swift team) recommendations - http://belkadan.com/blog/2015/11/Recommendations/
 * Let’s Build A Simple Interpreter - https://ruslanspivak.com/lsbasi-part1/
 * Life of an instruction in LLVM - http://eli.thegreenplace.net/2012/11/24/life-of-an-instruction-in-llvm
 * Life of an instruction in Clang / LLVM - https://github.com/thegameg/llvm-life/
@@ -19,7 +21,6 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 * Tutorial: Creating an LLVM Backend for the Cpu0 Architecture - https://jonathan2251.github.io/lbd/
 * Tutorial: Creating an LLVM Toolchain for the Cpu0 Architecture - http://jonathan2251.github.io/lbt/
 * Validation & testing: http://web.cs.ucdavis.edu/~su/emi-project/
-* https://github.com/melling/ComputerLanguages/blob/master/compilers.org
 
 # Conferences
 
@@ -95,6 +96,12 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 # Optimization
 
+* ALIVe: Automatic LLVM InstCombine Verifier
+  - http://rise4fun.com/Alive
+  - https://github.com/nunoplopes/alive
+  - http://blog.regehr.org/archives/1170
+  - https://www.cs.utah.edu/~regehr/papers/pldi15.pdf
+  - http://llvm.org/devmtg/2014-10/Slides/Menendez-Alive.pdf
 * Automatic Feedback Directed Optimizer (AutoFDO)
   - https://gcc.gnu.org/wiki/AutoFDO
   - https://github.com/google/autofdo
@@ -103,8 +110,8 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
   - Clang: http://clang.llvm.org/docs/CommandGuide/clang.html#cmdoption-O0 - https://stackoverflow.com/questions/15548023/clang-optimization-levels
   - Visual C++: https://msdn.microsoft.com/en-us/library/19z1t1wy.aspx
 * Devirtualization in C++ - https://hubicka.blogspot.com/search/label/devirtualization
-* Link time optimization (LTO) - https://hubicka.blogspot.com/search/label/link-time%20optimization
 * GoingNative 50: New Visual C++ Code Optimizer - https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-50-New-Visual-C-Code-Optimizer
+* Link time optimization (LTO) - https://hubicka.blogspot.com/search/label/link-time%20optimization
 
 ## Superoptimization
 
@@ -117,7 +124,9 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 # Sanitizers
 
-https://maitesin.github.io/clang_sanitizers/
+* https://github.com/google/sanitizers
+  - https://github.com/google/sanitizers/wiki
+* https://maitesin.github.io/clang_sanitizers/
 
 # Talks
 
@@ -128,7 +137,7 @@ https://maitesin.github.io/clang_sanitizers/
   - http://connect.linaro.org/resource/las16/las16-501/
 * Anders Hejlsberg on Modern Compiler Construction
   - Channel 9; May 12, 2016
-   https://channel9.msdn.com/Blogs/Seth-Juarez/Anders-Hejlsberg-on-Modern-Compiler-Construction
+  - https://channel9.msdn.com/Blogs/Seth-Juarez/Anders-Hejlsberg-on-Modern-Compiler-Construction
 * STOKE: Search-Based Compiler Optimization - Alex Aiken
   - UCI CS Distinguished Lecture; April 29, 2016
   - https://www.youtube.com/watch?v=rZFeTTFp7x4
