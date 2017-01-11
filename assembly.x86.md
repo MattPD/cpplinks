@@ -19,6 +19,9 @@ C++ is often used for systems programming; in these contexts (and even if you're
 Assembler relaxation
 http://eli.thegreenplace.net/2013/01/03/assembler-relaxation
 
+Deprecating the PCOMMIT Instruction  
+https://software.intel.com/en-us/blogs/2016/09/12/deprecate-pcommit-instruction
+
 Gentle Introduction to x86-64 Assembly
 http://www.x86-64.org/documentation/assembly.html
 
@@ -252,78 +255,98 @@ http://x86.corkami.com
 
 ## Slides
 
-Assembly: The mother of all languages  
-https://speakerdeck.com/takipiadmin/assembly-the-mother-of-all-languages
-
-Creating a language using only assembly language  
-https://speakerdeck.com/nineties/creating-a-language-using-only-assembly-language  
-https://github.com/nineties/amber
-
-x86 Assembly Primer for C Programmers  
-https://speakerdeck.com/vsergeev/x86-assembly-primer-for-c-programmers  
-https://github.com/vsergeev/apfcp
+* Assembly: The mother of all languages - https://speakerdeck.com/takipiadmin/assembly-the-mother-of-all-languages
+* Creating a language using only assembly language
+  - https://speakerdeck.com/nineties/creating-a-language-using-only-assembly-language
+  - https://github.com/nineties/amber
+* Intro to x64 Reversing - Jon Larimer - SummerCon 2011
+  - http://acmvm2.srv.mst.edu/wp-content/uploads/2014/07/Intro-to-x64-Reversing-Larimer-2011.pdf
+  - http://codetastrophe.com/SummerCon%202011%20-%20Intro%20to%20x64%20Reversing.pdf
+* x86 Assembly Primer for C Programmers
+  - https://speakerdeck.com/vsergeev/x86-assembly-primer-for-c-programmers
+  - https://github.com/vsergeev/apfcp
 
 ## Software
 
-Assemblers  
-https://en.wikipedia.org/wiki/Comparison_of_assemblers#x86_assemblers
+* Compiler Explorer: an interactive compiler
+  - https://gcc.godbolt.org/
+  - https://github.com/mattgodbolt/gcc-explorer
+* Intel XED: The X86 Encoder Decoder
+  - https://intelxed.github.io/
+  - https://github.com/intelxed
+* M/o/Vfuscator - the single instruction C compiler - https://github.com/xoreaxeaxeax/movfuscator
+* Radare2
+  - Radare project started as a forensics tool, a scriptable commandline hexadecimal editor able to open disk files, but later support for analyzing binaries, disassembling code, debugging programs, attaching to remote gdb servers, etc.
+  - http://rada.re/
+  - https://github.com/radare/radare2
+* Remill: Machine code to LLVM binary translator
+  - Remill is a static binary translator that translates machine code into LLVM bitcode. It translates x86 and amd64 machine code (including AVX and AVX512) into LLVM bitcode.
+  - https://github.com/trailofbits/remill
+* Run Nasm x86/x64 Assembly Code Online - https://dbgr.cc/l/nasm
+* SASM: Simple crossplatform IDE for NASM, MASM, GAS, FASM assembly languages - https://dman95.github.io/SASM/english.html
+* STOKE - a stochastic optimizer for x86_64 assembly
+  - https://github.com/StanfordPL/stoke
+  - http://stoke.stanford.edu/
+  + Talks:
+    - STOKE: Search-Based Compiler Optimization - Alex Aiken (2016) - https://www.youtube.com/watch?v=rZFeTTFp7x4
+    - Stochastic Optimization for x86 Binaries - Eric Schkufza (2015) - https://www.youtube.com/watch?v=aD9mZDJzb58
 
-Capstone disassembly/disassembler framework  
-Core (Arm, Arm64, Mips, PPC, Sparc, SystemZ, X86, X86_64, XCore) + bindings (Python, Java, Ocaml)  
-http://www.capstone-engine.org/
+### Assemblers
 
-disasm: Interactive Disassembler GUI  
-Optional Intel Architecture Code Analyzer (IACA) integration  
-https://github.com/mongodb-labs/disasm
+Assemblers - https://en.wikipedia.org/wiki/Comparison_of_assemblers#x86_assemblers
 
-EmilPRO  
-EmilPRO is a graphical disassembler for a large number of instruction sets. It's a reimplementation and replacement for the Dissy disassembler.  
-http://www.emilpro.com/  
-https://github.com/SimonKagstrom/emilpro
+* FASM (flat assembler) - http://flatassembler.net/
+* Keystone assembler framework
+  - Core (Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) + bindings
+  - http://www.keystone-engine.org
+  - https://github.com/keystone-engine/keystone
+* GNU Assembler (as) - https://sourceware.org/binutils/docs/as/
+* NASM (The Netwide Assembler) - http://www.nasm.us/
+* Yasm
+  - http://yasm.tortall.net/
+  - https://github.com/yasm/yasm
 
-GCC Explorer: an interactive compiler  
-https://gcc.godbolt.org/  
-https://github.com/mattgodbolt/gcc-explorer
+### Disassemblers
 
-HeavyThing x86_64 assembly language library and showcase programs  
-https://2ton.com.au/HeavyThing/  
-rwasa web server (bundled with the HeavyThing library): https://2ton.com.au/rwasa/
+* Capstone disassembly/disassembler framework
+  - Core (Arm, Arm64, Mips, PPC, Sparc, SystemZ, X86, X86_64, XCore) + bindings (Python, Java, Ocaml)
+  - http://www.capstone-engine.org/
+  - https://github.com/aquynh/capstone
+* disasm: Interactive Disassembler GUI
+  - Optional Intel Architecture Code Analyzer (IACA) integration
+  - https://github.com/mongodb-labs/disasm
+* EmilPRO
+  - EmilPRO is a graphical disassembler for a large number of instruction sets. It's a reimplementation and replacement for the Dissy disassembler.
+  - http://www.emilpro.com/
+  - https://github.com/SimonKagstrom/emilpro
+* diStorm3 binary stream disassembler library project
+  - Disassembler Library For x86/AMD64: "diStorm3 is really a decomposer, which means it takes an instruction and returns a binary structure which describes it rather than static text, which is great for advanced binary code analysis."
+  - https://github.com/gdabah/distorm
+  - https://github.com/gdabah/distorm/wiki
+* Medusa: An open source interactive disassembler
+  - https://github.com/wisk/medusa
+* Panopticon - A Libre Cross Platform Disassembler
+  - https://github.com/das-labor/panopticon
+* Plasma is an interactive disassembler for x86/ARM/MIPS. It can generates indented pseudo-code with colored syntax.
+  - https://github.com/plasma-disassembler/plasma
+  - Interactive disassembler for x86/ARM/MIPS. Generates indented pseudo-code with colored syntax code. 
+* Udis86: Disassembler Library for x86 and x86-64
+  - https://github.com/vmt/udis86
+* Zyan Disassembler Engine (Zydis)
+  - Fast and lightweight x86/x86-64 disassembler library.
+  - https://github.com/zyantific/zyan-disassembler-engine
 
-Intel XED: The X86 Encoder Decoder  
-https://intelxed.github.io/  
-https://github.com/intelxed
+### Network
 
-Radare2  
-http://rada.re/  
-https://github.com/radare/radare2  
-Radare project started as a forensics tool, a scriptable commandline hexadecimal editor able to open disk files, but later support for analyzing binaries, disassembling code, debugging programs, attaching to remote gdb servers, etc.
-
-Remill: Machine code to LLVM binary translator  
-https://github.com/trailofbits/remill  
-Remill is a static binary translator that translates machine code into LLVM bitcode. It translates x86 and amd64 machine code (including AVX and AVX512) into LLVM bitcode.
-
-Run Nasm x86/x64 Assembly Code Online  
-https://dbgr.cc/l/nasm
-
-SASM: Simple crossplatform IDE for NASM, MASM, GAS, FASM assembly languages  
-https://dman95.github.io/SASM/english.html
-
-SERVASM: Your other webserver  
-Literate webserver in assembler.  
-https://zarkzork.com/servasm.html  
-https://github.com/zarkzork/servasm
-
-STOKE - a stochastic optimizer for x86_64 assembly  
-https://github.com/StanfordPL/stoke-release  
-http://stoke.stanford.edu/  
-Google Tech Talk: https://www.youtube.com/watch?v=aD9mZDJzb58
-
-Udis86: Disassembler Library for x86 and x86-64  
-https://github.com/vmt/udis86
-
-Zyan Disassembler Engine (Zydis)  
-Fast and lightweight x86/x86-64 disassembler library.  
-https://github.com/zyantific/zyan-disassembler-engine
+* asmttpd: Web server for Linux written in amd64 assembly.
+  - https://github.com/nemasu/asmttpd
+* HeavyThing x86_64 assembly language library and showcase programs
+  - rwasa web server (bundled with the HeavyThing library): https://2ton.com.au/rwasa/
+  - https://2ton.com.au/HeavyThing/
+* SERVASM: Your other webserver
+  - Literate webserver in assembler.
+  - https://zarkzork.com/servasm.html
+  - https://github.com/zarkzork/servasm
 
 ## Videos
 
@@ -331,7 +354,7 @@ An In-Depth Analysis of Disassembly on Full-Scale x86/x64 Binaries
 https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/andriesse  
 https://www.vusec.net/projects/disassembly/
 
-Assembly Language Programming   
+Assembly Language Programming  
 https://www.youtube.com/playlist?list=PLPedo-T7QiNsIji329HyTzbKBuCAHwNFC  
 http://www.rasmurtech.com/free-online-video-classes/programming/assembly-programming-tutorial/
 
