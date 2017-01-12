@@ -211,6 +211,9 @@ https://gmplib.org/~tege/x86-timing.pdf
 Inline assembly for x86 in Linux  
 http://www.ibm.com/developerworks/linux/library/l-ia/
 
+Inline assembly (linux-insides)  
+https://0xax.gitbooks.io/linux-insides/content/Theory/asm.html
+
 Intel Intrinsics Guide  
 https://software.intel.com/sites/landingpage/IntrinsicsGuide/
 
