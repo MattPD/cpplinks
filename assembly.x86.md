@@ -22,6 +22,9 @@ http://eli.thegreenplace.net/2013/01/03/assembler-relaxation
 Deprecating the PCOMMIT Instruction  
 https://software.intel.com/en-us/blogs/2016/09/12/deprecate-pcommit-instruction
 
+Displaying all argv in x64 assembly  
+http://eli.thegreenplace.net/2013/07/24/displaying-all-argv-in-x64-assembly
+
 Gentle Introduction to x86-64 Assembly
 http://www.x86-64.org/documentation/assembly.html
 
@@ -49,6 +52,9 @@ https://twitter.com/rolfrolles/status/608789071645691904
 
 Understanding the x64 code models
 http://eli.thegreenplace.net/2012/01/03/understanding-the-x64-code-models
+
+Where the top of the stack is on x86  
+http://eli.thegreenplace.net/2011/02/04/where-the-top-of-the-stack-is-on-x86
 
 Why Intel Added the CLWB and PCOMMIT Instructions
 http://danluu.com/clwb-pcommit/
@@ -211,8 +217,17 @@ https://software.intel.com/sites/landingpage/IntrinsicsGuide/
 Linux Assembly HOWTO  
 http://asm.sourceforge.net/howto.html
 
+OS Development Wiki  
+http://wiki.osdev.org/
+
 sandpile.org -- "The world's leading source for technical x86 processor information"  
 http://www.sandpile.org/
+
+Stack Overflow: 'x86' tag wiki  
+https://stackoverflow.com/tags/x86/info
+
+Stack Overflow: Documentation - Intel x86 Assembly Language & Microarchitecture  
+http://stackoverflow.com/documentation/x86/topics
 
 The Minimal 80x86 Instruction Set  
 http://www.plantation-productions.com/Webster/www.writegreatcode.com/Vol2/wgc2_OA.pdf  
@@ -225,6 +240,9 @@ Links to the latest versions: http://www.nasm.us/docs.php
 
 Wikipedia: x86 assembly topics  
 https://en.wikipedia.org/wiki/Template:X86_assembly_topics
+
+x86 Encoding Cheat Sheet  
+https://www.akkadia.org/drepper/x86-opcode-structure.pdf
 
 x86 Instruction Set Reference  
 http://felixcloutier.com/x86/  
@@ -296,11 +314,11 @@ http://x86.corkami.com
 Assemblers - https://en.wikipedia.org/wiki/Comparison_of_assemblers#x86_assemblers
 
 * FASM (flat assembler) - http://flatassembler.net/
+* GNU Assembler (as) - https://sourceware.org/binutils/docs/as/
 * Keystone assembler framework
   - Core (Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) + bindings
   - http://www.keystone-engine.org
   - https://github.com/keystone-engine/keystone
-* GNU Assembler (as) - https://sourceware.org/binutils/docs/as/
 * NASM (The Netwide Assembler) - http://www.nasm.us/
 * Yasm
   - http://yasm.tortall.net/
@@ -315,14 +333,14 @@ Assemblers - https://en.wikipedia.org/wiki/Comparison_of_assemblers#x86_assemble
 * disasm: Interactive Disassembler GUI
   - Optional Intel Architecture Code Analyzer (IACA) integration
   - https://github.com/mongodb-labs/disasm
-* EmilPRO
-  - EmilPRO is a graphical disassembler for a large number of instruction sets. It's a reimplementation and replacement for the Dissy disassembler.
-  - http://www.emilpro.com/
-  - https://github.com/SimonKagstrom/emilpro
 * diStorm3 binary stream disassembler library project
   - Disassembler Library For x86/AMD64: "diStorm3 is really a decomposer, which means it takes an instruction and returns a binary structure which describes it rather than static text, which is great for advanced binary code analysis."
   - https://github.com/gdabah/distorm
   - https://github.com/gdabah/distorm/wiki
+* EmilPRO
+  - EmilPRO is a graphical disassembler for a large number of instruction sets. It's a reimplementation and replacement for the Dissy disassembler.
+  - http://www.emilpro.com/
+  - https://github.com/SimonKagstrom/emilpro
 * Medusa: An open source interactive disassembler
   - https://github.com/wisk/medusa
 * Panopticon - A Libre Cross Platform Disassembler
