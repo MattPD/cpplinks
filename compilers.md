@@ -60,6 +60,12 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
   - Playlist: https://www.youtube.com/playlist?list=PLNC6lmsIySCOPjY8IwKBtD2cqe-MMgIGM
   - Schedule & Slides: http://www.cs.sfu.ca/~wsumner/teaching/886/15/schedule.html
 
+# Decompilation
+
+* Compositional Decompilation using LLVM IR
+  - https://github.com/decomp/decomp
+  - Design documents: https://github.com/decomp/doc
+
 # Documentation
 
 * Clang documentation - http://clang.llvm.org/docs/
@@ -95,7 +101,7 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
   - https://github.com/apress/adv-c-cpp-compiling
 * An Evil Copy: How the Loader Betrays You - https://nebelwelt.net/publications/files/17NDSS.pdf
 * Linkers - 20 part linker essay by Ian Lance Taylor - https://lwn.net/Articles/276782/
-* Linkers and Loaders by by John R. Levine (1999) - https://www.iecc.com/linker/
+* Linkers and Loaders by John R. Levine (1999) - https://www.iecc.com/linker/
 * Nick Desaulniers' posts
   - Part 1 – Object Files and Symbols - http://nickdesaulniers.github.io/blog/2016/08/13/object-files-and-symbols/
   - Part 2 – Static and Dynamic Libraries - http://nickdesaulniers.github.io/blog/2016/11/20/static-and-dynamic-libraries/
@@ -115,6 +121,9 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 * Automatic Feedback Directed Optimizer (AutoFDO)
   - https://gcc.gnu.org/wiki/AutoFDO
   - https://github.com/google/autofdo
+* Compiler Optimizations for Reverse Engineers by Rolf Rolles
+  - http://www.msreverseengineering.com/blog/2014/6/23/compiler-optimizations-for-reverse-engineers
+  - http://www.msreverseengineering.com/s/Binary-Literacy-Static-6-Optimizations.ppt
 * Compiler Optimization Options
   - GCC: https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html
   - Clang: http://clang.llvm.org/docs/CommandGuide/clang.html#cmdoption-O0 - https://stackoverflow.com/questions/15548023/clang-optimization-levels
