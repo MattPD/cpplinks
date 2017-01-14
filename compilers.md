@@ -18,6 +18,7 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 * LLVM for Grad Students - http://adriansampson.net/blog/llvm.html
 * Resources for Amateur Compiler Writers - http://c9x.me/compile/bib/
 * Static Single Assignment (SSA) Book - http://ssabook.gforge.inria.fr/latest/book.pdf - https://gforge.inria.fr/scm/viewvc.php/ssabook/book/
+* Testing LLVM - http://blog.regehr.org/archives/1450
 * Tutorial: Creating an LLVM Backend for the Cpu0 Architecture - https://jonathan2251.github.io/lbd/
 * Tutorial: Creating an LLVM Toolchain for the Cpu0 Architecture - http://jonathan2251.github.io/lbt/
 * Validation & testing: http://web.cs.ucdavis.edu/~su/emi-project/
@@ -68,7 +69,10 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
     - Comments on the Internals Manual - http://muq.org/~cynbe/gcc/gccint.html
   - GCC Wiki - https://gcc.gnu.org/wiki
 * LLVM documentation - http://llvm.org/docs/
-* Visual C++ documentation - https://msdn.microsoft.com/en-us/library/60k1461a.aspx
+* Visual C++ documentation
+  - https://docs.microsoft.com/en-us/cpp/
+  - https://github.com/Microsoft/cpp-docs
+  - https://msdn.microsoft.com/en-us/library/60k1461a.aspx
 
 # Implementations
 
@@ -84,8 +88,14 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 # Linking and Loading
 
+* Advanced C and C++ Compiling by Milan Stevanovic​ (2014)  
+  "Engineering guide to C/C++ compiling, linking, and binary files structure"
+  - http://www.apress.com/9781430266679
+  - http://link.springer.com/book/10.1007%2F978-1-4302-6668-6
+  - https://github.com/apress/adv-c-cpp-compiling
 * An Evil Copy: How the Loader Betrays You - https://nebelwelt.net/publications/files/17NDSS.pdf
 * Linkers - 20 part linker essay by Ian Lance Taylor - https://lwn.net/Articles/276782/
+* Linkers and Loaders by by John R. Levine (1999) - https://www.iecc.com/linker/
 * Nick Desaulniers' posts
   - Part 1 – Object Files and Symbols - http://nickdesaulniers.github.io/blog/2016/08/13/object-files-and-symbols/
   - Part 2 – Static and Dynamic Libraries - http://nickdesaulniers.github.io/blog/2016/11/20/static-and-dynamic-libraries/
