@@ -44,6 +44,9 @@ Note: see also [computer architecture](comparch.md)
 * Understanding Latency Hiding on GPUs
   - Vasily Volkov; EECS Department; University of California, Berkeley; Technical Report No. UCB/EECS-2016-143; August 12, 2016
   - https://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-143.html
+* Understanding the GPU Microarchitecture to Achieve Bare-Metal Performance Tuning (PPoPP 2017)
+  - http://dl.acm.org/citation.cfm?id=3018755
+  - https://github.com/PAA-NCIC/PPoPP2017_artifact
 
 # CUDA
 
