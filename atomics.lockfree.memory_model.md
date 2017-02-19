@@ -80,6 +80,11 @@ YouTube videos on consistency models:
 - [YouTube Video 70](http://www.youtube.com/watch?v=AOhRBI7GyZU) (Example on how a coherence protocol may violate write atomicity and sequential consistency, hardware support for sequential consistency, safe optimizations to speed up the hardware)
 - [YouTube Video 71](http://www.youtube.com/watch?v=JjRnHP_u-aY) (A hardware-software approach to improving performance with relaxed consistency models and fences)
 
+# Documentation
+
+The Linux kernel documentation about memory barriers by David Howells & Paul E. McKenney
+https://www.kernel.org/doc/Documentation/memory-barriers.txt
+
 # Papers
 
 ## Papers - Data Structures
