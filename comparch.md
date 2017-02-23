@@ -123,6 +123,11 @@ http://www.morganclaypool.com/toc/cac/11/1
 ## Emulation & Simulation
 
 * gem5 - http://gem5.org/
+  + Learning gem5: http://learning.gem5.org/
+    - Book: https://github.com/powerjg/learning_gem5
+    - Tutorial: http://learning.gem5.org/tutorial/  
+      Slides (HPCA 2017): http://www.cs.wisc.edu/multifacet/papers/learning_gem5_tutorial.pdf  
+      Videos (HPCA 2017): https://www.youtube.com/playlist?list=PL-J9GXT0E7AIidmX_DW7pooRJzjoaJtix
 * GPGPU-Sim - http://www.gpgpu-sim.org/ - https://github.com/gpgpu-sim/gpgpu-sim_distribution
 * Intel Software Development Emulator (SDE) - https://software.intel.com/en-us/articles/intel-software-development-emulator
 * MARSSx86 - http://marss86.org/
