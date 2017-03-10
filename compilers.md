@@ -149,10 +149,16 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 # Talks
 
+## 2017
+
+* LLVM Internals #2 – Renato Golin, Peter Smith, Diana Picus, Omair Javaid, Adhemerval Zanella
+  - Linaro Connect Budapest 2017 - BUD17-302
+  - http://connect.linaro.org/resource/bud17/bud17-302/
+
 ## 2016
 
 * Introduction to LLVM – Projects, Components, Integration, Internals - Renato Golin
-  - Linaro Connect Las Vegas 2016 (LAS16) \ LAS16-501
+  - Linaro Connect Las Vegas 2016 - LAS16-501
   - http://connect.linaro.org/resource/las16/las16-501/
 * Anders Hejlsberg on Modern Compiler Construction
   - Channel 9; May 12, 2016
