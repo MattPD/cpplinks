@@ -16,6 +16,7 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 * LLVM Tutorial: Kaleidoscope - http://llvm.org/docs/tutorial/
   - Haskell version: http://www.stephendiehl.com/llvm/
 * LLVM for Grad Students - http://adriansampson.net/blog/llvm.html
+* Notes on Graph Algorithms Used in Optimizing Compilers - Carl Offner - http://www.cs.umb.edu/~offner/files/flow_graph.pdf
 * Resources for Amateur Compiler Writers - http://c9x.me/compile/bib/
 * Static Single Assignment (SSA) Book - http://ssabook.gforge.inria.fr/latest/book.pdf - https://gforge.inria.fr/scm/viewvc.php/ssabook/book/
 * Testing LLVM - http://blog.regehr.org/archives/1450
