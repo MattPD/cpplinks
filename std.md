@@ -8,7 +8,7 @@
 * GCC - https://gcc.gnu.org/projects/cxx-status.html
 * GNU C++ Library (libstdc++) - https://gcc.gnu.org/onlinedocs/libstdc++/manual/status.html
 * Intel C++ Compiler - https://software.intel.com/en-us/articles/c14-features-supported-by-intel-c-compiler
-* Visual C++ - https://msdn.microsoft.com/en-us/library/hh567368.aspx
+* Visual C++ - https://msdn.microsoft.com/en-us/library/hh567368.aspx - https://docs.microsoft.com/en-us/cpp/visual-cpp-language-conformance
 
 # Standardization
 
