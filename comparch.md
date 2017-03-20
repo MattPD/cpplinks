@@ -133,12 +133,14 @@ http://www.morganclaypool.com/toc/cac/11/1
 * MARSSx86 - http://marss86.org/
 * Multi2Sim - http://www.multi2sim.org/ - https://github.com/Multi2Sim/multi2sim
 * Sniper - http://snipersim.org/
+* XIOSim - A detailed michroarchitectural x86 simulator - https://github.com/s-kanev/XIOSim
 * ZSim - https://github.com/s5z/zsim - http://zsim.csail.mit.edu/tutorial/
 
 ## Journals & Publications
 
 * ACM SIGARCH - https://www.sigarch.org/
   + Computer Architecture News: http://dl.acm.org/citation.cfm?id=J89
+  + Computer Architecture Today: https://www.sigarch.org/blog/
 * ACM Transactions on Architecture and Code Optimization - http://taco.acm.org/
 * Computer Architecture Journals List - http://pascal.eng.uci.edu/info/jounral_list.htm
 * MICRO Test of Time (ToT) Award - http://www.microarch.org/Micro-ToT-Award/
