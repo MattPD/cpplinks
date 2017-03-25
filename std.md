@@ -30,6 +30,10 @@
   - part 1: https://www.youtube.com/watch?v=22jIHfvelZk
   - part 2: https://www.youtube.com/watch?v=-rIixnNJM4k
 
+## 2017-02 Kona
+
+* Trip report: Winter ISO C++ standards meeting (Kona), C++17 is complete - https://herbsutter.com/2017/03/24/trip-report-winter-iso-c-standards-meeting-kona-c17-is-complete/
+
 ## 2016-11 Issaquah
 
 * The view from Nov 2016 C++ Standard Meeting Issaquah - https://www.codeplay.com/portal/12-09-16-the-view-from-nov-2016-cpp-standard-meeting-issaquah
