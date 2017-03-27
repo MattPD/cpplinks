@@ -32,6 +32,7 @@
 
 ## 2017-02 Kona
 
+* Trip Report: C++ Standards Meeting in Kona, February 2017 - https://botondballo.wordpress.com/2017/03/27/trip-report-c-standards-meeting-in-kona-february-2017/
 * Trip report: Winter ISO C++ standards meeting (Kona), C++17 is complete - https://herbsutter.com/2017/03/24/trip-report-winter-iso-c-standards-meeting-kona-c17-is-complete/
 
 ## 2016-11 Issaquah
