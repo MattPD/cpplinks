@@ -4,9 +4,11 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 
 # Background & Resources
 
-* Jordan Rose (Swift team) recommendations - http://belkadan.com/blog/2015/11/Recommendations/
+* A Tourist’s Guide to the LLVM Source Code - http://blog.regehr.org/archives/1453
+* Computer Language Notes: Compilers and Interpreters - https://github.com/melling/ComputerLanguages/blob/master/compilers.org
 * GCC Wiki - List of compiler books - https://gcc.gnu.org/wiki/ListOfCompilerBooks
 * How To Write Shared Libraries - Ulrich Drepper - https://www.akkadia.org/drepper/dsohowto.pdf
+* Jordan Rose (Swift team) recommendations - http://belkadan.com/blog/2015/11/Recommendations/
 * Let’s Build A Simple Interpreter - https://ruslanspivak.com/lsbasi-part1/
 * Life of an instruction in LLVM - http://eli.thegreenplace.net/2012/11/24/life-of-an-instruction-in-llvm
 * Life of an instruction in Clang / LLVM - https://github.com/thegameg/llvm-life/
@@ -14,12 +16,13 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 * LLVM Tutorial: Kaleidoscope - http://llvm.org/docs/tutorial/
   - Haskell version: http://www.stephendiehl.com/llvm/
 * LLVM for Grad Students - http://adriansampson.net/blog/llvm.html
+* Notes on Graph Algorithms Used in Optimizing Compilers - Carl Offner - http://www.cs.umb.edu/~offner/files/flow_graph.pdf
 * Resources for Amateur Compiler Writers - http://c9x.me/compile/bib/
 * Static Single Assignment (SSA) Book - http://ssabook.gforge.inria.fr/latest/book.pdf - https://gforge.inria.fr/scm/viewvc.php/ssabook/book/
+* Testing LLVM - http://blog.regehr.org/archives/1450
 * Tutorial: Creating an LLVM Backend for the Cpu0 Architecture - https://jonathan2251.github.io/lbd/
 * Tutorial: Creating an LLVM Toolchain for the Cpu0 Architecture - http://jonathan2251.github.io/lbt/
 * Validation & testing: http://web.cs.ucdavis.edu/~su/emi-project/
-* https://github.com/melling/ComputerLanguages/blob/master/compilers.org
 
 # Conferences
 
@@ -58,6 +61,12 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
   - Playlist: https://www.youtube.com/playlist?list=PLNC6lmsIySCOPjY8IwKBtD2cqe-MMgIGM
   - Schedule & Slides: http://www.cs.sfu.ca/~wsumner/teaching/886/15/schedule.html
 
+# Decompilation
+
+* Compositional Decompilation using LLVM IR
+  - https://github.com/decomp/decomp
+  - Design documents: https://github.com/decomp/doc
+
 # Documentation
 
 * Clang documentation - http://clang.llvm.org/docs/
@@ -67,7 +76,10 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
     - Comments on the Internals Manual - http://muq.org/~cynbe/gcc/gccint.html
   - GCC Wiki - https://gcc.gnu.org/wiki
 * LLVM documentation - http://llvm.org/docs/
-* Visual C++ documentation - https://msdn.microsoft.com/en-us/library/60k1461a.aspx
+* Visual C++ documentation
+  - https://docs.microsoft.com/en-us/cpp/
+  - https://github.com/Microsoft/cpp-docs
+  - https://msdn.microsoft.com/en-us/library/60k1461a.aspx
 
 # Implementations
 
@@ -83,8 +95,14 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 # Linking and Loading
 
+* Advanced C and C++ Compiling by Milan Stevanovic​ (2014)  
+  "Engineering guide to C/C++ compiling, linking, and binary files structure"
+  - http://www.apress.com/9781430266679
+  - http://link.springer.com/book/10.1007%2F978-1-4302-6668-6
+  - https://github.com/apress/adv-c-cpp-compiling
 * An Evil Copy: How the Loader Betrays You - https://nebelwelt.net/publications/files/17NDSS.pdf
 * Linkers - 20 part linker essay by Ian Lance Taylor - https://lwn.net/Articles/276782/
+* Linkers and Loaders by John R. Levine (1999) - https://www.iecc.com/linker/
 * Nick Desaulniers' posts
   - Part 1 – Object Files and Symbols - http://nickdesaulniers.github.io/blog/2016/08/13/object-files-and-symbols/
   - Part 2 – Static and Dynamic Libraries - http://nickdesaulniers.github.io/blog/2016/11/20/static-and-dynamic-libraries/
@@ -95,16 +113,25 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 # Optimization
 
+* ALIVe: Automatic LLVM InstCombine Verifier
+  - http://rise4fun.com/Alive
+  - https://github.com/nunoplopes/alive
+  - http://blog.regehr.org/archives/1170
+  - https://www.cs.utah.edu/~regehr/papers/pldi15.pdf
+  - http://llvm.org/devmtg/2014-10/Slides/Menendez-Alive.pdf
 * Automatic Feedback Directed Optimizer (AutoFDO)
   - https://gcc.gnu.org/wiki/AutoFDO
   - https://github.com/google/autofdo
+* Compiler Optimizations for Reverse Engineers by Rolf Rolles
+  - http://www.msreverseengineering.com/blog/2014/6/23/compiler-optimizations-for-reverse-engineers
+  - http://www.msreverseengineering.com/s/Binary-Literacy-Static-6-Optimizations.ppt
 * Compiler Optimization Options
   - GCC: https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html
   - Clang: http://clang.llvm.org/docs/CommandGuide/clang.html#cmdoption-O0 - https://stackoverflow.com/questions/15548023/clang-optimization-levels
   - Visual C++: https://msdn.microsoft.com/en-us/library/19z1t1wy.aspx
 * Devirtualization in C++ - https://hubicka.blogspot.com/search/label/devirtualization
-* Link time optimization (LTO) - https://hubicka.blogspot.com/search/label/link-time%20optimization
 * GoingNative 50: New Visual C++ Code Optimizer - https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-50-New-Visual-C-Code-Optimizer
+* Link time optimization (LTO) - https://hubicka.blogspot.com/search/label/link-time%20optimization
 
 ## Superoptimization
 
@@ -117,18 +144,26 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 # Sanitizers
 
-https://maitesin.github.io/clang_sanitizers/
+* https://github.com/google/sanitizers
+  - https://github.com/google/sanitizers/wiki
+* https://maitesin.github.io/clang_sanitizers/
 
 # Talks
+
+## 2017
+
+* LLVM Internals #2 – Renato Golin, Peter Smith, Diana Picus, Omair Javaid, Adhemerval Zanella
+  - Linaro Connect Budapest 2017 - BUD17-302
+  - http://connect.linaro.org/resource/bud17/bud17-302/
 
 ## 2016
 
 * Introduction to LLVM – Projects, Components, Integration, Internals - Renato Golin
-  - Linaro Connect Las Vegas 2016 (LAS16) \ LAS16-501
+  - Linaro Connect Las Vegas 2016 - LAS16-501
   - http://connect.linaro.org/resource/las16/las16-501/
 * Anders Hejlsberg on Modern Compiler Construction
   - Channel 9; May 12, 2016
-   https://channel9.msdn.com/Blogs/Seth-Juarez/Anders-Hejlsberg-on-Modern-Compiler-Construction
+  - https://channel9.msdn.com/Blogs/Seth-Juarez/Anders-Hejlsberg-on-Modern-Compiler-Construction
 * STOKE: Search-Based Compiler Optimization - Alex Aiken
   - UCI CS Distinguished Lecture; April 29, 2016
   - https://www.youtube.com/watch?v=rZFeTTFp7x4

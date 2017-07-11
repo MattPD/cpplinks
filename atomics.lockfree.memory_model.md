@@ -306,6 +306,15 @@ A benchmark to compare synchronization techniques for multicore programming
 
 # Talks, Videos
 
+HiPEAC 2017: Sarita Adve - Coherence, Consistency, & Déjà vu: Memory Hierarchies in the Era of Specialization  
+Slides: http://rsim.cs.illinois.edu/Talks/17-hipeac.pdf  
+Video: https://www.youtube.com/watch?v=kjFjL_vTUWU
+
+CppCon 2016: Fedor Pikus - The speed of concurrency (is lock-free faster?)  
+Slides: https://github.com/CppCon/CppCon2016/tree/master/Presentations/The%20speed%20of%20concurrency%20%28is%20lock-free%20faster%29  
+Video: https://channel9.msdn.com/Events/CPP/CppCon-2016/CppCon-2016-Fedor-Pikus-The-speed-of-concurrency-is-lock-free-faster  
+Video: https://www.youtube.com/watch?v=9hJkWwHDDxs
+
 ACCU 2015: Atomic Counters or A Lesson on Performance and Hardware Concurrency  
 Info: http://accu.org/index.php/conferences/accu_conference_2015/accu2015_sessions#atomic_counters_or_a_lesson_on_performance_and_hardware_concurrency  
 Slides: http://accu.org/content/conf2015/DetlefVollmann-Atomic%20Counters.pdf  

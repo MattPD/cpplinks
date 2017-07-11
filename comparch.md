@@ -123,17 +123,24 @@ http://www.morganclaypool.com/toc/cac/11/1
 ## Emulation & Simulation
 
 * gem5 - http://gem5.org/
+  + Learning gem5: http://learning.gem5.org/
+    - Book: https://github.com/powerjg/learning_gem5
+    - Tutorial: http://learning.gem5.org/tutorial/  
+      Slides (HPCA 2017): http://www.cs.wisc.edu/multifacet/papers/learning_gem5_tutorial.pdf  
+      Videos (HPCA 2017): https://www.youtube.com/playlist?list=PL-J9GXT0E7AIidmX_DW7pooRJzjoaJtix
 * GPGPU-Sim - http://www.gpgpu-sim.org/ - https://github.com/gpgpu-sim/gpgpu-sim_distribution
 * Intel Software Development Emulator (SDE) - https://software.intel.com/en-us/articles/intel-software-development-emulator
 * MARSSx86 - http://marss86.org/
 * Multi2Sim - http://www.multi2sim.org/ - https://github.com/Multi2Sim/multi2sim
 * Sniper - http://snipersim.org/
+* XIOSim - A detailed michroarchitectural x86 simulator - https://github.com/s-kanev/XIOSim
 * ZSim - https://github.com/s5z/zsim - http://zsim.csail.mit.edu/tutorial/
 
 ## Journals & Publications
 
 * ACM SIGARCH - https://www.sigarch.org/
   + Computer Architecture News: http://dl.acm.org/citation.cfm?id=J89
+  + Computer Architecture Today: https://www.sigarch.org/blog/
 * ACM Transactions on Architecture and Code Optimization - http://taco.acm.org/
 * Computer Architecture Journals List - http://pascal.eng.uci.edu/info/jounral_list.htm
 * MICRO Test of Time (ToT) Award - http://www.microarch.org/Micro-ToT-Award/

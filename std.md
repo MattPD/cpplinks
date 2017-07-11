@@ -8,7 +8,7 @@
 * GCC - https://gcc.gnu.org/projects/cxx-status.html
 * GNU C++ Library (libstdc++) - https://gcc.gnu.org/onlinedocs/libstdc++/manual/status.html
 * Intel C++ Compiler - https://software.intel.com/en-us/articles/c14-features-supported-by-intel-c-compiler
-* Visual C++ - https://msdn.microsoft.com/en-us/library/hh567368.aspx
+* Visual C++ - https://msdn.microsoft.com/en-us/library/hh567368.aspx - https://docs.microsoft.com/en-us/cpp/visual-cpp-language-conformance
 
 # Standardization
 
@@ -23,12 +23,25 @@
 
 # C++17
 
+* Changes between C++14 and C++17 DIS - Thomas Köppe - https://isocpp.org/files/papers/p0636r0.html
+* C++ 17 Features - Bartłomiej Filipek
+  - Post: http://www.bfilipek.com/2017/01/cpp17features.html
+  - Source: https://github.com/fenbf/cpp17features
+* cpp17_in_TTs - Descriptions of C++17 features, presented mostly in "Tony Tables" - Tony Van Eerd - https://github.com/tvaneerd/cpp17_in_TTs
+* What's in C++17? - JF Bastien
+  - Slides: https://jfbastien.github.io/what-is-cpp17
+  - Source: https://github.com/jfbastien/what-is-cpp17
 * C++11/14/17: A cheat sheet of modern C++ language and library features - https://github.com/AnthonyCalandra/modern-cpp-features
 * C++17 for the daily job - Marco Arena, C++ Day 2016 – Italian C++ Community - http://www.italiancpp.org/wp-content/uploads/2016/10/Cpp17-for-the-daily-job.pdf
 * What are the new features in C++17? - http://stackoverflow.com/questions/38060436/what-are-the-new-features-in-c17/38060437#38060437
 * CppCon 2016: Alisdair Meredith "C++17 in Breadth"
   - part 1: https://www.youtube.com/watch?v=22jIHfvelZk
   - part 2: https://www.youtube.com/watch?v=-rIixnNJM4k
+
+## 2017-02 Kona
+
+* Trip Report: C++ Standards Meeting in Kona, February 2017 - https://botondballo.wordpress.com/2017/03/27/trip-report-c-standards-meeting-in-kona-february-2017/
+* Trip report: Winter ISO C++ standards meeting (Kona), C++17 is complete - https://herbsutter.com/2017/03/24/trip-report-winter-iso-c-standards-meeting-kona-c17-is-complete/
 
 ## 2016-11 Issaquah
 
