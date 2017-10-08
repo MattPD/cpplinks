@@ -2,6 +2,9 @@
 
 Note: see also [Communities](communities.md) -- where you can learn together.
 
+* C++ Core Guidelines
+	+ https://github.com/isocpp/cppcoreguidelines
+	+ http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines.html
 * C++ Samples - a repository of modern C++ samples curated by the community
 	+ http://www.cppsamples.com/
 	+ https://github.com/sftrabbit/CppSamples-Samples
