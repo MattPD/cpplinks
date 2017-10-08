@@ -37,7 +37,7 @@ Note: see also [Communities](communities.md) -- where you can learn together.
 * CppCon 2015: Kate Gregory “Stop Teaching C" - https://www.youtube.com/watch?v=YnWhqhNdYyk
 * CppCon 2017: Bjarne Stroustrup “Learning and Teaching Modern C++” - https://www.youtube.com/watch?v=fX2W3nNjJIo
 * Learning and teaching modern C++ - Arne Mertz - Meeting C++ 2016 - https://www.youtube.com/watch?v=N5wOrhL4ew8
-* Stop Teaching C (When Teaching C++) - CppCas with Kate Gregory - Oct 14th, 2015 - http://cppcast.com/2015/10/kate-gregory/
+* Stop Teaching C (When Teaching C++) - CppCast with Kate Gregory - Oct 14th, 2015 - http://cppcast.com/2015/10/kate-gregory/
 
 ### Self-Study
 
