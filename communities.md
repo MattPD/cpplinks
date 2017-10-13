@@ -20,8 +20,14 @@ Note: Please be mindful about the rules and focus of each of the following commu
 Project-specific, but likely of interest to the general C++ community.
 
 * Boost Mailing Lists - http://www.boost.org/community/groups.html
-* GCC Mailing Lists - https://gcc.gnu.org/lists.html
-* LLVM Mailing Lists - http://lists.llvm.org/mailman/listinfo
+* GCC
+	+ IRC
+		- usage: irc://irc.freenode.org/gcc - http://irc.netsplit.de/channels/details.php?room=%23gcc&net=freenode
+		- development: irc://irc.oftc.net/gcc - http://irc.netsplit.de/channels/details.php?room=%23gcc&net=OFTC
+	+ Mailing Lists - https://gcc.gnu.org/lists.html
+* LLVM
+	+ IRC - https://llvm.org/docs/#irc - irc://irc.oftc.net/llvm
+	+ Mailing Lists - http://lists.llvm.org/mailman/listinfo
 * MSDN, Visual C++ forums - http://social.msdn.microsoft.com/Forums/en/category/visualc/
 	+ Visual C++ General - http://social.msdn.microsoft.com/Forums/en/vcgeneral/
 	+ Visual C++ Language - http://social.msdn.microsoft.com/Forums/en/vclanguage/
