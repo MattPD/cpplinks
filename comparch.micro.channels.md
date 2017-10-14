@@ -189,19 +189,35 @@ http://caslab.csl.yale.edu/workshops/hasp2015/slides_05_evtyushkin.pdf
 
 ## 2017
 
-* Anders Fogh: "Covert shotgun: Automatically finding covert channels in SMT" - HackPra
+* Android Security Symposium 2017 - Drammer: Flip Feng Shui goes mobile (Victor van der Veen)
+	+ https://www.youtube.com/watch?v=Zyqq2hj9zrc
+* HackPra 2017 - Anders Fogh: "Covert shotgun: Automatically finding covert channels in SMT"
 	+ https://www.youtube.com/watch?v=oVmPQCT5VkY
 	+ https://cyber.wtf/2016/09/27/covert-shotgun/
+* HackPra 2017 - Victor van der Veen: "Drammer: The Making-Of" - https://www.youtube.com/watch?v=DF0k9yKYwfo
+* HITB2017AMS D1T1 - Drammer: The Making Of - Victor van der Veen
+	+ https://www.youtube.com/watch?v=_oCEpfw1IPM
+* Papers We Love Singapore #026 (2017) - Row Hammer: Flipping Bits in Memory Without Accessing Them
+	+ https://www.youtube.com/watch?v=1iBpLhFN_OA
+	+ https://speakerdeck.com/burnflare/row-hammer-papers-we-love
 * RuhrSec 2017: "A new categorization system for Side-channel attacks on mobile devices & more", Dr. Veelasha Moonsamy
 	+ https://www.youtube.com/watch?v=YxikZkZ6KuE
-* Victor van der Veen: "Drammer: The Making-Of" - https://www.youtube.com/watch?v=DF0k9yKYwfo
+* RuhrSec 2017: "Rowhammer Attacks: A Walkthrough Guide", Dr. Clémentine Maurice & Daniel Gruss
+	+ https://www.youtube.com/watch?v=-33gCDrSl_Q
+* RuhrSec 2017: "Using Microarchitectural Design to Break KASLR and More", Anders Fogh
+	+ https://www.youtube.com/watch?v=LyiB1jlUdN8
+* USENIX Security '17 - Strong and Efficient Cache Side-Channel Protection using Hardware Transactional Memory
+	+ https://www.youtube.com/watch?v=4_-c7ueHHqc
+	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/gruss
 
 ## 2016
 
-* ARMageddon: How Your Smartphone CPU Breaks Software-Level Security and Privacy - https://www.youtube.com/watch?v=9KsnFWejpQg
+* Black Hat 2016 - ARMageddon: How Your Smartphone CPU Breaks Software-Level Security and Privacy - https://www.youtube.com/watch?v=9KsnFWejpQg
 * CCS 2016 - CREDAL: Towards Locating a Memory Corruption Vulnerability with Your Core Dump - https://www.youtube.com/watch?v=jOL4oElUKjA
+* CCS 2016 - Drammer: Deterministic Rowhammer Attacks on Mobile Platforms - https://www.youtube.com/watch?v=lTaMvBN1PoA
 * CCS 2016 - ECDSA Key Extraction from Mobile Devices via Nonintrusive Physical Side Channels - https://www.youtube.com/watch?v=0SQUQbth5vU
 * CCS 2016 - On Code Execution Tracking via Power Side-Channel - https://www.youtube.com/watch?v=YwL_p3TxhlA
+* CHES 2016 - Curious case of Rowhammer Flipping Secret Exponent Bits using Timing Analysis - https://www.youtube.com/watch?v=8x2qodFfY5s
 * Clémentine Maurice: "Reverse-engineering CPUs for fun and profit" - https://www.youtube.com/watch?v=IT6PFSRrvsU
 * Daniel Gruss – Microarchitectural Incontinence - You would leak too if you were so fast! - https://www.youtube.com/watch?v=cAWmNp3Ukqk
 * DEF CON 24 2016 Side channel attacks on high security electronic safe locks - https://www.youtube.com/watch?v=vJ9NdvKYxeg
@@ -209,9 +225,11 @@ http://caslab.csl.yale.edu/workshops/hasp2015/slides_05_evtyushkin.pdf
 * HITB2016AMS D2T1 - Cache Side Channel Attacks: CPU Design As A Security Problem - Anders Fogh
 	+ https://www.youtube.com/watch?v=UH6dFbiX_hM
 	+ https://conference.hitb.org/hitbsecconf2016ams/materials/D2T1%20-%20Anders%20Fogh%20-%20Cache%20Side%20Channel%20Attacks.pdf
+* Fastly Security Speaker Series 2016 - Jasper van Woudenberg on Side channel analysis and fault injection - https://www.youtube.com/watch?v=bu59ya8nOBM
 * Return-Oriented Flush-Reload Side Channels on ARM and Their Implications for Android Devices - https://www.youtube.com/watch?v=tymvrJiJNl8
 * RuhrSec 2016: "Cache Side-Channel Attacks and the case of Rowhammer", Daniel Gruss - https://www.youtube.com/watch?v=gxsguH5opsM
 * Side-Channel Attacks on Everyday Applications - https://www.youtube.com/watch?v=GPwNFrpd1KU
+* Three lessons that I learnt from Rowhammer - with implications for future security research - Thomas Dullien (Halvar Flake) - Null Singapore - https://www.youtube.com/watch?v=fkDD2ea7SD8
 * Using Undocumented CPU Behavior to See Into Kernel Mode and Break KASLR in the Process - https://www.youtube.com/watch?v=Pwq0vv4X7m4 - 
 * What could possibly go wrong with {insert x86 instruction here}? [33c3] - https://www.youtube.com/watch?v=wue4QomGE74
 
@@ -223,6 +241,8 @@ http://caslab.csl.yale.edu/workshops/hasp2015/slides_05_evtyushkin.pdf
 * Exploiting Out-of-Order Execution For Covert Cross-VM Communication - Black Hat 2015
 	+ https://www.youtube.com/watch?v=SjcKqVRjNHc
 	+ https://www.blackhat.com/docs/us-15/materials/us-15-DAntoine-Exploiting-Out-Of-Order-Execution-For-Covert-Cross-VM-Communication.pdf
+* Exploiting the DRAM Rowhammer Bug to Gain Kernel Privileges - Mark Seaborn, Halvar Flake - Black Hat 2015
+	+ https://www.youtube.com/watch?v=0U7511Fb4to
 * Last-Level Cache Side-Channel Attacks are Practical - https://www.youtube.com/watch?v=vpGI1ggKzC4
 * REcon 2015 - Exploiting Out of Order Execution (Sophia D'Antoine)
 	+ https://www.youtube.com/watch?v=AbRoWa_xrzA
