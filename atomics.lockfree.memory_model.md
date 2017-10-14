@@ -306,14 +306,21 @@ A benchmark to compare synchronization techniques for multicore programming
 
 # Talks, Videos
 
-HiPEAC 2017: Sarita Adve - Coherence, Consistency, & Déjà vu: Memory Hierarchies in the Era of Specialization  
-Slides: http://rsim.cs.illinois.edu/Talks/17-hipeac.pdf  
-Video: https://www.youtube.com/watch?v=kjFjL_vTUWU
+## 2017
+
+* CppCon 2017: Fedor Pikus “C++ atomics, from basic to advanced. What do they really do?” - https://youtu.be/ZQFzMfHIxng
+* HiPEAC 2017: Sarita Adve - Coherence, Consistency, & Déjà vu: Memory Hierarchies in the Era of Specialization  
+	+ Slides: http://rsim.cs.illinois.edu/Talks/17-hipeac.pdf  
+	+ Video: https://www.youtube.com/watch?v=kjFjL_vTUWU
+
+## 2016
 
 CppCon 2016: Fedor Pikus - The speed of concurrency (is lock-free faster?)  
 Slides: https://github.com/CppCon/CppCon2016/tree/master/Presentations/The%20speed%20of%20concurrency%20%28is%20lock-free%20faster%29  
 Video: https://channel9.msdn.com/Events/CPP/CppCon-2016/CppCon-2016-Fedor-Pikus-The-speed-of-concurrency-is-lock-free-faster  
 Video: https://www.youtube.com/watch?v=9hJkWwHDDxs
+
+## 2015
 
 ACCU 2015: Atomic Counters or A Lesson on Performance and Hardware Concurrency  
 Info: http://accu.org/index.php/conferences/accu_conference_2015/accu2015_sessions#atomic_counters_or_a_lesson_on_performance_and_hardware_concurrency  
@@ -330,50 +337,6 @@ Info: http://accu.org/index.php/conferences/accu_conference_2015/accu2015_sessio
 Slides: http://accu.org/content/conf2015/HubertMatthews-Multithreading%20Dos%20And%20Donts.pdf  
 Video: http://www.infoq.com/presentations/multithreading  
 Note: more on atomics & memory ordering compared to the NDC 2014 version.
-
-Atmosphere 2014: Lockless programming - Tomasz Baranski  
-https://www.youtube.com/watch?v=JUeaCfhwvHE
-
-Black Hat USA 2013 - Shattering Illusions in Lock-Free Worlds: Compiler/Hardware Behaviors OSes/VMs  
-https://www.youtube.com/watch?v=wYFADkO-ZsA
-
-BoostCon 2010: Tony Van Eerd: The Basics of Lock-free Programming  
-https://www.youtube.com/watch?v=LbOB_moUa94
-
-BoostCon 2011: Tony Van Eerd: Lockfree Programming Part 2: Data Structures  
-https://www.youtube.com/watch?v=O4Jdq4PtfPA  
-(Part 2: continuing from where BoostCon 2010 left off)  
-Slides: https://github.com/boostcon/2011_presentations/raw/master/wed/lockfree_2011_slides.pdf
-
-C++ and Beyond 2012: atomic Weapons: The C++ Memory Model and Modern Hardware  
-https://channel9.msdn.com/Shows/Going+Deep/Cpp-and-Beyond-2012-Herb-Sutter-atomic-Weapons-1-of-2  
-https://channel9.msdn.com/Shows/Going+Deep/Cpp-and-Beyond-2012-Herb-Sutter-atomic-Weapons-2-of-2  
-
-C++Now! 2012 Tony Van Eerd: Don't Try This at Work -- Low Level Threading with C++11
-https://www.youtube.com/watch?v=b9wWC5uSqLE&list=PL_AKIMJc4roWXECUOVFsSTn6zs-145shM&index=20
-
-C++Now! 2013 Tony Van Eerd: Low Level Threading with C++11  
-https://www.youtube.com/watch?v=dKLAwNaNvAY
-
-C++ Wroclaw 0x03: Volodymyr Volkov - std::atomic explained  
-http://www.cppwroclaw.pl/dokuwiki/spotkania/003/info  
-https://vimeo.com/80599339
-
-CppCon 2014: Herb Sutter, "Lock-Free Programming (or, Juggling Razor Blades)"  
-http://herbsutter.com/2014/10/18/my-cppcon-talks-2/  
-Part 1: http://youtu.be/c1gO9aB9nbs - Lazy initialization with DCL vs. call_once vs. function local statics, and lock-free mailbox algorithms  
-Part 2: http://youtu.be/CmxkPChOcvw - Lock-free linked lists, the ABA problem, and atomic smart pointers  
-
-CppCon 2014: Jeff Preshing, "How Ubisoft Develops Games for Multicore - Before and After C++11"  
-Code: https://gist.github.com/preshing/4d28abad8da4e40cb1d4  
-Video: https://www.youtube.com/watch?v=X1T3IQ4N-3g
-
-CppCon 2014: Paul E. McKenney, "C++ Memory Model Meets High-Update-Rate Data Structures"  
-https://www.youtube.com/watch?v=1Q-RH2tiyt0
-
-CppCon 2014: Tony Van Eerd, "Lock-free by Example"  
-https://www.youtube.com/watch?v=Xf35TLFKiO8  
-https://channel9.msdn.com/Events/CPP/C-PP-Con-2014/Lock-free-by-Example
 
 CppCon 2015: Fedor Pikus "Live Lock-Free or Deadlock (Practical Lock-free Programming)"  
 Part 1: https://www.youtube.com/watch?v=lVBvHbJsg5Y  
@@ -394,24 +357,41 @@ https://www.youtube.com/watch?v=boPEO2auJj4
 ECOOP 2015: Brijesh Dongol - "Defining Correctness Conditions for Concurrent Objects in Multicore Architectures"  
 https://www.youtube.com/watch?v=PDQXpKE_Kao
 
-GoingNative 2012: Hans Boehm, "Threads and Shared Variables in C++11"  
-https://channel9.msdn.com/Events/GoingNative/GoingNative-2012/Threads-and-Shared-Variables-in-C-11
-
-LLVM Developers' Meeting 2014: Blowing up the (C++11) atomic barrier - Optimizing C++11 atomics in LLVM  
-Slides: http://llvm.org/devmtg/2014-10/Slides/Morisset-AtomicsPresentation.pdf  
-Video (Google Tech Talk): https://www.youtube.com/watch?v=hE4HW1Y2Dao  
-Video (720p): http://llvm.org/devmtg/2014-10/Videos/Blowing%20up%20the%20Atomic%20Barrier-720.mov  
-Video (360p): http://llvm.org/devmtg/2014-10/Videos/Blowing%20up%20the%20Atomic%20Barrier-360.mov
-
 LLVM Developers' Meeting 2015: European LLVM Conference  
 Keynote: "C Concurrency: Still Tricky", Francesco Zappa Nardelli  
 Video HD: http://llvm.org/devmtg/2015-04/Videos/HD/Day%201/Francesco%20Zappa%20Nardelli%20(keynote).mp4  
 Video SD: http://llvm.org/devmtg/2015-04/Videos/SD/Day%201/Francesco%20Zappa%20Nardelli%20(keynote)_1.mp4  
 Slides: http://llvm.org/devmtg/2015-04/slides/CConcurrency_EuroLLVM2015.pdf
 
-Hans-J. Boehm: C++11 Threads Surprises  
-Slides: https://parasol.tamu.edu/bjarnefest/program/boehm-slides.PDFs  
-Video (slides not visible): https://www.youtube.com/watch?v=UWx4EA2uBzs / https://www.youtube.com/watch?v=TnCWTPuWzIk
+NDC 2015: Chris Shore - Memory Access Ordering in Complex Embedded Systems  
+https://vimeo.com/131637104
+
+## 2014
+
+Atmosphere 2014: Lockless programming - Tomasz Baranski  
+https://www.youtube.com/watch?v=JUeaCfhwvHE
+
+CppCon 2014: Herb Sutter, "Lock-Free Programming (or, Juggling Razor Blades)"  
+http://herbsutter.com/2014/10/18/my-cppcon-talks-2/  
+Part 1: http://youtu.be/c1gO9aB9nbs - Lazy initialization with DCL vs. call_once vs. function local statics, and lock-free mailbox algorithms  
+Part 2: http://youtu.be/CmxkPChOcvw - Lock-free linked lists, the ABA problem, and atomic smart pointers  
+
+CppCon 2014: Jeff Preshing, "How Ubisoft Develops Games for Multicore - Before and After C++11"  
+Code: https://gist.github.com/preshing/4d28abad8da4e40cb1d4  
+Video: https://www.youtube.com/watch?v=X1T3IQ4N-3g
+
+CppCon 2014: Paul E. McKenney, "C++ Memory Model Meets High-Update-Rate Data Structures"  
+https://www.youtube.com/watch?v=1Q-RH2tiyt0
+
+CppCon 2014: Tony Van Eerd, "Lock-free by Example"  
+https://www.youtube.com/watch?v=Xf35TLFKiO8  
+https://channel9.msdn.com/Events/CPP/C-PP-Con-2014/Lock-free-by-Example
+
+LLVM Developers' Meeting 2014: Blowing up the (C++11) atomic barrier - Optimizing C++11 atomics in LLVM  
+Slides: http://llvm.org/devmtg/2014-10/Slides/Morisset-AtomicsPresentation.pdf  
+Video (Google Tech Talk): https://www.youtube.com/watch?v=hE4HW1Y2Dao  
+Video (720p): http://llvm.org/devmtg/2014-10/Videos/Blowing%20up%20the%20Atomic%20Barrier-720.mov  
+Video (360p): http://llvm.org/devmtg/2014-10/Videos/Blowing%20up%20the%20Atomic%20Barrier-360.mov
 
 Meeting C++ 2014: The C++ Memory Model - Valentin Ziegler  
 https://www.youtube.com/watch?v=gpsz8sc6mNU
@@ -425,10 +405,46 @@ https://www.youtube.com/watch?v=BiLX7n_z9s4
 https://github.com/meekrosoft/cppmemmodel  
 Slides: https://meekrosoft.github.io/cppmemmodel/  
 
-NDC 2015: Chris Shore - Memory Access Ordering in Complex Embedded Systems  
-https://vimeo.com/131637104
+## 2013
+
+Black Hat USA 2013 - Shattering Illusions in Lock-Free Worlds: Compiler/Hardware Behaviors OSes/VMs  
+https://www.youtube.com/watch?v=wYFADkO-ZsA
+
+C++Now! 2013 Tony Van Eerd: Low Level Threading with C++11  
+https://www.youtube.com/watch?v=dKLAwNaNvAY
+
+C++ Wroclaw 0x03: Volodymyr Volkov - std::atomic explained, 2013  
+https://vimeo.com/80599339
 
 SOSP 2013: Everything you always wanted to know about synchronization but were afraid to ask  
 Video: https://www.youtube.com/watch?v=Dfagg__PuKw  
 Article: http://sigops.org/sosp/sosp13/papers/p33-david.pdf  
 Tudor David, Rachid Guerraoui, and Vasileios Trigonakis. "Everything you always wanted to know about synchronization but were afraid to ask." Proceedings of the Twenty-Fourth ACM Symposium on Operating Systems Principles. ACM, 2013, pp. 33-48.
+
+## 2012
+
+C++ and Beyond 2012: atomic Weapons: The C++ Memory Model and Modern Hardware  
+https://channel9.msdn.com/Shows/Going+Deep/Cpp-and-Beyond-2012-Herb-Sutter-atomic-Weapons-1-of-2  
+https://channel9.msdn.com/Shows/Going+Deep/Cpp-and-Beyond-2012-Herb-Sutter-atomic-Weapons-2-of-2  
+
+C++Now! 2012 Tony Van Eerd: Don't Try This at Work -- Low Level Threading with C++11
+https://www.youtube.com/watch?v=b9wWC5uSqLE&list=PL_AKIMJc4roWXECUOVFsSTn6zs-145shM&index=20
+
+GoingNative 2012: Hans Boehm, "Threads and Shared Variables in C++11"  
+https://channel9.msdn.com/Events/GoingNative/GoingNative-2012/Threads-and-Shared-Variables-in-C-11
+
+Hans-J. Boehm: C++11 Threads Surprises, 2012  
+Slides: https://parasol.tamu.edu/bjarnefest/program/boehm-slides.PDFs  
+Video (slides not visible): https://www.youtube.com/watch?v=UWx4EA2uBzs / https://www.youtube.com/watch?v=TnCWTPuWzIk
+
+## 2011
+
+BoostCon 2011: Tony Van Eerd: Lockfree Programming Part 2: Data Structures  
+https://www.youtube.com/watch?v=O4Jdq4PtfPA  
+(Part 2: continuing from where BoostCon 2010 left off)  
+Slides: https://github.com/boostcon/2011_presentations/raw/master/wed/lockfree_2011_slides.pdf
+
+## 2010
+
+BoostCon 2010: Tony Van Eerd: The Basics of Lock-free Programming  
+https://www.youtube.com/watch?v=LbOB_moUa94

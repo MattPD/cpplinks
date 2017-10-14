@@ -21,7 +21,7 @@ Note: see also [compilers](compilers.md)
 * Automatic Testing of Symbolic Execution Engines via Program Generation and Differential Testing - https://srg.doc.ic.ac.uk/files/papers/symex-engine-tester-ase-17.pdf
 * Detecting Missed Arithmetic Optimization in C Compilers by Differential Random Testing - http://ist.ksc.kwansei.ac.jp/~ishiura/publications/C2016-10a.pdf
 * Differential Testing for Software - http://www.cs.dartmouth.edu/~mckeeman/references/DifferentialTestingForSoftware.pdf
-* Evaluating the Effects of Compiler Optimizations on Mutation Testing at the Compiler IR Level - ISSRE’16 – Ottawa, Canada
+* Evaluating the Effects of Compiler Optimizations on Mutation Testing at the Compiler IR Level - ISSRE’16
 	+ http://mir.cs.illinois.edu/farah/presentations/issre16_presentation.pdf
 	+ http://mir.cs.illinois.edu/marinov/publications/HaririETAL16CompilerIRMutation.pdf
 	+ https://www.researchgate.net/publication/311529837_Evaluating_the_Effects_of_Compiler_Optimizations_on_Mutation_Testing_at_the_Compiler_IR_Level
@@ -36,6 +36,7 @@ Note: see also [compilers](compilers.md)
 	+ http://lambda-the-ultimate.org/node/4241
 * RandIR: Differential Testing for Embedded Compilers - https://www.cs.purdue.edu/homes/rompf/papers/ofenbeck-scala16.pdf
 * Test-Case Reduction for C Compiler Bugs - https://www.cs.utah.edu/~regehr/papers/pldi12-preprint.pdf
+* Testing LLVM - http://blog.regehr.org/archives/1450
 * The problem with differential testing is that at least one of the compilers must get it right - http://blog.frama-c.com/index.php?post/2013/09/25/The-problem-with-differential-testing-is-that-at-least-one-of-the-compilers-must-get-it-right
 
 ## Software

@@ -152,6 +152,9 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 ## 2017
 
+* Getting started with LLVM: the TL;DR version - Diana Picus
+  - LinaroOrg Connect San Francisco 2017 - SFO17
+  - https://connect.linaro.org/resource/sfo17/sfo17-110/
 * LLVM Internals #2 – Renato Golin, Peter Smith, Diana Picus, Omair Javaid, Adhemerval Zanella
   - Linaro Connect Budapest 2017 - BUD17-302
   - http://connect.linaro.org/resource/bud17/bud17-302/

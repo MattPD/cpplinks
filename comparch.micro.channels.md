@@ -13,11 +13,12 @@ Note: see [Computer Architecture](comparch.md)
 	+ http://essay.utwente.nl/72321/
 	+ http://essay.utwente.nl/72321/1/Krak_MA_EEMCS.pdf
 	+ model of instruction execution time for the ARM Cortex-A7
-* Software-based Microarchitectural Attacks - Daniel Gruss, PhD thesis, 2017
-	+ https://gruss.cc/files/phd_thesis.pdf
-	+ slides: https://gruss.cc/files/phd_defense_slides.pdf
 * MASCAB: a Micro-Architectural Side-Channel Attack Bibliography - https://github.com/danpage/mascab
 - YouTube playlist: https://www.youtube.com/playlist?list=PLcjiHk8Sl-KK1qY4JOzTDu095TscjcEVa
+* Mastik: A Micro-Architectural Side-Channel Toolkit
+	+ http://cs.adelaide.edu.au/~yval/Mastik/
+	+ http://cryptologie.net/article/366/ches-2016-tutorial-part-1-common-criteria-certification-of-a-smartcard-a-technical-overview/
+	+ https://cryptologie.net/article/367/ches-2016-tutorial-part-2-micro-architectural-side-channel-attacks/
 * Microarchitectural Side-Channel Attacks - CHES 2016 tutorial
 	+ http://cs.adelaide.edu.au/~yval/CHES16/
 	+ http://cs.adelaide.edu.au/~yval/CHES16/CHES16-tutorial.pptx
@@ -25,10 +26,9 @@ Note: see [Computer Architecture](comparch.md)
 	+ http://www.chesworkshop.org/ches2016/presentations/CHES16-Tutorial2_1.pdf
 	+ http://www.chesworkshop.org/ches2016/presentations/CHES16-Tutorial2_2.pdf
 	+ https://cryptologie.net/article/367/ches-2016-tutorial-part-2-micro-architectural-side-channel-attacks/
-* Mastik: A Micro-Architectural Side-Channel Toolkit
-	+ http://cs.adelaide.edu.au/~yval/Mastik/
-	+ http://cryptologie.net/article/366/ches-2016-tutorial-part-1-common-criteria-certification-of-a-smartcard-a-technical-overview/
-	+ https://cryptologie.net/article/367/ches-2016-tutorial-part-2-micro-architectural-side-channel-attacks/
+* Software-based Microarchitectural Attacks - Daniel Gruss, PhD thesis, 2017
+	+ https://gruss.cc/files/phd_thesis.pdf
+	+ slides: https://gruss.cc/files/phd_defense_slides.pdf
 * Survey of Microarchitectural Side and Covert Channels, Attacks, and Defenses - Jakub Szefer 
 	+ http://eprint.iacr.org/2016/479
 * Systematic Classification of Side-Channel Attacks: A Case Study for Mobile Devices - https://arxiv.org/abs/1611.03748

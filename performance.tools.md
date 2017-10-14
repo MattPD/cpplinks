@@ -101,7 +101,7 @@ Systems Benchmarking Crimes - Gernot Heiser - https://www.cse.unsw.edu.au/~gerno
 
 ## Profiling - Memory
 
-* Heaptrack - A Heap Memory Profiler for Linux Syndicate content
+* Heaptrack - A Heap Memory Profiler for Linux
   - https://github.com/KDE/heaptrack
   - http://milianw.de/blog/heaptrack-a-heap-memory-profiler-for-linux
 

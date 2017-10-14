@@ -1,4 +1,4 @@
-# [C++ links](README.md): Learning and Teaching
+# [C++ links](README.md): Learning and teaching
 
 Note: see also [Communities](communities.md) -- where you can learn together.
 
