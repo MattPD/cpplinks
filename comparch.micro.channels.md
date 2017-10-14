@@ -92,7 +92,7 @@ http://caslab.csl.yale.edu/workshops/hasp2015/slides_05_evtyushkin.pdf
 * Another Flip in the Wall of Rowhammer Defenses - https://arxiv.org/abs/1710.00551
 * DRAMA: How Your DRAM Becomes a Security Problem
 	+ slides: https://www.blackhat.com/docs/eu-16/materials/eu-16-Schwarz-How-Your-DRAM-Becomes-A-Security-Problem.pdf
-	+ thesis: DRAMA: Exploiting DRAM Buffers for Fun and Profit
+	+ thesis: DRAMA: Exploiting DRAM Buffers for Fun and Profit - https://www.blackhat.com/docs/eu-16/materials/eu-16-Schwarz-How-Your-DRAM-Becomes-A-Security-Problem-wp.pdf
 	+ Black Hat Europe 2016: https://www.youtube.com/watch?v=lSU6YzjIIiQ
 * Hammertime: a software suite for testing, profiling and simulating the rowhammer DRAM defect - https://github.com/vusec/hammertime
 * Whispers in the Hyper-space: High-speed Covert Channel Attacks in the Cloud - https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/wu
