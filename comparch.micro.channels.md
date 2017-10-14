@@ -14,7 +14,7 @@ Note: see [Computer Architecture](comparch.md)
 	+ http://essay.utwente.nl/72321/1/Krak_MA_EEMCS.pdf
 	+ model of instruction execution time for the ARM Cortex-A7
 * MASCAB: a Micro-Architectural Side-Channel Attack Bibliography - https://github.com/danpage/mascab
-- YouTube playlist: https://www.youtube.com/playlist?list=PLcjiHk8Sl-KK1qY4JOzTDu095TscjcEVa
+	+ YouTube playlist: https://www.youtube.com/playlist?list=PLcjiHk8Sl-KK1qY4JOzTDu095TscjcEVa
 * Mastik: A Micro-Architectural Side-Channel Toolkit
 	+ http://cs.adelaide.edu.au/~yval/Mastik/
 	+ http://cryptologie.net/article/366/ches-2016-tutorial-part-1-common-criteria-certification-of-a-smartcard-a-technical-overview/
