@@ -9,7 +9,7 @@ Note: see [Computer Architecture](comparch.md)
 	+ http://eprint.iacr.org/2016/613
 	+ https://ts.data61.csiro.au/publications/nictaabstracts/9074.pdf
 	+ http://eprint.iacr.org.metacomment.io/2016/613
-* Cycle-Accurate Timing Channel Analysis of Binary Code" - Roeland Krak, 2017
+* Cycle-Accurate Timing Channel Analysis of Binary Code - Roeland Krak, 2017
 	+ http://essay.utwente.nl/72321/
 	+ http://essay.utwente.nl/72321/1/Krak_MA_EEMCS.pdf
 	+ model of instruction execution time for the ARM Cortex-A7
