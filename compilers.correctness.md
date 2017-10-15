@@ -37,6 +37,10 @@ Note: see also [compilers](compilers.md)
 * RandIR: Differential Testing for Embedded Compilers - https://www.cs.purdue.edu/homes/rompf/papers/ofenbeck-scala16.pdf
 * Test-Case Reduction for C Compiler Bugs - https://www.cs.utah.edu/~regehr/papers/pldi12-preprint.pdf
 * Testing LLVM - http://blog.regehr.org/archives/1450
+* The Correctness-Security Gap in Compiler Optimization - LangSec 2015, IEEE SPW
+	+ paper: https://research.google.com/pubs/pub43856.html
+	+ slides: https://nebelwelt.net/publications/files/15LangSec-presentation.pdf
+	+ talk: https://www.youtube.com/watch?v=g6LCtHz_MDc&list=PL0pRF4xvoD0kuECJuowraVIIHlT3pN1Cm&index=3
 * The problem with differential testing is that at least one of the compilers must get it right - http://blog.frama-c.com/index.php?post/2013/09/25/The-problem-with-differential-testing-is-that-at-least-one-of-the-compilers-must-get-it-right
 
 ## Software
