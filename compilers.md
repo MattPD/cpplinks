@@ -186,8 +186,8 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
   - UW CSE Colloquium; December 2, 2014
   - https://www.youtube.com/watch?v=Ux0YnVEaI6A
 * Compiler Technologies - Jim Hogg
- - Northwest C++ Users' Group; October 15, 2014
- - http://nwcpp.org/october-2014.html
+  - Northwest C++ Users' Group; October 15, 2014
+  - http://nwcpp.org/october-2014.html
 
 ## 2013
 
