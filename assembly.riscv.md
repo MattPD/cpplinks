@@ -117,10 +117,11 @@ https://riscv.org/software-tools/
 * RISC-V Meta – a suite of tools that operate on RISC-V ISA - https://github.com/michaeljclark/riscv-meta/
 * RISC-V support for LLVM projects - http://www.lowrisc.org/llvm/status/ - https://github.com/lowRISC/riscv-llvm
 * RISC-V Torture Test Generator - https://github.com/ucb-bar/riscv-torture 
+* riscv-semantics - formal specification of the RISC-V ISA written in Haskell - https://github.com/mit-plv/riscv-semantics
 * RISCVEMU - http://bellard.org/riscvemu/  
   RISCVEMU is a system emulator for the RISC-V architecture. Its purpose is to be small and simple while being complete. Among its features the support of 128 bit addressing and 128 bit floating point makes it ready for the future!
 * RISCVEmu Toy RISC-V emulator - https://github.com/jdryg/RISCVEmu
-* RISC-V simulator for x86-64 - https://rv8.io/
+* rv8: RISC-V simulator for x86-64 - https://rv8.io/
   - https://github.com/rv8-io/rv8
 * Spike, a RISC-V ISA Simulator - https://github.com/riscv/riscv-isa-sim
 * venus: RISC-V instruction set simulator built for education
