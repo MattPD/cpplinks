@@ -130,9 +130,18 @@ http://www.morganclaypool.com/toc/cac/11/1
       Videos (HPCA 2017): https://www.youtube.com/playlist?list=PL-J9GXT0E7AIidmX_DW7pooRJzjoaJtix
 * GPGPU-Sim - http://www.gpgpu-sim.org/ - https://github.com/gpgpu-sim/gpgpu-sim_distribution
 * Intel Software Development Emulator (SDE) - https://software.intel.com/en-us/articles/intel-software-development-emulator
+* MacSim: Simulator for Heterogeneous Architecture
+  + a cycle-level, heterogeneous architecture simulator for x86 and NVIDIA PTX instructions
+  + http://comparch.gatech.edu/hparch/macsim.html
+  + https://github.com/gthparch/macsim
 * MARSSx86 - http://marss86.org/
 * Multi2Sim - http://www.multi2sim.org/ - https://github.com/Multi2Sim/multi2sim
 * Sniper - http://snipersim.org/
+* Structural Simulation Toolkit (SST) - http://sst-simulator.org/
+  + https://github.com/sstsimulator
+  + Modsim2017 Presentation: http://hpc.pnl.gov/modsim/2017/Presentations/SST_Modsim17.pdf
+  + SST components overview (2016): https://www.youtube.com/watch?v=D5gDYy9aqf4
+  + ISCA 2015 Tutorial: https://www.osti.gov/scitech/servlets/purl/1257684
 * XIOSim - A detailed michroarchitectural x86 simulator - https://github.com/s-kanev/XIOSim
 * ZSim - https://github.com/s5z/zsim - http://zsim.csail.mit.edu/tutorial/
 
