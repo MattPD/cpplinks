@@ -21,6 +21,10 @@ Note: see also [compilers](compilers.md)
 * Automatic Testing of Symbolic Execution Engines via Program Generation and Differential Testing - https://srg.doc.ic.ac.uk/files/papers/symex-engine-tester-ase-17.pdf
 * Detecting Missed Arithmetic Optimization in C Compilers by Differential Random Testing - http://ist.ksc.kwansei.ac.jp/~ishiura/publications/C2016-10a.pdf
 * Differential Testing for Software - http://www.cs.dartmouth.edu/~mckeeman/references/DifferentialTestingForSoftware.pdf
+* Effect-Driven QuickChecking of Compilers - Jan Midtgaard - ICFP 2017
+	+ paper: http://janmidtgaard.dk/papers/Midtgaard-al%3AICFP17-full.pdf
+	+ implementation: https://github.com/jmid/efftester
+	+ talk: http://podcasts.ox.ac.uk/effect-driven-quickchecking-compilers
 * Evaluating the Effects of Compiler Optimizations on Mutation Testing at the Compiler IR Level - ISSRE’16
 	+ http://mir.cs.illinois.edu/farah/presentations/issre16_presentation.pdf
 	+ http://mir.cs.illinois.edu/marinov/publications/HaririETAL16CompilerIRMutation.pdf
@@ -60,6 +64,9 @@ Note: see also [compilers](compilers.md)
 * Coverage-Directed Differential Testing of JVM Implementations - Yuting Chen, PLDI 2016
 	+ https://www.youtube.com/watch?v=2Reaqfp4v-g
 	+ http://cse.sjtu.edu.cn/~zhao/pub/pdf/pldi2016.pdf
+* 2017 EuroLLVM Developers’ Meeting: J. Bogner “Adventures in Fuzzing Instruction Selection”
+	+ https://www.youtube.com/watch?v=UBbQ_s6hNgg
+	+ http://llvm.org/devmtg/2017-03//assets/slides/adventures_in_fuzzing_instruction_selection.pdf
 * Exposing Difficult Compiler Bugs With Random Testing
 	+ https://gcc.gnu.org/wiki/summit2010?action=AttachFile&do=get&target=regehr_gcc_summit_2010.pdf
 * Testing Language Implementations - Alastair Donaldson - Programming Language Implementation Summer School (PLISS) 2017
