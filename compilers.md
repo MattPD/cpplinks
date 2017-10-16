@@ -67,6 +67,16 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
   - https://github.com/decomp/decomp
   - Design documents: https://github.com/decomp/doc
 
+# Detection
+
+* Pre-defined Compiler Macros - https://sourceforge.net/p/predef/wiki/
+	+ Architectures - https://sourceforge.net/p/predef/wiki/Architectures/
+	+ Compilers - https://sourceforge.net/p/predef/wiki/Compilers/
+	+ Endianness - https://sourceforge.net/p/predef/wiki/Endianness/
+	+ Language Standards - https://sourceforge.net/p/predef/wiki/Standards/
+	+ Operating Systems - https://sourceforge.net/p/predef/wiki/OperatingSystems/
+	+ Standard Libraries - https://sourceforge.net/p/predef/wiki/Libraries/
+
 # Documentation
 
 * Clang documentation - http://clang.llvm.org/docs/
