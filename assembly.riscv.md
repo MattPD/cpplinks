@@ -100,6 +100,7 @@ https://riscv.org/specifications/
 * RISC-V Instruction Set Manual - https://github.com/riscv/riscv-isa-manual
 * RISC-V Instruction Set Listing - https://github.com/michaeljclark/riscv-meta/blob/master/doc/pdf/riscv-instructions.pdf
 * RISC-V Instruction Types - https://github.com/michaeljclark/riscv-meta/blob/master/doc/pdf/riscv-types.pdf
+* RISC-V Toolchain Conventions - https://github.com/lowRISC/riscv-toolchain-conventions
 * The RISC-V Compressed Instruction Set Manual - https://riscv.org/specifications/compressed-isa/
 * The RISC-V Instruction Set Manual, Volume I: User-Level ISA - https://riscv.org/specifications/
 * The RISC-V Instruction Set Manual Volume II: Privileged Architecture - https://riscv.org/specifications/privileged-isa/
@@ -138,6 +139,7 @@ https://riscv.org/software-tools/
   - Part 4: The RISC-V Code Models - https://www.sifive.com/blog/2017/09/11/all-aboard-part-4-risc-v-code-models/
   - Part 5: Per-march and per-mabi Library Paths on RISC-V Systems - https://www.sifive.com/blog/2017/09/18/all-aboard-part-5-risc-v-multilib/
   - Part 6: Booting a RISC-V Linux Kernel - https://www.sifive.com/blog/2017/10/09/all-aboard-part-6-booting-a-risc-v-linux-kernel/
+  - Part 7: Entering and Exiting the Linux Kernel on RISC-V - https://www.sifive.com/blog/2017/10/23/all-aboard-part-7-entering-and-exiting-the-linux-kernel-on-risc-v/
 * Building upstream RISC-V GCC+binutils+newlib: the quick and dirty way - http://www.lowrisc.org/blog/2017/09/building-upstream-risc-v-gccbinutilsnewlib-the-quick-and-dirty-way/
 * RISC-V 101 Webinar - https://info.sifive.com/risc-v-webinar
 * RISC-V Presentation at ESC Boston 2016 - https://riscv.org/2016/04/risc-v-presentation-esc-boston/
