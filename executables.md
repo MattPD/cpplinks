@@ -413,6 +413,7 @@ Contents:
 * radare2 PDB usage - https://github.com/radare/radare2/blob/master/doc/pdb/pdb_usage
 * The PDB File Format - https://llvm.org/docs/PDB/
 * The PDB Info Stream (aka the PDB Stream) - http://llvm.org/docs/PDB/PdbStream.html
+* PDB File Internals - http://www.informit.com/articles/article.aspx?p=22685
 * PDB Info Stream - https://www.reddit.com/r/programming/comments/6ukeuk/llvm_on_windows_now_supports_pdb_debug_info/dlvtucx/
 * PDB Stream Decomposition - https://moyix.blogspot.com/2007/08/pdb-stream-decomposition.html
 * pdbparse - Stream Descriptions wiki - https://code.google.com/archive/p/pdbparse/wikis/StreamDescriptions.wiki
@@ -429,6 +430,7 @@ Contents:
 * MSFViewer - viewing and understanding PDB Multi-Stream File (MSF) data - https://github.com/apoch/epoch-language/tree/master/Tools/MSFViewer
 * pdbinfo:  displays information about PDB symbol files (timestamp, GUID, and age) - https://github.com/randomascii/tools/tree/master/pdbinfo
 * PDBparse - Python code to parse Microsoft PDB files - https://github.com/moyix/pdbparse
+* PdbReader & PdbWriter - Common Compiler Infrastructure (CCI) - https://github.com/Microsoft/cci/tree/master/PDBReaderAndWriter
 * Syzygy Transformation Toolchain - PDB Module - https://github.com/google/syzygy/tree/master/syzygy/pdb
 
 ## Talks
