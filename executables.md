@@ -270,7 +270,6 @@ Contents:
 * ELFIO - ELF (Executable and Linkable Format) reader and producer implemented as a header only C++ library
 	+ http://serge1.github.io/ELFIO 
 	+ https://github.com/serge1/ELFIO
-	+ https://mcuoneclipse.com/2013/04/14/text-data-and-bss-code-and-data-size-explained/
 * ELFkickers (ebfc, elfls, elftoc, infect, objres, rebind, sstrip) - http://www.muppetlabs.com/~breadbox/software/elfkickers.html
 * elfutils
 	+ a collection of utilities and libraries to read, create and modify ELF binary files, find and handle DWARF debug data, symbols, thread state and stacktraces for processes and core files on GNU/Linux
@@ -280,9 +279,11 @@ Contents:
 	+ nm: List symbols from object files - https://sourceware.org/binutils/docs/binutils/nm.html
 	+ readelf: Display the contents of ELF format files - https://sourceware.org/binutils/docs/binutils/readelf.html
 	+ size: List section sizes and total size - https://sourceware.org/binutils/docs/binutils/size.html
-		- examples:  
-		  http://www.geeksforgeeks.org/memory-layout-of-c-program/
-		  Check Size of Code, Data, and .BSS Segments - http://cs-fundamentals.com/c-programming/memory-layout-of-c-program-code-data-segments.php#size-of-code-data-bss-segments
+		- examples:
+			- https://mcuoneclipse.com/2012/09/24/code-size-information-with-gcc-for-armkinetis/
+			- https://mcuoneclipse.com/2013/04/14/text-data-and-bss-code-and-data-size-explained/
+			- http://www.geeksforgeeks.org/memory-layout-of-c-program/
+			- http://cs-fundamentals.com/c-programming/memory-layout-of-c-program-code-data-segments.php#size-of-code-data-bss-segments
 * Libelf - ELF object file access library - http://www.mr511.de/software/english.html
 	+ libelf-howto - http://chris.rohlf.googlepages.com/libelf-howto.c
 * Libelfin: C++11 ELF/DWARF parser - a from-scratch C++11 library for reading ELF binaries and DWARFv4 debug information - https://github.com/aclements/libelfin
@@ -413,8 +414,10 @@ Contents:
 * The PDB File Format - https://llvm.org/docs/PDB/
 * The PDB Info Stream (aka the PDB Stream) - http://llvm.org/docs/PDB/PdbStream.html
 * PDB Info Stream - https://www.reddit.com/r/programming/comments/6ukeuk/llvm_on_windows_now_supports_pdb_debug_info/dlvtucx/
+* PDB Stream Decomposition - https://moyix.blogspot.com/2007/08/pdb-stream-decomposition.html
 * pdbparse - Stream Descriptions wiki - https://code.google.com/archive/p/pdbparse/wikis/StreamDescriptions.wiki
 * Symbols the Microsoft Way - https://randomascii.wordpress.com/2013/03/09/symbols-the-microsoft-way/
+* The Types Stream - https://moyix.blogspot.com/2007/10/types-stream.html
 * What’s inside a PDB File? - https://blogs.msdn.microsoft.com/vcblog/2016/02/08/whats-inside-a-pdb-file/
 
 ## Software
