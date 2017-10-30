@@ -23,6 +23,7 @@ Hopefully some will find this of some use and interest, too :-)
   - [GPU](comparch.gpu.md)
   - microarchitecture
     - [channels](comparch.micro.channels.md)
+- [Executables](executables.md) - executable & object file formats (ELF, Mach-O, PE); debugging data formats (DWARF, PDB)
 - [Learning and teaching](learning_teaching.md)
 - [Performance tools](performance.tools.md)
 - [Standardization](std.md)
