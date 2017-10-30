@@ -9,8 +9,7 @@ See also: [compilers](compilers.md)
 Contents:
 
 * [General](#general): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks)
-* [DLL](#dll): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-1) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-1)
-	+ [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-1)
+* [DLL](#dll): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-1) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-1) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-1)
 * [DWARF](#dwarf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-2) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-2) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-2)
 * [ELF](#elf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-3) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-3) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-3)
 * [Mach-O](#mach-o): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-4) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-4) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-4)
