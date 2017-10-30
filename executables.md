@@ -9,11 +9,33 @@ See also: [compilers](compilers.md)
 Contents:
 
 * [General](#general)
+	+ [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings)
+	+ [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software)
+	+ [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks)
 * [DLL](#dll)
+	+ [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-1)
+	+ [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-1)
+	+ [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-1)
 * [DWARF](#dwarf)
-* [PDB](#pdb)
-* [PE](#pe)
+	+ [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-2)
+	+ [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-2)
+	+ [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-2)
+* [ELF](#elf)
+	+ [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-3)
+	+ [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-3)
+	+ [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-3)
 * [Mach-O](#mach-o)
+	+ [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-4)
+	+ [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-4)
+	+ [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-4)
+* [PDB](#pdb)
+	+ [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-5)
+	+ [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-5)
+	+ [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-5)
+* [PE](#pe)
+	+ [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-6)
+	+ [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-6)
+	+ [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-6)
 
 ---
 
@@ -348,6 +370,15 @@ Contents:
 
 # Mach-O
 
+* Mach-O Runtime Architecture - http://math-atlas.sourceforge.net/devel/assembly/MachORuntime.pdf
+* Mach-O Programming Topics - https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/MachOTopics/0-Introduction/introduction.html
+* OS X ABI Mach-O File Format Reference
+	+ https://github.com/aidansteele/osx-abi-macho-file-format-reference
+	+ PDF: https://pewpewthespells.com/re/Mach-O_File_Format.pdf
+* Reverse Engineering/Mac OS X - https://en.wikibooks.org/wiki/Reverse_Engineering/Mac_OS_X
+
+## Readings
+
 * Basics of the Mach-O file format - https://samhuri.net/posts/2010/01/basics-of-the-mach-o-file-format/
 * Dynamic Linking: ELF vs. Mach-O - http://timetobleed.com/dynamic-linking-elf-vs-mach-o/
 * Dynamic symbol table duel: ELF vs Mach-O, round 2 - http://timetobleed.com/dynamic-symbol-table-duel-elf-vs-mach-o-round-2/
@@ -358,16 +389,10 @@ Contents:
 * Friday Q&A 2012-11-30: Let's Build A Mach-O Executable - https://www.mikeash.com/pyblog/friday-qa-2012-11-30-lets-build-a-mach-o-executable.html
 * Mach-O Binaries - http://www.m4b.io/reverse/engineering/mach/binaries/2015/03/29/mach-binaries.html
 * Mach-O Executables - https://www.objc.io/issues/6-build-tools/mach-o-executables/
-* Mach-O Runtime Architecture - http://math-atlas.sourceforge.net/devel/assembly/MachORuntime.pdf
-* Mach-O Programming Topics - https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/MachOTopics/0-Introduction/introduction.html
-* OS X ABI Mach-O File Format Reference
-	+ https://github.com/aidansteele/osx-abi-macho-file-format-reference
-	+ PDF: https://pewpewthespells.com/re/Mach-O_File_Format.pdf
 * Parsing Mach-O files - https://lowlevelbits.org/parsing-mach-o-files/
 * Playing with Mach-O binaries and dyld
 	+ https://blog.lse.epita.fr/articles/82-playing-with-mach-os-and-dyld.html
 	+ https://lse.epita.fr/data/lt/2017-03-14/lt-2017-03-14-Stanislas_Lejay-Playing_with_machos_and_dyld.pdf
-* Reverse Engineering/Mac OS X - https://en.wikibooks.org/wiki/Reverse_Engineering/Mac_OS_X
 
 ## Software
 
