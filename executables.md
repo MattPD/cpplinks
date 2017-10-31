@@ -48,6 +48,7 @@ Contents:
 	+ The purpose of this project is to provide a cross platform library which can parse, modify and abstract ELF, PE and MachO formats.
 	+ https://github.com/lief-project/LIEF
 	+ https://lief.quarkslab.com/
+	+ references: https://lief.quarkslab.com/doc/references.html
 * Pyew - https://github.com/joxeankoret/pyew
 	+ Pyew is a (command line) python tool to analyse malware. It does have support for hexadecimal viewing, disassembly (Intel 16, 32 and 64 bits), PE and ELF file formats (it performs code analysis and let you write scripts using an API to perform many types of analysis), follows direct call/jmp instructions in the interactive command line, displays function names and string data references; supports OLE2 format, PDF format and more. It also supports plugins to add more features to the tool.
 * Ropper - ROP gadget finder and binary information tool (ELF, PE, Mach-O)
@@ -105,6 +106,7 @@ Contents:
 
 * An interesting tree serialization algorithm from DWARF - https://eli.thegreenplace.net/2011/09/29/an-interesting-tree-serialization-algorithm-from-dwarf
 * David A's DWARF Page - https://www.prevanders.net/dwarf.html
+* Debug Information is Huge and What to do About It - https://documentation.backtrace.io/dwarf/
 * Debugging formats DWARF and STAB - https://www.ibm.com/developerworks/library/os-debugging/
 * DWARF Extensions for Separate Debug Information Files - https://gcc.gnu.org/wiki/DebugFission
 * DWARF Package File Format - https://gcc.gnu.org/wiki/DebugFissionDWP
@@ -184,10 +186,11 @@ Contents:
 
 ## Readings
 
-* About ELF Auxiliary Vectors - http://articles.manugarg.com/aboutelfauxiliaryvectors
 * A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux
 	+ http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
 	+ https://github.com/abraithwaite/teensy
+* About ELF Auxiliary Vectors - http://articles.manugarg.com/aboutelfauxiliaryvectors
+* Armouring the ELF: Binary encryption on the UNIX platform - scut & grugq - Phrack Magazine #58 (2001-12-28) - http://www.phrack.org/issues/58/5.html
 * Building an ELF Parser with Frida - https://versprite.com/og/frida/
 * Cheating the ELF: Subversive Dynamic Linking to Libraries - https://grugq.github.io/docs/subversiveld.pdf
 * Constructing the ELF - A Magnetized Needle and a Steady Hand - http://nullprogram.com/blog/2016/11/17/
@@ -217,6 +220,7 @@ Contents:
 * Generating executable files from scratch - https://github.com/cameronswinoga/yabfc/wiki/Generating-executable-files-from-scratch
 * Good Practices in Library Design, Implementation, and Maintenance - https://www.akkadia.org/drepper/goodpractice.pdf
 * How is a binary executable organized? Let's explore it! - https://jvns.ca/blog/2014/09/06/how-to-read-an-executable/
+* How programs get run: ELF binaries - https://lwn.net/Articles/631631/
 * How To Write Shared Libraries - https://www.akkadia.org/drepper/dsohowto.pdf
 * I/O patterns on ELF binary initialization - https://glandium.org/blog/?p=1016
 * Improving binary layout for progressive decompression (2011) - https://glandium.org/blog/?p=2320
@@ -238,6 +242,9 @@ Contents:
 	+ https://publicclu2.blogspot.com/2013/05/executable-and-linkable-format-elf.html
 	+ https://www.cs.stevens.edu/~jschauma/810/elf.html
 	+ http://web.archive.org/web/20120415084409/http://www.acsu.buffalo.edu:80/~charngda/elf.html
+* The missing link: explaining ELF static linking, semantically - Stephen Kell, Dominic P. Mulligan, Peter Sewell - OOPSLA 2016
+	+ http://www.cl.cam.ac.uk/~pes20/rems/papers/oopsla-elf-linking-2016.pdf
+	+ https://bitbucket.org/Peter_Sewell/linksem/
 * Tweaking binaries with elfedit - https://ptribble.blogspot.com/2017/06/tweaking-binaries-with-elfedit.html
 * Uncovering a few SIGSEGVs in binutils' BFD and GLIBC
 	+ https://chatsubo-labs.blogspot.com/2017/05/uncovering-few-sigsegvs-in-binutils-bfd.html
@@ -259,7 +266,12 @@ Contents:
 * dress: add symbols back into a stripped ELF binary (~strip)
 	+ http://van.prooyen.com/projects/#dress
 	+ https://github.com/docileninja/dress
-	+ http://van.prooyen.com/reversing/2016/10/30/Fuckzing-reverse-Writeup.html
+* dynStruct: a tool using dynamoRio to monitor memory accesses of an ELF binary via a data gatherer, and use this data to recover structures of the original code
+	+ https://github.com/ampotos/dynStruct
+	+ dynStruct: An automatic reverse engineering tool for structure recovery and memory use analysis - Daniel Mercier - Master Thesis (2017)
+		- https://kar.kent.ac.uk/58461/
+	+ dynStruct: An automatic reverse engineering tool for structure recovery and memory use analysis - Mercier, Daniel and Chawdhary, Aziem and Jones, Richard E. (2017), IEEE 24th International Conference on Software Analysis, Evolution and Reengineering (SANER)
+		- https://kar.kent.ac.uk/63700/
 * elf-bf-tools - https://github.com/bx/elf-bf-tools
 	+ This project contains tools that can be used to coerce the gcc's runtime loader into performing interesting operations using only valid relocation entries and symbols.
 * ELF Tool Chain Project - https://sourceforge.net/projects/elftoolchain/
@@ -277,6 +289,7 @@ Contents:
 * GNU Binary Utilities - https://sourceware.org/binutils/docs/binutils/
 	+ elfedit: Update the ELF header of ELF files - https://sourceware.org/binutils/docs/binutils/elfedit.html
 	+ nm: List symbols from object files - https://sourceware.org/binutils/docs/binutils/nm.html
+	+ objdump: Display information from object files - https://sourceware.org/binutils/docs/binutils/objdump.html
 	+ readelf: Display the contents of ELF format files - https://sourceware.org/binutils/docs/binutils/readelf.html
 	+ size: List section sizes and total size - https://sourceware.org/binutils/docs/binutils/size.html
 		- examples:
@@ -284,6 +297,7 @@ Contents:
 			- https://mcuoneclipse.com/2013/04/14/text-data-and-bss-code-and-data-size-explained/
 			- http://www.geeksforgeeks.org/memory-layout-of-c-program/
 			- http://cs-fundamentals.com/c-programming/memory-layout-of-c-program-code-data-segments.php#size-of-code-data-bss-segments
+* HoloDec: Decompiler for x86 and x86-64 ELF binaries - https://github.com/cararasu/holodec
 * Libelf - ELF object file access library - http://www.mr511.de/software/english.html
 	+ libelf-howto - http://chris.rohlf.googlepages.com/libelf-howto.c
 * Libelfin: C++11 ELF/DWARF parser - a from-scratch C++11 library for reading ELF binaries and DWARFv4 debug information - https://github.com/aclements/libelfin
@@ -318,7 +332,7 @@ Contents:
 * 2017 - FOSDEM 2017 - LLD from a user's perspective
 	+ https://archive.fosdem.org/2017/schedule/event/lld/
 	+ https://archive.fosdem.org/2017/schedule/event/lld/attachments/slides/1446/export/events/attachments/lld/slides/1446/FosdemLLD2017.pdf
-* 2016 - !!Con 2016L Debugging debuggers!! (Symbolic Debugging with DWARF) - Samy Al Bahra
+* 2016 - !!Con 2016: Debugging debuggers!! (Symbolic Debugging with DWARF) - Samy Al Bahra
 	+ https://backtrace.io/blog/symbolic-debugging-with-dwarf/
 	+ https://www.youtube.com/watch?v=OEa0EfJja_Y
 * 2016 - BlackHat USA 2016: Intra-Process Memory Protection for Applications on ARM and X86: Leveraging the ELF ABI
@@ -334,7 +348,7 @@ Contents:
 * 2014 - ABIs, linkers and other animals - Stephen Kell (2014) - https://www.cl.cam.ac.uk/~srk31/research/talks/kell14abis-slides.pdf
 * 2013 - Julian Bangert, Sergey Bratus - ELF Eccentricities
 	+ https://www.youtube.com/watch?v=4LU6N6THh2U
-* 2013 - Rebecca Bx Shapiro, Julian Bangert, Sergey Bratus Any Input Is a Program Weird Machines in ABI
+* 2013 - Rebecca Bx Shapiro, Julian Bangert, Sergey Bratus - Any Input Is a Program Weird Machines in ABI
 	+ https://www.youtube.com/watch?v=crt5gxOoUuM
 * 2013 - "Weird Machines" in ELF: A Spotlight on the Underappreciated Metadata
 	+ USENIX  Workshop on Offensive Technologies (WOOT '13)
