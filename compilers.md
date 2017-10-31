@@ -1,6 +1,6 @@
 # [C++ links](README.md): compilers
 
-Note: see also [Assembly (x86)](assembly.x86.md)
+See also: [assembly (x86)](assembly.x86.md), [compilers correctness](compilers.correctness.md)
 
 # Background & Resources
 
