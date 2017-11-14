@@ -90,6 +90,7 @@ http://caslab.csl.yale.edu/workshops/hasp2015/slides_05_evtyushkin.pdf
 # DRAM
 
 * Another Flip in the Wall of Rowhammer Defenses - https://arxiv.org/abs/1710.00551
+	+ Tools for "Another Flip in the Wall" - https://github.com/IAIK/flipfloyd
 * DRAMA: How Your DRAM Becomes a Security Problem
 	+ slides: https://www.blackhat.com/docs/eu-16/materials/eu-16-Schwarz-How-Your-DRAM-Becomes-A-Security-Problem.pdf
 	+ thesis: DRAMA: Exploiting DRAM Buffers for Fun and Profit - https://www.blackhat.com/docs/eu-16/materials/eu-16-Schwarz-How-Your-DRAM-Becomes-A-Security-Problem-wp.pdf
@@ -97,15 +98,36 @@ http://caslab.csl.yale.edu/workshops/hasp2015/slides_05_evtyushkin.pdf
 * Hammertime: a software suite for testing, profiling and simulating the rowhammer DRAM defect - https://github.com/vusec/hammertime
 * Whispers in the Hyper-space: High-speed Covert Channel Attacks in the Cloud - https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/wu
 
-# Electromagnetic Emanations (EM)
+# Electromagnetic (EM) Emanations
 
-* The EM Side–Channel(s): Attacks and Assessment Methodologies, 2003
+* A Method for Efficient Localization of Magnetic-field Sources Excited by the Execution of Instructions in a Processor
+	+ 2017, IEEE Transactions on Electromagnetic Compatibility
+	+ http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2017/10/TEMC_245_2017.pdf
+* Capacity of the EM Covert/Side-Channel Created by the Execution of Instructions in a Processor
+	+ 2017, IEEE Transactions on Information Forensics and Security
+	+ http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2017/10/T-IFS-07378-2017.pdf
+* EDDIE: EM-Based Detection of Deviations in Program Execution
+	+ 2017, Proceedings of the 44th International Symposium on Computer Architecture (ISCA)
+	+ http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2017/06/ISCA17.pdf
+* Quantifying Information Leakage in a Processor Caused by the Execution of Instructions
+	+ 2017, Proceedings of IEEE MILCOM
+	+ http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2017/10/MILCOM_Capacity.pdf
+* Spectral Profiling: Observer-Effect-Free Profiling by Monitoring EM Emanations
+	+ 2016, IEEE MICRO 16
+	+ http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2016/08/MICRO16.pdf
+* The EM Side–Channel(s): Attacks and Assessment Methodologies
+	+ 2002, Cryptographic Hardware and Embedded Systems (CHES)
 	+ https://www.cs.jhu.edu/~astubble/600.412/s-c-papers/em.pdf
 	+ http://citeseerx.ist.psu.edu/viewdoc/summary;?doi=10.1.1.122.1646
 	+ https://www.semanticscholar.org/paper/The-EM-Side-Channel-s-Attacks-and-Assessment-Metho-Agrawal-Archambeault/7d687c23e297196e4de38240f9b48eb2d31f20fe
+* Watch Me, but Don't Touch Me! Contactless Control Flow Monitoring via Electromagnetic Emanations
+	+ 2017, Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security (CCS)
+	+ https://arxiv.org/abs/1708.09099
 * Zero-Overhead Profiling via Electromagnetic (EM) Emanations
+	+ 2016, Proceedings of the 25th International Symposium on Software Testing and Analysis (ISSTA)
 	+ https://dl.acm.org/citation.cfm?id=2931065
 	+ https://issta2016.cispa.saarland/zero-overhead-profiling-via-em-emanations/
+	+ http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2016/09/ZoP.pdf
 
 # Floating Point Unit (FPU)
 
@@ -166,6 +188,7 @@ http://caslab.csl.yale.edu/workshops/hasp2015/slides_05_evtyushkin.pdf
 	+ Skylake's BTB parameters, use of Intel PT and LBR
 	+ https://arxiv.org/abs/1611.06952
 	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/lee-sangho
+* Leaky Cauldron on the Dark Land: Understanding Memory Side-Channel Hazards in SGX - https://acmccs.github.io/papers/p2421-wangA.pdf
 * Malware Guard Extension: Using SGX to Conceal Cache Attacks - https://arxiv.org/abs/1702.08719
 
 # SMT
