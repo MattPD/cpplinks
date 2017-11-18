@@ -72,6 +72,7 @@ Contents:
 * DLLs and Visual C++ run-time library behavior - https://docs.microsoft.com/en-us/cpp/build/run-time-library-behavior
 * Dynamic-Link Library Best Practices - https://msdn.microsoft.com/library/windows/desktop/dn633971.aspx
 * How can I specify that my DLL should resolve a DLL dependency from the same directory that the DLL is in? - https://blogs.msdn.microsoft.com/oldnewthing/20171011-00/?p=97195
+* What is so special about the instance handle 0x10000000? - https://blogs.msdn.microsoft.com/oldnewthing/20121227-00/?p=5713/
 
 ## Software
 
@@ -90,7 +91,6 @@ Contents:
 * ThreadContinue: Reflective DLL injection using SetThreadContext() and NtContinue()
 	+ https://github.com/zerosum0x0/ThreadContinue
 	+ https://zerosum0x0.blogspot.com/2017/07/threadcontinue-reflective-injection.html
-* What is so special about the instance handle 0x10000000? - https://blogs.msdn.microsoft.com/oldnewthing/20121227-00/?p=5713/
 
 ## Talks
 
@@ -159,7 +159,8 @@ Contents:
 	+ https://github.com/acmel/dwarves
 	+ https://www.spinics.net/lists/dwarves/
 	+ The 7 dwarves: debugging information beyond gdb - https://landley.net/kdocs/ols/2007/ols2007v2-pages-35-44.pdf
-	+ Poke-a-hole and friends - https://lwn.net/Articles/335942/ - pahole and other DWARF2 utilities - https://lwn.net/Articles/206805/
+	+ Poke-a-hole and friends - https://lwn.net/Articles/335942/
+	+ pahole and other DWARF2 utilities - https://lwn.net/Articles/206805/
 	+ How to avoid wasting megabytes of memory a few bytes at a time - https://developers.redhat.com/blog/2016/06/01/how-to-avoid-wasting-megabytes-of-memory-a-few-bytes-at-a-time/
 * structhole: Look for holes in structs by examining DWARF debugging output - https://github.com/cemeyer/structhole
 
@@ -441,14 +442,14 @@ Contents:
 
 * 2013 - DEF CON 21 - Mach-O Malware Analysis: Combatting Mac OSX/iOS Malware with Data Visualization
 	+ https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20presentations/Remy%20Baumgarten/
-	+ https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20presentations/Remy%20Baumgarten/DEFCON-21-Baumgarten-Mach-O-Viz.pdf
-	+ https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20presentations/Remy%20Baumgarten/DEFCON-21-Baumgarten-Mach-O-Viz-WP.pdf
-	+ https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20video%20and%20slides%20x265/DEF%20CON%2021%20Hacking%20Conference%20Presentation%20By%20Remy%20Baumgarten%20-%20Combatting%20Mac%20OSX%20iOS%20Malware%20with%20Data%20Visualization%20-%20Video%20and%20Slides.mp4
+	+ Slides: https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20presentations/Remy%20Baumgarten/DEFCON-21-Baumgarten-Mach-O-Viz.pdf
+	+ Paper: https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20presentations/Remy%20Baumgarten/DEFCON-21-Baumgarten-Mach-O-Viz-WP.pdf
+	+ Video: https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20video%20and%20slides%20x265/DEF%20CON%2021%20Hacking%20Conference%20Presentation%20By%20Remy%20Baumgarten%20-%20Combatting%20Mac%20OSX%20iOS%20Malware%20with%20Data%20Visualization%20-%20Video%20and%20Slides.mp4
 	+ http://macsecurity.net/view/42/
 	+ http://www.securitytube.net/video/9133
 * 2009 - Black Hat DC - Let your Mach-O fly - Vincenzo Iozzo
-http://www.blackhat.com/presentations/bh-dc-09/Iozzo/BlackHat-DC-09-Iozzo-Macho-on-the-fly.pdf
-http://www.blackhat.com/presentations/bh-dc-09/Iozzo/BlackHat-DC-09-Iozzo-let-your-mach0-fly-whitepaper.pdf
+	+ Slides: http://www.blackhat.com/presentations/bh-dc-09/Iozzo/BlackHat-DC-09-Iozzo-Macho-on-the-fly.pdf
+	+ Paper: http://www.blackhat.com/presentations/bh-dc-09/Iozzo/BlackHat-DC-09-Iozzo-let-your-mach0-fly-whitepaper.pdf
 
 ---
 
@@ -512,8 +513,7 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 * Finding the Needle: A Study of the PE32 Rich Header and Respective Malware Triage
 	+ https://www.sec.in.tum.de/i20/publications/finding-the-needle-a-study-of-the-pe32-rich-header-and-respective-malware-triage
 	+ https://www.semanticscholar.org/paper/Finding-the-Needle-A-Study-of-the-PE32-Rich-Header-Webster-Kolosnjaji/44adfa896e6598b1723507060126125a0cad39a1
-	+ Rich Header: a collection of the work performed investigating the PE32 Rich Header
-https://github.com/HolmesProcessing/RichHeader-Service_Collection
+	+ Rich Header: a collection of the work performed investigating the PE32 Rich Header - https://github.com/HolmesProcessing/RichHeader-Service_Collection
 * Introducing New Packing Method: First Reflective PE Packer Amber - https://pentest.blog/introducing-new-packing-method-first-reflective-pe-packer/
 * Microsoft Portable Executable (PE) and Common Object File Format (COFF) Specification - https://msdn.microsoft.com/en-us/library/windows/desktop/ms680547.aspx
 * Microsoft's Rich Signature (undocumented) - http://ntcore.com/Files/richsign.htm
