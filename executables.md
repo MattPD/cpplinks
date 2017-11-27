@@ -34,10 +34,12 @@ Contents:
 
 ## Software
 
+* Backdoor Factory (BDF): patch PE, ELF, Mach-O binaries with shellcode - https://github.com/secretsquirrel/the-backdoor-factory
 * bingrep: Greps through binaries from various OSs and architectures, and colors them (ELF, Mach-O, PE)
 	+ https://github.com/m4b/bingrep
 * Bloaty McBloatface: a size profiler for binaries (ELF, Mach-O) - https://github.com/google/bloaty
 	+ http://blog.reverberate.org/2016/11/07/introducing-bloaty-mcbloatface.html
+* cave_miner: search for code cave in binaries (ELF, Mach-O, PE), and inject code in them - https://github.com/Antonin-Deniau/cave_miner
 * codesize: Code size visualization tool with PDB/ELF/Mach-O support
 	+ https://github.com/zeux/codesize
 * FileBytes
@@ -76,6 +78,9 @@ Contents:
 
 ## Software
 
+* Dependencies: An open-source modern Dependency Walker
+	+ https://lucasg.github.io/Dependencies/
+	+ https://github.com/lucasg/Dependencies
 * Dependency Walker - http://www.dependencywalker.com/
 * Detours - https://www.microsoft.com/en-us/research/project/detours/
 * EasyHook
@@ -209,6 +214,9 @@ Contents:
 * Armouring the ELF: Binary encryption on the UNIX platform - scut & grugq - Phrack Magazine #58 (2001-12-28) - http://www.phrack.org/issues/58/5.html
 * Building an ELF Parser with Frida - https://versprite.com/og/frida/
 * Cheating the ELF: Subversive Dynamic Linking to Libraries - https://grugq.github.io/docs/subversiveld.pdf
+* Computer Science from the Bottom Up - https://www.bottomupcs.com/
+	+ Behind the process - https://www.bottomupcs.com/chapter07.xhtml
+	+ Dynamic Linking - https://www.bottomupcs.com/chapter08.xhtml
 * Constructing the ELF - A Magnetized Needle and a Steady Hand - http://nullprogram.com/blog/2016/11/17/
 * Custom ELF program headers—what, why and how - http://www.cl.cam.ac.uk/~srk31/blog/2017/02/14/
 	+ Rag-bag of utilities and scripts that do strange things with ELF files - https://github.com/stephenrkell/elftin/
@@ -267,6 +275,7 @@ Contents:
 	+ https://chatsubo-labs.blogspot.com/2017/05/uncovering-few-sigsegvs-in-binutils-bfd.html
 	+ http://brainoverflow.org/papers/BFD-GLIBC_Fuzzing/0%20Uncovering%20a%20few%20SIGSEGVs%20in%20binutils'%20BFD%20and%20GLIBC.pdf
 * Understanding Linux ELF RTLD internals - http://s.eresi-project.org/inc/articles/elf-rtld.txt
+* Understanding the Memory Layout of Linux Executables - https://gist.github.com/CMCDragonkai/10ab53654b2aa6ce55c11cfc5b2432a4
 * 'Weird Machine' patterns - https://www.researchgate.net/publication/283630248_%27Weird_Machine%27_patterns
 * Writing shared libraries - http://plan99.net/~mike/writing-shared-libraries.html
 
@@ -514,6 +523,7 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ https://www.sec.in.tum.de/i20/publications/finding-the-needle-a-study-of-the-pe32-rich-header-and-respective-malware-triage
 	+ https://www.semanticscholar.org/paper/Finding-the-Needle-A-Study-of-the-PE32-Rich-Header-Webster-Kolosnjaji/44adfa896e6598b1723507060126125a0cad39a1
 	+ Rich Header: a collection of the work performed investigating the PE32 Rich Header - https://github.com/HolmesProcessing/RichHeader-Service_Collection
+* Fully undetectable backdooring PE files - https://haiderm.com/fully-undetectable-backdooring-pe-files/
 * Introducing New Packing Method: First Reflective PE Packer Amber - https://pentest.blog/introducing-new-packing-method-first-reflective-pe-packer/
 * Microsoft Portable Executable (PE) and Common Object File Format (COFF) Specification - https://msdn.microsoft.com/en-us/library/windows/desktop/ms680547.aspx
 * Microsoft's Rich Signature (undocumented) - http://ntcore.com/Files/richsign.htm
