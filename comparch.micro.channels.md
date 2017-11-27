@@ -47,6 +47,11 @@ Note: see [Computer Architecture](comparch.md)
 * CacheD: Identifying Cache-Based Timing Channels in Production Software - https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/wang-shuai
 * ParTI - Towards Combined Hardware Countermeasures against Side Channel and Fault Injection Attacks - CHES 2016 
 	+ https://www.youtube.com/watch?v=wTJvb6k5yp0
+* Rigorous Analysis of Software Countermeasures against Cache Attacks
+	+ PLDI 2017; Goran Doychev, Boris Köpf
+	+ https://www.youtube.com/watch?v=GMyDEnpoyoI
+	+ https://arxiv.org/abs/1603.02187
+	+ http://software.imdea.org/~bkoepf/papers/pldi17.pdf
 * Side Channel Analysis Protection and Low Latency in Action - Case Study of PRINCE and Midori
 	+ https://www.youtube.com/watch?v=8OyQIh3F4AU
 * Strong and Efficient Cache Side-Channel Protection using Hardware Transactional Memory - https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/gruss
@@ -84,6 +89,9 @@ http://caslab.csl.yale.edu/workshops/hasp2015/slides_05_evtyushkin.pdf
 	+ http://www.s3.eurecom.fr/docs/dimva15_clementine.pdf
 	+ https://link.springer.com/chapter/10.1007/978-3-319-20550-2_3
 * Cache side channel attacks - https://dreamsofastone.blogspot.com/2015/09/cache-side-channel-attacks.html
+* MemJam: A False Dependency Attack against Constant-Time Crypto Implementations
+	+ 2017; Ahmad Moghimi, Thomas Eisenbarth, Berk Sunar
+	+ https://arxiv.org/abs/1711.08002
 * Strong and Efficient Cache Side-Channel Protection using Hardware Transactional Memory - https://gruss.cc/files/cloak.pdf
 * Yet Another MicroArchitectural Attack: Exploiting I-cache - http://eprint.iacr.org/2007/164
 
