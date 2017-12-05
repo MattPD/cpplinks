@@ -109,31 +109,31 @@ Michael Wong, Sunil Srivastava, Sean Middleditch, Patrice Roy - Report on Except
 ### 2017
 
 ACCU 2017: Niall Douglas - Mongrel Monads, Dirty, Dirty, Dirty
-Slides: https://docs.google.com/presentation/d/1X_3VOxb8PMGXHBzjmzl5oVnwYVIyBpZHcY0Idv_9tSc/edit#slide=id.p
-Video: https://www.youtube.com/watch?v=XVofgKH-uu4
+- Slides: https://docs.google.com/presentation/d/1X_3VOxb8PMGXHBzjmzl5oVnwYVIyBpZHcY0Idv_9tSc/edit#slide=id.p
+- Video: https://www.youtube.com/watch?v=XVofgKH-uu4
 
 CppCon 2017: Dave Watson - C++ Exceptions and Stack Unwinding
-Video: https://www.youtube.com/watch?v=_Ivd3qzgT7U
+- Video: https://www.youtube.com/watch?v=_Ivd3qzgT7U
 
 Pacific++ 2017: Jason Turner - Rethinking Exceptions
-- https://www.youtube.com/watch?v=OkgvqjJzH_Y
+- Video: https://www.youtube.com/watch?v=OkgvqjJzH_Y
 
 ### 2016
 
 CppCon 2016: Patrice Roy - The Exception Situation
-- https://www.youtube.com/watch?v=Fno6suiXLPs
+- Video: https://www.youtube.com/watch?v=Fno6suiXLPs
 
 ### 2015
 
 CppCon 2015: Fedor Pikus - The Unexceptional Exceptions
-- https://www.youtube.com/watch?v=fOV7I-nmVXw
+- Video: https://www.youtube.com/watch?v=fOV7I-nmVXw
 
 ### 2014
 
 CppCon 2014: Jon Kalb - Exception-Safe Code
-- https://www.youtube.com/watch?v=W7fIy_54y-w
-- https://www.youtube.com/watch?v=b9xMIKb1jMk
-- https://www.youtube.com/watch?v=MiKxfdkMJW8
+- Part 1 video: https://www.youtube.com/watch?v=W7fIy_54y-w
+- Part 2 video: https://www.youtube.com/watch?v=b9xMIKb1jMk
+- Part 3 video: https://www.youtube.com/watch?v=MiKxfdkMJW8
 
 ## Libraries
 
