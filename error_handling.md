@@ -4,9 +4,9 @@
 
 * Shane Kirk - C++ Exceptions: The Good, The Bad, And The Ugly
 	+ http://www.shanekirk.com/2015/06/c-exceptions-the-good-the-bad-and-the-ugly/
-* Mythology in C++: Exceptions are Expensive
+* Joseph M. Newcomer - Mythology in C++: Exceptions are Expensive
 	+ http://www.flounder.com/exceptions.htm
-* Exceptions in C++ and their Costs
+* Patrice Roy - Exceptions in C++ and their Costs
 	+ http://h-deb.clg.qc.ca/Sujets/Developpement/Exceptions-Costs.html
 * Matt Warren - Why Exceptions should be Exceptional
 	+ http://mattwarren.org/2016/12/20/Why-Exceptions-should-be-Exceptional/
@@ -45,7 +45,7 @@
 	+ https://monoinfinito.wordpress.com/2013/06/11/c-exceptions-under-the-hood-appendix-i-the-true-cost-of-an-exception/
 	+ https://monoinfinito.wordpress.com/2013/06/13/c-exceptions-under-the-hood-appendix-ii-metaclasses-and-rtti-on-c/
 	+ https://monoinfinito.wordpress.com/2013/07/25/c-exceptions-under-the-hood-appendix-iii-rtti-and-exceptions-orthogonality/
-* Edaqa Mortoray -The true cost of zero cost exceptions
+* Edaqa Mortoray - The true cost of zero cost exceptions
 	+ https://mortoray.com/2013/09/12/the-true-cost-of-zero-cost-exceptions/
 * Edaqa Mortoray - Everything wrong with C++ exceptions
 	+ https://mortoray.com/2012/04/02/everything-wrong-with-exceptions/
@@ -57,6 +57,12 @@
 	+ http://nibblestew.blogspot.co.uk/2015/12/are-exceptions-slower-than-error-objects.html
 * Simon Brand - Functional exceptionless error-handling with optional and expected
 	+ https://blog.tartanllama.xyz/optional-expected/
+* Stefan Gränitz - Series: Rich Recoverable Error Handling with llvm::Expected<T>
+	+ Part 1 - Motivation: https://weliveindetail.github.io/blog/post/2017/09/06/llvm-expected-basics.html
+	+ Part 2 - Differentiation: https://weliveindetail.github.io/blog/post/2017/10/22/llvm-expected-differentiation.html
+	+ Part 3 - All Helpers: https://weliveindetail.github.io/blog/post/2017/10/28/llvm-expected-helpers.html
+	+ Talk - C++ User Group Berlin 2017, September 19th: Rich Polymorphic Error Handling with llvm::Expected<T>
+		- Slides (PDF): https://github.com/weliveindetail/talks/raw/master/Expectify.pdf
 * Jonathan Müller - Exceptions vs expected: Let's find a compromise
 	+ http://foonathan.net/blog/2017/12/04/exceptions-vs-expected.html
 * Vittorio Romeo - Why choose sum types over exceptions?
@@ -98,6 +104,10 @@
 
 * CppCon 2016: Patrice Roy - The Exception Situation
 	+ Video: https://www.youtube.com/watch?v=Fno6suiXLPs
+* 2016 LLVM Developers’ Meeting: L. Hames “Error -- Structured Error Handling in LLVM”
+	+ Documentation: http://llvm.org/docs/ProgrammersManual.html#error-handling
+	+ Slides: http://www.llvm.org/devmtg/2016-11/Slides/Hames-Error.pdf
+	+ Video: https://www.youtube.com/watch?v=Wq8fNK98WGw
 
 ### 2015
 
@@ -113,6 +123,14 @@
 
 ## Libraries
 
+* Boost.Exception
+	+ https://github.com/boostorg/exception
+* cpp_exception_handling_abi
+	+ https://github.com/nicolasbrailo/cpp_exception_handling_abi
+* llvm-expected: LLVM's Rich Recoverable Error Handling as a Library
+	+ https://github.com/weliveindetail/llvm-expected
+	+ Benchmarks for llvm::Expected vs. std::error_code
+		- https://github.com/weliveindetail/BenchmarkLLVMExpected
 * Outcome
 	+ https://github.com/ned14/outcome
 * `tl::expected` and `tl::optional`
@@ -122,12 +140,8 @@
 	+ https://github.com/martinmoene/optional-lite
 	+ https://github.com/martinmoene/expected-lite
 	+ https://github.com/martinmoene/optional-bare
-* Boost.Exception
-	+ https://github.com/boostorg/exception
-* cpp_exception_handling_abi
-	+ https://github.com/nicolasbrailo/cpp_exception_handling_abi
 
-## Other
+## References
 
 * C++ Core Guidelines - Error handling
 	+ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#e-error-handling
