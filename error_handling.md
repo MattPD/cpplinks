@@ -2,25 +2,11 @@
 
 ## Blogs: Posts and Series
 
-* Shane Kirk - C++ Exceptions: The Good, The Bad, And The Ugly
-	+ http://www.shanekirk.com/2015/06/c-exceptions-the-good-the-bad-and-the-ugly/
-* Joseph M. Newcomer - Mythology in C++: Exceptions are Expensive
-	+ http://www.flounder.com/exceptions.htm
-* Patrice Roy - Exceptions in C++ and their Costs
-	+ http://h-deb.clg.qc.ca/Sujets/Developpement/Exceptions-Costs.html
-* Matt Warren - Why Exceptions should be Exceptional
-	+ http://mattwarren.org/2016/12/20/Why-Exceptions-should-be-Exceptional/
-* Nemanja Trifunovic - C++ Exceptions: Pros and Cons
-	+ https://www.codeproject.com/Articles/38449/C-Exceptions-Pros-and-Cons
-* Mike Hearn - What's wrong with exceptions? Nothing.
-	+ https://blog.plan99.net/what-s-wrong-with-exceptions-nothing-cee2ed0616
-* Joseph Mansfield - Exceptions, error codes, and assertions in C++
-	+ http://josephmansfield.uk/articles/exceptions-error-codes-assertions-c++.html
-* Herb Sutter - When and How to Use Exceptions
-	+ http://www.drdobbs.com/when-and-how-to-use-exceptions/184401836
-* Error Handling in C++ or: Why You Should Use Eithers in Favor of Exceptions and Error-codes
-	+ https://hackernoon.com/error-handling-in-c-or-why-you-should-use-eithers-in-favor-of-exceptions-and-error-codes-f0640912eb45
+* Andrii Batyiev - Size cost of C++ exception handling on embedded platform
+	+ Uses microbenchmarking to examine the effect of exceptions on code size.
+	+ https://andriidevel.blogspot.co.uk/2016/05/size-cost-of-c-exception-handling-on.html
 * Nicolas Brailovsky - C++ exceptions under the hood
+	+ A long series of posts looking at how C++ exceptions are actually implemented.
 	+ https://monoinfinito.wordpress.com/2013/02/05/c-exceptions-under-the-hood/
 	+ https://monoinfinito.wordpress.com/2013/02/12/c-exceptions-under-the-hood-ii-a-tiny-abi/
 	+ https://monoinfinito.wordpress.com/2013/02/19/c-exceptions-under-the-hood-3-an-abi-to-appease-the-linker/
@@ -45,30 +31,61 @@
 	+ https://monoinfinito.wordpress.com/2013/06/11/c-exceptions-under-the-hood-appendix-i-the-true-cost-of-an-exception/
 	+ https://monoinfinito.wordpress.com/2013/06/13/c-exceptions-under-the-hood-appendix-ii-metaclasses-and-rtti-on-c/
 	+ https://monoinfinito.wordpress.com/2013/07/25/c-exceptions-under-the-hood-appendix-iii-rtti-and-exceptions-orthogonality/
-* Edaqa Mortoray - The true cost of zero cost exceptions
-	+ https://mortoray.com/2013/09/12/the-true-cost-of-zero-cost-exceptions/
-* Edaqa Mortoray - Everything wrong with C++ exceptions
-	+ https://mortoray.com/2012/04/02/everything-wrong-with-exceptions/
-* Andrii Batyiev - Size cost of C++ exception handling on embedded platform
-	+ https://andriidevel.blogspot.co.uk/2016/05/size-cost-of-c-exception-handling-on.html
-* Jeff Preshing - The Cost of Enabling Exception Handling
-	+ http://preshing.com/20110807/the-cost-of-enabling-exception-handling/
-* Are exceptions slower than error objects
-	+ http://nibblestew.blogspot.co.uk/2015/12/are-exceptions-slower-than-error-objects.html
 * Simon Brand - Functional exceptionless error-handling with optional and expected
-	+ https://blog.tartanllama.xyz/optional-expected/
+	+ Demonstrates how to use `optional` and `expected` with monadic extensions.
+	+ https://blog.tartanllama.xyz/optional-expected/        
+* "Buckaroo" - Error Handling in C++ or: Why You Should Use Eithers in Favor of Exceptions and Error-codes
+	+ Presents some reasons to use Eithers (A.K.A. `std::expected`) instead of other alternatives.
+	+ https://hackernoon.com/error-handling-in-c-or-why-you-should-use-eithers-in-favor-of-exceptions-and-error-codes-f0640912eb45
 * Stefan Gränitz - Series: Rich Recoverable Error Handling with llvm::Expected<T>
+	+ A series of posts demonstrating the motivation and use of `llvm::Expected`.
 	+ Part 1 - Motivation: https://weliveindetail.github.io/blog/post/2017/09/06/llvm-expected-basics.html
 	+ Part 2 - Differentiation: https://weliveindetail.github.io/blog/post/2017/10/22/llvm-expected-differentiation.html
 	+ Part 3 - All Helpers: https://weliveindetail.github.io/blog/post/2017/10/28/llvm-expected-helpers.html
 	+ Talk - C++ User Group Berlin 2017, September 19th: Rich Polymorphic Error Handling with llvm::Expected<T>
 		- Slides (PDF): https://github.com/weliveindetail/talks/raw/master/Expectify.pdf
+* Mike Hearn - What's wrong with exceptions? Nothing.
+	+ A defense of exceptions in general, but contains discussion on issues with C++'s implementation of them.
+	+ https://blog.plan99.net/what-s-wrong-with-exceptions-nothing-cee2ed0616
+* Shane Kirk - C++ Exceptions: The Good, The Bad, And The Ugly
+	+ A discussion of the pros and cons of exceptions.
+	+ http://www.shanekirk.com/2015/06/c-exceptions-the-good-the-bad-and-the-ugly/
+* Joseph Mansfield - Exceptions, error codes, and assertions in C++
+	+ A high-level look at different error handling techniques and guidelines on when to use them.
+	+ http://josephmansfield.uk/articles/exceptions-error-codes-assertions-c++.html
+* Edaqa Mortoray - Everything wrong with C++ exceptions
+	+ Does as it says on the tin.
+	+ https://mortoray.com/2012/04/02/everything-wrong-with-exceptions/
+* Edaqa Mortoray - The true cost of zero cost exceptions
+	+ Examines how exceptions are implemented in order to show some of the real costs of them.
+	+ https://mortoray.com/2013/09/12/the-true-cost-of-zero-cost-exceptions/
 * Jonathan Müller - Exceptions vs expected: Let's find a compromise
-	+ http://foonathan.net/blog/2017/12/04/exceptions-vs-expected.html
-* Vittorio Romeo - Why choose sum types over exceptions?
-	+ https://vittorioromeo.info/index/blog/adts_over_exceptions.html
+	+ A look at finding a middle ground between exceptions and `std::expected` by examining what other languages provide.
+	+ http://foonathan.net/blog/2017/12/04/exceptions-vs-expected.html        
+* Joseph M. Newcomer - Mythology in C++: Exceptions are Expensive
+	+ Microbenchmarks and assembly examinations to show that exceptions or not as expensive as many say.
 * Jason Robert Carey Patterson - Exception Handling Considered Harmful
+	+ A discussion of various problems with C++ exceptions.
 	+ http://www.lighterra.com/papers/exceptionsharmful/
+* Jeff Preshing - The Cost of Enabling Exception Handling
+	+ Uses microbenchmarking and assembly analysis to examine the effect of enabling exceptions.
+	+ http://preshing.com/20110807/the-cost-of-enabling-exception-handling/        
+	+ http://www.flounder.com/exceptions.htm
+* Vittorio Romeo - Why choose sum types over exceptions?
+	+ A case study of somewhere you might want to choose sum types over exceptions, along with some more general guidance.
+	+ https://vittorioromeo.info/index/blog/adts_over_exceptions.html        
+* Patrice Roy - Exceptions in C++ and their Costs
+	+ A series of microbenchmarks looking at the tradeoffs between exceptions and error codes.
+	+ http://h-deb.clg.qc.ca/Sujets/Developpement/Exceptions-Costs.html
+* "Nibble Stew" - Are exceptions slower than error objects
+	+ A series of microbenchmarks examining the relative cost of exceptions and error objects.
+	+ http://nibblestew.blogspot.co.uk/2015/12/are-exceptions-slower-than-error-objects.html        
+* Herb Sutter - When and How to Use Exceptions
+	+ Guidelines on which cases to use exceptions for.
+	+ http://www.drdobbs.com/when-and-how-to-use-exceptions/184401836        
+* Nemanja Trifunovic - C++ Exceptions: Pros and Cons
+	+ A discussion of the pros and cons of exceptions.
+	+ https://www.codeproject.com/Articles/38449/C-Exceptions-Pros-and-Cons
 
 ## Documentation
 
@@ -93,18 +110,23 @@
 ### 2017
 
 * ACCU 2017: Niall Douglas - Mongrel Monads, Dirty, Dirty, Dirty
+	+ An introduction to `Outcome` and presentation of benchmarks of it against exceptions and error codes.
 	+ Slides: https://docs.google.com/presentation/d/1X_3VOxb8PMGXHBzjmzl5oVnwYVIyBpZHcY0Idv_9tSc/edit#slide=id.p
 	+ Video: https://www.youtube.com/watch?v=XVofgKH-uu4
 * CppCon 2017: Dave Watson - C++ Exceptions and Stack Unwinding
+	+ Looks at the Itanium exception handling model and several implementations of it.
 	+ Video: https://www.youtube.com/watch?v=_Ivd3qzgT7U
 * Pacific++ 2017: Jason Turner - Rethinking Exceptions
+	+ An examination of different error handling strategies and the code they generate.
 	+ Video: https://www.youtube.com/watch?v=OkgvqjJzH_Y
 
 ### 2016
 
 * CppCon 2016: Patrice Roy - The Exception Situation
+	+ An examination of different error handling strategies and where they are appropriate.
 	+ Video: https://www.youtube.com/watch?v=Fno6suiXLPs
 * 2016 LLVM Developers’ Meeting: L. Hames “Error -- Structured Error Handling in LLVM”
+	+ A look at how LLVM does error handling with `llvm::Error`.
 	+ Documentation: http://llvm.org/docs/ProgrammersManual.html#error-handling
 	+ Slides: http://www.llvm.org/devmtg/2016-11/Slides/Hames-Error.pdf
 	+ Video: https://www.youtube.com/watch?v=Wq8fNK98WGw
@@ -112,11 +134,13 @@
 ### 2015
 
 * CppCon 2015: Fedor Pikus - The Unexceptional Exceptions
+	+ Guidelines for using exceptions effectively.
 	+ Video: https://www.youtube.com/watch?v=fOV7I-nmVXw
 
 ### 2014
 
 * CppCon 2014: Jon Kalb - Exception-Safe Code
+	+ A set of guidelines for safe exception usage and solid implementation techniques, including how to transition from an exception-unsafe legacy code base.
 	+ Part 1 video: https://www.youtube.com/watch?v=W7fIy_54y-w
 	+ Part 2 video: https://www.youtube.com/watch?v=b9xMIKb1jMk
 	+ Part 3 video: https://www.youtube.com/watch?v=MiKxfdkMJW8
@@ -140,6 +164,12 @@
 	+ https://github.com/martinmoene/optional-lite
 	+ https://github.com/martinmoene/expected-lite
 	+ https://github.com/martinmoene/optional-bare
+
+## StackOverflow Questions
+* Are Exceptions in C++ really slow
+	+ https://stackoverflow.com/questions/13835817/are-exceptions-in-c-really-slow/13836329#13836329
+* In what ways do C++ exceptions slow down code when there are no exceptions thown?
+	+ https://stackoverflow.com/questions/1897940/in-what-ways-do-c-exceptions-slow-down-code-when-there-are-no-exceptions-thown
 
 ## References
 
