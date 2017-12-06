@@ -64,6 +64,9 @@
 	+ http://foonathan.net/blog/2017/12/04/exceptions-vs-expected.html        
 * Joseph M. Newcomer - Mythology in C++: Exceptions are Expensive
 	+ Microbenchmarks and assembly examinations to show that exceptions or not as expensive as many say.
+* Jussi Pakkanen - Are exceptions slower than error objects
+	+ A series of microbenchmarks examining the relative cost of exceptions and error objects.
+	+ http://nibblestew.blogspot.co.uk/2015/12/are-exceptions-slower-than-error-objects.html        
 * Jason Robert Carey Patterson - Exception Handling Considered Harmful
 	+ A discussion of various problems with C++ exceptions.
 	+ http://www.lighterra.com/papers/exceptionsharmful/
@@ -77,9 +80,6 @@
 * Patrice Roy - Exceptions in C++ and their Costs
 	+ A series of microbenchmarks looking at the tradeoffs between exceptions and error codes.
 	+ http://h-deb.clg.qc.ca/Sujets/Developpement/Exceptions-Costs.html
-* "Nibble Stew" - Are exceptions slower than error objects
-	+ A series of microbenchmarks examining the relative cost of exceptions and error objects.
-	+ http://nibblestew.blogspot.co.uk/2015/12/are-exceptions-slower-than-error-objects.html        
 * Herb Sutter - When and How to Use Exceptions
 	+ Guidelines on which cases to use exceptions for.
 	+ http://www.drdobbs.com/when-and-how-to-use-exceptions/184401836        
