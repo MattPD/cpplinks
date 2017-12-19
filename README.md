@@ -11,7 +11,7 @@ Hopefully some will find this of some use and interest, too :-)
 ## Categories
 
 - Assembly
-  - [ARM](assembly.arm.md)
+  - [ARM](assembly.arm.md) - ARM and AArch64
   - [RISC-V](assembly.riscv.md)
   - [x86](assembly.x86.md)
 - [Atomics, lock free, memory model](atomics.lockfree.memory_model.md)
