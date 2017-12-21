@@ -70,6 +70,11 @@
 * Jason Robert Carey Patterson - Exception Handling Considered Harmful
 	+ A discussion of various problems with C++ exceptions.
 	+ http://www.lighterra.com/papers/exceptionsharmful/
+* Theofilos Petsios - C++ Exception Handling
+	+ Base ABI - http://web.archive.org/web/20141209000556/http://theofilos.cs.columbia.edu/blog/2013/09/22/base_abi/
+	+ Level II ABI - http://web.archive.org/web/20141209000543/http://theofilos.cs.columbia.edu/blog/2013/09/27/c-exception-handling-level-ii-abi/
+	+ Overview - http://web.archive.org/web/20141208235659/http://theofilos.cs.columbia.edu/blog/2013/09/30/c-exception-handling/
+	+ Stack Frame Destruction - http://web.archive.org/web/20141208235529/http://theofilos.cs.columbia.edu/blog/2013/10/03/c-exception-handling-stack-frame-destruction/
 * Jeff Preshing - The Cost of Enabling Exception Handling
 	+ Uses microbenchmarking and assembly analysis to examine the effect of enabling exceptions.
 	+ http://preshing.com/20110807/the-cost-of-enabling-exception-handling/        
@@ -83,6 +88,12 @@
 * Herb Sutter - When and How to Use Exceptions
 	+ Guidelines on which cases to use exceptions for.
 	+ http://www.drdobbs.com/when-and-how-to-use-exceptions/184401836        
+* Ian Lance Taylor
+	+ GCC Exception Frames - https://www.airs.com/blog/archives/166
+	+ Exception Destruction - https://www.airs.com/blog/archives/257
+	+ .eh_frame - https://www.airs.com/blog/archives/460
+	+ .eh_frame_hdr - https://www.airs.com/blog/archives/462
+	+ .gcc_except_table - https://www.airs.com/blog/archives/464
 * Nemanja Trifunovic - C++ Exceptions: Pros and Cons
 	+ A discussion of the pros and cons of exceptions.
 	+ https://www.codeproject.com/Articles/38449/C-Exceptions-Pros-and-Cons
