@@ -61,7 +61,7 @@
 	+ https://mortoray.com/2013/09/12/the-true-cost-of-zero-cost-exceptions/
 * Jonathan Müller - Exceptions vs expected: Let's find a compromise
 	+ A look at finding a middle ground between exceptions and `std::expected` by examining what other languages provide.
-	+ http://foonathan.net/blog/2017/12/04/exceptions-vs-expected.html        
+	+ http://foonathan.net/blog/2017/12/04/exceptions-vs-expected.html
 * Joseph M. Newcomer - Mythology in C++: Exceptions are Expensive
 	+ Microbenchmarks and assembly examinations to show that exceptions or not as expensive as many say.
 * Jussi Pakkanen - Are exceptions slower than error objects
