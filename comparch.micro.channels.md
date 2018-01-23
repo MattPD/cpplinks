@@ -34,20 +34,6 @@ Note: see [Computer Architecture](comparch.md)
 	+ http://cs.adelaide.edu.au/~yval/Mastik/
 	+ http://cryptologie.net/article/366/ches-2016-tutorial-part-1-common-criteria-certification-of-a-smartcard-a-technical-overview/
 	+ https://cryptologie.net/article/367/ches-2016-tutorial-part-2-micro-architectural-side-channel-attacks/
-* Meltdown & Spectre (2018)
-	+ Meltdown - https://meltdownattack.com/
-		- Moritz Lipp, Michael Schwarz, Daniel Gruss, Thomas Prescher, Werner Haas, Stefan Mangard, Paul Kocher, Daniel Genkin, Yuval Yarom, Mike Hamburg
-		- https://meltdownattack.com/meltdown.pdf
-	+ Spectre Attacks: Exploiting Speculative Execution - https://spectreattack.com/
-		- Paul Kocher, Daniel Genkin, Daniel Gruss, Werner Haas, Mike Hamburg, Moritz Lipp, Stefan Mangard, Thomas Prescher, Michael Schwarz, Yuval Yarom
-		- https://spectreattack.com/spectre.pdf
-	+ Reading privileged memory with a side-channel - Jann Horn - https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html
-	+ More details about mitigations for the CPU Speculative Execution issue - https://security.googleblog.com/2018/01/more-details-about-mitigations-for-cpu_4.html
-	+ ARM Whitepaper "Cache Speculation Side-channels" - https://developer.arm.com/support/security-update/download-the-whitepaper 
-	+ Intel Analysis of Speculative Execution Side Channels - https://newsroom.intel.com/wp-content/uploads/sites/11/2018/01/Intel-Analysis-of-Speculative-Execution-Side-Channels.pdf
-	+ CPU security bugs caused by speculative execution - https://github.com/marcan/speculation-bugs
-	+ meltdownspectre-patches: summary of the patch status - https://github.com/hannob/meltdownspectre-patches
-	+ Retpoline: a software construct for preventing branch-target-injection - https://support.google.com/faqs/answer/7625886
 * Microarchitectural Side-Channel Attacks - CHES 2016 tutorial
 	+ http://cs.adelaide.edu.au/~yval/CHES16/
 	+ http://cs.adelaide.edu.au/~yval/CHES16/CHES16-tutorial.pptx
@@ -76,6 +62,12 @@ Note: see [Computer Architecture](comparch.md)
 
 # Defense, Mitigation, Protection
 
+* A Hardware Design Language for Timing-Sensitive Information-Flow Security
+	+ ASPLOS 2015
+	+ Danfeng Zhang, Yao Wang, G. Edward Suh, Andrew C. Myers
+	+ http://www.cs.cornell.edu/andru/papers/asplos15/
+	+ Meltdown, Spectre, and why hardware can be correct yet insecure
+		- https://andrumyers.wordpress.com/2018/01/17/meltdown-spectre-and-how-hardware-can-be-correct-but-insecure/
 * Architecting against Software Cache-Based Side-Channel Attacks
 	+ IEEE Transactions on Computers 62(7), July 2013
 	+ Jingfei Kong, O. Aciicmez, J-P Seifert, Huiyang Zhou
@@ -221,6 +213,11 @@ Note: see [Computer Architecture](comparch.md)
 	+ Daniel Gruss, Clémentine Maurice, Klaus Wagner, Stefan Mangard
 	+ http://arxiv.org/abs/1511.04594
 	+ https://github.com/IAIK/flush_flush
+* FLUSH+RELOAD: A High Resolution, Low Noise, L3 Cache Side-Channel Attack 
+	+ USENIX Security 2014
+	+ Yuval Yarom, Katrina Falkner
+	+ https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/yarom
+	+ https://eprint.iacr.org/2013/448
 * Hello from the Other Side: SSH over Robust Cache Covert Channels in the Cloud
 	+ Network and Distributed System Security Symposium (NDSS) 2017
 	+ Clémentine Maurice, Manuel Weber, Michael Schwarz, Lukas Giner, Daniel Gruss, Carlo Alberto Boano, Kay Römer, Stefan Mangard
@@ -392,6 +389,12 @@ Note: see [Computer Architecture](comparch.md)
 
 # Memory Bus
 
+* GSMem: Data Exfiltration from Air-Gapped Computers over GSM Frequencies
+	+ USENIX Security 2015
+	+ Mordechai Guri, Assaf Kachlon, Ofer Hasson, Gabi Kedma, Yisroel Mirsky, Yuval Elovici
+	+ https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/guri
+	+ System Bus Radio: Transmits AM radio on computers without radio transmitting hardware
+		- https://github.com/fulldecent/system-bus-radio
 * Whispers in the hyper-space: high-speed covert channel attacks in the cloud, USENIX Security 2012
 	+ https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/wu
 	+ https://www.youtube.com/watch?v=d2TU_Q4U9DA
@@ -421,6 +424,7 @@ Note: see [Computer Architecture](comparch.md)
 
 # Prefetch
 
+* Harmful prefetch on Intel - http://blog.ioactive.com/2017/01/harmful-prefetch-on-intel.html
 * Prefetch Side-Channel Attacks: Bypassing SMAP and Kernel ASLR
 	+ Conference on Computer and Communications Security (CCS) 2016
 	+ Daniel Gruss, Anders Fogh, Clémentine Maurice, Moritz Lipp, Stefan Mangard 
@@ -464,6 +468,36 @@ Note: see [Computer Architecture](comparch.md)
 	+ Onur Acıçmez, Jean-Pierre Seifert
 	+ http://conferenze.dei.polimi.it/FDTC07/Aciicmez.pdf
 * Covert Shotgun: Automatically finding covert channels in SMT - https://cyber.wtf/2016/09/27/covert-shotgun/
+
+# Speculation
+
+* Meltdown & Spectre (2018)
+	+ Meltdown - https://meltdownattack.com/
+		- Moritz Lipp, Michael Schwarz, Daniel Gruss, Thomas Prescher, Werner Haas, Stefan Mangard, Paul Kocher, Daniel Genkin, Yuval Yarom, Mike Hamburg
+		- https://meltdownattack.com/meltdown.pdf
+		- https://arxiv.org/abs/1801.01207
+		- Meltdown Proof-of-Concept - https://github.com/IAIK/meltdown
+		- http://blog.cyberus-technology.de/posts/2018-01-03-meltdown.html
+	+ Spectre Attacks: Exploiting Speculative Execution - https://spectreattack.com/
+		- Paul Kocher, Daniel Genkin, Daniel Gruss, Werner Haas, Mike Hamburg, Moritz Lipp, Stefan Mangard, Thomas Prescher, Michael Schwarz, Yuval Yarom
+		- https://spectreattack.com/spectre.pdf
+		- https://arxiv.org/abs/1801.01203
+	+ Reading privileged memory with a side-channel - Jann Horn
+		- https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html
+		- Google Project Zero PoC: https://bugs.chromium.org/p/project-zero/issues/detail?id=1272
+	+ Spectre and Meltdown: Data leaks during speculative execution - Real World Crypto 2018, Jann Horn (Google Project Zero)
+		- 	+ https://www.youtube.com/watch?v=6O8LTwVfTVs
+	+ ARM Whitepaper "Cache Speculation Side-channels" - https://developer.arm.com/support/security-update/download-the-whitepaper 
+	+ Behind the scenes of a bug collision - https://cyber.wtf/2018/01/05/behind-the-scene-of-a-bug-collision/
+	+ CPU security bugs caused by speculative execution - https://github.com/marcan/speculation-bugs
+	+ Intel Analysis of Speculative Execution Side Channels - https://newsroom.intel.com/wp-content/uploads/sites/11/2018/01/Intel-Analysis-of-Speculative-Execution-Side-Channels.pdf
+	+ meltdownspectre-patches: summary of the patch status - https://github.com/hannob/meltdownspectre-patches
+	+ More details about mitigations for the CPU Speculative Execution issue - https://security.googleblog.com/2018/01/more-details-about-mitigations-for-cpu_4.html
+	+ Retpoline: a software construct for preventing branch-target-injection - https://support.google.com/faqs/answer/7625886
+* Out-of-Order Execution and Its Applications - Sophia D'Antoine, DeepSec 2017
+	+ https://www.sophia.re/ROOTS/
+	+ https://deepsec.net/docs/Slides/2017/Out-Of-Order_Execution_and_its_applications_Sophia_dAntoine.pdf
+	+ https://deepsec.net/docs/Slides/2017/Out-Of-Order_Execution_and_its_applications_Sophia_dAntoine.pptx
 
 # Thermal
 
@@ -512,6 +546,11 @@ Note: see [Computer Architecture](comparch.md)
 ## 2016
 
 * Black Hat 2016 - ARMageddon: How Your Smartphone CPU Breaks Software-Level Security and Privacy - https://www.youtube.com/watch?v=9KsnFWejpQg
+* Black Hat 2016 - Side-Channel Attacks on Everyday Applications - Taylor Hornby
+	+ https://github.com/defuse/flush-reload-attacks
+	+ https://www.blackhat.com/docs/us-16/materials/us-16-Hornby-Side-Channel-Attacks-On-Everyday-Applications.pdf
+	+ https://www.blackhat.com/docs/us-16/materials/us-16-Hornby-Side-Channel-Attacks-On-Everyday-Applications-wp.pdf
+	+ https://www.youtube.com/watch?v=GPwNFrpd1KU
 * CCS 2016 - CREDAL: Towards Locating a Memory Corruption Vulnerability with Your Core Dump - https://www.youtube.com/watch?v=jOL4oElUKjA
 * CCS 2016 - Drammer: Deterministic Rowhammer Attacks on Mobile Platforms - https://www.youtube.com/watch?v=lTaMvBN1PoA
 * CCS 2016 - ECDSA Key Extraction from Mobile Devices via Nonintrusive Physical Side Channels - https://www.youtube.com/watch?v=0SQUQbth5vU
