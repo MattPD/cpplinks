@@ -93,6 +93,7 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 # Implementations
 
+* List of Online C++ Compilers - https://arnemertz.github.io/online-compilers/
 * LLVM - http://llvm.org/
   - LLVM Developers' Meeting - http://llvm.org/devmtg/
   - http://blog.llvm.org/
@@ -207,5 +208,16 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 # Warnings
 
+* C/C++/Objective-C compiler warning flags collection and parsers
+  - https://github.com/Barro/compiler-warnings#ccobjective-c-compiler-warning-flags-collection-and-parsers
+* Compiler Warnings - Ian Lance Taylor - https://www.airs.com/blog/archives/159
 * leathers - Warning suppression library (C++) - https://github.com/ruslo/leathers
   - Warnings list: https://github.com/ruslo/leathers/wiki/List
+* ListCppWarningOptions: A simple Perl script that prints GCC warning options you can apply to C++ code
+  - https://github.com/nkakuev/list-cpp-warning-options
+* Use The Tools Available - Compilers
+  - https://github.com/lefticus/cppbestpractices/blob/master/02-Use_the_Tools_Available.md#compilers
+* Useful GCC warning options not enabled by -Wall -Wextra
+  - https://kristerw.blogspot.com/2017/09/useful-gcc-warning-options-not-enabled.html
+* Warning Flags - http://www.iso-9899.info/wiki/WarningFlags
+* Warning Options - https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html
