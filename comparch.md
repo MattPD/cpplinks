@@ -49,6 +49,9 @@ http://www.morganclaypool.com/toc/cac/11/1
   - http://www.jilp.org/dpc/
 * The 2nd Data Prefetching Championship (DPC-2)
   - http://comparch-conf.gatech.edu/dpc2/
+* The 2nd Cache Replacement Championship (CRC-2)
+  - http://crc2.ece.tamu.edu/
+  - https://github.com/ChampSim/ChampSim
 
 ## Journal of Instruction-Level Parallelism (JILP) Workshop on Computer Architecture Competitions (JWAC)
 
