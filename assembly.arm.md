@@ -55,10 +55,16 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ help page: http://www.cl.cam.ac.uk/~sf502/regressions/rmem/help.html
 	+ web interface: http://www.cl.cam.ac.uk/users/pes20/rmem/
 * Simplifying ARM Concurrency: Multicopy-atomic Axiomatic and Operational Models for ARMv8
-	+ POPL 2018
+	+ POPL 2018 - https://www.youtube.com/watch?v=v9uygT1d0xY
 	+ Christopher Pulte, Shaked Flur, Will Deacon, Jon French, Susmit Sarkar, Peter Sewell
 	+ http://www.cl.cam.ac.uk/%7Epes20/armv8-mca/
 	+ http://www.cl.cam.ac.uk/%7Epes20/armv8-mca/armv8-mca-draft.pdf
+* The Semantics of Power and ARM Multiprocessor Machine Code
+	+ DAMP 09
+	+ J. Alglave, A. Fox, S. Isthiaq, M. Myreen, S. Sarkar, P. Sewell, F. Zappa Nardelli
+	+ http://www.di.ens.fr/~zappa/readings/damp09.pdf
+* The Semantics of Power and ARM Multiprocessor Programs
+	- http://www.cl.cam.ac.uk/~pes20/weakmemory/index4.html
 
 ## Formalization, Specification, Verification
 
@@ -69,6 +75,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * Alastair Reid's
 	+ Blog Posts - https://alastairreid.github.io/
 	+ Papers: https://alastairreid.github.io/alastairreid.github.io/papers/
+	+ 2017-12-24 - Bidirectional Assembly Syntax Specifications - https://alastairreid.github.io/bidirectional-assemblers/
 	+ 2017-09-24 - Formal validation of the Arm v8-M specification - https://alastairreid.github.io/validating-specs/
 	+ 2017-08-19 - Are natural language specifications useful? - https://alastairreid.github.io/natural-specs/
 	+ 2017-07-31 - Arm v8.3 Machine Readable Specification Released - https://alastairreid.github.io/arm-v8_3/
@@ -108,6 +115,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ ISPEC 2016
 	+ Hadrien Barral, Houda Ferradi, Rémi Géraud, Georges-Axel Jaloyan, David Naccache
 	+ https://arxiv.org/abs/1608.03415
+* Exploring the Arm dot product instructions - https://community.arm.com/tools/b/blog/posts/exploring-the-arm-dot-product-instructions
 * Introduction to Computer Organization: ARM Assembly Language Using the Raspberry Pi
 	+ http://bob.cs.sonoma.edu/IntroCompOrg-RPi/intro-co-rpi.html
 * Optional CRC Instructions in ARMv8 - https://wiki.linaro.org/LEG/Engineering/OPTIM/CRC
@@ -134,12 +142,42 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 ## Security
 
+* ARM Lab Environment - https://www.vulnhub.com/series/arm-lab,145/
+* ARM Return Oriented Programming (ROP) - Billy Ellis
+	+ Cheatsheet - https://twitter.com/bellis1000/status/929713826106396673
+	+ https://billy-ellis.github.io/armintro.html
+	+ https://billy-ellis.github.io/rop1.html
+	+ https://billy-ellis.github.io/rop2.html
+	+ https://billy-ellis.github.io/rop3.html
+* Cache Speculation Side-channels
+	+ Richard Grisenthwaite
+	+ https://developer.arm.com/support/security-update
+	+ Compiler support for mitigations - https://developer.arm.com/support/security-update/compiler-support-for-mitigations
+* Cachegrab: a tool designed to help perform and visualize trace-driven cache attacks against software in the secure world of TrustZone-enabled ARMv8 cores
+	+ https://github.com/nccgroup/cachegrab
+	+ https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/december/34C3-Tool-Release-Cachegrab/
+* Damn Vulnerable ARM Router (DVAR)
+	+ http://blog.exploitlab.net/2018/01/dvar-damn-vulnerable-arm-router.html
+* Micro-Architectural Power Simulator for Leakage Assessment of Cryptographic Software on ARM Cortex-M3 Processors
+	+ Cryptology ePrint Archive: Report 2017/1253
+	+ Yann Le Corre, Johann Großschädl, Daniel Dinu
+	+ https://eprint.iacr.org/2017/1253
+* NORAX: Enabling Execute-Only Memory for COTS Binaries on AArch64 
+	+ Security and Privacy (S&P) 2017
+	+ Yaohui Chen, Dongli Zhang, Ruowen Wang, Rui Qiao, Ahmed Azab, Long Lu, Hayawardh Vijayakumar, Wenbo Shen
+	+ http://seclab.cs.sunysb.edu/seclab/pubs/norax.pdf
 * RevARM: A Platform-Agnostic ARM Binary Rewriter for Security Applications
 	+ Annual Computer Security Applications Conference (ACSAC) 2017
 	+ T. Kim, C. Kim, H. Choi, Y. Kwon, B. Saltaformaggio, X. Zhang, D. Xu
 	+ https://www.cs.purdue.edu/homes/kwon58/data/revarm_acsac17.pdf
 	+ https://www.acsac.org/2017/openconf/modules/request.php?module=oc_program&action=summary.php&id=201
 	+ https://www.researchgate.net/publication/321506390_RevARM_A_Platform-Agnostic_ARM_Binary_Rewriter_for_Security_Applications
+* TCP Bind Shell in Assembly (ARM 32-bit)
+	+ https://azeria-labs.com/tcp-bind-shell-in-assembly-arm-32-bit/
+* Verification of a Practical Hardware Security Architecture Through Static Information Flow Analysis (ARM TrustZone)
+	+ ASPLOS 2017
+	+ Andrew Ferraiuolo, Rui Xu, Danfeng Zhang, Andrew C. Myers, G. Edward Suh
+	+ http://www.cs.cornell.edu/andru/papers/trustzone/
 
 # References
 
@@ -163,7 +201,6 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * ARM Assembly Basics Cheatsheet - https://azeria-labs.com/assembly-basics-cheatsheet/
 * ARM architecture documentation set - http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.set.architecture/
 * ARM Info Center Reference Material - https://wiki.linaro.org/Resources/HowTo/DeveloperReferences
-* ARM Return Oriented Programming (ROP) Cheatsheet - https://twitter.com/bellis1000/status/929713826106396673
 * ARM v8-A Architecture Specification
 	+ https://github.com/meriac/archex
 	+ https://meriac.github.io/archex/
@@ -217,6 +254,8 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 * Arm HPC Users Group - resources for end-users and developers deploying on Arm hardware.
 	+ https://gitlab.com/arm-hpc
+* AMaCC (Another Mini ARM C Compiler) - Small C Compiler generating ELF executable for Arm architecture
+	+ https://github.com/jserv/amacc
 * mra_tools: Tools to process ARM's Machine Readable Architecture Specification
 	+ https://github.com/alastairreid/mra_tools
 * VIXL: AArch64 Runtime Code Generation Library
@@ -274,6 +313,10 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://github.com/merrymage/dynarmic
 * IDA script for highlighting and decoding ARM system instructions
 	+ https://github.com/gdelugre/ida-arm-system-highlight
+* retools: a reverse engineering toolkit for normies
+	+ Collection of tools (disassembler, emulator, binary parser) aimed at reverse enginering tasks, more specifically, bug finding related. Currently we target ARMv7 and Mach-O though in the future more architectures and formats are planned.
+	+ retools is somewhat unique in that most of the semantics for relevant instructions are parsed out of the specification PDFs as opposed to being generated by hand. Currently the disassembler, emulator, and binary parsers are partially done, with a symbolic execution engine and instrumentation/hooking framework to come as I get more time.
+	+ https://github.com/agustingianni/retools
 * Spedi: a speculative disassembler for the variable-size Thumb ISA
 	+ Speculative disassembly, CFG recovery, and call-graph recovery from stripped binaries
 	+ "Speculative disassembly of binary code" - CASES'16 - https://dl.acm.org/citation.cfm?doid=2968455.2968505
@@ -282,8 +325,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 ## Performance
 
 * ARM Code Advisor - https://developer.arm.com/products/software-development-tools/hpc/arm-code-advisor
-* ARM Optimized Routines - https://github.com/ARM-software/optimized-routines
-* ARM math library functions
+* ARM Math Library Functions
 	+ Optimized implementations of various library functions for ARM architecture processors
 	+ https://github.com/ARM-software/optimized-routines
 * ARM Performance Libraries - https://developer.arm.com/products/software-development-tools/hpc/arm-performance-libraries
@@ -306,6 +348,16 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://www.youtube.com/watch?v=NNol7fRGo2E
 * ARM Developer Systems/Tools – BUD17-508 - http://connect.linaro.org/resource/bud17/bud17-508/
 * DynInst on arm64 – Status – BUD17-323 - http://connect.linaro.org/resource/bud17/bud17-323/
+* Formal verification by the book: ISA Formal at ARM
+	+ Formal Verification 2017 - Will Keen (Senior Engineer, CPU Group), ARM
+	+ https://www.youtube.com/watch?v=Z7-qkYOpu7I
+	+ http://www.testandverification.com/wp-content/uploads/2017/Formal_Verification/Will_Keen%20_ARM.pdf
+	+ http://www.testandverification.com/conferences/formal-verification-conference/fv2017/fv2017-formal-verification-book/
+* How can you trust formally verified software?
+	+ 34th Chaos Communication Congress (34C3) 2017 - Alastair Reid
+	+ https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8915.html
+	+ https://media.ccc.de/v/34c3-8915-how_can_you_trust_formally_verified_software
+	+ Slides: https://fahrplan.events.ccc.de/congress/2017/Fahrplan/system/event_attachments/attachments/000/003/393/original/How_can_you_trust_formally_verified_software_-_34C3_27_December_2017.pdf
 * Introducing LLDB for linux on Arm and AArch64 – BUD17-310 - http://connect.linaro.org/resource/bud17/bud17-310/
 * MAMBO: A Low-Overhead Dynamic Binary Modification Tool for ARM
 	+ PLDI 2017 
@@ -314,11 +366,18 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://pldi17.sigplan.org/event/pldi-2017-papers-low-overhead-dynamic-binary-translation-on-arm
 	+ https://www.research.manchester.ac.uk/portal/files/56078084/pldi_16.pdf
 	+ https://github.com/beehive-lab/mambo
+* Microarchitectural Attacks on Trusted Execution Environments
+	 + 34th Chaos Communication Congress (34C3) 2017 - Keegan Ryan
+	 + https://media.ccc.de/v/34c3-8950-microarchitectural_attacks_on_trusted_execution_environments
+	 + https://www.youtube.com/watch?v=G8-3G_cep4M
 * Navigating the ABI for the ARM Architecture – BUD17-318 - http://connect.linaro.org/resource/bud17/bud17-318/
 * Towards Practical Tools for Side Channel Aware Software Engineering: 'Grey Box' Modelling for Instruction Leakages
 	+ USENIX Security '17
 	+ David McCann, Elisabeth Oswald, and Carolyn Whitnall
 	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/mccann
+* TrustZone is not enough: Hijacking debug components for embedded security
+	+ 34th Chaos Communication Congress (34C3) 2017 - Pascal Cotret 
+	+ https://media.ccc.de/v/34c3-8831-trustzone_is_not_enough
 
 ## 2016
 
