@@ -42,10 +42,18 @@ Contents:
 * cave_miner: search for code cave in binaries (ELF, Mach-O, PE), and inject code in them - https://github.com/Antonin-Deniau/cave_miner
 * codesize: Code size visualization tool with PDB/ELF/Mach-O support
 	+ https://github.com/zeux/codesize
+* ddbug - Display debugging information
+	+ ddbug is a utility that can extract useful information from DWARF/PDB debugging data. Its goal is to use the debugging information to provide insights into the code generation.
+	+ Supports: ELF files with DWARF, Mach-O files with DWARF, Windows PDB files (mimimal)
+	+ https://github.com/gimli-rs/ddbug
 * FileBytes
 	+ Library to read and edit files in the following formats: Executable and Linking Format (ELF), Portable Executable (PE), MachO and OAT (Android Runtime)
 	+ https://scoding.de/filebytes-introduction
 	+ https://github.com/sashs/filebytes/
+* Fileformat: A set of libraries and tools for representation, manipulation, and analysis of binary files in various object file formats
+	+ COFF, ELF, Intel HEX, Mach-O, PE, raw data
+	+ https://github.com/avast-tl/fileformat
+* injectdso - A collection of tools for injecting DSOs - https://github.com/huku-/injectdso
 * LIEF - Library to Instrument Executable Formats
 	+ The purpose of this project is to provide a cross platform library which can parse, modify and abstract ELF, PE and MachO formats.
 	+ https://github.com/lief-project/LIEF
@@ -54,9 +62,15 @@ Contents:
 * Pyew - https://github.com/joxeankoret/pyew
 	+ Pyew is a (command line) python tool to analyse malware. It does have support for hexadecimal viewing, disassembly (Intel 16, 32 and 64 bits), PE and ELF file formats (it performs code analysis and let you write scripts using an API to perform many types of analysis), follows direct call/jmp instructions in the interactive command line, displays function names and string data references; supports OLE2 format, PDF format and more. It also supports plugins to add more features to the tool.
 * Qiew - Hex/File format viewer (ELF and PE plugins available) - https://github.com/mtivadar/qiew
+* RetDec: a retargetable machine-code decompiler based on LLVM
+	+ Supported file formats: ELF, PE, Mach-O, COFF, AR (archive), Intel HEX, and raw machine code.
+	+ Supported architectures (32b only): Intel x86, ARM, MIPS, PIC32, and PowerPC.
+	+ https://github.com/avast-tl/retdec
 * Ropper - ROP gadget finder and binary information tool (ELF, PE, Mach-O)
 	+ https://scoding.de/ropper/
 	+ https://github.com/sashs/ropper
+* Samples of binary with different formats and architectures. A test suite for your binary analysis tools. (ELF, Mach-O, PE)
+	+ https://github.com/JonathanSalwan/binary-samples
 
 ## Talks
 
@@ -74,6 +88,8 @@ Contents:
 * DLLs and Visual C++ run-time library behavior - https://docs.microsoft.com/en-us/cpp/build/run-time-library-behavior
 * Dynamic-Link Library Best Practices - https://msdn.microsoft.com/library/windows/desktop/dn633971.aspx
 * How can I specify that my DLL should resolve a DLL dependency from the same directory that the DLL is in? - https://blogs.msdn.microsoft.com/oldnewthing/20171011-00/?p=97195
+* Import by Hash in x64 Assembly - https://emsea.github.io/2017/12/04/import-by-hash/
+* Ten Process Injection Techniques: A Technical Survey of Common and Trending Process Injection Techniques - https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process
 * What is so special about the instance handle 0x10000000? - https://blogs.msdn.microsoft.com/oldnewthing/20121227-00/?p=5713/
 
 ## Software
@@ -157,6 +173,9 @@ Contents:
 	+ https://github.com/gcc-mirror/gcc/tree/master/libbacktrace
 * libdwarf - DWARF debugging information - https://sourceforge.net/projects/libdwarf/
 	+ Libdwarf And Dwarfdump - http://wiki.dwarfstd.org/index.php?title=Libdwarf_And_Dwarfdump
+	+ Libdwarf: Library to provide access to DWARF debugging information
+		- Libdwarf meta repository that combines libdwarf with its dependency libelf
+		- https://github.com/avast-tl/libdwarf
 * libdwarfpp: A high-level API for accessing DWARF debugging information, in C++ - https://github.com/stephenrkell/libdwarfpp
 * llvm-dwarfdump - dump and verify DWARF debug information - https://llvm.org/docs/CommandGuide/llvm-dwarfdump.html
 * Pahole and the dwarves: Debugging Information Manipulation Tools
@@ -176,6 +195,8 @@ Contents:
 	+ Related post: https://developers.redhat.com/blog/2017/07/11/statement-frontier-notes-and-location-views/
 * 2017 - Build-ids, symbols and debuginfo tooling BoF, GNU Tools Cauldron 2017
 	+ https://slideslive.com/38902681/buildids-symbols-and-debuginfo-tooling-bof
+* 2017 - Debugging Debug Information - Francesco Zappa Nardelli - [Workshop on Software Correctness and Reliability 2017](http://www.srl.inf.ethz.ch/workshop2017.php)
+	+ https://www.youtube.com/watch?v=lBJIrGgEP1A
 * 2016 - Cheap generation of debugging information - http://pauillac.inria.fr/~xleroy/talks/Compilation-2016.pdf
 * 2016 - Fixing LTO Debug Information - GNU Tools Cauldron 2016 - https://gcc.gnu.org/wiki/cauldron2016?action=AttachFile&do=view&target=Cauldron2016-LTOEarlyDebug.pdf - https://www.youtube.com/watch?v=xtm7DxDG5js
 * 2015 - What is new in DWARF5 - Hafiz Abid Qadeer, GNU Tools Cauldron 2015
@@ -221,9 +242,11 @@ Contents:
 * Custom ELF program headers—what, why and how - http://www.cl.cam.ac.uk/~srk31/blog/2017/02/14/
 	+ Rag-bag of utilities and scripts that do strange things with ELF files - https://github.com/stephenrkell/elftin/
 * ELF - No Section Header? No Problem - https://em386.blogspot.com/2006/10/elf-no-section-header-no-problem.html
+* ELF File Format - http://resources.infosecinstitute.com/elf-file-format/
 * ELF Hello World Tutorial
 	+ http://www.cirosantilli.com/elf-hello-world/
 	+ https://github.com/cirosantilli/cirosantilli.github.io/blob/master/elf-hello-world.md
+* ELF introspection, robustly and portably - http://www.cl.cam.ac.uk/~srk31/blog/devel/elf-introspection.html
 * ELF Parsing Bugs by Example with Melkor Fuzzer
 	+ https://ioactive.com/pdfs/IOActive_ELF_Parsing_with_Melkor.pdf
 	+ http://blog.ioactive.com/2014/11/elf-parsing-bugs-by-example-with-melkor.html
@@ -240,16 +263,27 @@ Contents:
 	+ Position Independent Code (PIC) in shared libraries on x64 - https://eli.thegreenplace.net/2011/11/11/position-independent-code-pic-in-shared-libraries-on-x64
 	+ How statically linked programs run on Linux - https://eli.thegreenplace.net/2012/08/13/how-statically-linked-programs-run-on-linux
 	+ Library order in static linking - https://eli.thegreenplace.net/2013/07/09/library-order-in-static-linking
+* Executable and Linkable Format 101
+	+ Part 1 Sections and Segments - http://www.intezer.com/executable-linkable-format-101-part1-sections-segments/
 * Exploiting ELF Expansion Variables - https://backtrace.io/blog/exploiting-elf-expansion-variables/
 * Generating executable files from scratch - https://github.com/cameronswinoga/yabfc/wiki/Generating-executable-files-from-scratch
+* GNU Hash ELF Sections
+	+ https://blogs.oracle.com/ali/gnu-hash-elf-sections
+	+ http://www.linker-aliens.org/blogs/ali/entry/gnu_hash_elf_sections/
 * Good Practices in Library Design, Implementation, and Maintenance - https://www.akkadia.org/drepper/goodpractice.pdf
 * Have fun with LIEF and Executable Formats - Play with ELF symbols - Part 2 (renaming dynamic symbols) - https://blog.quarkslab.com/have-fun-with-lief-and-executable-formats.html#elf
 * How is a binary executable organized? Let's explore it! - https://jvns.ca/blog/2014/09/06/how-to-read-an-executable/
 * How programs get run: ELF binaries - https://lwn.net/Articles/631631/
+* How To Strip An ELF Object Without Fully Understanding It
+	+ http://www.linker-aliens.org/blogs/ali/entry/how_to_strip_an_elf/
+	+ https://blogs.oracle.com/ali/how-to-strip-an-elf-object-without-fully-understanding-it
 * How To Write Shared Libraries - https://www.akkadia.org/drepper/dsohowto.pdf
 * I/O patterns on ELF binary initialization - https://glandium.org/blog/?p=1016
 * Improving binary layout for progressive decompression (2011) - https://glandium.org/blog/?p=2320
 * In the lands of corrupted elves: Breaking ELF software with Melkor fuzzer - https://www.blackhat.com/docs/us-14/materials/arsenal/us-14-Hernandez-Melkor-Slides.pdf
+* Inside ELF Symbol Tables
+	+ https://blogs.oracle.com/ali/inside-elf-symbol-tables
+	+ http://www.linker-aliens.org/blogs/ali/entry/inside_elf_symbol_tables/
 * Linux Internals - Dynamic Linking Wizardry - https://0x00sec.org/t/linux-internals-dynamic-linking-wizardry/1082
 * Linux Internals - The Art Of Symbol Resolution - https://0x00sec.org/t/linux-internals-the-art-of-symbol-resolution/1488
 * Programming With Ones and Zeros
@@ -261,7 +295,11 @@ Contents:
 * Resolving ELF Relocation Name / Symbols - https://em386.blogspot.com/2006/10/resolving-elf-relocation-name-symbols.html
 * Smallest x86 ELF Hello World - http://timelessname.com/elfbin/
 * Targeting File Parsers with S2E and Kaitai Struct - targeted symbolic execution of readelf - https://adrianherrera.github.io/post/kaitai-s2e/
+* The 101 of ELF Binaries on Linux: Understanding and Analysis - https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/
 * The Anatomy of an Executable - dissection of a simple "hello world" ELF binary - https://github.com/mewrev/dissection
+* The Cost Of ELF Symbol Hashing
+	+ https://blogs.oracle.com/ali/the-cost-of-elf-symbol-hashing
+	+ http://www.linker-aliens.org/blogs/ali/entry/the_cost_of_elf_symbol/
 * The ELF Object File Format by Dissection (1995) - http://www.linuxjournal.com/article/1060
 * The Executable and Linkable Format (ELF)
 	+ https://publicclu2.blogspot.com/2013/05/executable-and-linkable-format-elf.html
@@ -300,6 +338,8 @@ Contents:
 		- https://kar.kent.ac.uk/63700/
 * elf-bf-tools - https://github.com/bx/elf-bf-tools
 	+ This project contains tools that can be used to coerce the gcc's runtime loader into performing interesting operations using only valid relocation entries and symbols.
+* elf-parser: identifying/extracting various sections of an ELF file
+	+ https://github.com/TheCodeArtist/elf-parser
 * ELF/PaX Utilities - https://github.com/gentoo/pax-utils
 	+ https://en.wikibooks.org/wiki/Grsecurity/Additional_Utilities
 	+ scanelf - Prints out information specific to the ELF structure of a binary - https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities#Extracting_ELF_information_from_binaries
@@ -313,6 +353,7 @@ Contents:
 	+ http://serge1.github.io/ELFIO 
 	+ https://github.com/serge1/ELFIO
 * ELFkickers (ebfc, elfls, elftoc, infect, objres, rebind, sstrip) - http://www.muppetlabs.com/~breadbox/software/elfkickers.html
+* Elfkit: Rust ELF parsing, manipulation, and (re)linking toolkit - https://github.com/aep/elfkit
 * elfutils
 	+ a collection of utilities and libraries to read, create and modify ELF binary files, find and handle DWARF debug data, symbols, thread state and stacktraces for processes and core files on GNU/Linux
 	+ https://sourceware.org/elfutils/
@@ -340,6 +381,8 @@ Contents:
 * patchkit - https://github.com/lunixbochs/patchkit
 	+ Patches an ELF binary using one or more simple Python scripts.
 * pyelftools: Pure-python library for parsing ELF and DWARF - https://github.com/eliben/pyelftools
+* Stasis: build static position-independant-executables without any runtime requirements (no libc or ldso)
+	+ https://github.com/korhalio/stasis
 * syms2elf: a plugin to export the symbols recognized to the ELF symbol table 
 	+ Hex-Ray's IDA Pro and radare2 - https://github.com/danigargu/syms2elf
 	+ Binary Ninja - https://github.com/monosource/syms2elf
@@ -467,6 +510,7 @@ Contents:
 ## Readings
 
 * CodeView Debug Info Format - http://llvm.org/docs/SourceLevelDebugging.html#codeview-debug-info-format
+* Improving Link Time on Windows with clang-cl and lld - http://blog.llvm.org/2018/01/improving-link-time-on-windows-with.html
 * Jan Gray on inventing/implementing PDB files 1990-94 - https://twitter.com/jangray/status/659916997711544320
 * LLVM on Windows now supports PDB Debug Info - http://blog.llvm.org/2017/08/llvm-on-windows-now-supports-pdb-debug.html
 * PDB File Format - https://github.com/google/syzygy/wiki/PdbFileFormat
@@ -487,6 +531,7 @@ Contents:
 ## Software
 
 * Debug Interface Access SDK (DIA SDK) - provides access to debug information stored in PDB files - https://docs.microsoft.com/en-us/visualstudio/debugger/debug-interface-access/debug-interface-access-sdk
+* drpdb: Convert from Microsoft PDB format into a MySQL database - https://github.com/briterator/drpdb
 * llvm-pdbutil - PDB File forensics and diagnostics - https://llvm.org/docs/CommandGuide/llvm-pdbutil.html - https://github.com/llvm-mirror/llvm/tree/master/tools/llvm-pdbutil
 * llvm-symbolizer - convert addresses into source code locations - https://llvm.org/docs/CommandGuide/llvm-symbolizer.html - https://github.com/Microsoft/llvm/tree/master/test/tools/llvm-symbolizer/pdb
 * MetadataTools:
@@ -555,11 +600,20 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ https://github.com/hasherezade/libpeconv/tree/master/pe_unmapper
 * Manalyze, a static analyzer for PE executables - https://manalyzer.org/ - https://github.com/JusticeRage/Manalyze
 * pefile: a Python module to read and work with PE (Portable Executable) files - https://github.com/erocarrera/pefile
+* PeLib: PE file manipulation library - https://github.com/avast-tl/pelib
+* PeRebuilder - https://github.com/AaLl86/retroware
+	+ automatically reconstruct the PE, and save it in a form that the Windows Loader is able to run (fixing the file alignment, relocating each section, fixing the import address table, and so on...)
+* pev: The PE file analysis toolkit
+	+ http://pev.sf.net
+	+ https://github.com/merces/pev
 * PEview - http://wjradburn.com/software/
 * PE Insider - http://cerbero.io/peinsider/
 * PE Tools - http://www.malware-analyzer.com/pe-tools
 * PE-bear - https://hshrzd.wordpress.com/pe-bear/
 * pe-parse - Principled, lightweight C/C++ PE parser - https://github.com/trailofbits/pe-parse 
+* PE-sieve: a small tool for investigating inline hooks (and other in-memory code patches) 
+	+ https://hshrzd.wordpress.com/pe-sieve/
+	+ https://github.com/hasherezade/pe-sieve
 * pe_armor: Metamorphic PE packer generated and assembled by a Python code - https://github.com/DimitriFourny/resources/tree/master/pe_armor
 * pe_recovery_tools: Helper tools for recovering dumped PE files - https://github.com/hasherezade/pe_recovery_tools
 * pedump - dump windows PE files using Ruby - http://pedump.me/ - https://github.com/zed-0xff/pedump
