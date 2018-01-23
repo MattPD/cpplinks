@@ -66,6 +66,8 @@ https://riscv.org/publications/
   - https://github.com/ridecore/ridecore
 * RI5CY: RISC-V Core -  PULP RI5CY core modified for Verilator modeling and as a GDB server (SystemVerilog)
   - https://github.com/embecosm/ri5cy
+* RISC V Cores and SoCs
+  - https://github.com/riscv/riscv-wiki/wiki/RISC-V-Cores-and-SoCs
 * Riscy Processors - Open-Sourced RISC-V Processors (Bluespec System Verilog)
   - https://github.com/csail-csg/riscy
 * Rocket Chip Generator (Chisel)
@@ -129,6 +131,13 @@ https://riscv.org/software-tools/
   - https://kvakil.github.io/venus/ 
   - https://github.com/kvakil/venus
 
+## Talks
+
+* End-to-end formal ISA verification of RISC-V processors with riscv-formal
+	+ 34C3 (2017), Clifford Wolf 
+	+ https://www.youtube.com/watch?v=VU97ffHF_IQ
+	+ https://media.ccc.de/v/34c3-8768-end-to-end_formal_isa_verification_of_risc-v_processors_with_riscv-formal
+
 ## Tutorials
 
 * "All Aboard" Blog Series
@@ -140,7 +149,11 @@ https://riscv.org/software-tools/
   - Part 5: Per-march and per-mabi Library Paths on RISC-V Systems - https://www.sifive.com/blog/2017/09/18/all-aboard-part-5-risc-v-multilib/
   - Part 6: Booting a RISC-V Linux Kernel - https://www.sifive.com/blog/2017/10/09/all-aboard-part-6-booting-a-risc-v-linux-kernel/
   - Part 7: Entering and Exiting the Linux Kernel on RISC-V - https://www.sifive.com/blog/2017/10/23/all-aboard-part-7-entering-and-exiting-the-linux-kernel-on-risc-v/
+  - Part 8: The RISC-V Linux Port is Upstream! - https://www.sifive.com/blog/2017/12/05/all-aboard-part-8-the-risc-v-linux-port-is-upstream/
+  - Part 9: Paging and the MMU in the RISC-V Linux Kernel - https://www.sifive.com/blog/2017/12/11/all-aboard-part-9-paging-and-mmu-in-risc-v-linux-kernel/
 * Building upstream RISC-V GCC+binutils+newlib: the quick and dirty way - http://www.lowrisc.org/blog/2017/09/building-upstream-risc-v-gccbinutilsnewlib-the-quick-and-dirty-way/
 * RISC-V 101 Webinar - https://info.sifive.com/risc-v-webinar
 * RISC-V Presentation at ESC Boston 2016 - https://riscv.org/2016/04/risc-v-presentation-esc-boston/
+* RISC-V QEMU
+  - Part 1: Privileged ISA v1.10, HiFive1 and VirtIO - https://www.sifive.com/blog/2017/12/20/risc-v-qemu-part-1-privileged-isa-hifive1-virtio/
 * RISC-V Tutorial at HPCA 2015 - https://riscv.org/2015/02/risc-v-tutorial-hpca-2015/
