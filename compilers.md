@@ -161,6 +161,14 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 # Talks
 
+## 2018
+
+* Introduction to LLVM: Building simple program analysis tools and instrumentation
+  - FOSDEM 2018 - Mike Shah
+  - https://fosdem.org/2018/schedule/event/introduction/
+  - https://www.youtube.com/watch?v=VKIv_Bkp4pk
+  - slides & code: http://www.mshah.io/fosdem18.html
+
 ## 2017
 
 * Getting started with LLVM: the TL;DR version - Diana Picus
