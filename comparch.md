@@ -65,6 +65,8 @@ http://www.morganclaypool.com/toc/cac/11/1
   - http://www.jilp.org/cbp2014/
 * 5th JILP Workshop on Computer Architecture Competitions (JWAC-5): Championship Branch Prediction (CBP-5)
   - http://www.jilp.org/cbp2016/
+* 6th JILP Workshop on Computer Architecture Competitions (JWAC-6): Championship Value Prediction (CVP-1)
+  - https://www.microarch.org/cvp1/
 
 # Conferences
 
