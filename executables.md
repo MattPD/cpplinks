@@ -191,7 +191,7 @@ Contents:
 ## Talks
 
 * 2018 - FOSDEM 2018 - [Debugging Tools](https://fosdem.org/2018/schedule/track/debugging_tools/)
-	+ AMENDMENT DWARF Pieces And Other DWARF Location Woes - https://fosdem.org/2018/schedule/event/dwarfpieces/
+	+ DWARF Pieces And Other DWARF Location Woes - https://fosdem.org/2018/schedule/event/dwarfpieces/
 	+ DWARF5 and GNU extensions - https://fosdem.org/2018/schedule/event/debugging_tools_dwarf5/
 	+ Rust versus DWARF versus LLVM - https://fosdem.org/2018/schedule/event/debugging_tools_rust/
 * 2017 - Consistent Views at Recommended Breakpoints (bis), GNU Tools Cauldron 2017
