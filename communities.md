@@ -71,5 +71,6 @@ In case you'd prefer to use a web browser, Google Groups links are provided.
 * alt.comp.lang.learn.c-c++ - http://groups.google.com/group/alt.comp.lang.learn.c-c++
 * comp.lang.c++ - http://groups.google.com/group/comp.lang.c++
 * comp.lang.c++.moderated - http://groups.google.com/group/comp.lang.c++.moderated
+	+ http://www.gotw.ca/resources/clcm.htm
 * comp.std.c++ - http://groups.google.com/group/comp.std.c++
 * gnu.g++.help (g++-specific) - http://groups.google.com/group/gnu.g++.help
