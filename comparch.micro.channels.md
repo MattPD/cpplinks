@@ -92,11 +92,13 @@ Note: see [Computer Architecture](comparch.md)
 * ctgrind
 	+ https://www.imperialviolet.org/2010/04/01/ctgrind.html
 	+ https://github.com/agl/ctgrind/
+* CTTK (Constant-Time Toolkit)
+	+ https://github.com/pornin/CTTK
 * Did we learn from LLC Side Channel Attacks? A Cache Leakage Detection Tool for Crypto Libraries
 	+ 2017; Gorka Irazoqui, Kai Cong, Xiaofei Guo, Hareesh Khattri, Arun Kanuparthi, Thomas Eisenbarth, Berk Sunar
 	+ https://arxiv.org/abs/1709.01552
 * dudect: dude, is my code constant time? - https://github.com/oreparaz/dudect
-* FaCT: A Flexible, Constant-TimeProgramming Language
+* FaCT: A Flexible, Constant-Time Programming Language
 	+ SecDev 2017
 	+ Sunjay Cauligi, Gary Soeller, Fraser Brown, Brian Johannesmeyer, Yunlu Huang, Ranjit Jhala, Deian Stefan
 	+ https://cseweb.ucsd.edu/~dstefan/pubs/cauligi:2017:fact.pdf
@@ -229,6 +231,10 @@ Note: see [Computer Architecture](comparch.md)
 	+ Fangfei Liu, Yuval Yarom, Qian Ge, Gernot Heiser, Ruby B. Lee
 	+ http://palms.ee.princeton.edu/system/files/SP_vfinal.pdf
 	+ https://www.youtube.com/watch?v=vpGI1ggKzC4
+* MeltdownPrime and SpectrePrime: Automatically-Synthesized Attacks Exploiting Invalidation-Based Coherence Protocols
+	+ 2018 arXiv preprint
+	+ Caroline Trippel, Daniel Lustig, Margaret Martonosi
+	+ https://arxiv.org/abs/1802.03802
 * MemJam: A False Dependency Attack against Constant-Time Crypto Implementations
 	+ RSA Conference 2018
 	+ Ahmad Moghimi, Thomas Eisenbarth, Berk Sunar
@@ -387,6 +393,20 @@ Note: see [Computer Architecture](comparch.md)
 	+ https://www.semanticscholar.org/paper/An-Empirical-Bandwidth-Analysis-of-Interrupt-Relat-Gay-Mantel/d81d95e8969edd37a3f47335b98a9b6ce9e3942f
 	+ http://www.mais.informatik.tu-darmstadt.de/WebBibPHP/papers/2013/2013-GayMantelSudbrock-EmpiricalIRCC.pdf
 
+# Magnetic
+
+* MAGNETO: Covert Channel between Air-Gapped Systems and Nearby Smartphones via CPU-Generated Magnetic Fields
+	+ https://cyber.bgu.ac.il/advanced-cyber/airgap
+	+ Mordechai Guri, Andrey Daidakulov, Yuval Elovici
+	+ https://arxiv.org/abs/1802.02317
+	+ Paper: https://arxiv.org/abs/1802.02317
+	+ Video: https://www.youtube.com/watch?v=yz8E5n1Tzlo
+* ODINI : Escaping Sensitive Data from Faraday-Caged, Air-Gapped Computers via Magnetic Fields
+	+ https://cyber.bgu.ac.il/advanced-cyber/airgap
+	+ Mordechai Guri, Boris Zadov, Andrey Daidakulov, Yuval Elovici 
+	+ Paper: https://cyber.bgu.ac.il/advanced-cyber/system/files/ODINI_1.pdf
+	+ Video: https://www.youtube.com/watch?v=h07iXD-aSCA
+
 # Memory Bus
 
 * GSMem: Data Exfiltration from Air-Gapped Computers over GSM Frequencies
@@ -471,6 +491,11 @@ Note: see [Computer Architecture](comparch.md)
 
 # Speculation
 
+* Covert and Side Channels due to Processor Architecture
+	+ Annual Computer Security Applications Conference ACSAC 2006
+	+ Zhenghong Wang, Ruby B. Lee
+	+ http://ieeexplore.ieee.org/document/4041191/
+	+ http://www.acsac.org/2006/papers/127.pdf
 * Meltdown & Spectre (2018)
 	+ Meltdown - https://meltdownattack.com/
 		- Moritz Lipp, Michael Schwarz, Daniel Gruss, Thomas Prescher, Werner Haas, Stefan Mangard, Paul Kocher, Daniel Genkin, Yuval Yarom, Mike Hamburg
@@ -486,7 +511,9 @@ Note: see [Computer Architecture](comparch.md)
 		- https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html
 		- Google Project Zero PoC: https://bugs.chromium.org/p/project-zero/issues/detail?id=1272
 	+ Spectre and Meltdown: Data leaks during speculative execution - Real World Crypto 2018, Jann Horn (Google Project Zero)
-		- 	+ https://www.youtube.com/watch?v=6O8LTwVfTVs
+		- https://www.youtube.com/watch?v=6O8LTwVfTVs
+	+ Paul Kocher: Spectre Mitigations in Microsoft's C/C++ Compiler
+		- https://www.paulkocher.com/doc/MicrosoftCompilerSpectreMitigation.html
 	+ ARM Whitepaper "Cache Speculation Side-channels" - https://developer.arm.com/support/security-update/download-the-whitepaper 
 	+ Behind the scenes of a bug collision - https://cyber.wtf/2018/01/05/behind-the-scene-of-a-bug-collision/
 	+ CPU security bugs caused by speculative execution - https://github.com/marcan/speculation-bugs
@@ -516,6 +543,23 @@ Note: see [Computer Architecture](comparch.md)
 	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/disselkoen
 
 # Talks
+
+## 2018
+
+* Beyond Belief: The Case of Spectre and Meltdown
+	+ [BlueHatIL](http://www.bluehatil.com/abstracts.html) 2018
+	+ Daniel Gruss, Moritz Lipp, Michael Schwarz
+	+ https://www.youtube.com/watch?v=_4O0zMW-Zu4
+	+ http://www.bluehatil.com/files/Beyond%20Belief%20-%20The%20Case%20of%20Spectre%20and%20Meltdown.pdf
+* Exploiting modern microarchitectures: Meltdown, Spectre, and other hardware attacks
+	+ Jon Masters, Red Hat, Stanford EE380, Jan 31 2018
+	+ https://www.youtube.com/watch?v=zuBw1HFJMsM
+	+ http://web.stanford.edu/class/ee380/Abstracts/180131.html
+	+ http://web.stanford.edu/class/ee380/Abstracts/180131-slides.pdf
+* Spectre: Exploiting Speculative Execution
+	+ SiFive Tech Talk: Paul Kocher
+	+ January 31, 2018
+	+ https://www.youtube.com/watch?v=hqIavX_SCWc
 
 ## 2017
 
