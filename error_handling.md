@@ -111,6 +111,12 @@
 
 ## Papers
 
+* Jason Hiser, Anh Nguyen-Tuong, William Hawkins, Matthew McGill, Michele Co, Jack Davidson
+	+ Zipr++: Exceptional Binary Rewriting
+	+ Forming an Ecosystem Around Software Transformation (FEAST) 2017
+	+ https://dl.acm.org/citation.cfm?doid=3141235.3141240
+	+ https://tc.gtisc.gatech.edu/feast17/papers/p9-hiserA.pdf
+	+ cf. Section 2.2 - EH Frame IR Construction - exception handling and stack unwinding information in Linux ELF executable files
 * Lawrence Crowl - Handling Disappointment in C++
 	+ http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0157r0.html
 * Michael Wong, Sunil Srivastava, Sean Middleditch, Patrice Roy - Report on Exception Handling Lite (Disappointment) from SG14
@@ -124,6 +130,8 @@
 	+ An introduction to `Outcome` and presentation of benchmarks of it against exceptions and error codes.
 	+ Slides: https://docs.google.com/presentation/d/1X_3VOxb8PMGXHBzjmzl5oVnwYVIyBpZHcY0Idv_9tSc/edit#slide=id.p
 	+ Video: https://www.youtube.com/watch?v=XVofgKH-uu4
+* C++ Meetup Sydney, December 6, 2017: Andrei Tarassov - A Story of One Exception
+	+ https://www.youtube.com/watch?v=cWHO3KXcdhU
 * CppCon 2017: Dave Watson - C++ Exceptions and Stack Unwinding
 	+ Looks at the Itanium exception handling model and several implementations of it.
 	+ Video: https://www.youtube.com/watch?v=_Ivd3qzgT7U
@@ -133,6 +141,8 @@
 
 ### 2016
 
+* C++Now 2016 - David Stone: Exceptional Performance
+	+ https://www.youtube.com/watch?v=0_FQIDEf7_Q
 * CppCon 2016: Patrice Roy - The Exception Situation
 	+ An examination of different error handling strategies and where they are appropriate.
 	+ Video: https://www.youtube.com/watch?v=Fno6suiXLPs
