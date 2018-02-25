@@ -5,10 +5,10 @@ Note: see also [compilers](compilers.md)
 # Contents
 
 * [General](#general)
+* [Testing](#testing)
 	+ [Articles](#articles)
 	+ [Software](#software)
 	+ [Talks](#talks)
-* [Testing](#testing)
 * [Validation](#testing)
 * [Verification](#testing)
 
