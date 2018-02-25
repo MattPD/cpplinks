@@ -127,7 +127,7 @@
 ### 2018
 
 * CPPDUG (Dublin C/C++ User Group) February 2018: Peter Edwards - C++ Exception Handling - The gory details of an implementation
-	+ what happens when throwing an exception on modern Linux systems
+	+ What happens when throwing an exception on modern Linux systems.
 	+ Slides: https://isainmdom.com/~peadar/eximpl/
 	+ Video: https://www.youtube.com/watch?v=XpRL7exdFL8
 
@@ -138,7 +138,7 @@
 	+ Slides: https://docs.google.com/presentation/d/1X_3VOxb8PMGXHBzjmzl5oVnwYVIyBpZHcY0Idv_9tSc/edit#slide=id.p
 	+ Video: https://www.youtube.com/watch?v=XVofgKH-uu4
 * C++ Meetup Sydney, December 6, 2017: Andrei Tarassov - A Story of One Exception
-	+ A walthrough on debugging an unknown exception from a core dump (Linux, GDB).
+	+ A walkthrough on debugging an unknown exception from a core dump (Linux, GDB).
 	+ https://www.youtube.com/watch?v=cWHO3KXcdhU
 * CppCon 2017: Dave Watson - C++ Exceptions and Stack Unwinding
 	+ Looks at the Itanium exception handling model and several implementations of it.
@@ -150,6 +150,7 @@
 ### 2016
 
 * C++Now 2016 - David Stone: Exceptional Performance
+	+ "In this presentation, we will discuss exactly what effect exceptions have on the performance of an application, backed up by numbers from both benchmarks and real world applications. We will go into the details of hardware architecture and memory hierarchy to try to understand exactly why code performs the way it does."
 	+ https://www.youtube.com/watch?v=0_FQIDEf7_Q
 * CppCon 2016: Patrice Roy - The Exception Situation
 	+ An examination of different error handling strategies and where they are appropriate.
