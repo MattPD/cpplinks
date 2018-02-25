@@ -139,8 +139,12 @@ http://www.morganclaypool.com/toc/cac/11/1
   + a cycle-level, heterogeneous architecture simulator for x86 and NVIDIA PTX instructions
   + http://comparch.gatech.edu/hparch/macsim.html
   + https://github.com/gthparch/macsim
-* MARSSx86 - http://marss86.org/
-* Multi2Sim - http://www.multi2sim.org/ - https://github.com/Multi2Sim/multi2sim
+* MARSSx86
+  + http://marss86.org/
+  + https://github.com/avadhpatel/marss
+* Multi2Sim
+  + http://www.multi2sim.org/
+  + https://github.com/Multi2Sim/multi2sim
 * Sniper - http://snipersim.org/
 * Structural Simulation Toolkit (SST) - http://sst-simulator.org/
   + https://github.com/sstsimulator
