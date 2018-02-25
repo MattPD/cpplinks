@@ -122,12 +122,18 @@ Note: see also [computer architecture](comparch.md)
     - http://gpgpu-sim.org/manual/index.php/Main_Page#Visualizing_High-Level_GPGPU-Sim_Microarchitecture_Behavior
     - http://gpgpu-sim.org/manual/index.php/Main_Page#Visualizing_Cycle_by_Cycle_Microarchitecture_Behavior
   - http://www.gpgpu-sim.org/micro2012-tutorial/
+  - using Docker containers - https://socal-ucr.github.io/GPGPU-sim-container/
 * Integrated gem5 + GPGPU-Sim Simulator 
-  - http://cpu-gpu-sim.ece.wisc.edu/
+  + http://cpu-gpu-sim.ece.wisc.edu/
+  + gem5-gpu: A Heterogeneous CPU-GPU Simulator
+    - IEEE Computer Architecture Letters, 14(1), 2015
+    - J. Power, J. Hestness, M.S. Orr, M.D. Hill, D.A. Wood
+    - http://ieeexplore.ieee.org/document/6709764/
+    - https://www.researchgate.net/publication/274858518_Gem5-gpu_A_heterogeneous_CPU-GPU_simulator
 * MacSim  
   A cycle-level, heterogeneous architecture simulator for x86 and NVIDIA PTX instructions.
   - http://comparch.gatech.edu/hparch/macsim.html
   - https://github.com/gthparch/macsim
 * Multi2Sim: A Heterogeneous System Simulator
- - http://www.multi2sim.org/
- - https://github.com/Multi2Sim/multi2sim
+  - http://www.multi2sim.org/
+  - https://github.com/Multi2Sim/multi2sim
