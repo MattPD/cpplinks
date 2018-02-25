@@ -153,6 +153,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ Richard Grisenthwaite
 	+ https://developer.arm.com/support/security-update
 	+ Compiler support for mitigations - https://developer.arm.com/support/security-update/compiler-support-for-mitigations
+	+ Speculation Barrier - https://github.com/ARM-software/speculation-barrier
 * Cachegrab: a tool designed to help perform and visualize trace-driven cache attacks against software in the secure world of TrustZone-enabled ARMv8 cores
 	+ https://github.com/nccgroup/cachegrab
 	+ https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/december/34C3-Tool-Release-Cachegrab/
@@ -166,6 +167,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ Security and Privacy (S&P) 2017
 	+ Yaohui Chen, Dongli Zhang, Ruowen Wang, Rui Qiao, Ahmed Azab, Long Lu, Hayawardh Vijayakumar, Wenbo Shen
 	+ http://seclab.cs.sunysb.edu/seclab/pubs/norax.pdf
+* Pointer Authentication on ARMv8.3 - https://www.qualcomm.com/media/documents/files/whitepaper-pointer-authentication-on-armv8-3.pdf
 * RevARM: A Platform-Agnostic ARM Binary Rewriter for Security Applications
 	+ Annual Computer Security Applications Conference (ACSAC) 2017
 	+ T. Kim, C. Kim, H. Choi, Y. Kwon, B. Saltaformaggio, X. Zhang, D. Xu
@@ -204,6 +206,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * ARM v8-A Architecture Specification
 	+ https://github.com/meriac/archex
 	+ https://meriac.github.io/archex/
+* asm.thi.ng - baremetal ARM coding resources - http://asm.thi.ng/
 * Instruction Sets - https://developer.arm.com/products/architecture/instruction-sets
 * Linux Kernel Documentation
 	+ ARM: https://www.kernel.org/doc/Documentation/arm/
@@ -297,13 +300,20 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * ARMulator: A emulator for ARM programs (aims to run ARM programs in x86 platform)
 	+ https://github.com/x-y-z/armulator
 	+ http://x-y-z.github.io/armulator/
+* arm_now: arm vm working out of the box for everyone (Linux / Windows) - https://github.com/nongiach/arm_now
+* Debian on an emulated ARM machine
+	+ https://www.aurel32.net/info/debian_arm_qemu.php
+	+ https://wiki.debian.org/ArmEabiHowto
+	+ https://people.debian.org/~aurel32/qemu/
 * ELMO (Emulator for power Leakages for the M0): Leakage simulator for the ARM Cortex M0
 	+ https://github.com/bristol-sca/ELMO
 	+ Towards Practical Tools for Side Channel Aware Software Engineering: 'Grey Box' Modelling for Instruction Leakages
 	+ USENIX Security '17
 	+ David McCann, Elisabeth Oswald, and Carolyn Whitnall
 	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/mccann
+* Emulate Raspberry Pi with QEMU - http://graznik.de/posts/emulate-raspberry-pi-with-qemu/
 * gem5 - ARM Implementation - http://gem5.org/ARM_Implementation
+* Qemu images (ARM, MIPS, PowerPC, SPARC, AArch64) - https://blahcat.github.io/2017/06/25/qemu-images-to-play-with/
 * thumbulator: Thumb (16 bit ARM) instruction set simulator - https://github.com/dwelch67/thumbulator
 * VisUAL - A highly visual ARM emulator - http://salmanarif.bitbucket.org/visual/
 
@@ -341,6 +351,13 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * Streamline Performance Analyzer - https://developer.arm.com/products/software-development-tools/ds-5-development-studio/streamline
 
 # Talks
+
+## 2018
+
+* Raising the Bar: New Hardware Primitives for Exploit Mitigations - BlueHat v17
+	+ ARMv8.3 pointer authentication
+	+ https://www.youtube.com/watch?v=PYe8W33lbAQ
+	+ https://www.slideshare.net/MSbluehat/raising-the-bar-new-hardware-primitives-for-exploit-mitigations-83686492
 
 ## 2017
 
@@ -551,6 +568,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ http://www.opensecuritytraining.info/IntroARM.html
 	+ https://www.youtube.com/playlist?list=PLUFkSN0XLZ-n91t_AX5zO007Giz1INwPd
 * Introduction to ARMv8 64-bit Architecture - https://quequero.org/2014/04/introduction-to-arm-architecture/
+* Shellcode: Encryption Algorithms in ARM Assembly - https://modexp.wordpress.com/2018/02/04/arm-crypto/
 * Understanding ARM Assembly - Marion Cole
 	+ Part 1: Processor features - https://blogs.msdn.microsoft.com/ntdebugging/2013/11/22/understanding-arm-assembly-part-1/
 	+ Part 2: How Windows uses the processor - https://blogs.msdn.microsoft.com/ntdebugging/2014/05/15/understanding-arm-assembly-part-2/
