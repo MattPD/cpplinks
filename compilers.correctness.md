@@ -9,8 +9,8 @@ Note: see also [compilers](compilers.md)
 	+ [Articles](#articles)
 	+ [Software](#software)
 	+ [Talks](#talks)
-* [Validation](#testing)
-* [Verification](#testing)
+* [Validation](#validation)
+* [Verification](#verification)
 
 ---
 
