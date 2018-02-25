@@ -231,6 +231,10 @@ Source: http://www.sigplan.org/Awards/Dissertation/#2015
 Threads and memory model for C++
 http://hboehm.info/c++mm/
 
+What every systems programmer should know about lockless concurrency
+Matt Kline - 2018
+https://assets.bitbashing.io/papers/lockless.pdf
+
 Why the "volatile" type class should not be used
 https://www.kernel.org/doc/Documentation/volatile-considered-harmful.txt
 
@@ -309,6 +313,9 @@ A benchmark to compare synchronization techniques for multicore programming
 ## 2017
 
 * CppCon 2017: Fedor Pikus “C++ atomics, from basic to advanced. What do they really do?” - https://youtu.be/ZQFzMfHIxng
+* CppCon 2017: Tony Van Eerd “An Interesting Lock-free Queue - Part 2 of N”
+	+ https://github.com/CppCon/CppCon2017/tree/master/Presentations/A%20Not%20So%20Complicated%20Lockfree%20Queue
+	+ https://www.youtube.com/watch?v=HP2InVqgBFM
 * HiPEAC 2017: Sarita Adve - Coherence, Consistency, & Déjà vu: Memory Hierarchies in the Era of Specialization  
 	+ Slides: http://rsim.cs.illinois.edu/Talks/17-hipeac.pdf  
 	+ Video: https://www.youtube.com/watch?v=kjFjL_vTUWU
