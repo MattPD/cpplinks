@@ -5,13 +5,16 @@ Note: see also [Communities](communities.md) -- where you can learn together.
 * C++ Core Guidelines
 	+ https://github.com/isocpp/cppcoreguidelines
 	+ http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines.html
-* C++ Samples - a repository of modern C++ samples curated by the community
-	+ http://www.cppsamples.com/
-	+ https://github.com/sftrabbit/CppSamples-Samples
+* C++ Patterns: A repository of modern C++ patterns curated by the community
+	+ https://github.com/sftrabbit/CppPatterns-Patterns
+	+ https://cpppatterns.com/
+* C++ Tips of the Week: https://abseil.io/tips/
 * Collaborative Collection of C++ Best Practices - https://github.com/lefticus/cppbestpractices
 * Get Started! - https://isocpp.org/get-started
 * Herb Sutter's Guru of the Week (GotW) series: https://herbsutter.com/gotw/
 * Learning C++ - Simon Brand - https://blog.tartanllama.xyz/learning-cpp/
+* List of Engineers Willing to Mentor You - http://stephaniehurlburt.com/blog/2016/11/14/list-of-engineers-willing-to-mentor-you
+* Steve Dewhurst: C++ Once, Weakly... - http://www.stevedewhurst.com/once_weakly.html
 * Teaching C - https://blog.regehr.org/archives/1393
 * The Definitive C++ Book Guide and List - https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list
 
@@ -29,6 +32,7 @@ Note: see also [Communities](communities.md) -- where you can learn together.
 
 ### Learning & Teaching
 
+* A Conversation about Teaching Software Engineering - https://blog.regehr.org/archives/1569
 * Beginning with C++ - Jens Weller - https://www.youtube.com/watch?v=9WHRfU7U9lk
 * C++: A General Purpose Language and Library - Kate Gregory and James McNellis - a free introductory C++ course on Microsoft Virtual Academy
 	+ https://channel9.msdn.com/Series/cplusplus-language-library
