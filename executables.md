@@ -190,6 +190,10 @@ Contents:
 
 ## Talks
 
+* 2018 - FOSDEM 2018 - [Debugging Tools](https://fosdem.org/2018/schedule/track/debugging_tools/)
+	+ AMENDMENT DWARF Pieces And Other DWARF Location Woes - https://fosdem.org/2018/schedule/event/dwarfpieces/
+	+ DWARF5 and GNU extensions - https://fosdem.org/2018/schedule/event/debugging_tools_dwarf5/
+	+ Rust versus DWARF versus LLVM - https://fosdem.org/2018/schedule/event/debugging_tools_rust/
 * 2017 - Consistent Views at Recommended Breakpoints (bis), GNU Tools Cauldron 2017
 	+ https://slideslive.com/38902686/consistent-views-at-recommended-breakpoints-bis
 	+ Related post: https://developers.redhat.com/blog/2017/07/11/statement-frontier-notes-and-location-views/
@@ -197,6 +201,7 @@ Contents:
 	+ https://slideslive.com/38902681/buildids-symbols-and-debuginfo-tooling-bof
 * 2017 - Debugging Debug Information - Francesco Zappa Nardelli - [Workshop on Software Correctness and Reliability 2017](http://www.srl.inf.ethz.ch/workshop2017.php)
 	+ https://www.youtube.com/watch?v=lBJIrGgEP1A
+	+ Tales from Binary Formats ([ENTROPY 2018](https://entropy2018.sciencesconf.org/resource/page/id/1) slides) - https://entropy2018.sciencesconf.org/data/nardelli.pdf
 * 2016 - Cheap generation of debugging information - http://pauillac.inria.fr/~xleroy/talks/Compilation-2016.pdf
 * 2016 - Fixing LTO Debug Information - GNU Tools Cauldron 2016 - https://gcc.gnu.org/wiki/cauldron2016?action=AttachFile&do=view&target=Cauldron2016-LTOEarlyDebug.pdf - https://www.youtube.com/watch?v=xtm7DxDG5js
 * 2015 - What is new in DWARF5 - Hafiz Abid Qadeer, GNU Tools Cauldron 2015
@@ -264,7 +269,8 @@ Contents:
 	+ How statically linked programs run on Linux - https://eli.thegreenplace.net/2012/08/13/how-statically-linked-programs-run-on-linux
 	+ Library order in static linking - https://eli.thegreenplace.net/2013/07/09/library-order-in-static-linking
 * Executable and Linkable Format 101
-	+ Part 1 Sections and Segments - http://www.intezer.com/executable-linkable-format-101-part1-sections-segments/
+	+ Part 1: Sections and Segments - http://www.intezer.com/executable-linkable-format-101-part1-sections-segments/
+	+ Part 2: Symbols - http://www.intezer.com/executable-linkable-format-101-part-2-symbols/
 * Exploiting ELF Expansion Variables - https://backtrace.io/blog/exploiting-elf-expansion-variables/
 * Generating executable files from scratch - https://github.com/cameronswinoga/yabfc/wiki/Generating-executable-files-from-scratch
 * GNU Hash ELF Sections
@@ -286,10 +292,11 @@ Contents:
 	+ http://www.linker-aliens.org/blogs/ali/entry/inside_elf_symbol_tables/
 * Linux Internals - Dynamic Linking Wizardry - https://0x00sec.org/t/linux-internals-dynamic-linking-wizardry/1082
 * Linux Internals - The Art Of Symbol Resolution - https://0x00sec.org/t/linux-internals-the-art-of-symbol-resolution/1488
+* Linux x86 Program Start Up (dynamically loaded x86 ELF files) - http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html
+* Position Independent Executables - https://blog.fpmurphy.com/2008/06/position-independent-executables.html
 * Programming With Ones and Zeros
 	+ Part 1 - http://www.hanshq.net/ones-and-zeros.html
 	+ Ones and Zeros, Part 2: Making Executable Files - http://www.hanshq.net/making-executables.html
-* Linux x86 Program Start Up (dynamically loaded x86 ELF files) - http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html
 * RE a 64bit ELF binary - Devil’s swapper write-up - https://0x00sec.org/t/re-a-64bit-elf-binary-devils-swapper-write-up/2379
 * Relocations in ELF Toolchains - https://www.sifive.com/blog/2017/08/21/all-aboard-part-2-relocations/
 * Resolving ELF Relocation Name / Symbols - https://em386.blogspot.com/2006/10/resolving-elf-relocation-name-symbols.html
@@ -327,6 +334,7 @@ Contents:
 	+ Talk: Libabigail: How semantic analysis of C and C++ ELF binaries can be used to analyze ABI changes (openSUSE Conference 2017)
 		- https://media.ccc.de/v/1234-libabigail-how-semantic-analysis-of-c-and-c-elf-binaries-can-be-used-to-analyze-abi-changes
 		- https://www.youtube.com/watch?v=wxVBuZK8Dl0
+* binception: Generate hash values for functions within an ELF binary - https://github.com/enferex/binception
 * dress: add symbols back into a stripped ELF binary (~strip)
 	+ http://van.prooyen.com/projects/#dress
 	+ https://github.com/docileninja/dress
@@ -336,10 +344,16 @@ Contents:
 		- https://kar.kent.ac.uk/58461/
 	+ dynStruct: An automatic reverse engineering tool for structure recovery and memory use analysis - Mercier, Daniel and Chawdhary, Aziem and Jones, Richard E. (2017), IEEE 24th International Conference on Software Analysis, Evolution and Reengineering (SANER)
 		- https://kar.kent.ac.uk/63700/
+* ECFS: extended core file snapshot format
+	+ https://github.com/elfmaster/ecfs
+	+ DEF CON 23 - Ryan Oneill - Advances in Linux Process Forensics Using ECFS - https://www.youtube.com/watch?v=fCJJnJ84MSE
+	+ an extension to the existing ELF core file format in Linux. Its job is to intercept the Linux core-dump handler, catch the core-dump before it is written to disk, and carefully reconstruct it into an ecfs-core file.
+	+ execute memory snapshots so they can start running where they left off - https://github.com/elfmaster/ecfs_exec
 * elf-bf-tools - https://github.com/bx/elf-bf-tools
 	+ This project contains tools that can be used to coerce the gcc's runtime loader into performing interesting operations using only valid relocation entries and symbols.
 * elf-parser: identifying/extracting various sections of an ELF file
 	+ https://github.com/TheCodeArtist/elf-parser
+* elf-strings: The better strings utility for the reverse engineer - https://github.com/LloydLabs/elf-strings
 * ELF/PaX Utilities - https://github.com/gentoo/pax-utils
 	+ https://en.wikibooks.org/wiki/Grsecurity/Additional_Utilities
 	+ scanelf - Prints out information specific to the ELF structure of a binary - https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities#Extracting_ELF_information_from_binaries
@@ -347,6 +361,7 @@ Contents:
 * ELF Tool Chain Project - https://sourceforge.net/projects/elftoolchain/
 	+ A BSD-licensed implementation of compilation tools (nm, ar, as, ld, etc.) for the ELF object format.
 * ELFbac: runtime intent-level ABI-granular memory protection for Linux - http://elfbac.org/
+* ELFen: Extract and spell check read-only strings within ELF binaries - https://github.com/enferex/ELFen
 * Elfesteem: Executable file format parser/generator - https://github.com/serpilliere/elfesteem
 * Elfhack: to optimize ELF binaries for size and cold startup speed - https://github.com/mozilla/positron/tree/master/build/unix/elfhack
 * ELFIO - ELF (Executable and Linkable Format) reader and producer implemented as a header only C++ library
@@ -354,9 +369,12 @@ Contents:
 	+ https://github.com/serge1/ELFIO
 * ELFkickers (ebfc, elfls, elftoc, infect, objres, rebind, sstrip) - http://www.muppetlabs.com/~breadbox/software/elfkickers.html
 * Elfkit: Rust ELF parsing, manipulation, and (re)linking toolkit - https://github.com/aep/elfkit
+* ELFManip: Modify ELF executables - https://github.com/schieb/ELFManip
 * elfutils
 	+ a collection of utilities and libraries to read, create and modify ELF binary files, find and handle DWARF debug data, symbols, thread state and stacktraces for processes and core files on GNU/Linux
 	+ https://sourceware.org/elfutils/
+* Exodus - a tool that makes it easy to successfully relocate Linux ELF binaries from one system to another
+	+ https://github.com/Intoli/exodus
 * GNU Binary Utilities - https://sourceware.org/binutils/docs/binutils/
 	+ elfedit: Update the ELF header of ELF files - https://sourceware.org/binutils/docs/binutils/elfedit.html
 	+ nm: List symbols from object files - https://sourceware.org/binutils/docs/binutils/nm.html
@@ -509,6 +527,7 @@ Contents:
 
 ## Readings
 
+* Binary Rewriting With Syzygy, Pt. I - https://doar-e.github.io/blog/2017/08/05/binary-rewriting-with-syzygy/
 * CodeView Debug Info Format - http://llvm.org/docs/SourceLevelDebugging.html#codeview-debug-info-format
 * Improving Link Time on Windows with clang-cl and lld - http://blog.llvm.org/2018/01/improving-link-time-on-windows-with.html
 * Jan Gray on inventing/implementing PDB files 1990-94 - https://twitter.com/jangray/status/659916997711544320
