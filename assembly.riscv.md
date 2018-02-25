@@ -39,6 +39,10 @@ https://riscv.org/publications/
 
 ## Open-Source Hardware Projects
 
+* Ariane RISC-V CPU (SystemVerilog)
+  - Ariane is a 6-stage, single issue, in-order CPU which implements the 64-bit RISC-V instruction set.
+  - https://pulp-platform.github.io/ariane/
+  - https://github.com/pulp-platform/ariane
 * BOOM: The Berkeley Out-of-Order RISC-V Processor (Chisel)
   - https://ccelio.github.io/riscv-boom-doc/
   - https://github.com/ucb-bar/riscv-boom
@@ -151,6 +155,7 @@ https://riscv.org/software-tools/
   - Part 7: Entering and Exiting the Linux Kernel on RISC-V - https://www.sifive.com/blog/2017/10/23/all-aboard-part-7-entering-and-exiting-the-linux-kernel-on-risc-v/
   - Part 8: The RISC-V Linux Port is Upstream! - https://www.sifive.com/blog/2017/12/05/all-aboard-part-8-the-risc-v-linux-port-is-upstream/
   - Part 9: Paging and the MMU in the RISC-V Linux Kernel - https://www.sifive.com/blog/2017/12/11/all-aboard-part-9-paging-and-mmu-in-risc-v-linux-kernel/
+  - Part 10: How to Contribute to the RISC-V Software Ecosystem - https://www.sifive.com/blog/2018/02/20/all-aboard-part-10-how-to-contribute-to-the-risc-v-software-ecosystem/
 * Building upstream RISC-V GCC+binutils+newlib: the quick and dirty way - http://www.lowrisc.org/blog/2017/09/building-upstream-risc-v-gccbinutilsnewlib-the-quick-and-dirty-way/
 * RISC-V 101 Webinar - https://info.sifive.com/risc-v-webinar
 * RISC-V Presentation at ESC Boston 2016 - https://riscv.org/2016/04/risc-v-presentation-esc-boston/
