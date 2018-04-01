@@ -10,6 +10,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ [Instruction Set Architecture](#instruction-set-architecture)
 	+ [Performance](#performance)
 	+ [Security](#security)
+	+ [Virtualization](#virtualization)
 * [References](#references):
 	+ [Concurrency](#concurrency)
 	+ [Intrinsics, NEON, SIMD](#intrinsics-neon-simd)
@@ -21,6 +22,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ [Lifting: Disassemblers, Decompilers, Recompilers](#lifting-disassemblers-decompilers-recompilers)
 	+ [Performance](#performance-1)
 * [Talks](#talks):
+	+ [2018](#2018)
 	+ [2017](#2017)
 	+ [2016](#2016)
 	+ [2015](#2015)
@@ -159,6 +161,12 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/december/34C3-Tool-Release-Cachegrab/
 * Damn Vulnerable ARM Router (DVAR)
 	+ http://blog.exploitlab.net/2018/01/dvar-damn-vulnerable-arm-router.html
+* Exploitation on ARM-based Systems
+	+ Troopers18; Sascha Schirra, Ralf Schaefer 
+	+ https://github.com/sashs/arm_exploitation
+* Exploring New Depths of Threat Hunting ...or How to Write ARM Shellcode in Six Minutes
+	+ Security Analysts Summit (SAS) 2018
+	+ https://azeria-labs.com/downloads/SAS-v1.0-Azeria.pdf
 * Micro-Architectural Power Simulator for Leakage Assessment of Cryptographic Software on ARM Cortex-M3 Processors
 	+ Cryptology ePrint Archive: Report 2017/1253
 	+ Yann Le Corre, Johann Großschädl, Daniel Dinu
@@ -180,6 +188,12 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ ASPLOS 2017
 	+ Andrew Ferraiuolo, Rui Xu, Danfeng Zhang, Andrew C. Myers, G. Edward Suh
 	+ http://www.cs.cornell.edu/andru/papers/trustzone/
+
+## Virtualization
+
+* The Design, Implementation, and Evaluation of Software and Architectural Support for ARM Virtualization
+	+ 2018 PhD Thesis; [Christoffer Dall](http://www.cs.columbia.edu/~cdall/)
+	+ https://academiccommons.columbia.edu/catalog/ac:t1g1jwstss
 
 # References
 
@@ -289,6 +303,8 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * ptm2human: ARM PTM (and ETMv4) trace to human-readable format
 	+ ARM PTM decoder, and ARM ETM v4 decoder. ptm2human is a decoder for trace data outputted by Program Trace Macrocell (PTM) and Embedded Trace Macrocell (ETMv4).
 	+ https://github.com/hwangcc23/ptm2human
+* Statically compiled ARM binaries for debugging and runtime analysis
+	+ https://github.com/therealsaumil/static-arm-bins/
 * Troll
 	+ A source level debugger for C programs running on ARM Cortex-M parts. Utilizes the *blackmagic* probe and the *Qt* framework
 	+ https://github.com/stoyan-shopov/troll
@@ -301,6 +317,8 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://github.com/x-y-z/armulator
 	+ http://x-y-z.github.io/armulator/
 * arm_now: arm vm working out of the box for everyone (Linux / Windows) - https://github.com/nongiach/arm_now
+* ASMBits: A problem set and online judge for practicing Nios II or ARMv7 assembly language - https://asmbits.01xz.net/
+* CPUlator: An in-browser full-system MIPS, Nios II, and ARMv7 simulator and debugger - https://cpulator.01xz.net/
 * Debian on an emulated ARM machine
 	+ https://www.aurel32.net/info/debian_arm_qemu.php
 	+ https://wiki.debian.org/ArmEabiHowto
@@ -313,6 +331,9 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/mccann
 * Emulate Raspberry Pi with QEMU - http://graznik.de/posts/emulate-raspberry-pi-with-qemu/
 * gem5 - ARM Implementation - http://gem5.org/ARM_Implementation
+* OakSim: Online ARM assembler and emulator
+	+ https://wunkolo.github.io/OakSim/
+	+ https://github.com/Wunkolo/OakSim
 * Qemu images (ARM, MIPS, PowerPC, SPARC, AArch64) - https://blahcat.github.io/2017/06/25/qemu-images-to-play-with/
 * thumbulator: Thumb (16 bit ARM) instruction set simulator - https://github.com/dwelch67/thumbulator
 * VisUAL - A highly visual ARM emulator - http://salmanarif.bitbucket.org/visual/
@@ -370,6 +391,8 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://www.youtube.com/watch?v=Z7-qkYOpu7I
 	+ http://www.testandverification.com/wp-content/uploads/2017/Formal_Verification/Will_Keen%20_ARM.pdf
 	+ http://www.testandverification.com/conferences/formal-verification-conference/fv2017/fv2017-formal-verification-book/
+* Hardware based tracing on ARM - Ralf Philipp Weinmann, ZeroNights 2017
+	+ https://www.youtube.com/watch?v=xX-B7tW7E_8
 * How can you trust formally verified software?
 	+ 34th Chaos Communication Congress (34C3) 2017 - Alastair Reid
 	+ https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8915.html
@@ -419,6 +442,8 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://www.youtube.com/watch?v=6QU37TwRO4w
 * REcon 2016 - Hardware Assisted Rootkits and Instrumentation ARM Edition (Matt Spisak)
 	+ https://www.youtube.com/watch?v=Er_EwQU3lQg
+	+ https://recon.cx/2016/resources/slides/RECON-0xA-Hardware-assisted-rootkits-ARM-Spisak.pdf
+	+ https://www.slideshare.net/EndgameInc/hardwareassisted-rootkits-instrumentation
 
 ## 2015
 
@@ -516,6 +541,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ 24\. Trampolines - http://thinkingeek.com/2015/01/09/arm-assembler-raspberry-pi-chapter-24/
 	+ 25\. Integer SIMD - http://thinkingeek.com/2015/07/04/arm-assembler-raspberry-pi-chapter-25/
 	+ 26\. A primer about linking - http://thinkingeek.com/2016/10/30/arm-assembler-raspberry-pi-chapter-26/
+	+ 27\. Dynamic linking - http://thinkingeek.com/2017/04/17/arm-assembler-raspberry-pi-chapter-27/
 * ARM Assembly Basics - Azeria Labs
 	+ Part 1: Introduction to ARM Assembly Basics - https://azeria-labs.com/writing-arm-assembly-part-1/
 	+ Part 2: Data Types - https://azeria-labs.com/arm-data-types-and-registers-part-2/
