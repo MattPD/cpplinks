@@ -11,6 +11,7 @@ See also: [Computer Architecture](comparch.md)
 * [General](#general)
 * [Defense, Mitigation, Protection](#defense-mitigation-protection)
 
+
 * [Arithmetic Logic Unit (ALU)](#arithmetic-logic-unit-alu)
 * [Branch Predictor](#branch-predictor)
 * [Cache](#cache)
