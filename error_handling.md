@@ -129,12 +129,12 @@
 	+ USENIX Security 2016
 	+ Suman Jana, Yuan Kang, Samuel Roth, Baishakhi Ray
 	+ https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/jana
-	+ EPEx: Error Path Exploration for Finding Error Handling Bugs
-	+ https://github.com/yujokang/EPEx
+	+ EPEx: Error Path Exploration for Finding Error Handling Bugs - https://github.com/yujokang/EPEx
 * Automatically Diagnosing and Repairing Error Handling Bugs in C
 	+ ESEC/FSE 2017
 	+ Yuchi Tian, Baishakhi Ray
 	+ https://yuchi1989.github.io/papers/fse17-ErrDoc.pdf
+	+ ErrDoc: Tool for detecting, categorizing, and repairing error handling bugs - https://github.com/yuchi1989/ErrDoc/
 * Handling Disappointment in C++ - Lawrence Crowl
 	+ http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0157r0.html
 * Interprocedural exception analysis for C++
@@ -208,8 +208,11 @@
 ## Tools
 
 * ErrDoc
-	+ Tools for detecting, categorizing, and repairing error handling bugs
+	+ Tool for detecting, categorizing, and repairing error handling bugs
 	+ https://github.com/yuchi1989/ErrDoc
+* EPEx: Error Path Exploration for Finding Error Handling Bugs
+	+ Tool for detecting error handling bugs
+	+ https://github.com/yujokang/EPEx
 
 # Talks, Videos
 
