@@ -107,6 +107,12 @@ Contents:
 * MemoryModule: Library to load a DLL from memory
 	+ https://github.com/fancycode/MemoryModule
 	+ https://www.joachim-bauch.de/tutorials/loading-a-dll-from-memory/
+* Rattler: Automated DLL Enumerator
+	+ https://github.com/sensepost/rattler
+	+ Rattler: Identifying and Exploiting DLL Preloading Vulnerabilities
+		- https://sensepost.com/blog/2016/rattleridentifying-and-exploiting-dll-preloading-vulnerabilities/
+	+ What the Dll? Finding and Exploiting DLL preloading vulnerabilities - Chris Le Roy
+		- https://www.youtube.com/watch?v=xvluwoPM8v8
 * Reflective DLL Injection with PowerShell - https://clymb3r.wordpress.com/2013/04/06/reflective-dll-injection-with-powershell/
 * ReflectiveDLLInjection - https://github.com/stephenfewer/ReflectiveDLLInjection
 * ThreadContinue: Reflective DLL injection using SetThreadContext() and NtContinue()
@@ -115,9 +121,13 @@ Contents:
 
 ## Talks
 
-* 2017 - “Everything You Ever Wanted to Know about DLLs” - James McNellis, CppCon
+* 2017 - Everything You Ever Wanted to Know about DLLs
+	+ CppCon; James McNellis
 	+ https://www.youtube.com/watch?v=JPQWQfDhICA
 	+ https://github.com/CppCon/CppCon2017/blob/master/Presentations/Everything%20You%20Ever%20Wanted%20to%20Know%20about%20DLLs/
+* 2017 - Memory-Based Library Loading: Someone Did That Already
+	+ Derbycon; Casey Rosini
+	+ http://www.irongeek.com/i.php?page=videos/derbycon7/t108-memory-based-library-loading-someone-did-that-already-casey-rosini
 
 ---
 
@@ -135,6 +145,10 @@ Contents:
 * DWARF Extensions for Separate Debug Information Files - https://gcc.gnu.org/wiki/DebugFission
 * DWARF Package File Format - https://gcc.gnu.org/wiki/DebugFissionDWP
 * Exploring the DWARF debug format information - https://www.ibm.com/developerworks/aix/library/au-dwarf-debug-format/index.html
+* From Debugging-Information Based Binary-Level Type Inference to CFG Generation
+	+ Conference on Data and Application Security and Privacy (CODASPY) 2018
+	+ D. Zeng and G. Tan
+	+ http://www.cse.psu.edu/~gxt29/paper/cfgConsMeta.pdf
 * How debuggers work: Part 3 - Debugging information - http://eli.thegreenplace.net/2011/02/07/how-debuggers-work-part-3-debugging-information
 * Implementing a Debugger: The Fundamentals - https://backtrace.io/blog/debugger-internals/
 * Introduction to the DWARF Debugging Format - http://www.dwarfstd.org/doc/Debugging%20using%20DWARF.pdf
@@ -147,6 +161,9 @@ Contents:
 
 ## Software
 
+* dareog: ORC meets DWARF - https://github.com/emersion/dareog
+* Debug Frame Checking: Check `.eh_frame` and `.debug_frame` information
+	+ https://github.com/francesco-zappa-nardelli/eh_frame_check
 * DIVA - Debug Information Visual Analyzer
 	+ DIVA is a command line tool that processes DWARF debug information contained within ELF files and prints the semantics of that debug information. The DIVA output is designed to be understandable by software programmers without any low-level compiler or DWARF knowledge; as such, it can be used to report debug information bugs to the compiler provider.
 	+ https://github.com/SNSystems/DIVA
@@ -167,6 +184,9 @@ Contents:
 	+ https://sourceware.org/git/?p=dwz.git
 	+ https://fedoraproject.org/wiki/Features/DwarfCompressor
 	+ announcement (2012) - https://gcc.gnu.org/ml/gcc/2012-04/msg00686.html
+* gimli: A lazy, zero-copy parser for the DWARF debugging format
+	+ https://github.com/gimli-rs/gimli
+	+ Speeding Up `dwarfdump` With Rust - https://robert.ocallahan.org/2018/03/speeding-up-dwarfdump-with-rust.html
 * libbacktrace: A C library that may be linked into a C/C++ program to produce symbolic backtraces
 	+ As of September 2016, libbacktrace only supports ELF and PE/COFF executables with DWARF debugging information. The library is written to make it straightforward to add support for other object file and debugging formats.
 	+ https://github.com/ianlancetaylor/libbacktrace
@@ -176,7 +196,10 @@ Contents:
 	+ Libdwarf: Library to provide access to DWARF debugging information
 		- Libdwarf meta repository that combines libdwarf with its dependency libelf
 		- https://github.com/avast-tl/libdwarf
-* libdwarfpp: A high-level API for accessing DWARF debugging information, in C++ - https://github.com/stephenrkell/libdwarfpp
+* libdwarfpp: A high-level API for accessing DWARF debugging information in C++
+	+ https://github.com/stephenrkell/libdwarfpp
+* libdwarfw: A C library to write DWARF debugging information
+	+ https://github.com/emersion/libdwarfw
 * llvm-dwarfdump - dump and verify DWARF debug information - https://llvm.org/docs/CommandGuide/llvm-dwarfdump.html
 * Pahole and the dwarves: Debugging Information Manipulation Tools
 	+ https://git.kernel.org/pub/scm/devel/pahole/pahole.git/
@@ -286,6 +309,7 @@ Contents:
 * How To Write Shared Libraries - https://www.akkadia.org/drepper/dsohowto.pdf
 * I/O patterns on ELF binary initialization - https://glandium.org/blog/?p=1016
 * Improving binary layout for progressive decompression (2011) - https://glandium.org/blog/?p=2320
+* In-Memory-Only ELF Execution (Without tmpfs) - https://magisterquis.github.io/2018/03/31/in-memory-only-elf-execution.html
 * In the lands of corrupted elves: Breaking ELF software with Melkor fuzzer - https://www.blackhat.com/docs/us-14/materials/arsenal/us-14-Hernandez-Melkor-Slides.pdf
 * Inside ELF Symbol Tables
 	+ https://blogs.oracle.com/ali/inside-elf-symbol-tables
@@ -304,6 +328,7 @@ Contents:
 * Targeting File Parsers with S2E and Kaitai Struct - targeted symbolic execution of readelf - https://adrianherrera.github.io/post/kaitai-s2e/
 * The 101 of ELF Binaries on Linux: Understanding and Analysis - https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/
 * The Anatomy of an Executable - dissection of a simple "hello world" ELF binary - https://github.com/mewrev/dissection
+* The Cerberus ELF Interface - http://phrack.org/issues/61/8.html
 * The Cost Of ELF Symbol Hashing
 	+ https://blogs.oracle.com/ali/the-cost-of-elf-symbol-hashing
 	+ http://www.linker-aliens.org/blogs/ali/entry/the_cost_of_elf_symbol/
@@ -335,9 +360,14 @@ Contents:
 		- https://media.ccc.de/v/1234-libabigail-how-semantic-analysis-of-c-and-c-elf-binaries-can-be-used-to-analyze-abi-changes
 		- https://www.youtube.com/watch?v=wxVBuZK8Dl0
 * binception: Generate hash values for functions within an ELF binary - https://github.com/enferex/binception
+* binch: a light BINary patCH tool - https://github.com/tunz/binch
 * dress: add symbols back into a stripped ELF binary (~strip)
 	+ http://van.prooyen.com/projects/#dress
 	+ https://github.com/docileninja/dress
+* DynELFSymbols: Helps to create backdoor/MitM shared-object files
+	+ https://github.com/magisterquis/dynelfsymbols
+	+ https://github.com/magisterquis/dynelfsymbols/blob/master/QUICKSTART.md
+	+ https://github.com/magisterquis/dynelfsymbols/blob/master/THEORY.md
 * dynStruct: a tool using dynamoRio to monitor memory accesses of an ELF binary via a data gatherer, and use this data to recover structures of the original code
 	+ https://github.com/ampotos/dynStruct
 	+ dynStruct: An automatic reverse engineering tool for structure recovery and memory use analysis - Daniel Mercier - Master Thesis (2017)
@@ -594,6 +624,9 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 * PE (corkami wiki) - https://corkamiwiki.github.io/PE - https://github.com/corkami/docs/blob/master/PE/PE.md
 * Peering Inside the PE: A Tour of the Win32 Portable Executable File Format - https://msdn.microsoft.com/en-us/library/ms809762.aspx
 * PeLib Resources about the PE format - http://www.pelib.com/resources.php
+* Portable Executable File Corruption Preventing Malware From Running
+	+ What types of obstructions and anomalies in the PE file can make the Windows Portable Executable Image Loader and other PE parsing programs fail to load the file or display an error message?
+	+ https://toddcullumresearch.com/2017/07/16/portable-executable-file-corruption/
 * Portable Executable File Format – A Reverse Engineer View - http://www.stonedcoder.org/~kd/lib/CBJ-2005-74.pdf
 * Peering Inside the PE: A Tour of the Win32 Portable Executable File Format - https://msdn.microsoft.com/en-us/library/ms809762.aspx
 * Robust Static Analysis of Portable Executable Malware - Katja Hahn, Master Thesis - https://github.com/katjahahn/PortEx/tree/master/masterthesis
@@ -644,6 +677,11 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ Wiki - https://github.com/katjahahn/PortEx/wiki
 	+ PE Visualizer - https://github.com/katjahahn/PortEx/wiki/PE-Visualizer
 * PPEE: A Professional PE File Explorer - https://www.mzrst.com/
+* Process Dump: Windows tool for dumping malware PE files from memory back to disk for analysis
+	+ http://split-code.com/processdump.html
+	+ https://github.com/glmcdona/Process-Dump
+	+ An Introduction to Dumping Malware with Process Dump - https://www.youtube.com/watch?v=dCU7N-Oh3jg
+* ripPE - section extractor and profiler for PE file analysis - https://github.com/matonis/ripPE
 * Sizer - Win32/64 executable size report utility
 	+ https://github.com/aras-p/sizer
 	+ http://aras-p.info/projSizer.html
