@@ -89,6 +89,9 @@ Note: see also [compilers](compilers.md)
 	+ http://sei.pku.edu.cn/~xiongyf04/papers/ICSE17b.pdf
 * RandIR: Differential Testing for Embedded Compilers - https://www.cs.purdue.edu/homes/rompf/papers/ofenbeck-scala16.pdf
 * Reinforcing Random Testing of Arithmetic Optimization of C Compilers by Scaling up Size and Number of Expressions, IPSJ Transactions on System LSI Design Methodology, vol. 7, 2014. E. Nagai, A. Hashimoto, and N. Ishiura. <https://www.jstage.jst.go.jp/article/ipsjtsldm/7/0/7_91/_article>
+* Scaling up Size and Number of Expressions in Random Testing of Arithmetic Optimization of C Compilers
+	+ SASIMI 2013
+	+ http://ist.ksc.kwansei.ac.jp/~ishiura/publications/C2013-10.pdf
 * Some Goals for High-impact Verified Compiler Research - https://blog.regehr.org/archives/1565
 * System Under Test: LLVM - https://systemundertest.org/llvm/
 * Taming compiler fuzzers
@@ -112,6 +115,7 @@ Note: see also [compilers](compilers.md)
 * Csmith, a random generator of C programs
 	+ https://github.com/csmith-project/csmith
 	+ https://embed.cs.utah.edu/csmith/
+	+ Csmith testing - http://blog.frama-c.com/index.php?pages/Csmith-testing
 * C-Reduce, a C program reducer
 	+ https://embed.cs.utah.edu/creduce/
 	+ https://github.com/csmith-project/creduce
@@ -139,6 +143,8 @@ Note: see also [compilers](compilers.md)
 	+ a tool to test C compilers by randomly generated programs; based on equivalent transformations on C programs and can generate wider class of C test programs than Orange3.
 	+ https://ist.ksc.kwansei.ac.jp/~ishiura/pub/orange4/
 	+ https://github.com/ishiura-compiler/Orange4
+* prog-fuzz: Compiler/source code fuzzing tool using AFL instrumentation
+	+ https://github.com/vegard/prog-fuzz
 * Quest: A tool for testing C compilers - https://github.com/lindig/quest
 * shader-compiler-bugs: A collection of shader compiler bugs - https://github.com/mc-imperial/shader-compiler-bugs
 * yarpgen: Yet Another Random Program Generator
@@ -171,6 +177,9 @@ Validation: Including translation validation, equivalence checking.
 	+ Programming and Language Design Implementation (PLDI) 2011
 	+ Tristan, Jean-Baptiste, Paul Govereau, Greg Morrisett
 	+ https://dl.acm.org/citation.cfm?id=1993498.1993533
+* Formally Verified Compilation of Low-Level C code
+	+ 2016 PhD Dissertation; Pierre Wilke
+	+ https://tel.archives-ouvertes.fr/tel-01483676
 * Proving the correctness of heuristically optimized code
 	+ Hanan Samet, CACM 1978
 	+ http://www.cs.umd.edu/~hjs/pubs/compilers/proving-correctness.pdf
