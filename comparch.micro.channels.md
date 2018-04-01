@@ -1,10 +1,39 @@
-# [C++ links](README.md): computer architecture - micro-architectural channels
+# [C++ links](README.md): computer architecture - microarchitectural channels
 
-Note: see [Computer Architecture](comparch.md)
+See also: [Computer Architecture](comparch.md)
 
 * Leakage channels: side channels (accidental), covert channels (deliberate).
 * Storage channels (functional behavior), timing channels (temporal behavior).
 * Timing-based channels (operations timing), access-based channels (direct information access), trace-based channels (program execution measurement).
+
+# Contents
+
+* [General](#general)
+* [Defense, Mitigation, Protection](#defense-mitigation-protection)
+
+* [Arithmetic Logic Unit (ALU)](#arithmetic-logic-unit-alu)
+* [Branch Predictor](#branch-predictor)
+* [Cache](#cache)
+* [DRAM](#dram)
+* [Electromagnetic (EM) Emanations](#electromagnetic-em-emanations)
+* [Floating Point Unit (FPU)](#floating-point-unit-fpu)
+* [FPGA](#fpga)
+* [GPU](#gpu)
+* [Interrupts](#interrupts)
+* [Magnetic](#magnetic)
+* [Memory Bus](#memory-bus)
+* [MMU](#mmu)
+* [Power](#power)
+* [Prefetch](#prefetch)
+* [Pseudo-Random Number Generator (PRNG)](#pseudo-random-number-generator-prng)
+* [SGX](#sgx)
+* [SMT](#smt)
+* [Speculation](#speculation)
+* [Thermal](#thermal)
+* [TSX](#tsx)
+* [Talks](#talks)
+
+---
 
 # General
 
@@ -89,6 +118,8 @@ Note: see [Computer Architecture](comparch.md)
 * CacheShield: Protecting Legacy Processes Against Cache Attacks
 	+ 2017; Samira Briongos, Gorka Irazoqui, Pedro Malagón, Thomas Eisenbarth
 	+ https://arxiv.org/abs/1709.01795
+* Capability Hardware Enhanced RISC Insns (CHERI): Notes on the Meltdown and Spectre Attacks
+	+ http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-916.pdf
 * ctgrind
 	+ https://www.imperialviolet.org/2010/04/01/ctgrind.html
 	+ https://github.com/agl/ctgrind/
@@ -108,6 +139,10 @@ Note: see [Computer Architecture](comparch.md)
 	+ Daniel Gruss, Moritz Lipp, Michael Schwarz, Richard Fellner, Clémentine Maurice, Stefan Mangard 
 	+ https://gruss.cc/files/kaiser.pdf
 	+ https://github.com/IAIK/KAISER
+* Mitigating Speculative Attacks in Crypto
+	+ https://github.com/HACS-workshop/spectre-mitigations/blob/master/crypto_guidelines.md
+* Mitigating speculative execution side channel hardware vulnerabilities
+	+ https://blogs.technet.microsoft.com/srd/2018/03/15/mitigating-speculative-execution-side-channel-hardware-vulnerabilities/
 * ParTI - Towards Combined Hardware Countermeasures against Side Channel and Fault Injection Attacks - CHES 2016 
 	+ https://www.youtube.com/watch?v=wTJvb6k5yp0
 * Provably secure compilation of side-channel countermeasures
@@ -141,7 +176,9 @@ Note: see [Computer Architecture](comparch.md)
 	+ https://hal.inria.fr/hal-01588444
 	+ https://link.springer.com/chapter/10.1007/978-3-319-66402-6_16
 
-# Arithmetic logic unit (ALU)
+---
+
+# Arithmetic Logic Unit (ALU)
 
 * Constant-Time Multiplication - https://www.bearssl.org/ctmul.html
 * When Constant-Time Source Yields Variable-Time Binary: Exploiting Curve25519-donna Built with MSVC 2015
@@ -153,6 +190,10 @@ Note: see [Computer Architecture](comparch.md)
 
 # Branch Predictor
 
+* BranchScope: A New Side-Channel Attack on Directional Branch Predictor
+	+ ASPLOS 2018
+	+ Dmitry Evtyushkin, Ryan Riley, Nael Abu-Ghazaleh, Dmitry Ponomarev
+	+ http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf
 * Covert Channels Through Branch Predictors: A Feasibility Study
 	+ Hardware and Architectural Support for Security and Privacy (HASP) 2015
 	+ Dmitry Evtyushkin, Dmitry Ponomarev, Nael Abu-Ghazaleh
@@ -194,7 +235,7 @@ Note: see [Computer Architecture](comparch.md)
 	+ Black Hat Europe 2016: https://www.youtube.com/watch?v=9KsnFWejpQg
 	+ https://github.com/IAIK/armageddon
 	+ thesis: https://www.blackhat.com/docs/eu-16/materials/eu-16-Lipp-ARMageddon-How-Your-Smartphone-CPU-Breaks-Software-Level-Security-And-Privacy-wp.pdf
-	+ slides:   https://www.blackhat.com/docs/eu-16/materials/eu-16-Lipp-ARMageddon-How-Your-Smartphone-CPU-Breaks-Software-Level-Security-And-Privacy.pdf
+	+ slides: https://www.blackhat.com/docs/eu-16/materials/eu-16-Lipp-ARMageddon-How-Your-Smartphone-CPU-Breaks-Software-Level-Security-And-Privacy.pdf
 	+ https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/lipp
 * C5: Cross-Cores Cache Covert Channel, 2015
 	+ Detection of Intrusions and Malware, and Vulnerability Assessment
@@ -256,7 +297,11 @@ Note: see [Computer Architecture](comparch.md)
 
 # DRAM
 
-* Another Flip in the Wall of Rowhammer Defenses - https://arxiv.org/abs/1710.00551
+* Another Flip in the Wall of Rowhammer Defenses
+	+ Security and Privacy S&P 2018
+	+ D. Gruss, M. Lipp, M. Schwarz, D. Genkin, J. Juffinger, S. O'Connell, W. Schoechl, Y. Yarom
+	+ https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a489-abs.html
+	+ https://arxiv.org/abs/1710.00551
 	+ Tools for "Another Flip in the Wall" - https://github.com/IAIK/flipfloyd
 * Connecting the Dots: Privacy Leakage via Write-Access Patterns to the Main Memory
 	+ Hardware Oriented Security and Trust (HOST) 2017
@@ -346,11 +391,27 @@ Note: see [Computer Architecture](comparch.md)
 	+ WISA (2012)
 	+ Yohei Hori, Toshihiro Katashita, Akihiko Sasaki, Akashi Satoh
 	+ https://staff.aist.go.jp/hori.y/articles/hori_wisa2012.pdf
+* FPGA Side Channel Attacks without Physical Access
+	+ FCCM 2018
+	+ C. Ramesh, S. B. Patil, S. N. Dhanuskodi, G. Provelengios, S. Pillement, D. Holcomb, R. Tessier
+	+ http://www.ecs.umass.edu/ece/tessier/ramesh-fccm18.pdf
+* FPGA-Based Remote Power Side-Channel Attacks
+	+ Security and Privacy S&P 2018
+	+ Mark Zhao, G. Edward Suh
+	+ https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a805-abs.html
 * Improved Side-Channel Analysis Attacks on Xilinx Bitstream Encryption of 5, 6, and 7 Series
 	+ Constructive Side-Channel Analysis and Secure Design (COSADE) 2016
 	+ Amir Moradi, Tobias Schneider
 	+ https://www.emsec.rub.de/media/attachments/files/2017/04/AmirTalk_2016-04-14_COSADE.pdf
 	+ https://eprint.iacr.org/2016/249
+* Leaky Wires: Information Leakage and Covert Communication Between FPGA Long Wires
+	+ AsiaCCS 2018
+	+ Ilias Giechaskiel, Kasper B. Rasmussen, Ken Eguro
+	+ http://arxiv.org/abs/1611.08882
+	+ http://www.cs.ox.ac.uk/files/9835/fpga.pdf
+* Side Channel Attack on Low Power FPGA Platform
+	+ 2016 Master Thesis; Mustafa Faraj
+	+ https://uwspace.uwaterloo.ca/bitstream/handle/10012/10769/Faraj_Mustafa.pdf?sequence=3
 
 # GPU
 
@@ -393,6 +454,19 @@ Note: see [Computer Architecture](comparch.md)
 	+ https://www.semanticscholar.org/paper/An-Empirical-Bandwidth-Analysis-of-Interrupt-Relat-Gay-Mantel/d81d95e8969edd37a3f47335b98a9b6ce9e3942f
 	+ http://www.mais.informatik.tu-darmstadt.de/WebBibPHP/papers/2013/2013-GayMantelSudbrock-EmpiricalIRCC.pdf
 
+# Keyboard
+* SoK: Keylogging Side Channels
+	+ Security and Privacy S&P 2018
+	+ J. Monaco
+	+ https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a420-abs.html
+* KeyDrown: Eliminating Software-Based Keystroke Timing Side-Channel Attacks
+	+ NDSS 2018
+	+ Michael Schwarz, Moritz Lipp, Daniel Gruss, Samuel Weiser, Clémentine Maurice, Raphael Spreitzer, Stefan Mangard
+	+ https://arxiv.org/abs/1706.06381
+	+ https://www.ndss-symposium.org/wp-content/uploads/sites/25/2018/02/ndss2018_04B-1_Schwarz_paper.pdf
+	+ http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/03/NDSS2018_04B-1_Schwarz_Slides.pdf
+	+ https://www.youtube.com/watch?v=limElEZNdS8
+
 # Magnetic
 
 * MAGNETO: Covert Channel between Air-Gapped Systems and Nearby Smartphones via CPU-Generated Magnetic Fields
@@ -418,6 +492,15 @@ Note: see [Computer Architecture](comparch.md)
 * Whispers in the hyper-space: high-speed covert channel attacks in the cloud, USENIX Security 2012
 	+ https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/wu
 	+ https://www.youtube.com/watch?v=d2TU_Q4U9DA
+
+# Memory Order Buffer (MOB)
+
+* Microarchitectural Minefields: 4K-Aliasing Covert Channel and Multi-Tenant Detection in IaaS Clouds
+	+ NDSS 2018
+	+ Dean Sullivan, Orlando Arias, Travis Meade, Yier Jin
+	+ http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/02/ndss2018_06A-3_Sullivan_paper.pdf
+	+ http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/03/NDSS2018-06A-3_Sullivan_Slides.pdf
+	+ https://www.youtube.com/watch?v=0KIojo5nk2s
 
 # MMU
 
@@ -477,6 +560,16 @@ Note: see [Computer Architecture](comparch.md)
 	+ http://web.cse.ohio-state.edu/~zhang.834/papers/ccs17b.pdf
 	+ https://acmccs.github.io/papers/p2421-wangA.pdf
 * Malware Guard Extension: Using SGX to Conceal Cache Attacks - https://arxiv.org/abs/1702.08719
+* Racing in Hyperspace: Closing Hyper-Threading Side Channels on SGX with Contrived Data Races 
+	+ IEEE S&P (Oakland) 2018
+	+ Guoxing Chen, Wenhao Wang, Tianyu Chen, Sanchuan Chen, Yinqian Zhang, XiaoFeng Wang, Ten-Hwang Lai, Dongdai Lin
+	+ https://web.cse.ohio-state.edu/~zhang.834/papers/sp18.pdf
+	+ https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a388.pdf
+* SgxPectre Attacks: Leaking Enclave Secrets via Speculative Execution
+	+ 2018 arXiv; Guoxing Chen, Sanchuan Chen, Yuan Xiao, Yinqian Zhang, Zhiqiang Lin, Ten H. Lai
+	+ https://arxiv.org/abs/1802.09085
+	+ https://github.com/osusecLab/SgxPectre
+* Side Channels on Intel SGX - https://web.cse.ohio-state.edu/~zhang.834/projects/sgx-side-channels.html
 
 # SMT
 
