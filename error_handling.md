@@ -1,10 +1,24 @@
 # [C++ links](README.md): error handling
 
+# Contents
+
+* [Readings](#readings): [Blogs](#blogs-posts-and-series), [Documentation](#documentation), [Papers](#papers), [References](#references), [StackOverflow](#stackoverflow-questions)
+* [Software](#software): [Libraries](#libraries), [Tools](#tools)
+* [Talks, Videos](#talks-videos): [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
+
+---
+
+# Readings
+
 ## Blogs: Posts and Series
 
 * Andrii Batyiev - Size cost of C++ exception handling on embedded platform
 	+ Uses microbenchmarking to examine the effect of exceptions on code size.
 	+ https://andriidevel.blogspot.co.uk/2016/05/size-cost-of-c-exception-handling-on.html
+* Chris Brumme - The Exception Model
+	+ Windows Structured Exception Handling (SEH) and C++ exceptions
+	+ https://blogs.msdn.microsoft.com/cbrumme/2003/10/01/the-exception-model/
+* Joe Duffy - The Error Model - http://joeduffyblog.com/2016/02/07/the-error-model/
 * Nicolas Brailovsky - C++ exceptions under the hood
 	+ A long series of posts looking at how C++ exceptions are actually implemented.
 	+ https://monoinfinito.wordpress.com/2013/02/05/c-exceptions-under-the-hood/
@@ -111,27 +125,102 @@
 
 ## Papers
 
-* Jason Hiser, Anh Nguyen-Tuong, William Hawkins, Matthew McGill, Michele Co, Jack Davidson
-	+ Zipr++: Exceptional Binary Rewriting
+* Automatically Detecting Error Handling Bugs Using Error Specifications
+	+ USENIX Security 2016
+	+ Suman Jana, Yuan Kang, Samuel Roth, Baishakhi Ray
+	+ https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/jana
+	+ EPEx: Error Path Exploration for Finding Error Handling Bugs
+	+ https://github.com/yujokang/EPEx
+* Automatically Diagnosing and Repairing Error Handling Bugs in C
+	+ ESEC/FSE 2017
+	+ Yuchi Tian, Baishakhi Ray
+	+ https://yuchi1989.github.io/papers/fse17-ErrDoc.pdf
+* Handling Disappointment in C++ - Lawrence Crowl
+	+ http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0157r0.html
+* Interprocedural exception analysis for C++
+	+ ECOOP 2011
+	+ P. Prabhu, N. Maeda, G. Balakrishnan, F. Ivancic, A. Gupta
+	+ https://www.semanticscholar.org/paper/Interprocedural-Exception-Analysis-for-C%2B%2B-Prabhu-Maeda/0aa41227da8f2db0af3afc67f71b7d9ebc09fb8c
+	+ http://pages.cs.wisc.edu/~bgogul/Research/Papers/ecoop11.html
+* Model checking C++ programs with exceptions
+	+ Science of Computer Programming, Volume 128, 2016
+	+ P. Ročkai, J. Barnat, L. Brim
+	+ https://dl.acm.org/citation.cfm?id=2974473
+	+ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.671.6441&rep=rep1&type=pdf
+	+ https://journal.ub.tu-berlin.de/eceasst/article/view/983
+	+ http://fmt.cs.utwente.nl/conferences/avocs2014/slides/slides.pdf
+* Report on Exception Handling Lite (Disappointment) from SG14
+	+ Michael Wong, Sunil Srivastava, Sean Middleditch, Patrice Roy
+	+ http://open-std.org/JTC1/SC22/WG21/docs/papers/2016/p0364r0.pdf
+* Terse Exception Messages
+	+ Overload Journal #127, June 2015; Chris Oldwood
+	+ https://accu.org/index.php/journals/2110
+* Using Off-the-Shelf Exception Support Components in C++ Verification
+	+ Software Quality, Reliability and Security (QRS) 2017
+	+ Vladimír Štill, Petr Ročkai, Jiří Barnat
+	+ https://arxiv.org/pdf/1703.02394
+	+ https://divine.fi.muni.cz/2017/exceptions/
+* Zipr++: Exceptional Binary Rewriting
 	+ Forming an Ecosystem Around Software Transformation (FEAST) 2017
+	+ Jason Hiser, Anh Nguyen-Tuong, William Hawkins, Matthew McGill, Michele Co, Jack Davidson
 	+ https://dl.acm.org/citation.cfm?doid=3141235.3141240
 	+ https://tc.gtisc.gatech.edu/feast17/papers/p9-hiserA.pdf
-	+ cf. Section 2.2 - EH Frame IR Construction - exception handling and stack unwinding information in Linux ELF executable files
-* Lawrence Crowl - Handling Disappointment in C++
-	+ http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0157r0.html
-* Michael Wong, Sunil Srivastava, Sean Middleditch, Patrice Roy - Report on Exception Handling Lite (Disappointment) from SG14
-	+ http://open-std.org/JTC1/SC22/WG21/docs/papers/2016/p0364r0.pdf
+	+ Section 2.2 - EH Frame IR Construction - exception handling and stack unwinding information in Linux ELF executable files
 
-## Talks, Videos
+## References
 
-### 2018
+* C++ Core Guidelines - Error handling
+	+ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#e-error-handling
+* C++ Super-FAQ - Exceptions and Error Handling
+	+ https://isocpp.org/wiki/faq/exceptions
+* SG14 Mailing List - Cost of throwing a C++ exception on various compilers
+	+ https://groups.google.com/a/isocpp.org/forum/#!topic/sg14/ByPnBM1I2Ig
+
+## StackOverflow Questions
+
+* Are Exceptions in C++ really slow
+	+ https://stackoverflow.com/questions/13835817/are-exceptions-in-c-really-slow/13836329#13836329
+* In what ways do C++ exceptions slow down code when there are no exceptions thown?
+	+ https://stackoverflow.com/questions/1897940/in-what-ways-do-c-exceptions-slow-down-code-when-there-are-no-exceptions-thown
+
+# Software
+
+## Libraries
+
+* Boost.Exception
+	+ https://github.com/boostorg/exception
+* cpp_exception_handling_abi
+	+ https://github.com/nicolasbrailo/cpp_exception_handling_abi
+* llvm-expected: LLVM's Rich Recoverable Error Handling as a Library
+	+ https://github.com/weliveindetail/llvm-expected
+	+ Benchmarks for llvm::Expected vs. std::error_code
+		- https://github.com/weliveindetail/BenchmarkLLVMExpected
+* Optional-lite, expected-lite, and optional-bare
+	+ https://github.com/martinmoene/optional-lite
+	+ https://github.com/martinmoene/expected-lite
+	+ https://github.com/martinmoene/optional-bare
+* Outcome
+	+ https://github.com/ned14/outcome
+* `tl::expected` and `tl::optional`
+	+ https://github.com/TartanLlama/expected
+	+ https://github.com/TartanLlama/optional
+
+## Tools
+
+* ErrDoc
+	+ Tools for detecting, categorizing, and repairing error handling bugs
+	+ https://github.com/yuchi1989/ErrDoc
+
+# Talks, Videos
+
+## 2018
 
 * CPPDUG (Dublin C/C++ User Group) February 2018: Peter Edwards - C++ Exception Handling - The gory details of an implementation
 	+ What happens when throwing an exception on modern Linux systems.
 	+ Slides: https://isainmdom.com/~peadar/eximpl/
 	+ Video: https://www.youtube.com/watch?v=XpRL7exdFL8
 
-### 2017
+## 2017
 
 * ACCU 2017: Niall Douglas - Mongrel Monads, Dirty, Dirty, Dirty
 	+ An introduction to `Outcome` and presentation of benchmarks of it against exceptions and error codes.
@@ -147,7 +236,7 @@
 	+ An examination of different error handling strategies and the code they generate.
 	+ Video: https://www.youtube.com/watch?v=OkgvqjJzH_Y
 
-### 2016
+## 2016
 
 * C++Now 2016 - David Stone: Exceptional Performance
 	+ "In this presentation, we will discuss exactly what effect exceptions have on the performance of an application, backed up by numbers from both benchmarks and real world applications. We will go into the details of hardware architecture and memory hierarchy to try to understand exactly why code performs the way it does."
@@ -161,51 +250,16 @@
 	+ Slides: http://www.llvm.org/devmtg/2016-11/Slides/Hames-Error.pdf
 	+ Video: https://www.youtube.com/watch?v=Wq8fNK98WGw
 
-### 2015
+## 2015
 
 * CppCon 2015: Fedor Pikus - The Unexceptional Exceptions
 	+ Guidelines for using exceptions effectively.
 	+ Video: https://www.youtube.com/watch?v=fOV7I-nmVXw
 
-### 2014
+## 2014
 
 * CppCon 2014: Jon Kalb - Exception-Safe Code
 	+ A set of guidelines for safe exception usage and solid implementation techniques, including how to transition from an exception-unsafe legacy code base.
 	+ Part 1 video: https://www.youtube.com/watch?v=W7fIy_54y-w
 	+ Part 2 video: https://www.youtube.com/watch?v=b9xMIKb1jMk
 	+ Part 3 video: https://www.youtube.com/watch?v=MiKxfdkMJW8
-
-## Libraries
-
-* Boost.Exception
-	+ https://github.com/boostorg/exception
-* cpp_exception_handling_abi
-	+ https://github.com/nicolasbrailo/cpp_exception_handling_abi
-* llvm-expected: LLVM's Rich Recoverable Error Handling as a Library
-	+ https://github.com/weliveindetail/llvm-expected
-	+ Benchmarks for llvm::Expected vs. std::error_code
-		- https://github.com/weliveindetail/BenchmarkLLVMExpected
-* Outcome
-	+ https://github.com/ned14/outcome
-* `tl::expected` and `tl::optional`
-	+ https://github.com/TartanLlama/expected
-	+ https://github.com/TartanLlama/optional
-* Optional-lite, expected-lite, and optional-bare
-	+ https://github.com/martinmoene/optional-lite
-	+ https://github.com/martinmoene/expected-lite
-	+ https://github.com/martinmoene/optional-bare
-
-## StackOverflow Questions
-* Are Exceptions in C++ really slow
-	+ https://stackoverflow.com/questions/13835817/are-exceptions-in-c-really-slow/13836329#13836329
-* In what ways do C++ exceptions slow down code when there are no exceptions thown?
-	+ https://stackoverflow.com/questions/1897940/in-what-ways-do-c-exceptions-slow-down-code-when-there-are-no-exceptions-thown
-
-## References
-
-* C++ Core Guidelines - Error handling
-	+ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#e-error-handling
-* C++ Super-FAQ - Exceptions and Error Handling
-	+ https://isocpp.org/wiki/faq/exceptions
-* SG14 Mailing List - Cost of throwing a C++ exception on various compilers
-	+ https://groups.google.com/a/isocpp.org/forum/#!topic/sg14/ByPnBM1I2Ig
