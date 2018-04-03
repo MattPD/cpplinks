@@ -23,6 +23,8 @@ Examples:
 
 Systems Benchmarking Crimes - Gernot Heiser - https://www.cse.unsw.edu.au/~gernot/benchmarking-crimes.html
 
+* Tools for microarchitectural benchmarking - https://dendibakh.github.io/blog/2018/04/03/Tools-for-microarchitectural-benchmarking
+
 # Optimization
 
 * MAQAO (Modular Assembly Quality Analyzer and Optimizer)
