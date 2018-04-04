@@ -118,8 +118,10 @@ Systems Benchmarking Crimes - Gernot Heiser - https://www.cse.unsw.edu.au/~gerno
 # Visualization
 
 * pprof - a tool for visualization and analysis of profiling data  
-https://github.com/google/pprof
-
+	+ https://github.com/google/pprof
 * Flame Graphs
-  - http://www.brendangregg.com/flamegraphs.html
-  - http://queue.acm.org/detail.cfm?id=2927301
+	+ http://www.brendangregg.com/flamegraphs.html
+	+ http://queue.acm.org/detail.cfm?id=2927301
+* FlameScope: a visualization tool for exploring different time ranges as Flame Graphs
+	+ https://github.com/Netflix/flamescope
+	+ Netflix FlameScope - https://medium.com/@NetflixTechBlog/netflix-flamescope-a57ca19d47bb
