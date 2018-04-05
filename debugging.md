@@ -71,8 +71,10 @@ _Books, Books Reviews_
 
 * Effective Debugging - https://www.spinellis.gr/debugging/
 * Four Books on Debugging - https://blog.regehr.org/archives/849
-* On battle scars and debugging - http://wozniak.ca/blog/2018/01/15/On-battle-scars-and-debugging/
-* From intuition to methodology in debugging - http://wozniak.ca/blog/2018/02/04/From-intuition-to-methodology-in-debugging/
+* Geoff Wozniak
+	+ On battle scars and debugging - http://wozniak.ca/blog/2018/01/15/On-battle-scars-and-debugging/
+	+ From intuition to methodology in debugging - http://wozniak.ca/blog/2018/02/04/From-intuition-to-methodology-in-debugging/
+	+ Formalizing debugging - https://wozniak.ca/blog/2018/03/25/Book-review-Formalizing-debugging/
 * Why Programs Fail: A Guide to Systematic Debugging - http://www.whyprogramsfail.com/
 
 ## Implementation
