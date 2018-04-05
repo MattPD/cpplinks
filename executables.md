@@ -650,6 +650,7 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ Demo: RunPE (Process Hollowing) - https://github.com/hasherezade/libpeconv/tree/master/run_pe
 	+ pe_unmapper: Small tool to convert a PE from a virtual format into a raw format
 	+ https://github.com/hasherezade/libpeconv/tree/master/pe_unmapper
+* Malware-Analayzer PE Tools - http://www.malware-analyzer.com/pe-tools
 * Manalyze, a static analyzer for PE executables - https://manalyzer.org/ - https://github.com/JusticeRage/Manalyze
 * pefile: a Python module to read and work with PE (Portable Executable) files - https://github.com/erocarrera/pefile
 * PeLib: PE file manipulation library - https://github.com/avast-tl/pelib
@@ -660,7 +661,10 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ https://github.com/merces/pev
 * PEview - http://wjradburn.com/software/
 * PE Insider - http://cerbero.io/peinsider/
-* PE Tools - http://www.malware-analyzer.com/pe-tools
+* PE Tools - Portable executable (PE) manipulation toolkit 
+	+ Process Viewer, PE files Editor, Dumper, Rebuilder, Comparator, Analyzer
+	+ https://petoolse.github.io/petools/
+	+ https://github.com/petoolse/petools
 * PE-bear - https://hshrzd.wordpress.com/pe-bear/
 * pe-parse - Principled, lightweight C/C++ PE parser - https://github.com/trailofbits/pe-parse 
 * PE-sieve: a small tool for investigating inline hooks (and other in-memory code patches) 
