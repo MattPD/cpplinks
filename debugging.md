@@ -3,8 +3,8 @@
 See also:
 
 * [Executables](executables.md):
-	+ [DWARF](https://github.com/MattPD/cpplinks/blob/master/executables.mdexecutables.md#dwarf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-2) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-2) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-2)
-	+ [PDB](https://github.com/MattPD/cpplinks/blob/master/executables.mdexecutables.md#pdb-program-database): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-5) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-5) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-5)
+	+ [DWARF](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-2) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-2) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-2)
+	+ [PDB](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-program-database): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-5) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-5) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-5)
 
 # Contents
 
