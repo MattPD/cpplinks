@@ -209,7 +209,7 @@ _Books, Books Reviews_
 * PulseDbg: Hypervisor-based debugger
 	+ https://github.com/honorarybot/PulseDBG
 * PyREBox: a Python scriptable Reverse Engineering sandbox
-	 "It is based on QEMU, and its goal is to aid reverse engineering by providing dynamic analysis and debugging capabilities from a different perspective. PyREBox allows to inspect a running QEMU VM, modify its memory or registers, and to instrument its execution, by creating simple scripts in python to automate any kind of analysis. QEMU (when working as a whole-system-emulator) emulates a complete system (CPU, memory, devices...). By using VMI techniques, it does not require to perform any modification into the guest operating system, as it transparently retrieves information from its memory at run-time."
+	+ "It is based on QEMU, and its goal is to aid reverse engineering by providing dynamic analysis and debugging capabilities from a different perspective. PyREBox allows to inspect a running QEMU VM, modify its memory or registers, and to instrument its execution, by creating simple scripts in python to automate any kind of analysis. QEMU (when working as a whole-system-emulator) emulates a complete system (CPU, memory, devices...). By using VMI techniques, it does not require to perform any modification into the guest operating system, as it transparently retrieves information from its memory at run-time."
 	+ https://github.com/Cisco-Talos/pyrebox
 * QIRA - QEMU Interactive Runtime Analyser
 	+ http://qira.me/
@@ -221,6 +221,9 @@ _Books, Books Reviews_
 * rVMI - A New Paradigm For Full System Analysis
 	+ "rVMI is a debugger on steroids. It leverages Virtual Machine Introspection (VMI) and memory forensics to provide full system analysis. This means that an analyst can inspect userspace processes, kernel drivers, and preboot environments in a single tool."
 	+ https://github.com/fireeye/rVMI
+	+ Black Hat USA 2017
+		- https://www.blackhat.com/docs/us-17/thursday/us-17-Pfoh-rVMI-A-New-Paradigm-For-Full-System-Analysis.pdf
+		- https://www.youtube.com/watch?v=KtoipviVJjw
 * Vivisect / Vdb / Vtrace
 	+ Vivisect - interactive disassembler
 	+ Vtrace - a cross-platform & cross-architecture debugging API
@@ -235,6 +238,7 @@ _Books, Books Reviews_
 		- https://www.singlehop.com/blog/binary-vivisection-part-1/
 		- https://www.singlehop.com/blog/binary-vivisection-part-2/
 		- https://www.singlehop.com/blog/binary-vivisection-part-3/
+* Voltron - https://github.com/snare/voltron
 
 ## GDB
 
@@ -284,7 +288,6 @@ _Books, Books Reviews_
 * Pwngdb - https://github.com/scwuaptx/Pwngdb
 * pygdbmi - Get Structured Output from GDB's Machine Interface - https://github.com/cs01/pygdbmi
 * SymGDB - symbolic execution plugin for gdb - https://github.com/SQLab/symgdb
-* Voltron - https://github.com/snare/voltron
 
 #### Editor Integration
 
