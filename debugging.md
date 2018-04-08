@@ -59,7 +59,6 @@ See also:
 		- https://speakerdeck.com/dho/building-a-debugging-mindset
 	+ Debugging: Psychology, Theory, and Application - https://9vx.org/post/debugging-psychology-theory-and-application/
 	+ The Debugging Mindset - https://queue.acm.org/detail.cfm?id=3068754
-	+ https://speakerdeck.com/dho/building-a-debugging-mindset
 * Henrik Warne
 	+ Great Programmers Write Debuggable Code - https://henrikwarne.com/2013/05/05/great-programmers-write-debuggable-code/
 	+ Finding Bugs: Debugger versus Logging - https://henrikwarne.com/2014/01/01/finding-bugs-debugger-versus-logging/
