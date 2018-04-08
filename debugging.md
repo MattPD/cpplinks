@@ -3,8 +3,8 @@
 See also:
 
 * [Executables](executables.md):
-	+ [DWARF](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-2) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-2) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-2)
-	+ [PDB](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-program-database): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-5) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-5) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-5)
+	+ [DWARF](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-2), [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-2), [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-2)
+	+ [PDB](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-program-database): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-5), [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-5), [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-5)
 
 # Contents
 
@@ -53,7 +53,10 @@ See also:
 	+ Minimizing Interesting Files with Delta
 		- http://delta.stage.tigris.org/using_delta.html
 * Devon H. O'Dell
-	+ Building a Debugging Mindset - https://9vx.org/post/building-a-debugging-mindset/
+	+ Building a Debugging Mindset
+		- https://9vx.org/post/building-a-debugging-mindset/
+		- https://www.infoq.com/presentations/debugging-mindset
+		- https://speakerdeck.com/dho/building-a-debugging-mindset
 	+ Debugging: Psychology, Theory, and Application - https://9vx.org/post/debugging-psychology-theory-and-application/
 	+ The Debugging Mindset - https://queue.acm.org/detail.cfm?id=3068754
 	+ https://speakerdeck.com/dho/building-a-debugging-mindset
@@ -63,7 +66,7 @@ See also:
 	+ Learning From Your Bugs - https://henrikwarne.com/2016/04/28/learning-from-your-bugs/
 * How to Debug - John Regehr - https://blog.regehr.org/archives/199
 * I tend to prefer debugging with release builds instead of debug builds - Ken Johnson (Skywing) - http://www.nynaeve.net/?p=184
-* When debugging a stack overflow, you want to focus on the repeating recursive part - https://blogs.msdn.microsoft.com/oldnewthing/20090107-00/?p=19573
+* When debugging a stack overflow, you want to focus on the repeating recursive part - Raymond Chen - https://blogs.msdn.microsoft.com/oldnewthing/20090107-00/?p=19573
 
 ## Books
 
@@ -80,16 +83,12 @@ _Books, Books Reviews_
 ## Implementation
 
 * An Efficient and Generic Reversible Debugger using the Virtual Machine based Approach
-	+ Virtual Execution Environments VEE 2005
+	+ Virtual Execution Environments (VEE) 2005
 	+ Toshihiko Koju, Shingo Takada, Norihisa Doi
 	+ https://www.usenix.org/events/vee05/full_papers/p79-koju.pdf
-* Compile Once Debug Twice: Picking a Compiler for Debuggability
-	+ https://backtrace.io/blog/compile-once-debug-twice-picking-a-compiler-for-debuggability-1of3/
 * Debugging with the natives - Stephen Kell
 	+ part 1 - http://www.cl.cam.ac.uk/~srk31/blog/2016/02/25/#native-debugging-part-1
 	+ part 2 - http://www.cl.cam.ac.uk/~srk31/blog/2017/01/30/#native-debugging-part-2
-* Debugging the Debugger: Why Your Debugger Doesn’t Work When You Need it To
-	+ https://backtrace.io/debuggingthedebugger/
 * Fast, Flexible, Polyglot Instrumentation Support for Debuggers and other Tools
 	+ The Art, Science, and Engineering of Programming, 2018, Vol. 2, Issue 3, Article 14
 	+ Van De Vanter, Michael; Seaton, Chris; Haupt, Michael; Humer, Christian; Würthinger, Thomas
@@ -103,15 +102,21 @@ _Books, Books Reviews_
 	+ The contents of DWARF sections - https://eli.thegreenplace.net/2011/12/26/the-contents-of-dwarf-sections
 	+ Programmatic access to the call stack in C++ - https://eli.thegreenplace.net/2015/programmatic-access-to-the-call-stack-in-c/
 * Framework for Instruction-level Tracing and Analysis of Program Executions
-	+ VEE 2006
+	+ Virtual Execution Environments (VEE) 2006
 	+ https://www.usenix.org/legacy/events/vee06/full_papers/p154-bhansali.pdf
 * How breakpoints are set - http://majantali.net/2016/10/how-breakpoints-are-set/
 * How do debuggers keep track of the threads in your program?
 	+ http://timetobleed.com/how-do-debuggers-keep-track-of-the-threads-in-your-program/
 * How to code debuggers - Tomasz Wegrzanowski - https://t-a-w.blogspot.com/2007/03/how-to-code-debuggers.html
-* Implementing a Debugger - Backtrace
-	+ The Fundamentals - http://backtrace.io/blog/blog/2016/08/11/debugger-internals/
-	+ Building a Go Debugger - https://backtrace.io/blog/building-a-go-debugger/
+* Samy Al Bahra, Backtrace
+	+ Compiler debug quality suite - https://github.com/backtrace-labs/cdqs
+	+ Compile Once Debug Twice: Picking a Compiler for Debuggability
+		- https://backtrace.io/blog/compile-once-debug-twice-picking-a-compiler-for-debuggability-1of3/
+	+ Debugging the Debugger: Why Your Debugger Doesn’t Work When You Need it To
+		- https://backtrace.io/debuggingthedebugger/
+	+ Implementing a Debugger - Backtrace
+		- The Fundamentals - http://backtrace.io/blog/blog/2016/08/11/debugger-internals/
+		- Building a Go Debugger - https://backtrace.io/blog/building-a-go-debugger/
 * Writing a basic Windows debugger - https://www.codeproject.com/Articles/43682/Writing-a-basic-Windows-debugger
 * Writing a Debugger - Joseph Kain - http://system.joekain.com/debugger/
 * Writing a Linux Debugger - Simon Brand
@@ -143,6 +148,12 @@ _Books, Books Reviews_
 		- https://www.slideshare.net/alexorso/20130204dagstuhl-alex-orso
 		- https://pdfs.semanticscholar.org/2436/0dc1bd271dcf3ecb73622e2c7b1d54a008bf.pdf
 		- https://www.youtube.com/watch?v=WJHQnzLpVXk
+* Failure Sketches: A Better Way to Debug
+	+ HotOS 2015
+	+ Baris Kasikci, Benjamin Schubert, Cristiano Pereira, Gilles Pokam, Madan Musuvathi, George Candea 
+	+ https://www.usenix.org/conference/hotos15/workshop-program/presentation/kasikci
+	+ http://dslab.epfl.ch/pubs/failure-sketches.pdf
+	+ https://web.eecs.umich.edu/~barisk/public/fs-slides.pdf
 * Failure Sketching: A Technique for Automated Root Cause Diagnosis of In-Production Failures
 	+ SOSP 2015
 	+ Baris Kasikci, Benjamin Schubert, Cristiano Pereira, Gilles Pokam, George Candea
@@ -162,12 +173,6 @@ _Books, Books Reviews_
 		- https://archive.org/details/Microsoft_Research_Video_103778
 	+ "Static and dynamic program slicing algorithms for extracting and answering developers questions about program output that substantially decrease fault localization time."
 	+ https://blog.acolyer.org/2014/10/17/debugging-reinvented/
-* Failure Sketches: A Better Way to Debug
-	+ HotOS 2015
-	+ Baris Kasikci, Benjamin Schubert, Cristiano Pereira, Gilles Pokam, Madan Musuvathi, George Candea 
-	+ https://www.usenix.org/conference/hotos15/workshop-program/presentation/kasikci
-	+ http://dslab.epfl.ch/pubs/failure-sketches.pdf
-	+ https://web.eecs.umich.edu/~barisk/public/fs-slides.pdf
 * On The Dichotomy of Debugging Behavior Among Programmers
 	+ ICSE 2018
 	+ Moritz Beller, Niels Spruit, Diomidis Spinellis, Andy Zaidman
@@ -204,13 +209,12 @@ _Books, Books Reviews_
 
 # Software
 
-* edb: a cross platform x86/x86-64 debugger
-	+ https://github.com/eteran/edb-debugger
 * PulseDbg: Hypervisor-based debugger
 	+ https://github.com/honorarybot/PulseDBG
 * PyREBox: a Python scriptable Reverse Engineering sandbox
 	+ "It is based on QEMU, and its goal is to aid reverse engineering by providing dynamic analysis and debugging capabilities from a different perspective. PyREBox allows to inspect a running QEMU VM, modify its memory or registers, and to instrument its execution, by creating simple scripts in python to automate any kind of analysis. QEMU (when working as a whole-system-emulator) emulates a complete system (CPU, memory, devices...). By using VMI techniques, it does not require to perform any modification into the guest operating system, as it transparently retrieves information from its memory at run-time."
 	+ https://github.com/Cisco-Talos/pyrebox
+	+ http://blog.talosintelligence.com/2017/07/pyrebox.html
 * QIRA - QEMU Interactive Runtime Analyser
 	+ http://qira.me/
 	+ https://github.com/BinaryAnalysisPlatform/qira/
@@ -221,6 +225,7 @@ _Books, Books Reviews_
 * rVMI - A New Paradigm For Full System Analysis
 	+ "rVMI is a debugger on steroids. It leverages Virtual Machine Introspection (VMI) and memory forensics to provide full system analysis. This means that an analyst can inspect userspace processes, kernel drivers, and preboot environments in a single tool."
 	+ https://github.com/fireeye/rVMI
+	+ https://www.fireeye.com/blog/threat-research/2017/09/rvmi-full-system-analysis.html
 	+ Black Hat USA 2017
 		- https://www.blackhat.com/docs/us-17/thursday/us-17-Pfoh-rVMI-A-New-Paradigm-For-Full-System-Analysis.pdf
 		- https://www.youtube.com/watch?v=KtoipviVJjw
@@ -317,6 +322,7 @@ _Books, Books Reviews_
 * Cheatsheet - https://github.com/jshaw87/Cheatsheets/blob/master/Cheatsheet_GDB.txt
 * Displaying Stack Frames in gdb with Python - http://jefftrull.github.io/c++/gdb/python/2018/03/02/print-frame.html
 * GDB Basics Tutorial - https://platform.avatao.com/paths/a0dc20fc-f1b5-43c9-89fc-3a5fccfb5f0b/challenges/166366b3-2e89-49ee-86a3-023663d197b7
+* GDB Debugging Automation with Python: Implementing a memory leak detector - https://nativecoding.wordpress.com/2016/07/31/gdb-debugging-automation-with-python/
 * gdb Debugging Full Example (Tutorial): ncurses - http://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html
 * GDB Tutorial - https://www.gdb-tutorial.net/
 * GDB Tips and Tricks - Shane Kirk
@@ -335,6 +341,7 @@ _Books, Books Reviews_
 	+ How does gdb work? - https://jvns.ca/blog/2016/08/10/how-does-gdb-work/
 	+ How does gdb call functions? - https://jvns.ca/blog/2018/01/04/how-does-gdb-call-functions/
 * Notes on GDB - https://publicclu2.blogspot.com/2013/05/notes-on-gdb.html
+* Object Inspection in GDB - https://hgad.net/posts/object-inspection-in-gdb/
 * Process Injection with GDB - https://magisterquis.github.io/2018/03/11/process-injection-with-gdb.html
 * Skipping standard C++ library during debug session in gdb - https://xaizek.github.io/2016-05-26/skipping-standard-library-in-gdb/
 * Victor Stinner's Notes - GDB: GNU debugger - http://vstinner.readthedocs.io/gdb.html
@@ -361,6 +368,8 @@ _Books, Books Reviews_
 
 ## LLDB
 
+* The LLDB Debugger - https://lldb.llvm.org/
+
 ### Projects
 
 * ds2: Debug server for lldb
@@ -372,8 +381,6 @@ _Books, Books Reviews_
 	+ https://github.com/DerekSelander/LLDB
 	+ https://www.raywenderlich.com/162020/custom-lldb-commands-practice
 	+ https://www.raywenderlich.com/161938/assembly-register-calling-convention-tutorial
-* LLDB Scripts - Debugging the Swift Compiler
-	+ https://github.com/apple/swift/blob/master/docs/DebuggingTheCompiler.rst#lldb-scripts
 * lldbinit: Similar implementation of .gdbinit from fG! for lldb in python
 	+ https://github.com/deroko/lldbinit
 * Vegvisir: A browser based GUI for LLDB Debugger - https://github.com/ant4g0nist/vegvisir
@@ -389,7 +396,10 @@ _Books, Books Reviews_
 * LLDB Cheat Sheet
 	+ https://www.nesono.com/content/lldb-cheat-sheet
 	+ https://www.nesono.com/sites/default/files/lldb%20cheat%20sheet.pdf
-* LLDB for GDB Users – Command Summary - https://developer.apple.com/library/content/documentation/General/Conceptual/lldb-guide/chapters/A3-GDB-Summary.html
+* LLDB for GDB Users – Command Summary
+	+ https://developer.apple.com/library/content/documentation/General/Conceptual/lldb-guide/chapters/A3-GDB-Summary.html
+* LLDB Scripts - Debugging the Swift Compiler
+	+ https://github.com/apple/swift/blob/master/docs/DebuggingTheCompiler.rst#lldb-scripts
 * LLDB to GDB Command Map - https://lldb.llvm.org/lldb-gdb.html
 
 ### Talks
@@ -432,6 +442,8 @@ _Books, Books Reviews_
 
 ### Linux
 
+* edb: a cross platform x86/x86-64 debugger
+	+ https://github.com/eteran/edb-debugger
 * ORC (Oops Rewind Capability) Unwinder
 	+ [Commit ee9f8fce9964](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ee9f8fce99640811b2b8e79d0d1dbe8bab69ba67)
 	+ [Commit 39358a033b2e](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=39358a033b2e4432052265c1fa0f36f572d8cfb5)
@@ -457,11 +469,11 @@ _Books, Books Reviews_
 * Debugging in Visual Studio - https://docs.microsoft.com/en-us/visualstudio/debugger/debugger-feature-tour
 * Debugging Tools for Windows (WinDbg, KD, CDB, NTSD)
 	+ https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/
-* Windows Debugging Tools - Debugging Resources
-	+ https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-resources
 * makin - reveal anti-debug tricks (Windows) - https://github.com/secrary/makin
 * Nanomite - Windows Debugger for x64 and x86 - https://github.com/zer0fl4g/Nanomite/
 * OllyDbg - http://www.ollydbg.de/
+* Windows Debugging Tools - Debugging Resources
+	+ https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-resources
 * x64dbg
 	+ https://x64dbg.com/
 	+ https://github.com/x64dbg/x64dbg
@@ -482,6 +494,7 @@ _Books, Books Reviews_
 * Undocumented WinDBG - https://blogs.msdn.microsoft.com/reiley/2011/10/30/undocumented-windbg/
 * Use Windows Debuggers for Non-Debugging Tasks - https://blogs.msdn.microsoft.com/reiley/2011/10/23/use-windows-debuggers-for-non-debugging-tasks/
 * Using Function Evaluation in WinDBG - https://blogs.msdn.microsoft.com/reiley/2012/08/18/using-function-evaluation-in-windbg/
+* Windbg automation and extensions - https://nativecoding.wordpress.com/2016/01/10/automate-attach-to-process-on-windows-with-windbg/
 * WinDbg, Debugger Objects, and JavaScript! Oh, My! - https://www.osr.com/blog/2017/05/18/windbg-debugger-objects-javascript-oh/
 * Yet Another Hello World - https://blogs.msdn.microsoft.com/reiley/2011/09/29/yet-another-hello-world/
 
@@ -539,10 +552,8 @@ _Books, Books Reviews_
 ## 2018
 
 * Let's Write a Debugger!
-	+ linux.conf.au 2018
-	+ [Levente Kurusa](https://www.doc.ic.ac.uk/~lk1015/publications.html)
-	+ https://rego.linux.conf.au/schedule/presentation/91/
-	+ https://www.doc.ic.ac.uk/~lk1015/research/lca2018/
+	+ [linux.conf.au 2018](https://rego.linux.conf.au/schedule/presentation/91/) - [Levente Kurusa](https://www.doc.ic.ac.uk/~lk1015/publications.html)
+	+ https://www.doc.ic.ac.uk/~lk1015/research/lca2018/talk_lca2018.pdf
 	+ https://opensource.com/article/18/1/how-debuggers-really-work
 	+ https://www.youtube.com/watch?v=qS51kIHWARM
 	+ https://github.com/levex/debugger-talk
