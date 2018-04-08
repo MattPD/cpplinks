@@ -151,6 +151,10 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://billy-ellis.github.io/rop1.html
 	+ https://billy-ellis.github.io/rop2.html
 	+ https://billy-ellis.github.io/rop3.html
+* ARM shellcode and exploit development
+	+ BSidesMunich 2018 Workshop
+	+ https://github.com/invictus1306/Workshop-BSidesMunich2018
+	+ https://github.com/invictus1306/Workshop-BSidesMunich2018/blob/master/workshop_slides.pdf
 * Cache Speculation Side-channels
 	+ Richard Grisenthwaite
 	+ https://developer.arm.com/support/security-update
