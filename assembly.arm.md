@@ -286,12 +286,25 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 * MAMBO: A Low-Overhead Dynamic Binary Modification Tool for ARM
 	+ https://github.com/beehive-lab/mambo
-	+ PLDI 2017 
-	+ Amanieu d'Antras, Cosmin Gorgovan, Jim Garside, Mikel Lujan
-	+ https://www.youtube.com/watch?v=FCf-DJ2m0FM
-	+ https://pldi17.sigplan.org/event/pldi-2017-papers-low-overhead-dynamic-binary-translation-on-arm
-	+ https://www.research.manchester.ac.uk/portal/files/56078084/pldi_16.pdf
-	+ https://github.com/beehive-lab/mambo
+	+ Low Overhead Dynamic Binary Translation on ARM
+		- PLDI 2017 
+		- Amanieu d'Antras, Cosmin Gorgovan, Jim Garside, Mikel Lujan
+		- https://www.youtube.com/watch?v=FCf-DJ2m0FM
+		- https://pldi17.sigplan.org/event/pldi-2017-papers-low-overhead-dynamic-binary-translation-on-arm
+		- https://www.research.manchester.ac.uk/portal/files/56078084/pldi_16.pdf
+	+ Optimising Dynamic Binary Modification across ARM microarchitectures 
+		- 2017 Ph.D. Thesis; Cosmin Gorgovan
+		- http://apt.cs.manchester.ac.uk/publications/thesis/gorgovan17_phd.php
+		- https://www.escholar.manchester.ac.uk/api/datastream?publicationPid=uk-ac-man-scw:307942&datastreamId=FULL-TEXT.PDF
+	+ Optimising Dynamic Binary Modification Across ARM Microarchitectures
+		- International Conference on Performance Engineering (ICPE) 2018
+		- Cosmin Gorgovan, Amanieu d'Antras, Mikel Luján
+		- https://dl.acm.org/citation.cfm?id=3184425
+		- http://www2.cs.man.ac.uk/%7Egorgovc9/mambo_tutorial_hipeac_2018.pdf
+	+ Dynamic Binary Instrumentation and Modification with MAMBO
+		- HiPEAC 2018
+		- https://www.dropbox.com/s/3pfg9eovj1y9cw9/mambo_tutorial_hipeac_2018.pdf?dl=0
+		- https://www.research.manchester.ac.uk/portal/files/65557332/cosmin_mambo_icpe2018.pdf
 * mbed-os-linker-report: d3.js based ELF Linker Statistics
 	+ Post-processing of linker output to calculate and visualize memory usage for elf-sections
 	+ https://github.com/ARMmbed/mbed-os-linker-report
