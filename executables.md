@@ -25,6 +25,11 @@ Contents:
 * Comparison of executable file formats - https://en.wikipedia.org/wiki/Comparison_of_executable_file_formats
 * Executable and object file formats - https://en.wikipedia.org/wiki/Template:Executables
 * Linux Foundation Referenced Specifications: ABI, ELF, DWARF - https://refspecs.linuxfoundation.org/
+* Type Inference on Executables
+	+ ACM Computing Surveys, Vol. 48, No. 4, Article 65, 2016
+	+ Juan Caballero and Zhiqiang Lin
+	+ https://www.utdallas.edu/~zxl111930/file/CSUR16.pdf
+	+ http://web.cse.ohio-state.edu/~lin.3021/file/CSUR16.pdf
 * Visual Documentation - File formats - Executables: ELF, Mach-O, PE (SVG and PDF available)
 	+ https://github.com/corkami/pics/blob/master/binary/README.md#executables
 	+ elf101: https://github.com/corkami/pics/tree/master/binary/elf101
