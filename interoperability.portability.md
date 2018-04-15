@@ -14,14 +14,19 @@
 
 * Beautiful Native Libraries
 	+ http://lucumr.pocoo.org/2013/8/18/beautiful-native-libraries/
+* C++ compiler support - http://en.cppreference.com/w/cpp/compiler_support
+* Compiler Dependencies - https://isocpp.org/wiki/faq/compiler-dependencies
 * Creating and using shared libraries with different compilers on different operating systems
 	+ http://gernotklingler.com/blog/creating-using-shared-libraries-different-compilers-different-operating-systems/
+* GotW #100: Compilation Firewalls - https://herbsutter.com/gotw/_100/
+* GotW #101: Compilation Firewalls, Part 2 - https://herbsutter.com/gotw/_101/
 * How to Write Shared Libraries - Ulrich Drepper - http://www.akkadia.org/drepper/dsohowto.pdf
 * Interoperability of Libraries Created by Different Compiler Brands
 	+ http://www.mingw.org/wiki/Interoperability_of_Libraries_Created_by_Different_Compiler_Brands
 * libabc
 	+ http://0pointer.de/blog/projects/libabc
 	+ https://git.kernel.org/pub/scm/linux/kernel/git/kay/libabc.git/about/
+* PImpl - http://en.cppreference.com/w/cpp/language/pimpl
 * Program Library HOWTO
 	+ This HOWTO for programmers discusses how to create and use program libraries on Linux. This includes static libraries, shared libraries, and dynamically loaded libraries.
 	+ http://tldp.org/HOWTO/Program-Library-HOWTO/
@@ -64,6 +69,8 @@
 	+ https://www.openrce.org/articles/files/jangrayhood.pdf
 * Calling conventions for different C++ compilers and operating systems
 	+ http://www.agner.org/optimize/calling_conventions.pdf
+* Describing the MSVC ABI for Structure Return Types
+	+ http://blog.aaronballman.com/2012/02/describing-the-msvc-abi-for-structure-return-types/
 * Itanium C++ ABI
 	+ https://itanium-cxx-abi.github.io/cxx-abi/
 	+ https://github.com/itanium-cxx-abi/cxx-abi
@@ -71,6 +78,8 @@
 * Some thoughts on calling convention - http://blog.qt.io/blog/2009/08/15/some-thoughts-on-calling-convention/
 * The Importance of Calling Conventions - http://blog.aaronballman.com/2011/04/the-importance-of-calling-conventions/
 * The value of passing by value - https://www.macieira.org/blog/2012/02/the-value-of-passing-by-value/
+* X86-64 System V Application Binary Interface
+	+ https://github.com/hjl-tools/x86-psABI/wiki/X86-psABI
 
 ## Software
 
@@ -136,8 +145,6 @@
 
 ## Readings
 
-* Describing the MSVC ABI for Structure Return Types
-	+ http://blog.aaronballman.com/2012/02/describing-the-msvc-abi-for-structure-return-types/
 * Measuring Mangled Name Ambiguity in Large C / C++ Projects
 	+ SQAMIA 2017
 	+ Richárd Szalay, Zoltán Porkoláb, Dániel Krupp

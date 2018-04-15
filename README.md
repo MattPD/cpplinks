@@ -28,7 +28,7 @@ Hopefully some will find this of some use and interest, too :-)
 - [Executables](executables.md) - executable & object file formats ([ELF](executables.md#elf), [Mach-O](executables.md#mach-o), [PE](executables.md#pe)); debugging data formats ([DWARF](executables.md#dwarf), [PDB](executables.md#pdb-program-database))
 - Interoperability
   - [FFI](interoperability.ffi.md) - foreign function interfaces (FFIs)
-  - [portability](interoperability.portability.md) - portability - [general (libraries)](interoperability.portability.md#general), [ABI](interoperability.portability.md#abi), [name mangling](interoperability.portability.md#name-mangling) 
+  - [portability](interoperability.portability.md) - [general (libraries)](interoperability.portability.md#general), [ABI](interoperability.portability.md#abi), [name mangling](interoperability.portability.md#name-mangling) 
 - [Learning and teaching](learning_teaching.md)
 - [Performance tools](performance.tools.md)
 - [Standardization](std.md)
