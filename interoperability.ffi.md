@@ -38,9 +38,8 @@
 * The Salami Method
 	+ The Salami Method finely distinguishes between the different aspects and layers required for exposing platform-independent C++ on different “specific” platforms. At its extreme it strives to create a single, thin, transparent layer for each such aspect so that each layer is more easily built, tested, debugged, managed and maintained.
 	+ http://videocortex.io/2017/salami-method/
-The Salami Method: CoreCpp: Apr18
-The Salami Method: multiplatform C++ development, by Adi Shavit. At CoreCpp IL Meetup, ShellTech Modiin, 15 April 2018
-https://www.youtube.com/watch?v=jdEmz3iXNlA
+	+ The Salami Method: multiplatform C++ development - Adi Shavit, CoreCpp IL Meetup, April 2018
+		- https://www.youtube.com/watch?v=jdEmz3iXNlA
 
 # C#
 
@@ -64,6 +63,13 @@ https://www.youtube.com/watch?v=jdEmz3iXNlA
 
 # Java
 
+* GraalVM: JIT Compiler and Polyglot Runtime for the JVM
+	+ http://www.graalvm.org/
+	+ https://github.com/oracle/graal
+	+ Running C++ - http://www.graalvm.org/docs/reference-manual/languages/llvm/#running-c
+	+ Sulong, the LLVM bitcode implementation of Graal VM
+		- With Sulong you can execute C/C++, Fortran, and other programming languages that can be transformed to LLVM bitcode on Graal VM.
+		- https://github.com/graalvm/sulong
 * JavaCPP: The missing bridge between Java and native C++
 	+ https://github.com/bytedeco/javacpp
 * jnr-ffi: Java Abstracted Foreign Function Layer
