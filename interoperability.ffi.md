@@ -3,7 +3,7 @@
 # Contents
 
 * [General](#general)
-* Language-specific: [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata)
+* Language-specific: [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata)
 
 ---
 
@@ -60,6 +60,17 @@
 * Zero Overhead Interface Between DLang & C++ Standard Lib
 	+ Alexandru Razvan Caciulescu | DConf2017
 	+ https://www.youtube.com/watch?v=c5zGnOWKaGo
+
+# Haskell
+
+* Calling C++ from Haskell - "The Hard Way"
+	+ https://wiki.haskell.org/CPlusPlus_from_Haskell
+* Cxx foreign function interface
+	+ https://wiki.haskell.org/Cxx_foreign_function_interface
+* fficxx - FFI to C++ in Haskell
+	+ Haskell-C++ Foreign Function Interface Generator
+	+ http://ianwookim.org/fficxx/
+	+ https://github.com/wavewave/fficxx
 
 # Java
 
