@@ -92,8 +92,10 @@ Contents:
 
 * DLLs and Visual C++ run-time library behavior - https://docs.microsoft.com/en-us/cpp/build/run-time-library-behavior
 * Dynamic-Link Library Best Practices - https://msdn.microsoft.com/library/windows/desktop/dn633971.aspx
+* Everything You Never Wanted To Know About DLLs - http://blog.omega-prime.co.uk/2011/07/04/everything-you-never-wanted-to-know-about-dlls/
 * How can I specify that my DLL should resolve a DLL dependency from the same directory that the DLL is in? - https://blogs.msdn.microsoft.com/oldnewthing/20171011-00/?p=97195
 * Import by Hash in x64 Assembly - https://emsea.github.io/2017/12/04/import-by-hash/
+* Rpath emulation: absolute DLL references on Windows - http://blog.omega-prime.co.uk/2012/12/06/rpath-emulation-absolute-dll-references-on-windows/
 * Ten Process Injection Techniques: A Technical Survey of Common and Trending Process Injection Techniques - https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process
 * What is so special about the instance handle 0x10000000? - https://blogs.msdn.microsoft.com/oldnewthing/20121227-00/?p=5713/
 
@@ -299,6 +301,7 @@ Contents:
 * Executable and Linkable Format 101
 	+ Part 1: Sections and Segments - http://www.intezer.com/executable-linkable-format-101-part1-sections-segments/
 	+ Part 2: Symbols - http://www.intezer.com/executable-linkable-format-101-part-2-symbols/
+	+ Part 3: Relocations - https://www.intezer.com/executable-and-linkable-format-101-part-3-relocations/
 * Exploiting ELF Expansion Variables - https://backtrace.io/blog/exploiting-elf-expansion-variables/
 * Generating executable files from scratch - https://github.com/cameronswinoga/yabfc/wiki/Generating-executable-files-from-scratch
 * GNU Hash ELF Sections
