@@ -343,6 +343,10 @@ See also: [Computer Architecture](comparch.md)
 * Capacity of the EM Covert/Side-Channel Created by the Execution of Instructions in a Processor
 	+ 2017, IEEE Transactions on Information Forensics and Security
 	+ http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2017/10/T-IFS-07378-2017.pdf
+* Detailed Tracking of Program Control Flow Using Analog Side-Channel Signals: A Promise for IoT Malware Detection and a Threat for Many Cryptographic Implementations
+	+ SPIE 2018
+	+ Haider Adnan Khan, Monjur Alam, Alenka Zajic, Milos Prvulovic
+	+ https://www.researchgate.net/publication/324584326_Detailed_Tracking_of_Program_Control_Flow_Using_Analog_Side-Channel_Signals_A_Promise_for_IoT_Malware_Detection_and_a_Threat_for_Many_Cryptographic_Implementations
 * EDDIE: EM-Based Detection of Deviations in Program Execution
 	+ 2017, Proceedings of the 44th International Symposium on Computer Architecture (ISCA)
 	+ http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2017/06/ISCA17.pdf
@@ -615,6 +619,9 @@ See also: [Computer Architecture](comparch.md)
 	+ meltdownspectre-patches: summary of the patch status - https://github.com/hannob/meltdownspectre-patches
 	+ More details about mitigations for the CPU Speculative Execution issue - https://security.googleblog.com/2018/01/more-details-about-mitigations-for-cpu_4.html
 	+ Retpoline: a software construct for preventing branch-target-injection - https://support.google.com/faqs/answer/7625886
+	+ How Performance Optimizations Shatter Security Boundaries
+		- QCon London 2018; Moritz Lipp
+		- https://www.infoq.com/presentations/spectre-meltdown-security
 * Out-of-Order Execution and Its Applications - Sophia D'Antoine, DeepSec 2017
 	+ https://www.sophia.re/ROOTS/
 	+ https://deepsec.net/docs/Slides/2017/Out-Of-Order_Execution_and_its_applications_Sophia_dAntoine.pdf
