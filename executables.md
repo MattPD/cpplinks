@@ -111,6 +111,7 @@ Contents:
 	+ https://github.com/EasyHook/EasyHook
 * GNU Binary Utilities - https://sourceware.org/binutils/docs/binutils/
 	+ dlltool: Create files needed to build and use DLLs - https://sourceware.org/binutils/docs/binutils/dlltool.html
+* InjectDLL: a Windows command line tool to inject DLLs into other processes - http://bytepointer.com/tools/index.htm#injectdll
 * MemoryModule: Library to load a DLL from memory
 	+ https://github.com/fancycode/MemoryModule
 	+ https://www.joachim-bauch.de/tutorials/loading-a-dll-from-memory/
@@ -637,8 +638,10 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ https://toddcullumresearch.com/2017/07/16/portable-executable-file-corruption/
 * Portable Executable File Format – A Reverse Engineer View - http://www.stonedcoder.org/~kd/lib/CBJ-2005-74.pdf
 * Peering Inside the PE: A Tour of the Win32 Portable Executable File Format - https://msdn.microsoft.com/en-us/library/ms809762.aspx
+* Resources: Microsoft Portable Executable and COFF (32-bit and 64-bit) Format - http://bytepointer.com/resources/
 * Robust Static Analysis of Portable Executable Malware - Katja Hahn, Master Thesis - https://github.com/katjahahn/PortEx/tree/master/masterthesis
 * The sad state of PE parsing - http://lucasg.github.io/2017/04/28/the-sad-state-of-pe-parsing/
+* The Undocumented Microsoft "Rich" Header - http://bytepointer.com/articles/the_microsoft_rich_header.htm
 * Tiny PE: Creating the smallest possible PE executable - http://www.phreedom.org/research/tinype/
 * Undocumented PECOFF - https://media.blackhat.com/bh-us-11/Vuksan/BH_US_11_VuksanPericin_PECOFF_WP.pdf
 * Why does a corrupted binary sometimes result in "Program too big to fit in memory"? - https://blogs.msdn.microsoft.com/oldnewthing/20060130-00/?p=32483
@@ -681,7 +684,9 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 * pe_armor: Metamorphic PE packer generated and assembled by a Python code - https://github.com/DimitriFourny/resources/tree/master/pe_armor
 * pe_recovery_tools: Helper tools for recovering dumped PE files - https://github.com/hasherezade/pe_recovery_tools
 * pedump - dump windows PE files using Ruby - http://pedump.me/ - https://github.com/zed-0xff/pedump
+* pelook: PE/COFF dump and conversion tool - http://bytepointer.com/tools/index.htm#pelook
 * pestudio - https://www.winitor.com/
+* peupdate: update hidden PE and PDB information in Win32/64 executables - http://bytepointer.com/tools/index.htm#peupdate
 * PortEx: Java library to analyse Portable Executable files with a special focus on malware analysis and PE malformation robustness
 	+ https://github.com/katjahahn/PortEx/
 	+ http://katjahahn.github.io/PortEx/
