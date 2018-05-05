@@ -154,14 +154,20 @@ Note: see also [compilers](compilers.md)
 
 ## Talks
 
+* Adventures in Fuzzing Instruction Selection
+	+ EuroLLVM 2017 - Justin Bogner
+	+ https://www.youtube.com/watch?v=UBbQ_s6hNgg
+	+ http://llvm.org/devmtg/2017-03//assets/slides/adventures_in_fuzzing_instruction_selection.pdf
 * Coverage-Directed Differential Testing of JVM Implementations - Yuting Chen, PLDI 2016
 	+ https://www.youtube.com/watch?v=2Reaqfp4v-g
 	+ http://cse.sjtu.edu.cn/~zhao/pub/pdf/pldi2016.pdf
-* 2017 EuroLLVM Developers’ Meeting: J. Bogner “Adventures in Fuzzing Instruction Selection”
-	+ https://www.youtube.com/watch?v=UBbQ_s6hNgg
-	+ http://llvm.org/devmtg/2017-03//assets/slides/adventures_in_fuzzing_instruction_selection.pdf
 * Exposing Difficult Compiler Bugs With Random Testing
 	+ https://gcc.gnu.org/wiki/summit2010?action=AttachFile&do=get&target=regehr_gcc_summit_2010.pdf
+* Finding Missed Optimizations in LLVM (and other compilers)
+	+ EuroLLVM 2018 - Gergö Barany
+	+ https://www.youtube.com/watch?v=V6ug3e3jC54
+	+ http://llvm.org/devmtg/2018-04/slides/Barany-Finding%20Missed%20Optimizations%20in%20LLVM.pdf
+	+ https://github.com/gergo-/missed-optimizations/
 * Testing Language Implementations - Alastair Donaldson - Programming Language Implementation Summer School (PLISS) 2017
 	+ https://www.youtube.com/watch?v=ZJUk8_k1HbY
 
