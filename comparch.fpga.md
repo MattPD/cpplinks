@@ -1,6 +1,6 @@
 # [C++ links](README.md): computer architecture - FPGA
 
-Note: see also [computer architecture](comparch.md)
+See also: [computer architecture](comparch.md)
 
 You may also be interested in the resources listed in my talk, "FPGAs and Open-Source Hardware - An Intro" (Meeting C++ 2016):
 https://speakerdeck.com/mattpd/fpgas-and-open-source-hardware-an-intro-meeting-c-plus-plus-2016
@@ -14,6 +14,7 @@ https://speakerdeck.com/mattpd/fpgas-and-open-source-hardware-an-intro-meeting-c
   - http://phdtree.org/pdf/39505483-its-an-fpga/ / http://ieeexplore.ieee.org/document/6069771/
 * Measuring the Gap Between FPGAs and ASICs (2007) - http://ieeexplore.ieee.org/document/4068926/
 * Reconfigurable Computing Architectures (2015) - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7086414
+* Reading List - ACM SIGDA Technical Committee on FPGAs (TCFPGA) Hall of Fame - http://hof.tcfpga.org/reading-list/
 * Three Ages of FPGAs: A Retrospective on the First Thirty Years of FPGA Technology (2015) - http://ieeexplore.ieee.org/abstract/document/7086413/
 * Trends in Reconfigurable Computing: Applications and Architectures (2015)
   - Lesley Shannon, Veronica Cojocaru, Cong Nguyen Dao, and Philip H.W. Leong. In Proc. IEEE Symposium on Field-Programmable Custom Computing Machines (FCCM), 2015
