@@ -23,7 +23,7 @@ See also: [Computer Architecture](comparch.md)
 * [Magnetic](#magnetic)
 * [Memory Bus](#memory-bus)
 * [Memory Order Buffer (MOB)](#memory-order-buffer-mob)
-* [MMU](#mmu)
+* [Memory Management Unit (MMU)](#memory-management-unit-mmu)
 * [Power](#power)
 * [Prefetch](#prefetch)
 * [Pseudo-Random Number Generator (PRNG)](#pseudo-random-number-generator-prng)
@@ -31,6 +31,7 @@ See also: [Computer Architecture](comparch.md)
 * [SMT](#smt)
 * [Speculation](#speculation)
 * [Thermal](#thermal)
+* [Translation Lookaside Buffer (TLB)](#translation-lookaside-buffer-tlb)
 * [TSX](#tsx)
 * [Talks](#talks)
 
@@ -333,6 +334,11 @@ See also: [Computer Architecture](comparch.md)
 	+ Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA) 2016
 	+ http://arxiv.org/abs/1507.06955
 	+ https://github.com/IAIK/rowhammerjs
+* Throwhammer: Rowhammer Attacks over the Network and Defenses
+	+ USENIX ATC (Annual Technical Conference) 2018
+	+ Andrei Tatar, Radhesh Krishnan, Elias Athanasopoulos, Cristiano Giuffrida, Herbert Bos, Kaveh Razavi
+	+ https://www.usenix.org/conference/atc18/presentation/tatar
+	+ https://www.vusec.net/download/?t=papers/throwhammer_atc18.pdf
 * Whispers in the Hyper-space: High-speed Covert Channel Attacks in the Cloud - https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/wu
 
 # Electromagnetic (EM) Emanations
@@ -507,7 +513,7 @@ See also: [Computer Architecture](comparch.md)
 	+ http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/03/NDSS2018-06A-3_Sullivan_Slides.pdf
 	+ https://www.youtube.com/watch?v=0KIojo5nk2s
 
-# MMU
+# Memory Management Unit (MMU)
 
 * ASLR on the Line: Practical Cache Attacks on the MMU
 	+ B. Gras, K. Razavi, E. Bosman, H. Bos, C. Giuffrida; NDSS, 2017
@@ -515,6 +521,10 @@ See also: [Computer Architecture](comparch.md)
 	+ 34C3 (2017)
 		- https://media.ccc.de/v/34c3-9135-aslr_on_the_line
 		- https://github.com/brainsmoke/pub-archive/raw/master/slides/aotl-34c3-slides.pdf
+* Malicious Management Unit: Why Stopping Cache Attacks in Software is Harder Than You Think
+	+ van Schaik, S.; Giuffrida, C.; Bos, H.; Razavi, K.
+	+ USENIX Security 2018
+	+ https://bibbase.org/network/publication/vanschaik-giuffrida-bos-razavi-maliciousmanagementunitwhystoppingcacheattacksinsoftwareisharderthanyouthink-2018
 * Reverse Engineering Hardware Page Table Caches Using Side-Channel Attacks on the MMU
 	+ S. van Schaik, K. Razavi, B. Gras, H. Bos, C. Giuffrida, VU Amsterdam, 2017.
 	+ https://www.vusec.net/download/?t=papers/revanc_ir-cs-77.pdf
@@ -631,6 +641,13 @@ See also: [Computer Architecture](comparch.md)
 
 * On the capacity of thermal covert channels in multicores - https://dl.acm.org/citation.cfm?id=2901322
 * Thermal Covert Channels on Multi-core Platforms - https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/masti
+
+# Translation Lookaside Buffer (TLB)
+
+* Translation Leak-aside Buffer: Defeating Cache Side-channel Protections with TLB Attacks
+	+ Gras, B.; Razavi, K.; Bos, H.; Giuffrida, C.
+	+ USENIX Security 2018
+	+ https://bibbase.org/network/publication/gras-razavi-bos-giuffrida-translationleakasidebufferdefeatingcachesidechannelprotectionswithtlbattacks-2018
 
 # TSX
 
