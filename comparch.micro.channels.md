@@ -330,6 +330,10 @@ See also: [Computer Architecture](comparch.md)
 	+ http://users.ece.cmu.edu/%7Eyoonguk/papers/kim-isca14.pdf
 	+ https://github.com/CMU-SAFARI/rowhammer
 * Hammertime: a software suite for testing, profiling and simulating the rowhammer DRAM defect - https://github.com/vusec/hammertime
+* Nethammer: Inducing Rowhammer Faults through Network Requests
+	+ arXiv May 2018
+	+ Moritz Lipp, Misiker Tadesse Aga, Michael Schwarz, Daniel Gruss, Clémentine Maurice, Lukas Raab, Lukas Lamster
+	+ https://arxiv.org/abs/1805.04956
 * Rowhammer.js: A Remote Software-Induced Fault Attack in JavaScript
 	+ Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA) 2016
 	+ http://arxiv.org/abs/1507.06955
