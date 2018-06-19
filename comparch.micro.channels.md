@@ -20,6 +20,7 @@ See also: [Computer Architecture](comparch.md)
 * [FPGA](#fpga)
 * [GPU](#gpu)
 * [Interrupts](#interrupts)
+* [Keyboard](#keyboard)
 * [Magnetic](#magnetic)
 * [Memory Bus](#memory-bus)
 * [Memory Order Buffer (MOB)](#memory-order-buffer-mob)
@@ -382,6 +383,11 @@ See also: [Computer Architecture](comparch.md)
 
 # Floating Point Unit (FPU)
 
+* LazyFP: Leaking FPU Register State using Microarchitectural Side-Channels
+	+ 2018; Julian Stecklina, Thomas Prescher
+	+ https://blog.cyberus-technology.de/images/lazyFP.pdf
+	+ Intel LazyFP vulnerability: Exploiting lazy FPU state switching
+		- http://blog.cyberus-technology.de/posts/2018-06-06-intel-lazyfp-vulnerability.html
 * On Subnormal Floating Point and Abnormal Timing
 	+ http://www.ieee-security.org/TC/SP2015/papers-archived/6949a623.pdf
 	+ https://cseweb.ucsd.edu/~dkohlbre/papers/subnormal.pdf
@@ -411,9 +417,10 @@ See also: [Computer Architecture](comparch.md)
 	+ C. Ramesh, S. B. Patil, S. N. Dhanuskodi, G. Provelengios, S. Pillement, D. Holcomb, R. Tessier
 	+ http://www.ecs.umass.edu/ece/tessier/ramesh-fccm18.pdf
 * FPGA-Based Remote Power Side-Channel Attacks
-	+ Security and Privacy S&P 2018
+	+ IEEE Symposium on Security and Privacy (S&P) 2018
 	+ Mark Zhao, G. Edward Suh
 	+ https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a805-abs.html
+	+ https://sites.coecis.cornell.edu/edsuh/files/2018/04/SP2018-FPGA-2m12dnp.pdf
 * Improved Side-Channel Analysis Attacks on Xilinx Bitstream Encryption of 5, 6, and 7 Series
 	+ Constructive Side-Channel Analysis and Secure Design (COSADE) 2016
 	+ Amir Moradi, Tobias Schneider
@@ -470,10 +477,12 @@ See also: [Computer Architecture](comparch.md)
 	+ http://www.mais.informatik.tu-darmstadt.de/WebBibPHP/papers/2013/2013-GayMantelSudbrock-EmpiricalIRCC.pdf
 
 # Keyboard
+
 * SoK: Keylogging Side Channels
-	+ Security and Privacy S&P 2018
-	+ J. Monaco
+	+ IEEE Symposium on Security and Privacy (S&P) 2018
+	+ John V. Monaco
 	+ https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a420-abs.html
+	+ https://oaklandsok.github.io/papers/monaco2018.pdf
 * KeyDrown: Eliminating Software-Based Keystroke Timing Side-Channel Attacks
 	+ NDSS 2018
 	+ Michael Schwarz, Moritz Lipp, Daniel Gruss, Samuel Weiser, Clémentine Maurice, Raphael Spreitzer, Stefan Mangard
