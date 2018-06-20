@@ -3,7 +3,7 @@
 # Contents
 
 * [Readings](#readings): [Blogs](#blogs-posts-and-series), [Documentation](#documentation), [Papers](#papers), [References](#references), [StackOverflow](#stackoverflow-questions)
-* [Software](#software): [Libraries](#libraries), [Tools](#tools)
+* [Software](#software): [Benchmarks](#benchmarks), [Libraries](#libraries), [Tools](#tools)
 * [Talks, Videos](#talks-videos): [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
 
 ---
@@ -64,6 +64,17 @@
 * Shane Kirk - C++ Exceptions: The Good, The Bad, And The Ugly
 	+ A discussion of the pros and cons of exceptions.
 	+ http://www.shanekirk.com/2015/06/c-exceptions-the-good-the-bad-and-the-ugly/
+* Boris Kolpackov
+	+ Throwing Destructors - https://www.kolpackov.net/projects/c++/eh/dtor-1.xhtml
+* Andrzej Krzemieński
+	+ https://akrzemi1.wordpress.com/2011/09/21/destructors-that-throw/
+	+ https://akrzemi1.wordpress.com/2012/11/14/not-using-stdthread/
+	+ https://akrzemi1.wordpress.com/2013/07/18/cs-best-feature/
+	+ https://akrzemi1.wordpress.com/2013/08/20/noexcept-destructors/
+	+ https://akrzemi1.wordpress.com/2014/02/12/find-the-bug/
+	+ https://akrzemi1.wordpress.com/2014/03/13/find-the-bug-comments/
+	+ https://akrzemi1.wordpress.com/2014/04/24/noexcept-what-for/
+	+ https://akrzemi1.wordpress.com/2014/09/19/destructors-2-use-cases/
 * Joseph Mansfield - Exceptions, error codes, and assertions in C++
 	+ A high-level look at different error handling techniques and guidelines on when to use them.
 	+ http://josephmansfield.uk/articles/exceptions-error-codes-assertions-c++.html
@@ -78,9 +89,13 @@
 	+ http://foonathan.net/blog/2017/12/04/exceptions-vs-expected.html
 * Joseph M. Newcomer - Mythology in C++: Exceptions are Expensive
 	+ Microbenchmarks and assembly examinations to show that exceptions or not as expensive as many say.
+	+ http://www.flounder.com/exceptions.htm
 * Jussi Pakkanen - Are exceptions slower than error objects
 	+ A series of microbenchmarks examining the relative cost of exceptions and error objects.
-	+ http://nibblestew.blogspot.co.uk/2015/12/are-exceptions-slower-than-error-objects.html        
+	+ Are exceptions slower than error objects - http://nibblestew.blogspot.co.uk/2015/12/are-exceptions-slower-than-error-objects.html
+	+ Comparing executable size of C++ exceptions vs plain C error structs - http://nibblestew.blogspot.com/2016/12/comparing-executable-size-of-c.html
+	+ Measuring execution performance of C++ exceptions vs error codes - http://nibblestew.blogspot.com/2017/01/measuring-execution-performance-of-c.html
+	+ Testing exception vs error code behaviour with real world code - http://nibblestew.blogspot.com/2017/01/testing-exception-vs-error-code.html
 * Jason Robert Carey Patterson - Exception Handling Considered Harmful
 	+ A discussion of various problems with C++ exceptions.
 	+ http://www.lighterra.com/papers/exceptionsharmful/
@@ -92,7 +107,6 @@
 * Jeff Preshing - The Cost of Enabling Exception Handling
 	+ Uses microbenchmarking and assembly analysis to examine the effect of enabling exceptions.
 	+ http://preshing.com/20110807/the-cost-of-enabling-exception-handling/        
-	+ http://www.flounder.com/exceptions.htm
 * Vittorio Romeo - Why choose sum types over exceptions?
 	+ A case study of somewhere you might want to choose sum types over exceptions, along with some more general guidance.
 	+ https://vittorioromeo.info/index/blog/adts_over_exceptions.html        
@@ -108,20 +122,26 @@
 	+ .eh_frame - https://www.airs.com/blog/archives/460
 	+ .eh_frame_hdr - https://www.airs.com/blog/archives/462
 	+ .gcc_except_table - https://www.airs.com/blog/archives/464
+* Lucian Teodorescu
+‏	+ Exceptional exploration
+		- http://lucteo.ro/2018/03/18/exceptional-exploration-1/
+		- http://lucteo.ro/2018/04/21/exception-exploration-2/
 * Nemanja Trifunovic - C++ Exceptions: Pros and Cons
 	+ A discussion of the pros and cons of exceptions.
 	+ https://www.codeproject.com/Articles/38449/C-Exceptions-Pros-and-Cons
 
 ## Documentation
 
+* Dwarf2 Exception Handler HOWTO
+	+ https://gcc.gnu.org/wiki/Dwarf2EHNewbiesHowto
 * Exception Handling in LLVM
 	+ http://llvm.org/docs/ExceptionHandling.html
-* Using Exceptions in GCC
-	+ https://gcc.gnu.org/onlinedocs/libstdc++/manual/using_exceptions.html
 * Exception Handling ABI for the ARM Architecture
 	+ http://infocenter.arm.com/help/topic/com.arm.doc.ihi0038b/IHI0038B_ehabi.pdf
 * Itanium C++ ABI: Exception Handling
 	+ https://itanium-cxx-abi.github.io/cxx-abi/abi-eh.html
+* Using Exceptions in GCC
+	+ https://gcc.gnu.org/onlinedocs/libstdc++/manual/using_exceptions.html
 
 ## Papers
 
@@ -135,6 +155,10 @@
 	+ Yuchi Tian, Baishakhi Ray
 	+ https://yuchi1989.github.io/papers/fse17-ErrDoc.pdf
 	+ ErrDoc: Tool for detecting, categorizing, and repairing error handling bugs - https://github.com/yuchi1989/ErrDoc/
+* Exception-Safety in Generic Components: Lessons Learned from Specifying Exception-Safety for the C++ Standard Library
+	+ David Abrahams
+	+ https://www.boost.org/community/exception_safety.html
+	+ Error and Exception Handling - https://www.boost.org/community/error_handling.html
 * Handling Disappointment in C++ - Lawrence Crowl
 	+ http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0157r0.html
 * Interprocedural exception analysis for C++
@@ -160,6 +184,9 @@
 	+ Vladimír Štill, Petr Ročkai, Jiří Barnat
 	+ https://arxiv.org/pdf/1703.02394
 	+ https://divine.fi.muni.cz/2017/exceptions/
+* Zero-overhead deterministic exceptions: Throwing values
+	+ Herb Sutter
+	+ https://wg21.link/p0709
 * Zipr++: Exceptional Binary Rewriting
 	+ Forming an Ecosystem Around Software Transformation (FEAST) 2017
 	+ Jason Hiser, Anh Nguyen-Tuong, William Hawkins, Matthew McGill, Michele Co, Jack Davidson
@@ -173,6 +200,10 @@
 	+ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#e-error-handling
 * C++ Super-FAQ - Exceptions and Error Handling
 	+ https://isocpp.org/wiki/faq/exceptions
+* How a C++ compiler implements exception handling (Visual C++)
+	+ https://www.codeproject.com/Articles/2126/How-a-C-compiler-implements-exception-handling
+* Reversing Microsoft Visual C++ - Igor Skochinsky, 2006
+	+ Part I: Exception Handling - http://www.openrce.org/articles/full_view/21
 * SG14 Mailing List - Cost of throwing a C++ exception on various compilers
 	+ https://groups.google.com/a/isocpp.org/forum/#!topic/sg14/ByPnBM1I2Ig
 
@@ -184,6 +215,19 @@
 	+ https://stackoverflow.com/questions/1897940/in-what-ways-do-c-exceptions-slow-down-code-when-there-are-no-exceptions-thown
 
 # Software
+
+## Benchmarks
+
+* A test on binary sizes of C error codes vs C++ exceptions
+	+ https://github.com/jpakkane/excsize
+* Exception Handling Costing Test
+	+ https://github.com/johnmcfarlane/ehct
+* Test programs to determine the speed of exceptions vs error codes
+	+ https://github.com/jpakkane/exceptionspeed
+* Testing real world code performance on exceptions vs error objects
+	+ https://github.com/jpakkane/zipexcept
+* Testing the performance of C++ exceptions vs plain C error codes
+	+ https://github.com/jpakkane/excspeed
 
 ## Libraries
 
@@ -218,6 +262,9 @@
 
 ## 2018
 
+* C++Now 2018: Michael Spencer - How Compilers Reason About Exceptions
+	+ https://www.youtube.com/watch?v=C4gpj-MDstY
+	+ https://cppnow2018.sched.com/event/EC7V/how-compilers-reason-about-exceptions
 * CPPDUG (Dublin C/C++ User Group) February 2018: Peter Edwards - C++ Exception Handling - The gory details of an implementation
 	+ What happens when throwing an exception on modern Linux systems.
 	+ Slides: https://isainmdom.com/~peadar/eximpl/
@@ -255,8 +302,12 @@
 
 ## 2015
 
+* 2015 LLVM Developers’ Meeting: Reid Kleckner & David Majnemer - Exception handling in LLVM, from Itanium to MSVC
+	+ http://www.llvm.org/devmtg/2015-10/slides/KlecknerMajnemer-ExceptionHandling.pdf
+	+ https://www.youtube.com/watch?v=9TlR9hNZbck&list=PL_R5A0lGi1AA4Lv2bBFSwhgDaHvvpVU21&index=15
 * CppCon 2015: Fedor Pikus - The Unexceptional Exceptions
 	+ Guidelines for using exceptions effectively.
+	+ Slides: https://github.com/CppCon/CppCon2015/tree/master/Presentations/Unexceptional%20exceptions
 	+ Video: https://www.youtube.com/watch?v=fOV7I-nmVXw
 
 ## 2014
