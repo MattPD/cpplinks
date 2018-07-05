@@ -240,6 +240,15 @@ See also: [Computer Architecture](comparch.md)
 	+ thesis: https://www.blackhat.com/docs/eu-16/materials/eu-16-Lipp-ARMageddon-How-Your-Smartphone-CPU-Breaks-Software-Level-Security-And-Privacy-wp.pdf
 	+ slides: https://www.blackhat.com/docs/eu-16/materials/eu-16-Lipp-ARMageddon-How-Your-Smartphone-CPU-Breaks-Software-Level-Security-And-Privacy.pdf
 	+ https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/lipp
+* Attack Directories, Not Caches: Side Channel Attacks in a Non-Inclusive World
+	+ Mengjia Yan, Read Sprabery, Bhargava Gopireddy, Christopher Fletcher, Roy Campbell, Josep Torrellas
+	+ IEEE Symposium on Security and Privacy (SP) 2019
+	+ http://iacoma.cs.uiuc.edu/iacoma-papers/ssp19.pdf
+	+ http://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_ssp19.pdf
+	+ http://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_HASP18.pptx
+		- "We design the first cross-core Prime+Probe attack on non-inclusive caches."
+		- "Using our Eviction Sets, we reverse engineer the directory structure in Skylake-X, and identify vulnerabilities in directory design that can be leveraged by cache-based side channel attacks."
+		- "Based on our EV construction results, we are able to reverse engineer part of the slice hash function in the Intel Skylake-X processor. Our goal here is to show that the slice hash function is not a simple XOR operation of selected physical address bits. This design is significantly different from the one in previous Intel processors such as SandyBridge and IvyBridge. Considering that all of the previous works on reverse-engineering slice hash functions, rely on the use of a simple XOR hash function, our results identify the need for more advanced reverse-engineering approaches."
 * C5: Cross-Cores Cache Covert Channel, 2015
 	+ Detection of Intrusions and Malware, and Vulnerability Assessment
 	+ http://www.s3.eurecom.fr/docs/dimva15_clementine.pdf
