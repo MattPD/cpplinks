@@ -669,7 +669,7 @@ See also: [Computer Architecture](comparch.md)
 * Translation Leak-aside Buffer: Defeating Cache Side-channel Protections with TLB Attacks
 	+ Gras, B.; Razavi, K.; Bos, H.; Giuffrida, C.
 	+ USENIX Security 2018
-	+ https://bibbase.org/network/publication/gras-razavi-bos-giuffrida-translationleakasidebufferdefeatingcachesidechannelprotectionswithtlbattacks-2018
+	+ https://www.vusec.net/projects/tlbleed/
 
 # TSX
 
