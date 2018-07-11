@@ -658,6 +658,11 @@ See also: [Computer Architecture](comparch.md)
 	+ https://www.sophia.re/ROOTS/
 	+ https://deepsec.net/docs/Slides/2017/Out-Of-Order_Execution_and_its_applications_Sophia_dAntoine.pdf
 	+ https://deepsec.net/docs/Slides/2017/Out-Of-Order_Execution_and_its_applications_Sophia_dAntoine.pptx
+* Speculative Buffer Overflows: Attacks and Defenses
+	+ CVE-2018-3693: Bounds Check Bypass Store (BCBS)
+	+ Vladimir Kiriansky, Carl Waldspurger
+	+ https://people.csail.mit.edu/vlk/spectre11.pdf
+	+ https://arxiv.org/abs/1807.03757
 
 # Thermal
 
