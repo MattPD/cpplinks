@@ -51,6 +51,8 @@ Note: see also [compilers](compilers.md)
 	+ N. Hasabnis, R. Qiao, R. Sekar 
 	+ http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15.pdf
 	+ http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15_talk.pdf
+* Compiler fuzzing, part 1
+	+ http://www.vegardno.net/2018/06/compiler-fuzzing.html
 * DATm: Diderot's Automated Testing Model.
 	+ 39th International Conference on Software Engineering ICSE (12th International Workshop on Automation of Software Test AST) 2017
 	+ C. Chiw, G. Kindlmann, J. Reppy
@@ -83,6 +85,11 @@ Note: see also [compilers](compilers.md)
 	+ https://www.flux.utah.edu/download?uid=114
 	+ https://blog.regehr.org/archives/492
 	+ http://lambda-the-ultimate.org/node/4241
+* Learning to Accelerate Compiler Testing
+	+ International Conference on Software Engineering (ICSE), Doctoral Symposium, 2018
+	+ [Junjie Chen](https://sites.google.com/site/junjiechen08/)
+	+ https://www.icse2018.org/event/icse-2018-doctoral-symposium-learning-to-accelerate-compiler-testing
+	+ Slides (2017): http://materials.dagstuhl.de/files/17/17502/17502.JunjieChen.Slides.pdf
 * Learning to Prioritize Test Programs for Compiler Testing
 	+ International Conference on Software Engineering (ICSE 2017)
 	+ Junjie Chen, Yanwei Bai, Dan Hao, Yingfei Xiong, Hongyu Zhang, Bing Xie
@@ -273,6 +280,11 @@ Validation: Including translation validation, equivalence checking.
 	+ Georg Neis, Chung-Kil Hur, Jan-Oliver Kaiser, Craig McLaughlin, Derek Dreyer, Viktor Vafeiadis
 	+ https://people.mpi-sws.org/~dreyer/papers/pilsner/paper.pdf
 	+ http://plv.mpi-sws.org/pils/
+* Pushing the Limits of Compiler Verification
+	+ 2018 PhD Thesis; Eric Mullen
+	+ https://homes.cs.washington.edu/~djg/theses/mullen_thesis.pdf
+	+ Œuf: Verified Coq Extraction in Coq - https://github.com/uwplse/oeuf
+	+ Peek: Verified Peephole Optimizations for CompCert - https://github.com/uwplse/peek
 * Self-compilation and self-verification - Ramana Kumar
 	+ http://www.sigplan.org/Awards/Dissertation/2017_kumar.pdf
 	+ https://cakeml.org/
