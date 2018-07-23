@@ -28,6 +28,7 @@ See also: [Computer Architecture](comparch.md)
 * [Power](#power)
 * [Prefetch](#prefetch)
 * [Pseudo-Random Number Generator (PRNG)](#pseudo-random-number-generator-prng)
+* [Return Stack Buffer (RSB)](#return-stack-buffer-rsb)
 * [SGX](#sgx)
 * [SMT](#smt)
 * [Speculation](#speculation)
@@ -579,6 +580,18 @@ See also: [Computer Architecture](comparch.md)
 * Covert Channels through Random Number Generator: Mechanisms, Capacity Estimation and Mitigations
 	+ http://www.cs.binghamton.edu/~dima/ccs16.pdf
 	+ CCS 2016: https://www.youtube.com/watch?v=G1xzG43mkZU
+
+# Return Stack Buffer (RSB)
+
+* Spectre Returns! Speculation Attacks using the Return Stack Buffer
+	+ USENIX Workshop on Offensive Technologies (WOOT) 2018
+	+ Esmaeil Mohammadian Koruyeh, Khaled N. Khasawneh, Chengyu Song, Nael Abu-Ghazaleh
+	+ https://arxiv.org/abs/1807.07940
+	+ https://www.usenix.org/conference/woot18/presentation/koruyeh
+* CPU side-channels vs. virtualization rootkits: the good, the bad, or the ugly
+	+ ToorCon Seattle 2008; Yuriy Bulygin
+	+ http://www.c7zero.info/stuff/hyper-channel_toorcon_seattle.ppt
+	+ Detecting virtualization using CPU Return Stack Buffer - https://youtube.com/watch?v=UN8iXdMZP2s
 
 # SGX
 
