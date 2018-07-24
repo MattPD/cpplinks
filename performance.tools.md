@@ -115,6 +115,13 @@ Systems Benchmarking Crimes - Gernot Heiser - https://www.cse.unsw.edu.au/~gerno
   - https://typegrind.github.io/
   - https://github.com/typegrind/typegrind
 
+# Timing
+
+* low-overhead-timers: Very low-overhead timer/counter interfaces for C on Intel 64 processors
+	+ https://github.com/jdmccalpin/low-overhead-timers
+	+ Comments on timing short code sections on Intel processors
+		- http://sites.utexas.edu/jdm4372/2018/07/23/comments-on-timing-short-code-sections-on-intel-processors/
+
 # Visualization
 
 * pprof - a tool for visualization and analysis of profiling data  
