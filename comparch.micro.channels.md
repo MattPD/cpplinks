@@ -374,6 +374,11 @@ See also: [Computer Architecture](comparch.md)
 * Quantifying Information Leakage in a Processor Caused by the Execution of Instructions
 	+ 2017, Proceedings of IEEE MILCOM
 	+ http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2017/10/MILCOM_Capacity.pdf
+* Screaming Channels: When Electromagnetic Side Channels Meet Radio Transceivers
+	+ ACM CCS 2018; Black Hat USA 2018
+	+ Giovanni Camurati, Sebastian Poeplau, Marius Muench, Tom Hayes, Aurélien Francillon
+	+ http://s3.eurecom.fr/tools/screaming_channels/
+	+ https://github.com/eurecom-s3/screaming_channels
 * Spectral Profiling: Observer-Effect-Free Profiling by Monitoring EM Emanations
 	+ 2016, IEEE MICRO 16
 	+ http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2016/08/MICRO16.pdf
