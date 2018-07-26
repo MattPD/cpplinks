@@ -676,6 +676,9 @@ See also: [Computer Architecture](comparch.md)
 	+ How Performance Optimizations Shatter Security Boundaries
 		- QCon London 2018; Moritz Lipp
 		- https://www.infoq.com/presentations/spectre-meltdown-security
+* NetSpectre: Read Arbitrary Memory over Network
+	+ 2018; Michael Schwarz, Martin Schwarzl, Moritz Lipp, Daniel Gruss
+	+ https://misc0110.net/web/files/netspectre.pdf
 * Out-of-Order Execution and Its Applications - Sophia D'Antoine, DeepSec 2017
 	+ https://www.sophia.re/ROOTS/
 	+ https://deepsec.net/docs/Slides/2017/Out-Of-Order_Execution_and_its_applications_Sophia_dAntoine.pdf
