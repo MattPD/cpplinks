@@ -24,6 +24,8 @@ Examples:
 Systems Benchmarking Crimes - Gernot Heiser - https://www.cse.unsw.edu.au/~gernot/benchmarking-crimes.html
 
 * Tools for microarchitectural benchmarking - https://dendibakh.github.io/blog/2018/04/03/Tools-for-microarchitectural-benchmarking
+* uarch-bench: A benchmark for low-level CPU micro-architectural features
+  - https://github.com/travisdowns/uarch-bench
 
 # Optimization
 
@@ -55,6 +57,11 @@ Systems Benchmarking Crimes - Gernot Heiser - https://www.cse.unsw.edu.au/~gerno
 * gprof2dot  
   "Python script to convert the output from many profilers into a dot graph."
   - https://github.com/jrfonseca/gprof2dot
+
+* Hotspot - the Linux perf GUI for performance analysis
+	+ https://www.kdab.com/hotspot-gui-linux-perf-profiler/
+	+ https://github.com/KDAB/hotspot
+	+ https://www.kdab.com/hotspot-video/
 
 * Intel Architecture Code Analyzer (IACA) - https://software.intel.com/en-us/articles/intel-architecture-code-analyzer
 
