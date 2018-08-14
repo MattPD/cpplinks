@@ -71,6 +71,9 @@
 	+ Haskell-C++ Foreign Function Interface Generator
 	+ http://ianwookim.org/fficxx/
 	+ https://github.com/wavewave/fficxx
+* inline-c-cpp: Lets you embed C++ code into Haskell
+	+ http://hackage.haskell.org/package/inline-c-cpp
+	+ https://github.com/fpco/inline-c
 
 # Java
 
