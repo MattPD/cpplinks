@@ -133,6 +133,22 @@ _Books, Books Reviews_
 * (Windows) Data Breakpoints - https://blogs.msdn.microsoft.com/reiley/2011/07/21/data-breakpoints/
 * (Windows) Side Effects of Debugger - https://blogs.msdn.microsoft.com/reiley/2011/08/27/side-effects-of-debugger/
 
+### Testing
+
+* DExTer (Debugging Experience Tester)
+	+ https://github.com/SNSystems/dexter
+	+ Measuring the User Debugging Experience 
+		- 2018 European LLVM Developers Meeting; Greg Bedwell
+		- https://llvm.org/devmtg/2018-04/slides/Bedwell-Measuring_the_User_Debugging_Experience.pdf
+		- http://llvm.org/devmtg/2018-04/slides/Bedwell-Measuring_the_User_Debugging_Experience_poster.png
+* Feedback-Directed Differential Testing of Interactive Debuggers
+	+ ESEC/FSE 2018
+	+ Daniel Lehmann, Michael Pradel
+	+ http://software-lab.org/publications/fse2018.pdf
+	+ https://github.com/sola-da/DifferentialDebuggerTesting
+* Samy Al Bahra, Backtrace
+	+ Compiler debug quality suite - https://github.com/backtrace-labs/cdqs
+
 ## Software Engineering
 
 * Are Automated Debugging Techniques Actually Helping Programmers?
