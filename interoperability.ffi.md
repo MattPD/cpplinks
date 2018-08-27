@@ -98,6 +98,9 @@
 
 # JavaScript
 
+* Embind: Emscripten's tool to generate JavaScript bindings for C++ code
+	+ https://developers.google.com/web/updates/2018/08/embind
+	+ https://kripken.github.io/emscripten-site/docs/porting/connecting_cpp_and_javascript/embind.html
 * Emmagic
 	+ Easily transport your data structures between C++ and Javascript
 	+ https://github.com/manaflair/emmagic
