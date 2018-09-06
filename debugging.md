@@ -377,6 +377,10 @@ _Books, Books Reviews_
 	+ Walkthroughs: https://github.com/Kan1shka9/Securitytube-Gnu-Debugger-Expert
 	+ Course Videos: http://www.securitytube.net/tags/sgde
 	+ https://www.youtube.com/playlist?list=PLiP0FxVgYuUz0kdK7L7YaI5n4qkOuymue
+* Understanding, Scripting, and Extending GDB (2017)
+	+ https://mcgdb.0x972.info/team/
+	+ https://github.com/kpouget/tuto-gdb.py
+	+ Slides: https://mcgdb.0x972.info/files/tuto-gdb-py.presentation.pdf
 * Your Application versus GDB - FOSDEM 2014 - Tom Tromey
 	+ https://archive.fosdem.org/2014/schedule/event/your_application_versus_gdb/
 	+ https://www.youtube.com/watch?v=RwDA3oIOtWw
