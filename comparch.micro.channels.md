@@ -124,6 +124,11 @@ See also: [Computer Architecture](comparch.md)
 	+ https://arxiv.org/abs/1709.01795
 * Capability Hardware Enhanced RISC Insns (CHERI): Notes on the Meltdown and Spectre Attacks
 	+ http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-916.pdf
+* CheckMate: Automated Exploit Program Generation for Hardware Security Verification
+	+ International Symposium on Microarchitecture (MICRO) 2018
+	+ Caroline Trippel, Daniel Lustig, and Margaret Martonosi
+	+ http://www.cs.princeton.edu/~ctrippel/ctrippel_MICRO51.pdf
+	+ https://github.com/ctrippel/checkmate
 * ctgrind
 	+ https://www.imperialviolet.org/2010/04/01/ctgrind.html
 	+ https://github.com/agl/ctgrind/
@@ -315,6 +320,7 @@ See also: [Computer Architecture](comparch.md)
 	+ D. Gruss, M. Lipp, M. Schwarz, D. Genkin, J. Juffinger, S. O'Connell, W. Schoechl, Y. Yarom
 	+ https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a489-abs.html
 	+ https://arxiv.org/abs/1710.00551
+	+ BlackHat USA 2018 - https://gruss.cc/files/us-18-Gruss-Another-Flip-In-The-Row.pdf
 	+ Tools for "Another Flip in the Wall" - https://github.com/IAIK/flipfloyd
 * Connecting the Dots: Privacy Leakage via Write-Access Patterns to the Main Memory
 	+ Hardware Oriented Security and Trust (HOST) 2017
@@ -371,6 +377,10 @@ See also: [Computer Architecture](comparch.md)
 * EDDIE: EM-Based Detection of Deviations in Program Execution
 	+ 2017, Proceedings of the 44th International Symposium on Computer Architecture (ISCA)
 	+ http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2017/06/ISCA17.pdf
+* One & Done: A Single-Decryption EM-Based Attack on OpenSSL’s Constant-Time Blinded RSA
+	+ USENIX Security 2018
+	+ Monjur Alam, Haider Adnan Khan, Moumita Dey, Nishith Sinha, Robert Callan, Alenka Zajic, Milos Prvulovic
+	+ https://www.usenix.org/conference/usenixsecurity18/presentation/alam
 * Quantifying Information Leakage in a Processor Caused by the Execution of Instructions
 	+ 2017, Proceedings of IEEE MILCOM
 	+ http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2017/10/MILCOM_Capacity.pdf
@@ -477,11 +487,26 @@ See also: [Computer Architecture](comparch.md)
 	+ Black Hat Europe 2016
 	+ Justin Taft
 	+ https://www.blackhat.com/docs/eu-16/materials/eu-16-Taft-GPU-Security-Exposed.pdf
+* Grand Pwning Unit: Accelerating Microarchitectural Attacks with the GPU
+	+ S&P 2018
+	+ P. Frigo, C. Giuffrida, H. Bos, K. Razavi
+	+ https://www.vusec.net/projects/glitch/
+	+ https://www.vusec.net/wp-content/uploads/2018/05/glitch.pdf
+* Practical Microarchitectural Attacks from Integrated GPU
+	+ 2017 Master’s Thesis; 2017 Pietro Frigo
+	+ https://repository.tudelft.nl/islandora/object/uuid:c0d3c629-4c67-4741-9776-05802d89872f
 * RCoal: Mitigating GPU Timing Attack via Subwarp-based Randomized Coalescing Technique
 	+ Proceedings of the 24th International Symposium on High-Performance Computer Architecture (HPCA), 2018
 	+ Gurunath Kadam, [Danfeng Zhang](http://www.cse.psu.edu/~dbz5017/publication.html), [Adwait Jog](http://adwaitjog.github.io/pubs.html)
 	+ http://adwaitjog.github.io/docs/pdf/rcoal-hpca18.pdf
 	+ http://www.cse.psu.edu/~dbz5017/pub/hpca18.pdf
+* Rendered Insecure: GPU Side Channel Attacks are Practical
+	+ Computer and Communications Security (CCS) 2018
+	+ Hoda Naghibijouybari, Ajaya Neupane, Zhiyun Qian, and Nael Abu-Ghazaleh
+	+ https://doi.org/10.1145/3243734.3243831
+	+ http://www.cs.ucr.edu/~zhiyunq/pub/ccs18_gpu_side_channel.pdf
+	+ http://www.cs.ucr.edu/~nael/pubs/ccs18.pdf
+
 
 # Interrupts
 
@@ -490,6 +515,11 @@ See also: [Computer Architecture](comparch.md)
 	+ Richard Gay, Heiko Mantel, Henning Sudbrock
 	+ https://www.semanticscholar.org/paper/An-Empirical-Bandwidth-Analysis-of-Interrupt-Relat-Gay-Mantel/d81d95e8969edd37a3f47335b98a9b6ce9e3942f
 	+ http://www.mais.informatik.tu-darmstadt.de/WebBibPHP/papers/2013/2013-GayMantelSudbrock-EmpiricalIRCC.pdf
+* Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic
+	+ Computer & Communications Security (CCS) 2018
+	+ Jo Van Bulck, Frank Piessens, Raoul Strackx
+	+ https://people.cs.kuleuven.be/~jo.vanbulck/ccs18.pdf
+	+ https://github.com/jovanbulck/nemesis
 
 # Keyboard
 
@@ -550,9 +580,11 @@ See also: [Computer Architecture](comparch.md)
 		- https://media.ccc.de/v/34c3-9135-aslr_on_the_line
 		- https://github.com/brainsmoke/pub-archive/raw/master/slides/aotl-34c3-slides.pdf
 * Malicious Management Unit: Why Stopping Cache Attacks in Software is Harder Than You Think
-	+ van Schaik, S.; Giuffrida, C.; Bos, H.; Razavi, K.
 	+ USENIX Security 2018
-	+ https://bibbase.org/network/publication/vanschaik-giuffrida-bos-razavi-maliciousmanagementunitwhystoppingcacheattacksinsoftwareisharderthanyouthink-2018
+	+ Stephan van Schaik, Cristiano Giuffrida, Herbert Bos, Kaveh Razavi
+	+ https://github.com/vusec/xlate
+	+ https://www.vusec.net/projects/xlate/
+	+ https://www.usenix.org/conference/usenixsecurity18/presentation/van-schaik
 * Reverse Engineering Hardware Page Table Caches Using Side-Channel Attacks on the MMU
 	+ S. van Schaik, K. Razavi, B. Gras, H. Bos, C. Giuffrida, VU Amsterdam, 2017.
 	+ https://www.vusec.net/download/?t=papers/revanc_ir-cs-77.pdf
@@ -576,6 +608,10 @@ See also: [Computer Architecture](comparch.md)
 	+ Daniel Gruss, Anders Fogh, Clémentine Maurice, Moritz Lipp, Stefan Mangard 
 	+ https://gruss.cc/files/prefetch.pdf
 	+ https://www.youtube.com/watch?v=TJTQbs3oJx8
+* Unveiling Hardware-based Data Prefetcher, a Hidden Source of Information Leakage
+	+ Computer and Communications Security (CCS) 2018
+	+ Youngjoo Shin, Hyung Chan Kim, Dokeun Kwon, Ji Hoon Jeong, Junbeom Hur
+	+ http://isslab.korea.ac.kr/notice/read/1/77
 * Using Undocumented CPU Behavior to See Into Kernel Mode and Break KASLR in the Process
 	+ https://www.youtube.com/watch?v=Pwq0vv4X7m4
 	+ https://www.blackhat.com/docs/us-16/materials/us-16-Fogh-Using-Undocumented-CPU-Behaviour-To-See-Into-Kernel-Mode-And-Break-KASLR-In-The-Process.pdf
@@ -619,6 +655,11 @@ See also: [Computer Architecture](comparch.md)
 	+ http://web.cse.ohio-state.edu/~zhang.834/papers/ccs17b.pdf
 	+ https://acmccs.github.io/papers/p2421-wangA.pdf
 * Malware Guard Extension: Using SGX to Conceal Cache Attacks - https://arxiv.org/abs/1702.08719
+* Off-Limits: Abusing Legacy x86 Memory Segmentation to Spy on Enclaved Execution
+	+ Engineering Secure Software and Systems (ESSoS) 2018
+	+ Gyselinck J., Van Bulck J., Piessens F., Strackx R.
+	+ https://people.cs.kuleuven.be/~jo.vanbulck/essos18.pdf
+	+ https://distrinet.cs.kuleuven.be/software/off-limits/
 * Racing in Hyperspace: Closing Hyper-Threading Side Channels on SGX with Contrived Data Races 
 	+ IEEE S&P (Oakland) 2018
 	+ Guoxing Chen, Wenhao Wang, Tianyu Chen, Sanchuan Chen, Yinqian Zhang, XiaoFeng Wang, Ten-Hwang Lai, Dongdai Lin
@@ -643,19 +684,36 @@ See also: [Computer Architecture](comparch.md)
 
 # Speculation
 
+* Code That Never Ran: Modeling Attacks on Speculative Evaluation
+	+ 2018 preprint; Disselkoen, C., Jagadeesan, R., Jeffrey, A., Riely, J.
+	+ https://cseweb.ucsd.edu/~cdisselk/papers/code-that-never-ran.pdf
+	+ https://github.com/chicago-relaxed-memory/spec-eval
 * Covert and Side Channels due to Processor Architecture
 	+ Annual Computer Security Applications Conference ACSAC 2006
 	+ Zhenghong Wang, Ruby B. Lee
 	+ http://ieeexplore.ieee.org/document/4041191/
 	+ http://www.acsac.org/2006/papers/127.pdf
-* Meltdown & Spectre (2018)
+* Foreshadow & L1 Terminal Fault (L1TF)
+	+ Foreshadow: Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution
+		- USENIX Security 2018
+		- Jo Van Bulck, Frank Piessens, Raoul Strackx; Marina Minkin, Mark Silberstein, Ofir Weisse, Daniel Genkin, Baris Kasikci, Thomas F. Wenisch, Yuval Yarom
+		- https://www.usenix.org/conference/usenixsecurity18/presentation/bulck
+		- https://foreshadowattack.eu/
+	+ A deeper look at L1 Terminal Fault aka Foreshadow - https://www.redhat.com/en/blog/deeper-look-l1-terminal-fault-aka-foreshadow
+	+ Analysis and mitigation of L1 Terminal Fault (L1TF) - https://blogs.technet.microsoft.com/srd/2018/08/14/analysis-and-mitigation-of-l1-terminal-fault-l1tf/
+	+ L1 Terminal Fault Vulnerability - https://www.cyberus-technology.de/posts/2018-08-14-l1-terminal-fault.html
+	+ Hyper-V HyperClear Mitigation for L1 Terminal Fault - https://blogs.technet.microsoft.com/virtualization/2018/08/14/hyper-v-hyperclear/
+* Meltdown & Spectre
 	+ Meltdown - https://meltdownattack.com/
+		- USENIX Security 2018
 		- Moritz Lipp, Michael Schwarz, Daniel Gruss, Thomas Prescher, Werner Haas, Stefan Mangard, Paul Kocher, Daniel Genkin, Yuval Yarom, Mike Hamburg
 		- https://meltdownattack.com/meltdown.pdf
 		- https://arxiv.org/abs/1801.01207
 		- Meltdown Proof-of-Concept - https://github.com/IAIK/meltdown
 		- http://blog.cyberus-technology.de/posts/2018-01-03-meltdown.html
+		- Black Hat USA 2018 - https://mlq.me/download/bhusa2018_meltdown_slides.pdf 
 	+ Spectre Attacks: Exploiting Speculative Execution - https://spectreattack.com/
+		- S&P 2019
 		- Paul Kocher, Daniel Genkin, Daniel Gruss, Werner Haas, Mike Hamburg, Moritz Lipp, Stefan Mangard, Thomas Prescher, Michael Schwarz, Yuval Yarom
 		- https://spectreattack.com/spectre.pdf
 		- https://arxiv.org/abs/1801.01203
@@ -734,6 +792,10 @@ See also: [Computer Architecture](comparch.md)
 	+ SiFive Tech Talk: Paul Kocher
 	+ January 31, 2018
 	+ https://www.youtube.com/watch?v=hqIavX_SCWc
+* Wrangling with the Ghost: An Inside Story of Mitigating Speculative Execution Side Channel Vulnerabilities
+	+ Black Hat USA 2018
+	+ Matt Miller, Anders Fogh, Christopher Ertl
+	+ https://github.com/Microsoft/MSRC-Security-Research/blob/master/presentations/2018_08_BlackHatUSA/us-18-Fogh-Ertl-Wrangling-with-the-Ghost-An-Inside-Story-of-Mitigating-Speculative-Execution-Side-Channel-Vulnerabilities.pdf
 
 ## 2017
 
