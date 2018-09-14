@@ -10,7 +10,7 @@ See also:
 
 * [General](#general)
 * [Standard Libraries](#standard-libraries)
-* [Readings](#readings): [Books](#books), [Implementation](#implementation), [Software Engineering](#software-engineering), [Transparency](#transparency)
+* [Readings](#readings): [Books](#books), [Implementation](#implementation), [Reverse Debugging](#reverse-debugging), [Software Engineering](#software-engineering), [Transparency](#transparency)
 * [Software](#software):
 	+ [GDB](#gdb): [Projects](#projects), [Readings](#readings-1), [Talks](#talks)
 	+ [LLDB](#lldb): [Projects](#projects-1), [Readings](#readings-2), [Talks](#talks-1)
@@ -85,9 +85,23 @@ _Books, Books Reviews_
 	+ Virtual Execution Environments (VEE) 2005
 	+ Toshihiko Koju, Shingo Takada, Norihisa Doi
 	+ https://www.usenix.org/events/vee05/full_papers/p79-koju.pdf
+* Debuggers for Programming Languages
+	+ 2002 Book Chapter in "The Compiler Design Handbook: Optimizations and Machine Code Generation"
+	+ Sanjeev Kumar Aggarwal, M. Sarath Kumar
+	+ https://www.taylorfrancis.com/books/9781420040579/chapters/10.1201%2F9781420040579-12
 * Debugging with the natives - Stephen Kell
 	+ part 1 - http://www.cl.cam.ac.uk/~srk31/blog/2016/02/25/#native-debugging-part-1
 	+ part 2 - http://www.cl.cam.ac.uk/~srk31/blog/2017/01/30/#native-debugging-part-2
+* Debugging Native Extensions of Dynamic Languages
+	+ International Conference on Managed Languages & Runtimes (ManLang) 2018
+	+ Jacob Kreindl, Manuel Rigger, Hanspeter Mössenböck
+	+ https://doi.org/10.1145/3237009.3237017
+	+ http://ssw.jku.at/General/Staff/Kreindl/papers/ManLang_2018_SulongDebugging.pdf
+* Debugging with Intelligence via Probabilistic Inference
+	+ Zhaogui Xu, Shiqing Ma, Xiangyu Zhang, Shuofei Zhu, Baowen Xu
+	+ International Conference on Software Engineering (ICSE) 2018
+	+ https://www.cs.purdue.edu/homes/ma229/papers/ICSE18.pdf
+	+ https://blog.acolyer.org/2018/06/19/debugging-with-intelligence-via-probabilistic-inference/
 * Fast, Flexible, Polyglot Instrumentation Support for Debuggers and other Tools
 	+ The Art, Science, and Engineering of Programming, 2018, Vol. 2, Issue 3, Article 14
 	+ Van De Vanter, Michael; Seaton, Chris; Haupt, Michael; Humer, Christian; Würthinger, Thomas
@@ -103,10 +117,17 @@ _Books, Books Reviews_
 * Framework for Instruction-level Tracing and Analysis of Program Executions
 	+ Virtual Execution Environments (VEE) 2006
 	+ https://www.usenix.org/legacy/events/vee06/full_papers/p154-bhansali.pdf
+* GCC gOlogy: studying the impact of optimizations on debugging
+	+ http://www.fsfla.org/~lxoliva/writeups/gOlogy/gOlogy.txt
+	+ GNU Tools Cauldron 2018 slides: http://people.redhat.com/aoliva/writeups/gOlogy/slides.pdf
 * How breakpoints are set - http://majantali.net/2016/10/how-breakpoints-are-set/
 * How do debuggers keep track of the threads in your program?
 	+ http://timetobleed.com/how-do-debuggers-keep-track-of-the-threads-in-your-program/
 * How to code debuggers - Tomasz Wegrzanowski - https://t-a-w.blogspot.com/2007/03/how-to-code-debuggers.html
+* Making a low level (Linux) debugger
+	+ part 1: assembly - https://blog.asrpo.com/making_a_low_level_debugger
+	+ part 2: C - https://blog.asrpo.com/making_a_low_level_debugger_part_2
+	+ part 3: our first program - https://blog.asrpo.com/making_a_low_level_debugger_part_3
 * Samy Al Bahra, Backtrace
 	+ Compiler debug quality suite - https://github.com/backtrace-labs/cdqs
 	+ Compile Once Debug Twice: Picking a Compiler for Debuggability
@@ -148,6 +169,37 @@ _Books, Books Reviews_
 	+ https://github.com/sola-da/DifferentialDebuggerTesting
 * Samy Al Bahra, Backtrace
 	+ Compiler debug quality suite - https://github.com/backtrace-labs/cdqs
+
+## Reverse Debugging
+
+See also: [RR](#rr)
+
+* A Review of Reverse Debugging
+	+ System, Software, SoC and Silicon Debug Conference (S4D) 2012
+	+ Jakob Engblom
+	+ https://ieeexplore.ieee.org/document/6338149/
+	+ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.338.3420&rep=rep1&type=pdf
+* Don’t Panic: Reverse Debugging of Kernel Drivers
+	+ Foundations of Software Engineering (ESEC/FSE) 2015
+	+ Pavel Dovgalyuk, Denis Dmitriev, Vladimir Makarov
+	+ https://dl.acm.org/citation.cfm?doid=2786805.2803179
+	+ Review (Jakob Engblom): Reverse Debug with Hardware in the Loop - http://jakob.engbloms.se/archives/2432
+* Efficient Algorithms for Bidirectional Debugging
+	+ Programming Language Design and Implementation (PLDI) 2000
+	+ B. Boothe
+	+ https://dl.acm.org/citation.cfm?id=349339
+* Improving the performance of reverse debugging
+	+ Programming and Computer Software 43(1) 2017
+	+ Klimushenkova, M.A. & Dovgalyuk, P.M.
+	+ https://link.springer.com/article/10.1134/S0361768817010042
+* Reverse History
+	+ Part One – Background - http://jakob.engbloms.se/archives/1547
+	+ Part Two – Research - http://jakob.engbloms.se/archives/1554
+	+ Part Three – Products - http://jakob.engbloms.se/archives/1564
+* Transition Watchpoints: Teaching Old Debuggers New Tricks
+	+ The Art, Science, and Engineering of Programming, 2017, Vol. 1, Issue 2, Article 16
+	+ Kapil Arya, Tyler Denniston, Ariel Rabkin, Gene Cooperman
+	+ http://programming-journal.org/2017/1/16/
 
 ## Software Engineering
 
@@ -285,6 +337,8 @@ _Books, Books Reviews_
 * gdbgui: A browser-based frontend for GDB
 	+ https://gdbgui.com/
 	+ https://github.com/cs01/gdbgui
+* GdbShellPipe: Enable piping of internal command output to external commands
+	+ https://github.com/hq6/GdbShellPipe
 * GEF (GDB Enhanced Features)
 	+ https://github.com/hugsy/gef
 	+ https://github.com/hugsy/gef-scripts
@@ -311,7 +365,12 @@ _Books, Books Reviews_
 
 #### Editor Integration
 
-* neogdb.vim: Vim GDB front-end for neovim - https://github.com/huawenyu/neogdb.vim
+* GDB-MI: a package by Nick Roberts which makes Emacs use GDB/MI interface to talk with the GNU Debugger
+	+ https://www.emacswiki.org/emacs/GDB-MI
+* neogdb.vim: Vim GDB front-end for neovim
+	+ https://github.com/huawenyu/neogdb.vim
+* RealGUD: An extensible, modular GNU Emacs front-end for interacting with external debuggers
+	+ https://github.com/realgud/realgud
 
 #### Memory Debugging
 
@@ -351,6 +410,10 @@ _Books, Books Reviews_
 * Hitchikers Guide To The GDB - http://apoorvaj.io/hitchhikers-guide-to-the-gdb.html
 * How to point GDB to your sources - https://alex.dzyoba.com/blog/gdb-source-path/
 * Introduction to Debuggers - Saumil Shah - http://www.slideshare.net/saumilshah/introduction-to-debuggers
+* Jeff Trull
+	+ Displaying Stack Frames in gdb with Python - http://jefftrull.github.io/c++/gdb/python/2018/03/02/print-frame.html
+	+ Improving C++ backtraces with the gdb Python API - http://jefftrull.github.io/c++/gdb/python/2018/04/24/improved-backtrace.html
+	+ Skipping library code in gdb with help from libClang - http://jefftrull.github.io/c++/gdb/python/libclang/llvm/2018/04/30/stepping-with-libclang.html
 * Julia Evans
 	+ Three steps to learning GDB - https://jvns.ca/blog/2014/02/10/three-steps-to-learning-gdb/
 	+ How does gdb work? - https://jvns.ca/blog/2016/08/10/how-does-gdb-work/
@@ -373,6 +436,7 @@ _Books, Books Reviews_
 	+ Video: https://slideslive.com/38902352/gdb-c-conversion-dogfooding-c
 * GDB - A Lot More Than You Knew - CppCon 2016 - Greg Law  - https://www.youtube.com/watch?v=-n9Fkq1e6sg
 * Give me 15 minutes & I'll change your view of GDB - CppCon 2015 - Greg Law - https://www.youtube.com/watch?v=PorfLSr3DDI
+* Improving Debuggability with GDB's Python API - C++Now 2018 - Jeff Trull - https://www.youtube.com/watch?v=mLPp1x_1h3g
 * SecurityTube GDB Expert (SGDE)
 	+ Walkthroughs: https://github.com/Kan1shka9/Securitytube-Gnu-Debugger-Expert
 	+ Course Videos: http://www.securitytube.net/tags/sgde
@@ -456,6 +520,8 @@ _Books, Books Reviews_
 	+ https://arxiv.org/abs/1705.05937
 	+ https://www.usenix.org/conference/atc17/technical-sessions/presentation/ocallahan
 * Improved debugging with rr - https://techtalk.intersec.com/2018/03/improved-debugging-with-rr/
+* Timeless Debugging of Complex Software: Root Cause Analysis of a Non-Deterministic JavaScriptCore Bug
+	+ http://blog.ret2.io/2018/06/19/pwn2own-2018-root-cause-analysis/
 
 ## OS-specific
 
@@ -543,6 +609,8 @@ _Books, Books Reviews_
 
 ## Stack Trace & Unwinding
 
+* BacktraceResolver: Very fast backtraces resolver
+	+ https://github.com/markpapadakis/BacktraceResolver
 * Backward-cpp: a beautiful stack trace pretty printer for C++
 	+ https://github.com/bombela/backward-cpp
 * Boost.Stacktrace
@@ -570,6 +638,14 @@ _Books, Books Reviews_
 
 ## 2018
 
+* GNU Tools Cauldron 2018
+	+ gOlogy: impact of -O* on -g
+		- Alexandre Oliva
+		- http://people.redhat.com/aoliva/writeups/gOlogy/slides.pdf
+		- http://www.fsfla.org/~lxoliva/writeups/gOlogy/gOlogy.txt
+	+ A collection of debug info improvements for the GNU Compiler Collection
+		- Alexandre Oliva, Mark J. Wielaard
+		- https://gnu.wildebeest.org/~mark/cauldron-2018/DebuginfoImprovements.pdf
 * Let's Write a Debugger!
 	+ [linux.conf.au 2018](https://rego.linux.conf.au/schedule/presentation/91/) - [Levente Kurusa](https://www.doc.ic.ac.uk/~lk1015/publications.html)
 	+ https://www.doc.ic.ac.uk/~lk1015/research/lca2018/talk_lca2018.pdf
