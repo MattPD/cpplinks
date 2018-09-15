@@ -331,6 +331,8 @@ See also: [RR](#rr)
 * GDB dashboard
 	+ https://github.com/cyrus-and/gdb-dashboard
 	+ https://metricpanda.com/tips-for-productive-debugging-with-gdb
+* GDB helper scripts
+	+ https://github.com/tromey/gdb-helpers
 * gdb-tools: Various tools to improve the gdb experience
 	+ https://github.com/vuvova/gdb-tools
 	+ gdb tools: duel and @PrettyPrinter - https://fosdem.org/2018/schedule/event/debugging_tools_gdb_tools/
