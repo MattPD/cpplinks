@@ -428,15 +428,31 @@ See also: [RR](#rr)
 
 * A flexible GDB (GNU Debugger) target description for processor diversity – SFO17-210
 	+ http://connect.linaro.org/resource/sfo17/sfo17-210/
-* Become a GDB Power User - ACCU 2016 - Greg Law - https://www.youtube.com/watch?v=713ay4bZUrw
+* Become a GDB Power User - ACCU 2016 - Greg Law
+	+ https://www.youtube.com/watch?v=713ay4bZUrw
 	+ including Q&A: https://www.youtube.com/watch?v=6ag7yvhDAiE
 * GDB: C++ conversion & dogfooding C++
-	+ Pedro Alves, GNU Tools Cauldron 2017
+	+ GNU Tools Cauldron 2017; Pedro Alves
 	+ Slides: https://gcc.gnu.org/wiki/cauldron2017?action=AttachFile&do=view&target=gdb+-+C%2B%2B+conversion+%26+dogfood.pdf
 	+ Video: https://slideslive.com/38902352/gdb-c-conversion-dogfooding-c
-* GDB - A Lot More Than You Knew - CppCon 2016 - Greg Law  - https://www.youtube.com/watch?v=-n9Fkq1e6sg
-* Give me 15 minutes & I'll change your view of GDB - CppCon 2015 - Greg Law - https://www.youtube.com/watch?v=PorfLSr3DDI
-* Improving Debuggability with GDB's Python API - C++Now 2018 - Jeff Trull - https://www.youtube.com/watch?v=mLPp1x_1h3g
+* GDB - A Lot More Than You Knew - CppCon 2016 - Greg Law
+	+ https://www.youtube.com/watch?v=-n9Fkq1e6sg
+* Give me 15 minutes & I'll change your view of GDB - CppCon 2015 - Greg Law
+	+ https://www.youtube.com/watch?v=PorfLSr3DDI
+* How custom GDB commands help in C++ development
+	+ Munich C++ User Group 2018 (Lightning Talk); Michael Krasnyk
+	+ https://www.youtube.com/watch?v=QtTYXE1wSVs
+* Improving Debuggability with GDB's Python API - C++Now 2018 - Jeff Trull
+	+ https://www.youtube.com/watch?v=mLPp1x_1h3g
+* Liberating the Debugging Experience with the GDB Python API
+	+ ACCU Bay Area Meetup 2018; Jeff Trull
+	+ https://github.com/accuBayArea/Slides/blob/master/slides/2018-08-08-jeff.pdf
+	+ gdb_python_api: Experiments with the GDB Python API
+		 https://github.com/jefftrull/gdb_python_api
+* Programmatic Debugging with GDB and Python
+	+ PyCon APAC/Taiwan 2015; Scott Tsai
+	+ https://www.youtube.com/watch?v=oAYbt2PsKng
+	+ https://docs.google.com/presentation/d/15qOKBh9FDjCeGS-xAHXZSJDS5_aoZk0Caz12FL_f294/
 * SecurityTube GDB Expert (SGDE)
 	+ Walkthroughs: https://github.com/Kan1shka9/Securitytube-Gnu-Debugger-Expert
 	+ Course Videos: http://www.securitytube.net/tags/sgde
