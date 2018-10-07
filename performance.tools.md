@@ -62,6 +62,14 @@
 	+ https://github.com/KDE/heaptrack
 	+ http://milianw.de/blog/heaptrack-a-heap-memory-profiler-for-linux
 	+ https://www.kdab.com/heaptrack-v1-0-0-release/
+* MALT: a MALloc Tracker to find where and how your made your memory allocations in C/C++/Fortran applications
+	+ https://memtt.github.io/malt/
+	+ https://github.com/memtt/malt
+	+ MALT: A Malloc Tracker
+		- International Workshop on Software Engineering for Parallel Systems (SEPS) 2017
+		- Sébastien Valat, Andres S. Charif-Rubial, William Jalby
+		- paper: https://memtt.github.io/malt/downloads/2017-seps-malt.pdf
+		- slides: https://svalat.github.io/docs/2017-10-MALT-SEPS17.pdf
 * Memoro: A Detailed Heap Profiler
 	+ https://epfl-vlsc.github.io/memoro/
 	+ https://github.com/epfl-vlsc/memoro
@@ -191,9 +199,10 @@
 * sysdig
 	+ https://github.com/draios/sysdig
 	+ https://sysdig.com/blog/50-shades-of-system-calls/
-* Tracy Profiler - https://bitbucket.org/wolfpld/tracy/src/master/
+* Tracy Profiler
 	+ Tracy is a real time, nanosecond resolution frame profiler that can be used for remote or embedded telemetry of your application. It can profile CPU (C++, Lua), GPU (OpenGL, Vulkan) and memory. It also can display locks held by threads and their interactions with each other.
-	+ Introduction to the tracy profiler - https://www.youtube.com/watch?v=fB5B46lbapc
+	+ https://bitbucket.org/wolfpld/tracy
+	+ Introduction to the Tracy profiler - https://www.youtube.com/watch?v=fB5B46lbapc
 
 # Timing
 
