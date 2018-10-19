@@ -310,22 +310,28 @@ A benchmark to compare synchronization techniques for multicore programming
 
 # Talks, Videos
 
+## 2018
+
+* CppCon 2018: Bryce Adelstein Lelbach “The C++ Execution Model”
+	+ https://www.youtube.com/watch?v=FJIn1YhPJJc
+
 ## 2017
 
-* CppCon 2017: Fedor Pikus “C++ atomics, from basic to advanced. What do they really do?” - https://youtu.be/ZQFzMfHIxng
+* CppCon 2017: Fedor Pikus “C++ atomics, from basic to advanced. What do they really do?”
+	+ https://youtu.be/ZQFzMfHIxng
 * CppCon 2017: Tony Van Eerd “An Interesting Lock-free Queue - Part 2 of N”
 	+ https://github.com/CppCon/CppCon2017/tree/master/Presentations/A%20Not%20So%20Complicated%20Lockfree%20Queue
 	+ https://www.youtube.com/watch?v=HP2InVqgBFM
-* HiPEAC 2017: Sarita Adve - Coherence, Consistency, & Déjà vu: Memory Hierarchies in the Era of Specialization  
-	+ Slides: http://rsim.cs.illinois.edu/Talks/17-hipeac.pdf  
+* HiPEAC 2017: Sarita Adve - Coherence, Consistency, & Déjà vu: Memory Hierarchies in the Era of Specialization
+	+ Slides: http://rsim.cs.illinois.edu/Talks/17-hipeac.pdf
 	+ Video: https://www.youtube.com/watch?v=kjFjL_vTUWU
 
 ## 2016
 
-CppCon 2016: Fedor Pikus - The speed of concurrency (is lock-free faster?)  
-Slides: https://github.com/CppCon/CppCon2016/tree/master/Presentations/The%20speed%20of%20concurrency%20%28is%20lock-free%20faster%29  
-Video: https://channel9.msdn.com/Events/CPP/CppCon-2016/CppCon-2016-Fedor-Pikus-The-speed-of-concurrency-is-lock-free-faster  
-Video: https://www.youtube.com/watch?v=9hJkWwHDDxs
+* CppCon 2016: Fedor Pikus - The speed of concurrency (is lock-free faster?)
+	+ Slides: https://github.com/CppCon/CppCon2016/tree/master/Presentations/The%20speed%20of%20concurrency%20%28is%20lock-free%20faster%29
+	+ Video: https://channel9.msdn.com/Events/CPP/CppCon-2016/CppCon-2016-Fedor-Pikus-The-speed-of-concurrency-is-lock-free-faster
+	+ Video: https://www.youtube.com/watch?v=9hJkWwHDDxs
 
 ## 2015
 
