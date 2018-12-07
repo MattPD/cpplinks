@@ -113,6 +113,9 @@
 * llvm-mca - LLVM Machine Code Analyzer
 	+ https://llvm.org/docs/CommandGuide/llvm-mca.html
 	+ https://github.com/llvm-mirror/llvm/tree/master/tools/llvm-mca
+	+ Understanding the performance of code using LLVM's Machine Code Analyzer (llvm-mca)
+		- 2018 LLVM Developers’ Meeting; Andrea Di Biagio & Matt Davis
+		- https://www.youtube.com/watch?v=Ku2D8bjEGXk
 * OSACA: Open Source Architecture Code Analyzer
 	+ https://github.com/RRZE-HPC/osaca
 	+ https://hpc.fau.de/research/tools/
