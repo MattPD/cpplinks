@@ -14,17 +14,20 @@ Note: see also [Communities](communities.md) -- where you can learn together.
 * Herb Sutter's Guru of the Week (GotW) series: https://herbsutter.com/gotw/
 * Learning C++ - Simon Brand - https://blog.tartanllama.xyz/learning-cpp/
 * List of Engineers Willing to Mentor You - http://stephaniehurlburt.com/blog/2016/11/14/list-of-engineers-willing-to-mentor-you
+* Proposal for Study Group: C++ Education - http://wg21.link/P1231
 * Steve Dewhurst: C++ Once, Weakly... - http://www.stevedewhurst.com/once_weakly.html
 * Teaching C - https://blog.regehr.org/archives/1393
+* The C++ Programming Language - http://www.stroustrup.com/C++.html
 * The Definitive C++ Book Guide and List - https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list
 
 ## FAQs
 
-* Bjarne Stroustrup's FAQ - http://www.stroustrup.com/bs_faq.html
-* Bjarne Stroustrup's C++ Style and Technique FAQ - http://www.stroustrup.com/bs_faq2.html
+* Bjarne Stroustrup's FAQs
+	+ FAQ - http://www.stroustrup.com/bs_faq.html
+	+ C++ Style and Technique FAQ - http://www.stroustrup.com/bs_faq2.html
+	+ C++11 - http://www.stroustrup.com/C++11FAQ.html
 * C++ FAQ - https://isocpp.org/faq
 	+ Learning C++ - https://isocpp.org/wiki/faq/how-to-learn-cpp
-* C++11 - the new ISO C++ standard - http://www.stroustrup.com/C++11FAQ.html
 * comp.lang.c Frequently Asked Questions - http://www.c-faq.com/
 * LearnProgramming C++ FAQ - https://www.reddit.com/r/learnprogramming/wiki/faq_cpp
 
@@ -40,7 +43,10 @@ Note: see also [Communities](communities.md) -- where you can learn together.
 	+ http://www.microsoftvirtualacademy.com/training-courses/c-a-general-purpose-language-and-library-jump-start
 * CppCon 2015: Kate Gregory “Stop Teaching C" - https://www.youtube.com/watch?v=YnWhqhNdYyk
 * CppCon 2017: Bjarne Stroustrup “Learning and Teaching Modern C++” - https://www.youtube.com/watch?v=fX2W3nNjJIo
+* CppCon 2018: Christopher Di Bella “How to Teach C++ and Influence a Generation” - https://www.youtube.com/watch?v=3AkPd9Nt2Aw
 * Learning and teaching modern C++ - Arne Mertz - Meeting C++ 2016 - https://www.youtube.com/watch?v=N5wOrhL4ew8
+* SG20 Education and Recommended Videos for Teaching C++
+	+ https://www.cjdb.com.au/sg20-and-videos
 * Stop Teaching C (When Teaching C++) - CppCast with Kate Gregory - Oct 14th, 2015 - http://cppcast.com/2015/10/kate-gregory/
 
 ### Self-Study
@@ -48,10 +54,13 @@ Note: see also [Communities](communities.md) -- where you can learn together.
 * C9 Lectures: Stephan T. Lavavej
 	1. Standard Template Library (STL) - https://channel9.msdn.com/Series/C9-Lectures-Stephan-T-Lavavej-Standard-Template-Library-STL-
 	2. Advanced STL - https://channel9.msdn.com/Series/C9-Lectures-Stephan-T-Lavavej-Advanced-STL
-	3.  Core C++ - https://channel9.msdn.com/Series/C9-Lectures-Stephan-T-Lavavej-Core-C-
+	3. Core C++ - https://channel9.msdn.com/Series/C9-Lectures-Stephan-T-Lavavej-Core-C-
 * C++ Programming Videos - Bo Qian - http://boqian.weebly.com/c-programming.html
 	+ https://www.youtube.com/user/BoQianTheProgrammer/playlists
 * C++ Weekly - Jason Turner - https://www.youtube.com/user/lefticus1/playlists
+* code_report
+	+ https://youtube.com/c/codereport
+	+ https://github.com/codereport
 * Everything Cpp - https://www.youtube.com/channel/UCxwGBrWeIIWO9V_uLwRWCdA/playlists
 * Programming in C++ (Slides and Videos) - Michael Adams - https://www.ece.uvic.ca/~frodo/cppbook/
 
