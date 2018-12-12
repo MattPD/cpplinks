@@ -17,10 +17,22 @@ Note: see also [compilers](compilers.md)
 # General
 
 * ACM SIGPLAN Conference on Certified Programs and Proofs (CPP) - http://dblp.org/db/conf/cpp/
+* Black-Box Equivalence Checking Across Compiler Transformations
+	+ 2018 PhD thesis; Manjeet Dahiya
+	+ https://www.cse.iitd.ac.in/~sbansal/pubs/manjeet_thesis.pdf
+* Compiling with Proofs
+	+ 1998 Ph.D. Thesis; George C. Necula
+	+ https://people.eecs.berkeley.edu/~necula/Papers/thesis.pdf
 * How to prove a compiler correct - Daniel Patterson
 	+ https://dbp.io/essays/2018-01-16-how-to-prove-a-compiler-correct.html
 	+ https://github.com/dbp/howtoproveacompiler
+* Operational Refinement for Compiler Correctness
+	+ 2012 PhD Dissertation; Robert W. Dockins
+	+ ftp://ftp.cs.princeton.edu/reports/2012/936.pdf
 * What even is compiler correctness? - https://www.williamjbowman.com/blog/2017/03/24/what-even-is-compiler-correctness/
+* Write Your Compiler by Proving It Correct - http://liamoc.net/posts/2015-08-23-verified-compiler.html
+
+---
 
 # Testing
 
@@ -46,6 +58,10 @@ Note: see also [compilers](compilers.md)
 	+ https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2017/OOPSLA.pdf
 	+ Overview of the GLFuzz transformations - https://medium.com/@afd_icl/overview-of-the-glfuzz-transformations-d530540a5a18
 * Automatic Testing of Symbolic Execution Engines via Program Generation and Differential Testing - https://srg.doc.ic.ac.uk/files/papers/symex-engine-tester-ase-17.pdf
+* Causal Distance-Metric-Based Assistance for Debugging After Compiler Fuzzing
+	+ IEEE International Symposium on Software Reliability Engineering (ISSRE) 2018
+	+ Josie Holmes and Alex Groce
+	+ https://agroce.github.io/issre18.pdf
 * Checking Correctness of Code Generator Architecture Specifications 
 	+ Code Generation and Optimization (CGO) 2015
 	+ N. Hasabnis, R. Qiao, R. Sekar 
@@ -53,12 +69,18 @@ Note: see also [compilers](compilers.md)
 	+ http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15_talk.pdf
 * Compiler fuzzing, part 1
 	+ http://www.vegardno.net/2018/06/compiler-fuzzing.html
+* Compiler Testing via a Theory of Sound Optimisations in the C11/C++11 Memory Model
+	+ Programming Language Design and Implementation (PLDI) 2013
+	+ Robin Morisset, Pankaj Pawan, Francesco Zappa Nardelli
+	+ https://www.di.ens.fr/~zappa/readings/pldi13.pdf
 * DATm: Diderot's Automated Testing Model.
 	+ 39th International Conference on Software Engineering ICSE (12th International Workshop on Automation of Software Test AST) 2017
 	+ C. Chiw, G. Kindlmann, J. Reppy
 	+ https://www.researchgate.net/publication/317836930_DATm_Diderot%27s_Automated_Testing_Model
 	+ https://www.dropbox.com/s/5twsrp12vg4or7t/datm_talk.key?dl=0
-* Detecting Arithmetic Optimization Opportunities for C Compilers by Randomly Generated Equivalent Programs, IPSJ Transactions on System LSI Design Methodology, vol. 9, 2016. A. Hashimoto and N. Ishiura. <https://www.jstage.jst.go.jp/article/ipsjtsldm/9/0/9_21/_article>
+* Detecting Arithmetic Optimization Opportunities for C Compilers by Randomly Generated Equivalent Programs
+	+ IPSJ Transactions on System LSI Design Methodology, vol. 9, 2016; A. Hashimoto and N. Ishiura
+	+ <https://www.jstage.jst.go.jp/article/ipsjtsldm/9/0/9_21/_article>
 * Detecting Missed Arithmetic Optimization in C Compilers by Differential Random Testing - http://ist.ksc.kwansei.ac.jp/~ishiura/publications/C2016-10a.pdf
 * Differential Testing for Software - http://www.cs.dartmouth.edu/~mckeeman/references/DifferentialTestingForSoftware.pdf
 * Effect-Driven QuickChecking of Compilers
@@ -85,6 +107,15 @@ Note: see also [compilers](compilers.md)
 	+ https://www.flux.utah.edu/download?uid=114
 	+ https://blog.regehr.org/archives/492
 	+ http://lambda-the-ultimate.org/node/4241
+* Fuzzing with Grammars - Generating Software Tests - https://www.fuzzingbook.org/html/Grammars.html
+* Fuzzing the .NET JIT Compiler
+	+ http://mattwarren.org/2018/08/28/Fuzzing-the-.NET-JIT-Compiler/
+	+ Fuzzlyn: Fuzzer for the .NET toolchains - Compiler Testing via a Theory of Sound Optimisations in the C11/C++11 Memory Model
+		- https://github.com/jakobbotsch/Fuzzlyn
+* Improving the Utility of Compiler Fuzzers
+	+ 2014 Ph.D. Dissertation; Yang Chen
+	+ http://www.cs.utah.edu/~chenyang/papers/thesis_draft.pdf
+	+ https://search.proquest.com/openview/4799de27b7f7d50c7d4f1d2335316065/1?pq-origsite=gscholar&cbl=18750&diss=y
 * Learning to Accelerate Compiler Testing
 	+ International Conference on Software Engineering (ICSE), Doctoral Symposium, 2018
 	+ [Junjie Chen](https://sites.google.com/site/junjiechen08/)
@@ -134,6 +165,16 @@ Note: see also [compilers](compilers.md)
 	+ Structure-aware fuzzing for Clang and LLVM with libprotobuf-mutator
 		- 2017 LLVM Developers’ Meeting; Kostya Serebryany, Vitaly Buka, Matt Morehouse
 		- https://www.youtube.com/watch?v=U60hC16HEDY
+* gcc-for-llvm-testing: A modified GCC test suite suitable for testing non-GCC compilers
+	+ https://github.com/embecosm/gcc-for-llvm-testing
+	+ Using the GCC regression test suite for LLVM (and other compilers)
+		- GNU Tools Cauldron 2018; Simon Cook
+		- https://speakerdeck.com/simonpcook/using-the-gcc-regression-test-suite-for-llvm-and-other-compilers
+	+ Repurposing GCC Regression for LLVM Based Tool Chains
+		- 2018 LLVM Developers’ Meeting; Jeremy Bennett
+		- https://www.youtube.com/watch?v=GV4PoWu0UZ0
+* GraphicsFuzz: A testing framework for automatically finding and simplifying bugs in graphics shader compilers.
+	+ https://github.com/google/graphicsfuzz
 * kscope
 	+ a library which recursively generates randomized code while keeping it 100% equivalent to the original one
 	+ http://ithare.com/c17-compiler-bug-hunt-very-first-results-12-bugs-reported-3-already-fixed/
@@ -165,6 +206,10 @@ Note: see also [compilers](compilers.md)
 	+ EuroLLVM 2017 - Justin Bogner
 	+ https://www.youtube.com/watch?v=UBbQ_s6hNgg
 	+ http://llvm.org/devmtg/2017-03//assets/slides/adventures_in_fuzzing_instruction_selection.pdf
+* Compiler testing: GCC Vs LLVM
+	+ https://docs.google.com/presentation/d/1RIfDj1r0VQ-m919zy7fCFrGS76UysSUOJbjrpYbNLgY/
+	+ Linaro Connect Vancouver 2018 (YVR18) TCWG07; Thomas Preud’homme
+	+ FileCheck numeric expressions: features and implementation - https://connect.linaro.org/resources/yvr18/yvr18-tcw07/
 * Coverage-Directed Differential Testing of JVM Implementations - Yuting Chen, PLDI 2016
 	+ https://www.youtube.com/watch?v=2Reaqfp4v-g
 	+ http://cse.sjtu.edu.cn/~zhao/pub/pdf/pldi2016.pdf
@@ -177,6 +222,8 @@ Note: see also [compilers](compilers.md)
 	+ https://github.com/gergo-/missed-optimizations/
 * Testing Language Implementations - Alastair Donaldson - Programming Language Implementation Summer School (PLISS) 2017
 	+ https://www.youtube.com/watch?v=ZJUk8_k1HbY
+
+---
 
 # Validation
 
@@ -218,9 +265,19 @@ Validation: Including translation validation, equivalence checking.
 	+ https://dl.acm.org/citation.cfm?id=349314
 * Translation Validation of Bounded Exhaustive Test Cases - Nuno Lopes, John Regehr - https://blog.regehr.org/archives/1510
 * Translation Validation with Alive - https://github.com/nunoplopes/alive/tree/newsema/tv
+* Validating Optimizations of Concurrent C/C++ Programs
+	+ CGO 2016
+	+ Soham Chakraborty, Viktor Vafeiadis
+	+ https://plv.mpi-sws.org/validc/paper.pdf
+
+---
 
 # Verification
 
+* A Higher-Order Abstract Syntax Approach to the Verified Compilation of Functional Programs
+	+ 2016 PhD thesis; Yuting Wang 
+	+ https://arxiv.org/abs/1702.03363
+	+ http://www.cs.yale.edu/homes/wang-yuting/files/phd_thesis.pdf
 * ALIVe: Automatic LLVM InstCombine Verifier
 	+ https://github.com/nunoplopes/alive
 	+ online: http://rise4fun.com/Alive
@@ -240,6 +297,10 @@ Validation: Including translation validation, equivalence checking.
 		- https://www.cs.rutgers.edu/~santosh.nagarakatte/papers/pldi2017-alive-infer.pdf
 		- PLDI 2017 talk, David Menendez - https://pldi17.sigplan.org/event/pldi-2017-papers-precondition-inference-for-peephole-optimizations-in-llvm
 	+ Provably Correct Peephole Optimizations with Alive - https://www.cs.utah.edu/~regehr/papers/pldi15.pdf
+* An Abstract Stack Based Approach to Verified Compositional Compilation to Machine Code
+	+ POPL 2019
+	+ Yuting Wang, Pierre Wilke, Zhong Shao
+	+ https://popl19.sigplan.org/event/popl-2019-research-papers-an-abstract-stack-based-approach-to-verified-compositional-compilation-to-machine-code
 * CakeML: A Verified Implementation of ML
 	+ https://cakeml.org/
 	+ https://github.com/CakeML/cakeml
@@ -267,6 +328,10 @@ Validation: Including translation validation, equivalence checking.
 	+ http://pit-claudel.fr/clement/MSc/
 	+ https://dspace.mit.edu/bitstream/handle/1721.1/107293/973557793-MIT.pdf?sequence=1
 	+ http://pit-claudel.fr/clement/MSc/FiatToFacade_Pit-Claudel_2016.pdf
+* Compositional Verification of Compiler Optimisations on Relaxed Memory
+	+ ESOP 2018
+	+ Mike Dodds, Mark Batty, Alexey Gotsman
+	+ https://arxiv.org/abs/1802.05918
 * Crellvm: Verified Credible Compilation for LLVM
 	+ Programming Languages Design and Implementation (PLDI) 2018
 	+ Jeehoon Kang, Yoonseung Kim, Youngju Song, Juneyoung Lee, Sanghoon Park, Mark Dongyeon Shin, Yonghyun Kim, Sungkeun Cho, Joonwon Choi,Chung-Kil Hur, Kwangkeun Yi
@@ -295,4 +360,10 @@ Validation: Including translation validation, equivalence checking.
 * Vellvm: Verifying the LLVM
 	+ http://www.cis.upenn.edu/~stevez/vellvm/
 	+ https://github.com/vellvm
-	+ Steve Zdancewic - DeepSpec Summer School 2017 - https://deepspec.org/event/dsss17/lecture_zdancewic.html
+	+ DeepSpec Summer School 2017; Steve Zdancewic - https://deepspec.org/event/dsss17/lecture_zdancewic.html
+	+ Galois, Inc. Tech Talk 2018; Steve Zdancewic
+		- https://galois.com/blog/2018/07/vellvm-verifying-the-llvm/
+		- https://www.youtube.com/watch?v=qGpRKkP8gec
+	+ Strange Loop 2018; Steve Zdancewic
+		- https://www.youtube.com/watch?v=q6gSC3OxB_8
+		- https://thestrangeloop.com/2018/vellvm---verifying-the-llvm.html
