@@ -2,6 +2,8 @@
 
 Note: see also [computer architecture](comparch.md)
 
+---
+
 # Articles & Papers
 
 * A closer look at GPUs. Fatahalian, K., & Houston, M. (2008) CACM - http://graphics.stanford.edu/~kayvonf/papers/fatahalianCACM.pdf
@@ -48,6 +50,8 @@ Note: see also [computer architecture](comparch.md)
   - http://dl.acm.org/citation.cfm?id=3018755
   - https://github.com/PAA-NCIC/PPoPP2017_artifact
 
+---
+
 # CUDA
 
 ## CUDA Books
@@ -65,6 +69,8 @@ Note: see also [computer architecture](comparch.md)
 * CUDA C Programming Guide - http://docs.nvidia.com/cuda/cuda-c-programming-guide/
 * CUDA C Best Practices Guide - http://docs.nvidia.com/cuda/cuda-c-best-practices-guide/
 * CUDA Toolkit Documentation - http://docs.nvidia.com/cuda/
+
+---
 
 # Open Source Hardware GPU Projects
 
@@ -87,18 +93,7 @@ Note: see also [computer architecture](comparch.md)
   - http://opencores.org/project,orsoc_graphics_accelerator
 * Theia GPU Overview - http://opencores.org/project,theia_gpu
 
-# Talks
-
-* An Introduction to Graphics Processing Unit Architecture and Programming Models  
-  Tim Warburton, Virginia Tech - ATPESC16 (Argonne Training Program on Extreme-Scale Computing, Summer 2016)
-  - https://www.youtube.com/watch?v=Uk4DtWkEFh4
-* GPU Architectures and New Programming Model Features  
-  Nikolai Sakharnykh, NVIDIA - ATPESC16 (Argonne Training Program on Extreme-Scale Computing, Summer 2016)
-  - https://www.youtube.com/watch?v=CWYx0HZ0zYM
-  - http://press3.mcs.anl.gov/atpesc/files/2016/08/Sakharnykn_145aug1GPU_architecture.pdf
-* Portable GPU Programming: Hands-on  
-  Tim Warburton, Virginia Tech - ATPESC16 (Argonne Training Program on Extreme-Scale Computing, Summer 2016)
-  - https://www.youtube.com/watch?v=I33WSjcvfpI
+---
 
 # Software
 
@@ -137,3 +132,23 @@ Note: see also [computer architecture](comparch.md)
 * Multi2Sim: A Heterogeneous System Simulator
   - http://www.multi2sim.org/
   - https://github.com/Multi2Sim/multi2sim
+
+---
+
+# Talks
+
+* GPU Architectures and New Programming Model Features  
+	+ Argonne Training Program in Extreme Scale Computing (ATPESC) 2016
+	+ Nikolai Sakharnykh, NVIDIA
+	+ video: https://www.youtube.com/watch?v=CWYx0HZ0zYM
+	+ slides: http://press3.mcs.anl.gov/atpesc/files/2016/08/Sakharnykn_145aug1GPU_architecture.pdf
+* Introduction to GPU Architecture and Programming Models
+	+ Argonne Training Program in Extreme Scale Computing (ATPESC) 2018
+	+ Tim Warburton, Virginia Tech
+	+ video: https://www.youtube.com/watch?v=uvVy3CqpVbM&index=4&list=PLGj2a3KTwhRa6Ux64xg5L5ga6Jg8QykoQ
+	+ examples: https://github.com/tcew/ATPESC18
+	+ slides: http://extremecomputingtraining.anl.gov/files/2018/08/ATPESC_2018_Track-2_3_8-2_830am_Warburton-Accelerators.pdf
+* Portable GPU Programming: Hands-on  
+	+ Argonne Training Program in Extreme Scale Computing (ATPESC) 2016
+	+ Tim Warburton, Virginia Tech
+	+ video: https://www.youtube.com/watch?v=I33WSjcvfpI
