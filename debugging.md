@@ -28,6 +28,8 @@ See also:
 * UNIX Debugger Translation Table: gdb, lldb, dbx, adb, sdb
 	+ https://www.lurklurk.org/debuggers.html
 
+---
+
 # Standard Libraries
 
 * GLIBC (GNU C Library)
@@ -46,6 +48,12 @@ See also:
 # Readings
 
 * Debugging - Ian Lance Taylor - https://airs.com/ian/essays/debug/debug.html
+* Debugging in the (Very) Large: Ten Years of Implementation and Experience
+	+ Symposium on Operating Systems Principles (SOSP) 2009
+	+ Kirk Glerum, Kinshuman Kinshumann, Steve Greenberg, Gabriel Aul, Vince Orgovan, Greg Nichols, David Grant, Gretchen Loihle, Galen Hunt
+	+ https://www.microsoft.com/en-us/research/publication/debugging-in-the-very-large-ten-years-of-implementation-and-experience/
+	+ https://www.sigops.org/sosp/sosp09/papers/glerum-sosp09.pdf
+	+ https://www.sigops.org/sosp/sosp09/slides/glerum-slides-sosp09.pdf
 * Delta Debugging
 	+ https://www.st.cs.uni-saarland.de/dd/
 	+ Delta: Heuristically minimizes interesting files
@@ -128,6 +136,13 @@ _Books, Books Reviews_
 	+ part 1: assembly - https://blog.asrpo.com/making_a_low_level_debugger
 	+ part 2: C - https://blog.asrpo.com/making_a_low_level_debugger_part_2
 	+ part 3: our first program - https://blog.asrpo.com/making_a_low_level_debugger_part_3
+* On-Stack Replacement, Distilled
+	+ Programming Language Design and Implementation (PLDI) 2018
+	+ Daniele Cono D'Elia and Camil Demetrescu
+	+ https://pldi18.sigplan.org/event/pldi-2018-papers-on-stack-replacement-distilled
+	+ http://season-lab.github.io/papers/osr-distilled-pldi18.pdf
+	+ https://github.com/dcdelia/tinyvm
+	+ "As a novel application of OSR, we present a feasibility study on debugging of optimized code, showing how our techniques can be used to fix variables holding incorrect values at breakpoints due to optimizations."
 * Samy Al Bahra, Backtrace
 	+ Compiler debug quality suite - https://github.com/backtrace-labs/cdqs
 	+ Compile Once Debug Twice: Picking a Compiler for Debuggability
@@ -156,6 +171,12 @@ _Books, Books Reviews_
 
 ### Testing
 
+* Comparing The Quality Of Debug Information Produced By Clang And Gcc 
+	+ https://robert.ocallahan.org/2018/11/comparing-quality-of-debug-information.html
+	+ debuginfo-quality: Evaluate the quality of debuginfo in an ELF binary
+		- https://github.com/rocallahan/debuginfo-quality
+* Debug Frame Checking: Check `.eh_frame` and `.debug_frame` information
+	+ https://github.com/francesco-zappa-nardelli/eh_frame_check
 * DExTer (Debugging Experience Tester)
 	+ https://github.com/SNSystems/dexter
 	+ Measuring the User Debugging Experience 
@@ -188,10 +209,26 @@ See also: [RR](#rr)
 	+ Programming Language Design and Implementation (PLDI) 2000
 	+ B. Boothe
 	+ https://dl.acm.org/citation.cfm?id=349339
+* Expositor: Scriptable Time-Travel Debugging with First Class Traces
+	+ International Conference on Software Engineering (ICSE) 2013
+	+ Yit Phang Khoo, Jeffrey S. Foster, Michael Hicks
+	+ http://www.cs.umd.edu/~mwh/papers/khoo13expositor.html
+	+ full version - http://www.cs.umd.edu/~mwh/papers/khoo13expositor-journal.html
+	+ Scriptable time-travel debugging Python library for GDB/UndoDB
+		- https://bitbucket.org/khooyp/expositor/src/default/
+* iDNA: Time Travel Debugging
+	+ Instruction-level Tracing: Framework & Applications
+	+ Sanjay Bhansali 
+	+ http://www.cs.wisc.edu/areas/pl/seminar/fall05/Bhansali.ppt
 * Improving the performance of reverse debugging
 	+ Programming and Computer Software 43(1) 2017
 	+ Klimushenkova, M.A. & Dovgalyuk, P.M.
 	+ https://link.springer.com/article/10.1134/S0361768817010042
+* REPT: Reverse Debugging of Failures in Deployed Software
+	+ USENIX Symposium on Operating Systems Design and Implementation (OSDI) 2018
+	+ Weidong Cui, Xinyang Ge, Baris Kasikci, Ben Niu, Upamanyu Sharma, Ruoyu Wang, Insu Yun 
+	+ https://www.usenix.org/conference/osdi18/presentation/weidong
+	+ https://www.microsoft.com/en-us/research/publication/rept-reverse-debugging-of-failures-in-deployed-software/
 * Reverse History
 	+ Part One – Background - http://jakob.engbloms.se/archives/1547
 	+ Part Two – Research - http://jakob.engbloms.se/archives/1554
@@ -289,6 +326,13 @@ See also: [RR](#rr)
 	+ Radare project started as a forensics tool, a scriptable commandline hexadecimal editor able to open disk files, but later support for analyzing binaries, disassembling code, debugging programs, attaching to remote gdb servers, etc.
 	+ http://www.radare.org/
 	+ https://github.com/radare/radare2
+	+ r2vmi: Hypervisor-Level Debugger based on Radare2 / LibVMI, using VMI IO and debug plugins
+		- https://github.com/Wenzel/r2vmi
+		- Hack.lu 2018: Hypervisor-Level Debugger: Benefits And Challenges - Mathieu Tarral
+			- https://www.youtube.com/watch?v=NnWYT-kCx_s
+		- r2con2018 - Hypervisor Level Debugger with r2 - Mathieu Tarral
+			- https://www.youtube.com/watch?v=JOJMgWa7E6A
+			- https://github.com/radareorg/r2con2018/tree/master/talks/10-hypervisor-level-debugger
 * rVMI - A New Paradigm For Full System Analysis
 	+ "rVMI is a debugger on steroids. It leverages Virtual Machine Introspection (VMI) and memory forensics to provide full system analysis. This means that an analyst can inspect userspace processes, kernel drivers, and preboot environments in a single tool."
 	+ https://github.com/fireeye/rVMI
@@ -310,6 +354,11 @@ See also: [RR](#rr)
 		- https://www.singlehop.com/blog/binary-vivisection-part-1/
 		- https://www.singlehop.com/blog/binary-vivisection-part-2/
 		- https://www.singlehop.com/blog/binary-vivisection-part-3/
+	+ FireEye Labs Query-Oriented Debugger
+		- Command-line and Python debugger for instrumenting and modifying native software behavior on Windows and Linux
+		- https://github.com/fireeye/flare-qdb
+		- Querying Dynamic State using the FireEye Labs Query-Oriented Debugger (flare-qdb)
+			- https://www.fireeye.com/blog/threat-research/2017/01/flare_script_series.html
 * Voltron - https://github.com/snare/voltron
 
 ## GDB
@@ -369,6 +418,8 @@ See also: [RR](#rr)
 
 * GDB-MI: a package by Nick Roberts which makes Emacs use GDB/MI interface to talk with the GNU Debugger
 	+ https://www.emacswiki.org/emacs/GDB-MI
+* GDB graphical interface for GNU Emacs
+	+ https://github.com/weirdNox/emacs-gdb
 * neogdb.vim: Vim GDB front-end for neovim
 	+ https://github.com/huawenyu/neogdb.vim
 * RealGUD: An extensible, modular GNU Emacs front-end for interacting with external debuggers
@@ -433,6 +484,9 @@ See also: [RR](#rr)
 * Become a GDB Power User - ACCU 2016 - Greg Law
 	+ https://www.youtube.com/watch?v=713ay4bZUrw
 	+ including Q&A: https://www.youtube.com/watch?v=6ag7yvhDAiE
+* Debugging Linux C++
+	+ CppCon 2018; Greg Law
+	+ https://www.youtube.com/watch?v=V1t6faOKjuQ
 * GDB: C++ conversion & dogfooding C++
 	+ GNU Tools Cauldron 2017; Pedro Alves
 	+ Slides: https://gcc.gnu.org/wiki/cauldron2017?action=AttachFile&do=view&target=gdb+-+C%2B%2B+conversion+%26+dogfood.pdf
@@ -449,8 +503,9 @@ See also: [RR](#rr)
 * Liberating the Debugging Experience with the GDB Python API
 	+ ACCU Bay Area Meetup 2018; Jeff Trull
 	+ https://github.com/accuBayArea/Slides/blob/master/slides/2018-08-08-jeff.pdf
+	+ CppCon 2018 - https://www.youtube.com/watch?v=ck_jCH_G7pA
 	+ gdb_python_api: Experiments with the GDB Python API
-		 https://github.com/jefftrull/gdb_python_api
+		- https://github.com/jefftrull/gdb_python_api
 * Programmatic Debugging with GDB and Python
 	+ PyCon APAC/Taiwan 2015; Scott Tsai
 	+ https://www.youtube.com/watch?v=oAYbt2PsKng
@@ -538,6 +593,9 @@ See also: [RR](#rr)
 	+ https://arxiv.org/abs/1705.05937
 	+ https://www.usenix.org/conference/atc17/technical-sessions/presentation/ocallahan
 * Improved debugging with rr - https://techtalk.intersec.com/2018/03/improved-debugging-with-rr/
+* rr-dataflow: An 'origin' command that continues to the origin of a piece of data in rr
+	+ https://github.com/jrmuizel/rr-dataflow
+	+ Using rr-dataflow: Why and How? - https://www.mgaudet.ca/technical/2018/10/18/using-rr-dataflow-why-and-how
 * Timeless Debugging of Complex Software: Root Cause Analysis of a Non-Deterministic JavaScriptCore Bug
 	+ http://blog.ret2.io/2018/06/19/pwn2own-2018-root-cause-analysis/
 
@@ -572,6 +630,8 @@ See also: [RR](#rr)
 * Debugging in Visual Studio - https://docs.microsoft.com/en-us/visualstudio/debugger/debugger-feature-tour
 * Debugging Tools for Windows (WinDbg, KD, CDB, NTSD)
 	+ https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/
+* DuBStep (Dynamic Breakpoint API): A Library for creating hardware execution and data breakpoints at runtime on Win32/Win64
+	+ https://github.com/justinboswell/dubstep
 * makin - reveal anti-debug tricks (Windows) - https://github.com/secrary/makin
 * Nanomite - Windows Debugger for x64 and x86 - https://github.com/zer0fl4g/Nanomite/
 * OllyDbg - http://www.ollydbg.de/
@@ -612,6 +672,8 @@ See also: [RR](#rr)
 * Winbagility: a tool to connect WinDbg on non /DEBUG Windows x64 systems
 	+ http://winbagility.github.io
 	+ https://github.com/Winbagility/Winbagility
+* WinDbg-Samples: Sample extensions, scripts, and API uses for WinDbg
+	+ https://github.com/Microsoft/WinDbg-Samples
 * WinDBGtree: A command tree based on commands and extensions for Windows Kernel Debugging
 	+ https://github.com/vagnerpilar/windbgtree
 
