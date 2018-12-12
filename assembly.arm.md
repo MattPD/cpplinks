@@ -9,7 +9,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ [Formalization, Specification, Verification](#formalization-specification-verification)
 	+ [Instruction Set Architecture](#instruction-set-architecture)
 	+ [Performance](#performance)
-	+ [Security](#security)
+	+ [Security](#security): [TrustZone](#trustzone)
 	+ [Virtualization](#virtualization)
 * [References](#references):
 	+ [Concurrency](#concurrency)
@@ -95,6 +95,9 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://alastairreid.github.io/papers/CAV_16/
 	+ https://alastairreid.github.io/papers/cav2016_isa_formal.pdf
 	+ https://alastairreid.github.io/alastairreid.github.io/papers/ISA-Formal-CAV2016.pdf
+* ISA Semantics for ARMv8-A, RISC-V, and CHERI-MIPS
+	+ POPL 2019
+	+ https://alastairreid.github.io/papers/POPL_19/
 * L3: A Specification Language for Instruction Set Architectures - http://www.cl.cam.ac.uk/~acjf3/arm/
 * Trustworthy Specifications of ARM v8-A and v8-M System Level Architecture
 	+ FMCAD 2016
@@ -111,6 +114,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 ## Instruction Set Architecture
 
+* "ARM Assembly Language Programming" by Pete Cockerell (historical) - http://www.peter-cockerell.net/aalp/
 * ARM immediate value encoding - Alisdair McDiarmid
 	+ https://alisdair.mcdiarmid.org/arm-immediate-value-encoding/
 * ARMv8 Shellcodes from 'A' to 'Z'
@@ -128,6 +132,9 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 ## Performance
 
+* An Instruction Level Energy Characterization of ARM Processors
+	+ 2015 Technical Report (FORTH-ICS/TR-450); Evangelos Vasilakis
+	+ https://www.ics.forth.gr/carv/greenvm/files/tr450.pdf
 * CoreSight, Perf and the OpenCSD Library - https://www.linaro.org/blog/core-dump/coresight-perf-and-the-opencsd-library/
 * Linaro Wiki - perf
 	+ https://wiki.linaro.org/KenWerner/Sandbox/perf
@@ -144,6 +151,8 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 ## Security
 
+* A Guide to ARM64 / AArch64 Assembly on Linux with Shellcodes and Cryptography
+	+ https://modexp.wordpress.com/2018/10/30/arm64-assembly/
 * ARM Lab Environment - https://www.vulnhub.com/series/arm-lab,145/
 * ARM Return Oriented Programming (ROP) - Billy Ellis
 	+ Cheatsheet - https://twitter.com/bellis1000/status/929713826106396673
@@ -160,9 +169,6 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://developer.arm.com/support/security-update
 	+ Compiler support for mitigations - https://developer.arm.com/support/security-update/compiler-support-for-mitigations
 	+ Speculation Barrier - https://github.com/ARM-software/speculation-barrier
-* Cachegrab: a tool designed to help perform and visualize trace-driven cache attacks against software in the secure world of TrustZone-enabled ARMv8 cores
-	+ https://github.com/nccgroup/cachegrab
-	+ https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/december/34C3-Tool-Release-Cachegrab/
 * Damn Vulnerable ARM Router (DVAR)
 	+ http://blog.exploitlab.net/2018/01/dvar-damn-vulnerable-arm-router.html
 * Exploitation on ARM-based Systems
@@ -170,6 +176,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://github.com/sashs/arm_exploitation
 * Exploring New Depths of Threat Hunting ...or How to Write ARM Shellcode in Six Minutes
 	+ Security Analysts Summit (SAS) 2018
+	+ https://www.youtube.com/watch?v=DGJZBDlhIGU
 	+ https://azeria-labs.com/downloads/SAS-v1.0-Azeria.pdf
 * Micro-Architectural Power Simulator for Leakage Assessment of Cryptographic Software on ARM Cortex-M3 Processors
 	+ Cryptology ePrint Archive: Report 2017/1253
@@ -186,8 +193,18 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://www.cs.purdue.edu/homes/kwon58/data/revarm_acsac17.pdf
 	+ https://www.acsac.org/2017/openconf/modules/request.php?module=oc_program&action=summary.php&id=201
 	+ https://www.researchgate.net/publication/321506390_RevARM_A_Platform-Agnostic_ARM_Binary_Rewriter_for_Security_Applications
+* Smashing the ARM Stack: ARM Exploitation Part 1
+	+ https://www.merckedsecurity.com/blog/smashing-the-arm-stack-part-1
 * TCP Bind Shell in Assembly (ARM 32-bit)
 	+ https://azeria-labs.com/tcp-bind-shell-in-assembly-arm-32-bit/
+
+### TrustZone
+
+* Attacking the ARM's TrustZone - https://blog.quarkslab.com/attacking-the-arms-trustzone.html
+* Cachegrab: a tool designed to help perform and visualize trace-driven cache attacks against software in the secure world of TrustZone-enabled ARMv8 cores
+	+ https://github.com/nccgroup/cachegrab
+	+ https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/december/34C3-Tool-Release-Cachegrab/
+* Introduction to Trusted Execution Environment: ARM's TrustZone - https://blog.quarkslab.com/introduction-to-trusted-execution-environment-arms-trustzone.html
 * Verification of a Practical Hardware Security Architecture Through Static Information Flow Analysis (ARM TrustZone)
 	+ ASPLOS 2017
 	+ Andrew Ferraiuolo, Rui Xu, Danfeng Zhang, Andrew C. Myers, G. Edward Suh
@@ -198,6 +215,8 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * The Design, Implementation, and Evaluation of Software and Architectural Support for ARM Virtualization
 	+ 2018 PhD Thesis; [Christoffer Dall](http://www.cs.columbia.edu/~cdall/)
 	+ https://academiccommons.columbia.edu/catalog/ac:t1g1jwstss
+
+---
 
 # References
 
@@ -221,6 +240,8 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * ARM Assembly Basics Cheatsheet - https://azeria-labs.com/assembly-basics-cheatsheet/
 * ARM architecture documentation set - http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.set.architecture/
 * ARM Info Center Reference Material - https://wiki.linaro.org/Resources/HowTo/DeveloperReferences
+* Arm A64 Instruction Set Architecture: Armv8-A
+	+ https://developer.arm.com/products/architecture/a-profile/docs/ddi0596/latest/a64-base-instructions-alphabetic-order
 * ARM v8-A Architecture Specification
 	+ https://github.com/meriac/archex
 	+ https://meriac.github.io/archex/
@@ -237,11 +258,15 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 		- Nigel Stephens
 		- https://youtu.be/egE-VKoF4ZI?t=1h9m8s
 		- https://community.arm.com/cfs-file/__key/telligent-evolution-components-attachments/01-2142-00-00-00-01-20-49/ARMv8_2D00_A-SVE-technology-Hot-Chips-v12.pdf
+* System call dispatching on Windows ARM64 - https://gracefulbits.com/2018/07/26/system-call-dispatching-for-windows-on-arm64/
 * The ARM Instruction Set - ARM University Program (Slides)
 	+ https://www.cs.purdue.edu/homes/cs250/LectureNotes/arm_inst.pdf
 	+ https://www.eecs.umich.edu/courses/eecs370/eecs370.f17/resources/materials/arm_inst.pdf
 * The ARM Instruction Set Architecture - Mark McDermott (Slides)
 	+ http://users.ece.utexas.edu/~valvano/EE345M/Arm_EE382N_4.pdf
+* The ARM Machinists Atlas
+	+ https://www.youtube.com/watch?v=PRaJQepIf44
+	+ http://xlogicx.net/?page_id=668
 * Works on ARM newsletter - https://github.com/vielmetti/worksonarm-news
 
 ## Intrinsics, NEON, SIMD
@@ -264,12 +289,15 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ armclang Compiler Software Development Guide - http://www.keil.com/support/man/docs/armclang_dev/
 	+ armclang_asm Assembler User Guide - http://www.keil.com/support/man/docs/armclang_asm/
 	+ armclang_link Linker User Guide - http://www.keil.com/support/man/docs/armclang_link/
+* Demystifying ARM Floating Point Compiler Options - https://embeddedartistry.com/blog/2017/10/9/r1q7pksku2q3gww9rpqef0dnskphtc
 * GNU Compiler Collection (GCC)
 	+ AArch64 Options - https://gcc.gnu.org/onlinedocs/gcc/AArch64-Options.html
 	+ ARM Options - https://gcc.gnu.org/onlinedocs/gcc/ARM-Options.html
 	+ ARM C Language Extensions (ACLE) - https://gcc.gnu.org/onlinedocs/gcc/ARM-C-Language-Extensions-_0028ACLE_0029.html
 	+ Target-Specific Builtins - https://gcc.gnu.org/onlinedocs/gcc/Target-Builtins.html#Target-Builtins
 * Microsoft ARM Assembler Reference - https://docs.microsoft.com/en-us/cpp/assembler/arm/arm-assembler-reference
+
+---
 
 # Software
 
@@ -388,19 +416,44 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * Profiling Tools - https://developer.arm.com/hpc/hpc-software/categories/profiling-tools
 * Streamline Performance Analyzer - https://developer.arm.com/products/software-development-tools/ds-5-development-studio/streamline
 
+---
+
 # Talks
 
 ## 2018
 
+* Arm Architecture Enhancements in 2018
+	+ Linaro Connect Vancouver 2018 (YVR18)
+	+ https://connect.linaro.org/resources/yvr18/sessions/yvr18-104/
+* ARMaHYDAN - Misadventures of ARM instruction encodings
+	+ CactusCon 2018 
+	+ https://www.youtube.com/watch?v=qEfWt2naCx4
+	+ https://github.com/XlogicX/ARMaHYDAN
+* Introduction To Return Oriented Exploitation On ARM64
+	+ BSidesMCR 2018; Billy Ellis
+	+ https://www.youtube.com/watch?v=-_LGrrKv61c
 * Raising the Bar: New Hardware Primitives for Exploit Mitigations - BlueHat v17
 	+ ARMv8.3 pointer authentication
 	+ https://www.youtube.com/watch?v=PYe8W33lbAQ
 	+ https://www.slideshare.net/MSbluehat/raising-the-bar-new-hardware-primitives-for-exploit-mitigations-83686492
+* The Path to Fast Data on Arm - Brian Brooks
+	+ FD.io Mini-Summit: KubeCon + CloudNativeCon EU 2018
+		- https://www.youtube.com/watch?v=n8Yl3Tw7XLg
+	+ FD.io Mini Summit: Open Networking Summit North America 2018
+		- https://onsna18.sched.com/event/EC21/fdio-mini-summit-the-path-to-fast-data-on-arm
+		- https://schd.ws/hosted_files/onsna18/6c/ons_fdio_brooks.pdf
+		- https://events.linuxfoundation.org/events/open-networking-summit-north-america-2018/program/schedule/
+* Using perf On Arm platforms
+	+ Linaro Connect Vancouver 2018 (YVR18)
+	+ https://www.youtube.com/watch?v=xV4UHWLH_7Y
+	+ https://connect.linaro.org/resources/yvr18/yvr18-416/
 
 ## 2017
 
 * A tour of the ARM architecture and its Linux support - linux.conf.au 2017
 	+ https://www.youtube.com/watch?v=NNol7fRGo2E
+* ARM Assembly and Shellcode Basics - Saumil Shah at 44CON 2017 - Workshop
+	+ https://www.youtube.com/watch?v=BhjJBuX0YCU
 * ARM Developer Systems/Tools – BUD17-508 - http://connect.linaro.org/resource/bud17/bud17-508/
 * DynInst on arm64 – Status – BUD17-323 - http://connect.linaro.org/resource/bud17/bud17-323/
 * Formal verification by the book: ISA Formal at ARM
@@ -528,6 +581,8 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * The Future of Microprocessors, Sophie Wilson
 	+ 2016 - Code Mesh - https://www.youtube.com/watch?v=_9mzmvhwMqw
 	+ 2014 - Wuthering Bytes - https://www.youtube.com/watch?v=b5j_Y-ML3dg
+
+---
 
 # Tutorials, Courses
 
