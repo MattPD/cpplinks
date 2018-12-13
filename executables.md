@@ -74,6 +74,8 @@ Contents:
 * Ropper - ROP gadget finder and binary information tool (ELF, PE, Mach-O)
 	+ https://scoding.de/ropper/
 	+ https://github.com/sashs/ropper
+* Sample Binaries: Sample binary executables (for a number of architectures) for binary analysis testing
+	+ https://github.com/GaloisInc/sample-binaries
 * Samples of binary with different formats and architectures. A test suite for your binary analysis tools. (ELF, Mach-O, PE)
 	+ https://github.com/JonathanSalwan/binary-samples
 
@@ -94,7 +96,9 @@ Contents:
 * Dynamic-Link Library Best Practices - https://msdn.microsoft.com/library/windows/desktop/dn633971.aspx
 * Everything You Never Wanted To Know About DLLs - http://blog.omega-prime.co.uk/2011/07/04/everything-you-never-wanted-to-know-about-dlls/
 * How can I specify that my DLL should resolve a DLL dependency from the same directory that the DLL is in? - https://blogs.msdn.microsoft.com/oldnewthing/20171011-00/?p=97195
+* How to turn a DLL into a standalone EXE - https://hshrzd.wordpress.com/2016/07/21/how-to-turn-a-dll-into-a-standalone-exe/
 * Import by Hash in x64 Assembly - https://emsea.github.io/2017/12/04/import-by-hash/
+* Isolating a plugin into its own directory - http://web.archive.org/web/20171011141708/https://blogs.msdn.microsoft.com/talagrand/2010/03/08/isolating-a-plugin-into-its-own-directory/
 * Rpath emulation: absolute DLL references on Windows - http://blog.omega-prime.co.uk/2012/12/06/rpath-emulation-absolute-dll-references-on-windows/
 * Ten Process Injection Techniques: A Technical Survey of Common and Trending Process Injection Techniques - https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process
 * What is so special about the instance handle 0x10000000? - https://blogs.msdn.microsoft.com/oldnewthing/20121227-00/?p=5713/
@@ -106,15 +110,24 @@ Contents:
 	+ https://github.com/lucasg/Dependencies
 * Dependency Walker - http://www.dependencywalker.com/
 * Detours - https://www.microsoft.com/en-us/research/project/detours/
+* DetoursNT: Detours with just single dependency - NTDLL
+	+ https://github.com/wbenny/DetoursNT
+* DLL_to_EXE: Converts a DLL into a ready-to-use EXE. Supports both 32 and 64 bit DLLs
+	+ https://github.com/hasherezade/dll_to_exe
 * EasyHook
 	+ https://easyhook.github.io/
 	+ https://github.com/EasyHook/EasyHook
 * GNU Binary Utilities - https://sourceware.org/binutils/docs/binutils/
 	+ dlltool: Create files needed to build and use DLLs - https://sourceware.org/binutils/docs/binutils/dlltool.html
 * InjectDLL: a Windows command line tool to inject DLLs into other processes - http://bytepointer.com/tools/index.htm#injectdll
+* loadlibrary: Porting Windows Dynamic Link Libraries to Linux
+	+ https://github.com/taviso/loadlibrary
 * MemoryModule: Library to load a DLL from memory
 	+ https://github.com/fancycode/MemoryModule
 	+ https://www.joachim-bauch.de/tutorials/loading-a-dll-from-memory/
+* PESecInfo: A simple tool to view important DLL Characteristics and change DEP and ASLR
+	+ https://github.com/OsandaMalith/PESecInfo
+	+ https://osandamalith.com/2018/10/24/pe-sec-info-a-simple-tool-to-manipulate-aslr-and-dep-flags/
 * Rattler: Automated DLL Enumerator
 	+ https://github.com/sensepost/rattler
 	+ Rattler: Identifying and Exploiting DLL Preloading Vulnerabilities
@@ -123,6 +136,9 @@ Contents:
 		- https://www.youtube.com/watch?v=xvluwoPM8v8
 * Reflective DLL Injection with PowerShell - https://clymb3r.wordpress.com/2013/04/06/reflective-dll-injection-with-powershell/
 * ReflectiveDLLInjection - https://github.com/stephenfewer/ReflectiveDLLInjection
+* ReloadLibrary
+	+ ReloadLibrary is a quick-and-dirty anti-hook library. Given the name of a .dll, it will make a temporary copy of the .dll on disk, load the copy, and overwrite the import address table with corresponding function addresses in the cloned library.
+	+ https://github.com/nickcano/ReloadLibrary
 * ThreadContinue: Reflective DLL injection using SetThreadContext() and NtContinue()
 	+ https://github.com/zerosum0x0/ThreadContinue
 	+ https://zerosum0x0.blogspot.com/2017/07/threadcontinue-reflective-injection.html
@@ -221,6 +237,9 @@ Contents:
 
 ## Talks
 
+* 2018 - DWARF v5 Highlights - Why You Care
+	+ 2018 LLVM Developers’ Meeting; Paul Robinson
+	+ https://www.youtube.com/watch?v=2Pb00xz8uH8
 * 2018 - FOSDEM 2018 - [Debugging Tools](https://fosdem.org/2018/schedule/track/debugging_tools/)
 	+ DWARF Pieces And Other DWARF Location Woes - https://fosdem.org/2018/schedule/event/dwarfpieces/
 	+ DWARF5 and GNU extensions - https://fosdem.org/2018/schedule/event/debugging_tools_dwarf5/
@@ -277,7 +296,11 @@ Contents:
 * Constructing the ELF - A Magnetized Needle and a Steady Hand - http://nullprogram.com/blog/2016/11/17/
 * Custom ELF program headers—what, why and how - http://www.cl.cam.ac.uk/~srk31/blog/2017/02/14/
 	+ Rag-bag of utilities and scripts that do strange things with ELF files - https://github.com/stephenrkell/elftin/
+* Dynamic Linking in ELF - http://dandylife.net/blog/archives/660
 * ELF - No Section Header? No Problem - https://em386.blogspot.com/2006/10/elf-no-section-header-no-problem.html
+* ELF Binary Mangling
+	+ Part 1: Concepts - https://medium.com/@dmxinajeansuit/elf-binary-mangling-part-1-concepts-e00cb1352301
+	+ Part 2: Golfin’ - https://medium.com/@dmxinajeansuit/elf-binary-mangling-pt-2-golfin-7e5c82bb482c
 * ELF File Format - http://resources.infosecinstitute.com/elf-file-format/
 * ELF Hello World Tutorial
 	+ http://www.cirosantilli.com/elf-hello-world/
@@ -320,6 +343,16 @@ Contents:
 * Improving binary layout for progressive decompression (2011) - https://glandium.org/blog/?p=2320
 * In-Memory-Only ELF Execution (Without tmpfs) - https://magisterquis.github.io/2018/03/31/in-memory-only-elf-execution.html
 * In the lands of corrupted elves: Breaking ELF software with Melkor fuzzer - https://www.blackhat.com/docs/us-14/materials/arsenal/us-14-Hernandez-Melkor-Slides.pdf
+* Introduction to the ELF Format
+	- Part I: The ELF Header - https://blog.k3170makan.com/2018/09/introduction-to-elf-format-elf-header.html
+	- Part II: Understanding Program Headers - https://blog.k3170makan.com/2018/09/introduction-to-elf-format-part-ii.html
+	- Part III: The Section Headers - https://blog.k3170makan.com/2018/09/introduction-to-elf-file-format-part.html
+	- Part IV: Exploring Section Types and Special Sections - https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-iv.html
+	- Part V: Understanding C start up .init_array and .fini_array sections - https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-v.html
+	- Part VI(1): The Symbol Table and Relocations - https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi.html
+	- Part VI(2): The Symbol Table and Relocations - https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi_18.html
+	- Part VI(3): More Relocation tricks - r_addend execution - https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi-more.html
+	- Part VII: Dynamic Linking / Loading and the .dynamic section - https://blog.k3170makan.com/2018/11/introduction-to-elf-format-part-vii.html
 * Inside ELF Symbol Tables
 	+ https://blogs.oracle.com/ali/inside-elf-symbol-tables
 	+ http://www.linker-aliens.org/blogs/ali/entry/inside_elf_symbol_tables/
@@ -333,6 +366,7 @@ Contents:
 * RE a 64bit ELF binary - Devil’s swapper write-up - https://0x00sec.org/t/re-a-64bit-elf-binary-devils-swapper-write-up/2379
 * Relocations in ELF Toolchains - https://www.sifive.com/blog/2017/08/21/all-aboard-part-2-relocations/
 * Resolving ELF Relocation Name / Symbols - https://em386.blogspot.com/2006/10/resolving-elf-relocation-name-symbols.html
+* Secure Code Partitioning With ELF binaries (SCOP) - http://bitlackeys.org/papers/secure_code_partitioning_2018.txt
 * Smallest x86 ELF Hello World - http://timelessname.com/elfbin/
 * Targeting File Parsers with S2E and Kaitai Struct - targeted symbolic execution of readelf - https://adrianherrera.github.io/post/kaitai-s2e/
 * The 101 of ELF Binaries on Linux: Understanding and Analysis - https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/
@@ -344,7 +378,7 @@ Contents:
 * The ELF Object File Format by Dissection (1995) - http://www.linuxjournal.com/article/1060
 * The Executable and Linkable Format (ELF)
 	+ https://publicclu2.blogspot.com/2013/05/executable-and-linkable-format-elf.html
-	+ https://www.cs.stevens.edu/~jschauma/810/elf.html
+	+ https://www.cs.stevens.edu/%7Ejschauma/631A/elf.html
 	+ http://web.archive.org/web/20120415084409/http://www.acsu.buffalo.edu:80/~charngda/elf.html
 * The missing link: explaining ELF static linking, semantically - Stephen Kell, Dominic P. Mulligan, Peter Sewell - OOPSLA 2016
 	+ http://www.cl.cam.ac.uk/~pes20/rems/papers/oopsla-elf-linking-2016.pdf
@@ -428,7 +462,14 @@ Contents:
 * HoloDec: Decompiler for x86 and x86-64 ELF binaries - https://github.com/cararasu/holodec
 * Libelf - ELF object file access library - http://www.mr511.de/software/english.html
 	+ libelf-howto - http://chris.rohlf.googlepages.com/libelf-howto.c
+	+ Libelf.js: LibELF port for JavaScript - https://github.com/AlexAltea/libelf.js
 * Libelfin: C++11 ELF/DWARF parser - a from-scratch C++11 library for reading ELF binaries and DWARFv4 debug information - https://github.com/aclements/libelfin
+* libelfmaster: Secure ELF parsing library
+	+ https://github.com/elfmaster/libelfmaster
+	+ libelfmaster_examples - https://github.com/elfmaster/libelfmaster_examples
+* Mandibule: Linux ELF injector for x86 / x86_64 / arm / arm64
+	+ Doesn't use `dlopen` and can inject into statically linked targets by mapping manually the ELF in memory from syscalls only
+	+ https://github.com/ixty/mandibule
 * Melkor - An ELF File Format Fuzzer - https://github.com/IOActive/Melkor_ELF_Fuzzer
 * objdump beautifier - https://github.com/diouziou/bod
 	+ Supported Targets: elf32-littlearm, elf32-tradlittlemips, elf32-i386, elf64-x86-64
@@ -455,6 +496,10 @@ Contents:
 
 ## Talks
 
+* 2018 - The Bits Between the Bits: How We Get to main()
+	+ CppCon 2018; Matt Godbolt
+	+ https://www.youtube.com/watch?v=dOfucXtyEsU
+	+ Slides: https://mattgodbolt.github.io/cppcon-bits-between-bits/
 * 2017 - ELF linking: what it means and why it matters - Stephen Kell (2017) - https://www.cl.cam.ac.uk/~srk31/research/talks/kell17elf-slides.pdf
 * 2017 - FOSDEM 2017 - Everything You Always Wanted to Know About "Hello, World"* (*But Were Afraid To Ask)
 	+ https://archive.fosdem.org/2017/schedule/event/hello_world/
@@ -513,6 +558,7 @@ Contents:
 * Dynamic Linking of Imported Functions in Mach-O - https://www.apriorit.com/dev-blog/225-dynamic-linking-mach-o / https://www.codeproject.com/Articles/187181/Dynamic-Linking-of-Imported-Functions-in-Mach-O
 * Dynamic symbol table duel: ELF vs Mach-O, round 2 - http://timetobleed.com/dynamic-symbol-table-duel-elf-vs-mach-o-round-2/
 * DYLD Detayled - The internals of DYLD, the dynamic linker, and the `__LINKEDIT` section - http://newosxbook.com/articles/DYLD.html
+* Extracting libraries from dyld_shared_cache - https://worthdoingbadly.com/dscextract/
 * Friday Q&A 2012-04-27: PLCrashReporter and Unwinding the Stack With DWARF - https://www.mikeash.com/pyblog/friday-qa-2012-04-27-plcrashreporter-and-unwinding-the-stack-with-dwarf.html
 * Friday Q&A 2012-05-04: PLCrashReporter and Unwinding the Stack With DWARF, Part 2 - https://www.mikeash.com/pyblog/friday-qa-2012-05-04-plcrashreporter-and-unwinding-the-stack-with-dwarf-part-2.html
 * Friday Q&A 2012-11-09: dyld: Dynamic Linking On OS X - https://www.mikeash.com/pyblog/friday-qa-2012-11-09-dyld-dynamic-linking-on-os-x.html
@@ -532,6 +578,8 @@ Contents:
 
 ## Software
 
+* cctools-port: Apple cctools port for Linux, \*BSD and Windows (Cygwin)
+	+ https://github.com/tpoechtrager/cctools-port
 * jtool: (Mach-O Analyzer) - http://www.newosxbook.com/tools/jtool.html
 * MacDependency: shows all dependent libraries and frameworks of a given executable, dynamic library or framework on Mac OS X
 	+ https://github.com/kwin/macdependency/
@@ -549,6 +597,9 @@ Contents:
 
 ## Talks
 
+* 2018 - Mach-O Tricks
+	+ BaiJiuCon at Mobile Security Conference (MOSEC) 2018
+	+ http://iokit.racing/machotricks.pdf
 * 2013 - DEF CON 21 - Mach-O Malware Analysis: Combatting Mac OSX/iOS Malware with Data Visualization
 	+ https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20presentations/Remy%20Baumgarten/
 	+ Slides: https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20presentations/Remy%20Baumgarten/DEFCON-21-Baumgarten-Mach-O-Viz.pdf
@@ -597,6 +648,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ Pdb - extract .pdb information from a .dll/.exe debug directory (Pdb Guid, age, path to .pdb); download the .pdb from symbol server; determine if a .dll matches a .pdb; find a matching .pdb in a folder for a given .dll - https://github.com/KirillOsenkov/MetadataTools/tree/master/Pdb
 * microsoft-pdb: Information from Microsoft about the PDB format - https://github.com/Microsoft/microsoft-pdb
 * MSFViewer - viewing and understanding PDB Multi-Stream File (MSF) data - https://github.com/apoch/epoch-language/tree/master/Tools/MSFViewer
+* pdbex: an utility for reconstructing structures and unions from the PDB into compilable C headers
+	+ https://github.com/wbenny/pdbex
 * pdbinfo:  displays information about PDB symbol files (timestamp, GUID, and age) - https://github.com/randomascii/tools/tree/master/pdbinfo
 * PDBparse - Python code to parse Microsoft PDB files - https://github.com/moyix/pdbparse
 * PdbReader & PdbWriter - Common Compiler Infrastructure (CCI) - https://github.com/Microsoft/cci/tree/master/PDBReaderAndWriter
@@ -620,6 +673,7 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ Part 1: http://reversingproject.info/wp-content/uploads/2009/05/an_in-depth_look_into_the_win32_portable_executable_file_format_part_1.pdf / http://www.delphibasics.info/home/delphibasicsarticles/anin-depthlookintothewin32portableexecutablefileformat-part1
 	+ Part 2: http://reversingproject.info/wp-content/uploads/2009/05/an_in-depth_look_into_the_win32_portable_executable_file_format_part_2.pdf / http://www.delphibasics.info/home/delphibasicsarticles/anin-depthlookintothewin32portableexecutablefileformat-part2
 * Binary offsets, virtual addresses and pefile - https://5d4a.wordpress.com/2017/09/21/binary-offsets-virtual-addresses-and-pefile/
+* Case studies in Rich Header analysis and hunting (2018-08-09) - http://ropgadget.com/posts/richheader_hunting.html
 * Common Object File Format (COFF) - https://support.microsoft.com/en-us/help/121460/common-object-file-format-coff
 * Dynamic Reconstruction of Relocation Information for Stripped Binaries - http://www.cs.columbia.edu/~vpappas/papers/reloc.raid14.pdf
 * Finding the Needle: A Study of the PE32 Rich Header and Respective Malware Triage
@@ -698,6 +752,9 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ http://split-code.com/processdump.html
 	+ https://github.com/glmcdona/Process-Dump
 	+ An Introduction to Dumping Malware with Process Dump - https://www.youtube.com/watch?v=dCU7N-Oh3jg
+* Reflective PE Unloader
+	+ This is code that can be used within a PE file to allow it to reflectively reconstruct itself in memory at runtime. The result is a byte for byte copy of the original PE file. This can be combined with Reflective DLL Injection to allow code to reconstruct itself after being loaded through an arbitrary means.
+	+ https://github.com/zeroSteiner/reflective-polymorphism
 * ripPE - section extractor and profiler for PE file analysis - https://github.com/matonis/ripPE
 * Sizer - Win32/64 executable size report utility
 	+ https://github.com/aras-p/sizer
@@ -709,6 +766,16 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 
 ## Talks
 
+* 2018 - Reflective PE Unloading
+	+ BSides Cleveland 2018; Spencer McIntyre
+	+ https://www.youtube.com/watch?v=GbCVVYMNUzA
+	+ http://www.irongeek.com/i.php?page=videos/bsidescleveland2018/b00-reflective-pe-unloading-spencer-mcintyre
+* 2018 - DEF CON 26 - Relocation Bonus
+	+ A look into the Windows Portable Executable (PE) header and how it can be weaponized to destroy parsers, disassemblers, and other tools
+	+ DEFCON-26-Nick-Cano-Relocation-Bonus-Attacking-the-Win-Loader.pdf
+	+ https://media.defcon.org/DEF%20CON%2026/DEF%20CON%2026%20presentations/Nick%20Cano/
+	+ https://github.com/nickcano/RelocBonus
+	+ https://github.com/nickcano/RelocBonusSlides
 * 2013 - 44Con 2013 - Exploring the Portable Executable format - Ange Albertini
 	+ https://speakerdeck.com/ange/workshop-exploring-the-portable-executable-format
 * 2013 - NoVA Hackers - 2013-03-11 - Joshua Pitts - Backdooring Win32 Portable Executables
