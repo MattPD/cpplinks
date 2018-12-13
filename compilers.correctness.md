@@ -110,7 +110,7 @@ Note: see also [compilers](compilers.md)
 * Fuzzing with Grammars - Generating Software Tests - https://www.fuzzingbook.org/html/Grammars.html
 * Fuzzing the .NET JIT Compiler
 	+ http://mattwarren.org/2018/08/28/Fuzzing-the-.NET-JIT-Compiler/
-	+ Fuzzlyn: Fuzzer for the .NET toolchains - Compiler Testing via a Theory of Sound Optimisations in the C11/C++11 Memory Model
+	+ Fuzzlyn: Fuzzer for the .NET toolchains
 		- https://github.com/jakobbotsch/Fuzzlyn
 * Improving the Utility of Compiler Fuzzers
 	+ 2014 Ph.D. Dissertation; Yang Chen
