@@ -66,6 +66,8 @@
 	+ http://www.shanekirk.com/2015/06/c-exceptions-the-good-the-bad-and-the-ugly/
 * Boris Kolpackov
 	+ Throwing Destructors - https://www.kolpackov.net/projects/c++/eh/dtor-1.xhtml
+* Hyungjoon Koo (Kevin)
+	+ ELF Sections for Exception Handling - http://dandylife.net/blog/archives/686
 * Andrzej Krzemieński
 	+ https://akrzemi1.wordpress.com/2011/09/21/destructors-that-throw/
 	+ https://akrzemi1.wordpress.com/2012/11/14/not-using-stdthread/
@@ -88,7 +90,7 @@
 	+ A look at finding a middle ground between exceptions and `std::expected` by examining what other languages provide.
 	+ http://foonathan.net/blog/2017/12/04/exceptions-vs-expected.html
 * Joseph M. Newcomer - Mythology in C++: Exceptions are Expensive
-	+ Microbenchmarks and assembly examinations to show that exceptions or not as expensive as many say.
+	+ Microbenchmarks and assembly examinations to show that exceptions are not as expensive as many say.
 	+ http://www.flounder.com/exceptions.htm
 * Jussi Pakkanen - Are exceptions slower than error objects
 	+ A series of microbenchmarks examining the relative cost of exceptions and error objects.
@@ -173,6 +175,11 @@
 	+ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.671.6441&rep=rep1&type=pdf
 	+ https://journal.ub.tu-berlin.de/eceasst/article/view/983
 	+ http://fmt.cs.utwente.nl/conferences/avocs2014/slides/slides.pdf
+* Path-Based Function Embedding and Its Application to Error-Handling Specification Mining
+	+ European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2018
+	+ Daniel DeFreez, Aditya V. Thakur, Cindy Rubio-González
+	+ https://doi.org/10.1145/3236024.3236059
+	+ http://web.cs.ucdavis.edu/~rubio/includes/fse18.pdf
 * Report on Exception Handling Lite (Disappointment) from SG14
 	+ Michael Wong, Sunil Srivastava, Sean Middleditch, Patrice Roy
 	+ http://open-std.org/JTC1/SC22/WG21/docs/papers/2016/p0364r0.pdf
@@ -211,8 +218,10 @@
 
 * Are Exceptions in C++ really slow
 	+ https://stackoverflow.com/questions/13835817/are-exceptions-in-c-really-slow/13836329#13836329
-* In what ways do C++ exceptions slow down code when there are no exceptions thown?
+* In what ways do C++ exceptions slow down code when there are no exceptions thrown?
 	+ https://stackoverflow.com/questions/1897940/in-what-ways-do-c-exceptions-slow-down-code-when-there-are-no-exceptions-thown
+
+---
 
 # Software
 
@@ -258,61 +267,101 @@
 	+ Tool for detecting error handling bugs
 	+ https://github.com/yujokang/EPEx
 
+---
+
 # Talks, Videos
 
 ## 2018
 
-* C++Now 2018: Michael Spencer - How Compilers Reason About Exceptions
-	+ https://www.youtube.com/watch?v=C4gpj-MDstY
-	+ https://cppnow2018.sched.com/event/EC7V/how-compilers-reason-about-exceptions
-* CPPDUG (Dublin C/C++ User Group) February 2018: Peter Edwards - C++ Exception Handling - The gory details of an implementation
+* C++ Exception Handling - The gory details of an implementation
+	+ CPPDUG (Dublin C/C++ User Group) February 2018; Peter Edwards
 	+ What happens when throwing an exception on modern Linux systems.
 	+ Slides: https://isainmdom.com/~peadar/eximpl/
 	+ Video: https://www.youtube.com/watch?v=XpRL7exdFL8
+* Deterministic Disappointment
+	+ Dublin C/C++ User Group - September 2018 Meetup; Niall Douglas
+	+ https://www.youtube.com/watch?v=cbUTAoHy6Ls
+	+ Slides: https://docs.google.com/presentation/d/1fSkpD51FKmy8VEO9P86jWN6tOEaBmzHOXo14zLRkFKE/
+	+ Niall covers all the ways past, present and future that one can disappoint deterministically in C++.
+		- Content: What is disappointment? What is determinism? The direction of C++. Future disappointment in C++? Achieving the future today (C++11 system_error, C++11 P1028 SG14 status_code, C++14 (Boost.) Outcome).
+* Ensuring Exception Safety Through Testing
+	+ CppCon 2018; Jon Cohen
+	+ https://www.youtube.com/watch?v=XPzHNSUnTc4
+* Error Handling in Libraries: A Case Study
+	+ 2018 LLVM Developers’ Meeting; James Henderson
+	+ https://www.youtube.com/watch?v=YSEY4pg1YB0
+* How Compilers Reason About Exceptions
+	+ C++Now 2018; Michael Spencer
+	+ https://www.youtube.com/watch?v=C4gpj-MDstY
+	+ https://cppnow2018.sched.com/event/EC7V/how-compilers-reason-about-exceptions
+* Unwinding the Stack: Exploring how C++ Exceptions work on Windows
+	+ CppCon 2018; James McNellis
+	+ https://www.youtube.com/watch?v=COEv2kq_Ht8
+	+ ‏https://1drv.ms/b/s!AoyrqeD9L48NknYwKYcWS0diFlRb
+	+ https://github.com/CppCon/CppCon2018/tree/master/Presentations/Unwinding%20the%20Stack%20-%20Exploring%20How%20C%2B%2B%20Exceptions%20Work%20on%20Windows
+* What Could Possibly Go Wrong?: A Tale of Expectations and Exceptions
+	+ CppCon 2018; Brand & Nash
+	+ https://www.youtube.com/watch?v=GC4cp4U2f2E
+	+ https://levelofindirection.com/refs/expectations.html
 
 ## 2017
 
-* ACCU 2017: Niall Douglas - Mongrel Monads, Dirty, Dirty, Dirty
+* A Story of One Exception
+	+ C++ Meetup Sydney, December 6, 2017; Andrei Tarassov
+	+ A walkthrough on debugging an unknown exception from a core dump (Linux, GDB).
+	+ https://www.youtube.com/watch?v=cWHO3KXcdhU
+* C++ Exceptions and Stack Unwinding
+	+ CppCon 2017; Dave Watson
+	+ Looks at the Itanium exception handling model and several implementations of it.
+	+ Video: https://www.youtube.com/watch?v=_Ivd3qzgT7U
+* Mongrel Monads, Dirty, Dirty, Dirty
+	+ ACCU 2017; Niall Douglas
 	+ An introduction to `Outcome` and presentation of benchmarks of it against exceptions and error codes.
 	+ Slides: https://docs.google.com/presentation/d/1X_3VOxb8PMGXHBzjmzl5oVnwYVIyBpZHcY0Idv_9tSc/edit#slide=id.p
 	+ Video: https://www.youtube.com/watch?v=XVofgKH-uu4
-* C++ Meetup Sydney, December 6, 2017: Andrei Tarassov - A Story of One Exception
-	+ A walkthrough on debugging an unknown exception from a core dump (Linux, GDB).
-	+ https://www.youtube.com/watch?v=cWHO3KXcdhU
-* CppCon 2017: Dave Watson - C++ Exceptions and Stack Unwinding
-	+ Looks at the Itanium exception handling model and several implementations of it.
-	+ Video: https://www.youtube.com/watch?v=_Ivd3qzgT7U
-* Pacific++ 2017: Jason Turner - Rethinking Exceptions
+* Rethinking Exceptions
+	+ Pacific++ 2017; Jason Turner
 	+ An examination of different error handling strategies and the code they generate.
 	+ Video: https://www.youtube.com/watch?v=OkgvqjJzH_Y
 
 ## 2016
 
-* C++Now 2016 - David Stone: Exceptional Performance
-	+ "In this presentation, we will discuss exactly what effect exceptions have on the performance of an application, backed up by numbers from both benchmarks and real world applications. We will go into the details of hardware architecture and memory hierarchy to try to understand exactly why code performs the way it does."
-	+ https://www.youtube.com/watch?v=0_FQIDEf7_Q
-* CppCon 2016: Patrice Roy - The Exception Situation
-	+ An examination of different error handling strategies and where they are appropriate.
-	+ Video: https://www.youtube.com/watch?v=Fno6suiXLPs
-* 2016 LLVM Developers’ Meeting: L. Hames “Error -- Structured Error Handling in LLVM”
+* Error -- Structured Error Handling in LLVM
+	+ 2016 LLVM Developers’ Meeting; L. Hames
 	+ A look at how LLVM does error handling with `llvm::Error`.
 	+ Documentation: http://llvm.org/docs/ProgrammersManual.html#error-handling
 	+ Slides: http://www.llvm.org/devmtg/2016-11/Slides/Hames-Error.pdf
 	+ Video: https://www.youtube.com/watch?v=Wq8fNK98WGw
+* Exceptional Performance
+	+ C++Now 2016; David Stone
+	+ "In this presentation, we will discuss exactly what effect exceptions have on the performance of an application, backed up by numbers from both benchmarks and real world applications. We will go into the details of hardware architecture and memory hierarchy to try to understand exactly why code performs the way it does."
+	+ https://www.youtube.com/watch?v=0_FQIDEf7_Q
+* The Exception Situation
+	+ CppCon 2016; Patrice Roy
+	+ An examination of different error handling strategies and where they are appropriate.
+	+ Video: https://www.youtube.com/watch?v=Fno6suiXLPs
 
 ## 2015
 
-* 2015 LLVM Developers’ Meeting: Reid Kleckner & David Majnemer - Exception handling in LLVM, from Itanium to MSVC
+* Exception handling in LLVM, from Itanium to MSVC
+	+ 2015 LLVM Developers’ Meeting; Reid Kleckner & David Majnemer
 	+ http://www.llvm.org/devmtg/2015-10/slides/KlecknerMajnemer-ExceptionHandling.pdf
 	+ https://www.youtube.com/watch?v=9TlR9hNZbck&list=PL_R5A0lGi1AA4Lv2bBFSwhgDaHvvpVU21&index=15
-* CppCon 2015: Fedor Pikus - The Unexceptional Exceptions
+* The Unexceptional Exceptions
+	+ CppCon 2015; Fedor Pikus
 	+ Guidelines for using exceptions effectively.
 	+ Slides: https://github.com/CppCon/CppCon2015/tree/master/Presentations/Unexceptional%20exceptions
 	+ Video: https://www.youtube.com/watch?v=fOV7I-nmVXw
 
 ## 2014
 
-* CppCon 2014: Jon Kalb - Exception-Safe Code
+* Compiler Internals: Exceptions and RTTI
+	+ Recon 2012; Igor Skochinsky
+	+ http://www.hexblog.com/?p=704
+	+ https://recon.cx/2012/schedule/events/247.en.html
+	+ http://www.hexblog.com/wp-content/uploads/2012/06/Recon-2012-Skochinsky-Compiler-Internals.pdf
+* Exception-Safe Code
+	+ CppCon 2014; Jon Kalb
 	+ A set of guidelines for safe exception usage and solid implementation techniques, including how to transition from an exception-unsafe legacy code base.
 	+ Part 1 video: https://www.youtube.com/watch?v=W7fIy_54y-w
 	+ Part 2 video: https://www.youtube.com/watch?v=b9xMIKb1jMk
