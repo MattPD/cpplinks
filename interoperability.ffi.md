@@ -17,6 +17,8 @@
 * SWIG: Simplified Wrapper and Interface Generator
 	+ http://www.swig.org/
 
+---
+
 # C
 
 * C handler wrapping in C++ - https://arekmd.github.io/wrapping-c-handlers/
@@ -40,26 +42,38 @@
 	+ http://videocortex.io/2017/salami-method/
 	+ The Salami Method: multiplatform C++ development - Adi Shavit, CoreCpp IL Meetup, April 2018
 		- https://www.youtube.com/watch?v=jdEmz3iXNlA
+	+ The Salami Method for Cross Platform Development - CppCon 2018; Adi Shavit
+		- https://www.youtube.com/watch?v=ZSpGNiUvXVI
+
+---
 
 # C#
 
 * CppSharp
 	+ Tools and libraries to glue C/C++ APIs to high-level languages
 	+ https://github.com/mono/CppSharp
+* P/Invoke: A library containing all P/Invoke code so you don't have to import it every time. Maintained and updated to support the latest Windows OS.
+	+ https://github.com/AArnott/pinvoke
 * The .NET Inter-Operability Operation
 	+ Derbycon 2017; James Forshaw
 	+ http://www.irongeek.com/i.php?page=videos/derbycon7/s13-the-net-inter-operability-operation-james-forshaw
+
+---
 
 # Common Lisp
 
 * Clasp — Bringing Common Lisp and C++ Together
 	+ https://github.com/drmeister/clasp
 
+---
+
 # D
 
 * Zero Overhead Interface Between DLang & C++ Standard Lib
 	+ Alexandru Razvan Caciulescu | DConf2017
 	+ https://www.youtube.com/watch?v=c5zGnOWKaGo
+
+---
 
 # Haskell
 
@@ -75,6 +89,8 @@
 	+ http://hackage.haskell.org/package/inline-c-cpp
 	+ https://github.com/fpco/inline-c
 
+---
+
 # Java
 
 * GraalVM: JIT Compiler and Polyglot Runtime for the JVM
@@ -86,6 +102,8 @@
 		- https://github.com/graalvm/sulong
 * JavaCPP: The missing bridge between Java and native C++
 	+ https://github.com/bytedeco/javacpp
+* jni.hpp: a modern, type-safe, header-only, C++14 wrapper for JNI (Java Native Interface)
+	+ https://github.com/mapbox/jni.hpp
 * jnr-ffi: Java Abstracted Foreign Function Layer
 	+ Java library for loading native libraries without writing JNI code by hand or using tools such as SWIG
 	+ https://github.com/jnr/jnr-ffi
@@ -95,6 +113,11 @@
 	+ JNI, Project Panama
 	+ https://www.eventbrite.com/e/nyjavasig-native-interfaces-the-phantom-menace-and-java-9-compatibility-tickets-42519931259#
 	+ https://www.youtube.com/watch?v=YxHb6kAGZ10
+* Panama: A Foreign Policy for Java
+	+ Devoxx 2018; Maurizio Cimadamore
+	+ https://www.youtube.com/watch?v=cfxBrYud9KM
+
+---
 
 # JavaScript
 
@@ -107,11 +130,17 @@
 * nbind: a set of headers that make your C++11 library accessible from JavaScript.
 	+ https://github.com/charto/nbind
 	+ https://github.com/charto/nbind#readme
+* v8pp: Bind C++ functions and classes into V8 JavaScript engine
+	+ https://github.com/pmed/v8pp
+
+---
 
 # Julia
 
 * Cxx.jl: The Julia C++ Interface
 	+ https://github.com/Keno/Cxx.jl
+
+---
 
 # Lua
 
@@ -119,12 +148,18 @@
 	+ Sol is a C++ library binding to Lua. It currently supports all Lua versions 5.1+ (LuaJIT 2.x included). Sol aims to be easy to use and easy to add to a project. The library is header-only for easy integration with projects.
 	+ http://sol2.rtfd.org/
 	+ https://github.com/ThePhD/sol2
+	+ Scripting at the Speed of Thought: Lua and C++ with sol3 - CppCon 2018; JeanHeyd Meneide
+		- https://www.youtube.com/watch?v=xQAmGBfKnas
 * Lua in the Stingray 3D game engine - Niklas Frykholm - https://www.youtube.com/watch?v=wTjyM7d7_YA
+
+---
 
 # PHP
 
 * PHP++: C++11 Class wrap library for PHP7
 	+ https://github.com/phplang/p3
+
+---
 
 # Python
 
@@ -136,11 +171,21 @@
 		- https://blogs.msdn.microsoft.com/yizhang/2018/02/02/calling-c-functions-from-python-part-3-deep-dive-into-ctypes-implementation-in-cpython/
 * cppyy: Automatic Python-C++ bindings
 	+ https://cppyy.readthedocs.io/
+* How and why to write Python binary extension modules using C++
+	+ SwedenCpp::Stockholm::0x0F, September 20, 2018; Thomas Nyberg
+	+ https://www.youtube.com/watch?v=LbiozBn9v6Y
+	+ https://github.com/ApproximateIdentity/cpp_extension_talk
 * pybind11 — Seamless operability between C++11 and Python
 	+ https://github.com/pybind/pybind11
 	+ http://pybind11.readthedocs.io
+	+ pybind11 - seamless operability between C++11 and Python - EuroPython 2017; Ivan Smirnov
+		- https://www.youtube.com/watch?v=jQedHfF1Jfw
+	+ Integrate Python and C++ with pybind11 - NDC 2018; Robert Smallshire
+		- https://www.youtube.com/watch?v=YReJ3pSnNDo
 * Wrappy: Wrapping python made easy
 	+ https://github.com/lava/wrappy
+
+---
 
 # R
 
@@ -154,18 +199,24 @@
 		- https://speakerdeck.com/mattpd/rcpp-seamless-r-and-c-plus-plus-integration-cppcon-2015
 		- https://www.youtube.com/watch?v=xiqYaHa2x4s
 
+---
+
 # Rust
 
 * bindgen: Automatically generates Rust FFI bindings to C and C++ libraries
-	+ https://github.com/rust-lang-nursery/rust-bindgen
+	+ https://github.com/rust-lang/rust-bindgen
 * rustcxx: Using C++ from Rust made easy
 	+ https://github.com/google/rustcxx
+
+---
 
 # Scheme
 
 * SCHeMe UnterstüTZung — easy Guile Scheme C++ bindings
 	+ https://sinusoid.es/schmutz
 	+ https://github.com/arximboldi/schmutz
+
+---
 
 # Stata
 

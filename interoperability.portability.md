@@ -165,10 +165,15 @@
 	+ https://github.com/whitequark/binja_itanium_cxx_abi/blob/master/demangler.py
 * cppmangle: A library for demangling and mangling Visual Studio C++ names
 	+ https://github.com/AVGTechnologies/cppmangle
+* cpp_demangle: A crate for demangling C++ symbols
+	+ https://github.com/gimli-rs/cpp_demangle
 * Demangler: A C++ library and tools for demangling mangled C++ names
 	+ https://github.com/avast-tl/demangler
 	+ https://github.com/avast-tl/retdec/tree/master/src/demangler
 	+ https://github.com/avast-tl/retdec/tree/master/tests/demangler
+* demumble: A better c++filt and a better undname.exe, in one binary.
+	+ demumble demangles both POSIX and Visual Studio symbols. It runs on both POSIX and Windows.
+	+ https://github.com/nico/demumble
 * GCC and MSVC C++ Demangler - http://demangler.com/
 
 ## Talks
