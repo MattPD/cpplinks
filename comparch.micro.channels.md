@@ -86,8 +86,11 @@ See also: [Computer Architecture](comparch.md)
 * Software-based Microarchitectural Attacks - Daniel Gruss, PhD thesis, 2017
 	+ https://gruss.cc/files/phd_thesis.pdf
 	+ slides: https://gruss.cc/files/phd_defense_slides.pdf
-* Survey of Microarchitectural Side and Covert Channels, Attacks, and Defenses - Jakub Szefer 
-	+ http://eprint.iacr.org/2016/479
+* Survey of Microarchitectural Side and Covert Channels, Attacks, and Defenses
+	+ Journal of Hardware and Systems Security (2018)
+	+ Jakub Szefer
+	+ preprint: http://eprint.iacr.org/2016/479
+	+ https://link.springer.com/article/10.1007/s41635-018-0046-1
 * Systematic Classification of Side-Channel Attacks: A Case Study for Mobile Devices - https://arxiv.org/abs/1611.03748
 * The Last Mile: An Empirical Study of Timing Channels on seL4
 	+ http://research.davidcock.fastmail.fm/slides/lastmile.pdf
@@ -690,6 +693,7 @@ See also: [Computer Architecture](comparch.md)
 	+ Computer and Communications Security (CCS) 2018
 	+ Youngjoo Shin, Hyung Chan Kim, Dokeun Kwon, Ji Hoon Jeong, Junbeom Hur
 	+ http://isslab.korea.ac.kr/notice/read/1/77
+	+ https://dl.acm.org/citation.cfm?doid=3243734.3243736
 * Using Undocumented CPU Behavior to See Into Kernel Mode and Break KASLR in the Process
 	+ https://www.youtube.com/watch?v=Pwq0vv4X7m4
 	+ https://www.blackhat.com/docs/us-16/materials/us-16-Fogh-Using-Undocumented-CPU-Behaviour-To-See-Into-Kernel-Mode-And-Break-KASLR-In-The-Process.pdf
@@ -826,6 +830,7 @@ See also: [Computer Architecture](comparch.md)
 	+ CPU security bugs caused by speculative execution - https://github.com/marcan/speculation-bugs
 	+ Intel Analysis of Speculative Execution Side Channels - https://newsroom.intel.com/wp-content/uploads/sites/11/2018/01/Intel-Analysis-of-Speculative-Execution-Side-Channels.pdf
 	+ meltdownspectre-patches: summary of the patch status - https://github.com/hannob/meltdownspectre-patches
+	+ Mitigating Spectre variant 2 with Retpoline on Windows - https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/Mitigating-Spectre-variant-2-with-Retpoline-on-Windows/ba-p/295618
 	+ More details about mitigations for the CPU Speculative Execution issue - https://security.googleblog.com/2018/01/more-details-about-mitigations-for-cpu_4.html
 	+ Retpoline: a software construct for preventing branch-target-injection - https://support.google.com/faqs/answer/7625886
 	+ How Performance Optimizations Shatter Security Boundaries

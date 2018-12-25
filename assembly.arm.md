@@ -39,6 +39,9 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 ## Concurrency
 
+* Formalising the ARMv8 Memory Consistency Model
+	+ Will Deacon, ARM, Keynote, OpenSHMEM 2018
+	+ https://www.csm.ornl.gov/workshops/openshmem2018/presentations/mm-openshmem2018.pdf
 * Mixed-size Concurrency: ARM, POWER, C/C++11, and SC
 	+ POPL 2017
 	+ Shaked Flur, Susmit Sarkar, Christopher Pulte, Kyndylan Nienhuis, Luc Maranget, Kathryn E. Gray, Ali Sezgin, Mark Batty, Peter Sewell

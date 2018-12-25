@@ -82,6 +82,8 @@ https://riscv.org/publications/
 
 # Open-Source Hardware Projects
 
+Taxonomy of Open Source Processors - http://parallel.princeton.edu/openpiton/open_source_processors.php
+
 * Ariane RISC-V CPU (SystemVerilog)
 	+ Ariane is a 6-stage, single issue, in-order CPU which implements the 64-bit RISC-V instruction set.
 	+ https://pulp-platform.github.io/ariane/

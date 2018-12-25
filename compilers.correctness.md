@@ -69,6 +69,11 @@ Note: see also [compilers](compilers.md)
 	+ http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15_talk.pdf
 * Compiler fuzzing, part 1
 	+ http://www.vegardno.net/2018/06/compiler-fuzzing.html
+* Compiler Fuzzing through Deep Learning
+	+ Chris Cummins, Pavlos Petoumenos, Hugh Leather and Alastair Murray
+	+ International Symposium on Software Testing and Analysis (ISSTA) 2018
+	+ http://homepages.inf.ed.ac.uk/hleather/publications/2018_deepfuzzing_issta.pdf
+	+ https://chriscummins.cc/deepsmith
 * Compiler Testing via a Theory of Sound Optimisations in the C11/C++11 Memory Model
 	+ Programming Language Design and Implementation (PLDI) 2013
 	+ Robin Morisset, Pankaj Pawan, Francesco Zappa Nardelli
@@ -125,6 +130,12 @@ Note: see also [compilers](compilers.md)
 	+ International Conference on Software Engineering (ICSE 2017)
 	+ Junjie Chen, Yanwei Bai, Dan Hao, Yingfei Xiong, Hongyu Zhang, Bing Xie
 	+ http://sei.pku.edu.cn/~xiongyf04/papers/ICSE17b.pdf
+* Nautilus: Fishing for Deep Bugs with Grammars
+	+ Network and Distributed System Security Symposium (NDSS) 2019
+	+ Cornelius Aschermann, Tommaso Frassetto, Thorsten Holz, Patrick Jauernig, Ahmad-Reza Sadeghi, Daniel Teuchert
+	+ https://www.syssec.ruhr-uni-bochum.de/research/publications/nautilus/
+	+ https://github.com/RUB-SysSec/nautilus
+	+ testing applications: ChakraCore (the JavaScript engine of Microsoft Edge), PHP, mruby, and Lua
 * RandIR: Differential Testing for Embedded Compilers - https://www.cs.purdue.edu/homes/rompf/papers/ofenbeck-scala16.pdf
 * Reinforcing Random Testing of Arithmetic Optimization of C Compilers by Scaling up Size and Number of Expressions, IPSJ Transactions on System LSI Design Methodology, vol. 7, 2014. E. Nagai, A. Hashimoto, and N. Ishiura. <https://www.jstage.jst.go.jp/article/ipsjtsldm/7/0/7_91/_article>
 * Scaling up Size and Number of Expressions in Random Testing of Arithmetic Optimization of C Compilers

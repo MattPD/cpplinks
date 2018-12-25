@@ -301,6 +301,7 @@ Contents:
 * ELF Binary Mangling
 	+ Part 1: Concepts - https://medium.com/@dmxinajeansuit/elf-binary-mangling-part-1-concepts-e00cb1352301
 	+ Part 2: Golfin’ - https://medium.com/@dmxinajeansuit/elf-binary-mangling-pt-2-golfin-7e5c82bb482c
+	+ Part 3: Weaponization - https://medium.com/@dmxinajeansuit/elf-binary-mangling-part-3-weaponization-6e11971108b3
 * ELF File Format - http://resources.infosecinstitute.com/elf-file-format/
 * ELF Hello World Tutorial
 	+ http://www.cirosantilli.com/elf-hello-world/
@@ -653,6 +654,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 * pdbinfo:  displays information about PDB symbol files (timestamp, GUID, and age) - https://github.com/randomascii/tools/tree/master/pdbinfo
 * PDBparse - Python code to parse Microsoft PDB files - https://github.com/moyix/pdbparse
 * PdbReader & PdbWriter - Common Compiler Infrastructure (CCI) - https://github.com/Microsoft/cci/tree/master/PDBReaderAndWriter
+* SymDiff: Diff tool for comparing symbols in PDB files
+	+ https://github.com/WalkingCat/SymDiff
 * Syzygy Transformation Toolchain - PDB Module - https://github.com/google/syzygy/tree/master/syzygy/pdb
 
 ## Talks
@@ -704,6 +707,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 ## Software
 
 * Adlice PEViewer - https://www.adlice.com/download/roguekillerpe/
+* Amber: Reflective PE packer
+	+ https://github.com/EgeBalci/Amber
 * bearparser: Portable Executable parsing library - https://github.com/hasherezade/bearparser
 * CFF Explorer - http://www.ntcore.com/exsuite.php
 * Corkami PE files corpus - https://github.com/corkami/pocs/tree/master/PE
