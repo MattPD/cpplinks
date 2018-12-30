@@ -155,6 +155,8 @@
 	+ http://www.brendangregg.com/blog/2016-03-28/linux-bpf-bcc-road-ahead-2016.html
 	+ http://www.brendangregg.com/blog/2016-06-14/ubuntu-xenial-bcc-bpf.html
 	+ https://qmonnet.github.io/whirl-offload/2016/09/01/dive-into-bpf/
+* easy_profiler: Lightweight cross-platform profiler library for C++
+	+ https://github.com/yse/easy_profiler
 * Event Tracing for Windows (ETW) / Windows Performance Toolkit – Xperf
 	+ https://blogs.msdn.microsoft.com/ntdebugging/2008/04/03/windows-performance-toolkit-xperf/
 	+ ETW Central: https://randomascii.wordpress.com/2015/09/24/etw-central/
@@ -175,6 +177,8 @@
 	+ https://github.com/RRZE-HPC/likwid/wiki/likwid-perfctr
 	+ https://github.com/RRZE-HPC/likwid/wiki/TutorialMarkerC
 	+ https://github.com/RRZE-HPC/likwid/wiki/PatternsHaswellEP
+* microprofile: an embeddable profiler
+	+ https://github.com/jonasmr/microprofile
 * perf
 	+ https://perf.wiki.kernel.org/
 	+ http://www.brendangregg.com/perf.html
@@ -199,6 +203,8 @@
 * Processor Counter Monitor (PCM)
 	+ https://github.com/opcm/pcm
 	+ Intel Performance Counter Monitor (PCM) - http://www.intel.com/software/pcm
+* Remotery: Single C file, Realtime CPU/GPU Profiler with Remote Web Viewer
+	+ https://github.com/Celtoys/Remotery
 * sysdig
 	+ https://github.com/draios/sysdig
 	+ https://sysdig.com/blog/50-shades-of-system-calls/
