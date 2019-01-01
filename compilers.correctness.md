@@ -289,6 +289,10 @@ Validation: Including translation validation, equivalence checking.
 	+ 2016 PhD thesis; Yuting Wang 
 	+ https://arxiv.org/abs/1702.03363
 	+ http://www.cs.yale.edu/homes/wang-yuting/files/phd_thesis.pdf
+* A Verified Compiler for a Linear Function/Imperative Intermediate Language
+	+ 2018 PhD Thesis; Sigurd Schneider
+	+ https://www.ps.uni-saarland.de/Publications/documents/Schneider_2018_PhDThesis.pdf
+	+ LVC - Linear Verified Compiler: https://www.ps.uni-saarland.de/~sdschn/LVC.html
 * ALIVe: Automatic LLVM InstCombine Verifier
 	+ https://github.com/nunoplopes/alive
 	+ online: http://rise4fun.com/Alive
