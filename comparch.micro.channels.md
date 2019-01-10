@@ -169,6 +169,11 @@ See also: [Computer Architecture](comparch.md)
 	+ Daniel Gruss, Moritz Lipp, Michael Schwarz, Richard Fellner, Clémentine Maurice, Stefan Mangard 
 	+ https://gruss.cc/files/kaiser.pdf
 	+ https://github.com/IAIK/KAISER
+* MicroWalk: A Framework for Finding Side Channels in Binaries
+	+ Annual Computer Security Applications Conference (ACSAC) 2018
+	+ Jan Wichelmann, Ahmad Moghimi, Thomas Eisenbarth, Berk Sunar
+	+ https://arxiv.org/abs/1808.05575
+	+ https://github.com/UzL-ITS/Microwalk
 * Mitigating Speculative Attacks in Crypto
 	+ https://github.com/HACS-workshop/spectre-mitigations/blob/master/crypto_guidelines.md
 * Mitigating speculative execution side channel hardware vulnerabilities
