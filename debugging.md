@@ -110,6 +110,11 @@ _Books, Books Reviews_
 	+ International Conference on Software Engineering (ICSE) 2018
 	+ https://www.cs.purdue.edu/homes/ma229/papers/ICSE18.pdf
 	+ https://blog.acolyer.org/2018/06/19/debugging-with-intelligence-via-probabilistic-inference/
+* Debugopt: Debugging fully optimized natively compiled programs using multistage instrumentation
+	+ Science of Computer Programming 169 (2019)
+	+ Jie Yin, Gang Tan, Hao Li, Xiaolong Bai, Yu Ping Wang, Shi Min Hu
+	+ https://www.sciencedirect.com/science/article/pii/S0167642318303629
+	+ https://oslab.cs.tsinghua.edu.cn/debugopt/debugopt.html
 * Fast, Flexible, Polyglot Instrumentation Support for Debuggers and other Tools
 	+ The Art, Science, and Engineering of Programming, 2018, Vol. 2, Issue 3, Article 14
 	+ Van De Vanter, Michael; Seaton, Chris; Haupt, Michael; Humer, Christian; Würthinger, Thomas
