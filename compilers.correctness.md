@@ -78,6 +78,10 @@ Note: see also [compilers](compilers.md)
 	+ Programming Language Design and Implementation (PLDI) 2013
 	+ Robin Morisset, Pankaj Pawan, Francesco Zappa Nardelli
 	+ https://www.di.ens.fr/~zappa/readings/pldi13.pdf
+* Coverage Prediction for Accelerating Compiler Testing
+	+ IEEE Transactions on Software Engineering (2019)
+	+ Junjie Chen, Guancheng Wang, Dan Hao, Yingfei Xiong, Hongyu Zhang, Lu Zhang, Bing Xie
+	+ https://ieeexplore.ieee.org/abstract/document/8588375
 * DATm: Diderot's Automated Testing Model.
 	+ 39th International Conference on Software Engineering ICSE (12th International Workshop on Automation of Software Test AST) 2017
 	+ C. Chiw, G. Kindlmann, J. Reppy
@@ -274,6 +278,11 @@ Validation: Including translation validation, equivalence checking.
 	+ PLDI 2000
 	+ George C. Necula
 	+ https://dl.acm.org/citation.cfm?id=349314
+* Translation Validation for Verified, Efficient and Timely Operating Systems
+	+ 2017 PhD Dissertation; Thomas Sewell
+	+ http://handle.unsw.edu.au/1959.4/58861
+	+ https://ts.data61.csiro.au/publications/papers/Sewell:phd
+	+ https://ts.data61.csiro.au/projects/TS/compiler-correctness.pml
 * Translation Validation of Bounded Exhaustive Test Cases - Nuno Lopes, John Regehr - https://blog.regehr.org/archives/1510
 * Translation Validation with Alive - https://github.com/nunoplopes/alive/tree/newsema/tv
 * Validating Optimizations of Concurrent C/C++ Programs
@@ -319,10 +328,15 @@ Validation: Including translation validation, equivalence checking.
 * CakeML: A Verified Implementation of ML
 	+ https://cakeml.org/
 	+ https://github.com/CakeML/cakeml
-	+ Verified Compilation of CakeML to Multiple Machine-Code Targets. In Certified Programs and Proofs (CPP), 2017.
+	+ Verified Compilation of CakeML to Multiple Machine-Code Targets
+		- Certified Programs and Proofs (CPP) 2017
 		- Anthony Fox, Magnus O. Myreen, Yong Kiam Tan, Ramana Kumar.
 		- http://www.cl.cam.ac.uk/~mom22/cpp17.pdf
 		- http://www.cl.cam.ac.uk/~mom22/publications.html
+	+ The Verified CakeML Compiler Backend
+		- JFP 2019
+		- Yong Kiam Tan, Magnus O. Myreen, Ramana Kumar, Anthony Fox, Scott Owens, Michael Norrish
+		- https://www.cs.cmu.edu/~yongkiat/files/cakeml-jfp.pdf
 * CompCert: formally-verified C compiler
 	+ http://compcert.inria.fr/
 	+ https://github.com/AbsInt/CompCert 
