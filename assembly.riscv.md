@@ -74,6 +74,11 @@ https://riscv.org/publications/
 	+ https://github.com/rsnikhil/Experimental_RISCV_Feature_Model
 * RISC-V Formal Verification Framework - https://github.com/cliffordwolf/riscv-formal
 * RISC-V ISA Formal Spec in BSV (Bluespec SystemVerilog) - https://github.com/rsnikhil/RISCV_ISA_Formal_Spec_in_BSV
+* RISC-V Litmus Tests
+	- RISC-V architecture concurrency model litmus tests
+	- https://github.com/litmus-tests/litmus-tests-riscv
+* RISC-V Sail ISA model
+	- https://github.com/rems-project/sail-riscv
 * RISCV-ISA-Spec: Formal specification of RISC-V Instruction Set - https://github.com/rsnikhil/RISCV-ISA-Spec
 * riscv-coq: RISC-V Specification in Coq - https://github.com/mit-plv/riscv-coq
 * riscv-semantics: formal specification of the RISC-V ISA written in Haskell - https://github.com/mit-plv/riscv-semantics
