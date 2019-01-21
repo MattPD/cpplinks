@@ -77,6 +77,8 @@
 	+ https://akrzemi1.wordpress.com/2014/03/13/find-the-bug-comments/
 	+ https://akrzemi1.wordpress.com/2014/04/24/noexcept-what-for/
 	+ https://akrzemi1.wordpress.com/2014/09/19/destructors-2-use-cases/
+* Akshay Kumar
+	+ How McSema Handles C++ Exceptions - https://blog.trailofbits.com/2019/01/21/how-mcsema-handles-c-exceptions/
 * Joseph Mansfield - Exceptions, error codes, and assertions in C++
 	+ A high-level look at different error handling techniques and guidelines on when to use them.
 	+ http://josephmansfield.uk/articles/exceptions-error-codes-assertions-c++.html
