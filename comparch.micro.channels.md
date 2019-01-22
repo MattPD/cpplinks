@@ -89,7 +89,8 @@ See also: [Computer Architecture](comparch.md)
 * Survey of Microarchitectural Side and Covert Channels, Attacks, and Defenses
 	+ Journal of Hardware and Systems Security (2018)
 	+ Jakub Szefer
-	+ preprint: http://eprint.iacr.org/2016/479
+	+ http://caslab.csl.yale.edu/publications/2018_hass.pdf
+	+ 2016 preprint: http://eprint.iacr.org/2016/479
 	+ https://link.springer.com/article/10.1007/s41635-018-0046-1
 * Systematic Classification of Side-Channel Attacks: A Case Study for Mobile Devices - https://arxiv.org/abs/1611.03748
 * The Last Mile: An Empirical Study of Timing Channels on seL4
@@ -148,6 +149,10 @@ See also: [Computer Architecture](comparch.md)
 	+ https://github.com/agl/ctgrind/
 * CTTK (Constant-Time Toolkit)
 	+ https://github.com/pornin/CTTK
+* Data Oblivious ISA Extensions for Side Channel-Resistant and High Performance Computing
+	+ Network and Distributed System Security Symposium (NDSS) 2019
+	+ Jiyong Yu and Lucas Hsiung and Mohamad El Hajj, Christopher W. Fletcher
+	+ https://eprint.iacr.org/2018/808
 * Did we learn from LLC Side Channel Attacks? A Cache Leakage Detection Tool for Crypto Libraries
 	+ 2017; Gorka Irazoqui, Kai Cong, Xiaofei Guo, Hareesh Khattri, Arun Kanuparthi, Thomas Eisenbarth, Berk Sunar
 	+ https://arxiv.org/abs/1709.01552
@@ -157,6 +162,10 @@ See also: [Computer Architecture](comparch.md)
 	+ Sunjay Cauligi, Gary Soeller, Fraser Brown, Brian Johannesmeyer, Yunlu Huang, Ranjit Jhala, Deian Stefan
 	+ https://cseweb.ucsd.edu/~dstefan/pubs/cauligi:2017:fact.pdf
 	+ https://github.com/PLSysSec/FaCT
+* Hardware and Architectural Support for Security and Privacy (HASP)
+	+ http://caslab.csl.yale.edu/workshops/hasp2018/
+* IEEE International Symposium on Hardware Oriented Security and Trust (HOST)
+	+ http://www.hostsymposium.org/
 * InvisiSpec: Making Speculative Execution Invisible in the Cache Hierarchy 
 	+ International Symposium on Microarchitecture (MICRO) 2018
 	+ Mengjia Yan, Jiho Choi, Dimitrios Skarlatos, Adam Morrison, Christopher W. Fletcher, Josep Torrellas
@@ -180,6 +189,10 @@ See also: [Computer Architecture](comparch.md)
 	+ https://blogs.technet.microsoft.com/srd/2018/03/15/mitigating-speculative-execution-side-channel-hardware-vulnerabilities/
 * ParTI - Towards Combined Hardware Countermeasures against Side Channel and Fault Injection Attacks - CHES 2016 
 	+ https://www.youtube.com/watch?v=wTJvb6k5yp0
+* Principles of Secure Processor Architecture Design
+	+ 2019 book; Jakub Szefer
+	+ http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1315
+	+ HiPEAC 2019 Tutorial: http://caslab.csl.yale.edu/tutorials/hipeac2019/
 * Provably secure compilation of side-channel countermeasures
 	+ Cryptology ePrint Archive: Report 2017/1233
 	+ Gilles Barthe, Benjamin Grégoire, Vincent Laporte
@@ -285,7 +298,9 @@ See also: [Computer Architecture](comparch.md)
 	+ https://github.com/IAIK/armageddon
 	+ thesis: https://www.blackhat.com/docs/eu-16/materials/eu-16-Lipp-ARMageddon-How-Your-Smartphone-CPU-Breaks-Software-Level-Security-And-Privacy-wp.pdf
 	+ slides: https://www.blackhat.com/docs/eu-16/materials/eu-16-Lipp-ARMageddon-How-Your-Smartphone-CPU-Breaks-Software-Level-Security-And-Privacy.pdf
-	+ https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/lipp
+	+ USENIX Security 2016
+		- Moritz Lipp, Daniel Gruss, Raphael Spreitzer, Clémentine Maurice, Stefan Mangard
+		- https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/lipp
 * Attack Directories, Not Caches: Side Channel Attacks in a Non-Inclusive World
 	+ Mengjia Yan, Read Sprabery, Bhargava Gopireddy, Christopher Fletcher, Roy Campbell, Josep Torrellas
 	+ IEEE Symposium on Security and Privacy (SP) 2019
@@ -295,6 +310,10 @@ See also: [Computer Architecture](comparch.md)
 		- "We design the first cross-core Prime+Probe attack on non-inclusive caches."
 		- "Using our Eviction Sets, we reverse engineer the directory structure in Skylake-X, and identify vulnerabilities in directory design that can be leveraged by cache-based side channel attacks."
 		- "Based on our EV construction results, we are able to reverse engineer part of the slice hash function in the Intel Skylake-X processor. Our goal here is to show that the slice hash function is not a simple XOR operation of selected physical address bits. This design is significantly different from the one in previous Intel processors such as SandyBridge and IvyBridge. Considering that all of the previous works on reverse-engineering slice hash functions, rely on the use of a simple XOR hash function, our results identify the need for more advanced reverse-engineering approaches."
+* AutoLock: Why Cache Attacks on ARM Are Harder Than You Think
+	+ USENIX Security 2017
+	+ Marc Green, Leandro Rodrigues Lima, Andreas Zankl, Gorka Irazoqui, Johann Heyszl, Thomas Eisenbarth
+	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/green
 * C5: Cross-Cores Cache Covert Channel, 2015
 	+ Detection of Intrusions and Malware, and Vulnerability Assessment
 	+ http://www.s3.eurecom.fr/docs/dimva15_clementine.pdf
@@ -409,6 +428,10 @@ See also: [Computer Architecture](comparch.md)
 	+ Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA) 2016
 	+ http://arxiv.org/abs/1507.06955
 	+ https://github.com/IAIK/rowhammerjs
+* Spying on Temperature using DRAM
+	+ Design, Automation, and Test in Europe (DATE) 2019
+	+ Wenjie Xiong, Nikolaos Athanasios Anagnostopoulos, André Schaller, Stefan Katzenbeisser, Jakub Szefer
+	+ http://caslab.csl.yale.edu/code/tempspy/
 * Throwhammer: Rowhammer Attacks over the Network and Defenses
 	+ USENIX ATC (Annual Technical Conference) 2018
 	+ Andrei Tatar, Radhesh Krishnan, Elias Athanasopoulos, Cristiano Giuffrida, Herbert Bos, Kaveh Razavi
@@ -526,6 +549,10 @@ See also: [Computer Architecture](comparch.md)
 * Side Channel Attack on Low Power FPGA Platform
 	+ 2016 Master Thesis; Mustafa Faraj
 	+ https://uwspace.uwaterloo.ca/bitstream/handle/10012/10769/Faraj_Mustafa.pdf?sequence=3
+* Temporal Thermal Covert Channels in Cloud FPGAs
+	+ International Symposium on Field-Programmable Gate Arrays (FPGA) 2019
+	+ Shanquan Tian and Jakub Szefer
+	+ http://csl.yale.edu/index.php/publications/
 
 ---
 
@@ -758,11 +785,18 @@ See also: [Computer Architecture](comparch.md)
 	+ Guoxing Chen, Wenhao Wang, Tianyu Chen, Sanchuan Chen, Yinqian Zhang, XiaoFeng Wang, Ten-Hwang Lai, Dongdai Lin
 	+ https://web.cse.ohio-state.edu/~zhang.834/papers/sp18.pdf
 	+ https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a388.pdf
+* SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control
+	+ https://github.com/jovanbulck/sgx-step
 * SgxPectre Attacks: Leaking Enclave Secrets via Speculative Execution
 	+ 2018 arXiv; Guoxing Chen, Sanchuan Chen, Yuan Xiao, Yinqian Zhang, Zhiqiang Lin, Ten H. Lai
 	+ https://arxiv.org/abs/1802.09085
 	+ https://github.com/osusecLab/SgxPectre
 * Side Channels on Intel SGX - https://web.cse.ohio-state.edu/~zhang.834/projects/sgx-side-channels.html
+* Tutorial: Uncovering and mitigating side-channel leakage in Intel SGX enclaves
+	+ Security, Privacy, and Applied Cryptography Engineering (SPACE) 2018
+	+ Jo Van Bulck, Frank Piessens
+	+ https://github.com/jovanbulck/sgx-tutorial-space18
+	+ https://people.cs.kuleuven.be/~jo.vanbulck/space18.pdf
 
 ---
 
@@ -896,6 +930,10 @@ See also: [Computer Architecture](comparch.md)
 
 ## 2018
 
+* A Christmas Carol - The Spectres of the Past, Present, and Future 
+	+ 35c3 (2018)
+	+ Moritz Lipp, Michael Schwarz, Daniel Gruss and Claudio Canella 
+	+ https://media.ccc.de/v/35c3-9893-a_christmas_carol_-_the_spectres_of_the_past_present_and_future
 * Beyond Belief: The Case of Spectre and Meltdown
 	+ [BlueHatIL](http://www.bluehatil.com/abstracts.html) 2018
 	+ Daniel Gruss, Moritz Lipp, Michael Schwarz
