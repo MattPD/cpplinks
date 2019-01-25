@@ -42,13 +42,21 @@ See also: [Computer Architecture](comparch.md)
 # General
 
 * A Note on the Confinement Problem
-	+ Butler W. Lampson, Communications of the ACM (CACM) 1973
+	+ Communications of the ACM (CACM) 1973; Butler W. Lampson
 	+ http://bwlampson.site/11-Confinement/Abstract.html
 * A Survey of Microarchitectural Timing Attacks and Countermeasures on Contemporary Hardware
-	+ Q.Ge, Y. Yarom, D. Cock, and G. Heiser, Cryptology ePrint Archive, Report 2016/613
+	+ Q.Ge, Y. Yarom, D. Cock, and G. Heiser
+	+ Journal of Cryptographic Engineering 8 (1) 2018
+	+ http://dx.doi.org/10.1007/s13389-016-0141-6
+	+ Cryptology ePrint Archive, Report 2016/613
 	+ http://eprint.iacr.org/2016/613
 	+ https://ts.data61.csiro.au/publications/nictaabstracts/9074.pdf
 	+ http://eprint.iacr.org.metacomment.io/2016/613
+* A Survey of Timing Channels and Countermeasures
+	+ ACM Computing Surveys (CSUR) Volume 50 Issue 1 (2017)
+	+ Arnab Kumar Biswas, Diapk Ghosal, Shishir Nagaraja
+	+ https://dl.acm.org/citation.cfm?id=3023872
+	+ https://strathprints.strath.ac.uk/66223/1/Biswas_etal_ACM_CS_2017_A_survey_of_timing_channels_and_countermeasures.pdf
 * A Systematic Evaluation of Transient Execution Attacks and Defenses
 	+ 2018 arXiv
 	+ Claudio Canella, Jo Van Bulck, Michael Schwarz, Moritz Lipp, Benjamin von Berg, Philipp Ortner, Frank Piessens, Dmitry Evtyushkin, Daniel Gruss 
@@ -73,7 +81,8 @@ See also: [Computer Architecture](comparch.md)
 	+ https://cryptologie.net/article/367/ches-2016-tutorial-part-2-micro-architectural-side-channel-attacks/
 * Memory Systems attacks/mitigations research papers
 	+ https://www.cse.iitk.ac.in/users/biswap/SMS.html
-* Microarchitectural Side-Channel Attacks - CHES 2016 tutorial
+* Microarchitectural Side-Channel Attacks
+	+ CHES 2016 tutorial
 	+ http://cs.adelaide.edu.au/~yval/CHES16/
 	+ http://cs.adelaide.edu.au/~yval/CHES16/CHES16-tutorial.pptx
 	+ http://cs.adelaide.edu.au/~yval/CHES16/CHES16-tutorial2.pptx
@@ -107,15 +116,16 @@ See also: [Computer Architecture](comparch.md)
 
 # Defense, Mitigation, Protection
 
-* A Hardware Design Language for Timing-Sensitive Information-Flow Security
-	+ ASPLOS 2015
-	+ Danfeng Zhang, Yao Wang, G. Edward Suh, Andrew C. Myers
-	+ http://www.cs.cornell.edu/andru/papers/asplos15/
-	+ Meltdown, Spectre, and why hardware can be correct yet insecure
-		- https://andrumyers.wordpress.com/2018/01/17/meltdown-spectre-and-how-hardware-can-be-correct-but-insecure/
-* An Inside Story of Mitigating Speculative Execution Side Channel Vulnerabilities
-	+ Black Hat 2018; Anders Fogh, Christopher Ertl
-	+ https://www.youtube.com/watch?v=_J9MpK4MQWk
+* Hardware and Architectural Support for Security and Privacy (HASP)
+	+ http://caslab.csl.yale.edu/workshops/hasp2018/
+* Hardware Security @ UNC - https://cs.unc.edu/~csturton/HWSecurityatUNC/
+	+ Security Specification Mining - https://cs.unc.edu/~csturton/HWSecurityatUNC/specification_mining.html
+	+ Symbolic Execution for Hardware - https://cs.unc.edu/~csturton/HWSecurityatUNC/symbolic_execution.html
+* IEEE International Symposium on Hardware Oriented Security and Trust (HOST)
+	+ http://www.hostsymposium.org/
+
+## Defense - Cache
+
 * Architecting against Software Cache-Based Side-Channel Attacks
 	+ IEEE Transactions on Computers 62(7), July 2013
 	+ Jingfei Kong, O. Aciicmez, J-P Seifert, Huiyang Zhou
@@ -137,42 +147,83 @@ See also: [Computer Architecture](comparch.md)
 * CacheShield: Protecting Legacy Processes Against Cache Attacks
 	+ 2017; Samira Briongos, Gorka Irazoqui, Pedro Malagón, Thomas Eisenbarth
 	+ https://arxiv.org/abs/1709.01795
-* Capability Hardware Enhanced RISC Insns (CHERI): Notes on the Meltdown and Spectre Attacks
+* CEASER: Mitigating Conflict-Based Cache Attacks via Encrypted-Address and Remapping
+	+ MICRO 2018
+	+ Moinuddin K. Qureshi
+	+ http://memlab.ece.gatech.edu/papers/MICRO_2018_2.pdf
+* DAWG: A Defense Against Cache Timing Attacks in Speculative Execution Processors
+	+ MICRO 2018
+	+ Vladimir Kiriansky, Ilia A. Lebedev, Saman P. Amarasinghe, Srinivas Devadas, Joel S. Emer
+	+ https://doi.org/10.1109/MICRO.2018.00083
+* Did we learn from LLC Side Channel Attacks? A Cache Leakage Detection Tool for Crypto Libraries
+	+ 2017; Gorka Irazoqui, Kai Cong, Xiaofei Guo, Hareesh Khattri, Arun Kanuparthi, Thomas Eisenbarth, Berk Sunar
+	+ https://arxiv.org/abs/1709.01552
+* Secure Hierarchy-Aware Cache Replacement Policy (SHARP): Defending Against Cache-Based Side Channel Attacks
+	+ ISCA 2017
+	+ Mengjia Yan, Bhargava Gopireddy, Thomas Shull, Josep Torrellas
+	+ https://ieeexplore.ieee.org/abstract/document/8192484
+* Strong and Efficient Cache Side-Channel Protection using Hardware Transactional Memory
+	+ USENIX Security Symposium 2017
+	+ Daniel Gruss, Julian Lettner, Felix Schuster, Olga Ohrimenko, István Haller, Manuel Costa
+	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/gruss
+	+ https://gruss.cc/files/cloak.pdf
+	+ https://github.com/Microsoft/msr-cloak
+
+## Defense - Hardware Design & Verification
+
+* A Hardware Design Language for Timing-Sensitive Information-Flow Security
+	+ ASPLOS 2015
+	+ Danfeng Zhang, Yao Wang, G. Edward Suh, Andrew C. Myers
+	+ http://www.cs.cornell.edu/andru/papers/asplos15/
+	+ Meltdown, Spectre, and why hardware can be correct yet insecure
+		- https://andrumyers.wordpress.com/2018/01/17/meltdown-spectre-and-how-hardware-can-be-correct-but-insecure/
+* Capability Hardware Enhanced RISC Instructions (CHERI): Notes on the Meltdown and Spectre Attacks
 	+ http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-916.pdf
 * CheckMate: Automated Exploit Program Generation for Hardware Security Verification
 	+ International Symposium on Microarchitecture (MICRO) 2018
 	+ Caroline Trippel, Daniel Lustig, and Margaret Martonosi
 	+ http://www.cs.princeton.edu/~ctrippel/ctrippel_MICRO51.pdf
 	+ https://github.com/ctrippel/checkmate
+* Data Oblivious ISA Extensions for Side Channel-Resistant and High Performance Computing
+	+ Network and Distributed System Security Symposium (NDSS) 2019
+	+ Jiyong Yu and Lucas Hsiung and Mohamad El Hajj, Christopher W. Fletcher
+	+ https://eprint.iacr.org/2018/808
+* End-to-End Automated Exploit Generation for Validating the Security of Processor Designs
+	+ MICRO 2018
+	+ R. Zhang, C. Deutschbein, P. Huang, C. Sturton
+	+ https://cs.unc.edu/~csturton/papers/zhang2018MICRO.pdf
+	+ https://github.com/rzhang2285/Coppelia
+* ParTI - Towards Combined Hardware Countermeasures against Side Channel and Fault Injection Attacks
+	+ CHES 2016, IACR-CRYPTO-2016 
+	+ Tobias Schneider, Amir Moradi, Tim Güneysu
+	+ https://eprint.iacr.org/2016/648
+	+ https://www.youtube.com/watch?v=wTJvb6k5yp0
+* Principles of Secure Processor Architecture Design
+	+ 2019 book; Jakub Szefer
+	+ http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1315
+	+ HiPEAC 2019 Tutorial: http://caslab.csl.yale.edu/tutorials/hipeac2019/
+* Securing Processors from Time Side Channels
+	+ Jose Renau
+	+ UC Santa Cruz, Tech. Rep., April 2018 - https://users.soe.ucsc.edu/~renau/docs/tleak.pdf
+	+ The Asilomar Microcomputer Workshop, April 2018 - https://users.soe.ucsc.edu/~renau/docs/amw18.pdf
+* Side Channel Analysis Protection and Low Latency in Action - Case Study of PRINCE and Midori
+	+ IACR-ASIACRYPT-2016
+	+ Amir Moradi, Tobias Schneider
+	+ https://www.youtube.com/watch?v=8OyQIh3F4AU
+
+## Defense - Software
+
 * ctgrind
 	+ https://www.imperialviolet.org/2010/04/01/ctgrind.html
 	+ https://github.com/agl/ctgrind/
 * CTTK (Constant-Time Toolkit)
 	+ https://github.com/pornin/CTTK
-* Data Oblivious ISA Extensions for Side Channel-Resistant and High Performance Computing
-	+ Network and Distributed System Security Symposium (NDSS) 2019
-	+ Jiyong Yu and Lucas Hsiung and Mohamad El Hajj, Christopher W. Fletcher
-	+ https://eprint.iacr.org/2018/808
-* Did we learn from LLC Side Channel Attacks? A Cache Leakage Detection Tool for Crypto Libraries
-	+ 2017; Gorka Irazoqui, Kai Cong, Xiaofei Guo, Hareesh Khattri, Arun Kanuparthi, Thomas Eisenbarth, Berk Sunar
-	+ https://arxiv.org/abs/1709.01552
 * dudect: dude, is my code constant time? - https://github.com/oreparaz/dudect
 * FaCT: A Flexible, Constant-Time Programming Language
 	+ SecDev 2017
 	+ Sunjay Cauligi, Gary Soeller, Fraser Brown, Brian Johannesmeyer, Yunlu Huang, Ranjit Jhala, Deian Stefan
 	+ https://cseweb.ucsd.edu/~dstefan/pubs/cauligi:2017:fact.pdf
 	+ https://github.com/PLSysSec/FaCT
-* Hardware and Architectural Support for Security and Privacy (HASP)
-	+ http://caslab.csl.yale.edu/workshops/hasp2018/
-* IEEE International Symposium on Hardware Oriented Security and Trust (HOST)
-	+ http://www.hostsymposium.org/
-* InvisiSpec: Making Speculative Execution Invisible in the Cache Hierarchy 
-	+ International Symposium on Microarchitecture (MICRO) 2018
-	+ Mengjia Yan, Jiho Choi, Dimitrios Skarlatos, Adam Morrison, Christopher W. Fletcher, Josep Torrellas
-	+ http://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_micro18.pdf
-	+ Paper: http://iacoma.cs.uiuc.edu/iacoma-papers/micro18.pdf
-	+ Poster: http://myan8.web.engr.illinois.edu/data/InvisiSpec_Poster.pdf
-	+ Lightning talk: https://www.youtube.com/watch?v=mAO5iejYUec
 * KASLR is Dead: Long Live KASLR
 	+ Engineering Secure Software and Systems (ESSoS) 2017
 	+ Daniel Gruss, Moritz Lipp, Michael Schwarz, Richard Fellner, Clémentine Maurice, Stefan Mangard 
@@ -187,12 +238,6 @@ See also: [Computer Architecture](comparch.md)
 	+ https://github.com/HACS-workshop/spectre-mitigations/blob/master/crypto_guidelines.md
 * Mitigating speculative execution side channel hardware vulnerabilities
 	+ https://blogs.technet.microsoft.com/srd/2018/03/15/mitigating-speculative-execution-side-channel-hardware-vulnerabilities/
-* ParTI - Towards Combined Hardware Countermeasures against Side Channel and Fault Injection Attacks - CHES 2016 
-	+ https://www.youtube.com/watch?v=wTJvb6k5yp0
-* Principles of Secure Processor Architecture Design
-	+ 2019 book; Jakub Szefer
-	+ http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1315
-	+ HiPEAC 2019 Tutorial: http://caslab.csl.yale.edu/tutorials/hipeac2019/
 * Provably secure compilation of side-channel countermeasures
 	+ Cryptology ePrint Archive: Report 2017/1233
 	+ Gilles Barthe, Benjamin Grégoire, Vincent Laporte
@@ -206,16 +251,6 @@ See also: [Computer Architecture](comparch.md)
 	+ https://www.youtube.com/watch?v=GMyDEnpoyoI
 	+ https://arxiv.org/abs/1603.02187
 	+ http://software.imdea.org/~bkoepf/papers/pldi17.pdf
-* Securing Processors from Time Side Channels
-	+ Jose Renau
-	+ UC Santa Cruz, Tech. Rep., April 2018 - https://users.soe.ucsc.edu/~renau/docs/tleak.pdf
-	+ The Asilomar Microcomputer Workshop, April 2018 - https://users.soe.ucsc.edu/~renau/docs/amw18.pdf
-* Side Channel Analysis Protection and Low Latency in Action - Case Study of PRINCE and Midori
-	+ https://www.youtube.com/watch?v=8OyQIh3F4AU
-* Spectre: Secrets, Side-Channels, Sandboxes, and Security
-	+ CppCon 2018; Chandler Carruth
-	+ https://www.youtube.com/watch?v=_f7O3IfIR2k
-* Strong and Efficient Cache Side-Channel Protection using Hardware Transactional Memory - https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/gruss
 * Towards Practical Tools for Side Channel Aware Software Engineering: "Grey Box" Modelling for Instruction Leakages
 	+ USENIX Security 2017
 	+ David McCann, Elisabeth Oswald, Carolyn Whitnall
@@ -230,6 +265,35 @@ See also: [Computer Architecture](comparch.md)
 	+ Sandrine Blazy, David Pichardie, Alix Trieu
 	+ https://hal.inria.fr/hal-01588444
 	+ https://link.springer.com/chapter/10.1007/978-3-319-66402-6_16
+
+## Defense - Speculation
+
+* An Inside Story of Mitigating Speculative Execution Side Channel Vulnerabilities
+	+ Black Hat 2018; Anders Fogh, Christopher Ertl
+	+ https://www.youtube.com/watch?v=_J9MpK4MQWk
+* Context-Sensitive Fencing: Securing Speculative Execution via Microcode Customization
+	+ Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2019
+	+ Mohammadkazem Taram, Ashish Venkat, Dean Tullsen
+	+ http://www.cs.virginia.edu/~av6ds/papers/asplos2019.pdf
+* InvisiSpec: Making Speculative Execution Invisible in the Cache Hierarchy 
+	+ International Symposium on Microarchitecture (MICRO) 2018
+	+ Mengjia Yan, Jiho Choi, Dimitrios Skarlatos, Adam Morrison, Christopher W. Fletcher, Josep Torrellas
+	+ http://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_micro18.pdf
+	+ Paper: http://iacoma.cs.uiuc.edu/iacoma-papers/micro18.pdf
+	+ Poster: http://myan8.web.engr.illinois.edu/data/InvisiSpec_Poster.pdf
+	+ Lightning talk: https://www.youtube.com/watch?v=mAO5iejYUec
+	+ https://github.com/mjyan0720/InvisiSpec-1.0
+* Spectre: Secrets, Side-Channels, Sandboxes, and Security
+	+ CppCon 2018; Chandler Carruth
+	+ https://www.youtube.com/watch?v=_f7O3IfIR2k
+* Spectres, Virtual Ghosts, and Hardware Support
+	+ Hardware and Architectural Support for Security and Privacy (HASP) 2018
+	+ Xiaowan Dong, Zhuojia Shen, John Criswell, Alan Cox, Sandhya Dwarkadas
+	+ https://dl.acm.org/citation.cfm?id=3214297
+* Spectrum: Classifying, Replicating and Mitigating Spectre Attacks on a Speculating RISC-V Microarchitecture
+	+ 2018 Technical Report
+	+ Abraham Gonzalez, Ben Korpan, Ed Younis, Jerry Zhao
+	+ https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F18/projects/reports/project4_report.pdf
 
 ---
 
@@ -374,7 +438,10 @@ See also: [Computer Architecture](comparch.md)
 * Robust Website Fingerprinting Through the Cache Occupancy Channel
 	+ 2018 arXiv; Anatoly Shusterman, Lachlan Kang, Yarden Haskal, Yosef Meltser, Prateek Mittal, Yossi Oren, Yuval Yarom 
 	+ https://arxiv.org/abs/1811.07153
-* Strong and Efficient Cache Side-Channel Protection using Hardware Transactional Memory - https://gruss.cc/files/cloak.pdf
+* Unveiling your keystrokes: A Cache-based Side-channel Attack on Graphics Libraries
+	+ NDSS 2019
+	+ Youngjoo Shin, Hyung Chan Kim, Dokeun Kwon, Ji Hoon Jeong, Junbeom Hur
+	+ http://www.cs.ucr.edu/~zhiyunq/pub/ndss19_cache_keystrokes.pdf
 * Yet Another MicroArchitectural Attack: Exploiting I-cache
 	+ CSAW 2007
 	+ Onur Aciiçmez
@@ -792,6 +859,7 @@ See also: [Computer Architecture](comparch.md)
 	+ https://arxiv.org/abs/1802.09085
 	+ https://github.com/osusecLab/SgxPectre
 * Side Channels on Intel SGX - https://web.cse.ohio-state.edu/~zhang.834/projects/sgx-side-channels.html
+* TSX-based Defenses Against SGX Side-channel Attacks - https://gts3.org/2018/tsgx-defense.html
 * Tutorial: Uncovering and mitigating side-channel leakage in Intel SGX enclaves
 	+ Security, Privacy, and Applied Cryptography Engineering (SPACE) 2018
 	+ Jo Van Bulck, Frank Piessens
@@ -928,6 +996,12 @@ See also: [Computer Architecture](comparch.md)
 
 # Talks
 
+## 2019
+
+* Hardware Is the New Software: Finding Exploitable Bugs in Hardware Designs
+	+ 2019 USENIX Enigma Conference; Cynthia Sturton
+	+ https://www.usenix.org/conference/enigma2019/presentation/sturton
+
 ## 2018
 
 * A Christmas Carol - The Spectres of the Past, Present, and Future 
@@ -948,6 +1022,11 @@ See also: [Computer Architecture](comparch.md)
 	+ SiFive Tech Talk: Paul Kocher
 	+ January 31, 2018
 	+ https://www.youtube.com/watch?v=hqIavX_SCWc
+* Spectre/Meltdown and What It Means for Future Chip Design
+	+ Hot Chips 30 (2018) Keynote 1
+	+ John Hennessy, Paul Turner, Jon Masters, Mark Hill
+	+ https://www.youtube.com/watch?v=d5XzVF0sAZo
+	+ https://www.hotchips.org/hc30/1conf/1.07_Hotchips_Security_Keynote.pdf
 * Wrangling with the Ghost: An Inside Story of Mitigating Speculative Execution Side Channel Vulnerabilities
 	+ Black Hat USA 2018
 	+ Matt Miller, Anders Fogh, Christopher Ertl
