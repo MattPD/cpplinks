@@ -58,6 +58,12 @@ https://riscv.org/publications/
 	+ https://www.researchgate.net/publication/328314631_Towards_a_High-Performance_RISC-V_Emulator
 	+ https://www.researchgate.net/profile/Vanderson_Rosario2/publication/328314631_Towards_a_High-Performance_RISC-V_Emulator/links/5bc5e1ec458515f7d9bf6342/Towards-a-High-Performance-RISC-V-Emulator.pdf
 
+## Simulation
+
+* Simulation of RISC-V based Systems in gem5
+	+ 2018 Diploma Thesis (Dipl.-Ing.); Robert Schefel
+	+ https://cfaed.tu-dresden.de/files/Images/people/chair-cc/theses/1808_Scheffel.pdf
+
 ---
 
 # Books
