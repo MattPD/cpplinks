@@ -215,6 +215,10 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 ## Virtualization
 
+* ARM Virtualization: Performance and Architectural Implications
+	+ ACM SIGOPS Operating Systems Review 52(1) 2018
+	+ Christoffer Dall, Shih-Wei Li, Jin Tack Lim, and Jason Nieh
+	+ https://dl.acm.org/citation.cfm?id=3273987
 * The Design, Implementation, and Evaluation of Software and Architectural Support for ARM Virtualization
 	+ 2018 PhD Thesis; [Christoffer Dall](http://www.cs.columbia.edu/~cdall/)
 	+ https://academiccommons.columbia.edu/catalog/ac:t1g1jwstss
