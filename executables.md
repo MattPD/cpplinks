@@ -58,6 +58,11 @@ Contents:
 * Fileformat: A set of libraries and tools for representation, manipulation, and analysis of binary files in various object file formats
 	+ COFF, ELF, Intel HEX, Mach-O, PE, raw data
 	+ https://github.com/avast-tl/fileformat
+* FunctionSimSearch
+	+ Example C++ code to demonstrate how to do SimHash-based similarity search over CFGs extracted from disassemblies
+	+ https://github.com/googleprojectzero/functionsimsearch
+	+ Searching statically-linked vulnerable library functions in executable code
+		- https://googleprojectzero.blogspot.com/2018/12/searching-statically-linked-vulnerable.html
 * injectdso - A collection of tools for injecting DSOs - https://github.com/huku-/injectdso
 * LIEF - Library to Instrument Executable Formats
 	+ The purpose of this project is to provide a cross platform library which can parse, modify and abstract ELF, PE and MachO formats.
@@ -95,6 +100,9 @@ Contents:
 * DLLs and Visual C++ run-time library behavior - https://docs.microsoft.com/en-us/cpp/build/run-time-library-behavior
 * Dynamic-Link Library Best Practices - https://msdn.microsoft.com/library/windows/desktop/dn633971.aspx
 * Everything You Never Wanted To Know About DLLs - http://blog.omega-prime.co.uk/2011/07/04/everything-you-never-wanted-to-know-about-dlls/
+* GOTOHELL.DLL: Software Dependencies and the Maintenance of Microsoft Windows
+	+ The Maintainers 2016; Stephanie Dick, Dan Volmar
+	+ http://themaintainers.org/s/GOTOHELLDLL1.pdf
 * How can I specify that my DLL should resolve a DLL dependency from the same directory that the DLL is in? - https://blogs.msdn.microsoft.com/oldnewthing/20171011-00/?p=97195
 * How to turn a DLL into a standalone EXE - https://hshrzd.wordpress.com/2016/07/21/how-to-turn-a-dll-into-a-standalone-exe/
 * Import by Hash in x64 Assembly - https://emsea.github.io/2017/12/04/import-by-hash/
@@ -640,6 +648,10 @@ Contents:
 
 ## Software
 
+* crunchersharp
+	+ analyses debugger information file (PDB, so Microsoft Visual C++ only) and presents info about user defined structures (size, padding, etc.)
+	+ https://github.com/msinilo/crunchersharp
+	+ http://msinilo.pl/blog2/post/p425/
 * Debug Interface Access SDK (DIA SDK) - provides access to debug information stored in PDB files - https://docs.microsoft.com/en-us/visualstudio/debugger/debug-interface-access/debug-interface-access-sdk
 * drpdb: Convert from Microsoft PDB format into a MySQL database - https://github.com/briterator/drpdb
 * llvm-pdbutil - PDB File forensics and diagnostics - https://llvm.org/docs/CommandGuide/llvm-pdbutil.html - https://github.com/llvm-mirror/llvm/tree/master/tools/llvm-pdbutil
@@ -771,6 +783,12 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 
 ## Talks
 
+* 2019 - Executable Code Golf: Making Tiny Binaries for Constrained Systems
+	+ linux.conf.au 2019; Nathan Egge
+	+ https://www.youtube.com/watch?v=J5WX-wN_RKY
+	+ https://2019.linux.conf.au/schedule/presentation/160/
+	+ XLINK compressing linker
+		- https://github.com/negge/xlink
 * 2018 - Reflective PE Unloading
 	+ BSides Cleveland 2018; Spencer McIntyre
 	+ https://www.youtube.com/watch?v=GbCVVYMNUzA
