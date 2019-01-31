@@ -93,6 +93,11 @@ _Books, Books Reviews_
 	+ Virtual Execution Environments (VEE) 2005
 	+ Toshihiko Koju, Shingo Takada, Norihisa Doi
 	+ https://www.usenix.org/events/vee05/full_papers/p79-koju.pdf
+* Debin: Predicting Debug Information in Stripped Binaries
+	+ ACM CCS 2018
+	+ Jingxuan He, Pesho Ivanov, Petar Tsankov, Veselin Raychev, Martin Vechev
+	+ https://dl.acm.org/citation.cfm?id=3243866
+	+ https://www.youtube.com/watch?v=x1x_KtS-5Hs
 * Debuggers for Programming Languages
 	+ 2002 Book Chapter in "The Compiler Design Handbook: Optimizations and Machine Code Generation"
 	+ Sanjeev Kumar Aggarwal, M. Sarath Kumar
@@ -115,10 +120,6 @@ _Books, Books Reviews_
 	+ Jie Yin, Gang Tan, Hao Li, Xiaolong Bai, Yu Ping Wang, Shi Min Hu
 	+ https://www.sciencedirect.com/science/article/pii/S0167642318303629
 	+ https://oslab.cs.tsinghua.edu.cn/debugopt/debugopt.html
-* Fast, Flexible, Polyglot Instrumentation Support for Debuggers and other Tools
-	+ The Art, Science, and Engineering of Programming, 2018, Vol. 2, Issue 3, Article 14
-	+ Van De Vanter, Michael; Seaton, Chris; Haupt, Michael; Humer, Christian; Würthinger, Thomas
-	+ http://programming-journal.org/2018/2/14/
 * Eli Bendersky - http://eli.thegreenplace.net/tag/debuggers
 	+ How debuggers work
 		- Part 1 - Basics - http://eli.thegreenplace.net/2011/01/23/how-debuggers-work-part-1
@@ -127,6 +128,10 @@ _Books, Books Reviews_
 	+ An interesting tree serialization algorithm from DWARF - https://eli.thegreenplace.net/2011/09/29/an-interesting-tree-serialization-algorithm-from-dwarf
 	+ The contents of DWARF sections - https://eli.thegreenplace.net/2011/12/26/the-contents-of-dwarf-sections
 	+ Programmatic access to the call stack in C++ - https://eli.thegreenplace.net/2015/programmatic-access-to-the-call-stack-in-c/
+* Fast, Flexible, Polyglot Instrumentation Support for Debuggers and other Tools
+	+ The Art, Science, and Engineering of Programming, 2018, Vol. 2, Issue 3, Article 14
+	+ Van De Vanter, Michael; Seaton, Chris; Haupt, Michael; Humer, Christian; Würthinger, Thomas
+	+ http://programming-journal.org/2018/2/14/
 * Framework for Instruction-level Tracing and Analysis of Program Executions
 	+ Virtual Execution Environments (VEE) 2006
 	+ https://www.usenix.org/legacy/events/vee06/full_papers/p154-bhansali.pdf
@@ -386,6 +391,10 @@ See also: [RR](#rr)
 	+ https://github.com/cyrus-and/gdb-dashboard
 	+ https://metricpanda.com/tips-for-productive-debugging-with-gdb
 * GDB helper scripts
+	+ https://github.com/tromey/gdb-helpers
+* gdb-gui: A gdb gui written in Python, running inside gdb itself
+	+ https://github.com/tromey/gdb-gui
+* gdb-helpers: GDB helper scripts
 	+ https://github.com/tromey/gdb-helpers
 * gdb-tools: Various tools to improve the gdb experience
 	+ https://github.com/vuvova/gdb-tools
@@ -650,6 +659,9 @@ See also: [RR](#rr)
 
 * Introduction to WinDbg and debugging Windows - series by Anand George
 	+ https://www.youtube.com/playlist?list=PLhx7-txsG6t6n_E2LgDGqgvJtCHPL7UFu
+* Time Travel Debugging - James McNellis
+	+ Meeting C++ 2018 - https://www.youtube.com/watch?v=MyVQnP-U_ho
+	+ Pacific++ 2018 - https://www.youtube.com/watch?v=BVslyei0804
 
 ##### Readings
 
