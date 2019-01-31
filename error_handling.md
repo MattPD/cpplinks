@@ -231,6 +231,8 @@
 
 * A test on binary sizes of C error codes vs C++ exceptions
 	+ https://github.com/jpakkane/excsize
+* error_bench: Micro benchmarks for various error handling mechanisms
+	+ https://github.com/ben-craig/error_bench
 * Exception Handling Costing Test
 	+ https://github.com/johnmcfarlane/ehct
 * Test programs to determine the speed of exceptions vs error codes
