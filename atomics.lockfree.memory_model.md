@@ -342,6 +342,9 @@ Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/
 
 ### 2018
 
+- A “Post-ISA” Era in Computer Systems: Challenges and Opportunities
+	- PLDI 2018; Margaret Martonosi
+	- https://pldi18.sigplan.org/event/pldi-2018-pldi-invited-speakers-margaret-martonosi-talk
 - The C++ Execution Model
 	- CppCon 2018; Bryce Adelstein Lelbach
 	- https://www.youtube.com/watch?v=FJIn1YhPJJc
