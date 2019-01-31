@@ -156,6 +156,8 @@ Taxonomy of Open Source Processors - http://parallel.princeton.edu/openpiton/ope
 	+ https://github.com/sifive/freedom
 * Sodor Processor Collection - educational microarchitectures (Chisel)
 	+ https://github.com/ucb-bar/riscv-sodor
+* SweRV RISC-V core from Western Digital (SystemVerilog)
+	+ https://github.com/westerndigitalcorporation/swerv_eh1
 * Taiga (SystemVerilog)
 	+ 32-bit RISC-V processor designed for FPGAs supporting the Multiply/Divide and Atomic extensions (RV32IMA)
 	+ https://gitlab.com/sfu-rcl/Taiga
