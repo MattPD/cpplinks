@@ -200,6 +200,10 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://www.merckedsecurity.com/blog/smashing-the-arm-stack-part-1
 * TCP Bind Shell in Assembly (ARM 32-bit)
 	+ https://azeria-labs.com/tcp-bind-shell-in-assembly-arm-32-bit/
+* Understanding the Security of ARM Debugging Features
+	+ Security & Privacy (S&P) 2019
+	+ Zhenyu Ning, Fengwei Zhang
+	+ https://www.computer.org/csdl/proceedings/sp/2019/6660/00/666000a969-abs.html
 
 ### TrustZone
 
@@ -363,6 +367,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 ## Emulation, Simulation
 
+* Arm Instruction Emulator (ArmIE) - https://developer.arm.com/products/software-development-tools/hpc/arm-instruction-emulator
 * ARM instruction evaluator - http://svr-acjf3-armie.cl.cam.ac.uk/
 * ARM Lab (VM) - https://azeria-labs.com/arm-lab-vm/
 * ARMulator: A emulator for ARM programs (aims to run ARM programs in x86 platform)
