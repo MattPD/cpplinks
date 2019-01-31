@@ -8,8 +8,8 @@ See also: [Computer Architecture](comparch.md)
 
 # Contents
 
-+ [General](#general)
-+ [Defense, Mitigation, Protection](#defense-mitigation-protection)
+* [General](#general)
+* [Defense, Mitigation, Protection](#defense-mitigation-protection)
 
 * [Arithmetic Logic Unit (ALU)](#arithmetic-logic-unit-alu)
 * [Branch Predictor](#branch-predictor)
@@ -123,6 +123,16 @@ See also: [Computer Architecture](comparch.md)
 	+ Symbolic Execution for Hardware - https://cs.unc.edu/~csturton/HWSecurityatUNC/symbolic_execution.html
 * IEEE International Symposium on Hardware Oriented Security and Trust (HOST)
 	+ http://www.hostsymposium.org/
+* Timing Channels - Trustworthy Systems - Data61
+	+ https://ts.data61.csiro.au/projects/TS/timingchannels/
+
+## Defense - Branch Predictor
+
+* BRB: Mitigating Branch Predictor Side-Channels
+	+ High-Performance Computer Architecture (HPCA) 2019
+	+ Ilias Vougioukas, Andreas Sandberg, Nikos Nikoleris, Stephan Diestelhorst, Bashir Al-Hashimi, Geoff Merrett 
+	+ https://eprints.soton.ac.uk/426627/
+	+ complementary dataset: https://doi.org/10.5258/soton/d0739
 
 ## Defense - Cache
 
@@ -135,6 +145,10 @@ See also: [Computer Architecture](comparch.md)
 	+ Andreas Zankl, Johann Heyszl, Georg Sigl
 	+ https://link.springer.com/chapter/10.1007/978-3-319-54669-8_14
 	+ https://github.com/falsecurity/cache-leak-detector
+* Automated Software Protection for the Masses Against Side-Channel Attacks
+	+ HiPEAC 2019
+	+ Nicolas Belleville, Damien Couroussé, Karine Heydemann, Henri-Pierre Charles 
+	+ https://dl.acm.org/citation.cfm?id=3281662
 * CacheAudit: A Tool for the Static Analysis of Cache Side Channels 
 	+ USENIX Security 2013
 	+ Goran Doychev, Dominik Feld, Boris Köpf, Laurent Mauborgne, Jan Reineke
@@ -147,6 +161,10 @@ See also: [Computer Architecture](comparch.md)
 * CacheShield: Protecting Legacy Processes Against Cache Attacks
 	+ 2017; Samira Briongos, Gorka Irazoqui, Pedro Malagón, Thomas Eisenbarth
 	+ https://arxiv.org/abs/1709.01795
+* CaSym: Cache Aware Symbolic Execution for Side Channel Detection and Mitigation 
+	+ Security & Privacy (S&P) 2019
+	+ Brotzman, R L, Shen Liu, Danfeng Zhang, Gang Tan, Mahmut T. Kandemir
+	+ http://www.cse.psu.edu/~dbz5017/pub/oakland19.pdf
 * CEASER: Mitigating Conflict-Based Cache Attacks via Encrypted-Address and Remapping
 	+ MICRO 2018
 	+ Moinuddin K. Qureshi
@@ -158,6 +176,11 @@ See also: [Computer Architecture](comparch.md)
 * Did we learn from LLC Side Channel Attacks? A Cache Leakage Detection Tool for Crypto Libraries
 	+ 2017; Gorka Irazoqui, Kai Cong, Xiaofei Guo, Hareesh Khattri, Arun Kanuparthi, Thomas Eisenbarth, Berk Sunar
 	+ https://arxiv.org/abs/1709.01552
+* How secure is your cache against side-channel attacks?
+	+ MICRO-50 2017
+	+ Zecheng He, Ruby B. Lee
+	+ https://doi.org/10.1145/3123939.3124546
+	+ http://palms.ee.princeton.edu/system/files/Micro-camera-ready-final.pdf
 * Secure Hierarchy-Aware Cache Replacement Policy (SHARP): Defending Against Cache-Based Side Channel Attacks
 	+ ISCA 2017
 	+ Mengjia Yan, Bhargava Gopireddy, Thomas Shull, Josep Torrellas
@@ -168,6 +191,18 @@ See also: [Computer Architecture](comparch.md)
 	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/gruss
 	+ https://gruss.cc/files/cloak.pdf
 	+ https://github.com/Microsoft/msr-cloak
+
+# Defense - Floating Point Unit (FPU)
+
+* On the effectiveness of mitigations against floating-point timing channels
+	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/kohlbrenner
+	+ https://cseweb.ucsd.edu/~dkohlbre/floats/
+* Towards Verified, Constant-time Floating Point Operations
+	+ ACM CCS 2018
+	+ Marc Andrysco, Andres Nötzli, Fraser Brown, Ranjit Jhala, and Deian Stefan
+	+ https://dl.acm.org/citation.cfm?id=3243766
+	+ https://www.youtube.com/watch?v=f2y6yHXoEc0
+	+ https://ranjitjhala.github.io/static/ctfp-ccs18.pdf
 
 ## Defense - Hardware Design & Verification
 
@@ -193,6 +228,11 @@ See also: [Computer Architecture](comparch.md)
 	+ R. Zhang, C. Deutschbein, P. Huang, C. Sturton
 	+ https://cs.unc.edu/~csturton/papers/zhang2018MICRO.pdf
 	+ https://github.com/rzhang2285/Coppelia
+* HyperFlow: A Processor Architecture for Nonmalleable, Timing-Safe Information Flow Security
+	+ ACM CCS 2018
+	+ Andrew Ferraiuolo, Mark Zhao, Andrew C. Myers, G. Edward Suh
+	+ https://dl.acm.org/citation.cfm?id=3243743
+	+ https://www.youtube.com/watch?v=JdIbR_cwjaU
 * ParTI - Towards Combined Hardware Countermeasures against Side Channel and Fault Injection Attacks
 	+ CHES 2016, IACR-CRYPTO-2016 
 	+ Tobias Schneider, Amir Moradi, Tim Güneysu
@@ -246,6 +286,10 @@ See also: [Computer Architecture](comparch.md)
 * Provably Secure Countermeasures against Side-channel Attacks
 	+ 2015 Dissertation; Praveen Kumar Vadnala
 	+ https://orbilu.uni.lu/bitstream/10993/21653/2/PraveenVadnala_Thesis.pdf
+* RFC: Speculative Load Hardening (a Spectre variant #1 mitigation)
+	+ 2018; Chandler Carruth
+	+ https://lists.llvm.org/pipermail/llvm-dev/2018-March/122085.html
+	+ https://docs.google.com/document/d/1wwcfv3UV9ZnZVcGiGuoITT_61e_Ko3TmoCS3uXLcJR0/edit
 * Rigorous Analysis of Software Countermeasures against Cache Attacks
 	+ PLDI 2017; Goran Doychev, Boris Köpf
 	+ https://www.youtube.com/watch?v=GMyDEnpoyoI
@@ -255,7 +299,6 @@ See also: [Computer Architecture](comparch.md)
 	+ USENIX Security 2017
 	+ David McCann, Elisabeth Oswald, Carolyn Whitnall
 	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/mccann
-* Why Constant-Time Crypto? - https://www.bearssl.org/constanttime.html
 * Verifying Constant-Time Implementations
 	+ USENIX Security 2016
 	+ José Bacelar Almeida, Manuel Barbosa, Gilles Barthe, François Dupressoir, Michael Emmi
@@ -265,12 +308,20 @@ See also: [Computer Architecture](comparch.md)
 	+ Sandrine Blazy, David Pichardie, Alix Trieu
 	+ https://hal.inria.fr/hal-01588444
 	+ https://link.springer.com/chapter/10.1007/978-3-319-66402-6_16
+* Why Constant-Time Crypto? - https://www.bearssl.org/constanttime.html
+* You Shall Not Bypass: Employing data dependencies to prevent Bounds Check Bypass
+	+ 2018 arXiv
+	+ Oleksii Oleksenko, Bohdan Trach, Tobias Reiher, Mark Silberstein, Christof Fetzer 
+	+ https://arxiv.org/abs/1805.08506
 
 ## Defense - Speculation
 
 * An Inside Story of Mitigating Speculative Execution Side Channel Vulnerabilities
 	+ Black Hat 2018; Anders Fogh, Christopher Ertl
 	+ https://www.youtube.com/watch?v=_J9MpK4MQWk
+* Conditional Speculation: An Effective Approach to Safeguard Out-of-Order Execution Against Spectre Attacks
+	+ High-Performance Computer Architecture (HPCA) 2019
+	+ Peinan Li, Lutan Zhao, Rui Hou; Lixin Zhang; Dan Meng
 * Context-Sensitive Fencing: Securing Speculative Execution via Microcode Customization
 	+ Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2019
 	+ Mohammadkazem Taram, Ashish Venkat, Dean Tullsen
@@ -357,6 +408,11 @@ See also: [Computer Architecture](comparch.md)
 	+ Fast Software Encryption (FSE) 2007
 	+ Kris Tiri, Onur Aciiçmez, Michael Neve, Flemming Andersen
 	+ https://iacr.org/archive/fse2007/45930404/45930404.pdf
+* Are Coherence Protocol States vulnerable to Information Leakage?
+	+ HPCA 2018
+	+ Fan Yao, Milos Doroslovacki, Guru Venkataramani 
+	+ https://www2.seas.gwu.edu/~guruv/hpca2018.pdf
+	+ https://www.youtube.com/watch?v=NQQ0zC1G7p0
 * ARMageddon: How Your Smartphone CPU Breaks Software-Level Security and Privacy
 	+ Black Hat Europe 2016: https://www.youtube.com/watch?v=9KsnFWejpQg
 	+ https://github.com/IAIK/armageddon
@@ -539,6 +595,7 @@ See also: [Computer Architecture](comparch.md)
 	+ Giovanni Camurati, Sebastian Poeplau, Marius Muench, Tom Hayes, Aurélien Francillon
 	+ http://s3.eurecom.fr/tools/screaming_channels/
 	+ https://github.com/eurecom-s3/screaming_channels
+	+ ACM CCS 2018 - https://www.youtube.com/watch?v=0IafNH2WHxk
 	+ When Electromagnetic Side Channels Meet Radio Transceivers
 		- GreHack 2018; Marius Muench
 		- https://www.youtube.com/watch?v=vtcoZYS_C08
@@ -573,9 +630,6 @@ See also: [Computer Architecture](comparch.md)
 	+ https://cseweb.ucsd.edu/~dkohlbre/papers/subnormal.pdf
 	+ http://cseweb.ucsd.edu/~hovav/papers/akmjls15.html
 	+ https://github.com/kmowery/libfixedtimefixedpoint
-* On the effectiveness of mitigations against floating-point timing channels
-	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/kohlbrenner
-	+ https://cseweb.ucsd.edu/~dkohlbre/floats/
 
 ---
 
@@ -669,6 +723,7 @@ See also: [Computer Architecture](comparch.md)
 	+ https://doi.org/10.1145/3243734.3243831
 	+ http://www.cs.ucr.edu/~zhiyunq/pub/ccs18_gpu_side_channel.pdf
 	+ http://www.cs.ucr.edu/~nael/pubs/ccs18.pdf
+	+ https://www.youtube.com/watch?v=lFspD48dahc
 
 ---
 
@@ -686,6 +741,7 @@ See also: [Computer Architecture](comparch.md)
 	+ https://people.cs.kuleuven.be/~jo.vanbulck/ccs18.pdf
 	+ https://distrinet.cs.kuleuven.be/software/sancus/publications/ccs18.pdf
 	+ https://distrinet.cs.kuleuven.be/software/sancus/publications/ccs18-slides.pdf
+	+ https://www.youtube.com/watch?v=njE9Vg8HOqk
 
 ---
 
@@ -772,11 +828,21 @@ See also: [Computer Architecture](comparch.md)
 
 # Power
 
+* A New Class of Covert Channels Exploiting Power Management Vulnerabilities
+	+ IEEE Computer Architecture Letters (2018)
+	+ S. K. Khatamifard, L. Wang, S. Kose, U. R. Karpuzcu
+	+ http://doi.ieeecomputersociety.org/10.1109/LCA.2018.2860006
+	+ http://people.ece.umn.edu/~ukarpuzc/Karpuzcu_files/calSec.pdf
+	+ https://experts.umn.edu/en/publications/a-new-class-of-covert-channels-exploiting-power-management-vulner
 * On Code Execution Tracking via Power Side-Channel
 	+ Conference on Computer and Communications Security (CCS) 2016
 	+ Yannan Liu, Lingxiao Wei, Zhe Zhou, Kehuan Zhang, Wenyuan Xu, Qiang Xu
 	+ https://dl.acm.org/citation.cfm?id=2978299
 	+ https://www.youtube.com/watch?v=YwL_p3TxhlA
+* POWERT Channels: A Novel Class of Covert Communication Exploiting Power Management Vulnerabilities
+	+ High-Performance Computer Architecture (HPCA) 2019
+	+ S. K. Khatamifard, L. Wang, S. Köse, and U. R. Karpuzcu
+	+ http://www.eng.usf.edu/~kose/files/conferences/hpca_19.pdf
 
 ---
 
@@ -817,6 +883,7 @@ See also: [Computer Architecture](comparch.md)
 	+ ACM CCS 2018
 	+ Giorgi Maisuradze, Christian Rossow
 	+ https://christian-rossow.de/publications/ret2spec-ccs2018.pdf
+	+ https://www.youtube.com/watch?v=c0iIifQSC80
 * Spectre Returns! Speculation Attacks using the Return Stack Buffer
 	+ USENIX Workshop on Offensive Technologies (WOOT) 2018
 	+ Esmaeil Mohammadian Koruyeh, Khaled N. Khasawneh, Chengyu Song, Nael Abu-Ghazaleh
@@ -865,6 +932,10 @@ See also: [Computer Architecture](comparch.md)
 	+ Jo Van Bulck, Frank Piessens
 	+ https://github.com/jovanbulck/sgx-tutorial-space18
 	+ https://people.cs.kuleuven.be/~jo.vanbulck/space18.pdf
+* Varys: Protecting SGX Enclaves from Practical Side-Channel Attacks
+	+ USENIX ATC 2018
+	+ Oleksii Oleksenko, Bohdan Trach, Robert Krahn, Mark Silberstein, Christof Fetzer
+	+ https://www.usenix.org/conference/atc18/presentation/oleksenko
 
 ---
 
@@ -998,9 +1069,17 @@ See also: [Computer Architecture](comparch.md)
 
 ## 2019
 
+* AcuTherm: A Hybrid Attack on Password Entry Based on Both Acoustic and Thermal Side-Channels
+	+ Black Hat Asia 2019
+	+ Ercan Ozturk, Gene Tsudik, Tyler Kaczmarek, Pier Paolo Tricomi
+	+ https://www.blackhat.com/asia-19/briefings/schedule/index.html?_mc=sm_iwfs_editor_kellysheridan#acutherm-a-hybrid-attack-on-password-entry-based-on-both-acoustic-and-thermal-side-channels-13927
 * Hardware Is the New Software: Finding Exploitable Bugs in Hardware Designs
 	+ 2019 USENIX Enigma Conference; Cynthia Sturton
 	+ https://www.usenix.org/conference/enigma2019/presentation/sturton
+* Winter is Coming Back: Defeating the Most Advanced Rowhammer Defenses to Gain Root and Kernel Privileges
+	+ Black Hat Asia 2019
+	+ Yueqiang Cheng, Zhi Zhang, Surya Nepal, Zhi Wang
+	+ https://www.blackhat.com/asia-19/briefings/schedule/index.html#winter-is-coming-back-defeating-the-most-advanced-rowhammer-defenses-to-gain-root-and-kernel-privileges-13524
 
 ## 2018
 
@@ -1018,6 +1097,10 @@ See also: [Computer Architecture](comparch.md)
 	+ https://www.youtube.com/watch?v=zuBw1HFJMsM
 	+ http://web.stanford.edu/class/ee380/Abstracts/180131.html
 	+ http://web.stanford.edu/class/ee380/Abstracts/180131-slides.pdf
+* Peering Behind the Turing Mirror
+	+ SPLASH-I 2018; Ben L. Titzer
+	+ https://www.youtube.com/watch?v=CXR0XwI9Yt4
+	+ https://2018.splashcon.org/event/splash-2018-splash-i-peering-behind-the-turing-mirror
 * Spectre: Exploiting Speculative Execution
 	+ SiFive Tech Talk: Paul Kocher
 	+ January 31, 2018
