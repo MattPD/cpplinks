@@ -2,7 +2,7 @@
 
 # Contents
 
-* [Readings](#articles)
+* [Readings](#readings)
 * [References](#references)
 * [Software](#software)
 * [Talks](#talks)
@@ -194,6 +194,11 @@
 	- http://www.hpl.hp.com/techreports/2004/HPL-2004-209.pdf
 	- http://www.hboehm.info/misc_slides/pldi05_threads.pdf
 	- LtU: http://lambda-the-ultimate.org/node/950
+- Verifying C11 Programs Operationally
+	- Principles and Practice of Parallel Programming (PPoPP) 2019
+	- Simon Doherty, Brijesh Dongol, Heike Wehrheim, John Derrick
+	- https://arxiv.org/abs/1811.09143
+	- https://ppopp19.sigplan.org/event/ppopp-2019-papers-verifying-c11-programs-operationally
 - x86-TSO: A Rigorous and Usable Programmer’s Model for x86 Multiprocessors
 	- CACM 2010
 	- Peter Sewell, Susmit Sarkar, Scott Owens, Francesco Zappa Nardelli, Magnus O. Myreen
@@ -202,6 +207,8 @@
 	- CACM 2012, ACM Queue 2011
 	- Hans-J. Boehm, Sarita V. Adve
 	- https://queue.acm.org/detail.cfm?id=2088916
+
+---
 
 # References
 
@@ -275,6 +282,8 @@
 	- http://www.archive.ece.cmu.edu/~ece742/f12/doku.php?id=lectures
 	- https://www.youtube.com/playlist?feature=edit_ok&list=PLSEZzvupP7hNjq3Tuv2hiE5VvR-WRYoW4
 
+---
+
 # Software
 
 - ASCYLIB
@@ -314,6 +323,8 @@ Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/
 - Synchrobench
 	- https://github.com/gramoli/synchrobench
 	- A benchmark to compare synchronization techniques for multicore programming
+
+---
 
 # Talks
 
