@@ -80,6 +80,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * Alastair Reid's
 	+ Blog Posts - https://alastairreid.github.io/
 	+ Papers: https://alastairreid.github.io/alastairreid.github.io/papers/
+	+ 2019-02-02 - Generating SMT from traces - https://alastairreid.github.io/tracing-smt/
 	+ 2017-12-24 - Bidirectional Assembly Syntax Specifications - https://alastairreid.github.io/bidirectional-assemblers/
 	+ 2017-09-24 - Formal validation of the Arm v8-M specification - https://alastairreid.github.io/validating-specs/
 	+ 2017-08-19 - Are natural language specifications useful? - https://alastairreid.github.io/natural-specs/
@@ -174,6 +175,8 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ Speculation Barrier - https://github.com/ARM-software/speculation-barrier
 * Damn Vulnerable ARM Router (DVAR)
 	+ http://blog.exploitlab.net/2018/01/dvar-damn-vulnerable-arm-router.html
+* Examining Pointer Authentication on the iPhone XS
+	+ https://googleprojectzero.blogspot.com/2019/02/examining-pointer-authentication-on.html
 * Exploitation on ARM-based Systems
 	+ Troopers18; Sascha Schirra, Ralf Schaefer 
 	+ https://github.com/sashs/arm_exploitation
