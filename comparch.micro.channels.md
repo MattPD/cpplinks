@@ -181,6 +181,10 @@ See also: [Computer Architecture](comparch.md)
 	+ Zecheng He, Ruby B. Lee
 	+ https://doi.org/10.1145/3123939.3124546
 	+ http://palms.ee.princeton.edu/system/files/Micro-camera-ready-final.pdf
+* On the Incomparability of Cache Algorithms in Terms of Timing Leakage
+	+ 2018 arXiv
+	+ Pablo Cañones, Boris Köpf, Jan Reineke
+	+ https://arxiv.org/abs/1807.01240
 * Secure Hierarchy-Aware Cache Replacement Policy (SHARP): Defending Against Cache-Based Side Channel Attacks
 	+ ISCA 2017
 	+ Mengjia Yan, Bhargava Gopireddy, Thomas Shull, Josep Torrellas
@@ -334,6 +338,11 @@ See also: [Computer Architecture](comparch.md)
 	+ Poster: http://myan8.web.engr.illinois.edu/data/InvisiSpec_Poster.pdf
 	+ Lightning talk: https://www.youtube.com/watch?v=mAO5iejYUec
 	+ https://github.com/mjyan0720/InvisiSpec-1.0
+* Spectector: Principled Detection of Speculative Information Flows
+	+ 2018 arXiv
+	+ Marco Guarnieri, Boris Köpf, José F. Morales, Jan Reineke, Andrés Sánchez
+	+ https://spectector.github.io/
+	+ https://github.com/spectector/spectector
 * Spectre: Secrets, Side-Channels, Sandboxes, and Security
 	+ CppCon 2018; Chandler Carruth
 	+ https://www.youtube.com/watch?v=_f7O3IfIR2k
@@ -560,7 +569,16 @@ See also: [Computer Architecture](comparch.md)
 	+ Andrei Tatar, Radhesh Krishnan, Elias Athanasopoulos, Cristiano Giuffrida, Herbert Bos, Kaveh Razavi
 	+ https://www.usenix.org/conference/atc18/presentation/tatar
 	+ https://www.vusec.net/download/?t=papers/throwhammer_atc18.pdf
-* Whispers in the Hyper-space: High-speed Covert Channel Attacks in the Cloud - https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/wu
+* Understanding Rowhammer Attacks through the Lens of a Unified Reference Framework
+	+ 2019 arXiv
+	+ Xiaoxuan Lou, Fan Zhang, Zheng Leong Chua, Zhenkai Liang, Yueqiang Cheng, Yajin Zhou 
+	+ https://arxiv.org/abs/1901.03538
+* Whispers in the Hyper-space: High-speed Covert Channel Attacks in the Cloud
+	+ USENIX Security Symposium 2012
+	+ IEEE/ACM Transactions on Networking 23(2) 2015
+	+ Zhenyu Wu, Zhang Xu, Haining Wang
+	+ https://doi.org/10.1109/TNET.2014.2304439
+	+ https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/wu
 
 ---
 
@@ -951,6 +969,8 @@ See also: [Computer Architecture](comparch.md)
 * Covert Shotgun: Automatically finding covert channels in SMT
 	+ https://cyber.wtf/2016/09/27/covert-shotgun/
 * Port Contention for Fun and Profit
+	+ Security & Privacy (S&P) 2019
+	+ Alejandro Cabrera Aldaya, Billy Bob Brumley, Sohaib ul Hassan, Cesar Pereida García, Nicola Tuveri
 	+ https://eprint.iacr.org/2018/1060
 * PortSmash (CVE-2018-5407): side-channel vulnerability on SMT/Hyper-Threading architectures
 	+ https://github.com/bbbrumley/portsmash
@@ -968,6 +988,9 @@ See also: [Computer Architecture](comparch.md)
 	+ Zhenghong Wang, Ruby B. Lee
 	+ http://ieeexplore.ieee.org/document/4041191/
 	+ http://www.acsac.org/2006/papers/127.pdf
+* ExSpectre: Hiding Malware in Speculative Execution
+	+ NDSS 2019
+	+ Jack Wampler, Ian Martiny, Eric Wustrow
 * Foreshadow & L1 Terminal Fault (L1TF)
 	+ Foreshadow: Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution
 		- USENIX Security 2018
@@ -1072,14 +1095,18 @@ See also: [Computer Architecture](comparch.md)
 * AcuTherm: A Hybrid Attack on Password Entry Based on Both Acoustic and Thermal Side-Channels
 	+ Black Hat Asia 2019
 	+ Ercan Ozturk, Gene Tsudik, Tyler Kaczmarek, Pier Paolo Tricomi
-	+ https://www.blackhat.com/asia-19/briefings/schedule/index.html?_mc=sm_iwfs_editor_kellysheridan#acutherm-a-hybrid-attack-on-password-entry-based-on-both-acoustic-and-thermal-side-channels-13927
+	+ https://www.blackhat.com/asia-19/briefings/schedule/#acutherm-a-hybrid-attack-on-password-entry-based-on-both-acoustic-and-thermal-side-channels-13927
+* Ghosts in a Nutshell
+	+ Black Hat Asia 2019
+	+ Claudio Canella, Moritz Lipp  
+	+ https://www.blackhat.com/asia-19/briefings/schedule/#ghosts-in-a-nutshell-13755
 * Hardware Is the New Software: Finding Exploitable Bugs in Hardware Designs
 	+ 2019 USENIX Enigma Conference; Cynthia Sturton
 	+ https://www.usenix.org/conference/enigma2019/presentation/sturton
 * Winter is Coming Back: Defeating the Most Advanced Rowhammer Defenses to Gain Root and Kernel Privileges
 	+ Black Hat Asia 2019
 	+ Yueqiang Cheng, Zhi Zhang, Surya Nepal, Zhi Wang
-	+ https://www.blackhat.com/asia-19/briefings/schedule/index.html#winter-is-coming-back-defeating-the-most-advanced-rowhammer-defenses-to-gain-root-and-kernel-privileges-13524
+	+ https://www.blackhat.com/asia-19/briefings/schedule/#winter-is-coming-back-defeating-the-most-advanced-rowhammer-defenses-to-gain-root-and-kernel-privileges-13524
 
 ## 2018
 
