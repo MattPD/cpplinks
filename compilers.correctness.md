@@ -87,6 +87,11 @@ Note: see also [compilers](compilers.md)
 	+ C. Chiw, G. Kindlmann, J. Reppy
 	+ https://www.researchgate.net/publication/317836930_DATm_Diderot%27s_Automated_Testing_Model
 	+ https://www.dropbox.com/s/5twsrp12vg4or7t/datm_talk.key?dl=0
+* DeepFuzz: Automatic Generation of Syntax Valid C Programs for Fuzz Testing
+	+ AAAI Conference on Artificial Intelligence (AAAI) 2019
+	+ Xiao Liu, Xiaoting Li, Rupesh Prajapati, Dinghao Wu
+	+ https://faculty.ist.psu.edu/wu/papers/DeepFuzz.pdf
+	+ https://github.com/s3team/DeepFuzz
 * Detecting Arithmetic Optimization Opportunities for C Compilers by Randomly Generated Equivalent Programs
 	+ IPSJ Transactions on System LSI Design Methodology, vol. 9, 2016; A. Hashimoto and N. Ishiura
 	+ <https://www.jstage.jst.go.jp/article/ipsjtsldm/9/0/9_21/_article>
