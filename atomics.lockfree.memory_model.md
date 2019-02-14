@@ -286,6 +286,10 @@
 
 # Software
 
+- act: automagic compiler tormentor
+	- act is a toolbox for finding concurrency memory model discrepancies between C code and its compiled assembly.
+	- It can use memalloy as a test-case generator, and generates litmus tests that can be used with herd7.
+	- https://github.com/MattWindsor91/act/
 - ASCYLIB
 	- https://github.com/LPD-EPFL/ASCYLIB
 	- ASCYLIB is a concurrent-search data-structure library with over 30 implementantions of linked lists, hash tables, skip lists, and binary search trees.
@@ -307,6 +311,14 @@ Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/
 	- https://github.com/concurrencykit/ck
 - CppMem: Interactive C/C++ memory model
 	- http://svr-pes20-cppmem.cl.cam.ac.uk/cppmem/
+- diy
+	- The sofware suite diy provides tools to design and test weak memory models. It handles ARMv8 (AArch64), ARMv7 (ARM), Power (PPC) and X86 assembly models, plus a generic (LISA) assembly language. 
+	- http://diy.inria.fr/
+	- herd, a memory model simulator
+		- http://diy.inria.fr/herd/
+		- http://diy.inria.fr/doc/herd.html
+		- https://github.com/herd/herdtools
+		- https://github.com/herd/herdtools7
 - moodycamel::ConcurrentQueue (MPMC): https://github.com/cameron314/concurrentqueue
 	- moodycamel::ReaderWriterQueue (SPSC): SPSC: https://github.com/cameron314/readerwriterqueue
 	- http://moodycamel.com/blog/2013/a-fast-lock-free-queue-for-c++
