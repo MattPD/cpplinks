@@ -78,6 +78,12 @@ https://riscv.org/publications/
 * Experimental_RISCV_Feature_Model
 	+ An experimental DSL to describe the full feature list of a RISC-V implementation, along with constraints on features and between features
 	+ https://github.com/rsnikhil/Experimental_RISCV_Feature_Model
+* ISA Semantics for ARMv8-A, RISC-V, and CHERI-MIPS
+	+ POPL 2019
+	+ Alasdair Armstrong, Thomas Bauereiss, Brian Campbell, Alastair Reid, Kathryn E. Gray, Robert M. Norton, Prashanth Mundkur, Mark Wassell, Jon French, Christopher Pulte, Shaked Flur, Ian Stark, Neel Krishnaswami, Peter Sewell
+	+ https://www.cl.cam.ac.uk/~pes20/sail/
+	+ http://www.cl.cam.ac.uk/users/pes20/sail/sail-popl2019.pdf
+	+ talk; https://dl.acm.org/citation.cfm?doid=3302515.3290384&preflayout=flat#formats
 * RISC-V Formal Verification Framework - https://github.com/cliffordwolf/riscv-formal
 * RISC-V ISA Formal Spec in BSV (Bluespec SystemVerilog) - https://github.com/rsnikhil/RISCV_ISA_Formal_Spec_in_BSV
 * RISC-V Litmus Tests
@@ -88,10 +94,16 @@ https://riscv.org/publications/
 * RISCV-ISA-Spec: Formal specification of RISC-V Instruction Set - https://github.com/rsnikhil/RISCV-ISA-Spec
 * riscv-coq: RISC-V Specification in Coq - https://github.com/mit-plv/riscv-coq
 * riscv-semantics: formal specification of the RISC-V ISA written in Haskell - https://github.com/mit-plv/riscv-semantics
+* RMEM - relaxed-memory concurrency
+	+ a tool for exploring the relaxed-memory concurrency for ARM, POWER, RISC-V, and x86
+	+ help page: http://www.cl.cam.ac.uk/~sf502/regressions/rmem/help.html
+	+ web interface: http://www.cl.cam.ac.uk/users/pes20/rmem/
 
 ---
 
 # Open-Source Hardware Projects
+
+RISC-V Cores and SoCs - https://github.com/riscv/riscv-wiki/wiki/RISC-V-Cores-and-SoCs
 
 Taxonomy of Open Source Processors - http://parallel.princeton.edu/openpiton/open_source_processors.php
 
@@ -134,8 +146,6 @@ Taxonomy of Open Source Processors - http://parallel.princeton.edu/openpiton/ope
 	+ https://github.com/ridecore/ridecore
 * RI5CY: RISC-V Core - PULP RI5CY core modified for Verilator modeling and as a GDB server (SystemVerilog)
 	+ https://github.com/embecosm/ri5cy
-* RISC V Cores and SoCs
-	+ https://github.com/riscv/riscv-wiki/wiki/RISC-V-Cores-and-SoCs
 * RISC-V VHDL: System-on-Chip (VHDL)
 	+ VHDL implementation of the RISC-V System-on-Chip based on bare "Rocket Chip"
 	+ http://sergeykhbr.github.io/riscv_vhdl/
