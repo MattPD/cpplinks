@@ -58,22 +58,19 @@ See also: [Computer Architecture](comparch.md)
 	+ https://dl.acm.org/citation.cfm?id=3023872
 	+ https://strathprints.strath.ac.uk/66223/1/Biswas_etal_ACM_CS_2017_A_survey_of_timing_channels_and_countermeasures.pdf
 * A Systematic Evaluation of Transient Execution Attacks and Defenses
-	+ 2018 arXiv
+	+ arXiv 2018
 	+ Claudio Canella, Jo Van Bulck, Michael Schwarz, Moritz Lipp, Benjamin von Berg, Philipp Ortner, Frank Piessens, Dmitry Evtyushkin, Daniel Gruss 
 	+ https://arxiv.org/abs/1811.05441
 * Cross-core Microarchitectural Side Channel Attacks and Countermeasures
-	+ 2017 Dissertation; Gorka Irazoqui
+	+ 2017 Ph.D. Dissertation; Gorka Irazoqui
 	+ https://web.wpi.edu/Pubs/ETD/Available/etd-042417-114714/unrestricted/girazoki.pdf
-* Cycle-Accurate Timing Channel Analysis of Binary Code - Roeland Krak, 2017
-	+ http://essay.utwente.nl/72321/
-	+ http://essay.utwente.nl/72321/1/Krak_MA_EEMCS.pdf
-	+ model of instruction execution time for the ARM Cortex-A7
 * Exploiting processor side channels to enable cross VM malicious code execution
-	+ 2015 Thesis, Sophia M. D'Antoine
+	+ 2015 Master's Thesis, Sophia M. D'Antoine
 	+ http://digitool.rpi.edu:8881/dtl_publish/15/175977.html
 	+ https://www.sophia.re/thesis.pdf
 	+ https://www.blackhat.com/docs/us-15/materials/us-15-DAntoine-Exploiting-Out-Of-Order-Execution-For-Covert-Cross-VM-Communication-wp.pdf
-* MASCAB: a Micro-Architectural Side-Channel Attack Bibliography - https://github.com/danpage/mascab
+* MASCAB: a Micro-Architectural Side-Channel Attack Bibliography
+	+ https://github.com/danpage/mascab
 	+ YouTube playlist: https://www.youtube.com/playlist?list=PLcjiHk8Sl-KK1qY4JOzTDu095TscjcEVa
 * Mastik: A Micro-Architectural Side-Channel Toolkit
 	+ http://cs.adelaide.edu.au/~yval/Mastik/
@@ -90,9 +87,10 @@ See also: [Computer Architecture](comparch.md)
 	+ http://www.chesworkshop.org/ches2016/presentations/CHES16-Tutorial2_2.pdf
 	+ https://cryptologie.net/article/367/ches-2016-tutorial-part-2-micro-architectural-side-channel-attacks/
 * Negative Result: Reading Kernel Memory From User Mode
-	+ 2017, Anders Fogh
+	+ 2017; Anders Fogh
 	+ https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/
-* Software-based Microarchitectural Attacks - Daniel Gruss, PhD thesis, 2017
+* Software-based Microarchitectural Attacks
+	+ 2017 PhD dissertation; Daniel Gruss
 	+ https://gruss.cc/files/phd_thesis.pdf
 	+ slides: https://gruss.cc/files/phd_defense_slides.pdf
 * Survey of Microarchitectural Side and Covert Channels, Attacks, and Defenses
@@ -101,15 +99,23 @@ See also: [Computer Architecture](comparch.md)
 	+ http://caslab.csl.yale.edu/publications/2018_hass.pdf
 	+ 2016 preprint: http://eprint.iacr.org/2016/479
 	+ https://link.springer.com/article/10.1007/s41635-018-0046-1
-* Systematic Classification of Side-Channel Attacks: A Case Study for Mobile Devices - https://arxiv.org/abs/1611.03748
+* Systematic Classification of Side-Channel Attacks: A Case Study for Mobile Devices
+	+ IEEE Communications Surveys & Tutorials 20(1) 2018
+	+ Raphael Spreitzer, Veelasha Moonsamy, Thomas Korak, Stefan Mangard 
+	+ https://arxiv.org/abs/1611.03748
 * The Last Mile: An Empirical Study of Timing Channels on seL4
+	+ CCS 2014
+	+ David Cock, Qian Ge, Toby Murray, Gernot Heiser
 	+ http://research.davidcock.fastmail.fm/slides/lastmile.pdf
 	+ https://ts.data61.csiro.au/publications/nictaabstracts/8295.pdf
 	+ http://ts.data61.csiro.au/projects/TS/timingchannels.pml
-* Understanding contention-based channels and using them for defense, HPCA 2015
-	+ Hunger, C., Kazdagli, M., Rawat, A., Dimakis, A., Vishwanath, S., and Tiwari, M.
+* Understanding contention-based channels and using them for defense
+	+ HPCA 2015
+	+ Hunger, C., Kazdagli, M., Rawat, A., Dimakis, A., Vishwanath, S., Tiwari, M.
 	+ http://users.ece.utexas.edu/~tiwari/pubs/HPCA-15-contention.pdf
-* Your Processor Leaks Information - and There's Nothing You Can Do About It, 2017
+* Your Processor Leaks Information - and There's Nothing You Can Do About It
+	+ arXiv 2017
+	+ Qian Ge, Yuval Yarom, Frank Li, Gernot Heiser 
 	+ https://arxiv.org/abs/1612.04474
 
 ---
@@ -118,6 +124,10 @@ See also: [Computer Architecture](comparch.md)
 
 * Hardware and Architectural Support for Security and Privacy (HASP)
 	+ http://caslab.csl.yale.edu/workshops/hasp2018/
+* Hardware and Firmware Security Guidance
+	+ https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance
+	+ Meltdown and Spectre Side-Channel Vulnerability Guidance
+		- https://www.us-cert.gov/ncas/alerts/TA18-004A
 * Hardware Security @ UNC - https://cs.unc.edu/~csturton/HWSecurityatUNC/
 	+ Security Specification Mining - https://cs.unc.edu/~csturton/HWSecurityatUNC/specification_mining.html
 	+ Symbolic Execution for Hardware - https://cs.unc.edu/~csturton/HWSecurityatUNC/symbolic_execution.html
@@ -159,8 +169,10 @@ See also: [Computer Architecture](comparch.md)
 	+ Shuai Wang, Pei Wang, Xiao Liu, Danfeng Zhang, Dinghao Wu
 	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/wang-shuai
 * CacheShield: Protecting Legacy Processes Against Cache Attacks
-	+ 2017; Samira Briongos, Gorka Irazoqui, Pedro Malagón, Thomas Eisenbarth
+	+ CODASPY 2018
+	+ Samira Briongos, Gorka Irazoqui, Pedro Malagón, Thomas Eisenbarth
 	+ https://arxiv.org/abs/1709.01795
+	+ https://dl.acm.org/citation.cfm?id=3176258.3176320
 * CaSym: Cache Aware Symbolic Execution for Side Channel Detection and Mitigation 
 	+ Security & Privacy (S&P) 2019
 	+ Brotzman, R L, Shen Liu, Danfeng Zhang, Gang Tan, Mahmut T. Kandemir
@@ -174,15 +186,16 @@ See also: [Computer Architecture](comparch.md)
 	+ Vladimir Kiriansky, Ilia A. Lebedev, Saman P. Amarasinghe, Srinivas Devadas, Joel S. Emer
 	+ https://doi.org/10.1109/MICRO.2018.00083
 * Did we learn from LLC Side Channel Attacks? A Cache Leakage Detection Tool for Crypto Libraries
-	+ 2017; Gorka Irazoqui, Kai Cong, Xiaofei Guo, Hareesh Khattri, Arun Kanuparthi, Thomas Eisenbarth, Berk Sunar
+	+ arXiv 2017
+	+ Gorka Irazoqui, Kai Cong, Xiaofei Guo, Hareesh Khattri, Arun Kanuparthi, Thomas Eisenbarth, Berk Sunar
 	+ https://arxiv.org/abs/1709.01552
 * How secure is your cache against side-channel attacks?
-	+ MICRO-50 2017
+	+ MICRO 2017
 	+ Zecheng He, Ruby B. Lee
 	+ https://doi.org/10.1145/3123939.3124546
 	+ http://palms.ee.princeton.edu/system/files/Micro-camera-ready-final.pdf
 * On the Incomparability of Cache Algorithms in Terms of Timing Leakage
-	+ 2018 arXiv
+	+ arXiv 2018
 	+ Pablo Cañones, Boris Köpf, Jan Reineke
 	+ https://arxiv.org/abs/1807.01240
 * Secure Hierarchy-Aware Cache Replacement Policy (SHARP): Defending Against Cache-Based Side Channel Attacks
@@ -232,11 +245,16 @@ See also: [Computer Architecture](comparch.md)
 	+ R. Zhang, C. Deutschbein, P. Huang, C. Sturton
 	+ https://cs.unc.edu/~csturton/papers/zhang2018MICRO.pdf
 	+ https://github.com/rzhang2285/Coppelia
+* Fast and Efficient Deployment of Security Defenses via Context Sensitive Decoding
+	+ Government Microcircuit Applications and Critical Technology Conference (GOMACTech) 2019
+	+ Mohammadkazem Taram, Dean M. Tullsen, Ashish Venkat, Houman Homayoun, Sai Manoj MD,
+	+ http://www.cs.virginia.edu/venkat/papers/gomactech2019.pdf
 * HyperFlow: A Processor Architecture for Nonmalleable, Timing-Safe Information Flow Security
 	+ ACM CCS 2018
 	+ Andrew Ferraiuolo, Mark Zhao, Andrew C. Myers, G. Edward Suh
 	+ https://dl.acm.org/citation.cfm?id=3243743
 	+ https://www.youtube.com/watch?v=JdIbR_cwjaU
+	+ http://www.cs.cornell.edu/andru/papers/hyperflow/
 * ParTI - Towards Combined Hardware Countermeasures against Side Channel and Fault Injection Attacks
 	+ CHES 2016, IACR-CRYPTO-2016 
 	+ Tobias Schneider, Amir Moradi, Tim Güneysu
@@ -262,6 +280,11 @@ See also: [Computer Architecture](comparch.md)
 	+ https://github.com/agl/ctgrind/
 * CTTK (Constant-Time Toolkit)
 	+ https://github.com/pornin/CTTK
+* Cycle-Accurate Timing Channel Analysis of Binary Code
+	+ 2017 Master's Thesis; Roeland Krak
+	+ http://essay.utwente.nl/72321/
+	+ http://essay.utwente.nl/72321/1/Krak_MA_EEMCS.pdf
+	+ model of instruction execution time for the ARM Cortex-A7
 * dudect: dude, is my code constant time? - https://github.com/oreparaz/dudect
 * FaCT: A Flexible, Constant-Time Programming Language
 	+ SecDev 2017
@@ -299,6 +322,12 @@ See also: [Computer Architecture](comparch.md)
 	+ https://www.youtube.com/watch?v=GMyDEnpoyoI
 	+ https://arxiv.org/abs/1603.02187
 	+ http://software.imdea.org/~bkoepf/papers/pldi17.pdf
+* SideTrail: Verifying Time-Balancing of Cryptosystems
+	+ Verified Software: Theories, Tools, and Experiments (VSTTE) 2018
+	+ Konstantinos Athanasiou, Byron Cook, Michael Emmi, Colm MacCarthaigh, Daniel Schwartz-Narbonne, Serdar Tasiran
+	+ https://github.com/awslabs/s2n/tree/master/tests/sidetrail
+	+ http://www0.cs.ucl.ac.uk/staff/b.cook/VSSTE18_sidetrail.pdf
+	+ https://aws.amazon.com/blogs/security/how-aws-sidetrail-verifies-key-aws-cryptography-code/
 * Towards Practical Tools for Side Channel Aware Software Engineering: "Grey Box" Modelling for Instruction Leakages
 	+ USENIX Security 2017
 	+ David McCann, Elisabeth Oswald, Carolyn Whitnall
@@ -314,7 +343,7 @@ See also: [Computer Architecture](comparch.md)
 	+ https://link.springer.com/chapter/10.1007/978-3-319-66402-6_16
 * Why Constant-Time Crypto? - https://www.bearssl.org/constanttime.html
 * You Shall Not Bypass: Employing data dependencies to prevent Bounds Check Bypass
-	+ 2018 arXiv
+	+ arXiv 2018
 	+ Oleksii Oleksenko, Bohdan Trach, Tobias Reiher, Mark Silberstein, Christof Fetzer 
 	+ https://arxiv.org/abs/1805.08506
 
@@ -339,13 +368,17 @@ See also: [Computer Architecture](comparch.md)
 	+ Lightning talk: https://www.youtube.com/watch?v=mAO5iejYUec
 	+ https://github.com/mjyan0720/InvisiSpec-1.0
 * Spectector: Principled Detection of Speculative Information Flows
-	+ 2018 arXiv
+	+ arXiv 2018
 	+ Marco Guarnieri, Boris Köpf, José F. Morales, Jan Reineke, Andrés Sánchez
 	+ https://spectector.github.io/
 	+ https://github.com/spectector/spectector
 * Spectre: Secrets, Side-Channels, Sandboxes, and Security
 	+ CppCon 2018; Chandler Carruth
 	+ https://www.youtube.com/watch?v=_f7O3IfIR2k
+* Spectre is here to stay: An analysis of side-channels and speculative execution
+	+ arXiv 2019
+	+ Ross Mcilroy, Jaroslav Sevcik, Tobias Tebbi, Ben L. Titzer, Toon Verwaest 
+	+ https://arxiv.org/abs/1902.05178
 * Spectres, Virtual Ghosts, and Hardware Support
 	+ Hardware and Architectural Support for Security and Privacy (HASP) 2018
 	+ Xiaowan Dong, Zhuojia Shen, John Criswell, Alan Cox, Sandhya Dwarkadas
@@ -824,7 +857,8 @@ See also: [Computer Architecture](comparch.md)
 # Memory Management Unit (MMU)
 
 * ASLR on the Line: Practical Cache Attacks on the MMU
-	+ B. Gras, K. Razavi, E. Bosman, H. Bos, C. Giuffrida; NDSS, 2017
+	+ NDSS 2017
+	+ B. Gras, K. Razavi, E. Bosman, H. Bos, C. Giuffrida
 	+ https://www.vusec.net/download/?t=papers/anc_ndss17.pdf
 	+ 34C3 (2017)
 		- https://media.ccc.de/v/34c3-9135-aslr_on_the_line
@@ -835,10 +869,15 @@ See also: [Computer Architecture](comparch.md)
 	+ https://github.com/vusec/xlate
 	+ https://www.vusec.net/projects/xlate/
 	+ https://www.usenix.org/conference/usenixsecurity18/presentation/van-schaik
-* Reverse Engineering Hardware Page Table Caches Using Side-Channel Attacks on the MMU
-	+ S. van Schaik, K. Razavi, B. Gras, H. Bos, C. Giuffrida, VU Amsterdam, 2017.
+* RevAnC: A Framework for Reverse Engineering Hardware Page Table Caches
+	+ EuroSec 2017
+	+ 2017 Technical Report: Reverse Engineering Hardware Page Table Caches Using Side-Channel Attacks on the MMU
+	+ S. van Schaik, K. Razavi, B. Gras, H. Bos, C. Giuffrida
+	+ https://www.vusec.net/projects/anc
 	+ https://www.vusec.net/download/?t=papers/revanc_ir-cs-77.pdf
 * Telling Your Secrets without Page Faults: Stealthy Page Table-Based Attacks on Enclaved Execution
+	+ USENIX Security Symposium 2017
+	+ Jo Van Bulck, Nico Weichbrodt, Rüdiger Kapitza, Frank Piessens, Raoul Strackx
 	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/van-bulck
 	+ https://github.com/jovanbulck/sgx-pte
 
@@ -866,7 +905,12 @@ See also: [Computer Architecture](comparch.md)
 
 # Prefetch
 
-* Harmful prefetch on Intel - http://blog.ioactive.com/2017/01/harmful-prefetch-on-intel.html
+* Harmful prefetch on Intel
+	+ 2017; Enrique Nissim
+	+ http://blog.ioactive.com/2017/01/harmful-prefetch-on-intel.html
+* PAPP: Prefetcher-Aware Prime and Probe Side-channel Attack
+	+ Design Automation Conference (DAC) 2019
+	+ Daimeng Wang, Zhiyun Qian, Nael Abu-Ghazaleh, Srikanth V. Krishnamurthy
 * Prefetch Side-Channel Attacks: Bypassing SMAP and Kernel ASLR
 	+ Conference on Computer and Communications Security (CCS) 2016
 	+ Daniel Gruss, Anders Fogh, Clémentine Maurice, Moritz Lipp, Stefan Mangard 
@@ -878,6 +922,8 @@ See also: [Computer Architecture](comparch.md)
 	+ http://isslab.korea.ac.kr/notice/read/1/77
 	+ https://dl.acm.org/citation.cfm?doid=3243734.3243736
 * Using Undocumented CPU Behavior to See Into Kernel Mode and Break KASLR in the Process
+	+ BlackHat USA 2016
+	+ Anders Fogh & Daniel Gruss
 	+ https://www.youtube.com/watch?v=Pwq0vv4X7m4
 	+ https://www.blackhat.com/docs/us-16/materials/us-16-Fogh-Using-Undocumented-CPU-Behaviour-To-See-Into-Kernel-Mode-And-Break-KASLR-In-The-Process.pdf
 
@@ -886,8 +932,10 @@ See also: [Computer Architecture](comparch.md)
 # Pseudo-Random Number Generator (PRNG)
 
 * Covert Channels through Random Number Generator: Mechanisms, Capacity Estimation and Mitigations
+	+ CCS 2016
+	+ Dmitry Evtyushkin, Dmitry V. Ponomarev
 	+ http://www.cs.binghamton.edu/~dima/ccs16.pdf
-	+ CCS 2016: https://www.youtube.com/watch?v=G1xzG43mkZU
+	+ https://www.youtube.com/watch?v=G1xzG43mkZU
 
 ---
 
@@ -912,21 +960,28 @@ See also: [Computer Architecture](comparch.md)
 
 # SGX
 
-* Cache Attacks on Intel SGX - https://www1.informatik.uni-erlangen.de/filepool/projects/sgx-timing/sgx-timing.pdf
+* Cache Attacks on Intel SGX
+	+ EuroSec 2017
+	+ Johannes Götzfried, Moritz Eckert, Sebastian Schinzel, Tilo Müller
+	+ https://www1.informatik.uni-erlangen.de/filepool/projects/sgx-timing/sgx-timing.pdf
 * CacheZoom: How SGX Amplifies The Power of Cache Attacks 
-	+ 2017; Ahmad Moghimi, Gorka Irazoqui, Thomas Eisenbarth
+	+ Cryptographic Hardware and Embedded Systems (CHES) 2017
+	+ Ahmad Moghimi, Gorka Irazoqui, Thomas Eisenbarth
 	+ https://arxiv.org/abs/1703.06986
 * Inferring Fine-grained Control Flow Inside SGX Enclaves with Branch Shadowing
 	+ USENIX Security 2017
-	+ Skylake's BTB parameters, use of Intel PT and LBR
 	+ https://arxiv.org/abs/1611.06952
 	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/lee-sangho
+	+ Skylake's BTB parameters, use of Intel PT and LBR
 * Leaky Cauldron on the Dark Land: Understanding Memory Side-Channel Hazards in SGX
 	+ CCS 2017
 	+ Wenhao Wang, Guoxing Chen, Xiaorui Pan, Yinqian Zhang, XiaoFeng Wang, Vincent Bindschaedler, Haixu Tang, Carl A. Gunter
 	+ http://web.cse.ohio-state.edu/~zhang.834/papers/ccs17b.pdf
 	+ https://acmccs.github.io/papers/p2421-wangA.pdf
-* Malware Guard Extension: Using SGX to Conceal Cache Attacks - https://arxiv.org/abs/1702.08719
+* Malware Guard Extension: Using SGX to Conceal Cache Attacks
+	+ DIMVA 2017
+	+ Michael Schwarz, Samuel Weiser, Daniel Gruss, Clémentine Maurice, Stefan Mangard
+	+ https://arxiv.org/abs/1702.08719
 * Off-Limits: Abusing Legacy x86 Memory Segmentation to Spy on Enclaved Execution
 	+ Engineering Secure Software and Systems (ESSoS) 2018
 	+ Gyselinck J., Van Bulck J., Piessens F., Strackx R.
@@ -938,7 +993,13 @@ See also: [Computer Architecture](comparch.md)
 	+ https://web.cse.ohio-state.edu/~zhang.834/papers/sp18.pdf
 	+ https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a388.pdf
 * SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control
+	+ SysTEX 2017
+	+ Jo Van Bulck, Frank Piessens, Raoul Strackx
 	+ https://github.com/jovanbulck/sgx-step
+* SGXlinger: A New Side-Channel Attack Vector Based on Interrupt Latency Against Enclave Execution
+	+ International Conference on Computer Design (ICCD) 2018
+	+ Wenjian He, Wei Zhang, Sanjeev Das, Yang Liu
+	+ https://github.com/HE-Wenjian/SGXlinger
 * SgxPectre Attacks: Leaking Enclave Secrets via Speculative Execution
 	+ 2018 arXiv; Guoxing Chen, Sanchuan Chen, Yuan Xiao, Yinqian Zhang, Zhiqiang Lin, Ten H. Lai
 	+ https://arxiv.org/abs/1802.09085
@@ -1038,9 +1099,16 @@ See also: [Computer Architecture](comparch.md)
 		- QCon London 2018; Moritz Lipp
 		- https://www.infoq.com/presentations/spectre-meltdown-security
 * NetSpectre: Read Arbitrary Memory over Network
-	+ 2018; Michael Schwarz, Martin Schwarzl, Moritz Lipp, Daniel Gruss
+	+ arXiv 2018; Michael Schwarz, Martin Schwarzl, Moritz Lipp, Daniel Gruss
 	+ https://misc0110.net/web/files/netspectre.pdf
-* Out-of-Order Execution and Its Applications - Sophia D'Antoine, DeepSec 2017
+* On the Spectre and Meltdown Processor Security Vulnerabilities
+	+ IEEE Micro Special Issue on Hot Chips 2018 (2019)
+	+ Mark D. Hill, Jon Masters, Parthasarathy Ranganathan, Paul Turner, John Hennessy
+	+ https://doi.org/10.1109/MM.2019.2897677
+	+ https://ieeexplore.ieee.org/document/8634886
+	+ http://www.cs.wisc.edu/~markhill/papers/ieeemicro19_spectre_meltdown_2019_01_30
+* Out-of-Order Execution and Its Applications
+	+ DeepSec 2017; Sophia D'Antoine
 	+ https://www.sophia.re/ROOTS/
 	+ https://deepsec.net/docs/Slides/2017/Out-Of-Order_Execution_and_its_applications_Sophia_dAntoine.pdf
 	+ https://deepsec.net/docs/Slides/2017/Out-Of-Order_Execution_and_its_applications_Sophia_dAntoine.pptx
@@ -1050,7 +1118,7 @@ See also: [Computer Architecture](comparch.md)
 	+ https://people.csail.mit.edu/vlk/spectre11.pdf
 	+ https://arxiv.org/abs/1807.03757
 * Speculose: Analyzing the Security Implications of Speculative Execution in CPUs
-	+ 2018
+	+ arXiv 2018
 	+ Giorgi Maisuradze, Christian Rossow
 	+ https://arxiv.org/abs/1801.04084
 
@@ -1103,6 +1171,10 @@ See also: [Computer Architecture](comparch.md)
 * Hardware Is the New Software: Finding Exploitable Bugs in Hardware Designs
 	+ 2019 USENIX Enigma Conference; Cynthia Sturton
 	+ https://www.usenix.org/conference/enigma2019/presentation/sturton
+* NetSpectre: A Truly Remote Spectre Variant
+	+ Black Hat Asia 2019
+	+ Michael Schwarz, Martin Schwarzl
+	+ https://www.blackhat.com/asia-19/briefings/schedule/#netspectre-a-truly-remote-spectre-variant-13757
 * Winter is Coming Back: Defeating the Most Advanced Rowhammer Defenses to Gain Root and Kernel Privileges
 	+ Black Hat Asia 2019
 	+ Yueqiang Cheng, Zhi Zhang, Surya Nepal, Zhi Wang
