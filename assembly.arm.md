@@ -80,6 +80,8 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * Alastair Reid's
 	+ Blog Posts - https://alastairreid.github.io/
 	+ Papers: https://alastairreid.github.io/alastairreid.github.io/papers/
+	+ 2019-02-17 - Generating multiple solutions with SMT - https://alastairreid.github.io/tracing-smt3/
+	+ 2019-02-09 - Using SMT to check specifications for errors - https://alastairreid.github.io/tracing-smt2/
 	+ 2019-02-02 - Generating SMT from traces - https://alastairreid.github.io/tracing-smt/
 	+ 2017-12-24 - Bidirectional Assembly Syntax Specifications - https://alastairreid.github.io/bidirectional-assemblers/
 	+ 2017-09-24 - Formal validation of the Arm v8-M specification - https://alastairreid.github.io/validating-specs/
@@ -118,7 +120,8 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 ## Instruction Set Architecture
 
-* "ARM Assembly Language Programming" by Pete Cockerell (historical) - http://www.peter-cockerell.net/aalp/
+* ARM Assembly Language Programming - Pete Cockerell (historical)
+	+ http://www.peter-cockerell.net/aalp/
 * ARM immediate value encoding - Alisdair McDiarmid
 	+ https://alisdair.mcdiarmid.org/arm-immediate-value-encoding/
 * ARMv8 Shellcodes from 'A' to 'Z'
@@ -133,6 +136,10 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://www.qualcomm.com/documents/whitepaper-pointer-authentication-armv83
 	+ https://www.qualcomm.com/media/documents/files/whitepaper-pointer-authentication-on-armv8-3.pdf
 	+ https://www.qualcomm.com/news/onq/2017/01/10/qualcomm-releases-whitepaper-detailing-pointer-authentication-armv83
+
+### M-profile
+
+* Making Helium: Why not just add Neon? (1/4) - https://community.arm.com/arm-research/b/articles/posts/making-helium-why-not-just-add-neon
 
 ## Performance
 
