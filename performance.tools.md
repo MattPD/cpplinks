@@ -62,14 +62,21 @@
 	+ https://github.com/KDE/heaptrack
 	+ http://milianw.de/blog/heaptrack-a-heap-memory-profiler-for-linux
 	+ https://www.kdab.com/heaptrack-v1-0-0-release/
-* MALT: a MALloc Tracker to find where and how your made your memory allocations in C/C++/Fortran applications
-	+ https://memtt.github.io/malt/
-	+ https://github.com/memtt/malt
+* MALT & NUMAPROF: Memory Profiling for HPC Applications
+	+ NUMAPROF: a NUMA memory profiler based on Pintool to track remote memory accesses
+		- https://memtt.github.io/numaprof
+		- https://github.com/memtt/numaprof
+	+ MALT: a MALloc Tracker to find where and how your made your memory allocations in C/C++/Fortran applications
+		- https://memtt.github.io/malt/
+		- https://github.com/memtt/malt
 	+ MALT: A Malloc Tracker
 		- International Workshop on Software Engineering for Parallel Systems (SEPS) 2017
 		- Sébastien Valat, Andres S. Charif-Rubial, William Jalby
 		- paper: https://memtt.github.io/malt/downloads/2017-seps-malt.pdf
 		- slides: https://svalat.github.io/docs/2017-10-MALT-SEPS17.pdf
+	+ FOSDEM 2019; Sébastien Valat
+		- https://www.youtube.com/watch?v=TnMOjdIy_Ow
+		- https://fosdem.org/2019/schedule/event/numaprof/
 * Memoro: A Detailed Heap Profiler
 	+ https://epfl-vlsc.github.io/memoro/
 	+ https://github.com/epfl-vlsc/memoro
@@ -116,6 +123,13 @@
 	+ Understanding the performance of code using LLVM's Machine Code Analyzer (llvm-mca)
 		- 2018 LLVM Developers’ Meeting; Andrea Di Biagio & Matt Davis
 		- https://www.youtube.com/watch?v=Ku2D8bjEGXk
+* nanoBench: A tool for running small microbenchmarks on recent Intel and AMD x86 CPUs
+	+ used for running the microbenchmarks for obtaining the latency, throughput, and port usage data available on http://uops.info
+	+ https://github.com/andreas-abel/nanoBench
+	+ uops.info: Characterizing Latency, Throughput, and Port Usage of Instructions on Intel Microarchitectures
+		- ASPLOS 2019
+		- Andreas Abel, Jan Reineke
+		- https://arxiv.org/abs/1810.04610
 * OSACA: Open Source Architecture Code Analyzer
 	+ https://github.com/RRZE-HPC/osaca
 	+ https://hpc.fau.de/research/tools/
