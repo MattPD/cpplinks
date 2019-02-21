@@ -146,6 +146,10 @@ See also: [Computer Architecture](comparch.md)
 
 ## Defense - Cache
 
+* Analysis of Secure Caches and Timing-Based Side-Channel Attacks
+	+ Cryptology ePrint Archive: Report 2019/167
+	+ Shuwen Deng, Wenjie Xiong, Jakub Szefer
+	+ https://eprint.iacr.org/2019/167
 * Architecting against Software Cache-Based Side-Channel Attacks
 	+ IEEE Transactions on Computers 62(7), July 2013
 	+ Jingfei Kong, O. Aciicmez, J-P Seifert, Huiyang Zhou
