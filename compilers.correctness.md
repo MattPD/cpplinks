@@ -44,6 +44,11 @@ Note: see also [compilers](compilers.md)
 
 ## Articles
 
+* A Systematic Impact Study for Fuzzer-Found Compiler Bugs
+	+ 2019 arXiv
+	+ Michaël Marcozzi, Qiyi Tang, Alastair Donaldson, Cristian Cadar
+	+ https://arxiv.org/abs/1902.09334
+	+ https://sites.google.com/view/michaelmarcozzi/compiler-bugs
 * An empirical comparison of compiler testing techniques
 	+ International Conference on Software Engineering (ICSE 2016)
 	+ Junjie Chen, Wenxiang Hu, Dan Hao, Yingfei Xiong, Hongyu Zhang, Lu Zhang, Bing Xie
@@ -211,6 +216,8 @@ Note: see also [compilers](compilers.md)
 	+ a tool to test C compilers by randomly generated programs; based on equivalent transformations on C programs and can generate wider class of C test programs than Orange3.
 	+ https://ist.ksc.kwansei.ac.jp/~ishiura/pub/orange4/
 	+ https://github.com/ishiura-compiler/Orange4
+* OutputCheck: A tool for checking tool output inspired by LLVM's FileCheck
+	+ https://github.com/stp/OutputCheck/
 * prog-fuzz: Compiler/source code fuzzing tool using AFL instrumentation
 	+ https://github.com/vegard/prog-fuzz
 * Quest: A tool for testing C compilers - https://github.com/lindig/quest
@@ -351,6 +358,14 @@ Validation: Including translation validation, equivalence checking.
 	+ Closing the Gap – The Formally Verified Optimizing Compiler CompCert
 		- SSS'17: Safety-critical Systems Symposium 2017
 		- https://hal.inria.fr/hal-01399482/
+	+ Compositional CompCert
+		- POPL 2015
+		- Stewart, G., Beringer, L., Cuellar, S., Appel, A.W.
+		- https://github.com/PrincetonUniversity/compcomp
+	+ Lightweight Verification of Separate Compilation
+		- POPL 2016
+		- Jeehoon Kang, Yoonseung Kim, Chung-Kil Hur, Derek Dreyer, Viktor Vafeiadis
+		- https://sf.snu.ac.kr/sepcompcert/
 	+ Verified Peephole Optimizations for CompCert
 		- PLDI 2016
 		- Eric Mullen, Daryl Zuniga, Zachary Tatlock, Dan Grossman
@@ -401,3 +416,7 @@ Validation: Including translation validation, equivalence checking.
 	+ Strange Loop 2018; Steve Zdancewic
 		- https://www.youtube.com/watch?v=q6gSC3OxB_8
 		- https://thestrangeloop.com/2018/vellvm---verifying-the-llvm.html
+* Verified Compilers for a Multi-Language World
+	+ Summit on Advances in Programming Languages (SNAPL) 2015
+	+ Amal Ahmed
+	+ http://www.ccs.neu.edu/home/amal/papers/verifcomp.pdf
