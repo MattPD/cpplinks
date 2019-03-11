@@ -333,6 +333,10 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 ## Binary Analysis
 
+* Exploiting SIMD Asymmetry in ARM-to-x86 Dynamic Binary Translation
+	+ ACM Transactions on Architecture and Code Optimization (@acmtaco) 2019
+	+ Yu-Ping Liu, Ding-Yong Hong, Jan-Jan Wu, Sheng-Yu Fu, Wei-Chung Hsu
+	+ http://dl.acm.org/citation.cfm?id=3301488
 * MAMBO: A Low-Overhead Dynamic Binary Modification Tool for ARM
 	+ https://github.com/beehive-lab/mambo
 	+ Low Overhead Dynamic Binary Translation on ARM
@@ -658,10 +662,14 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ Episode 3: ARM exploitations - https://quequero.org/2017/11/arm-exploitation-iot-episode-3/
 * ARM lectures by Dr. Santanu Chaudhury, EE Department, IIT Delhi - https://www.youtube.com/playlist?list=PL95AFA4ABA8B28627
 * ARM Shellcode - Azeria Labs
-	+ Part 1: Introduction to Writing ARM Shellcode - https://azeria-labs.com/writing-arm-shellcode/
-	+ Part 2: Process Memory and Memory Corruptions - https://azeria-labs.com/process-memory-and-memory-corruption/
-	+ Part 3: Stack Overflow Challenges - https://azeria-labs.com/part-3-stack-overflow-challenges/
 	+ Code: https://github.com/azeria-labs/ARM-assembly-examples
+	+ Introduction to Writing ARM Shellcode - https://azeria-labs.com/writing-arm-shellcode/
+	+ TCP Bind Shell (ARM 32-bit) - https://azeria-labs.com/tcp-bind-shell-in-assembly-arm-32-bit/
+	+ TCP Reverse Shell (ARM 32-bit) - https://azeria-labs.com/tcp-reverse-shell-in-assembly-arm-32-bit/
+	+ Process Memory and Memory Corruptions - https://azeria-labs.com/process-memory-and-memory-corruption/
+	+ Stack Overflow Challenges - https://azeria-labs.com/part-3-stack-overflow-challenges/
+	+ Process Continuation Shellcode - https://azeria-labs.com/process-continuation-shellcode/
+	+ Heap Exploitation Part 1: Understanding the Glibc Heap Implementation - https://azeria-labs.com/heap-exploitation-part-1-understanding-the-glibc-heap-implementation/
 * arm64 assembly crash course - https://github.com/Siguza/ios-resources/blob/master/bits/arm64.md
 * EECS 370 - http://www.eecs.umich.edu/courses/eecs370/eecs370.f17/resources/
 	+ ARM Examples - https://www.eecs.umich.edu/courses/eecs370/eecs370.w17/resources/materials/370ARMExamples.pdf
@@ -694,3 +702,4 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ Part 2: How Windows uses the processor - https://blogs.msdn.microsoft.com/ntdebugging/2014/05/15/understanding-arm-assembly-part-2/
 	+ Part 3: Calling conventions - https://blogs.msdn.microsoft.com/ntdebugging/2014/05/29/understanding-arm-assembly-part-3/
 * Whirlwind Tour of ARM Assembly - https://www.coranac.com/tonc/text/asm.htm
+* Windows on ARM - An assembly language primer - http://www.codemachine.com/article_armasm.html
