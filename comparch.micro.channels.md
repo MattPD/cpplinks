@@ -242,7 +242,7 @@ See also: [Computer Architecture](comparch.md)
 	+ https://github.com/ctrippel/checkmate
 * Data Oblivious ISA Extensions for Side Channel-Resistant and High Performance Computing
 	+ Network and Distributed System Security Symposium (NDSS) 2019
-	+ Jiyong Yu and Lucas Hsiung and Mohamad El Hajj, Christopher W. Fletcher
+	+ Jiyong Yu, Lucas Hsiung, Mohamad El Hajj, Christopher W. Fletcher
 	+ https://eprint.iacr.org/2018/808
 * End-to-End Automated Exploit Generation for Validating the Security of Processor Designs
 	+ MICRO 2018
@@ -542,7 +542,7 @@ See also: [Computer Architecture](comparch.md)
 	+ https://arxiv.org/abs/1811.07153
 * Unveiling your keystrokes: A Cache-based Side-channel Attack on Graphics Libraries
 	+ NDSS 2019
-	+ Youngjoo Shin, Hyung Chan Kim, Dokeun Kwon, Ji Hoon Jeong, Junbeom Hur
+	+ Daimeng Wang, Ajaya Neupane, Zhiyun Qian, Nael Abu-Ghazaleh, Srikanth V. Krishnamurthy, Edward J. M. Colbert, Paul Yu
 	+ http://www.cs.ucr.edu/~zhiyunq/pub/ndss19_cache_keystrokes.pdf
 * Yet Another MicroArchitectural Attack: Exploiting I-cache
 	+ CSAW 2007
@@ -855,6 +855,10 @@ See also: [Computer Architecture](comparch.md)
 	+ http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/02/ndss2018_06A-3_Sullivan_paper.pdf
 	+ http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/03/NDSS2018-06A-3_Sullivan_Slides.pdf
 	+ https://www.youtube.com/watch?v=0KIojo5nk2s
+* SPOILER: Speculative Load Hazards Boost Rowhammer and Cache Attacks
+	+ 2019 arXiv
+	+ Saad Islam, Ahmad Moghimi, Ida Bruhns, Moritz Krebbel, Berk Gulmezoglu, Thomas Eisenbarth, Berk Sunar
+	+ https://arxiv.org/abs/1903.00446
 
 ---
 
@@ -1039,6 +1043,12 @@ See also: [Computer Architecture](comparch.md)
 	+ https://eprint.iacr.org/2018/1060
 * PortSmash (CVE-2018-5407): side-channel vulnerability on SMT/Hyper-Threading architectures
 	+ https://github.com/bbbrumley/portsmash
+* SMoTherSpectre: exploiting speculative execution through port contention
+	+ 2019 arXiv
+	+ Atri Bhattacharyya, Alexandra Sandulescu, Matthias Neugschwandtner, Alessandro Sorniotti, Babak Falsafi, Mathias Payer, Anil Kurmus 
+	+ https://arxiv.org/abs/1903.01843
+	+ http://nebelwelt.net/blog/20190306-SMoTherSpectre.html
+	+ https://github.com/HexHive/SMoTherSpectre
 
 ---
 
@@ -1054,8 +1064,9 @@ See also: [Computer Architecture](comparch.md)
 	+ http://ieeexplore.ieee.org/document/4041191/
 	+ http://www.acsac.org/2006/papers/127.pdf
 * ExSpectre: Hiding Malware in Speculative Execution
-	+ NDSS 2019
+	+ Network and Distributed Systems Security (NDSS) 2019
 	+ Jack Wampler, Ian Martiny, Eric Wustrow
+	+ https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_02B-5_Wampler_paper.pdf
 * Foreshadow & L1 Terminal Fault (L1TF)
 	+ Foreshadow: Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution
 		- USENIX Security 2018
