@@ -55,6 +55,8 @@
 	+ http://www.cs.virginia.edu/stream/
 	+ STREAM benchmark - https://github.com/jeffhammond/STREAM
 	+ NUMA-STREAM - https://github.com/larsbergstrom/NUMA-STREAM
+* tinymembench: simple benchmark for memory throughput and latency
+	+ https://github.com/ssvb/tinymembench
 
 ## Memory - Profiling
 
