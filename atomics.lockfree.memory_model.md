@@ -179,6 +179,11 @@
 	- http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-95-7.pdf
 - Simple and Efficient Semantics for Concurrent Programming Languages
 	- http://web.cs.ucla.edu/~todd/research/memmodels.html
+- Synthesizing Memory Models from Framework Sketches and Litmus Tests
+	- PLDI 2017
+	- James Bornholt and Emina Torlak
+	- MemSynth: Synthesis-Aided Memory Model Development
+		- http://memsynth.uwplse.org/
 - The Silently Shifting Semicolon
 	- SNAPL 2015
 	- Daniel Marino, Todd D. Millstein, Madanlal Musuvathi, Satish Narayanasamy, Abhayendra Singh, Madan Musuvathi
@@ -319,6 +324,10 @@ Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/
 		- http://diy.inria.fr/doc/herd.html
 		- https://github.com/herd/herdtools
 		- https://github.com/herd/herdtools7
+- MemSynth: An advanced automated reasoning tool for memory consistency model specifications.
+	- https://github.com/uwplse/memsynth
+	- Build an x86 memory model!
+		- https://demo.memsynth.org/
 - moodycamel::ConcurrentQueue (MPMC): https://github.com/cameron314/concurrentqueue
 	- moodycamel::ReaderWriterQueue (SPSC): SPSC: https://github.com/cameron314/readerwriterqueue
 	- http://moodycamel.com/blog/2013/a-fast-lock-free-queue-for-c++
