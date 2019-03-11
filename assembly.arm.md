@@ -139,7 +139,11 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 ### M-profile
 
-* Making Helium: Why not just add Neon? (1/4) - https://community.arm.com/arm-research/b/articles/posts/making-helium-why-not-just-add-neon
+* Making Helium
+	+ Why not just add Neon? (1/4) - https://community.arm.com/arm-research/b/articles/posts/making-helium-why-not-just-add-neon
+	+ Sudoku, registers and rabbits (2/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-sudoku-registers-and-rabbits
+	+ Going around in circles (3/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-going-around-in-circles
+	+ Bringing Amdahl's law to heel (4/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-bringing-amdahl-s-law-to-heel
 
 ## Performance
 
@@ -334,7 +338,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 ## Binary Analysis
 
 * Exploiting SIMD Asymmetry in ARM-to-x86 Dynamic Binary Translation
-	+ ACM Transactions on Architecture and Code Optimization (@acmtaco) 2019
+	+ ACM Transactions on Architecture and Code Optimization (TACO) 2019
 	+ Yu-Ping Liu, Ding-Yong Hong, Jan-Jan Wu, Sheng-Yu Fu, Wei-Chung Hsu
 	+ http://dl.acm.org/citation.cfm?id=3301488
 * MAMBO: A Low-Overhead Dynamic Binary Modification Tool for ARM
