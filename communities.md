@@ -6,6 +6,10 @@ Note: Please be mindful about the rules and focus of each of the following commu
 
 * C++ User Groups - https://meetingcpp.com/usergroups/
 
+## Discord
+
+* IncludeCpp Discord - https://www.includecpp.org/
+
 ## Facebook
 
 * C++ Enthusiasts - https://www.facebook.com/groups/CppEnthusiasts/
@@ -52,7 +56,9 @@ Project-specific, but likely of interest to the general C++ community.
 ## Slack
 
 * C++ Slack Group - https://cpplang.slack.com
-	+ Invitations - https://cpplang.now.sh/ / http://cpplang.diegostamigni.com/
+	+ Invitations
+		- https://cpplang.now.sh/
+		- https://cppalliance.org/slack/
 
 ## Stack Exchange
 
