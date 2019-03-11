@@ -44,6 +44,9 @@ Note: see also [Communities](communities.md) -- where you can learn together.
 * CppCon 2015: Kate Gregory “Stop Teaching C" - https://www.youtube.com/watch?v=YnWhqhNdYyk
 * CppCon 2017: Bjarne Stroustrup “Learning and Teaching Modern C++” - https://www.youtube.com/watch?v=fX2W3nNjJIo
 * CppCon 2018: Christopher Di Bella “How to Teach C++ and Influence a Generation” - https://www.youtube.com/watch?v=3AkPd9Nt2Aw
+* Learning (and teaching) modern C++ - Challenges and Resources
+	- C++ on Sea 2019; Arne Mertz
+	- https://www.youtube.com/watch?v=yzb57K6b5SY
 * Learning and teaching modern C++ - Arne Mertz - Meeting C++ 2016 - https://www.youtube.com/watch?v=N5wOrhL4ew8
 * SG20 Education and Recommended Videos for Teaching C++
 	+ https://www.cjdb.com.au/sg20-and-videos
@@ -83,6 +86,10 @@ Note: Some of the following are primarily for entertainment purposes; while prov
 
 Articles and papers (focused on teaching, but also of interest for learning by self-studying)
 
+* How to Teach “Modern C++” to Someone who Already Knows Programming?
+	- Australasian Computing Education Conference (ACE) 2018
+	- Adalbert Gerald Soosai Raj, Varun Naik, Jignesh M. Patel, Richard Halverson
+	- http://pages.cs.wisc.edu/~gerald/papers/TeachModernC++.pdf
 * Koenig, A. & Moo, B. (2005) *Learning & Teaching C++ Programming*, <http://www.drdobbs.com/learning-teaching-c-programming/184401918>, C/C++ Users Journal February, 2005.
 * Koenig, A. (2012) on "C++ Primer 5th Edition":
 	- *Part 1: How To Revise a Textbook*, <http://www.drdobbs.com/cpp/c-primer-5th-edition-part-1-how-to-revis/240003977>, Dr. Dobb's, July 19, 2012.
