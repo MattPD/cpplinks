@@ -23,6 +23,12 @@ Note: see also [compilers](compilers.md)
 * Compiling with Proofs
 	+ 1998 Ph.D. Thesis; George C. Necula
 	+ https://people.eecs.berkeley.edu/~necula/Papers/thesis.pdf
+* Formal Approaches to Secure Compilation: A Survey of Fully Abstract Compilation and Related Work
+	+ ACM Computing Surveys (CSUR) 51(6) 2019
+	+ Marco Patrignani, Amal Ahmed, Dave Clarke
+	+ https://doi.org/10.1145/3280984
+	+ http://theory.stanford.edu/~mp/mp/Publications_files/a125-patrignani.pdf
+	+ http://theory.stanford.edu/~mp/mp/Publications_files/main-full.pdf
 * How to prove a compiler correct - Daniel Patterson
 	+ https://dbp.io/essays/2018-01-16-how-to-prove-a-compiler-correct.html
 	+ https://github.com/dbp/howtoproveacompiler
@@ -355,6 +361,13 @@ Validation: Including translation validation, equivalence checking.
 	+ The formal verification of compilers - Xavier Leroy - DeepSpec Summer School 2017
 		- https://deepspec.org/event/dsss17/lecture_leroy.html
 		- http://gallium.inria.fr/~xleroy/courses/DSSS-2017/
+	+ An Abstract Stack Based Approach to Verified Compositional Compilation to Machine Code
+		- POPL 2019
+		- Yuting Wang, Pierre Wilke, Zhong Shao
+		- https://www.youtube.com/watch?v=AK3wP1BK-K8
+		- https://popl19.sigplan.org/event/popl-2019-research-papers-an-abstract-stack-based-approach-to-verified-compositional-compilation-to-machine-code
+		- Stack-Aware CompCert and CompCert MC - https://certikos.github.io/compcertmc/
+		- http://flint.cs.yale.edu/flint/publications/sacc.html
 	+ Closing the Gap – The Formally Verified Optimizing Compiler CompCert
 		- SSS'17: Safety-critical Systems Symposium 2017
 		- https://hal.inria.fr/hal-01399482/
