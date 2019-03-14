@@ -82,6 +82,9 @@
 * Joseph Mansfield - Exceptions, error codes, and assertions in C++
 	+ A high-level look at different error handling techniques and guidelines on when to use them.
 	+ http://josephmansfield.uk/articles/exceptions-error-codes-assertions-c++.html
+* Modi Mo
+	+ Making C++ Exception Handling Smaller On x64
+	+ https://devblogs.microsoft.com/cppblog/making-cpp-exception-handling-smaller-x64/
 * Edaqa Mortoray - Everything wrong with C++ exceptions
 	+ Does as it says on the tin.
 	+ https://mortoray.com/2012/04/02/everything-wrong-with-exceptions/
@@ -149,6 +152,11 @@
 
 ## Papers
 
+* A Study of the Applicability of Existing Exception-handling Techniques to Component-based Real-time Software Technology
+	+ ACM Transactions on Programming Languages and Systems (TOPLAS) 20(2) 1998
+	+ Jun Lang and David B. Stewart
+	+ https://doi.org/10.1145/276393.276395
+	+ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.33.3400&rep=rep1&type=pdf
 * Automatically Detecting Error Handling Bugs Using Error Specifications
 	+ USENIX Security 2016
 	+ Suman Jana, Yuan Kang, Samuel Roth, Baishakhi Ray
@@ -159,17 +167,37 @@
 	+ Yuchi Tian, Baishakhi Ray
 	+ https://yuchi1989.github.io/papers/fse17-ErrDoc.pdf
 	+ ErrDoc: Tool for detecting, categorizing, and repairing error handling bugs - https://github.com/yuchi1989/ErrDoc/
+* C++ Exception Handling for IA64
+	+ USENIX Workshop on Industrial Experiences with Systems Software (WIESS) 2000
+	+ Christophe de Dinechin
+	+ http://www.usenix.org/events/wiess2000/dinechin.html 
+* Exception Handling: Issues and a Proposed Notation
+	+ Communications of the ACM (CACM) 18(12) 1975
+	+ John B. Goodenough
+	+ https://dl.acm.org/citation.cfm?id=361230
 * Exception-Safety in Generic Components: Lessons Learned from Specifying Exception-Safety for the C++ Standard Library
 	+ David Abrahams
 	+ https://www.boost.org/community/exception_safety.html
 	+ Error and Exception Handling - https://www.boost.org/community/error_handling.html
+* Exceptional Kernel: Using C++ Exceptions in the Linux Kernel
+	+ 2004
+	+ Halldor Isak Glyfason and Gisli Hjalmtysson
+	+ http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.100.7504
+	+ http://web.archive.org/http://netlab.ru.is/exception/KernelExceptions.pdf
+	+ C++ Exceptions & the Linux Kernel (2005)
+		- http://www.drdobbs.com/cpp/c-exceptions-the-linux-kernel/229100146
 * Handling Disappointment in C++ - Lawrence Crowl
 	+ http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0157r0.html
 * Interprocedural exception analysis for C++
 	+ ECOOP 2011
-	+ P. Prabhu, N. Maeda, G. Balakrishnan, F. Ivancic, A. Gupta
+	+ Prakash Prabhu, Naoto Maeda, Gogul Balakrishnan, Franjo Ivančić, Aarti Gupta
 	+ https://www.semanticscholar.org/paper/Interprocedural-Exception-Analysis-for-C%2B%2B-Prabhu-Maeda/0aa41227da8f2db0af3afc67f71b7d9ebc09fb8c
 	+ http://pages.cs.wisc.edu/~bgogul/Research/Papers/ecoop11.html
+* Low-cost Deterministic C++ Exceptions for Embedded Systems
+	+ Compiler Construction (CC) 2019
+	+ James Renwick, Tom Spink, Björn Frank
+	+ https://doi.org/10.1145/3302516.3307346
+	+ https://www.research.ed.ac.uk/portal/en/publications/lowcost-deterministic-c-exceptions-for-embedded-systems(2cfc59d5-fa95-45e0-83b2-46e51098cf1f).html
 * Model checking C++ programs with exceptions
 	+ Science of Computer Programming, Volume 128, 2016
 	+ P. Ročkai, J. Barnat, L. Brim
@@ -282,6 +310,9 @@
 	+ What happens when throwing an exception on modern Linux systems.
 	+ Slides: https://isainmdom.com/~peadar/eximpl/
 	+ Video: https://www.youtube.com/watch?v=XpRL7exdFL8
+* Dealing with function failures in C++
+	+ code::dive 2018; Andrzej Krzemieński
+	+ https://www.youtube.com/watch?v=Zv7Qqf2Jks4
 * Deterministic Disappointment
 	+ Dublin C/C++ User Group - September 2018 Meetup; Niall Douglas
 	+ https://www.youtube.com/watch?v=cbUTAoHy6Ls
