@@ -35,6 +35,26 @@ Note: see also [compilers](compilers.md)
 * Operational Refinement for Compiler Correctness
 	+ 2012 PhD Dissertation; Robert W. Dockins
 	+ ftp://ftp.cs.princeton.edu/reports/2012/936.pdf
+* OPLSS (Oregon Programming Languages Summer School)
+	+ 2019 - https://www.cs.uoregon.edu/research/summerschool/summer19/topics.php
+		- Secure Compilation - Amal Ahmed
+	+ 2017 - https://www.cs.uoregon.edu/research/summerschool/summer17/topics.php
+		- Correct and Secure Compilation for Multi-Language Software - Amal Ahmed
+			- https://www.youtube.com/playlist?list=PL0DsGHMPLUWUSJ8_THYt6Jcu7Kgp2kjaP
+	+ 2016 - https://www.cs.uoregon.edu/research/summerschool/summer16/curriculum.php
+		- Logical relations/Compiler verification - Amal Ahmed 
+			- https://www.youtube.com/playlist?list=PLiHLLF-foEexzqkMlTqzbbX_7V45MAXyX
+	+ 2015 - https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html
+		- Logical Relations - Amal Ahmed 
+			- https://www.youtube.com/playlist?list=PLiHLLF-foEex7BOvMbrbUFC9XgU7fZW66
+	+ 2014 - https://www.cs.uoregon.edu/research/summerschool/summer14/curriculum.html
+		- Software Verification - Andrew Appel
+	+ 2013 - https://www.cs.uoregon.edu/research/summerschool/summer13/curriculum.html
+		- Logical Relations - Amal Ahmed
+		- Verifying LLVM Optimizations in Coq - Steve Zdancewic 
+	+ 2012 - https://www.cs.uoregon.edu/research/summerschool/summer12/curriculum.html
+		- Logical Relations - Amal Ahmed
+		- Compiler verification - Xavier Leroy
 * What even is compiler correctness? - https://www.williamjbowman.com/blog/2017/03/24/what-even-is-compiler-correctness/
 * Write Your Compiler by Proving It Correct - http://liamoc.net/posts/2015-08-23-verified-compiler.html
 
