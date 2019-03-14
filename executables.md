@@ -44,6 +44,9 @@ Contents:
 	+ https://github.com/m4b/bingrep
 * Bloaty McBloatface: a size profiler for binaries (ELF, Mach-O) - https://github.com/google/bloaty
 	+ http://blog.reverberate.org/2016/11/07/introducing-bloaty-mcbloatface.html
+* Boost Dynamic Library Load (Boost.DLL): Library for comfortable work with DLL and DSO
+	+ https://github.com/boostorg/dll
+	+ https://www.boost.org/doc/libs/release/doc/html/boost_dll.html
 * cave_miner: search for code cave in binaries (ELF, Mach-O, PE), and inject code in them - https://github.com/Antonin-Deniau/cave_miner
 * codesize: Code size visualization tool with PDB/ELF/Mach-O support
 	+ https://github.com/zeux/codesize
@@ -51,6 +54,12 @@ Contents:
 	+ ddbug is a utility that can extract useful information from DWARF/PDB debugging data. Its goal is to use the debugging information to provide insights into the code generation.
 	+ Supports: ELF files with DWARF, Mach-O files with DWARF, Windows PDB files (mimimal)
 	+ https://github.com/gimli-rs/ddbug
+* Delinker: Unlinks a binary executable to get back a set of .o object files for further transformation and re-linking.
+	+ https://github.com/jnider/delinker
+	+ Reverse the Linking Process
+		- Compiler, Architecture, and Tools Conference (CATC) 2018
+		- Joel Nider
+		- https://software.intel.com/en-us/download/reverse-the-linking-process
 * FileBytes
 	+ Library to read and edit files in the following formats: Executable and Linking Format (ELF), Portable Executable (PE), MachO and OAT (Android Runtime)
 	+ https://scoding.de/filebytes-introduction
@@ -83,10 +92,26 @@ Contents:
 	+ https://github.com/GaloisInc/sample-binaries
 * Samples of binary with different formats and architectures. A test suite for your binary analysis tools. (ELF, Mach-O, PE)
 	+ https://github.com/JonathanSalwan/binary-samples
+* The Witchcraft Compiler Collection  
+	+ https://github.com/endrazine/wcc
+	+ wld: The Witchcraft Linker
+		- wld takes an ELF executable as an input and modifies it to create a shared library.
+	+ wcc: The Witchcraft Compiler
+		- The wcc compiler takes binaries (ELF, PE, ...) as an input and creates valid ELF binaries as an output. It can be used to create relocatable object files from executables or shared libraries.
+	+ wsh: The Witchcraft shell
+		- The witchcraft shell accepts ELF shared libraries, ELF ET_DYN executables and Witchcraft Shell Scripts written in Punk-C as an input. It loads all the executables in its own address space and makes their API available for programming in its embedded interpreter. This provides for binaries functionalities similar to those provided via reflection on languages like Java.
+	+ wldd: print shared libraries compilation flags
+	+ wcch: generate C headers from binaries
 
 ## Talks
 
-* CppCon 2017: Michael Spencer “My Little Object File: How Linkers Implement C++” (ELF, MachO, COFF) - https://www.youtube.com/watch?v=a5L66zguFe4
+* Reverse Engineering Binaries
+	+ DevConf.CZ 2019; Divya Basant Kumar
+	+ https://www.youtube.com/watch?v=TZVBK5hu0sk
+* My Little Object File: How Linkers Implement C++
+	+ CppCon 2017; Michael Spencer 
+	+ (ELF, MachO, COFF)
+	+ https://www.youtube.com/watch?v=a5L66zguFe4
 * The Life of Binaries
 	+ http://www.opensecuritytraining.info/LifeOfBinaries.html
 	+ https://www.youtube.com/playlist?list=PLUFkSN0XLZ-n_Na6jwqopTt1Ki57vMIc3
@@ -180,7 +205,7 @@ Contents:
 * From Debugging-Information Based Binary-Level Type Inference to CFG Generation
 	+ Conference on Data and Application Security and Privacy (CODASPY) 2018
 	+ D. Zeng and G. Tan
-	+ http://www.cse.psu.edu/~gxt29/paper/cfgConsMeta.pdf
+	+ http://www.cse.psu.edu/~gxt29/papers/cfgConsMeta.pdf
 * How debuggers work: Part 3 - Debugging information - http://eli.thegreenplace.net/2011/02/07/how-debuggers-work-part-3-debugging-information
 * Implementing a Debugger: The Fundamentals - https://backtrace.io/blog/debugger-internals/
 * Introduction to the DWARF Debugging Format - http://www.dwarfstd.org/doc/Debugging%20using%20DWARF.pdf
