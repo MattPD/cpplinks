@@ -38,6 +38,24 @@ Note: see also [compilers](compilers.md)
 * What even is compiler correctness? - https://www.williamjbowman.com/blog/2017/03/24/what-even-is-compiler-correctness/
 * Write Your Compiler by Proving It Correct - http://liamoc.net/posts/2015-08-23-verified-compiler.html
 
+## History
+
+* Compiler Verification: A Bibliography
+	+ ACM SIGSOFT Software Engineering Notes 28(6) 2003
+	+ Maulik A. Dave
+	+ https://dl.acm.org/citation.cfm?id=966235
+	+ http://www.cs.utah.edu/~skchoe/research/p2-dave.pdf
+	+ Compiler Verification: A Brief History - http://web.archive.org/web/20090807085152/http://www.geocities.com/compiler00/dave1.html
+* Correctness of a Compiler for Algol-like Programs
+	+ Stanford Artificial Intelligence Memo No. 48 (1967)
+	+ Donald M. Kaplan
+	+ https://exhibits.stanford.edu/ai/catalog/hk625xv7120
+* Correctness of a Compiler for Arithmetic Expressions
+	+ Mathematical Aspects of Computer Science (1) 1967
+	+ John McCarthy and James A. Painter
+	+ http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.76.7835
+	+ http://www-formal.stanford.edu/jmc/mcpain.html
+
 ---
 
 # Testing
