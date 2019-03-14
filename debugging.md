@@ -404,6 +404,9 @@ See also: [RR](#rr)
 	+ https://github.com/cs01/gdbgui
 * GdbShellPipe: Enable piping of internal command output to external commands
 	+ https://github.com/hq6/GdbShellPipe
+* Gede: a graphical frontend (GUI) to GDB written in Qt
+	+ http://gede.acidron.com/
+	+ mirror: https://github.com/Nanoseb/gede
 * GEF (GDB Enhanced Features)
 	+ https://github.com/hugsy/gef
 	+ https://github.com/hugsy/gef-scripts
@@ -584,6 +587,10 @@ See also: [RR](#rr)
 	+ 2015 LLVM Developers’ Meeting; Stephane Sezer, Facebook
 	+ https://www.youtube.com/watch?v=n00EhLskJWk
 	+ https://github.com/facebook/ds2
+* LLDB - a new C++ debugger
+	+ DevConf.CZ 2019; Jan Kratochvíl
+	+ https://www.youtube.com/watch?v=2BjKNaiB3yM
+	+ https://devconfcz2019.sched.com/event/Jcht
 * LLDB Tutorial: Adding debugger support for your target
 	+ 2016 EuroLLVM Developers' Meeting; Deepak Panickal & Andrzej Warzynski, Codeplay
 	+ https://github.com/codeplaysoftware/lldb-msp430
@@ -662,12 +669,16 @@ See also: [RR](#rr)
 * Time Travel Debugging - James McNellis
 	+ Meeting C++ 2018 - https://www.youtube.com/watch?v=MyVQnP-U_ho
 	+ Pacific++ 2018 - https://www.youtube.com/watch?v=BVslyei0804
+* WinDbg Basics for Malware Analysis
+	+ https://www.youtube.com/watch?v=QuFJpH3My7A
 
 ##### Readings
 
 * Collection of WinDBG resources - https://blogs.msdn.microsoft.com/reiley/2012/07/28/collection-of-windbg-resources/
 * Debugger Data Model, Javascript & X64 Exception Handling - https://doar-e.github.io/blog/2017/12/01/debugger-data-model/
 * Debugging Tools for Windows - https://blogs.msdn.microsoft.com/windbg/
+* JavaScript bridge makes malware analysis with WinDbg easier 
+	+ https://blog.talosintelligence.com/2019/02/windbg-malware-analysis-with-javascript.html
 * Stupid debugger tricks: Calling functions and methods - https://blogs.msdn.microsoft.com/oldnewthing/20070427-00/?p=27083
 * Tutorial: Using WinDBG to call arbitrary functions — WinDBG kung-fu series
 	+ http://cfc.kizzx2.com/index.php/tutorial-using-windbg-to-call-arbitrary-functions-windbg-kung-fu-series/
@@ -675,6 +686,8 @@ See also: [RR](#rr)
 * Use Windows Debuggers for Non-Debugging Tasks - https://blogs.msdn.microsoft.com/reiley/2011/10/23/use-windows-debuggers-for-non-debugging-tasks/
 * Using Function Evaluation in WinDBG - https://blogs.msdn.microsoft.com/reiley/2012/08/18/using-function-evaluation-in-windbg/
 * Windbg automation and extensions - https://nativecoding.wordpress.com/2016/01/10/automate-attach-to-process-on-windows-with-windbg/
+* WinDbg Malware Analysis Cheat Sheet
+	+ https://oalabs.openanalysis.net/2019/02/18/windbg-for-malware-analysis/
 * WinDbg, Debugger Objects, and JavaScript! Oh, My! - https://www.osr.com/blog/2017/05/18/windbg-debugger-objects-javascript-oh/
 * Yet Another Hello World - https://blogs.msdn.microsoft.com/reiley/2011/09/29/yet-another-hello-world/
 
