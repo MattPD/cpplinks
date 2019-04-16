@@ -122,6 +122,8 @@ See also: [Computer Architecture](comparch.md)
 
 # Defense, Mitigation, Protection
 
+* Guidelines for Mitigating Timing Side Channels Against Cryptographic Implementations
+	+ https://software.intel.com/security-software-guidance/insights/guidelines-mitigating-timing-side-channels-against-cryptographic-implementations
 * Hardware and Architectural Support for Security and Privacy (HASP)
 	+ http://caslab.csl.yale.edu/workshops/hasp2018/
 * Hardware and Firmware Security Guidance
@@ -133,6 +135,12 @@ See also: [Computer Architecture](comparch.md)
 	+ Symbolic Execution for Hardware - https://cs.unc.edu/~csturton/HWSecurityatUNC/symbolic_execution.html
 * IEEE International Symposium on Hardware Oriented Security and Trust (HOST)
 	+ http://www.hostsymposium.org/
+* International Workshop on Constructive Side-Channel Analysis and Secure Design (COSADE)
+	+ https://www.cosade.org/
+	+ https://dblp.org/db/conf/cosade/
+	+ https://link.springer.com/conference/cosade
+* Security Best Practices for Side Channel Resistance
+	+ https://software.intel.com/security-software-guidance/insights/security-best-practices-side-channel-resistance
 * Timing Channels - Trustworthy Systems - Data61
 	+ https://ts.data61.csiro.au/projects/TS/timingchannels/
 
@@ -202,6 +210,10 @@ See also: [Computer Architecture](comparch.md)
 	+ arXiv 2018
 	+ Pablo Cañones, Boris Köpf, Jan Reineke
 	+ https://arxiv.org/abs/1807.01240
+* SecDir: Secure Directories to Defeat Directory Side Channel Attacks
+	+ International Symposium on Computer Architecture (ISCA) 2019
+	+ Mengjia Yan, Jen-Yang Wen, Christopher Fletcher, Josep Torrellas
+	+ http://iacoma.cs.uiuc.edu/work/comanuma.html
 * Secure Hierarchy-Aware Cache Replacement Policy (SHARP): Defending Against Cache-Based Side Channel Attacks
 	+ ISCA 2017
 	+ Mengjia Yan, Bhargava Gopireddy, Thomas Shull, Josep Torrellas
@@ -268,6 +280,7 @@ See also: [Computer Architecture](comparch.md)
 	+ 2019 book; Jakub Szefer
 	+ http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1315
 	+ HiPEAC 2019 Tutorial: http://caslab.csl.yale.edu/tutorials/hipeac2019/
+	+ ASPLOS 2019 Tutorial: http://caslab.csl.yale.edu/tutorials/asplos2019/
 * Securing Processors from Time Side Channels
 	+ Jose Renau
 	+ UC Santa Cruz, Tech. Rep., April 2018 - https://users.soe.ucsc.edu/~renau/docs/tleak.pdf
@@ -290,11 +303,6 @@ See also: [Computer Architecture](comparch.md)
 	+ http://essay.utwente.nl/72321/1/Krak_MA_EEMCS.pdf
 	+ model of instruction execution time for the ARM Cortex-A7
 * dudect: dude, is my code constant time? - https://github.com/oreparaz/dudect
-* FaCT: A Flexible, Constant-Time Programming Language
-	+ SecDev 2017
-	+ Sunjay Cauligi, Gary Soeller, Fraser Brown, Brian Johannesmeyer, Yunlu Huang, Ranjit Jhala, Deian Stefan
-	+ https://cseweb.ucsd.edu/~dstefan/pubs/cauligi:2017:fact.pdf
-	+ https://github.com/PLSysSec/FaCT
 * KASLR is Dead: Long Live KASLR
 	+ Engineering Secure Software and Systems (ESSoS) 2017
 	+ Daniel Gruss, Moritz Lipp, Michael Schwarz, Richard Fellner, Clémentine Maurice, Stefan Mangard 
@@ -309,18 +317,9 @@ See also: [Computer Architecture](comparch.md)
 	+ https://github.com/HACS-workshop/spectre-mitigations/blob/master/crypto_guidelines.md
 * Mitigating speculative execution side channel hardware vulnerabilities
 	+ https://blogs.technet.microsoft.com/srd/2018/03/15/mitigating-speculative-execution-side-channel-hardware-vulnerabilities/
-* Provably secure compilation of side-channel countermeasures
-	+ Cryptology ePrint Archive: Report 2017/1233
-	+ Gilles Barthe, Benjamin Grégoire, Vincent Laporte
-	+ https://eprint.iacr.org/2017/1233
-	+ https://sites.google.com/view/ctpreservation
 * Provably Secure Countermeasures against Side-channel Attacks
 	+ 2015 Dissertation; Praveen Kumar Vadnala
 	+ https://orbilu.uni.lu/bitstream/10993/21653/2/PraveenVadnala_Thesis.pdf
-* RFC: Speculative Load Hardening (a Spectre variant #1 mitigation)
-	+ 2018; Chandler Carruth
-	+ https://lists.llvm.org/pipermail/llvm-dev/2018-March/122085.html
-	+ https://docs.google.com/document/d/1wwcfv3UV9ZnZVcGiGuoITT_61e_Ko3TmoCS3uXLcJR0/edit
 * Rigorous Analysis of Software Countermeasures against Cache Attacks
 	+ PLDI 2017; Goran Doychev, Boris Köpf
 	+ https://www.youtube.com/watch?v=GMyDEnpoyoI
@@ -332,6 +331,10 @@ See also: [Computer Architecture](comparch.md)
 	+ https://github.com/awslabs/s2n/tree/master/tests/sidetrail
 	+ http://www0.cs.ucl.ac.uk/staff/b.cook/VSSTE18_sidetrail.pdf
 	+ https://aws.amazon.com/blogs/security/how-aws-sidetrail-verifies-key-aws-cryptography-code/
+* Time Protection: the Missing OS Abstraction
+	+ EuroSys 2019
+	+ Qian Ge, Yuval Yarom, Tom Chothia, Gernot Heiser
+	+ https://ts.data61.csiro.au/publications/csiroabstracts/Ge_YCH_19.abstract.pml
 * Towards Practical Tools for Side Channel Aware Software Engineering: "Grey Box" Modelling for Instruction Leakages
 	+ USENIX Security 2017
 	+ David McCann, Elisabeth Oswald, Carolyn Whitnall
@@ -350,6 +353,32 @@ See also: [Computer Architecture](comparch.md)
 	+ arXiv 2018
 	+ Oleksii Oleksenko, Bohdan Trach, Tobias Reiher, Mark Silberstein, Christof Fetzer 
 	+ https://arxiv.org/abs/1805.08506
+
+### Defense - Software - Compilation and Programming Languages
+
+* Compiler mitigations for time attacks on modern x86 processors
+	+ ACM TACO 8(4) (2012)
+	+ Jeroen V. Cleemput, Bart Coppens, Bjorn De Sutter
+	+ https://doi.org/10.1145/2086696.2086702
+* Compiler Strategies for Mitigating Timing Side Channel Attacks
+	+ 2015 PhD Dissertation; Jeroen Van Cleemput
+	+ http://hdl.handle.net/1854/LU-8503231
+	+ https://biblio.ugent.be/publication/8503231
+* FaCT: A Flexible, Constant-Time Programming Language
+	+ SecDev 2017
+	+ Sunjay Cauligi, Gary Soeller, Fraser Brown, Brian Johannesmeyer, Yunlu Huang, Ranjit Jhala, Deian Stefan
+	+ https://cseweb.ucsd.edu/~dstefan/pubs/cauligi:2017:fact.pdf
+	+ https://github.com/PLSysSec/FaCT
+* Provably secure compilation of side-channel countermeasures
+	+ Cryptology ePrint Archive: Report 2017/1233
+	+ Gilles Barthe, Benjamin Grégoire, Vincent Laporte
+	+ https://eprint.iacr.org/2017/1233
+	+ https://sites.google.com/view/ctpreservation
+* Speculative Load Hardening (a Spectre variant #1 mitigation)
+	+ 2018; Chandler Carruth
+	+ https://llvm.org/docs/SpeculativeLoadHardening.html
+	+ https://lists.llvm.org/pipermail/llvm-dev/2018-March/122085.html
+	+ https://docs.google.com/document/d/1wwcfv3UV9ZnZVcGiGuoITT_61e_Ko3TmoCS3uXLcJR0/edit
 
 ## Defense - Speculation
 
@@ -727,8 +756,12 @@ See also: [Computer Architecture](comparch.md)
 	+ https://uwspace.uwaterloo.ca/bitstream/handle/10012/10769/Faraj_Mustafa.pdf?sequence=3
 * Temporal Thermal Covert Channels in Cloud FPGAs
 	+ International Symposium on Field-Programmable Gate Arrays (FPGA) 2019
-	+ Shanquan Tian and Jakub Szefer
+	+ Shanquan Tian, Jakub Szefer
 	+ http://csl.yale.edu/index.php/publications/
+	+ https://dl.acm.org/citation.cfm?doid=3289602.3293920
+	+ http://www.isfpga.org/slides/Tian_TemporalThermalCovertChannelsinCloudFPGAs.pptx
+	+ http://caslab.csl.yale.edu/code/temporalthermalcc/
+
 
 ---
 
@@ -1151,6 +1184,7 @@ See also: [Computer Architecture](comparch.md)
 * TLBleed: When Protecting Your CPU Caches Is Not Enough
 	+ Hardwear.io 2018; B. Gras And K. Razavi
 	+ https://www.youtube.com/watch?v=PQzbtrxaYWQ
+	+ https://media.hardwear.io/tlbleed-when-protecting-your-cpu-caches-is-not-enough/
 * Translation Leak-aside Buffer: Defeating Cache Side-channel Protections with TLB Attacks
 	+ Gras, B.; Razavi, K.; Bos, H.; Giuffrida, C.
 	+ USENIX Security 2018
@@ -1179,6 +1213,10 @@ See also: [Computer Architecture](comparch.md)
 	+ Black Hat Asia 2019
 	+ Ercan Ozturk, Gene Tsudik, Tyler Kaczmarek, Pier Paolo Tricomi
 	+ https://www.blackhat.com/asia-19/briefings/schedule/#acutherm-a-hybrid-attack-on-password-entry-based-on-both-acoustic-and-thermal-side-channels-13927
+* Broad-Based Side-Channel Defenses for Modern Processor Architectures
+	+ Ashay Rane 
+	+ https://www.microsoft.com/en-us/research/video/broad-based-side-channel-defenses-for-modern-processor-architectures/
+	+ https://ashay.rane.info/project-raccoon/
 * Ghosts in a Nutshell
 	+ Black Hat Asia 2019
 	+ Claudio Canella, Moritz Lipp  
@@ -1190,6 +1228,10 @@ See also: [Computer Architecture](comparch.md)
 	+ Black Hat Asia 2019
 	+ Michael Schwarz, Martin Schwarzl
 	+ https://www.blackhat.com/asia-19/briefings/schedule/#netspectre-a-truly-remote-spectre-variant-13757
+	+ https://misc0110.net/web/files/netspectre_blackhat_slides.pdf
+* Oh No! KPTI Defeated, Unauthorized Data Leakage is Still Possible
+	+ Black Hat Asia 2019
+	+ https://www.blackhat.com/asia-19/briefings/schedule/index.html#oh-no-kpti-defeated-unauthorized-data-leakage-is-still-possible-13945
 * Winter is Coming Back: Defeating the Most Advanced Rowhammer Defenses to Gain Root and Kernel Privileges
 	+ Black Hat Asia 2019
 	+ Yueqiang Cheng, Zhi Zhang, Surya Nepal, Zhi Wang
