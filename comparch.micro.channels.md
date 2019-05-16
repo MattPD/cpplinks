@@ -385,6 +385,10 @@ See also: [Computer Architecture](comparch.md)
 * An Inside Story of Mitigating Speculative Execution Side Channel Vulnerabilities
 	+ Black Hat 2018; Anders Fogh, Christopher Ertl
 	+ https://www.youtube.com/watch?v=_J9MpK4MQWk
+* SpectreGuard: An Efficient Data-centric Defense Mechanism against Spectre Attacks
+	+ Design Automation Conference (DAC) 2019
+	+ Jacob Fustos, Farzad Farshchi, Heechul Yun
+	+ Paper at Semantic Scholar: https://www.semanticscholar.org/paper/SpectreGuard-%3A-An-Efficient-Data-centric-Defense-Fustos/d1dafab0d2b943d2911dd57ed9430014974bca96
 * Conditional Speculation: An Effective Approach to Safeguard Out-of-Order Execution Against Spectre Attacks
 	+ High-Performance Computer Architecture (HPCA) 2019
 	+ Peinan Li, Lutan Zhao, Rui Hou; Lixin Zhang; Dan Meng
