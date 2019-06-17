@@ -645,6 +645,11 @@ See also: [Computer Architecture](comparch.md)
 	+ Zhenyu Wu, Zhang Xu, Haining Wang
 	+ https://doi.org/10.1109/TNET.2014.2304439
 	+ https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/wu
+* RAMBleed - Reading Bits in Memory Without Accessing Them (CVE-2019-0174)
+	+ https://rambleed.com/
+	+ Andrew Kwong, Daniel Genkin, Daniel Gruss, Yuval Yarom
+	+ https://rambleed.com/docs/20190603-rambleed-web.pdf
+	+ CVE: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0174
 
 ---
 
@@ -761,6 +766,18 @@ See also: [Computer Architecture](comparch.md)
 	+ https://dl.acm.org/citation.cfm?doid=3289602.3293920
 	+ http://www.isfpga.org/slides/Tian_TemporalThermalCovertChannelsinCloudFPGAs.pptx
 	+ http://caslab.csl.yale.edu/code/temporalthermalcc/
+* Remote Inter-Chip Power Analysis Side-Channel Attacks at Board-Level
+	+ Cryptology ePrint Archive: Report 2018/881
+	+ Falk Schellenberg, Dennis R.E. Gnad, Amir Moradi, Mehdi B. Tahoori
+	+ https://eprint.iacr.org/2018/881
+* FPGAhammer: Remote Voltage Fault Attacks on Shared FPGAs, suitable for DFA on AES
+	+ IACR Transactions on Cryptographic Hardware and Embedded Systems, 2018(3), 44-68. 
+	+ Jonas Krautter, Dennis R.E. Gnad, Mehdi B. Tahoori
+	+ https://tches.iacr.org/index.php/TCHES/article/view/7268
+* Checking for Electrical Level Security Threats in Bitstreams for Multi-Tenant FPGAs
+	+ 2018 International Conference on Field-Programmable Technology (FPT)
+	+ Dennis R.E. Gnad, S. Rapp, J. Krautter, Mehdi B. Tahoori
+	+ https://cdnc.itec.kit.edu/downloads/Papers/bitstream_checking.pdf
 
 
 ---
@@ -941,6 +958,14 @@ See also: [Computer Architecture](comparch.md)
 	+ High-Performance Computer Architecture (HPCA) 2019
 	+ S. K. Khatamifard, L. Wang, S. Köse, and U. R. Karpuzcu
 	+ http://www.eng.usf.edu/~kose/files/conferences/hpca_19.pdf
+* CLKSCREW: Exposing the Perils of Security-Oblivious Energy Management
+	+ 26th USENIX Security Symposium - 2017
+	+ Adrian Tang, Simha Sethumadhavan, and Salvatore Stolfo
+	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/tang
+* Leaky Noise: New Side-Channel Attack Vectors in Mixed-Signal IoT Devices 
+	+ IACR Transactions on Cryptographic Hardware and Embedded Systems, 2019(3), 305-339.
+	+ Dennis R. E. Gnad, Jonas Krautter, Mehdi B. Tahoori
+	+ https://tches.iacr.org/index.php/TCHES/article/view/8297
 
 ---
 
