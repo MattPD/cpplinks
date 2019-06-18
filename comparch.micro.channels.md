@@ -135,6 +135,8 @@ See also: [Computer Architecture](comparch.md)
 	+ Symbolic Execution for Hardware - https://cs.unc.edu/~csturton/HWSecurityatUNC/symbolic_execution.html
 * IEEE International Symposium on Hardware Oriented Security and Trust (HOST)
 	+ http://www.hostsymposium.org/
+* IACR Transactions on Cryptographic Hardware and Embedded Systems (TCHES)
+	+ https://tches.iacr.org/
 * International Workshop on Constructive Side-Channel Analysis and Secure Design (COSADE)
 	+ https://www.cosade.org/
 	+ https://dblp.org/db/conf/cosade/
@@ -746,15 +748,31 @@ See also: [Computer Architecture](comparch.md)
 		- Mark Zhao, G. Edward Suh
 		- https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a805-abs.html
 		- https://sites.coecis.cornell.edu/edsuh/files/2018/04/SP2018-FPGA-2m12dnp.pdf
+	+ FPGA Viruses
+		- 1999 9th International Workshop on Field Programmable Logic and Applications (FPL)
+		- I Hadzic, S Udani, J M Smith
+		- https://repository.upenn.edu/cgi/viewcontent.cgi?article=1096&amp;context=cis_reports
+		- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.43.9135
+		- https://link.springer.com/chapter/10.1007/978-3-540-48302-1_30
+		- https://dl.acm.org/citation.cfm?id=739074
 	+ Leaky Wires: Information Leakage and Covert Communication Between FPGA Long Wires
 		- AsiaCCS 2018
 		- Ilias Giechaskiel, Kasper B. Rasmussen, Ken Eguro
 		- http://arxiv.org/abs/1611.08882
 		- http://www.cs.ox.ac.uk/files/9835/fpga.pdf
+	+ Moats and drawbridges: An isolation primitive for reconfigurable hardware based systems
+		- IEEE Symposium on Security and Privacy (S&P) 2007
+		- Ted Huffmire, Brett Brotherton, Gang Wang, Timothy Sherwood, Ryan Kastner, Timothy Levin, Thuy Nguyen, Cynthia Irvine
+		- http://cs.ucsb.edu/~sherwood/pubs/IEEESP-moats.pdf
+		- https://ieeexplore.ieee.org/abstract/document/4223233/
 	+ Remote Inter-Chip Power Analysis Side-Channel Attacks at Board-Level
 		- Cryptology ePrint Archive: Report 2018/881
 		- Falk Schellenberg, Dennis R.E. Gnad, Amir Moradi, Mehdi B. Tahoori
 		- https://eprint.iacr.org/2018/881
+	+ Temperature-based covert channel in FPGA systems
+		- 2011 6th International Workshop on Reconfigurable Communication-Centric Systems-on-Chip (ReCoSoC)
+		- Taras Iakymchuk, Maciej Nikodem, Krzysztof Kepa
+		- https://ieeexplore.ieee.org/abstract/document/5981510
 	+ Temporal Thermal Covert Channels in Cloud FPGAs
 		- International Symposium on Field-Programmable Gate Arrays (FPGA) 2019
 		- Shanquan Tian, Jakub Szefer
