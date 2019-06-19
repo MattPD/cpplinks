@@ -135,6 +135,8 @@ See also: [Computer Architecture](comparch.md)
 	+ Symbolic Execution for Hardware - https://cs.unc.edu/~csturton/HWSecurityatUNC/symbolic_execution.html
 * IEEE International Symposium on Hardware Oriented Security and Trust (HOST)
 	+ http://www.hostsymposium.org/
+* IACR Transactions on Cryptographic Hardware and Embedded Systems (TCHES)
+	+ https://tches.iacr.org/
 * International Workshop on Constructive Side-Channel Analysis and Secure Design (COSADE)
 	+ https://www.cosade.org/
 	+ https://dblp.org/db/conf/cosade/
@@ -622,6 +624,11 @@ See also: [Computer Architecture](comparch.md)
 	+ arXiv May 2018
 	+ Moritz Lipp, Misiker Tadesse Aga, Michael Schwarz, Daniel Gruss, Clémentine Maurice, Lukas Raab, Lukas Lamster
 	+ https://arxiv.org/abs/1805.04956
+* RAMBleed: Reading Bits in Memory Without Accessing Them
+	+ IEEE Symposium on Security and Privacy (S&P) 2020
+	+ Kwong, Andrew and Genkin, Daniel and Gruss, Daniel and Yarom, Yuval
+	+ https://rambleed.com/
+	+ CVE: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0174
 * Rowhammer.js: A Remote Software-Induced Fault Attack in JavaScript
 	+ Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA) 2016
 	+ http://arxiv.org/abs/1507.06955
@@ -719,19 +726,16 @@ See also: [Computer Architecture](comparch.md)
 
 # FPGA
 
+## FPGA "remote" attacks, through (partial) access on configuration/bitstream
+
 * An Inside Job: Remote Power Analysis Attacks on FPGAs
 	+ Cryptology ePrint Archive: Report 2018/012
 	+ Falk Schellenberg, Dennis R.E. Gnad, Amir Moradi, Mehdi B. Tahoori
 	+ https://eprint.iacr.org/2018/012
-* Breakthrough Silicon Scanning Discovers Backdoor in Military Chip
-	+ Cryptographic Hardware and Embedded Systems (CHES) 2012
-	+ Sergei Skorobogatov, Christopher Woods
-	+ https://www.cl.cam.ac.uk/~sps32/ches2012-backdoor.pdf
-	+ https://www.cl.cam.ac.uk/~sps32/ches2012_slides.pdf
-* Electromagnetic Side-channel Attack against 28-nm FPGA Device
-	+ WISA (2012)
-	+ Yohei Hori, Toshihiro Katashita, Akihiko Sasaki, Akashi Satoh
-	+ https://staff.aist.go.jp/hori.y/articles/hori_wisa2012.pdf
+* FPGAhammer: Remote Voltage Fault Attacks on Shared FPGAs, suitable for DFA on AES
+	+ IACR Transactions on Cryptographic Hardware and Embedded Systems, 2018(3), 44-68. 
+	+ Jonas Krautter, Dennis R.E. Gnad, Mehdi B. Tahoori
+	+ https://tches.iacr.org/index.php/TCHES/article/view/7268
 * FPGA Side Channel Attacks without Physical Access
 	+ FCCM 2018
 	+ C. Ramesh, S. B. Patil, S. N. Dhanuskodi, G. Provelengios, S. Pillement, D. Holcomb, R. Tessier
@@ -741,19 +745,26 @@ See also: [Computer Architecture](comparch.md)
 	+ Mark Zhao, G. Edward Suh
 	+ https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a805-abs.html
 	+ https://sites.coecis.cornell.edu/edsuh/files/2018/04/SP2018-FPGA-2m12dnp.pdf
-* Improved Side-Channel Analysis Attacks on Xilinx Bitstream Encryption of 5, 6, and 7 Series
-	+ Constructive Side-Channel Analysis and Secure Design (COSADE) 2016
-	+ Amir Moradi, Tobias Schneider
-	+ https://www.emsec.rub.de/media/attachments/files/2017/04/AmirTalk_2016-04-14_COSADE.pdf
-	+ https://eprint.iacr.org/2016/249
+* FPGA Viruses
+	+ 1999 9th International Workshop on Field Programmable Logic and Applications (FPL)
+	+ I Hadzic, S Udani, J M Smith
+	+ https://repository.upenn.edu/cgi/viewcontent.cgi?article=1096&amp;context=cis_reports
+	+ http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.43.9135
+	+ https://link.springer.com/chapter/10.1007/978-3-540-48302-1_30
+	+ https://dl.acm.org/citation.cfm?id=739074
 * Leaky Wires: Information Leakage and Covert Communication Between FPGA Long Wires
 	+ AsiaCCS 2018
 	+ Ilias Giechaskiel, Kasper B. Rasmussen, Ken Eguro
 	+ http://arxiv.org/abs/1611.08882
 	+ http://www.cs.ox.ac.uk/files/9835/fpga.pdf
-* Side Channel Attack on Low Power FPGA Platform
-	+ 2016 Master Thesis; Mustafa Faraj
-	+ https://uwspace.uwaterloo.ca/bitstream/handle/10012/10769/Faraj_Mustafa.pdf?sequence=3
+* Remote Inter-Chip Power Analysis Side-Channel Attacks at Board-Level
+	+ Cryptology ePrint Archive: Report 2018/881
+	+ Falk Schellenberg, Dennis R.E. Gnad, Amir Moradi, Mehdi B. Tahoori
+	+ https://eprint.iacr.org/2018/881
+* Temperature-based covert channel in FPGA systems
+	+ 2011 6th International Workshop on Reconfigurable Communication-Centric Systems-on-Chip (ReCoSoC)
+	+ Taras Iakymchuk, Maciej Nikodem, Krzysztof Kepa
+	+ https://ieeexplore.ieee.org/abstract/document/5981510
 * Temporal Thermal Covert Channels in Cloud FPGAs
 	+ International Symposium on Field-Programmable Gate Arrays (FPGA) 2019
 	+ Shanquan Tian, Jakub Szefer
@@ -761,7 +772,57 @@ See also: [Computer Architecture](comparch.md)
 	+ https://dl.acm.org/citation.cfm?doid=3289602.3293920
 	+ http://www.isfpga.org/slides/Tian_TemporalThermalCovertChannelsinCloudFPGAs.pptx
 	+ http://caslab.csl.yale.edu/code/temporalthermalcc/
+* Timing Violation Induced Faults in Multi-Tenant FPGAs
+	+ 2019 Design, Automation & Test in Europe Conference & Exhibition (DATE)
+	+ Dina Mahmoud, Mirjana Stojilovic
+	+ https://ieeexplore.ieee.org/abstract/document/8715263
+* Voltage drop-based fault attacks on FPGAs using valid bitstreams
+	+ 2017 27th International Conference on Field Programmable Logic and Applications (FPL)
+	+ Dennis R. E. Gnad, Fabian Oboril, Mehdi B. Tahoori
+	+ https://ieeexplore.ieee.org/abstract/document/8056840
 
+## FPGA local attacks with physical access or within close proximity
+
+* Breakthrough Silicon Scanning Discovers Backdoor in Military Chip
+	+ Cryptographic Hardware and Embedded Systems (CHES) 2012
+	+ Sergei Skorobogatov, Christopher Woods
+	+ https://www.cl.cam.ac.uk/~sps32/ches2012-backdoor.pdf
+	+ https://www.cl.cam.ac.uk/~sps32/ches2012_slides.pdf
+* Electromagnetic Side-channel Attack against 28-nm FPGA Device
+	+ WISA (2012)
+	+ Yohei Hori, Toshihiro Katashita, Akihiko Sasaki, Akashi Satoh
+	+ https://staff.aist.go.jp/hori.y/articles/hori_wisa2012.pdf
+* Improved Side-Channel Analysis Attacks on Xilinx Bitstream Encryption of 5, 6, and 7 Series
+	+ Constructive Side-Channel Analysis and Secure Design (COSADE) 2016
+	+ Amir Moradi, Tobias Schneider
+	+ https://www.emsec.rub.de/media/attachments/files/2017/04/AmirTalk_2016-04-14_COSADE.pdf
+	+ https://eprint.iacr.org/2016/249
+* Side Channel Attack on Low Power FPGA Platform
+	+ 2016 Master Thesis; Mustafa Faraj
+	+ https://uwspace.uwaterloo.ca/bitstream/handle/10012/10769/Faraj_Mustafa.pdf?sequence=3
+
+## FPGA various countermeasures
+
+* Checking for Electrical Level Security Threats in Bitstreams for Multi-Tenant FPGAs
+	+ 2018 International Conference on Field-Programmable Technology (FPT)
+	+ Dennis R.E. Gnad, S. Rapp, J. Krautter, Mehdi B. Tahoori
+	+ https://cdnc.itec.kit.edu/downloads/Papers/bitstream_checking.pdf
+* Generic side-channel countermeasures for reconfigurable devices
+	+ International Workshop on Cryptographic Hardware and Embedded Systems (CHES) 2011
+	+ Tim Güneysu and Amir Moradi
+	+ https://www.emsec.ruhr-uni-bochum.de/media/crypto/veroeffentlichungen/2012/01/30/GSCC-CHES11.pdf
+	+ https://iacr.org/archive/ches2011/69170033/69170033.pdf
+	+ https://link.springer.com/chapter/10.1007/978-3-642-23951-9_3
+* Moats and drawbridges: An isolation primitive for reconfigurable hardware based systems
+	+ IEEE Symposium on Security and Privacy (S&P) 2007
+	+ Ted Huffmire, Brett Brotherton, Gang Wang, Timothy Sherwood, Ryan Kastner, Timothy Levin, Thuy Nguyen, Cynthia Irvine
+	+ http://cs.ucsb.edu/~sherwood/pubs/IEEESP-moats.pdf
+	+ https://ieeexplore.ieee.org/abstract/document/4223233/
+* Side-channel resistant crypto for less than 2,300 GE
+	+ Journal of Cryptology 24, no. 2 (2011)
+	+ Axel Poschmann, Amir Moradi, Khoongming Khoo, Chu-Wee Lim, Huaxiong Wang, San Ling
+	+ https://www.emsec.ruhr-uni-bochum.de/media/crypto/veroeffentlichungen/2011/01/15/side_channel_2010.pdf
+	+ https://link.springer.com/article/10.1007/s00145-010-9086-6
 
 ---
 
@@ -932,6 +993,14 @@ See also: [Computer Architecture](comparch.md)
 	+ http://doi.ieeecomputersociety.org/10.1109/LCA.2018.2860006
 	+ http://people.ece.umn.edu/~ukarpuzc/Karpuzcu_files/calSec.pdf
 	+ https://experts.umn.edu/en/publications/a-new-class-of-covert-channels-exploiting-power-management-vulner
+* CLKSCREW: Exposing the Perils of Security-Oblivious Energy Management
+	+ 2017 26th USENIX Security Symposium
+	+ Adrian Tang, Simha Sethumadhavan, and Salvatore Stolfo
+	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/tang
+* Leaky Noise: New Side-Channel Attack Vectors in Mixed-Signal IoT Devices 
+	+ IACR Transactions on Cryptographic Hardware and Embedded Systems, 2019(3), 305-339.
+	+ Dennis R. E. Gnad, Jonas Krautter, Mehdi B. Tahoori
+	+ https://tches.iacr.org/index.php/TCHES/article/view/8297
 * On Code Execution Tracking via Power Side-Channel
 	+ Conference on Computer and Communications Security (CCS) 2016
 	+ Yannan Liu, Lingxiao Wei, Zhe Zhou, Kehuan Zhang, Wenyuan Xu, Qiang Xu
