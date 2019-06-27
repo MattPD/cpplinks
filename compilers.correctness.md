@@ -5,6 +5,8 @@ Note: see also [compilers](compilers.md)
 # Contents
 
 * [General](#general)
+	+ [History](#history)
+	+ [Lectures](#lectures)
 * [Testing](#testing)
 	+ [Articles](#articles)
 	+ [Software](#software)
@@ -23,6 +25,8 @@ Note: see also [compilers](compilers.md)
 * Compiling with Proofs
 	+ 1998 Ph.D. Thesis; George C. Necula
 	+ https://people.eecs.berkeley.edu/~necula/Papers/thesis.pdf
+* Compilers and Termination Revisited
+	+ https://blog.regehr.org/archives/161
 * Formal Approaches to Secure Compilation: A Survey of Fully Abstract Compilation and Related Work
 	+ ACM Computing Surveys (CSUR) 51(6) 2019
 	+ Marco Patrignani, Amal Ahmed, Dave Clarke
@@ -32,9 +36,43 @@ Note: see also [compilers](compilers.md)
 * How to prove a compiler correct - Daniel Patterson
 	+ https://dbp.io/essays/2018-01-16-how-to-prove-a-compiler-correct.html
 	+ https://github.com/dbp/howtoproveacompiler
+* How to prove a compiler fully abstract
+	+ https://dbp.io/essays/2018-04-19-how-to-prove-a-compiler-fully-abstract.html
 * Operational Refinement for Compiler Correctness
 	+ 2012 PhD Dissertation; Robert W. Dockins
 	+ ftp://ftp.cs.princeton.edu/reports/2012/936.pdf
+* Some Goals for High-impact Verified Compiler Research - https://blog.regehr.org/archives/1565
+* The Next 700 Compiler Correctness Theorems (A Functional Pearl)
+	+ ICFP 2019
+	+ Daniel Patterson, Amal Ahmed
+	+ https://icfp19.sigplan.org/details/icfp-2019-papers/35/The-Next-700-Compiler-Correctness-Theorems-A-Functional-Pearl-
+* What even is compiler correctness? - https://www.williamjbowman.com/blog/2017/03/24/what-even-is-compiler-correctness/
+* Write Your Compiler by Proving It Correct - http://liamoc.net/posts/2015-08-23-verified-compiler.html
+
+## History
+
+* Advice on Structuring Compilers and Proving Them Correct
+	+ Principles of Programming Languages (POPL) 1973
+	+ F. Lockwood Morris
+	+ https://dl.acm.org/citation.cfm?id=512941
+* Compiler Verification: A Bibliography
+	+ ACM SIGSOFT Software Engineering Notes 28(6) 2003
+	+ Maulik A. Dave
+	+ https://dl.acm.org/citation.cfm?id=966235
+	+ http://www.cs.utah.edu/~skchoe/research/p2-dave.pdf
+	+ Compiler Verification: A Brief History - http://web.archive.org/web/20090807085152/http://www.geocities.com/compiler00/dave1.html
+* Correctness of a Compiler for Algol-like Programs
+	+ Stanford Artificial Intelligence Memo No. 48 (1967)
+	+ Donald M. Kaplan
+	+ https://exhibits.stanford.edu/ai/catalog/hk625xv7120
+* Correctness of a Compiler for Arithmetic Expressions
+	+ Mathematical Aspects of Computer Science (1) 1967
+	+ John McCarthy and James A. Painter
+	+ http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.76.7835
+	+ http://www-formal.stanford.edu/jmc/mcpain.html
+
+## Lectures
+
 * OPLSS (Oregon Programming Languages Summer School)
 	+ 2019 - https://www.cs.uoregon.edu/research/summerschool/summer19/topics.php
 		- Secure Compilation - Amal Ahmed
@@ -55,26 +93,6 @@ Note: see also [compilers](compilers.md)
 	+ 2012 - https://www.cs.uoregon.edu/research/summerschool/summer12/curriculum.html
 		- Logical Relations - Amal Ahmed
 		- Compiler verification - Xavier Leroy
-* What even is compiler correctness? - https://www.williamjbowman.com/blog/2017/03/24/what-even-is-compiler-correctness/
-* Write Your Compiler by Proving It Correct - http://liamoc.net/posts/2015-08-23-verified-compiler.html
-
-## History
-
-* Compiler Verification: A Bibliography
-	+ ACM SIGSOFT Software Engineering Notes 28(6) 2003
-	+ Maulik A. Dave
-	+ https://dl.acm.org/citation.cfm?id=966235
-	+ http://www.cs.utah.edu/~skchoe/research/p2-dave.pdf
-	+ Compiler Verification: A Brief History - http://web.archive.org/web/20090807085152/http://www.geocities.com/compiler00/dave1.html
-* Correctness of a Compiler for Algol-like Programs
-	+ Stanford Artificial Intelligence Memo No. 48 (1967)
-	+ Donald M. Kaplan
-	+ https://exhibits.stanford.edu/ai/catalog/hk625xv7120
-* Correctness of a Compiler for Arithmetic Expressions
-	+ Mathematical Aspects of Computer Science (1) 1967
-	+ John McCarthy and James A. Painter
-	+ http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.76.7835
-	+ http://www-formal.stanford.edu/jmc/mcpain.html
 
 ---
 
@@ -123,10 +141,6 @@ Note: see also [compilers](compilers.md)
 	+ International Symposium on Software Testing and Analysis (ISSTA) 2018
 	+ http://homepages.inf.ed.ac.uk/hleather/publications/2018_deepfuzzing_issta.pdf
 	+ https://chriscummins.cc/deepsmith
-* Compiler Testing via a Theory of Sound Optimisations in the C11/C++11 Memory Model
-	+ Programming Language Design and Implementation (PLDI) 2013
-	+ Robin Morisset, Pankaj Pawan, Francesco Zappa Nardelli
-	+ https://www.di.ens.fr/~zappa/readings/pldi13.pdf
 * Coverage Prediction for Accelerating Compiler Testing
 	+ IEEE Transactions on Software Engineering (2019)
 	+ Junjie Chen, Guancheng Wang, Dan Hao, Yingfei Xiong, Hongyu Zhang, Lu Zhang, Bing Xie
@@ -136,15 +150,15 @@ Note: see also [compilers](compilers.md)
 	+ C. Chiw, G. Kindlmann, J. Reppy
 	+ https://www.researchgate.net/publication/317836930_DATm_Diderot%27s_Automated_Testing_Model
 	+ https://www.dropbox.com/s/5twsrp12vg4or7t/datm_talk.key?dl=0
+* Deep Differential Testing of JVM Implementations
+	+ ICSE 2019
+	+ Yuting Chen, Ting Su, Zhendong Su
+	+ https://tingsu.github.io/files/icse19-classming.pdf
 * DeepFuzz: Automatic Generation of Syntax Valid C Programs for Fuzz Testing
 	+ AAAI Conference on Artificial Intelligence (AAAI) 2019
 	+ Xiao Liu, Xiaoting Li, Rupesh Prajapati, Dinghao Wu
 	+ https://faculty.ist.psu.edu/wu/papers/DeepFuzz.pdf
 	+ https://github.com/s3team/DeepFuzz
-* Detecting Arithmetic Optimization Opportunities for C Compilers by Randomly Generated Equivalent Programs
-	+ IPSJ Transactions on System LSI Design Methodology, vol. 9, 2016; A. Hashimoto and N. Ishiura
-	+ <https://www.jstage.jst.go.jp/article/ipsjtsldm/9/0/9_21/_article>
-* Detecting Missed Arithmetic Optimization in C Compilers by Differential Random Testing - http://ist.ksc.kwansei.ac.jp/~ishiura/publications/C2016-10a.pdf
 * Differential Testing for Software - http://www.cs.dartmouth.edu/~mckeeman/references/DifferentialTestingForSoftware.pdf
 * Effect-Driven QuickChecking of Compilers
 	+ ICFP 2017
@@ -154,17 +168,16 @@ Note: see also [compilers](compilers.md)
 	+ talk
 		- http://podcasts.ox.ac.uk/effect-driven-quickchecking-compilers
 		- https://www.youtube.com/watch?v=_KrZzaShDew&list=PLnqUlCo055hW7kU-SBQEhC_87etA5Gqlq&index=15
-* Evaluating the Effects of Compiler Optimizations on Mutation Testing at the Compiler IR Level - ISSRE’16
-	+ http://mir.cs.illinois.edu/farah/presentations/issre16_presentation.pdf
-	+ http://mir.cs.illinois.edu/marinov/publications/HaririETAL16CompilerIRMutation.pdf
-	+ https://www.researchgate.net/publication/311529837_Evaluating_the_Effects_of_Compiler_Optimizations_on_Mutation_Testing_at_the_Compiler_IR_Level
-* Finding and Analyzing Compiler Warning Defects - http://ieeexplore.ieee.org/document/7886904/
-* Finding Missed Compiler Optimizations by Differential Testing
-	+ Compiler Construction (CC) 2018
-	+ Gergö Barany
-	+ https://github.com/gergo-/missed-optimizations/raw/master/missed_optimizations_preprint.pdf
-	+ Missed optimizations in C compilers: https://github.com/gergo-/missed-optimizations/
-	+ https://hal.inria.fr/hal-01682683
+* Extending Equivalence Transformation Based Program Generator for Random Testing of C Compilers
+	+ A-TEST 2018
+	+ Shogo Takakura, Mitsuyoshi Iwatsuji, Nagisa Ishiura
+	+ https://dl.acm.org/citation.cfm?doid=3278186.3278188
+	+ https://ist.ksc.kwansei.ac.jp/~ishiura/publications/C2018-11a.pdf
+* Finding and Analyzing Compiler Warning Defects
+	+ ICSE 2016
+	+ Chengnian Sun, Vu Le, Zhendong Su
+	+ http://ieeexplore.ieee.org/document/7886904/
+	+ https://web.cs.ucdavis.edu/~su/publications/icse16-warning.pdf
 * Finding and Understanding Bugs in C Compilers
 	+ http://www.cs.utah.edu/~regehr/papers/pldi11-preprint.pdf
 	+ https://www.flux.utah.edu/download?uid=114
@@ -195,11 +208,6 @@ Note: see also [compilers](compilers.md)
 	+ https://github.com/RUB-SysSec/nautilus
 	+ testing applications: ChakraCore (the JavaScript engine of Microsoft Edge), PHP, mruby, and Lua
 * RandIR: Differential Testing for Embedded Compilers - https://www.cs.purdue.edu/homes/rompf/papers/ofenbeck-scala16.pdf
-* Reinforcing Random Testing of Arithmetic Optimization of C Compilers by Scaling up Size and Number of Expressions, IPSJ Transactions on System LSI Design Methodology, vol. 7, 2014. E. Nagai, A. Hashimoto, and N. Ishiura. <https://www.jstage.jst.go.jp/article/ipsjtsldm/7/0/7_91/_article>
-* Scaling up Size and Number of Expressions in Random Testing of Arithmetic Optimization of C Compilers
-	+ SASIMI 2013
-	+ http://ist.ksc.kwansei.ac.jp/~ishiura/publications/C2013-10.pdf
-* Some Goals for High-impact Verified Compiler Research - https://blog.regehr.org/archives/1565
 * System Under Test: LLVM - https://systemundertest.org/llvm/
 * Taming compiler fuzzers
 	+ PLDI 2013
@@ -208,11 +216,47 @@ Note: see also [compilers](compilers.md)
 	+ Fuzzers Need Taming - https://blog.regehr.org/archives/925
 * Test-Case Reduction for C Compiler Bugs - https://www.cs.utah.edu/~regehr/papers/pldi12-preprint.pdf
 * Testing LLVM - http://blog.regehr.org/archives/1450
+* The problem with differential testing is that at least one of the compilers must get it right - http://blog.frama-c.com/index.php?post/2013/09/25/The-problem-with-differential-testing-is-that-at-least-one-of-the-compilers-must-get-it-right
+
+### Performance Optimization
+
+* Compiler Testing via a Theory of Sound Optimisations in the C11/C++11 Memory Model
+	+ Programming Language Design and Implementation (PLDI) 2013
+	+ Robin Morisset, Pankaj Pawan, Francesco Zappa Nardelli
+	+ https://www.di.ens.fr/~zappa/readings/pldi13.pdf
+* Detecting Arithmetic Optimization Opportunities for C Compilers by Randomly Generated Equivalent Programs
+	+ IPSJ Transactions on System LSI Design Methodology, vol. 9, 2016; A. Hashimoto and N. Ishiura
+	+ <https://www.jstage.jst.go.jp/article/ipsjtsldm/9/0/9_21/_article>
+* Detecting Missed Arithmetic Optimization in C Compilers by Differential Random Testing - http://ist.ksc.kwansei.ac.jp/~ishiura/publications/C2016-10a.pdf
+* Evaluating the Effects of Compiler Optimizations on Mutation Testing at the Compiler IR Level - ISSRE’16
+	+ http://mir.cs.illinois.edu/farah/presentations/issre16_presentation.pdf
+	+ http://mir.cs.illinois.edu/marinov/publications/HaririETAL16CompilerIRMutation.pdf
+	+ https://www.researchgate.net/publication/311529837_Evaluating_the_Effects_of_Compiler_Optimizations_on_Mutation_Testing_at_the_Compiler_IR_Level
+* Finding Missed Compiler Optimizations by Differential Testing
+	+ Compiler Construction (CC) 2018
+	+ Gergö Barany
+	+ https://github.com/gergo-/missed-optimizations/raw/master/missed_optimizations_preprint.pdf
+	+ Missed optimizations in C compilers: https://github.com/gergo-/missed-optimizations/
+	+ https://hal.inria.fr/hal-01682683
+* Lost in translation: Exposing hidden compiler optimization opportunities
+	+ 2019 arXiv
+	+ Kyriakos Georgiou, Zbigniew Chamski, Andres Amaya Garcia, David May, Kerstin Eder 
+	+ https://arxiv.org/abs/1903.11397
+	+ https://github.com/TrustworthySystemLab/LostInTranslation
+* Random Testing of Compilers’ Performance Based on Mixed Static and Dynamic Code Comparison
+	+ Kota Kitaura, Nagisa Ishiura
+	+ A-TEST 2018
+	+ https://ist.ksc.kwansei.ac.jp/~ishiura/publications/C2018-11b.pdf
+	+ https://dl.acm.org/citation.cfm?id=3278192
+* Reinforcing Random Testing of Arithmetic Optimization of C Compilers by Scaling up Size and Number of Expressions, IPSJ Transactions on System LSI Design Methodology, vol. 7, 2014. E. Nagai, A. Hashimoto, and N. Ishiura. <https://www.jstage.jst.go.jp/article/ipsjtsldm/7/0/7_91/_article>
+* Scaling up Size and Number of Expressions in Random Testing of Arithmetic Optimization of C Compilers
+	+ SASIMI 2013
+	+ http://ist.ksc.kwansei.ac.jp/~ishiura/publications/C2013-10.pdf
 * The Correctness-Security Gap in Compiler Optimization - LangSec 2015, IEEE SPW
 	+ paper: https://research.google.com/pubs/pub43856.html
 	+ slides: https://nebelwelt.net/publications/files/15LangSec-presentation.pdf
 	+ talk: https://www.youtube.com/watch?v=g6LCtHz_MDc&list=PL0pRF4xvoD0kuECJuowraVIIHlT3pN1Cm&index=3
-* The problem with differential testing is that at least one of the compilers must get it right - http://blog.frama-c.com/index.php?post/2013/09/25/The-problem-with-differential-testing-is-that-at-least-one-of-the-compilers-must-get-it-right
+
 
 ## Software
 
@@ -226,6 +270,7 @@ Note: see also [compilers](compilers.md)
 * C-Reduce, a C program reducer
 	+ https://embed.cs.utah.edu/creduce/
 	+ https://github.com/csmith-project/creduce
+	+ https://github.com/zjturner/creduce-windows
 * Fuzzing LLVM libraries and tools - https://llvm.org/docs/FuzzingLLVM.html
 	+ Adventures in Fuzzing Instruction Selection
 		- 2017 EuroLLVM Developers’ Meeting; Justin Bogner
@@ -244,10 +289,15 @@ Note: see also [compilers](compilers.md)
 		- https://www.youtube.com/watch?v=GV4PoWu0UZ0
 * GraphicsFuzz: A testing framework for automatically finding and simplifying bugs in graphics shader compilers.
 	+ https://github.com/google/graphicsfuzz
+	+ GraphicsFuzz: Metamorphic Testing for Graphics Shader Compilers
+		- VF Conference 2019; Alastair Donaldson
+		- https://www.youtube.com/watch?v=r2GHwhCbcKo
 * kscope
 	+ a library which recursively generates randomized code while keeping it 100% equivalent to the original one
 	+ http://ithare.com/c17-compiler-bug-hunt-very-first-results-12-bugs-reported-3-already-fixed/
 	+ https://github.com/ITHare/kscope
+* lang_tester: Rust testing framework for compilers and VMs
+	+ https://crates.io/crates/lang_tester
 * ldrgen: Liveness-driven random C code generator - https://github.com/gergo-/ldrgen
 * llvm-mutate – mutate LLVM IR - http://eschulte.github.io/llvm-mutate/
 * opt-fuzz: a simple implementation of bounded exhaustive testing for LLVM programs
@@ -291,6 +341,9 @@ Note: see also [compilers](compilers.md)
 	+ https://www.youtube.com/watch?v=V6ug3e3jC54
 	+ http://llvm.org/devmtg/2018-04/slides/Barany-Finding%20Missed%20Optimizations%20in%20LLVM.pdf
 	+ https://github.com/gergo-/missed-optimizations/
+* Testing and Qualification of Optimizing Compilers for Functional Safety
+	+ 2019 EuroLLVM Developers’ Meeting; José Luis March Cabrelles (Solid Sands)
+	+ https://www.youtube.com/watch?v=nSfT4oND9dU
 * Testing Language Implementations - Alastair Donaldson - Programming Language Implementation Summer School (PLISS) 2017
 	+ https://www.youtube.com/watch?v=ZJUk8_k1HbY
 
@@ -389,6 +442,10 @@ Validation: Including translation validation, equivalence checking.
 		- Anthony Fox, Magnus O. Myreen, Yong Kiam Tan, Ramana Kumar.
 		- http://www.cl.cam.ac.uk/~mom22/cpp17.pdf
 		- http://www.cl.cam.ac.uk/~mom22/publications.html
+	+ Verified Compilation on a Verified Processor
+		- PLDI 2019
+		- Andreas Lööw, Ramana Kumar, Yong Kiam Tan, Magnus O. Myreen, Michael Norrish, Oskar Abrahamsson, Anthony Fox
+		- https://cakeml.org/pldi19.pdf
 	+ The Verified CakeML Compiler Backend
 		- JFP 2019
 		- Yong Kiam Tan, Magnus O. Myreen, Ramana Kumar, Anthony Fox, Scott Owens, Michael Norrish
