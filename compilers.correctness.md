@@ -271,6 +271,8 @@ Note: see also [compilers](compilers.md)
 	+ https://embed.cs.utah.edu/creduce/
 	+ https://github.com/csmith-project/creduce
 	+ https://github.com/zjturner/creduce-windows
+	+ Design and Evolution of C-Reduce
+		- http://blog.ieeesoftware.org/2019/07/design-and-evolution-of-c-reduce-part-1.html
 * Fuzzing LLVM libraries and tools - https://llvm.org/docs/FuzzingLLVM.html
 	+ Adventures in Fuzzing Instruction Selection
 		- 2017 EuroLLVM Developers’ Meeting; Justin Bogner
