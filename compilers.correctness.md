@@ -272,7 +272,7 @@ Note: see also [compilers](compilers.md)
 	+ https://github.com/csmith-project/creduce
 	+ https://github.com/zjturner/creduce-windows
 	+ Design and Evolution of C-Reduce
-		- http://blog.ieeesoftware.org/2019/07/design-and-evolution-of-c-reduce-part-1.html
+		- Part 1: https://blog.regehr.org/archives/1678
 * Fuzzing LLVM libraries and tools - https://llvm.org/docs/FuzzingLLVM.html
 	+ Adventures in Fuzzing Instruction Selection
 		- 2017 EuroLLVM Developers’ Meeting; Justin Bogner
@@ -418,20 +418,37 @@ Validation: Including translation validation, equivalence checking.
 	+ online: http://rise4fun.com/Alive
 	+ blog post: http://blog.regehr.org/archives/1170
 	+ slides: http://llvm.org/devmtg/2014-10/Slides/Menendez-Alive.pdf
-	+ Alive-FP: Automated Verification of Floating Point Based Peephole Optimizations in LLVM - https://www.cs.rutgers.edu/research/technical_reports/report.php?series_id=1&report_id=723
+	+ Alive-FP: Automated Verification of Floating Point Based Peephole Optimizations in LLVM
+		- https://www.cs.rutgers.edu/research/technical_reports/report.php?series_id=1&report_id=723
 	+ Alive-Loops: https://github.com/rutgers-apl/alive-loops
-		- "Termination checking for LLVM peephole optimizations" (ICSE 2016); David Menendez, Santosh Nagarakatte
+		- Termination checking for LLVM peephole optimizations
+		- ICSE 2016; David Menendez, Santosh Nagarakatte
 		- https://www.cs.rutgers.edu/~sn349/papers/icse2016-alive-loops.pdf
 	+ Alive-NJ - https://github.com/rutgers-apl/alive-nj
-	+ LifeJacket: Verifying precise floating-point optimizations in LLVM - http://export.arxiv.org/abs/1603.09290 - https://github.com/4tXJ7f/alive
+	+ LifeJacket: Verifying precise floating-point optimizations in LLVM
+		- SOAP 2016, EuroLLVM 2017; Andres Nötzli, Fraser Brown
+		- http://export.arxiv.org/abs/1603.09290
+		- https://github.com/4tXJ7f/alive
+		- http://llvm.org/devmtg/2017-03/2017/02/20/accepted-sessions.html#25
 	+ Practical Formal Techniques and Tools for Developing LLVM's Peephole Optimizations
 		- 2018 PhD Thesis; David Menendez
 		- https://www.cs.rutgers.edu/~santosh.nagarakatte/david-menendez-phd-thesis.pdf
 	+ Precondition Inference for Peephole Optimizations in LLVM
+		- PLDI 2017
+		- David Menendez, Santosh Nagarakatte
 		- http://export.arxiv.org/abs/1611.05980
 		- https://www.cs.rutgers.edu/~santosh.nagarakatte/papers/pldi2017-alive-infer.pdf
 		- PLDI 2017 talk, David Menendez - https://pldi17.sigplan.org/event/pldi-2017-papers-precondition-inference-for-peephole-optimizations-in-llvm
-	+ Provably Correct Peephole Optimizations with Alive - https://www.cs.utah.edu/~regehr/papers/pldi15.pdf
+	+ Provably Correct Peephole Optimizations with Alive
+		- PLDI 2015
+		- Nuno P. Lopes, David Menendez, Santosh Nagarakatte, John Regehr
+		- https://www.cs.utah.edu/~regehr/papers/pldi15.pdf
+		- http://web.ist.utl.pt/nuno.lopes/pubs.php?id=alive-pldi15
+	+ AliveInLean: A Verified LLVM Peephole Optimization Verifier
+		- Computer-Aided Verification (CAV) 2019
+		- Juneyoung Lee, Chung-Kil Hur, Nuno P. Lopes
+		- https://sf.snu.ac.kr/aliveinlean/
+		- https://github.com/Microsoft/AliveInLean
 * An Abstract Stack Based Approach to Verified Compositional Compilation to Machine Code
 	+ POPL 2019
 	+ Yuting Wang, Pierre Wilke, Zhong Shao
@@ -452,6 +469,10 @@ Validation: Including translation validation, equivalence checking.
 		- JFP 2019
 		- Yong Kiam Tan, Magnus O. Myreen, Ramana Kumar, Anthony Fox, Scott Owens, Michael Norrish
 		- https://www.cs.cmu.edu/~yongkiat/files/cakeml-jfp.pdf
+	+ Icing: Supporting Fast-math Style Optimizations in a Verified Compiler
+		- Computer-Aided Verification (CAV) 2019
+		- Heiko Becker, Eva Darulova, Magnus O. Myreen, Zachary Tatlock
+		- https://cakeml.org/cav19.pdf
 * CompCert: formally-verified C compiler
 	+ http://compcert.inria.fr/
 	+ https://github.com/AbsInt/CompCert 
