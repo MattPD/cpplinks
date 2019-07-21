@@ -1,6 +1,6 @@
 # [C++ links](README.md): ARM and AArch64 Assembly
 
-Note: see [Computer Architecture](comparch.md) -- recommended background (which makes the following significantly more approachable) includes at least an undegraduate-level course.
+Note: see [Computer Architecture](comparch.md) -- recommended background (which makes the following significantly more approachable) includes at least an undergraduate-level course.
 
 # Contents
 
@@ -10,6 +10,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ [Instruction Set Architecture](#instruction-set-architecture)
 	+ [Performance](#performance)
 	+ [Security](#security): [TrustZone](#trustzone)
+	+ [Simulation](#simulation)
 	+ [Virtualization](#virtualization)
 * [References](#references):
 	+ [Concurrency](#concurrency)
@@ -169,6 +170,11 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * A Guide to ARM64 / AArch64 Assembly on Linux with Shellcodes and Cryptography
 	+ https://modexp.wordpress.com/2018/10/30/arm64-assembly/
 * ARM Lab Environment - https://www.vulnhub.com/series/arm-lab,145/
+* ARM Memory Tagging Extension and How It Improves C/C++ Memory Safety 
+	+ USENIX ;login: Summer 2019, Vol. 44, No. 2 
+	+ Kostya Serebryany
+	+ https://www.usenix.org/publications/login/summer2019/serebryany
+	+ https://github.com/google/sanitizers/blob/master/hwaddress-sanitizer/login_summer19_03_serebryany.pdf
 * ARM Return Oriented Programming (ROP) - Billy Ellis
 	+ Cheatsheet - https://twitter.com/bellis1000/status/929713826106396673
 	+ https://billy-ellis.github.io/armintro.html
@@ -230,6 +236,17 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ ASPLOS 2017
 	+ Andrew Ferraiuolo, Rui Xu, Danfeng Zhang, Andrew C. Myers, G. Edward Suh
 	+ http://www.cs.cornell.edu/andru/papers/trustzone/
+
+## Simulation
+
+* Simulation of ARM and x86 microprocessors using in-order and out-of-order CPU models with Gem5 simulator
+	+ International Conference on Electrical and Electronic Engineering (ICEEE) 2018
+	+ Anas Ahmad Abudaqa, Talal M. Al-Kharoubi, Muhamed F. Mudawar, Armin Kobilica
+	+ https://ieeexplore.ieee.org/document/8391354/
+* Simulation of 64-bit ARM Systems: Implementation, Validation and Design Space Exploration
+	+ 2018 MSc dissertation
+	+ Juan Miguel de Haro Ruiz
+	+ https://upcommons.upc.edu/handle/2117/127677
 
 ## Virtualization
 
@@ -330,6 +347,8 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://gitlab.com/arm-hpc
 * AMaCC (Another Mini ARM C Compiler) - Small C Compiler generating ELF executable for Arm architecture
 	+ https://github.com/jserv/amacc
+* AZM - Live ARM Assembler and Syntax Checker
+	+ https://azm.azerialabs.com/
 * mra_tools: Tools to process ARM's Machine Readable Architecture Specification
 	+ https://github.com/alastairreid/mra_tools
 * VIXL: AArch64 Runtime Code Generation Library
@@ -449,6 +468,14 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 ---
 
 # Talks
+
+## 2019
+
+* The Definitive Guide to Make Software Fail on ARM64
+	+ SREcon19 Asia/Pacific
+	+ Ignat Korchagin
+	+ https://www.youtube.com/watch?v=B5pmy1OI7uo
+	+ https://www.usenix.org/conference/srecon19asia/presentation/korchagin
 
 ## 2018
 
