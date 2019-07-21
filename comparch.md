@@ -1,8 +1,19 @@
 # [C++ links](README.md): computer architecture
 
-Note: see also [Assembly (x86)](assembly.x86.md)
+Note: see also [Assembly (Arm)](assembly.arm.md), [Assembly (RISC-V)](assembly.riscv.md), [Assembly (x86)](assembly.x86.md)
 
 * Computer Architecture Community - https://comp-arch-community.slack.com/ ([invitation](https://join.slack.com/t/comp-arch-community/shared_invite/enQtNTAwNTcxMTQ4NzU4LTZmOGY0NGI4NDIzY2NmZWMxNjBlMGJmYTMzNzkxNzc2YmQ1OTAwZTE4ODRmN2FmZmYwNGFhODIxOGE2YWQwNWM))
+
+# Contents
+
+* [Books](#books)
+* [Competitions](#competitions)
+* [Conferences](#conferences)
+* [Courses](#courses)
+* [Emulation & Simulation](#emulation--simulation)
+* [Journals & Publications](#journals--publications)
+
+---
 
 # Books
 
@@ -87,6 +98,8 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 	+ https://www.youtube.com/playlist?list=PL8EC1756A7B1764F6
 * Great Ideas in Computer Architecture (Machine Structures) - UC Berkeley
 	+ http://inst.eecs.berkeley.edu/~cs61c/
+	+ Computer Science 61C, 001 - Spring 2015
+		- https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_
 * High-performance and Embedded Computer Architecture
 	+ TU Berlin, Embedded Systems Architecture; Prof. Juurlink
 	+ https://www.youtube.com/channel/UCPSsA8oxlSBjidJsSPdpjsQ/
@@ -98,25 +111,49 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 * Parallel Computer Architecture and Programming (CMU 15-418/618)
 	+ http://15418.courses.cs.cmu.edu/
 * MIT 6.004 Computation Structures
+	+ https://6004.mit.edu/
+	+ YouTube: https://www.youtube.com/channel/UC1DcxXg6GkAcp2zk2w7U6qQ
 	+ OCW: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2009/
-	+ edX Part 1: Digital Circuits - https://www.edx.org/course/computation-structures-part-1-digital-mitx-6-004-1x-0
-	+ edX Part 2: Computer Architecture - https://www.edx.org/course/computation-structures-2-computer-mitx-6-004-2x
-	+ edX Part 3: Computer Organization - https://www.edx.org/course/computation-structures-3-computer-mitx-6-004-3x-0
+	+ edX
+		- edX Part 1: Digital Circuits - https://www.edx.org/course/computation-structures-part-1-digital-mitx-6-004-1x-0
+		- edX Part 2: Computer Architecture - https://www.edx.org/course/computation-structures-2-computer-mitx-6-004-2x
+		- edX Part 3: Computer Organization - https://www.edx.org/course/computation-structures-3-computer-mitx-6-004-3x-0
 * MIT 6.172 Performance Engineering of Software Systems, Fall 2010
 	+ https://www.youtube.com/playlist?list=PLD2AE32F507F10481
 	+ https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2010/video-lectures/
 * The Hardware/Software Interface - University of Washington
 	+ http://courses.cs.washington.edu/courses/cse351/
+* Workshops on Computer Architecture Education
+	+ https://people.engr.ncsu.edu/efg/wcaes.html
+	+ https://projects.ncsu.edu/wcae/
 
 # Emulation & Simulation
+
+## Readings
+
+* A Look at Computer Architecture Evaluation Methodologies
+	+ Mario Badr and Natalie Enright Jerger
+	+ Workshop on Pioneering Processor Paradigms (WP3) 2018
+	+ http://mariobadr.com/pdfs/2018-02-25-WP3-paper.pdf
+	+ http://mariobadr.com/pdfs/2018-02-25-WP3-presentation.pdf
+	+ Survey on Computer Architecture Evaluation Methodologies
+		- https://github.com/mariobadr/survey-wp3
+* A Survey of Computer Architecture Simulation Techniques and Tools
+	+ IEEE Access 2019
+	+ Ayaz Akram, Lina Sawalha
+	+ https://ieeexplore.ieee.org/document/8718630
+
+## Software
 
 * gem5 - http://gem5.org/
 	+ Learning gem5: http://learning.gem5.org/
 		- Book: https://github.com/powerjg/learning_gem5
 		- Tutorial: http://learning.gem5.org/tutorial/
-			- Slides (HPCA 2017): http://www.cs.wisc.edu/multifacet/papers/learning_gem5_tutorial.pdf  
+			- Slides (HPCA 2017): http://www.cs.wisc.edu/multifacet/papers/learning_gem5_tutorial.pdf
 			- Videos (HPCA 2017): https://www.youtube.com/playlist?list=PL-J9GXT0E7AIidmX_DW7pooRJzjoaJtix
-* GPGPU-Sim - http://www.gpgpu-sim.org/ - https://github.com/gpgpu-sim/gpgpu-sim_distribution
+* GPGPU-Sim
+	- http://www.gpgpu-sim.org/
+	- https://github.com/gpgpu-sim/gpgpu-sim_distribution
 * Intel Software Development Emulator (SDE) - https://software.intel.com/en-us/articles/intel-software-development-emulator
 * MacSim: Simulator for Heterogeneous Architecture
 	+ a cycle-level, heterogeneous architecture simulator for x86 and NVIDIA PTX instructions
@@ -134,8 +171,11 @@ Note: see also [Assembly (x86)](assembly.x86.md)
 	+ Modsim2017 Presentation: http://hpc.pnl.gov/modsim/2017/Presentations/SST_Modsim17.pdf
 	+ SST components overview (2016): https://www.youtube.com/watch?v=D5gDYy9aqf4
 	+ ISCA 2015 Tutorial: https://www.osti.gov/scitech/servlets/purl/1257684
-* XIOSim - A detailed microarchitectural x86 simulator - https://github.com/s-kanev/XIOSim
-* ZSim - https://github.com/s5z/zsim - http://zsim.csail.mit.edu/tutorial/
+* XIOSim - A detailed microarchitectural x86 simulator
+	- https://github.com/s-kanev/XIOSim
+* ZSim
+	- https://github.com/s5z/zsim
+	- http://zsim.csail.mit.edu/tutorial/
 
 # Journals & Publications
 
