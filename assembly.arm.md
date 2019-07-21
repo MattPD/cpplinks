@@ -23,6 +23,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ [Lifting: Disassemblers, Decompilers, Recompilers](#lifting-disassemblers-decompilers-recompilers)
 	+ [Performance](#performance-1)
 * [Talks](#talks):
+	+ [2019](#2019)
 	+ [2018](#2018)
 	+ [2017](#2017)
 	+ [2016](#2016)
