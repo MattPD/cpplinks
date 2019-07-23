@@ -10,7 +10,13 @@ See also:
 
 * [General](#general)
 * [Standard Libraries](#standard-libraries)
-* [Readings](#readings): [Books](#books), [Implementation](#implementation), [Reverse Debugging](#reverse-debugging), [Software Engineering](#software-engineering), [Transparency](#transparency)
+* [Readings](#readings):
+	+ [Books](#books)
+	+ [Concurrency](#concurrency)
+	+ [Implementation](#implementation): [Correctness](#correctness)
+	+ [Reverse Debugging](#reverse-debugging)
+	+ [Software Engineering](#software-engineering)
+	+ [Transparency](#transparency)
 * [Software](#software):
 	+ [GDB](#gdb): [Projects](#projects), [Readings](#readings-1), [Talks](#talks)
 	+ [LLDB](#lldb): [Projects](#projects-1), [Readings](#readings-2), [Talks](#talks-1)
@@ -73,6 +79,7 @@ See also:
 	+ Learning From Your Bugs - https://henrikwarne.com/2016/04/28/learning-from-your-bugs/
 * How to Debug - John Regehr - https://blog.regehr.org/archives/199
 * I tend to prefer debugging with release builds instead of debug builds - Ken Johnson (Skywing) - http://www.nynaeve.net/?p=184
+* What does debugging a program look like? - Julia Evans - https://jvns.ca/blog/2019/06/23/a-few-debugging-resources/
 * When debugging a stack overflow, you want to focus on the repeating recursive part - Raymond Chen - https://blogs.msdn.microsoft.com/oldnewthing/20090107-00/?p=19573
 
 ## Books
@@ -86,6 +93,19 @@ _Books, Books Reviews_
 	+ From intuition to methodology in debugging - http://wozniak.ca/blog/2018/02/04/From-intuition-to-methodology-in-debugging/
 	+ Formalizing debugging - https://wozniak.ca/blog/2018/03/25/Book-review-Formalizing-debugging/
 * Why Programs Fail: A Guide to Systematic Debugging - http://www.whyprogramsfail.com/
+
+## Concurrency
+
+### Probe Effect
+
+* A probe effect in concurrent programs
+	+ Software: Practice and Experience 16 (3)(1986) 
+	+ J. Gait
+	+ https://doi.org/10.1002/spe.4380160304
+* Debugging Concurrent Programs
+	+ ACM Computing Surveys (CSUR) 21(4) 1989
+	+ C. E. McDowell, D. P. Helmbold
+	+ https://users.soe.ucsc.edu/~dph/mypubs/debugConcProg89.pdf
 
 ## Implementation
 
@@ -179,7 +199,14 @@ _Books, Books Reviews_
 * (Windows) Data Breakpoints - https://blogs.msdn.microsoft.com/reiley/2011/07/21/data-breakpoints/
 * (Windows) Side Effects of Debugger - https://blogs.msdn.microsoft.com/reiley/2011/08/27/side-effects-of-debugger/
 
-### Testing
+### Correctness
+
+* Correctness Proofs of Compilers and Debuggers: an Approach Based on Structural Operational Semantics
+	+ 1992 Ph.D. dissertation; Fabio Q. B. da Silva
+	+ http://hdl.handle.net/1842/13542
+	+ http://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-241/
+
+#### Testing
 
 * Comparing The Quality Of Debug Information Produced By Clang And Gcc 
 	+ https://robert.ocallahan.org/2018/11/comparing-quality-of-debug-information.html
@@ -191,13 +218,19 @@ _Books, Books Reviews_
 	+ https://github.com/SNSystems/dexter
 	+ Measuring the User Debugging Experience 
 		- 2018 European LLVM Developers Meeting; Greg Bedwell
+		- https://www.youtube.com/watch?v=XRT_GmpGjXE
 		- https://llvm.org/devmtg/2018-04/slides/Bedwell-Measuring_the_User_Debugging_Experience.pdf
 		- http://llvm.org/devmtg/2018-04/slides/Bedwell-Measuring_the_User_Debugging_Experience_poster.png
+		- https://www.snsystems.com/technology/tech-blog/measuring-the-user-debug-experience
 * Feedback-Directed Differential Testing of Interactive Debuggers
 	+ ESEC/FSE 2018
 	+ Daniel Lehmann, Michael Pradel
 	+ http://software-lab.org/publications/fse2018.pdf
 	+ https://github.com/sola-da/DifferentialDebuggerTesting
+* Interactive Metamorphic Testing of Debuggers
+	+ ISSTA 2019
+	+ Sandro Tolksdorf, Daniel Lehmann, Michael Pradel
+	+ https://conf.researchr.org/event/issta-2019/issta-2019-technical-papers-interactive-metamorphic-testing-of-debuggers
 * Samy Al Bahra, Backtrace
 	+ Compiler debug quality suite - https://github.com/backtrace-labs/cdqs
 
@@ -323,13 +356,24 @@ See also: [RR](#rr)
 
 # Software
 
+* dbg: A macro for printf-style debugging fans
+	+ https://github.com/sharkdp/dbg-macro
+* LibVMI: Simplified Virtual Machine Introspection
+	+ "LibVMI is a virtual machine introspection library. This means that it helps you access the memory of a running virtual machine. LibVMI provides primitives for accessing this memory using physical or virtual addresses and kernel symbols. LibVMI also supports accessing memory from a physical memory snapshot, which is helpful for debugging or forensic analysis."
+	+ https://github.com/libvmi/libvmi
 * PulseDbg: Hypervisor-based debugger
 	+ https://github.com/honorarybot/PulseDBG
 * PyREBox: a Python scriptable Reverse Engineering sandbox
 	+ "It is based on QEMU, and its goal is to aid reverse engineering by providing dynamic analysis and debugging capabilities from a different perspective. PyREBox allows to inspect a running QEMU VM, modify its memory or registers, and to instrument its execution, by creating simple scripts in python to automate any kind of analysis. QEMU (when working as a whole-system-emulator) emulates a complete system (CPU, memory, devices...). By using VMI techniques, it does not require to perform any modification into the guest operating system, as it transparently retrieves information from its memory at run-time."
 	+ https://github.com/Cisco-Talos/pyrebox
 	+ http://blog.talosintelligence.com/2017/07/pyrebox.html
-* QIRA - QEMU Interactive Runtime Analyser
+* pyvmidbg: LibVMI-based debug server, implemented in Python
+	+ Building a guest aware, stealth and agentless full-system debugger
+	+ https://github.com/Wenzel/pyvmidbg
+	+ Building a Flexible Hypervisor-Level Debugger
+		- Insomni'hack 2019; Mathieu Tarral
+		- https://drive.google.com/open?id=1ZMUszfwWDOljdDfPOJgkEfSabNy0UAJR
+‏* QIRA - QEMU Interactive Runtime Analyser
 	+ http://qira.me/
 	+ https://github.com/BinaryAnalysisPlatform/qira/
 * Radare2
@@ -370,6 +414,11 @@ See also: [RR](#rr)
 		- Querying Dynamic State using the FireEye Labs Query-Oriented Debugger (flare-qdb)
 			- https://www.fireeye.com/blog/threat-research/2017/01/flare_script_series.html
 * Voltron - https://github.com/snare/voltron
+* xendbg - A modern Xen debugger
+	+ https://github.com/nccgroup/xendbg
+	+ "`xendbg` is a feature-complete reference implementation of a modern Xen VMI debugger, superseding Xen's own limited and rarely-maintained [`gdbsx`](https://github.com/mirage/xen/tree/master/tools/debugger/gdbsx). It can debug both paravirtualized (PV) and hardware virtualized (HVM) guests, and provides both a standalone REPL and an LLDB server mode."
+	+ Xendbg: A Full-Featured Debugger for the Xen Hypervisor
+		- https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2019/january/xendbg-a-full-featured-debugger-for-the-xen-hypervisor/
 
 ## GDB
 
@@ -523,6 +572,9 @@ See also: [RR](#rr)
 	+ CppCon 2018 - https://www.youtube.com/watch?v=ck_jCH_G7pA
 	+ gdb_python_api: Experiments with the GDB Python API
 		- https://github.com/jefftrull/gdb_python_api
+* More GDB wizardry and 8 other essential Linux application debugging tools
+	+ ACCU 2019; Greg Law
+	+ https://www.youtube.com/watch?v=Yq6g_kvyvPU
 * Programmatic Debugging with GDB and Python
 	+ PyCon APAC/Taiwan 2015; Scott Tsai
 	+ https://www.youtube.com/watch?v=oAYbt2PsKng
@@ -591,11 +643,19 @@ See also: [RR](#rr)
 	+ DevConf.CZ 2019; Jan Kratochvíl
 	+ https://www.youtube.com/watch?v=2BjKNaiB3yM
 	+ https://devconfcz2019.sched.com/event/Jcht
+* LLDB Reproducers
+	+ 2019 EuroLLVM Developers’ Meeting; Jonas Devlieghere
+	+ https://www.youtube.com/watch?v=ygdzXnfyvbg
+	+ http://llvm.org/devmtg/2019-04/talks.html#Talk_12
 * LLDB Tutorial: Adding debugger support for your target
 	+ 2016 EuroLLVM Developers' Meeting; Deepak Panickal & Andrzej Warzynski, Codeplay
 	+ https://github.com/codeplaysoftware/lldb-msp430
 	+ http://www.llvm.org/devmtg/2016-03/Tutorials/LLDB-tutorial.pdf
 	+ https://www.youtube.com/watch?v=9hhDZeV0fYU
+* LLDB: Beyond "po"
+	+ WWDC 2019; Davide Italiano, Jonas Devlieghere
+	+ https://developer.apple.com/videos/play/wwdc2019/429/
+	+ https://www.raywenderlich.com/3868932-wwdc-2019-top-10-videos#toc-anchor-011
 * Migrating from GDB to LLDB - WWDC 2011 - https://developer.apple.com/videos/play/wwdc2011/321/
 
 ## RR
@@ -635,14 +695,32 @@ See also: [RR](#rr)
 	+ x86: ORC unwinder (previously undwarf) - https://lwn.net/Articles/727553/
 * Notes about an odd, esoteric, yet incredibly useful library: libthread_db
 	+ http://timetobleed.com/notes-about-an-odd-esoteric-yet-incredibly-useful-library-libthread_db/
+* plutonium-dbg: A kernel-based debugger for Linux applications
+	+ https://github.com/plutonium-dbg/plutonium-dbg
+	+ Kernel-Assisted Debugging of Linux Applications
+		- Reversing and Offensive-oriented Trends Symposium (ROOTS) 2018
+		- Tobias Holl, Philipp Klocke, Fabian Franzen, and Julian Kirsch
+		- https://vimeo.com/307238462
+		- https://dl.acm.org/citation.cfm?id=3289596
+* Scout - Instruction based research debugger
+	+ an extendable basic debugger designed for use in those cases that there is no built-in debugger / gdb-stub in the debugee process / firmware
+	+ https://github.com/CheckPointSW/Scout
+	+ https://scout-debugger.readthedocs.io/
 
 ### macOS
 
 * Chisel: a collection of LLDB commands to assist debugging iOS apps - https://github.com/facebook/chisel
+* LLDBagility
+	+ https://github.com/quarkslab/LLDBagility/
+	+ a tool for debugging macOS virtual machines with the aid of the Fast Debugging Protocol (FDP)
+	+ https://blog.quarkslab.com/an-overview-of-macos-kernel-debugging.html
+	+ https://blog.quarkslab.com/lldbagility-practical-macos-kernel-debugging.html
 * Mac OS X Debugging Magic - https://developer.apple.com/library/content/technotes/tn2124/_index.html
 
 ### Windows
 
+* An RPC Debugging Framework with Visual Studio
+	+ http://donw.io/post/rpc-debugging-vs/
 * ArkDasm: 64-bit interactive disassembler and debugger for Windows
 	+ http://www.arkdasm.com/
 * DbgShell: A PowerShell front-end for the Windows debugger engine
@@ -662,6 +740,11 @@ See also: [RR](#rr)
 	+ https://x64dbg.com/
 	+ https://github.com/x64dbg/x64dbg
 
+#### Visual Studio Debugger
+
+* https://docs.microsoft.com/en-us/visualstudio/debugger/ 
+* https://devblogs.microsoft.com/visualstudio/tag/debug/
+
 #### WinDbg
 
 * Introduction to WinDbg and debugging Windows - series by Anand George
@@ -680,6 +763,8 @@ See also: [RR](#rr)
 * JavaScript bridge makes malware analysis with WinDbg easier 
 	+ https://blog.talosintelligence.com/2019/02/windbg-malware-analysis-with-javascript.html
 * Stupid debugger tricks: Calling functions and methods - https://blogs.msdn.microsoft.com/oldnewthing/20070427-00/?p=27083
+* Time travel debugging: It’s a blast! (from the past)
+	+ https://blogs.technet.microsoft.com/srd/2019/05/29/time-travel-debugging-its-a-blast-from-the-past/
 * Tutorial: Using WinDBG to call arbitrary functions — WinDBG kung-fu series
 	+ http://cfc.kizzx2.com/index.php/tutorial-using-windbg-to-call-arbitrary-functions-windbg-kung-fu-series/
 * Undocumented WinDBG - https://blogs.msdn.microsoft.com/reiley/2011/10/30/undocumented-windbg/
@@ -694,6 +779,9 @@ See also: [RR](#rr)
 ##### Projects
 
 * 0CCh Windbg extension - https://github.com/0cch/0cchext
+* DbgModelCppLib: A header-only C++ library for producing and consuming data from the debugger data model
+	+ https://github.com/Microsoft/WinDbg-Libraries/tree/master/DbgModelCppLib
+	+ https://github.com/Microsoft/WinDbg-Samples/tree/master/DataModelHelloWorld/Cpp
 * PyKd - Python extension for WinDBG to access Debug Engine
 	+ https://githomelab.ru/pykd/pykd
 	+ windbg-pack: Set of python scripts for WinDBG - https://githomelab.ru/pykd/windbg-pack
