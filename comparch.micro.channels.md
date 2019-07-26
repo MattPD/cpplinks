@@ -436,6 +436,10 @@ See also: [Computer Architecture](comparch.md)
 	+ Poster: http://myan8.web.engr.illinois.edu/data/InvisiSpec_Poster.pdf
 	+ Lightning talk: https://www.youtube.com/watch?v=mAO5iejYUec
 	+ https://github.com/mjyan0720/InvisiSpec-1.0
+* NDA: Preventing Speculative Execution Attacks at Their Source
+	+ MICRO 2019
+	+ Ofir Weisse, Ian Neal, Kevin Loughlin, Thomas Wenisch, Baris Kasikci
+	+ http://www.ofirweisse.com/MICRO2019_NDA.pdf
 * Pitchfork: Detecting Spectre vulnerabilities using symbolic execution
 	+ https://github.com/cdisselkoen/pitchfork
 * SafeSpec: Banishing the Spectre of a Meltdown with Leakage-Free Speculation
