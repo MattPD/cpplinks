@@ -133,6 +133,7 @@ Contents:
 * Import by Hash in x64 Assembly - https://emsea.github.io/2017/12/04/import-by-hash/
 * Isolating a plugin into its own directory - http://web.archive.org/web/20171011141708/https://blogs.msdn.microsoft.com/talagrand/2010/03/08/isolating-a-plugin-into-its-own-directory/
 * Rpath emulation: absolute DLL references on Windows - http://blog.omega-prime.co.uk/2012/12/06/rpath-emulation-absolute-dll-references-on-windows/
+* Shellcode: In-Memory Execution of DLL - https://modexp.wordpress.com/2019/06/24/inmem-exec-dll/
 * Ten Process Injection Techniques: A Technical Survey of Common and Trending Process Injection Techniques - https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process
 * What is so special about the instance handle 0x10000000? - https://blogs.msdn.microsoft.com/oldnewthing/20121227-00/?p=5713/
 
@@ -308,6 +309,7 @@ Contents:
 
 * ELF and ABI Standards - Linux Foundation Referenced Specifications - http://refspecs.linuxfoundation.org/elf/
 * ELF101 a Linux executable walkthrough - https://speakerdeck.com/ange/booklet-elf101-a-linux-executable-walkthrough
+* Executable and Linkable Format: format specification - https://formats.kaitai.io/elf/
 * Learning Linux Binary Analysis (2016) - Ryan O'Neill - http://www.bitlackeys.org/#research
 * linux-re-101
 	+ https://github.com/michalmalik/linux-re-101
@@ -320,6 +322,7 @@ Contents:
 	+ http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
 	+ https://github.com/abraithwaite/teensy
 * About ELF Auxiliary Vectors - http://articles.manugarg.com/aboutelfauxiliaryvectors
+* Anatomy of an ELF core file - https://www.gabriel.urdhr.fr/2015/05/29/core-file/
 * Armouring the ELF: Binary encryption on the UNIX platform - scut & grugq - Phrack Magazine #58 (2001-12-28) - http://www.phrack.org/issues/58/5.html
 * Building an ELF Parser with Frida - https://versprite.com/og/frida/
 * Cheating the ELF: Subversive Dynamic Linking to Libraries - https://grugq.github.io/docs/subversiveld.pdf
@@ -340,6 +343,7 @@ Contents:
 	+ http://www.cirosantilli.com/elf-hello-world/
 	+ https://github.com/cirosantilli/cirosantilli.github.io/blob/master/elf-hello-world.md
 * ELF introspection, robustly and portably - http://www.cl.cam.ac.uk/~srk31/blog/devel/elf-introspection.html
+* ELF loading and dynamic linking - https://www.gabriel.urdhr.fr/2015/01/22/elf-linking/
 * ELF Parsing Bugs by Example with Melkor Fuzzer
 	+ https://ioactive.com/pdfs/IOActive_ELF_Parsing_with_Melkor.pdf
 	+ http://blog.ioactive.com/2014/11/elf-parsing-bugs-by-example-with-melkor.html
@@ -360,6 +364,7 @@ Contents:
 	+ Part 1: Sections and Segments - http://www.intezer.com/executable-linkable-format-101-part1-sections-segments/
 	+ Part 2: Symbols - http://www.intezer.com/executable-linkable-format-101-part-2-symbols/
 	+ Part 3: Relocations - https://www.intezer.com/executable-and-linkable-format-101-part-3-relocations/
+	+ Part 4: Dynamic Linking - https://www.intezer.com/executable-linkable-format-101-part-4-dynamic-linking/
 * Exploiting ELF Expansion Variables - https://backtrace.io/blog/exploiting-elf-expansion-variables/
 * Generating executable files from scratch - https://github.com/cameronswinoga/yabfc/wiki/Generating-executable-files-from-scratch
 * GNU Hash ELF Sections
@@ -438,6 +443,9 @@ Contents:
 		- https://www.youtube.com/watch?v=wxVBuZK8Dl0
 * binception: Generate hash values for functions within an ELF binary - https://github.com/enferex/binception
 * binch: a light BINary patCH tool - https://github.com/tunz/binch
+* dnload: Minimal binary generator for \*nix operating systems
+	+ dnload.py is a script for generating minimal ELF binaries from C code. It serves no practical real-world use case, but can be utilized to aid in the creation of size-limited demoscene productions.
+	+ https://github.com/faemiyah/dnload
 * dress: add symbols back into a stripped ELF binary (~strip)
 	+ http://van.prooyen.com/projects/#dress
 	+ https://github.com/docileninja/dress
@@ -513,6 +521,10 @@ Contents:
 * patchkit - https://github.com/lunixbochs/patchkit
 	+ Patches an ELF binary using one or more simple Python scripts.
 * pyelftools: Pure-python library for parsing ELF and DWARF - https://github.com/eliben/pyelftools
+* smol: Shoddy minsize-oriented linker
+	+ https://github.com/Shizmob/smol
+	+ Intricacies of sizecoding on Linux - Revision 2019 Seminar
+		- https://www.youtube.com/watch?v=a03HXo8a_Io
 * Stasis: build static position-independant-executables without any runtime requirements (no libc or ldso)
 	+ https://github.com/korhalio/stasis
 * syms2elf: a plugin to export the symbols recognized to the ELF symbol table 
@@ -752,6 +764,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 * ExpDiff: Diff tool for comparing export tables in PE images - https://github.com/WalkingCat/ExpDiff
 * fasm_packer: PE Packer written in x86 assembly (FASM syntax) - https://github.com/DimitriFourny/resources/tree/master/fasm_packer
 * Five PE Analysis Tools Worth Looking At - https://blog.malwarebytes.com/threat-analysis/2014/05/five-pe-analysis-tools-worth-looking-at/
+* In-Memory PE Loader: A very simple PE loader for loading DLLs into memory without using LoadLibray
+	+ https://github.com/nettitude/SimplePELoader
 * libpeconv: A small library for mapping and unmapping PE files
 	+ https://github.com/hasherezade/libpeconv
 	+ Demo: RunPE (Process Hollowing) - https://github.com/hasherezade/libpeconv/tree/master/run_pe
@@ -759,6 +773,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ https://github.com/hasherezade/libpeconv/tree/master/pe_unmapper
 * Malware-Analayzer PE Tools - http://www.malware-analyzer.com/pe-tools
 * Manalyze, a static analyzer for PE executables - https://manalyzer.org/ - https://github.com/JusticeRage/Manalyze
+* MiTeC EXE Explorer: Executable File Explorer for OS/2, NE, PE32, PE32+ and VxD file types
+	+ https://www.mitec.cz/exe.html
 * pefile: a Python module to read and work with PE (Portable Executable) files - https://github.com/erocarrera/pefile
 * PeLib: PE file manipulation library - https://github.com/avast-tl/pelib
 * PeRebuilder - https://github.com/AaLl86/retroware
