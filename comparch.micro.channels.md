@@ -447,7 +447,7 @@ See also: [Computer Architecture](comparch.md)
 	+ Khaled N. Khasawneh, Esmaeil Mohammadian Koruyeh, Chengyu Song, Dmitry Evtyushkin, Dmitry Ponomarev, Nael Abu-Ghazaleh
 	+ http://www.cs.binghamton.edu/~dima/dac2019.pdf
 * SPECCFI: Mitigating Spectre Attacks using CFI Informed Speculation
-	+ arXiv 2019
+	+ arXiv 2019; IEEE S&P 2020
 	+ Esmaeil Mohammadian Koruyeh, Shirin Haji Amin Shirazi, Khaled N. Khasawneh, Chengyu Song, Nael Abu-Ghazaleh
 	+ https://arxiv.org/abs/1906.01345
 * SpecFuzz: Bringing Spectre-type vulnerabilities to the surface
@@ -1271,6 +1271,10 @@ See also: [Computer Architecture](comparch.md)
 		- https://foreshadowattack.eu/
 	+ A deeper look at L1 Terminal Fault aka Foreshadow - https://www.redhat.com/en/blog/deeper-look-l1-terminal-fault-aka-foreshadow
 	+ Analysis and mitigation of L1 Terminal Fault (L1TF) - https://blogs.technet.microsoft.com/srd/2018/08/14/analysis-and-mitigation-of-l1-terminal-fault-l1tf/
+	+ Breaking Virtual Memory Protection and the SGX Ecosystem with Foreshadow 
+		- IEEE Micro 39(3) 2019
+		- Jo Van Bulck, Marina Minkin, Ofir Weisse, Daniel Genkin, Baris Kasikci, Frank Piessens, Mark Silberstein, Thomas F. Wenisch, Yuval Yarom, Raoul Strackx
+		- https://doi.org/10.1109/MM.2019.2910104
 	+ L1 Terminal Fault Vulnerability - https://www.cyberus-technology.de/posts/2018-08-14-l1-terminal-fault.html
 	+ Hyper-V HyperClear Mitigation for L1 Terminal Fault - https://blogs.technet.microsoft.com/virtualization/2018/08/14/hyper-v-hyperclear/
 * Let’s Not Speculate: Discovering and Analyzing Speculative Execution Attacks
@@ -1369,10 +1373,11 @@ See also: [Computer Architecture](comparch.md)
 
 # Store Buffer
 
-* Store-to-Leak Forwarding:Leaking Data on Meltdown-resistant CPUs
+* Fallout: Reading Kernel Writes From User Space
 	+ 2019 arXiv
-	+ Michael Schwarz, Claudio Canella, Lukas Giner, Daniel Gruss
-	+ https://arxiv.org/abs/1905.05725
+	+ Marina Minkin, Daniel Moghimi, Moritz Lipp, Michael Schwarz, Jo Van Bulck, Daniel Genkin, Daniel Gruss, Frank Piessens, Berk Sunar, Yuval Yarom
+	+ https://arxiv.org/abs/1905.12701
+	+ CVE-2018-12126 - Microarchitectural Store Buffer Data Sampling (MSBDS) - Fallout
 
 ---
 
@@ -1385,6 +1390,10 @@ See also: [Computer Architecture](comparch.md)
 
 # Translation Lookaside Buffer (TLB)
 
+* Store-to-Leak Forwarding: Leaking Data on Meltdown-resistant CPUs
+	+ 2019 arXiv
+	+ Michael Schwarz, Claudio Canella, Lukas Giner, Daniel Gruss
+	+ https://arxiv.org/abs/1905.05725
 * TLBleed: When Protecting Your CPU Caches Is Not Enough
 	+ Hardwear.io 2018; B. Gras And K. Razavi
 	+ https://www.youtube.com/watch?v=PQzbtrxaYWQ
