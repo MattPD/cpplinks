@@ -347,6 +347,8 @@ See also: [Computer Architecture](comparch.md)
 	+ https://www.youtube.com/watch?v=GMyDEnpoyoI
 	+ https://arxiv.org/abs/1603.02187
 	+ http://software.imdea.org/~bkoepf/papers/pldi17.pdf
+* SafeSide: A project to understand and mitigate software-observable side-channels
+	+ https://github.com/google/safeside
 * SideTrail: Verifying Time-Balancing of Cryptosystems
 	+ Verified Software: Theories, Tools, and Experiments (VSTTE) 2018
 	+ Konstantinos Athanasiou, Byron Cook, Michael Emmi, Colm MacCarthaigh, Daniel Schwartz-Narbonne, Serdar Tasiran
@@ -479,6 +481,12 @@ See also: [Computer Architecture](comparch.md)
 	+ 2018 Technical Report
 	+ Abraham Gonzalez, Ben Korpan, Ed Younis, Jerry Zhao
 	+ https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F18/projects/reports/project4_report.pdf
+* Speculative Taint Tracking: A Comprehensive Defense Against Speculative Execution Attacks
+	+ International Symposium on Microarchitecture (MICRO) 2019
+	+ Jiyong Yu, Mengjia Yan, Artem Khyzha, Adam Morrison, Josep Torrellas, Christopher Fletcher
+	+ http://iacoma.cs.uiuc.edu/iacoma-papers/micro19_2.pdf
+	+ http://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_micro19_2.pdf
+	+ https://keystone-enclave.org/open-source-enclaves-workshop/slides/OSEW19_ChristopherFletcher_UIUC.pdf
 
 ---
 
@@ -1205,7 +1213,8 @@ See also: [Computer Architecture](comparch.md)
 	+ Wenjian He, Wei Zhang, Sanjeev Das, Yang Liu
 	+ https://github.com/HE-Wenjian/SGXlinger
 * SgxPectre Attacks: Leaking Enclave Secrets via Speculative Execution
-	+ 2018 arXiv; Guoxing Chen, Sanchuan Chen, Yuan Xiao, Yinqian Zhang, Zhiqiang Lin, Ten H. Lai
+	+ 2018 arXiv; 2019 IEEE European Symposium on Security and Privacy (EuroS&P)
+	+ Guoxing Chen, Sanchuan Chen, Yuan Xiao, Yinqian Zhang, Zhiqiang Lin, Ten H. Lai
 	+ https://arxiv.org/abs/1802.09085
 	+ https://github.com/osusecLab/SgxPectre
 * Side Channels on Intel SGX - https://web.cse.ohio-state.edu/~zhang.834/projects/sgx-side-channels.html
@@ -1249,6 +1258,10 @@ See also: [Computer Architecture](comparch.md)
 ---
 
 # Speculation
+
+Transient execution attacks  
+Classification tree - http://transient.fail/  
+Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 
 * Code That Never Ran: Modeling Attacks on Speculative Evaluation
 	+ 2018 preprint; Disselkoen, C., Jagadeesan, R., Jeffrey, A., Riely, J.
