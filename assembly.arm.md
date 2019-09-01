@@ -75,50 +75,67 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 ## Formalization, Specification, Verification
 
-* A Trustworthy Monadic Formalization of the ARMv7 Instruction Set Architecture
-	+ Interactive Theorem Proving (ITP), 2010
-	+ Anthony Fox and Magnus O. Myreen
-	+ https://www.cl.cam.ac.uk/~mom22/itp10-armv7.pdf
-* Alastair Reid's
-	+ Blog Posts - https://alastairreid.github.io/
-	+ Papers: https://alastairreid.github.io/alastairreid.github.io/papers/
-	+ 2019-02-17 - Generating multiple solutions with SMT - https://alastairreid.github.io/tracing-smt3/
-	+ 2019-02-09 - Using SMT to check specifications for errors - https://alastairreid.github.io/tracing-smt2/
-	+ 2019-02-02 - Generating SMT from traces - https://alastairreid.github.io/tracing-smt/
-	+ 2017-12-24 - Bidirectional Assembly Syntax Specifications - https://alastairreid.github.io/bidirectional-assemblers/
-	+ 2017-09-24 - Formal validation of the Arm v8-M specification - https://alastairreid.github.io/validating-specs/
-	+ 2017-08-19 - Are natural language specifications useful? - https://alastairreid.github.io/natural-specs/
-	+ 2017-07-31 - Arm v8.3 Machine Readable Specification Released - https://alastairreid.github.io/arm-v8_3/
-	+ 2017-05-07 - ASL Lexical Syntax - https://alastairreid.github.io/asl-lexical-syntax/
-	+ 2017-04-29 - Dissecting ARM's Machine Readable Specification - https://alastairreid.github.io/dissecting-ARM-MRA/
-	+ 2017-04-20 - ARM Releases Machine Readable Architecture Specification - https://alastairreid.github.io/ARM-v8a-xml-release/
-	+ 2016-08-17 - ARM's Architecture Specification Language - https://alastairreid.github.io/specification_languages/
-	+ 2016-07-30 - Limitations of ISA-Formal - https://alastairreid.github.io/isa-formal-limitations/
-	+ 2016-07-26 - Verifying against the official ARM specification - https://alastairreid.github.io/using-armarm/
-	+ 2016-07-18 - Finding Bugs versus Proving Absence of Bugs - https://alastairreid.github.io/finding-bugs/
-	+ 2016-07-03 - Specification Terminology - https://alastairreid.github.io/spec-terminology/
-* End-to-End Verification of ARM Processors with ISA-Formal
-	+ CAV 2016
-	+ Alastair Reid, Rick Chen, Anastasios Deligiannis, David Gilday, David Hoyes, Will Keen, Ashan Pathirane, Owen Shepherd, Peter Vrabel, Ali Zaidi
-	+ https://alastairreid.github.io/papers/CAV_16/
-	+ https://alastairreid.github.io/papers/cav2016_isa_formal.pdf
-	+ https://alastairreid.github.io/alastairreid.github.io/papers/ISA-Formal-CAV2016.pdf
-* ISA Semantics for ARMv8-A, RISC-V, and CHERI-MIPS
-	+ POPL 2019
-	+ https://alastairreid.github.io/papers/POPL_19/
-* L3: A Specification Language for Instruction Set Architectures - http://www.cl.cam.ac.uk/~acjf3/arm/
-* Trustworthy Specifications of ARM v8-A and v8-M System Level Architecture
-	+ FMCAD 2016
-	+ Alastair Reid
-	+ https://alastairreid.github.io/papers/FMCAD_16/
-	+ https://alastairreid.github.io/papers/fmcad2016-trustworthy.pdf
-	+ https://alastairreid.github.io/alastairreid.github.io/papers/fmcad2016-trustworthy-slides.pdf
-* Who Guards the Guards? Formal Validation of the Arm v8-M Architecture Specification
-	+ SPLASH 2017 OOPSLA
-	+ Alastair Reid
-	+ Paper: https://alastairreid.github.io/papers/oopsla2017-whoguardstheguards.pdf
-	+ Post: https://alastairreid.github.io/validating-specs/
-	+ Slides: https://alastairreid.github.io/papers/oopsla2017-whoguardstheguards-slides.pdf
+- A Trustworthy Monadic Formalization of the ARMv7 Instruction Set Architecture
+	- Interactive Theorem Proving (ITP), 2010
+	- Anthony Fox and Magnus O. Myreen
+	- https://www.cl.cam.ac.uk/~mom22/itp10-armv7.pdf
+- Alastair Reid's
+	- Blog Posts - https://alastairreid.github.io/
+	- Papers: https://alastairreid.github.io/alastairreid.github.io/papers/
+	- 2019-02-17 - Generating multiple solutions with SMT - https://alastairreid.github.io/tracing-smt3/
+	- 2019-02-09 - Using SMT to check specifications for errors - https://alastairreid.github.io/tracing-smt2/
+	- 2019-02-02 - Generating SMT from traces - https://alastairreid.github.io/tracing-smt/
+	- 2017-12-24 - Bidirectional Assembly Syntax Specifications - https://alastairreid.github.io/bidirectional-assemblers/
+	- 2017-09-24 - Formal validation of the Arm v8-M specification - https://alastairreid.github.io/validating-specs/
+	- 2017-08-19 - Are natural language specifications useful? - https://alastairreid.github.io/natural-specs/
+	- 2017-07-31 - Arm v8.3 Machine Readable Specification Released - https://alastairreid.github.io/arm-v8_3/
+	- 2017-05-07 - ASL Lexical Syntax - https://alastairreid.github.io/asl-lexical-syntax/
+	- 2017-04-29 - Dissecting ARM's Machine Readable Specification - https://alastairreid.github.io/dissecting-ARM-MRA/
+	- 2017-04-20 - ARM Releases Machine Readable Architecture Specification - https://alastairreid.github.io/ARM-v8a-xml-release/
+	- 2016-08-17 - ARM's Architecture Specification Language - https://alastairreid.github.io/specification_languages/
+	- 2016-07-30 - Limitations of ISA-Formal - https://alastairreid.github.io/isa-formal-limitations/
+	- 2016-07-26 - Verifying against the official ARM specification - https://alastairreid.github.io/using-armarm/
+	- 2016-07-18 - Finding Bugs versus Proving Absence of Bugs - https://alastairreid.github.io/finding-bugs/
+	- 2016-07-03 - Specification Terminology - https://alastairreid.github.io/spec-terminology/
+- ASL Interpreter
+	- Example implementation of Arm's Architecture Specification Language (ASL).
+	- https://github.com/ARM-software/asl-interpreter
+- End-to-End Verification of ARM Processors with ISA-Formal
+	- CAV 2016
+	- Alastair Reid, Rick Chen, Anastasios Deligiannis, David Gilday, David Hoyes, Will Keen, Ashan Pathirane, Owen Shepherd, Peter Vrabel, Ali Zaidi
+	- https://alastairreid.github.io/papers/CAV_16/
+	- https://alastairreid.github.io/papers/cav2016_isa_formal.pdf
+	- https://alastairreid.github.io/alastairreid.github.io/papers/ISA-Formal-CAV2016.pdf
+- Formal Semantics Extraction from Natural Language Specifications for ARM
+	- FM2019: 23rd International Symposium on Formal Methods
+	- Anh V. Vu and Mizuhito Ogawa
+	- https://anhvvcs.github.io/pubs/corana.pdf
+	- Corana: Dynamic Symbolic Execution Engine for ARM Cortex-M
+		- https://github.com/anhvvcs/corana
+	- Formal Semantics Extraction from Natural Language Specifications for ARM
+		- 2018 Master’s Thesis; Viet Anh Vu
+		- http://www.jaist.ac.jp/~mizuhito/masterthesis/VuVietAnh.pdf
+- ISA Semantics for ARMv8-A, RISC-V, and CHERI-MIPS
+	- POPL 2019
+	- https://alastairreid.github.io/papers/POPL_19/
+- L3: A Specification Language for Instruction Set Architectures - http://www.cl.cam.ac.uk/~acjf3/arm/
+- Low-level program verification under cached address translation
+	- 2019 PhD Dissertation; Hira Taqdees Syeda
+	- "In this thesis, we present a formal model of the memory management unit (MMU) in the interactive proof assistant Isabelle/HOL for the ARMv7-A architecture which includes the TLB, its maintenance operations, and its derived properties. We integrate this specification into the Cambridge ARM model. We derive sufficient conditions for TLB consistency, and we abstract away the functional details of the MMU using data refinement for simpler reasoning about executions in the presence of cached address translation, including complete and partial walks."
+	- https://www.unsworks.unsw.edu.au/permalink/f/a5fmj0/unsworks_60079
+	- http://unsworks.unsw.edu.au/fapi/datastream/unsworks:60079/SOURCE02?view=true
+- Trustworthy Specifications of ARM v8-A and v8-M System Level Architecture
+	- FMCAD 2016
+	- Alastair Reid
+	- https://alastairreid.github.io/papers/FMCAD_16/
+	- https://alastairreid.github.io/papers/fmcad2016-trustworthy.pdf
+	- https://alastairreid.github.io/alastairreid.github.io/papers/fmcad2016-trustworthy-slides.pdf
+- Who Guards the Guards? Formal Validation of the Arm v8-M Architecture Specification
+	- SPLASH 2017 OOPSLA
+	- Alastair Reid
+	- Paper: https://alastairreid.github.io/papers/oopsla2017-whoguardstheguards.pdf
+	- Post: https://alastairreid.github.io/validating-specs/
+	- Slides: https://alastairreid.github.io/papers/oopsla2017-whoguardstheguards-slides.pdf
 
 ## Instruction Set Architecture
 
@@ -139,13 +156,18 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://www.qualcomm.com/media/documents/files/whitepaper-pointer-authentication-on-armv8-3.pdf
 	+ https://www.qualcomm.com/news/onq/2017/01/10/qualcomm-releases-whitepaper-detailing-pointer-authentication-armv83
 
+### A-profile
+
+* BFloat16 extensions for Armv8-A
+	- https://community.arm.com/developer/ip-products/processors/b/ml-ip-blog/posts/bfloat16-processing-for-neural-networks-on-armv8_2d00_a
+
 ### M-profile
 
 * Making Helium
-	+ Why not just add Neon? (1/4) - https://community.arm.com/arm-research/b/articles/posts/making-helium-why-not-just-add-neon
-	+ Sudoku, registers and rabbits (2/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-sudoku-registers-and-rabbits
-	+ Going around in circles (3/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-going-around-in-circles
-	+ Bringing Amdahl's law to heel (4/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-bringing-amdahl-s-law-to-heel
+	- Why not just add Neon? (1/4) - https://community.arm.com/arm-research/b/articles/posts/making-helium-why-not-just-add-neon
+	- Sudoku, registers and rabbits (2/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-sudoku-registers-and-rabbits
+	- Going around in circles (3/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-going-around-in-circles
+	- Bringing Amdahl's law to heel (4/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-bringing-amdahl-s-law-to-heel
 
 ## Performance
 
@@ -251,13 +273,21 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 ## Virtualization
 
-* ARM Virtualization: Performance and Architectural Implications
-	+ ACM SIGOPS Operating Systems Review 52(1) 2018
-	+ Christoffer Dall, Shih-Wei Li, Jin Tack Lim, and Jason Nieh
-	+ https://dl.acm.org/citation.cfm?id=3273987
-* The Design, Implementation, and Evaluation of Software and Architectural Support for ARM Virtualization
-	+ 2018 PhD Thesis; [Christoffer Dall](http://www.cs.columbia.edu/~cdall/)
-	+ https://academiccommons.columbia.edu/catalog/ac:t1g1jwstss
+- ARM Virtualization: Performance and Architectural Implications
+	- ACM SIGOPS Operating Systems Review 52(1) 2018
+	- Christoffer Dall, Shih-Wei Li, Jin Tack Lim, and Jason Nieh
+	- https://dl.acm.org/citation.cfm?id=3273987
+- Hiding in the Shadows: Empowering ARM for Stealthy Virtual Machine Introspection
+	- Annual Computer Security Applications Conference (ACSAC) 2018
+	- Sergej Proskurin, Tamas Lengyel, Marius Momeu, Claudia Eckert, Apostolis Zarras
+	- https://dl.acm.org/citation.cfm?id=3274698
+	- https://dke.maastrichtuniversity.nl/zarras/files/ARM-altp2m.pdf
+	- https://www.sec.in.tum.de/i20/publications/hiding-in-the-shadows-empowering-arm-for-stealthy-virtual-machine-introspection
+	- DRAKVUF on ARM
+		- https://github.com/drakvuf-on-arm
+- The Design, Implementation, and Evaluation of Software and Architectural Support for ARM Virtualization
+	- 2018 PhD Thesis; [Christoffer Dall](http://www.cs.columbia.edu/~cdall/)
+	- https://academiccommons.columbia.edu/catalog/ac:t1g1jwstss
 
 ---
 
