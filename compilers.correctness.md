@@ -106,11 +106,6 @@ Note: see also [compilers](compilers.md)
 
 ## Articles
 
-* A Systematic Impact Study for Fuzzer-Found Compiler Bugs
-	+ 2019 arXiv
-	+ Michaël Marcozzi, Qiyi Tang, Alastair Donaldson, Cristian Cadar
-	+ https://arxiv.org/abs/1902.09334
-	+ https://sites.google.com/view/michaelmarcozzi/compiler-bugs
 * An empirical comparison of compiler testing techniques
 	+ International Conference on Software Engineering (ICSE 2016)
 	+ Junjie Chen, Wenxiang Hu, Dan Hao, Yingfei Xiong, Hongyu Zhang, Lu Zhang, Bing Xie
@@ -134,6 +129,12 @@ Note: see also [compilers](compilers.md)
 	+ N. Hasabnis, R. Qiao, R. Sekar 
 	+ http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15.pdf
 	+ http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15_talk.pdf
+* Compiler Bug Isolation via Effective Witness Test Program Generation
+	+ ESEC/FSE 2019 
+	+ Junjie Chen, Jiaqi Han, Peiyi Sun, Lingming Zhang, Dan Hao, Lu Zhang
+	+ https://dl.acm.org/citation.cfm?id=3338957
+	+ DiWi (Diversified Witnesses)
+		- https://github.com/JunjieChen/DiWi
 * Compiler fuzzing, part 1
 	+ http://www.vegardno.net/2018/06/compiler-fuzzing.html
 * Compiler Fuzzing through Deep Learning
@@ -141,6 +142,15 @@ Note: see also [compilers](compilers.md)
 	+ International Symposium on Software Testing and Analysis (ISSTA) 2018
 	+ http://homepages.inf.ed.ac.uk/hleather/publications/2018_deepfuzzing_issta.pdf
 	+ https://chriscummins.cc/deepsmith
+* Compiler Fuzzing: How Much Does It Matter?
+	+ Proceedings of the ACM on Programming Languages (OOPSLA 2019)
+	+ Michael Marcozzi, Qiyi Tang, Alastair Donaldson, Cristian Cadar
+	+ https://srg.doc.ic.ac.uk/projects/compiler-bugs/
+	+ https://sites.google.com/view/michaelmarcozzi/software-tools/compiler-bugs-impact
+	+ A Systematic Impact Study for Fuzzer-Found Compiler Bugs
+		- 2019 arXiv (pre-print)
+		- https://arxiv.org/abs/1902.09334
+		- https://sites.google.com/view/michaelmarcozzi/compiler-bugs
 * Coverage Prediction for Accelerating Compiler Testing
 	+ IEEE Transactions on Software Engineering (2019)
 	+ Junjie Chen, Guancheng Wang, Dan Hao, Yingfei Xiong, Hongyu Zhang, Lu Zhang, Bing Xie
@@ -188,10 +198,18 @@ Note: see also [compilers](compilers.md)
 	+ http://mattwarren.org/2018/08/28/Fuzzing-the-.NET-JIT-Compiler/
 	+ Fuzzlyn: Fuzzer for the .NET toolchains
 		- https://github.com/jakobbotsch/Fuzzlyn
+* History-Guided Configuration Diversification for Compiler Test-Program Generation
+	+ Automated Software Engineering (ASE) 2019
+	+ Junjie Chen, Guancheng Wang, Dan Hao, Yingfei Xiong, Hongyu Zhang, Lu Zhang
+	+ https://xiongyingfei.github.io/publications.html#ASE19b
 * Improving the Utility of Compiler Fuzzers
 	+ 2014 Ph.D. Dissertation; Yang Chen
 	+ http://www.cs.utah.edu/~chenyang/papers/thesis_draft.pdf
 	+ https://search.proquest.com/openview/4799de27b7f7d50c7d4f1d2335316065/1?pq-origsite=gscholar&cbl=18750&diss=y
+* K-CONFIG: Using Failing Test Cases to Generate Test Cases in GCC Compilers
+	+ Automated Software Engineering (ASE 2019) Late Breaking Research-Track
+	+ Md Rafiqul Islam Rabin, Mohammad Amin Alipour
+	+ https://arxiv.org/abs/1908.10481
 * Learning to Accelerate Compiler Testing
 	+ International Conference on Software Engineering (ICSE), Doctoral Symposium, 2018
 	+ [Junjie Chen](https://sites.google.com/site/junjiechen08/)
@@ -273,6 +291,7 @@ Note: see also [compilers](compilers.md)
 	+ https://github.com/zjturner/creduce-windows
 	+ Design and Evolution of C-Reduce
 		- Part 1: https://blog.regehr.org/archives/1678
+		- Part 2: https://blog.regehr.org/archives/1679
 * Fuzzing LLVM libraries and tools - https://llvm.org/docs/FuzzingLLVM.html
 	+ Adventures in Fuzzing Instruction Selection
 		- 2017 EuroLLVM Developers’ Meeting; Justin Bogner
