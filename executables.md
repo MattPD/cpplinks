@@ -212,6 +212,11 @@ Contents:
 * Introduction to the DWARF Debugging Format - http://www.dwarfstd.org/doc/Debugging%20using%20DWARF.pdf
 * Programmatic access to the call stack in C++ - https://eli.thegreenplace.net/2015/programmatic-access-to-the-call-stack-in-c/
 * Querying DWARF For Fun And Profit - https://developers.redhat.com/blog/2015/01/22/querying-dwarf-for-fun-and-profit/
+* Reliable and Fast DWARF-based Stack Unwinding
+	+ OOPSLA 2019
+	+ Théophile Bastian, Stephen Kell, Francesco Zappa Nardelli
+	+ https://www.di.ens.fr/~zappa/projects/frdwarf/
+	+ https://2019.splashcon.org/details/splash-2019-oopsla/30/Reliable-and-Fast-DWARF-based-Stack-Unwinding
 * The contents of DWARF sections - https://eli.thegreenplace.net/2011/12/26/the-contents-of-dwarf-sections
 * Using COMDAT Sections to Reduce the Size of DWARF Debug Information - https://gcc.gnu.org/wiki/DwarfSeparateTypeInfo
 * Where are your symbols, debuginfo and sources? - https://gnu.wildebeest.org/blog/mjw/2016/02/02/where-are-your-symbols-debuginfo-and-sources/
@@ -542,6 +547,12 @@ Contents:
 
 ## Talks
 
+* 2019 - Executable Code Golf: Making Tiny Binaries for Constrained Systems
+	+ linux.conf.au 2019; Nathan Egge
+	+ https://www.youtube.com/watch?v=J5WX-wN_RKY
+	+ https://2019.linux.conf.au/schedule/presentation/160/
+	+ XLINK compressing linker
+		- https://github.com/negge/xlink
 * 2018 - The Bits Between the Bits: How We Get to main()
 	+ CppCon 2018; Matt Godbolt
 	+ https://www.youtube.com/watch?v=dOfucXtyEsU
@@ -824,12 +835,6 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 
 ## Talks
 
-* 2019 - Executable Code Golf: Making Tiny Binaries for Constrained Systems
-	+ linux.conf.au 2019; Nathan Egge
-	+ https://www.youtube.com/watch?v=J5WX-wN_RKY
-	+ https://2019.linux.conf.au/schedule/presentation/160/
-	+ XLINK compressing linker
-		- https://github.com/negge/xlink
 * 2018 - Reflective PE Unloading
 	+ BSides Cleveland 2018; Spencer McIntyre
 	+ https://www.youtube.com/watch?v=GbCVVYMNUzA
