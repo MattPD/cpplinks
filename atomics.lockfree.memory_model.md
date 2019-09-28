@@ -93,6 +93,10 @@
 	- http://www.theses.fr/en/2017PSLEE050
 	- https://tel.archives-ouvertes.fr/tel-01823521/
 	- https://www.di.ens.fr/~zappa/students/morisset-phd.pdf
+- Correct Compilation of Relaxed Memory Concurrency
+	- 2019 PhD Dissertation; Soham Chakraborty
+	- http://plv.mpi-sws.org/soham/thesis/
+	- https://kluedo.ub.uni-kl.de/frontdoor/index/index/docId/5697
 - Designing Memory Consistency Models For Shared-Memory Multiprocessors
 	- 1993 PhD dissertation; Sarita V. Adve
 	- ftp://ftp.cs.wisc.edu/markhill/Theses/sarita_adve.pdf
@@ -316,6 +320,7 @@ Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/
 	- https://github.com/concurrencykit/ck
 - CppMem: Interactive C/C++ memory model
 	- http://svr-pes20-cppmem.cl.cam.ac.uk/cppmem/
+	- https://www.modernescpp.com/index.php/cppmem-an-overview
 - diy
 	- The sofware suite diy provides tools to design and test weak memory models. It handles ARMv8 (AArch64), ARMv7 (ARM), Power (PPC) and X86 assembly models, plus a generic (LISA) assembly language. 
 	- http://diy.inria.fr/
@@ -371,6 +376,12 @@ Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/
 	- Slides: http://ccug.chicago.il.us/Spertus7jul2015.pdf
 
 ## Videos
+
+### 2019
+
+- The One-Decade Task: Putting std::atomic in CUDA
+	- CppCon 2019; Olivier Giroux
+	- https://www.youtube.com/watch?v=VogqOscJYvk
 
 ### 2018
 
