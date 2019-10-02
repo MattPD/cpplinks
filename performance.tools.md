@@ -16,26 +16,29 @@
 
 # Benchmarking
 
-* benchmark (Google)
-	+ https://github.com/google/benchmark
-	+ https://opensource.googleblog.com/2014/01/introducing-benchmark.html
-* Celero
-	+ https://github.com/DigitalInBlue/Celero
-* hayai - the C++ benchmarking framework
-	+ https://github.com/nickbruun/hayai
-* moodycamel::microbench
-	+ https://github.com/cameron314/microbench
-* geiger: A micro benchmark library in C++ that supports hardware performance counters
-	+ https://github.com/david-grs/geiger
-* Nonius
-	+ https://nonius.io/
+## Software
 
-* Examples:
-	+ http://www.bfilipek.com/2016/01/micro-benchmarking-libraries-for-c.html
-	+ http://www.bfilipek.com/2016/02/revisiting-old-benchmark-vector-of.html
-	+ http://www.bfilipek.com/2016/05/google-benchmark-library.html
+- benchmark (Google)
+	- https://github.com/google/benchmark
+	- https://opensource.googleblog.com/2014/01/introducing-benchmark.html
+- Celero
+	- https://github.com/DigitalInBlue/Celero
+- hayai - the C++ benchmarking framework
+	- https://github.com/nickbruun/hayai
+- moodycamel::microbench
+	- https://github.com/cameron314/microbench
+- geiger: A micro benchmark library in C++ that supports hardware performance counters
+	- https://github.com/david-grs/geiger
+- Nonius
+	- https://nonius.io/
 
-* Systems Benchmarking Crimes - Gernot Heiser - https://www.cse.unsw.edu.au/~gernot/benchmarking-crimes.html
+## Readings
+
+- Examples:
+	- http://www.bfilipek.com/2016/01/micro-benchmarking-libraries-for-c.html
+	- http://www.bfilipek.com/2016/02/revisiting-old-benchmark-vector-of.html
+	- http://www.bfilipek.com/2016/05/google-benchmark-library.html
+- Systems Benchmarking Crimes - Gernot Heiser - https://www.cse.unsw.edu.au/~gernot/benchmarking-crimes.html
 
 # Memory
 
@@ -55,6 +58,9 @@
 	+ http://www.cs.virginia.edu/stream/
 	+ STREAM benchmark - https://github.com/jeffhammond/STREAM
 	+ NUMA-STREAM - https://github.com/larsbergstrom/NUMA-STREAM
+	+ BabelStream: STREAM, for lots of devices written in many programming models
+		- https://github.com/UoB-HPC/BabelStream
+		- http://uob-hpc.github.io/BabelStream/
 * tinymembench: simple benchmark for memory throughput and latency
 	+ https://github.com/ssvb/tinymembench
 
@@ -64,6 +70,10 @@
 	+ https://github.com/KDE/heaptrack
 	+ http://milianw.de/blog/heaptrack-a-heap-memory-profiler-for-linux
 	+ https://www.kdab.com/heaptrack-v1-0-0-release/
+* How to Write a Heap Memory Profiler
+	- CppCon 2019; Milian Wolff
+	- https://www.youtube.com/watch?v=YB0QoWI-g8E
+	- Slides & code: https://github.com/milianw/how-to-write-a-memory-profiler
 * MALT & NUMAPROF: Memory Profiling for HPC Applications
 	+ NUMAPROF: a NUMA memory profiler based on Pintool to track remote memory accesses
 		- https://memtt.github.io/numaprof
@@ -86,6 +96,8 @@
 		- International Symposium on Memory Management (ISMM) 2018
 		- Stuart Byma, Jim Larus
 		- https://dl.acm.org/citation.cfm?id=3210564
+* memory-profiler: A memory profiler for Linux
+	- https://github.com/nokia/memory-profiler
 * memtrail: A LD_PRELOAD based memory profiler and leak detector for Linux
 	+ ​https://github.com/jrfonseca/memtrail
 * memusage - profile memory usage of a program
@@ -97,15 +109,32 @@
 	+ a type preserving heap profiler for C++ - collects memory allocation information with type information
 	+ https://typegrind.github.io/
 	+ https://github.com/typegrind/typegrind
+* Valgrind
+	- http://valgrind.org/
+	- DHAT: a dynamic heap analysis tool - http://valgrind.org/docs/manual/dh-manual.html
+	- Massif: a heap profiler - ​http://valgrind.org/docs/manual/ms-manual.html
 
 # Microarchitecture
 
 * Tools for microarchitectural benchmarking
 	- https://dendibakh.github.io/blog/2018/04/03/Tools-for-microarchitectural-benchmarking
+* asmbench: A Benchmark Toolkit for Assembly Instructions Using the LLVM JIT
+	- https://github.com/RRZE-HPC/asmbench
+		- OoO Instruction Benchmarking Framework on the Back of Dragons
+		- 2018 SC18 ACM SRC Poster
+		- J. Hammer, G. Hager, G. Wellein
+		- https://sc18.supercomputing.org/proceedings/src_poster/src_poster_pages/spost115.html
 * Intel Architecture Code Analyzer (IACA)
 	+ https://software.intel.com/en-us/articles/intel-architecture-code-analyzer
 * ibench: Measure instruction latency and throughput
 	+ https://github.com/hofm/ibench
+* Ithemal: Instruction THroughput Estimator using MAchine Learning
+	+ https://github.com/psg-mit/Ithemal
+	+ Ithemal: Accurate, Portable and Fast Basic Block Throughput Estimation using Deep Neural Networks
+		- ICML 2019
+		- Charith Mendis, Alex Renda, Saman Amarasinghe, Michael Carbin 
+		- https://arxiv.org/abs/1808.07412
+		- http://proceedings.mlr.press/v97/mendis19a.html
 * llvm-exegesis – LLVM Machine Instruction Benchmark
 	+ https://llvm.org/docs/CommandGuide/llvm-exegesis.html
 	+ https://github.com/llvm-mirror/llvm/tree/master/tools/llvm-exegesis
@@ -132,12 +161,23 @@
 		- ASPLOS 2019
 		- Andreas Abel, Jan Reineke
 		- https://arxiv.org/abs/1810.04610
+* Open Power/Performance Analysis Tool (OPPAT)
+	- a cross-OS, cross-architecture Power and Performance Analysis Tool
+	- cross-OS: supports Windows ETW trace files and Linux/Android perf/trace-cmd trace files
+	- cross-architecture: supports Intel and ARM chips hardware events (using perf and/or PCM)
+	- https://patinnc.github.io/
+	- https://github.com/patinnc/oppat
 * OSACA: Open Source Architecture Code Analyzer
 	+ https://github.com/RRZE-HPC/osaca
 	+ https://hpc.fau.de/research/tools/
 	+ Automated Instruction Stream Throughput Prediction for Intel and AMD Microarchitectures
 		- Performance Modeling, Benchmarking and Simulation of High Performance Computer Systems (PMBS) 2018
 		- https://arxiv.org/abs/1809.00912
+	+ Automatic Throughput and Critical Path Analysis of x86 and ARM Assembly Kernels
+		- arXiv 2019
+		- Jan Laukemann, Julian Hammer, Georg Hager, Gerhard Wellein
+		- https://arxiv.org/abs/1910.00214
+		- https://github.com/RRZE-HPC/OSACA-CP-2019
 * uarch-bench: A benchmark for low-level CPU micro-architectural features
 	+ https://github.com/travisdowns/uarch-bench
 
@@ -195,6 +235,9 @@
 	+ https://github.com/RRZE-HPC/likwid/wiki/PatternsHaswellEP
 * microprofile: an embeddable profiler
 	+ https://github.com/jonasmr/microprofile
+* Optick: C++ Profiler For Games
+	+ https://github.com/bombomby/optick
+	+ https://optick.dev/
 * perf
 	+ https://perf.wiki.kernel.org/
 	+ http://www.brendangregg.com/perf.html
