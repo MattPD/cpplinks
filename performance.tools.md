@@ -23,14 +23,14 @@
 	- https://opensource.googleblog.com/2014/01/introducing-benchmark.html
 - Celero
 	- https://github.com/DigitalInBlue/Celero
-- hayai - the C++ benchmarking framework
+- hayai: the C++ benchmarking framework
 	- https://github.com/nickbruun/hayai
 - moodycamel::microbench
 	- https://github.com/cameron314/microbench
 - geiger: A micro benchmark library in C++ that supports hardware performance counters
 	- https://github.com/david-grs/geiger
-- Nonius
-	- https://nonius.io/
+- Nonius: A C++ micro-benchmarking framework
+	- https://github.com/libnonius/nonius
 
 ## Readings
 
@@ -120,7 +120,7 @@
 	- https://dendibakh.github.io/blog/2018/04/03/Tools-for-microarchitectural-benchmarking
 * asmbench: A Benchmark Toolkit for Assembly Instructions Using the LLVM JIT
 	- https://github.com/RRZE-HPC/asmbench
-		- OoO Instruction Benchmarking Framework on the Back of Dragons
+	- OoO Instruction Benchmarking Framework on the Back of Dragons
 		- 2018 SC18 ACM SRC Poster
 		- J. Hammer, G. Hager, G. Wellein
 		- https://sc18.supercomputing.org/proceedings/src_poster/src_poster_pages/spost115.html
