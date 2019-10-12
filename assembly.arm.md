@@ -66,6 +66,10 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ Christopher Pulte, Shaked Flur, Will Deacon, Jon French, Susmit Sarkar, Peter Sewell
 	+ http://www.cl.cam.ac.uk/%7Epes20/armv8-mca/
 	+ http://www.cl.cam.ac.uk/%7Epes20/armv8-mca/armv8-mca-draft.pdf
+* The ARMv8 Application Level Memory Model
+	+ https://developer.arm.com/architectures/cpu-architecture/a-profile/memory-model-tool
+	+ Herd - http://diy.inria.fr/www/?record=aarch64
+	+ [ARMv8 ARM](https://developer.arm.com/docs/ddi0487/latest/arm-architecture-reference-manual-armv8-for-armv8-a-architecture-profile), section B2.3
 * The Semantics of Power and ARM Multiprocessor Machine Code
 	+ DAMP 09
 	+ J. Alglave, A. Fox, S. Isthiaq, M. Myreen, S. Sarkar, P. Sewell, F. Zappa Nardelli
@@ -118,12 +122,15 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 - ISA Semantics for ARMv8-A, RISC-V, and CHERI-MIPS
 	- POPL 2019
 	- https://alastairreid.github.io/papers/POPL_19/
-- L3: A Specification Language for Instruction Set Architectures - http://www.cl.cam.ac.uk/~acjf3/arm/
+- L3: A Specification Language for Instruction Set Architectures
+	- http://www.cl.cam.ac.uk/~acjf3/arm/
 - Low-level program verification under cached address translation
 	- 2019 PhD Dissertation; Hira Taqdees Syeda
 	- "In this thesis, we present a formal model of the memory management unit (MMU) in the interactive proof assistant Isabelle/HOL for the ARMv7-A architecture which includes the TLB, its maintenance operations, and its derived properties. We integrate this specification into the Cambridge ARM model. We derive sufficient conditions for TLB consistency, and we abstract away the functional details of the MMU using data refinement for simpler reasoning about executions in the presence of cached address translation, including complete and partial walks."
 	- https://www.unsworks.unsw.edu.au/permalink/f/a5fmj0/unsworks_60079
 	- http://unsworks.unsw.edu.au/fapi/datastream/unsworks:60079/SOURCE02?view=true
+- sail-arm: Sail version of the ARMv8.5-A ISA definition
+	- https://github.com/rems-project/sail-arm
 - Trustworthy Specifications of ARM v8-A and v8-M System Level Architecture
 	- FMCAD 2016
 	- Alastair Reid
@@ -143,6 +150,10 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ http://www.peter-cockerell.net/aalp/
 * ARM immediate value encoding - Alisdair McDiarmid
 	+ https://alisdair.mcdiarmid.org/arm-immediate-value-encoding/
+* ARMv8 A64 Quick Reference
+	+ Instruction Set Quick Reference Sheets: https://github.com/flynd/asmsheets
+		- LaTeX: https://github.com/flynd/asmsheets/blob/master/arm64.tex
+		- PDF: https://courses.cs.washington.edu/courses/cse469/18wi/Materials/arm64.pdf
 * ARMv8 Shellcodes from 'A' to 'Z'
 	+ ISPEC 2016
 	+ Hadrien Barral, Houda Ferradi, Rémi Géraud, Georges-Axel Jaloyan, David Naccache
@@ -150,6 +161,8 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * Exploring the Arm dot product instructions - https://community.arm.com/tools/b/blog/posts/exploring-the-arm-dot-product-instructions
 * Introduction to Computer Organization: ARM Assembly Language Using the Raspberry Pi
 	+ http://bob.cs.sonoma.edu/IntroCompOrg-RPi/intro-co-rpi.html
+* Learn the Architecture
+	+ https://developer.arm.com/architectures/learn-the-architecture
 * Optional CRC Instructions in ARMv8 - https://wiki.linaro.org/LEG/Engineering/OPTIM/CRC
 * Pointer Authentication on ARMv8.3
 	+ https://www.qualcomm.com/documents/whitepaper-pointer-authentication-armv83
@@ -315,9 +328,8 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * ARM Info Center Reference Material - https://wiki.linaro.org/Resources/HowTo/DeveloperReferences
 * Arm A64 Instruction Set Architecture: Armv8-A
 	+ https://developer.arm.com/products/architecture/a-profile/docs/ddi0596/latest/a64-base-instructions-alphabetic-order
-* ARM v8-A Architecture Specification
-	+ https://github.com/meriac/archex
-	+ https://meriac.github.io/archex/
+* ARM v8-A Architecture Specification: A64 ISA XML for ARMv8.5
+	+ http://shell-storm.org/armv8-a/
 * asm.thi.ng - baremetal ARM coding resources - http://asm.thi.ng/
 * Instruction Sets - https://developer.arm.com/products/architecture/instruction-sets
 * Linux Kernel Documentation
