@@ -15,7 +15,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 - [Formalization, Specification, Verification](#formalization-specification-verification)
 - [Open-Source Hardware Projects](#open-source-hardware-projects)
 - [References](#references)
-- [Software](#software)
+- [Software](#software): [Emulation & Simulation](#emulation--simulation)
 - [Talks](#talks)
 - [Tutorials](#tutorials)
 
@@ -69,9 +69,11 @@ https://riscv.org/publications/
 ## Instruction Set Architecture
 
 - RISC-V: #AlphanumericShellcoding
-	- USENIX Workshop on Offensive Technologies (WOOT) 2019
+	- USENIX Workshop on Offensive Technologies (WOOT) 2019; DEF CON 27 (2019)
 	- Hadrien Barral, Rémi Géraud-Stewart, Georges-Axel Jaloyan, David Naccache
 	- https://www.usenix.org/conference/woot19/presentation/barral
+	- https://xn--fda.fr/riscv-alphanumeric-shellcoding/defcon27_riscv-alphanumeric-shellcoding.pdf
+	- https://github.com/RischardV/riscv-alphanumeric-shellcoding
 
 ## Simulation
 
@@ -112,6 +114,7 @@ https://riscv.org/risc-v-books/
 	- https://www.cl.cam.ac.uk/~pes20/sail/
 	- http://www.cl.cam.ac.uk/users/pes20/sail/sail-popl2019.pdf
 	- talk; https://dl.acm.org/citation.cfm?doid=3302515.3290384&preflayout=flat#formats
+- L3 Specification of the RISC-V ISA - https://github.com/SRI-CSL/l3riscv
 - RISC-V Formal Verification Framework - https://github.com/cliffordwolf/riscv-formal
 - RISC-V ISA Formal Spec in BSV (Bluespec SystemVerilog) - https://github.com/rsnikhil/RISCV_ISA_Formal_Spec_in_BSV
 - RISC-V Litmus Tests
@@ -121,9 +124,13 @@ https://riscv.org/risc-v-books/
 	- https://github.com/rems-project/sail-riscv
 - RISCV-DV: a SV/UVM based open-source instruction generator for RISC-V processor verification
 	- https://github.com/google/riscv-dv
+- riscv-fs: F# RISC-V Instruction Set formal specification
+	- https://github.com/mrLSD/riscv-fs
 - RISCV-ISA-Spec: Formal specification of RISC-V Instruction Set - https://github.com/rsnikhil/RISCV-ISA-Spec
 - riscv-coq: RISC-V Specification in Coq - https://github.com/mit-plv/riscv-coq
 - riscv-semantics: formal specification of the RISC-V ISA written in Haskell - https://github.com/mit-plv/riscv-semantics
+- RiscvSpecFormal: Formal Specification of RISC-V ISA in Kami
+	- https://github.com/sifive/RiscvSpecFormal
 - RMEM - relaxed-memory concurrency
 	- a tool for exploring the relaxed-memory concurrency for ARM, POWER, RISC-V, and x86
 	- help page: http://www.cl.cam.ac.uk/~sf502/regressions/rmem/help.html
@@ -189,10 +196,13 @@ Taxonomy of Open Source Processors - http://parallel.princeton.edu/openpiton/ope
 	- https://github.com/ridecore/ridecore
 - RI5CY: RISC-V Core - PULP RI5CY core modified for Verilator modeling and as a GDB server (SystemVerilog)
 	- https://github.com/embecosm/ri5cy
+	- A dive into RI5CY core internals - https://www.embecosm.com/2019/08/13/a-dive-into-ri5cy-core-internals/
 - RISC-V VHDL: System-on-Chip (VHDL)
 	- VHDL implementation of the RISC-V System-on-Chip based on bare "Rocket Chip"
 	- http://sergeykhbr.github.io/riscv_vhdl/
 	- https://github.com/sergeykhbr/riscv_vhdl
+- riscv-simple-sv: A simple RISC V core for teaching (SystemVerilog)
+	- https://github.com/tilk/riscv-simple-sv
 - Riscy Processors - Open-Sourced RISC-V Processors (Bluespec System Verilog)
 	- https://github.com/csail-csg/riscy
 - Rocket Chip Generator (Chisel)
@@ -241,6 +251,9 @@ https://riscv.org/specifications/
 - RISC-V Instruction Set Manual - https://github.com/riscv/riscv-isa-manual
 - RISC-V Instruction Set Listing - https://github.com/michaeljclark/riscv-meta/blob/master/doc/pdf/riscv-instructions.pdf
 - RISC-V Instruction Types - https://github.com/michaeljclark/riscv-meta/blob/master/doc/pdf/riscv-types.pdf
+- RISC-V Instructions
+	- riscv-instr-encoding spreadsheet: a compact overview of the available instructions, their grouping, the encoding, etc.
+	- https://www.akkadia.org/drepper/risc-v-instructions.html
 - RISC-V Toolchain Conventions - https://github.com/lowRISC/riscv-toolchain-conventions
 - The Embedded RISC-V Project
 	- A complementary RISC-V specification intended for bare metal embedded applications 
@@ -258,8 +271,26 @@ https://riscv.org/specifications/
 
 https://riscv.org/software-tools/
 
+- Compiler Explorer with RISC-V support - https://cx.rv8.io/
+- Debian port - https://wiki.debian.org/RISC-V
+- hpm_counters: A simple utility for doing RISC-V Hardware Performance Monitor (HPM) perf monitoring - https://github.com/ccelio/riscv-hpmcounters 
+- RISC-V Disassembler: Single file RISC-V Disassembler with support for RV32/RV64/RV128 IMAFDC
+	- https://github.com/michaeljclark/riscv-disassembler
+- RISC-V Meta – a suite of tools that operate on RISC-V ISA - https://github.com/michaeljclark/riscv-meta/
+- RISC-V support for LLVM projects - http://www.lowrisc.org/llvm/status/ - https://github.com/lowRISC/riscv-llvm
+- RISC-V Torture Test Generator - https://github.com/ucb-bar/riscv-torture 
+- Xv6 for RISC-V
+	- a re-implementation of Dennis Ritchie's and Ken Thompson's Unix Version 6 (v6)
+	- loosely follows the structure and style of v6, but is implemented for a modern RISC-V multiprocessor using ANSI C
+	- https://github.com/mit-pdos/xv6-riscv
+	- xv6-riscv-book: Text describing xv6 on RISC-V
+		- https://github.com/mit-pdos/xv6-riscv-book
+		- 6.S081: Operating System Engineering - https://pdos.csail.mit.edu/6.828/
+
+## Emulation & Simulation
+
 - BRISC-V: an open-source, RISC-V based, full multicore, design space exploration platform
-	- http://ascslab.org/research/briscv/
+	- https://ascslab.org/research/briscv/index.html
 	- BRISC-V Explorer (RTL) - http://ascslab.org/research/briscv/explorer/explorer.html
 	- BRISC-V Simulator (Assembly) - http://ascslab.org/research/briscv/simulator/simulator.html
 	- The BRISC-V Platform: A Practical Teaching Approach for Computer Architecture
@@ -267,29 +298,25 @@ https://riscv.org/software-tools/
 		- Rashmi Agarwal, Sahan Bandara, Alan Ehret, Mihailo Isakov, Miguel Mark, Michel A. Kinsy
 		- Paper: https://ascslab.org/research/briscv/wcae/a1-agrawal.pdf
 		- Slides: https://drive.google.com/file/d/1j969LvF8yN8OBsq58schBLjSh6Lfjbba/view
-- Compiler Explorer with RISC-V support - https://cx.rv8.io/
-- Debian port - https://wiki.debian.org/RISC-V
-- hpm_counters: A simple utility for doing RISC-V Hardware Performance Monitor (HPM) perf monitoring - https://github.com/ccelio/riscv-hpmcounters 
-- L3 Specification of the RISC-V ISA - https://github.com/SRI-CSL/l3riscv
+- MARSS-RISCV: Micro-Architectural System Simulator for RISC-V
+	- https://github.com/bucaps/marss-riscv
 - RARS: RISC-V Assembler and Runtime Simulator
 	- https://github.com/TheThirdOne/rars
 - Ripes: A graphical 5-stage RISC-V pipeline simulator & assembly editor
 	- https://github.com/mortbopet/Ripes
-- RISC-V Disassembler: Single file RISC-V Disassembler with support for RV32/RV64/RV128 IMAFDC
-	- https://github.com/michaeljclark/riscv-disassembler
-- RISC-V Meta – a suite of tools that operate on RISC-V ISA - https://github.com/michaeljclark/riscv-meta/
-- RISC-V support for LLVM projects - http://www.lowrisc.org/llvm/status/ - https://github.com/lowRISC/riscv-llvm
-- RISC-V Torture Test Generator - https://github.com/ucb-bar/riscv-torture 
+- RISCVEmu Toy RISC-V emulator - https://github.com/jdryg/RISCVEmu
 - rv32-sail - high-level emulator for RV32IM
 	- https://github.com/thoughtpolice/rv32-sail
 	- https://riscv.ls0f.pw/
-- TinyEMU
-	- TinyEMU is a system emulator for the RISC-V architecture. Its purpose is to be small and simple while being complete.
-	- https://bellard.org/tinyemu/
-- RISCVEmu Toy RISC-V emulator - https://github.com/jdryg/RISCVEmu
 - rv8: RISC-V simulator for x86-64 - https://rv8.io/
 	- https://github.com/rv8-io/rv8
 - Spike, a RISC-V ISA Simulator - https://github.com/riscv/riscv-isa-sim
+- TinyEMU
+	- TinyEMU is a system emulator for the RISC-V architecture. Its purpose is to be small and simple while being complete.
+	- https://bellard.org/tinyemu/
+- venus: RISC-V instruction set simulator built for education
+	- https://venus.cs61c.org/
+	- https://github.com/ThaumicMekanism/venus
 - WebRISC-V: a Web-Based Education-Oriented RISC-V Pipeline Simulation Environment
 	- http://www.dii.unisi.it/~giorgi/WebRISC-V
 	- source code: http://www.dii.unisi.it/~giorgi/WebRISC-V/download
@@ -297,9 +324,6 @@ https://riscv.org/software-tools/
 	- Roberto Giorgi and Gianfranco Mariotti
 	- Paper: http://www.dii.unisi.it/~giorgi/papers/Giorgi19-wcae.pdf
 	- Slides: http://www.dii.unisi.it/~giorgi/giorgi19-wcae_slides.pdf
-- venus: RISC-V instruction set simulator built for education
-	- https://venus.cs61c.org/
-	- https://github.com/ThaumicMekanism/venus
 
 ---
 
@@ -344,6 +368,11 @@ https://riscv.org/software-tools/
 - RISC-V 101 Webinar - https://info.sifive.com/risc-v-webinar
 - RISC-V ASM Tutorial Collection - Western Digital
 	- https://www.youtube.com/playlist?list=PL6noQ0vZDAdh_aGvqKvxd0brXImHXMuLY
+- RISC-V from scratch
+	- 1: Introduction, toolchain setup, and hello world! - https://twilco.github.io/riscv-from-scratch/2019/03/10/riscv-from-scratch-1.html
+	- 2: Hardware layouts, linker scripts, and C runtimes - https://twilco.github.io/riscv-from-scratch/2019/04/27/riscv-from-scratch-2.html
+	- 3: Writing a UART driver in assembly (1 / 3) - https://twilco.github.io/riscv-from-scratch/2019/07/08/riscv-from-scratch-3.html
+	- 4: Creating a function prologue for our UART driver (2 / 3) - https://twilco.github.io/riscv-from-scratch/2019/07/28/riscv-from-scratch-4.html
 - RISC-V Presentation at ESC Boston 2016 - https://riscv.org/2016/04/risc-v-presentation-esc-boston/
 - RISC-V QEMU
 	- Part 1: Privileged ISA v1.10, HiFive1 and VirtIO - https://www.sifive.com/blog/2017/12/20/risc-v-qemu-part-1-privileged-isa-hifive1-virtio/
