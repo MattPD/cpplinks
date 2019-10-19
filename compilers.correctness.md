@@ -531,6 +531,9 @@ Validation: Including translation validation, equivalence checking.
 	- POPL 2019
 	- Yuting Wang, Pierre Wilke, Zhong Shao
 	- https://popl19.sigplan.org/event/popl-2019-research-papers-an-abstract-stack-based-approach-to-verified-compositional-compilation-to-machine-code
+- Blackbox Equivalence Checking of Program Optimizations
+	- 2019 Ph.D. Dissertation; Berkeley Roshan Churchill
+	- https://theory.stanford.edu/~aiken/publications/theses/churchill.pdf
 - CakeML: A Verified Implementation of ML
 	- https://cakeml.org/
 	- https://github.com/CakeML/cakeml
@@ -551,9 +554,6 @@ Validation: Including translation validation, equivalence checking.
 		- Computer-Aided Verification (CAV) 2019
 		- Heiko Becker, Eva Darulova, Magnus O. Myreen, Zachary Tatlock
 		- https://cakeml.org/cav19.pdf
-- Blackbox Equivalence Checking of Program Optimizations
-	- 2019 Ph.D. Dissertation; Berkeley Roshan Churchill
-	- https://theory.stanford.edu/~aiken/publications/theses/churchill.pdf
 - CompCert: formally-verified C compiler
 	- http://compcert.inria.fr/
 	- https://github.com/AbsInt/CompCert 
@@ -582,6 +582,12 @@ Validation: Including translation validation, equivalence checking.
 		- POPL 2016
 		- Jeehoon Kang, Yoonseung Kim, Chung-Kil Hur, Derek Dreyer, Viktor Vafeiadis
 		- https://sf.snu.ac.kr/sepcompcert/
+	- Reconciling Low-Level Features of C with Compiler Optimizations
+		- 2019 Ph.D. Dissertation; Jeehoon Kang
+		- https://sf.snu.ac.kr/jeehoon.kang/thesis/
+		- Chapter I, Section 2, Background: A Brief Tour of CompCert
+		- Chapter III, Separate Compilation and Linking
+		- Chapter IV, Cast between Integers and Pointers
 	- Verified Peephole Optimizations for CompCert
 		- PLDI 2016
 		- Eric Mullen, Daryl Zuniga, Zachary Tatlock, Dan Grossman
