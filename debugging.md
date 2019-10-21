@@ -23,7 +23,7 @@ See also:
 	+ [RR](#rr)
 	+ [OS-specific](#os-specific): [Linux](#linux), [macOS](#macos), [Windows](#windows) - [WinDbg](#windbg)
 	+ [Stack Trace & Unwinding](#stack-trace--unwinding)
-* [Talks](#talks-2): [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
+* [Talks](#talks-2): [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
 
 ---
 
@@ -40,7 +40,12 @@ See also:
 
 * GLIBC (GNU C Library)
 	+ General GLIBC Debugging Techniques - http://sourceware.org/glibc/wiki/Debugging/Development_Debugging
-	+ GDB pretty-printers for GLIBC - http://sourceware.org/glibc/wiki/Debugging/Pretty_Printers
+	+ GDB pretty-printers for GLIBC
+		- http://sourceware.org/glibc/wiki/Debugging/Pretty_Printers
+	+ GDB pretty-printers for libc++
+		- https://github.com/llvm/llvm-project/blob/master/libcxx/utils/gdb/libcxx/printers.py
+		- https://chromium.googlesource.com/chromium/src/+/master/third_party/libcxx-pretty-printers/printers.py
+		- https://github.com/koutheir/libcxx-pretty-printers
 	+ Debugging the Loader - https://sourceware.org/glibc/wiki/Debugging/Loader_Debugging
 	+ Backtraces - http://www.gnu.org/software/libc/manual/html_node/Backtraces.html
 	+ Allocation Debugging - http://www.gnu.org/software/libc/manual/html_node/Allocation-Debugging.html
@@ -118,6 +123,8 @@ _Books, Books Reviews_
 	+ Jingxuan He, Pesho Ivanov, Petar Tsankov, Veselin Raychev, Martin Vechev
 	+ https://dl.acm.org/citation.cfm?id=3243866
 	+ https://www.youtube.com/watch?v=x1x_KtS-5Hs
+	+ https://github.com/eth-sri/debin
+	+ https://files.sri.inf.ethz.ch/website/papers/ccs18-debin.pdf
 * Debuggers for Programming Languages
 	+ 2002 Book Chapter in "The Compiler Design Handbook: Optimizations and Machine Code Generation"
 	+ Sanjeev Kumar Aggarwal, M. Sarath Kumar
@@ -387,6 +394,9 @@ See also: [RR](#rr)
 		- r2con2018 - Hypervisor Level Debugger with r2 - Mathieu Tarral
 			- https://www.youtube.com/watch?v=JOJMgWa7E6A
 			- https://github.com/radareorg/r2con2018/tree/master/talks/10-hypervisor-level-debugger
+* ret-sync: Reverse-Engineering Tools SYNChronization
+	+ A set of plugins to synchronize a debugging session (WinDbg/GDB/LLDB/OllyDbg/OllyDbg2/x64dbg) with IDA/Ghidra disassemblers.
+	+ https://github.com/bootleg/ret-sync
 * rVMI - A New Paradigm For Full System Analysis
 	+ "rVMI is a debugger on steroids. It leverages Virtual Machine Introspection (VMI) and memory forensics to provide full system analysis. This means that an analyst can inspect userspace processes, kernel drivers, and preboot environments in a single tool."
 	+ https://github.com/fireeye/rVMI
@@ -478,6 +488,9 @@ See also: [RR](#rr)
 	+ https://github.com/pwndbg/pwndbg/blob/dev/FEATURES.md
 * Pwngdb - https://github.com/scwuaptx/Pwngdb
 * pygdbmi - Get Structured Output from GDB's Machine Interface - https://github.com/cs01/pygdbmi
+* QuickPatch: a GDB plug-in to patch an ELF file
+	+ https://github.com/invictus1306/QuickPatch
+	+ https://invictus1306.github.io/vulnerabilities/2019/10/20/quickpatch.html
 * SymGDB - symbolic execution plugin for gdb - https://github.com/SQLab/symgdb
 
 #### Editor Integration
@@ -608,7 +621,10 @@ See also: [RR](#rr)
 	+ https://www.raywenderlich.com/161938/assembly-register-calling-convention-tutorial
 * lldbinit: Similar implementation of .gdbinit from fG! for lldb in python
 	+ https://github.com/deroko/lldbinit
-* Vegvisir: A browser based GUI for LLDB Debugger - https://github.com/ant4g0nist/vegvisir
+* Vegvisir: A browser based GUI for LLDB Debugger
+	+ https://github.com/ant4g0nist/vegvisir
+* vplot: C++ container graph visualization for lldb
+	+ https://github.com/egladysh/vplot
 
 #### Editor Integration
 
@@ -749,6 +765,11 @@ See also: [RR](#rr)
 
 * Introduction to WinDbg and debugging Windows - series by Anand George
 	+ https://www.youtube.com/playlist?list=PLhx7-txsG6t6n_E2LgDGqgvJtCHPL7UFu
+* Modern Debugging with WinDbg Preview
+	+ DEFCON 27 (2019) Workshop Materials
+	+ https://github.com/hugsy/defcon_27_windbg_workshop/
+	+ WinDbg cheatsheet
+		- https://github.com/hugsy/defcon_27_windbg_workshop/blob/master/windbg_cheatsheet.md
 * Time Travel Debugging - James McNellis
 	+ Meeting C++ 2018 - https://www.youtube.com/watch?v=MyVQnP-U_ho
 	+ Pacific++ 2018 - https://www.youtube.com/watch?v=BVslyei0804
@@ -834,6 +855,13 @@ See also: [RR](#rr)
 
 # Talks
 
+## 2019
+
+* Modern Linux C++ Debugging Tools: Under the Covers
+	+ CppCon 2019; Greg Law
+	+ https://www.youtube.com/watch?v=WoRmXjVxuFQ
+	+ https://github.com/CppCon/CppCon2019/tree/master/Presentations/modern_linux_cpp_debugging_tools__under_the_covers
+
 ## 2018
 
 * GNU Tools Cauldron 2018
@@ -859,9 +887,12 @@ See also: [RR](#rr)
 	+ http://www.bsdcan.org/2017/schedule/events/787.en.html
 * Debugging Under Fire: Keep your Head when Systems have Lost their Mind • GOTO 2017 • Bryan Cantrill
 	+ https://www.youtube.com/watch?v=30jNsCVLpAE
-* How C++ Debuggers work - Simon Brand - Meeting C++ 2017
-	+ https://meetingcpp.com/2017/talks/items/How_Cpp_Debuggers_Work.html
-	+ https://www.youtube.com/watch?v=Q3Rm95Mk03c
+* How C++ Debuggers work - Simon Brand
+	+ C++ Edinburgh 2018
+		- https://www.youtube.com/watch?v=UiW24hzLy1M
+	+ Meeting C++ 2017
+		- https://meetingcpp.com/2017/talks/items/How_Cpp_Debuggers_Work.html
+		- https://www.youtube.com/watch?v=Q3Rm95Mk03c
 
 ## 2016
 
