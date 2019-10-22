@@ -109,7 +109,7 @@ Contents:
 	+ DevConf.CZ 2019; Divya Basant Kumar
 	+ https://www.youtube.com/watch?v=TZVBK5hu0sk
 * My Little Object File: How Linkers Implement C++
-	+ CppCon 2017; Michael Spencer 
+	+ CppCon 2017; Michael Spencer
 	+ (ELF, MachO, COFF)
 	+ https://www.youtube.com/watch?v=a5L66zguFe4
 * The Life of Binaries
@@ -209,6 +209,7 @@ Contents:
 	+ http://www.cse.psu.edu/~gxt29/papers/cfgConsMeta.pdf
 * How debuggers work: Part 3 - Debugging information - http://eli.thegreenplace.net/2011/02/07/how-debuggers-work-part-3-debugging-information
 * Implementing a Debugger: The Fundamentals - https://backtrace.io/blog/debugger-internals/
+* Improving C++ Builds with Split DWARF - https://www.productive-cpp.com/improving-cpp-builds-with-split-dwarf/
 * Introduction to the DWARF Debugging Format - http://www.dwarfstd.org/doc/Debugging%20using%20DWARF.pdf
 * Programmatic access to the call stack in C++ - https://eli.thegreenplace.net/2015/programmatic-access-to-the-call-stack-in-c/
 * Querying DWARF For Fun And Profit - https://developers.redhat.com/blog/2015/01/22/querying-dwarf-for-fun-and-profit/
@@ -263,7 +264,10 @@ Contents:
 	+ https://github.com/stephenrkell/libdwarfpp
 * libdwarfw: A C library to write DWARF debugging information
 	+ https://github.com/emersion/libdwarfw
-* llvm-dwarfdump - dump and verify DWARF debug information - https://llvm.org/docs/CommandGuide/llvm-dwarfdump.html
+* llvm-dwarfdump - dump and verify DWARF debug information
+	+ https://llvm.org/docs/CommandGuide/llvm-dwarfdump.html
+* llvm-locstats - calculate statistics on DWARF debug location
+	+ https://llvm.org/docs/CommandGuide/llvm-locstats.html
 * Pahole and the dwarves: Debugging Information Manipulation Tools
 	+ https://git.kernel.org/pub/scm/devel/pahole/pahole.git/
 	+ https://github.com/acmel/dwarves
@@ -377,6 +381,11 @@ Contents:
 	+ http://www.linker-aliens.org/blogs/ali/entry/gnu_hash_elf_sections/
 * Good Practices in Library Design, Implementation, and Maintenance - https://www.akkadia.org/drepper/goodpractice.pdf
 * Have fun with LIEF and Executable Formats - Play with ELF symbols - Part 2 (renaming dynamic symbols) - https://blog.quarkslab.com/have-fun-with-lief-and-executable-formats.html#elf
+* Honey, I Shrunk the ELFs: Lightweight Binary Tailoring of Shared Libraries
+	+ EMSOFT 2019
+	+ ACM Transactions on Embedded Computing Systems (TECS) 18, 5s, Article 102 (October 2019)
+	+ Andreas Ziegler, Julian Geus, Bernhard Heinloth, Timo HÖnig, Daniel Lohmann
+	+ https://dl.acm.org/citation.cfm?id=3358222
 * How is a binary executable organized? Let's explore it! - https://jvns.ca/blog/2014/09/06/how-to-read-an-executable/
 * How programs get run: ELF binaries - https://lwn.net/Articles/631631/
 * How To Strip An ELF Object Without Fully Understanding It
@@ -478,6 +487,15 @@ Contents:
 	+ https://en.wikibooks.org/wiki/Grsecurity/Additional_Utilities
 	+ scanelf - Prints out information specific to the ELF structure of a binary - https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities#Extracting_ELF_information_from_binaries
 	+ dumpelf - Converts a ELF file into human readable C code that defines a structure with the same image as the original ELF file - https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities#Programming_with_ELF_files
+* ELF Tailoring (EMSOFT 2019)
+	- see: [ELF](#elf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-3): "Honey, I Shrunk the ELFs: Lightweight Binary Tailoring of Shared Libraries"
+	- https://gitlab.cs.fau.de/i4/pub/elftailor
+	+ ELF diet: Tool to shrink the tailored ELF files to a smaller size
+		- https://gitlab.cs.fau.de/i4/pub/elftailor/elfdiet
+	+ remove_from_elf: Tool to remove functions from ELF library interfaces and to overwrite their implementation
+		- https://gitlab.cs.fau.de/i4/pub/elftailor/remove_from_elf
+	+ librarytrader: Tool for static and dynamic analysis of dependencies between application(s) and shared libraries which allows us to determine unused functions
+		- https://gitlab.cs.fau.de/i4/pub/elftailor/librarytrader
 * ELF Tool Chain Project - https://sourceforge.net/projects/elftoolchain/
 	+ A BSD-licensed implementation of compilation tools (nm, ar, as, ld, etc.) for the ELF object format.
 * ELFbac: runtime intent-level ABI-granular memory protection for Linux - http://elfbac.org/
@@ -506,6 +524,7 @@ Contents:
 			- https://mcuoneclipse.com/2013/04/14/text-data-and-bss-code-and-data-size-explained/
 			- http://www.geeksforgeeks.org/memory-layout-of-c-program/
 			- http://cs-fundamentals.com/c-programming/memory-layout-of-c-program-code-data-segments.php#size-of-code-data-bss-segments
+	+ 9 essential GNU binutils tools - https://opensource.com/article/19/10/gnu-binutils
 * HoloDec: Decompiler for x86 and x86-64 ELF binaries - https://github.com/cararasu/holodec
 * Libelf - ELF object file access library - http://www.mr511.de/software/english.html
 	+ libelf-howto - http://chris.rohlf.googlepages.com/libelf-howto.c
@@ -547,6 +566,9 @@ Contents:
 
 ## Talks
 
+* 2019 - Objtool: A Hidden Gem of Executable Parsing
+	+ DevConf.US 2019; Matt Helsley
+	+ https://www.youtube.com/watch?v=I7srCw-Ns7Y
 * 2019 - Executable Code Golf: Making Tiny Binaries for Constrained Systems
 	+ linux.conf.au 2019; Nathan Egge
 	+ https://www.youtube.com/watch?v=J5WX-wN_RKY
