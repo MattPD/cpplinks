@@ -4,7 +4,7 @@
 
 * [Readings](#readings): [Blogs](#blogs-posts-and-series), [Documentation](#documentation), [Papers](#papers), [References](#references), [StackOverflow](#stackoverflow-questions)
 * [Software](#software): [Benchmarks](#benchmarks), [Libraries](#libraries), [Tools](#tools)
-* [Talks, Videos](#talks-videos): [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
+* [Talks](#talks): [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
 
 ---
 
@@ -77,8 +77,18 @@
 	+ https://akrzemi1.wordpress.com/2014/03/13/find-the-bug-comments/
 	+ https://akrzemi1.wordpress.com/2014/04/24/noexcept-what-for/
 	+ https://akrzemi1.wordpress.com/2014/09/19/destructors-2-use-cases/
+	+ Handling errors is canceling operations - https://akrzemi1.wordpress.com/2019/04/25/handling-errors-is-canceling-operations/
+	+ Operation cancelling and std::fstream - https://akrzemi1.wordpress.com/2019/05/23/operation-cancelling-and-stdfstream/
+	+ error codes
+		- Your own error code - https://akrzemi1.wordpress.com/2017/07/12/your-own-error-code/
+		- Your own error condition - https://akrzemi1.wordpress.com/2017/08/12/your-own-error-condition/
+		- Using error codes effectively - https://akrzemi1.wordpress.com/2017/09/04/using-error-codes-effectively/
+		- error codes — some clarifications - https://akrzemi1.wordpress.com/2017/10/14/error-codes-some-clarifications/
 * Akshay Kumar
 	+ How McSema Handles C++ Exceptions - https://blog.trailofbits.com/2019/01/21/how-mcsema-handles-c-exceptions/
+* Eric Lippert
+	+ I Take Exception To That - https://ericlippert.com/2003/10/15/i-take-exception-to-that/
+	+ Long jumps considered way more harmful than exceptions - https://ericlippert.com/2003/10/16/long-jumps-considered-way-more-harmful-than-exceptions/
 * Joseph Mansfield - Exceptions, error codes, and assertions in C++
 	+ A high-level look at different error handling techniques and guidelines on when to use them.
 	+ http://josephmansfield.uk/articles/exceptions-error-codes-assertions-c++.html
@@ -157,6 +167,9 @@
 	+ Jun Lang and David B. Stewart
 	+ https://doi.org/10.1145/276393.276395
 	+ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.33.3400&rep=rep1&type=pdf
+* A Study on the Effects of Exception Usage in Open-Source C++ Systems
+	+ 2019 Master Thesis; Kirsten Bradley
+	+ http://hdl.handle.net/10012/14714
 * Automatically Detecting Error Handling Bugs Using Error Specifications
 	+ USENIX Security 2016
 	+ Suman Jana, Yuan Kang, Samuel Roth, Baishakhi Ray
@@ -167,14 +180,26 @@
 	+ Yuchi Tian, Baishakhi Ray
 	+ https://yuchi1989.github.io/papers/fse17-ErrDoc.pdf
 	+ ErrDoc: Tool for detecting, categorizing, and repairing error handling bugs - https://github.com/yuchi1989/ErrDoc/
+* C++ exception handling
+	+ IEEE Concurrency 8(4) 2000
+	+ Christophe De Dinechin
+	+ https://doi.org/10.1109/4434.895109
 * C++ Exception Handling for IA64
 	+ USENIX Workshop on Industrial Experiences with Systems Software (WIESS) 2000
 	+ Christophe de Dinechin
 	+ http://www.usenix.org/events/wiess2000/dinechin.html 
+* Effective Error-Specification Inference via Domain-Knowledge Expansion
+	+ ESEC/FSE 2019
+	+ Daniel DeFreez, Haaken Martinson Baldwin, Cindy Rubio-González, Aditya V. Thakur
+	+ https://dl.acm.org/citation.cfm?id=3338960
+	+ https://github.com/ucd-plse/eesi
 * Exception Handling: Issues and a Proposed Notation
 	+ Communications of the ACM (CACM) 18(12) 1975
 	+ John B. Goodenough
 	+ https://dl.acm.org/citation.cfm?id=361230
+* Exception Optimizations. An experiment.
+	+ 2019-06-04; Gor Nishanov
+	+ https://wg21.link/P1676
 * Exception-Safety in Generic Components: Lessons Learned from Specifying Exception-Safety for the C++ Standard Library
 	+ David Abrahams
 	+ https://www.boost.org/community/exception_safety.html
@@ -186,6 +211,12 @@
 	+ http://web.archive.org/http://netlab.ru.is/exception/KernelExceptions.pdf
 	+ C++ Exceptions & the Linux Kernel (2005)
 		- http://www.drdobbs.com/cpp/c-exceptions-the-linux-kernel/229100146
+* Generating Precise Error Specifications for C: A Zero Shot Learning Approach
+	+ SPLASH 2019 OOPSLA
+	+ Baijun Wu, John Peter Campora III, He Yi, Alexander Schlecht, Sheng Chen
+	+ https://dl.acm.org/citation.cfm?id=3360586
+	+ https://2019.splashcon.org/details/splash-2019-oopsla/44/Generating-Precise-Error-Specifications-for-C-A-Zero-Shot-Learning-Approach
+	+ https://bitbucket.org/plcacs/errorspec/src/master/
 * Handling Disappointment in C++ - Lawrence Crowl
 	+ http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0157r0.html
 * Interprocedural exception analysis for C++
@@ -205,6 +236,11 @@
 	+ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.671.6441&rep=rep1&type=pdf
 	+ https://journal.ub.tu-berlin.de/eceasst/article/view/983
 	+ http://fmt.cs.utwente.nl/conferences/avocs2014/slides/slides.pdf
+* Optimizing away C++ exception handling
+	+ SIGPLAN Notices 33(8) 1998
+	+ Jonathan L. Schilling
+	+ https://dl.acm.org/citation.cfm?id=286390
+	+ http://www.ut.sco.com/developers/products/ehopt.pdf
 * Path-Based Function Embedding and Its Application to Error-Handling Specification Mining
 	+ European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2018
 	+ Daniel DeFreez, Aditya V. Thakur, Cindy Rubio-González
@@ -216,6 +252,10 @@
 * Terse Exception Messages
 	+ Overload Journal #127, June 2015; Chris Oldwood
 	+ https://accu.org/index.php/journals/2110
+* The Use of C++ Exception Handling Constructs: A Comprehensive Study
+	+ Source Code Analysis and Manipulation (SCAM) 2015
+	+ Rodrigo Bonifacio, Fausto Carvalho, Guilherme N. Ramos, Uira Kulesza, Roberta Coelho
+	+ http://rbonifacio.net/papers/scam2015/rbonifacio-scam2015.pdf
 * Using Off-the-Shelf Exception Support Components in C++ Verification
 	+ Software Quality, Reliability and Security (QRS) 2017
 	+ Vladimír Štill, Petr Ročkai, Jiří Barnat
@@ -261,6 +301,8 @@
 	+ https://github.com/jpakkane/excsize
 * error_bench: Micro benchmarks for various error handling mechanisms
 	+ https://github.com/ben-craig/error_bench
+	+ Error size benchmarking
+		- https://wg21.link/P1640
 * Exception Handling Costing Test
 	+ https://github.com/johnmcfarlane/ehct
 * Test programs to determine the speed of exceptions vs error codes
@@ -301,7 +343,37 @@
 
 ---
 
-# Talks, Videos
+# Talks
+
+## 2019
+
+* Back to Basics: Exception Handling and Exception Safety
+	+ CppCon 2019; Ben Saks
+	+ https://www.youtube.com/watch?v=W6jZKibuJpU
+* De-fragmenting C++: Making Exceptions and RTTI More Affordable and Usable
+	+ Herb Sutter
+	+ ACCU 2019: https://www.youtube.com/watch?v=os7cqJ5qlzo
+	+ CppCon 2019: https://www.youtube.com/watch?v=ARYP83yNAWk
+* Error Handling is Cancelling Operations
+	+ CppCon 2019; Andrzej Krzemieński
+	+ https://www.youtube.com/watch?v=zte8IxkHqc4
+* Exceptions Demystified
+	+ C++Now 2019; Andreas Weis
+	+ https://www.youtube.com/watch?v=kO0KVB-XIeE
+	+ https://github.com/ComicSansMS/presentations/releases/tag/cppnow2019
+	+ https://github.com/ComicSansMS/presentations/releases/download/cppnow2019/exceptions_demystified.pdf
+* Internals of Exceptions
+	+ Update Conference Prague 2018; Adam Furmanek
+	+ "Do you know what is SEH, VEH and VCH in Windows? Or do you know why C# introduced exceptions filters or how to catch everything, even StackOverflowException?In this presentation I show internal mechanisms used by Windows for handling exceptions. We will see constructs used by C++ and C# languages, CLR instructions and machine code details of those."
+	+ https://www.youtube.com/watch?v=ce_db4bfzls
+* On "Exception Handling: Issues and a Proposed Notation"
+	+ PWL NYC 2019; Sarah Groff Palermo
+	+ https://www.youtube.com/watch?v=071M3PTXJeo
+* The Dawn Of A New Error
+	+ Phil Nash
+	+ ACCU 2019: https://www.youtube.com/watch?v=2Jhfubg9yvA
+	+ Core C++ 2019: https://www.youtube.com/watch?v=7hO0LKRCw64
+	+ CppCon 2019: https://www.youtube.com/watch?v=ZUH8p1EQswA
 
 ## 2018
 
@@ -390,14 +462,18 @@
 
 ## 2014
 
+* Exception-Safe Code
+	+ CppCon 2014; Jon Kalb
+	+ A set of guidelines for safe exception usage and solid implementation techniques, including how to transition from an exception-unsafe legacy code base.
+	+ http://exceptionsafecode.com/
+	+ Part 1 video: https://www.youtube.com/watch?v=W7fIy_54y-w
+	+ Part 2 video: https://www.youtube.com/watch?v=b9xMIKb1jMk
+	+ Part 3 video: https://www.youtube.com/watch?v=MiKxfdkMJW8
+
+## 2012
+
 * Compiler Internals: Exceptions and RTTI
 	+ Recon 2012; Igor Skochinsky
 	+ http://www.hexblog.com/?p=704
 	+ https://recon.cx/2012/schedule/events/247.en.html
 	+ http://www.hexblog.com/wp-content/uploads/2012/06/Recon-2012-Skochinsky-Compiler-Internals.pdf
-* Exception-Safe Code
-	+ CppCon 2014; Jon Kalb
-	+ A set of guidelines for safe exception usage and solid implementation techniques, including how to transition from an exception-unsafe legacy code base.
-	+ Part 1 video: https://www.youtube.com/watch?v=W7fIy_54y-w
-	+ Part 2 video: https://www.youtube.com/watch?v=b9xMIKb1jMk
-	+ Part 3 video: https://www.youtube.com/watch?v=MiKxfdkMJW8
