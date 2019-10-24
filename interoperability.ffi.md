@@ -33,6 +33,8 @@
 	+ https://github.com/aguinet/dragonffi/
 	+ FOSDEM 2018 - https://fosdem.org/2018/schedule/event/dragonffi/
 	+ DragonFFI: FFI/JIT for the C language using Clang/LLVM - http://blog.llvm.org/2018/03/dragonffi-ffijit-for-c-language-using.html
+* ffi-overhead: comparing the C FFI (foreign function interface) overhead for various programming languages
+	+ https://github.com/dyu/ffi-overhead
 * Hourglass Interfaces for C++ APIs - CppCon 2014
 	+ https://www.slideshare.net/StefanusDuToit/cpp-con-2014-hourglass-interfaces-for-c-apis
 	+ https://www.youtube.com/watch?v=PVYdHDm0q6Y
@@ -49,6 +51,10 @@
 
 # C#
 
+* CoreRTDemo: Building a native library in C# and calling it from C++
+	+ https://github.com/encrypt0r/CoreRTDemo
+	+ Writing Native Libraries in C# and using them in other languages
+		- https://dev.to/encrypt0r/writing-native-libraries-in-c-3kl
 * CppSharp
 	+ Tools and libraries to glue C/C++ APIs to high-level languages
 	+ https://github.com/mono/CppSharp
@@ -57,6 +63,8 @@
 * The .NET Inter-Operability Operation
 	+ Derbycon 2017; James Forshaw
 	+ http://www.irongeek.com/i.php?page=videos/derbycon7/s13-the-net-inter-operability-operation-james-forshaw
+* Using Span for high performance interop with unmanaged libraries
+	+ https://ericsink.com/entries/utf8z.html
 
 ---
 
@@ -69,6 +77,9 @@
 
 # D
 
+* d++ - #include C and C++ headers in D files
+	+ https://github.com/atilaneves/dpp
+	+ https://dlang.org/blog/2019/04/08/project-highlight-dpp/
 * Zero Overhead Interface Between DLang & C++ Standard Lib
 	+ Alexandru Razvan Caciulescu | DConf2017
 	+ https://www.youtube.com/watch?v=c5zGnOWKaGo
@@ -102,6 +113,8 @@
 		- https://github.com/graalvm/sulong
 * JavaCPP: The missing bridge between Java and native C++
 	+ https://github.com/bytedeco/javacpp
+* java-native-benchmark: Benchmarking Java's native call APIs: JNI, JNA, JNR, BridJ and Project Panama
+	+ https://github.com/zakgof/java-native-benchmark
 * jni.hpp: a modern, type-safe, header-only, C++14 wrapper for JNI (Java Native Interface)
 	+ https://github.com/mapbox/jni.hpp
 * jnr-ffi: Java Abstracted Foreign Function Layer
@@ -182,6 +195,8 @@
 		- https://www.youtube.com/watch?v=jQedHfF1Jfw
 	+ Integrate Python and C++ with pybind11 - NDC 2018; Robert Smallshire
 		- https://www.youtube.com/watch?v=YReJ3pSnNDo
+* Python - using C and C++ libraries with ctypes
+	+ https://solarianprogrammer.com/2019/07/18/python-using-c-cpp-libraries-ctypes/
 * Wrappy: Wrapping python made easy
 	+ https://github.com/lava/wrappy
 
@@ -205,6 +220,10 @@
 
 * bindgen: Automatically generates Rust FFI bindings to C and C++ libraries
 	+ https://github.com/rust-lang/rust-bindgen
+* cbindgen: creates C/C++11 headers for Rust libraries which expose a public C API
+	+ https://github.com/eqrion/cbindgen
+	+ cbindgen User Guide
+		- https://github.com/eqrion/cbindgen/blob/master/docs.md
 * rustcxx: Using C++ from Rust made easy
 	+ https://github.com/google/rustcxx
 
