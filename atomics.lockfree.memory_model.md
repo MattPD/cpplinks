@@ -379,9 +379,31 @@ Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/
 
 ### 2019
 
+- Atomics, Locks, and Tasks
+	- CppCon 2019; Rainer Grimm
+	- part 1: https://www.youtube.com/watch?v=o0i2fc0Keo8
+	- part 2: https://www.youtube.com/watch?v=_eaB69ta_ig
+- Concurrency in C++20 and Beyond
+	- CppCon 2019; Anthony Williams
+	- https://www.youtube.com/watch?v=jozHW_B3D4U
+- The C++20 Synchronization Library
+	- CppCon 2019; Bryce Adelstein Lelbach
+	- https://www.youtube.com/watch?v=Zcqwb3CWqs4
+	- https://github.com/brycelelbach/cpp20_mini_tasking_runtime
+	- https://github.com/brycelelbach/cpp20_synchronization_library
+	- `std::atomic::wait`/`std::atomic::notify_*`; `std::atomic_ref`; `std::counting_semaphore`; `std::latch`, `std::barrier`
 - The One-Decade Task: Putting std::atomic in CUDA
 	- CppCon 2019; Olivier Giroux
 	- https://www.youtube.com/watch?v=VogqOscJYvk
+- Wait-free data structures and wait-free transactions
+	- Hydra: Distributed Computing Conference 2019; Pedro Ramalhete
+	- https://www.youtube.com/watch?v=oDfr9w9p8XY
+	- https://hydraconf.com/2019/talks/1jwmdzkmjcalsclwavttxk/
+- Weak Memory Concurrency in C/C++11
+	- Hydra: Distributed Computing Conference 2019; Ori Lahav
+	- https://www.youtube.com/watch?v=mOqu8vGSysc
+	- http://www.cs.tau.ac.il/~orilahav/papers/lahav_c11.pdf
+	- https://hydraconf.com/2019/talks/143pbdxfvijthb8rg3qk6e/
 
 ### 2018
 
