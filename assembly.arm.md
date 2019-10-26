@@ -33,7 +33,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ [2011](#2011)
 	+ [2010](#2010)
 	+ [History](#history)
-* [Tutorials, Courses](#tutorials-courses)
+* [Tutorials, Courses](#tutorials-courses): [AArch64](#aarch64)
 
 ---
 
@@ -137,6 +137,13 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	- https://alastairreid.github.io/papers/FMCAD_16/
 	- https://alastairreid.github.io/papers/fmcad2016-trustworthy.pdf
 	- https://alastairreid.github.io/alastairreid.github.io/papers/fmcad2016-trustworthy-slides.pdf
+- Weak Persistency Semantics from the Ground Up: Formalising the Persistency Semantics of ARMv8 and Transactional Models
+	- OOPSLA 2019
+	- Azalea Raad, John Wickerson, Viktor Vafeadis
+	- "PARMv8 persistency model, formalising the persistency semantics of the ARMv8 architecture for the first time"
+	- http://www.soundandcomplete.org/papers/OOPSLA2019/PARM/PARM-OOPSLA-2019.pdf
+	- http://www.soundandcomplete.org/papers/OOPSLA2019/PARM/PARM-OOPSLA-2019-Talk.pdf
+	- https://plv.mpi-sws.org/pmem/
 - Who Guards the Guards? Formal Validation of the Arm v8-M Architecture Specification
 	- SPLASH 2017 OOPSLA
 	- Alastair Reid
@@ -154,10 +161,6 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ Instruction Set Quick Reference Sheets: https://github.com/flynd/asmsheets
 		- LaTeX: https://github.com/flynd/asmsheets/blob/master/arm64.tex
 		- PDF: https://courses.cs.washington.edu/courses/cse469/18wi/Materials/arm64.pdf
-* ARMv8 Shellcodes from 'A' to 'Z'
-	+ ISPEC 2016
-	+ Hadrien Barral, Houda Ferradi, Rémi Géraud, Georges-Axel Jaloyan, David Naccache
-	+ https://arxiv.org/abs/1608.03415
 * Exploring the Arm dot product instructions - https://community.arm.com/tools/b/blog/posts/exploring-the-arm-dot-product-instructions
 * Introduction to Computer Organization: ARM Assembly Language Using the Raspberry Pi
 	+ http://bob.cs.sonoma.edu/IntroCompOrg-RPi/intro-co-rpi.html
@@ -168,6 +171,49 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://www.qualcomm.com/documents/whitepaper-pointer-authentication-armv83
 	+ https://www.qualcomm.com/media/documents/files/whitepaper-pointer-authentication-on-armv8-3.pdf
 	+ https://www.qualcomm.com/news/onq/2017/01/10/qualcomm-releases-whitepaper-detailing-pointer-authentication-armv83
+
+### Shellcode
+
+* Alphanumeric ARM Shellcode
+	+ March 15, 2018
+	+ https://vishnudevtj.github.io/notes/arm-alphanumeric-shellcode
+* Alphanumeric RISC ARM Shellcode
+	+ Phrack Magazine #66 (2009-11-06)
+	+ Yves Younan, Pieter Philippaerts
+	+ http://www.phrack.org/archives/issues/66/12.txt
+	+ http://www.phrack.org/issues/66/12.html#article
+* Alphanumeric Shellcode Generator for ARM Architecture
+	+ SPACE 2013: Security, Privacy, and Applied Cryptography Engineering
+	+ Pratik Kumar, Nagendra Chowdary, Anish Mathuria
+	+ https://link.springer.com/chapter/10.1007/978-3-642-41224-0_3
+* ARM Shellcode - Azeria Labs
+	+ Code: https://github.com/azeria-labs/ARM-assembly-examples
+	+ Introduction to Writing ARM Shellcode - https://azeria-labs.com/writing-arm-shellcode/
+	+ TCP Bind Shell (ARM 32-bit) - https://azeria-labs.com/tcp-bind-shell-in-assembly-arm-32-bit/
+	+ TCP Reverse Shell (ARM 32-bit) - https://azeria-labs.com/tcp-reverse-shell-in-assembly-arm-32-bit/
+	+ Process Memory and Memory Corruptions - https://azeria-labs.com/process-memory-and-memory-corruption/
+	+ Stack Overflow Challenges - https://azeria-labs.com/part-3-stack-overflow-challenges/
+	+ Process Continuation Shellcode - https://azeria-labs.com/process-continuation-shellcode/
+	+ Heap Exploitation Part 1: Understanding the Glibc Heap Implementation - https://azeria-labs.com/heap-exploitation-part-1-understanding-the-glibc-heap-implementation/
+* ARM shellcode and exploit development
+	+ BSidesMunich 2018 Workshop; Andrea Sindoni
+	+ https://github.com/invictus1306/Workshop-BSidesMunich2018
+	+ https://github.com/invictus1306/Workshop-BSidesMunich2018/blob/master/workshop_slides.pdf
+* ARMv8 Shellcodes from 'A' to 'Z'
+	+ ISPEC 2016
+	+ Hadrien Barral, Houda Ferradi, Rémi Géraud, Georges-Axel Jaloyan, David Naccache
+	+ https://arxiv.org/abs/1608.03415
+* Exploring New Depths of Threat Hunting ...or How to Write ARM Shellcode in Six Minutes
+	+ Security Analysts Summit (SAS) 2018
+	+ https://www.youtube.com/watch?v=DGJZBDlhIGU
+	+ https://azeria-labs.com/downloads/SAS-v1.0-Azeria.pdf
+* Filter-resistant Code Injection on ARM
+	+ CCS 2009
+	+ Yves Younan, Pieter Philippaerts, Frank Piessens, Wouter Joosen, Sven Lachmund, Thomas Walter
+	+ http://amnesia.gtisc.gatech.edu/~moyix/CCS_09/docs/p11.pdf
+* Shellcode: Encryption Algorithms in ARM Assembly
+	+ https://modexp.wordpress.com/2018/02/04/arm-crypto/
+	+ https://github.com/odzhan/shellcode
 
 ### A-profile
 
@@ -203,8 +249,6 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 ## Security
 
-* A Guide to ARM64 / AArch64 Assembly on Linux with Shellcodes and Cryptography
-	+ https://modexp.wordpress.com/2018/10/30/arm64-assembly/
 * ARM Lab Environment - https://www.vulnhub.com/series/arm-lab,145/
 * ARM Memory Tagging Extension and How It Improves C/C++ Memory Safety 
 	+ USENIX ;login: Summer 2019, Vol. 44, No. 2 
@@ -217,10 +261,6 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://billy-ellis.github.io/rop1.html
 	+ https://billy-ellis.github.io/rop2.html
 	+ https://billy-ellis.github.io/rop3.html
-* ARM shellcode and exploit development
-	+ BSidesMunich 2018 Workshop
-	+ https://github.com/invictus1306/Workshop-BSidesMunich2018
-	+ https://github.com/invictus1306/Workshop-BSidesMunich2018/blob/master/workshop_slides.pdf
 * Cache Speculation Side-channels
 	+ Richard Grisenthwaite
 	+ https://developer.arm.com/support/security-update
@@ -233,10 +273,6 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * Exploitation on ARM-based Systems
 	+ Troopers18; Sascha Schirra, Ralf Schaefer 
 	+ https://github.com/sashs/arm_exploitation
-* Exploring New Depths of Threat Hunting ...or How to Write ARM Shellcode in Six Minutes
-	+ Security Analysts Summit (SAS) 2018
-	+ https://www.youtube.com/watch?v=DGJZBDlhIGU
-	+ https://azeria-labs.com/downloads/SAS-v1.0-Azeria.pdf
 * Micro-Architectural Power Simulator for Leakage Assessment of Cryptographic Software on ARM Cortex-M3 Processors
 	+ Cryptology ePrint Archive: Report 2017/1253
 	+ Yann Le Corre, Johann Großschädl, Daniel Dinu
@@ -453,6 +489,10 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 * ARMulator: A emulator for ARM programs (aims to run ARM programs in x86 platform)
 	+ https://github.com/x-y-z/armulator
 	+ http://x-y-z.github.io/armulator/
+* ARM-X Firmware Emulation Framework
+	+ The ARM-X Firmware Emulation Framework is a collection of scripts, kernels and filesystems to be used with QEMU to emulate ARM/Linux IoT devices. ARM-X is aimed to facilitate IoT research by virtualising as much of the physical device as possible. It is the closest we can get to an actual IoT VM.
+	+ https://armx.exploitlab.net/
+	+ https://github.com/therealsaumil/armx/
 * arm_now: arm vm working out of the box for everyone (Linux / Windows) - https://github.com/nongiach/arm_now
 * ASMBits: A problem set and online judge for practicing Nios II or ARMv7 assembly language - https://asmbits.01xz.net/
 * CPUlator: An in-browser full-system MIPS, Nios II, and ARMv7 simulator and debugger - https://cpulator.01xz.net/
@@ -552,7 +592,8 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 * A tour of the ARM architecture and its Linux support - linux.conf.au 2017
 	+ https://www.youtube.com/watch?v=NNol7fRGo2E
-* ARM Assembly and Shellcode Basics - Saumil Shah at 44CON 2017 - Workshop
+* ARM Assembly and Shellcode Basics
+	+ 44CON 2017 Workshop; Saumil Shah
 	+ https://www.youtube.com/watch?v=BhjJBuX0YCU
 * ARM Developer Systems/Tools – BUD17-508 - http://connect.linaro.org/resource/bud17/bud17-508/
 * DynInst on arm64 – Status – BUD17-323 - http://connect.linaro.org/resource/bud17/bud17-323/
@@ -735,16 +776,6 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ Episode 2: ARM shellcoding - https://quequero.org/2017/09/arm-exploitation-iot-episode-2/
 	+ Episode 3: ARM exploitations - https://quequero.org/2017/11/arm-exploitation-iot-episode-3/
 * ARM lectures by Dr. Santanu Chaudhury, EE Department, IIT Delhi - https://www.youtube.com/playlist?list=PL95AFA4ABA8B28627
-* ARM Shellcode - Azeria Labs
-	+ Code: https://github.com/azeria-labs/ARM-assembly-examples
-	+ Introduction to Writing ARM Shellcode - https://azeria-labs.com/writing-arm-shellcode/
-	+ TCP Bind Shell (ARM 32-bit) - https://azeria-labs.com/tcp-bind-shell-in-assembly-arm-32-bit/
-	+ TCP Reverse Shell (ARM 32-bit) - https://azeria-labs.com/tcp-reverse-shell-in-assembly-arm-32-bit/
-	+ Process Memory and Memory Corruptions - https://azeria-labs.com/process-memory-and-memory-corruption/
-	+ Stack Overflow Challenges - https://azeria-labs.com/part-3-stack-overflow-challenges/
-	+ Process Continuation Shellcode - https://azeria-labs.com/process-continuation-shellcode/
-	+ Heap Exploitation Part 1: Understanding the Glibc Heap Implementation - https://azeria-labs.com/heap-exploitation-part-1-understanding-the-glibc-heap-implementation/
-* arm64 assembly crash course - https://github.com/Siguza/ios-resources/blob/master/bits/arm64.md
 * EECS 370 - http://www.eecs.umich.edu/courses/eecs370/eecs370.f17/resources/
 	+ ARM Examples - https://www.eecs.umich.edu/courses/eecs370/eecs370.w17/resources/materials/370ARMExamples.pdf
 	+ ARM Instruction Set Quick Reference Card - https://www.eecs.umich.edu/courses/eecs370/eecs370.f17/resources/materials/ARM_Instruction_Set.pdf
@@ -754,6 +785,25 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ ARM Assembly Language (Knaggs & Welsh - Bournemouth Univ.)
 		- http://www.eng.auburn.edu/~nelson/courses/elec5260_6260/arm/ARM_AssyLang.pdf
 	+ ARM processor architecture - http://www.eng.auburn.edu/~nelson/courses/elec5260_6260/slides/Chapter2%20ARM.pdf
+* Introducing ARM assembly language - http://www.toves.org/books/arm/
+* Introduction to ARM
+	+ Gananand Kini's class on the ARM CPU assembly and architecture
+	+ http://www.opensecuritytraining.info/IntroARM.html
+	+ https://www.youtube.com/playlist?list=PLUFkSN0XLZ-n91t_AX5zO007Giz1INwPd
+* Understanding ARM Assembly - Marion Cole
+	+ Part 1: Processor features - https://blogs.msdn.microsoft.com/ntdebugging/2013/11/22/understanding-arm-assembly-part-1/
+	+ Part 2: How Windows uses the processor - https://blogs.msdn.microsoft.com/ntdebugging/2014/05/15/understanding-arm-assembly-part-2/
+	+ Part 3: Calling conventions - https://blogs.msdn.microsoft.com/ntdebugging/2014/05/29/understanding-arm-assembly-part-3/
+* Whirlwind Tour of ARM Assembly - https://www.coranac.com/tonc/text/asm.htm
+* Windows on ARM - An assembly language primer - http://www.codemachine.com/article_armasm.html
+
+## AArch64
+
+* A Guide to ARM64 / AArch64 Assembly on Linux with Shellcodes and Cryptography
+	+ https://modexp.wordpress.com/2018/10/30/arm64-assembly/
+* arm64 assembly crash course - https://github.com/Siguza/ios-resources/blob/master/bits/arm64.md
+* Armv8-A Instruction Set Architecture (ISA)
+	+ https://developer.arm.com/architectures/learn-the-architecture/armv8-a-instruction-set-architecture
 * Exploring AArch64 assembler - http://thinkingeek.com/category/aarch64/
 	+ Chapter 1: first program - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter1/
 	+ Chapter 2: register operands and immediate operands - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter-2/
@@ -764,16 +814,4 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 	+ Chapter 7: functions - http://thinkingeek.com/2017/03/19/exploring-aarch64-assembler-chapter-7/
 	+ Chapter 8: the stack - http://thinkingeek.com/2017/05/29/exploring-aarch64-assembler-chapter-8/
 	+ Chapter 9: control constructs - http://thinkingeek.com/2017/11/05/exploring-aarch64-assembler-chapter-9/
-* Introducing ARM assembly language - http://www.toves.org/books/arm/
-* Introduction to ARM
-	+ Gananand Kini's class on the ARM CPU assembly and architecture
-	+ http://www.opensecuritytraining.info/IntroARM.html
-	+ https://www.youtube.com/playlist?list=PLUFkSN0XLZ-n91t_AX5zO007Giz1INwPd
 * Introduction to ARMv8 64-bit Architecture - https://quequero.org/2014/04/introduction-to-arm-architecture/
-* Shellcode: Encryption Algorithms in ARM Assembly - https://modexp.wordpress.com/2018/02/04/arm-crypto/
-* Understanding ARM Assembly - Marion Cole
-	+ Part 1: Processor features - https://blogs.msdn.microsoft.com/ntdebugging/2013/11/22/understanding-arm-assembly-part-1/
-	+ Part 2: How Windows uses the processor - https://blogs.msdn.microsoft.com/ntdebugging/2014/05/15/understanding-arm-assembly-part-2/
-	+ Part 3: Calling conventions - https://blogs.msdn.microsoft.com/ntdebugging/2014/05/29/understanding-arm-assembly-part-3/
-* Whirlwind Tour of ARM Assembly - https://www.coranac.com/tonc/text/asm.htm
-* Windows on ARM - An assembly language primer - http://www.codemachine.com/article_armasm.html
