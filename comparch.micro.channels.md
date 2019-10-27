@@ -79,6 +79,10 @@ See also: [Computer Architecture](comparch.md)
 	+ https://cryptologie.net/article/367/ches-2016-tutorial-part-2-micro-architectural-side-channel-attacks/
 * Memory Systems attacks/mitigations research papers
 	+ https://www.cse.iitk.ac.in/users/biswap/SMS.html
+* Microarchitectural Attacks and Countermeasures
+	+ Cryptographic Engineering (2009)
+	+ Onur Acıiçmez, Çetin Kaya Koç
+	+ https://link.springer.com/chapter/10.1007/978-0-387-71817-0_18
 * Microarchitectural Side-Channel Attacks
 	+ CHES 2016 tutorial
 	+ http://cs.adelaide.edu.au/~yval/CHES16/
@@ -97,7 +101,7 @@ See also: [Computer Architecture](comparch.md)
 * Survey of Microarchitectural Side and Covert Channels, Attacks, and Defenses
 	+ Journal of Hardware and Systems Security (2018)
 	+ Jakub Szefer
-	+ http://caslab.csl.yale.edu/publications/2018_hass.pdf
+	+ https://caslab.csl.yale.edu/publications/szefer2018surey.pdf
 	+ 2016 preprint: http://eprint.iacr.org/2016/479
 	+ https://link.springer.com/article/10.1007/s41635-018-0046-1
 * Systematic Classification of Side-Channel Attacks: A Case Study for Mobile Devices
@@ -199,6 +203,11 @@ See also: [Computer Architecture](comparch.md)
 	+ MICRO 2018
 	+ Moinuddin K. Qureshi
 	+ http://memlab.ece.gatech.edu/papers/MICRO_2018_2.pdf
+* Cyclone: Detecting Contention-Based Cache Information Leaks Through Cyclic Interference
+	+ MICRO-52 2019
+	+ Austin Harris, Shijia Wei, Prateek Sahu, Pranav Kumar, Todd Austin, Mohit Tiwari
+	+ https://spark.ece.utexas.edu/
+	+ http://spark.ece.utexas.edu/pubs/MICRO-19-cyclone.pdf
 * DAWG: A Defense Against Cache Timing Attacks in Speculative Execution Processors
 	+ MICRO 2018
 	+ Vladimir Kiriansky, Ilia A. Lebedev, Saman P. Amarasinghe, Srinivas Devadas, Joel S. Emer
@@ -207,6 +216,11 @@ See also: [Computer Architecture](comparch.md)
 	+ arXiv 2017
 	+ Gorka Irazoqui, Kai Cong, Xiaofei Guo, Hareesh Khattri, Arun Kanuparthi, Thomas Eisenbarth, Berk Sunar
 	+ https://arxiv.org/abs/1709.01552
+* Fooling the Sense of Cross-core Last-level Cache Eviction based Attacker by Prefetching Common Sense
+	+ PACT 2019
+	+ Biswabandan Panda
+	+ https://eprint.iacr.org/2019/391
+	+ https://www.cse.iitk.ac.in/users/biswap/BITP.pdf
 * How secure is your cache against side-channel attacks?
 	+ MICRO 2017
 	+ Zecheng He, Ruby B. Lee
@@ -235,7 +249,7 @@ See also: [Computer Architecture](comparch.md)
 	+ https://gruss.cc/files/cloak.pdf
 	+ https://github.com/Microsoft/msr-cloak
 
-# Defense - Floating Point Unit (FPU)
+## Defense - Floating Point Unit (FPU)
 
 * On the effectiveness of mitigations against floating-point timing channels
 	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/kohlbrenner
@@ -309,11 +323,19 @@ See also: [Computer Architecture](comparch.md)
 	+ IACR-ASIACRYPT-2016
 	+ Amir Moradi, Tobias Schneider
 	+ https://www.youtube.com/watch?v=8OyQIh3F4AU
+* SMT-COP: Defeating Side-Channel Attacks on Execution Units in SMT Processors
+	+ Parallel Architectures and Compilation Techniques (PACT) 2019
+	+ Daniel Townley and Dmitry Ponomarev
+	+ http://www.cs.binghamton.edu/~dima/pact19.pdf
 
 ## Defense - Software
 
 * C++ Developer Guidance for Speculative Execution Side Channels
 	+ https://docs.microsoft.com/en-us/cpp/security/developer-guidance-speculative-execution
+* Certified Side Channels
+	+ 2019 arXiv
+	+ Cesar Pereida García, Sohaib ul Hassan, Nicola Tuveri, Iaroslav Gridin, Alejandro Cabrera Aldaya, Billy Bob Brumley
+	+ https://arxiv.org/abs/1909.01785 
 * ctgrind
 	+ https://www.imperialviolet.org/2010/04/01/ctgrind.html
 	+ https://github.com/agl/ctgrind/
@@ -339,6 +361,10 @@ See also: [Computer Architecture](comparch.md)
 	+ https://github.com/HACS-workshop/spectre-mitigations/blob/master/crypto_guidelines.md
 * Mitigating speculative execution side channel hardware vulnerabilities
 	+ https://blogs.technet.microsoft.com/srd/2018/03/15/mitigating-speculative-execution-side-channel-hardware-vulnerabilities/
+* Principled Elimination of Microarchitectural Timing Channels through Operating-System Enforced Time Protection
+	+ 2019 PhD Thesis; Qian Ge
+	+ http://ts.data61.csiro.au/publications/papers/Ge:phd.pdf
+	+ http://ts.data61.csiro.au/publications/papers/Ge:phd.abstract.pml
 * Provably Secure Countermeasures against Side-channel Attacks
 	+ 2015 Dissertation; Praveen Kumar Vadnala
 	+ https://orbilu.uni.lu/bitstream/10993/21653/2/PraveenVadnala_Thesis.pdf
@@ -410,6 +436,11 @@ See also: [Computer Architecture](comparch.md)
 
 ## Defense - Speculation
 
+* A Formal Approach to Secure Speculation 
+	+ 2019 IEEE 32nd Computer Security Foundations Symposium (CSF)
+	+ Kevin Cheang, Cameron Rasmussen, Sanjit Seshia, Pramod Subramanyan
+	+ https://ieeexplore.ieee.org/abstract/document/8823732
+	+ https://eprint.iacr.org/2019/310/20190320:103921
 * Abstract Interpretation under Speculative Execution
 	+ Programming Language Design and Implementation (PLDI) 2019
 	+ Meng Wu & Chao Wang
@@ -423,6 +454,10 @@ See also: [Computer Architecture](comparch.md)
 	+ National Academies of Sciences, Engineering, and Medicine (2019)
 	+ https://doi.org/10.17226/25418
 	+ https://www.nap.edu/catalog/25418/beyond-spectre-confronting-new-technical-and-policy-challenges-proceedings-of
+* CleanupSpec: An Undo Approach to Safe Speculation
+	+ MICRO-52 2019
+	+ Gururaj Saileshwar, Moinuddin K. Qureshi
+	+ http://memlab.ece.gatech.edu/papers/MICRO_2019_3.pdf
 * Conditional Speculation: An Effective Approach to Safeguard Out-of-Order Execution Against Spectre Attacks
 	+ High-Performance Computer Architecture (HPCA) 2019
 	+ Peinan Li, Lutan Zhao, Rui Hou; Lixin Zhang; Dan Meng
@@ -438,6 +473,10 @@ See also: [Computer Architecture](comparch.md)
 	+ Poster: http://myan8.web.engr.illinois.edu/data/InvisiSpec_Poster.pdf
 	+ Lightning talk: https://www.youtube.com/watch?v=mAO5iejYUec
 	+ https://github.com/mjyan0720/InvisiSpec-1.0
+* MI6: Secure Enclaves in a Speculative Out-of-Order Processor
+	+ MICRO-52 2019
+	+ Thomas Bourgeat, Ilia Lebedev, Andrew Wright, Sizhuo Zhang, Arvind, Srinivas Devadas
+	+ https://dl.acm.org/citation.cfm?id=3358310
 * NDA: Preventing Speculative Execution Attacks at Their Source
 	+ MICRO 2019
 	+ Ofir Weisse, Ian Neal, Kevin Loughlin, Thomas Wenisch, Baris Kasikci
@@ -456,6 +495,12 @@ See also: [Computer Architecture](comparch.md)
 	+ arXiv 2019
 	+ Oleksii Oleksenko, Bohdan Trach, Mark Silberstein, Christof Fetzer
 	+ https://arxiv.org/abs/1905.10311
+* SpecShield: Shielding Speculative Data from Microarchitectural Covert Channels
+	+ Parallel Architectures and Compilation Techniques (PACT) 2019
+	+ K. Barber, A. Bacha, L. Zhou, Y. Zhang, R. Teodorescu
+	+ https://anysbacha.github.io/publications/barber_pact19.pdf
+	+ https://anysbacha.github.io/publications/barber_pact19_slides.pdf
+	+ http://web.cse.ohio-state.edu/~teodorescu.1/resources/papers/specshield_pact2019.pdf
 * Spectector: Principled Detection of Speculative Information Flows
 	+ IEEE Symposium on Security & Privacy 2020
 	+ arXiv 2018
@@ -481,9 +526,10 @@ See also: [Computer Architecture](comparch.md)
 	+ 2018 Technical Report
 	+ Abraham Gonzalez, Ben Korpan, Ed Younis, Jerry Zhao
 	+ https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F18/projects/reports/project4_report.pdf
-* Speculative Taint Tracking: A Comprehensive Defense Against Speculative Execution Attacks
+* Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data
 	+ International Symposium on Microarchitecture (MICRO) 2019
 	+ Jiyong Yu, Mengjia Yan, Artem Khyzha, Adam Morrison, Josep Torrellas, Christopher Fletcher
+	+ https://www.cs.tau.ac.il/~mad/publications/micro2019-stt.pdf
 	+ http://iacoma.cs.uiuc.edu/iacoma-papers/micro19_2.pdf
 	+ http://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_micro19_2.pdf
 	+ https://keystone-enclave.org/open-source-enclaves-workshop/slides/OSEW19_ChristopherFletcher_UIUC.pdf
@@ -628,6 +674,12 @@ See also: [Computer Architecture](comparch.md)
 	+ Cryptographic Hardware and Embedded Systems (CHES) 2010
 	+ Onur Aciiçmez, Billy Bob Brumley, Philipp Grabher
 	+ https://www.iacr.org/archive/ches2010/62250105/62250105.pdf
+* Pseudorandom Black Swans: Cache Attacks on CTR_DRBG
+	+ IEEE Symposium on Security & Privacy 2020
+	+ Shaanan Cohney, Andrew Kwong, Shachar Paz, Daniel Genkin, Nadia Heninger, Eyal Ronen, Yuval Yarom
+	+ https://eprint.iacr.org/2019/996
+	+ Research Post: Cache Attacks on CTR_DRBG
+	+ https://security.cohney.info/blackswans/
 * Return-Oriented Flush-Reload Side Channels on ARM and Their Implications for Android Devices
 	+ CCS 2016
 	+ Xiaokuan Zhang, Yuan Xiao, Yinqian Zhang
@@ -644,6 +696,17 @@ See also: [Computer Architecture](comparch.md)
 	+ CSAW 2007
 	+ Onur Aciiçmez
 	+ http://eprint.iacr.org/2007/164
+
+## Cache - Data-Direct I/O (DDIO)
+
+* NetCAT: Practical Cache Attacks from the Network
+	+ S&P 2020
+	+ Kurth, M.; Gras, B.; Andriesse, D.; Giuffrida, C.; Bos, H.; and Razavi, K.
+	+ https://www.vusec.net/projects/netcat/
+* Packet Chasing: Spying on Network Packets over a Cache Side-Channel
+	+ arXiv 2019
+	+ Mohammadkazem Taram, Ashish Venkat, Dean Tullsen
+	+ https://arxiv.org/abs/1909.04841
 
 ---
 
@@ -723,12 +786,23 @@ See also: [Computer Architecture](comparch.md)
 # Electromagnetic (EM) Emanations
 
 * A Method for Efficient Localization of Magnetic-field Sources Excited by the Execution of Instructions in a Processor
-	+ 2017, IEEE Transactions on Electromagnetic Compatibility
+	+ 2017 IEEE Transactions on Electromagnetic Compatibility
+	+ F. Werner, D. A. Chu, A. R. Djordjevic, D. I. Olcan, M. Prvulovic, and A. Zajic.
+	+ https://doi.org/10.1109/TEMC.2017.2742501
 	+ http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2017/10/TEMC_245_2017.pdf
+* A Practical Methodology for Measuring the Side-Channel Signal Available to the Attacker for Instruction-Level Events
+	+ MICRO-47 2014
+	+ Robert Callan, Alenka Zajić, Milos Prvulovic
+	+ https://www.cc.gatech.edu/home/milos/Papers/2014_MICRO_SAVAT.pdf
 * A Survey of Electromagnetic Side-Channel Attacks and Discussion on their Case-Progressing Potential for Digital Forensics
 	+ Digital Investigation, Volume 29, June 2019
 	+ Asanka Sayakkara, Nhien-An Le-Khac, Mark Scanlon
 	+ https://arxiv.org/abs/1903.07703
+* An Algorithm for Finding Carriers of Amplitude-modulated Electromagnetic Emanations in Computer Systems
+	+ 2016 10th European Conference on Antennas and Propagation (EuCAP)
+	+ C. Wang, R. Callan, A. Zajic, M. Prvulovic
+	+ https://doi.org/10.1109/EuCAP.2016.7481633
+	+ http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2016/08/EUCap16.pdf
 * Capacity of the EM Covert/Side-Channel Created by the Execution of Instructions in a Processor
 	+ 2017, IEEE Transactions on Information Forensics and Security
 	+ http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2017/10/T-IFS-07378-2017.pdf
@@ -747,6 +821,11 @@ See also: [Computer Architecture](comparch.md)
 	+ MICRO-51 (2018)
 	+ Moumita Dey, Alireza Nazari, Alenka Zajic, Milos Prvulovic
 	+ Lightning Talk - https://www.youtube.com/watch?v=GCgnEJk_LCQ
+	+ https://www.researchgate.net/publication/329654406_EMPROF_Memory_Profiling_Via_EM-Emanation_in_IoT_and_Hand-Held_Devices
+* FASE: Finding Amplitude-modulated Side-channel Emanations
+	+ ISCA 2015
+	+ Robert Callan, Alenka Zajic, Milos Prvulovic
+	+ https://www.cc.gatech.edu/~milos/Papers/2015_ISCA_FASE.pdf
 * MagneticSpy: Exploiting Magnetometer in Mobile Devices for Website and Application Fingerprinting
 	+ arXiv 2019
 	+ Nikolay Matyunin, Yujue Wang, Tolga Arul, Jakub Szefer, Stefan Katzenbeisser
@@ -893,6 +972,10 @@ See also: [Computer Architecture](comparch.md)
 
 ## FPGA attacks countermeasures
 
+* Active Fences against Voltage-based Side Channels in Multi-Tenant FPGAs
+	+ ICCAD 2019 
+	+ Jonas Krautter, Dennis R.E. Gnad, Falk Schellenberg, Amir Moradi, Mehdi B. Tahoori
+	+ https://eprint.iacr.org/2019/1152
 * Checking for Electrical Level Security Threats in Bitstreams for Multi-Tenant FPGAs
 	+ 2018 International Conference on Field-Programmable Technology (FPT)
 	+ Dennis R.E. Gnad, S. Rapp, J. Krautter, Mehdi B. Tahoori
@@ -967,6 +1050,10 @@ See also: [Computer Architecture](comparch.md)
 	+ http://www.cs.ucr.edu/~zhiyunq/pub/ccs18_gpu_side_channel.pdf
 	+ http://www.cs.ucr.edu/~nael/pubs/ccs18.pdf
 	+ https://www.youtube.com/watch?v=lFspD48dahc
+* Side Channel Attacks on GPUs
+	+ IEEE Transactions on Dependable and Secure Computing (TDSC) 2019
+	+ H. NaghibiJouybari, A. Neupane, Z. Qian, N. Abu-Ghazaleh
+	+ http://dx.doi.org/10.1109/TDSC.2019.2944624
 
 ---
 
@@ -1180,6 +1267,10 @@ See also: [Computer Architecture](comparch.md)
 	+ Cryptographic Hardware and Embedded Systems (CHES) 2017
 	+ Ahmad Moghimi, Gorka Irazoqui, Thomas Eisenbarth
 	+ https://arxiv.org/abs/1703.06986
+* Exploitable Hardware Features and Vulnerabilities Enhanced Side-Channel Attacks on Intel SGX and Their Countermeasures
+	+ 2019 PhD Dissertation; Chen, Guoxing
+	+ http://rave.ohiolink.edu/etdc/view?acc_num=osu1554949268465917
+	+ https://etd.ohiolink.edu/pg_10?0::NO:10:P10_ACCESSION_NUM:osu1554949268465917
 * Inferring Fine-grained Control Flow Inside SGX Enclaves with Branch Shadowing
 	+ USENIX Security 2017
 	+ https://arxiv.org/abs/1611.06952
@@ -1462,6 +1553,9 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 * Oh No! KPTI Defeated, Unauthorized Data Leakage is Still Possible
 	+ Black Hat Asia 2019
 	+ https://www.blackhat.com/asia-19/briefings/schedule/index.html#oh-no-kpti-defeated-unauthorized-data-leakage-is-still-possible-13945
+* Spectre/C++: Preventing Spectre One Branch at a Time: The Design and Implementation of Fine Grained Spectre v1 Mitigation APIs
+	+ CppCon 2019; Zola Bridges, Devin Jeanpierre
+	+ https://www.youtube.com/watch?v=ehNkhmEg0bw
 * What Spectre Means for Language Implementers
 	+ Programming Language Implementation Summer School (PLISS) 2019
 	+ Ben Titzer
