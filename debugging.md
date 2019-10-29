@@ -2,6 +2,7 @@
 
 See also:
 
+* [Debugging - tracing](https://github.com/MattPD/cpplinks/blob/master/debugging.tracing.md): [Readings](https://github.com/MattPD/cpplinks/blob/master/debugging.tracing.md#readings); [Software](https://github.com/MattPD/cpplinks/blob/master/debugging.tracing.md#software); [Talks](https://github.com/MattPD/cpplinks/blob/master/debugging.tracing.md#talks)
 * [Executables](executables.md):
 	+ [DWARF](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-2), [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-2), [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-2)
 	+ [PDB](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-program-database): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-5), [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-5), [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-5)
@@ -21,7 +22,7 @@ See also:
 	+ [GDB](#gdb): [Projects](#projects), [Readings](#readings-1), [Talks](#talks)
 	+ [LLDB](#lldb): [Projects](#projects-1), [Readings](#readings-2), [Talks](#talks-1)
 	+ [RR](#rr)
-	+ [OS-specific](#os-specific): [Linux](#linux), [macOS](#macos), [Windows](#windows) - [WinDbg](#windbg)
+	+ [OS-specific](#os-specific): [iOS](#iOS), [Linux](#linux), [macOS](#macos), [Windows](#windows) - [WinDbg](#windbg)
 	+ [Stack Trace & Unwinding](#stack-trace--unwinding)
 * [Talks](#talks-2): [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
 
@@ -42,16 +43,17 @@ See also:
 	+ General GLIBC Debugging Techniques - http://sourceware.org/glibc/wiki/Debugging/Development_Debugging
 	+ GDB pretty-printers for GLIBC
 		- http://sourceware.org/glibc/wiki/Debugging/Pretty_Printers
-	+ GDB pretty-printers for libc++
-		- https://github.com/llvm/llvm-project/blob/master/libcxx/utils/gdb/libcxx/printers.py
-		- https://chromium.googlesource.com/chromium/src/+/master/third_party/libcxx-pretty-printers/printers.py
-		- https://github.com/koutheir/libcxx-pretty-printers
 	+ Debugging the Loader - https://sourceware.org/glibc/wiki/Debugging/Loader_Debugging
 	+ Backtraces - http://www.gnu.org/software/libc/manual/html_node/Backtraces.html
 	+ Allocation Debugging - http://www.gnu.org/software/libc/manual/html_node/Allocation-Debugging.html
 * libstdc++ Debug Mode: https://gcc.gnu.org/onlinedocs/libstdc++/manual/debug_mode.html
 	+ Detecting incorrect C++ STL usage (libstdc++) - https://kristerw.blogspot.com/2018/03/detecting-incorrect-c-stl-usage.html
-* libc++ Debug Mode: https://libcxx.llvm.org/docs/DesignDocs/DebugMode.html
+* libc++
+	+ Debug Mode: https://libcxx.llvm.org/docs/DesignDocs/DebugMode.html
+	+ GDB pretty-printers for libc++
+		- https://github.com/llvm/llvm-project/blob/master/libcxx/utils/gdb/libcxx/printers.py
+		- https://chromium.googlesource.com/chromium/src/+/master/third_party/libcxx-pretty-printers/printers.py
+		- https://github.com/koutheir/libcxx-pretty-printers
 * Visual C++ Debug Iterator Support: https://docs.microsoft.com/en-us/cpp/standard-library/debug-iterator-support
 
 ---
@@ -162,6 +164,10 @@ _Books, Books Reviews_
 * Framework for Instruction-level Tracing and Analysis of Program Executions
 	+ Virtual Execution Environments (VEE) 2006
 	+ https://www.usenix.org/legacy/events/vee06/full_papers/p154-bhansali.pdf
+	+ iDNA: Time Travel Debugging
+		- Instruction-level Tracing: Framework & Applications
+		- Sanjay Bhansali 
+		- http://www.cs.wisc.edu/areas/pl/seminar/fall05/Bhansali.ppt
 * GCC gOlogy: studying the impact of optimizations on debugging
 	+ http://www.fsfla.org/~lxoliva/writeups/gOlogy/gOlogy.txt
 	+ GNU Tools Cauldron 2018 slides: http://people.redhat.com/aoliva/writeups/gOlogy/slides.pdf
@@ -243,7 +249,7 @@ _Books, Books Reviews_
 
 ## Reverse Debugging
 
-See also: [RR](#rr)
+See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.md#time-travel-debugging)
 
 * A Review of Reverse Debugging
 	+ System, Software, SoC and Silicon Debug Conference (S4D) 2012
@@ -266,10 +272,6 @@ See also: [RR](#rr)
 	+ full version - http://www.cs.umd.edu/~mwh/papers/khoo13expositor-journal.html
 	+ Scriptable time-travel debugging Python library for GDB/UndoDB
 		- https://bitbucket.org/khooyp/expositor/src/default/
-* iDNA: Time Travel Debugging
-	+ Instruction-level Tracing: Framework & Applications
-	+ Sanjay Bhansali 
-	+ http://www.cs.wisc.edu/areas/pl/seminar/fall05/Bhansali.ppt
 * Improving the performance of reverse debugging
 	+ Programming and Computer Software 43(1) 2017
 	+ Klimushenkova, M.A. & Dovgalyuk, P.M.
@@ -527,6 +529,7 @@ See also: [RR](#rr)
 * Beej's Quick Guide to GDB - https://beej.us/guide/bggdb/
 * Cheatsheet - https://github.com/jshaw87/Cheatsheets/blob/master/Cheatsheet_GDB.txt
 * Displaying Stack Frames in gdb with Python - http://jefftrull.github.io/c++/gdb/python/2018/03/02/print-frame.html
+* Fast Tracing with GDB - https://suchakra.wordpress.com/2016/06/29/fast-tracing-with-gdb/
 * GDB Basics Tutorial - https://platform.avatao.com/paths/a0dc20fc-f1b5-43c9-89fc-3a5fccfb5f0b/challenges/166366b3-2e89-49ee-86a3-023663d197b7
 * GDB Debugging Automation with Python: Implementing a memory leak detector - https://nativecoding.wordpress.com/2016/07/31/gdb-debugging-automation-with-python/
 * gdb Debugging Full Example (Tutorial): ncurses - http://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html
@@ -698,10 +701,23 @@ See also: [RR](#rr)
 
 ## OS-specific
 
+### iOS
+
+* KTRW: An iOS kernel debugger based on a KTRR bypass for A11 iPhones that works with LLDB
+	+ https://github.com/googleprojectzero/ktrw
+	+ KTRW: The journey to build a debuggable iPhone
+		- https://googleprojectzero.blogspot.com/2019/10/ktrw-journey-to-build-debuggable-iphone.html
+
 ### Linux
 
+* debuginfod
+	+ Introducing debuginfod, the elfutils debuginfo server
+		- https://developers.redhat.com/blog/2019/10/14/introducing-debuginfod-the-elfutils-debuginfo-server/
 * edb: a cross platform x86/x86-64 debugger
 	+ https://github.com/eteran/edb-debugger
+* libthread_db
+	+ Notes about an odd, esoteric, yet incredibly useful library: libthread_db
+		- http://timetobleed.com/notes-about-an-odd-esoteric-yet-incredibly-useful-library-libthread_db/
 * ORC (Oops Rewind Capability) Unwinder
 	+ [Commit ee9f8fce9964](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ee9f8fce99640811b2b8e79d0d1dbe8bab69ba67)
 	+ [Commit 39358a033b2e](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=39358a033b2e4432052265c1fa0f36f572d8cfb5)
@@ -709,8 +725,6 @@ See also: [RR](#rr)
 	+ The Linux x86 ORC Stack Unwinder - http://www.codeblueprint.co.uk/2017/07/31/the-orc-unwinder.html
 	+ The ORCs are coming - https://lwn.net/Articles/728339/
 	+ x86: ORC unwinder (previously undwarf) - https://lwn.net/Articles/727553/
-* Notes about an odd, esoteric, yet incredibly useful library: libthread_db
-	+ http://timetobleed.com/notes-about-an-odd-esoteric-yet-incredibly-useful-library-libthread_db/
 * plutonium-dbg: A kernel-based debugger for Linux applications
 	+ https://github.com/plutonium-dbg/plutonium-dbg
 	+ Kernel-Assisted Debugging of Linux Applications
