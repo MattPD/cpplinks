@@ -14,6 +14,7 @@
 	- [Autotools](#autotools)
 	- [Bazel](#bazel)
 	- [Boost.Build](#boost-build)
+	- [build2](#build2)
 	- [CMake](#cmake):
 		- [CMake Examples](#cmake-examples)
 		- [CMake Readings](#cmake-readings)
@@ -227,7 +228,7 @@
 	- https://ccache.samba.org
 - distcc: A free distributed C/C++ compiler system
 	- https://github.com/distcc/distcc
-- icecream
+- icecream: Distributed compiler with a central scheduler to share build load
 	- https://github.com/icecc/icecream
 - sccache - Shared Compilation Cache
 	- https://github.com/mozilla/sccache
@@ -296,6 +297,15 @@
 	- BoostCon 2011; Boris Schaeling
 	- https://www.youtube.com/watch?v=OgYwvzUUupM
 	- https://github.com/boostcon/2011_presentations/raw/master/mon/Boost.Build.pdf
+
+## build2
+
+- build2: C++ Build Toolchain
+	- https://build2.org/
+	- https://github.com/build2/
+- C++ Dependency Management: from Package Consumption to Project Development
+	- CppCon 2018; Boris Kolpackov
+	- https://www.youtube.com/watch?v=Nni2Qu2WitY
 
 ## CMake
 
@@ -600,9 +610,6 @@
 - Build Systems: a Simple Solution to a Complicated Problem
 	- CppCon 2018; Peter Bindels
 	- https://www.youtube.com/watch?v=mWOmkwv8N_U
-- C++ Dependency Management: from Package Consumption to Project Development
-	- CppCon 2018; Boris Kolpackov
-	- https://www.youtube.com/watch?v=Nni2Qu2WitY
 - Creating the Complete Build Package
 	- CppCon 2018
 	- Panelists: Boris Kolpackov, Titus Winter, Robert Schumacher, Paddy McDonald, Manuel Klimek
