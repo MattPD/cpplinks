@@ -204,12 +204,12 @@
 	- https://www.youtube.com/watch?v=h8UoYG4dvH8
 - The Hitchhiker's Guide to Faster Builds
 	- Viktor Kirilov
-	- CppOnSea 2019 - https://slides.com/onqtam/faster_builds
-	- Total Chaos 2018 - https://www.youtube.com/watch?v=E8I3NJf-uQw
+	- slides: https://slides.com/onqtam/faster_builds
+	- CppOnSea 2019 - https://www.youtube.com/watch?v=anbOy47fBYI
+	- C++ Russia 2019 - https://www.youtube.com/watch?v=5rRLHRRqg5A
 	- code::dive 2018
 		- Part 1: https://www.youtube.com/watch?v=WSFbNhCbdJM
 		- Part 2: https://www.youtube.com/watch?v=9-Y5JnJlypM
-	- C++ Russia 2019 - https://www.youtube.com/watch?v=5rRLHRRqg5A
 
 ---
 
