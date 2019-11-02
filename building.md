@@ -3,14 +3,20 @@
 # Contents
 
 - [Readings](#readings):
+	- [Caching](#caching)
+	- [Correctness](#correctness)
+	- [Dependencies](#dependencies)
+	- [Distributed](#distributed)
 	- [Incremental Building](#incremental-building)
 	- [Reproducibility](#reproducibility)
 - [Build Performance](#build-performance):
 	- [Build Performance Readings](#build-performance-readings)
 	- [Build Performance Software](#build-performance-software)
+		- [Benchmarking and Profiling](#benchmarking-and-profiling)
+		- [Caching](#caching-1)
+		- [Dependencies Analysis and Optimization](#dependencies-analysis-and-optimization)
 	- [Build Performance Talks](#build-performance-talks)
 - [Software](#software):
-	- [Caching](#caching)
 	- [Autotools](#autotools)
 	- [Bazel](#bazel)
 	- [Boost.Build](#boost-build)
@@ -30,17 +36,13 @@
 	- [Visual Studio](#visual-studio):
 		- [MSBuild](#msbuild)
 	- [Xcode](#Xcode)
+	- [xmake](#xmake)
 - [Talks](#talks): [2019](#2019), [2018](#2018), [2017](#2017)
 
 ---
 
 # Readings
 
-- Build Predictor: More Accurate Missed Dependency Prediction in Build Configuration Files
-	- Computer Software and Applications Conference (COMPSAC 2014)
-	- Bo Zhou, Xia Xin, David Lo, Xinyu Wang
-	- http://www.mysmu.edu/faculty/davidlo/papers/compsac14-dependency.pdf
-	- https://www.semanticscholar.org/paper/Build-Predictor%3A-More-Accurate-Missed-Dependency-in-Zhou-Xia/a4d4b05c8594fc7358a89f0afffb7e405b65fa0d
 - Build Systems à la Carte
 	- Microsoft Research 2018
 	- Andrey Mokhov, Neil Mitchell, Simon Peyton Jones
@@ -63,14 +65,29 @@
 	- IEEE Software, vol. 35, no. 2, 2018
 	- G. Maudoux and K. Mens
 	- https://doi.ieeecomputersociety.org/10.1109/MS.2018.111095025
-- mtime comparison considered harmful
-	- "tl;dr: Rebuilding a target because its mtime is older than the mtimes of its dependencies, like make does, is very error prone. redo does it better, and so can you."
-	- https://apenwarr.ca/log/20181113
-- Non-recursive Make Considered Harmful
-	- Proceedings of the 9th International Symposium on Haskell, 2016
-	- Andrey Mokhov, Neil Mitchell, Simon Peyton Jones, Simon Marlow
-	- https://www.microsoft.com/en-us/research/publication/non-recursive-make-considered-harmful/
-	- https://simonmar.github.io/bib/shake-2016_abstract.html
+- The C++ Build Process Explained
+	- https://github.com/green7ea/cpp-compilation
+
+## Caching
+
+- Caching Function Calls Using Precise Dependencies
+	- Programming Language Design and Implementation (PLDI) 2000
+	- Allan Heydon, Roy Levin, Yuan Yu
+	- http://www.vestasys.org/doc/pubs/pldi-00-04-20.pdf
+	- Vesta Configuration Management System - http://www.vestasys.org/#publications
+- cHash: Detection of Redundant Compilations via AST Hashing
+	- USENIX Annual Technical Conference 2017
+	- Christian Dietrich, Valentin Rothberg, Ludwig Füracker, Andreas Ziegler, Daniel Lohmann
+	- https://www.usenix.org/conference/atc17/technical-sessions/presentation/dietrich
+	- cHash Compiler Plugins and related tools - https://github.com/luhsra/chash
+
+## Correctness
+
+- Detecting Incorrect Build Rules
+	- International Conference on Software Engineering (ICSE) 2019
+	- Nandor Licker, Andrew Rice
+	- https://2019.icse-conferences.org/details/icse-2019-Technical-Papers/82/Detecting-Incorrect-Build-Rules
+	- https://www.repository.cam.ac.uk/handle/1810/288468
 - Oops, My Tests Broke the Build: An Explorative Analysis of Travis CI with GitHub
 	- Mining Software Repositories (MSR) 2017
 	- M. Beller, G. Gousios, A. Zaidman
@@ -80,12 +97,60 @@
 	- International Conference on Software Engineering (ICSE) 2014
 	- Hyunmin Seo, Caitlin Sadowski, Sebastian Elbaum, Edward Aftandilian, Robert Bowdidge
 	- https://research.google.com/pubs/pub42184.html
+
+## Dependencies
+
+- Automatic Object Linkage, with Include Graphs (Source code sharing without static libraries)
+	- 2018; Thomas Young
+	- https://upcoder.com/19/automatic-object-linkage-with-include-graphs
+- Build Predictor: More Accurate Missed Dependency Prediction in Build Configuration Files
+	- Computer Software and Applications Conference (COMPSAC 2014)
+	- Bo Zhou, Xia Xin, David Lo, Xinyu Wang
+	- http://www.mysmu.edu/faculty/davidlo/papers/compsac14-dependency.pdf
+	- https://www.semanticscholar.org/paper/Build-Predictor%3A-More-Accurate-Missed-Dependency-in-Zhou-Xia/a4d4b05c8594fc7358a89f0afffb7e405b65fa0d
+- LLVM with Program Repository Support
+	- https://github.com/SNSystems/llvm-project-prepo
+	- Program Repository: What’s the Idea?
+		- https://github.com/SNSystems/llvm-project-prepo/wiki
+	- Early Overview
+		- https://github.com/SNSystems/llvm-project-prepo/wiki/Early-Overview
+	- Toy programming demo of a repository for statically compiled programs
+		- 2016 US LLVM Developers' Meeting; Paul Bowen-Huggett
+		- https://llvm.org/devmtg/2016-11/Slides/Bowen-Hugett-ToyProgrammingDemo.pdf
+		- https://youtu.be/-pL94rqyQ6c
+	- Targeting a statically compiled program repository with LLVM
+		- 2019 EuroLLVM Developers’ Meeting; Phil Camp , Russell Gallop 
+		- https://www.youtube.com/watch?v=mlQyEBDnDJE 
+		- http://llvm.org/devmtg/2019-04/slides/Lightning-Camp-Program_Repo.pdf
+- mtime comparison considered harmful
+	- "tl;dr: Rebuilding a target because its mtime is older than the mtimes of its dependencies, like make does, is very error prone. redo does it better, and so can you."
+	- https://apenwarr.ca/log/20181113
+- Non-recursive Make Considered Harmful
+	- Proceedings of the 9th International Symposium on Haskell, 2016
+	- Andrey Mokhov, Neil Mitchell, Simon Peyton Jones, Simon Marlow
+	- https://www.microsoft.com/en-us/research/publication/non-recursive-make-considered-harmful/
+	- https://simonmar.github.io/bib/shake-2016_abstract.html
 - Recursive Make Considered Harmful 
 	- Journal of AUUG Inc, 19(1):14–25, 1998
+	- Peter Miller
 	- http://aegis.sourceforge.net/auug97.pdf
 	- http://sites.e-advies.nl/nonrecursive-make.html
-- The C++ Build Process Explained
-	- https://github.com/green7ea/cpp-compilation
+
+## Distributed
+
+- CloudBuild: Microsoft’s Distributed and Caching Build Service
+	- International Conference on Software Engineering (ICSE) 2016
+	- Hamed Esfahani, Jonas Fietz, Qi Ke, Alexei Kolomiets, Erica Lan, Erik Mavrinac, Wolfram Schulte, Newton Sanches, Srikanth Kandula
+	- https://dl.acm.org/citation.cfm?id=2889222
+	- https://www.microsoft.com/en-us/research/publication/cloudbuild-microsofts-distributed-and-caching-build-service/
+- From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of Transient Functional Containers
+	- 2019 USENIX Annual Technical Conference
+	- Sadjad Fouladi, Francisco Romero, Dan Iter, Qian Li, Shuvo Chatterjee, Christos Kozyrakis, Matei Zaharia, Keith Winstein
+	- https://www.usenix.org/conference/atc19/presentation/fouladi
+	- Outsourcing Everyday Jobs to Thousands of Cloud Functions with gg
+		- https://www.usenix.org/system/files/login/articles/login_fall19_02_fouladi.pdf
+	- gg: The Stanford Builder
+		- https://github.com/stanfordsnr/gg
 
 ## Incremental Building
 
@@ -144,9 +209,9 @@
 		- http://aras-p.info/blog/2019/01/21/Another-cool-MSVC-flag-d1reportTime/
 		- Reports where the compiler frontend spends time.
 		- Passing /d1reportTime to the MSVC compiler (cl.exe) will make it print:
-		- Which header files are included (hierarchically), with time taken for each,
-		- Which classes are being parsed, with time taken for each,
-		- Which functions are being parsed, with time taken for each.
+			- Which header files are included (hierarchically), with time taken for each,
+			- Which classes are being parsed, with time taken for each,
+			- Which functions are being parsed, with time taken for each.
 - C++ Compilation Speed
 	- Walter Bright - DDJ, August 17, 2010
 	- https://digitalmars.com/articles/b54.html
@@ -155,14 +220,29 @@
 	- http://virtuallyrandom.com/c-compilation-fixing-it/
 - Faster C++ builds
 	- http://www.bitsnbites.eu/faster-c-builds/
+- Identifying and Understanding Header File Hotspots in C/C++ Build Processes
+	- Automated Software Engineering, Vol. 23, No. 4, 2016
+	- Shane McIntosh, Bram Adams, Meiyappan Nagappan, Ahmed E. Hassan
+	- http://rebels.ece.mcgill.ca/journalpaper/2015/07/08/identifying-and-understanding-header-file-hotspots-in-c-cpp-build-processes.html
 - Physical Design of The Machinery
 	- http://ourmachinery.com/post/physical-design/
+- Reducing Build Time through Precompilations for Evolving Large Software
+	- International Conference on Software Maintenance (ICSM) 2005
+	- Yu, Yijun; Dayani-Fard, Homayoun; Mylopoulos, John and Andritsos, Periklis 
+	- http://www.cs.toronto.edu/%7Eperiklis/pubs/icsm05.pdf
+	- http://oro.open.ac.uk/6944/
 - To Unify or Not to Unify: A Case Study on Unified Builds (in WebKit)
 	- Compiler Construction (CC) 2019
 	- Takafumi Kubota, Yusuke Suzuki, and Kenji Kono
 	- https://doi.org/10.1145/3302516.3307347
 
 ## Build Performance Software
+
+- Cotire (compile time reducer)
+	- a CMake module that speeds up the build process of CMake based build systems by fully automating techniques as precompiled header usage and single compilation unit builds for C and C++.
+	- https://github.com/sakra/cotire
+
+### Benchmarking and Profiling
 
 - Clang -ftime-trace and ftime-trace-granularity=N
 	- http://releases.llvm.org/9.0.0/tools/clang/docs/ReleaseNotes.html#new-compiler-flags
@@ -174,18 +254,45 @@
 		- https://aras-p.info/blog/2019/09/28/Clang-Build-Analyzer/
 		- time-trace: timeline / flame chart profiler for Clang
 			- https://aras-p.info/blog/2019/01/16/time-trace-timeline-flame-chart-profiler-for-Clang/
-- Cotire (compile time reducer)
-	- a CMake module that speeds up the build process of CMake based build systems by fully automating techniques as precompiled header usage and single compilation unit builds for C and C++.
-	- https://github.com/sakra/cotire
-- cpp-dependencies: Tool to check C++ #include dependencies (dependency graphs created in .dot format)
-	- https://github.com/tomtom-international/cpp-dependencies
 - CTMark (Compile Time Mark)
 	- https://github.com/llvm-mirror/test-suite/tree/master/CTMark
+- Metabench: A simple framework for compile-time microbenchmarks
+	- http://metaben.ch/
+	- https://github.com/ldionne/metabench
+- Templight: Template Instantiation Profiler and Debugger
+	- a Clang-based tool to profile the time and memory consumption of template instantiations and to perform interactive debugging sessions to gain introspection into the template instantiation process
+	- https://github.com/mikael-s-persson/templight
+	- Use templight and Templar to debug C++ templates
+		- https://baptiste-wicht.com/posts/2016/02/use-templight-and-templar-to-debug-cpp-templates.html
+	- Templight: A Clang Extension for Debugging and Profiling C++ Template Metaprograms
+		- 2015 EuroLLVM Developers’ Meeting, Zoltan Porkolab
+		- https://llvm.org/devmtg/2015-04/slides/EuroLLVM2015Templight.pdf
+		- https://www.youtube.com/watch?v=djAPtopWhRU
+
+### Caching
+
+- ccache: A Fast C/C++ Compiler Cache
+	- https://ccache.samba.org
+- distcc: A free distributed C/C++ compiler system
+	- https://github.com/distcc/distcc
+- icecream: Distributed compiler with a central scheduler to share build load
+	- https://github.com/icecc/icecream
+- sccache - Shared Compilation Cache
+	- https://github.com/mozilla/sccache
+
+### Dependencies Analysis and Optimization
+
+- cpp-dependencies: Tool to check C++ #include dependencies (dependency graphs created in .dot format)
+	- https://github.com/tomtom-international/cpp-dependencies
 - Header Hero: optimizing C++ codebase header #include dependencies
 	- A tool for optimizing C++ header files and reducing build times.
 	- https://bitbucket.org/bitsquid/header_hero
 	- https://bitsquid.blogspot.com/2011/10/caring-by-sharing-header-hero.html
 	- https://aras-p.info/blog/2018/01/17/Header-Hero-Improvements/
+- include-what-you-use
+	- A tool for use with clang to analyze #includes in C and C++ source files
+	- https://include-what-you-use.org/
+	- https://github.com/include-what-you-use/include-what-you-use
 
 ## Build Performance Talks
 
@@ -222,17 +329,6 @@
 	- Debug your build by tracing and reversing: stracing your build from sources to binaries
 		- https://fosdem.org/2018/schedule/event/debugging_tools_stracing_build/
 
-## Caching
-
-- ccache: A Fast C/C++ Compiler Cache
-	- https://ccache.samba.org
-- distcc: A free distributed C/C++ compiler system
-	- https://github.com/distcc/distcc
-- icecream: Distributed compiler with a central scheduler to share build load
-	- https://github.com/icecc/icecream
-- sccache - Shared Compilation Cache
-	- https://github.com/mozilla/sccache
-
 ## Autotools
 
 - Autoconf / Automake Basics
@@ -252,11 +348,15 @@
 - Autotools: a practitioner's guide to Autoconf, Automake and Libtool
 	- http://freesoftwaremagazine.com/books/autotools_a_guide_to_autoconf_automake_libtool/
 - Four Languages and Lots of Macros: Analyzing Autotools Build Systems
+	- GPCE 2017
+	- Jafar M. Al-Kofahi, Suresh Kothari, Christian Kästner
 	- https://conf.researchr.org/event/gpce-2017/gpce-2017-gpce-2017-four-languages-and-lots-of-macros-analyzing-autotools-build-systems
 	- https://www.cs.cmu.edu/~ckaestne/pdf/gpce17.pdf
 - GNU Autoconf: A uniform means of creating makefiles at build time
 	- Ethan McCallum - C/C++ Users Journal, January 2006
 	- http://collaboration.cmc.ec.gc.ca/science/rpn/biblio/ddj/Website/articles/CUJ/2006/0601/0601mccallum/0601mccallum.html
+	- https://web.archive.org/http://www.drdobbs.com/gnu-autoconf/184402060
+	- https://web.archive.org/http://collaboration.cmc.ec.gc.ca/science/rpn/biblio/ddj/Website/articles/CUJ/2006/0601/0601mccallum/0601mccallum.html
 - GNU Autoconf, Automake and Libtool
 	- https://www.sourceware.org/autobook/
 - Minimal autotools template for C++11/14 projects
@@ -394,6 +494,9 @@
 	- https://github.com/biojppm/cmany
 - configure-cmake: autotools-style configure script wrapper around CMake
 	- https://github.com/nemequ/configure-cmake
+- CPM.cmake
+	- CMake's missing package manager. A small CMake script for setup-free, cross-platform and reproducible dependency management.
+	- https://github.com/TheLartians/CPM.cmake
 - Izzy's eXtension Modules: Make CMake less painful when trying to write Modern Flexible CMake
 	- https://github.com/slurps-mad-rips/ixm
 - ucm - useful cmake macros
@@ -525,6 +628,11 @@
 	- http://mesonbuild.com/
 	- https://mesonbuild.com/Videos.html
 	- https://github.com/mesonbuild/meson
+- Getting started with Meson build system and C++
+	- https://medium.com/@germandiagogomez/getting-started-with-meson-build-system-and-c-83270f444bee
+	- https://medium.com/@germandiagogomez/getting-started-with-meson-in-c-part-2-58150354ff17
+	- https://medium.com/@germandiagogomez/getting-started-with-meson-in-c-part-3-70b9bc419957
+	- https://medium.com/@germandiagogomez/getting-started-with-meson-part-4-8bceec6149e1
 
 ## Ninja
 
@@ -594,6 +702,12 @@
 - xcbuild-debugging-tricks
 	- Xcode new build system debugging tricks 
 	- https://gist.github.com/ddunbar/2dda0e836c855ea96759d1d05f086d69
+
+## xmake
+
+- xmake: A cross-platform build utility based on Lua
+	- https://xmake.io/
+	- https://github.com/xmake-io/xmake/
 
 ---
 
