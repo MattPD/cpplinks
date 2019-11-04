@@ -34,11 +34,9 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 	- Synchronization-Aware Architecture-Agnostic Traces for Lightweight Multicore Simulation of CMP and HPC Workloads
 		- 2018 ACM Transactions on Architecture and Code Optimization (TACO) 15(1)
 		- http://vlsi.ece.drexel.edu/images/b/b1/ST_2018.pdf
-	- SynchroTrace: Synchronization-awareArchitecture-agnostic Traces for Light-Weight Multicore Simulation
+	- SynchroTrace: Synchronization-aware Architecture-agnostic Traces for Light-Weight Multicore Simulation
 		- 2015 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
 		- http://dpac.ece.drexel.edu/wp-content/uploads/2013/04/SynchroTrace.pdf
-
-- Tracing Summit - http://tracingsummit.org/
 
 ## Hardware Assistance / Processor Tracing
 
@@ -83,13 +81,32 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 	- Simple-PT: Simple Intel CPU processor tracing on Linux
 		- https://github.com/andikleen/simple-pt
 - Intel Processor Trace
-	- 1. Enhance performance analysis with Intel Processor Trace - https://easyperf.net/blog/2019/08/23/Intel-Processor-Trace
-	- 2. Better debugging experience - https://easyperf.net/blog/2019/08/30/Intel-PT-part2
-	- 3. Analyzing performance glitches - https://easyperf.net/blog/2019/09/06/Intel-PT-part3
-	- 4. Better profiling experience - https://easyperf.net/blog/2019/09/13/Intel-PT-part4
+	- Enhance performance analysis with Intel Processor Trace - https://easyperf.net/blog/2019/08/23/Intel-Processor-Trace
+	- Better debugging experience - https://easyperf.net/blog/2019/08/30/Intel-PT-part2
+	- Analyzing performance glitches - https://easyperf.net/blog/2019/09/06/Intel-PT-part3
+	- Better profiling experience - https://easyperf.net/blog/2019/09/13/Intel-PT-part4
+- Failure Sketches: A Better Way to Debug
+	- HotOS 2015
+	- Baris Kasikci, Benjamin Schubert, Cristiano Pereira, Gilles Pokam, Madan Musuvathi, George Candea 
+	- https://www.usenix.org/conference/hotos15/workshop-program/presentation/kasikci
+	- http://dslab.epfl.ch/pubs/failure-sketches.pdf
+	- https://web.eecs.umich.edu/~barisk/public/fs-slides.pdf
+- Failure Sketching: A Technique for Automated Root Cause Diagnosis of In-Production Failures
+	- Symposium on Operating Systems Principles (SOSP) 2015
+	- Baris Kasikci, Benjamin Schubert, Cristiano Pereira, Gilles Pokam, George Candea
+	- https://www.youtube.com/watch?v=99hXVFe33w8
+	- http://dslab.epfl.ch/proj/gist/
+	- http://dslab.epfl.ch/pubs/gist.pdf
+	- https://web.eecs.umich.edu/~barisk/public/gist-slides.pdf
+	- https://blog.acolyer.org/2015/10/12/failure-sketching-a-technique-for-automated-root-cause-diagnosis-of-in-production-failures/
 - Fuzzing
 	- Internals of Hongfuzz - Intel PT
 		- https://tunnelshade.in/blog/2018/09/hongfuzz-intel-pt-instrumentation/
+	- PTrix: Efficient Hardware-Assisted Fuzzing for COTS Binary
+		- 2019 Asia Conference on Computer and Communications Security (AsiaCCS)
+		- Yaohui Chen, Dongliang Mu, Jun Xu, Zhichuang Sun, Wenbo Shen, Xinyu Xing, Long Lu, Bing Mao
+		- https://arxiv.org/abs/1905.10499
+		- https://github.com/junxzm1990/afl-pt
 	- WinAFL Intel PT mode
 		- https://github.com/googleprojectzero/winafl/blob/master/readme_pt.md
 - Intel PT Micro Tutorial - Google Sites
@@ -100,10 +117,14 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 - Linux perf Documentation: Intel Processor Trace
 	- https://github.com/torvalds/linux/blob/master/tools/perf/Documentation/intel-pt.txt
 - Inferring Fine-grained Control Flow Inside SGX Enclaves with Branch Shadowing
-	- Skylake's BTB parameters, use of Intel PT and LBR
 	- https://arxiv.org/abs/1611.06952
 	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/lee-sangho
 	- "Table 1: Measuring branch misprediction penalty with RDTSCP, Intel PT CYC packet, and LBR elapsed cycle (10,000 times). We put 120 NOP instructions at the fall-through path. The LBR elapsed cycle is less noisy than RDTSCP and Intel PT."
+- Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts
+	- USENIX Security 2017
+	- Jun Xu, Dongliang Mu, Xinyu Xing, Peng Liu, Ping Chen, Bing Mao
+	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/xu-jun
+	- https://github.com/junxzm1990/pomp
 - Processor-Tracing Guided Region Formation in Dynamic Binary Translation
 	- ACM Transactions on Architecture and Code Optimization (TACO) 15(4):52 (2018)
 	- Ding-Yong Hong, Jan-Jan Wu, Yu-Ping Liu, Sheng-Yu Fu, Wei-Chung Hsu
@@ -193,8 +214,9 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 	- https://stacktrack.github.io/
 - uftrace: Function (graph) tracer for user-space
 	- https://github.com/namhyung/uftrace
-	- CppCon 2017: Honggyu Kim “Understanding the runtime behaviors of C++ programs using uftrace tool”
-	- https://www.youtube.com/watch?v=s0B8hV2O8ps
+	- Understanding the runtime behaviors of C++ programs using uftrace tool
+		- CppCon 2017; Honggyu Kim 
+		- https://www.youtube.com/watch?v=s0B8hV2O8ps
 
 ### Software: Linux - BCC/BPF
 
@@ -363,6 +385,8 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 ---
 
 # Talks
+
+- Tracing Summit - http://tracingsummit.org/
 
 ## 2017
 
