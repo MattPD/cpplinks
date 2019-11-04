@@ -276,6 +276,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ Programming and Computer Software 43(1) 2017
 	+ Klimushenkova, M.A. & Dovgalyuk, P.M.
 	+ https://link.springer.com/article/10.1134/S0361768817010042
+* POMP: Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts
+	+ USENIX Security 2017
+	+ Jun Xu, Dongliang Mu, Xinyu Xing, Peng Liu, Ping Chen, Bing Mao
+	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/xu-jun
+	+ https://github.com/junxzm1990/pomp
 * REPT: Reverse Debugging of Failures in Deployed Software
 	+ USENIX Symposium on Operating Systems Design and Implementation (OSDI) 2018
 	+ Weidong Cui, Xinyang Ge, Baris Kasikci, Ben Niu, Upamanyu Sharma, Ruoyu Wang, Insu Yun 
@@ -304,20 +309,6 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- https://www.slideshare.net/alexorso/20130204dagstuhl-alex-orso
 		- https://pdfs.semanticscholar.org/2436/0dc1bd271dcf3ecb73622e2c7b1d54a008bf.pdf
 		- https://www.youtube.com/watch?v=WJHQnzLpVXk
-* Failure Sketches: A Better Way to Debug
-	+ HotOS 2015
-	+ Baris Kasikci, Benjamin Schubert, Cristiano Pereira, Gilles Pokam, Madan Musuvathi, George Candea 
-	+ https://www.usenix.org/conference/hotos15/workshop-program/presentation/kasikci
-	+ http://dslab.epfl.ch/pubs/failure-sketches.pdf
-	+ https://web.eecs.umich.edu/~barisk/public/fs-slides.pdf
-* Failure Sketching: A Technique for Automated Root Cause Diagnosis of In-Production Failures
-	+ SOSP 2015
-	+ Baris Kasikci, Benjamin Schubert, Cristiano Pereira, Gilles Pokam, George Candea
-	+ https://www.youtube.com/watch?v=99hXVFe33w8
-	+ http://dslab.epfl.ch/proj/gist/
-	+ http://dslab.epfl.ch/pubs/gist.pdf
-	+ https://web.eecs.umich.edu/~barisk/public/gist-slides.pdf
-	+ https://blog.acolyer.org/2015/10/12/failure-sketching-a-technique-for-automated-root-cause-diagnosis-of-in-production-failures/
 * Debugging Reinvented: Asking and Answering Why and Why Not Questions about Program Behavior
 	+ International Conference on Software Engineering ICSE 2008
 	+ Andrew J. Ko, Brad A. Myers
