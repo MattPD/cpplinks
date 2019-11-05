@@ -533,6 +533,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ 5: The Display Command - http://www.shanekirk.com/2017/12/gdb-tips-and-tricks-5-the-display-command/
 	+ 6: Examining Data Types - http://www.shanekirk.com/2018/02/gdb-tips-and-tricks-6-examining-data-types/
 * GDB Wiki - https://sourceware.org/gdb/wiki/
+* gdbWatchPoint: GDB tips & tricks
+	+ https://undo.io/resources/gdb-watchpoint/
 * Hitchikers Guide To The GDB - http://apoorvaj.io/hitchhikers-guide-to-the-gdb.html
 * How to point GDB to your sources - https://alex.dzyoba.com/blog/gdb-source-path/
 * Introduction to Debuggers - Saumil Shah - http://www.slideshare.net/saumilshah/introduction-to-debuggers
