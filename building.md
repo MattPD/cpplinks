@@ -108,8 +108,9 @@
 	- Bo Zhou, Xia Xin, David Lo, Xinyu Wang
 	- http://www.mysmu.edu/faculty/davidlo/papers/compsac14-dependency.pdf
 	- https://www.semanticscholar.org/paper/Build-Predictor%3A-More-Accurate-Missed-Dependency-in-Zhou-Xia/a4d4b05c8594fc7358a89f0afffb7e405b65fa0d
-- LLVM with Program Repository Support
-	- https://github.com/SNSystems/llvm-project-prepo
+- Program Repository
+	- LLVM with Program Repository Support
+			- https://github.com/SNSystems/llvm-project-prepo
 	- Program Repository: What’s the Idea?
 		- https://github.com/SNSystems/llvm-project-prepo/wiki
 	- Early Overview
@@ -268,6 +269,11 @@
 		- 2015 EuroLLVM Developers’ Meeting, Zoltan Porkolab
 		- https://llvm.org/devmtg/2015-04/slides/EuroLLVM2015Templight.pdf
 		- https://www.youtube.com/watch?v=djAPtopWhRU
+- Visual C++ - C++ Build Insights
+	- Get started with C++ Build Insights
+		- https://docs.microsoft.com/en-us/cpp/build-insights/get-started-with-cpp-build-insights
+	- Introducing C++ Build Insights
+		- https://devblogs.microsoft.com/cppblog/introducing-c-build-insights/
 
 ### Caching
 
@@ -711,15 +717,15 @@
 
 ---
 
-## Talks
+# Talks
 
-### 2019
+## 2019
 
 - Building Modules
 	- CppCon 2019; Michael Spencer 
 	- https://www.youtube.com/watch?v=L0SHHkBenss
 
-### 2018
+## 2018
 
 - Build Systems: a Simple Solution to a Complicated Problem
 	- CppCon 2018; Peter Bindels
@@ -735,7 +741,7 @@
 	- CppCon 2018; Boris Kolpackov
 	- https://www.youtube.com/watch?v=cJP7SSLjvSI
 
-### 2017
+## 2017
 
 - Building C++ Modules
 	- CppCon 2017; Boris Kolpackov
