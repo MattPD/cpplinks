@@ -180,6 +180,8 @@
 	- ICSE 2018
 	- Zhilei Ren, He Jiang, Jifeng Xuan, Zijiang Yang
 	- https://blog.acolyer.org/2018/06/22/automated-localization-for-unreproducible-builds/
+- Deterministic builds with Clang and LLD
+	- http://blog.llvm.org/2019/11/deterministic-builds-with-clang-and-lld.html
 - Reproducible Builds — a set of software development practices that create an independently-verifiable path from source to binary code
 	- https://reproducible-builds.org/
 
