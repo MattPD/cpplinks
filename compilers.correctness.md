@@ -560,6 +560,11 @@ Validation: Including translation validation, equivalence checking.
 	- The formal verification of compilers - Xavier Leroy - DeepSpec Summer School 2017
 		- https://deepspec.org/event/dsss17/lecture_leroy.html
 		- http://gallium.inria.fr/~xleroy/courses/DSSS-2017/
+	- A Verified CompCert Front-End for a Memory Model Supporting Pointer Arithmetic and Uninitialised Data
+		- Journal of Automated Reasoning 62(4) (2019)
+		- Frédéric Besson, Sandrine Blazy, Pierre Wilke
+		- https://doi.org/10.1007/s10817-017-9439-z
+		- https://hal.inria.fr/hal-01656895
 	- An Abstract Stack Based Approach to Verified Compositional Compilation to Machine Code
 		- POPL 2019
 		- Yuting Wang, Pierre Wilke, Zhong Shao
@@ -574,10 +579,22 @@ Validation: Including translation validation, equivalence checking.
 		- POPL 2020
 		- Youngju Song, Minki Cho, Dongjoo Kim, Yonghyun Kim, Jeehoon Kang, Chung-Kil Hur 
 		- https://sf.snu.ac.kr/compcertm/
+	- CompCertS: A Memory-Aware Verified C Compiler Using a Pointer as Integer Semantics
+		- Journal of Automated Reasoning 63(2) (2019)
+		- Frédéric Besson, Sandrine Blazy, Pierre Wilke
+		- https://doi.org/10.1007/s10817-018-9496-y
+		- https://hal.inria.fr/hal-01656875
 	- Compositional CompCert
 		- POPL 2015
 		- Stewart, G., Beringer, L., Cuellar, S., Appel, A.W.
 		- https://github.com/PrincetonUniversity/compcomp
+	- Formal Verification of a Constant-Time Preserving C Compiler
+		- Principles of Programming Languages (POPL) 2020
+		- Gilles Barthe, Sandrine Blazy, Benjamin Grégoire, Rémi Hutin, Vincent Laporte, David Pichardie, Alix Trieu.
+		- https://eprint.iacr.org/2019/926
+		- http://cs.au.dk/%7Etrieu/POPL20/
+		- Slides (Verified Software Workshop): https://vetss.org.uk/wp-content/uploads/sites/122/2019/10/Blazy-Formal-Verification-of-a-Constant-Time.pdf
+		- https://vetss.org.uk/verified-software-workshop-programme/
 	- Lightweight Verification of Separate Compilation
 		- POPL 2016
 		- Jeehoon Kang, Yoonseung Kim, Chung-Kil Hur, Derek Dreyer, Viktor Vafeiadis
