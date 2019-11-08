@@ -71,8 +71,23 @@ See also:
 	+ https://www.st.cs.uni-saarland.de/dd/
 	+ Delta: Heuristically minimizes interesting files
 		- http://delta.stage.tigris.org/
-	+ Minimizing Interesting Files with Delta
-		- http://delta.stage.tigris.org/using_delta.html
+		- Minimizing Interesting Files with Delta
+			- http://delta.stage.tigris.org/using_delta.html
+	+ Picireny: Hierarchical Delta Debugging Framework
+		- https://github.com/renatahodovan/picireny
+	+ Simplifying and Isolating Failure-Inducing Input
+		- IEEE Transactions on Software Engineering 28(2) 2002
+		- Andreas Zeller, Ralf Hildebrandt 
+		- https://www.st.cs.uni-saarland.de/publications/details/zeller-tse-2002/
+		- https://blog.acolyer.org/2015/11/16/simplifying-and-isolating-failure-inducing-input/
+	+ HDD: Hierarchical Delta Debugging
+		- ICSE 2006
+		- Ghassan Misherghi, Zhendong Su
+		- https://dl.acm.org/citation.cfm?id=1134307
+		- https://blog.acolyer.org/2015/11/17/hierarchical-delta-debugging/
+	+ Generalizing and Criticizing Delta Debugging
+		- 2011; John Regehr
+		- https://blog.regehr.org/archives/527
 * Devon H. O'Dell
 	+ Building a Debugging Mindset
 		- https://9vx.org/post/building-a-debugging-mindset/
@@ -86,6 +101,11 @@ See also:
 	+ Learning From Your Bugs - https://henrikwarne.com/2016/04/28/learning-from-your-bugs/
 * How to Debug - John Regehr - https://blog.regehr.org/archives/199
 * I tend to prefer debugging with release builds instead of debug builds - Ken Johnson (Skywing) - http://www.nynaeve.net/?p=184
+* The Inflection Point Hypothesis: A Principled Debugging Approach for Locating the Root Cause of a Failure
+	+ Symposium on Operating Systems Principles (SOSP) 2019
+	+ Yongle Zhang, Kirk Rodrigues, Yu Luo, Michael Stumm, Ding Yuan
+	+ https://dl.acm.org/citation.cfm?id=3359650
+	+ https://blog.acolyer.org/2019/11/08/the-inflection-point-hypothesis/
 * What does debugging a program look like? - Julia Evans - https://jvns.ca/blog/2019/06/23/a-few-debugging-resources/
 * When debugging a stack overflow, you want to focus on the repeating recursive part - Raymond Chen - https://blogs.msdn.microsoft.com/oldnewthing/20090107-00/?p=19573
 
@@ -706,6 +726,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * debuginfod
 	+ Introducing debuginfod, the elfutils debuginfo server
 		- https://developers.redhat.com/blog/2019/10/14/introducing-debuginfod-the-elfutils-debuginfo-server/
+* drgn: Scriptable debugger library
+	+ https://github.com/osandov/drgn/
+	+ https://drgn.readthedocs.io/
+	+ A kernel debugger in Python: drgn
+		- https://lwn.net/Articles/789641/
 * edb: a cross platform x86/x86-64 debugger
 	+ https://github.com/eteran/edb-debugger
 * libthread_db
@@ -729,6 +754,12 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ an extendable basic debugger designed for use in those cases that there is no built-in debugger / gdb-stub in the debugee process / firmware
 	+ https://github.com/CheckPointSW/Scout
 	+ https://scout-debugger.readthedocs.io/
+* sdb: The Slick/Simple Debugger
+	+ A postmortem and live debugger
+	+ https://github.com/delphix/sdb
+	+ Debugging ZFS: From Illumos to Linux
+		- OpenZFS Developer Summit 2019; Serapheim Dimitropoulos 
+		- https://drive.google.com/file/d/1oho9X5bkW-I-yJ-pVD8VqkaloxhGepzT/view
 
 ### macOS
 
