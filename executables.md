@@ -92,6 +92,11 @@ Contents:
 	+ https://github.com/GaloisInc/sample-binaries
 * Samples of binary with different formats and architectures. A test suite for your binary analysis tools. (ELF, Mach-O, PE)
 	+ https://github.com/JonathanSalwan/binary-samples
+* symtool: Static symbol manipulation tool for ELF and Mach-O objects
+	+ https://github.com/calebzulawski/symtool
+	+ Changing symbol visibility
+	+ Renaming symbols
+	+ Actions are performed in-place, leaving the rest of the binary untouched
 * The Witchcraft Compiler Collection  
 	+ https://github.com/endrazine/wcc
 	+ wld: The Witchcraft Linker
@@ -331,6 +336,8 @@ Contents:
 	+ http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
 	+ https://github.com/abraithwaite/teensy
 * About ELF Auxiliary Vectors - http://articles.manugarg.com/aboutelfauxiliaryvectors
+* Analyzing ELF Binaries with Malformed Headers Part 1 - Emulating Tiny Programs
+	+ https://binaryresearch.github.io/2019/09/17/Analyzing-ELF-Binaries-with-Malformed-Headers-Part-1-Emulating-Tiny-Programs.html
 * Anatomy of an ELF core file - https://www.gabriel.urdhr.fr/2015/05/29/core-file/
 * Armouring the ELF: Binary encryption on the UNIX platform - scut & grugq - Phrack Magazine #58 (2001-12-28) - http://www.phrack.org/issues/58/5.html
 * Building an ELF Parser with Frida - https://versprite.com/og/frida/
@@ -381,16 +388,8 @@ Contents:
 	+ http://www.linker-aliens.org/blogs/ali/entry/gnu_hash_elf_sections/
 * Good Practices in Library Design, Implementation, and Maintenance - https://www.akkadia.org/drepper/goodpractice.pdf
 * Have fun with LIEF and Executable Formats - Play with ELF symbols - Part 2 (renaming dynamic symbols) - https://blog.quarkslab.com/have-fun-with-lief-and-executable-formats.html#elf
-* Honey, I Shrunk the ELFs: Lightweight Binary Tailoring of Shared Libraries
-	+ EMSOFT 2019
-	+ ACM Transactions on Embedded Computing Systems (TECS) 18, 5s, Article 102 (October 2019)
-	+ Andreas Ziegler, Julian Geus, Bernhard Heinloth, Timo HÖnig, Daniel Lohmann
-	+ https://dl.acm.org/citation.cfm?id=3358222
 * How is a binary executable organized? Let's explore it! - https://jvns.ca/blog/2014/09/06/how-to-read-an-executable/
 * How programs get run: ELF binaries - https://lwn.net/Articles/631631/
-* How To Strip An ELF Object Without Fully Understanding It
-	+ http://www.linker-aliens.org/blogs/ali/entry/how_to_strip_an_elf/
-	+ https://blogs.oracle.com/ali/how-to-strip-an-elf-object-without-fully-understanding-it
 * How To Write Shared Libraries - https://www.akkadia.org/drepper/dsohowto.pdf
 * I/O patterns on ELF binary initialization - https://glandium.org/blog/?p=1016
 * Improving binary layout for progressive decompression (2011) - https://glandium.org/blog/?p=2320
@@ -436,7 +435,6 @@ Contents:
 * The missing link: explaining ELF static linking, semantically - Stephen Kell, Dominic P. Mulligan, Peter Sewell - OOPSLA 2016
 	+ http://www.cl.cam.ac.uk/~pes20/rems/papers/oopsla-elf-linking-2016.pdf
 	+ https://bitbucket.org/Peter_Sewell/linksem/
-* Tweaking binaries with elfedit - https://ptribble.blogspot.com/2017/06/tweaking-binaries-with-elfedit.html
 * Uncovering a few SIGSEGVs in binutils' BFD and GLIBC
 	+ https://chatsubo-labs.blogspot.com/2017/05/uncovering-few-sigsegvs-in-binutils-bfd.html
 	+ http://brainoverflow.org/papers/BFD-GLIBC_Fuzzing/0%20Uncovering%20a%20few%20SIGSEGVs%20in%20binutils'%20BFD%20and%20GLIBC.pdf
@@ -444,6 +442,23 @@ Contents:
 * Understanding the Memory Layout of Linux Executables - https://gist.github.com/CMCDragonkai/10ab53654b2aa6ce55c11cfc5b2432a4
 * 'Weird Machine' patterns - https://www.researchgate.net/publication/283630248_%27Weird_Machine%27_patterns
 * Writing shared libraries - http://plan99.net/~mike/writing-shared-libraries.html
+
+### Transformation
+
+- A Technique for Hooking Internal Functions of Dynamically-Linked ELF Binaries
+	- https://binaryresearch.github.io/2019/08/29/A-Technique-for-Hooking-Internal-Functions-of-Dynamically-Linked-ELF-Binaries.html
+- Honey, I Shrunk the ELFs: Lightweight Binary Tailoring of Shared Libraries
+	- EMSOFT 2019
+	- ACM Transactions on Embedded Computing Systems (TECS) 18, 5s, Article 102 (October 2019)
+	- Andreas Ziegler, Julian Geus, Bernhard Heinloth, Timo HÖnig, Daniel Lohmann
+	- https://dl.acm.org/citation.cfm?id=3358222
+- How To Strip An ELF Object Without Fully Understanding It
+	- http://www.linker-aliens.org/blogs/ali/entry/how_to_strip_an_elf/
+	- https://blogs.oracle.com/ali/how-to-strip-an-elf-object-without-fully-understanding-it
+- Inserting Debugging Instrumentation into an Internal Function Using Redirect-to-PLT
+	- https://binaryresearch.github.io/2019/09/07/Inserting-Debugging-Instrumentation-Into-an-Internal-Function-using-Redirect-to-PLT.html
+- Tweaking binaries with elfedit
+	- https://ptribble.blogspot.com/2017/06/tweaking-binaries-with-elfedit.html
 
 ## Software
 
@@ -526,6 +541,9 @@ Contents:
 			- http://cs-fundamentals.com/c-programming/memory-layout-of-c-program-code-data-segments.php#size-of-code-data-bss-segments
 	+ 9 essential GNU binutils tools - https://opensource.com/article/19/10/gnu-binutils
 * HoloDec: Decompiler for x86 and x86-64 ELF binaries - https://github.com/cararasu/holodec
+* Lepton: a Lightweight ELF Parsing Tool
+	- designed specifically for analyzing and editing binaries with damaged or corrupted ELF headers
+	- https://github.com/BinaryResearch/lepton
 * Libelf - ELF object file access library - http://www.mr511.de/software/english.html
 	+ libelf-howto - http://chris.rohlf.googlepages.com/libelf-howto.c
 	+ Libelf.js: LibELF port for JavaScript - https://github.com/AlexAltea/libelf.js
