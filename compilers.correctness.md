@@ -110,6 +110,10 @@ Note: see also [compilers](compilers.md)
 
 # Testing
 
+- A Survey of Compiler Testing
+	- ACM Computing Surveys (CSUR) 2019
+	- Junjie Chen, Jibesh Patra, Michael Pradel, Yingfei Xiong, Hongyu Zhang, Dan Hao, Lu Zhang
+	- https://software-lab.org/publications/csur2019_compiler_testing.pdf
 - Dagstuhl Seminar 17502 – Testing and Verification of Compilers
 	- December 2017
 	- http://dagstuhl.de/17502
@@ -258,6 +262,10 @@ Note: see also [compilers](compilers.md)
 	- SCALA 2016
 	- Georg Ofenbeck, Tiark Rompf, Markus Püschel
 	- https://www.cs.purdue.edu/homes/rompf/papers/ofenbeck-scala16.pdf
+- ReduKtor: How We Stopped Worrying About Bugs in Kotlin Compiler
+	- Automated Software Engineering (ASE) 2019
+	- Daniil Stepanov, Marat Akhin, Mikhail Belyaev
+	- https://arxiv.org/abs/1909.07331
 - System Under Test: LLVM - https://systemundertest.org/llvm/
 - Taming compiler fuzzers
 	- PLDI 2013
@@ -628,6 +636,11 @@ Validation: Including translation validation, equivalence checking.
 	- http://sf.snu.ac.kr/gil.hur/publications/crellvm.pdf
 	- http://sf.snu.ac.kr/gil.hur/publications/crellvm.zip
 	- https://github.com/snu-sf/crellvm-tests-parallel
+- Mechanized Semantics and Verified Compilation for a Dataflow Synchronous Language with Reset
+	- POPL 2020
+	- Timothy Bourke, Lélio Brun, Marc Pouzet
+	- https://popl20.sigplan.org/details/POPL-2020-Research-Papers/20/Mechanized-Semantics-and-Verified-Compilation-for-a-Dataflow-Synchronous-Language-wit
+	- https://github.com/INRIA/velus
 - Pilsner: A Compositionally Verified Compiler for a Higher-Order Imperative Language
 	- International Conference on Functional Programming (ICFP) 2015
 	- Georg Neis, Chung-Kil Hur, Jan-Oliver Kaiser, Craig McLaughlin, Derek Dreyer, Viktor Vafeiadis
