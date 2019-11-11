@@ -3,7 +3,7 @@
 # Contents
 
 - [General](#general)
-- Language-specific: [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata)
+- Language-specific: [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Objective-C](#objective-c), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata)
 
 ---
 
@@ -39,6 +39,10 @@
 	- https://www.slideshare.net/StefanusDuToit/cpp-con-2014-hourglass-interfaces-for-c-apis
 	- https://www.youtube.com/watch?v=PVYdHDm0q6Y
 	- https://github.com/CppCon/CppCon2014/tree/master/Presentations/Hourglass%20Interfaces%20for%20C%2B%2B%20APIs
+- Skip the FFI: Embedding Clang for C Interoperability 
+	- 2014 LLVM Developers' Meeting
+	- Jordan Rose, John McCall
+	- https://llvm.org/devmtg/2014-10/#talk18
 - The Salami Method
 	- The Salami Method finely distinguishes between the different aspects and layers required for exposing platform-independent C++ on different “specific” platforms. At its extreme it strives to create a single, thin, transparent layer for each such aspect so that each layer is more easily built, tested, debugged, managed and maintained.
 	- http://videocortex.io/2017/salami-method/
@@ -164,6 +168,14 @@
 	- Scripting at the Speed of Thought: Lua and C++ with sol3 - CppCon 2018; JeanHeyd Meneide
 		- https://www.youtube.com/watch?v=xQAmGBfKnas
 - Lua in the Stingray 3D game engine - Niklas Frykholm - https://www.youtube.com/watch?v=wTjyM7d7_YA
+
+---
+
+# Objective-C
+
+- OC - Easily Declare/Invoke Objective-C APIs from C11 or C++11
+	- Macro magic for declaring/calling Objective-C APIs from C11 or C++. Preloads selectors, chooses the correct objc_msgSend to call per method/platform.
+	- https://github.com/garettbass/oc
 
 ---
 
