@@ -10,8 +10,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 # Contents
 
-- [Articles](#articles)
-- [Books](#books)
+- [Readings](#readings): [Books](#books)
 - [Formalization, Specification, Verification](#formalization-specification-verification)
 - [Open-Source Hardware Projects](#open-source-hardware-projects)
 - [References](#references)
@@ -21,7 +20,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 ---
 
-# Articles
+# Readings
 
 https://riscv.org/publications/
 
@@ -60,6 +59,15 @@ https://riscv.org/publications/
 	- https://www.researchgate.net/publication/328314631_Towards_a_High-Performance_RISC-V_Emulator
 	- https://www.researchgate.net/profile/Vanderson_Rosario2/publication/328314631_Towards_a_High-Performance_RISC-V_Emulator/links/5bc5e1ec458515f7d9bf6342/Towards-a-High-Performance-RISC-V-Emulator.pdf
 
+## Books
+
+https://riscv.org/risc-v-books/
+
+- "Computer Organization and Design: The Hardware Software Interface: RISC-V Edition" by David A. Patterson, John L. Hennessy (2017)
+	- http://store.elsevier.com/product.jsp?isbn=9780128122754
+- "The RISC-V Reader: An Open Architecture Atlas" by David Patterson, Andrew Waterman (2017)
+	- http://www.riscvbook.com/ 
+
 ## Concurrency
 
 - The Semantics of Multicopy Atomic ARMv8 and RISC-V
@@ -92,17 +100,6 @@ https://riscv.org/publications/
 
 ---
 
-# Books
-
-https://riscv.org/risc-v-books/
-
-- "Computer Organization and Design: The Hardware Software Interface: RISC-V Edition" by David A. Patterson, John L. Hennessy (2017)
-	- http://store.elsevier.com/product.jsp?isbn=9780128122754
-- "The RISC-V Reader: An Open Architecture Atlas" by David Patterson, Andrew Waterman (2017)
-	- http://www.riscvbook.com/ 
-
----
-
 # Formalization, Specification, Verification
 
 - Experimental_RISCV_Feature_Model
@@ -122,6 +119,10 @@ https://riscv.org/risc-v-books/
 	- https://github.com/litmus-tests/litmus-tests-riscv
 - RISC-V Sail ISA model
 	- https://github.com/rems-project/sail-riscv
+- riscv-avs: RISC-V Architecture Verification Suite (AVS)
+	- https://github.com/ispras/riscv-avs
+	- an open test suite for RISC-V microprocessors
+	- Each test is a program (in assembly or C) equipped with additional information: a test purpose description, an instruction describing how to generate a program (if applicable), a test coverage report, etc.
 - RISCV-DV: a SV/UVM based open-source instruction generator for RISC-V processor verification
 	- https://github.com/google/riscv-dv
 - riscv-fs: F# RISC-V Instruction Set formal specification
@@ -280,9 +281,9 @@ https://riscv.org/software-tools/
 - RISC-V support for LLVM projects - http://www.lowrisc.org/llvm/status/ - https://github.com/lowRISC/riscv-llvm
 - RISC-V Torture Test Generator - https://github.com/ucb-bar/riscv-torture 
 - Xv6 for RISC-V
+	- https://github.com/mit-pdos/xv6-riscv
 	- a re-implementation of Dennis Ritchie's and Ken Thompson's Unix Version 6 (v6)
 	- loosely follows the structure and style of v6, but is implemented for a modern RISC-V multiprocessor using ANSI C
-	- https://github.com/mit-pdos/xv6-riscv
 	- xv6-riscv-book: Text describing xv6 on RISC-V
 		- https://github.com/mit-pdos/xv6-riscv-book
 		- 6.S081: Operating System Engineering - https://pdos.csail.mit.edu/6.828/
@@ -298,6 +299,9 @@ https://riscv.org/software-tools/
 		- Rashmi Agarwal, Sahan Bandara, Alan Ehret, Mihailo Isakov, Miguel Mark, Michel A. Kinsy
 		- Paper: https://ascslab.org/research/briscv/wcae/a1-agrawal.pdf
 		- Slides: https://drive.google.com/file/d/1j969LvF8yN8OBsq58schBLjSh6Lfjbba/view
+- libriscv: RISC-V userspace emulator library
+	- https://github.com/fwsGonzo/libriscv
+	- C++17 RISC-V RV32GC userspace emulator library
 - MARSS-RISCV: Micro-Architectural System Simulator for RISC-V
 	- https://github.com/bucaps/marss-riscv
 - RARS: RISC-V Assembler and Runtime Simulator
@@ -310,10 +314,14 @@ https://riscv.org/software-tools/
 	- https://riscv.ls0f.pw/
 - rv8: RISC-V simulator for x86-64 - https://rv8.io/
 	- https://github.com/rv8-io/rv8
-- Spike, a RISC-V ISA Simulator - https://github.com/riscv/riscv-isa-sim
+- RVirt: RISC-V hypervisor written in Rust
+	- https://github.com/mit-pdos/RVirt
+	- an S-mode trap-and-emulate hypervisor for RISC-V
+- Spike, a RISC-V ISA Simulator
+	- https://github.com/riscv/riscv-isa-sim
 - TinyEMU
-	- TinyEMU is a system emulator for the RISC-V architecture. Its purpose is to be small and simple while being complete.
 	- https://bellard.org/tinyemu/
+	- TinyEMU is a system emulator for the RISC-V architecture. Its purpose is to be small and simple while being complete.
 - venus: RISC-V instruction set simulator built for education
 	- https://venus.cs61c.org/
 	- https://github.com/ThaumicMekanism/venus
@@ -328,6 +336,12 @@ https://riscv.org/software-tools/
 ---
 
 # Talks
+
+## 2019
+
+- The Hype Around the RISC-V Hypervisor
+	- KVM Forum 2019; Alistair Francis, Anup Patel
+	- https://www.youtube.com/watch?v=2MUka4lKGFU
 
 ## 2018
 
