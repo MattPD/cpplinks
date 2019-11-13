@@ -157,10 +157,17 @@
 * nanoBench: A tool for running small microbenchmarks on recent Intel and AMD x86 CPUs
 	+ used for running the microbenchmarks for obtaining the latency, throughput, and port usage data available on http://uops.info
 	+ https://github.com/andreas-abel/nanoBench
+	+ https://uops.info/
+	- nanoBench Cache Analyzer
+		- https://github.com/andreas-abel/nanoBench/tree/master/tools/CacheAnalyzer
+		- https://uops.info/cache.html
 	+ uops.info: Characterizing Latency, Throughput, and Port Usage of Instructions on Intel Microarchitectures
 		- ASPLOS 2019
 		- Andreas Abel, Jan Reineke
 		- https://arxiv.org/abs/1810.04610
+	- nanoBench: A Low-Overhead Tool for Running Microbenchmarks on x86 Systems
+		- 2019; Andreas Abel, Jan Reineke
+		- https://arxiv.org/abs/1911.03282
 * Open Power/Performance Analysis Tool (OPPAT)
 	- a cross-OS, cross-architecture Power and Performance Analysis Tool
 	- cross-OS: supports Windows ETW trace files and Linux/Android perf/trace-cmd trace files
@@ -178,6 +185,8 @@
 		- Jan Laukemann, Julian Hammer, Georg Hager, Gerhard Wellein
 		- https://arxiv.org/abs/1910.00214
 		- https://github.com/RRZE-HPC/OSACA-CP-2019
+* timing-harness: Harness for profiling arbitrary basic blocks.
+	- https://github.com/ithemal/timing-harness
 * uarch-bench: A benchmark for low-level CPU micro-architectural features
 	+ https://github.com/travisdowns/uarch-bench
 
