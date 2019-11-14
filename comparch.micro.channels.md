@@ -481,6 +481,13 @@ See also: [Computer Architecture](comparch.md)
 	+ MICRO 2019
 	+ Ofir Weisse, Ian Neal, Kevin Loughlin, Thomas Wenisch, Baris Kasikci
 	+ http://www.ofirweisse.com/MICRO2019_NDA.pdf
+* oo7: Low-overhead Defense against Spectre Attacks via Program Analysis
+	+ 2019 IEEE Transactions on Software Engineering (TSE)
+	+ Guanhua Wang, Sudipta Chattopadhyay, Ivan Gotovchits, Tulika Mitra, Abhik Roychoudhury
+	+ https://arxiv.org/abs/1807.05843
+	+ https://asset-group.github.io/papers/oo7.pdf
+	+ A binary analysis framework to defend against potential vulnerability to Spectre attacks
+		- https://github.com/winter2020/oo7
 * Pitchfork: Detecting Spectre vulnerabilities using symbolic execution
 	+ https://github.com/cdisselkoen/pitchfork
 * SafeSpec: Banishing the Spectre of a Meltdown with Leakage-Free Speculation
@@ -1251,6 +1258,12 @@ See also: [Computer Architecture](comparch.md)
 
 # Trusted Execution Environments (TEEs)
 
+* A Tale of Two Worlds: Assessing the Vulnerability of Enclave Shielding Runtimes
+	+ Computer and Communications Security (CCS) 2019
+	+ Jo Van Bulck, David Oswald, Eduard Marin, Abdulla Aldoseri, Flavio D.Garcia, Frank Piessens
+	+ https://people.cs.kuleuven.be/~jo.vanbulck/ccs19-tale.pdf
+	+ https://github.com/jovanbulck/0xbadc0de
+
 ## Arm TrustZone
 
 * Hardware-Backed Heist: Extracting ECDSA Keys from Qualcomm’s TrustZone
@@ -1421,8 +1434,10 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 * Microarchitectural Data Sampling (MDS)
 	+ CVE-2018-12126 - Microarchitectural Store Buffer Data Sampling (MSBDS) - Fallout
 	+ CVE-2018-12127 - Microarchitectural Load Port Data Sampling (MLPDS) - RIDL
-	+ CVE-2018-12130 - Microarchitectural Fill Buffer Data Sampling (MFBDS) - RIDL, ZombieLoad
-	+ CVE-2019-11091 - Microarchitectural Data Sampling Uncacheable Memory (MDSUM) - RIDL
+	+ Meltdown-MCA (microcode assists) - Zombieload
+	+ Meltdown-US-LFB (line fill buffer) - CVE-2018-12130 - Microarchitectural Fill Buffer Data Sampling (MFBDS) - RIDL, ZombieLoad Variant 1
+	+ Meltdown-P-LFB - CVE-2019-11091 - Microarchitectural Data Sampling Uncacheable Memory (MDSUM) - RIDL
+	+ Meltdown-MCA-AD (accessed or dirty bit) - ZombieLoad Variant 3
 	+ https://cpu.fail/
 	+ https://mdsattacks.com/
 	+ https://zombieloadattack.com/
@@ -1515,6 +1530,13 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 	+ https://sslab.gtisc.gatech.edu/assets/papers/2016/jang:drk-ccs.pdf
 	+ http://www.cc.gatech.edu/~yjang37/assets/papers/2016/jang:drk-ccs.pdf
 	+ decoded icache (caches decoded micro-ops) - inside L1 icache, virtually-indexed and virtually tagged (VIVT), does not require an iTLB access for address translation
+* Meltdown-MCA-TAA
+	+ Meltdown-MCA-TAA (microcode assist caused by transactional asynchronous abort) - [ZombieLoad](https://zombieloadattack.com/) Variant 2
+	+ CVE-2019-11135 - Transactional Synchronization Extensions (TSX) Asynchronous Abort (TAA)
+	+ https://mdsattacks.com/files/ridl-addendum.pdf
+	+ https://software.intel.com/security-software-guidance/software-guidance/intel-transactional-synchronization-extensions-intel-tsx-asynchronous-abort
+	+ https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/tsx_async_abort.html
+	+ https://access.redhat.com/solutions/tsx-asynchronousabort
 * Prime+Abort: A Timer-Free High-Precision L3 Cache Attack using Intel TSX
 	+ USENIX Security 2017
 	+ Craig Disselkoen, David Kohlbrenner, Leo Porter, Dean Tullsen
@@ -1572,6 +1594,11 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 	+ 35c3 (2018)
 	+ Moritz Lipp, Michael Schwarz, Daniel Gruss and Claudio Canella 
 	+ https://media.ccc.de/v/35c3-9893-a_christmas_carol_-_the_spectres_of_the_past_present_and_future
+* Behind the Speculative Curtain: The True Story of Fighting Meltdown and Spectre
+	+ Black Hat USA 2018
+	+ Eric Doerr, Matt Linton, Art Manion, Christopher Robinson
+	+ https://www.blackhat.com/us-18/briefings/schedule/index.html#behind-the-speculative-curtain-the-true-story-of-fighting-meltdown-and-spectre-11755
+	+ https://www.youtube.com/watch?v=7KdDuqh2bgw
 * Beyond Belief: The Case of Spectre and Meltdown
 	+ [BlueHatIL](http://www.bluehatil.com/abstracts.html) 2018
 	+ Daniel Gruss, Moritz Lipp, Michael Schwarz
