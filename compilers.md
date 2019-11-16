@@ -1,12 +1,20 @@
 # [C++ links](README.md): compilers
 
-See also: [assembly (x86)](assembly.x86.md), [compilers correctness](compilers.correctness.md), [program analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef) - [LLVM](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#llvm)
+See also:
+
+- [Assembly (Arm)](assembly.arm.md), [Assembly (RISC-V)](assembly.riscv.md), [Assembly (x86)](assembly.x86.md)
+- [compilers correctness](compilers.correctness.md)
+- [program analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef) - [LLVM](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#llvm)
+- [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.md): [Implementation](https://github.com/MattPD/cpplinks/blob/master/debugging.md#implementation)
 
 # Background
 
+- https://github.com/aalhour/awesome-compilers
 - An Incremental Approach to Compiler Construction
-	- https://github.com/namin/inc
+	- Scheme and Functional Programming 2006; Abdulaziz Ghuloum
 	- http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf
+	- Step-by-step development of a Scheme-to-x86 compiler
+		- https://github.com/namin/inc
 - ChocoPy: A Programming Language for Compilers Courses
 	- SPLASH-E 2019; Rohan Padhye, Koushik Sen, Paul N. Hilfinger
 	- https://chocopy.org/
@@ -19,21 +27,36 @@ See also: [assembly (x86)](assembly.x86.md), [compilers correctness](compilers.c
 	- http://www.cs.umb.edu/~offner/files/flow_graph.pdf
 - Resources for Amateur Compiler Writers
 	- http://c9x.me/compile/bib/
-- Static Single Assignment (SSA) Book
-	- http://ssabook.gforge.inria.fr/latest/book-full.pdf
-	- https://gforge.inria.fr/scm/viewvc.php/ssabook/book/
 
 ## Books
 
 - Crafting Interpreters
+	- Bob Nystrom
 	- http://craftinginterpreters.com/
 	- https://github.com/munificent/craftinginterpreters
 - Essentials of Compilation: An Incremental Approach
 	- A book about compiling Racket to x86-64 assembly
 	- Jeremy G. Siek, Ryan R. Newton
 	- https://github.com/IUCompilerCourse/Essentials-of-Compilation
-- GCC Wiki - List of compiler books - https://gcc.gnu.org/wiki/ListOfCompilerBooks
-- Jordan Rose (Swift team) recommendations - http://belkadan.com/blog/2015/11/Recommendations/
+- GCC Wiki - List of compiler books
+	- https://gcc.gnu.org/wiki/ListOfCompilerBooks
+- Introduction to Compilers and Language Design
+	- Douglas Thain
+	- http://compilerbook.org/
+- Jordan Rose (Swift team) recommendations
+	- http://belkadan.com/blog/2015/11/Recommendations/
+- Instruction Selection
+	- Instruction Selection: Principles, Methods, & Applications
+		- 2016 Book; Gabriel Hjort Blindell
+		- http://kth.diva-portal.org/smash/record.jsf?pid=diva2:951540
+	- Universal Instruction Selection
+		- 2018 PhD Dissertation; Gabriel Hjort Blindell
+		- http://www.diva-portal.org/smash/record.jsf?pid=diva2:1185339
+		- https://github.com/gablin/ghb-thesis
+		- https://github.com/gablin/ghb-thesis/blob/master/ghb-thesis.pdf
+- Static Single Assignment (SSA) Book
+	- http://ssabook.gforge.inria.fr/latest/book-full.pdf
+	- https://gforge.inria.fr/scm/viewvc.php/ssabook/book/
 
 ## LLVM
 
@@ -85,7 +108,7 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 		- Homepage: https://courses.cs.washington.edu/courses/csep501/16wi/
 		- Playlist: https://www.youtube.com/playlist?list=PLTPQEx-31JXhfAWGnGzwbfhB2zUB7Jd4C
 		- Topics: https://courses.cs.washington.edu/courses/csep501/16wi/calendar/lecturelist.html
-- SFU CMPT 886: Program Analysis and Reliability - Nick Sumner, Spring 2015, 
+- SFU CMPT 886: Program Analysis and Reliability - Nick Sumner, Spring 2015
 	- Playlist: https://www.youtube.com/playlist?list=PLNC6lmsIySCOPjY8IwKBtD2cqe-MMgIGM
 	- Schedule & Slides: http://www.cs.sfu.ca/~wsumner/teaching/886/15/schedule.html
 - UCB CS294-113: Virtual Machines and Managed Runtimes
@@ -94,25 +117,36 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 		- [Virtual Machines Summer School 2016](https://soft-dev.org/events/vmss16/)
 		- https://archive.org/download/vmss16/wolczko.pdf
 		- https://www.youtube.com/watch?v=QnQYhrpX39M
-- UCSD CSE 131 - Compiler Construction
+- UCSD CSE 131: Compiler Construction
 	- Fall 2019; Joseph Gibbs Politz
 		- https://ucsd-cse131-f19.github.io/
 		- https://podcast.ucsd.edu/watch/fa19/cse131_a00
 	- Winter 2018; Ranjit Jhala
 		- https://ucsd-progsys.github.io/131-web/
 		- https://podcast.ucsd.edu/watch/wi18/cse131_a00
-- UCSD CSE 231 - Advanced Compiler Design
+- UCSD CSE 231: Advanced Compiler Design
 	- Winter 2019; Sorin Lerner
 		- https://podcast.ucsd.edu/watch/wi19/cse231_a00
 		- https://ucsd-pl.github.io/cse231/wi19/
 
-# Decompilation
+# Implementations
 
-- Compositional Decompilation using LLVM IR
-	- https://github.com/decomp/decomp
-	- Design documents: https://github.com/decomp/doc
+- List of Online C++ Compilers - https://arnemertz.github.io/online-compilers/
+- LLVM
+	- http://llvm.org/
+	- LLVM Developers' Meeting - http://llvm.org/devmtg/
+	- http://blog.llvm.org/
+	- http://llvmweekly.org/
+	- Clang: a C language family frontend for LLVM
+		- http://clang.llvm.org/
+- GCC (GNU Compiler Collection)
+	- https://gcc.gnu.org/
+	- GNU Tools Cauldron - https://gcc.gnu.org/wiki#Events
+	- https://twitter.com/gnutools/
+- Visual C++ - https://www.visualstudio.com/vs/cplusplus/
+	- https://devblogs.microsoft.com/cppblog/
 
-# Detection
+## Detection
 
 - Pre-defined Compiler Macros - https://sourceforge.net/p/predef/wiki/
 	- Architectures - https://sourceforge.net/p/predef/wiki/Architectures/
@@ -122,7 +156,7 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 	- Operating Systems - https://sourceforge.net/p/predef/wiki/OperatingSystems/
 	- Standard Libraries - https://sourceforge.net/p/predef/wiki/Libraries/
 
-# Documentation
+## Documentation
 
 - Clang documentation - http://clang.llvm.org/docs/
 - GCC online documentation - https://gcc.gnu.org/onlinedocs/
@@ -136,23 +170,15 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 	- https://github.com/Microsoft/cpp-docs
 	- https://msdn.microsoft.com/en-us/library/60k1461a.aspx
 
-# Implementations
+## Sanitizers
 
-- List of Online C++ Compilers - https://arnemertz.github.io/online-compilers/
-- LLVM - http://llvm.org/
-	- LLVM Developers' Meeting - http://llvm.org/devmtg/
-	- http://blog.llvm.org/
-	- http://llvmweekly.org/
-- GCC (GNU Compiler Collection) - https://gcc.gnu.org/
-	- GNU Tools Cauldron - https://gcc.gnu.org/wiki#Events
-	- https://twitter.com/gnutools/
-- Visual C++ - https://www.visualstudio.com/vs/cplusplus/
-	- https://blogs.msdn.microsoft.com/vcblog/
+- https://github.com/google/sanitizers
+	- https://github.com/google/sanitizers/wiki
 
 # Linking and Loading
 
-- Advanced C and C++ Compiling by Milan Stevanovic​ (2014)  
-	"Engineering guide to C/C++ compiling, linking, and binary files structure"
+- Advanced C and C++ Compiling by Milan Stevanovic​ (2014)
+	- "Engineering guide to C/C++ compiling, linking, and binary files structure"
 	- http://www.apress.com/9781430266679
 	- http://link.springer.com/book/10.1007%2F978-1-4302-6668-6
 	- https://github.com/apress/adv-c-cpp-compiling
@@ -203,72 +229,75 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 - Superoptimizing Compilers - http://superoptimization.org/wiki/Superoptimizing_Compilers
 - Superoptimization - James Pallister - FOSDEM 2015 - https://archive.fosdem.org/2015/schedule/event/superoptimization/
 
-# Sanitizers
-
-- https://github.com/google/sanitizers
-	- https://github.com/google/sanitizers/wiki
-- https://maitesin.github.io/clang_sanitizers/
-
 # Talks
 
 ## 2019
 
+- An overview of Clang
+	- 2019 LLVM Developers’ Meeting; Sven van Haastregt, Anastasia Stulova
+	- https://www.youtube.com/watch?v=5kkMpJpIGYU
+	- http://llvm.org/devmtg/2019-10/talk-abstracts.html#tut8
+- GCC under the hood
+	- Linaro Connect San Diego 2019; Siddhesh Poyarekar
+	- https://www.youtube.com/watch?v=brxAm99w8D8
+	- https://siddhesh.in/gcc-under-the-hood.pdf
+	- https://siddhesh.in/posts/gcc-under-the-hood.html
+	- https://linaroconnectsandiego.sched.com/event/SubD/san19-221-gcc-under-the-hood
 - Introduction to LLVM
-	- 2019 LLVM Developers’ Meeting
-	- Eric Christopher & Johannes Doerfert
+	- 2019 LLVM Developers’ Meeting; Eric Christopher & Johannes Doerfert
 	- https://www.youtube.com/watch?v=J5xExRGaIIY
 
 ## 2018
 
 - Introduction to LLVM: Building simple program analysis tools and instrumentation
-	- FOSDEM 2018 - Mike Shah
+	- FOSDEM 2018; Mike Shah
 	- https://fosdem.org/2018/schedule/event/introduction/
 	- https://www.youtube.com/watch?v=VKIv_Bkp4pk
 	- slides & code: http://www.mshah.io/fosdem18.html
 
 ## 2017
 
-- Getting started with LLVM: the TL;DR version - Diana Picus
-	- LinaroOrg Connect San Francisco 2017 - SFO17
+- Getting started with LLVM: the TL;DR version
+	- LinaroOrg Connect San Francisco 2017; Diana Picus
 	- https://connect.linaro.org/resource/sfo17/sfo17-110/
-- LLVM Internals #2 – Renato Golin, Peter Smith, Diana Picus, Omair Javaid, Adhemerval Zanella
-	- Linaro Connect Budapest 2017 - BUD17-302
+- LLVM Internals #2
+	- Linaro Connect Budapest 2017; Renato Golin, Peter Smith, Diana Picus, Omair Javaid, Adhemerval Zanella
 	- http://connect.linaro.org/resource/bud17/bud17-302/
 
 ## 2016
 
-- Introduction to LLVM – Projects, Components, Integration, Internals - Renato Golin
-	- Linaro Connect Las Vegas 2016 - LAS16-501
+- Introduction to LLVM – Projects, Components, Integration, Internals
+	- Linaro Connect Las Vegas 2016; Renato Golin
 	- http://connect.linaro.org/resource/las16/las16-501/
 - Anders Hejlsberg on Modern Compiler Construction
 	- Channel 9; May 12, 2016
 	- https://channel9.msdn.com/Blogs/Seth-Juarez/Anders-Hejlsberg-on-Modern-Compiler-Construction
-- STOKE: Search-Based Compiler Optimization - Alex Aiken
-	- UCI CS Distinguished Lecture; April 29, 2016
+- STOKE: Search-Based Compiler Optimization
+	- UCI CS Distinguished Lecture; April 29, 2016; Alex Aiken
 	- https://www.youtube.com/watch?v=rZFeTTFp7x4
 
 ## 2015
 
-- Understanding Compiler Optimization - Chandler Carruth
-	- Opening Keynote Meeting C++ 2015
+- Understanding Compiler Optimization
+	- Meeting C++ 2015; Chandler Carruth
 	- https://www.youtube.com/watch?v=FnGCDLhaxKU
-- Stochastic Optimization for x86 Binaries - Eric Schkufza
-	- Google Tech Talks; January 12, 2015
+- Stochastic Optimization for x86 Binaries
+	- Google Tech Talks; January 12, 2015; Eric Schkufza
 	- https://www.youtube.com/watch?v=aD9mZDJzb58
 
 ## 2014
 
-- Superoptimizing LLVM - John Regehr
-	- UW CSE Colloquium; December 2, 2014
+- Superoptimizing LLVM
+	- UW CSE Colloquium; December 2, 2014; John Regehr
 	- https://www.youtube.com/watch?v=Ux0YnVEaI6A
-- Compiler Technologies - Jim Hogg
-	- Northwest C++ Users' Group; October 15, 2014
+- Compiler Technologies
+	- Northwest C++ Users' Group; October 15, 2014; Jim Hogg
 	- http://nwcpp.org/october-2014.html
 
 ## 2013
 
-- Compiler Confidential - Eric Brumer
-	- GoingNative 2013
+- Compiler Confidential
+	- GoingNative 2013; Eric Brumer
 	- https://channel9.msdn.com/Events/GoingNative/2013/Compiler-Confidential
 
 # Warnings
