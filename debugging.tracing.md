@@ -109,7 +109,7 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 		- https://github.com/junxzm1990/afl-pt
 	- WinAFL Intel PT mode
 		- https://github.com/googleprojectzero/winafl/blob/master/readme_pt.md
-- Intel PT Micro Tutorial - Google Sites
+- Intel PT Micro Tutorial - MICRO-48 (2015)
 	- https://sites.google.com/site/intelptmicrotutorial/
 - libipt - an Intel(R) Processor Trace decoder library
 	- https://github.com/01org/processor-trace
@@ -120,7 +120,7 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 	- https://arxiv.org/abs/1611.06952
 	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/lee-sangho
 	- "Table 1: Measuring branch misprediction penalty with RDTSCP, Intel PT CYC packet, and LBR elapsed cycle (10,000 times). We put 120 NOP instructions at the fall-through path. The LBR elapsed cycle is less noisy than RDTSCP and Intel PT."
-- Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts
+- POMP: Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts
 	- USENIX Security 2017
 	- Jun Xu, Dongliang Mu, Xinyu Xing, Peng Liu, Ping Chen, Bing Mao
 	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/xu-jun
@@ -134,6 +134,10 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 - SATT Software Analyze Trace Tool
 	- Experimental Linux SW tool to trace, process and analyze full stack SW traces utilizing Intel HW tracing block Intel PT (Intel Processor Trace).
 	- https://github.com/01org/satt
+- Towards Production-Run Heisenbugs Reproduction on Commercial Hardware
+	- USENIX Annual Technical Conference (ATC) 2017
+	- Shiyou Huang, Bowen Cai, Jeff Huang
+	- https://www.usenix.org/conference/atc17/technical-sessions/presentation/huang
 - WinIPT: Windows Library for Intel Process Trace
 	- https://github.com/ionescu007/winipt
 - Windows Intel PT Support
@@ -189,6 +193,8 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 	- The Babeltrace project provides trace read and write libraries, as well as a trace converter. Plugins can be created for any trace format to allow its conversion to/from another trace format.
 	- http://diamon.org/babeltrace/
 	- https://github.com/efficios/babeltrace
+	- Common Trace Format
+		- https://diamon.org/ctf/
 - FlameGraph: Stack trace visualize
 	- https://github.com/brendangregg/FlameGraph
 	- http://www.brendangregg.com/flamegraphs.html
@@ -205,6 +211,20 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 
 ## Software: Linux
 
+- Linux tracing systems & how they fit together
+	- https://jvns.ca/blog/2017/07/05/linux-tracing-systems/
+- KUtrace
+	- Low-overhead tracing of all Linux kernel-user transitions, for serious performance analysis. Includes kernel patches, loadable module, and post-processing software. Output is HTML/SVG per-CPU-core timeline that you can pan/zoom down to the nanosecond.
+	- https://github.com/dicksites/KUtrace
+	- KUTrace: Where have all the nanoseconds gone?, Richard Sites
+		- Tracing Summit 2017; Richard Sites
+		- https://www.youtube.com/watch?v=UYwWollxzAk
+		- https://tracingsummit.org/wiki/TracingSummit2017KUTrace
+		- https://tracingsummit.org/w/images/3/30/TS17-kutrace.pdf
+	- Benchmarking "Hello, World!"
+		- Six different views of the execution of "Hello, World!" show what is often missing in today's tools
+		- ACM Queue 16, 5 (2018); Richard L. Sites
+		- https://queue.acm.org/detail.cfm?id=3291278
 - ltrace: Debugging program to track runtime library calls in dynamically linked programs
 	- ltrace intercepts and records dynamic library calls which are called by an executed process and the signals received by that process. It can also intercept and print the system calls executed by the program.
 	- http://ltrace.org/
@@ -235,6 +255,9 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 	- http://docs.cilium.io/en/stable/bpf/
 - Brendan D. Gregg
 	- Linux Enhanced BPF (eBPF) Tracing Tools - http://www.brendangregg.com/ebpf.html
+	- BPF Performance Tools: Linux System and Application Observability
+		- http://www.brendangregg.com/bpf-performance-tools-book.html
+		- https://github.com/brendangregg/bpf-perf-tools-book
 - Ferris Ellis
 	- eBPF, part 1: Past, Present, and Future - https://ferrisellis.com/content/ebpf_past_present_future/
 	- eBPF, part 2: Syscall and Map Types - https://ferrisellis.com/content/ebpf_syscall_and_maps/
@@ -261,6 +284,7 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 ### Software: Linux - ftrace
 
 - Ftrace - https://alex.dzyoba.com/blog/ftrace/
+- Ftrace: The hidden light switch - https://lwn.net/Articles/608497/
 - ftrace: Where modifying a running kernel all started
 	- Kernel Recipes 2019; Steven Rostedt
 	- https://www.youtube.com/watch?v=93uE_kWWQjs
@@ -324,7 +348,9 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 	- https://www.youtube.com/watch?v=oFt6V56BOlo
 	- http://man7.org/conf/ndctechtown2018/system_call_tracing_with_strace-NDC-TechTown-Kerrisk.pdf
 - Julia Evans
-	- A zine about strace - https://jvns.ca/blog/2015/04/14/strace-zine/
+	- A zine about strace
+		- https://jvns.ca/blog/2015/04/14/strace-zine/
+		- https://wizardzines.com/zines/strace/
 	- strace posts: https://jvns.ca/categories/strace/
 - How does strace work? - https://blog.packagecloud.io/eng/2016/02/29/how-does-strace-work/
 - Modern strace
