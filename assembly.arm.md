@@ -14,7 +14,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ [Virtualization](#virtualization)
 * [References](#references):
 	+ [Concurrency](#concurrency)
-	+ [Intrinsics, NEON, SIMD](#intrinsics-neon-simd)
+	+ [Intrinsics & SIMD](#intrinsics--simd)
 	+ [Toolchains](#toolchains)
 * [Software](#software):
 	+ [Binary Analysis](#binary-analysis)
@@ -222,6 +222,10 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 
 ### M-profile
 
+* Code-Generation for the Arm M-profile Vector Extension
+	- 2019 LLVM Developers’ Meeting; Sjoerd Meijer, Sam Parker
+	- https://www.youtube.com/watch?v=TUDWpAhLjBU
+	- http://llvm.org/devmtg/2019-10/talk-abstracts.html#tech2
 * Making Helium
 	- Why not just add Neon? (1/4) - https://community.arm.com/arm-research/b/articles/posts/making-helium-why-not-just-add-neon
 	- Sudoku, registers and rabbits (2/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-sudoku-registers-and-rabbits
@@ -234,6 +238,9 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ 2015 Technical Report (FORTH-ICS/TR-450); Evangelos Vasilakis
 	+ https://www.ics.forth.gr/carv/greenvm/files/tr450.pdf
 * CoreSight, Perf and the OpenCSD Library - https://www.linaro.org/blog/core-dump/coresight-perf-and-the-opencsd-library/
+* LIKWID: Performance monitoring and benchmarking suite
+	+ https://github.com/RRZE-HPC/likwid
+	+ https://hpc.fau.de/research/tools/likwid/
 * Linaro Wiki - perf
 	+ https://wiki.linaro.org/KenWerner/Sandbox/perf
 	+ https://wiki.linaro.org/Platform/DevPlatform/Tools/Perf
@@ -241,11 +248,6 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 * On-Target Trace Using the CoreSight Access Library - https://developer.arm.com/products/software-development-tools/ds-5-development-studio/resources/tutorials/on-target-trace-using-the-coresight-access-library
 * OpenCSD HOWTO - using the library with perf: https://github.com/Linaro/OpenCSD/blob/opencsd-0v002/HOWTO.md
 * Statistical Profiling Extension for ARMv8-A - https://community.arm.com/processors/b/blog/posts/statistical-profiling-extension-for-armv8-a
-* The ARM Scalable Vector Extension
-	+ IEEE Micro, March 2017
-	+ Nigel Stephens, Stuart Biles, Matthias Boettcher, Jacob Eapen, Mbou Eyole, Giacomo Gabrielli, Matt Horsnell, Grigorios Magklis, Alejandro Martinez, Nathanael Premillieu, Alastair Reid, Alejandro Rico, Paul Walker
-	+ Preprint: https://alastairreid.github.io/papers/sve-ieee-micro-2017.pdf
-	+ http://dx.doi.org/10.1109/MM.2017.35
 
 ## Security
 
@@ -384,14 +386,6 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 * Linux Kernel Documentation
 	+ ARM: https://www.kernel.org/doc/Documentation/arm/
 	+ ARM64: https://www.kernel.org/doc/Documentation/arm64/
-* Scalable Vector Extension (SVE)
-	+ https://community.arm.com/processors/b/blog/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture
-	+ https://developer.arm.com/hpc/a-sneak-peek-into-sve-and-vla-programming
-	+ ARMv8-A Next Generation Vector Architecture for HPC
-		- Hot Chips 28 (2016)
-		- Nigel Stephens
-		- https://youtu.be/egE-VKoF4ZI?t=1h9m8s
-		- https://community.arm.com/cfs-file/__key/telligent-evolution-components-attachments/01-2142-00-00-00-01-20-49/ARMv8_2D00_A-SVE-technology-Hot-Chips-v12.pdf
 * System call dispatching on Windows ARM64 - https://gracefulbits.com/2018/07/26/system-call-dispatching-for-windows-on-arm64/
 * The ARM Instruction Set - ARM University Program (Slides)
 	+ https://www.cs.purdue.edu/homes/cs250/LectureNotes/arm_inst.pdf
@@ -403,14 +397,45 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ http://xlogicx.net/?page_id=668
 * Works on ARM newsletter - https://github.com/vielmetti/worksonarm-news
 
-## Intrinsics, NEON, SIMD
+## Intrinsics & SIMD
 
 * ARC SIMD Built-in Functions - https://gcc.gnu.org/onlinedocs/gcc/ARC-SIMD-Built-in-Functions.html
 * ARM Intrinsics - MSDN - Microsoft - https://docs.microsoft.com/en-us/cpp/intrinsics/arm-intrinsics
+
+### NEON
+
 * ARM NEON Intrinsics - https://gcc.gnu.org/onlinedocs/gcc-4.9.4/gcc/ARM-NEON-Intrinsics.html#ARM-NEON-Intrinsics
 * NEON Intrinsics - https://developer.arm.com/technologies/neon/intrinsics
 * NEON intrinsics guide - https://github.com/thenifty/neon-guide
 * NEON Programmer’s Guide - http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.den0018a/
+* Porting and Optimizing HPC Applications for Arm Documentation
+	+ https://developer.arm.com/docs/101725/0200
+	+ Coding for Neon
+		- https://developer.arm.com/docs/101725/0200/coding-for-neontm
+
+### Scalable Vector Extension (SVE)
+
+* Arm SVE Tools Training
+	+ https://gitlab.com/arm-hpc/training/arm-sve-tools
+* Asvie: A Timing-Agnostic SVE Optimization Methodology 
+	+ Methodology for ArmIE SVE - https://github.com/ARM-software/Methodology_for_ArmIE_SVE
+* Porting and Optimizing HPC Applications for Arm SVE Documentation
+	+ https://developer.arm.com/docs/101726/0200
+	+ Coding for SVE vs Neon
+		- https://developer.arm.com/docs/101726/0200/explore-the-scalable-vector-extension-sve/coding-for-sve-vs-neontm
+* The ARM Scalable Vector Extension
+	+ IEEE Micro, March 2017
+	+ Nigel Stephens, Stuart Biles, Matthias Boettcher, Jacob Eapen, Mbou Eyole, Giacomo Gabrielli, Matt Horsnell, Grigorios Magklis, Alejandro Martinez, Nathanael Premillieu, Alastair Reid, Alejandro Rico, Paul Walker
+	+ Preprint: https://alastairreid.github.io/papers/sve-ieee-micro-2017.pdf
+	+ http://dx.doi.org/10.1109/MM.2017.35
+* Scalable Vector Extension (SVE)
+	+ https://community.arm.com/processors/b/blog/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture
+	+ https://developer.arm.com/hpc/a-sneak-peek-into-sve-and-vla-programming
+	+ ARMv8-A Next Generation Vector Architecture for HPC
+		- Hot Chips 28 (2016)
+		- Nigel Stephens
+		- https://youtu.be/egE-VKoF4ZI?t=1h9m8s
+		- https://community.arm.com/cfs-file/__key/telligent-evolution-components-attachments/01-2142-00-00-00-01-20-49/ARMv8_2D00_A-SVE-technology-Hot-Chips-v12.pdf
 
 ## Toolchains
 
