@@ -1,6 +1,6 @@
 # [C++ links](README.md): compilers - correctness
 
-Note: see also [compilers](compilers.md)
+See also: [compilers](compilers.md)
 
 # Contents
 
@@ -8,7 +8,7 @@ Note: see also [compilers](compilers.md)
 	- [History](#history)
 	- [Lectures](#lectures)
 - [Testing](#testing)
-	- [Articles](#articles)
+	- [Readings](#readings)
 	- [Software](#software)
 	- [Talks](#talks)
 - [Validation](#validation)
@@ -120,7 +120,7 @@ Note: see also [compilers](compilers.md)
 	- Materials: http://materials.dagstuhl.de/index.php?semnr=17502
 - EMI-based Compiler Testing - http://web.cs.ucdavis.edu/~su/emi-project/
 
-## Articles
+## Readings
 
 - An empirical comparison of compiler testing techniques
 	- International Conference on Software Engineering (ICSE 2016)
@@ -421,6 +421,10 @@ Note: see also [compilers](compilers.md)
 	- https://www.youtube.com/watch?v=V6ug3e3jC54
 	- http://llvm.org/devmtg/2018-04/slides/Barany-Finding%20Missed%20Optimizations%20in%20LLVM.pdf
 	- https://github.com/gergo-/missed-optimizations/
+- Getting Started with the LLVM Testing Infrastructure
+	- 2019 LLVM Developers’ Meeting; Brian Homerding, Michael Kruse
+	- https://www.youtube.com/watch?v=isVQ8kYqaSA
+	- https://llvm.org/devmtg/2019-10/slides/Homerding-Kruse-LLVMTestingInfrastructureTutorial.pdf
 - Testing and Qualification of Optimizing Compilers for Functional Safety
 	- 2019 EuroLLVM Developers’ Meeting; José Luis March Cabrelles
 	- https://www.youtube.com/watch?v=nSfT4oND9dU
