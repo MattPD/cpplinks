@@ -88,6 +88,8 @@
 	- Nandor Licker, Andrew Rice
 	- https://2019.icse-conferences.org/details/icse-2019-Technical-Papers/82/Detecting-Incorrect-Build-Rules
 	- https://www.repository.cam.ac.uk/handle/1810/288468
+	- mkcheck: Incremental Build Verification
+		- https://github.com/nandor/mkcheck
 - Oops, My Tests Broke the Build: An Explorative Analysis of Travis CI with GitHub
 	- Mining Software Repositories (MSR) 2017
 	- M. Beller, G. Gousios, A. Zaidman
@@ -179,6 +181,7 @@
 - Automated Localization for Unreproducible Builds
 	- ICSE 2018
 	- Zhilei Ren, He Jiang, Jifeng Xuan, Zijiang Yang
+	- https://arxiv.org/abs/1803.06766
 	- https://blog.acolyer.org/2018/06/22/automated-localization-for-unreproducible-builds/
 - Deterministic builds with Clang and LLD
 	- http://blog.llvm.org/2019/11/deterministic-builds-with-clang-and-lld.html
@@ -310,6 +313,10 @@
 - LLVM Compile-Time: Challenges. Improvements. Outlook.
 	- 2017 LLVM Developers’ Meeting; Michael Zolotukhin
 	- https://www.youtube.com/watch?v=bYHMwyyZ6Mk
+- Optimizing builds on Windows
+	- 2019 LLVM Developers’ Meeting; Alexandre Ganea
+	- https://www.youtube.com/watch?v=usPL_DROn4k
+	- https://llvm.org/devmtg/2019-10/slides/Ganea-OptimizingBuildesOnWindows.pdf
 - Optimizing compilation times with Templates
 	- CppCon 2017: Eddie Elizondo
 	- https://www.youtube.com/watch?v=NPWQ7xKfIHQ
