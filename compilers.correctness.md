@@ -484,7 +484,7 @@ Validation: Including translation validation, equivalence checking.
 - Translation Validation of Bounded Exhaustive Test Cases
 	- 2017; Nuno Lopes, John Regehr
 	- https://blog.regehr.org/archives/1510
-- Translation Validation with Alive - https://github.com/nunoplopes/alive/tree/newsema/tv
+	- Translation Validation with Alive - https://github.com/nunoplopes/alive/tree/newsema/tv
 - Validating Optimizations of Concurrent C/C++ Programs
 	- CGO 2016
 	- Soham Chakraborty, Viktor Vafeiadis
@@ -539,6 +539,12 @@ Validation: Including translation validation, equivalence checking.
 		- Juneyoung Lee, Chung-Kil Hur, Nuno P. Lopes
 		- https://sf.snu.ac.kr/aliveinlean/
 		- https://github.com/Microsoft/AliveInLean
+- Alive2: Automatic verification of LLVM optimizations
+	- https://github.com/AliveToolkit/alive2
+	- Alive2: Verifying Existing Optimizations
+		- 2019 LLVM Developers’ Meeting; Nuno Lopes, John Regehr
+		- https://www.youtube.com/watch?v=paJhdBp_iA4
+		- https://llvm.org/devmtg/2019-10/slides/Lopes-Regehr-Alive2.pdf
 - An Abstract Stack Based Approach to Verified Compositional Compilation to Machine Code
 	- POPL 2019
 	- Yuting Wang, Pierre Wilke, Zhong Shao
