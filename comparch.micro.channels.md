@@ -894,6 +894,13 @@ See also: [Computer Architecture](comparch.md)
 
 # FPGA
 
+- Physical Side-Channel Attacks and Covert Communication on FPGAs: A Survey
+	- Field Programmable Logic and Applications (FPL) 2019
+	- Seyedeh Sharareh Mirzargar, Mirjana Stojilovic
+	- https://dx.doi.org/10.1109/FPL.2019.00039
+	- https://infoscience.epfl.ch/record/272348?ln=en
+	- https://fpl2019.bsc.es/sites/default/files/uploaded/A32.FPL2019-slides-PhysicalSideChannelAttacks.pdf
+
 ## FPGA remote attacks
 
 (through (partial) access on configuration/bitstream)
