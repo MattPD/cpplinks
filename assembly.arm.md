@@ -249,6 +249,17 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 * OpenCSD HOWTO - using the library with perf: https://github.com/Linaro/OpenCSD/blob/opencsd-0v002/HOWTO.md
 * Statistical Profiling Extension for ARMv8-A - https://community.arm.com/processors/b/blog/posts/statistical-profiling-extension-for-armv8-a
 
+### Performance: Numerics
+
+* ARM Floating Point 2019: Latency, Area, Power
+	+ 2019 IEEE 26th Symposium on Computer Arithmetic (ARITH)
+	+ David Lutz
+	+ https://doi.org/10.1109/ARITH.2019.00025
+* LLVM and the Automatic Vectorization of Loops Invoking Math Routines: `-fsimdmath`
+	+ 2018 IEEE/ACM 5th Workshop on the LLVM Compiler Infrastructure in HPC (LLVM-HPC)
+	+ Francesco Petrogalli, Paul Walker 
+	+ https://sc18.supercomputing.org/proceedings/workshops/workshop_files/ws_llvmf106s2-file1.pdf
+ 
 ## Security
 
 * ARM Lab Environment - https://www.vulnhub.com/series/arm-lab,145/
@@ -405,6 +416,10 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 ### NEON
 
 * ARM NEON Intrinsics - https://gcc.gnu.org/onlinedocs/gcc-4.9.4/gcc/ARM-NEON-Intrinsics.html#ARM-NEON-Intrinsics
+* Control Flow Vectorization for ARM NEON
+	+ International Workshop on Software and Compilers for Embedded Systems (SCOPES) 2018
+	+ Angela Pohl, Biagio Cosenza, Ben Juurlink
+	+ http://www.cosenza.eu/papers/PohlSCOPES18.pdf
 * NEON Intrinsics - https://developer.arm.com/technologies/neon/intrinsics
 * NEON intrinsics guide - https://github.com/thenifty/neon-guide
 * NEON Programmer’s Guide - http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.den0018a/
@@ -423,11 +438,12 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://developer.arm.com/docs/101726/0200
 	+ Coding for SVE vs Neon
 		- https://developer.arm.com/docs/101726/0200/explore-the-scalable-vector-extension-sve/coding-for-sve-vs-neontm
-* The ARM Scalable Vector Extension
-	+ IEEE Micro, March 2017
-	+ Nigel Stephens, Stuart Biles, Matthias Boettcher, Jacob Eapen, Mbou Eyole, Giacomo Gabrielli, Matt Horsnell, Grigorios Magklis, Alejandro Martinez, Nathanael Premillieu, Alastair Reid, Alejandro Rico, Paul Walker
-	+ Preprint: https://alastairreid.github.io/papers/sve-ieee-micro-2017.pdf
-	+ http://dx.doi.org/10.1109/MM.2017.35
+* Mastering the Arm HPC ecosystem
+	+ CEA-RIKEN HPC school (June 2019)
+	+ https://indico.math.cnrs.fr/event/4705/
+- Road to SVE enablement in LLDB
+	- Linaro Connect San Diego 2019; Omair Javaid
+	- https://connect.linaro.org/resources/san19/san19-204/
 * Scalable Vector Extension (SVE)
 	+ https://community.arm.com/processors/b/blog/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture
 	+ https://developer.arm.com/hpc/a-sneak-peek-into-sve-and-vla-programming
@@ -436,6 +452,17 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 		- Nigel Stephens
 		- https://youtu.be/egE-VKoF4ZI?t=1h9m8s
 		- https://community.arm.com/cfs-file/__key/telligent-evolution-components-attachments/01-2142-00-00-00-01-20-49/ARMv8_2D00_A-SVE-technology-Hot-Chips-v12.pdf
+- Scalable Vector Extension support for AArch64 Linux
+	- https://www.kernel.org/doc/html/latest/arm64/sve.html
+* The ARM Scalable Vector Extension
+	+ IEEE Micro, March 2017
+	+ Nigel Stephens, Stuart Biles, Matthias Boettcher, Jacob Eapen, Mbou Eyole, Giacomo Gabrielli, Matt Horsnell, Grigorios Magklis, Alejandro Martinez, Nathanael Premillieu, Alastair Reid, Alejandro Rico, Paul Walker
+	+ Preprint: https://alastairreid.github.io/papers/sve-ieee-micro-2017.pdf
+	+ http://dx.doi.org/10.1109/MM.2017.35
+* Using Arm’s scalable vector extension on stencil codes
+	+ The Journal of Supercomputing (2019)
+	+ Armejach, Adrià, Helena Caminal, Juan M. Cebrian, Rubén Langarita, Rekai González-Alberquilla, Chris Adeniyi-Jones, Mateo Valero, Marc Casas, Miquel Moretó
+	+ https://doi.org/10.1007/s11227-019-02842-5
 
 ## Toolchains
 
@@ -587,6 +614,9 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://github.com/projectNe10/Ne10
 * Profiling Tools - https://developer.arm.com/hpc/hpc-software/categories/profiling-tools
 * Streamline Performance Analyzer - https://developer.arm.com/products/software-development-tools/ds-5-development-studio/streamline
+* Using Perf and its friend eBPF on Arm platform
+	- Linaro Connect San Diego 2019; Leo Yan
+	- https://connect.linaro.org/resources/san19/san19-223/
 
 ---
 
