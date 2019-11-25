@@ -1,8 +1,8 @@
 # [C++ links](README.md): x86 Assembly
 
-Note: the main focus is on the 64-bit variant (x86-64): thus, primarily up-to-date materials (i.e., 64-bit, AVX) are preferred.
+See also: [Computer Architecture](comparch.md) -- recommended background (which makes the following significantly more approachable) includes an undergraduate-level course.
 
-See also: [Computer Architecture](comparch.md) -- recommended background (which makes the following significantly more approachable) includes at least an undergraduate-level course.
+Note: The main focus is on the 64-bit variant (x86-64) -- thus, primarily up-to-date materials (i.e., 64-bit, AVX) are preferred.
 
 ---
 
@@ -392,7 +392,7 @@ Assemblers - https://en.wikipedia.org/wiki/Comparison_of_assemblers#x86_assemble
 - Practical x64 Assembly and C++ Tutorials  
 	- https://youtube.com/playlist?list=PL0C5C980A28FEE68D  
 	- Slides: http://www.whatsacreel.net76.net/asmtutes.html
-- x64 Assembly Multithreading   
+- x64 Assembly Multithreading
 	- https://youtube.com/playlist?list=PLKK11LigqithTIZFLTXu7jUB2IvErM_nH
 - x86_64 Linux Assembly
 	- https://www.youtube.com/playlist?list=PLetF-YjXm-sCH6FrTz4AQhfH6INDQvQSn
@@ -400,6 +400,13 @@ Assemblers - https://en.wikipedia.org/wiki/Comparison_of_assemblers#x86_assemble
 	- Hal Perkins
 	- https://www.youtube.com/watch?v=jmbBIYdjN2E
 	- Slides: https://courses.cs.washington.edu/courses/csep501/16wi/calendar/lecturelist.html
+
+## 2019
+
+- x86 register-to-register move instructions & short history of the most popular CPU architecture
+	- Joel Yliluoma (https://iki.fi/bisqwit/)
+	- <https://www.youtube.com/watch?v=g9_FYRAfyqQ>
+	- <https://bisqwit.iki.fi/jutut/kuvat/programming_examples/x86registers.odp>
 
 ## 2018
 
