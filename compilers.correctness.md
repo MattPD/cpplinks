@@ -456,6 +456,14 @@ Validation: Including translation validation, equivalence checking.
 - Proving the correctness of heuristically optimized code
 	- CACM 1978; Hanan Samet
 	- http://www.cs.umd.edu/~hjs/pubs/compilers/proving-correctness.pdf
+- Semantic Program Alignment for Equivalence Checking
+	- PLDI 2019
+	- Berkeley Churchill, Oded Padon, Rahul Sharma, Alex Aiken
+	- https://www.youtube.com/watch?v=FJGvInzaiAQ
+	- https://raw.githubusercontent.com/bchurchill/pldi19-equivalence-checker/master/pldi2019.pdf
+	- https://pldi19.sigplan.org/details/pldi-2019-papers/14/Semantic-Program-Alignment-for-Equivalence-Checking
+	- Semantic Alignment Equivalence Checker
+		- https://github.com/bchurchill/pldi19-equivalence-checker
 - Translation validation
 	- TACAS 1998
 	- Amir Pnueli, Michael Siegel, Eli Singerman
