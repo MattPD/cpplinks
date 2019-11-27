@@ -73,6 +73,10 @@ See also:
 		- http://delta.stage.tigris.org/
 		- Minimizing Interesting Files with Delta
 			- http://delta.stage.tigris.org/using_delta.html
+	+ Yesterday, my program worked. Today, it does not. Why?
+		- ESEC 1999
+		- Andreas Zeller 
+		- https://www.st.cs.uni-saarland.de/publications/details/zeller-esec-1999/
 	+ Picireny: Hierarchical Delta Debugging Framework
 		- https://github.com/renatahodovan/picireny
 	+ Simplifying and Isolating Failure-Inducing Input
@@ -317,6 +321,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ## Software Engineering
 
+* A Survey on Software Fault Localization
+	+ IEEE Transactions on Software Engineering 42(8) (2016)
+	+ W. Eric Wong, Ruizhi Gao, Yihao Li, Rui Abreu, Franz Wotawa
+	+ https://www.researchgate.net/publication/291951202_A_Survey_on_Software_Fault_Localization
 * Are Automated Debugging Techniques Actually Helping Programmers?
 	+ International Symposium on Software Testing and Analysis (ISSTA) 2011
 	+ Chris Parnin, Alessandro Orso
@@ -351,10 +359,6 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ https://www.comp.nus.edu.sg/~mboehme/paper/FSE17.pdf
 	+ DBGBench - https://dbgbench.github.io/
 	+ "the correct fault locations, bug diagnoses, and software patches of 27 real errors in open-source C projects that were consolidated from hundreds of debugging sessions of professional software engineers"
-* Yesterday, my program worked. Today, it does not. Why?
-	+ ESEC 1999
-	+ Andreas Zeller 
-	+ https://www.st.cs.uni-saarland.de/publications/details/zeller-esec-1999/
 
 ## Transparency
 
@@ -716,6 +720,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ### iOS
 
+* Chisel: a collection of LLDB commands to assist debugging iOS apps
+	+ https://github.com/facebook/chisel
 * KTRW: An iOS kernel debugger based on a KTRR bypass for A11 iPhones that works with LLDB
 	+ https://github.com/googleprojectzero/ktrw
 	+ KTRW: The journey to build a debuggable iPhone
@@ -723,9 +729,15 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ### Linux
 
+* crash-python: a semantic debugger for the Linux kernel
+	+ https://github.com/jeffmahoney/crash-python
 * debuginfod
 	+ Introducing debuginfod, the elfutils debuginfo server
 		- https://developers.redhat.com/blog/2019/10/14/introducing-debuginfod-the-elfutils-debuginfo-server/
+	+ elfutils debuginfo-server
+		- GNU Tools Cauldron 2019; Frank Ch. Eigler, Aaron Merey
+		- https://www.youtube.com/watch?v=cyOXWT_EBJ0
+		- https://gcc.gnu.org/wiki/cauldron2019talks?action=AttachFile&do=view&target=dbgserver.pdf
 * drgn: Scriptable debugger library
 	+ https://github.com/osandov/drgn/
 	+ https://drgn.readthedocs.io/
@@ -733,6 +745,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- https://lwn.net/Articles/789641/
 * edb: a cross platform x86/x86-64 debugger
 	+ https://github.com/eteran/edb-debugger
+* libkdumpfile: Kernel coredump file access
+	+ https://github.com/ptesarik/libkdumpfile
 * libthread_db
 	+ Notes about an odd, esoteric, yet incredibly useful library: libthread_db
 		- http://timetobleed.com/notes-about-an-odd-esoteric-yet-incredibly-useful-library-libthread_db/
@@ -761,9 +775,16 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- OpenZFS Developer Summit 2019; Serapheim Dimitropoulos 
 		- https://drive.google.com/file/d/1oho9X5bkW-I-yJ-pVD8VqkaloxhGepzT/view
 
+#### Linux - Talks
+
+* Linux Kernel Debugging: Going Beyond Printk Messages
+	+ Embedded Linux Conference Europe (ELCE) 2019; Sergio Prado
+	+ https://www.youtube.com/watch?v=NDXYpR_m1CU
+	+ https://elinux.org/images/1/14/Linuxkerneldebugging.pdf
+	+ https://e-labworks.com/talks/elce2019
+
 ### macOS
 
-* Chisel: a collection of LLDB commands to assist debugging iOS apps - https://github.com/facebook/chisel
 * LLDBagility
 	+ https://github.com/quarkslab/LLDBagility/
 	+ a tool for debugging macOS virtual machines with the aid of the Fast Debugging Protocol (FDP)
@@ -788,6 +809,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * makin - reveal anti-debug tricks (Windows) - https://github.com/secrary/makin
 * Nanomite - Windows Debugger for x64 and x86 - https://github.com/zer0fl4g/Nanomite/
 * OllyDbg - http://www.ollydbg.de/
+* ScyllaHide: Advanced usermode anti-anti-debugger
+	+ https://github.com/x64dbg/ScyllaHide
+* TitanHide: Hiding kernel-driver for x86/x64
+	+ a driver intended to hide debuggers from certain processes
+	+ https://github.com/mrexodia/TitanHide
 * Windows Debugging Tools - Debugging Resources
 	+ https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-resources
 * x64dbg
