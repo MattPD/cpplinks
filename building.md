@@ -730,6 +730,10 @@
 
 ## 2019
 
+- Behind the Scenes of a C++ Build System
+	- CppCon 2019; Jussi Pakkanen
+	- https://www.youtube.com/watch?v=34KzT2yvQuM
+	- https://github.com/CppCon/CppCon2019/tree/master/Presentations/behind_the_scenes_of_a_cpp_build_system
 - Building Modules
 	- CppCon 2019; Michael Spencer 
 	- https://www.youtube.com/watch?v=L0SHHkBenss
