@@ -24,6 +24,11 @@ Contents:
 
 * Comparison of executable file formats - https://en.wikipedia.org/wiki/Comparison_of_executable_file_formats
 * Executable and object file formats - https://en.wikipedia.org/wiki/Template:Executables
+* From Hack to Elaborate Technique—A Survey on Binary Rewriting
+	- ACM Computing Surveys 52(3) 2019
+	- Matthias Wenzl, Georg Merzdovnik, Johanna Ullrich, and Edgar Weippl
+	- https://dl.acm.org/citation.cfm?doid=3341324.3316415
+	- https://publications.sba-research.org/publications/201906%20-%20GMerzdovnik%20-%20From%20hack%20to%20elaborate%20technique.pdf
 * Linux Foundation Referenced Specifications: ABI, ELF, DWARF - https://refspecs.linuxfoundation.org/
 * Type Inference on Executables
 	+ ACM Computing Surveys, Vol. 48, No. 4, Article 65, 2016
@@ -60,6 +65,8 @@ Contents:
 		- Compiler, Architecture, and Tools Conference (CATC) 2018
 		- Joel Nider
 		- https://software.intel.com/en-us/download/reverse-the-linking-process
+* Detect-It-Easy: Program for determining types of files for Windows, Linux and MacOS
+	- https://github.com/horsicq/Detect-It-Easy
 * FileBytes
 	+ Library to read and edit files in the following formats: Executable and Linking Format (ELF), Portable Executable (PE), MachO and OAT (Android Runtime)
 	+ https://scoding.de/filebytes-introduction
@@ -151,6 +158,8 @@ Contents:
 * Detours - https://www.microsoft.com/en-us/research/project/detours/
 * DetoursNT: Detours with just single dependency - NTDLL
 	+ https://github.com/wbenny/DetoursNT
+* DLL Diagnostic Tools: Tools for diagnosing DLL dependency loading issues
+	- https://github.com/adamrehn/dll-diagnostics
 * DLL_to_EXE: Converts a DLL into a ready-to-use EXE. Supports both 32 and 64 bit DLLs
 	+ https://github.com/hasherezade/dll_to_exe
 * EasyHook
@@ -443,6 +452,13 @@ Contents:
 * 'Weird Machine' patterns - https://www.researchgate.net/publication/283630248_%27Weird_Machine%27_patterns
 * Writing shared libraries - http://plan99.net/~mike/writing-shared-libraries.html
 
+### Thread Local Storage (TLS)
+
+- ELF Binaries and Relocation Entries
+	- http://stffrdhrn.github.io/hardware/embedded/openrisc/2019/11/29/relocs.html
+	- TLS Examples
+		- https://github.com/stffrdhrn/tls-examples
+
 ### Transformation
 
 - A Technique for Hooking Internal Functions of Dynamically-Linked ELF Binaries
@@ -472,12 +488,16 @@ Contents:
 		- https://www.youtube.com/watch?v=wxVBuZK8Dl0
 * binception: Generate hash values for functions within an ELF binary - https://github.com/enferex/binception
 * binch: a light BINary patCH tool - https://github.com/tunz/binch
+* core2ELF64: Recover 64 bit ELF executables from memory dump
+	- https://github.com/enbarberis/core2ELF64
 * dnload: Minimal binary generator for \*nix operating systems
 	+ dnload.py is a script for generating minimal ELF binaries from C code. It serves no practical real-world use case, but can be utilized to aid in the creation of size-limited demoscene productions.
 	+ https://github.com/faemiyah/dnload
 * dress: add symbols back into a stripped ELF binary (~strip)
 	+ http://van.prooyen.com/projects/#dress
 	+ https://github.com/docileninja/dress
+* dt_infect: ELF Shared library injector using DT_NEEDED precedence infection. Acts as a permanent LD_PRELOAD
+	- https://github.com/elfmaster/dt_infect
 * DynELFSymbols: Helps to create backdoor/MitM shared-object files
 	+ https://github.com/magisterquis/dynelfsymbols
 	+ https://github.com/magisterquis/dynelfsymbols/blob/master/QUICKSTART.md
@@ -551,6 +571,8 @@ Contents:
 * libelfmaster: Secure ELF parsing library
 	+ https://github.com/elfmaster/libelfmaster
 	+ libelfmaster_examples - https://github.com/elfmaster/libelfmaster_examples
+	- readelfmaster: A reimplementation of GNU readelf
+		- https://github.com/Bowlslaw/readelfmaster
 * Mandibule: Linux ELF injector for x86 / x86_64 / arm / arm64
 	+ Doesn't use `dlopen` and can inject into statically linked targets by mapping manually the ELF in memory from syscalls only
 	+ https://github.com/ixty/mandibule
@@ -740,6 +762,8 @@ Contents:
 	+ analyses debugger information file (PDB, so Microsoft Visual C++ only) and presents info about user defined structures (size, padding, etc.)
 	+ https://github.com/msinilo/crunchersharp
 	+ http://msinilo.pl/blog2/post/p425/
+* cv2pdb: converter of DMD CodeView/DWARF debug information to PDB files
+	- https://github.com/rainers/cv2pdb
 * Debug Interface Access SDK (DIA SDK) - provides access to debug information stored in PDB files - https://docs.microsoft.com/en-us/visualstudio/debugger/debug-interface-access/debug-interface-access-sdk
 * drpdb: Convert from Microsoft PDB format into a MySQL database - https://github.com/briterator/drpdb
 * llvm-pdbutil - PDB File forensics and diagnostics - https://llvm.org/docs/CommandGuide/llvm-pdbutil.html - https://github.com/llvm-mirror/llvm/tree/master/tools/llvm-pdbutil
@@ -815,8 +839,6 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 * ExpDiff: Diff tool for comparing export tables in PE images - https://github.com/WalkingCat/ExpDiff
 * fasm_packer: PE Packer written in x86 assembly (FASM syntax) - https://github.com/DimitriFourny/resources/tree/master/fasm_packer
 * Five PE Analysis Tools Worth Looking At - https://blog.malwarebytes.com/threat-analysis/2014/05/five-pe-analysis-tools-worth-looking-at/
-* In-Memory PE Loader: A very simple PE loader for loading DLLs into memory without using LoadLibray
-	+ https://github.com/nettitude/SimplePELoader
 * libpeconv: A small library for mapping and unmapping PE files
 	+ https://github.com/hasherezade/libpeconv
 	+ Demo: RunPE (Process Hollowing) - https://github.com/hasherezade/libpeconv/tree/master/run_pe
@@ -872,6 +894,13 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 * SymbolSort: A Utility for Measuring C++ Code Bloat
 	+ https://github.com/adrianstone55/SymbolSort
 	+ http://gameangst.com/?p=320
+
+### PE Loaders
+
+- DreamLoader: Simple 32/64-bit PEs loader
+	- https://github.com/86hh/DreamLoader
+- In-Memory PE Loader: A very simple PE loader for loading DLLs into memory without using LoadLibray
+	- https://github.com/nettitude/SimplePELoader
 
 ## Talks
 
