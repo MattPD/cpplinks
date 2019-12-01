@@ -52,6 +52,10 @@
 
 ## Talks
 
+- Making a Language Cross Platform: Libraries and Tooling
+	- 2019 LLVM Developers’ Meeting; Gwen Mittertreiner
+	- https://www.youtube.com/watch?v=bdiQM0IPMio
+	- http://llvm.org/devmtg/2019-10/slides/Mittertreiner-MakingALanguageCrossPlatform.pdf
 - Naivety of Creating Cross-Platform, Modern C++ Libraries: A Tour Of Our Challenges and Successes
 	- CppCon 2017; Jonathan Henson
 	- https://www.youtube.com/watch?v=JPdohAomZD8
