@@ -78,6 +78,9 @@ See also: [compilers](compilers.md)
 	- John McCarthy and James A. Painter
 	- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.76.7835
 	- http://www-formal.stanford.edu/jmc/mcpain.html
+- Formalising Meaning: a History of Programming Language Semantics
+	- 2019 PhD dissertation; Troy Kaighin Astarte
+	- http://homepages.cs.ncl.ac.uk/t.astarte/res/pdf/TK_Astarte_Formalising_Meaning_2019.pdf
 
 ## Lectures
 
@@ -405,10 +408,6 @@ See also: [compilers](compilers.md)
 	- EuroLLVM 2017; Justin Bogner
 	- https://www.youtube.com/watch?v=UBbQ_s6hNgg
 	- http://llvm.org/devmtg/2017-03//assets/slides/adventures_in_fuzzing_instruction_selection.pdf
-- Compiler testing: GCC Vs LLVM
-	- Linaro Connect Vancouver 2018 (YVR18) TCWG07; Thomas Preud’homme
-	- https://docs.google.com/presentation/d/1RIfDj1r0VQ-m919zy7fCFrGS76UysSUOJbjrpYbNLgY/
-	- FileCheck numeric expressions: features and implementation - https://connect.linaro.org/resources/yvr18/yvr18-tcw07/
 - Coverage-Directed Differential Testing of JVM Implementations
 	- PLDI 2016; Yuting Chen
 	- https://www.youtube.com/watch?v=2Reaqfp4v-g
@@ -416,6 +415,15 @@ See also: [compilers](compilers.md)
 - Exposing Difficult Compiler Bugs With Random Testing
 	- GCC Developers' Summit 2010; John Regehr, Xuejun Yang, Yang Chen, Eric Eide
 	- https://gcc.gnu.org/wiki/summit2010?action=AttachFile&do=get&target=regehr_gcc_summit_2010.pdf
+- FileCheck
+	- FileCheck Follies
+		- 2016 LLVM Developers’ Meeting; Paul Robinson
+		- https://www.youtube.com/watch?v=4rhW8knj0L8
+		- http://www.llvm.org/devmtg/2016-11/Slides/Robinson-FilecheckFollies.pdf
+	- FileCheck: learning arithmetic
+		- 2019 LLVM Developers’ Meeting; Thomas Preud'homme
+		- https://www.youtube.com/watch?v=mcrQ5f-mASw
+		- https://llvm.org/devmtg/2019-10/slides/Preudhomme-FileCheck.pdf
 - Finding Missed Optimizations in LLVM (and other compilers)
 	- EuroLLVM 2018; Gergö Barany
 	- https://www.youtube.com/watch?v=V6ug3e3jC54
