@@ -197,16 +197,13 @@
 	+ Communications of the ACM (CACM) 18(12) 1975
 	+ John B. Goodenough
 	+ https://dl.acm.org/citation.cfm?id=361230
-* Exception Optimizations. An experiment.
-	+ 2019-06-04; Gor Nishanov
-	+ https://wg21.link/P1676
 * Exception-Safety in Generic Components: Lessons Learned from Specifying Exception-Safety for the C++ Standard Library
 	+ David Abrahams
 	+ https://www.boost.org/community/exception_safety.html
 	+ Error and Exception Handling - https://www.boost.org/community/error_handling.html
 * Exceptional Kernel: Using C++ Exceptions in the Linux Kernel
 	+ 2004
-	+ Halldor Isak Glyfason and Gisli Hjalmtysson
+	+ Halldór Ísak Gylfason, Gísli Hjálmtýsson
 	+ http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.100.7504
 	+ http://web.archive.org/http://netlab.ru.is/exception/KernelExceptions.pdf
 	+ C++ Exceptions & the Linux Kernel (2005)
@@ -217,8 +214,6 @@
 	+ https://dl.acm.org/citation.cfm?id=3360586
 	+ https://2019.splashcon.org/details/splash-2019-oopsla/44/Generating-Precise-Error-Specifications-for-C-A-Zero-Shot-Learning-Approach
 	+ https://bitbucket.org/plcacs/errorspec/src/master/
-* Handling Disappointment in C++ - Lawrence Crowl
-	+ http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0157r0.html
 * Interprocedural exception analysis for C++
 	+ ECOOP 2011
 	+ Prakash Prabhu, Naoto Maeda, Gogul Balakrishnan, Franjo Ivančić, Aarti Gupta
@@ -246,9 +241,6 @@
 	+ Daniel DeFreez, Aditya V. Thakur, Cindy Rubio-González
 	+ https://doi.org/10.1145/3236024.3236059
 	+ http://web.cs.ucdavis.edu/~rubio/includes/fse18.pdf
-* Report on Exception Handling Lite (Disappointment) from SG14
-	+ Michael Wong, Sunil Srivastava, Sean Middleditch, Patrice Roy
-	+ http://open-std.org/JTC1/SC22/WG21/docs/papers/2016/p0364r0.pdf
 * Terse Exception Messages
 	+ Overload Journal #127, June 2015; Chris Oldwood
 	+ https://accu.org/index.php/journals/2110
@@ -261,15 +253,39 @@
 	+ Vladimír Štill, Petr Ročkai, Jiří Barnat
 	+ https://arxiv.org/pdf/1703.02394
 	+ https://divine.fi.muni.cz/2017/exceptions/
-* Zero-overhead deterministic exceptions: Throwing values
-	+ Herb Sutter
-	+ https://wg21.link/p0709
 * Zipr++: Exceptional Binary Rewriting
 	+ Forming an Ecosystem Around Software Transformation (FEAST) 2017
 	+ Jason Hiser, Anh Nguyen-Tuong, William Hawkins, Matthew McGill, Michele Co, Jack Davidson
 	+ https://dl.acm.org/citation.cfm?doid=3141235.3141240
 	+ https://tc.gtisc.gatech.edu/feast17/papers/p9-hiserA.pdf
 	+ Section 2.2 - EH Frame IR Construction - exception handling and stack unwinding information in Linux ELF executable files
+
+### WG21 - C++ Standards Committee Papers
+
+* P0157: Handling Disappointment in C++
+	+ 2015-11-07; Lawrence Crowl
+	+ https://wg21.link/P0157
+* P0364: Report on Exception Handling Lite (Disappointment) from SG14
+	+ 2016­05­23; Michael Wong, Sunil Srivastava, Sean Middleditch, Patrice Roy
+	+ http://wg21.link/P0364
+* P0709: Zero-overhead deterministic exceptions: Throwing values
+	+ 2018-05-02; Herb Sutter
+	+ https://wg21.link/P0709
+* P1028: SG14 `status_code` and standard `error` object for P0709 Zero-overhead deterministic exceptions
+	+ 2018-05-06; Niall Douglas
+	+ https://wg21.link/P1028
+* P1640: Error size benchmarking
+	+ 2019-06-03; Ben Craig
+	+ https://wg21.link/P1640
+* P1676: Exception Optimizations. An experiment.
+	+ 2019-06-04; Gor Nishanov
+	+ https://wg21.link/P1676
+* P1886: Error speed benchmarking
+	+ 2019-10-05; Ben Craig
+	+ https://wg21.link/P1886
+* P1947: C++ exceptions and alternatives
+	+ 2019-11-18; Bjarne Stroustrup
+	+ https://wg21.link/P1947
 
 ## References
 
@@ -354,6 +370,10 @@
 	+ Herb Sutter
 	+ ACCU 2019: https://www.youtube.com/watch?v=os7cqJ5qlzo
 	+ CppCon 2019: https://www.youtube.com/watch?v=ARYP83yNAWk
+* Don't write exception classes, declare exception types
+	+ SwedenCpp 2019; Harald Achitz
+	+ https://www.youtube.com/watch?v=EGJAisKmUvU
+	+ https://a4z.bitbucket.io/presentations/cpp2/errtypes/ 
 * Error Handling is Cancelling Operations
 	+ CppCon 2019; Andrzej Krzemieński
 	+ https://www.youtube.com/watch?v=zte8IxkHqc4
@@ -363,9 +383,10 @@
 	+ https://github.com/ComicSansMS/presentations/releases/tag/cppnow2019
 	+ https://github.com/ComicSansMS/presentations/releases/download/cppnow2019/exceptions_demystified.pdf
 * Internals of Exceptions
-	+ Update Conference Prague 2018; Adam Furmanek
+	+ Adam Furmanek
 	+ "Do you know what is SEH, VEH and VCH in Windows? Or do you know why C# introduced exceptions filters or how to catch everything, even StackOverflowException?In this presentation I show internal mechanisms used by Windows for handling exceptions. We will see constructs used by C++ and C# languages, CLR instructions and machine code details of those."
-	+ https://www.youtube.com/watch?v=ce_db4bfzls
+	+ Update Conference Prague 2018 - https://www.youtube.com/watch?v=ce_db4bfzls
+	+ NDC Sydney 2019 - https://www.youtube.com/watch?v=NUz212O79tE
 * On "Exception Handling: Issues and a Proposed Notation"
 	+ PWL NYC 2019; Sarah Groff Palermo
 	+ https://www.youtube.com/watch?v=071M3PTXJeo
