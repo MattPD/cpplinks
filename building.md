@@ -356,6 +356,12 @@
 	- https://www.lrde.epita.fr/~adl/autotools.html
 - Autotools Tutorial for Beginners
 	- http://markuskimius.wikidot.com/programming:tut:autotools
+- Autotools, 2nd Edition
+	- A Practitioner's Guide to GNU Autoconf, Automake, and Libtool
+	- John Calcote
+	- https://nostarch.com/autotools2e
+	- Chapter 2: A Brief Introduction to the GNU Autotools
+		- https://nostarch.com/download/samples/Autotools2e_Sample_Ch2.pdf
 - Autotools: A Demystification Tutorial
 	- Embedded Linux Conference 2016; Thomas Petazzoni
 	- https://www.youtube.com/watch?v=_zX8LJ9Xjyk
@@ -677,6 +683,10 @@
 - Tup: a file-based build system.
 	- http://gittup.org/tup/
 	- https://github.com/gittup/tup
+- Lessons and Pitfalls in Building Firefox with Tup
+	- 12th Seminar on Advanced Techniques & Tools for Software Evolution (SATToSE) 2019
+	- Guillaume Maudoux and Kim Mens
+	- http://hdl.handle.net/2078.1/223053
 
 ## Visual Studio
 
