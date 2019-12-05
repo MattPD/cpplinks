@@ -373,6 +373,8 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 - DIMCT: Dirty Inter Module Calls Tracer
 	- Allows tracing inter module calls for a specific module within a Windows process.
 	- https://github.com/amossys/dimct
+- libptrace: An event driven multi-core process debugging, tracing, and manipulation framework
+	- https://github.com/immunityinc/libptrace
 - MemTrace: Memory Tracing Software
 	- https://github.com/deplinenoise/ig-memtrace
 - tiny_tracer: A Pin Tool for tracing API calls and transition between sections of the traced module 
