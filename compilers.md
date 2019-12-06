@@ -22,6 +22,15 @@ See also:
 	- https://chocopy.org/chocopy-splashe19-slides.pdf
 - Computer Language Notes: Compilers and Interpreters
 	- https://github.com/melling/ComputerLanguages/blob/master/compilers.md
+- FreeCompilerCamp.org: Online Training for Extending Compilers
+	- http://freecompilercamp.org/
+	- https://github.com/freeCompilerCamp
+	- Clang/LLVM Tutorials
+		- http://freecompilercamp.org/clang-llvm-landing
+		- Alok Mishra, Anjia Wang, Chunhua Liao, Yonghong Yan, Barbara Chapman
+		- https://sc19.supercomputing.org/proceedings/tech_poster/tech_poster_pages/rpost138.html
+		- FreeCompilerCamp.org: Training for OpenMP Compiler Development from Cloud
+			- https://sc19.supercomputing.org/proceedings/workshops/workshop_pages/ws_bphpcte103.html
 - Let’s Build A Simple Interpreter - https://ruslanspivak.com/lsbasi-part1/
 - Notes on Graph Algorithms Used in Optimizing Compilers - Carl Offner
 	- http://www.cs.umb.edu/~offner/files/flow_graph.pdf
@@ -155,6 +164,9 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 	- Language Standards - https://sourceforge.net/p/predef/wiki/Standards/
 	- Operating Systems - https://sourceforge.net/p/predef/wiki/OperatingSystems/
 	- Standard Libraries - https://sourceforge.net/p/predef/wiki/Libraries/
+- SPY: Friendly Neighborhood C++17 Constexpr Predef Wrapper
+	- OS, compiler, libc, stdlib detection
+	- https://github.com/jfalcou/spy
 
 ## Documentation
 
