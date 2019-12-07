@@ -546,6 +546,10 @@ See also: [Computer Architecture](comparch.md)
 # Arithmetic Logic Unit (ALU)
 
 * Constant-Time Multiplication - https://www.bearssl.org/ctmul.html
+* Share-slicing: Friend or Foe?
+	+ CHES 2020
+	+ Si Gao, Ben Marshall, Dan Page, Elisabeth Oswald
+	+ https://tches.iacr.org/index.php/TCHES/article/view/8396
 * When Constant-Time Source Yields Variable-Time Binary: Exploiting Curve25519-donna Built with MSVC 2015
 	+ Cryptology and Network Security (CANS) 2016
 	+ Thierry Kaufmann, Hervé Pelletier, Serge Vaudenay, Karine Villegas
@@ -1124,6 +1128,10 @@ See also: [Computer Architecture](comparch.md)
 
 # Memory Bus
 
+* An Off-Chip Attack on Hardware Enclaves via the Memory Bus
+	+ USENIX Security Symposium 2020
+	+ Dayeol Lee, Dongha Jung, Ian T. Fang, Chia-Che Tsai, Raluca Ada Popa
+	+ https://arxiv.org/abs/1912.01701
 * GSMem: Data Exfiltration from Air-Gapped Computers over GSM Frequencies
 	+ USENIX Security 2015
 	+ Mordechai Guri, Assaf Kachlon, Ofer Hasson, Gabi Kedma, Yisroel Mirsky, Yuval Elovici
@@ -1360,7 +1368,7 @@ See also: [Computer Architecture](comparch.md)
 * PortSmash (CVE-2018-5407): side-channel vulnerability on SMT/Hyper-Threading architectures
 	+ https://github.com/bbbrumley/portsmash
 * SMoTherSpectre: exploiting speculative execution through port contention
-	+ 2019 arXiv
+	+ CCS 2019
 	+ Atri Bhattacharyya, Alexandra Sandulescu, Matthias Neugschwandtner, Alessandro Sorniotti, Babak Falsafi, Mathias Payer, Anil Kurmus 
 	+ https://arxiv.org/abs/1903.01843
 	+ http://nebelwelt.net/blog/20190306-SMoTherSpectre.html
@@ -1401,10 +1409,6 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 		- https://doi.org/10.1109/MM.2019.2910104
 	+ L1 Terminal Fault Vulnerability - https://www.cyberus-technology.de/posts/2018-08-14-l1-terminal-fault.html
 	+ Hyper-V HyperClear Mitigation for L1 Terminal Fault - https://blogs.technet.microsoft.com/virtualization/2018/08/14/hyper-v-hyperclear/
-* Let’s Not Speculate: Discovering and Analyzing Speculative Execution Attacks
-	+ 2018 IBM Technical Report RZ3933
-	+ Andrea Mambretti, Matthias Neugschwandtner, Alessandro Sorniotti, Engin Kirda, William Robertson, Anil Kurmus
-	+ https://domino.research.ibm.com/library/cyberdig.nsf/1e4115aea78b6e7c85256b360066f0d4/d66e56756964d8998525835200494b74
 * Meltdown & Spectre
 	+ Meltdown - https://meltdownattack.com/
 		- USENIX Security 2018
@@ -1490,10 +1494,23 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 	+ Vladimir Kiriansky, Carl Waldspurger
 	+ https://people.csail.mit.edu/vlk/spectre11.pdf
 	+ https://arxiv.org/abs/1807.03757
+* Speculator: Tool to Analyze Speculative Execution Attacks and Mitigations
+	+ ACSAC 2019
+	+ Andrea Mambretti, Matthias Neugschwandtner, Alessandro Sorniotti, Engin Kirda, William Robertson, Anil Kurmus
+	+ https://github.com/ibm-research/speculator
+	+ https://andreamambretti.com/files/papers/acsac2019_speculator.pdf
+	+ https://dl.acm.org/citation.cfm?id=3359837
+	+ Let’s Not Speculate: Discovering and Analyzing Speculative Execution Attacks
+		- 2018 IBM Technical Report RZ3933
+		- https://domino.research.ibm.com/library/cyberdig.nsf/1e4115aea78b6e7c85256b360066f0d4/d66e56756964d8998525835200494b74
 * Speculose: Analyzing the Security Implications of Speculative Execution in CPUs
 	+ arXiv 2018
 	+ Giorgi Maisuradze, Christian Rossow
 	+ https://arxiv.org/abs/1801.04084
+* Two methods for exploiting speculative control flow hijacks.
+	+ WOOT @ USENIX Security Symposium 2019
+	+ Andrea Mambretti, Alexandra Sandulescu, Matthias Neugschwandtner, Alessandro Sorniotti, Anil Kurmus
+	+ http://ale.sopit.net/pdf/woot.pdf
 
 ---
 
