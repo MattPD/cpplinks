@@ -244,22 +244,18 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 * An Instruction Level Energy Characterization of ARM Processors
 	+ 2015 Technical Report (FORTH-ICS/TR-450); Evangelos Vasilakis
 	+ https://www.ics.forth.gr/carv/greenvm/files/tr450.pdf
-* CoreSight, Perf and the OpenCSD Library - https://www.linaro.org/blog/core-dump/coresight-perf-and-the-opencsd-library/
-* LIKWID: Performance monitoring and benchmarking suite
-	+ https://github.com/RRZE-HPC/likwid
-	+ https://hpc.fau.de/research/tools/likwid/
+* CoreSight, Perf and the OpenCSD Library
+	- https://www.linaro.org/blog/coresight-perf-and-the-opencsd-library/
 * Linaro Wiki - perf
-	+ https://wiki.linaro.org/KenWerner/Sandbox/perf
-	+ https://wiki.linaro.org/Platform/DevPlatform/Tools/Perf
+	+ https://wiki.linaro.org/KenWerner/Sandbox/perf ([archive.org](https://web.archive.org/https://wiki.linaro.org/KenWerner/Sandbox/perf))
+	+ https://wiki.linaro.org/Platform/DevPlatform/Tools/Perf ([archive.org](https://web.archive.org/https://wiki.linaro.org/Platform/DevPlatform/Tools/Perf))
 	+ ARM32/64: perf: dwarf stack frame unwinding support - https://wiki.linaro.org/LEG/Engineering/TOOLS/perf-callstack-unwinding
-* Microbenchmarks for Cortex A53
-	- https://github.com/thomwiggers/microbenchmark-aarch64/
-	- Energy-Efficient ARM64 Cluster with Cryptanalytic Applications
-	- LATINCRYPT 2017; Thom Wiggers
-	- https://thomwiggers.nl/publication/armcluster/
-* On-Target Trace Using the CoreSight Access Library - https://developer.arm.com/products/software-development-tools/ds-5-development-studio/resources/tutorials/on-target-trace-using-the-coresight-access-library
-* OpenCSD HOWTO - using the library with perf: https://github.com/Linaro/OpenCSD/blob/opencsd-0v002/HOWTO.md
-* Statistical Profiling Extension for ARMv8-A - https://community.arm.com/processors/b/blog/posts/statistical-profiling-extension-for-armv8-a
+* On-Target Trace Using the CoreSight Access Library
+	- https://developer.arm.com/products/software-development-tools/ds-5-development-studio/resources/tutorials/on-target-trace-using-the-coresight-access-library
+* OpenCSD HOWTO - using the library with perf
+	- https://github.com/Linaro/OpenCSD/blob/master/HOWTO.md
+* Statistical Profiling Extension for ARMv8-A
+	- https://community.arm.com/processors/b/blog/posts/statistical-profiling-extension-for-armv8-a
 
 ### Performance: Numerics
 
@@ -445,7 +441,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 * Arm SVE Tools Training
 	+ https://gitlab.com/arm-hpc/training/arm-sve-tools
 * Asvie: A Timing-Agnostic SVE Optimization Methodology 
-	+ <Methodology for ArmIE SVE - https://github.com/ARM-software/Methodology_for_ArmIE_SVE>
+	+ Methodology for ArmIE SVE - <https://github.com/ARM-software/Methodology_for_ArmIE_SVE>
 * Porting and Optimizing HPC Applications for Arm SVE Documentation
 	+ https://developer.arm.com/docs/101726/0200
 	+ Coding for SVE vs Neon
@@ -624,12 +620,26 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ The ARM Computer Vision and Machine Learning library is a set of functions optimised for both ARM CPUs and GPUs using SIMD technologies.
 	+ https://developer.arm.com/technologies/compute-library
 	+ https://github.com/ARM-software/ComputeLibrary
+* LIKWID: Performance monitoring and benchmarking suite
+	+ https://github.com/RRZE-HPC/likwid
+	+ https://hpc.fau.de/research/tools/likwid/
+* Microbenchmarks for Cortex A53
+	- https://github.com/thomwiggers/microbenchmark-aarch64/
+	- Energy-Efficient ARM64 Cluster with Cryptanalytic Applications
+	- LATINCRYPT 2017; Thom Wiggers
+	- https://thomwiggers.nl/publication/armcluster/
 * Ne10 Open Source Library
 	+ Ne10 is a library of common, useful functions that have been heavily optimised for ARM-based CPUs equipped with NEON SIMD capabilities. It provides consistent, well-tested behaviour, allowing for painless integration into a wide variety of applications. The library currently focuses primarily around math, signal processing, image processing, and physics functions.
 	+ http://projectne10.github.io/Ne10/
 	+ https://github.com/projectNe10/Ne10
 * Profiling Tools - https://developer.arm.com/hpc/hpc-software/categories/profiling-tools
 * Streamline Performance Analyzer - https://developer.arm.com/products/software-development-tools/ds-5-development-studio/streamline
+* User-mode access to ARMv7 PMU cycle counters
+	- https://github.com/thoughtpolice/enable_arm_pmu
+	- User-mode performance counters for ARM/Linux
+		- http://neocontra.blogspot.com/2013/05/user-mode-performance-counters-for.html
+* User-mode access to ARMv8 PMU cycle counters
+	- https://github.com/rdolbeau/enable_arm_pmu
 * Using Perf and its friend eBPF on Arm platform
 	- Linaro Connect San Diego 2019; Leo Yan
 	- https://connect.linaro.org/resources/san19/san19-223/
