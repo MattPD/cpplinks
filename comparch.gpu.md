@@ -62,7 +62,9 @@ Note: see also [computer architecture](comparch.md)
 
 ## CUDA Courses
 
-* Intro to Parallel Programming - https://www.udacity.com/course/intro-to-parallel-programming--cs344
+* Intro to Parallel Programming
+	- https://classroom.udacity.com/courses/cs344
+	- https://www.youtube.com/playlist?list=PLAwxTw4SYaPnFKojVQrmyOGFCqHTxfdv2
 
 ## CUDA Documentation
 
