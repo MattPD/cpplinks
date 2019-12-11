@@ -92,6 +92,11 @@ See also:
 	+ Generalizing and Criticizing Delta Debugging
 		- 2011; John Regehr
 		- https://blog.regehr.org/archives/527
+	+ Debugging Inputs
+		- International Conference on Software Engineering (ICSE) 2020
+		- Lukas Kirschner, Ezekiel Soremekun, and Andreas Zeller
+		- https://www.dropbox.com/s/ddn3fe55lws1rdr/icse2020-ddmax.pdf
+		- ddmax implementations & experimental data: https://tinyurl.com/DebuggingInputs
 * Devon H. O'Dell
 	+ Building a Debugging Mindset
 		- https://9vx.org/post/building-a-debugging-mindset/
