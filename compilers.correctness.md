@@ -50,12 +50,26 @@ See also: [compilers](compilers.md)
 	- 2012 PhD Dissertation; Robert W. Dockins
 	- ftp://ftp.cs.princeton.edu/reports/2012/936.pdf
 - Some Goals for High-impact Verified Compiler Research - https://blog.regehr.org/archives/1565
-- The Next 700 Compiler Correctness Theorems (A Functional Pearl)
+- The Next 700 Compiler Correctness Theorems (Functional Pearl)
 	- ICFP 2019
 	- Daniel Patterson, Amal Ahmed
 	- https://icfp19.sigplan.org/details/icfp-2019-papers/35/The-Next-700-Compiler-Correctness-Theorems-A-Functional-Pearl-
+	- https://dbp.io/pubs/2019/ccc/
+	- https://www.ccs.neu.edu/home/amal/papers/next700ccc.pdf
+	- https://www.youtube.com/watch?v=qrwzpo6ISCQ
 - What even is compiler correctness? - https://www.williamjbowman.com/blog/2017/03/24/what-even-is-compiler-correctness/
 - Write Your Compiler by Proving It Correct - http://liamoc.net/posts/2015-08-23-verified-compiler.html
+
+## Debugging
+
+- Automatic Isolation of Compiler Errors
+	- ACM Transactions on Programming Languages and Systems (TOPLAS) 16(5) 1994
+	- David Whalley
+	- https://www.cs.fsu.edu/~whalley/papers/acmtoplas94.pdf
+- Debugging compilers with optimization fuel
+	- 2011
+	- Edward Z. Yang
+	- http://blog.ezyang.com/2011/06/debugging-compilers-with-optimization-fuel/
 
 ## History
 
