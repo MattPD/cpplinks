@@ -670,6 +670,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ### Talks
 
+* Better C++ debugging using Clang Modules in LLDB
+	- 2019 LLVM Developers’ Meeting; Raphael Isemann
+	- https://www.youtube.com/watch?v=vuNZLlHhy0k
+	- http://llvm.org/devmtg/2019-10/talk-abstracts.html#tech13
 * Bringing RenderScript to LLDB
 	+ 2016 EuroLLVM Developers' Meeting; Luke Drummond & Ewan Crawford, Codeplay
 	+ https://www.youtube.com/watch?v=BBC61L0QKCM
