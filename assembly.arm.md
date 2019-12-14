@@ -167,10 +167,6 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 * Learn the Architecture
 	+ https://developer.arm.com/architectures/learn-the-architecture
 * Optional CRC Instructions in ARMv8 - https://wiki.linaro.org/LEG/Engineering/OPTIM/CRC
-* Pointer Authentication on ARMv8.3
-	+ https://www.qualcomm.com/documents/whitepaper-pointer-authentication-armv83
-	+ https://www.qualcomm.com/media/documents/files/whitepaper-pointer-authentication-on-armv8-3.pdf
-	+ https://www.qualcomm.com/news/onq/2017/01/10/qualcomm-releases-whitepaper-detailing-pointer-authentication-armv83
 
 ### Shellcode
 
@@ -289,8 +285,6 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ Speculation Barrier - https://github.com/ARM-software/speculation-barrier
 * Damn Vulnerable ARM Router (DVAR)
 	+ http://blog.exploitlab.net/2018/01/dvar-damn-vulnerable-arm-router.html
-* Examining Pointer Authentication on the iPhone XS
-	+ https://googleprojectzero.blogspot.com/2019/02/examining-pointer-authentication-on.html
 * Exploitation on ARM-based Systems
 	+ Troopers18; Sascha Schirra, Ralf Schaefer
 	+ <https://github.com/sashs/arm_exploitation>
@@ -302,12 +296,6 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ Security and Privacy (S&P) 2017
 	+ Yaohui Chen, Dongli Zhang, Ruowen Wang, Rui Qiao, Ahmed Azab, Long Lu, Hayawardh Vijayakumar, Wenbo Shen
 	+ http://seclab.cs.sunysb.edu/seclab/pubs/norax.pdf
-* PAC it up: Towards Pointer Integrity using ARM Pointer Authentication
-	+ USENIX Security 2019
-	+ Hans Liljestrand, Thomas Nyman, Kui Wang, Carlos Chinea Perez, Jan-Erik Ekberg, N. Asokan
-	+ https://www.usenix.org/conference/usenixsecurity19/presentation/liljestrand
-	+ https://github.com/pointer-authentication
-* Pointer Authentication on ARMv8.3 - https://www.qualcomm.com/media/documents/files/whitepaper-pointer-authentication-on-armv8-3.pdf
 * RevARM: A Platform-Agnostic ARM Binary Rewriter for Security Applications
 	+ Annual Computer Security Applications Conference (ACSAC) 2017
 	+ T. Kim, C. Kim, H. Choi, Y. Kwon, B. Saltaformaggio, X. Zhang, D. Xu
@@ -323,9 +311,42 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ Zhenyu Ning, Fengwei Zhang
 	+ https://www.computer.org/csdl/proceedings/sp/2019/6660/00/666000a969-abs.html
 
+### Pointer Authentication
+
+- Pointer Authentication on ARMv8.3: Design and Analysis of the New Software Security Instructions
+	- 2017
+	- https://www.qualcomm.com/documents/whitepaper-pointer-authentication-armv83
+	- https://www.qualcomm.com/media/documents/files/whitepaper-pointer-authentication-on-armv8-3.pdf
+	- https://www.qualcomm.com/news/onq/2017/01/10/qualcomm-releases-whitepaper-detailing-pointer-authentication-armv83
+- Examining Pointer Authentication on the iPhone XS
+	- 2019; Brandon Azad
+	- https://googleprojectzero.blogspot.com/2019/02/examining-pointer-authentication-on.html
+- PAC it up: Towards Pointer Integrity using ARM Pointer Authentication
+	- USENIX Security 2019
+	- Hans Liljestrand, Thomas Nyman, Kui Wang, Carlos Chinea Perez, Jan-Erik Ekberg, N. Asokan
+	- https://www.usenix.org/conference/usenixsecurity19/presentation/liljestrand
+	- https://github.com/pointer-authentication
+- Raising the Bar: New Hardware Primitives for Exploit Mitigations
+	- BlueHat v17 (2017); Rob Turner
+	- ARMv8.3 pointer authentication
+	- https://www.youtube.com/watch?v=PYe8W33lbAQ
+	- https://www.slideshare.net/MSbluehat/raising-the-bar-new-hardware-primitives-for-exploit-mitigations-83686492
+- arm64e: An ABI for Pointer Authentication
+	- 2019 LLVM Developers’ Meeting; Ahmed Bougacha, John McCall
+	- https://www.youtube.com/watch?v=C1nZvpEBfYA
+	- http://llvm.org/devmtg/2019-10/talk-abstracts.html#tech15
+	- https://github.com/apple/llvm-project/blob/apple/master/clang/docs/PointerAuthentication.rst
+
 ### TrustZone
 
+* A Deep Dive Into Samsung's TrustZone
+	- Part 1: https://blog.quarkslab.com/a-deep-dive-into-samsungs-trustzone-part-1.html
 * Attacking the ARM's TrustZone - https://blog.quarkslab.com/attacking-the-arms-trustzone.html
+* Breaking Samsung's ARM TrustZone
+	- Black Hat USA 2019
+	- Maxime Peterlin, Alexandre Adamski, Joffrey Guilbon
+	- https://www.blackhat.com/us-19/briefings/schedule/#breaking-samsungs-arm-trustzone-14932
+	- https://www.youtube.com/watch?v=uXH5LJGRwXI
 * Cachegrab: a tool designed to help perform and visualize trace-driven cache attacks against software in the secure world of TrustZone-enabled ARMv8 cores
 	+ https://github.com/nccgroup/cachegrab
 	+ https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/december/34C3-Tool-Release-Cachegrab/
@@ -721,11 +742,6 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	 + https://media.ccc.de/v/34c3-8950-microarchitectural_attacks_on_trusted_execution_environments
 	 + https://www.youtube.com/watch?v=G8-3G_cep4M
 * Navigating the ABI for the ARM Architecture – BUD17-318 - http://connect.linaro.org/resource/bud17/bud17-318/
-* Raising the Bar: New Hardware Primitives for Exploit Mitigations
-	+ BlueHat v17; Rob Turner
-	+ ARMv8.3 pointer authentication
-	+ https://www.youtube.com/watch?v=PYe8W33lbAQ
-	+ https://www.slideshare.net/MSbluehat/raising-the-bar-new-hardware-primitives-for-exploit-mitigations-83686492
 * Towards Practical Tools for Side Channel Aware Software Engineering: 'Grey Box' Modelling for Instruction Leakages
 	+ USENIX Security '17
 	+ David McCann, Elisabeth Oswald, and Carolyn Whitnall
