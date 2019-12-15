@@ -1,6 +1,6 @@
 # [C++ links](README.md): RISC-V Assembly
 
-Note: see [Computer Architecture](comparch.md) -- recommended background (which makes the following significantly more approachable) includes at least an undergraduate-level course.
+Note: see [Computer Architecture](comparch.md) -- recommended background (which makes the following significantly more approachable) includes an undergraduate-level course.
 
 - RISC-V Foundation
 	- https://riscv.org/
@@ -76,12 +76,20 @@ https://riscv.org/risc-v-books/
 
 ## Instruction Set Architecture
 
+- Basic Shellcode in RISC-V Linux
+	- Thomas Karpiniec
+	- https://thomask.sdf.org/blog/2018/08/25/basic-shellcode-in-riscv-linux.html
 - RISC-V: #AlphanumericShellcoding
 	- USENIX Workshop on Offensive Technologies (WOOT) 2019; DEF CON 27 (2019)
 	- Hadrien Barral, Rémi Géraud-Stewart, Georges-Axel Jaloyan, David Naccache
 	- https://www.usenix.org/conference/woot19/presentation/barral
 	- https://xn--fda.fr/riscv-alphanumeric-shellcoding/defcon27_riscv-alphanumeric-shellcoding.pdf
 	- https://github.com/RischardV/riscv-alphanumeric-shellcoding
+- RISC-V Shellcoding Cheatsheet
+	- Christina Quast
+	- https://pagedout.institute/download/PagedOut_002_beta2.pdf#page=57
+	- http://shell-storm.org/shellcode/files/shellcode-908.php
+	- https://github.com/chrysh/riscv_exploitation
 
 ## Simulation
 
@@ -119,6 +127,8 @@ https://riscv.org/risc-v-books/
 	- https://github.com/litmus-tests/litmus-tests-riscv
 - RISC-V Sail ISA model
 	- https://github.com/rems-project/sail-riscv
+	- A Tour of the RISC-V ISA Formal Specification
+		- https://github.com/rsnikhil/RISCV_ISA_Spec_Tour
 - riscv-avs: RISC-V Architecture Verification Suite (AVS)
 	- https://github.com/ispras/riscv-avs
 	- an open test suite for RISC-V microprocessors
@@ -208,6 +218,12 @@ Taxonomy of Open Source Processors - http://parallel.princeton.edu/openpiton/ope
 	- https://github.com/csail-csg/riscy
 - Rocket Chip Generator (Chisel)
 	- https://github.com/ucb-bar/rocket-chip/
+- RSD: RISC-V Out-of-Order Superscalar Processor (SystemVerilog)
+	- https://github.com/rsd-devel/rsd
+	- An Open Source FPGA-Optimized Out-of-Order RISC-V Soft Processor
+		- IEEE International Conference on Field-Programmable Technology (FPT) 2019
+		- Susumu Mashimo, Akifumi Fujita, Reoma Matsuo, Seiya Akaki, Akifumi Fukuda, Toru Koizumi, Junichiro Kadomoto, Hidetsugu Irie, Masahiro Goshima, Koji Inoue, Ryota Shioya
+		- http://sv.rsg.ci.i.u-tokyo.ac.jp/pdfs/Mashimo-FPT'19.pdf
 - SCR1: an open-source RISC-V compatible MCU core (SystemVerilog)
 	- https://github.com/syntacore/scr1 
 - SERV: The SErial RISC-V CPU (Verilog)
@@ -299,6 +315,9 @@ https://riscv.org/software-tools/
 		- Rashmi Agarwal, Sahan Bandara, Alan Ehret, Mihailo Isakov, Miguel Mark, Michel A. Kinsy
 		- Paper: https://ascslab.org/research/briscv/wcae/a1-agrawal.pdf
 		- Slides: https://drive.google.com/file/d/1j969LvF8yN8OBsq58schBLjSh6Lfjbba/view
+- Dromajo: Esperanto Technology's RISC-V Reference Model
+	- RISC-V RV64GC emulator designed for RTL co-simulation
+	- https://github.com/chipsalliance/dromajo
 - libriscv: RISC-V userspace emulator library
 	- https://github.com/fwsGonzo/libriscv
 	- C++17 RISC-V RV32GC userspace emulator library
@@ -308,7 +327,10 @@ https://riscv.org/software-tools/
 	- https://github.com/TheThirdOne/rars
 - Ripes: A graphical 5-stage RISC-V pipeline simulator & assembly editor
 	- https://github.com/mortbopet/Ripes
-- RISCVEmu Toy RISC-V emulator - https://github.com/jdryg/RISCVEmu
+- RISCVEmu Toy RISC-V emulator
+	- https://github.com/jdryg/RISCVEmu
+- riscvOVPsim: A Complete, Fully Functional, Configurable RISC-V Simulator
+	- https://github.com/riscv/riscv-ovpsim
 - rv32-sail - high-level emulator for RV32IM
 	- https://github.com/thoughtpolice/rv32-sail
 	- https://riscv.ls0f.pw/
