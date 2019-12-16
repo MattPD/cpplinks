@@ -128,6 +128,11 @@
 		- 2018 SC18 ACM SRC Poster
 		- J. Hammer, G. Hager, G. Wellein
 		- https://sc18.supercomputing.org/proceedings/src_poster/src_poster_pages/spost115.html
+- BHive: A Benchmark Suite and Measurement Framework for Validating x86-64 Basic Block Performance Models
+	- IISWC 2019
+	- Yishen Chen, Ajay Brahmakshatriya, Charith Mendis, Alex Renda, Eric Atkinson, Ondrej Sykora, Saman Amarasinghe, Michael Carbin 
+	- http://groups.csail.mit.edu/commit/papers/19/ithemal-measurement.pdf
+	- https://github.com/ithemal/bhive
 - Intel Architecture Code Analyzer (IACA)
 	- https://software.intel.com/en-us/articles/intel-architecture-code-analyzer
 - ibench: Measure instruction latency and throughput
@@ -232,7 +237,7 @@
 	- ;login: 41(2) (2016)
 		- https://www.usenix.org/publications/login/summer2016/curtsinger
 	- Performance Matters - Strange Loop 2019; Emery Berger
-		- https://www.youtube.com/watch?v=r-TLSBdHe1A&feature=youtu.be
+		- https://www.youtube.com/watch?v=r-TLSBdHe1A
 - easy_profiler: Lightweight cross-platform profiler library for C++
 	- https://github.com/yse/easy_profiler
 - Event Tracing for Windows (ETW) / Windows Performance Toolkit – Xperf
