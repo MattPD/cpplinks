@@ -107,6 +107,10 @@
 	- 2014 PhD dissertation; Mark Batty
 	- https://www.cs.kent.ac.uk/people/staff/mjb211/docs/toc.pdf
 	- [2015 SIGPLAN John C. Reynolds Doctoral Dissertation award citation](http://www.sigplan.org/Awards/Dissertation/#2015): "Mark Batty’s dissertation makes significant contributions to the understanding of memory models for C and C++. The ISO C++ committee proposed a design for C and C++ concurrency that was not up to the task of capturing a realistic relaxed-memory concurrency model. Batty’s work uncovered a number of subtle and serious flaws in the design, and produced an improved design in completely rigorous and machine-checked mathematics. Using software tools to explore the consequences of the design, derived directly from the mathematics, it showed that it has the desired behavior on many examples, and developed mechanized proofs that the design meets some of the original goals, showing that for programs in various subsets of the language one can reason in simpler models. The standards committee have adopted this work in their C11, C++11, and C++14 standards. The members of the award committee were impressed with the quality of the work, the impact it has had on the standardization process for C++, and the clarity of the presentation."
+- The Semantics of Multicopy Atomic ARMv8 and RISC-V
+	- 2019 PhD dissertation; Christopher Pulte
+	- https://doi.org/10.17863/CAM.39379 
+	- https://www.repository.cam.ac.uk/handle/1810/292229
 
 ## Papers - Data Structures
 
