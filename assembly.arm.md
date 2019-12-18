@@ -9,7 +9,9 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ [Formalization, Specification, Verification](#formalization-specification-verification)
 	+ [Instruction Set Architecture](#instruction-set-architecture)
 	+ [Performance](#performance)
-	+ [Security](#security): [TrustZone](#trustzone)
+	+ [Security](#security):
+		- [Pointer Authentication](#pointer-authentication)
+		- [TrustZone](#trustzone)
 	+ [Simulation](#simulation)
 	+ [Virtualization](#virtualization)
 * [References](#references):
@@ -341,6 +343,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 
 * A Deep Dive Into Samsung's TrustZone
 	- Part 1: https://blog.quarkslab.com/a-deep-dive-into-samsungs-trustzone-part-1.html
+	- Part 2: https://blog.quarkslab.com/a-deep-dive-into-samsungs-trustzone-part-2.html
 * Attacking the ARM's TrustZone - https://blog.quarkslab.com/attacking-the-arms-trustzone.html
 * Breaking Samsung's ARM TrustZone
 	- Black Hat USA 2019
@@ -470,9 +473,6 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 * Mastering the Arm HPC ecosystem
 	+ CEA-RIKEN HPC school (June 2019)
 	+ https://indico.math.cnrs.fr/event/4705/
-* Road to SVE enablement in LLDB
-	- Linaro Connect San Diego 2019; Omair Javaid
-	- https://connect.linaro.org/resources/san19/san19-204/
 * Scalable Vector Extension (SVE)
 	+ https://community.arm.com/processors/b/blog/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture
 	+ https://developer.arm.com/hpc/a-sneak-peek-into-sve-and-vla-programming
@@ -483,10 +483,6 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 		- <https://community.arm.com/cfs-file/__key/telligent-evolution-components-attachments/01-2142-00-00-00-01-20-49/ARMv8_2D00_A-SVE-technology-Hot-Chips-v12.pdf>
 * Scalable Vector Extension support for AArch64 Linux
 	- https://www.kernel.org/doc/html/latest/arm64/sve.html
-* Scalable Vectorization for LLVM
-	- 2016 LLVM Developers’ Meeting; Amara Emerson & Graham Hunter, ARM
-	- https://www.youtube.com/watch?v=0up2hJk7k94
-	- http://llvm.org/devmtg/2016-11/Slides/Emerson-ScalableVectorizationinLLVMIR.pdf
 * The ARM Scalable Vector Extension
 	+ IEEE Micro, March 2017
 	+ Nigel Stephens, Stuart Biles, Matthias Boettcher, Jacob Eapen, Mbou Eyole, Giacomo Gabrielli, Matt Horsnell, Grigorios Magklis, Alejandro Martinez, Nathanael Premillieu, Alastair Reid, Alejandro Rico, Paul Walker
@@ -496,6 +492,18 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ The Journal of Supercomputing (2019)
 	+ Armejach, Adrià, Helena Caminal, Juan M. Cebrian, Rubén Langarita, Rekai González-Alberquilla, Chris Adeniyi-Jones, Mateo Valero, Marc Casas, Miquel Moretó
 	+ https://doi.org/10.1007/s11227-019-02842-5
+
+#### SVE: LLVM Implementation
+
+* Road to SVE enablement in LLDB
+	- Linaro Connect San Diego 2019; Omair Javaid
+	- https://connect.linaro.org/resources/san19/san19-204/
+* Scalable Vectorization for LLVM
+	- 2016 LLVM Developers’ Meeting; Amara Emerson & Graham Hunter, ARM
+	- https://www.youtube.com/watch?v=0up2hJk7k94
+	- http://llvm.org/devmtg/2016-11/Slides/Emerson-ScalableVectorizationinLLVMIR.pdf
+* SVE/SVE2 Patches on Phabricator
+	- https://docs.google.com/document/d/1ph1l1KhrrHgBlrKeEnuoIPrVO9jTjHvcwUlz61QWNMA
 
 ## Toolchains
 
