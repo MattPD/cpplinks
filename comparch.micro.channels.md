@@ -98,6 +98,9 @@ See also: [Computer Architecture](comparch.md)
 	+ 2017 PhD dissertation; Daniel Gruss
 	+ https://gruss.cc/files/phd_thesis.pdf
 	+ slides: https://gruss.cc/files/phd_defense_slides.pdf
+* Software-based Side-Channel Attacks and Defenses in Restricted Environments
+	- 2019 PhD Thesis; Michael Schwarz
+	- https://misc0110.net/web/files/phd_thesis.pdf
 * Survey of Microarchitectural Side and Covert Channels, Attacks, and Defenses
 	+ Journal of Hardware and Systems Security (2018)
 	+ Jakub Szefer
@@ -327,6 +330,10 @@ See also: [Computer Architecture](comparch.md)
 	+ Parallel Architectures and Compilation Techniques (PACT) 2019
 	+ Daniel Townley and Dmitry Ponomarev
 	+ http://www.cs.binghamton.edu/~dima/pact19.pdf
+* Using Information Flow to Design an ISA That Controls Timing Channels 
+	- CSF 2019
+	- Drew Zagieboylo, G. Edward Suh, Andrew C. Myers
+	- http://www.cs.cornell.edu/andru/papers/hyperisa/
 
 ## Defense - Software
 
@@ -423,6 +430,11 @@ See also: [Computer Architecture](comparch.md)
 	+ Sunjay Cauligi, Gary Soeller, Fraser Brown, Brian Johannesmeyer, Yunlu Huang, Ranjit Jhala, Deian Stefan
 	+ https://cseweb.ucsd.edu/~dstefan/pubs/cauligi:2017:fact.pdf
 	+ https://github.com/PLSysSec/FaCT
+* Mitigating Data Leakage by Protecting Memory-resident Sensitive Data
+	- Annual Computer Security Applications Conference (ACSAC) 2019
+	- Tapti Palit, Fabian Monrose, Michalis Polychronakis
+	- https://doi.org/10.1145/3359789.335981
+	- https://www3.cs.stonybrook.edu/~mikepo/papers/dataencr.acsac19.pdf
 * Provably secure compilation of side-channel countermeasures
 	+ Cryptology ePrint Archive: Report 2017/1233
 	+ Gilles Barthe, Benjamin Grégoire, Vincent Laporte
@@ -499,7 +511,7 @@ See also: [Computer Architecture](comparch.md)
 	+ Esmaeil Mohammadian Koruyeh, Shirin Haji Amin Shirazi, Khaled N. Khasawneh, Chengyu Song, Nael Abu-Ghazaleh
 	+ https://arxiv.org/abs/1906.01345
 * SpecFuzz: Bringing Spectre-type vulnerabilities to the surface
-	+ arXiv 2019
+	+ arXiv 2019; USENIX Security 2020
 	+ Oleksii Oleksenko, Bohdan Trach, Mark Silberstein, Christof Fetzer
 	+ https://arxiv.org/abs/1905.10311
 * SpecShield: Shielding Speculative Data from Microarchitectural Covert Channels
@@ -699,6 +711,10 @@ See also: [Computer Architecture](comparch.md)
 * Robust Website Fingerprinting Through the Cache Occupancy Channel
 	+ 2018 arXiv; Anatoly Shusterman, Lachlan Kang, Yarden Haskal, Yosef Meltser, Prateek Mittal, Yossi Oren, Yuval Yarom 
 	+ https://arxiv.org/abs/1811.07153
+* Stealthy Tracking of Autonomous Vehicles with Cache Side Channels
+	- USENIX Security 2020
+	- Mulong Luo, Andrew C. Myers, G. Edward Suh
+	- http://www.cs.cornell.edu/andru/papers/stealthy-tracking/
 * Unveiling your keystrokes: A Cache-based Side-channel Attack on Graphics Libraries
 	+ NDSS 2019
 	+ Daimeng Wang, Ajaya Neupane, Zhiyun Qian, Nael Abu-Ghazaleh, Srikanth V. Krishnamurthy, Edward J. M. Colbert, Paul Yu
@@ -1040,6 +1056,10 @@ See also: [Computer Architecture](comparch.md)
 	+ Roberto Di Pietro, Flavio Lombardi, Antonio Villani
 	+ https://arxiv.org/abs/1305.7383
 	+ https://dl.acm.org/citation.cfm?id=2801153
+* Exploiting Bank Conflict-based Side-channel Timing Leakage of GPUs
+	- ACM Transactions on Architecture and Code Optimization (TACO) 16(4) 2019
+	- Jiang Zhen Hang, Fei Yunsi, Kaeli David
+	- https://doi.org/10.1145/3361870
 * GPU Security Exposed: Exploiting Shared Memory
 	+ Black Hat Europe 2016
 	+ Justin Taft
