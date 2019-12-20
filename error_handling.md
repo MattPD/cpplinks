@@ -168,18 +168,13 @@
 	+ https://doi.org/10.1145/276393.276395
 	+ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.33.3400&rep=rep1&type=pdf
 * A Study on the Effects of Exception Usage in Open-Source C++ Systems
-	+ 2019 Master Thesis; Kirsten Bradley
-	+ http://hdl.handle.net/10012/14714
-* Automatically Detecting Error Handling Bugs Using Error Specifications
-	+ USENIX Security 2016
-	+ Suman Jana, Yuan Kang, Samuel Roth, Baishakhi Ray
-	+ https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/jana
-	+ EPEx: Error Path Exploration for Finding Error Handling Bugs - https://github.com/yujokang/EPEx
-* Automatically Diagnosing and Repairing Error Handling Bugs in C
-	+ ESEC/FSE 2017
-	+ Yuchi Tian, Baishakhi Ray
-	+ https://yuchi1989.github.io/papers/fse17-ErrDoc.pdf
-	+ ErrDoc: Tool for detecting, categorizing, and repairing error handling bugs - https://github.com/yuchi1989/ErrDoc/
+	- 2019 Master Thesis; Kirsten Bradley
+		- http://hdl.handle.net/10012/14714
+	- Source Code Analysis and Manipulation (SCAM) 2019
+		- Kirsten Bradley and Mike Godfrey
+		- https://plg.uwaterloo.ca/~migod/papers/2019/scam19.pdf
+	- Zelda - Zee Exception Length and Destination Analyzer
+		- https://github.com/k10bradley/zelda
 * C++ exception handling
 	+ IEEE Concurrency 8(4) 2000
 	+ Christophe De Dinechin
@@ -188,11 +183,6 @@
 	+ USENIX Workshop on Industrial Experiences with Systems Software (WIESS) 2000
 	+ Christophe de Dinechin
 	+ http://www.usenix.org/events/wiess2000/dinechin.html 
-* Effective Error-Specification Inference via Domain-Knowledge Expansion
-	+ ESEC/FSE 2019
-	+ Daniel DeFreez, Haaken Martinson Baldwin, Cindy Rubio-González, Aditya V. Thakur
-	+ https://dl.acm.org/citation.cfm?id=3338960
-	+ https://github.com/ucd-plse/eesi
 * Exception Handling: Issues and a Proposed Notation
 	+ Communications of the ACM (CACM) 18(12) 1975
 	+ John B. Goodenough
@@ -260,13 +250,40 @@
 	+ https://tc.gtisc.gatech.edu/feast17/papers/p9-hiserA.pdf
 	+ Section 2.2 - EH Frame IR Construction - exception handling and stack unwinding information in Linux ELF executable files
 
+### Papers: Correctness
+
+- Automatically Detecting Error Handling Bugs Using Error Specifications
+	- USENIX Security 2016
+	- Suman Jana, Yuan Kang, Samuel Roth, Baishakhi Ray
+	- https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/jana
+	- EPEx: Error Path Exploration for Finding Error Handling Bugs - https://github.com/yujokang/EPEx
+- Automatically Diagnosing and Repairing Error Handling Bugs in C
+	- ESEC/FSE 2017
+	- Yuchi Tian, Baishakhi Ray
+	- https://yuchi1989.github.io/papers/fse17-ErrDoc.pdf
+	- ErrDoc: Tool for detecting, categorizing, and repairing error handling bugs - https://github.com/yuchi1989/ErrDoc/
+- Effective Error-Specification Inference via Domain-Knowledge Expansion
+	- ESEC/FSE 2019
+	- Daniel DeFreez, Haaken Martinson Baldwin, Cindy Rubio-González, Aditya V. Thakur
+	- https://dl.acm.org/citation.cfm?id=3338960
+	- https://thakur.cs.ucdavis.edu/bibliography/defreez_rubio_thakur_FSE2019.html
+	- https://github.com/ucd-plse/eesi
+- Fuzzing Error Handling Code in Device Drivers Based on Software Fault Injection 
+	- ISSRE 2019 - The 30th International Symposium on Software Reliability Engineering
+	- Zu-Ming Jiang, Jia-Ju Bai, Julia Lawall, Shi-Min Hu
+	- https://hal.inria.fr/hal-02389293/
+- Testing Error Handling Code in Device Drivers Using Characteristic Fault Injection 
+	- 2016 USENIX Annual Technical Conference
+	- Jia-Ju Bai, Yu-Ping Wang, Jie Yin, Shi-Min Hu
+	- https://www.usenix.org/node/196270
+
 ### WG21 - C++ Standards Committee Papers
 
 * P0157: Handling Disappointment in C++
 	+ 2015-11-07; Lawrence Crowl
 	+ https://wg21.link/P0157
 * P0364: Report on Exception Handling Lite (Disappointment) from SG14
-	+ 2016­05­23; Michael Wong, Sunil Srivastava, Sean Middleditch, Patrice Roy
+	+ 2016-05-23; Michael Wong, Sunil Srivastava, Sean Middleditch, Patrice Roy
 	+ http://wg21.link/P0364
 * P0709: Zero-overhead deterministic exceptions: Throwing values
 	+ 2018-05-02; Herb Sutter
@@ -356,6 +373,9 @@
 * EPEx: Error Path Exploration for Finding Error Handling Bugs
 	+ Tool for detecting error handling bugs
 	+ https://github.com/yujokang/EPEx
+* Zelda - Zee Exception Length and Destination Analyzer
+	- Open-source static analysis tool to track exception usage and flow through C++ code
+	- https://github.com/k10bradley/zelda
 
 ---
 
