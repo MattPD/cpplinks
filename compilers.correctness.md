@@ -70,6 +70,11 @@ See also: [compilers](compilers.md)
 	- 2011
 	- Edward Z. Yang
 	- http://blog.ezyang.com/2011/06/debugging-compilers-with-optimization-fuel/
+- Using Mutants to Help Developers Distinguish and Debug (Compiler) Faults
+	- Journal of Software Testing, Verification, and Reliability (STVR) (accepted: 2019)
+	- Josie Holmes and Alex Groce
+	- https://agroce.github.io/stvr20.pdf
+	- https://github.com/agroce/compilermutants
 
 ## History
 
