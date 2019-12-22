@@ -358,7 +358,7 @@
 	- http://markuskimius.wikidot.com/programming:tut:autotools
 - Autotools, 2nd Edition
 	- A Practitioner's Guide to GNU Autoconf, Automake, and Libtool
-	- John Calcote
+	- 2019; John Calcote
 	- https://nostarch.com/autotools2e
 	- Chapter 2: A Brief Introduction to the GNU Autotools
 		- https://nostarch.com/download/samples/Autotools2e_Sample_Ch2.pdf
@@ -459,6 +459,8 @@
 	- https://codingnest.com/basic-cmake/
 - CGold: The Hitchhiker’s Guide to the CMake
 	- https://cgold.readthedocs.io/en/latest/
+- CMake 3.16 added support for precompiled headers & unity builds - what you need to know
+	- http://onqtam.com/programming/2019-12-20-pch-unity-cmake-3-16/
 - CMake Coding Style
 	- https://community.kde.org/Policies/CMake_Coding_Style
 - Dev Santa Claus - Nick Sarten
