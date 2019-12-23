@@ -49,6 +49,9 @@ Contents:
 	+ https://github.com/m4b/bingrep
 * Bloaty McBloatface: a size profiler for binaries (ELF, Mach-O) - https://github.com/google/bloaty
 	+ http://blog.reverberate.org/2016/11/07/introducing-bloaty-mcbloatface.html
+	+ “(Ab)using Compiler Tools”; CppCon 2019; Reka Kovacs
+		- https://www.youtube.com/watch?v=5Lke40ywMaU
+		- https://github.com/CppCon/CppCon2019/tree/master/Presentations/abusing_compiler_tools
 * Boost Dynamic Library Load (Boost.DLL): Library for comfortable work with DLL and DSO
 	+ https://github.com/boostorg/dll
 	+ https://www.boost.org/doc/libs/release/doc/html/boost_dll.html
@@ -345,8 +348,11 @@ Contents:
 	+ http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
 	+ https://github.com/abraithwaite/teensy
 * About ELF Auxiliary Vectors - http://articles.manugarg.com/aboutelfauxiliaryvectors
-* Analyzing ELF Binaries with Malformed Headers Part 1 - Emulating Tiny Programs
-	+ https://binaryresearch.github.io/2019/09/17/Analyzing-ELF-Binaries-with-Malformed-Headers-Part-1-Emulating-Tiny-Programs.html
+* Analyzing ELF Binaries with Malformed Headers
+	+ Part 1 - Emulating Tiny Programs
+		- https://binaryresearch.github.io/2019/09/17/Analyzing-ELF-Binaries-with-Malformed-Headers-Part-1-Emulating-Tiny-Programs.html
+	+ Part 2 - Mapping Program Logic with Qiling and Graphviz
+		- https://binaryresearch.github.io/2019/12/11/Analyzing-ELF-Binaries-with-Malformed-Headers-Part-2-Mapping-Program-Logic-with-Qiling-and-Graphviz.html
 * Anatomy of an ELF core file - https://www.gabriel.urdhr.fr/2015/05/29/core-file/
 * Armouring the ELF: Binary encryption on the UNIX platform - scut & grugq - Phrack Magazine #58 (2001-12-28) - http://www.phrack.org/issues/58/5.html
 * Building an ELF Parser with Frida - https://versprite.com/og/frida/
@@ -856,6 +862,9 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ http://pev.sf.net
 	+ https://github.com/merces/pev
 * PEview - http://wjradburn.com/software/
+* PE Anatomist - PE files internals
+	- https://rammerlabs.alidml.ru/index-eng.html
+	- https://rammerlabs.alidml.ru/peanatomist-eng.html
 * PE Insider - http://cerbero.io/peinsider/
 * PE Tools - Portable executable (PE) manipulation toolkit 
 	+ Process Viewer, PE files Editor, Dumper, Rebuilder, Comparator, Analyzer
