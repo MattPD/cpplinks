@@ -3,7 +3,7 @@
 # Contents
 
 - [General](#general)
-- Language-specific: [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Objective-C](#objective-c), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata)
+- Language-specific: [Bash](#bash), [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Objective-C](#objective-c), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata)
 
 ---
 
@@ -16,6 +16,13 @@
 	- https://github.com/libffi/libffi
 - SWIG: Simplified Wrapper and Interface Generator
 	- http://www.swig.org/
+
+---
+
+# Bash
+
+- ctypes.sh: a foreign function interface for bash
+	- https://github.com/taviso/ctypes.sh
 
 ---
 
