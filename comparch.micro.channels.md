@@ -167,6 +167,12 @@ See also: [Computer Architecture](comparch.md)
 
 ## Defense - Cache
 
+* An Exploration of Effective Fuzzing for Side-channel Cache Leakage
+	- Software Testing, Verification and Reliability (STVR) 2019
+	- Tiyash Basu, Kartik Aggarwal, Chundong Wang, Sudipta Chattopadhyay 
+	- https://doi.org/10.1002/stvr.1718
+	- https://asset-group.github.io/papers/STVR-cache-side-channel-fuzz.pdf
+	- https://github.com/tiyashbasu/Cache_Side_Channel_Tester
 * Analysis of Secure Caches and Timing-Based Side-Channel Attacks
 	+ Cryptology ePrint Archive: Report 2019/167
 	+ Shuwen Deng, Wenjie Xiong, Jakub Szefer
