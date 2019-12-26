@@ -667,6 +667,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * LLDB Scripts - Debugging the Swift Compiler
 	+ https://github.com/apple/swift/blob/master/docs/DebuggingTheCompiler.rst#lldb-scripts
 * LLDB to GDB Command Map - https://lldb.llvm.org/lldb-gdb.html
+* Beyond Debug Information: Improving Program Reconstruction in LLDB using C++ Modules
+	- 2019 Master’s Thesis; Raphael Isemann
+	- https://hdl.handle.net/20.500.12380/300037
 
 ### Talks
 
