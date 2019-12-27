@@ -786,6 +786,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ Debugging ZFS: From Illumos to Linux
 		- OpenZFS Developer Summit 2019; Serapheim Dimitropoulos 
 		- https://drive.google.com/file/d/1oho9X5bkW-I-yJ-pVD8VqkaloxhGepzT/view
+* vmlinux-to-elf: A tool to recover a fully analyzable ELF from a raw kernel, through extracting the kernel symbol table (kallsyms)
+	- https://github.com/marin-m/vmlinux-to-elf
 
 #### Linux - Talks
 
