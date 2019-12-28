@@ -101,9 +101,17 @@
 * Edaqa Mortoray - The true cost of zero cost exceptions
 	+ Examines how exceptions are implemented in order to show some of the real costs of them.
 	+ https://mortoray.com/2013/09/12/the-true-cost-of-zero-cost-exceptions/
-* Jonathan Müller - Exceptions vs expected: Let's find a compromise
-	+ A look at finding a middle ground between exceptions and `std::expected` by examining what other languages provide.
-	+ http://foonathan.net/blog/2017/12/04/exceptions-vs-expected.html
+* Jonathan Müller
+	- Exceptions vs expected: Let's find a compromise
+		- A look at finding a middle ground between exceptions and `std::expected` by examining what other languages provide.
+		- https://foonathan.net/2017/12/exceptions-vs-expected/
+	- How to handle errors in constructors without exceptions?
+		- https://foonathan.net/2017/01/exceptions-constructor/
+	- Error Handling Series
+		- Part 1: Choosing the right error handling strategy - https://foonathan.net/2016/09/error-handling-strategy/
+		- Part 2: Flexible error handling techniques in C++ - https://foonathan.net/2016/06/flexible-error-handling/
+		- Part 3: How do I implement assertions? - https://foonathan.net/2016/09/assertions/
+		- Part 4: Prevent precondition errors with the C++ type system - https://foonathan.net/2016/09/error-handling-types/
 * Joseph M. Newcomer - Mythology in C++: Exceptions are Expensive
 	+ Microbenchmarks and assembly examinations to show that exceptions are not as expensive as many say.
 	+ http://www.flounder.com/exceptions.htm
