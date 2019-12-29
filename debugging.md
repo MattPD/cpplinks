@@ -578,6 +578,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * Notes on GDB - https://publicclu2.blogspot.com/2013/05/notes-on-gdb.html
 * Object Inspection in GDB - https://hgad.net/posts/object-inspection-in-gdb/
 * Process Injection with GDB - https://magisterquis.github.io/2018/03/11/process-injection-with-gdb.html
+* Python Interpreter in GNU Debugger
+	- https://www.pythonsheets.com/appendix/python-gdb.html
 * Skipping standard C++ library during debug session in gdb - https://xaizek.github.io/2016-05-26/skipping-standard-library-in-gdb/
 * Victor Stinner's Notes - GDB: GNU debugger - http://vstinner.readthedocs.io/gdb.html
 
