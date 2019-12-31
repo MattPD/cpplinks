@@ -169,6 +169,10 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 * Learn the Architecture
 	+ https://developer.arm.com/architectures/learn-the-architecture
 * Optional CRC Instructions in ARMv8 - https://wiki.linaro.org/LEG/Engineering/OPTIM/CRC
+* REPICA: Rewriting Position Independent Code of ARM
+	- IEEE Access 6 (2018)
+	- Dongsoo Ha, Wenhui Jin, Heekuck Oh
+	- https://doi.org/10.1109/access.2018.2868411
 
 ### Shellcode
 
@@ -304,6 +308,10 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ <https://www.cs.purdue.edu/homes/kwon58/data/revarm_acsac17.pdf>
 	+ <https://www.acsac.org/2017/openconf/modules/request.php?module=oc_program&action=summary.php&id=201>
 	+ <https://www.researchgate.net/publication/321506390_RevARM_A_Platform-Agnostic_ARM_Binary_Rewriter_for_Security_Applications>
+* Safe and Efficient Implementation of a Security System on ARM using Intra-level Privilege Separation
+	- ACM Transactions on Privacy and Security (TOPS) 22(2) 2019
+	- Donghyun Kwon, Hayoon Yi, Yeongpil Cho, Yunheung Paek
+	- https://doi.org/10.1145/3309698
 * Smashing the ARM Stack: ARM Exploitation Part 1
 	+ https://www.merckedsecurity.com/blog/smashing-the-arm-stack-part-1
 * TCP Bind Shell in Assembly (ARM 32-bit)
@@ -353,11 +361,19 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 * Cachegrab: a tool designed to help perform and visualize trace-driven cache attacks against software in the secure world of TrustZone-enabled ARMv8 cores
 	+ https://github.com/nccgroup/cachegrab
 	+ https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/december/34C3-Tool-Release-Cachegrab/
+* Demystifying Arm TrustZone: A Comprehensive Survey
+	- ACM Computing Surveys 51(6) 2019
+	- Sandro Pinto and Nuno Santos
+	- https://www.gsd.inesc-id.pt/~nsantos/papers/pinto_acsur19.pdf
 * Introduction to Trusted Execution Environment: ARM's TrustZone - https://blog.quarkslab.com/introduction-to-trusted-execution-environment-arms-trustzone.html
 * PARTEMU: Enabling Dynamic Analysis of Real-World TrustZone Software Using Emulation
 	+ USENIX Security 2020
 	+ Lee Harrison, Hayawardh Vjayakumar, Rohan Padhye, Koushik Sen, Michael Grace
 	+ https://people.eecs.berkeley.edu/~rohanpadhye/files/partemu-usenixsec20.pdf
+* SoK: Understanding the Prevailing Security Vulnerabilities in TrustZone-assisted TEE Systems
+	- IEEE Symposium on Security and Privacy (S&P) 2020
+	- David Cerdeira, Nuno Santos, Pedro Fonseca, Sandro Pinto
+	- https://www.cs.purdue.edu/homes/pfonseca/papers/sp2020-tees.pdf
 * Verification of a Practical Hardware Security Architecture Through Static Information Flow Analysis (ARM TrustZone)
 	+ ASPLOS 2017
 	+ Andrew Ferraiuolo, Rui Xu, Danfeng Zhang, Andrew C. Myers, G. Edward Suh
