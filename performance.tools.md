@@ -54,6 +54,10 @@
 	- a set of assembler routines to measure the parallel memory (cache and RAM) bandwidth of modern multi-core machines
 	- http://panthema.net/2013/pmbw/
 	- https://github.com/bingmann/pmbw
+- Spatter: Benchmark for measuring the performance of sparse and irregular memory access
+	- https://github.com/hpcgarage/spatter
+	- Spatter: A Tool for Evaluating Gather / Scatter Performance
+		- https://arxiv.org/abs/1811.03743
 - STREAM: Sustainable Memory Bandwidth in High Performance Computers
 	- http://www.cs.virginia.edu/stream/
 	- STREAM benchmark - https://github.com/jeffhammond/STREAM
