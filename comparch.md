@@ -17,7 +17,8 @@ Note: see also [Assembly (Arm)](assembly.arm.md), [Assembly (RISC-V)](assembly.r
 
 # Books
 
-* From NAND to Tetris Building a Modern Computer From First Principles
+* The Elements of Computing Systems: Building a Modern Computer from First Principles
+	+ Build a Modern Computer from First Principles: From NAND to Tetris
 	+ http://www.nand2tetris.org/
 	+ (no prerequisites)
 * Patt & Patel: Introduction to Computing Systems: From Bits and Gates to C and Beyond!
@@ -131,17 +132,23 @@ Note: see also [Assembly (Arm)](assembly.arm.md), [Assembly (RISC-V)](assembly.r
 
 ## Readings
 
-* A Look at Computer Architecture Evaluation Methodologies
-	+ Mario Badr and Natalie Enright Jerger
-	+ Workshop on Pioneering Processor Paradigms (WP3) 2018
-	+ http://mariobadr.com/pdfs/2018-02-25-WP3-paper.pdf
-	+ http://mariobadr.com/pdfs/2018-02-25-WP3-presentation.pdf
-	+ Survey on Computer Architecture Evaluation Methodologies
+- A Look at Computer Architecture Evaluation Methodologies
+	- Mario Badr and Natalie Enright Jerger
+	- Workshop on Pioneering Processor Paradigms (WP3) 2018
+	- http://mariobadr.com/pdfs/2018-02-25-WP3-paper.pdf
+	- http://mariobadr.com/pdfs/2018-02-25-WP3-presentation.pdf
+	- Survey on Computer Architecture Evaluation Methodologies
 		- https://github.com/mariobadr/survey-wp3
-* A Survey of Computer Architecture Simulation Techniques and Tools
-	+ IEEE Access 2019
-	+ Ayaz Akram, Lina Sawalha
-	+ https://ieeexplore.ieee.org/document/8718630
+- A Survey of Cache Simulators
+	- ACM Computing Surveys (CSUR) 2019
+	- Hadi Brais, Rajshekar Kalayappan, Preeti Ranjan Panda
+	- https://homepages.iitdh.ac.in/~rajshekar.k/papers/Survey_Of_Cache_Simulators.pdf
+	- A survey on architectural simulators focused on CPU caches
+		- https://github.com/hadibrais/archsim
+- A Survey of Computer Architecture Simulation Techniques and Tools
+	- IEEE Access 2019
+	- Ayaz Akram, Lina Sawalha
+	- https://ieeexplore.ieee.org/document/8718630
 
 ## Software
 
