@@ -577,6 +577,10 @@
 	- https://meetingcpp.com/2018/Talks/items/More_Modern_CMake___Working_with_CMake_3_12_and_later.html
 	- https://meetingcpp.com/mcpp/slides/2018/MoreModernCMake.pdf
 	- https://www.youtube.com/watch?v=y7ndUhdQuU8
+- Oh No! More Modern CMake
+	- Meeting C++ 2019; Deniz Bahadir
+	- https://www.youtube.com/watch?v=y9kSr5enrSk
+	- https://github.com/Bagira80/More-Modern-CMake
 - Using Modern CMake Patterns to Enforce a Good Modular Design
 	- CppCon 2017; Mathieu Ropert 
 	- https://www.youtube.com/watch?v=eC9-iRN2b04
