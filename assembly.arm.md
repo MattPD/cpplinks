@@ -88,6 +88,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 - Alastair Reid's
 	- Blog Posts - https://alastairreid.github.io/
 	- Papers: https://alastairreid.github.io/alastairreid.github.io/papers/
+	- 2020-01-01 - Using ASLi with Arm's v8.6-A ISA specification - https://alastairreid.github.io/using-asli/
 	- 2019-02-17 - Generating multiple solutions with SMT - https://alastairreid.github.io/tracing-smt3/
 	- 2019-02-09 - Using SMT to check specifications for errors - https://alastairreid.github.io/tracing-smt2/
 	- 2019-02-02 - Generating SMT from traces - https://alastairreid.github.io/tracing-smt/
