@@ -67,6 +67,9 @@ See also:
 	+ https://www.microsoft.com/en-us/research/publication/debugging-in-the-very-large-ten-years-of-implementation-and-experience/
 	+ https://www.sigops.org/sosp/sosp09/papers/glerum-sosp09.pdf
 	+ https://www.sigops.org/sosp/sosp09/slides/glerum-slides-sosp09.pdf
+* debugging-stories: A collection of debugging stories
+	- https://github.com/danluu/debugging-stories
+	- http://danluu.com/teach-debugging/
 * Delta Debugging
 	+ https://www.st.cs.uni-saarland.de/dd/
 	+ Delta: Heuristically minimizes interesting files
@@ -680,33 +683,42 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://www.youtube.com/watch?v=vuNZLlHhy0k
 	- http://llvm.org/devmtg/2019-10/talk-abstracts.html#tech13
 * Bringing RenderScript to LLDB
-	+ 2016 EuroLLVM Developers' Meeting; Luke Drummond & Ewan Crawford, Codeplay
-	+ https://www.youtube.com/watch?v=BBC61L0QKCM
-	+ http://www.llvm.org/devmtg/2016-03/Presentations/EuroLLVM2016-E.Crawford_and_L.Drummond-Bringing_RenderScript_to_LLDB.pdf
-* Debugging Tips and Tricks - WWDC 2016 - https://developer.apple.com/videos/play/wwdc2016/417
-* Debugging with LLDB - WWDC 2012 - https://developer.apple.com/videos/play/wwdc2012/415/
+	- 2016 EuroLLVM Developers' Meeting; Luke Drummond & Ewan Crawford, Codeplay
+	- https://www.youtube.com/watch?v=BBC61L0QKCM
+	- http://www.llvm.org/devmtg/2016-03/Presentations/EuroLLVM2016-E.Crawford_and_L.Drummond-Bringing_RenderScript_to_LLDB.pdf
+* Debugging Tips and Tricks
+	- WWDC 2016; Kate Stone, Enrico Granata, Sean Callanan, Jim Ingham
+	- https://developer.apple.com/videos/play/wwdc2016/417
+* Debugging with LLDB
+	- WWDC 2012; Greg Clayton
+	- https://developer.apple.com/videos/play/wwdc2012/415/
+* Debugging with LLVM: A quick introduction to LLDB and LLVM sanitizers
+	- FOSDEM 2020; Andrzej Warzynski
+	- https://fosdem.org/2020/schedule/event/debugging_with_llvm/
 * ds2: a tiny debug server used with lldb
-	+ 2015 LLVM Developers’ Meeting; Stephane Sezer, Facebook
-	+ https://www.youtube.com/watch?v=n00EhLskJWk
-	+ https://github.com/facebook/ds2
+	- 2015 LLVM Developers’ Meeting; Stephane Sezer, Facebook
+	- https://www.youtube.com/watch?v=n00EhLskJWk
+	- https://github.com/facebook/ds2
 * LLDB - a new C++ debugger
-	+ DevConf.CZ 2019; Jan Kratochvíl
-	+ https://www.youtube.com/watch?v=2BjKNaiB3yM
-	+ https://devconfcz2019.sched.com/event/Jcht
+	- DevConf.CZ 2019; Jan Kratochvíl
+	- https://www.youtube.com/watch?v=2BjKNaiB3yM
+	- https://devconfcz2019.sched.com/event/Jcht
 * LLDB Reproducers
-	+ 2019 EuroLLVM Developers’ Meeting; Jonas Devlieghere
-	+ https://www.youtube.com/watch?v=ygdzXnfyvbg
-	+ http://llvm.org/devmtg/2019-04/talks.html#Talk_12
+	- 2019 EuroLLVM Developers’ Meeting; Jonas Devlieghere
+	- https://www.youtube.com/watch?v=ygdzXnfyvbg
+	- http://llvm.org/devmtg/2019-04/talks.html#Talk_12
 * LLDB Tutorial: Adding debugger support for your target
-	+ 2016 EuroLLVM Developers' Meeting; Deepak Panickal & Andrzej Warzynski, Codeplay
-	+ https://github.com/codeplaysoftware/lldb-msp430
-	+ http://www.llvm.org/devmtg/2016-03/Tutorials/LLDB-tutorial.pdf
-	+ https://www.youtube.com/watch?v=9hhDZeV0fYU
+	- 2016 EuroLLVM Developers' Meeting; Deepak Panickal & Andrzej Warzynski, Codeplay
+	- https://github.com/codeplaysoftware/lldb-msp430
+	- http://www.llvm.org/devmtg/2016-03/Tutorials/LLDB-tutorial.pdf
+	- https://www.youtube.com/watch?v=9hhDZeV0fYU
 * LLDB: Beyond "po"
-	+ WWDC 2019; Davide Italiano, Jonas Devlieghere
-	+ https://developer.apple.com/videos/play/wwdc2019/429/
-	+ https://www.raywenderlich.com/3868932-wwdc-2019-top-10-videos#toc-anchor-011
-* Migrating from GDB to LLDB - WWDC 2011 - https://developer.apple.com/videos/play/wwdc2011/321/
+	- WWDC 2019; Davide Italiano, Jonas Devlieghere
+	- https://developer.apple.com/videos/play/wwdc2019/429/
+	- https://www.raywenderlich.com/3868932-wwdc-2019-top-10-videos#toc-anchor-011
+* Migrating from GDB to LLDB
+	- WWDC 2011; Jim Ingham
+	- https://developer.apple.com/videos/play/wwdc2011/321/
 
 ## RR
 
