@@ -404,6 +404,9 @@ https://riscv.org/software-tools/
 - RISC-V 101 Webinar - https://info.sifive.com/risc-v-webinar
 - RISC-V ASM Tutorial Collection - Western Digital
 	- https://www.youtube.com/playlist?list=PL6noQ0vZDAdh_aGvqKvxd0brXImHXMuLY
+- RISC-V Educational Materials
+	- https://riscv.org/educational-materials/
+	- https://github.com/riscv/educational-materials
 - RISC-V from scratch
 	- 1: Introduction, toolchain setup, and hello world! - https://twilco.github.io/riscv-from-scratch/2019/03/10/riscv-from-scratch-1.html
 	- 2: Hardware layouts, linker scripts, and C runtimes - https://twilco.github.io/riscv-from-scratch/2019/04/27/riscv-from-scratch-2.html
