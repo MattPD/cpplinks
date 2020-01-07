@@ -122,6 +122,10 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	- Formal Semantics Extraction from Natural Language Specifications for ARM
 		- 2018 Master’s Thesis; Viet Anh Vu
 		- http://www.jaist.ac.jp/~mizuhito/masterthesis/VuVietAnh.pdf
+- hs-arm: (Dis)assembler and analyzer generated from the machine-readable ARMv8.3-A specification
+	- https://github.com/nspin/hs-arm
+	- library for (dis)assembling and analyzing ARMv8.3-A code, part of which is generated from the MRAS.
+	- implementation of ARM ASL (architecture specification language)
 - ISA Semantics for ARMv8-A, RISC-V, and CHERI-MIPS
 	- POPL 2019
 	- <https://alastairreid.github.io/papers/POPL_19/>
@@ -134,6 +138,12 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	- http://unsworks.unsw.edu.au/fapi/datastream/unsworks:60079/SOURCE02?view=true
 - sail-arm: Sail version of the ARMv8.5-A ISA definition
 	- https://github.com/rems-project/sail-arm
+- Scapula: Compare ARM CPUs Against ARM's Machine Parsable Architecture Reference Manual
+	- tools for performing testing and verification of ARM CPUs against a machine parsable version of the ARMv8-A Architecture Reference Manual
+	- https://github.com/ainfosec/scapula
+		- Scapula: An Open-Source Toolkit For Model-Based Fuzzing and Verification of ARM CPUs
+			- HITB+ CyberWeek 2019; Jared Wright
+			- https://www.youtube.com/watch?v=v8SYv3GP3cs
 - Trustworthy Specifications of ARM v8-A and v8-M System Level Architecture
 	- FMCAD 2016
 	- Alastair Reid
@@ -613,9 +623,12 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://github.com/x-y-z/armulator
 	+ http://x-y-z.github.io/armulator/
 * ARM-X Firmware Emulation Framework
-	+ The ARM-X Firmware Emulation Framework is a collection of scripts, kernels and filesystems to be used with QEMU to emulate ARM/Linux IoT devices. ARM-X is aimed to facilitate IoT research by virtualising as much of the physical device as possible. It is the closest we can get to an actual IoT VM.
-	+ https://armx.exploitlab.net/
-	+ https://github.com/therealsaumil/armx/
+	- The ARM-X Firmware Emulation Framework is a collection of scripts, kernels and filesystems to be used with QEMU to emulate ARM/Linux IoT devices. ARM-X is aimed to facilitate IoT research by virtualising as much of the physical device as possible. It is the closest we can get to an actual IoT VM.
+	- https://armx.exploitlab.net/
+	- https://github.com/therealsaumil/armx/
+	- Introducing ARM-X: The ARM IoT Firmware Emulation Framework
+		- HITB+ CyberWeek 2019; Saumil Shah
+		- https://www.youtube.com/watch?v=NVl6uJiEaoI
 * arm_now: arm vm working out of the box for everyone (Linux / Windows) - https://github.com/nongiach/arm_now
 * ASMBits: A problem set and online judge for practicing Nios II or ARMv7 assembly language - https://asmbits.01xz.net/
 * CPUlator: An in-browser full-system MIPS, Nios II, and ARMv7 simulator and debugger - https://cpulator.01xz.net/
