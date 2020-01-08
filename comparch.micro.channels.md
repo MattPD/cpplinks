@@ -102,11 +102,12 @@ See also: [Computer Architecture](comparch.md)
 	- 2019 PhD Thesis; Michael Schwarz
 	- https://misc0110.net/web/files/phd_thesis.pdf
 * Survey of Microarchitectural Side and Covert Channels, Attacks, and Defenses
-	+ Journal of Hardware and Systems Security (2018)
-	+ Jakub Szefer
-	+ https://caslab.csl.yale.edu/publications/szefer2018surey.pdf
-	+ 2016 preprint: http://eprint.iacr.org/2016/479
-	+ https://link.springer.com/article/10.1007/s41635-018-0046-1
+	- Journal of Hardware and Systems Security 3(3) 2019
+	- Jakub Szefer
+	- https://par.nsf.gov/biblio/10077357
+	- https://caslab.csl.yale.edu/publications/szefer2018surey.pdf
+	- 2016 preprint: http://eprint.iacr.org/2016/479
+	- https://link.springer.com/article/10.1007/s41635-018-0046-1
 * Systematic Classification of Side-Channel Attacks: A Case Study for Mobile Devices
 	+ IEEE Communications Surveys & Tutorials 20(1) 2018
 	+ Raphael Spreitzer, Veelasha Moonsamy, Thomas Korak, Stefan Mangard 
@@ -167,16 +168,20 @@ See also: [Computer Architecture](comparch.md)
 
 ## Defense - Cache
 
+* A Benchmark Suite for Evaluating Caches' Vulnerability to Timing Attacks
+	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2020
+	- Shuwen Deng, Wenjie Xiong, Jakub Szefer
+	- https://arxiv.org/abs/1911.08619
 * An Exploration of Effective Fuzzing for Side-channel Cache Leakage
 	- Software Testing, Verification and Reliability (STVR) 2019
 	- Tiyash Basu, Kartik Aggarwal, Chundong Wang, Sudipta Chattopadhyay 
 	- https://doi.org/10.1002/stvr.1718
 	- https://asset-group.github.io/papers/STVR-cache-side-channel-fuzz.pdf
 	- https://github.com/tiyashbasu/Cache_Side_Channel_Tester
-* Analysis of Secure Caches and Timing-Based Side-Channel Attacks
-	+ Cryptology ePrint Archive: Report 2019/167
-	+ Shuwen Deng, Wenjie Xiong, Jakub Szefer
-	+ https://eprint.iacr.org/2019/167
+* Analysis of Secure Caches Using a Three-Step Model for Timing-Based Attacks
+	- Journal of Hardware and Systems Security 3(4) 2019
+	- Shuwen Deng, Wenjie Xiong & Jakub Szefer 
+	- https://eprint.iacr.org/2019/167
 * Architecting against Software Cache-Based Side-Channel Attacks
 	+ IEEE Transactions on Computers 62(7), July 2013
 	+ Jingfei Kong, O. Aciicmez, J-P Seifert, Huiyang Zhou
@@ -235,6 +240,11 @@ See also: [Computer Architecture](comparch.md)
 	+ Zecheng He, Ruby B. Lee
 	+ https://doi.org/10.1145/3123939.3124546
 	+ http://palms.ee.princeton.edu/system/files/Micro-camera-ready-final.pdf
+* HybCache: Hybrid Side-Channel-Resilient Caches for Trusted Execution Environments
+	- USENIX Security 2020
+	- Ghada Dessouky, Tommaso Frassetto, Ahmad-Reza Sadeghi
+	- https://arxiv.org/abs/1909.09599
+	- https://www.usenix.org/system/files/sec20spring_dessouky_prepub.pdf
 * On the Incomparability of Cache Algorithms in Terms of Timing Leakage
 	+ arXiv 2018
 	+ Pablo Cañones, Boris Köpf, Jan Reineke
