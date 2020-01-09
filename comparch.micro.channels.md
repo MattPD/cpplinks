@@ -965,6 +965,10 @@ See also: [Computer Architecture](comparch.md)
 	+ http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.43.9135
 	+ https://link.springer.com/chapter/10.1007/978-3-540-48302-1_30
 	+ https://dl.acm.org/citation.cfm?id=739074
+* JackHammer: Efficient Rowhammer on Heterogeneous FPGA-CPU Platforms
+	- 2019 arXiv
+	- Zane Weissman, Thore Tiemann, Daniel Moghimi, Evan Custodio, Thomas Eisenbarth, Berk Sunar
+	- https://arxiv.org/abs/1912.11523
 * Leaky Wires: Information Leakage and Covert Communication Between FPGA Long Wires
 	+ AsiaCCS 2018
 	+ Ilias Giechaskiel, Kasper B. Rasmussen, Ken Eguro
@@ -974,6 +978,11 @@ See also: [Computer Architecture](comparch.md)
 	+ International Conference on Field−Programmable Logic and Applications (FPL) 2019
 	+ Ilias Giechaskiel‚ Kasper Rasmussen and Jakub Szefer
 	+ https://www.cs.ox.ac.uk/publications/publication12562-abstract.html
+* Reading Between the Dies: Cross-SLR Covert Channels on Multi-Tenant Cloud FPGAs
+	- International Conference on Computer Design (ICCD) 2019
+	- Ilias Giechaskiel, Kasper Rasmussen, Jakub Szefer
+	- https://ilias.giechaskiel.com/papers/slr-iccd-preprint.pdf 
+	- https://caslab.csl.yale.edu/code/slr-covert-channel/
 * Remote Inter-Chip Power Analysis Side-Channel Attacks at Board-Level
 	+ Cryptology ePrint Archive: Report 2018/881
 	+ Falk Schellenberg, Dennis R.E. Gnad, Amir Moradi, Mehdi B. Tahoori
@@ -985,7 +994,7 @@ See also: [Computer Architecture](comparch.md)
 * Temporal Thermal Covert Channels in Cloud FPGAs
 	+ International Symposium on Field-Programmable Gate Arrays (FPGA) 2019
 	+ Shanquan Tian, Jakub Szefer
-	+ http://csl.yale.edu/index.php/publications/
+	+ https://caslab.csl.yale.edu/publications/tian2019temporal.pdf
 	+ https://dl.acm.org/citation.cfm?doid=3289602.3293920
 	+ http://www.isfpga.org/slides/Tian_TemporalThermalCovertChannelsinCloudFPGAs.pptx
 	+ http://caslab.csl.yale.edu/code/temporalthermalcc/
