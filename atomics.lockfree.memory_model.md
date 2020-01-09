@@ -391,8 +391,12 @@ Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/
 	- CppCon 2019; Anthony Williams
 	- https://www.youtube.com/watch?v=jozHW_B3D4U
 - The C++20 Synchronization Library
-	- CppCon 2019; Bryce Adelstein Lelbach
-	- https://www.youtube.com/watch?v=Zcqwb3CWqs4
+	- Bryce Adelstein Lelbach
+	- CppCon 2019
+		- https://www.youtube.com/watch?v=Zcqwb3CWqs4
+	- Meeting C++ 2019
+		- https://www.youtube.com/watch?v=zoMZAV6FEbc
+		- https://meetingcpp.com/mcpp/slides/2019/cpp20_synchronization_library__r5__2019_meeting_cpp3598.pdf
 	- https://github.com/brycelelbach/cpp20_mini_tasking_runtime
 	- https://github.com/brycelelbach/cpp20_synchronization_library
 	- `std::atomic::wait`/`std::atomic::notify_*`; `std::atomic_ref`; `std::counting_semaphore`; `std::latch`, `std::barrier`
