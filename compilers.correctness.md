@@ -299,6 +299,15 @@ See also: [compilers](compilers.md)
 	- John Regehr, Yang Chen, Pascal Cuoq, Eric Eide, Chucky Ellison, Xuejun Yang
 	- https://www.cs.utah.edu/~regehr/papers/pldi12-preprint.pdf
 - Testing LLVM - http://blog.regehr.org/archives/1450
+- Testing Static Analyses for Precision and Soundness
+	- Code Generation and Optimization (CGO) 2020
+	- Jubi Taneja, Zhengyang Liu, John Regehr
+	- http://www.cs.utah.edu/~regehr/cgo20.pdf
+	- https://github.com/jubitaneja/souper-cgo20-artifact
+	- Testing Dataflow Analyses for Precision and Soundness
+		- https://blog.regehr.org/archives/1709
+		- LLVM Dataflow Info Printer Pass
+			- https://github.com/regehr/llvm-dataflow-info
 - The problem with differential testing is that at least one of the compilers must get it right
 	- http://blog.frama-c.com/index.php?post/2013/09/25/The-problem-with-differential-testing-is-that-at-least-one-of-the-compilers-must-get-it-right
 
@@ -456,7 +465,7 @@ See also: [compilers](compilers.md)
 	- 2019 EuroLLVM Developers’ Meeting; José Luis March Cabrelles
 	- https://www.youtube.com/watch?v=nSfT4oND9dU
 - Testing Language Implementations
-- Programming Language Implementation Summer School (PLISS) 2017; Alastair Donaldson
+	- Programming Language Implementation Summer School (PLISS) 2017; Alastair Donaldson
 	- https://www.youtube.com/watch?v=ZJUk8_k1HbY
 
 ---
