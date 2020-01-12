@@ -246,6 +246,8 @@
 	- https://github.com/eqrion/cbindgen
 	- cbindgen User Guide
 		- https://github.com/eqrion/cbindgen/blob/master/docs.md
+- CXX: safe FFI between Rust and C++
+	- https://github.com/dtolnay/cxx
 - rustcxx: Using C++ from Rust made easy
 	- https://github.com/google/rustcxx
 
