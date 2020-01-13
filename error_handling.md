@@ -260,6 +260,19 @@
 
 ### Papers: Correctness
 
+- APEx: Automated Inference of Error Specifications for C APIs
+	- Automated Software Engineering (ASE) 2016
+	- Yuan Jochen Kang, Baishakhi Ray, Suman Jana
+	- https://yujokang.github.io/papers/apex_2016.pdf
+	- APEx: Automated Tool for Generating Error Specifications
+		- https://github.com/yujokang/APEx
+- Ares: Inferring Error Specifications through Static Analysis
+	- Automated Software Engineering (ASE) 2019
+	- Li Chi, Zuxing Gu, Min Zhou, Ming Gu, Hongyu Zhang
+	- https://doi.org/10.1109/ASE.2019.00130
+	- https://www.youtube.com/watch?v=nf1QnFAmu8Q
+	- Ares: API Related Error Specification Inference
+		- https://github.com/lc3412/Ares
 - Automatically Detecting Error Handling Bugs Using Error Specifications
 	- USENIX Security 2016
 	- Suman Jana, Yuan Kang, Samuel Roth, Baishakhi Ray
@@ -270,6 +283,12 @@
 	- Yuchi Tian, Baishakhi Ray
 	- https://yuchi1989.github.io/papers/fse17-ErrDoc.pdf
 	- ErrDoc: Tool for detecting, categorizing, and repairing error handling bugs - https://github.com/yuchi1989/ErrDoc/
+- Detecting Error-Handling Bugs without Error Specification Input 
+	- Automated Software Engineering (ASE) 2019
+	- Zhouyang Jia, Shanshan Li, Tingting Yu, Xiangke Liao, Ji Wang, Xiaodong Liu, Yunhuai Liu
+	- https://doi.org/10.1109/ASE.2019.00029
+	- EH-Miner: Mining Error-Handling Bugs without Error Specification Input
+		- https://github.com/ZhouyangJia/EH-Miner
 - Effective Error-Specification Inference via Domain-Knowledge Expansion
 	- ESEC/FSE 2019
 	- Daniel DeFreez, Haaken Martinson Baldwin, Cindy Rubio-González, Aditya V. Thakur
