@@ -1520,6 +1520,8 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 		- https://www.intel.com/content/www/us/en/architecture-and-technology/mds.html
 		- https://www.kernel.org/doc/html/latest/x86/mds.html
 		- https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html
+		- CPU Introspection: Intel Load Port Snooping
+			- https://gamozolabs.github.io/metrology/2019/12/30/load-port-monitor.html
 * NetSpectre: Read Arbitrary Memory over Network
 	+ arXiv 2018; Michael Schwarz, Martin Schwarzl, Moritz Lipp, Daniel Gruss
 	+ https://misc0110.net/web/files/netspectre.pdf
@@ -1552,6 +1554,10 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 	+ arXiv 2018
 	+ Giorgi Maisuradze, Christian Rossow
 	+ https://arxiv.org/abs/1801.04084
+* SpeechMiner: A Framework for Investigating and Measuring Speculative Execution Vulnerabilities
+	- NDSS 2020
+	- Yuan Xiao, Yinqian Zhang, Radu Teodorescu
+	- https://arxiv.org/abs/1912.00329
 * Two methods for exploiting speculative control flow hijacks.
 	+ WOOT @ USENIX Security Symposium 2019
 	+ Andrea Mambretti, Alexandra Sandulescu, Matthias Neugschwandtner, Alessandro Sorniotti, Anil Kurmus
