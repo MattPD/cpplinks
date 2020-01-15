@@ -113,6 +113,17 @@
 - MTuner - a C/C++ memory profiler and memory leak finder for Windows, PlayStation 4, PlayStation 3, etc.
 	- https://milostosic.github.io/MTuner/
 	- https://github.com/milostosic/MTuner
+- PerfMemPlus: A Tool for Automatic Discovery of Memory Performance Problems
+	- Tool for memory performance analysis based on Linux perf.
+	- https://github.com/helchr/perfMemPlus
+	- PerfMemPlus: A Tool for Automatic Discovery of Memory Performance Problems
+		- ISC 2019
+		- Christian Helm, Kenjiro Taura
+		- https://doi.org/10.1007/978-3-030-20656-7_11
+	- On the Correct Measurement of Application Memory Bandwidth and Memory Access Latency
+		- HPC Asia 2020
+		- Christian Helm, Kenjiro Taura
+		- https://doi.org/10.1145/3368474.3368476
 - Typegrind
 	- a type preserving heap profiler for C++ - collects memory allocation information with type information
 	- https://typegrind.github.io/
