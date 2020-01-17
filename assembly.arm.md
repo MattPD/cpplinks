@@ -475,6 +475,11 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 ### NEON
 
 * ARM NEON Intrinsics - https://gcc.gnu.org/onlinedocs/gcc-4.9.4/gcc/ARM-NEON-Intrinsics.html#ARM-NEON-Intrinsics
+* Branch Free - Geoff Langdale
+	- An Intel Programmer Jumps Over the Wall: First Impressions of ARM SIMD Programming
+		- https://branchfree.org/2019/03/26/an-intel-programmer-jumps-over-the-wall-first-impressions-of-arm-simd-programming/
+	- Fitting My Head Through The ARM Holes or: Two Sequences to Substitute for the Missing PMOVMSKB Instruction on ARM NEON
+		- https://branchfree.org/2019/04/01/fitting-my-head-through-the-arm-holes-or-two-sequences-to-substitute-for-the-missing-pmovmskb-instruction-on-arm-neon/
 * Control Flow Vectorization for ARM NEON
 	+ International Workshop on Software and Compilers for Embedded Systems (SCOPES) 2018
 	+ Angela Pohl, Biagio Cosenza, Ben Juurlink
