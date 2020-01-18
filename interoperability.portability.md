@@ -84,6 +84,13 @@
 	- http://syrcose.ispras.ru/2009/files/02_paper.pdf
 	- http://static.coldattic.info/restricted/science/syrcose09/cppbincomp.pdf
 - Binary-compatible C++ Interfaces - https://chadaustin.me/cppinterface.html
+- C++ Standards Committee Papers
+	- ABI breakage - summary of initial comments
+		- 2019; Roger Orr
+		- http://wg21.link/P1654
+	- What is ABI, and What Should WG21 Do About It?
+		- 2020; Titus Winters
+		- http://wg21.link/P2028
 - C++: Under the Hood (March 1994) by Jan Gray
 	- http://files.rsdn.org/4539/cud94.htm
 	- https://blogs.msdn.microsoft.com/xiangfan/2012/02/06/c-under-the-hood/
