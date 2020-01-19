@@ -349,10 +349,12 @@ Contents:
 	+ https://github.com/abraithwaite/teensy
 * About ELF Auxiliary Vectors - http://articles.manugarg.com/aboutelfauxiliaryvectors
 * Analyzing ELF Binaries with Malformed Headers
-	+ Part 1 - Emulating Tiny Programs
+	- Part 1 - Emulating Tiny Programs
 		- https://binaryresearch.github.io/2019/09/17/Analyzing-ELF-Binaries-with-Malformed-Headers-Part-1-Emulating-Tiny-Programs.html
-	+ Part 2 - Mapping Program Logic with Qiling and Graphviz
+	- Part 2 - Mapping Program Logic with Qiling and Graphviz
 		- https://binaryresearch.github.io/2019/12/11/Analyzing-ELF-Binaries-with-Malformed-Headers-Part-2-Mapping-Program-Logic-with-Qiling-and-Graphviz.html
+	- Part 3 - Automatically Solving a Corrupted Keygenme with angr
+		- https://binaryresearch.github.io/2020/01/15/Analyzing-ELF-Binaries-with-Malformed-Headers-Part-3-Solving-A-Corrupted-Keygenme.html
 * Anatomy of an ELF core file - https://www.gabriel.urdhr.fr/2015/05/29/core-file/
 * Armouring the ELF: Binary encryption on the UNIX platform - scut & grugq - Phrack Magazine #58 (2001-12-28) - http://www.phrack.org/issues/58/5.html
 * Building an ELF Parser with Frida - https://versprite.com/og/frida/
@@ -435,6 +437,7 @@ Contents:
 * Resolving ELF Relocation Name / Symbols - https://em386.blogspot.com/2006/10/resolving-elf-relocation-name-symbols.html
 * Secure Code Partitioning With ELF binaries (SCOP) - http://bitlackeys.org/papers/secure_code_partitioning_2018.txt
 * Smallest x86 ELF Hello World - http://timelessname.com/elfbin/
+* Special sections in Linux binaries - https://lwn.net/Articles/531148/
 * Targeting File Parsers with S2E and Kaitai Struct - targeted symbolic execution of readelf - https://adrianherrera.github.io/post/kaitai-s2e/
 * The 101 of ELF Binaries on Linux: Understanding and Analysis - https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/
 * The Anatomy of an Executable - dissection of a simple "hello world" ELF binary - https://github.com/mewrev/dissection
@@ -460,10 +463,18 @@ Contents:
 
 ### Thread Local Storage (TLS)
 
-- ELF Binaries and Relocation Entries
-	- http://stffrdhrn.github.io/hardware/embedded/openrisc/2019/11/29/relocs.html
-	- TLS Examples
-		- https://github.com/stffrdhrn/tls-examples
+- A Deep dive into (implicit) Thread Local Storage
+	- https://chao-tic.github.io/blog/2018/12/25/tls
+- Android ELF TLS
+	- https://android.googlesource.com/platform/bionic/+/HEAD/docs/elf-tls.md
+- ELF Handling For Thread-Local Storage
+	- https://www.akkadia.org/drepper/tls.pdf
+- TLS Examples
+	- https://github.com/stffrdhrn/tls-examples
+	- ELF Binaries and Relocation Entries
+		- http://stffrdhrn.github.io/hardware/embedded/openrisc/2019/11/29/relocs.html
+	- Thread Local Storage
+		- https://stffrdhrn.github.io/hardware/embedded/openrisc/2020/01/19/tls.html
 
 ### Transformation
 
@@ -474,6 +485,7 @@ Contents:
 	- ACM Transactions on Embedded Computing Systems (TECS) 18, 5s, Article 102 (October 2019)
 	- Andreas Ziegler, Julian Geus, Bernhard Heinloth, Timo HÖnig, Daniel Lohmann
 	- https://dl.acm.org/citation.cfm?id=3358222
+	- https://www4.cs.fau.de/Publications/2019/ziegler_19_emsoft.pdf
 - How To Strip An ELF Object Without Fully Understanding It
 	- http://www.linker-aliens.org/blogs/ali/entry/how_to_strip_an_elf/
 	- https://blogs.oracle.com/ali/how-to-strip-an-elf-object-without-fully-understanding-it
@@ -644,8 +656,12 @@ Contents:
 * 2015 - DEF CON 23 - Di Federico and Shoshitaishvili - Dark Side of the ELF
 	+ https://www.youtube.com/watch?v=aGoDYa7Kbec
 * 2015 - How the ELF Ruined Christmas - USENIX Security Symposium 2015
-	+ https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/di-frederico
-* 2014 - ABIs, linkers and other animals - Stephen Kell (2014) - https://www.cl.cam.ac.uk/~srk31/research/talks/kell14abis-slides.pdf
+	- https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/di-frederico
+	- https://sites.cs.ucsb.edu/~chris/research/doc/usenix15_elf.pdf
+	- leakless: Function redirection via ELF tricks
+		- https://github.com/ucsb-seclab/leakless
+* 2014 - ABIs, linkers and other animals - Stephen Kell (2014)
+	- https://www.cl.cam.ac.uk/~srk31/research/talks/kell14abis-slides.pdf
 * 2013 - Julian Bangert, Sergey Bratus - ELF Eccentricities
 	+ https://www.youtube.com/watch?v=4LU6N6THh2U
 * 2013 - Rebecca Bx Shapiro, Julian Bangert, Sergey Bratus - Any Input Is a Program Weird Machines in ABI
@@ -825,6 +841,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ https://toddcullumresearch.com/2017/07/16/portable-executable-file-corruption/
 * Portable Executable File Format – A Reverse Engineer View - http://www.stonedcoder.org/~kd/lib/CBJ-2005-74.pdf
 * Peering Inside the PE: A Tour of the Win32 Portable Executable File Format - https://msdn.microsoft.com/en-us/library/ms809762.aspx
+* Resource Hacker: a resource editor for 32-bit and 64-bit Windows applications
+	- http://www.angusj.com/resourcehacker/
 * Resources: Microsoft Portable Executable and COFF (32-bit and 64-bit) Format - http://bytepointer.com/resources/
 * Robust Static Analysis of Portable Executable Malware - Katja Hahn, Master Thesis - https://github.com/katjahahn/PortEx/tree/master/masterthesis
 * The sad state of PE parsing - http://lucasg.github.io/2017/04/28/the-sad-state-of-pe-parsing/
