@@ -469,6 +469,8 @@ Contents:
 	- https://android.googlesource.com/platform/bionic/+/HEAD/docs/elf-tls.md
 - ELF Handling For Thread-Local Storage
 	- https://www.akkadia.org/drepper/tls.pdf
+- Thread Local Storage (ELF Thread Local Storage ABI)
+	- https://fuchsia.dev/fuchsia-src/development/threads/tls
 - TLS Examples
 	- https://github.com/stffrdhrn/tls-examples
 	- ELF Binaries and Relocation Entries
