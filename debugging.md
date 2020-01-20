@@ -583,6 +583,14 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * Process Injection with GDB - https://magisterquis.github.io/2018/03/11/process-injection-with-gdb.html
 * Python Interpreter in GNU Debugger
 	- https://www.pythonsheets.com/appendix/python-gdb.html
+* RevEngE is a dish served cold: Debug-Oriented Malware Decompilation and Reassembly
+	- Reversing and Offensive-oriented Trends Symposium (ROOTS) 2019
+	- Marcus Botacin, Lucas Galante, Paulo de Geus, André Grégio
+	- https://lasca.ic.unicamp.br/paulo/papers/2019-ROOTS-marcus.botacin-lucas.galante-RevEngE.pdf
+	- https://corvus.inf.ufpr.br/
+	- RevEngE: Reverse Engineering Engine
+		- Explore debugging extensions and malware decompilation capabilities based on dynamic GDB debugging sessions.
+		- https://github.com/marcusbotacin/Reverse.Engineering.Engine
 * Skipping standard C++ library during debug session in gdb - https://xaizek.github.io/2016-05-26/skipping-standard-library-in-gdb/
 * Victor Stinner's Notes - GDB: GNU debugger - http://vstinner.readthedocs.io/gdb.html
 
