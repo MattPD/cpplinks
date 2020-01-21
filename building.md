@@ -230,6 +230,8 @@
 	- Automated Software Engineering, Vol. 23, No. 4, 2016
 	- Shane McIntosh, Bram Adams, Meiyappan Nagappan, Ahmed E. Hassan
 	- http://rebels.ece.mcgill.ca/journalpaper/2015/07/08/identifying-and-understanding-header-file-hotspots-in-c-cpp-build-processes.html
+- Improving C++ Builds with Split DWARF
+	- https://www.productive-cpp.com/improving-cpp-builds-with-split-dwarf/
 - Physical Design of The Machinery
 	- http://ourmachinery.com/post/physical-design/
 - Reducing Build Time through Precompilations for Evolving Large Software
