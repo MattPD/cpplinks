@@ -125,6 +125,8 @@
 		- 2019 EuroLLVM Developers’ Meeting; Phil Camp , Russell Gallop 
 		- https://www.youtube.com/watch?v=mlQyEBDnDJE 
 		- http://llvm.org/devmtg/2019-04/slides/Lightning-Camp-Program_Repo.pdf
+	- LLVM Build Times Using a Program Repository
+		- https://www.snsystems.com/technology/tech-blog/llvm-build-times-using-a-program-repository
 - mtime comparison considered harmful
 	- "tl;dr: Rebuilding a target because its mtime is older than the mtimes of its dependencies, like make does, is very error prone. redo does it better, and so can you."
 	- https://apenwarr.ca/log/20181113
