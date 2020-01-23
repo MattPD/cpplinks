@@ -433,34 +433,37 @@ See also: [Computer Architecture](comparch.md)
 
 ### Defense - Software - Compilation and Programming Languages
 
-* Compiler mitigations for time attacks on modern x86 processors
-	+ ACM TACO 8(4) (2012)
-	+ Jeroen V. Cleemput, Bart Coppens, Bjorn De Sutter
-	+ https://doi.org/10.1145/2086696.2086702
-* Compiler Strategies for Mitigating Timing Side Channel Attacks
-	+ 2015 PhD Dissertation; Jeroen Van Cleemput
-	+ http://hdl.handle.net/1854/LU-8503231
-	+ https://biblio.ugent.be/publication/8503231
-* FaCT: A Flexible, Constant-Time Programming Language
-	+ SecDev 2017
-	+ Sunjay Cauligi, Gary Soeller, Fraser Brown, Brian Johannesmeyer, Yunlu Huang, Ranjit Jhala, Deian Stefan
-	+ https://cseweb.ucsd.edu/~dstefan/pubs/cauligi:2017:fact.pdf
-	+ https://github.com/PLSysSec/FaCT
-* Mitigating Data Leakage by Protecting Memory-resident Sensitive Data
+- Compiler mitigations for time attacks on modern x86 processors
+	- ACM TACO 8(4) (2012)
+	- Jeroen V. Cleemput, Bart Coppens, Bjorn De Sutter
+	- https://doi.org/10.1145/2086696.2086702
+- Compiler Strategies for Mitigating Timing Side Channel Attacks
+	- 2015 PhD Dissertation; Jeroen Van Cleemput
+	- http://hdl.handle.net/1854/LU-8503231
+	- https://biblio.ugent.be/publication/8503231
+- FaCT: A Flexible, Constant-Time Programming Language
+	- SecDev 2017
+	- Sunjay Cauligi, Gary Soeller, Fraser Brown, Brian Johannesmeyer, Yunlu Huang, Ranjit Jhala, Deian Stefan
+	- https://cseweb.ucsd.edu/~dstefan/pubs/cauligi:2017:fact.pdf
+	- https://github.com/PLSysSec/FaCT
+- Mitigating Data Leakage by Protecting Memory-resident Sensitive Data
 	- Annual Computer Security Applications Conference (ACSAC) 2019
 	- Tapti Palit, Fabian Monrose, Michalis Polychronakis
 	- https://doi.org/10.1145/3359789.335981
 	- https://www3.cs.stonybrook.edu/~mikepo/papers/dataencr.acsac19.pdf
-* Provably secure compilation of side-channel countermeasures
-	+ Cryptology ePrint Archive: Report 2017/1233
-	+ Gilles Barthe, Benjamin Grégoire, Vincent Laporte
-	+ https://eprint.iacr.org/2017/1233
-	+ https://sites.google.com/view/ctpreservation
-* Speculative Load Hardening (a Spectre variant #1 mitigation)
-	+ 2018; Chandler Carruth
-	+ https://llvm.org/docs/SpeculativeLoadHardening.html
-	+ https://lists.llvm.org/pipermail/llvm-dev/2018-March/122085.html
-	+ https://docs.google.com/document/d/1wwcfv3UV9ZnZVcGiGuoITT_61e_Ko3TmoCS3uXLcJR0/edit
+- P0928: Mitigating Spectre v1 Attacks in C++
+	- 2020; Devin Jeanpierre, Geoffrey Romer, Chandler Carruth
+	- http://wg21.link/P0928
+- Provably secure compilation of side-channel countermeasures
+	- Cryptology ePrint Archive: Report 2017/1233
+	- Gilles Barthe, Benjamin Grégoire, Vincent Laporte
+	- https://eprint.iacr.org/2017/1233
+	- https://sites.google.com/view/ctpreservation
+- Speculative Load Hardening (a Spectre variant #1 mitigation)
+	- 2018; Chandler Carruth
+	- https://llvm.org/docs/SpeculativeLoadHardening.html
+	- https://lists.llvm.org/pipermail/llvm-dev/2018-March/122085.html
+	- https://docs.google.com/document/d/1wwcfv3UV9ZnZVcGiGuoITT_61e_Ko3TmoCS3uXLcJR0/edit
 
 ## Defense - Speculation
 
