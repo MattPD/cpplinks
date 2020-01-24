@@ -51,6 +51,21 @@
 * "Buckaroo" - Error Handling in C++ or: Why You Should Use Eithers in Favor of Exceptions and Error-codes
 	+ Presents some reasons to use Eithers (A.K.A. `std::expected`) instead of other alternatives.
 	+ https://hackernoon.com/error-handling-in-c-or-why-you-should-use-eithers-in-favor-of-exceptions-and-error-codes-f0640912eb45
+* Raymond Chen - The Old New Thing
+	- Decoding the parameters of a thrown C++ exception (0xE06D7363)
+		- https://devblogs.microsoft.com/oldnewthing/20100730-00/?p=13273
+	- Decoding the parameters of a thrown C++ exception (0xE06D7363), revisited
+		- https://devblogs.microsoft.com/oldnewthing/20160915-00/?p=94316
+	- Can I throw a C++ exception from a structured exception?
+		- https://devblogs.microsoft.com/oldnewthing/20170728-00/?p=96706
+	- The sad history of the C++ throw(…) exception specifier
+		- https://devblogs.microsoft.com/oldnewthing/20180928-00/?p=99855
+	- If you want to terminate on an unexpected exception, then don’t sniff at every exception; just let the process terminate
+		- https://devblogs.microsoft.com/oldnewthing/20191024-00/?p=103022
+	- How can I handle both structured exceptions and C++ exceptions potentially coming from the same source?
+		- https://devblogs.microsoft.com/oldnewthing/20200116-00/?p=103333
+	- How can I turn a structured exception into a C++ exception without having to use /EHa, if I can constrain exactly where the structured exception is coming from?
+		- https://devblogs.microsoft.com/oldnewthing/20200117-00/?p=103338
 * Stefan Gränitz - Series: Rich Recoverable Error Handling with llvm::Expected<T>
 	+ A series of posts demonstrating the motivation and use of `llvm::Expected`.
 	+ Part 1 - Motivation: https://weliveindetail.github.io/blog/post/2017/09/06/llvm-expected-basics.html
@@ -374,23 +389,27 @@
 
 ## Libraries
 
-* Boost.Exception
-	+ https://github.com/boostorg/exception
-* cpp_exception_handling_abi
-	+ https://github.com/nicolasbrailo/cpp_exception_handling_abi
-* llvm-expected: LLVM's Rich Recoverable Error Handling as a Library
-	+ https://github.com/weliveindetail/llvm-expected
-	+ Benchmarks for llvm::Expected vs. std::error_code
+- Boost.Exception
+	- https://github.com/boostorg/exception
+- cpp_exception_handling_abi
+	- https://github.com/nicolasbrailo/cpp_exception_handling_abi
+- LEAF: Lightweight Error Augmentation Framework
+	- https://github.com/zajo/leaf
+	- https://github.com/zajo/leaf/blob/master/benchmark/benchmark.md
+- llvm-expected: LLVM's Rich Recoverable Error Handling as a Library
+	- https://github.com/weliveindetail/llvm-expected
+	- Benchmarks for llvm::Expected vs. std::error_code
 		- https://github.com/weliveindetail/BenchmarkLLVMExpected
-* Optional-lite, expected-lite, and optional-bare
-	+ https://github.com/martinmoene/optional-lite
-	+ https://github.com/martinmoene/expected-lite
-	+ https://github.com/martinmoene/optional-bare
-* Outcome
-	+ https://github.com/ned14/outcome
-* `tl::expected` and `tl::optional`
-	+ https://github.com/TartanLlama/expected
-	+ https://github.com/TartanLlama/optional
+- Optional-lite, expected-lite, and optional-bare
+	- https://github.com/martinmoene/optional-lite
+	- https://github.com/martinmoene/expected-lite
+	- https://github.com/martinmoene/optional-bare
+- Outcome
+	- https://github.com/ned14/outcome
+	- https://www.boost.org/doc/libs/release/libs/outcome
+- `tl::expected` and `tl::optional`
+	- https://github.com/TartanLlama/expected
+	- https://github.com/TartanLlama/optional
 
 ## Tools
 
