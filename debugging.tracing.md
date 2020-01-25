@@ -303,6 +303,8 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 	- KernelShark 1.0; What’s new and what’s coming - https://kernel-recipes.org/en/2018/talks/kernelshark-1-0-whats-new-and-whats-coming/
 - perf-tools: Performance analysis tools based on Linux perf_events (aka perf) and ftrace
 	- https://github.com/brendangregg/perf-tools
+- Tracing the Linux kernel with ftrace
+	- https://embeddedbits.org/tracing-the-linux-kernel-with-ftrace/
 - Understanding the Linux Kernel via Ftrace - Kernel Recipes 2017 - Steven Rostedt
 	- https://kernel-recipes.org/en/2017/talks/understanding-the-linux-kernel-via-ftrace/
 	- https://www.youtube.com/watch?v=2ff-7UTg5rE
