@@ -10,6 +10,8 @@ See also:
 # Background
 
 - https://github.com/aalhour/awesome-compilers
+- A Compiler Writing Journey
+	- https://github.com/DoctorWkt/acwj
 - An Incremental Approach to Compiler Construction
 	- Scheme and Functional Programming 2006; Abdulaziz Ghuloum
 	- http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf
@@ -85,15 +87,15 @@ See also:
 Compilers Call For Papers for Conferences, Workshops and Journals at WikiCFP - http://www.wikicfp.com/cfp/call?conference=compilers  
 Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
-- ASPLOS: International Conference on Architectural Support for Programming Languages and Operating Systems - http://dblp.uni-trier.de/db/conf/asplos/
+- ASPLOS: International Conference on Architectural Support for Programming Languages and Operating Systems - https://asplos-conference.org/ - http://dblp.uni-trier.de/db/conf/asplos/
 - CASES: Compilers, Architecture, and Synthesis for Embedded Systems - http://www.esweek.org/cases - http://dblp.uni-trier.de/db/conf/cases/
 - CC: The International Conference on Compiler Construction - http://conf.researchr.org/series/CC - http://dblp.uni-trier.de/db/conf/cc/
 - CGO: International Symposium on Code Generation and Optimization - http://cgo.org/ - http://dblp.uni-trier.de/db/conf/cgo/
-- HPCA: International Symposium on High-Performance Computer Architecture - http://www.hpcaconf.org/ - http://dblp.uni-trier.de/db/conf/hpca/
+- HPCA: International Symposium on High-Performance Computer Architecture - https://www.hpca-conf.org/ - http://dblp.uni-trier.de/db/conf/hpca/
 - ICFP: International Conference on Functional Programming - http://icfpconference.org/ - http://dblp.uni-trier.de/db/conf/icfp/
 - ISMM: International Symposium on Memory Management - http://www.sigplan.org/Conferences/ISMM/ - http://dblp.uni-trier.de/db/conf/iwmm/
-- LCTES: Languages, Compilers, and Tools for Embedded Systems - http://lctes.org/ - http://dblp.uni-trier.de/db/conf/lctrts/
-- OOPSLA: Object-Oriented Programming Systems, Languages and Applications - http://www.sigplan.org/Conferences/OOPSLA/ - http://dblp.uni-trier.de/db/conf/oopsla/
+- LCTES: Languages, Compilers, and Tools for Embedded Systems - https://conf.researchr.org/series/LCTES - http://dblp.uni-trier.de/db/conf/lctrts/
+- OOPSLA: Object-Oriented Programming Systems, Languages and Applications - http://www.sigplan.org/Conferences/OOPSLA/ - http://www.oopsla.org/ - http://dblp.uni-trier.de/db/conf/oopsla/
 - PACT: International Conference on Parallel Architecture and Compilation - http://pactconf.org/ - http://dblp.uni-trier.de/db/conf/IEEEpact/
 - PLDI: Programming Language Design and Implementation - http://www.sigplan.org/Conferences/PLDI/ - http://dblp.uni-trier.de/db/conf/pldi/
 - POPL: Principles of Programming Languages - http://www.sigplan.org/Conferences/POPL/ - http://dblp.uni-trier.de/db/conf/popl/
