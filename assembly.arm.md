@@ -330,7 +330,9 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 * Understanding the Security of ARM Debugging Features
 	+ Security & Privacy (S&P) 2019
 	+ Zhenyu Ning, Fengwei Zhang
-	+ https://www.computer.org/csdl/proceedings/sp/2019/6660/00/666000a969-abs.html
+	+ https://compass.cs.wayne.edu/nailgun/
+	+ http://webpages.eng.wayne.edu/~fy8421/paper/nailgun-sp19.pdf
+
 
 ### Pointer Authentication
 
@@ -360,39 +362,50 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 
 ### TrustZone
 
-* A Deep Dive Into Samsung's TrustZone
+- A Deep Dive Into Samsung's TrustZone
 	- Part 1: https://blog.quarkslab.com/a-deep-dive-into-samsungs-trustzone-part-1.html
 	- Part 2: https://blog.quarkslab.com/a-deep-dive-into-samsungs-trustzone-part-2.html
-* Attacking the ARM's TrustZone - https://blog.quarkslab.com/attacking-the-arms-trustzone.html
-* Breaking Samsung's ARM TrustZone
+- Attacking the ARM's TrustZone
+	- https://blog.quarkslab.com/attacking-the-arms-trustzone.html
+- Breaking Samsung's ARM TrustZone
 	- Black Hat USA 2019
 	- Maxime Peterlin, Alexandre Adamski, Joffrey Guilbon
 	- https://www.blackhat.com/us-19/briefings/schedule/#breaking-samsungs-arm-trustzone-14932
 	- https://www.youtube.com/watch?v=uXH5LJGRwXI
-* Cachegrab: a tool designed to help perform and visualize trace-driven cache attacks against software in the secure world of TrustZone-enabled ARMv8 cores
+- Cachegrab: a tool designed to help perform and visualize trace-driven cache attacks against software in the secure world of TrustZone-enabled ARMv8 cores
 	+ https://github.com/nccgroup/cachegrab
 	+ https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/december/34C3-Tool-Release-Cachegrab/
-* Demystifying Arm TrustZone: A Comprehensive Survey
+- Demystifying Arm TrustZone: A Comprehensive Survey
 	- ACM Computing Surveys 51(6) 2019
 	- Sandro Pinto and Nuno Santos
 	- https://www.gsd.inesc-id.pt/~nsantos/papers/pinto_acsur19.pdf
-* Introduction to Trusted Execution Environment: ARM's TrustZone - https://blog.quarkslab.com/introduction-to-trusted-execution-environment-arms-trustzone.html
-* PARTEMU: Enabling Dynamic Analysis of Real-World TrustZone Software Using Emulation
-	+ USENIX Security 2020
-	+ Lee Harrison, Hayawardh Vjayakumar, Rohan Padhye, Koushik Sen, Michael Grace
-	+ https://people.eecs.berkeley.edu/~rohanpadhye/files/partemu-usenixsec20.pdf
-* SoK: Understanding the Prevailing Security Vulnerabilities in TrustZone-assisted TEE Systems
+- Hardware-assisted Transparent Tracing and Debugging on ARM
+	- IEEE Transactions on Information Forensics & Security (TIFS) 2018
+	- Zhenyu Ning, Fengwei Zhang
+	- https://doi.org/10.1109/TIFS.2018.2883027
+	- http://webpages.eng.wayne.edu/~fy8421/paper/ninja-tifs19.pdf
+- Introduction to Trusted Execution Environment: ARM's TrustZone
+	- https://blog.quarkslab.com/introduction-to-trusted-execution-environment-arms-trustzone.html
+- Ninja: Towards Transparent Tracing and Debugging on ARM
+	- USENIX Security 2017
+	- Zhenyu Ning, Fengwei Zhang
+	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/ning
+- PARTEMU: Enabling Dynamic Analysis of Real-World TrustZone Software Using Emulation
+	- USENIX Security 2020
+	- Lee Harrison, Hayawardh Vjayakumar, Rohan Padhye, Koushik Sen, Michael Grace
+	- https://people.eecs.berkeley.edu/~rohanpadhye/files/partemu-usenixsec20.pdf
+- SoK: Understanding the Prevailing Security Vulnerabilities in TrustZone-assisted TEE Systems
 	- IEEE Symposium on Security and Privacy (S&P) 2020
 	- David Cerdeira, Nuno Santos, Pedro Fonseca, Sandro Pinto
 	- https://www.cs.purdue.edu/homes/pfonseca/papers/sp2020-tees.pdf
-* Verification of a Practical Hardware Security Architecture Through Static Information Flow Analysis (ARM TrustZone)
-	+ ASPLOS 2017
-	+ Andrew Ferraiuolo, Rui Xu, Danfeng Zhang, Andrew C. Myers, G. Edward Suh
-	+ http://www.cs.cornell.edu/andru/papers/trustzone/
-* vTZ: Virtualizing ARM TrustZone
-	+ USENIX Security 2017
-	+ Zhichao Hua, Jinyu Gu, Yubin Xia, Haibo Chen, Binyu Zang, and Haibing Guan
-	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/hua
+- Verification of a Practical Hardware Security Architecture Through Static Information Flow Analysis (ARM TrustZone)
+	- ASPLOS 2017
+	- Andrew Ferraiuolo, Rui Xu, Danfeng Zhang, Andrew C. Myers, G. Edward Suh
+	- http://www.cs.cornell.edu/andru/papers/trustzone/
+- vTZ: Virtualizing ARM TrustZone
+	- USENIX Security 2017
+	- Zhichao Hua, Jinyu Gu, Yubin Xia, Haibo Chen, Binyu Zang, and Haibing Guan
+	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/hua
 
 ## Simulation
 
