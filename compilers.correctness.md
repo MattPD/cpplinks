@@ -198,6 +198,9 @@ See also: [compilers](compilers.md)
 		- 2019 arXiv (pre-print)
 		- https://arxiv.org/abs/1902.09334
 		- https://sites.google.com/view/michaelmarcozzi/compiler-bugs
+	- PapersWeLove London 2020
+		- Michael Marcozzi
+		- https://www.youtube.com/watch?v=CUBmXYahTb0
 - Coverage Prediction for Accelerating Compiler Testing
 	- IEEE Transactions on Software Engineering (2019)
 	- Junjie Chen, Guancheng Wang, Dan Hao, Yingfei Xiong, Hongyu Zhang, Lu Zhang, Bing Xie
@@ -546,6 +549,11 @@ Validation: Including translation validation, equivalence checking.
 	- 2018 PhD Thesis; Sigurd Schneider
 	- https://www.ps.uni-saarland.de/Publications/documents/Schneider_2018_PhDThesis.pdf
 	- LVC - Linear Verified Compiler: https://www.ps.uni-saarland.de/~sdschn/LVC.html
+- A Verified Packrat Parser Interpreter for Parsing Expression Grammars
+	- Conference on Certified Programs and Proofs (CPP) 2020 
+	- Clement Blaudeau, Natarajan Shankar
+	- https://arxiv.org/abs/2001.04457
+	- https://www.youtube.com/watch?v=hLjRcMAMuts
 - ALIVe: Automatic LLVM InstCombine Verifier
 	- https://github.com/nunoplopes/alive
 	- online: http://rise4fun.com/Alive
@@ -652,11 +660,17 @@ Validation: Including translation validation, equivalence checking.
 		- https://github.com/PrincetonUniversity/compcomp
 	- Formal Verification of a Constant-Time Preserving C Compiler
 		- Principles of Programming Languages (POPL) 2020
-		- Gilles Barthe, Sandrine Blazy, Benjamin Grégoire, Rémi Hutin, Vincent Laporte, David Pichardie, Alix Trieu.
+		- Gilles Barthe, Sandrine Blazy, Benjamin Grégoire, Rémi Hutin, Vincent Laporte, David Pichardie, Alix Trieu
 		- https://eprint.iacr.org/2019/926
 		- http://cs.au.dk/%7Etrieu/POPL20/
 		- Slides (Verified Software Workshop): https://vetss.org.uk/wp-content/uploads/sites/122/2019/10/Blazy-Formal-Verification-of-a-Constant-Time.pdf
 		- https://vetss.org.uk/verified-software-workshop-programme/
+		- https://doi.org/10.1145/3371075
+		- A CompCert Compiler that Preserves Cryptographic Constant-time
+			- Sandrine Blazy, Rémi Hutin, David Pichardie
+			- PriSC 2020 Principles of Secure Compilation
+			- https://popl20.sigplan.org/details/prisc-2020-papers/10/A-CompCert-Compiler-that-Preserves-Cryptographic-Constant-time
+			- https://www.youtube.com/watch?v=eci48EC4v4o
 	- Lightweight Verification of Separate Compilation
 		- POPL 2016
 		- Jeehoon Kang, Yoonseung Kim, Chung-Kil Hur, Derek Dreyer, Viktor Vafeiadis
@@ -709,6 +723,15 @@ Validation: Including translation validation, equivalence checking.
 	- 2017 Ph.D. Dissertation; Ramana Kumar
 	- http://www.sigplan.org/Awards/Dissertation/2017_kumar.pdf
 	- https://cakeml.org/
+- The Correctness of a Code Generator for a Functional Language
+	- Verification, Model Checking, and Abstract Interpretation (VMCAI) 2020
+	- Nathanaël Courant, Antoine Séré, Natarajan Shankar
+	- https://doi.org/10.1007/978-3-030-39322-9_4
+- Towards Formally Verified Just-In-Time Compilation
+	- CoqPL 2020
+	- Aurèle Barrière, Sandrine Blazy, David Pichardie
+	- https://www.youtube.com/watch?v=Be-CwSREJOI
+	- https://popl20.sigplan.org/details/CoqPL-2020-papers/4/Towards-Formally-Verified-Just-in-Time-compilation
 - Vale (Verified Assembly Language for Everest)
 	- USENIX Security Symposium 2017
 	- Barry Bond and Chris Hawblitzel, Manos Kapritsos, K. Rustan M. Leino, Jacob R. Lorch, Bryan Parno, Ashay Rane, Srinath Setty, Laure Thompson
