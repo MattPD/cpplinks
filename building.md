@@ -143,6 +143,11 @@
 
 ## Distributed
 
+- Build in the Cloud
+	- Accessing Source Code: http://google-engtools.blogspot.com/2011/06/build-in-cloud-accessing-source-code.html
+	- How the Build System works: http://google-engtools.blogspot.com/2011/08/build-in-cloud-how-build-system-works.html
+	- Distributing Build Steps: http://google-engtools.blogspot.com/2011/09/build-in-cloud-distributing-build-steps.html
+	- Distributing Build Outputs: http://google-engtools.blogspot.com/2011/10/build-in-cloud-distributing-build.html
 - CloudBuild: Microsoft’s Distributed and Caching Build Service
 	- International Conference on Software Engineering (ICSE) 2016
 	- Hamed Esfahani, Jonas Fietz, Qi Ke, Alexei Kolomiets, Erica Lan, Erik Mavrinac, Wolfram Schulte, Newton Sanches, Srikanth Kandula
