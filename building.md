@@ -127,6 +127,9 @@
 		- http://llvm.org/devmtg/2019-04/slides/Lightning-Camp-Program_Repo.pdf
 	- LLVM Build Times Using a Program Repository
 		- https://www.snsystems.com/technology/tech-blog/llvm-build-times-using-a-program-repository
+	- Compile Faster with the Program Repository and ccache
+		- 2020 European LLVM Developers Meeting; Ying Yi, Paul Bowen-Huggett
+		- http://www.llvm.org/devmtg/2020-04/talks.html#LightningTalk_51
 - mtime comparison considered harmful
 	- "tl;dr: Rebuilding a target because its mtime is older than the mtimes of its dependencies, like make does, is very error prone. redo does it better, and so can you."
 	- https://apenwarr.ca/log/20181113
@@ -319,6 +322,11 @@
 - Common-sense acceleration of your MLOC build
 	- CppCon 2014; Matt Hargett
 	- https://www.youtube.com/watch?v=t4M3yG1dWho
+- Compiling C++ is slow - let's go faster
+	- StockholmCpp 2020; Tobias Hieta
+	- https://www.youtube.com/watch?v=X4pyOtawqjg
+	- https://gist.github.com/tru/ad677ba2b1d543e238b0e09eb3aad3ac
+https://gist.github.com/tru/ad677ba2b1d543e238b0e09eb3aad3ac
 - LLVM Compile-Time: Challenges. Improvements. Outlook.
 	- 2017 LLVM Developers’ Meeting; Michael Zolotukhin
 	- https://www.youtube.com/watch?v=bYHMwyyZ6Mk
