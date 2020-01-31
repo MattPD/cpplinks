@@ -428,6 +428,13 @@ Contents:
 * Linux Internals - Dynamic Linking Wizardry - https://0x00sec.org/t/linux-internals-dynamic-linking-wizardry/1082
 * Linux Internals - The Art Of Symbol Resolution - https://0x00sec.org/t/linux-internals-the-art-of-symbol-resolution/1488
 * Linux x86 Program Start Up (dynamically loaded x86 ELF files) - http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html
+* Making our own executable packer
+	- What's in a Linux executable? - https://fasterthanli.me/blog/2020/whats-in-a-linux-executable/
+	- Running an executable without exec - https://fasterthanli.me/blog/2020/running-an-executable-without-exec/
+	- Position-independent code - https://fasterthanli.me/blog/2020/position-independent-code/
+	- ELF relocations - https://fasterthanli.me/blog/2020/elf-relocations/
+	- The simplest shared library - https://fasterthanli.me/blog/2020/the-simplest-shared-library/
+	- Loading multiple ELF objects - https://fasterthanli.me/blog/2020/loading-multiple-elf-objects/
 * Position Independent Executables - https://blog.fpmurphy.com/2008/06/position-independent-executables.html
 * Programming With Ones and Zeros
 	+ Part 1 - http://www.hanshq.net/ones-and-zeros.html
