@@ -159,6 +159,12 @@ Taxonomy of Open Source Processors - http://parallel.princeton.edu/openpiton/ope
 	- Ariane is a 6-stage, single issue, in-order CPU which implements the 64-bit RISC-V instruction set.
 	- https://pulp-platform.github.io/ariane/
 	- https://github.com/pulp-platform/ariane
+- BlackParrot (SystemVerilog)
+	- Linux-capable cache-coherent, RV64GC multicore  
+	- https://github.com/black-parrot
+	- BlackParrot: An Agile Open Source RISC-V Multicore for Accelerator SoCs
+		- FOSDEM 2020; Dan Petrisko
+		- https://fosdem.org/2020/schedule/event/riscv_blackparrot/
 - BOOM: The Berkeley Out-of-Order RISC-V Processor (Chisel)
 	- https://ccelio.github.io/riscv-boom-doc/
 	- https://github.com/ucb-bar/riscv-boom
@@ -179,9 +185,20 @@ Taxonomy of Open Source Processors - http://parallel.princeton.edu/openpiton/ope
 	- https://github.com/mballance/fwrisc
 	- FWRISC: Sizing up the RISC-V Architecture
 		- https://bitsbytesgates.blogspot.com/2018/12/fwrisc-sizing-up-risc-v-architecture.html
+- HammerBlade RISC-V Manycore (SystemVerilog)
+	- A programmable, scalable RISC-V fabric
+	- https://github.com/bespoke-silicon-group/bsg_bladerunner
+	- https://github.com/bespoke-silicon-group/bsg_manycore
+	- http://bjump.org/manycore/
+	- HammerBlade IR: https://capra.cs.cornell.edu/hbir/
+	- FOSDEM 2020; Michael Taylor
+		- https://fosdem.org/2020/schedule/event/riscv_hammerblade/
 - Ibex: a small 32 bit RISC-V CPU core (RV32IMC/EMC) with a 2-stage pipeline (SystemVerilog)
 	- https://github.com/lowRISC/ibex/
 	- https://www.lowrisc.org/blog/2019/06/an-update-on-ibex-our-microcontroller-class-cpu-core/
+	- How lowRISC made its Ibex RISC-V CPU core faster: Using open source tools to improve an open source core
+		- FOSDEM 2020; Greg Chadwick
+		- https://fosdem.org/2020/schedule/event/riscv_lowrisc/
 - Icicle: 32-bit RISC-V system on chip for iCE40 and ECP5 FPGAs (SystemVerilog)
 	- https://github.com/grahamedgecombe/icicle
 - lowRISC - creating a fully open-sourced, Linux-capable, RISC-V-based SoC (SystemVerilog)
