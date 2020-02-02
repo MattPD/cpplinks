@@ -467,67 +467,77 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 ### Projects
 
 * CGDB: Console front-end to the GNU debugger
-	+ https://github.com/cgdb/cgdb
+	- https://github.com/cgdb/cgdb
 * Gdb Assembly Informant
-	+ steps through your assembly code one instruction at a time and diffs register values
-	+ https://github.com/thlorenz/gai
+	- steps through your assembly code one instruction at a time and diffs register values
+	- https://github.com/thlorenz/gai
 * GDB dashboard
-	+ https://github.com/cyrus-and/gdb-dashboard
-	+ https://metricpanda.com/tips-for-productive-debugging-with-gdb
+	- https://github.com/cyrus-and/gdb-dashboard
+	- https://metricpanda.com/tips-for-productive-debugging-with-gdb
 * GDB helper scripts
-	+ https://github.com/tromey/gdb-helpers
+	- https://github.com/tromey/gdb-helpers
 * gdb-gui: A gdb gui written in Python, running inside gdb itself
-	+ https://github.com/tromey/gdb-gui
+	- https://github.com/tromey/gdb-gui
 * gdb-helpers: GDB helper scripts
-	+ https://github.com/tromey/gdb-helpers
+	- https://github.com/tromey/gdb-helpers
 * gdb-tools: Various tools to improve the gdb experience
-	+ https://github.com/vuvova/gdb-tools
-	+ gdb tools: duel and @PrettyPrinter - https://fosdem.org/2018/schedule/event/debugging_tools_gdb_tools/
+	- https://github.com/vuvova/gdb-tools
+	- gdb tools: duel and @PrettyPrinter - https://fosdem.org/2018/schedule/event/debugging_tools_gdb_tools/
+* gdb-walkers: Bring mdb walkers to gdb, also add other helpful commands.
+	- https://github.com/hardenedapple/gdb-walkers
+	- GDB pipelines -- convenience iteration over inferior data structures
+		- Bringing MDB's "walkers" to GDB
+		- FOSDEM 2020; Matthew Malcomson
+		- https://fosdem.org/2020/schedule/event/debugging_gdb_pipelines/
 * gdbgui: A browser-based frontend for GDB
-	+ https://gdbgui.com/
-	+ https://github.com/cs01/gdbgui
+	- https://gdbgui.com/
+	- https://github.com/cs01/gdbgui
 * GdbShellPipe: Enable piping of internal command output to external commands
 	+ https://github.com/hq6/GdbShellPipe
 * Gede: a graphical frontend (GUI) to GDB written in Qt
-	+ http://gede.acidron.com/
-	+ mirror: https://github.com/Nanoseb/gede
+	- http://gede.acidron.com/
+	- mirror: https://github.com/Nanoseb/gede
 * GEF (GDB Enhanced Features)
-	+ https://github.com/hugsy/gef
-	+ https://github.com/hugsy/gef-scripts
-	+ https://github.com/hugsy/gef-structs
-	+ GEF Tutorials - https://www.youtube.com/playlist?list=PLjAuO31Rg972WeMvdR_57Qu-aVM8T6DkQ
-	+ https://blahcat.github.io/2017/08/01/gef-at-black-hat-arsenal-us-2017/
-	+ https://github.com/toolswatch/blackhat-arsenal-tools/blob/master/exploitation/gef.md
+	- https://github.com/hugsy/gef
+	- https://github.com/hugsy/gef-scripts
+	- https://github.com/hugsy/gef-structs
+	- GEF Tutorials - https://www.youtube.com/playlist?list=PLjAuO31Rg972WeMvdR_57Qu-aVM8T6DkQ
+	- https://blahcat.github.io/2017/08/01/gef-at-black-hat-arsenal-us-2017/
+	- https://github.com/toolswatch/blackhat-arsenal-tools/blob/master/exploitation/gef.md
 * libdebugme: Automatically drop to gdb on error
-	+ https://github.com/yugr/libdebugme
+	- https://github.com/yugr/libdebugme
 * OnlineGDB
-	+ "OnlineGDB an online compiler and debugger tool for C/C++ languages. It is world's first online IDE which gives debugging facility with embedded gdb."
-	+ http://OnlineGDB.com
+	- "OnlineGDB an online compiler and debugger tool for C/C++ languages. It is world's first online IDE which gives debugging facility with embedded gdb."
+	- http://OnlineGDB.com
 * PEDA - Python Exploit Development Assistance for GDB
-	+ https://github.com/longld/peda
-	+ https://eugenekolo.com/blog/better-disassembly-with-gdb-peda/
-	+ http://ropshell.com/peda/Linux_Interactive_Exploit_Development_with_GDB_and_PEDA_Slides.pdf
+	- https://github.com/longld/peda
+	- https://eugenekolo.com/blog/better-disassembly-with-gdb-peda/
+	- http://ropshell.com/peda/Linux_Interactive_Exploit_Development_with_GDB_and_PEDA_Slides.pdf
 * PINCE: front-end reverse engineering tool for the GDB - https://github.com/korcankaraokcu/PINCE
 * pwndbg - Exploit Development and Reverse Engineering with GDB Made Easy
-	+ https://github.com/pwndbg/pwndbg
-	+ https://github.com/pwndbg/pwndbg/blob/dev/FEATURES.md
+	- https://github.com/pwndbg/pwndbg
+	- https://github.com/pwndbg/pwndbg/blob/dev/FEATURES.md
 * Pwngdb - https://github.com/scwuaptx/Pwngdb
 * pygdbmi - Get Structured Output from GDB's Machine Interface - https://github.com/cs01/pygdbmi
 * QuickPatch: a GDB plug-in to patch an ELF file
-	+ https://github.com/invictus1306/QuickPatch
-	+ https://invictus1306.github.io/vulnerabilities/2019/10/20/quickpatch.html
+	- https://github.com/invictus1306/QuickPatch
+	- https://invictus1306.github.io/vulnerabilities/2019/10/20/quickpatch.html
 * SymGDB - symbolic execution plugin for gdb - https://github.com/SQLab/symgdb
 
 #### Editor Integration
 
-* GDB-MI: a package by Nick Roberts which makes Emacs use GDB/MI interface to talk with the GNU Debugger
-	+ https://www.emacswiki.org/emacs/GDB-MI
-* GDB graphical interface for GNU Emacs
-	+ https://github.com/weirdNox/emacs-gdb
-* neogdb.vim: Vim GDB front-end for neovim
-	+ https://github.com/huawenyu/neogdb.vim
-* RealGUD: An extensible, modular GNU Emacs front-end for interacting with external debuggers
-	+ https://github.com/realgud/realgud
+- GDB-MI: a package by Nick Roberts which makes Emacs use GDB/MI interface to talk with the GNU Debugger
+	- https://www.emacswiki.org/emacs/GDB-MI
+- GDB graphical interface for GNU Emacs
+	- https://github.com/weirdNox/emacs-gdb
+- Native Debug
+	- GDB & LLDB Debugger support for VSCode
+	- https://marketplace.visualstudio.com/items?itemName=webfreak.debug
+	- https://github.com/WebFreak001/code-debug
+- neogdb.vim: Vim GDB front-end for neovim
+	- https://github.com/huawenyu/neogdb.vim
+- RealGUD: An extensible, modular GNU Emacs front-end for interacting with external debuggers
+	- https://github.com/realgud/realgud
 
 #### Memory Debugging
 
@@ -597,50 +607,53 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 ### Talks
 
 * A flexible GDB (GNU Debugger) target description for processor diversity – SFO17-210
-	+ http://connect.linaro.org/resource/sfo17/sfo17-210/
+	- http://connect.linaro.org/resource/sfo17/sfo17-210/
 * Become a GDB Power User - ACCU 2016 - Greg Law
-	+ https://www.youtube.com/watch?v=713ay4bZUrw
-	+ including Q&A: https://www.youtube.com/watch?v=6ag7yvhDAiE
+	- https://www.youtube.com/watch?v=713ay4bZUrw
+	- including Q&A: https://www.youtube.com/watch?v=6ag7yvhDAiE
 * Debugging Linux C++
-	+ CppCon 2018; Greg Law
-	+ https://www.youtube.com/watch?v=V1t6faOKjuQ
+	- CppCon 2018; Greg Law
+	- https://www.youtube.com/watch?v=V1t6faOKjuQ
 * GDB: C++ conversion & dogfooding C++
-	+ GNU Tools Cauldron 2017; Pedro Alves
-	+ Slides: https://gcc.gnu.org/wiki/cauldron2017?action=AttachFile&do=view&target=gdb+-+C%2B%2B+conversion+%26+dogfood.pdf
-	+ Video: https://slideslive.com/38902352/gdb-c-conversion-dogfooding-c
+	- GNU Tools Cauldron 2017; Pedro Alves
+	- Slides: https://gcc.gnu.org/wiki/cauldron2017?action=AttachFile&do=view&target=gdb+-+C%2B%2B+conversion+%26+dogfood.pdf
+	- Video: https://slideslive.com/38902352/gdb-c-conversion-dogfooding-c
 * GDB - A Lot More Than You Knew - CppCon 2016 - Greg Law
-	+ https://www.youtube.com/watch?v=-n9Fkq1e6sg
+	- https://www.youtube.com/watch?v=-n9Fkq1e6sg
 * Give me 15 minutes & I'll change your view of GDB - CppCon 2015 - Greg Law
-	+ https://www.youtube.com/watch?v=PorfLSr3DDI
+	- https://www.youtube.com/watch?v=PorfLSr3DDI
 * How custom GDB commands help in C++ development
-	+ Munich C++ User Group 2018 (Lightning Talk); Michael Krasnyk
-	+ https://www.youtube.com/watch?v=QtTYXE1wSVs
+	- Munich C++ User Group 2018 (Lightning Talk); Michael Krasnyk
+	- https://www.youtube.com/watch?v=QtTYXE1wSVs
 * Improving Debuggability with GDB's Python API - C++Now 2018 - Jeff Trull
-	+ https://www.youtube.com/watch?v=mLPp1x_1h3g
+	- https://www.youtube.com/watch?v=mLPp1x_1h3g
 * Liberating the Debugging Experience with the GDB Python API
-	+ ACCU Bay Area Meetup 2018; Jeff Trull
-	+ https://github.com/accuBayArea/Slides/blob/master/slides/2018-08-08-jeff.pdf
-	+ CppCon 2018 - https://www.youtube.com/watch?v=ck_jCH_G7pA
-	+ gdb_python_api: Experiments with the GDB Python API
+	- ACCU Bay Area Meetup 2018; Jeff Trull
+	- https://github.com/accuBayArea/Slides/blob/master/slides/2018-08-08-jeff.pdf
+	- CppCon 2018 - https://www.youtube.com/watch?v=ck_jCH_G7pA
+	- gdb_python_api: Experiments with the GDB Python API
 		- https://github.com/jefftrull/gdb_python_api
 * More GDB wizardry and 8 other essential Linux application debugging tools
-	+ ACCU 2019; Greg Law
-	+ https://www.youtube.com/watch?v=Yq6g_kvyvPU
+	- ACCU 2019; Greg Law
+	- https://www.youtube.com/watch?v=Yq6g_kvyvPU
 * Programmatic Debugging with GDB and Python
-	+ PyCon APAC/Taiwan 2015; Scott Tsai
-	+ https://www.youtube.com/watch?v=oAYbt2PsKng
-	+ https://docs.google.com/presentation/d/15qOKBh9FDjCeGS-xAHXZSJDS5_aoZk0Caz12FL_f294/
+	- PyCon APAC/Taiwan 2015; Scott Tsai
+	- https://www.youtube.com/watch?v=oAYbt2PsKng
+	- https://docs.google.com/presentation/d/15qOKBh9FDjCeGS-xAHXZSJDS5_aoZk0Caz12FL_f294/
 * SecurityTube GDB Expert (SGDE)
-	+ Walkthroughs: https://github.com/Kan1shka9/Securitytube-Gnu-Debugger-Expert
-	+ Course Videos: http://www.securitytube.net/tags/sgde
-	+ https://www.youtube.com/playlist?list=PLiP0FxVgYuUz0kdK7L7YaI5n4qkOuymue
+	- Walkthroughs: https://github.com/Kan1shka9/Securitytube-Gnu-Debugger-Expert
+	- Course Videos: http://www.securitytube.net/tags/sgde
+	- https://www.youtube.com/playlist?list=PLiP0FxVgYuUz0kdK7L7YaI5n4qkOuymue
+* The GDB Text User Interface
+	- FOSDEM 2020; Tom Tromey
+	- https://fosdem.org/2020/schedule/event/debugging_gdb_tui/
 * Understanding, Scripting, and Extending GDB (2017)
-	+ https://mcgdb.0x972.info/team/
-	+ https://github.com/kpouget/tuto-gdb.py
-	+ Slides: https://mcgdb.0x972.info/files/tuto-gdb-py.presentation.pdf
+	- https://mcgdb.0x972.info/team/
+	- https://github.com/kpouget/tuto-gdb.py
+	- Slides: https://mcgdb.0x972.info/files/tuto-gdb-py.presentation.pdf
 * Your Application versus GDB - FOSDEM 2014 - Tom Tromey
-	+ https://archive.fosdem.org/2014/schedule/event/your_application_versus_gdb/
-	+ https://www.youtube.com/watch?v=RwDA3oIOtWw
+	- https://archive.fosdem.org/2014/schedule/event/your_application_versus_gdb/
+	- https://www.youtube.com/watch?v=RwDA3oIOtWw
 
 ## LLDB
 
