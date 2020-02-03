@@ -264,6 +264,14 @@
 - gprof2dot
 	- "Python script to convert the output from many profilers into a dot graph."
 	- https://github.com/jrfonseca/gprof2dot
+- HawkTracer
+	- a highly portable, low-overhead, configurable profiling tool for getting performance metrics from low-end devices
+	- Linux, Windows, macOS; C & C++ library; Python & Rust wrappers
+	- https://www.hawktracer.org/
+	- https://github.com/amzn/hawktracer
+	- Low-end platform profiling with HawkTracer profiler
+		- FOSDEM 2020; Marcin Kolny
+		- https://fosdem.org/2020/schedule/event/debugging_hawktrace/
 - Hotspot - the Linux perf GUI for performance analysis
 	- https://www.kdab.com/hotspot-gui-linux-perf-profiler/
 	- https://github.com/KDAB/hotspot
