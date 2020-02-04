@@ -779,9 +779,14 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * crash-python: a semantic debugger for the Linux kernel
 	+ https://github.com/jeffmahoney/crash-python
 * debuginfod
-	+ Introducing debuginfod, the elfutils debuginfo server
+	- elfutils debuginfod is a client/server in elfutils 0.178+ that automatically distributes elf/dwarf/source-code from servers to clients such as debuggers across HTTP
+		- https://sourceware.org/elfutils/Debuginfod.html
+	- The elfutils debuginfod server
+		- FOSDEM 2020; Mark Wielaard, Frank Ch. Eigler
+		- https://fosdem.org/2020/schedule/event/debugging_debuginfod/
+	- Introducing debuginfod, the elfutils debuginfo server
 		- https://developers.redhat.com/blog/2019/10/14/introducing-debuginfod-the-elfutils-debuginfo-server/
-	+ elfutils debuginfo-server
+	- elfutils debuginfo-server
 		- GNU Tools Cauldron 2019; Frank Ch. Eigler, Aaron Merey
 		- https://www.youtube.com/watch?v=cyOXWT_EBJ0
 		- https://gcc.gnu.org/wiki/cauldron2019talks?action=AttachFile&do=view&target=dbgserver.pdf
