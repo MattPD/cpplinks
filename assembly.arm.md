@@ -510,7 +510,12 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 * Arm SVE Tools Training
 	+ https://gitlab.com/arm-hpc/training/arm-sve-tools
 * Asvie: A Timing-Agnostic SVE Optimization Methodology 
-	+ Methodology for ArmIE SVE - <https://github.com/ARM-software/Methodology_for_ArmIE_SVE>
+	- Methodology for ArmIE SVE
+		- <https://github.com/ARM-software/Methodology_for_ArmIE_SVE>
+	- Asvie: A Timing-Agnostic SVE Optimization Methodology
+		- Programming and Performance Visualization Tools (ProTools) 2019
+		- Miguel Tairum Cruz, Daniel Ruiz, Roxana Rusitoru
+		- https://doi.org/10.1109/ProTools49597.2019.00007
 * Porting and Optimizing HPC Applications for Arm SVE Documentation
 	+ https://developer.arm.com/docs/101726/0200
 	+ Coding for SVE vs Neon
