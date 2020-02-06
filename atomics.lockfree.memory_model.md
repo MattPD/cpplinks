@@ -4,7 +4,7 @@
 
 * [Readings](#readings)
 * [References](#references)
-* [Software](#software)
+* [Software](#software): [Data Structures](#software---data-structures)
 * [Talks](#talks)
 
 ---
@@ -303,25 +303,9 @@
 	- act is a toolbox for finding concurrency memory model discrepancies between C code and its compiled assembly.
 	- It can use memalloy as a test-case generator, and generates litmus tests that can be used with herd7.
 	- https://github.com/MattWindsor91/act/
-- ASCYLIB
-	- https://github.com/LPD-EPFL/ASCYLIB
-	- ASCYLIB is a concurrent-search data-structure library with over 30 implementantions of linked lists, hash tables, skip lists, and binary search trees.
-ASCYLIB was developed for: Asynchronized Concurrency: The Secret to Scaling Concurrent Search Data Structures, Tudor David, Rachid Guerraoui, Vasileios Trigonakis (alphabetical order), ASPLOS '15. http://infoscience.epfl.ch/record/207109/files/ascy_asplos15.pdf
-Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/asynchronized-concurrency-the-secret-to-scaling-concurrent-search-data-structures/
-- Boost.Lockfree
-	- http://www.boost.org/doc/libs/release/doc/html/lockfree.html
-- CDS C++ library
-	- https://github.com/khizmax/libcds
-	- The Concurrent Data Structures (CDS) library is a collection of concurrent containers that don't require external (manual) synchronization for shared access, and safe memory reclamation (SMR) algorithms like Hazard Pointer and user-space RCU. CDS is mostly header-only template library. Only SMR core implementation is segregated to .so/.dll file.
 - CDSChecker: A Model Checker for C11 and C++11 Atomics
 	- http://demsky.eecs.uci.edu/c11modelchecker.html
 	- http://plrg.eecs.uci.edu/publications/c11modelcheck.pdf
-- ConcurrencyFreaks
-	- https://github.com/pramalhe/ConcurrencyFreaks
-	- A library of concurrent data structures and synchronization mechanisms.
-- Concurrency Kit
-	- Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems.
-	- https://github.com/concurrencykit/ck
 - CppMem: Interactive C/C++ memory model
 	- http://svr-pes20-cppmem.cl.cam.ac.uk/cppmem/
 	- https://www.modernescpp.com/index.php/cppmem-an-overview
@@ -337,12 +321,6 @@ Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/
 	- https://github.com/uwplse/memsynth
 	- Build an x86 memory model!
 		- https://demo.memsynth.org/
-- moodycamel::ConcurrentQueue (MPMC): https://github.com/cameron314/concurrentqueue
-	- moodycamel::ReaderWriterQueue (SPSC): SPSC: https://github.com/cameron314/readerwriterqueue
-	- http://moodycamel.com/blog/2013/a-fast-lock-free-queue-for-c++
-	- http://moodycamel.com/blog/2014/a-fast-general-purpose-lock-free-queue-for-c++
-	- http://moodycamel.com/blog/2014/detailed-design-of-a-lock-free-queue
-	- http://moodycamel.com/blog/2014/solving-the-aba-problem-for-lock-free-free-lists
 - Relacy Race Detector
 	- http://www.1024cores.net/home/relacy-race-detector
 - RMEM
@@ -353,6 +331,31 @@ Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/
 - Synchrobench
 	- https://github.com/gramoli/synchrobench
 	- A benchmark to compare synchronization techniques for multicore programming
+
+## Software - Data Structures
+
+- ASCYLIB
+	- https://github.com/LPD-EPFL/ASCYLIB
+	- ASCYLIB is a concurrent-search data-structure library with over 30 implementantions of linked lists, hash tables, skip lists, and binary search trees.
+ASCYLIB was developed for: Asynchronized Concurrency: The Secret to Scaling Concurrent Search Data Structures, Tudor David, Rachid Guerraoui, Vasileios Trigonakis (alphabetical order), ASPLOS '15. http://infoscience.epfl.ch/record/207109/files/ascy_asplos15.pdf
+Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/asynchronized-concurrency-the-secret-to-scaling-concurrent-search-data-structures/
+- Boost.Lockfree
+	- http://www.boost.org/doc/libs/release/doc/html/lockfree.html
+- CDS C++ library
+	- https://github.com/khizmax/libcds
+	- The Concurrent Data Structures (CDS) library is a collection of concurrent containers that don't require external (manual) synchronization for shared access, and safe memory reclamation (SMR) algorithms like Hazard Pointer and user-space RCU. CDS is mostly header-only template library. Only SMR core implementation is segregated to .so/.dll file.
+- ConcurrencyFreaks
+	- https://github.com/pramalhe/ConcurrencyFreaks
+	- A library of concurrent data structures and synchronization mechanisms.
+- Concurrency Kit
+	- Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems.
+	- https://github.com/concurrencykit/ck
+- moodycamel::ConcurrentQueue (MPMC): https://github.com/cameron314/concurrentqueue
+	- moodycamel::ReaderWriterQueue (SPSC): SPSC: https://github.com/cameron314/readerwriterqueue
+	- http://moodycamel.com/blog/2013/a-fast-lock-free-queue-for-c++
+	- http://moodycamel.com/blog/2014/a-fast-general-purpose-lock-free-queue-for-c++
+	- http://moodycamel.com/blog/2014/detailed-design-of-a-lock-free-queue
+	- http://moodycamel.com/blog/2014/solving-the-aba-problem-for-lock-free-free-lists
 
 ---
 
