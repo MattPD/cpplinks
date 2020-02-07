@@ -337,8 +337,11 @@
 - ASCYLIB
 	- https://github.com/LPD-EPFL/ASCYLIB
 	- ASCYLIB is a concurrent-search data-structure library with over 30 implementantions of linked lists, hash tables, skip lists, and binary search trees.
-ASCYLIB was developed for: Asynchronized Concurrency: The Secret to Scaling Concurrent Search Data Structures, Tudor David, Rachid Guerraoui, Vasileios Trigonakis (alphabetical order), ASPLOS '15. http://infoscience.epfl.ch/record/207109/files/ascy_asplos15.pdf
-Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/asynchronized-concurrency-the-secret-to-scaling-concurrent-search-data-structures/
+	- Asynchronized Concurrency: The Secret to Scaling Concurrent Search Data Structures
+		- ASPLOS 2015
+		- Tudor David, Rachid Guerraoui, Vasileios Trigonakis
+		- http://infoscience.epfl.ch/record/207109/files/ascy_asplos15.pdf
+		- Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/asynchronized-concurrency-the-secret-to-scaling-concurrent-search-data-structures/
 - Boost.Lockfree
 	- http://www.boost.org/doc/libs/release/doc/html/lockfree.html
 - CDS C++ library
@@ -350,12 +353,22 @@ Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/
 - Concurrency Kit
 	- Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems.
 	- https://github.com/concurrencykit/ck
+- Concurrent data structures
+	- Compilation of concurrent data structures with at least lock-free or wait-free properties.
+	- https://github.com/jfuentes/concurrent-data-structures
 - moodycamel::ConcurrentQueue (MPMC): https://github.com/cameron314/concurrentqueue
 	- moodycamel::ReaderWriterQueue (SPSC): SPSC: https://github.com/cameron314/readerwriterqueue
 	- http://moodycamel.com/blog/2013/a-fast-lock-free-queue-for-c++
 	- http://moodycamel.com/blog/2014/a-fast-general-purpose-lock-free-queue-for-c++
 	- http://moodycamel.com/blog/2014/detailed-design-of-a-lock-free-queue
 	- http://moodycamel.com/blog/2014/solving-the-aba-problem-for-lock-free-free-lists
+- xenium: a collection of concurrent data structures and memory reclamation algorithms (a header-only library)
+	- https://github.com/mpoeter/xenium
+	- Effective Memory Reclamation for Lock-Free Data Structures in C++
+		- 2018 Master's thesis; Manuel Pöter
+		- http://katalog.ub.tuwien.ac.at/AC14552708
+		- http://www.ub.tuwien.ac.at/dipl/VL/51367.pdf
+		- https://github.com/mpoeter/emr
 
 ---
 
