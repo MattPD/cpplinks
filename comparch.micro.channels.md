@@ -628,131 +628,157 @@ See also: [Computer Architecture](comparch.md)
 
 # Cache
 
-* A High-Resolution Side-channel attack on the Last Level Cache, DAC'16 (best paper nominee)
-	+ paper: http://www.cs.ucr.edu/~nael/pubs/dac16.pdf
-	+ slides: http://www.cs.ucr.edu/~nael/pubs/dac16.pptx
-* A Software Approach to Defeating Side Channels in Last-Level Caches
-	+ https://arxiv.org/abs/1603.05615
-	+ CCS 2016: https://www.youtube.com/watch?v=_dAnVtrtfdA
-* An Analytical Model for Time-Driven Cache Attacks
-	+ Fast Software Encryption (FSE) 2007
-	+ Kris Tiri, Onur Aciiçmez, Michael Neve, Flemming Andersen
-	+ https://iacr.org/archive/fse2007/45930404/45930404.pdf
-* Are Coherence Protocol States vulnerable to Information Leakage?
-	+ HPCA 2018
-	+ Fan Yao, Milos Doroslovacki, Guru Venkataramani 
-	+ https://www2.seas.gwu.edu/~guruv/hpca2018.pdf
-	+ https://www.youtube.com/watch?v=NQQ0zC1G7p0
-* ARMageddon: How Your Smartphone CPU Breaks Software-Level Security and Privacy
-	+ Black Hat Europe 2016: https://www.youtube.com/watch?v=9KsnFWejpQg
-	+ https://github.com/IAIK/armageddon
-	+ thesis: https://www.blackhat.com/docs/eu-16/materials/eu-16-Lipp-ARMageddon-How-Your-Smartphone-CPU-Breaks-Software-Level-Security-And-Privacy-wp.pdf
-	+ slides: https://www.blackhat.com/docs/eu-16/materials/eu-16-Lipp-ARMageddon-How-Your-Smartphone-CPU-Breaks-Software-Level-Security-And-Privacy.pdf
-	+ USENIX Security 2016
-		- Moritz Lipp, Daniel Gruss, Raphael Spreitzer, Clémentine Maurice, Stefan Mangard
-		- https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/lipp
-* Attack Directories, Not Caches: Side Channel Attacks in a Non-Inclusive World
-	+ Mengjia Yan, Read Sprabery, Bhargava Gopireddy, Christopher Fletcher, Roy Campbell, Josep Torrellas
-	+ IEEE Symposium on Security and Privacy (SP) 2019
-	+ http://iacoma.cs.uiuc.edu/iacoma-papers/ssp19.pdf
-	+ http://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_ssp19.pdf
-	+ http://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_HASP18.pptx
-		- "We design the first cross-core Prime+Probe attack on non-inclusive caches."
-		- "Using our Eviction Sets, we reverse engineer the directory structure in Skylake-X, and identify vulnerabilities in directory design that can be leveraged by cache-based side channel attacks."
-		- "Based on our EV construction results, we are able to reverse engineer part of the slice hash function in the Intel Skylake-X processor. Our goal here is to show that the slice hash function is not a simple XOR operation of selected physical address bits. This design is significantly different from the one in previous Intel processors such as SandyBridge and IvyBridge. Considering that all of the previous works on reverse-engineering slice hash functions, rely on the use of a simple XOR hash function, our results identify the need for more advanced reverse-engineering approaches."
-* AutoLock: Why Cache Attacks on ARM Are Harder Than You Think
-	+ USENIX Security 2017
-	+ Marc Green, Leandro Rodrigues Lima, Andreas Zankl, Gorka Irazoqui, Johann Heyszl, Thomas Eisenbarth
-	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/green
-* C5: Cross-Cores Cache Covert Channel, 2015
-	+ Detection of Intrusions and Malware, and Vulnerability Assessment
-	+ http://www.s3.eurecom.fr/docs/dimva15_clementine.pdf
-	+ https://link.springer.com/chapter/10.1007/978-3-319-20550-2_3
-* Cache Attacks and Countermeasures: the Case of AES (Extended Version)
-	+ RSA Conference Cryptographers' Track (CT-RSA) 2006
-	+ Dag Arne Osvik, Adi Shamir and Eran Tromer
-	+ https://www.cs.tau.ac.il/~tromer/papers/cache.pdf
-* Cache side channel attacks - https://dreamsofastone.blogspot.com/2015/09/cache-side-channel-attacks.html
-* Cache Side Channels: State of the Art and Research Opportunities
-	+ CCS 2017
-	+ Yinqian Zhang
-	+ https://dl.acm.org/citation.cfm?doid=3133956.3136064
-	+ http://web.cse.ohio-state.edu/~zhang.834/slides/tutorial17.pdf
-* CacheBleed: A Timing Attack on OpenSSL Constant Time RSA
-	+ IACR 2016
-	+ Y. Yarom, D. Genkin, N. Heninger
-	+ https://ssrg.nicta.com.au/projects/TS/cachebleed/cachebleed.pdf
-	+ Section 2.2 (The Intel cache hierarchy), Section 2.5 (Intel L1 cache banks)
-* Flush+Flush: A Fast and Stealthy Cache Attack
-	+ Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA) 2016
-	+ Daniel Gruss, Clémentine Maurice, Klaus Wagner, Stefan Mangard
-	+ http://arxiv.org/abs/1511.04594
-	+ https://github.com/IAIK/flush_flush
-* FLUSH+RELOAD: A High Resolution, Low Noise, L3 Cache Side-Channel Attack 
-	+ USENIX Security 2014
-	+ Yuval Yarom, Katrina Falkner
-	+ https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/yarom
-	+ https://eprint.iacr.org/2013/448
-* Hello from the Other Side: SSH over Robust Cache Covert Channels in the Cloud
-	+ Network and Distributed System Security Symposium (NDSS) 2017
-	+ Clémentine Maurice, Manuel Weber, Michael Schwarz, Lukas Giner, Daniel Gruss, Carlo Alberto Boano, Kay Römer, Stefan Mangard
-	+ slides: https://gruss.cc/files/hello_ndss_slides.pdf
-	+ https://github.com/IAIK/hello
-	+ BH Asia 2017: https://www.youtube.com/watch?v=a9sGk7FtnYk
-* Last-Level Cache Side-Channel Attacks are Practical
-	+ 2015 IEEE Symposium on Security and Privacy
-	+ Fangfei Liu, Yuval Yarom, Qian Ge, Gernot Heiser, Ruby B. Lee
-	+ http://palms.ee.princeton.edu/system/files/SP_vfinal.pdf
-	+ https://www.youtube.com/watch?v=vpGI1ggKzC4
-* MeltdownPrime and SpectrePrime: Automatically-Synthesized Attacks Exploiting Invalidation-Based Coherence Protocols
-	+ 2018 arXiv preprint
-	+ Caroline Trippel, Daniel Lustig, Margaret Martonosi
-	+ https://arxiv.org/abs/1802.03802
-* MemJam: A False Dependency Attack against Constant-Time Crypto Implementations
-	+ RSA Conference 2018
-	+ Ahmad Moghimi, Thomas Eisenbarth, Berk Sunar
-	+ https://arxiv.org/abs/1711.08002
-* New Results on Instruction Cache Attacks
-	+ Cryptographic Hardware and Embedded Systems (CHES) 2010
-	+ Onur Aciiçmez, Billy Bob Brumley, Philipp Grabher
-	+ https://www.iacr.org/archive/ches2010/62250105/62250105.pdf
-* Pseudorandom Black Swans: Cache Attacks on CTR_DRBG
-	+ IEEE Symposium on Security & Privacy 2020
-	+ Shaanan Cohney, Andrew Kwong, Shachar Paz, Daniel Genkin, Nadia Heninger, Eyal Ronen, Yuval Yarom
-	+ https://eprint.iacr.org/2019/996
-	+ Research Post: Cache Attacks on CTR_DRBG
-	+ https://security.cohney.info/blackswans/
-* Return-Oriented Flush-Reload Side Channels on ARM and Their Implications for Android Devices
-	+ CCS 2016
-	+ Xiaokuan Zhang, Yuan Xiao, Yinqian Zhang
-	+ http://web.cse.ohio-state.edu/~xiao.465/fp0501-zhang.pdf
-	+ https://www.youtube.com/watch?v=tymvrJiJNl8
-* Robust Website Fingerprinting Through the Cache Occupancy Channel
-	+ 2018 arXiv; Anatoly Shusterman, Lachlan Kang, Yarden Haskal, Yosef Meltser, Prateek Mittal, Yossi Oren, Yuval Yarom 
-	+ https://arxiv.org/abs/1811.07153
-* Stealthy Tracking of Autonomous Vehicles with Cache Side Channels
+## Cache (2020)
+
+- Pseudorandom Black Swans: Cache Attacks on CTR_DRBG
+	- IEEE Symposium on Security & Privacy 2020
+	- Shaanan Cohney, Andrew Kwong, Shachar Paz, Daniel Genkin, Nadia Heninger, Eyal Ronen, Yuval Yarom
+	- https://eprint.iacr.org/2019/996
+	- Research Post: Cache Attacks on CTR_DRBG
+	- https://security.cohney.info/blackswans/
+- Stealthy Tracking of Autonomous Vehicles with Cache Side Channels
 	- USENIX Security 2020
 	- Mulong Luo, Andrew C. Myers, G. Edward Suh
 	- http://www.cs.cornell.edu/andru/papers/stealthy-tracking/
-* Unveiling your keystrokes: A Cache-based Side-channel Attack on Graphics Libraries
-	+ NDSS 2019
-	+ Daimeng Wang, Ajaya Neupane, Zhiyun Qian, Nael Abu-Ghazaleh, Srikanth V. Krishnamurthy, Edward J. M. Colbert, Paul Yu
-	+ http://www.cs.ucr.edu/~zhiyunq/pub/ndss19_cache_keystrokes.pdf
-* Yet Another MicroArchitectural Attack: Exploiting I-cache
-	+ CSAW 2007
-	+ Onur Aciiçmez
-	+ http://eprint.iacr.org/2007/164
+
+## Cache (2019)
+
+- Attack Directories, Not Caches: Side Channel Attacks in a Non-Inclusive World
+	- IEEE Symposium on Security and Privacy (SP) 2019
+	- Mengjia Yan, Read Sprabery, Bhargava Gopireddy, Christopher Fletcher, Roy Campbell, Josep Torrellas
+	- http://iacoma.cs.uiuc.edu/iacoma-papers/ssp19.pdf
+	- http://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_ssp19.pdf
+	- http://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_HASP18.pptx
+		- "We design the first cross-core Prime+Probe attack on non-inclusive caches."
+		- "Using our Eviction Sets, we reverse engineer the directory structure in Skylake-X, and identify vulnerabilities in directory design that can be leveraged by cache-based side channel attacks."
+		- "Based on our EV construction results, we are able to reverse engineer part of the slice hash function in the Intel Skylake-X processor. Our goal here is to show that the slice hash function is not a simple XOR operation of selected physical address bits. This design is significantly different from the one in previous Intel processors such as SandyBridge and IvyBridge. Considering that all of the previous works on reverse-engineering slice hash functions, rely on the use of a simple XOR hash function, our results identify the need for more advanced reverse-engineering approaches."
+- Unveiling your keystrokes: A Cache-based Side-channel Attack on Graphics Libraries
+	- NDSS 2019
+	- Daimeng Wang, Ajaya Neupane, Zhiyun Qian, Nael Abu-Ghazaleh, Srikanth V. Krishnamurthy, Edward J. M. Colbert, Paul Yu
+	- http://www.cs.ucr.edu/~zhiyunq/pub/ndss19_cache_keystrokes.pdf
+
+## Cache (2018)
+
+- Are Coherence Protocol States vulnerable to Information Leakage?
+	- HPCA 2018
+	- Fan Yao, Milos Doroslovacki, Guru Venkataramani 
+	- https://www2.seas.gwu.edu/~guruv/hpca2018.pdf
+	- https://www.youtube.com/watch?v=NQQ0zC1G7p0
+- MeltdownPrime and SpectrePrime: Automatically-Synthesized Attacks Exploiting Invalidation-Based Coherence Protocols
+	- 2018 arXiv preprint
+	- Caroline Trippel, Daniel Lustig, Margaret Martonosi
+	- https://arxiv.org/abs/1802.03802
+- MemJam: A False Dependency Attack against Constant-Time Crypto Implementations
+	- RSA Conference 2018
+	- Ahmad Moghimi, Thomas Eisenbarth, Berk Sunar
+	- https://arxiv.org/abs/1711.08002
+- Robust Website Fingerprinting Through the Cache Occupancy Channel
+	- 2018 arXiv; Anatoly Shusterman, Lachlan Kang, Yarden Haskal, Yosef Meltser, Prateek Mittal, Yossi Oren, Yuval Yarom 
+	- https://arxiv.org/abs/1811.07153
+
+## Cache (2017)
+
+- AutoLock: Why Cache Attacks on ARM Are Harder Than You Think
+	- USENIX Security 2017
+	- Marc Green, Leandro Rodrigues Lima, Andreas Zankl, Gorka Irazoqui, Johann Heyszl, Thomas Eisenbarth
+	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/green
+- Cache Side Channels: State of the Art and Research Opportunities
+	- CCS 2017
+	- Yinqian Zhang
+	- https://dl.acm.org/citation.cfm?doid=3133956.3136064
+	- http://web.cse.ohio-state.edu/~zhang.834/slides/tutorial17.pdf
+- Hello from the Other Side: SSH over Robust Cache Covert Channels in the Cloud
+	- Network and Distributed System Security Symposium (NDSS) 2017
+	- Clémentine Maurice, Manuel Weber, Michael Schwarz, Lukas Giner, Daniel Gruss, Carlo Alberto Boano, Kay Römer, Stefan Mangard
+	- slides: https://gruss.cc/files/hello_ndss_slides.pdf
+	- https://github.com/IAIK/hello
+	- BH Asia 2017: https://www.youtube.com/watch?v=a9sGk7FtnYk
+
+## Cache (2016)
+
+- A High-Resolution Side-channel attack on the Last Level Cache
+	- DAC 2016 (best paper nominee)
+	- Mehmet Kayaalp, Nael Abu-Ghazaleh, Dmitry Ponomarev, Aamer Jaleel
+	- paper: http://www.cs.ucr.edu/~nael/pubs/dac16.pdf
+	- slides: http://www.cs.ucr.edu/~nael/pubs/dac16.pptx
+- A Software Approach to Defeating Side Channels in Last-Level Caches
+	- CCS 2016
+	- Ziqiao Zhou, Michael K. Reiter, Yinqian Zhang
+	- https://arxiv.org/abs/1603.05615
+	- https://www.youtube.com/watch?v=_dAnVtrtfdA
+- ARMageddon: How Your Smartphone CPU Breaks Software-Level Security and Privacy
+	- Black Hat Europe 2016: https://www.youtube.com/watch?v=9KsnFWejpQg
+	- https://github.com/IAIK/armageddon
+	- thesis: https://www.blackhat.com/docs/eu-16/materials/eu-16-Lipp-ARMageddon-How-Your-Smartphone-CPU-Breaks-Software-Level-Security-And-Privacy-wp.pdf
+	- slides: https://www.blackhat.com/docs/eu-16/materials/eu-16-Lipp-ARMageddon-How-Your-Smartphone-CPU-Breaks-Software-Level-Security-And-Privacy.pdf
+	- USENIX Security 2016
+		- Moritz Lipp, Daniel Gruss, Raphael Spreitzer, Clémentine Maurice, Stefan Mangard
+		- https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/lipp
+- CacheBleed: A Timing Attack on OpenSSL Constant Time RSA
+	- IACR 2016
+	- Y. Yarom, D. Genkin, N. Heninger
+	- https://ssrg.nicta.com.au/projects/TS/cachebleed/cachebleed.pdf
+	- Section 2.2 (The Intel cache hierarchy), Section 2.5 (Intel L1 cache banks)
+- Flush+Flush: A Fast and Stealthy Cache Attack
+	- Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA) 2016
+	- Daniel Gruss, Clémentine Maurice, Klaus Wagner, Stefan Mangard
+	- http://arxiv.org/abs/1511.04594
+	- https://github.com/IAIK/flush_flush
+- Return-Oriented Flush-Reload Side Channels on ARM and Their Implications for Android Devices
+	- CCS 2016
+	- Xiaokuan Zhang, Yuan Xiao, Yinqian Zhang
+	- http://web.cse.ohio-state.edu/~xiao.465/fp0501-zhang.pdf
+	- https://www.youtube.com/watch?v=tymvrJiJNl8
+
+## Cache (2015)
+
+- C5: Cross-Cores Cache Covert Channel
+	- Detection of Intrusions and Malware, and Vulnerability Assessment (DIMVA) 2015
+	- http://www.s3.eurecom.fr/docs/dimva15_clementine.pdf
+	- https://link.springer.com/chapter/10.1007/978-3-319-20550-2_3
+- Cache Attacks and Countermeasures: the Case of AES (Extended Version)
+	- RSA Conference Cryptographers' Track (CT-RSA) 2006
+	- Dag Arne Osvik, Adi Shamir and Eran Tromer
+	- https://www.cs.tau.ac.il/~tromer/papers/cache.pdf
+- Cache side channel attacks
+	- 2015; Anders Fogh
+	- https://dreamsofastone.blogspot.com/2015/09/cache-side-channel-attacks.html
+- Last-Level Cache Side-Channel Attacks are Practical
+	- 2015 IEEE Symposium on Security and Privacy
+	- Fangfei Liu, Yuval Yarom, Qian Ge, Gernot Heiser, Ruby B. Lee
+	- http://palms.ee.princeton.edu/system/files/SP_vfinal.pdf
+	- https://www.youtube.com/watch?v=vpGI1ggKzC4
+
+## Cache (2007-2014)
+
+- An Analytical Model for Time-Driven Cache Attacks
+	- Fast Software Encryption (FSE) 2007
+	- Kris Tiri, Onur Aciiçmez, Michael Neve, Flemming Andersen
+	- https://iacr.org/archive/fse2007/45930404/45930404.pdf
+- FLUSH+RELOAD: A High Resolution, Low Noise, L3 Cache Side-Channel Attack 
+	- USENIX Security 2014
+	- Yuval Yarom, Katrina Falkner
+	- https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/yarom
+	- https://eprint.iacr.org/2013/448
+- New Results on Instruction Cache Attacks
+	- Cryptographic Hardware and Embedded Systems (CHES) 2010
+	- Onur Aciiçmez, Billy Bob Brumley, Philipp Grabher
+	- https://www.iacr.org/archive/ches2010/62250105/62250105.pdf
+- Yet Another MicroArchitectural Attack: Exploiting I-cache
+	- CSAW 2007
+	- Onur Aciiçmez
+	- http://eprint.iacr.org/2007/164
 
 ## Cache - Data-Direct I/O (DDIO)
 
-* NetCAT: Practical Cache Attacks from the Network
-	+ S&P 2020
-	+ Kurth, M.; Gras, B.; Andriesse, D.; Giuffrida, C.; Bos, H.; and Razavi, K.
-	+ https://www.vusec.net/projects/netcat/
-* Packet Chasing: Spying on Network Packets over a Cache Side-Channel
-	+ arXiv 2019
-	+ Mohammadkazem Taram, Ashish Venkat, Dean Tullsen
-	+ https://arxiv.org/abs/1909.04841
+- NetCAT: Practical Cache Attacks from the Network
+	- S&P 2020
+	- Kurth, M.; Gras, B.; Andriesse, D.; Giuffrida, C.; Bos, H.; and Razavi, K.
+	- https://www.vusec.net/projects/netcat/
+- Packet Chasing: Spying on Network Packets over a Cache Side-Channel
+	- arXiv 2019
+	- Mohammadkazem Taram, Ashish Venkat, Dean Tullsen
+	- https://arxiv.org/abs/1909.04841
 
 ---
 
