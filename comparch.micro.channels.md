@@ -11,6 +11,8 @@ See also: [Computer Architecture](comparch.md)
 - [General](#general)
 - [Defense, Mitigation, Protection](#defense-mitigation-protection)
 
+---
+
 - [Arithmetic Logic Unit (ALU)](#arithmetic-logic-unit-alu)
 - [Branch Predictor](#branch-predictor)
 - [Cache](#cache)
@@ -630,12 +632,29 @@ See also: [Computer Architecture](comparch.md)
 
 ## Cache (2020)
 
+- Analysis and Detection of Cache-Based Exploits
+	- 2020 Ph.D. Dissertation; Tsvetoslava Vateva-Gurova
+	- https://doi.org/10.25534/tuprints-00009770
+- CacheOut: Leaking Data on Intel CPUs via Cache Evictions
+	- 2020
+	- Stephan van Schaik, Marina Minkin, Andrew Kwong, Daniel Genkin, Yuval Yarom
+	- https://cacheoutattack.com/
+	- L1D Eviction Sampling / CVE-2020-0549 / INTEL-SA-00329
+	- https://software.intel.com/security-software-guidance/software-guidance/l1d-eviction-sampling
+- Leaking Information Through Cache LRU States
+	- High-Performance Computer Architecture (HPCA) 2020
+	- Wenjie Xiong, Jakub Szefer
+	- https://arxiv.org/abs/1905.08348
 - Pseudorandom Black Swans: Cache Attacks on CTR_DRBG
 	- IEEE Symposium on Security & Privacy 2020
 	- Shaanan Cohney, Andrew Kwong, Shachar Paz, Daniel Genkin, Nadia Heninger, Eyal Ronen, Yuval Yarom
 	- https://eprint.iacr.org/2019/996
 	- Research Post: Cache Attacks on CTR_DRBG
 	- https://security.cohney.info/blackswans/
+- Safecracker: Leaking Secrets through Compressed Caches
+	- ASPLOS 2020
+	- Po-An Tsai, Andres Sanchez, Christopher W. Fletcher, Daniel Sanchez
+	- http://people.csail.mit.edu/poantsai/papers/2020.safecracker.asplos.pdf
 - Stealthy Tracking of Autonomous Vehicles with Cache Side Channels
 	- USENIX Security 2020
 	- Mulong Luo, Andrew C. Myers, G. Edward Suh
@@ -652,6 +671,14 @@ See also: [Computer Architecture](comparch.md)
 		- "We design the first cross-core Prime+Probe attack on non-inclusive caches."
 		- "Using our Eviction Sets, we reverse engineer the directory structure in Skylake-X, and identify vulnerabilities in directory design that can be leveraged by cache-based side channel attacks."
 		- "Based on our EV construction results, we are able to reverse engineer part of the slice hash function in the Intel Skylake-X processor. Our goal here is to show that the slice hash function is not a simple XOR operation of selected physical address bits. This design is significantly different from the one in previous Intel processors such as SandyBridge and IvyBridge. Considering that all of the previous works on reverse-engineering slice hash functions, rely on the use of a simple XOR hash function, our results identify the need for more advanced reverse-engineering approaches."
+- Cache-based Side Channels: Modern Attacks and Defenses
+	- 2019 Ph.D. dissertation; Mengjia Yan
+	- http://iacoma.cs.uiuc.edu/iacoma-papers/mengjia_yan_thesis.pdf
+- The 9 Lives of Bleichenbacher's CAT: New Cache ATtacks on TLS Implementations
+	- IEEE Symposium on Security & Privacy 2019
+	- Eyal Ronen, Robert Gillham, Daniel Genkin, Adi Shamir, David Wong, Yuval Yarom
+	- vhttps://eprint.iacr.org/2018/1173
+	- https://eyalro.net/project/cat.html
 - Unveiling your keystrokes: A Cache-based Side-channel Attack on Graphics Libraries
 	- NDSS 2019
 	- Daimeng Wang, Ajaya Neupane, Zhiyun Qian, Nael Abu-Ghazaleh, Srikanth V. Krishnamurthy, Edward J. M. Colbert, Paul Yu
@@ -775,6 +802,9 @@ See also: [Computer Architecture](comparch.md)
 	- S&P 2020
 	- Kurth, M.; Gras, B.; Andriesse, D.; Giuffrida, C.; Bos, H.; and Razavi, K.
 	- https://www.vusec.net/projects/netcat/
+	- Practical Cache Attacks from the Network and Bad Cat Puns
+		- 36C3 (2019); Michael Kurth
+		- https://media.ccc.de/v/36c3-10884-practical_cache_attacks_from_the_network_and_bad_cat_puns
 - Packet Chasing: Spying on Network Packets over a Cache Side-Channel
 	- arXiv 2019
 	- Mohammadkazem Taram, Ashish Venkat, Dean Tullsen
@@ -1617,14 +1647,21 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 	- 2019 arXiv
 	- Michael Schwarz, Claudio Canella, Lukas Giner, Daniel Gruss
 	- https://arxiv.org/abs/1905.05725
-- TLBleed: When Protecting Your CPU Caches Is Not Enough
-	- Hardwear.io 2018; B. Gras And K. Razavi
-	- https://www.youtube.com/watch?v=PQzbtrxaYWQ
-	- https://media.hardwear.io/tlbleed-when-protecting-your-cpu-caches-is-not-enough/
+	- Store-to-Leak Forwarding: There and Back Again
+		- Black Hat Asia 2020
+		- https://www.blackhat.com/asia-20/briefings/schedule/#store-to-leak-forwarding-there-and-back-again-18610
 - Translation Leak-aside Buffer: Defeating Cache Side-channel Protections with TLB Attacks
-	- Gras, B.; Razavi, K.; Bos, H.; Giuffrida, C.
-	- USENIX Security 2018
+	- Ben Gras, Kaveh Razavi, Herbert Bos, Cristiano Giuffrida
 	- https://www.vusec.net/projects/tlbleed/
+	- USENIX Security 2018
+		- https://www.usenix.org/conference/usenixsecurity18/presentation/gras
+	- TLBleed: When Protecting Your CPU Caches Is Not Enough
+		- Black Hat 2018
+			- https://www.youtube.com/watch?v=ZBq7VMIkgPk
+			- https://www.blackhat.com/us-18/briefings/schedule/#tlbleed-when-protecting-your-cpu-caches-is-not-enough-10149
+		- Hardwear.io 2018
+			- https://www.youtube.com/watch?v=PQzbtrxaYWQ
+			- https://media.hardwear.io/tlbleed-when-protecting-your-cpu-caches-is-not-enough/
 
 ---
 
