@@ -31,12 +31,12 @@ See also: [Computer Architecture](comparch.md)
 - [Prefetch](#prefetch)
 - [Pseudo-Random Number Generator (PRNG)](#pseudo-random-number-generator-prng)
 - [Return Stack Buffer (RSB)](#return-stack-buffer-rsb)
-- [Trusted Execution Environments (TEEs)](#trusted-execution-environments-tees): [Arm TrustZone](#arm-trustzone), [Intel SGX](#intel-sgx)
 - [SMT](#smt)
 - [Speculation](#speculation)
 - [Store Buffer](#store-buffer)
 - [Thermal](#thermal)
 - [Translation Lookaside Buffer (TLB)](#translation-lookaside-buffer-tlb)
+- [Trusted Execution Environments (TEEs)](#trusted-execution-environments-tees): [Arm TrustZone](#arm-trustzone), [Intel SGX](#intel-sgx)
 - [TSX](#tsx)
 - [Talks](#talks)
 
@@ -1383,85 +1383,6 @@ See also: [Computer Architecture](comparch.md)
 
 ---
 
-# Trusted Execution Environments (TEEs)
-
-- A Tale of Two Worlds: Assessing the Vulnerability of Enclave Shielding Runtimes
-	- Computer and Communications Security (CCS) 2019
-	- Jo Van Bulck, David Oswald, Eduard Marin, Abdulla Aldoseri, Flavio D.Garcia, Frank Piessens
-	- https://people.cs.kuleuven.be/~jo.vanbulck/ccs19-tale.pdf
-	- https://github.com/jovanbulck/0xbadc0de
-
-## Arm TrustZone
-
-- Hardware-Backed Heist: Extracting ECDSA Keys from Qualcomm’s TrustZone
-	- NCC Group Whitepaper (2019); Keegan Ryan 
-	- https://www.nccgroup.trust/us/our-research/private-key-extraction-qualcomm-keystore/
-
-## Intel SGX
-
-- Cache Attacks on Intel SGX
-	- EuroSec 2017
-	- Johannes Götzfried, Moritz Eckert, Sebastian Schinzel, Tilo Müller
-	- https://www1.informatik.uni-erlangen.de/filepool/projects/sgx-timing/sgx-timing.pdf
-- CacheZoom: How SGX Amplifies The Power of Cache Attacks 
-	- Cryptographic Hardware and Embedded Systems (CHES) 2017
-	- Ahmad Moghimi, Gorka Irazoqui, Thomas Eisenbarth
-	- https://arxiv.org/abs/1703.06986
-- Exploitable Hardware Features and Vulnerabilities Enhanced Side-Channel Attacks on Intel SGX and Their Countermeasures
-	- 2019 PhD Dissertation; Chen, Guoxing
-	- http://rave.ohiolink.edu/etdc/view?acc_num=osu1554949268465917
-	- https://etd.ohiolink.edu/pg_10?0::NO:10:P10_ACCESSION_NUM:osu1554949268465917
-- Inferring Fine-grained Control Flow Inside SGX Enclaves with Branch Shadowing
-	- USENIX Security 2017
-	- https://arxiv.org/abs/1611.06952
-	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/lee-sangho
-	- Skylake's BTB parameters, use of Intel PT and LBR
-- Leaky Cauldron on the Dark Land: Understanding Memory Side-Channel Hazards in SGX
-	- CCS 2017
-	- Wenhao Wang, Guoxing Chen, Xiaorui Pan, Yinqian Zhang, XiaoFeng Wang, Vincent Bindschaedler, Haixu Tang, Carl A. Gunter
-	- http://web.cse.ohio-state.edu/~zhang.834/papers/ccs17b.pdf
-	- https://acmccs.github.io/papers/p2421-wangA.pdf
-- Malware Guard Extension: Using SGX to Conceal Cache Attacks
-	- DIMVA 2017
-	- Michael Schwarz, Samuel Weiser, Daniel Gruss, Clémentine Maurice, Stefan Mangard
-	- https://arxiv.org/abs/1702.08719
-- Off-Limits: Abusing Legacy x86 Memory Segmentation to Spy on Enclaved Execution
-	- Engineering Secure Software and Systems (ESSoS) 2018
-	- Gyselinck J., Van Bulck J., Piessens F., Strackx R.
-	- https://people.cs.kuleuven.be/~jo.vanbulck/essos18.pdf
-	- https://distrinet.cs.kuleuven.be/software/off-limits/
-- Racing in Hyperspace: Closing Hyper-Threading Side Channels on SGX with Contrived Data Races 
-	- IEEE S&P (Oakland) 2018
-	- Guoxing Chen, Wenhao Wang, Tianyu Chen, Sanchuan Chen, Yinqian Zhang, XiaoFeng Wang, Ten-Hwang Lai, Dongdai Lin
-	- https://web.cse.ohio-state.edu/~zhang.834/papers/sp18.pdf
-	- https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a388.pdf
-- SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control
-	- SysTEX 2017
-	- Jo Van Bulck, Frank Piessens, Raoul Strackx
-	- https://github.com/jovanbulck/sgx-step
-- SGXlinger: A New Side-Channel Attack Vector Based on Interrupt Latency Against Enclave Execution
-	- International Conference on Computer Design (ICCD) 2018
-	- Wenjian He, Wei Zhang, Sanjeev Das, Yang Liu
-	- https://github.com/HE-Wenjian/SGXlinger
-- SgxPectre Attacks: Leaking Enclave Secrets via Speculative Execution
-	- 2018 arXiv; 2019 IEEE European Symposium on Security and Privacy (EuroS&P)
-	- Guoxing Chen, Sanchuan Chen, Yuan Xiao, Yinqian Zhang, Zhiqiang Lin, Ten H. Lai
-	- https://arxiv.org/abs/1802.09085
-	- https://github.com/osusecLab/SgxPectre
-- Side Channels on Intel SGX - https://web.cse.ohio-state.edu/~zhang.834/projects/sgx-side-channels.html
-- TSX-based Defenses Against SGX Side-channel Attacks - https://gts3.org/2018/tsgx-defense.html
-- Tutorial: Uncovering and mitigating side-channel leakage in Intel SGX enclaves
-	- Security, Privacy, and Applied Cryptography Engineering (SPACE) 2018
-	- Jo Van Bulck, Frank Piessens
-	- https://github.com/jovanbulck/sgx-tutorial-space18
-	- https://people.cs.kuleuven.be/~jo.vanbulck/space18.pdf
-- Varys: Protecting SGX Enclaves from Practical Side-Channel Attacks
-	- USENIX ATC 2018
-	- Oleksii Oleksenko, Bohdan Trach, Robert Krahn, Mark Silberstein, Christof Fetzer
-	- https://www.usenix.org/conference/atc18/presentation/oleksenko
-
----
-
 # SMT
 
 - Cache missing for fun and profit
@@ -1495,7 +1416,8 @@ Classification tree - http://transient.fail/
 Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 
 - Code That Never Ran: Modeling Attacks on Speculative Evaluation
-	- 2018 preprint; Disselkoen, C., Jagadeesan, R., Jeffrey, A., Riely, J.
+	- IEEE Symposium on Security & Privacy 2019
+	- Disselkoen, C., Jagadeesan, R., Jeffrey, A., Riely, J.
 	- https://cseweb.ucsd.edu/~cdisselk/papers/code-that-never-ran.pdf
 	- https://github.com/chicago-relaxed-memory/spec-eval
 - Covert and Side Channels due to Processor Architecture
@@ -1572,10 +1494,24 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 		- IEEE Symposium on Security and Privacy (S&P) 2019
 		- Stephan van Schaik, Alyssa Milburn, Sebastian Österlund, Pietro Frigo, Giorgi Maisuradze, Kaveh Razavi, Herbert Bos, and Cristiano Giuffrida
 		- https://mdsattacks.com/files/ridl.pdf
+		- Addendum 1: TSX Asynchronous Abort (TAA)
+			- https://mdsattacks.com/#ridl-ng
+		- Addendum 2: L1D Eviction Sampling (L1DES), Vector Register Sampling (VRS)
+			- https://mdsattacks.com/#ridl-nng
+		- RIDL: Rogue In Flight Data Load
+			- HITB+ CyberWeek 2019; Stephan van Schaik, Sebastian Osterlund
+			- https://www.youtube.com/watch?v=vJfXu9Q_DmI
 	- ZombieLoad: Cross-Privilege-Boundary Data Sampling
-		- 2019 arXiv
+		- Computer and Communications Security (CCS) 2019
 		- Michael Schwarz, Moritz Lipp, Daniel Moghimi, Jo Van Bulck, Julian Stecklina, Thomas Prescher, Daniel Gruss
 		- https://arxiv.org/abs/1905.05726
+		- ZombieLoad Attack: Leaking Your Recent Memory Operations on Intel CPUs
+			- 36C3 (2019); Michael Schwarz, Moritz Lipp, Daniel Gruss 
+			- https://media.ccc.de/v/36c3-10754-zombieload_attack
+		- ZombieLoad: Leaking Data on Intel CPUs
+			- ToorCon 21 (2019); Daniel Moghimi
+			- https://www.youtube.com/watch?v=M0W92rEJziI
+			- https://talks.toorcon.net/toorcon21/talk/CVYNXS/
 	- Additional readings:
 		- https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling
 		- https://access.redhat.com/security/vulnerabilities/mds
@@ -1673,6 +1609,85 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 
 ---
 
+# Trusted Execution Environments (TEEs)
+
+- A Tale of Two Worlds: Assessing the Vulnerability of Enclave Shielding Runtimes
+	- Computer and Communications Security (CCS) 2019
+	- Jo Van Bulck, David Oswald, Eduard Marin, Abdulla Aldoseri, Flavio D.Garcia, Frank Piessens
+	- https://people.cs.kuleuven.be/~jo.vanbulck/ccs19-tale.pdf
+	- https://github.com/jovanbulck/0xbadc0de
+
+## Arm TrustZone
+
+- Hardware-Backed Heist: Extracting ECDSA Keys from Qualcomm’s TrustZone
+	- NCC Group Whitepaper (2019); Keegan Ryan 
+	- https://www.nccgroup.trust/us/our-research/private-key-extraction-qualcomm-keystore/
+
+## Intel SGX
+
+- Cache Attacks on Intel SGX
+	- EuroSec 2017
+	- Johannes Götzfried, Moritz Eckert, Sebastian Schinzel, Tilo Müller
+	- https://www1.informatik.uni-erlangen.de/filepool/projects/sgx-timing/sgx-timing.pdf
+- CacheZoom: How SGX Amplifies The Power of Cache Attacks 
+	- Cryptographic Hardware and Embedded Systems (CHES) 2017
+	- Ahmad Moghimi, Gorka Irazoqui, Thomas Eisenbarth
+	- https://arxiv.org/abs/1703.06986
+- Exploitable Hardware Features and Vulnerabilities Enhanced Side-Channel Attacks on Intel SGX and Their Countermeasures
+	- 2019 PhD Dissertation; Chen, Guoxing
+	- http://rave.ohiolink.edu/etdc/view?acc_num=osu1554949268465917
+	- https://etd.ohiolink.edu/pg_10?0::NO:10:P10_ACCESSION_NUM:osu1554949268465917
+- Inferring Fine-grained Control Flow Inside SGX Enclaves with Branch Shadowing
+	- USENIX Security 2017
+	- https://arxiv.org/abs/1611.06952
+	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/lee-sangho
+	- Skylake's BTB parameters, use of Intel PT and LBR
+- Leaky Cauldron on the Dark Land: Understanding Memory Side-Channel Hazards in SGX
+	- CCS 2017
+	- Wenhao Wang, Guoxing Chen, Xiaorui Pan, Yinqian Zhang, XiaoFeng Wang, Vincent Bindschaedler, Haixu Tang, Carl A. Gunter
+	- http://web.cse.ohio-state.edu/~zhang.834/papers/ccs17b.pdf
+	- https://acmccs.github.io/papers/p2421-wangA.pdf
+- Malware Guard Extension: Using SGX to Conceal Cache Attacks
+	- DIMVA 2017
+	- Michael Schwarz, Samuel Weiser, Daniel Gruss, Clémentine Maurice, Stefan Mangard
+	- https://arxiv.org/abs/1702.08719
+- Off-Limits: Abusing Legacy x86 Memory Segmentation to Spy on Enclaved Execution
+	- Engineering Secure Software and Systems (ESSoS) 2018
+	- Gyselinck J., Van Bulck J., Piessens F., Strackx R.
+	- https://people.cs.kuleuven.be/~jo.vanbulck/essos18.pdf
+	- https://distrinet.cs.kuleuven.be/software/off-limits/
+- Racing in Hyperspace: Closing Hyper-Threading Side Channels on SGX with Contrived Data Races 
+	- IEEE S&P (Oakland) 2018
+	- Guoxing Chen, Wenhao Wang, Tianyu Chen, Sanchuan Chen, Yinqian Zhang, XiaoFeng Wang, Ten-Hwang Lai, Dongdai Lin
+	- https://web.cse.ohio-state.edu/~zhang.834/papers/sp18.pdf
+	- https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a388.pdf
+- SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control
+	- SysTEX 2017
+	- Jo Van Bulck, Frank Piessens, Raoul Strackx
+	- https://github.com/jovanbulck/sgx-step
+- SGXlinger: A New Side-Channel Attack Vector Based on Interrupt Latency Against Enclave Execution
+	- International Conference on Computer Design (ICCD) 2018
+	- Wenjian He, Wei Zhang, Sanjeev Das, Yang Liu
+	- https://github.com/HE-Wenjian/SGXlinger
+- SgxPectre Attacks: Leaking Enclave Secrets via Speculative Execution
+	- 2018 arXiv; 2019 IEEE European Symposium on Security and Privacy (EuroS&P)
+	- Guoxing Chen, Sanchuan Chen, Yuan Xiao, Yinqian Zhang, Zhiqiang Lin, Ten H. Lai
+	- https://arxiv.org/abs/1802.09085
+	- https://github.com/osusecLab/SgxPectre
+- Side Channels on Intel SGX - https://web.cse.ohio-state.edu/~zhang.834/projects/sgx-side-channels.html
+- TSX-based Defenses Against SGX Side-channel Attacks - https://gts3.org/2018/tsgx-defense.html
+- Tutorial: Uncovering and mitigating side-channel leakage in Intel SGX enclaves
+	- Security, Privacy, and Applied Cryptography Engineering (SPACE) 2018
+	- Jo Van Bulck, Frank Piessens
+	- https://github.com/jovanbulck/sgx-tutorial-space18
+	- https://people.cs.kuleuven.be/~jo.vanbulck/space18.pdf
+- Varys: Protecting SGX Enclaves from Practical Side-Channel Attacks
+	- USENIX ATC 2018
+	- Oleksii Oleksenko, Bohdan Trach, Robert Krahn, Mark Silberstein, Christof Fetzer
+	- https://www.usenix.org/conference/atc18/presentation/oleksenko
+
+---
+
 # TSX
 
 - Breaking Kernel Address Space Layout Randomization with Intel TSX
@@ -1694,6 +1709,15 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 ---
 
 # Talks
+
+## 2020
+
+- Improving protections against speculative execution side channel
+	- FOSDEM 2020; David Stewart
+	- https://fosdem.org/2020/schedule/event/speculative_execution/
+- Cryptographic Software in a Post-Spectre World
+	- Real World Crypto 2020; Chandler Carruth
+	- https://chandlerc.blog/talks/2020_post_spectre_crypto/post_spectre_crypto.html
 
 ## 2019
 
@@ -1727,6 +1751,10 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 - Spectre/C++: Preventing Spectre One Branch at a Time: The Design and Implementation of Fine Grained Spectre v1 Mitigation APIs
 	- CppCon 2019; Zola Bridges, Devin Jeanpierre
 	- https://www.youtube.com/watch?v=ehNkhmEg0bw
+- Speculation & leakage: Timing side channels & multi-tenant computing
+	- AWS re:Invent 2019; Eric Brandwine
+	- https://www.youtube.com/watch?v=kQ4H6XO-iao
+	- https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=99692
 - What Spectre Means for Language Implementers
 	- Programming Language Implementation Summer School (PLISS) 2019
 	- Ben Titzer
@@ -1736,6 +1764,10 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 	- Black Hat Asia 2019
 	- Yueqiang Cheng, Zhi Zhang, Surya Nepal, Zhi Wang
 	- https://www.blackhat.com/asia-19/briefings/schedule/#winter-is-coming-back-defeating-the-most-advanced-rowhammer-defenses-to-gain-root-and-kernel-privileges-13524
+- Writing PoCs for processor software side-channels
+	- ToorCon 21 (2019); Volodymyr Pikhur
+	- https://www.youtube.com/watch?v=pdgCGyrRpAw
+	- https://talks.toorcon.net/toorcon21/talk/KE9SYU/
 
 ## 2018
 
