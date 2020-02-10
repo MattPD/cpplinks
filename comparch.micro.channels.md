@@ -606,13 +606,21 @@ See also: [Computer Architecture](comparch.md)
 - Exploiting branch target prediction
 	- INFILTRATE 2018; Jann Horn
 	- https://vimeo.com/270442911
-- Jump Over ASLR: Attacking Branch Predictors to Bypass ASLR - http://www.cs.binghamton.edu/~dima/micro16.pdf
+- Exploring Branch Predictors for Constructing Transient Execution Trojans
+	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2020
+	- Tao Zhang, Kenneth Koltermann, Dmitry Evtyushkin
+	- http://www.cs.wm.edu/~dmitry/publications/
+- Jump Over ASLR: Attacking Branch Predictors to Bypass ASLR
+	- MICRO 2016
+	- Dmitry Evtyushkin, Dmitry Ponomarev, Nael Abu-Ghazaleh 
+	- http://www.cs.binghamton.edu/~dima/micro16.pdf
+	- PoC for breaking hypervisor ASLR using branch target buffer collisions
+		- https://github.com/felixwilhelm/mario_baslr/
 - On the Power of Simple Branch Prediction Analysis
 	- ASIACCS 2007
 	- Onur Aciiçmez, Çetin Kaya Koç, Jean-Pierre Seifert
 	- https://eprint.iacr.org/2006/351.pdf
 	- https://koclab.cs.ucsb.edu/docs/koc/c40.pdf
-- PoC for breaking hypervisor ASLR using branch target buffer collisions - https://github.com/felixwilhelm/mario_baslr/
 - Predicting Secret Keys via Branch Prediction
 	- CT-RSA 2007
 	- Onur Acıiçmez, Çetin Kaya Koç, Jean-Pierre Seifert
@@ -620,7 +628,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://koclab.cs.ucsb.edu/docs/koc/c39.pdf
 	- MSR talk: https://www.youtube.com/watch?v=rWFj4N6MaQw
 - Understanding and Mitigating Covert Channels Through Branch Predictors
-	- TACO 13(1): 10 (2016)
+	- ACM TACO 13(1): 10 (2016)
 	- Dmitry Evtyushkin, Dmitry Ponomarev, Nael B. Abu-Ghazaleh
 	- http://www.cs.ucr.edu/~nael/pubs/taco16_branches.pdf
 	- https://dl.acm.org/citation.cfm?id=2870636
