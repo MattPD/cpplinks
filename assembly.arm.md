@@ -19,11 +19,12 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ [Intrinsics & SIMD](#intrinsics--simd)
 	+ [Toolchains](#toolchains)
 * [Software](#software):
-	+ [Binary Analysis](#binary-analysis)
-	+ [Debugging, Tracing](#debugging-tracing)
-	+ [Emulation, Simulation](#emulation-simulation)
-	+ [Lifting: Disassemblers, Decompilers, Recompilers](#lifting-disassemblers-decompilers-recompilers)
-	+ [Performance](#performance-1)
+	+ [Binary Analysis](#software-binary-analysis)
+	+ [Debugging, Tracing](#software-debugging-tracing)
+	+ [Emulation, Simulation](#software-emulation-simulation)
+	+ [Lifting: Disassemblers, Decompilers, Recompilers](#software-lifting)
+	+ [Performance](#software-performance)
+	+ [Virtualization](#software-virtualization)
 * [Talks](#talks):
 	+ [2019](#2019)
 	+ [2018](#2018)
@@ -333,7 +334,6 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://compass.cs.wayne.edu/nailgun/
 	+ http://webpages.eng.wayne.edu/~fy8421/paper/nailgun-sp19.pdf
 
-
 ### Pointer Authentication
 
 - Pointer Authentication on ARMv8.3: Design and Analysis of the New Software Security Instructions
@@ -589,7 +589,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 * VIXL: AArch64 Runtime Code Generation Library
 	+ https://github.com/armvixl/vixl
 
-## Binary Analysis
+## Software: Binary Analysis
 
 * Exploiting SIMD Asymmetry in ARM-to-x86 Dynamic Binary Translation
 	+ ACM Transactions on Architecture and Code Optimization (TACO) 2019
@@ -621,7 +621,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ https://github.com/ARMmbed/mbed-os-linker-report
 	+ https://os.mbed.com/blog/entry/visualizing-linker-stats/
 
-## Debugging, Tracing
+## Software: Debugging, Tracing
 
 * Coresight Access Library
 	+ https://github.com/ARM-software/CSAL
@@ -637,7 +637,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ A source level debugger for C programs running on ARM Cortex-M parts. Utilizes the *blackmagic* probe and the *Qt* framework
 	+ https://github.com/stoyan-shopov/troll
 
-## Emulation, Simulation
+## Software: Emulation, Simulation
 
 * Arm Instruction Emulator (ArmIE) - https://developer.arm.com/products/software-development-tools/hpc/arm-instruction-emulator
 * ARM instruction evaluator - http://svr-acjf3-armie.cl.cam.ac.uk/
@@ -674,7 +674,9 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 * thumbulator: Thumb (16 bit ARM) instruction set simulator - https://github.com/dwelch67/thumbulator
 * VisUAL - A highly visual ARM emulator - http://salmanarif.bitbucket.org/visual/
 
-## Lifting: Disassemblers, Decompilers, Recompilers
+## Software: Lifting
+
+Disassemblers, Decompilers, Recompilers
 
 * Dynarmic: A dynamic recompiler for the ARMv6K architecture
 	+ https://github.com/merrymage/dynarmic
@@ -691,7 +693,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	+ "Speculative disassembly of binary code" - CASES'16 - https://dl.acm.org/citation.cfm?doid=2968455.2968505
 	+ https://github.com/abenkhadra/spedi
 
-## Performance
+## Software: Performance
 
 * ARM Code Advisor - https://developer.arm.com/products/software-development-tools/hpc/arm-code-advisor
 * ARM Math Library Functions
@@ -725,6 +727,16 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 * Using Perf and its friend eBPF on Arm platform
 	- Linaro Connect San Diego 2019; Leo Yan
 	- https://connect.linaro.org/resources/san19/san19-223/
+
+## Software: Virtualization
+
+- NOVA Microhypervisor
+	- http://hypervisor.org/
+	- https://github.com/udosteinberg/NOVA
+	- NOVA Microhypervisor on ARMv8-A
+		- FOSDEM 2020; Udo Steinberg
+		- https://fosdem.org/2020/schedule/event/uk_nova/
+
 
 ---
 
