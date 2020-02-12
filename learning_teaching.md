@@ -9,7 +9,11 @@ Note: see also [Communities](communities.md) -- where you can learn together.
 	- https://github.com/sftrabbit/CppPatterns-Patterns
 	- https://cpppatterns.com/
 - C++ Tips of the Week: https://abseil.io/tips/
-- Collaborative Collection of C++ Best Practices - https://github.com/lefticus/cppbestpractices
+- Awesome Modern C++ - A collection of resources on modern C++.
+	- https://awesomecpp.com/
+	- https://github.com/rigtorp/awesome-modern-cpp
+- Collaborative Collection of C++ Best Practices
+	- https://github.com/lefticus/cppbestpractices
 - Get Started! - https://isocpp.org/get-started
 - Herb Sutter's Guru of the Week (GotW) series: https://herbsutter.com/gotw/
 - Learning C++ - Simon Brand - https://blog.tartanllama.xyz/learning-cpp/
@@ -37,8 +41,9 @@ Note: see also [Communities](communities.md) -- where you can learn together.
 
 ### Learning & Teaching
 
-- A Conversation about Teaching Software Engineering - John Regehr - https://blog.regehr.org/archives/1569
-- Beginning with C++ - Jens Weller - https://www.youtube.com/watch?v=9WHRfU7U9lk
+- Beginning with C++
+	- 2017; Jens Weller
+	- https://www.youtube.com/watch?v=9WHRfU7U9lk
 - C++: A General Purpose Language and Library - Kate Gregory and James McNellis
 	- a free introductory C++ course on Microsoft Virtual Academy
 	- https://channel9.msdn.com/Series/cplusplus-language-library
@@ -62,6 +67,9 @@ Note: see also [Communities](communities.md) -- where you can learn together.
 - Learning (and teaching) modern C++ - Challenges and Resources
 	- C++ on Sea 2019; Arne Mertz
 	- https://www.youtube.com/watch?v=yzb57K6b5SY
+- Quantifying Accidental Complexity: An Empirical Look at Teaching and Using C++
+	- Avast C++ Meetup; February 11, 2020; Herb Sutter
+	- https://www.youtube.com/watch?v=qx22oxlQmKc
 - SG20 Education and Recommended Videos for Teaching C++
 	- https://www.cjdb.com.au/sg20-and-videos
 - Stop Teaching C (When Teaching C++) - Kate Gregory
@@ -105,6 +113,8 @@ Note: Some of the following are primarily for entertainment purposes; while prov
 
 Articles and papers (focused on teaching, but also of interest for learning by self-studying)
 
+- A Conversation about Teaching Software Engineering - John Regehr
+	- https://blog.regehr.org/archives/1569
 - How to Teach “Modern C++” to Someone who Already Knows Programming?
 	- Australasian Computing Education Conference (ACE) 2018
 	- Adalbert Gerald Soosai Raj, Varun Naik, Jignesh M. Patel, Richard Halverson
