@@ -398,6 +398,8 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	- IEEE Symposium on Security and Privacy (S&P) 2020
 	- David Cerdeira, Nuno Santos, Pedro Fonseca, Sandro Pinto
 	- https://www.cs.purdue.edu/homes/pfonseca/papers/sp2020-tees.pdf
+- Understanding Trusted Execution Environments and Arm TrustZone
+	- https://azeria-labs.com/trusted-execution-environments-tee-and-trustzone/
 - Verification of a Practical Hardware Security Architecture Through Static Information Flow Analysis (ARM TrustZone)
 	- ASPLOS 2017
 	- Andrew Ferraiuolo, Rui Xu, Danfeng Zhang, Andrew C. Myers, G. Edward Suh
