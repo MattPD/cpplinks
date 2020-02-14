@@ -635,18 +635,27 @@ Contents:
 
 ### ELF: Talks (2019)
 
-- Objtool: A Hidden Gem of Executable Parsing
-	- DevConf.US 2019; Matt Helsley
-	- https://www.youtube.com/watch?v=I7srCw-Ns7Y
+- ELF Crafting: Uncovering Advanced Anti-analysis techniques for the Linux Platform
+	- r2con2019; Nacho Sanmillan (ulexec)
+	- https://www.youtube.com/watch?v=adYOSO0tn9M
+	- https://github.com/radareorg/r2con2019/tree/master/talks/elf_crafting
 - Executable Code Golf: Making Tiny Binaries for Constrained Systems
 	- linux.conf.au 2019; Nathan Egge
 	- https://www.youtube.com/watch?v=J5WX-wN_RKY
 	- https://2019.linux.conf.au/schedule/presentation/160/
 	- XLINK compressing linker
 		- https://github.com/negge/xlink
+- Objtool: A Hidden Gem of Executable Parsing
+	- DevConf.US 2019; Matt Helsley
+	- https://www.youtube.com/watch?v=I7srCw-Ns7Y
 
 ### ELF: Talks (2018)
 
+- C++ in Elvenland
+	- CppCon 2018; Serge Guelton
+	- https://www.youtube.com/watch?v=CVg7CYVV3KI
+	- http://serge-sans-paille.github.io/talks/cppcon2018/elvenland/elf/
+	- https://github.com/serge-sans-paille/talks/blob/master/cppcon2018/elvenland/elf.rst
 - The Bits Between the Bits: How We Get to main()
 	- CppCon 2018; Matt Godbolt
 	- https://www.youtube.com/watch?v=dOfucXtyEsU
@@ -668,7 +677,7 @@ Contents:
 
 ### ELF: Talks (2016)
 
-* Debugging debuggers!! (Symbolic Debugging with DWARF)
+- Debugging debuggers!! (Symbolic Debugging with DWARF)
 	- !!Con 2016; Samy Al Bahra
 	- https://backtrace.io/blog/symbolic-debugging-with-dwarf/
 	- https://www.youtube.com/watch?v=OEa0EfJja_Y
