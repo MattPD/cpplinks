@@ -312,6 +312,12 @@ Contents:
 * 2017 - Debugging Debug Information - Francesco Zappa Nardelli - [Workshop on Software Correctness and Reliability 2017](http://www.srl.inf.ethz.ch/workshop2017.php)
 	+ https://www.youtube.com/watch?v=lBJIrGgEP1A
 	+ Tales from Binary Formats ([ENTROPY 2018](https://entropy2018.sciencesconf.org/resource/page/id/1) slides) - https://entropy2018.sciencesconf.org/data/nardelli.pdf
+* 2016 - Debugging debuggers!! (Symbolic Debugging with DWARF)
+	- !!Con 2016; Samy Al Bahra
+	- https://www.youtube.com/watch?v=OEa0EfJja_Y
+	- https://backtrace.io/blog/backtrace/symbolic-debugging-with-dwarf/
+	- https://backtrace.io/wp-content/uploads/2017/06/slides.pdf
+	- https://www.slideshare.net/sbahra/symbolic-debugging-with-dwarf
 * 2016 - Cheap generation of debugging information - http://pauillac.inria.fr/~xleroy/talks/Compilation-2016.pdf
 * 2016 - Fixing LTO Debug Information - GNU Tools Cauldron 2016 - https://gcc.gnu.org/wiki/cauldron2016?action=AttachFile&do=view&target=Cauldron2016-LTOEarlyDebug.pdf - https://www.youtube.com/watch?v=xtm7DxDG5js
 * 2015 - What is new in DWARF5 - Hafiz Abid Qadeer, GNU Tools Cauldron 2015
@@ -677,10 +683,6 @@ Contents:
 
 ### ELF: Talks (2016)
 
-- Debugging debuggers!! (Symbolic Debugging with DWARF)
-	- !!Con 2016; Samy Al Bahra
-	- https://backtrace.io/blog/symbolic-debugging-with-dwarf/
-	- https://www.youtube.com/watch?v=OEa0EfJja_Y
 - Intra-Process Memory Protection for Applications on ARM and X86: Leveraging the ELF ABI
 	- BlackHat USA 2016; Sergey Bratus & Maxwell Koo & Julian Bangert
 	- https://www.youtube.com/watch?v=YXh2aIc9u64
