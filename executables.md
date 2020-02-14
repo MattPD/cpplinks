@@ -8,13 +8,13 @@ See also: [compilers](compilers.md)
 
 Contents:
 
-* [General](#general): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks)
-* [DLL](#dll): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-1) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-1) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-1)
-* [DWARF](#dwarf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-2) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-2) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-2)
-* [ELF](#elf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-3) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-3) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-3)
-* [Mach-O](#mach-o): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-4) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-4) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-4)
-* [PDB](#pdb-program-database): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-5) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-5) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-5)
-* [PE](#pe): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-6) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-6) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-6)
+* [General](#general): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-talks)
+* [DLL](#dll): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-1) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-1) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll-talks)
+* [DWARF](#dwarf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-2) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-2) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-talks)
+* [ELF](#elf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-3) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-3) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf-talks)
+* [Mach-O](#mach-o): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-4) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-4) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#mach-o-talks)
+* [PDB](#pdb): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-5) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-5) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-talks)
+* [PE](#pe): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-6) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-6) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#pe-talks)
 
 ---
 
@@ -118,7 +118,7 @@ Contents:
 	+ wldd: print shared libraries compilation flags
 	+ wcch: generate C headers from binaries
 
-## Talks
+## General: Talks
 
 * Reverse Engineering Binaries
 	+ DevConf.CZ 2019; Divya Basant Kumar
@@ -194,7 +194,7 @@ Contents:
 	+ https://github.com/zerosum0x0/ThreadContinue
 	+ https://zerosum0x0.blogspot.com/2017/07/threadcontinue-reflective-injection.html
 
-## Talks
+## DLL: Talks
 
 * 2017 - Everything You Ever Wanted to Know about DLLs
 	+ CppCon; James McNellis
@@ -295,7 +295,7 @@ Contents:
 	+ How to avoid wasting megabytes of memory a few bytes at a time - https://developers.redhat.com/blog/2016/06/01/how-to-avoid-wasting-megabytes-of-memory-a-few-bytes-at-a-time/
 * structhole: Look for holes in structs by examining DWARF debugging output - https://github.com/cemeyer/structhole
 
-## Talks
+## DWARF: Talks
 
 * 2018 - DWARF v5 Highlights - Why You Care
 	+ 2018 LLVM Developers’ Meeting; Paul Robinson
@@ -631,63 +631,105 @@ Contents:
 		- https://www.ekoparty.org/archivo/2007/eko3-Julio%20Auto%20-%20Next-Generation%20Debuggers%20For%20Reverse%20Engineering.pdf
 * Vtable-Dumper - a tool to list content of virtual tables in a C++ shared library - https://github.com/lvc/vtable-dumper
 
-## Talks
+## ELF: Talks
 
-* 2019 - Objtool: A Hidden Gem of Executable Parsing
-	+ DevConf.US 2019; Matt Helsley
-	+ https://www.youtube.com/watch?v=I7srCw-Ns7Y
-* 2019 - Executable Code Golf: Making Tiny Binaries for Constrained Systems
-	+ linux.conf.au 2019; Nathan Egge
-	+ https://www.youtube.com/watch?v=J5WX-wN_RKY
-	+ https://2019.linux.conf.au/schedule/presentation/160/
-	+ XLINK compressing linker
+### ELF: Talks (2019)
+
+- Objtool: A Hidden Gem of Executable Parsing
+	- DevConf.US 2019; Matt Helsley
+	- https://www.youtube.com/watch?v=I7srCw-Ns7Y
+- Executable Code Golf: Making Tiny Binaries for Constrained Systems
+	- linux.conf.au 2019; Nathan Egge
+	- https://www.youtube.com/watch?v=J5WX-wN_RKY
+	- https://2019.linux.conf.au/schedule/presentation/160/
+	- XLINK compressing linker
 		- https://github.com/negge/xlink
-* 2018 - The Bits Between the Bits: How We Get to main()
-	+ CppCon 2018; Matt Godbolt
-	+ https://www.youtube.com/watch?v=dOfucXtyEsU
-	+ Slides: https://mattgodbolt.github.io/cppcon-bits-between-bits/
-* 2017 - ELF linking: what it means and why it matters - Stephen Kell (2017) - https://www.cl.cam.ac.uk/~srk31/research/talks/kell17elf-slides.pdf
-* 2017 - FOSDEM 2017 - Everything You Always Wanted to Know About "Hello, World"* (*But Were Afraid To Ask)
-	+ https://archive.fosdem.org/2017/schedule/event/hello_world/
-	+ https://people.freebsd.org/~brooks/talks/fosdem2017-helloworld/?C=M&O=D
-* 2017 - FOSDEM 2017 - LLD from a user's perspective
-	+ https://archive.fosdem.org/2017/schedule/event/lld/
-	+ https://archive.fosdem.org/2017/schedule/event/lld/attachments/slides/1446/export/events/attachments/lld/slides/1446/FosdemLLD2017.pdf
-* 2016 - !!Con 2016: Debugging debuggers!! (Symbolic Debugging with DWARF) - Samy Al Bahra
-	+ https://backtrace.io/blog/symbolic-debugging-with-dwarf/
-	+ https://www.youtube.com/watch?v=OEa0EfJja_Y
-* 2016 - BlackHat USA 2016: Intra-Process Memory Protection for Applications on ARM and X86: Leveraging the ELF ABI
-	+ https://www.youtube.com/watch?v=YXh2aIc9u64
-	+ Slides: http://www.cs.dartmouth.edu/~sergey/io/elfbac/bh16-elfbac-slides.pdf
-	+ Whitepaper: http://www.cs.dartmouth.edu/~sergey/io/elfbac/bh16-elfbac-whitepaper.pdf
-* 2016 EuroLLVM Developers' Meeting: R. Ueyama "New LLD linker for ELF"
-	+ https://www.youtube.com/watch?v=CYCRqjVa6l4
-* 2015 - DEF CON 23 - Di Federico and Shoshitaishvili - Dark Side of the ELF
-	+ https://www.youtube.com/watch?v=aGoDYa7Kbec
-* 2015 - How the ELF Ruined Christmas - USENIX Security Symposium 2015
+
+### ELF: Talks (2018)
+
+- The Bits Between the Bits: How We Get to main()
+	- CppCon 2018; Matt Godbolt
+	- https://www.youtube.com/watch?v=dOfucXtyEsU
+	- Slides: https://mattgodbolt.github.io/cppcon-bits-between-bits/
+
+### ELF: Talks (2017)
+
+- ELF linking: what it means and why it matters
+	- 2017; Stephen Kell
+	- https://www.cl.cam.ac.uk/~srk31/research/talks/kell17elf-slides.pdf
+- Everything You Always Wanted to Know About "Hello, World"* (*But Were Afraid To Ask)
+	- FOSDEM 2017; Brooks Davis
+	- https://archive.fosdem.org/2017/schedule/event/hello_world/
+	- https://people.freebsd.org/~brooks/talks/fosdem2017-helloworld/?C=M&O=D
+- LLD from a user's perspective
+	- FOSDEM 2017; Peter Smith
+	- https://archive.fosdem.org/2017/schedule/event/lld/
+	- https://archive.fosdem.org/2017/schedule/event/lld/attachments/slides/1446/export/events/attachments/lld/slides/1446/FosdemLLD2017.pdf
+
+### ELF: Talks (2016)
+
+* Debugging debuggers!! (Symbolic Debugging with DWARF)
+	- !!Con 2016; Samy Al Bahra
+	- https://backtrace.io/blog/symbolic-debugging-with-dwarf/
+	- https://www.youtube.com/watch?v=OEa0EfJja_Y
+- Intra-Process Memory Protection for Applications on ARM and X86: Leveraging the ELF ABI
+	- BlackHat USA 2016; Sergey Bratus & Maxwell Koo & Julian Bangert
+	- https://www.youtube.com/watch?v=YXh2aIc9u64
+	- Slides: http://www.cs.dartmouth.edu/~sergey/io/elfbac/bh16-elfbac-slides.pdf
+	- Whitepaper: http://www.cs.dartmouth.edu/~sergey/io/elfbac/bh16-elfbac-whitepaper.pdf
+- New LLD linker for ELF
+	- 2016 EuroLLVM Developers' Meeting; Rui Ueyama
+	- https://www.youtube.com/watch?v=CYCRqjVa6l4
+	- https://llvm.org/devmtg/2016-03/Presentations/EuroLLVM%202016-%20New%20LLD%20linker%20for%20ELF.pdf
+
+### ELF: Talks (2015)
+
+- Dark Side of the ELF
+	- DEF CON 23 (2015); Alessandro Di Federico, Yan Shoshitaishvili
+	- https://www.youtube.com/watch?v=aGoDYa7Kbec
+- How the ELF Ruined Christmas
+	- USENIX Security Symposium 2015
+	- Alessandro Di Federico, Amat Cama, Yan Shoshitaishvili, Christopher Kruegel, Giovanni Vigna
 	- https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/di-frederico
 	- https://sites.cs.ucsb.edu/~chris/research/doc/usenix15_elf.pdf
 	- leakless: Function redirection via ELF tricks
 		- https://github.com/ucsb-seclab/leakless
-* 2014 - ABIs, linkers and other animals - Stephen Kell (2014)
+
+### ELF: Talks (2014)
+
+- ABIs, linkers and other animals
+	- 2014; Stephen Kell
 	- https://www.cl.cam.ac.uk/~srk31/research/talks/kell14abis-slides.pdf
-* 2013 - Julian Bangert, Sergey Bratus - ELF Eccentricities
-	+ https://www.youtube.com/watch?v=4LU6N6THh2U
-* 2013 - Rebecca Bx Shapiro, Julian Bangert, Sergey Bratus - Any Input Is a Program Weird Machines in ABI
-	+ https://www.youtube.com/watch?v=crt5gxOoUuM
-* 2013 - "Weird Machines" in ELF: A Spotlight on the Underappreciated Metadata
-	+ USENIX  Workshop on Offensive Technologies (WOOT '13)
-	+ https://www.usenix.org/conference/woot13/workshop-program/presentation/shapiro
-	+ http://www.cs.dartmouth.edu/~sergey/wm/woot13-shapiro.pdf
-	+ https://www.youtube.com/watch?v=6xbirzvr-mQ
-* 2012 - DEF CON 20: Rebecca "bx" Shapiro and Sergey Bratus - Programming Weird Machines with ELF Metadata
-	+ https://www.youtube.com/watch?v=V5KsUm1KfZE
-	+ https://www.youtube.com/watch?v=YgtxxLCVD-o
-	+ http://cs.dartmouth.edu/~bx/elf-bf-tools/slides/elf-defcon20.pdf
-* 2012 - 29C3 - The Care and Feeding of Weird Machines Found in Executable Metadata - Rebecca “bx” Shapiro, Sergey Bratus
-	+ https://media.ccc.de/v/29c3-5195-en-executable_metadata_h264
-	+ https://www.youtube.com/watch?v=57UtbZGEEQA
-	+ http://www.cs.dartmouth.edu/~bx/elf-bf-tools/slides/ELF-29c3.pdf
+
+### ELF: Talks (2013)
+
+- ELF Eccentricities
+	- CONFidence 2013; Julian Bangert, Sergey Bratus
+	- https://www.youtube.com/watch?v=4LU6N6THh2U
+	- https://infocon.org/cons/CONFidence/CONFidence%202013/presentations/julian_bangert_sergey_bratus.pdf
+- Any Input Is a Program Weird Machines in ABI
+	- CONFidence 2013; Rebecca Bx Shapiro, Julian Bangert, Sergey Bratus 
+	- https://www.youtube.com/watch?v=crt5gxOoUuM
+	- https://infocon.org/cons/CONFidence/CONFidence%202013/presentations/julian_bangert_rebecca_shapiro_sergey_bratus.pdf
+- "Weird Machines" in ELF: A Spotlight on the Underappreciated Metadata
+	- USENIX  Workshop on Offensive Technologies (WOOT) 2013
+	- Rebecca Shapiro, Sergey Bratus, Sean W. Smith
+	- https://www.usenix.org/conference/woot13/workshop-program/presentation/shapiro
+	- http://www.cs.dartmouth.edu/~sergey/wm/woot13-shapiro.pdf
+	- https://www.youtube.com/watch?v=6xbirzvr-mQ
+
+### ELF: Talks (2012)
+
+- Programming Weird Machines with ELF Metadata
+	- DEF CON 20 (2012); Rebecca "bx" Shapiro, Sergey Bratus 
+	- https://www.youtube.com/watch?v=V5KsUm1KfZE
+	- https://www.youtube.com/watch?v=YgtxxLCVD-o
+	- http://cs.dartmouth.edu/~bx/elf-bf-tools/slides/elf-defcon20.pdf
+- The Care and Feeding of Weird Machines Found in Executable Metadata
+	- 29C3 (2012); Rebecca “bx” Shapiro, Sergey Bratus
+	- https://media.ccc.de/v/29c3-5195-en-executable_metadata_h264
+	- https://www.youtube.com/watch?v=57UtbZGEEQA
+	- http://www.cs.dartmouth.edu/~bx/elf-bf-tools/slides/ELF-29c3.pdf
 
 ---
 
@@ -745,7 +787,7 @@ Contents:
 * MachOView fork: https://github.com/gdbinit/MachOView
 * Maloader: userland Mach-O loader for Linux - https://github.com/shinh/maloader
 
-## Talks
+## Mach-O: Talks
 
 * 2018 - Mach-O Tricks
 	+ BaiJiuCon at Mobile Security Conference (MOSEC) 2018
@@ -763,7 +805,9 @@ Contents:
 
 ---
 
-# PDB (Program Database)
+# PDB
+
+(Program Database)
 
 ## Readings
 
@@ -813,7 +857,7 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ https://github.com/WalkingCat/SymDiff
 * Syzygy Transformation Toolchain - PDB Module - https://github.com/google/syzygy/tree/master/syzygy/pdb
 
-## Talks
+## PDB: Talks
 
 * 2016 LLVM Developers’ Meeting: R. Kleckner "CodeView, the MS Debug Info Format in LLVM"
 	+ https://www.youtube.com/watch?v=5twzd06NqGU
@@ -940,7 +984,7 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 - In-Memory PE Loader: A very simple PE loader for loading DLLs into memory without using LoadLibray
 	- https://github.com/nettitude/SimplePELoader
 
-## Talks
+## PE: Talks
 
 * 2018 - Reflective PE Unloading
 	+ BSides Cleveland 2018; Spencer McIntyre
