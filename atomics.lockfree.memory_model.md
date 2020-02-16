@@ -31,7 +31,7 @@
 - Fabian “ryg” Giesen
 	- Cache coherency primer - https://fgiesen.wordpress.com/2014/07/07/cache-coherency/
 - Fast Bounded-Concurrency Hash Tables
-	- http://backtrace.io/blog/blog/2015/03/13/workload-specialization/
+	- https://backtrace.io/blog/backtrace/workload-specialization/
 - Jeff Preshing
 	- http://preshing.com/20111118/locks-arent-slow-lock-contention-is/
 	- http://preshing.com/20120515/memory-reordering-caught-in-the-act/
@@ -76,6 +76,7 @@
 	- http://moodycamel.com/blog/2014/solving-the-aba-problem-for-lock-free-free-lists
 - PSA: you should use WTF::Lock and WTF::Condition instead of WTF::SpinLock, WTF::Mutex, WTF::ThreadCondition, std::mutex, std::condition_variable, or std::condition_variable_any
 	- http://permalink.gmane.org/gmane.os.opendarwin.webkit.devel/27578
+	- https://lists.webkit.org/pipermail/webkit-dev/2015-August/027615.html
 - Raymond Chen
 	- What’s up with compare_exchange_weak anyway? - https://blogs.msdn.microsoft.com/oldnewthing/20180329-00/?p=98375
 	- How do I choose between the strong and weak versions of compare-exchange? - https://blogs.msdn.microsoft.com/oldnewthing/20180330-00/?p=98395
@@ -100,6 +101,7 @@
 - Designing Memory Consistency Models For Shared-Memory Multiprocessors
 	- 1993 PhD dissertation; Sarita V. Adve
 	- ftp://ftp.cs.wisc.edu/markhill/Theses/sarita_adve.pdf
+	- http://digital.library.wisc.edu/1793/59824
 - Memory Consistency Models for Shared-Memory Multiprocessors
 	- 1995 PhD dissertation; Kourosh Gharachorloo
 	- http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-95-9.pdf
@@ -161,6 +163,8 @@
 	- 2012; Martin Kempf
 	- https://wiki.ifs.hsr.ch/SemProgAnTr/TopicsFallSemester2012
 	- https://wiki.ifs.hsr.ch/SemProgAnTr/files/CppMemoryModel_26_12_12.pdf
+- Concurrency memory model compiler consequences
+	- http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2007/n2338.html
 - Foundations of the C++ Concurrency Memory Model
 	- PLDI 2008; Hans-J. Boehm and Sarita V. Adve
 	- http://rsim.cs.illinois.edu/Pubs/08PLDI.pdf
@@ -180,6 +184,13 @@
 	- POPL 2019
 	- Azalea Raad, Marko Doko, Lovro Rožić, Ori Lahav, Viktor Vafeiadis
 	- https://popl19.sigplan.org/event/popl-2019-research-papers-on-library-correctness-under-weak-memory-consistency
+- Programming Languages & Verification – MPI SWS
+	- https://www.mpi-sws.org/research-areas/programming-languages-and-verification/
+	- 2018 - Effective stateless model checking for C/C++ concurrency - http://plv.mpi-sws.org/rcmc/
+	- 2017 - Formalizing the Concurrency Semantics of an LLVM Fragment - http://plv.mpi-sws.org/llvmcs/
+	- 2016 - Explaining Relaxed Memory Models with Program Transformations - http://plv.mpi-sws.org/trns/
+	- 2016 - Validating Optimizations of Concurrent C/C++ Programs - http://plv.mpi-sws.org/validc/
+	- 2015 - Reasoning about C11 Program Transformations - http://plv.mpi-sws.org/c11comp/
 - Shared Memory Consistency Models: A Tutorial
 	- IEEE Computer 29(12) 1996
 	- Sarita V. Adve, Kourosh Gharachorloo 
@@ -216,7 +227,7 @@
 	- CACM 2010
 	- Peter Sewell, Susmit Sarkar, Scott Owens, Francesco Zappa Nardelli, Magnus O. Myreen
 	- https://www.cl.cam.ac.uk/~pes20/weakmemory/cacm.pdf
-- You Don't Know Jack about Shared Variables of Memory Models: Data Races are Evil
+- You Don't Know Jack about Shared Variables or Memory Models: Data Races are Evil
 	- CACM 2012, ACM Queue 2011
 	- Hans-J. Boehm, Sarita V. Adve
 	- https://queue.acm.org/detail.cfm?id=2088916
@@ -228,10 +239,6 @@
 - 1024cores
 	- http://www.1024cores.net/
 	- http://www.1024cores.net/home/lock-free-algorithms
-- A Primer on Memory Consistency and Cache Coherence
-	- http://www.morganclaypool.com/doi/abs/10.2200/S00346ED1V01Y201104CAC016?journalCode=cac
-- Atomics, Madhusudhan Srikkanth
-	- http://www.mssrikkanth.com/index.php/c/c-11-14/concurrency/62-atomics
 - C++11 Language Extensions — Concurrency
 	- https://isocpp.org/wiki/faq/cpp11-language-concurrency
 - C++11 Standard Library Extensions — Concurrency
@@ -239,15 +246,10 @@
 - C/C++11 mappings to processors
 	- C/C++11 atomic operations to x86, PowerPC, ARMv7, ARMv8, and Itanium instruction sequences
 	- https://www.cl.cam.ac.uk/~pes20/cpp/cpp0xmappings.html
-- Concurrency memory model compiler consequences
-	- http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2007/n2338.html
 - GCC Wiki - Atomic: https://gcc.gnu.org/wiki/Atomic/
 - GCC Wiki - The C++11 Memory Model and GCC: https://gcc.gnu.org/wiki/Atomic/GCCMM
 - glibc wiki: Concurrency
 	- https://sourceware.org/glibc/wiki/Concurrency
-- Is Parallel Programming Hard, And If So, What Can You Do About It?
-	- [Paul E. McKenney](http://www.rdrop.com/~paulmck/)
-	- https://kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html
 - Linux kernel memory barriers
 	- https://www.kernel.org/doc/Documentation/memory-barriers.txt
 - LLVM Atomic Instructions and Concurrency Guide
@@ -255,13 +257,6 @@
 - Memory model - http://en.cppreference.com/w/cpp/language/memory_model
 - N1276: A Less Formal Explanation of the Proposed C++ Concurrency Memory Model
 	- http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1276.htm
-- Programming Languages & Verification – MPI SWS
-	- https://www.mpi-sws.org/research-areas/programming-languages-and-verification/
-	- 2018 - Effective stateless model checking for C/C++ concurrency - http://plv.mpi-sws.org/rcmc/
-	- 2017 - Formalizing the Concurrency Semantics of an LLVM Fragment - http://plv.mpi-sws.org/llvmcs/
-	- 2016 - Explaining Relaxed Memory Models with Program Transformations - http://plv.mpi-sws.org/trns/
-	- 2016 - Validating Optimizations of Concurrent C/C++ Programs - http://plv.mpi-sws.org/validc/
-	- 2015 - Reasoning about C11 Program Transformations - http://plv.mpi-sws.org/c11comp/
 - Programming with Threads: Questions Frequently Asked by C and C++ Programmers
 	- Hans-J. Boehm & Paul McKenney
 	- http://www.hboehm.info/c++mm/user-faq.html
@@ -282,6 +277,16 @@
 - Why the "volatile" type class should not be used
 	- https://www.kernel.org/doc/Documentation/volatile-considered-harmful.txt
 
+## Books
+
+- A Primer on Memory Consistency and Cache Coherence, Second Edition
+	- Synthesis Lectures on Computer Architecture 15:1 (2020)
+	- Vijay Nagarajan, Daniel J. Sorin, Mark D. Hill, David A. Wood
+	- https://doi.org/10.2200/S00962ED2V01Y201910CAC049
+- Is Parallel Programming Hard, And If So, What Can You Do About It?
+	- [Paul E. McKenney](http://www.rdrop.com/~paulmck/)
+	- https://kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html
+
 ## Courses
 
 - Advanced Computer Architecture - University of Utah - CS/ECE 7810
@@ -293,7 +298,7 @@
 	- [YouTube Video 71](http://www.youtube.com/watch?v=JjRnHP_u-aY) (A hardware-software approach to improving performance with relaxed consistency models and fences)
 - Parallel Computer Architecture - CMU - 18-742
 	- http://www.archive.ece.cmu.edu/~ece742/f12/doku.php?id=lectures
-	- https://www.youtube.com/playlist?feature=edit_ok&list=PLSEZzvupP7hNjq3Tuv2hiE5VvR-WRYoW4
+	- https://www.youtube.com/playlist?list=PLSEZzvupP7hNjq3Tuv2hiE5VvR-WRYoW4
 
 ---
 
@@ -376,24 +381,23 @@
 
 ## Slides
 
+- COMP 522: Multicore Computing - Presentations
+	- https://www.cs.rice.edu/~johnmc/comp522/lecture-notes/
 - Concurrency Kit talks
 	- http://concurrencykit.org/slides.html
 	- Lock-Free Algorithms: An Introduction, Introduction to Lock-Free Algorithms: Through a case study, Safe Memory Reclamation: Epoch Reclamation, Towards accessible non-blocking technology for C, Fast Bounded-Concurrency Hash Tables
-- Foundations of the C++ Concurrency Memory Model
-	- http://www.cs.rice.edu/~johnmc/comp522/lecture-notes/COMP522-2014-Lecture11-C++-MemoryModel.pdf
+- Memory Management in C++14 and Beyond
+	- Chicago C++ Meetup; July 7, 2015
+	- Info: http://www.meetup.com/Chicago-C-CPP-Users-Group/events/223318263/
+	- Slides: http://ccug.chicago.il.us/Spertus7jul2015.pdf
 - Modern concurrent code in C/C++
 	- GNU Tools Cauldron 2015; Torvald Riegel
 	- https://gcc.gnu.org/wiki/cauldron2015?action=AttachFile&do=get&target=Torvald+Riegel_+Modern+concurrent+code+in+C.pdf
 - Updating glibc concurrency
 	- GNU Tools Cauldron 2015; Torvald Riegel
 	- https://gcc.gnu.org/wiki/cauldron2015?action=AttachFile&do=get&target=Torvald+Riegel_+Updating+glibc+concurrency.pdf
-- Memory Consistency Models
-	- 2000; Sarita Adve
-	- http://rsim.cs.uiuc.edu/~sadve/JavaWorkshop00/talk.pdf
-- Memory Management in C++14 and Beyond
-	- Chicago C++ Meetup; July 7, 2015
-	- Info: http://www.meetup.com/Chicago-C-CPP-Users-Group/events/223318263/
-	- Slides: http://ccug.chicago.il.us/Spertus7jul2015.pdf
+-  Sarita Adve's Research Group - Talks
+	- http://rsim.cs.illinois.edu/pubs.html#talks
 
 ## Videos
 
