@@ -102,6 +102,8 @@
 
 # C++20
 
+See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392ad3aeb#file-cpp-std-coroutines-draft-md), [Modules](https://gist.github.com/MattPD/0ad1e6ba7e24f220ff635ea4a34947be#file-cpp-std-modules-draft-md).
+
 ## C++20: Readings
 
 - C++20 features described in Before/After tables ("Tony Tables")
@@ -117,8 +119,6 @@
 
 - C++20 in Breadth (not depth!)
 	- C++Now 2019; Alisdair Meredith
-	- https://cppnow2019.sched.com/event/1b3791368ce90f990ea155619cc10030
-	- C++Now 2019: Alisdair Meredith “C++20 in Breadth”
 	- https://www.youtube.com/watch?v=tczJe5YGHuc
 - C++20: C++ at 40
 	- CppCon 2019; Bjarne Stroustrup
@@ -162,6 +162,8 @@
 
 - 2020-02 Prague ISO C++ Committee Trip Report — 🎉 C++20 is Done!
 	- https://old.reddit.com/r/cpp/comments/f47x4o/202002_prague_iso_c_committee_trip_report_c20_is/
+- Freestanding in Prague
+	- https://old.reddit.com/r/cpp/comments/f5hgqm/freestanding_in_prague/
 - Trip report: Winter ISO C++ standards meeting (Prague)
 	- https://herbsutter.com/2020/02/15/trip-report-winter-iso-c-standards-meeting-prague/
 
