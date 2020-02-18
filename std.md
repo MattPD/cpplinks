@@ -270,6 +270,8 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 
 - 2018 Jacksonville ISO C++ Committee Reddit Trip Report
 	- https://www.reddit.com/r/cpp/comments/854mu9/2018_jacksonville_iso_c_committee_reddit_trip/
+- Freestanding trip report: emBO++ and Jacksonville wg21 2018 experience
+	- https://old.reddit.com/r/cpp/comments/86mopg/freestanding_trip_report_embo_and_jacksonville/
 - GoingNative 65: ISO C++ @ Jacksonville Debriefing
 	- https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-65-ISO-C--Jacksonville-Debriefing
 - ISO C++ Committee – Jacksonville 2018 trip report - Timur Doumler
@@ -655,11 +657,26 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 - C++ Historical Sources Archive
 	- http://www.softwarepreservation.org/projects/c_plus_plus/
 	- https://mcjones.org/dustydecks/archives/2007/06/11/61/
+- Bjarne Stroustrup's Homepage
+	- http://www.stroustrup.com/
+- Brian Kernighan's Home Page
+	- https://www.cs.princeton.edu/~bwk/
 - Collected Papers of Alexander A. Stepanov
 	- http://stepanovpapers.com/
+- Dennis M. Ritchie's Home Page
+	- https://www.bell-labs.com/usr/dmr/www/
+- Standard Template Library Programmer's Guide
+	- https://www.boost.org/sgi/stl/
+	- https://github.com/justinmeiners/sgi-stl-docs
+	- http://www.martinbroadhurst.com/stl/
+	- http://www.rrsd.com/software_development/stl/
 
 ## History (2019)
 
+- Bjarne Stroustrup: C++
+	- 2019 Artificial Intelligence (AI) Podcast
+	- https://lexfridman.com/bjarne-stroustrup/
+	- https://www.youtube.com/watch?v=uTxRF5ag27A
 - Direction for ISO C++
 	- 2019-10-07
 	- H. Hinnant, R. Orr, B. Stroustrup, D. Vandevoorde, M. Wong
@@ -668,6 +685,10 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- 2019; Celebrating Honoris Causa Doctorate at UC3M (Universidad Carlos III de Madrid)
 	- Bjarne Stroustrup
 	- https://www.youtube.com/watch?v=ooehrkYkGdA
+- Unix50 - Unix Today and Tomorrow: The Languages
+	- https://www.bell-labs.com/watch/unix-50/xnCgoEyz31M/
+	- https://www.youtube.com/watch?v=xnCgoEyz31M
+	- "Brian Kernighan discussed the little languages of Unix and how it works well with other programming languages while Bjarne Stroustrup focused on the journey from C to C++ and its value. Tom Van Cutsem, Lieven Trappeniers and Lode Hoste of Nokia Bell Labs discussed new computational tools being created using Augmented/Artificial intelligence and machine learning that are transforming software development."
 
 ## History (2017)
 
@@ -683,6 +704,10 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- 2017-01-31
 	- JC van Winkel, Jose Daniel Garcia, Ville Voutilainen, Roger Orr, Michael Wong, Sylvain Bonnal
 	- https://wg21.link/P0559
+- Oral History of Brian Kernighan
+	- Interviewed by John R. Mashey on 2017-04-24
+	- https://www.youtube.com/watch?v=bTWv-l0JhAc
+	- https://www.computerhistory.org/collections/catalog/102740169
 - The Continuing Evolution of C++
 	- 2017 Strachey Lecture, University of Oxford
 	- Bjarne Stroustrup
@@ -691,17 +716,24 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 
 ## History (2016)
 
-- What C++ is and what it will become
-	- Meeting C++ 2016 (Keynote); Bjarne Stroustrup
-	- https://www.youtube.com/watch?v=DvUL0Y2bpyc
+- AlexFest!
+	- A celebration of the work of Alexander A. Stepanov.
+	- https://www.youtube.com/playlist?list=PLHxtyCq_WDLWyNjTNTxEow-6EgF2roZOu
 - C++ Today (C++14)
 	- Churchill College, May 2016; Bjarne Stroustrup
 	- https://www.youtube.com/watch?v=aPvbxuOBQ70
+- What C++ is and what it will become
+	- Meeting C++ 2016 (Keynote); Bjarne Stroustrup
+	- https://www.youtube.com/watch?v=DvUL0Y2bpyc
 
 ## History (2015)
 
 - Brian Kernighan (2015) Computerphile
 	- https://www.youtube.com/playlist?list=PLzH6n4zXuckqZ90zLyy36qjO5YIn1RulG
+- C and Unix at Bell Labs
+	- VCF East 10; Brian Kernighan
+	- https://www.youtube.com/watch?v=TUWt_StXKsY
+	- https://www.youtube.com/watch?v=-dxTlU0CB8g
 - History and Spirit of C and C++
 	- NDC 2015; Olve Maudal
 	- https://vimeo.com/132192250
@@ -725,6 +757,9 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 
 ## History (2014)
 
+- The Essence of C++
+	- 2014; The University of Edinburgh; Bjarne Stroustrup
+	- https://www.youtube.com/watch?v=86xWVb4XIyE
 - Why C++ Sails When the Vasa Sank
 	- Yandex Moscow C++ Party 2014
 	- Scott Meyers
@@ -738,6 +773,9 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 - The Lasting Legacy of Dennis Ritchie: The Impact of Software on Society
 	- 2012; Brian Kernighan
 	- https://www.youtube.com/watch?v=uxtKwJZbYr0
+- Workshop on Quality Software: A Festschrift for Bjarne Stroustrup 
+	- https://parasol.tamu.edu/bjarnefest/
+	- https://www.youtube.com/playlist?list=PLRgQTVaiosr8MCB7CAwvtNMa-zAnW1_Vz
 
 ## History (2011)
 
@@ -761,6 +799,10 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- Sibling rivalry: C and C++
 		- 2002; Bjarne Stroustrup
 		- http://www.stroustrup.com/sibling_rivalry.pdf
+	- STL and Its Design Principles
+		- 2002 Alexander Stepanov
+		- https://www.youtube.com/watch?v=COuHLky7E2Q
+		- https://www.youtube.com/watch?v=1-CmNNp5eag
 - 1999
 	- An Overview of the C++ Programming Language
 		- The Handbook of Object Technology (Editor: Saba Zamir) 1999
