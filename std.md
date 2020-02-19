@@ -64,7 +64,7 @@
 	- https://isocpp.org/std/status
 - ISO C++ paper scheduling and management
 	- track proposals on GitHub
-	- https://github.com/jensmaurer/papers/issues
+	- https://github.com/cplusplus/papers/issues
 - Specref (search WG21 papers)
 	- http://www.specref.org/
 - wg21.link - WG21 redirect service - https://wg21.link/
@@ -789,18 +789,18 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 
 - 2007
 	- Evolving a language in and for the real world: C++ 1991-2006
-		- 2007; Bjarne Stroustrup
+		- HOPL III 2007; Bjarne Stroustrup
 		- http://www.stroustrup.com/hopl-almost-final.pdf
 		- slides & videos: http://portal.acm.org/toc.cfm?id=1238844
 - 2002
 	- C and C++: Siblings
-		- 2002; Bjarne Stroustrup
-		 http://www.stroustrup.com/siblings_short.pdf
+		- The C/C++ Users Journal 2002; Bjarne Stroustrup
+		- http://www.stroustrup.com/siblings_short.pdf
 	- Sibling rivalry: C and C++
 		- 2002; Bjarne Stroustrup
 		- http://www.stroustrup.com/sibling_rivalry.pdf
 	- STL and Its Design Principles
-		- 2002 Alexander Stepanov
+		- 2002; Alexander Stepanov
 		- https://www.youtube.com/watch?v=COuHLky7E2Q
 		- https://www.youtube.com/watch?v=1-CmNNp5eag
 - 1999
@@ -813,18 +813,18 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 		- 1994; Bjarne Stroustrup
 		- http://www.stroustrup.com/dne.html
 	- The Design of C++
-		- March, 1994; Bjarne Stroustrup
+		- March 1994; Bjarne Stroustrup
 		- https://www.youtube.com/watch?v=69edOm889V4
 		- http://www.computerhistory.org/collections/catalog/102624733
 - 1993
 	- Five Little Languages and How They Grew: Talk at HOPL
-		- HOPL 1993; Dennis M. Ritchie
+		- HOPL II 1993; Dennis M. Ritchie
 		- https://www.bell-labs.com/usr/dmr/www/hopl.html
 	- The Development of the C Language
 		- Dennis M. Ritchie
 		- https://www.bell-labs.com/usr/dmr/www/chist.html
 	- A History of C++: 1979−1991
-		- Bjarne Stroustrup
+		- HOPL II 1993; Bjarne Stroustrup
 		- http://www.stroustrup.com/hopl2.pdf
 - 1989
 	- From C to C++: Interviews With Dennis Ritchie and Bjarne Stroustrup
@@ -835,4 +835,11 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- Brian W. Kernighan and Dennis M. Ritchie
 		- http://www.drdobbs.com/cpp/the-state-of-c/223000089
 		- https://archive.org/stream/BYTE-1988-08#page/n330/
-
+- 1983
+	- Adding classes to the C language: An exercise in language evolution
+	- Software: Practice and Experience, 13(2) 1983; Bjarne Stroustrup
+	- https://doi.org/10.1002/spe.4380130205
+- 1982
+	- Classes: an abstract data type facility for the C language
+	- SIGPLAN Notices 17, 1 (January 1982); Bjarne Stroustrup
+	- https://doi.org/10.1145/947886.947893
