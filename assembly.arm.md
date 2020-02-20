@@ -4,39 +4,39 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 
 # Contents
 
-* [Readings](#readings):
-	+ [Concurrency](#concurrency)
-	+ [Formalization, Specification, Verification](#formalization-specification-verification)
-	+ [Instruction Set Architecture](#instruction-set-architecture)
-	+ [Performance](#performance)
-	+ [Security](#security):
+- [Readings](#readings):
+	- [Concurrency](#concurrency)
+	- [Formalization, Specification, Verification](#formalization-specification-verification)
+	- [Instruction Set Architecture](#instruction-set-architecture)
+	- [Performance](#performance)
+	- [Security](#security):
 		- [Pointer Authentication](#pointer-authentication)
 		- [TrustZone](#trustzone)
-	+ [Simulation](#simulation)
-	+ [Virtualization](#virtualization)
-* [References](#references):
-	+ [Concurrency](#concurrency)
-	+ [Intrinsics & SIMD](#intrinsics--simd)
-	+ [Toolchains](#toolchains)
-* [Software](#software):
-	+ [Binary Analysis](#software-binary-analysis)
-	+ [Debugging, Tracing](#software-debugging-tracing)
-	+ [Emulation, Simulation](#software-emulation-simulation)
-	+ [Lifting: Disassemblers, Decompilers, Recompilers](#software-lifting)
-	+ [Performance](#software-performance)
-	+ [Virtualization](#software-virtualization)
-* [Talks](#talks):
-	+ [2019](#2019)
-	+ [2018](#2018)
-	+ [2017](#2017)
-	+ [2016](#2016)
-	+ [2015](#2015)
-	+ [2014](#2014)
-	+ [2012](#2012)
-	+ [2011](#2011)
-	+ [2010](#2010)
-	+ [History](#history)
-* [Tutorials, Courses](#tutorials-courses): [AArch64](#aarch64)
+	- [Simulation](#simulation)
+	- [Virtualization](#virtualization)
+- [References](#references):
+	- [Concurrency](#concurrency)
+	- [Intrinsics & SIMD](#intrinsics--simd)
+	- [Toolchains](#toolchains)
+- [Software](#software):
+	- [Binary Analysis](#software-binary-analysis)
+	- [Debugging, Tracing](#software-debugging-tracing)
+	- [Emulation, Simulation](#software-emulation-simulation)
+	- [Lifting: Disassemblers, Decompilers, Recompilers](#software-lifting)
+	- [Performance](#software-performance)
+	- [Virtualization](#software-virtualization)
+- [Talks](#talks):
+	- [2019](#2019)
+	- [2018](#2018)
+	- [2017](#2017)
+	- [2016](#2016)
+	- [2015](#2015)
+	- [2014](#2014)
+	- [2012](#2012)
+	- [2011](#2011)
+	- [2010](#2010)
+	- [History](#history)
+- [Tutorials, Courses](#tutorials-courses): [AArch64](#aarch64)
 
 ---
 
@@ -44,40 +44,42 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 
 ## Concurrency
 
-* Formalising the ARMv8 Memory Consistency Model
-	+ Will Deacon, ARM, Keynote, OpenSHMEM 2018
-	+ https://www.csm.ornl.gov/workshops/openshmem2018/presentations/mm-openshmem2018.pdf
-* Mixed-size Concurrency: ARM, POWER, C/C++11, and SC
-	+ POPL 2017
-	+ Shaked Flur, Susmit Sarkar, Christopher Pulte, Kyndylan Nienhuis, Luc Maranget, Kathryn E. Gray, Ali Sezgin, Mark Batty, Peter Sewell
-	+ http://www.cl.cam.ac.uk/~pes20/popl17/
-	+ http://www.cl.cam.ac.uk/~pes20/AArch64
-* Modelling the ARM v8 Architecture, Operationally: Concurrency and ISA 
-	+ POPL 2016
-	+ Shaked Flur, Kathryn E. Gray, Christopher Pulte, Susmit Sarkar, Ali Sezgin, Luc Maranget, Will Deacon, Peter Sewell
-	+ http://www.cl.cam.ac.uk/~pes20/popl16-armv8/top.pdf
-	+ https://blog.acolyer.org/2016/02/02/arm-v8/
-* Relaxed-Memory Concurrency - Power and ARM
-	+ http://www.cl.cam.ac.uk/~pes20/weakmemory/#PA
-	+ <http://www.cl.cam.ac.uk/~pes20/papers/topics.html#Power_and_ARM>
-* RMEM
-	+ a tool for exploring the relaxed-memory concurrency behaviour allowed by the ARM and IBM POWER architectures; it also has experimental support for x86-TSO and a candidate RISC-V model
-	+ help page: http://www.cl.cam.ac.uk/~sf502/regressions/rmem/help.html
-	+ web interface: http://www.cl.cam.ac.uk/users/pes20/rmem/
-* Simplifying ARM Concurrency: Multicopy-atomic Axiomatic and Operational Models for ARMv8
-	+ POPL 2018 - https://www.youtube.com/watch?v=v9uygT1d0xY
-	+ Christopher Pulte, Shaked Flur, Will Deacon, Jon French, Susmit Sarkar, Peter Sewell
-	+ http://www.cl.cam.ac.uk/%7Epes20/armv8-mca/
-	+ http://www.cl.cam.ac.uk/%7Epes20/armv8-mca/armv8-mca-draft.pdf
-* The ARMv8 Application Level Memory Model
-	+ https://developer.arm.com/architectures/cpu-architecture/a-profile/memory-model-tool
-	+ Herd - http://diy.inria.fr/www/?record=aarch64
-	+ [ARMv8 ARM](https://developer.arm.com/docs/ddi0487/latest/arm-architecture-reference-manual-armv8-for-armv8-a-architecture-profile), section B2.3
-* The Semantics of Power and ARM Multiprocessor Machine Code
-	+ DAMP 09
-	+ J. Alglave, A. Fox, S. Isthiaq, M. Myreen, S. Sarkar, P. Sewell, F. Zappa Nardelli
-	+ http://www.di.ens.fr/~zappa/readings/damp09.pdf
-* The Semantics of Power and ARM Multiprocessor Programs
+- Formalising the ARMv8 Memory Consistency Model
+	- Will Deacon, ARM, Keynote, OpenSHMEM 2018
+	- https://www.csm.ornl.gov/workshops/openshmem2018/presentations/mm-openshmem2018.pdf
+- Mixed-size Concurrency: ARM, POWER, C/C++11, and SC
+	- POPL 2017
+	- Shaked Flur, Susmit Sarkar, Christopher Pulte, Kyndylan Nienhuis, Luc Maranget, Kathryn E. Gray, Ali Sezgin, Mark Batty, Peter Sewell
+	- http://www.cl.cam.ac.uk/~pes20/popl17/
+	- http://www.cl.cam.ac.uk/~pes20/AArch64
+- Modelling the ARM v8 Architecture, Operationally: Concurrency and ISA 
+	- POPL 2016
+	- Shaked Flur, Kathryn E. Gray, Christopher Pulte, Susmit Sarkar, Ali Sezgin, Luc Maranget, Will Deacon, Peter Sewell
+	- http://www.cl.cam.ac.uk/~pes20/popl16-armv8/top.pdf
+	- https://blog.acolyer.org/2016/02/02/arm-v8/
+- Relaxed-Memory Concurrency - Power and ARM
+	- http://www.cl.cam.ac.uk/~pes20/weakmemory/#PA
+	- <http://www.cl.cam.ac.uk/~pes20/papers/topics.html#Power_and_ARM>
+- RMEM
+	- a tool for exploring the relaxed-memory concurrency behaviour allowed by the ARM and IBM POWER architectures; it also has experimental support for x86-TSO and a candidate RISC-V model
+	- help page: http://www.cl.cam.ac.uk/~sf502/regressions/rmem/help.html
+	- web interface: http://www.cl.cam.ac.uk/users/pes20/rmem/
+- Simplifying ARM Concurrency: Multicopy-atomic Axiomatic and Operational Models for ARMv8
+	- POPL 2018 - https://www.youtube.com/watch?v=v9uygT1d0xY
+	- Christopher Pulte, Shaked Flur, Will Deacon, Jon French, Susmit Sarkar, Peter Sewell
+	- http://www.cl.cam.ac.uk/%7Epes20/armv8-mca/
+	- http://www.cl.cam.ac.uk/%7Epes20/armv8-mca/armv8-mca-draft.pdf
+- The ARMv8 Application Level Memory Model
+	- https://developer.arm.com/architectures/cpu-architecture/a-profile/memory-model-tool
+	- Herd - http://diy.inria.fr/www/?record=aarch64
+	- [ARMv8 ARM](https://developer.arm.com/docs/ddi0487/latest/arm-architecture-reference-manual-armv8-for-armv8-a-architecture-profile), section B2.3
+	- How to use the Memory Model Tool
+		- https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/how-to-use-the-memory-model-tool
+- The Semantics of Power and ARM Multiprocessor Machine Code
+	- DAMP 09
+	- J. Alglave, A. Fox, S. Isthiaq, M. Myreen, S. Sarkar, P. Sewell, F. Zappa Nardelli
+	- http://www.di.ens.fr/~zappa/readings/damp09.pdf
+- The Semantics of Power and ARM Multiprocessor Programs
 	- http://www.cl.cam.ac.uk/~pes20/weakmemory/index4.html
 
 ## Formalization, Specification, Verification
