@@ -209,6 +209,11 @@
 		- Jan Laukemann, Julian Hammer, Georg Hager, Gerhard Wellein
 		- https://arxiv.org/abs/1910.00214
 		- https://github.com/RRZE-HPC/OSACA-CP-2019
+	- Cross-Architecture Automatic Critical Path Detection For In-Core Performance Analysis
+		- 2020 Master Thesis; Jan Laukemann
+		- https://hpc.fau.de/files/2020/02/Masterarbeit_JL-_final.pdf
+		- Measurements and reproducibility instructions
+			- https://github.com/RRZE-HPC/OSACA-Artifact-Appendix
 - timing-harness: Harness for profiling arbitrary basic blocks.
 	- https://github.com/ithemal/timing-harness
 - uarch-bench: A benchmark for low-level CPU micro-architectural features
