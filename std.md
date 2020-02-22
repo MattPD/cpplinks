@@ -162,8 +162,12 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 
 - 2020-02 Prague ISO C++ Committee Trip Report — 🎉 C++20 is Done!
 	- https://old.reddit.com/r/cpp/comments/f47x4o/202002_prague_iso_c_committee_trip_report_c20_is/
+- CppCast Episode 235: Prague Trip Report with Hana Dusikova
+	- https://cppcast.com/hana-dusikova-prague-trip-report/
 - Freestanding in Prague
 	- https://old.reddit.com/r/cpp/comments/f5hgqm/freestanding_in_prague/
+- Shipping C++20 in Prague
+	- https://cor3ntin.github.io/posts/cpp20/
 - Trip report: Winter ISO C++ standards meeting (Prague)
 	- https://herbsutter.com/2020/02/15/trip-report-winter-iso-c-standards-meeting-prague/
 
@@ -770,9 +774,17 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 
 ## History (2012)
 
-- The Lasting Legacy of Dennis Ritchie: The Impact of Software on Society
-	- 2012; Brian Kernighan
-	- https://www.youtube.com/watch?v=uxtKwJZbYr0
+- Dennis Ritchie Day at Bell Labs, Murray Hill, NJ, September 7, 2012
+	- [Bell Labs Tribute to Dennis Ritchie](https://www.prnewswire.com/news-releases/alcatel-lucents-bell-labs-hosts-event-to-explore-the-impact-of-software-on-society-and-to-honor-the-life-of-dennis-ritchie---the-co-inventor-of-unix-168600196.html)
+	- The Lasting Legacy of Dennis Ritchie: The Impact of Software on Society
+		- 2012; Brian Kernighan
+		- https://vimeo.com/73293774
+		- https://www.youtube.com/watch?v=uxtKwJZbYr0
+	- Al Aho from Columbia University at the Dennis Ritchie Tribute at Bell Labs
+		- https://vimeo.com/73296848
+		- http://www.cs.columbia.edu/%7Eaho/Talks/12-09-07_DMR.pdf
+	- Doug McIlroy at the Dennis Ritchie Tribute at Bell Labs
+		- https://vimeo.com/73204980
 - Workshop on Quality Software: A Festschrift for Bjarne Stroustrup 
 	- https://parasol.tamu.edu/bjarnefest/
 	- https://www.youtube.com/playlist?list=PLRgQTVaiosr8MCB7CAwvtNMa-zAnW1_Vz
@@ -837,9 +849,9 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 		- https://archive.org/stream/BYTE-1988-08#page/n330/
 - 1983
 	- Adding classes to the C language: An exercise in language evolution
-	- Software: Practice and Experience, 13(2) 1983; Bjarne Stroustrup
-	- https://doi.org/10.1002/spe.4380130205
+		- Software: Practice and Experience, 13(2) 1983; Bjarne Stroustrup
+		- https://doi.org/10.1002/spe.4380130205
 - 1982
 	- Classes: an abstract data type facility for the C language
-	- SIGPLAN Notices 17, 1 (January 1982); Bjarne Stroustrup
-	- https://doi.org/10.1145/947886.947893
+		- SIGPLAN Notices 17, 1 (January 1982); Bjarne Stroustrup
+		- https://doi.org/10.1145/947886.947893
