@@ -135,6 +135,12 @@ _Books, Books Reviews_
 
 ## Concurrency
 
+- Interactive Debugging of Concurrent Programs under Relaxed Memory Models
+	- CGO 2020
+	- Aakanksha Verma, Pankaj Kumar Kalita, Awanish Pandey, and Subhajit Roy
+	- Gambit: GDB Assisted Memory Behavior and Interference Tester
+	- https://doi.org/10.1145/3368826.3377910
+
 ### Probe Effect
 
 * A probe effect in concurrent programs
