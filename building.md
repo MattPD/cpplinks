@@ -242,6 +242,8 @@
 	- http://rebels.ece.mcgill.ca/journalpaper/2015/07/08/identifying-and-understanding-header-file-hotspots-in-c-cpp-build-processes.html
 - Improving C++ Builds with Split DWARF
 	- https://www.productive-cpp.com/improving-cpp-builds-with-split-dwarf/
+- Improving Compilation Time of C/C++ Projects
+	- https://interrupt.memfault.com/blog/improving-compilation-times-c-cpp-projects
 - Physical Design of The Machinery
 	- http://ourmachinery.com/post/physical-design/
 - Reducing Build Time through Precompilations for Evolving Large Software
@@ -326,7 +328,6 @@
 	- StockholmCpp 2020; Tobias Hieta
 	- https://www.youtube.com/watch?v=X4pyOtawqjg
 	- https://gist.github.com/tru/ad677ba2b1d543e238b0e09eb3aad3ac
-https://gist.github.com/tru/ad677ba2b1d543e238b0e09eb3aad3ac
 - LLVM Compile-Time: Challenges. Improvements. Outlook.
 	- 2017 LLVM Developers’ Meeting; Michael Zolotukhin
 	- https://www.youtube.com/watch?v=bYHMwyyZ6Mk
