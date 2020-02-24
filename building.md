@@ -177,6 +177,10 @@
 	- Guillaume Maudoux and Kim Mens
 	- https://dial.uclouvain.be/pr/boreal/object/boreal:189543
 	- http://sattose.wdfiles.com/local--files/2017:schedule/SATToSE_2017_paper_3.pdf
+- Constructing Hybrid Incremental Compilers for Cross-Module Extensibility with an Internal Build System
+	- ‹Programming› 2020
+	- Jeff Smits, Gabriël Konat, Eelco Visser
+	- https://2020.programming-conference.org/details/programming-2020-papers/16/Constructing-Hybrid-Incremental-Compilers-for-Cross-Module-Extensibility-with-an-Inte
 - Scalable Incremental Building with Dynamic Task Dependencies
 	- Automated Software Engineering (ASE) 2018
 	- Gabriël Konat, Sebastian Erdweg, Eelco Visser
