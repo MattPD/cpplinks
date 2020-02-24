@@ -558,6 +558,9 @@
 		- https://github.com/lefticus/cpp_starter_project
 	- Ep 82 - Intro To CTest
 		- https://www.youtube.com/watch?v=ZlMbqFcJEzA
+	- Ep 208 - The Ultimate CMake / C++ Quick Start
+		- "CMake, sanitizers, clang-tidy, conan, cmake-format, clang-format, cppcheck, doxygen, ctest, catch, {fmt}, and more!"
+		- https://www.youtube.com/watch?v=YbgH7yat-Jo
 - Deep CMake for Library Authors
 	- CppCon 2019; Craig Scott
 	- https://www.youtube.com/watch?v=m0DwB4OvDXk
