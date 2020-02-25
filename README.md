@@ -22,12 +22,13 @@ A categorized list of C++ resources.
 - [Debugging - tracing](https://github.com/MattPD/cpplinks/blob/master/debugging.tracing.md): [readings](https://github.com/MattPD/cpplinks/blob/master/debugging.tracing.md#readings); [software](https://github.com/MattPD/cpplinks/blob/master/debugging.tracing.md#software); [talks](https://github.com/MattPD/cpplinks/blob/master/debugging.tracing.md#talks)
 - [Error handling](error_handling.md)
 - [Executables](executables.md) - executable & object file formats ([ELF](executables.md#elf), [Mach-O](executables.md#mach-o), [PE](executables.md#pe)); debugging data formats ([DWARF](executables.md#dwarf), [PDB](executables.md#pdb-program-database))
+  - [Linking and Loading](executables.linking_loading.md)
 - Interoperability
   - [FFI](interoperability.ffi.md) - foreign function interfaces (FFIs)
   - [portability](interoperability.portability.md) - [general (libraries)](interoperability.portability.md#general), [ABI](interoperability.portability.md#abi), [name mangling](interoperability.portability.md#name-mangling) 
 - [Learning and teaching](learning_teaching.md)
 - [Performance tools](performance.tools.md)
-- [Standardization](std.md)
+- [Standard & standardization](std.md)
 
 ## About
 

@@ -4,17 +4,20 @@ Executable files, debugging data, object code, shared libraries - file formats i
 
 Organization: Preference given to the most specific category -- e.g., if an article discusses DLL-specific information, then it belongs to the DLL section (in preference to the more general PE).
 
-See also: [compilers](compilers.md)
+See also:
+
+- [Compilers](https://github.com/MattPD/cpplinks/blob/master/compilers.md)
+- [Linking and Loading](https://github.com/MattPD/cpplinks/blob/master/executables.linking_loading.md) 
 
 Contents:
 
-* [General](#general): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-talks)
-* [DLL](#dll): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-1) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-1) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll-talks)
-* [DWARF](#dwarf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-2) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-2) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-talks)
-* [ELF](#elf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-3) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-3) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf-talks)
-* [Mach-O](#mach-o): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-4) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-4) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#mach-o-talks)
-* [PDB](#pdb): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-5) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-5) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-talks)
-* [PE](#pe): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-6) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-6) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#pe-talks)
+- [General](#general): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-talks)
+- [DLL](#dll): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-1) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-1) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll-talks)
+- [DWARF](#dwarf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-2) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-2) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-talks)
+- [ELF](#elf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-3) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-3) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf-talks)
+- [Mach-O](#mach-o): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-4) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-4) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#mach-o-talks)
+- [PDB](#pdb): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-5) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-5) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-talks)
+- [PE](#pe): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-6) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-6) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#pe-talks)
 
 ---
 

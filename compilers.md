@@ -3,9 +3,10 @@
 See also:
 
 - [Assembly (Arm)](assembly.arm.md), [Assembly (RISC-V)](assembly.riscv.md), [Assembly (x86)](assembly.x86.md)
-- [compilers correctness](compilers.correctness.md)
-- [program analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef) - [LLVM](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#llvm)
+- [Compilers Correctness](compilers.correctness.md)
 - [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.md): [Implementation](https://github.com/MattPD/cpplinks/blob/master/debugging.md#implementation)
+- [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef) - [LLVM](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#llvm)
+- [Linking and Loading](https://github.com/MattPD/cpplinks/blob/master/executables.linking_loading.md) 
 
 # Background
 
@@ -195,22 +196,10 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 # Linking and Loading
 
-- Advanced C and C++ Compiling by Milan Stevanovic​ (2014)
-	- "Engineering guide to C/C++ compiling, linking, and binary files structure"
-	- http://www.apress.com/9781430266679
-	- http://link.springer.com/book/10.1007%2F978-1-4302-6668-6
-	- https://github.com/apress/adv-c-cpp-compiling
-- An Evil Copy: How the Loader Betrays You - https://nebelwelt.net/publications/files/17NDSS.pdf
-- How To Write Shared Libraries - Ulrich Drepper - https://www.akkadia.org/drepper/dsohowto.pdf
-- Linkers - 20 part linker essay by Ian Lance Taylor - https://lwn.net/Articles/276782/
-- Linkers and Loaders by John R. Levine (1999) - https://www.iecc.com/linker/
-- Nick Desaulniers' posts
-	- Part 1 – Object Files and Symbols - http://nickdesaulniers.github.io/blog/2016/08/13/object-files-and-symbols/
-	- Part 2 – Static and Dynamic Libraries - http://nickdesaulniers.github.io/blog/2016/11/20/static-and-dynamic-libraries/
-- The missing link: explaining ELF static linking, semantically - Stephen Kell, Dominic P. Mulligan, Peter Sewell - OOPSLA 2016
-	- http://www.cl.cam.ac.uk/~pes20/rems/papers/oopsla-elf-linking-2016.pdf
-	- https://bitbucket.org/Peter_Sewell/linksem/
-- Understanding the classical model for linking - Raymond Chen - https://blogs.msdn.microsoft.com/oldnewthing/tag/linker
+See:
+
+- [Executables](https://github.com/MattPD/cpplinks/blob/master/executables.md) - executable & object file formats ([ELF](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf), [Mach-O](https://github.com/MattPD/cpplinks/blob/master/executables.md#mach-o), [PE](https://github.com/MattPD/cpplinks/blob/master/executables.md#pe)); debugging data formats ([DWARF](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf), [PDB](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-program-database))
+	- [Linking and Loading](https://github.com/MattPD/cpplinks/blob/master/executables.linking_loading.md) 
 
 # Optimization
 
