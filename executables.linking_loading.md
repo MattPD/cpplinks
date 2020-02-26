@@ -4,7 +4,7 @@ See also:
 
 - [Building](https://github.com/MattPD/cpplinks/blob/master/building.md)
 - [Compilers](https://github.com/MattPD/cpplinks/blob/master/compilers.md)
-- [Executables](executables.md) - executable & object file formats ([DLL](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll), ([ELF](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf), [Mach-O](https://github.com/MattPD/cpplinks/blob/master/executables.md#mach-o), [PE](https://github.com/MattPD/cpplinks/blob/master/executables.md#pe)); debugging data formats ([DWARF](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf), [PDB](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-program-database))
+- [Executables](executables.md) - executable & object file formats ([DLL](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll), [ELF](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf), [Mach-O](https://github.com/MattPD/cpplinks/blob/master/executables.md#mach-o), [PE](https://github.com/MattPD/cpplinks/blob/master/executables.md#pe)); debugging data formats ([DWARF](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf), [PDB](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-program-database))
 
 # Contents
 
@@ -75,26 +75,26 @@ See also:
 			- http://jvns.ca/blog/2013/12/10/day-40-learning-about-linkers/
 		- TOC: https://checkoway.net/musings/linkers/
 		- TOC: https://lwn.net/Articles/276782/
-		- \1. Introduction, personal history, first half of what's-a-linker - http://www.airs.com/blog/archives/38
-		- \2. What's-a-linker: Dynamic linking, linker data types, linker operation - http://www.airs.com/blog/archives/39
-		- \3. Address spaces, Object file formats - http://www.airs.com/blog/archives/40
-		- \4. Shared Libraries - http://www.airs.com/blog/archives/41
-		- \5. More Shared Libraries -- specifically, linker implementation; ELF Symbols - http://www.airs.com/blog/archives/42
-		- \6. Relocations, Position Dependent Shared Libraries - http://www.airs.com/blog/archives/43
-		- \7. Thread Local Storage (TLS) optimization - http://www.airs.com/blog/archives/44
-		- \8. ELF Segments and Sections - http://www.airs.com/blog/archives/45
-		- \9. Symbol Versions, Relaxation optimization - http://www.airs.com/blog/archives/46
-		- \10. Parallel linking - http://www.airs.com/blog/archives/47
-		- \11. Archive format - http://www.airs.com/blog/archives/48
-		- \12. Symbol resolution - http://www.airs.com/blog/archives/49
-		- \13. Symbol resolution from the user's point of view; Static Linking vs. Dynamic Linking - http://www.airs.com/blog/archives/50
-		- \14. Link time optimization, aka Whole Program optimization; Initialization Code - http://www.airs.com/blog/archives/51
-		- \15. COMDAT sections - http://www.airs.com/blog/archives/52
-		- \16. C++ Template Instantiation, Exception Frames - http://www.airs.com/blog/archives/53
-		- \17. Warning Symbols - http://www.airs.com/blog/archives/54
-		- \18. Incremental Linking - http://www.airs.com/blog/archives/55
-		- \19. `__start` and `__stop` Symbols, Byte Swapping - http://www.airs.com/blog/archives/56
-		- \20. Last post; Update on gold's status - http://www.airs.com/blog/archives/57
+		- 1\. Introduction, personal history, first half of what's-a-linker - http://www.airs.com/blog/archives/38
+		- 2\. What's-a-linker: Dynamic linking, linker data types, linker operation - http://www.airs.com/blog/archives/39
+		- 3\. Address spaces, Object file formats - http://www.airs.com/blog/archives/40
+		- 4\. Shared Libraries - http://www.airs.com/blog/archives/41
+		- 5\. More Shared Libraries -- specifically, linker implementation; ELF Symbols - http://www.airs.com/blog/archives/42
+		- 6\. Relocations, Position Dependent Shared Libraries - http://www.airs.com/blog/archives/43
+		- 7\. Thread Local Storage (TLS) optimization - http://www.airs.com/blog/archives/44
+		- 8\. ELF Segments and Sections - http://www.airs.com/blog/archives/45
+		- 9\. Symbol Versions, Relaxation optimization - http://www.airs.com/blog/archives/46
+		- 10\. Parallel linking - http://www.airs.com/blog/archives/47
+		- 11\. Archive format - http://www.airs.com/blog/archives/48
+		- 12\. Symbol resolution - http://www.airs.com/blog/archives/49
+		- 13\. Symbol resolution from the user's point of view; Static Linking vs. Dynamic Linking - http://www.airs.com/blog/archives/50
+		- 14\. Link time optimization, aka Whole Program optimization; Initialization Code - http://www.airs.com/blog/archives/51
+		- 15\. COMDAT sections - http://www.airs.com/blog/archives/52
+		- 16\. C++ Template Instantiation, Exception Frames - http://www.airs.com/blog/archives/53
+		- 17\. Warning Symbols - http://www.airs.com/blog/archives/54
+		- 18\. Incremental Linking - http://www.airs.com/blog/archives/55
+		- 19\. `__start` and `__stop` Symbols, Byte Swapping - http://www.airs.com/blog/archives/56
+		- 20\. Last post; Update on gold's status - http://www.airs.com/blog/archives/57
 	- Protected Symbols - https://www.airs.com/blog/archives/307
 	- gold
 		- Gold Workqueues - https://www.airs.com/blog/archives/78

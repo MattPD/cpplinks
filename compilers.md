@@ -198,7 +198,7 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 See:
 
-- [Executables](executables.md) - executable & object file formats ([DLL](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll), ([ELF](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf), [Mach-O](https://github.com/MattPD/cpplinks/blob/master/executables.md#mach-o), [PE](https://github.com/MattPD/cpplinks/blob/master/executables.md#pe)); debugging data formats ([DWARF](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf), [PDB](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-program-database))
+- [Executables](executables.md) - executable & object file formats ([DLL](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll), [ELF](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf), [Mach-O](https://github.com/MattPD/cpplinks/blob/master/executables.md#mach-o), [PE](https://github.com/MattPD/cpplinks/blob/master/executables.md#pe)); debugging data formats ([DWARF](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf), [PDB](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-program-database))
 	- [Linking and Loading](https://github.com/MattPD/cpplinks/blob/master/executables.linking_loading.md) 
 
 # Optimization
