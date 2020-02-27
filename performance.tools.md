@@ -178,6 +178,8 @@
 	- Understanding the performance of code using LLVM's Machine Code Analyzer (llvm-mca)
 		- 2018 LLVM Developers’ Meeting; Andrea Di Biagio & Matt Davis
 		- https://www.youtube.com/watch?v=Ku2D8bjEGXk
+	- MC Ruler: Seamless llvm-mca CMake integration
+		- https://github.com/jeremyong/mc_ruler
 - nanoBench: A tool for running small microbenchmarks on recent Intel and AMD x86 CPUs
 	- used for running the microbenchmarks for obtaining the latency, throughput, and port usage data available on http://uops.info
 	- https://github.com/andreas-abel/nanoBench
@@ -203,6 +205,7 @@
 	- https://hpc.fau.de/research/tools/
 	- Automated Instruction Stream Throughput Prediction for Intel and AMD Microarchitectures
 		- Performance Modeling, Benchmarking and Simulation of High Performance Computer Systems (PMBS) 2018
+		- Jan Laukemann, Julian Hammer, Johannes Hofmann, Georg Hager, Gerhard Wellein
 		- https://arxiv.org/abs/1809.00912
 	- Automatic Throughput and Critical Path Analysis of x86 and ARM Assembly Kernels
 		- arXiv 2019
@@ -258,6 +261,8 @@
 		- https://www.usenix.org/publications/login/summer2016/curtsinger
 	- Performance Matters - Strange Loop 2019; Emery Berger
 		- https://www.youtube.com/watch?v=r-TLSBdHe1A
+	- Coz vs. Sampling Profilers
+		- https://easyperf.net/blog/2020/02/26/coz-vs-sampling-profilers
 - easy_profiler: Lightweight cross-platform profiler library for C++
 	- https://github.com/yse/easy_profiler
 - Event Tracing for Windows (ETW) / Windows Performance Toolkit – Xperf
@@ -309,6 +314,7 @@
 	- http://icl.cs.utk.edu/projects/papi/wiki/Main_Page
 	- http://www.drdobbs.com/tools/performance-monitoring-with-papi/184406109
 	- papi-wrapper (C++ library) - https://github.com/sean-chester/papi-wrapper
+	- libpapipp: A C++ wrapper around libpapi - https://github.com/david-grs/papipp
 - pmu tools: Intel PMU profiling tools
 	- https://github.com/andikleen/pmu-tools
 	- https://github.com/andikleen/pmu-tools/wiki/toplev-manual
