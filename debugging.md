@@ -495,6 +495,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- Bringing MDB's "walkers" to GDB
 		- FOSDEM 2020; Matthew Malcomson
 		- https://fosdem.org/2020/schedule/event/debugging_gdb_pipelines/
+* GDBFrontend
+	- "an easy, flexible and extensionable gui debugger"
+	- https://github.com/rohanrhu/gdb-frontend
 * gdbgui: A browser-based frontend for GDB
 	- https://gdbgui.com/
 	- https://github.com/cs01/gdbgui
@@ -569,7 +572,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * Cheatsheet - https://github.com/jshaw87/Cheatsheets/blob/master/Cheatsheet_GDB.txt
 * Displaying Stack Frames in gdb with Python - http://jefftrull.github.io/c++/gdb/python/2018/03/02/print-frame.html
 * Fast Tracing with GDB - https://suchakra.wordpress.com/2016/06/29/fast-tracing-with-gdb/
-* GDB Basics Tutorial - https://platform.avatao.com/paths/a0dc20fc-f1b5-43c9-89fc-3a5fccfb5f0b/challenges/166366b3-2e89-49ee-86a3-023663d197b7
+* GDB Basics Tutorial
+	- https://platform.avatao.com/paths/a0dc20fc-f1b5-43c9-89fc-3a5fccfb5f0b/challenges/166366b3-2e89-49ee-86a3-023663d197b7
+* GDB Custom Commands: Dynamic Arrays
+	- https://testfit.io/devblog/gdb_custom_commands_dynamic_arrays
 * GDB Debugging Automation with Python: Implementing a memory leak detector - https://nativecoding.wordpress.com/2016/07/31/gdb-debugging-automation-with-python/
 * gdb Debugging Full Example (Tutorial): ncurses - http://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html
 * GDB Tutorial - https://www.gdb-tutorial.net/
@@ -582,9 +588,12 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ 6: Examining Data Types - http://www.shanekirk.com/2018/02/gdb-tips-and-tricks-6-examining-data-types/
 * GDB Wiki - https://sourceware.org/gdb/wiki/
 * gdbWatchPoint: GDB tips & tricks
-	+ https://undo.io/resources/gdb-watchpoint/
+	- https://undo.io/resources/gdb-watchpoint/
+	- https://www.youtube.com/playlist?list=PLrADU7tRzDD4xHv_zVoLKYg9mXYjXGhjG
 * Hitchikers Guide To The GDB - http://apoorvaj.io/hitchhikers-guide-to-the-gdb.html
 * How to point GDB to your sources - https://alex.dzyoba.com/blog/gdb-source-path/
+* Howto: GDB Remote Serial Protocol
+	- https://www.embecosm.com/appnotes/ean4/embecosm-howto-rsp-server-ean4-issue-2.html
 * Introduction to Debuggers - Saumil Shah - http://www.slideshare.net/saumilshah/introduction-to-debuggers
 * Jeff Trull
 	+ Displaying Stack Frames in gdb with Python - http://jefftrull.github.io/c++/gdb/python/2018/03/02/print-frame.html
