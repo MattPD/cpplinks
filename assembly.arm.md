@@ -338,29 +338,36 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 
 ### Pointer Authentication
 
-- Pointer Authentication on ARMv8.3: Design and Analysis of the New Software Security Instructions
-	- 2017
-	- https://www.qualcomm.com/documents/whitepaper-pointer-authentication-armv83
-	- https://www.qualcomm.com/media/documents/files/whitepaper-pointer-authentication-on-armv8-3.pdf
-	- https://www.qualcomm.com/news/onq/2017/01/10/qualcomm-releases-whitepaper-detailing-pointer-authentication-armv83
-- Examining Pointer Authentication on the iPhone XS
-	- 2019; Brandon Azad
-	- https://googleprojectzero.blogspot.com/2019/02/examining-pointer-authentication-on.html
-- PAC it up: Towards Pointer Integrity using ARM Pointer Authentication
-	- USENIX Security 2019
-	- Hans Liljestrand, Thomas Nyman, Kui Wang, Carlos Chinea Perez, Jan-Erik Ekberg, N. Asokan
-	- https://www.usenix.org/conference/usenixsecurity19/presentation/liljestrand
-	- https://github.com/pointer-authentication
-- Raising the Bar: New Hardware Primitives for Exploit Mitigations
-	- BlueHat v17 (2017); Rob Turner
-	- ARMv8.3 pointer authentication
-	- https://www.youtube.com/watch?v=PYe8W33lbAQ
-	- https://www.slideshare.net/MSbluehat/raising-the-bar-new-hardware-primitives-for-exploit-mitigations-83686492
 - arm64e: An ABI for Pointer Authentication
 	- 2019 LLVM Developers’ Meeting; Ahmed Bougacha, John McCall
 	- https://www.youtube.com/watch?v=C1nZvpEBfYA
 	- http://llvm.org/devmtg/2019-10/talk-abstracts.html#tech15
 	- https://github.com/apple/llvm-project/blob/apple/master/clang/docs/PointerAuthentication.rst
+- Examining Pointer Authentication on the iPhone XS
+	- 2019; Brandon Azad
+	- https://googleprojectzero.blogspot.com/2019/02/examining-pointer-authentication-on.html
+- LLVM-based Implementations
+	- [llvm-dev] [RFC] Pointer authentication for arm64e
+		- http://lists.llvm.org/pipermail/llvm-dev/2019-October/136091.html
+	- [LLVM and Clang] Upstream arm64e and Pointer Authentication support #14
+		- https://github.com/apple/llvm-project/pull/14
+	- Add arm64e and pointer authentication support for Swift #30112
+		- https://github.com/apple/swift/pull/30112
+- PAC it up: Towards Pointer Integrity using ARM Pointer Authentication
+	- USENIX Security 2019
+	- Hans Liljestrand, Thomas Nyman, Kui Wang, Carlos Chinea Perez, Jan-Erik Ekberg, N. Asokan
+	- https://www.usenix.org/conference/usenixsecurity19/presentation/liljestrand
+	- https://github.com/pointer-authentication
+- Pointer Authentication on ARMv8.3: Design and Analysis of the New Software Security Instructions
+	- 2017
+	- https://www.qualcomm.com/documents/whitepaper-pointer-authentication-armv83
+	- https://www.qualcomm.com/media/documents/files/whitepaper-pointer-authentication-on-armv8-3.pdf
+	- https://www.qualcomm.com/news/onq/2017/01/10/qualcomm-releases-whitepaper-detailing-pointer-authentication-armv83
+- Raising the Bar: New Hardware Primitives for Exploit Mitigations
+	- BlueHat v17 (2017); Rob Turner
+	- ARMv8.3 pointer authentication
+	- https://www.youtube.com/watch?v=PYe8W33lbAQ
+	- https://www.slideshare.net/MSbluehat/raising-the-bar-new-hardware-primitives-for-exploit-mitigations-83686492
 
 ### TrustZone
 
