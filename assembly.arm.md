@@ -57,6 +57,11 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	- Shaked Flur, Kathryn E. Gray, Christopher Pulte, Susmit Sarkar, Ali Sezgin, Luc Maranget, Will Deacon, Peter Sewell
 	- http://www.cl.cam.ac.uk/~pes20/popl16-armv8/top.pdf
 	- https://blog.acolyer.org/2016/02/02/arm-v8/
+- No Barrier in the Road: A Comprehensive Study and Optimization of ARM Barriers
+	- Principles and Practice of Parallel Programming (PPoPP) 2020
+	- Nian Liu, Binyu Zang, Haibo Chen
+	- https://doi.org/10.1145/3332466.3374535
+	- https://ipads.se.sjtu.edu.cn/_media/publications/liuppopp20.pdf
 - Relaxed-Memory Concurrency - Power and ARM
 	- http://www.cl.cam.ac.uk/~pes20/weakmemory/#PA
 	- <http://www.cl.cam.ac.uk/~pes20/papers/topics.html#Power_and_ARM>
@@ -117,7 +122,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	- <https://alastairreid.github.io/papers/cav2016_isa_formal.pdf>
 	- https://alastairreid.github.io/alastairreid.github.io/papers/ISA-Formal-CAV2016.pdf
 - Formal Semantics Extraction from Natural Language Specifications for ARM
-	- FM2019: 23rd International Symposium on Formal Methods
+	- FM 2019: 23rd International Symposium on Formal Methods
 	- Anh V. Vu and Mizuhito Ogawa
 	- https://anhvvcs.github.io/pubs/corana.pdf
 	- Corana: Dynamic Symbolic Execution Engine for ARM Cortex-M
@@ -706,11 +711,19 @@ Disassemblers, Decompilers, Recompilers
 
 ## Software: Performance
 
-* ARM Code Advisor - https://developer.arm.com/products/software-development-tools/hpc/arm-code-advisor
-* ARM Math Library Functions
+See also: [Performance Tools](performance.tools.md)
+
+* Arm HPC tools and libraries
+	- https://developer.arm.com/tools-and-software/server-and-hpc
+	- Arm Allinea Studio
+		- https://www.arm.com/products/development-tools/server-and-hpc/allinea-studio
+	- Arm Performance Libraries
+		- https://developer.arm.com/tools-and-software/server-and-hpc/compile/arm-compiler-for-linux/arm-performance-libraries
+	- Profiling Tools
+		- https://developer.arm.com/hpc/hpc-software/categories/profiling-tools
+* Arm Optimized Routines
 	+ Optimized implementations of various library functions for ARM architecture processors
 	+ https://github.com/ARM-software/optimized-routines
-* ARM Performance Libraries - https://developer.arm.com/products/software-development-tools/hpc/arm-performance-libraries
 * Compute Library
 	+ The ARM Computer Vision and Machine Learning library is a set of functions optimised for both ARM CPUs and GPUs using SIMD technologies.
 	+ https://developer.arm.com/technologies/compute-library
@@ -727,8 +740,8 @@ Disassemblers, Decompilers, Recompilers
 	+ Ne10 is a library of common, useful functions that have been heavily optimised for ARM-based CPUs equipped with NEON SIMD capabilities. It provides consistent, well-tested behaviour, allowing for painless integration into a wide variety of applications. The library currently focuses primarily around math, signal processing, image processing, and physics functions.
 	+ http://projectne10.github.io/Ne10/
 	+ https://github.com/projectNe10/Ne10
-* Profiling Tools - https://developer.arm.com/hpc/hpc-software/categories/profiling-tools
-* Streamline Performance Analyzer - https://developer.arm.com/products/software-development-tools/ds-5-development-studio/streamline
+* Streamline Performance Analyzer
+	- https://developer.arm.com/tools-and-software/embedded/arm-development-studio/components/streamline-performance-analyzer
 * User-mode access to ARMv7 PMU cycle counters
 	- https://github.com/thoughtpolice/enable_arm_pmu
 	- User-mode performance counters for ARM/Linux
