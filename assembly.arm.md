@@ -112,6 +112,10 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	- 2016-07-26 - Verifying against the official ARM specification - https://alastairreid.github.io/using-armarm/
 	- 2016-07-18 - Finding Bugs versus Proving Absence of Bugs - https://alastairreid.github.io/finding-bugs/
 	- 2016-07-03 - Specification Terminology - https://alastairreid.github.io/spec-terminology/
+- ARMv8-A system semantics: instruction fetch in relaxed architectures
+	- ESOP 2020: European Symposium on Programming
+	- Ben Simner, Shaked Flur, Christopher Pulte, Alasdair Armstrong, Jean Pichon-Pharabod, Luc Maranget, Peter Sewell
+	- https://www.cl.cam.ac.uk/~pes20/iflat/
 - ASL Interpreter
 	- Example implementation of Arm's Architecture Specification Language (ASL).
 	- https://github.com/ARM-software/asl-interpreter
