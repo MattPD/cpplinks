@@ -749,6 +749,9 @@ See also:
 	- https://docs.microsoft.com/en-us/visualstudio/msbuild/
 - MSBuild (Visual C++) - https://docs.microsoft.com/en-us/cpp/build/msbuild-visual-cpp
 - MSBuild Binary and Structured Log Viewer - http://msbuildlog.com/
+- MSBuildEditor
+	- The MSBuild Editor extension provides improved support for editing MSBuild files in Visual Studio and Visual Studio for Mac.
+	- https://github.com/mhutch/MonoDevelop.MSBuildEditor
 - Build Tools
 	- build native and managed MSBuild-based applications without requiring the Visual Studio IDE. There are options to install the Visual C++ compilers and libraries, MFC, ATL, and C++/CLI support, and .NET and .NET Core support.
 	- http://aka.ms/buildtools
@@ -763,6 +766,7 @@ See also:
 - xcbuild-debugging-tricks
 	- Xcode new build system debugging tricks 
 	- https://gist.github.com/ddunbar/2dda0e836c855ea96759d1d05f086d69
+- https://XcodeBuildSettings.com
 
 ## xmake
 
