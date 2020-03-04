@@ -273,6 +273,8 @@ See also: [Computer Architecture](comparch.md)
 ## Defense - Floating Point Unit (FPU)
 
 - On the effectiveness of mitigations against floating-point timing channels
+	- USENIX Security 2017
+	- David Kohlbrenner and Hovav Shacham
 	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/kohlbrenner
 	- https://cseweb.ucsd.edu/~dkohlbre/floats/
 - Towards Verified, Constant-time Floating Point Operations
@@ -325,6 +327,10 @@ See also: [Computer Architecture](comparch.md)
 	- Klaus von Gleissenthall, Rami Gökhan Kıcı, Deian Stefan, Ranjit Jhala
 	- https://www.usenix.org/conference/usenixsecurity19/presentation/von-gleissenthall
 	- https://github.com/gokhankici/iodine
+- Isolating Speculative Data to Prevent Transient Execution Attacks
+	- IEEE Computer Architecture Letters (CAL) 18(2) 2019
+	- Kristin Barber, Anys Bacha, Li Zhou, Yinqian Zhang, Radu Teodorescu
+	- https://doi.org/10.1109/LCA.2019.2916328
 - ParTI - Towards Combined Hardware Countermeasures against Side Channel and Fault Injection Attacks
 	- CHES 2016, IACR-CRYPTO-2016 
 	- Tobias Schneider, Amir Moradi, Tim Güneysu
@@ -336,6 +342,10 @@ See also: [Computer Architecture](comparch.md)
 	- Tutorials: https://caslab.csl.yale.edu/tutorials/
 		- HiPEAC 2019 Tutorial: http://caslab.csl.yale.edu/tutorials/hipeac2019/
 		- ASPLOS 2019 Tutorial: http://caslab.csl.yale.edu/tutorials/asplos2019/
+- Provably Secure Isolation for Interruptible Enclaved Execution on Small Microprocessors
+	- IEEE Computer Security Foundations Symposium (CSF) 2020
+	- Matteo Busi, Job Noorman, Jo Van Bulck, Letterio Galletta, Pierpaolo Degano, Jan Tobias Mühlberg, Frank Piessens
+	- https://arxiv.org/abs/2001.10881
 - Securing Processors from Time Side Channels
 	- Jose Renau
 	- UC Santa Cruz, Tech. Rep., April 2018 - https://users.soe.ucsc.edu/~renau/docs/tleak.pdf
@@ -461,6 +471,10 @@ See also: [Computer Architecture](comparch.md)
 	- Gilles Barthe, Benjamin Grégoire, Vincent Laporte
 	- https://eprint.iacr.org/2017/1233
 	- https://sites.google.com/view/ctpreservation
+- Secure Automatic Bounds Checking: Prevention Is Simpler Than Cure
+	- CGO 2020
+	- Ejebagom John Ojogbo, Mithuna Thottethodi, T. N. Vijaykumar
+	- https://doi.org/10.1145/3368826.3377921
 - Speculative Load Hardening (a Spectre variant #1 mitigation)
 	- 2018; Chandler Carruth
 	- https://llvm.org/docs/SpeculativeLoadHardening.html
@@ -498,6 +512,10 @@ See also: [Computer Architecture](comparch.md)
 	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2019
 	- Mohammadkazem Taram, Ashish Venkat, Dean Tullsen
 	- http://www.cs.virginia.edu/~av6ds/papers/asplos2019.pdf
+- ConTExT: A Generic Approach for Mitigating Spectre
+	- Network and Distributed Systems Security (NDSS) Symposium 2020
+	- Michael Schwarz, Moritz Lipp, Claudio Canella, Robert Schilling, Florian Kargl, Daniel Gruss
+	- https://misc0110.net/files/context.pdf
 - InvisiSpec: Making Speculative Execution Invisible in the Cache Hierarchy 
 	- International Symposium on Microarchitecture (MICRO) 2018
 	- Mengjia Yan, Jiho Choi, Dimitrios Skarlatos, Adam Morrison, Christopher W. Fletcher, Josep Torrellas
@@ -506,10 +524,19 @@ See also: [Computer Architecture](comparch.md)
 	- Poster: http://myan8.web.engr.illinois.edu/data/InvisiSpec_Poster.pdf
 	- Lightning talk: https://www.youtube.com/watch?v=mAO5iejYUec
 	- https://github.com/mjyan0720/InvisiSpec-1.0
+- KLEESpectre: Detecting Information Leakage through Speculative Cache Attacks via Symbolic Execution
+	- ACM Transactions on Software Engineering and Methodology (TOSEM) 2020
+	- Guanhua Wang, Sudipta Chattopadhyay, Arnab Kumar Biswas, Tulika Mitra, Abhik Roychoudhury
+	- https://arxiv.org/abs/1909.00647
+	- https://github.com/winter2020/kleespectre
 - MI6: Secure Enclaves in a Speculative Out-of-Order Processor
 	- MICRO-52 2019
 	- Thomas Bourgeat, Ilia Lebedev, Andrew Wright, Sizhuo Zhang, Arvind, Srinivas Devadas
 	- https://dl.acm.org/citation.cfm?id=3358310
+- MuonTrap: Preventing Cross-Domain Spectre-Like Attacks by Capturing Speculative State
+	- ISCA 2020
+	- Sam Ainsworth, Timothy M. Jones
+	- https://arxiv.org/abs/1911.08384
 - NDA: Preventing Speculative Execution Attacks at Their Source
 	- MICRO 2019
 	- Ofir Weisse, Ian Neal, Kevin Loughlin, Thomas Wenisch, Baris Kasikci
@@ -527,6 +554,10 @@ See also: [Computer Architecture](comparch.md)
 	- Design Automation Conference (DAC) 2019
 	- Khaled N. Khasawneh, Esmaeil Mohammadian Koruyeh, Chengyu Song, Dmitry Evtyushkin, Dmitry Ponomarev, Nael Abu-Ghazaleh
 	- http://www.cs.binghamton.edu/~dima/dac2019.pdf
+- Securing the Memory Hierarchy from Speculative Side-Channel Attacks
+	- 2020 Licentiate Dissertation; Christos Sakalis
+	- http://www.it.uu.se/research/publications/lic/2020-003/
+	- http://www.diva-portal.org/smash/get/diva2:1389898/FULLTEXT01.pdf
 - SPECCFI: Mitigating Spectre Attacks using CFI Informed Speculation
 	- arXiv 2019; IEEE S&P 2020
 	- Esmaeil Mohammadian Koruyeh, Shirin Haji Amin Shirazi, Khaled N. Khasawneh, Chengyu Song, Nael Abu-Ghazaleh
@@ -535,6 +566,10 @@ See also: [Computer Architecture](comparch.md)
 	- arXiv 2019; USENIX Security 2020
 	- Oleksii Oleksenko, Bohdan Trach, Mark Silberstein, Christof Fetzer
 	- https://arxiv.org/abs/1905.10311
+	- SpecFuzz: A tool to enable fuzzing for Spectre vulnerabilities
+		- https://github.com/OleksiiOleksenko/SpecFuzz
+	- FOSDEM 2020
+		- https://fosdem.org/2020/schedule/event/security_specfuzz_bringing_spectre_type_vulnerabilities_to_the_surface/
 - SpecShield: Shielding Speculative Data from Microarchitectural Covert Channels
 	- Parallel Architectures and Compilation Techniques (PACT) 2019
 	- K. Barber, A. Bacha, L. Zhou, Y. Zhang, R. Teodorescu
@@ -1336,6 +1371,7 @@ See also: [Computer Architecture](comparch.md)
 - PAPP: Prefetcher-Aware Prime and Probe Side-channel Attack
 	- Design Automation Conference (DAC) 2019
 	- Daimeng Wang, Zhiyun Qian, Nael Abu-Ghazaleh, Srikanth V. Krishnamurthy
+	- http://www.cs.ucr.edu/~zhiyunq/pub/dac19_cpu_preferter.pdf
 - Prefetch Side-Channel Attacks: Bypassing SMAP and Kernel ASLR
 	- Conference on Computer and Communications Security (CCS) 2016
 	- Daniel Gruss, Anders Fogh, Clémentine Maurice, Moritz Lipp, Stefan Mangard 
