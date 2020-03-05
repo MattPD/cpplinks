@@ -71,6 +71,8 @@
 
 - `[[trivial_abi]]` 101
 	- https://quuxplusone.github.io/blog/2018/05/02/trivial-abi-101/
+- ABI Breaks: Not just about rebuilding
+	- https://www.reddit.com/r/cpp/comments/fc2qqv/abi_breaks_not_just_about_rebuilding/
 - ABI Policy and Guidelines - The GNU C++ Library Manual
 	- https://gcc.gnu.org/onlinedocs/libstdc++/manual/abi.html
 - ABIs, linkers and other animals - Stephen Kell (2014)
