@@ -176,6 +176,9 @@
 	- Arvind and J.-W. Maessen
 	- http://csg.csail.mit.edu/pubs/memos/Memo-493/memo-493.pdf
 	- 2006 MSR talk: https://www.microsoft.com/en-us/research/video/memory-model-instruction-reordering-store-atomicity/
+- Memory Models for C/C++ Programmers
+	- 2018; Manuel Pöter, Jesper Larsson Träff
+	- https://arxiv.org/abs/1803.04432
 - Memory Models: A Case for Rethinking Parallel Languages and Hardware
 	- CACM 2010
 	- Sarita V. Adve, Hans-J. Boehm
