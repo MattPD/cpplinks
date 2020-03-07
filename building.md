@@ -298,10 +298,14 @@ See also:
 		- https://llvm.org/devmtg/2015-04/slides/EuroLLVM2015Templight.pdf
 		- https://www.youtube.com/watch?v=djAPtopWhRU
 - Visual C++ - C++ Build Insights
+	- vcperf: A build analysis tool for the MSVC toolchain
+		- https://github.com/microsoft/vcperf
 	- Get started with C++ Build Insights
 		- https://docs.microsoft.com/en-us/cpp/build-insights/get-started-with-cpp-build-insights
 	- Introducing C++ Build Insights
 		- https://devblogs.microsoft.com/cppblog/introducing-c-build-insights/
+	- Analyze your builds programmatically with the C++ Build Insights SDK
+		- https://devblogs.microsoft.com/cppblog/analyze-your-builds-programmatically-with-the-c-build-insights-sdk/
 
 ### Caching
 
