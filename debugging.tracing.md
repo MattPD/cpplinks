@@ -225,6 +225,10 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 		- Six different views of the execution of "Hello, World!" show what is often missing in today's tools
 		- ACM Queue 16, 5 (2018); Richard L. Sites
 		- https://queue.acm.org/detail.cfm?id=3291278
+	- KUtrace 2020
+		- Stanford EE380 Computer Systems Colloquium (2020); Dick Sites
+		- https://www.youtube.com/watch?v=2HE7tSZGna0
+		- https://ee.stanford.edu/event/seminar/ee380-computer-systems-colloquium-presents-kutrace-2020
 - ltrace: Debugging program to track runtime library calls in dynamically linked programs
 	- ltrace intercepts and records dynamic library calls which are called by an executed process and the signals received by that process. It can also intercept and print the system calls executed by the program.
 	- http://ltrace.org/
@@ -280,6 +284,12 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 	- A light-weight dynamic tracer for Linux that leverages the kernel's BPF VM in concert with kprobes and tracepoints to attach probes to arbitrary points in the kernel. 
 	- https://wkz.github.io/ply/
 	- https://github.com/iovisor/ply
+
+#### Software: Linux - BCC/BPF - Talks
+
+- Tools and mechanisms to debug BPF programs
+	- FOSDEM 2020; Quentin Monnet
+	- https://fosdem.org/2020/schedule/event/debugging_bpf/
 
 ### Software: Linux - ftrace
 
@@ -345,25 +355,44 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 - Strace little book
 	- https://github.com/NanXiao/strace-little-book
 	- https://nanxiao.gitbooks.io/strace-little-book/
-- Strace: Monitoring The Kernel-User-Space Conversation
-	- NDC TechTown 2018; Michael Kerrisk
-	- https://www.youtube.com/watch?v=oFt6V56BOlo
-	- http://man7.org/conf/ndctechtown2018/system_call_tracing_with_strace-NDC-TechTown-Kerrisk.pdf
 - Julia Evans
 	- A zine about strace
 		- https://jvns.ca/blog/2015/04/14/strace-zine/
 		- https://wizardzines.com/zines/strace/
 	- strace posts: https://jvns.ca/categories/strace/
-- How does strace work? - https://blog.packagecloud.io/eng/2016/02/29/how-does-strace-work/
+- How does strace work?
+	- https://blog.packagecloud.io/eng/2016/02/29/how-does-strace-work/
+- My Favourite Secret Weapon – strace
+	- https://zwischenzugs.com/2011/08/29/my-favourite-secret-weapon-strace/
+- Strace -- The Sysadmin's Microscope
+	- https://blogs.oracle.com/ksplice/strace-the-sysadmins-microscope
+- strace cheat sheet
+	- https://blog.packagecloud.io/eng/2015/11/15/strace-cheat-sheet/
+- Strace: The Lost Chapter
+	- http://price.mit.edu/blog/2010/08/strace-the-lost-chapter/
+
+#### Software: Linux - strace - Talks
+
+- strace talks
+	- https://github.com/strace/strace-talks
 - Modern strace
 	- DevConf.CZ 2019; Dmitry Levin
 	- https://www.youtube.com/watch?v=cwDFpzQuWSU
 	- https://devconfcz2019.sched.com/event/JchD
-- My Favourite Secret Weapon – strace - https://zwischenzugs.com/2011/08/29/my-favourite-secret-weapon-strace/
-- Strace -- The Sysadmin's Microscope - https://blogs.oracle.com/ksplice/strace-the-sysadmins-microscope
-- strace cheat sheet - https://blog.packagecloud.io/eng/2015/11/15/strace-cheat-sheet/
-- strace: new features - FOSDEM 2018 - https://fosdem.org/2018/schedule/event/debugging_tools_strace_features/
-- Strace: The Lost Chapter - http://price.mit.edu/blog/2010/08/strace-the-lost-chapter/
+- Postmodern strace
+	- FOSDEM 2020; Dmitry Levin
+	- https://fosdem.org/2020/schedule/event/debugging_strace_modern/
+- strace --seccomp-bpf: a look under the hood
+	- FOSDEM 2020; Paul Chaignon
+	- https://fosdem.org/2020/schedule/event/debugging_strace_bpf/
+	- https://pchaigno.github.io/strace/2019/10/02/introducing-strace-seccomp-bpf.html
+- Strace: Monitoring The Kernel-User-Space Conversation
+	- NDC TechTown 2018; Michael Kerrisk
+	- https://www.youtube.com/watch?v=oFt6V56BOlo
+	- http://man7.org/conf/ndctechtown2018/system_call_tracing_with_strace-NDC-TechTown-Kerrisk.pdf
+- strace: new features
+	- FOSDEM 2018; Dmitry Levin
+	- https://fosdem.org/2018/schedule/event/debugging_tools_strace_features/
 
 ## Software: Windows
 
