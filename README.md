@@ -29,6 +29,7 @@ A categorized list of C++ resources.
 - [Learning and teaching](learning_teaching.md)
 - [Performance tools](performance.tools.md)
 - [Standard & standardization](std.md)
+- [Testing](testing.md)
 
 ## About
 

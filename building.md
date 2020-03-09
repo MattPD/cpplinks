@@ -4,6 +4,7 @@ See also:
 
 - [Compilers](https://github.com/MattPD/cpplinks/blob/master/compilers.md)
 - [Linking and Loading](https://github.com/MattPD/cpplinks/blob/master/executables.linking_loading.md)
+- [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): [Continuous Integration](https://github.com/MattPD/cpplinks/blob/master/testing.md#continuous-integration)
 
 # Contents
 

@@ -132,6 +132,8 @@ See also: [compilers](compilers.md)
 
 # Testing
 
+See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
+
 - A Survey of Compiler Testing
 	- ACM Computing Surveys (CSUR) 2019
 	- Junjie Chen, Jibesh Patra, Michael Pradel, Yingfei Xiong, Hongyu Zhang, Dan Hao, Lu Zhang
