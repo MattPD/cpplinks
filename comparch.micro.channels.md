@@ -702,6 +702,11 @@ See also: [Computer Architecture](comparch.md)
 	- USENIX Security 2020
 	- Mulong Luo, Andrew C. Myers, G. Edward Suh
 	- http://www.cs.cornell.edu/andru/papers/stealthy-tracking/
+- Take A Way: Exploring the Security Implications of AMD’s Cache Way Predictors
+	- ACM Asia Conference on Computer and Communications Security (ASIA CCS) 2020
+	- Moritz Lipp, Vedad Hadžić, Michael Schwarz, Arthur Perais, Clémentine Maurice, Daniel Gruss
+	- https://mlq.me/download/takeaway.pdf
+	- https://doi.org/10.1145/3320269.3384746
 
 ## Cache (2019)
 
@@ -1406,6 +1411,10 @@ See also: [Computer Architecture](comparch.md)
 	- ToorCon Seattle 2008; Yuriy Bulygin
 	- http://www.c7zero.info/stuff/hyper-channel_toorcon_seattle.ppt
 	- Detecting virtualization using CPU Return Stack Buffer - https://youtube.com/watch?v=UN8iXdMZP2s
+- Reinforcing Meltdown Attack by Using a Return Stack Buffer
+	- IEEE Access, Volume 7, 2019
+	- Taehyun Kim, Young-joo Shin
+	- https://ieeexplore.ieee.org/abstract/document/8937554
 - ret2spec: Speculative Execution Using Return Stack Buffers
 	- ACM CCS 2018
 	- Giorgi Maisuradze, Christian Rossow
@@ -1421,6 +1430,10 @@ See also: [Computer Architecture](comparch.md)
 
 # SMT
 
+- ABSynthe: Automatic Blackbox Side-channel Synthesis on Commodity Microarchitectures
+	- Network and Distributed Systems Security (NDSS) Symposium 2020
+	- Ben Gras, Cristiano Giuffrida, Michael Kurth, Herbert Bos, Kaveh Razavi
+	- https://download.vusec.net/papers/absynthe_ndss20.pdf
 - Cache missing for fun and profit
 	- BSDCan 2005; Colin Percival
 	- http://www.daemonology.net/papers/cachemissing.pdf
@@ -1451,6 +1464,9 @@ Transient execution attacks
 Classification tree - http://transient.fail/  
 Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 
+Refined Speculative Execution Terminology  
+https://software.intel.com/security-software-guidance/insights/refined-speculative-execution-terminology
+
 - Code That Never Ran: Modeling Attacks on Speculative Evaluation
 	- IEEE Symposium on Security & Privacy 2019
 	- Disselkoen, C., Jagadeesan, R., Jeffrey, A., Riely, J.
@@ -1479,6 +1495,19 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 		- https://doi.org/10.1109/MM.2019.2910104
 	- L1 Terminal Fault Vulnerability - https://www.cyberus-technology.de/posts/2018-08-14-l1-terminal-fault.html
 	- Hyper-V HyperClear Mitigation for L1 Terminal Fault - https://blogs.technet.microsoft.com/virtualization/2018/08/14/hyper-v-hyperclear/
+- Load Value Injection
+	- CVE-2020-0551 / INTEL-SA-00334
+	- LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection
+		- IEEE Symposium on Security and Privacy (S&P) 2020
+		- Jo Van Bulck, Daniel Moghimi, Michael Schwarz, Moritz Lipp, Marina Minkin, Daniel Genkin, Yuval Yarom, Berk Sunar, Daniel Gruss, Frank Piessens
+			- https://lviattack.eu/
+	- https://software.intel.com/security-software-guidance/software-guidance/load-value-injection
+	- https://software.intel.com/security-software-guidance/insights/deep-dive-load-value-injection
+	- https://software.intel.com/security-software-guidance/insights/optimized-mitigation-approach-load-value-injection
+	- [llvm-dev] Load Value Injection (LVI) Mitigation for X86
+		- https://lists.llvm.org/pipermail/llvm-dev/2020-March/139842.html
+	- [llvm-dev] [RFC] Speculative Execution Side Effect Suppression for Mitigating Load Value Injection
+		- https://lists.llvm.org/pipermail/llvm-dev/2020-March/139843.html
 - Meltdown & Spectre
 	- Meltdown - https://meltdownattack.com/
 		- USENIX Security 2018
@@ -1488,6 +1517,12 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 		- Meltdown Proof-of-Concept - https://github.com/IAIK/meltdown
 		- http://blog.cyberus-technology.de/posts/2018-01-03-meltdown.html
 		- Black Hat USA 2018 - https://mlq.me/download/bhusa2018_meltdown_slides.pdf 
+		- KASLR: Break It, Fix It, Repeat
+			- ACM Asia Conference on Computer and Communications Security (ASIA CCS) 2020
+			- Claudio Canella, Michael Schwarz, Martin Haubenwallner, Martin Schwarzl, Daniel Gruss
+			- https://doi.org/10.1145/3320269.3384747
+			- http://cc0x1f.net/publications/kaslr.pdf
+			- FLARE (Fake Load Address REsponse) - https://github.com/IAIK/FLARE
 	- Spectre Attacks: Exploiting Speculative Execution - https://spectreattack.com/
 		- S&P 2019
 		- Paul Kocher, Daniel Genkin, Daniel Gruss, Werner Haas, Mike Hamburg, Moritz Lipp, Stefan Mangard, Thomas Prescher, Michael Schwarz, Yuval Yarom
@@ -1537,6 +1572,8 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 		- RIDL: Rogue In Flight Data Load
 			- HITB+ CyberWeek 2019; Stephan van Schaik, Sebastian Osterlund
 			- https://www.youtube.com/watch?v=vJfXu9Q_DmI
+		- Escaping the Chrome Sandbox with RIDL
+			- https://googleprojectzero.blogspot.com/2020/02/escaping-chrome-sandbox-with-ridl.html
 	- ZombieLoad: Cross-Privilege-Boundary Data Sampling
 		- Computer and Communications Security (CCS) 2019
 		- Michael Schwarz, Moritz Lipp, Daniel Moghimi, Jo Van Bulck, Julian Stecklina, Thomas Prescher, Daniel Gruss
@@ -1669,6 +1706,10 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 	- Cryptographic Hardware and Embedded Systems (CHES) 2017
 	- Ahmad Moghimi, Gorka Irazoqui, Thomas Eisenbarth
 	- https://arxiv.org/abs/1703.06986
+- CopyCat: Controlled Instruction-Level Attacks on Enclaves for Maximal Key Extraction
+	- 2020
+	- Daniel Moghimi, Jo Van Bulck, Nadia Heninger, Frank Piessens, Berk Sunar
+	- https://arxiv.org/abs/2002.08437
 - Exploitable Hardware Features and Vulnerabilities Enhanced Side-Channel Attacks on Intel SGX and Their Countermeasures
 	- 2019 PhD Dissertation; Chen, Guoxing
 	- http://rave.ohiolink.edu/etdc/view?acc_num=osu1554949268465917
@@ -1687,6 +1728,12 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 	- DIMVA 2017
 	- Michael Schwarz, Samuel Weiser, Daniel Gruss, Clémentine Maurice, Stefan Mangard
 	- https://arxiv.org/abs/1702.08719
+- MicroScope: Enabling Microarchitectural Replay Attacks
+	- International Symposium on Computer Architecture (ISCA) 2019
+	- Dimitrios Skarlatos, Mengjia Yan, Bhargava Gopireddy, Read Sprabery, Josep Torrellas, Christopher Fletcher
+	- http://iacoma.cs.uiuc.edu/iacoma-papers/isca19_3.pdf
+	- http://skarlat2.web.engr.illinois.edu/publications/microScope_isca19.pdf
+	- https://github.com/dskarlatos/MicroScope
 - Off-Limits: Abusing Legacy x86 Memory Segmentation to Spy on Enclaved Execution
 	- Engineering Secure Software and Systems (ESSoS) 2018
 	- Gyselinck J., Van Bulck J., Piessens F., Strackx R.
