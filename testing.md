@@ -2,7 +2,8 @@
 
 See also:
 
-- [Compilers Correctness](https://github.com/MattPD/cpplinks/blob/master/compilers.correctness.md): [testing](https://github.com/MattPD/cpplinks/blob/master/compilers.correctness.md#testing)
+- [Compilers Correctness](https://github.com/MattPD/cpplinks/blob/master/compilers.correctness.md): [Testing](https://github.com/MattPD/cpplinks/blob/master/compilers.correctness.md#testing)
+- [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef): [LLVM - Verification](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#llvm---verification)
 
 # Contents
 
@@ -17,7 +18,7 @@ See also:
 - [Coverage](#coverage)
 - [Reduction](#reduction)
 - [Software](#software):
-	- [Software - Test Doubles](#software-test-doubles)
+	- [Software - Test Doubles](#software---test-doubles): [Mocking](#software---test-doubles---mocking)
 - [Talks](#talks): [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2015](#talks-2015), [2014](#talks-2014)
 
 ---
@@ -56,6 +57,17 @@ See also:
 
 ## Blogs - Series
 
+- [Abseil C++ Tips of the Week (TotW)](https://abseil.io/tips/)
+	- #122: Test Fixtures, Clarity, and Dataflow - https://abseil.io/tips/122
+	- #135: Test the Contract, not the Implementation - https://abseil.io/tips/135
+- James Grenning
+	- TDD How-to: Get your Legacy C Into a Test Harness
+		- https://wingman-sw.com/articles/tdd-legacy-c
+		- https://github.com/jwgrenning/cpputest-starter-project
+	- TDD Guided by ZOMBIES
+		- http://blog.wingman-sw.com/tdd-guided-by-zombies
+	- Test-Driven Development For Embedded C++ Programmers
+		- https://www.wingman-sw.com/articles/test-driven-development-for-embedded-c-plus-plus
 - John Regehr
 	- Software Testing Using Function/Inverse Pairs
 		- https://blog.regehr.org/archives/708
@@ -68,6 +80,7 @@ See also:
 	- Two kinds of testing - https://blog.nelhage.com/post/two-kinds-of-testing/
 	- How I Write Tests - https://blog.nelhage.com/2016/12/how-i-test/
 	- Design for Testability - https://blog.nelhage.com/2016/03/design-for-testability/
+	- Test suites as classifiers - https://blog.nelhage.com/post/test-suites-as-classifiers/
 - William Caputo
 	- TDD: "Failing to Falsify"
 		- http://logosity.net/notes.html#2017.02
@@ -90,6 +103,7 @@ See also:
 # Courses
 
 - CMPT 473: Software Testing, Reliability and Security
+	- [Nick Sumner](https://www.cs.sfu.ca/~wsumner/)
 	- http://www2.cs.sfu.ca/~wsumner/teaching/473/
 - Software Analysis and Testing
 	- [Mayur Naik](http://www.cis.upenn.edu/~mhnaik/)
@@ -215,7 +229,7 @@ See also:
 	- https://www.computer.org/csdl/trans/ts/2018/08/07932530-abs.html
 	- https://home.deib.polimi.it/margara/papers/2017_tse_testing_concurrent_software.pdf
 - Applications of synchronization coverage
-	- Principles and practice of parallel programming (PPoPP) 2005
+	- Principles and Practice of Parallel Programming (PPoPP) 2005
 	- Arkady Bron, Eitan Farchi, Yonit Magid, Yarden Nir, and Shmuel Ur
 	- https://doi.org/10.1145/1065944.1065972 
 - Are Concurrency Coverage Metrics Effective for Testing: A Comprehensive Empirical Investigation
@@ -223,6 +237,8 @@ See also:
 	- S. Hong, M. Staats, J. Ahn, M. Kim, G. Rothermel
 	- http://onlinelibrary.wiley.com/doi/10.1002/stvr.1539/abstract
 	- https://orbilu.uni.lu/bitstream/10993/16540/1/main-journal-concurrent-cov-effectiveness.pdf
+- Cuzz – Concurrency Fuzzing
+	- https://www.microsoft.com/en-us/research/project/cuzz-concurrency-fuzzing/
 
 ---
 
@@ -257,7 +273,7 @@ See also:
 	- http://doi.org/10.5281/zenodo.2578271
 - Continuous delivery: Patterns and antipatterns in the software life cycle
 	- DZone refcard #145, 2011; P. M. Duvall
-	- https://dzone.com/refcardz/continuous-delivery-patterns.
+	- https://dzone.com/refcardz/continuous-delivery-patterns
 - Continuous Integration: Improving Software Quality and Reducing Risk
 	- 2007; P. Duvall, S. M. Matyas, A. Glover
 	- http://www.integratebutton.com/
@@ -499,6 +515,129 @@ See also:
 - TestCov: Test execution, coverage measurement, and test-suite reduction
 	- https://gitlab.com/sosy-lab/software/test-suite-validator
 
+## Coverage - Mutation
+
+Mutation Analysis, Mutation Coverage, Mutation Testing
+
+- Mutation testing resources: how to make better code by introducing bugs
+	- https://github.com/theofidry/mutation-testing
+- https://mutation-testing.slack.com/
+
+### Coverage - Mutation - Readings
+
+- Mutation Testing Repository
+	- https://mutationtesting.uni.lu/
+- Evaluating Test Effectiveness with Mutation Analysis
+	- https://www.fuzzingbook.org/html/MutationAnalysis.html
+- A Systematic Literature Review of How Mutation Testing Supports Quality Assurance Processes
+	- Software Testing, Verification and Reliability 2018
+	- Qianqian Zhu, Annibale Panichella, Andy Zaidman
+	- https://pure.tudelft.nl/portal/en/publications/a-systematic-literature-review-of-how-mutation-testing-supports-quality-assurance-processes(8767f68d-cea1-40b1-8933-a34825212860).html
+- A Systematic Literature Review of Techniques and Metrics to Reduce the Cost of Mutation Testing
+	- Journal of Systems and Software (2019)
+	- Pizzoleto, Alessandro Viola, Fabiano Cutigi Ferrari, Jeff Offutt, Leo Fernandes, Márcio Ribeiro
+	- https://cs.gmu.edu/~offutt/rsrch/papers/SLR-CostReductionMutation.pdf
+- An Analysis and Survey of the Development of Mutation Testing
+	- IEEE Trans. Software Eng. 37 (5) (2011) 
+	- Y. Jia, M. Harman
+	- http://dx.doi.org/10.1109/TSE.2010.62
+	- http://crest.cs.ucl.ac.uk/fileadmin/crest/sebasepaper/JiaH10.pdf
+- An Empirical Study on Mutation, Statement and Branch Coverage Fault Revelation that Avoids the Unreliable Clean Program Assumption
+	- ICSE 2017
+	- Titcheu Chekam Thierry, Mike Papadakis, Yves Le Traon, Mark Harman
+	- https://sites.google.com/site/mikepapadakis/ICSE17.pdf
+	- https://sites.google.com/site/mikepapadakis/faults-mutants
+	- https://sites.google.com/site/mikepapadakis/metallaxis
+- An Industrial Application of Mutation Testing: Lessons, Challenges, and Research Directions 
+	- International Workshop on Mutation Analysis (Mutation 2018)
+	- Goran Petrovic, Marko Ivankovic, Robert Kurtz, Paul Ammann, René Just
+	- https://research.google/pubs/pub46907/
+- Are Mutants a Valid Substitute for Real Faults in Software Testing?
+	- Proceedings of the Symposium on the Foundations of Software Engineering 2014
+	- René Just, Darioush Jalali, Laura Inozemtseva, Michael D. Ernst, Reid Holmes, Gordon Fraser
+	- http://www.linozemtseva.com/research/2014/fse/mutant_validity
+- C++11/14 Mutation Operators Based on Common Fault Patterns
+	- International Conference on Testing Software and Systems (ICTSS) 2018
+	- Parsai A., Demeyer S., De Busser S.
+	- https://link.springer.com/chapter/10.1007%2F978-3-319-99927-2_9
+	- https://www.parsai.net/files/research/C++11-14%20Mutation%20Operators%20Based%20on%20Common%20Fault%20Patterns%20(pre-print).pdf
+- Detecting Trivial Mutant Equivalences via Compiler Optimisations
+	- IEEE Transactions on Software Engineering 44(4) 2018
+	- Marinos Kintis, Mike Papadakis, Yue Jia, Nicos Malevris, Yves Le Traon, Mark Harman
+	- http://pages.cs.aueb.gr/~kintism/papers/tce/
+	- https://sites.google.com/site/mikepapadakis/tce-tse.pdf?attredirects=0&d=1
+- How Verified (or Tested) is My Code? Falsification-Driven Verification and Testing
+	- Automated Software Engineering (2018)
+	- Groce, Alex & Ahmed, Iftekhar & Jensen, Carlos & Mckenney, Paul & Holmes, Josie
+	- https://agroce.github.io/asej18.pdf
+- If You Can’t Kill a Supermutant, You Have a Problem
+	- ICSTW Mutation 2018
+	- Rahul Gopinath, Björn Mathis, Andreas Zeller
+	- https://rahul.gopinath.org/publications/#gopinath2018if
+	- https://rahul.gopinath.org/resources/icstw2018/gopinath2018if.pdf
+- Is Mutation an Appropriate Tool for Testing Experiments?
+	- ICSE 2005
+	- J. H. Andrews, L. C. Briand, Y. Labiche
+	- https://dl.acm.org/citation.cfm?doid=1062455.1062530
+	- https://www.researchgate.net/publication/221554380_Is_Mutation_an_Appropriate_Tool_for_Testing_Experiments
+- Mutant Quality Indicators
+	- International Workshop on Mutation Analysis (MUTATION) 2018
+	- Mike Papadakis, Titcheu Chekam Thierry, Yves Le Traon
+	- http://orbilu.uni.lu/bitstream/10993/34352/1/bare_conf1.pdf
+- Mutation Testing Advances: An Analysis and Survey
+	- Advances in Computers, Volume 112, 2018
+	- Mike Papadakis, Marinos Kintis, Jie Zhang, Yue Jia, Yves Le Traon, Mark Harman
+	- https://sites.google.com/site/mikepapadakis/survey.pdf?attredirects=0&d=1
+	- https://mutationtesting.uni.lu/survey.pdf
+- Mutation Testing: From Theory to Practice
+	- 2019 PhD Dissertation; Ali Parsai
+	- https://repository.uantwerpen.be/docman/irua/479e80/161581.pdf
+	- https://www.parsai.net/files/research/PhDThesisAliParsai2019.pdf
+- On the Limits of Mutation Analysis
+	- 2017 PhD Dissertation; Rahul Gopinath
+	- https://rahul.gopinath.org/resources/phd2017/gopinath2017on.pdf
+- State of Mutation Testing at Google
+	- International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP) 2018
+	- Goran Petrović and Marko Ivanković
+	- https://ai.google/research/pubs/pub46584
+	- https://dl.acm.org/citation.cfm?id=3183521
+- The Care and Feeding of Wild-Caught Mutants
+	- Foundations of Software Engineering (FSE) 2017
+	- David Bingham Brown, Michael Vaughn, Ben Liblit, Thomas W. Reps
+	- http://research.cs.wisc.edu/wpis/abstracts/fse17.abs.html
+
+### Coverage - Mutation - Software
+
+- MART Framework for Multi-Programming Language Mutation Testing based on LLVM.
+	- LLVM Mutation Artisan (MART) -- a configurable mutation testing framework based on LLVM
+	- https://github.com/thierry-tct/mart
+	- Mart: A Mutant Generation Tool for LLVM
+		- ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2019
+		- Thierry Titcheu Chekam, Mike Papadakis, Yves Le Traon
+		- https://orbilu.uni.lu/retrieve/63878/72722/main.pdf
+- Mull: Mutation testing system built on top of LLVM
+	- https://github.com/mull-project/mull
+	- https://lowlevelbits.org/llvm-based-mutation-testing-system.-request-for-comments/
+	- Mutation Testing Leaving the Stone Age - Alex Denisov, FOSDEM 2017
+		- https://www.youtube.com/watch?v=pVMupHK1BVY
+	- Mull it over: mutation testing based on LLVM
+		- Mutation 2018; Alex Denisov, Stanislav Pankevich
+		- https://lowlevelbits.org/pdfs/Mull_Mutation_2018.pdf
+- Mutate++ - A C++ Mutation Test Environment
+	- https://github.com/nlohmann/mutate_cpp
+- SRCIROR: SRC and IR mutatOR
+	- performs mutations on source code written in C/C++ and on the LLVM IR
+	- https://github.com/TestingResearchIllinois/srciror
+	- SRCIROR: A Toolset for Mutation Testing of C Source Code and LLVM Intermediate Representation
+		- Automated Software Engineering (ASE) 2018; Farah Hariri and August Shi
+		- http://mir.cs.illinois.edu/farah/publications/ase18_srciror.pdf
+
+### Coverage - Mutation - Talks
+
+- Testing The Tests: Mutation Testing for C++
+	- NDC TechTown 2019; Seph De Busser
+	- https://www.youtube.com/watch?v=M-5_M8qZXaE
+
 ---
 
 # Reduction
@@ -568,9 +707,30 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 	- Modern C++ Testing with Catch2
 		- CppCon 2018; Phil Nash
 		- https://www.youtube.com/watch?v=Ob5_XZrFQH0
+- Cgreen - The Modern Unit Test and Mocking Framework for C and C++
+	- https://github.com/cgreen-devs/cgreen
+- CppUTest unit testing and mocking framework for C/C++
+	- http://cpputest.github.com
+	- https://github.com/cpputest/cpputest
 - CUTE: C++ Unit Testing Easier
 	- https://cute-test.com/
 	- https://github.com/PeterSommerlad/CUTE
+- cwrap - A toolset for client server testing
+	- https://cwrap.org/
+	- cwrap's mission is to enable developers to test complex network-based and privileged software stacks on UNIX machines with limited network access and without root privileges by providing preloadable libraries to wrap standard libc functions.
+	- Testing your full software stack with cwrap
+		- https://lwn.net/Articles/594863/
+	- Testing your software stack without root privileges using cwrap
+		- https://developers.redhat.com/blog/2015/05/05/testing-your-software-stack-without-root-privileges-using-cwrap/
+- DeepState: Symbolic Unit Testing for C and C++
+	- NDSS 18 Workshop on Binary Analysis Research
+	- Peter Goodman and Alex Groce
+	- https://www.cefns.nau.edu/~adg326/bar18.pdf
+	- augments Test-Driven Development with Symbolic Execution
+	- https://github.com/trailofbits/deepstate
+	- Fuzzing an API with DeepState
+		- Part 1: https://blog.trailofbits.com/2019/01/22/fuzzing-an-api-with-deepstate-part-1/
+		- Part 2: https://blog.trailofbits.com/2019/01/23/fuzzing-an-api-with-deepstate-part-2/
 - doctest
 	- The fastest feature-rich C++11/14/17/20 single-header testing framework for unit tests and TDD
 	- https://github.com/onqtam/doctest
@@ -592,6 +752,11 @@ Test Doubles: Faking, Mocking
 - Fake Function Framework (fff)
 	- A testing micro framework for creating function test doubles.
 	- https://github.com/meekrosoft/fff
+- gen-xfakes
+	- Generate exploding fakes from C/C++ linker error output (used for unit testing)
+	- https://github.com/jwgrenning/gen-xfakes
+	- Wrestle Legacy C and C++ into a Test Harness – Linker Errors
+		- http://blog.wingman-sw.com/wrestle-legacy-c-cpp-into-tests-linker-errors
 - PowerFake
 	- C++ Faking library, which allows faking regular functions, static member functions and non-virtual member functions for testing purposes.
 	- https://gitlab.com/hedayat/powerfake
@@ -609,6 +774,8 @@ Test Doubles: Faking, Mocking
 	- https://github.com/cpp-testing/GUnit/blob/master/docs/GMock.md
 - Hippomocks: Single-header mocking framework
 	- https://github.com/dascandy/hippomocks
+- Mockitopp: Simple mocking for C++
+	- https://github.com/tpounds/mockitopp
 - Trompeloeil: Header-only C++14 mocking framework
 	- https://github.com/rollbear/trompeloeil
 
