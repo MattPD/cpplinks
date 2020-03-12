@@ -168,8 +168,12 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- https://old.reddit.com/r/cpp/comments/f5hgqm/freestanding_in_prague/
 - Shipping C++20 in Prague
 	- https://cor3ntin.github.io/posts/cpp20/
+- Trip Report: C++ Standards Meeting in Prague, February 2020
+	- https://botondballo.wordpress.com/2020/03/12/trip-report-c-standards-meeting-in-prague-february-2020/
 - Trip report: Winter ISO C++ standards meeting (Prague)
 	- https://herbsutter.com/2020/02/15/trip-report-winter-iso-c-standards-meeting-prague/
+- WG21 in Prague - (Partial) Trip Report
+	- https://old.reddit.com/user/InbalL/comments/f5ftop/wg21_in_prague_partial_trip_report/
 
 ### 2019-11 Belfast
 
@@ -669,6 +673,8 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- http://stepanovpapers.com/
 - Dennis M. Ritchie's Home Page
 	- https://www.bell-labs.com/usr/dmr/www/
+- History of C++
+	- https://en.cppreference.com/w/cpp/language/history
 - Standard Template Library Programmer's Guide
 	- https://www.boost.org/sgi/stl/
 	- https://github.com/justinmeiners/sgi-stl-docs
@@ -696,6 +702,7 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 
 ## History (2017)
 
+- ISO/IEC 14882:2017 - https://www.iso.org/standard/68564.html
 - C++ Stability, Velocity, and Deployment Plans
 	- 2017-06-19
 	- Titus Winters, Bjarne Stroustrup, Daveed Vandevoorde, Beman Dawes, Michael Wong, Howard Hinnant
@@ -761,6 +768,7 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 
 ## History (2014)
 
+- ISO/IEC 14882:2014 - https://www.iso.org/standard/64029.html
 - The Essence of C++
 	- 2014; The University of Edinburgh; Bjarne Stroustrup
 	- https://www.youtube.com/watch?v=86xWVb4XIyE
@@ -791,6 +799,7 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 
 ## History (2011)
 
+- ISO/IEC 14882:2011 - https://www.iso.org/standard/50372.html
 - Why I Created C++
 	- 2011
 	- Bjarne Stroustrup
@@ -804,6 +813,8 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 		- HOPL III 2007; Bjarne Stroustrup
 		- http://www.stroustrup.com/hopl-almost-final.pdf
 		- slides & videos: http://portal.acm.org/toc.cfm?id=1238844
+- 2003
+	- ISO/IEC 14882:2003 - https://www.iso.org/standard/38110.html
 - 2002
 	- C and C++: Siblings
 		- The C/C++ Users Journal 2002; Bjarne Stroustrup
@@ -820,6 +831,8 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 		- The Handbook of Object Technology (Editor: Saba Zamir) 1999
 		- Bjarne Stroustrup
 		- http://www.stroustrup.com/crc.pdf
+- 1998
+	- ISO/IEC 14882:1998 - https://www.iso.org/standard/25845.html
 - 1994
 	- The Design and Evolution of C++
 		- 1994; Bjarne Stroustrup
@@ -828,6 +841,10 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 		- March 1994; Bjarne Stroustrup
 		- https://www.youtube.com/watch?v=69edOm889V4
 		- http://www.computerhistory.org/collections/catalog/102624733
+	- The programming language standards scene, ten years on Paper 16: C++
+		- Richard M. De Morgan
+		- Computer Standards & Interfaces 16 (1994)
+		- https://doi.org/10.1016/0920-5489(94)90036-1
 - 1993
 	- Five Little Languages and How They Grew: Talk at HOPL
 		- HOPL II 1993; Dennis M. Ritchie
