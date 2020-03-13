@@ -599,6 +599,8 @@ Validation: Including translation validation, equivalence checking.
 		- 2019 LLVM Developers’ Meeting; Nuno Lopes, John Regehr
 		- https://www.youtube.com/watch?v=paJhdBp_iA4
 		- https://llvm.org/devmtg/2019-10/slides/Lopes-Regehr-Alive2.pdf
+	- Alive 2 Part 1: Introduction
+		- https://blog.regehr.org/archives/1722
 - An Abstract Stack Based Approach to Verified Compositional Compilation to Machine Code
 	- POPL 2019
 	- Yuting Wang, Pierre Wilke, Zhong Shao
