@@ -3,20 +3,36 @@
 See also:
 
 - [Compilers Correctness](https://github.com/MattPD/cpplinks/blob/master/compilers.correctness.md): [Testing](https://github.com/MattPD/cpplinks/blob/master/compilers.correctness.md#testing)
-- [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef): [LLVM - Verification](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#llvm---verification)
+- [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef):
+	- [Symbolic Execution](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#symbolic-execution)
+	- [LLVM - Verification](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#llvm---verification)
 
 # Contents
 
 - [General](#general)
 - [Blogs](#blogs):
-	- [Blogs - Series](#blogs-series)
+	- [Blogs - Series](#blogs---series)
 - [Books](#books)
 - [Courses](#courses)
 - [Research](#research)
 - [Concurrency](#concurrency)
-- [Continuous Integration](#continuous-integration)
-- [Coverage](#coverage)
-- [Reduction](#reduction)
+- [Continuous Integration](#continuous-integration):
+	- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#continuous-integration---readings)
+	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#continuous-integration---software)
+- [Coverage](#coverage):
+	- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage---readings)
+	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage---software)
+	- [Mutation](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage---mutation): Mutation Analysis, Mutation Coverage, Mutation Testing
+		- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage---mutation---readings)
+		- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage---mutation---software)
+		- [Talks](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage---mutation---talks)
+- [Generation](https://github.com/MattPD/cpplinks/blob/master/testing.md#generation):
+	- [Generation - Random](https://github.com/MattPD/cpplinks/blob/master/testing.md#generation---random)
+- [Property-Based Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md#property-based-testing):
+	- [Property-Based Testing - Metamorphic](https://github.com/MattPD/cpplinks/blob/master/testing.md#property-based-testing---metamorphic)
+- [Reduction](#reduction):
+	- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#reduction---readings)
+	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#reduction---software)
 - [Software](#software):
 	- [Software - Test Doubles](#software---test-doubles): [Mocking](#software---test-doubles---mocking)
 - [Talks](#talks): [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2015](#talks-2015), [2014](#talks-2014)
@@ -69,8 +85,7 @@ See also:
 	- Test-Driven Development For Embedded C++ Programmers
 		- https://www.wingman-sw.com/articles/test-driven-development-for-embedded-c-plus-plus
 - John Regehr
-	- Software Testing Using Function/Inverse Pairs
-		- https://blog.regehr.org/archives/708
+	- Software Testing Using Function/Inverse Pairs - https://blog.regehr.org/archives/708
 - Kent Beck
 	- Programmer Test Principles
 		- https://medium.com/@kentbeck_7670/programmer-test-principles-d01c064d7934
@@ -82,10 +97,8 @@ See also:
 	- Design for Testability - https://blog.nelhage.com/2016/03/design-for-testability/
 	- Test suites as classifiers - https://blog.nelhage.com/post/test-suites-as-classifiers/
 - William Caputo
-	- TDD: "Failing to Falsify"
-		- http://logosity.net/notes.html#2017.02
-	- The goal of "unit testing" in TDD
-		- http://logosity.net/notes.html#2017.09
+	- TDD: "Failing to Falsify" - http://logosity.net/notes.html#2017.02
+	- The goal of "unit testing" in TDD - http://logosity.net/notes.html#2017.09
 
 ---
 
@@ -118,7 +131,7 @@ See also:
 
 # Research
 
-## Readings - Research - 2010s
+## Research - 2010s
 
 - Assertions Are Strongly Correlated with Test Suite Effectiveness
 	- ESEC/FSE 2015
@@ -189,7 +202,7 @@ See also:
 	- https://pure.tudelft.nl/portal/en/publications/when-testing-meets-code-review-why-and-how-developers-review-tests(256e7d56-352f-44ae-919b-97fad0eafe69).html
 	- https://pure.tudelft.nl/portal/files/38853938/PID5219697.pdf
 
-## Readings - Research - 2000s
+## Research - 2000s
 
 - Software Testing and Industry Needs
 	- IEEE Software, vol. 23, no. 4, July-Aug. 2006
@@ -200,7 +213,7 @@ See also:
 	- Future of Software Engineering 2007; Antonia Bertolino
 	- http://selab.netlab.uky.edu/homepage/sw-test-roadmap-bertolino.pdf
 
-## Readings - Research - 1990s
+## Research - 1990s
 
 - Bringing Testing Into the Fold
 	- IEEE Software 13(3): 91-92 (1996)
@@ -213,7 +226,7 @@ See also:
 	- http://www.cs.odu.edu/~mln/ltrs-pdfs/NASA-92-ieeeswe.jmv.pdf
 	- PIE: propagation, infection, and execution
 
-## Readings - Research - 1980s
+## Research - 1980s
 
 - On Testing Non-Testable Programs
 	- The Computer Journal, vol. 25, no. 4, 1982
@@ -228,10 +241,10 @@ See also:
 	- IEEE Transactions on Software Engineering (TSE), vol. 44, no. 8, 2018
 	- https://www.computer.org/csdl/trans/ts/2018/08/07932530-abs.html
 	- https://home.deib.polimi.it/margara/papers/2017_tse_testing_concurrent_software.pdf
-- Applications of synchronization coverage
+- Applications of Synchronization Coverage
 	- Principles and Practice of Parallel Programming (PPoPP) 2005
-	- Arkady Bron, Eitan Farchi, Yonit Magid, Yarden Nir, and Shmuel Ur
-	- https://doi.org/10.1145/1065944.1065972 
+	- Arkady Bron, Eitan Farchi, Yonit Magid, Yarden Nir, Shmuel Ur
+	- https://doi.org/10.1145/1065944.1065972
 - Are Concurrency Coverage Metrics Effective for Testing: A Comprehensive Empirical Investigation
 	- Journal of Software Testing, Verification and Reliability (STVR) 25(4) 2015
 	- S. Hong, M. Staats, J. Ahn, M. Kim, G. Rothermel
@@ -363,9 +376,9 @@ See also:
 	- Code Coverage Analytics: Understanding how lines are (un)covered
 		- https://www.code-coverage.org/
 - Applications of Synchronization Coverage
-	- Principles and practice of parallel programming (PPoPP) 2005
-	- Arkady Bron, Eitan Farchi, Yonit Magid, Yarden Nir, and Shmuel Ur
-	- https://doi.org/10.1145/1065944.1065972 
+	- Principles and Practice of Parallel Programming (PPoPP) 2005
+	- Arkady Bron, Eitan Farchi, Yonit Magid, Yarden Nir, Shmuel Ur
+	- https://doi.org/10.1145/1065944.1065972
 - Assessing Oracle Quality with Checked Coverage
 	- International Conference on Software Testing, Verification and Validation ICST 2011
 	- David Schuler and Andreas Zeller
@@ -440,7 +453,7 @@ See also:
 	- Network and Distributed System Security Symposium (NDSS) 2020
 	- https://ajax4sec.github.io/papers/ndss20-fall-paper422.pdf
 - Selecting Software Test Data Using Data Flow Information
-	- IEEE Transactions on Software Engineering, 11(4), 1985
+	- IEEE Transactions on Software Engineering 11(4) 1985
 	- Sandra Rapps and Elaine J. Weyuker
 	- http://ieeexplore.ieee.org/document/1702019/
 - TestCov: Robust Test-Suite Execution and Coverage Measurement
@@ -608,7 +621,7 @@ Mutation Analysis, Mutation Coverage, Mutation Testing
 
 ### Coverage - Mutation - Software
 
-- MART Framework for Multi-Programming Language Mutation Testing based on LLVM.
+- MART Framework for Multi-Programming Language Mutation Testing based on LLVM
 	- LLVM Mutation Artisan (MART) -- a configurable mutation testing framework based on LLVM
 	- https://github.com/thierry-tct/mart
 	- Mart: A Mutant Generation Tool for LLVM
@@ -637,6 +650,164 @@ Mutation Analysis, Mutation Coverage, Mutation Testing
 - Testing The Tests: Mutation Testing for C++
 	- NDC TechTown 2019; Seph De Busser
 	- https://www.youtube.com/watch?v=M-5_M8qZXaE
+
+---
+
+# Generation
+
+- An Orchestrated Survey on Automated Software Test Case Generation
+	- Journal of Systems and Software 86 (2013)
+	- Saswat Anand, Edmund K. Burke, Tsong Yueh Chen, John Clark, Myra B. Cohen, Wolfgang Grieskamp, Mark Harman, Mary Jean Harrold, Phil Mcminn
+	- https://dl.acm.org/citation.cfm?id=2503991
+	- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.678.1106
+	- http://romisatriawahono.net/lecture/rm/survey/software%20engineering/Software%20Testing/Anand%20-%20Automated%20Software%20Test%20Case%20generation%20-%202013.pdf
+- Automated Software Test Generation: Some Challenges, Solutions, and Recent Advances
+	- Special issue Nr. 10,000 of Lecture Notes in Computer Science, Springer, 2018
+	- George Candea and Patrice Godefroid
+	- http://dslab.epfl.ch/pubs/automated-test-generation.pdf
+	- https://patricegodefroid.github.io/public_psfiles/lncs10000-2018.pdf
+- FSX: fine-grained incremental unit test generation for C/C++ programs
+	- ISSTA 2016
+	- Hiroaki Yoshida, Susumu Tokumoto, Mukul R. Prasad, Indradeep Ghosh, Tadahiro Uehara
+	- https://dl.acm.org/citation.cfm?id=2931055
+- KLOVER: Automatic Test Generation for C and C++ Programs, Using Symbolic Execution 
+	- IEEE Software Volume 34, Issue 5, 2017
+	- http://ieeexplore.ieee.org/document/8048666/
+- KLOVER: A Symbolic Execution and Automatic Test Generation Tool for C++ Programs
+	- CAV 2011
+	- (KLee based cOVERage tool, for C/C++)
+	- https://link.springer.com/chapter/10.1007/978-3-642-22110-1_49
+	- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.205.5180
+	- http://www.cs.utah.edu/~ligd/publications/KLOVER-CAV11.pdf
+- Symbolic Execution for Software Testing: Three Decades Later
+	- CACM 2013
+	- C. Cadar and K. Sen
+	- https://people.eecs.berkeley.edu/~ksen/papers/cacm13.pdf
+- KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs
+	- OSDI 2008
+	- C. Cadar, D. Dunbar, D. Engler
+	- http://www.doc.ic.ac.uk/~cristic/papers/klee-osdi-08.pdf
+	- https://klee.github.io/publications/
+- Symbolic Execution Algorithms for Test Generation
+	- 2009 Dissertation; Ru-Gang Xu
+	- https://people.mpi-sws.org/~rupak/Papers/RuGangXuThesis.pdf
+- Test Generation Using Symbolic Execution
+	- Foundations of Software Technology and Theoretical Computer Science (FSTTCS) 2012
+	- Patrice Godefroid
+	- http://drops.dagstuhl.de/opus/volltexte/2012/3845/
+
+## Generation - Random
+
+Random Testing
+
+- A Survey on Adaptive Random Testing
+	- IEEE Transactions on Software Engineering (TSE) 14(8) 2015
+	- Rubing Huang, Weifeng Sun, Yinyin Xu, Haibo Chen, Dave Towey, Xin Xia
+	- https://xin-xia.github.io/publication/tse198.pdf
+- Adaptive Random Testing
+	- Asian Computing Science Conference (ASIAN) 2004
+	- T.Y. Chen, H. Leung, I.K. Mak
+	- http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.2054&rep=rep1&type=pdf
+- Adaptive Random Testing: the ART of Test Case Diversity
+	- Journal of Systems and Software 83 (1) 2010
+	- Chen, T.Y., Kuo, F.-C., Merkel, R.G., Tse, T.H.
+	- http://i.cs.hku.hk/~tse/Papers/2010s/rbartJSS.html
+- John Regehr
+	- The Central Limit Theorem Makes Random Testing Hard
+		- https://blog.regehr.org/archives/660
+	- Randomly Testing a Static Analyzer
+		- https://blog.regehr.org/archives/680
+	- Burning in a Module with Random Unit Testing
+		- https://blog.regehr.org/archives/737
+	- Oracles for Random Testing
+		- https://blog.regehr.org/archives/856
+- Random Test Run Length and Effectiveness
+	- Automated Software Engineering (ASE) 2008
+	- J. H. Andrews, A. Groce, M. Weston, and Ru-Gang Xu
+	- https://agroce.github.io/ase08.pdf
+- The Confidence Sequence Method: a computer-age test for statistical SLOs
+	- https://pvk.ca/Blog/2018/07/06/testing-slo-type-properties-with-the-confidence-sequence-method/
+	- Lazy Linear Knapsack
+		- https://pvk.ca/Blog/2020/01/20/lazy-linear-knapsack/
+		- "TL;DR: the estimation algorithm for individual sampling passes works, and the combination of Hypothesis and Confidence Sequence Method lets us painlessly test for a statistical property."
+
+---
+
+# Property-Based Testing
+
+- What is Property Based Testing?
+	- https://hypothesis.works/articles/what-is-property-based-testing/
+- Finding Property Tests
+	- https://www.hillelwayne.com/post/contract-examples/
+- Generating Good Generators for Inductive Relations
+	- POPL 2018
+	- Leonidas Lampropoulos, Zoe Paraskevopoulou, Benjamin C. Pierce
+	- https://www.cis.upenn.edu/~llamp/pdf/GeneratingGoodGenerators.pdf
+	- https://popl18.sigplan.org/event/popl-2018-papers-generating-good-generators-for-inductive-relations
+	- http://www.cs.cmu.edu/~popl-interviews/paraskevopoulou.html
+- How hard is it to guide test case generators with branch coverage feedback?
+	- https://engineering.backtrace.io/posts/2020-03-11-how-hard-is-it-to-guide-test-case-generators-with-branch-coverage-feedback/
+- How to Specify it! A Guide to Writing Properties of Pure Functions
+	- Trends in Functional Programming (TFP) 2019
+	- John Hughes
+	- https://www.tfp2019.org/resources/tfp2019-how-to-specify-it.pdf
+	- Lambda Days 2020
+		- https://www.youtube.com/watch?v=G0NUOst-53U
+		- https://www.infoq.com/news/2020/02/property-based-testing-guide/
+
+## Property-Based Testing - Metamorphic
+
+Metamorphic Relations, Metamorphic Testing
+
+- Metamorphic Testing
+	- https://www.hillelwayne.com/post/metamorphic-testing/
+- [IEEE/ACM International Workshop on Metamorphic Testing (MET)](https://ieeexplore.ieee.org/xpl/conhome/1817204/all-proceedings)
+	- [ICSE (International Conference on Software Engineering)](http://icse-conferences.org/): https://dblp.org/db/conf/icse/
+- A Survey on Metamorphic Testing
+	- IEEE Transactions on Software Engineering 42(9) 2016
+	- http://eprints.whiterose.ac.uk/110335/1/segura16-tse.pdf
+	- http://www.cs.ecu.edu/reu/reufiles/read/metamorphicTesting-16.pdf
+	- https://pdfs.semanticscholar.org/bc06/14b761bd5f5bad9e157515d7b428ebe63170.pdf
+- Automated Metamorphic Testing
+	- COMPSAC 2003: International Conference on Computer Software and Applications
+	- Arnaud Gotlieb, Bernard Botella
+	- http://people.rennes.inria.fr/Arnaud.Gotlieb/publications/GB03.pdf
+- Metamorphic Testing
+	- CREST Open Workshop 2012
+	- Tsong Yueh Chen
+	- http://crest.cs.ucl.ac.uk/cow/20/slides/COW20_Chen.pdf
+	- http://crest.cs.ucl.ac.uk/cow/20/videos/COW20_Chen.mp4
+	- How to test a non-testable program?
+		- STEM Blitz October 2014
+		- https://www.youtube.com/watch?v=s_geSjqYEyo
+- Metamorphic Testing 20 Years Later: A Hands-on Introduction
+	- ICSE 2018
+	- Sergio Segura, Zhi Quan (George) Zhou
+	- https://dl.acm.org/citation.cfm?id=3183468
+	- https://www.researchgate.net/publication/323025715_Metamorphic_Testing_20_Years_Later_A_Hands-on_Introduction
+	- https://zenodo.org/record/1256230/files/ICSE18-TB-Segura-Zhou.pdf
+- Metamorphic Testing and Its Applications
+	- International Symposium on Future Software Technology (ISFST) 2004
+	- Zhou, Zhi Quan, D. H. Huang, T. H. Tse, Zongyuan Yang, Haitao Huang, T. Y. Chen
+	- https://www.cs.hku.hk/data/techreps/document/TR-2004-12.pdf
+- Metamorphic Testing: A New Approach for Generating Next Test Cases
+	- Technical Report HKUST-CS98-01 (Hong Kong University of Science and Technology) 1998
+	- T. Y. Chen, S. C. Cheung, S. M. Yiu
+	- https://arxiv.org/abs/2002.12543
+	- https://www.cse.ust.hk/~scc/publ/CS98-01-metamorphictesting.pdf
+- Metamorphic Testing: A Review of Challenges and Opportunities
+	- ACM Computing Surveys (CSUR) Volume 51, Issue 1, 2018
+	- Tsong Yueh Chen, Fei-Ching Kuo, Huai Liu, Pak-Lok Poon, Dave Towey, T. H. Tse, and Zhi Quan Zhou
+	- https://dl.acm.org/citation.cfm?id=3143561
+	- http://www.cs.hku.hk/research/techreps/document/TR-2017-04.pdf
+- Metamorphic Testing: A Simple Yet Effective Approach for Testing Scientific Software
+	- Computing in Science & Engineering 21(1) 2019
+	- U. Kanewala and T. Yueh Chen
+	- https://doi.ieeecomputersociety.org/10.1109/MCSE.2018.2875368
+- Techniques for Testing Scientific Programs Withoutan Oracle
+	- International Workshop on Software Engineering for Computational Science and Engineering (SE-CSE) 2013
+	- U. Kanewala and J. Bieman
+	- https://www.cs.colostate.edu/~bieman/Pubs/kanewalaBieman_icsews13secse_preprint.pdf
 
 ---
 
@@ -722,12 +893,12 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 		- https://lwn.net/Articles/594863/
 	- Testing your software stack without root privileges using cwrap
 		- https://developers.redhat.com/blog/2015/05/05/testing-your-software-stack-without-root-privileges-using-cwrap/
-- DeepState: Symbolic Unit Testing for C and C++
-	- NDSS 18 Workshop on Binary Analysis Research
-	- Peter Goodman and Alex Groce
-	- https://www.cefns.nau.edu/~adg326/bar18.pdf
-	- augments Test-Driven Development with Symbolic Execution
+- DeepState: A unit test-like interface for fuzzing and symbolic execution
 	- https://github.com/trailofbits/deepstate
+	- DeepState: Symbolic Unit Testing for C and C++
+		- NDSS 18 Workshop on Binary Analysis Research
+		- Peter Goodman and Alex Groce
+		- https://www.cefns.nau.edu/~adg326/bar18.pdf
 	- Fuzzing an API with DeepState
 		- Part 1: https://blog.trailofbits.com/2019/01/22/fuzzing-an-api-with-deepstate-part-1/
 		- Part 2: https://blog.trailofbits.com/2019/01/23/fuzzing-an-api-with-deepstate-part-2/
@@ -743,7 +914,13 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 	- https://github.com/stp/OutputCheck
 - RapidCheck: QuickCheck clone for C++ with the goal of being simple to use with as little boilerplate as possible.
 	- https://github.com/emil-e/rapidcheck
-	- https://labs.spotify.com/2015/06/25/rapid-check/
+	- Generating test cases so you don’t have to
+		- https://labs.spotify.com/2015/06/25/rapid-check/
+	- Property based testing in C++ - How to write 1000s of tests in one sitting?
+		- code::dive 2016; Patryk Małek
+		- https://codedive.pl/index/speaker/name/patryk-malek/year/2016/
+		- https://www.youtube.com/watch?v=aiapg-3vDcQ
+		- https://cdn2-ecros.pl/event/codedive/files/presentations/2016/Patryk_Malek_Property_based_testing_in_cpp.pdf
 
 ## Software - Test Doubles
 
