@@ -42,7 +42,7 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 
 sampling-based processor tracing: Intel LBR (Last Branch Record), Itanium BTB (Branch Trace Buffer), PowerPC BHRB (Branch History Rolling Buffer)
 
-non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (Intel Processor Trace), ARM CoreSight
+non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bts-branch-trace-store), [Intel PT (Processor Trace)](#intel-pt-processor-trace), ARM CoreSight
 
 - Hardware-assisted instruction profiling and latency detection
 	- The Journal of Engineering, Volume 2016, Issue 10
@@ -70,7 +70,12 @@ non-sampling-based processor tracing: Intel BTS (Branch Trace Store), Intel PT (
 	- Sharma, S. D., Bastien, G., Nemati, H. & Dagenais, M.
 	- https://publications.polymtl.ca/2975/1/2016_Sharma_Low_overhead_hardware-assisted_virtual_machive.pdf
 
-### Intel Processor Trace (PT)
+### Intel BTS (Branch Trace Store)
+
+- libbts.c: minimal BTS tracing wrapper for Linux Perf
+	- https://gist.github.com/pkhuong/1ce34e33c6df4b9be3bc9beb22415a47
+
+### Intel PT (Processor Trace)
 
 - Andi Kleen's Intel Processor Trace resources
 	- http://halobates.de/blog/p/406
