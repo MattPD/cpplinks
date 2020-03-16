@@ -556,6 +556,14 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ https://fedorahosted.org/gdb-heap/
 	+ https://fedoraproject.org/wiki/Features/MemoryDebuggingTools
 
+#### Plotting
+
+- GDBplotlib: Plotting and exporting of variables from GDB
+	- https://github.com/X-Neon/gdbplotlib
+- gdb-plot
+	- a set of utils for: plotting from the gdb command line, saving c data to .mat files from gdb command line, exploring the stack frame
+	- https://github.com/bthcode/gdb-plot
+
 #### Profiling
 
 * gdbpmp: A GDB Based Wallclock Profiler - https://github.com/markhpc/gdbpmp
