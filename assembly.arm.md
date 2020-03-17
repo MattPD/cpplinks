@@ -5,6 +5,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 # Contents
 
 - [Readings](#readings):
+	- [Binary Analysis](#readings-binary-analysis)
 	- [Concurrency](#concurrency)
 	- [Formalization, Specification, Verification](#formalization-specification-verification)
 	- [Instruction Set Architecture](#instruction-set-architecture)
@@ -41,6 +42,43 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 ---
 
 # Readings
+
+## Readings: Binary Analysis
+
+See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/master/assembly.arm.md#software-binary-analysis)
+
+- A Retargetable Static Binary Translator for the ARM Architecture
+	- ACM Transactions on Architecture and Code Optimization, 11(2) 2014
+	- Shen, B.-Y., Hsu, W.-C., & Yang, W.
+	- https://doi.org/10.1145/2629335
+- Balancing Performance and Productivity for the Development of Dynamic Binary Instrumentation Tools: A Case Study on Arm Systems
+	- Compiler Construction (CC) 2020
+	- Cosmin Gorgovan, Guillermo Callaghan, Mikel Luján
+	- https://doi.org/10.1145/3377555.3377895
+- Exploiting SIMD Asymmetry in ARM-to-x86 Dynamic Binary Translation
+	- ACM Transactions on Architecture and Code Optimization (TACO) 2019
+	- Yu-Ping Liu, Ding-Yong Hong, Jan-Jan Wu, Sheng-Yu Fu, Wei-Chung Hsu
+	- http://dl.acm.org/citation.cfm?id=3301488
+- Exploiting Vector Processing in Dynamic Binary Translation
+	- 2019 International Conference on Parallel Processing (ICPP)
+	- Chih-Min Lin, Sheng-Yu Fu, Ding-Yong Hong, Yu-Ping Liu, Jan-Jan Wu, Wei-Chung Hsu
+	- https://doi.org/10.1145/3337821.3337844
+- Optimising Dynamic Binary Modification across 64-bit Arm Microarchitectures
+	- VEE 2020
+	- Guillermo Callaghan, Cosmin Gorgovan, Mikel Lujan
+	- https://doi.org/10.1145/3381052.3381322
+	- https://conf.researchr.org/details/vee-2020/vee-2020-papers/8/Optimising-Dynamic-Binary-Modification-across-64-bit-Arm-Microarchitectures
+	- https://www.youtube.com/watch?v=3jxLu1zGpV0
+- RevARM: A Platform-Agnostic ARM Binary Rewriter for Security Applications
+	- Annual Computer Security Applications Conference (ACSAC) 2017
+	- T. Kim, C. Kim, H. Choi, Y. Kwon, B. Saltaformaggio, X. Zhang, D. Xu
+	- <https://www.cs.purdue.edu/homes/kwon58/data/revarm_acsac17.pdf>
+	- <https://www.acsac.org/2017/openconf/modules/request.php?module=oc_program&action=summary.php&id=201>
+	- <https://www.researchgate.net/publication/321506390_RevARM_A_Platform-Agnostic_ARM_Binary_Rewriter_for_Security_Applications>
+- Translating AArch64 Floating-Point Instruction Set to the x86-64 Platform
+	- 2019 International Conference on Parallel Processing: Workshops (ICPP)
+	- Yi-Ping You, Tsung-Chun Lin, and Wuu Yang
+	- https://doi.org/10.1145/3339186.3339192
 
 ## Concurrency
 
@@ -611,35 +649,33 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 
 ## Software: Binary Analysis
 
-* Exploiting SIMD Asymmetry in ARM-to-x86 Dynamic Binary Translation
-	+ ACM Transactions on Architecture and Code Optimization (TACO) 2019
-	+ Yu-Ping Liu, Ding-Yong Hong, Jan-Jan Wu, Sheng-Yu Fu, Wei-Chung Hsu
-	+ http://dl.acm.org/citation.cfm?id=3301488
-* MAMBO: A Low-Overhead Dynamic Binary Modification Tool for ARM
-	+ https://github.com/beehive-lab/mambo
-	+ Low Overhead Dynamic Binary Translation on ARM
+See also: [Readings: Binary Analysis](https://github.com/MattPD/cpplinks/blob/master/assembly.arm.md#readings-binary-analysis)
+
+- MAMBO: A Low-Overhead Dynamic Binary Modification Tool for ARM
+	- https://github.com/beehive-lab/mambo
+	- Low Overhead Dynamic Binary Translation on ARM
 		- PLDI 2017 
 		- Amanieu d'Antras, Cosmin Gorgovan, Jim Garside, Mikel Lujan
 		- https://www.youtube.com/watch?v=FCf-DJ2m0FM
 		- https://pldi17.sigplan.org/event/pldi-2017-papers-low-overhead-dynamic-binary-translation-on-arm
 		- <https://www.research.manchester.ac.uk/portal/files/56078084/pldi_16.pdf>
-	+ Optimising Dynamic Binary Modification across ARM microarchitectures 
+	- Optimising Dynamic Binary Modification across ARM microarchitectures 
 		- 2017 Ph.D. Thesis; Cosmin Gorgovan
 		- <http://apt.cs.manchester.ac.uk/publications/thesis/gorgovan17_phd.php>
 		- https://www.escholar.manchester.ac.uk/api/datastream?publicationPid=uk-ac-man-scw:307942&datastreamId=FULL-TEXT.PDF
-	+ Optimising Dynamic Binary Modification Across ARM Microarchitectures
+	- Optimising Dynamic Binary Modification Across ARM Microarchitectures
 		- International Conference on Performance Engineering (ICPE) 2018
 		- Cosmin Gorgovan, Amanieu d'Antras, Mikel Luján
 		- https://dl.acm.org/citation.cfm?id=3184425
 		- <http://www2.cs.man.ac.uk/%7Egorgovc9/mambo_tutorial_hipeac_2018.pdf>
-	+ Dynamic Binary Instrumentation and Modification with MAMBO
+	- Dynamic Binary Instrumentation and Modification with MAMBO
 		- HiPEAC 2018
 		- <https://www.dropbox.com/s/3pfg9eovj1y9cw9/mambo_tutorial_hipeac_2018.pdf?dl=0>
 		- <https://www.research.manchester.ac.uk/portal/files/65557332/cosmin_mambo_icpe2018.pdf>
-* mbed-os-linker-report: d3.js based ELF Linker Statistics
-	+ Post-processing of linker output to calculate and visualize memory usage for elf-sections
-	+ https://github.com/ARMmbed/mbed-os-linker-report
-	+ https://os.mbed.com/blog/entry/visualizing-linker-stats/
+- mbed-os-linker-report: d3.js based ELF Linker Statistics
+	- Post-processing of linker output to calculate and visualize memory usage for elf-sections
+	- https://github.com/ARMmbed/mbed-os-linker-report
+	- https://os.mbed.com/blog/entry/visualizing-linker-stats/
 
 ## Software: Debugging, Tracing
 
