@@ -804,6 +804,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * debuginfod
 	- elfutils debuginfod is a client/server in elfutils 0.178+ that automatically distributes elf/dwarf/source-code from servers to clients such as debuggers across HTTP
 		- https://sourceware.org/elfutils/Debuginfod.html
+	- Deploying debuginfod servers for your developers
+		- https://developers.redhat.com/blog/2019/12/17/deploying-debuginfod-servers-for-your-developers/
 	- The elfutils debuginfod server
 		- FOSDEM 2020; Mark Wielaard, Frank Ch. Eigler
 		- https://fosdem.org/2020/schedule/event/debugging_debuginfod/
@@ -820,6 +822,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- https://lwn.net/Articles/789641/
 * edb: a cross platform x86/x86-64 debugger
 	+ https://github.com/eteran/edb-debugger
+* ich: Linux crash harness with runtime process instrumentation
+	- https://github.com/zznop/ich
 * libkdumpfile: Kernel coredump file access
 	+ https://github.com/ptesarik/libkdumpfile
 * libthread_db
