@@ -30,6 +30,7 @@ A categorized list of C++ resources.
 - [Performance tools](performance.tools.md)
 - [Standard & standardization](std.md)
 - [Testing](testing.md)
+  - [Fuzzing](https://github.com/MattPD/cpplinks/blob/master/testing.fuzzing.md)
 
 ## About
 
