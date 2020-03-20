@@ -12,30 +12,33 @@ See also:
 
 - [General](#general)
 - [Blogs](#blogs):
-	- [Blogs - Series](#blogs---series)
+	- [Series](#blogs-series)
 - [Books](#books)
 - [Courses](#courses)
 - [Research](#research)
 - [Concurrency](#concurrency)
 - [Continuous Integration](#continuous-integration):
-	- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#continuous-integration---readings)
-	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#continuous-integration---software)
+	- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#continuous-integration-readings)
+	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#continuous-integration-software)
+		- [AppVeyor](https://github.com/MattPD/cpplinks/blob/master/testing.md#continuous-integration-software-appveyor)
+		- [GitHub Actions](https://github.com/MattPD/cpplinks/blob/master/testing.md#continuous-integration-software-github-actions)
+		- [Travis](https://github.com/MattPD/cpplinks/blob/master/testing.md#continuous-integration-software-travis)
 - [Coverage](#coverage):
-	- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage---readings)
-	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage---software)
-	- [Mutation](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage---mutation): Mutation Analysis, Mutation Coverage, Mutation Testing
-		- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage---mutation---readings)
-		- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage---mutation---software)
-		- [Talks](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage---mutation---talks)
+	- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-readings)
+	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-software)
+	- [Mutation](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-mutation): Mutation Analysis, Mutation Coverage, Mutation Testing
+		- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-mutation-readings)
+		- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-mutation-software)
+		- [Talks](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-mutation-talks)
 - [Generation](https://github.com/MattPD/cpplinks/blob/master/testing.md#generation):
-	- [Generation - Random](https://github.com/MattPD/cpplinks/blob/master/testing.md#generation---random)
+	- [Random](https://github.com/MattPD/cpplinks/blob/master/testing.md#generation-random)
 - [Property-Based Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md#property-based-testing):
-	- [Property-Based Testing - Metamorphic](https://github.com/MattPD/cpplinks/blob/master/testing.md#property-based-testing---metamorphic)
+	- [Metamorphic](https://github.com/MattPD/cpplinks/blob/master/testing.md#property-based-testing-metamorphic): Metamorphic Relations, Metamorphic Testing
 - [Reduction](#reduction):
-	- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#reduction---readings)
-	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#reduction---software)
+	- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#reduction-readings)
+	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#reduction-software)
 - [Software](#software):
-	- [Software - Test Doubles](#software---test-doubles): [Mocking](#software---test-doubles---mocking)
+	- [Test Doubles](#software-test-doubles): [Mocking](#software-test-doubles-mocking)
 - [Talks](#talks): [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2015](#talks-2015), [2014](#talks-2014)
 
 ---
@@ -72,7 +75,7 @@ See also:
 - Testing in Production, the safe way
 	- https://medium.com/@copyconstruct/testing-in-production-the-safe-way-18ca102d0ef1
 
-## Blogs - Series
+## Blogs: Series
 
 - [Abseil C++ Tips of the Week (TotW)](https://abseil.io/tips/)
 	- #122: Test Fixtures, Clarity, and Dataflow - https://abseil.io/tips/122
@@ -132,7 +135,7 @@ See also:
 
 # Research
 
-## Research - 2010s
+## Research: 2010s
 
 - Assertions Are Strongly Correlated with Test Suite Effectiveness
 	- ESEC/FSE 2015
@@ -203,7 +206,7 @@ See also:
 	- https://pure.tudelft.nl/portal/en/publications/when-testing-meets-code-review-why-and-how-developers-review-tests(256e7d56-352f-44ae-919b-97fad0eafe69).html
 	- https://pure.tudelft.nl/portal/files/38853938/PID5219697.pdf
 
-## Research - 2000s
+## Research: 2000s
 
 - Software Testing and Industry Needs
 	- IEEE Software, vol. 23, no. 4, July-Aug. 2006
@@ -214,7 +217,7 @@ See also:
 	- Future of Software Engineering 2007; Antonia Bertolino
 	- http://selab.netlab.uky.edu/homepage/sw-test-roadmap-bertolino.pdf
 
-## Research - 1990s
+## Research: 1990s
 
 - Bringing Testing Into the Fold
 	- IEEE Software 13(3): 91-92 (1996)
@@ -227,7 +230,7 @@ See also:
 	- http://www.cs.odu.edu/~mln/ltrs-pdfs/NASA-92-ieeeswe.jmv.pdf
 	- PIE: propagation, infection, and execution
 
-## Research - 1980s
+## Research: 1980s
 
 - On Testing Non-Testable Programs
 	- The Computer Journal, vol. 25, no. 4, 1982
@@ -279,7 +282,7 @@ See also:
 		- Code coverage, testing, and CI example (Fortran, C++)
 			- https://github.com/jrdoneal/infrastructure
 
-## Continuous Integration - Readings
+## Continuous Integration: Readings
 
 - Automated Reporting of Anti-Patterns and Decay in Continuous Integration
 	- ICSE 2019
@@ -309,7 +312,7 @@ See also:
 	- Atif Memon, Bao Nguyen, Eric Nickell, John Micco, Sanjeev Dhanda, Rob Siemborski, Zebao Gao
 	- https://research.google/pubs/pub45861/
 
-## Continuous Integration - Software
+## Continuous Integration: Software
 
 - Azure DevOps C++ build tasks for CMake and vcpkg
 	- https://github.com/lukka/CppBuildTasks
@@ -321,21 +324,21 @@ See also:
 - GitLab CI for C++ projects
 	- https://mklimenko.github.io/english/2020/02/02/gitlab-ci-cpp/
 
-### Continuous Integration - Software - AppVeyor
+### Continuous Integration: Software: AppVeyor
 
 - Intro to AppVeyor - C++ Weekly - Ep 80
 	- https://www.youtube.com/watch?v=R8OrWVVf5CM
 - Boost.Hana .appveyor.yml
 	- https://github.com/boostorg/hana/blob/master/.appveyor.yml
 
-### Continuous Integration - Software - GitHub Actions 
+### Continuous Integration: Software: GitHub Actions 
 
 - Using GitHub Actions with C++ and CMake
 	- https://cristianadam.eu/20191222/using-github-actions-with-c-plus-plus-and-cmake/
 - Speeding up C++ GitHub Actions using ccache
 	- https://cristianadam.eu/20200113/speeding-up-c-plus-plus-github-actions-using-ccache/
 
-### Continuous Integration - Software - Travis
+### Continuous Integration: Software: Travis
 
 - .travis.yml Examples
 	- Boost.Hana: clang++, g++, Boost, Valgrind - https://github.com/boostorg/hana/blob/master/.travis.yml
@@ -367,7 +370,7 @@ See also:
 
 # Coverage
 
-## Coverage - Readings
+## Coverage: Readings
 
 - A Large-Scale, Longitudinal Study of Test Coverage Evolution
 	- Automated Software Engineering (ASE) 2018
@@ -468,7 +471,7 @@ See also:
 - Verification, coverage and maximization: The big picture
 	- https://blog.foretellix.com/2016/12/23/verification-coverage-and-maximization-the-big-picture/
 
-## Coverage - Software
+## Coverage: Software
 
 - afl-cov - AFL Fuzzing Code Coverage
 	- https://github.com/mrash/afl-cov
@@ -529,7 +532,7 @@ See also:
 - TestCov: Test execution, coverage measurement, and test-suite reduction
 	- https://gitlab.com/sosy-lab/software/test-suite-validator
 
-## Coverage - Mutation
+## Coverage: Mutation
 
 Mutation Analysis, Mutation Coverage, Mutation Testing
 
@@ -537,7 +540,7 @@ Mutation Analysis, Mutation Coverage, Mutation Testing
 	- https://github.com/theofidry/mutation-testing
 - https://mutation-testing.slack.com/
 
-### Coverage - Mutation - Readings
+### Coverage: Mutation: Readings
 
 - Mutation Testing Repository
 	- https://mutationtesting.uni.lu/
@@ -620,7 +623,7 @@ Mutation Analysis, Mutation Coverage, Mutation Testing
 	- David Bingham Brown, Michael Vaughn, Ben Liblit, Thomas W. Reps
 	- http://research.cs.wisc.edu/wpis/abstracts/fse17.abs.html
 
-### Coverage - Mutation - Software
+### Coverage: Mutation: Software
 
 - MART Framework for Multi-Programming Language Mutation Testing based on LLVM
 	- LLVM Mutation Artisan (MART) -- a configurable mutation testing framework based on LLVM
@@ -646,7 +649,7 @@ Mutation Analysis, Mutation Coverage, Mutation Testing
 		- Automated Software Engineering (ASE) 2018; Farah Hariri and August Shi
 		- http://mir.cs.illinois.edu/farah/publications/ase18_srciror.pdf
 
-### Coverage - Mutation - Talks
+### Coverage: Mutation: Talks
 
 - Testing The Tests: Mutation Testing for C++
 	- NDC TechTown 2019; Seph De Busser
@@ -671,33 +674,35 @@ Mutation Analysis, Mutation Coverage, Mutation Testing
 	- ISSTA 2016
 	- Hiroaki Yoshida, Susumu Tokumoto, Mukul R. Prasad, Indradeep Ghosh, Tadahiro Uehara
 	- https://dl.acm.org/citation.cfm?id=2931055
-- KLOVER: Automatic Test Generation for C and C++ Programs, Using Symbolic Execution 
-	- IEEE Software Volume 34, Issue 5, 2017
-	- http://ieeexplore.ieee.org/document/8048666/
-- KLOVER: A Symbolic Execution and Automatic Test Generation Tool for C++ Programs
-	- CAV 2011
-	- (KLee based cOVERage tool, for C/C++)
-	- https://link.springer.com/chapter/10.1007/978-3-642-22110-1_49
-	- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.205.5180
-	- http://www.cs.utah.edu/~ligd/publications/KLOVER-CAV11.pdf
-- Symbolic Execution for Software Testing: Three Decades Later
-	- CACM 2013
-	- C. Cadar and K. Sen
-	- https://people.eecs.berkeley.edu/~ksen/papers/cacm13.pdf
 - KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs
 	- OSDI 2008
 	- C. Cadar, D. Dunbar, D. Engler
 	- http://www.doc.ic.ac.uk/~cristic/papers/klee-osdi-08.pdf
 	- https://klee.github.io/publications/
+- KLOVER (KLee based cOVERage tool, for C/C++)
+	- KLOVER: Automatic Test Generation for C and C++ Programs, Using Symbolic Execution 
+		- IEEE Software Volume 34, Issue 5, 2017
+		- H. Yoshida, G. Li, T. Kamiya, I. Ghosh, S. Rajan, S. Tokumoto, K. Munakata, T. Uehara
+		- http://ieeexplore.ieee.org/document/8048666/
+	- KLOVER: A Symbolic Execution and Automatic Test Generation Tool for C++ Programs
+		- CAV 2011
+		- Guodong Li, Indradeep Ghosh, and Sreeranga P. Rajan
+		- https://link.springer.com/chapter/10.1007/978-3-642-22110-1_49
+		- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.205.5180
+		- http://www.cs.utah.edu/~ligd/publications/KLOVER-CAV11.pdf
 - Symbolic Execution Algorithms for Test Generation
 	- 2009 Dissertation; Ru-Gang Xu
 	- https://people.mpi-sws.org/~rupak/Papers/RuGangXuThesis.pdf
+- Symbolic Execution for Software Testing: Three Decades Later
+	- CACM 2013
+	- C. Cadar and K. Sen
+	- https://people.eecs.berkeley.edu/~ksen/papers/cacm13.pdf
 - Test Generation Using Symbolic Execution
 	- Foundations of Software Technology and Theoretical Computer Science (FSTTCS) 2012
 	- Patrice Godefroid
 	- http://drops.dagstuhl.de/opus/volltexte/2012/3845/
 
-## Generation - Random
+## Generation: Random
 
 Random Testing
 
@@ -756,7 +761,7 @@ Random Testing
 		- https://www.youtube.com/watch?v=G0NUOst-53U
 		- https://www.infoq.com/news/2020/02/property-based-testing-guide/
 
-## Property-Based Testing - Metamorphic
+## Property-Based Testing: Metamorphic
 
 Metamorphic Relations, Metamorphic Testing
 
@@ -805,7 +810,7 @@ Metamorphic Relations, Metamorphic Testing
 	- Computing in Science & Engineering 21(1) 2019
 	- U. Kanewala and T. Yueh Chen
 	- https://doi.ieeecomputersociety.org/10.1109/MCSE.2018.2875368
-- Techniques for Testing Scientific Programs Withoutan Oracle
+- Techniques for Testing Scientific Programs Without an Oracle 
 	- International Workshop on Software Engineering for Computational Science and Engineering (SE-CSE) 2013
 	- U. Kanewala and J. Bieman
 	- https://www.cs.colostate.edu/~bieman/Pubs/kanewalaBieman_icsews13secse_preprint.pdf
@@ -818,7 +823,7 @@ Test-Case Reduction, Minimization
 
 See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.md): [Readings](https://github.com/MattPD/cpplinks/blob/master/debugging.md#readings): Delta Debugging
 
-## Reduction - Readings
+## Reduction: Readings
 
 - Everything You Ever Wanted To Know About Test-Case Reduction, But Didn’t Know to Ask
 	- https://blog.trailofbits.com/2019/11/11/test-case-reduction/
@@ -836,7 +841,7 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 - Rust Bug Minimization Patterns
 	- http://blog.pnkfx.org/blog/2019/11/18/rust-bug-minimization-patterns/
 
-## Reduction - Software
+## Reduction: Software
 
 - C-Reduce
 	- "C-Reduce is a tool that takes a large C, C++, or OpenCL file that has a property of interest (such as triggering a compiler bug) and automatically produces a much smaller C/C++ file that has the same property. It is intended for use by people who discover and report bugs in compilers and other tools that process source code."
@@ -923,7 +928,7 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 		- https://www.youtube.com/watch?v=aiapg-3vDcQ
 		- https://cdn2-ecros.pl/event/codedive/files/presentations/2016/Patryk_Malek_Property_based_testing_in_cpp.pdf
 
-## Software - Test Doubles
+## Software: Test Doubles
 
 Test Doubles: Faking, Mocking
 
@@ -940,7 +945,7 @@ Test Doubles: Faking, Mocking
 	- https://gitlab.com/hedayat/powerfake
 	- https://hedayatvk.wordpress.com/2018/01/22/introducing-powerfake-for-c/
 
-## Software - Test Doubles - Mocking
+## Software: Test Doubles: Mocking
 
 - FakeIt: a simple mocking framework for C++
 	- https://github.com/eranpeer/FakeIt
@@ -964,7 +969,7 @@ Test Doubles: Faking, Mocking
 - Google Test Automation Conference (GTAC)
 	- https://developers.google.com/google-test-automation-conference/
 
-## Talks - 2019
+## Talks: 2019
 
 - Back to Basics: Test-driven Development
 	- CppCon 2019; Fedor Pikus
@@ -973,7 +978,7 @@ Test Doubles: Faking, Mocking
 	- CppCon 2019; Mark Isaacson
 	- https://www.youtube.com/watch?v=p7xdNjdtojU
 
-## Talks - 2018
+## Talks: 2018
 
 - But is it fun? Software Testing in the Video Game Industry
 	- ICST 2018
@@ -983,7 +988,7 @@ Test Doubles: Faking, Mocking
 	- CppCon 2018; Jon Cohen
 	- https://www.youtube.com/watch?v=XPzHNSUnTc4
 
-## Talks - 2017
+## Talks: 2017
 
 - C++ Unit testing - the good, the bad & the ugly
 	- NDC 2017; Dror Helper
@@ -1000,7 +1005,7 @@ Test Doubles: Faking, Mocking
 	- CppCon 2017; Peter Sommerlad
 	- https://www.youtube.com/watch?v=uhuHZXTRfH4
 
-## Talks - 2016
+## Talks: 2016
 
 - Assessing software quality from first principles
 	- UCIBrenICS Seminar 2016
@@ -1008,7 +1013,7 @@ Test Doubles: Faking, Mocking
 	- code coverage and mutation testing
 	- https://www.youtube.com/watch?v=RIVLHQjpTck
 
-## Talks - 2015
+## Talks: 2015
 
 - Advanced Unit Testing in C & C++
 	- CppCon 2015; Matt Hargett
@@ -1020,7 +1025,7 @@ Test Doubles: Faking, Mocking
 	- GDC Europe 2015;  Alen Ladavac 
 	- http://www.gdcvault.com/play/1022784/Fast-Iteration-Tools-in-the
 
-## Talks - 2014
+## Talks: 2014
 
 - Pragmatic Unit Testing in C++
 	- CppCon 2014; Matt Hargett

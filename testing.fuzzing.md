@@ -11,6 +11,7 @@ See also:
 - [Readings](#readings): [Books](#readings-books), [General](#readings-general), [Practice](#readings-practice)
 - [Software](#software)
 	- [Software: AFL](#software-afl)
+	- [Software: libFuzzer](#software-libfuzzer)
 	- [Software: Benchmarking](#software-benchmarking)
 	- [Software: OS: Linux](#software-os-linux)
 	- [Software: OS: Windows](#software-os-windows)
@@ -104,10 +105,10 @@ See also:
 - John Regehr
 	- Who Fuzzes the Fuzzer? - https://blog.regehr.org/archives/501
 	- Better Random Testing by Leaving Features Out - https://blog.regehr.org/archives/591
-	- Draft Paper about Better Fuzzing - https://blog.regehr.org/archives/595
 	- Swarm Testing
 		- ISSTA 2012; Alex Groce, Chaoqiang Zhang, Eric Eide, Yang Chen, John Regehr
 		- http://www.cs.utah.edu/~regehr/papers/swarm12.pdf
+		- Draft Paper about Better Fuzzing - https://blog.regehr.org/archives/595
 	- Tricking a Whitebox Testcase Generator - https://blog.regehr.org/archives/672
 	- How to Fuzz an ADT Implementation - https://blog.regehr.org/archives/896
 	- Fuzzers Need Taming - https://blog.regehr.org/archives/925
@@ -126,6 +127,11 @@ See also:
 		- https://link.springer.com/chapter/10.1007/978-3-319-66332-6_2
 	- Orthrus: A tool to manage, conduct, and assess dictionary-based fuzz testing
 		- https://github.com/test-pipeline/Orthrus
+- The Art of Fuzzing – Slides and Demos
+	- 2017; René Freingruber
+	- AFL & WinAFL, Taint Analysis, Reversing Tricks for Fuzzing, in-memory fuzzing, DynamoRio
+	- https://sec-consult.com/en/blog/2017/11/the-art-of-fuzzing-slides-and-demos/
+	- https://sec-consult.com/wp-content/uploads/files/vulnlab/the_art_of_fuzzing_slides.pdf
 - What You Corrupt Is Not What You Crash: Challenges in Fuzzing Embedded Devices
 	- NDSS 2018
 	- M. Muench, J. Stijohann, F. Kargl, A. Francillon, Davide Balzarotti
@@ -179,30 +185,18 @@ See also:
 		- ESEC/FSE 2019
 		- Daniel Liew, Cristian Cadar, Alastair F. Donaldson, and J. Ryan Stinnett.
 		- https://srg.doc.ic.ac.uk/files/papers/jfs-esecfse-19.pdf
-- libFuzzer – a library for coverage-guided fuzz testing.
-	- http://llvm.org/docs/LibFuzzer.html
-	- https://github.com/ouspg/libfuzzerfication
-	- http://tutorial.libFuzzer.info
-	- libprotobuf-mutator
-		- a library to randomly mutate protobuffers; can be used together with guided fuzzing engines, such as libFuzzer
-		- https://github.com/google/libprotobuf-mutator
-	- Materials of "Modern fuzzing of C/C++ Projects" workshop
-		- The first version of the workshop had been presented at ZeroNights'16 security conference.
-		- https://github.com/Dor1s/libfuzzer-workshop
-	- Deconstructing LibProtobuf/Mutator Fuzzing - https://bshastry.github.io/2019/01/18/Deconstructing-LPM.html
-	- Introduction to using libFuzzer with llvm-toolset - https://developers.redhat.com/blog/2019/03/05/introduction-to-using-libfuzzer-with-llvm-toolset/
-	- Efficient Fuzzer Guide - https://chromium.googlesource.com/chromium/src/testing/libfuzzer/+/HEAD/efficient_fuzzer.md
-	- Fuzzing arbitrary functions in ELF binaries using LIEF and LibFuzzer - https://blahcat.github.io/2018/03/11/fuzzing-arbitrary-functions-in-elf-binaries/
+- MoonLight: Fuzzing Corpus Design and Construction
+	- https://gitlab.anu.edu.au/lunar/moonlight
 - Nautilus: Fishing for Deep Bugs with Grammars
 	- https://github.com/RUB-SysSec/nautilus
 	- Network and Distributed System Security Symposium (NDSS) 2019
-	- Cornelius Aschermann, Tommaso Frassetto, Thorsten Holz, Patrick Jauernig, Ahmad-Reza Sadeghi, Daniel Teuchert
-	- https://www.syssec.ruhr-uni-bochum.de/research/publications/nautilus/
+		- Cornelius Aschermann, Tommaso Frassetto, Thorsten Holz, Patrick Jauernig, Ahmad-Reza Sadeghi, Daniel Teuchert
+		- https://www.syssec.ruhr-uni-bochum.de/research/publications/nautilus/
 - Orthrus
 	- https://github.com/test-pipeline/orthrus
 	- Orthrus is a tool for managing, conducting, and assessing dictionary-based security (fuzz) testing for autotools projects. At the moment, it supports Clang/LLVM instrumentation and the AFL ecosystem (afl-fuzz, afl-utils, afl-cov). The ultimate aim is for Orthrus to be a generic wrapper around state-of-the-art fuzz and instrumentation tools on the one hand, and disparate build systems on the other.
 	- Static Program Analysis as a Fuzzing Aid
-			- RAID 2017
+		- RAID 2017
 			- Bhargava Shastry, Markus Leutner, Tobias Fiebig, Kashyap Thimmaraju, Fabian Yamaguchi, Konrad Rieck, Stefan Schmid, Jean-Pierre Seifert, Anja Feldmann
 			- https://aperture-labs.org/pdf/raid2017.pdf
 			- http://users.sec.t-labs.tu-berlin.de/~bshastry/raid17_slidedeck.pdf
@@ -265,6 +259,9 @@ See also:
 		- Conference on Computer and Communications Security (CCS) 2017
 		- Marcel Böhme, Van-Thuan Pham, Manh-Dung Nguyen, Abhik Roychoudhury
 		- http://www.comp.nus.edu.sg/~abhik/pdf/CCS17.pdf
+- Awesome-AFL
+	- A curated list of different AFL forks and AFL inspired fuzzers with detailed equivalent academic papers with AFL-fuzzing tutorials
+	- https://github.com/Microsvuln/Awesome-AFL
 - Driller: augmenting AFL with symbolic execution!
 	- https://github.com/shellphish/driller
 	- Driller: Augmenting fuzzing through selective symbolic execution
@@ -277,6 +274,29 @@ See also:
 	- https://github.com/googleprojectzero/winafl
 - Zoo AFL: AFL utilities and modifications
 	- https://habr.com/en/company/dsec/blog/449134/
+
+## Software: libFuzzer
+
+- libFuzzer – a library for coverage-guided fuzz testing.
+	- http://llvm.org/docs/LibFuzzer.html
+	- http://tutorial.libFuzzer.info
+- Deconstructing LibProtobuf/Mutator Fuzzing
+	- https://bshastry.github.io/2019/01/18/Deconstructing-LPM.html
+- Efficient Fuzzing Guide
+	- https://chromium.googlesource.com/chromium/src/testing/libfuzzer/+/HEAD/efficient_fuzzing.md
+- Fuzzing arbitrary functions in ELF binaries using LIEF and LibFuzzer
+	- https://blahcat.github.io/2018/03/11/fuzzing-arbitrary-functions-in-elf-binaries/
+- Introduction to using libFuzzer with llvm-toolset
+	- https://developers.redhat.com/blog/2019/03/05/introduction-to-using-libfuzzer-with-llvm-toolset/
+- libfuzzer-workshop
+	- Materials of "Modern fuzzing of C/C++ Projects" workshop
+	- https://github.com/Dor1s/libfuzzer-workshop
+- libfuzzerfication
+	- LibFuzzerfication project uses libFuzzer for fuzzing popular applications and libraries.
+	- https://github.com/ouspg/libfuzzerfication
+- libprotobuf-mutator
+	- a library to randomly mutate protobuffers; can be used together with guided fuzzing engines, such as libFuzzer
+	- https://github.com/google/libprotobuf-mutator
 
 ## Software: Benchmarking
 
@@ -346,16 +366,33 @@ Fuzzing applied to software performance.
 	- CppCon 2019: Jim Radigan 
 	- https://www.youtube.com/watch?v=0EsqxGgYOQU
 	- https://github.com/CppCon/CppCon2019/tree/master/Presentations/address_sanitizers__cloud_at_microsoft
+- Going Beyond Coverage-Guided Fuzzing with Structured Fuzzing
+	- Black Hat 2019; Jonathan Metzman
+	- https://www.youtube.com/watch?v=S8JvzWDnjc0
+	- https://www.blackhat.com/us-19/briefings/schedule/#going-beyond-coverage-guided-fuzzing-with-structured-fuzzing-16110
+- Make your programs more reliable with Fuzzing
+	- ACCU 2019; Marshall Clow
+	- https://www.youtube.com/watch?v=x0FQkAPokfE
 - Modern Source Fuzzing
 	- OffensiveCon19; Ned Williamson
 	- https://www.youtube.com/watch?v=xzG0pLM4Q64
+- Testing Legacy Code - Fuzzing for Better Input Data
+	- Meeting C++ 2019; Tina Ulbrich, Niel Waldren
+	- https://meetingcpp.com/mcpp/slides/2019/Testing%20Legacy%20Code%20-%20Fuzzing%20for%20Better%20Input%20Data.pdf
 
 ## Talks: 2018
 
+- Adventures in Fuzzing
+	- NYU Talk 2018; Brandon Falk
+	- https://www.youtube.com/watch?v=SngK4W4tVc0
+	- https://github.com/gamozolabs/adventures_in_fuzzing
+- Finding security vulnerabilities with modern fuzzing techniques
+	- RuhrSec 2018; Rene Freingruber
+	- https://www.youtube.com/watch?v=KFmeHz_vxfo
 - Fuzzing Corpus Optimization - Moonwalking with Moonbeams
 	- CSides Canberra 2018; Shane Magrath
-	- https://github.com/DSTCyber/presentations/tree/master/fuzzing-corpus-distillation
-	- https://gitlab.anu.edu.au/lunar/moonshine
+	- https://github.com/DSTCyber/presentations/tree/master/2018-fuzzing-corpus-distillation
+	- https://gitlab.anu.edu.au/lunar/moonlight
 - Fuzzing with AFL
 	- NDC TechTown 2018; Erlend Oftedal
 	- https://www.youtube.com/watch?v=DFQT1YxvpDo
@@ -367,6 +404,10 @@ Fuzzing applied to software performance.
 - Seems Exploitable: Exposing Hidden Exploitable Behaviors Using Extended Differential Fuzzing
 	- HITB2018AMS; Fernando Arnaboldi
 	- https://conference.hitb.org/hitbsecconf2018ams/sessions/seems-exploitable-exposing-hidden-exploitable-behaviors-using-extended-differential-fuzzing/
+- Structure aware fuzzing
+	- Meeting C++ 2018; Réka Kovács 
+	- https://www.youtube.com/watch?v=wTWNmOSKfD4
+	- https://meetingcpp.com/mcpp/slides/2018/Structured%20fuzzing.pdf
 - Want more stable kernel? Fuzz it!
 	- DevConf.cz 2018; Hangbin Liu
 	- https://www.youtube.com/watch?v=XlPQpVlC37A
@@ -381,9 +422,12 @@ Fuzzing applied to software performance.
 - Finding Security Vulnerabilities by Fuzzing and Dynamic Code Analysis
 	- Verification Futures 2017; Richard Storer
 	- http://www.testandverification.com/wp-content/uploads/2017/Verification_Futures/Richard_Storer_MathEmbedded.pdf
-	- https://www.youtube.com/watch?v=vCLLA7C5Afg&t=738s
+	- https://www.youtube.com/watch?v=vCLLA7C5Afg
+- Fuzz or lose: why and how to make fuzzing a standard practice for C++
+	- CppCon 2017; Kostya Serebryany
+	- https://www.youtube.com/watch?v=k-Cv8Q3zWNQ
 - Fuzz Testing
-	- C++ Weekly - Ep 85 - Jason Turner
+	- C++ Weekly 85; Jason Turner
 	- https://www.youtube.com/watch?v=gO0KBoqkOoU
 - Fuzzing with AFL
 	- Circle City Con 2017; Adam DC949
@@ -392,11 +436,6 @@ Fuzzing applied to software performance.
 	- FOSDEM 2017; Max Moroz
 	- https://archive.fosdem.org/2017/schedule/event/om_fuzzing/
 	- https://www.youtube.com/watch?v=QQs82BdoA9c
-- The Art of Fuzzing – Slides and Demos
-	- 2017; René Freingruber
-	- https://sec-consult.com/en/blog/2017/11/the-art-of-fuzzing-slides-and-demos/
-	- https://sec-consult.com/wp-content/uploads/files/vulnlab/the_art_of_fuzzing_slides.pdf
-	- AFL & WinAFL, Taint Analysis, Reversing Tricks for Fuzzing, in-memory fuzzing, DynamoRio
 
 ## Talks: 2016
 
@@ -410,7 +449,7 @@ Fuzzing applied to software performance.
 	- BSides San Francisco 2016; Craig Young
 	- https://www.youtube.com/watch?v=29RbO5bftwo
 - The Smart Fuzzer Revolution
-	- BSides Lisbon 2016 - Keynote - Dan Guido
+	- BSides Lisbon 2016; Dan Guido
 	- https://www.youtube.com/watch?v=g1E2Ce5cBhI
 
 ## Talks: 2015
