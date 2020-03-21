@@ -11,6 +11,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	- [Instruction Set Architecture](#instruction-set-architecture)
 	- [Performance](#performance)
 	- [Security](#security):
+		- [Memory Tagging Extension (MTE)](#memory-tagging-extension-mte)
 		- [Pointer Authentication](#pointer-authentication)
 		- [TrustZone](#trustzone)
 	- [Simulation](#simulation)
@@ -334,11 +335,6 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 ## Security
 
 * ARM Lab Environment - https://www.vulnhub.com/series/arm-lab,145/
-* ARM Memory Tagging Extension and How It Improves C/C++ Memory Safety 
-	+ USENIX ;login: Summer 2019, Vol. 44, No. 2 
-	+ Kostya Serebryany
-	+ https://www.usenix.org/publications/login/summer2019/serebryany
-	+ <https://github.com/google/sanitizers/blob/master/hwaddress-sanitizer/login_summer19_03_serebryany.pdf>
 * ARM Return Oriented Programming (ROP) - Billy Ellis
 	+ Cheatsheet - https://twitter.com/bellis1000/status/929713826106396673
 	+ https://billy-ellis.github.io/armintro.html
@@ -382,6 +378,37 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	+ Zhenyu Ning, Fengwei Zhang
 	+ https://compass.cs.wayne.edu/nailgun/
 	+ http://webpages.eng.wayne.edu/~fy8421/paper/nailgun-sp19.pdf
+
+### Memory Tagging Extension (MTE)
+
+- ARM Memory Tagging Extension and How It Improves C/C++ Memory Safety
+	- USENIX ;login: Vol. 44, No. 2 Summer 2019
+	- Kostya Serebryany
+	- https://www.usenix.org/publications/login/summer2019/serebryany
+	- <https://github.com/google/sanitizers/blob/master/hwaddress-sanitizer/login_summer19_03_serebryany.pdf>
+- Hardware-assisted AddressSanitizer (HWASAN)
+	- Design Documentation - https://clang.llvm.org/docs/HardwareAssistedAddressSanitizerDesign.html
+	- Talks - https://github.com/google/sanitizers/tree/master/hwaddress-sanitizer
+		- Hardware Memory Tagging to make C/C++ memory safe(r)
+			- iSecCon 2018; Kostya Serebryany
+			- https://github.com/google/sanitizers/blob/master/hwaddress-sanitizer/MTE-iSecCon-2018.pdf
+		- Towards a fully sanitizable C++, with the help from hardware
+			- PLEMM 2019; Kostya Serebryany
+			- https://github.com/google/sanitizers/blob/master/hwaddress-sanitizer/plemm-2019.pdf
+- Memory Tagging and how it improves C/C++ memory safety
+	- 2018
+	- Kostya Serebryany, Evgenii Stepanov, Aleksey Shlyapnikov, Vlad Tsyrklevich, Dmitry Vyukov
+	- https://arxiv.org/abs/1802.09517
+	- https://research.google/pubs/pub46800/
+- Memory Tagging, how it improves C++ memory safety, and what does it mean for compiler optimizations
+	- 2018 LLVM Developers’ Meeting
+	- Kostya Serebryany, Evgenii Stepanov, Vlad Tsyrklevich
+	- https://llvm.org/devmtg/2018-10/talk-abstracts.html#talk16
+- scudo: Add initial memory tagging support
+	- https://reviews.llvm.org/D70762
+- Security analysis of memory tagging
+	- 2020; Joe Bialek, Ken Johnson, Matt Miller, Tony Chen
+	- https://github.com/microsoft/MSRC-Security-Research/blob/master/papers/2020/Security%20analysis%20of%20memory%20tagging.pdf
 
 ### Pointer Authentication
 
