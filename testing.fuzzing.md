@@ -379,6 +379,9 @@ Fuzzing applied to software performance.
 - Testing Legacy Code - Fuzzing for Better Input Data
 	- Meeting C++ 2019; Tina Ulbrich, Niel Waldren
 	- https://meetingcpp.com/mcpp/slides/2019/Testing%20Legacy%20Code%20-%20Fuzzing%20for%20Better%20Input%20Data.pdf
+- Fuzzing for developers
+	- StockholmCpp::0x15 - Pi Day 2019; Paul Dreik
+	- https://www.youtube.com/watch?v=e_Oc9SkCo5s
 
 ## Talks: 2018
 
