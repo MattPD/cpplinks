@@ -32,6 +32,7 @@ See also:
 		- [CMake Readings](#cmake-readings)
 		- [CMake Software](#cmake-software)
 		- [CMake Talks](#cmake-talks)
+	- [FASTBuild](#fastbuild)
 	- [Gradle](#gradle)
 	- [Make](#make):
 		- [GNU Make](#gnu-make)
@@ -493,6 +494,8 @@ See also:
 	- https://cgold.readthedocs.io/en/latest/
 - CMake 3.16 added support for precompiled headers & unity builds - what you need to know
 	- http://onqtam.com/programming/2019-12-20-pch-unity-cmake-3-16/
+- CMake basics
+	- https://www.siliceum.com/en/blog/post/cmake_01_cmake-basics
 - CMake Coding Style
 	- https://community.kde.org/Policies/CMake_Coding_Style
 - Dev Santa Claus - Nick Sarten
@@ -619,6 +622,14 @@ See also:
 - Using Modern CMake Patterns to Enforce a Good Modular Design
 	- CppCon 2017; Mathieu Ropert 
 	- https://www.youtube.com/watch?v=eC9-iRN2b04
+
+## FASTBuild
+
+- FASTBuild
+	- a high performance, open-source build system for Windows, Linux, and OS X
+	- supports highly scalable compilation, caching and network distribution
+	- https://github.com/fastbuild/fastbuild
+	- https://www.fastbuild.org/
 
 ## Gradle
 
