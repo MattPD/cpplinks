@@ -170,6 +170,8 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- https://cor3ntin.github.io/posts/cpp20/
 - Trip Report: C++ Standards Meeting in Prague, February 2020
 	- https://botondballo.wordpress.com/2020/03/12/trip-report-c-standards-meeting-in-prague-february-2020/
+- Trip report: February 2020 ISO C++ committee meeting, Prague
+	- https://timur.audio/trip-report-february-2020-iso-c-committee-meeting-prague
 - Trip report: Winter ISO C++ standards meeting (Prague)
 	- https://herbsutter.com/2020/02/15/trip-report-winter-iso-c-standards-meeting-prague/
 - WG21 in Prague - (Partial) Trip Report
@@ -842,8 +844,8 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 		- https://www.youtube.com/watch?v=69edOm889V4
 		- http://www.computerhistory.org/collections/catalog/102624733
 	- The programming language standards scene, ten years on Paper 16: C++
-		- Richard M. De Morgan
 		- Computer Standards & Interfaces 16 (1994)
+		- Richard M. De Morgan
 		- https://doi.org/10.1016/0920-5489(94)90036-1
 - 1993
 	- Five Little Languages and How They Grew: Talk at HOPL
