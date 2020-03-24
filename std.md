@@ -114,6 +114,9 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- https://www.bfilipek.com/2018/12/c-at-end-of-2018.html
 - C++ at the end of 2019
 	- https://www.bfilipek.com/2019/12/cpp-status-2019.html
+- Changes between C++17 and C++20
+	- 2020-03-02; Thomas Köppe
+	- https://wg21.link/p2131
 
 ## C++20: Talks
 
@@ -682,6 +685,14 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- https://github.com/justinmeiners/sgi-stl-docs
 	- http://www.martinbroadhurst.com/stl/
 	- http://www.rrsd.com/software_development/stl/
+
+## History (2020)
+
+- Direction for ISO C++
+	- 2020-01-13
+	- Michael Wong, Howard Hinnant, Roger Orr, Bjarne Stroustrup, Daveed Vandevoorde
+	- https://wg21.link/p2000
+	- http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2020/p2000r1.pdf
 
 ## History (2019)
 
