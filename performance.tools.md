@@ -252,6 +252,9 @@
 	- http://www.brendangregg.com/blog/2016-03-28/linux-bpf-bcc-road-ahead-2016.html
 	- http://www.brendangregg.com/blog/2016-06-14/ubuntu-xenial-bcc-bpf.html
 	- https://qmonnet.github.io/whirl-offload/2016/09/01/dive-into-bpf/
+- Caliper: A Performance Analysis Toolbox in a Library
+	- an instrumentation and performance profiling library
+	- https://github.com/LLNL/Caliper
 - Coz: Finding Code that Counts with Causal Profiling
 	- https://github.com/plasma-umass/coz/
 	- Charlie Curtsinger, Emery Berger
@@ -345,6 +348,8 @@
 - Flame Graphs
 	- http://www.brendangregg.com/flamegraphs.html
 	- http://queue.acm.org/detail.cfm?id=2927301
+	- Memory Leak (and Growth) Flame Graphs
+		- http://www.brendangregg.com/FlameGraphs/memoryflamegraphs.html
 - FlameScope: a visualization tool for exploring different time ranges as Flame Graphs
 	- https://github.com/Netflix/flamescope
 	- Netflix FlameScope - https://medium.com/@NetflixTechBlog/netflix-flamescope-a57ca19d47bb
