@@ -875,31 +875,35 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ### Windows
 
-* An RPC Debugging Framework with Visual Studio
-	+ http://donw.io/post/rpc-debugging-vs/
-* ArkDasm: 64-bit interactive disassembler and debugger for Windows
-	+ http://www.arkdasm.com/
-* DbgShell: A PowerShell front-end for the Windows debugger engine
-	+ https://github.com/Microsoft/DbgShell/
-* Debug Recipes (.NET and Windows problems) - https://github.com/lowleveldesign/debug-recipes
-* Debugging in Visual Studio - https://docs.microsoft.com/en-us/visualstudio/debugger/debugger-feature-tour
-* Debugging Tools for Windows (WinDbg, KD, CDB, NTSD)
-	+ https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/
-* DuBStep (Dynamic Breakpoint API): A Library for creating hardware execution and data breakpoints at runtime on Win32/Win64
-	+ https://github.com/justinboswell/dubstep
-* makin - reveal anti-debug tricks (Windows) - https://github.com/secrary/makin
-* Nanomite - Windows Debugger for x64 and x86 - https://github.com/zer0fl4g/Nanomite/
-* OllyDbg - http://www.ollydbg.de/
-* ScyllaHide: Advanced usermode anti-anti-debugger
-	+ https://github.com/x64dbg/ScyllaHide
-* TitanHide: Hiding kernel-driver for x86/x64
-	+ a driver intended to hide debuggers from certain processes
-	+ https://github.com/mrexodia/TitanHide
-* Windows Debugging Tools - Debugging Resources
-	+ https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-resources
-* x64dbg
-	+ https://x64dbg.com/
-	+ https://github.com/x64dbg/x64dbg
+- An RPC Debugging Framework with Visual Studio
+	- http://donw.io/post/rpc-debugging-vs/
+- ArkDasm: 64-bit interactive disassembler and debugger for Windows
+	- http://www.arkdasm.com/
+- Creating a Public Symbol Server, Easily
+	- https://randomascii.wordpress.com/2020/03/14/creating-a-public-symbol-server-easily/
+- DbgShell: A PowerShell front-end for the Windows debugger engine
+	- https://github.com/Microsoft/DbgShell/
+- Debug Recipes (.NET and Windows problems) - https://github.com/lowleveldesign/debug-recipes
+- Debugging in Visual Studio - https://docs.microsoft.com/en-us/visualstudio/debugger/debugger-feature-tour
+- Debugging Tools for Windows (WinDbg, KD, CDB, NTSD)
+	- https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/
+- DuBStep (Dynamic Breakpoint API): A Library for creating hardware execution and data breakpoints at runtime on Win32/Win64
+	- https://github.com/justinboswell/dubstep
+- kdmp-parser: Windows kernel dump C++ parser
+	- https://github.com/0vercl0k/kdmp-parser
+- makin - reveal anti-debug tricks (Windows) - https://github.com/secrary/makin
+- Nanomite - Windows Debugger for x64 and x86 - https://github.com/zer0fl4g/Nanomite/
+- OllyDbg - http://www.ollydbg.de/
+- ScyllaHide: Advanced usermode anti-anti-debugger
+	- https://github.com/x64dbg/ScyllaHide
+- TitanHide: Hiding kernel-driver for x86/x64
+	- a driver intended to hide debuggers from certain processes
+	- https://github.com/mrexodia/TitanHide
+- Windows Debugging Tools - Debugging Resources
+	- https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-resources
+- x64dbg
+	- https://x64dbg.com/
+	- https://github.com/x64dbg/x64dbg
 
 #### Visual Studio Debugger
 
@@ -908,39 +912,43 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 #### WinDbg
 
-* Introduction to WinDbg and debugging Windows - series by Anand George
-	+ https://www.youtube.com/playlist?list=PLhx7-txsG6t6n_E2LgDGqgvJtCHPL7UFu
-* Modern Debugging with WinDbg Preview
-	+ DEFCON 27 (2019) Workshop Materials
-	+ https://github.com/hugsy/defcon_27_windbg_workshop/
-	+ WinDbg cheatsheet
+- Introduction to WinDbg and debugging Windows - series by Anand George
+	- https://www.youtube.com/playlist?list=PLhx7-txsG6t6n_E2LgDGqgvJtCHPL7UFu
+- Modern Debugging with WinDbg Preview
+	- DEFCON 27 (2019) Workshop Materials
+	- https://github.com/hugsy/defcon_27_windbg_workshop/
+	- WinDbg cheatsheet
 		- https://github.com/hugsy/defcon_27_windbg_workshop/blob/master/windbg_cheatsheet.md
-* Time Travel Debugging - James McNellis
-	+ Meeting C++ 2018 - https://www.youtube.com/watch?v=MyVQnP-U_ho
-	+ Pacific++ 2018 - https://www.youtube.com/watch?v=BVslyei0804
-* WinDbg Basics for Malware Analysis
-	+ https://www.youtube.com/watch?v=QuFJpH3My7A
+- Time Travel Debugging - James McNellis
+	- Meeting C++ 2018 - https://www.youtube.com/watch?v=MyVQnP-U_ho
+	- Pacific++ 2018 - https://www.youtube.com/watch?v=BVslyei0804
+- WinDbg Basics for Malware Analysis
+	- https://www.youtube.com/watch?v=QuFJpH3My7A
 
 ##### Readings
 
-* Collection of WinDBG resources - https://blogs.msdn.microsoft.com/reiley/2012/07/28/collection-of-windbg-resources/
-* Debugger Data Model, Javascript & X64 Exception Handling - https://doar-e.github.io/blog/2017/12/01/debugger-data-model/
-* Debugging Tools for Windows - https://blogs.msdn.microsoft.com/windbg/
-* JavaScript bridge makes malware analysis with WinDbg easier 
-	+ https://blog.talosintelligence.com/2019/02/windbg-malware-analysis-with-javascript.html
-* Stupid debugger tricks: Calling functions and methods - https://blogs.msdn.microsoft.com/oldnewthing/20070427-00/?p=27083
-* Time travel debugging: It’s a blast! (from the past)
-	+ https://blogs.technet.microsoft.com/srd/2019/05/29/time-travel-debugging-its-a-blast-from-the-past/
-* Tutorial: Using WinDBG to call arbitrary functions — WinDBG kung-fu series
-	+ http://cfc.kizzx2.com/index.php/tutorial-using-windbg-to-call-arbitrary-functions-windbg-kung-fu-series/
-* Undocumented WinDBG - https://blogs.msdn.microsoft.com/reiley/2011/10/30/undocumented-windbg/
-* Use Windows Debuggers for Non-Debugging Tasks - https://blogs.msdn.microsoft.com/reiley/2011/10/23/use-windows-debuggers-for-non-debugging-tasks/
-* Using Function Evaluation in WinDBG - https://blogs.msdn.microsoft.com/reiley/2012/08/18/using-function-evaluation-in-windbg/
-* Windbg automation and extensions - https://nativecoding.wordpress.com/2016/01/10/automate-attach-to-process-on-windows-with-windbg/
-* WinDbg Malware Analysis Cheat Sheet
-	+ https://oalabs.openanalysis.net/2019/02/18/windbg-for-malware-analysis/
-* WinDbg, Debugger Objects, and JavaScript! Oh, My! - https://www.osr.com/blog/2017/05/18/windbg-debugger-objects-javascript-oh/
-* Yet Another Hello World - https://blogs.msdn.microsoft.com/reiley/2011/09/29/yet-another-hello-world/
+- Collection of WinDBG resources - https://blogs.msdn.microsoft.com/reiley/2012/07/28/collection-of-windbg-resources/
+- Debugger Data Model, Javascript & X64 Exception Handling - https://doar-e.github.io/blog/2017/12/01/debugger-data-model/
+- Debugging Tools for Windows - https://blogs.msdn.microsoft.com/windbg/
+- Exploiting flaws in Windbg: how to escape or fool debuggers from existing flaws
+	- Journal of Computer Virology and Hacking Techniques (2020)
+	- François Plumerault, Baptiste David
+	- http://dx.doi.org/10.1007/s11416-020-00347-x
+- JavaScript bridge makes malware analysis with WinDbg easier 
+	- https://blog.talosintelligence.com/2019/02/windbg-malware-analysis-with-javascript.html
+- Stupid debugger tricks: Calling functions and methods - https://blogs.msdn.microsoft.com/oldnewthing/20070427-00/?p=27083
+- Time travel debugging: It’s a blast! (from the past)
+	- https://blogs.technet.microsoft.com/srd/2019/05/29/time-travel-debugging-its-a-blast-from-the-past/
+- Tutorial: Using WinDBG to call arbitrary functions — WinDBG kung-fu series
+	- http://cfc.kizzx2.com/index.php/tutorial-using-windbg-to-call-arbitrary-functions-windbg-kung-fu-series/
+- Undocumented WinDBG - https://blogs.msdn.microsoft.com/reiley/2011/10/30/undocumented-windbg/
+- Use Windows Debuggers for Non-Debugging Tasks - https://blogs.msdn.microsoft.com/reiley/2011/10/23/use-windows-debuggers-for-non-debugging-tasks/
+- Using Function Evaluation in WinDBG - https://blogs.msdn.microsoft.com/reiley/2012/08/18/using-function-evaluation-in-windbg/
+- Windbg automation and extensions - https://nativecoding.wordpress.com/2016/01/10/automate-attach-to-process-on-windows-with-windbg/
+- WinDbg Malware Analysis Cheat Sheet
+	- https://oalabs.openanalysis.net/2019/02/18/windbg-for-malware-analysis/
+- WinDbg, Debugger Objects, and JavaScript! Oh, My! - https://www.osr.com/blog/2017/05/18/windbg-debugger-objects-javascript-oh/
+- Yet Another Hello World - https://blogs.msdn.microsoft.com/reiley/2011/09/29/yet-another-hello-world/
 
 ##### Projects
 
