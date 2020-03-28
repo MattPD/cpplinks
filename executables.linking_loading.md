@@ -21,7 +21,7 @@ See also:
 - [Software](#software):
 	- [Linkers](#software-linkers)
 	- [OS: macOS](#software-os-macos)
-	- [OS: Linux](#software-os-windows)
+	- [OS: Linux](#software-os-linux)
 - [Talks](#talks): [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016)
 
 ---
@@ -199,6 +199,8 @@ See also:
 - Linker limitations on 32-bit architectures
 	- 2019; Alexander E. Patrakov
 	- https://lwn.net/Articles/797303/
+- Linux EDR Evasion With Meterpreter and LD_PRELOAD
+	- https://forensicitguy.github.io/posts/linux-edr-evasion-with-ld-preload/
 - Linux Internals
 	- Dynamic Linking Wizardry
 		- https://0x00sec.org/t/linux-internals-dynamic-linking-wizardry/1082
@@ -320,8 +322,14 @@ See also:
 
 ## Software: OS: macOS
 
+- ld64: Instructions on how to build the ld64 linker on macOS
+	- https://github.com/dmaclach/ld64
+- [lld] Initial commit for new Mach-O backend
+	- https://reviews.llvm.org/D75382
 - macdylibbundler: Utility to ease bundling libraries into executables for OSX
 	- https://github.com/auriamg/macdylibbundler
+- zld: A faster version of Apple's linker
+	- https://github.com/michaeleisel/zld
 
 ## Software: OS: Linux
 
@@ -337,6 +345,15 @@ See also:
 		- Ivannikov ISPRAS Open Conference (ISPRAS) 2017
 		- V. Ivanishin, E. Kudryashov, A. Monakov, D. Melnik, J. Lee
 		- https://doi.org/10.1109/ISPRAS.2017.00007
+- libpreloadvaccine: Whitelisting LD_PRELOAD libraries using LD_AUDIT
+	- https://github.com/ForensicITGuy/libpreloadvaccine
+	- Whitelisting LD_PRELOAD for Fun and No Profit
+		- Shmoocon 2020; Tony Lambert
+		- https://www.youtube.com/watch?v=nM9Y2Sky6S0
+		- https://speakerdeck.com/forensicitguy/whitelisting-ld-preload-for-fun-and-no-profit
+- libprocesshider: Hide a process under Linux using the ld preloader
+	- https://github.com/gianlucaborello/libprocesshider
+	- https://sysdig.com/blog/hiding-linux-processes-for-fun-and-profit/
 
 ---
 
