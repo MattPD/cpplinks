@@ -759,6 +759,9 @@ See also:
 - MSBuild (Visual C++) - https://docs.microsoft.com/en-us/cpp/build/msbuild-visual-cpp 
 - Make VC++ Compiles Fast Through Parallel Compilation
 	- https://randomascii.wordpress.com/2014/03/22/make-vc-compiles-fast-through-parallel-compilation/
+- Microsoft AnyBuild
+	- Remote build execution technology for use in MSBuild, Microsoft Build Accelerator, and other build engines
+	- https://github.com/microsoft/AnyBuild
 - Microsoft.Build (MSBuild)
 	- The Microsoft Build Engine: the build platform for .NET and Visual Studio
 	- https://github.com/Microsoft/msbuild
