@@ -93,6 +93,9 @@
 	- What is ABI, and What Should WG21 Do About It?
 		- 2020; Titus Winters
 		- http://wg21.link/P2028
+	- Extending the Type System to Provide API and ABI Flexibility
+		- P2123R0; 2020-03-04; Hal Finkel, Tom Scogland
+		- http://wg21.link/p2123
 - C++: Under the Hood (March 1994) by Jan Gray
 	- http://files.rsdn.org/4539/cud94.htm
 	- https://blogs.msdn.microsoft.com/xiangfan/2012/02/06/c-under-the-hood/
@@ -139,6 +142,11 @@
 	- Talk: Libabigail: How semantic analysis of C and C++ ELF binaries can be used to analyze ABI changes (openSUSE Conference 2017)
 		- https://media.ccc.de/v/1234-libabigail-how-semantic-analysis-of-c-and-c-elf-binaries-can-be-used-to-analyze-abi-changes
 		- https://www.youtube.com/watch?v=wxVBuZK8Dl0
+- abimap: A helper for library maintainers to use symbol versioning
+	- https://github.com/ansasaki/abimap
+	- Don't break your users: keep your API/ABI stable!
+		- DevConf.CZ 2020; Anderson Sasaki
+		- https://www.youtube.com/watch?v=tFuFO_bDke0
 - pexcheck: Pexcheck is a command-line tool for checking the binary compatibility of public interfaces.
 	- https://github.com/AVGTechnologies/pexcheck
 
