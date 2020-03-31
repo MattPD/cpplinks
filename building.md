@@ -239,6 +239,8 @@ See also:
 			- Which header files are included (hierarchically), with time taken for each,
 			- Which classes are being parsed, with time taken for each,
 			- Which functions are being parsed, with time taken for each.
+- Big Project Build Times–Chromium
+	- https://randomascii.wordpress.com/2020/03/30/big-project-build-times-chromium/
 - C++ Compilation Speed
 	- Walter Bright - DDJ, August 17, 2010
 	- https://digitalmars.com/articles/b54.html
