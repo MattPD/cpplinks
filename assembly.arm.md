@@ -179,6 +179,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- implementation of ARM ASL (architecture specification language)
 - ISA Semantics for ARMv8-A, RISC-V, and CHERI-MIPS
 	- POPL 2019
+	- Alasdair Armstrong, Thomas Bauereiss, Brian Campbell, Alastair Reid, Kathryn E. Gray, Robert M. Norton, Prashanth Mundkur, Mark Wassell, Jon French, Christopher Pulte, Shaked Flur, Ian Stark, Neel Krishnaswami, Peter Sewell
 	- <https://alastairreid.github.io/papers/POPL_19/>
 - L3: A Specification Language for Instruction Set Architectures
 	- http://www.cl.cam.ac.uk/~acjf3/arm/
@@ -529,7 +530,10 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	+ The Applications (‘A’) profile - https://developer.arm.com/products/architecture/a-profile/docs
 	+ The Real-Time (‘R’) profile - https://developer.arm.com/products/architecture/r-profile/docs
 	+ The Microcontroller (‘M’) profile - https://developer.arm.com/products/architecture/m-profile/docs
-* ARM Architecture Reference Manuals - http://infocenter.arm.com/help/topic/com.arm.doc.subset.architecture.reference/index.html#reference
+* ARM Architecture Reference Manuals
+	- http://infocenter.arm.com/help/topic/com.arm.doc.subset.architecture.reference/index.html#reference
+* Application Binary Interface for the Arm® Architecture
+	- https://github.com/ARM-software/abi-aa
 * A-Profile
 	+ A-Profile Architectures - Exploration Tools - https://developer.arm.com/products/architecture/a-profile/exploration-tools
 	+ ARM Architecture Reference Manual ARMv8, for ARMv8-A architecture profile
@@ -874,22 +878,24 @@ See also: [Performance Tools](performance.tools.md)
 
 ## 2017
 
-* A tour of the ARM architecture and its Linux support - linux.conf.au 2017
-	+ https://www.youtube.com/watch?v=NNol7fRGo2E
+* A tour of the ARM architecture and its Linux support
+	- linux.conf.au 2017; Thomas Petazzoni
+	- https://www.youtube.com/watch?v=NNol7fRGo2E
 * ARM Assembly and Shellcode Basics
 	+ 44CON 2017 Workshop; Saumil Shah
 	+ https://www.youtube.com/watch?v=BhjJBuX0YCU
 * ARM Developer Systems/Tools – BUD17-508 - http://connect.linaro.org/resource/bud17/bud17-508/
 * DynInst on arm64 – Status – BUD17-323 - http://connect.linaro.org/resource/bud17/bud17-323/
 * Formal verification by the book: ISA Formal at ARM
-	+ Formal Verification 2017 - Will Keen (Senior Engineer, CPU Group), ARM
+	+ Formal Verification 2017; Will Keen (Senior Engineer, CPU Group), ARM
 	+ https://www.youtube.com/watch?v=Z7-qkYOpu7I
 	+ http://www.testandverification.com/wp-content/uploads/2017/Formal_Verification/Will_Keen%20_ARM.pdf
 	+ http://www.testandverification.com/conferences/formal-verification-conference/fv2017/fv2017-formal-verification-book/
-* Hardware based tracing on ARM - Ralf Philipp Weinmann, ZeroNights 2017
-	+ https://www.youtube.com/watch?v=xX-B7tW7E_8
+* Hardware based tracing on ARM
+	- ZeroNights 2017; Ralf Philipp Weinmann
+	- https://www.youtube.com/watch?v=xX-B7tW7E_8
 * How can you trust formally verified software?
-	+ 34th Chaos Communication Congress (34C3) 2017 - Alastair Reid
+	+ 34th Chaos Communication Congress (34C3) 2017; Alastair Reid
 	+ https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8915.html
 	+ https://media.ccc.de/v/34c3-8915-how_can_you_trust_formally_verified_software
 	+ Slides: https://fahrplan.events.ccc.de/congress/2017/Fahrplan/system/event_attachments/attachments/000/003/393/original/How_can_you_trust_formally_verified_software_-_34C3_27_December_2017.pdf
