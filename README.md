@@ -4,6 +4,8 @@ A categorized list of C++ resources.
 
 ## Categories
 
+- Analysis
+  - [Dynamic program analysis](analysis.dynamic.md) - instrumentation, translation, sanitizers
 - Assembly
   - [ARM](assembly.arm.md) - ARM and AArch64
   - [RISC-V](assembly.riscv.md)
