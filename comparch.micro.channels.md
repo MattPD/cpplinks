@@ -64,6 +64,10 @@ See also: [Computer Architecture](comparch.md)
 	- arXiv 2018
 	- Claudio Canella, Jo Van Bulck, Michael Schwarz, Moritz Lipp, Benjamin von Berg, Philipp Ortner, Frank Piessens, Dmitry Evtyushkin, Daniel Gruss 
 	- https://arxiv.org/abs/1811.05441
+- Communication Model and Capacity Limits of Covert Channels Created by Software Activities
+	- IEEE Transactions on Information Forensics and Security (TIFS) 2020
+	- Baki Yilmaz, Milos Prvulovic, Alenka Zajic
+	- https://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2020/01/T-IFS-10205-2019.R1.pdf
 - Cross-core Microarchitectural Side Channel Attacks and Countermeasures
 	- 2017 Ph.D. Dissertation; Gorka Irazoqui
 	- https://web.wpi.edu/Pubs/ETD/Available/etd-042417-114714/unrestricted/girazoki.pdf
@@ -174,6 +178,7 @@ See also: [Computer Architecture](comparch.md)
 	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2020
 	- Shuwen Deng, Wenjie Xiong, Jakub Szefer
 	- https://arxiv.org/abs/1911.08619
+	- https://www.youtube.com/watch?v=Kq5KJ1NWd-s
 - An Exploration of Effective Fuzzing for Side-channel Cache Leakage
 	- Software Testing, Verification and Reliability (STVR) 2019
 	- Tiyash Basu, Kartik Aggarwal, Chundong Wang, Sudipta Chattopadhyay 
@@ -368,6 +373,7 @@ See also: [Computer Architecture](comparch.md)
 - C++ Developer Guidance for Speculative Execution Side Channels
 	- https://docs.microsoft.com/en-us/cpp/security/developer-guidance-speculative-execution
 - Certified Side Channels
+	- USENIX Security Symposium 2020
 	- 2019 arXiv
 	- Cesar Pereida García, Sohaib ul Hassan, Nicola Tuveri, Iaroslav Gridin, Alejandro Cabrera Aldaya, Billy Bob Brumley
 	- https://arxiv.org/abs/1909.01785 
@@ -645,6 +651,7 @@ See also: [Computer Architecture](comparch.md)
 	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2020
 	- Tao Zhang, Kenneth Koltermann, Dmitry Evtyushkin
 	- http://www.cs.wm.edu/~dmitry/publications/
+	- https://www.youtube.com/watch?v=OLQshI-1KBc 
 - Jump Over ASLR: Attacking Branch Predictors to Bypass ASLR
 	- MICRO 2016
 	- Dmitry Evtyushkin, Dmitry Ponomarev, Nael Abu-Ghazaleh 
@@ -698,6 +705,7 @@ See also: [Computer Architecture](comparch.md)
 	- ASPLOS 2020
 	- Po-An Tsai, Andres Sanchez, Christopher W. Fletcher, Daniel Sanchez
 	- http://people.csail.mit.edu/poantsai/papers/2020.safecracker.asplos.pdf
+	- https://www.youtube.com/watch?v=auKcSndPjuw 
 - Stealthy Tracking of Autonomous Vehicles with Cache Side Channels
 	- USENIX Security 2020
 	- Mulong Luo, Andrew C. Myers, G. Edward Suh
@@ -1467,6 +1475,13 @@ Proof-of-Concept Repository - https://github.com/IAIK/transientfail/
 Refined Speculative Execution Terminology  
 https://software.intel.com/security-software-guidance/insights/refined-speculative-execution-terminology
 
+- Bypassing KPTI Using the Speculative Behavior of the SWAPGS Instruction
+	- Andrei Vlad Luțaș, Dan Horea Luțaș
+	- https://labs.bitdefender.com/2019/08/bypassing-kpti-using-the-speculative-behavior-of-the-swapgs-instruction/
+	- https://businessresources.bitdefender.com/bypassing-kpti-speculative-behavior-swapgs-instruction
+	- Black Hat 2019
+		- https://www.youtube.com/watch?v=XUwZUdOHT1c
+		- https://www.blackhat.com/eu-19/briefings/schedule/#bypassing-kpti-using-the-speculative-behavior-of-the-swapgs-instruction-18045
 - Code That Never Ran: Modeling Attacks on Speculative Evaluation
 	- IEEE Symposium on Security & Privacy 2019
 	- Disselkoen, C., Jagadeesan, R., Jeffrey, A., Riely, J.
@@ -1813,7 +1828,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Erik Kraft & Michael Schwarz
 	- https://www.youtube.com/watch?v=t9qOTIFO7Uw
 - Broad-Based Side-Channel Defenses for Modern Processor Architectures
-	- Ashay Rane 
+	- Ashay Rane
 	- https://www.microsoft.com/en-us/research/video/broad-based-side-channel-defenses-for-modern-processor-architectures/
 	- https://ashay.rane.info/project-raccoon/
 - Ghosts in a Nutshell
@@ -1830,6 +1845,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- https://misc0110.net/web/files/netspectre_blackhat_slides.pdf
 - Oh No! KPTI Defeated, Unauthorized Data Leakage is Still Possible
 	- Black Hat Asia 2019
+	- Yueqiang Cheng, Zhaofeng Chen, Yulong Zhang, Yu Ding, Tao Wei
 	- https://www.blackhat.com/asia-19/briefings/schedule/index.html#oh-no-kpti-defeated-unauthorized-data-leakage-is-still-possible-13945
 - Spectre/C++: Preventing Spectre One Branch at a Time: The Design and Implementation of Fine Grained Spectre v1 Mitigation APIs
 	- CppCon 2019; Zola Bridges, Devin Jeanpierre
