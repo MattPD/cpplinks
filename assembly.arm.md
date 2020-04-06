@@ -451,6 +451,12 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Part 2: https://blog.quarkslab.com/a-deep-dive-into-samsungs-trustzone-part-2.html
 - Attacking the ARM's TrustZone
 	- https://blog.quarkslab.com/attacking-the-arms-trustzone.html
+- Azeria Labs
+	- TrustZone Research
+		- Trusted Execution Environments and Arm TrustZone
+			- https://azeria-labs.com/trusted-execution-environments-tee-and-trustzone/
+		- Trustonic’s Kinibi TEE Implementation
+			- https://azeria-labs.com/trustonics-kinibi-tee-implementation/
 - Breaking Samsung's ARM TrustZone
 	- Black Hat USA 2019
 	- Maxime Peterlin, Alexandre Adamski, Joffrey Guilbon
@@ -470,6 +476,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- http://webpages.eng.wayne.edu/~fy8421/paper/ninja-tifs19.pdf
 - Introduction to Trusted Execution Environment: ARM's TrustZone
 	- https://blog.quarkslab.com/introduction-to-trusted-execution-environment-arms-trustzone.html
+- Introduction to Trusted Execution Environment and ARM's TrustZone
+	- https://embeddedbits.org/introduction-to-trusted-execution-environment-tee-arm-trustzone/
 - Ninja: Towards Transparent Tracing and Debugging on ARM
 	- USENIX Security 2017
 	- Zhenyu Ning, Fengwei Zhang
@@ -482,8 +490,6 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- IEEE Symposium on Security and Privacy (S&P) 2020
 	- David Cerdeira, Nuno Santos, Pedro Fonseca, Sandro Pinto
 	- https://www.cs.purdue.edu/homes/pfonseca/papers/sp2020-tees.pdf
-- Understanding Trusted Execution Environments and Arm TrustZone
-	- https://azeria-labs.com/trusted-execution-environments-tee-and-trustzone/
 - Verification of a Practical Hardware Security Architecture Through Static Information Flow Analysis (ARM TrustZone)
 	- ASPLOS 2017
 	- Andrew Ferraiuolo, Rui Xu, Danfeng Zhang, Andrew C. Myers, G. Edward Suh
@@ -518,6 +524,9 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- https://www.sec.in.tum.de/i20/publications/hiding-in-the-shadows-empowering-arm-for-stealthy-virtual-machine-introspection
 	- DRAKVUF on ARM
 		- https://github.com/drakvuf-on-arm
+- Hypervisor Necromancy; Reanimating Kernel Protectors, or On emulating hypervisors; a Samsung RKP case study
+	- Phrack 2020-02-14; Aris Thallas
+	- http://phrack.org/papers/emulating_hypervisors_samsung_rkp.html
 - The Design, Implementation, and Evaluation of Software and Architectural Support for ARM Virtualization
 	- 2018 PhD Thesis; [Christoffer Dall](http://www.cs.columbia.edu/~cdall/)
 	- https://academiccommons.columbia.edu/catalog/ac:t1g1jwstss
