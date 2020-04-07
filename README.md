@@ -6,7 +6,7 @@ A categorized list of C++ resources.
 
 - Analysis - program analysis
   - [Dynamic analysis](analysis.dynamic.md) - instrumentation, translation, sanitizers
-  - [Static analysis](analysis.dynamic.md) - static analysis (static checkers and compilers) and verification
+  - [Static analysis](analysis.static.md) - static analysis (static checkers and compilers) and verification
 - Assembly
   - [ARM](assembly.arm.md) - ARM and AArch64
   - [RISC-V](assembly.riscv.md)
