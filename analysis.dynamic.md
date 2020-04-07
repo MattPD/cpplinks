@@ -4,8 +4,13 @@ See also:
 
 - [Compilers](https://github.com/MattPD/cpplinks/blob/master/compilers.md)
 - [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.md)
-- [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef) - [LLVM](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#llvm)
+- [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
+	- [Static Program Analysis](analysis.static.md) - static analysis (static checkers and compilers) and verification 
+	- [Symbolic Execution](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#symbolic-execution)
+	- [LLVM](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#llvm)
+		- [LLVM - Verification](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#llvm---verification)
 - [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
+	- [Fuzzing](https://github.com/MattPD/cpplinks/blob/master/testing.fuzzing.md)
 
 # Contents
 
@@ -65,6 +70,8 @@ See also:
 	- EuskalHack 2018; Joxean Koret
 	- https://github.com/joxeankoret/membugtool/blob/master/docs/Using%20Binary%20Instrumentation%20for%20Vulnerability%20Discovery%20(or%20even%20mitigation!).pdf
 	- https://docs.google.com/presentation/d/e/2PACX-1vQYw4HJ3kzdmjnxklyBK2nyoMV3Iftx5G6IQmaas7z1cJdP04sX9WsWZmZKqtcTOsqbYukDdUyovhXb/pub
+- Valgrind Research Papers
+	- http://valgrind.org/docs/pubs.html
 
 ## Dynamic Binary Instrumentation (DBI): Software
 
@@ -86,6 +93,11 @@ See also:
 		- Xiaozhu Meng, Jonathon M. Anderson, John Mellor-Crummey, Mark W. Krentel, Barton P. Miller, Srđan Milaković
 		- 2020 arXiv
 		- https://arxiv.org/abs/2001.10621
+- Instrew: Leveraging LLVM for High Performance Dynamic Binary Instrumentation
+	- https://github.com/aengelke/instrew
+	- VEE 2020
+		- Alexis Engelke, Martin Schulz
+		- https://conf.researchr.org/details/vee-2020/vee-2020-papers/5/Instrew-Leveraging-LLVM-for-High-Performance-Dynamic-Binary-Instrumentation
 - QBDI (QuarkslaB Dynamic binary Instrumentation): A Dynamic Binary Instrumentation framework based on LLVM
 	- https://qbdi.quarkslab.com
 	- https://github.com/quarkslab/QBDI
@@ -95,11 +107,6 @@ See also:
 	- Example: plugging Triton on top of QBDI - http://shell-storm.org/repo/Notepad/qbdi_with_triton.txt
 	- A Preliminary Test of QBDI - https://www.johnfxgalea.com/2018/01/13/a-preliminary-test-of-qbdi/
 	- Example: SRAC - a Simple Return Address Checker - https://github.com/johnfxgalea/SRAC
-- Instrew: Leveraging LLVM for High Performance Dynamic Binary Instrumentation
-	- https://github.com/aengelke/instrew
-	- VEE 2020
-		- Alexis Engelke, Martin Schulz
-		- https://conf.researchr.org/details/vee-2020/vee-2020-papers/5/Instrew-Leveraging-LLVM-for-High-Performance-Dynamic-Binary-Instrumentation
 - Tracer: Set of Dynamic Binary Instrumentation and visualization tools for execution traces.
 	- https://github.com/SideChannelMarvels/Tracer
 	- https://insinuator.net/2016/03/how-to-crack-a-white-box-without-much-effort/
