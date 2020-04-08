@@ -1051,6 +1051,11 @@ See also: [Computer Architecture](comparch.md)
 	- https://dx.doi.org/10.1109/FPL.2019.00039
 	- https://infoscience.epfl.ch/record/272348?ln=en
 	- https://fpl2019.bsc.es/sites/default/files/uploaded/A32.FPL2019-slides-PhysicalSideChannelAttacks.pdf
+- Recent Attacks and Defenses on FPGA-based Systems
+	- ACM Transactions on Reconfigurable Technology and Systems 12(3) 2019
+	- Jiliang Zhang, Gang Qu
+	- https://doi.org/10.1145/3340557
+	- http://hardwaresecurity.cn/FPGAsecurity.pdf
 
 ## FPGA remote attacks
 
@@ -1060,6 +1065,11 @@ See also: [Computer Architecture](comparch.md)
 	- Cryptology ePrint Archive: Report 2018/012
 	- Falk Schellenberg, Dennis R.E. Gnad, Amir Moradi, Mehdi B. Tahoori
 	- https://eprint.iacr.org/2018/012
+- C3APSULe: Cross-FPGA Covert-Channel Attacks through Power Supply Unit Leakage
+	- 2020 IEEE Symposium on Security and Privacy (S&P)
+	- Ilias Giechaskiel, Kasper Bonne Rasmussen, Jakub Szefer
+	- https://www.computer.org/csdl/proceedings-article/sp/2020/349700a890/1i0rIjF42ic
+	- https://ilias.giechaskiel.com/papers/capsule-sp-preprint.pdf
 - FPGAhammer: Remote Voltage Fault Attacks on Shared FPGAs, suitable for DFA on AES
 	- IACR Transactions on Cryptographic Hardware and Embedded Systems, 2018(3), 44-68. 
 	- Jonas Krautter, Dennis R.E. Gnad, Mehdi B. Tahoori
@@ -1082,6 +1092,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://dl.acm.org/citation.cfm?id=739074
 - JackHammer: Efficient Rowhammer on Heterogeneous FPGA-CPU Platforms
 	- 2019 arXiv
+	- IACR Transactions on Cryptographic Hardware and Embedded Systems (TCHES), Volume 2020, Issue 3
 	- Zane Weissman, Thore Tiemann, Daniel Moghimi, Evan Custodio, Thomas Eisenbarth, Berk Sunar
 	- https://arxiv.org/abs/1912.11523
 - Leaky Wires: Information Leakage and Covert Communication Between FPGA Long Wires
