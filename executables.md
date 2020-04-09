@@ -11,19 +11,19 @@ See also:
 
 Contents:
 
-- [General](#general): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-talks)
-- [DLL](#dll): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-1) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-1) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll-talks)
-- [DWARF](#dwarf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-2) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-2) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-talks)
-- [ELF](#elf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-3) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-3) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf-talks)
-- [Mach-O](#mach-o): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-4) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-4) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#mach-o-talks)
-- [PDB](#pdb): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-5) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-5) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-talks)
-- [PE](#pe): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-6) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-6) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#pe-talks)
+- [General](#general): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-talks)
+- [DLL](#dll): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll-talks)
+- [DWARF](#dwarf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-talks)
+- [ELF](#elf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf-talks)
+- [Mach-O](#mach-o): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#mach-o-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#mach-o-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#mach-o-talks)
+- [PDB](#pdb): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-talks)
+- [PE](#pe): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#pe-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#pe-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#pe-talks)
 
 ---
 
 # General
 
-## Readings
+## General: Readings
 
 * Comparison of executable file formats - https://en.wikipedia.org/wiki/Comparison_of_executable_file_formats
 * Executable and object file formats - https://en.wikipedia.org/wiki/Template:Executables
@@ -45,7 +45,7 @@ Contents:
 	+ pe101: https://github.com/corkami/pics/tree/master/binary/pe101
 	+ pe102: https://github.com/corkami/pics/tree/master/binary/pe102
 
-## Software
+## General: Software
 
 * Backdoor Factory (BDF): patch PE, ELF, Mach-O binaries with shellcode - https://github.com/secretsquirrel/the-backdoor-factory
 * bingrep: Greps through binaries from various OSs and architectures, and colors them (ELF, Mach-O, PE)
@@ -138,7 +138,7 @@ Contents:
 
 # DLL
 
-## Readings
+## DLL: Readings
 
 - Adaptive DLL Hijacking
 	- https://silentbreaksecurity.com/adaptive-dll-hijacking/
@@ -160,7 +160,7 @@ Contents:
 	- https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process
 - What is so special about the instance handle 0x10000000? - https://blogs.msdn.microsoft.com/oldnewthing/20121227-00/?p=5713/
 
-## Software
+## DLL: Software
 
 - Dependencies: An open-source modern Dependency Walker
 	- https://lucasg.github.io/Dependencies/
@@ -221,7 +221,7 @@ Contents:
 * DWARF Debugging Standard Website - http://dwarfstd.org/
 * DWARF Debugging Standard Wiki - http://wiki.dwarfstd.org/
 
-## Readings
+## DWARF: Readings
 
 * An interesting tree serialization algorithm from DWARF - https://eli.thegreenplace.net/2011/09/29/an-interesting-tree-serialization-algorithm-from-dwarf
 * David A's DWARF Page - https://www.prevanders.net/dwarf.html
@@ -250,7 +250,7 @@ Contents:
 * Where are your symbols, debuginfo and sources? - https://gnu.wildebeest.org/blog/mjw/2016/02/02/where-are-your-symbols-debuginfo-and-sources/
 * Writing a Linux Debugger Part 4: Elves and dwarves - https://blog.tartanllama.xyz/writing-a-linux-debugger-elf-dwarf/
 
-## Software
+## DWARF: Software
 
 * dareog: ORC meets DWARF - https://github.com/emersion/dareog
 * Debug Frame Checking: Check `.eh_frame` and `.debug_frame` information
@@ -358,7 +358,7 @@ Contents:
 	+ https://libraries.io/github/michalmalik/linux-re-101
 * References - SkyFree.org - http://www.skyfree.org/linux/references/references.html
 
-## Readings
+## ELF: Readings
 
 * A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux
 	+ http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
@@ -519,7 +519,7 @@ Contents:
 - Tweaking binaries with elfedit
 	- https://ptribble.blogspot.com/2017/06/tweaking-binaries-with-elfedit.html
 
-## Software
+## ELF: Software
 
 - ABI Dumper - a tool to dump ABI of an ELF object containing DWARF debug info - https://github.com/lvc/abi-dumper
 - abidiff - compares the Application Binary Interfaces (ABI) of two shared libraries in ELF format
@@ -605,6 +605,7 @@ Contents:
 			- http://www.geeksforgeeks.org/memory-layout-of-c-program/
 			- http://cs-fundamentals.com/c-programming/memory-layout-of-c-program-code-data-segments.php#size-of-code-data-bss-segments
 	- 9 essential GNU binutils tools - https://opensource.com/article/19/10/gnu-binutils
+	- GNU Binutils: the ELF Swiss Army Knife - https://interrupt.memfault.com/blog/gnu-binutils
 - HoloDec: Decompiler for x86 and x86-64 ELF binaries - https://github.com/cararasu/holodec
 - Lepton: a Lightweight ELF Parsing Tool
 	- designed specifically for analyzing and editing binaries with damaged or corrupted ELF headers
@@ -766,7 +767,7 @@ Contents:
 * osx-re-101 - https://github.com/michalmalik/osx-re-101
 * Reverse Engineering/Mac OS X - https://en.wikibooks.org/wiki/Reverse_Engineering/Mac_OS_X
 
-## Readings
+## Mach-O: Readings
 
 * Basics of the Mach-O file format - https://samhuri.net/posts/2010/01/basics-of-the-mach-o-file-format/
 * Dynamic Linking: ELF vs. Mach-O - http://timetobleed.com/dynamic-linking-elf-vs-mach-o/
@@ -782,6 +783,8 @@ Contents:
 * Hello Mach-O: Dissection of minimal Intel 32-bits, 204 bytes, Mach-O "Hello World" executable file - http://seriot.ch/hello_macho.php
 * Mach-O Binaries - http://www.m4b.io/reverse/engineering/mach/binaries/2015/03/29/mach-binaries.html
 * Mach-O Executables - https://www.objc.io/issues/6-build-tools/mach-o-executables/
+* MacOS Dylib Injection through Mach-O Binary Manipulation
+	- https://malwareunicorn.org/workshops/macos_dylib_injection.html
 * Parsing Mach-O files - https://lowlevelbits.org/parsing-mach-o-files/
 * Playing with Mach-O binaries and dyld
 	+ https://blog.lse.epita.fr/articles/82-playing-with-mach-os-and-dyld.html
@@ -791,7 +794,7 @@ Contents:
 * Runtime binary loading via the dynamic loader on Apple Mac OS X - http://www.subreption.com/blog/2009/02/runtime-binary-loading-via-the-dynamic-loader-on-apple-mac-os-x.html
 * The Mach-O Transition: Darling in the Past 5 Years - http://blog.darlinghq.org/2017/02/the-mach-o-transition-darling-in-past-5.html
 
-## Software
+## Mach-O: Software
 
 * cctools-port: Apple cctools port for Linux, \*BSD and Windows (Cygwin)
 	+ https://github.com/tpoechtrager/cctools-port
@@ -832,7 +835,7 @@ Contents:
 
 (Program Database)
 
-## Readings
+## PDB: Readings
 
 * Binary Rewriting With Syzygy, Pt. I - https://doar-e.github.io/blog/2017/08/05/binary-rewriting-with-syzygy/
 * CodeView Debug Info Format - http://llvm.org/docs/SourceLevelDebugging.html#codeview-debug-info-format
@@ -854,7 +857,7 @@ Contents:
 * The Types Stream - https://moyix.blogspot.com/2007/10/types-stream.html
 * What’s inside a PDB File? - https://blogs.msdn.microsoft.com/vcblog/2016/02/08/whats-inside-a-pdb-file/
 
-## Software
+## PDB: Software
 
 - crunchersharp
 	- analyses debugger information file (PDB, so Microsoft Visual C++ only) and presents info about user defined structures (size, padding, etc.)
@@ -892,7 +895,7 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 
 # PE
 
-## Readings
+## PE: Readings
 
 * A smallest PE executable (x64) with every byte executed - https://drakopensulo.wordpress.com/2017/08/06/smallest-pe-executable-x64-with-every-byte-executed/
 * An Analysis of the Windows PE Checksum Algorithm - https://www.codeproject.com/Articles/19326/An-Analysis-of-the-Windows-PE-Checksum-Algorithm
@@ -911,6 +914,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 * Introducing New Packing Method: First Reflective PE Packer Amber - https://pentest.blog/introducing-new-packing-method-first-reflective-pe-packer/
 * Microsoft Portable Executable (PE) and Common Object File Format (COFF) Specification - https://msdn.microsoft.com/en-us/library/windows/desktop/ms680547.aspx
 * Microsoft's Rich Signature (undocumented) - http://ntcore.com/Files/richsign.htm
+* Modern PE Mangling
+	- https://n0.lol/a/pemangle.html
 * PE (corkami wiki) - https://corkamiwiki.github.io/PE - https://github.com/corkami/docs/blob/master/PE/PE.md
 * Peering Inside the PE: A Tour of the Win32 Portable Executable File Format - https://msdn.microsoft.com/en-us/library/ms809762.aspx
 * PeLib Resources about the PE format - http://www.pelib.com/resources.php
@@ -930,16 +935,13 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 * Why does a corrupted binary sometimes result in "Program too big to fit in memory"? - https://blogs.msdn.microsoft.com/oldnewthing/20060130-00/?p=32483
 * Why is 0x00400000 the default base address for an executable? - https://blogs.msdn.microsoft.com/oldnewthing/20141003-00/?p=43923
 
-## Software
+## PE: Software
 
 * Adlice PEViewer - https://www.adlice.com/download/roguekillerpe/
-* Amber: Reflective PE packer
-	+ https://github.com/EgeBalci/Amber
 * bearparser: Portable Executable parsing library - https://github.com/hasherezade/bearparser
 * CFF Explorer - http://www.ntcore.com/exsuite.php
 * Corkami PE files corpus - https://github.com/corkami/pocs/tree/master/PE
 * ExpDiff: Diff tool for comparing export tables in PE images - https://github.com/WalkingCat/ExpDiff
-* fasm_packer: PE Packer written in x86 assembly (FASM syntax) - https://github.com/DimitriFourny/resources/tree/master/fasm_packer
 * Five PE Analysis Tools Worth Looking At - https://blog.malwarebytes.com/threat-analysis/2014/05/five-pe-analysis-tools-worth-looking-at/
 * libpeconv: A small library for mapping and unmapping PE files
 	+ https://github.com/hasherezade/libpeconv
@@ -971,7 +973,6 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 * PE-sieve: a small tool for investigating inline hooks (and other in-memory code patches) 
 	+ https://hshrzd.wordpress.com/pe-sieve/
 	+ https://github.com/hasherezade/pe-sieve
-* pe_armor: Metamorphic PE packer generated and assembled by a Python code - https://github.com/DimitriFourny/resources/tree/master/pe_armor
 * pe_recovery_tools: Helper tools for recovering dumped PE files - https://github.com/hasherezade/pe_recovery_tools
 * pedump - dump windows PE files using Ruby - http://pedump.me/ - https://github.com/zed-0xff/pedump
 * pelook: PE/COFF dump and conversion tool - http://bytepointer.com/tools/index.htm#pelook
@@ -1002,12 +1003,23 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ https://github.com/adrianstone55/SymbolSort
 	+ http://gameangst.com/?p=320
 
-### PE Loaders
+### PE: Software: Loaders
 
 - DreamLoader: Simple 32/64-bit PEs loader
 	- https://github.com/86hh/DreamLoader
 - In-Memory PE Loader: A very simple PE loader for loading DLLs into memory without using LoadLibray
 	- https://github.com/nettitude/SimplePELoader
+
+### PE: Software: Packers
+
+- Amber: Reflective PE packer
+	- https://github.com/EgeBalci/Amber
+- fasm_packer: PE Packer written in x86 assembly (FASM syntax)
+	- https://github.com/DimitriFourny/resources/tree/master/fasm_packer
+- pe_armor: Metamorphic PE packer generated and assembled by a Python code
+	- https://github.com/DimitriFourny/resources/tree/master/pe_armor
+- squishy: a modern pc 64k intro packer
+	- http://logicoma.io/squishy/
 
 ## PE: Talks
 
