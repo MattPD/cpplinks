@@ -265,18 +265,19 @@ _Benchmarks & comparisons_
 		- http://clang-analyzer.llvm.org/
 		- Checker Developer Manual
 			- http://clang-analyzer.llvm.org/checker_dev_manual.html
-	- Clang Static Analysis
-		- Meeting C++ 2016; Gabor Horvath
-		- https://www.youtube.com/watch?v=UcxF6CVueDM
-	- Clang Static Analyzer - A Checker Developer's Guide.
-		- https://github.com/haoNoQ/clang-analyzer-guide
-	- Faster, Stronger C++ Analysis with the Clang Static Analyzer
-		- 2018 LLVM Developers’ Meeting; George Karpenkov, Artem Dergachev
-		- https://www.youtube.com/watch?v=4n3l-ZcDJNY
+		- Clang Static Analysis
+			- Meeting C++ 2016; Gabor Horvath
+			- https://www.youtube.com/watch?v=UcxF6CVueDM
+		- Clang Static Analyzer - A Checker Developer's Guide.
+			- https://github.com/haoNoQ/clang-analyzer-guide
+		- Faster, Stronger C++ Analysis with the Clang Static Analyzer
+			- 2018 LLVM Developers’ Meeting; George Karpenkov, Artem Dergachev
+			- https://www.youtube.com/watch?v=4n3l-ZcDJNY
 	- Clang-Tidy: Clang-based C++ “linter” tool
 		- http://clang.llvm.org/extra/clang-tidy/
-		- Clang-Tidy, part 1: Modernize your source code using C++11/C++14 - https://www.kdab.com/clang-tidy-part-1-modernize-source-code-using-c11c14/
-		- Clang Tidy, part 2: Integrate qmake and other build systems using Bear - https://www.kdab.com/clang-tidy-part-2-integrate-qmake-and-other-build-systems-using-bear/
+		- Clang-Tidy - KDAB
+			- part 1: Modernize your source code using C++11/C++14 - https://www.kdab.com/clang-tidy-part-1-modernize-source-code-using-c11c14/
+			- part 2: Integrate qmake and other build systems using Bear - https://www.kdab.com/clang-tidy-part-2-integrate-qmake-and-other-build-systems-using-bear/
 		- How to use Clang Tidy to automatically correct code
 			- https://github.com/KratosMultiphysics/Kratos/wiki/How-to-use-Clang-Tidy-to-automatically-correct-code
 		- Intro to clang-tidy - C++ Weekly - Ep 3 
@@ -312,6 +313,14 @@ _Benchmarks & comparisons_
 
 _Verification & Model Checking_
 
+- Formal Verification to Ensuring the Memory Safety of C++ Programs
+	- 2020 M.Sc. Thesis; Felipe R. Monteiro
+	- https://feliperodri.github.io/papers/msc-manuscript.pdf
+	- https://feliperodri.github.io/talks/msc-presentation.pdf
+	- Apply model checking techniques to ensuring memory safety of C++ programs:
+		- (i) Provide a logical formalization of essential features that the C++ programming language offers, such as templates, sequential and associative containers, inheritance, polymorphism, and exception handling.
+		- (ii) Provide a set of abstractions to the Standard C++ Libraries that reflects their semantics, in order to enable the verification of functional properties related to the use of these libraries.
+		- (iii) Extend an existing verifier to handle the verification of C++ programs based on (i) and (ii) and evaluate its efficiency and effectiveness in comparison to similar state-of-the-art approaches.
 - Model Checking a C++ Software Framework, a Case Study
 	- European Software Engineering Conference / Foundations of Software Engineering (ESEC/FSE) 2019
 	- John Lång, I.S.W.B. Prasetya
