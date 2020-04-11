@@ -252,7 +252,7 @@ See also:
 	- Symbol resolution during link-editing
 		- https://binarydodo.wordpress.com/2016/07/01/symbol-resolution-during-link-editing/
 - ELF Binaries and Relocation Entries - Stafford Horne
-		- http://stffrdhrn.github.io/hardware/embedded/openrisc/2019/11/29/relocs.html
+	- http://stffrdhrn.github.io/hardware/embedded/openrisc/2019/11/29/relocs.html
 - [Executable and Linkable Format 101](https://intezer.com/tag/elf/) - Ignacio Sanmillan
 	- Part 3: Relocations - https://www.intezer.com/executable-and-linkable-format-101-part-3-relocations/
 - GOT and PLT
@@ -260,9 +260,12 @@ See also:
 - Ian Lance Taylor
 	- Linkers 2\. What's-a-linker: Dynamic linking, linker data types, linker operation
 		- http://www.airs.com/blog/archives/39
+	- Linkers 5\. More Shared Libraries -- specifically, linker implementation; ELF Symbols
+		- http://www.airs.com/blog/archives/42
 	- Linkers 6\. Relocations, Position Dependent Shared Libraries
 		- http://www.airs.com/blog/archives/43
-		- 9\. Symbol Versions, Relaxation optimization - http://www.airs.com/blog/archives/46
+	- Linkers 9\. Symbol Versions, Relaxation optimization
+		- http://www.airs.com/blog/archives/46
 	- Linker combreloc
 		- https://www.airs.com/blog/archives/186
 	- Linker relro
@@ -271,19 +274,20 @@ See also:
 	- Part VI(1): The Symbol Table and Relocations - https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi.html
 	- Part VI(2): The Symbol Table and Relocations - https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi_18.html
 	- Part VI(3): More Relocation tricks - r_addend execution - https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi-more.html
-- Linker and Libraries Guide
-	- Relocation Processing
-		- https://docs.oracle.com/cd/E26502_01/html/E26507/chapter3-29.html
-	- Relocation Sections
-		- https://docs.oracle.com/cd/E23824_01/html/819-0690/chapter6-54839.html
 - Linkers and loaders - Eli Bendersky - http://eli.thegreenplace.net/tag/linkers-and-loaders
-	- Load-time relocation of shared libraries - https://eli.thegreenplace.net/2011/08/25/load-time-relocation-of-shared-libraries
+	- Load-time relocation of shared libraries
+		- https://eli.thegreenplace.net/2011/08/25/load-time-relocation-of-shared-libraries
 - Making our own executable packer - Amos Wenger
 	- ELF relocations - https://fasterthanli.me/blog/2020/elf-relocations/
 	- More ELF relocations - https://fasterthanli.me/blog/2020/more-elf-relocations/
 - Moving code around - Thiago Macieira
 	- http://blog.qt.io/blog/2010/12/04/moving-code-around/
 	- http://blog.qt.io/blog/2010/12/05/moving-code-around-more-easily/
+- Oracle Solaris 11.1 Linker and Libraries Guide
+	- Relocation Processing
+		- https://docs.oracle.com/cd/E26502_01/html/E26507/chapter3-29.html
+	- Relocation Sections
+		- https://docs.oracle.com/cd/E23824_01/html/819-0690/chapter6-54839.html
 - Relocations in ELF Toolchains - Palmer Dabbelt
 	- https://www.sifive.com/blog/2017/08/21/all-aboard-part-2-relocations/
 - Relocations: fantastic symbols, but where to find them? - Siddhesh Poyarekar
