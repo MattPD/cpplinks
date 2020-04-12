@@ -948,6 +948,10 @@ See also: [Computer Architecture](comparch.md)
 	- F. Werner, D. A. Chu, A. R. Djordjevic, D. I. Olcan, M. Prvulovic, and A. Zajic.
 	- https://doi.org/10.1109/TEMC.2017.2742501
 	- http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2017/10/TEMC_245_2017.pdf
+- A New Side-Channel Vulnerability on Modern Computers by Exploiting Electromagnetic Emanations from the Power Management Unit
+	- High-Performance Computer Architecture (HPCA) 2020
+	- Nader Sehatbakhsh, Baki Yilmaz, Alenka Zajic, Milos Prvulovic
+	- https://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2020/01/HPCA2020_2.pdf
 - A Practical Methodology for Measuring the Side-Channel Signal Available to the Attacker for Instruction-Level Events
 	- MICRO-47 2014
 	- Robert Callan, Alenka Zajić, Milos Prvulovic
@@ -975,11 +979,19 @@ See also: [Computer Architecture](comparch.md)
 - EDDIE: EM-Based Detection of Deviations in Program Execution
 	- 2017, Proceedings of the 44th International Symposium on Computer Architecture (ISCA)
 	- http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2017/06/ISCA17.pdf
+- Electromagnetic Side Channel Information Leakage Created by Execution of Series of Instructions in a Computer Processor
+	- IEEE Transactions on Information Forensics and Security (TIFS) Vol. 15, 2020
+	- Baki Berkay Yilmaz, Milos Prvulovic, Alenka Zajic
+	- https://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2019/08/T-IFS-09685-2019-R2.pdf
 - EMPROF: Memory Profiling via EM-Emanation in IoT and Hand-Held Devices
 	- MICRO-51 (2018)
 	- Moumita Dey, Alireza Nazari, Alenka Zajic, Milos Prvulovic
 	- Lightning Talk - https://www.youtube.com/watch?v=GCgnEJk_LCQ
 	- https://www.researchgate.net/publication/329654406_EMPROF_Memory_Profiling_Via_EM-Emanation_in_IoT_and_Hand-Held_Devices
+- EMSim: A Microarchitecture-Level Simulation Tool for Modeling Electromagnetic Side-Channel Signals
+	- High-Performance Computer Architecture (HPCA) 2020
+	- Nader Sehatbakhsh, Baki Yilmaz, Alenka Zajic, Milos Prvulovic
+	- https://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2020/01/HPCA20_1.pdf
 - FASE: Finding Amplitude-modulated Side-channel Emanations
 	- ISCA 2015
 	- Robert Callan, Alenka Zajic, Milos Prvulovic
