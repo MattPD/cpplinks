@@ -496,8 +496,6 @@ See also:
 	- https://cgold.readthedocs.io/en/latest/
 - CMake 3.16 added support for precompiled headers & unity builds - what you need to know
 	- http://onqtam.com/programming/2019-12-20-pch-unity-cmake-3-16/
-- CMake basics
-	- https://www.siliceum.com/en/blog/post/cmake_01_cmake-basics
 - CMake Coding Style
 	- https://community.kde.org/Policies/CMake_Coding_Style
 - Dev Santa Claus - Nick Sarten
@@ -521,6 +519,11 @@ See also:
 	- http://preshing.com/20170522/learn-cmakes-scripting-language-in-15-minutes/
 - Professional CMake: A Practical Guide
 	- https://crascit.com/professional-cmake/
+- siliceum - Clément Grégoire
+	- CMake basics
+		- https://www.siliceum.com/en/blog/post/cmake_01_cmake-basics
+	- CMake customization points
+		- https://www.siliceum.com/en/blog/post/cmake_02_customization-points
 - Speed up your C++ unit tests cycles with CMake/CTest (and the right testing framework)
 	- https://a4z.bitbucket.io/blog/2018/05/17/Speed-up-your-test-cycles-with-CMake.html
 - The Architecture of Open Source Applications: CMake
