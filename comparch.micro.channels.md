@@ -179,6 +179,7 @@ See also: [Computer Architecture](comparch.md)
 	- Shuwen Deng, Wenjie Xiong, Jakub Szefer
 	- https://arxiv.org/abs/1911.08619
 	- https://www.youtube.com/watch?v=Kq5KJ1NWd-s
+	- https://caslab.csl.yale.edu/code/cache-security-benchmarks/
 - An Exploration of Effective Fuzzing for Side-channel Cache Leakage
 	- Software Testing, Verification and Reliability (STVR) 2019
 	- Tiyash Basu, Kartik Aggarwal, Chundong Wang, Sudipta Chattopadhyay 
@@ -923,6 +924,11 @@ See also: [Computer Architecture](comparch.md)
 	- Design, Automation, and Test in Europe (DATE) 2019
 	- Wenjie Xiong, Nikolaos Athanasios Anagnostopoulos, André Schaller, Stefan Katzenbeisser, Jakub Szefer
 	- http://caslab.csl.yale.edu/code/tempspy/
+- Thermal Covert Channels Leveraging Package-on-Package DRAM
+	- 2019 International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)
+	- Shuai Chen, Wenjie Xiong, Yehan Xu, Bing Li, Jakub Szefer
+	- https://caslab.csl.yale.edu/publications/chen2019thermal.pdf
+	- https://caslab.csl.yale.edu/code/popchannels/
 - Throwhammer: Rowhammer Attacks over the Network and Defenses
 	- USENIX ATC (Annual Technical Conference) 2018
 	- Andrei Tatar, Radhesh Krishnan, Elias Athanasopoulos, Cristiano Giuffrida, Herbert Bos, Kaveh Razavi
