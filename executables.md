@@ -400,6 +400,8 @@ Contents:
 * ELF symbol lookup
 	+ ELF: symbol lookup via DT_HASH - https://flapenguin.me/2017/04/24/elf-lookup-dt-hash/
 	+ ELF: better symbol lookup via DT_GNU_HASH - https://flapenguin.me/2017/05/10/elf-lookup-dt-gnu-hash/
+* ELF symbol visibility and the perils of name clashing
+	- http://www.fcollyer.com/2013/01/04/elf-symbol-visibility-and-the-perils-of-name-clashing/
 * ELFs are dorky, Elves are cool - Sergey Bratus and Julian Bangert - PoC||GTFO 00 - https://greatscottgadgets.com/pocorgtfo/pocorgtfo00.pdf
 * ELF: From The Programmer's Perspective (1995) - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.8698
 * ELF, libelf, compressed sections and elfutils - https://gnu.wildebeest.org/blog/mjw/2016/01/13/elf-libelf-compressed-sections-and-elfutils/
@@ -451,6 +453,12 @@ Contents:
 	- ELF relocations - https://fasterthanli.me/blog/2020/elf-relocations/
 	- The simplest shared library - https://fasterthanli.me/blog/2020/the-simplest-shared-library/
 	- Loading multiple ELF objects - https://fasterthanli.me/blog/2020/loading-multiple-elf-objects/
+	- Dynamic symbol resolution - https://fasterthanli.me/blog/2020/dynamic-symbol-resolution/
+	- Dynamic linker speed and correctness - https://fasterthanli.me/blog/2020/dynamic-linker-speed-and-correctness/
+	- GDB scripting and Indirect functions - https://fasterthanli.me/blog/2020/gdb-scripting-and-indirect-functions/
+	- Safer memory-mapped structures - https://fasterthanli.me/blog/2020/safer-memory-mapped-structures/
+	- More ELF relocations - https://fasterthanli.me/blog/2020/more-elf-relocations/
+	- A no_std Rust binary - https://fasterthanli.me/blog/2020/a-no-std-rust-binary/
 * Position Independent Executables - https://blog.fpmurphy.com/2008/06/position-independent-executables.html
 * Programming With Ones and Zeros
 	+ Part 1 - http://www.hanshq.net/ones-and-zeros.html
