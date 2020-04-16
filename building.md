@@ -271,6 +271,10 @@ See also:
 
 ## Build Performance Software
 
+- C++ Compile Health Watchdog
+	- Benchmark and accountability tool for C++ compile-time overhead / compile-time health.
+	- https://github.com/Philip-Trettner/cpp-compile-overhead
+	- Results: https://artificial-mind.net/projects/compile-health/
 - Cotire (compile time reducer)
 	- a CMake module that speeds up the build process of CMake based build systems by fully automating techniques as precompiled header usage and single compilation unit builds for C and C++.
 	- https://github.com/sakra/cotire
