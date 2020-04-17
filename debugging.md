@@ -503,6 +503,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://github.com/cs01/gdbgui
 * GdbShellPipe: Enable piping of internal command output to external commands
 	+ https://github.com/hq6/GdbShellPipe
+* GDBundle: Plugin Manager for GDB and LLDB
+	- https://github.com/memfault/gdbundle
+	- gdbundle - GDB and LLDB's Missing Plugin Manager
+		- https://interrupt.memfault.com/blog/gdbundle-plugin-manager
 * Gede: a graphical frontend (GUI) to GDB written in Qt
 	- http://gede.acidron.com/
 	- mirror: https://github.com/Nanoseb/gede
@@ -586,7 +590,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://testfit.io/devblog/gdb_custom_commands_dynamic_arrays
 * GDB Debugging Automation with Python: Implementing a memory leak detector - https://nativecoding.wordpress.com/2016/07/31/gdb-debugging-automation-with-python/
 * gdb Debugging Full Example (Tutorial): ncurses - http://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html
-* GDB Tutorial - https://www.gdb-tutorial.net/
+* GDB scripting and Indirect functions
+	- https://fasterthanli.me/blog/2020/gdb-scripting-and-indirect-functions/
 * GDB Tips and Tricks - Shane Kirk
 	+ 1: A Tale of Two Terminals - http://www.shanekirk.com/2017/08/gdb-tips-and-tricks-1-a-tale-of-two-terminals/
 	+ 2: Setting Breakpoints with Regular Expressions - http://www.shanekirk.com/2017/08/gdb-tips-and-tricks-2-setting-breakpoints-with-regular-expressions/
@@ -594,6 +599,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ 4: Reverse Debugging - http://www.shanekirk.com/2017/10/gdb-tips-and-tricks-4-reverse-debugging/
 	+ 5: The Display Command - http://www.shanekirk.com/2017/12/gdb-tips-and-tricks-5-the-display-command/
 	+ 6: Examining Data Types - http://www.shanekirk.com/2018/02/gdb-tips-and-tricks-6-examining-data-types/
+* GDB Tutorial - https://www.gdb-tutorial.net/
 * GDB Wiki - https://sourceware.org/gdb/wiki/
 * gdbWatchPoint: GDB tips & tricks
 	- https://undo.io/resources/gdb-watchpoint/
@@ -689,6 +695,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ https://github.com/facebook/ds2
 	+ 2015 LLVM Developers’ Meeting: Stephane Sezer "ds2, a tiny debug server used with lldb"
 	+ https://www.youtube.com/watch?v=n00EhLskJWk&list=PL_R5A0lGi1AA4Lv2bBFSwhgDaHvvpVU21&index=27
+* GDBundle: Plugin Manager for GDB and LLDB
+	- https://github.com/memfault/gdbundle
+	- gdbundle - GDB and LLDB's Missing Plugin Manager
+		- https://interrupt.memfault.com/blog/gdbundle-plugin-manager
 * LLDB Scripts: A collection of LLDB aliases/regexes and Python scripts to aid in your debugging sessions
 	+ https://github.com/DerekSelander/LLDB
 	+ https://www.raywenderlich.com/162020/custom-lldb-commands-practice
@@ -705,6 +715,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * CodeLLDB: a LLDB front end for Visual Studio Code - https://github.com/vadimcn/vscode-lldb
 * LLDB Vim Frontend - https://github.com/gilligan/vim-lldb
 * LLDB Neovim Frontend - https://github.com/dbgx/lldb.nvim
+* Native Debug
+	- GDB & LLDB Debugger support for VSCode
+	- https://marketplace.visualstudio.com/items?itemName=webfreak.debug
+	- https://github.com/WebFreak001/code-debug
 
 ### Readings
 
@@ -722,6 +736,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ### Talks
 
+* Support for mini-debuginfo in LLDB
+	- How to read the .gnu_debugdata section.
+	- FOSDEM 2020; Konrad Kleine
+	- https://fosdem.org/2020/schedule/event/debugging_mini/
 * Better C++ debugging using Clang Modules in LLDB
 	- 2019 LLVM Developers’ Meeting; Raphael Isemann
 	- https://www.youtube.com/watch?v=vuNZLlHhy0k
@@ -737,7 +755,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- WWDC 2012; Greg Clayton
 	- https://developer.apple.com/videos/play/wwdc2012/415/
 * Debugging with LLVM: A quick introduction to LLDB and LLVM sanitizers
-	- FOSDEM 2020; Andrzej Warzynski
+	- FOSDEM 2020; Andrzej Warzynski; Graham Hunter
 	- https://fosdem.org/2020/schedule/event/debugging_with_llvm/
 * ds2: a tiny debug server used with lldb
 	- 2015 LLVM Developers’ Meeting; Stephane Sezer, Facebook
