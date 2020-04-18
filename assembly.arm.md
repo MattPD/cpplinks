@@ -294,11 +294,17 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ### M-profile
 
-* Code-Generation for the Arm M-profile Vector Extension
+- Code-Generation for the Arm M-profile Vector Extension
 	- 2019 LLVM Developers’ Meeting; Sjoerd Meijer, Sam Parker
 	- https://www.youtube.com/watch?v=TUDWpAhLjBU
 	- http://llvm.org/devmtg/2019-10/talk-abstracts.html#tech2
-* Making Helium
+- Helium
+	- https://developer.arm.com/architectures/instruction-sets/simd-isas/helium
+	- Helium Intrinsics
+		- https://developer.arm.com/architectures/instruction-sets/simd-isas/helium/helium-intrinsics
+	- Helium Programmer's Guide
+		- https://developer.arm.com/architectures/instruction-sets/simd-isas/helium/helium-programmers-guide
+- Making Helium
 	- Why not just add Neon? (1/4) - https://community.arm.com/arm-research/b/articles/posts/making-helium-why-not-just-add-neon
 	- Sudoku, registers and rabbits (2/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-sudoku-registers-and-rabbits
 	- Going around in circles (3/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-going-around-in-circles
