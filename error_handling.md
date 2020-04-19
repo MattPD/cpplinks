@@ -314,6 +314,11 @@
 	- ISSRE 2019 - The 30th International Symposium on Software Reliability Engineering
 	- Zu-Ming Jiang, Jia-Ju Bai, Julia Lawall, Shi-Min Hu
 	- https://hal.inria.fr/hal-02389293/
+- Fuzzing Error Handling Code using Context-Sensitive Software Fault Injection
+	- USENIX Security 2020
+	- Zu-Ming Jiang, Jia-Ju Bai, Kangjie Lu, Shi-Min Hu
+	- https://www-users.cs.umn.edu/~kjlu/papers/fifuzz.pdf
+	- https://www.usenix.org/conference/usenixsecurity20/presentation/jiang
 - Testing Error Handling Code in Device Drivers Using Characteristic Fault Injection 
 	- 2016 USENIX Annual Technical Conference
 	- Jia-Ju Bai, Yu-Ping Wang, Jie Yin, Shi-Min Hu
