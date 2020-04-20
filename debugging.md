@@ -252,14 +252,20 @@ _Books, Books Reviews_
 
 ### Correctness
 
-* Correctness Proofs of Compilers and Debuggers: an Approach Based on Structural Operational Semantics
-	+ 1992 Ph.D. dissertation; Fabio Q. B. da Silva
-	+ http://hdl.handle.net/1842/13542
-	+ http://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-241/
+- Correctness Proofs of Compilers and Debuggers: an Approach Based on Structural Operational Semantics
+	- 1992 Ph.D. dissertation; Fabio Q. B. da Silva
+	- http://hdl.handle.net/1842/13542
+	- http://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-241/
+- Debug Information Validation for Optimized Code
+	- PLDI 2020
+	- Yuanbo Li, Shuo Ding, Qirun Zhang, Davide Italiano
+	- https://helloqirun.github.io/papers/pldi20_yuanbo1.pdf
+	- https://www.cc.gatech.edu/~qrzhang/projects/debug/debug.html
+	- https://pldi20.sigplan.org/details/pldi-2020-papers/60/Debug-Information-Validation-for-Optimized-Code
 
 #### Testing
 
-* Comparing The Quality Of Debug Information Produced By Clang And Gcc 
+* Comparing The Quality Of Debug Information Produced By Clang And GCC
 	+ https://robert.ocallahan.org/2018/11/comparing-quality-of-debug-information.html
 	+ debuginfo-quality: Evaluate the quality of debuginfo in an ELF binary
 		- https://github.com/rocallahan/debuginfo-quality
@@ -282,6 +288,10 @@ _Books, Books Reviews_
 	+ ISSTA 2019
 	+ Sandro Tolksdorf, Daniel Lehmann, Michael Pradel
 	+ https://conf.researchr.org/event/issta-2019/issta-2019-technical-papers-interactive-metamorphic-testing-of-debuggers
+* lldb-repro: a utility to transparently capture and replay debugger sessions through the command line driver
+	- used to test the reproducers by running the test suite twice
+	- https://github.com/llvm/llvm-project/tree/master/lldb/utils/lldb-repro
+	- https://lldb.llvm.org/resources/reproducers.html
 * Samy Al Bahra, Backtrace
 	+ Compiler debug quality suite - https://github.com/backtrace-labs/cdqs
 
