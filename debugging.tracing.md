@@ -343,6 +343,15 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 
 - ptrace - process trace - http://man7.org/linux/man-pages/man2/ptrace.2.html
 - Adventures into ptrace(2) Hell - https://www.cyphar.com/blog/post/20160703-remainroot-ptrace-hell
+- DetTrace: A Reproducible Container Abstraction
+	- A determinizing tracer using Ptrace
+	- https://github.com/dettrace/dettrace
+	- Reproducible Containers
+		- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2020
+		- Omar S. Navarro Leija, Kelly Shiptoski, Ryan G. Scott, Baojun Wang, Nicholas Renner, Ryan R. Newton, Joseph Devietti
+		- https://doi.org/10.1145/3373376.3378519
+		- https://gatowololo.github.io/resources/publications/dettrace.pdf  
+		- https://www.youtube.com/watch?v=YkmS-vf12nE
 - Hiding Call To Ptrace - https://github.com/yellowbyte/analysis-of-anti-analysis/blob/master/research/hiding_call_to_ptrace/hiding_call_to_ptrace.md
 - Intercepting and Emulating Linux System Calls with Ptrace - http://nullprogram.com/blog/2018/06/23/
 - Ptrace-burrito: A plugin style wrapper around ptrace on Linux.
