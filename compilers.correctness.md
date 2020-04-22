@@ -62,16 +62,49 @@ See also: [compilers](compilers.md)
 
 ## Debugging
 
+See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing"](https://software-lab.org/publications/csur2019_compiler_testing.pdf)
+
 - Automatic Isolation of Compiler Errors
 	- ACM Transactions on Programming Languages and Systems (TOPLAS) 16(5) 1994
 	- David Whalley
 	- https://www.cs.fsu.edu/~whalley/papers/acmtoplas94.pdf
+- Bugfind: A Tool for Debugging Optimizing Compilers
+	- ACM SIGPLAN Notices 25, no. 1 (1990)
+	- Jacqueline M. Caron, Peter A. Darnell
+	- https://doi.org/10.1145/74105.74106
+- Compiler Bug Isolation via Effective Witness Test Program Generation
+	- ESEC/FSE 2019 
+	- Junjie Chen, Jiaqi Han, Peiyi Sun, Lingming Zhang, Dan Hao, Lu Zhang
+	- https://dl.acm.org/citation.cfm?id=3338957
+	- https://personal.utdallas.edu/~lxz144130/publications/fse2019.pdf
+	- DiWi (Diversified Witnesses)
+		- https://github.com/JunjieChen/DiWi
 - Debugging compilers with optimization fuel
 	- 2011
 	- Edward Z. Yang
 	- http://blog.ezyang.com/2011/06/debugging-compilers-with-optimization-fuel/
+- GCC Wiki: Finding miscompilations on large testcases
+	- https://gcc.gnu.org/wiki/Analysing_Large_Testcases
+- LLVM bugpoint
+	- LLVM bugpoint tool: design and usage
+		- https://llvm.org/docs/Bugpoint.html
+	- Reduce Your Testcases with Bugpoint and Custom Scripts
+		- http://blog.llvm.org/2015/11/reduce-your-testcases-with-bugpoint-and.html
+- Replay Compilation: Improving Debuggability of a Just-in-Time Compiler
+	- OOPSLA 2006
+	- Kazunori Ogata, Tamiya Onodera, Kiyokuni Kawachiya, Hideaki Komatsu, Toshio Nakatani
+	- https://doi.org/10.1145/1167473.1167493
+	- https://www.researchgate.net/publication/221321785_Replay_compilation_Improving_debuggability_of_a_just-in-time_compiler
+- Toward Automatic Debugging of Compilers
+	- International Joint Conference on Artificial Intelligence 1977
+	- Hanan Samet
+	- http://www.cs.umd.edu/~hjs/pubs/compilers/toward-automatic-debugging.pdf
+- Type-Based Verification of Assembly Language for Compiler Debugging
+	- ACM SIGPLAN Workshop on Types in Language Design and Implementation (TLDI) 2005
+	- Bor-Yuh Evan Chang, Adam Chlipala, George C. Necula, Robert R. Schneck
+	- http://adam.chlipala.net/papers/CoolaidTLDI05/
 - Using Mutants to Help Developers Distinguish and Debug (Compiler) Faults
-	- Journal of Software Testing, Verification, and Reliability (STVR) (accepted: 2019)
+	- Journal of Software Testing, Verification, and Reliability (STVR) Volume 30, Issue 2 (2020)
 	- Josie Holmes and Alex Groce
 	- https://agroce.github.io/stvr20.pdf
 	- https://github.com/agroce/compilermutants
@@ -178,12 +211,6 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- N. Hasabnis, R. Qiao, R. Sekar 
 	- http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15.pdf
 	- http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15_talk.pdf
-- Compiler Bug Isolation via Effective Witness Test Program Generation
-	- ESEC/FSE 2019 
-	- Junjie Chen, Jiaqi Han, Peiyi Sun, Lingming Zhang, Dan Hao, Lu Zhang
-	- https://dl.acm.org/citation.cfm?id=3338957
-	- DiWi (Diversified Witnesses)
-		- https://github.com/JunjieChen/DiWi
 - Compiler fuzzing, part 1
 	- http://www.vegardno.net/2018/06/compiler-fuzzing.html
 - Compiler Fuzzing through Deep Learning
