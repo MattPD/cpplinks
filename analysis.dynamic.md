@@ -316,6 +316,14 @@ https://www.researchgate.net/publication/280306016_Pinballs_Portable_and_Shareab
 - GWP-ASan: Sampling heap memory error detection in-the-wild
 	- 2019; Vlad Tsyrklevich
 	- https://sites.google.com/a/chromium.org/dev/Home/chromium-security/articles/gwp-asan
+- Kernel Concurrency Sanitizer (KCSAN)
+	- https://github.com/google/ktsan/wiki/KCSAN
+	- Concurrency bugs should fear the big bad data-race detector
+		- part 1: https://lwn.net/Articles/816850/
+		- part 2: https://lwn.net/Articles/816854/
+- Kernel Thread Sanitizer (KTSAN)
+	- https://github.com/google/ktsan
+	- https://github.com/google/ktsan/wiki
 
 #### Software: Sanitizers: Readings: Research
 
@@ -393,6 +401,13 @@ https://www.researchgate.net/publication/280306016_Pinballs_Portable_and_Shareab
 		- https://andreafioraldi.github.io/articles/2019/12/20/sanitized-emulation-with-qasan.html
 - sanitizers-cmake: CMake modules to help use sanitizers
 	- https://github.com/arsenm/sanitizers-cmake
+- TypeART: LLVM-based type and memory allocation tracking sanitizer
+	- https://github.com/tudasc/TypeART
+	- Compiler-aided Type Tracking for Correctness Checking of MPI Applications
+		- International Workshop on Software Correctness for HPC Applications (Correctness) 2018
+		- Alexander Hück, Jan-Patrick Lehr, Sebastian Kreutzer, Joachim Protze, Christian Terboven, Christian Bischof, Matthias S. Müller
+		- https://doi.org/10.1109/Correctness.2018.00011
+		- https://correctness-workshop.github.io/2018/papers/lehr.pdf
 
 ### Software: Sanitizers: Talks
 
