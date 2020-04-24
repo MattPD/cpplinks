@@ -159,6 +159,8 @@ Contents:
 - Ten Process Injection Techniques: A Technical Survey of Common and Trending Process Injection Techniques
 	- https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process
 - What is so special about the instance handle 0x10000000? - https://blogs.msdn.microsoft.com/oldnewthing/20121227-00/?p=5713/
+- Windows DLL Hijacking (Hopefully) Clarified
+	- https://itm4n.github.io/windows-dll-hijacking-clarified/
 
 ## DLL: Software
 
@@ -911,6 +913,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ Part 1: http://reversingproject.info/wp-content/uploads/2009/05/an_in-depth_look_into_the_win32_portable_executable_file_format_part_1.pdf / http://www.delphibasics.info/home/delphibasicsarticles/anin-depthlookintothewin32portableexecutablefileformat-part1
 	+ Part 2: http://reversingproject.info/wp-content/uploads/2009/05/an_in-depth_look_into_the_win32_portable_executable_file_format_part_2.pdf / http://www.delphibasics.info/home/delphibasicsarticles/anin-depthlookintothewin32portableexecutablefileformat-part2
 * Binary offsets, virtual addresses and pefile - https://5d4a.wordpress.com/2017/09/21/binary-offsets-virtual-addresses-and-pefile/
+* Calling Arbitrary Functions In EXEs: Performing Calls to EXE Functions Like DLL Exports
+	- https://blog.vastart.dev/2020/04/calling-arbitrary-functions-in-exes.html
 * Case studies in Rich Header analysis and hunting (2018-08-09) - http://ropgadget.com/posts/richheader_hunting.html
 * Common Object File Format (COFF) - https://support.microsoft.com/en-us/help/121460/common-object-file-format-coff
 * Dynamic Reconstruction of Relocation Information for Stripped Binaries - http://www.cs.columbia.edu/~vpappas/papers/reloc.raid14.pdf
@@ -982,6 +986,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ https://hshrzd.wordpress.com/pe-sieve/
 	+ https://github.com/hasherezade/pe-sieve
 * pe_recovery_tools: Helper tools for recovering dumped PE files - https://github.com/hasherezade/pe_recovery_tools
+* pe_to_shellcode: Converts PE into a shellcode
+	- https://github.com/hasherezade/pe_to_shellcode
 * pedump - dump windows PE files using Ruby - http://pedump.me/ - https://github.com/zed-0xff/pedump
 * pelook: PE/COFF dump and conversion tool - http://bytepointer.com/tools/index.htm#pelook
 * pestudio - https://www.winitor.com/
@@ -1028,6 +1034,9 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	- https://github.com/DimitriFourny/resources/tree/master/pe_armor
 - squishy: a modern pc 64k intro packer
 	- http://logicoma.io/squishy/
+	- modern 64k intro compression
+		- Revision Online 2020 Seminar; jake "ferris" taylor / logicoma
+		- https://www.youtube.com/watch?v=O5LfE_qNzes
 
 ## PE: Talks
 
