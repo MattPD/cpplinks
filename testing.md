@@ -72,6 +72,9 @@ See also:
 	- http://www.pixelbeat.org/docs/coreutils-testing.html
 - Principles of Automated Testing
 	- http://www.lihaoyi.com/post/PrinciplesofAutomatedTesting.html
+- Refactoring for testability in C++
+	- Hard-to-test patterns in C++ and how to refactor them.
+	- https://github.com/platisd/refactoring-for-testability-cpp
 - Testing in Production, the safe way
 	- https://medium.com/@copyconstruct/testing-in-production-the-safe-way-18ca102d0ef1
 
@@ -453,8 +456,8 @@ See also:
 	- https://ieeexplore.ieee.org/document/8354427/
 	- https://www.researchgate.net/publication/324959836_Mythical_Unit_Test_Coverage
 - Not All Coverage Measurements Are Equal: Fuzzing by Coverage Accounting for Input Prioritization
-	- Yanhao Wang, Xiangkun Jia, Yuwei Liu, Tiffany Bao, Dinghao Wu, and Purui Su
 	- Network and Distributed System Security Symposium (NDSS) 2020
+	- Yanhao Wang, Xiangkun Jia, Yuwei Liu, Tiffany Bao, Dinghao Wu, and Purui Su
 	- https://ajax4sec.github.io/papers/ndss20-fall-paper422.pdf
 - Selecting Software Test Data Using Data Flow Information
 	- IEEE Transactions on Software Engineering 11(4) 1985
@@ -697,6 +700,9 @@ Mutation Analysis, Mutation Coverage, Mutation Testing
 	- CACM 2013
 	- C. Cadar and K. Sen
 	- https://people.eecs.berkeley.edu/~ksen/papers/cacm13.pdf
+- Test-Comp: International Competition on Software Testing
+	- a comparative evaluation of automatic tools for software test generation
+	- https://test-comp.sosy-lab.org/
 - Test Generation Using Symbolic Execution
 	- Foundations of Software Technology and Theoretical Computer Science (FSTTCS) 2012
 	- Patrice Godefroid
@@ -878,12 +884,9 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 	- A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch) 
 	- http://catch-lib.net
 	- https://github.com/catchorg/Catch2
-	- Modern C++ Testing with Catch2
-		- Meeting C++ 2017; Phil Nash
-		- https://www.youtube.com/watch?v=3tIE6X5FjDE
-	- Modern C++ Testing with Catch2
-		- CppCon 2018; Phil Nash
-		- https://www.youtube.com/watch?v=Ob5_XZrFQH0
+	- Modern C++ Testing with Catch2 - Phil Nash
+		- Meeting C++ 2017: https://www.youtube.com/watch?v=3tIE6X5FjDE
+		- CppCon 2018: https://www.youtube.com/watch?v=Ob5_XZrFQH0
 - Cgreen - The Modern Unit Test and Mocking Framework for C and C++
 	- https://github.com/cgreen-devs/cgreen
 - CppUTest unit testing and mocking framework for C/C++
