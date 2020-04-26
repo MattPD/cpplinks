@@ -45,6 +45,8 @@ https://riscv.org/publications/
 	- https://carrv.github.io/papers/clark-rv8-carrv2017.pdf
 - Surveying the Free and Open Source RISC-V Ecosystem – Embecosm
 	- https://www.embecosm.com/2018/05/07/surveying-the-free-and-open-source-risc-v-ecosystem/
+- The Adventures of OS: Making a RISC-V Operating System using Rust
+	- https://osblog.stephenmarz.com/
 - The Berkeley Out-of-Order Machine (BOOM): An Industry-Competitive, Synthesizable, Parameterized RISC-V Processor
 	- https://www.eecs.berkeley.edu/Pubs/TechRpts/2015/EECS-2015-167.html
 	- BOOM v2: an open-source out-of-order RISC-V core - https://www2.eecs.berkeley.edu/Pubs/TechRpts/2017/EECS-2017-157.html
@@ -193,6 +195,11 @@ Taxonomy of Open Source Processors - http://parallel.princeton.edu/openpiton/ope
 	- HammerBlade IR: https://capra.cs.cornell.edu/hbir/
 	- FOSDEM 2020; Michael Taylor
 		- https://fosdem.org/2020/schedule/event/riscv_hammerblade/
+- HL5: A 32-bit RISC-V Processor Designed with High-Level Synthesis (SystemC)
+	- https://github.com/sld-columbia/hl5
+	- Custom Integrated Circuits Conference (CICC) 2020
+		- Paolo Mantovani, Robert Margelli, Davide Giri, Luca P. Carloni
+		- https://sld.cs.columbia.edu/pubs/mantovani_cicc20.pdf
 - Ibex: a small 32 bit RISC-V CPU core (RV32IMC/EMC) with a 2-stage pipeline (SystemVerilog)
 	- https://github.com/lowRISC/ibex/
 	- https://www.lowrisc.org/blog/2019/06/an-update-on-ibex-our-microcontroller-class-cpu-core/
@@ -235,6 +242,10 @@ Taxonomy of Open Source Processors - http://parallel.princeton.edu/openpiton/ope
 	- https://github.com/csail-csg/riscy
 - Rocket Chip Generator (Chisel)
 	- https://github.com/ucb-bar/rocket-chip/
+- RPU: Basic RISC-V CPU implementation in VHDL
+	- https://github.com/Domipheus/RPU
+	- Designing a RISC-V CPU (TPU/RPU) in VHDL Series
+		- http://labs.domipheus.com/blog/tpu-series-quick-links/
 - RSD: RISC-V Out-of-Order Superscalar Processor (SystemVerilog)
 	- https://github.com/rsd-devel/rsd
 	- An Open Source FPGA-Optimized Out-of-Order RISC-V Soft Processor
