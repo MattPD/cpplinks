@@ -59,6 +59,10 @@ See also:
 	- https://blogs.ncl.ac.uk/andreymokhov/build-systems-a-la-carte/
 	- https://icfp18.sigplan.org/event/icfp-2018-papers-build-systems-a-la-carte
 	- https://www.youtube.com/watch?v=BQVT6wiwCxM
+	- Build Systems à La Carte: Theory and Practice
+		- Journal of Functional Programming 30 (2020)
+		- Andrey Mokhov, Neil Mitchell, Simon Peyton Jones
+		- https://doi.org/10.1017/S0956796820000088
 - Build System Rules and Algorithms
 	- Mike Shal (2009)
 	- http://gittup.org/tup/build_system_rules_and_algorithms.pdf
@@ -271,16 +275,16 @@ See also:
 
 ## Build Performance Software
 
-- C++ Compile Health Watchdog
-	- Benchmark and accountability tool for C++ compile-time overhead / compile-time health.
-	- https://github.com/Philip-Trettner/cpp-compile-overhead
-	- Results: https://artificial-mind.net/projects/compile-health/
 - Cotire (compile time reducer)
 	- a CMake module that speeds up the build process of CMake based build systems by fully automating techniques as precompiled header usage and single compilation unit builds for C and C++.
 	- https://github.com/sakra/cotire
 
 ### Benchmarking and Profiling
 
+- C++ Compile Health Watchdog
+	- Benchmark and accountability tool for C++ compile-time overhead / compile-time health.
+	- https://github.com/Philip-Trettner/cpp-compile-overhead
+	- Results: https://artificial-mind.net/projects/compile-health/
 - Clang -ftime-trace and ftime-trace-granularity=N
 	- http://releases.llvm.org/9.0.0/tools/clang/docs/ReleaseNotes.html#new-compiler-flags
 	- Clang Time Trace Feature
@@ -314,6 +318,8 @@ See also:
 		- https://devblogs.microsoft.com/cppblog/introducing-c-build-insights/
 	- Analyze your builds programmatically with the C++ Build Insights SDK
 		- https://devblogs.microsoft.com/cppblog/analyze-your-builds-programmatically-with-the-c-build-insights-sdk/
+	- Finding build bottlenecks with C++ Build Insights
+		- https://devblogs.microsoft.com/cppblog/finding-build-bottlenecks-with-cpp-build-insights/
 
 ### Caching
 
@@ -831,6 +837,15 @@ See also:
 - What to Expect from a Next-Generation C++ Build System
 	- CppCon 2018; Boris Kolpackov
 	- https://www.youtube.com/watch?v=cJP7SSLjvSI
+
+## 2016
+
+- A New Architecture for Building Software
+	- 2016 LLVM Developers’ Meeting; Daniel Dunbar
+	- https://www.youtube.com/watch?v=b_T-eCToX1I
+	- http://www.llvm.org/devmtg/2016-11/#talk10
+	- llbuild: A low-level build system, used by Xcode and the Swift Package Manager
+		- https://github.com/apple/swift-llbuild
 
 ## 2017
 
