@@ -234,6 +234,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- IEEE Transactions on Software Engineering (2019)
 	- Junjie Chen, Guancheng Wang, Dan Hao, Yingfei Xiong, Hongyu Zhang, Lu Zhang, Bing Xie
 	- https://ieeexplore.ieee.org/abstract/document/8588375
+- CUDAsmith: A Fuzzer for CUDA Compilers
+	- Computers, Software and Applications Conference (COMPSAC) 2020
+	- Bo Jiang, Xiaoyan Wang, W. K. Chan, T. H. Tse, Na Li, Yongfeng Yin, Zhenyu Zhang
+	- https://www.cs.hku.hk/data/techreps/document/TR-2020-05.pdf
+	- https://github.com/gongbell/CUDAsmith
 - DATm: Diderot's Automated Testing Model.
 	- 39th International Conference on Software Engineering ICSE (12th International Workshop on Automation of Software Test AST) 2017
 	- C. Chiw, G. Kindlmann, J. Reppy
