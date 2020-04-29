@@ -28,6 +28,8 @@ See also:
 	- Tutorials, examples, discussions, research proposals, and other resources related to fuzzing
 	- https://github.com/google/fuzzing
 - https://www.reddit.com/r/fuzzing/
+- The Fuzzing Project
+	- https://fuzzing-project.org/
 
 ---
 
@@ -197,14 +199,14 @@ See also:
 	- Orthrus is a tool for managing, conducting, and assessing dictionary-based security (fuzz) testing for autotools projects. At the moment, it supports Clang/LLVM instrumentation and the AFL ecosystem (afl-fuzz, afl-utils, afl-cov). The ultimate aim is for Orthrus to be a generic wrapper around state-of-the-art fuzz and instrumentation tools on the one hand, and disparate build systems on the other.
 	- Static Program Analysis as a Fuzzing Aid
 		- RAID 2017
-			- Bhargava Shastry, Markus Leutner, Tobias Fiebig, Kashyap Thimmaraju, Fabian Yamaguchi, Konrad Rieck, Stefan Schmid, Jean-Pierre Seifert, Anja Feldmann
-			- https://aperture-labs.org/pdf/raid2017.pdf
-			- http://users.sec.t-labs.tu-berlin.de/~bshastry/raid17_slidedeck.pdf
-			- https://link.springer.com/chapter/10.1007/978-3-319-66332-6_2
-		- Static Exploration of Taint-Style Vulnerabilities Found by Fuzzing
-			- USENIX WOOT 2017
-			- Bhargava Shastry, Federico Maggi, Fabian Yamaguchi, Konrad Rieck, Jean-Pierre Seifert
-			- https://arxiv.org/abs/1706.00206
+		- Bhargava Shastry, Markus Leutner, Tobias Fiebig, Kashyap Thimmaraju, Fabian Yamaguchi, Konrad Rieck, Stefan Schmid, Jean-Pierre Seifert, Anja Feldmann
+		- https://aperture-labs.org/pdf/raid2017.pdf
+		- http://users.sec.t-labs.tu-berlin.de/~bshastry/raid17_slidedeck.pdf
+		- https://link.springer.com/chapter/10.1007/978-3-319-66332-6_2
+	- Static Exploration of Taint-Style Vulnerabilities Found by Fuzzing
+		- USENIX WOOT 2017
+		- Bhargava Shastry, Federico Maggi, Fabian Yamaguchi, Konrad Rieck, Jean-Pierre Seifert
+		- https://arxiv.org/abs/1706.00206
 - QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing
 	- USENIX Security 2018
 	- Insu Yun, Sangho Lee, Meng Xu, Yeongjin Jang, Taesoo Kim
@@ -226,6 +228,9 @@ See also:
 	- https://github.com/nccgroup/triforceafl
 	- https://github.com/timnewsham/TriforceAFL
 	- https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2016/june/project-triforce-run-afl-on-everything/
+- zzuf: a transparent application input fuzzer
+	- https://github.com/samhocevar/zzuf
+	- http://caca.zoy.org/wiki/zzuf
 
 ## Software: AFL
 
@@ -346,9 +351,10 @@ Fuzzing applied to software performance.
 - SlowFuzz: Automated Domain-Independent Detection of Algorithmic Complexity Vulnerabilities
 	- A spin on libFuzzer so as to favor inputs incurring a slowdown. The key modifications consist of changing the fitness function, to favor inputs that excercise more basic block edges, as well as introducing probabilities in the selection of mutations to be performed, so as to preserve "locality" of the created inputs.
 	- https://github.com/nettrino/slowfuzz
-		- ACM CCS 2017
+	- ACM CCS 2017
 		- Theofilos Petsios, Jason Zhao, Angelos D. Keromytis, Suman Jana
 		- https://arxiv.org/abs/1708.08437
+		- https://www.youtube.com/watch?v=ZuWWs64UTts
 
 ---
 
@@ -366,6 +372,9 @@ Fuzzing applied to software performance.
 	- CppCon 2019: Jim Radigan 
 	- https://www.youtube.com/watch?v=0EsqxGgYOQU
 	- https://github.com/CppCon/CppCon2019/tree/master/Presentations/address_sanitizers__cloud_at_microsoft
+- Fuzzing for developers
+	- StockholmCpp::0x15 - Pi Day 2019; Paul Dreik
+	- https://www.youtube.com/watch?v=e_Oc9SkCo5s
 - Going Beyond Coverage-Guided Fuzzing with Structured Fuzzing
 	- Black Hat 2019; Jonathan Metzman
 	- https://www.youtube.com/watch?v=S8JvzWDnjc0
@@ -379,9 +388,10 @@ Fuzzing applied to software performance.
 - Testing Legacy Code - Fuzzing for Better Input Data
 	- Meeting C++ 2019; Tina Ulbrich, Niel Waldren
 	- https://meetingcpp.com/mcpp/slides/2019/Testing%20Legacy%20Code%20-%20Fuzzing%20for%20Better%20Input%20Data.pdf
-- Fuzzing for developers
-	- StockholmCpp::0x15 - Pi Day 2019; Paul Dreik
-	- https://www.youtube.com/watch?v=e_Oc9SkCo5s
+-  What the Fuzz
+	- Black Hat Europe 2019; Cornelius Aschermann and Sergej Schumilo 
+	- https://www.youtube.com/watch?v=Wy7qY5ms3qY
+	- https://www.blackhat.com/eu-19/briefings/schedule/#what-the-fuzz-18031
 
 ## Talks: 2018
 
