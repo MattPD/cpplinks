@@ -700,25 +700,28 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ### Projects
 
-* ds2: Debug server for lldb
-	+ ds2 is a debug server designed to be used with LLDB to perform remote debugging of Linux, Android, FreeBSD, Windows and Windows Phone targets. Windows/Windows Phone support is still under active development.
-	+ https://github.com/facebook/ds2
-	+ 2015 LLVM Developers’ Meeting: Stephane Sezer "ds2, a tiny debug server used with lldb"
-	+ https://www.youtube.com/watch?v=n00EhLskJWk&list=PL_R5A0lGi1AA4Lv2bBFSwhgDaHvvpVU21&index=27
-* GDBundle: Plugin Manager for GDB and LLDB
+- ds2: Debug server for lldb
+	- ds2 is a debug server designed to be used with LLDB to perform remote debugging of Linux, Android, FreeBSD, Windows and Windows Phone targets. Windows/Windows Phone support is still under active development.
+	- https://github.com/facebook/ds2
+	- 2015 LLVM Developers’ Meeting: Stephane Sezer "ds2, a tiny debug server used with lldb"
+	- https://www.youtube.com/watch?v=n00EhLskJWk&list=PL_R5A0lGi1AA4Lv2bBFSwhgDaHvvpVU21&index=27
+- GDBundle: Plugin Manager for GDB and LLDB
 	- https://github.com/memfault/gdbundle
 	- gdbundle - GDB and LLDB's Missing Plugin Manager
 		- https://interrupt.memfault.com/blog/gdbundle-plugin-manager
-* LLDB Scripts: A collection of LLDB aliases/regexes and Python scripts to aid in your debugging sessions
-	+ https://github.com/DerekSelander/LLDB
-	+ https://www.raywenderlich.com/162020/custom-lldb-commands-practice
-	+ https://www.raywenderlich.com/161938/assembly-register-calling-convention-tutorial
-* lldbinit: Similar implementation of .gdbinit from fG! for lldb in python
-	+ https://github.com/deroko/lldbinit
-* Vegvisir: A browser based GUI for LLDB Debugger
-	+ https://github.com/ant4g0nist/vegvisir
-* vplot: C++ container graph visualization for lldb
-	+ https://github.com/egladysh/vplot
+- LLDB Scripts: A collection of LLDB aliases/regexes and Python scripts to aid in your debugging sessions
+	- https://github.com/DerekSelander/LLDB
+	- https://www.raywenderlich.com/162020/custom-lldb-commands-practice
+	- https://www.raywenderlich.com/161938/assembly-register-calling-convention-tutorial
+- lldbinit: Similar implementation of .gdbinit from fG! for lldb in python
+	- https://github.com/deroko/lldbinit
+- LLDBINIT: A gdbinit clone for LLDB
+	- https://github.com/gdbinit/lldbinit
+	- https://www.zerodayinitiative.com/blog/2020/4/20/mindshare-using-lldbinit-to-enhance-the-lldb-debugger
+- Vegvisir: A browser based GUI for LLDB Debugger
+	- https://github.com/ant4g0nist/vegvisir
+- vplot: C++ container graph visualization for lldb
+	- https://github.com/egladysh/vplot
 
 #### Editor Integration
 
@@ -935,7 +938,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 #### Visual Studio Debugger
 
-* https://docs.microsoft.com/en-us/visualstudio/debugger/ 
+* https://docs.microsoft.com/en-us/visualstudio/debugger/
 * https://devblogs.microsoft.com/visualstudio/tag/debug/
 
 #### WinDbg
@@ -956,6 +959,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 ##### Readings
 
 - Collection of WinDBG resources - https://blogs.msdn.microsoft.com/reiley/2012/07/28/collection-of-windbg-resources/
+- Break On Process Creation in WinDbg
+	- https://shakreiner.com/posts/break-on-process-windbg/
 - Debugger Data Model, Javascript & X64 Exception Handling - https://doar-e.github.io/blog/2017/12/01/debugger-data-model/
 - Debugging Tools for Windows - https://blogs.msdn.microsoft.com/windbg/
 - Exploiting flaws in Windbg: how to escape or fool debuggers from existing flaws
