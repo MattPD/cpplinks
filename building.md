@@ -261,6 +261,17 @@ See also:
 	- https://www.productive-cpp.com/improving-cpp-builds-with-split-dwarf/
 - Improving Compilation Time of C/C++ Projects
 	- https://interrupt.memfault.com/blog/improving-compilation-times-c-cpp-projects
+- Investigating C++ compile times
+	- My journey investigating slow compile times in C++
+		- https://metanokid.github.io/coding-scars/investigating-cpp-compile-times-0
+	- Useful tools to investigate C++ compile times
+		- https://metanokid.github.io/coding-scars/investigating-cpp-compile-times-1
+	- Understanding MSBuild to create flame graphs
+		- https://metanokid.github.io/coding-scars/investigating-cpp-compile-times-2
+	- Improving C++ compile times using flame graphs
+		- https://metanokid.github.io/coding-scars/investigating-cpp-compile-times-3
+	- Getting data from C++ Build Insights SDK
+		- https://metanokid.github.io/coding-scars/investigating-cpp-compile-times-4
 - Physical Design of The Machinery
 	- http://ourmachinery.com/post/physical-design/
 - Reducing Build Time through Precompilations for Evolving Large Software
@@ -309,17 +320,20 @@ See also:
 		- 2015 EuroLLVM Developers’ Meeting, Zoltan Porkolab
 		- https://llvm.org/devmtg/2015-04/slides/EuroLLVM2015Templight.pdf
 		- https://www.youtube.com/watch?v=djAPtopWhRU
-- Visual C++ - C++ Build Insights
+- Visual C++
 	- vcperf: A build analysis tool for the MSVC toolchain
 		- https://github.com/microsoft/vcperf
-	- Get started with C++ Build Insights
-		- https://docs.microsoft.com/en-us/cpp/build-insights/get-started-with-cpp-build-insights
-	- Introducing C++ Build Insights
-		- https://devblogs.microsoft.com/cppblog/introducing-c-build-insights/
-	- Analyze your builds programmatically with the C++ Build Insights SDK
-		- https://devblogs.microsoft.com/cppblog/analyze-your-builds-programmatically-with-the-c-build-insights-sdk/
-	- Finding build bottlenecks with C++ Build Insights
-		- https://devblogs.microsoft.com/cppblog/finding-build-bottlenecks-with-cpp-build-insights/
+	- MSBuild Flame Graph: Turns MSBuild executions into flame graphs
+		- https://github.com/MetanoKid/msbuild-flame-graph
+	- C++ Build Insights
+		- Get started with C++ Build Insights
+			- https://docs.microsoft.com/en-us/cpp/build-insights/get-started-with-cpp-build-insights
+		- Introducing C++ Build Insights
+			- https://devblogs.microsoft.com/cppblog/introducing-c-build-insights/
+		- Analyze your builds programmatically with the C++ Build Insights SDK
+			- https://devblogs.microsoft.com/cppblog/analyze-your-builds-programmatically-with-the-c-build-insights-sdk/
+		- Finding build bottlenecks with C++ Build Insights
+			- https://devblogs.microsoft.com/cppblog/finding-build-bottlenecks-with-cpp-build-insights/
 
 ### Caching
 
