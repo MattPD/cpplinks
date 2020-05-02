@@ -110,6 +110,9 @@
 - inline-c-cpp: Lets you embed C++ code into Haskell
 	- http://hackage.haskell.org/package/inline-c-cpp
 	- https://github.com/fpco/inline-c
+- Stranger in a Strange Land: An introductory tour of the Haskell FFI
+	- Haskell DC 2020; P.C. Shyamshankar
+	- https://www.youtube.com/watch?v=zlOrYQH_-Xs
 
 ---
 
