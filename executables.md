@@ -461,6 +461,7 @@ Contents:
 	- Safer memory-mapped structures - https://fasterthanli.me/blog/2020/safer-memory-mapped-structures/
 	- More ELF relocations - https://fasterthanli.me/blog/2020/more-elf-relocations/
 	- A no_std Rust binary - https://fasterthanli.me/blog/2020/a-no-std-rust-binary/
+	- Thread-local storage - https://fasterthanli.me/blog/2020/thread-local-storage/
 * Position Independent Executables - https://blog.fpmurphy.com/2008/06/position-independent-executables.html
 * Programming With Ones and Zeros
 	+ Part 1 - http://www.hanshq.net/ones-and-zeros.html
@@ -877,6 +878,8 @@ Contents:
 	- https://github.com/rainers/cv2pdb
 - Debug Interface Access SDK (DIA SDK) - provides access to debug information stored in PDB files - https://docs.microsoft.com/en-us/visualstudio/debugger/debug-interface-access/debug-interface-access-sdk
 - drpdb: Convert from Microsoft PDB format into a MySQL database - https://github.com/briterator/drpdb
+- LLVM Jit Pdb: Debugging LLVM JIT code inside Visual Studio with PDB
+	- https://github.com/vlmillet/llvmjitpdb
 - llvm-pdbutil - PDB File forensics and diagnostics - https://llvm.org/docs/CommandGuide/llvm-pdbutil.html - https://github.com/llvm-mirror/llvm/tree/master/tools/llvm-pdbutil
 - llvm-symbolizer - convert addresses into source code locations - https://llvm.org/docs/CommandGuide/llvm-symbolizer.html - https://github.com/Microsoft/llvm/tree/master/test/tools/llvm-symbolizer/pdb
 - MetadataTools:
