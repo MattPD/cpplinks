@@ -253,6 +253,10 @@ See also: [Computer Architecture](comparch.md)
 	- Ghada Dessouky, Tommaso Frassetto, Ahmad-Reza Sadeghi
 	- https://arxiv.org/abs/1909.09599
 	- https://www.usenix.org/system/files/sec20spring_dessouky_prepub.pdf
+- Meet the Sherlock Holmes’ of Side Channel Leakage: A Survey of Cache SCA Detection Techniques
+	- IEEE Access (2020)
+	- Ayaz Akram, Maria Mushtaq, Muhammad Khurram Bhatti, Vianney Lapotre, Guy Gogniat
+	- https://ieeexplore.ieee.org/abstract/document/9035459/
 - On the Incomparability of Cache Algorithms in Terms of Timing Leakage
 	- arXiv 2018
 	- Pablo Cañones, Boris Köpf, Jan Reineke
@@ -269,6 +273,11 @@ See also: [Computer Architecture](comparch.md)
 	- ISCA 2017
 	- Mengjia Yan, Bhargava Gopireddy, Thomas Shull, Josep Torrellas
 	- https://ieeexplore.ieee.org/abstract/document/8192484
+- SmokeBomb: Effective Mitigation Against Cache Side-channel Attacks on the ARM Architecture
+	- MobiSys 2020
+	- Haehyun Cho, Jinbum Park, Donguk Kim, Ziming Zhao, Yan Shoshitaishvili, Adam Doupeé, Gail-Joon Ahn
+	- https://doi.org/10.1145/3386901.3388888
+	- https://haehyun.github.io/papers/smokebomb-mobisys20.pdf
 - Strong and Efficient Cache Side-Channel Protection using Hardware Transactional Memory
 	- USENIX Security Symposium 2017
 	- Daniel Gruss, Julian Lettner, Felix Schuster, Olga Ohrimenko, István Haller, Manuel Costa
@@ -716,6 +725,10 @@ See also: [Computer Architecture](comparch.md)
 	- Moritz Lipp, Vedad Hadžić, Michael Schwarz, Arthur Perais, Clémentine Maurice, Daniel Gruss
 	- https://mlq.me/download/takeaway.pdf
 	- https://doi.org/10.1145/3320269.3384746
+- Website Fingerprinting Through the Cache Occupancy Channel and its Real World Practicality
+	- IEEE Transactions on Dependable and Secure Computing (TDSC) 2020
+	- Anatoly Shusterman, Zohar Avraham, Eliezer Croitoru, Yarden Haskal, Lachlan Kang, Dvir Levi, Yosef Meltser, Prateek Mittal, Yossi Oren, Yuval Yarom 
+	- https://orenlab.sise.bgu.ac.il/p/RobustFingerprinting-TDSC
 
 ## Cache (2019)
 
@@ -757,7 +770,8 @@ See also: [Computer Architecture](comparch.md)
 	- Ahmad Moghimi, Thomas Eisenbarth, Berk Sunar
 	- https://arxiv.org/abs/1711.08002
 - Robust Website Fingerprinting Through the Cache Occupancy Channel
-	- 2018 arXiv; Anatoly Shusterman, Lachlan Kang, Yarden Haskal, Yosef Meltser, Prateek Mittal, Yossi Oren, Yuval Yarom 
+	- USENIX Security Symposium 2019; 2018 arXiv
+	- Anatoly Shusterman, Lachlan Kang, Yarden Haskal, Yosef Meltser, Prateek Mittal, Yossi Oren, Yuval Yarom 
 	- https://arxiv.org/abs/1811.07153
 
 ## Cache (2017)
