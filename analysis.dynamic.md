@@ -84,6 +84,16 @@ See also:
 		- https://events.ccc.de/congress/2017/Fahrplan/events/9195.html
 	- Avatar²: A Multi-target Orchestration Platform
 		- http://s3.eurecom.fr/docs/bar18_muench.pdf
+	- Dynamic Binary Firmware Analysis: Challenges & Solutions
+		- 2019 PhD Dissertation; Marius Muench
+		- http://www.eurecom.fr/en/publication/5969/detail/dynamic-binary-firmware-analysis-challenges-and-solutions
+- DynamoRIO: Dynamic Instrumentation Tool Platform
+	- https://dynamorio.org/
+	- https://github.com/DynamoRIO/dynamorio
+- dynamorio_pin_escape
+	- Escaping DynamoRIO and Pin - or why it's a worse-than-you-think idea to run untrusted code or to input untrusted data
+	- Cosmin Gorgovan (2014)
+	- https://github.com/lgeek/dynamorio_pin_escape
 - Dyninst: Tools for binary instrumentation, analysis, and modification.
 	- http://www.dyninst.org/
 	- https://github.com/dyninst/dyninst
@@ -204,9 +214,6 @@ See also:
 		- Derek Bruening, Qin Zhao
 		- https://www.researchgate.net/publication/224236404_Practical_memory_checking_with_Dr_Memory
 		- http://www.burningcutlery.com/derek/docs/drmem-CGO11.pdf
-- DynamoRIO: Dynamic Instrumentation Tool Platform
-	- https://dynamorio.org/
-	- https://github.com/DynamoRIO/dynamorio
 - PANDA: Platform for Architecture-Neutral Dynamic Analysis
 	- https://github.com/panda-re/panda
 
@@ -278,6 +285,12 @@ https://www.researchgate.net/publication/280306016_Pinballs_Portable_and_Shareab
 	- https://www.youtube.com/watch?v=wHIlNRK_HiQ
 - BasicBlocks: Pin tool for printing the address of each basic block executed in a program.
 	- https://github.com/chokepoint/BasicBlocks
+- Pin++: A C++ template meta-programmable framework for authoring Pintools
+	- https://github.com/SEDS/PinPP
+	- Pin++: A Object-oriented Framework for Writing Pintools
+		- Generative Programming: Concepts and Experiences (GPCE) 2014
+		- James H. Hill and Dennis C. Feiock
+		- https://core.ac.uk/download/pdf/46962422.pdf
 - PinCTF: use Intel's Pin Tool to instrument binaries and count instructions
 	- https://github.com/ChrisTheCoolHut/PinCTF
 
