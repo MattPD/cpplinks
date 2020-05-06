@@ -217,6 +217,12 @@
 		- https://hpc.fau.de/files/2020/02/Masterarbeit_JL-_final.pdf
 		- Measurements and reproducibility instructions
 			- https://github.com/RRZE-HPC/OSACA-Artifact-Appendix
+- PMEvo: Portable Inference of Port Mappings for Out-of-Order Processors by Evolutionary Optimization
+	- PLDI 2020
+	- Fabian Ritter, Sebastian Hack
+	- https://compilers.cs.uni-saarland.de/papers/ritter_pmevo_pldi20.pdf
+	- https://compilers.cs.uni-saarland.de/projects/portmap/
+	- https://github.com/cdl-saarland/pmevo-artifact
 - timing-harness: Harness for profiling arbitrary basic blocks.
 	- https://github.com/ithemal/timing-harness
 - uarch-bench: A benchmark for low-level CPU micro-architectural features
