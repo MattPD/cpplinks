@@ -90,6 +90,9 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 		- https://llvm.org/docs/Bugpoint.html
 	- Reduce Your Testcases with Bugpoint and Custom Scripts
 		- http://blog.llvm.org/2015/11/reduce-your-testcases-with-bugpoint-and.html
+- Locating a compiler bug with git bisection
+	- 2020; William Woodruff
+	- https://blog.yossarian.net/2020/05/07/Locating-a-compiler-bug-with-git-bisection
 - Replay Compilation: Improving Debuggability of a Just-in-Time Compiler
 	- OOPSLA 2006
 	- Kazunori Ogata, Tamiya Onodera, Kiyokuni Kawachiya, Hideaki Komatsu, Toshio Nakatani
