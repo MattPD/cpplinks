@@ -324,6 +324,9 @@ See also:
 - Continuous Integration Demo
 	- A demo project for C++14 using CI systems like Travis CI, Circle CI, Google Test, Catch, etc.
 	- https://github.com/daixtrose/continuous-integration-demo
+- Continuous Integration Playground
+	- A "playground" for testing out basic methods to get Cloud CI systems working with minimal effort. Not just getting any CI working, but specifically getting C++ to work in CI.
+	- https://github.com/bfgroup/ci_playground
 - GitLab CI for C++ projects
 	- https://mklimenko.github.io/english/2020/02/02/gitlab-ci-cpp/
 
