@@ -819,6 +819,11 @@ Metamorphic Relations, Metamorphic Testing
 	- Computing in Science & Engineering 21(1) 2019
 	- U. Kanewala and T. Yueh Chen
 	- https://doi.ieeecomputersociety.org/10.1109/MCSE.2018.2875368
+- Metamorphic Testing: Testing the Untestable
+	- IEEE Software 37(3) 2020
+	- S. Segura, D. Towey, Z. Zhou, T. Chen
+	- https://doi.ieeecomputersociety.org/10.1109/MS.2018.2875968
+	- https://ro.uow.edu.au/eispapers1/3037/
 - Techniques for Testing Scientific Programs Without an Oracle 
 	- International Workshop on Software Engineering for Computational Science and Engineering (SE-CSE) 2013
 	- U. Kanewala and J. Bieman
