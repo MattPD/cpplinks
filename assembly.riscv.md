@@ -115,6 +115,8 @@ https://riscv.org/risc-v-books/
 - Experimental_RISCV_Feature_Model
 	- An experimental DSL to describe the full feature list of a RISC-V implementation, along with constraints on features and between features
 	- https://github.com/rsnikhil/Experimental_RISCV_Feature_Model
+- GRIFT: Galois RISC-V ISA Formal Tools
+	- https://github.com/GaloisInc/grift
 - ISA Semantics for ARMv8-A, RISC-V, and CHERI-MIPS
 	- POPL 2019
 	- Alasdair Armstrong, Thomas Bauereiss, Brian Campbell, Alastair Reid, Kathryn E. Gray, Robert M. Norton, Prashanth Mundkur, Mark Wassell, Jon French, Christopher Pulte, Shaked Flur, Ian Stark, Neel Krishnaswami, Peter Sewell
