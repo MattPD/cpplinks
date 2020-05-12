@@ -624,6 +624,11 @@ Mutation Analysis, Mutation Coverage, Mutation Testing
 	- Goran Petrović and Marko Ivanković
 	- https://ai.google/research/pubs/pub46584
 	- https://dl.acm.org/citation.cfm?id=3183521
+- Study of Trivial Compiler Equivalence on C++ Object-Oriented Mutation Operators
+	- SAC 2019
+	- Pedro Delgado-Pérez, Sergio Segura
+	- https://doi.org/10.1145/3297280.3297499
+	- https://personal.us.es/sergiosegura/files/papers/delgado19-sac.pdf
 - The Care and Feeding of Wild-Caught Mutants
 	- Foundations of Software Engineering (FSE) 2017
 	- David Bingham Brown, Michael Vaughn, Ben Liblit, Thomas W. Reps
