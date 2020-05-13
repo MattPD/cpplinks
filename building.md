@@ -752,6 +752,10 @@ See also:
 		- https://github.com/timniederhausen/gn-build
 - ninjatracing: Convert .ninja_log files to chrome's about:tracing format.
 	- https://github.com/nico/ninjatracing
+- The Architecture of Open Source Applications: Ninja
+	- https://www.aosabook.org/en/posa/ninja.html
+- The Success and Failure of Ninja
+	- http://neugierig.org/software/blog/2020/05/ninja.html
 
 ## Tundra
 
