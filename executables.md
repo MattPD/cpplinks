@@ -550,6 +550,8 @@ Contents:
 - dress: add symbols back into a stripped ELF binary (~strip)
 	- http://van.prooyen.com/projects/#dress
 	- https://github.com/docileninja/dress
+- drow: Utility for patching ELF files post-build
+	- https://github.com/zznop/drow
 - dt_infect: ELF Shared library injector using DT_NEEDED precedence infection. Acts as a permanent LD_PRELOAD
 	- https://github.com/elfmaster/dt_infect
 - DynELFSymbols: Helps to create backdoor/MitM shared-object files
