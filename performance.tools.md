@@ -124,6 +124,8 @@
 		- HPC Asia 2020
 		- Christian Helm, Kenjiro Taura
 		- https://doi.org/10.1145/3368474.3368476
+- Poireau: a sampling allocation debugger
+	- https://github.com/backtrace-labs/poireau
 - Typegrind
 	- a type preserving heap profiler for C++ - collects memory allocation information with type information
 	- https://typegrind.github.io/
