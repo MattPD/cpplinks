@@ -56,6 +56,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Compiler Construction (CC) 2020
 	- Cosmin Gorgovan, Guillermo Callaghan, Mikel Luján
 	- https://doi.org/10.1145/3377555.3377895
+	- https://www.research.manchester.ac.uk/portal/files/158729354/mambo_api_cc2020_cr_authors.pdf
 - Exploiting SIMD Asymmetry in ARM-to-x86 Dynamic Binary Translation
 	- ACM Transactions on Architecture and Code Optimization (TACO) 2019
 	- Yu-Ping Liu, Ding-Yong Hong, Jan-Jan Wu, Sheng-Yu Fu, Wei-Chung Hsu
@@ -294,6 +295,14 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ### M-profile
 
+- A Tourist's Guide to the ARM Cortex M3
+	- BSides Knoxville 2020
+	- Travis Goodspeed and Ryan Speers
+	- https://www.youtube.com/watch?v=ilNhCW8ShlY
+- A Tourist’s Phrasebook for Reversing Embedded ARM in the Dialect of the Cortex M Series
+	- PoC||GTFO Issue 0x11 March 2016
+	- Travis Goodspeed and Ryan Speers
+	- https://www.riverloopsecurity.com/projects/pocgtfo_tourist_armcortexm/
 - Code-Generation for the Arm M-profile Vector Extension
 	- 2019 LLVM Developers’ Meeting; Sjoerd Meijer, Sam Parker
 	- https://www.youtube.com/watch?v=TUDWpAhLjBU
@@ -682,16 +691,19 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 # Software
 
-* Arm HPC Users Group - resources for end-users and developers deploying on Arm hardware.
-	+ https://gitlab.com/arm-hpc
-* AMaCC (Another Mini ARM C Compiler) - Small C Compiler generating ELF executable for Arm architecture
-	+ https://github.com/jserv/amacc
-* AZM - Live ARM Assembler and Syntax Checker
-	+ https://azm.azerialabs.com/
-* mra_tools: Tools to process ARM's Machine Readable Architecture Specification
-	+ <https://github.com/alastairreid/mra_tools>
-* VIXL: AArch64 Runtime Code Generation Library
-	+ https://github.com/armvixl/vixl
+- Arm HPC Users Group - resources for end-users and developers deploying on Arm hardware.
+	- https://gitlab.com/arm-hpc
+- AMaCC (Another Mini ARM C Compiler) - Small C Compiler generating ELF executable for Arm architecture
+	- https://github.com/jserv/amacc
+- AZM - Live ARM Assembler and Syntax Checker
+	- https://azm.azerialabs.com/
+- libopencm3: Open source ARM Cortex-M microcontroller library
+	- http://libopencm3.org/
+	- https://github.com/libopencm3/libopencm3
+- mra_tools: Tools to process ARM's Machine Readable Architecture Specification
+	- <https://github.com/alastairreid/mra_tools>
+- VIXL: AArch64 Runtime Code Generation Library
+	- https://github.com/armvixl/vixl
 
 ## Software: Binary Analysis
 
