@@ -325,7 +325,11 @@ See also:
 		- https://github.com/microsoft/vcperf
 	- MSBuild Flame Graph: Turns MSBuild executions into flame graphs
 		- https://github.com/MetanoKid/msbuild-flame-graph
+	- C++ Build Analyzer: Analyzes MSVC C++ compilations with C++ Build Insights SDK
+		- https://github.com/MetanoKid/cpp-build-analyzer
 	- C++ Build Insights
+		- Code samples for the C++ Build Insights SDK
+			- https://github.com/microsoft/cpp-build-insights-samples
 		- Get started with C++ Build Insights
 			- https://docs.microsoft.com/en-us/cpp/build-insights/get-started-with-cpp-build-insights
 		- Introducing C++ Build Insights
@@ -334,6 +338,9 @@ See also:
 			- https://devblogs.microsoft.com/cppblog/analyze-your-builds-programmatically-with-the-c-build-insights-sdk/
 		- Finding build bottlenecks with C++ Build Insights
 			- https://devblogs.microsoft.com/cppblog/finding-build-bottlenecks-with-cpp-build-insights/
+		- Faster builds with PCH suggestions from C++ Build Insights
+			- https://devblogs.microsoft.com/cppblog/faster-builds-with-pch-suggestions-from-c-build-insights/
+
 
 ### Caching
 
