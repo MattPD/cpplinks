@@ -40,7 +40,7 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 
 ## Hardware Assistance / Processor Tracing
 
-sampling-based processor tracing: Intel LBR (Last Branch Record), Itanium BTB (Branch Trace Buffer), PowerPC BHRB (Branch History Rolling Buffer)
+sampling-based processor tracing: [Intel LBR (Last Branch Record)](#intel-lbr-last-branch-record), Itanium BTB (Branch Trace Buffer), PowerPC BHRB (Branch History Rolling Buffer)
 
 non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bts-branch-trace-store), [Intel PT (Processor Trace)](#intel-pt-processor-trace), ARM CoreSight
 
@@ -74,6 +74,21 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 
 - libbts.c: minimal BTS tracing wrapper for Linux Perf
 	- https://gist.github.com/pkhuong/1ce34e33c6df4b9be3bc9beb22415a47
+
+### Intel LBR (Last Branch Record)
+
+- Andi Kleen
+	- An introduction to last branch records (March 23, 2016)
+		- https://lwn.net/Articles/680985/
+	- Advanced usage of last branch records (March 30, 2016)
+		- https://lwn.net/Articles/680996/
+- Denis Bakhvalov
+	- Advanced profiling topics (multiplexing & scaling), PEBS, and LBR
+		- https://easyperf.net/blog/2018/06/08/Advanced-profiling-topics-PEBS-and-LBR
+	- Precise timing of machine code with Linux perf
+		- https://easyperf.net/blog/2019/04/03/Precise-timing-of-machine-code-with-Linux-perf
+	- Estimating branch probability using Intel LBR feature
+		- https://easyperf.net/blog/2019/05/06/Estimating-branch-probability
 
 ### Intel PT (Processor Trace)
 
@@ -157,8 +172,8 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 		- Richard Johnson - http://moflow.org/
 		- http://moflow.org/Presentations/Harnessing%20Intel%20Processor%20Trace%20on%20Windows%20for%20Vulnerability%20Discovery%20-%20rjohnson.pdf
 		- HITB2017AMS
-		- https://www.youtube.com/watch?v=r8lzui24Cdw
-		- http://conference.hitb.org/hitbsecconf2017ams/materials/D1T1%20-%20Richard%20Johnson%20-%20Harnessing%20Intel%20Processor%20Trace%20on%20Windows%20for%20Vulnerability%20Discovery.pdf
+			- https://www.youtube.com/watch?v=r8lzui24Cdw
+			- http://conference.hitb.org/hitbsecconf2017ams/materials/D1T1%20-%20Richard%20Johnson%20-%20Harnessing%20Intel%20Processor%20Trace%20on%20Windows%20for%20Vulnerability%20Discovery.pdf
 
 ---
 
