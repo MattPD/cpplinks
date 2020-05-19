@@ -339,6 +339,9 @@
 - sysdig
 	- https://github.com/draios/sysdig
 	- https://sysdig.com/blog/50-shades-of-system-calls/
+- timemory: Timing + Memory + Hardware Counter Utilities for C / C++ / CUDA / Python
+	- Linux, macOS, Windows
+	- https://github.com/NERSC/timemory
 - Tracy Profiler
 	- Tracy is a real time, nanosecond resolution frame profiler that can be used for remote or embedded telemetry of your application. It can profile CPU (C++, Lua), GPU (OpenGL, Vulkan) and memory. It also can display locks held by threads and their interactions with each other.
 	- https://bitbucket.org/wolfpld/tracy
