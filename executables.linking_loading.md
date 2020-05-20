@@ -380,6 +380,10 @@ See also:
 	- https://github.com/DavidBuchanan314/dlinject
 - Faulty.lib: Dynamic linker for compressed libraries, with on-demand decompression (ELF Linux systems)
 	- https://github.com/glandium/faulty.lib
+- GOTCHA: a library for wrapping function calls in shared libraries
+	- Gotcha is a library that wraps functions. Tools can use gotcha to install hooks into other libraries, for example putting a wrapper function around libc's malloc.
+	- It is similar to LD_PRELOAD, but operates via a programmable API. This enables easy methods of accomplishing tasks like code instrumentation or wholesale replacement of mechanisms in programs without disrupting their source code.
+	- https://github.com/LLNL/GOTCHA
 - Implib.so: POSIX equivalent of Windows DLL import libraries
 	- https://github.com/yugr/Implib.so
 - libosuction: A tool for stripping dynamic libraries of unneeded symbols
