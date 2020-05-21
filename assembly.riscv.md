@@ -14,7 +14,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 - [Formalization, Specification, Verification](#formalization-specification-verification)
 - [Open-Source Hardware Projects](#open-source-hardware-projects)
 - [References](#references)
-- [Software](#software): [Emulation & Simulation](#emulation--simulation)
+- [Software](#software): [Emulation & Simulation](#software-emulation--simulation), [Security](#software-security)
 - [Talks](#talks)
 - [Tutorials](#tutorials)
 
@@ -334,7 +334,7 @@ https://riscv.org/software-tools/
 		- https://github.com/mit-pdos/xv6-riscv-book
 		- 6.S081: Operating System Engineering - https://pdos.csail.mit.edu/6.828/
 
-## Emulation & Simulation
+## Software: Emulation & Simulation
 
 - BRISC-V: an open-source, RISC-V based, full multicore, design space exploration platform
 	- https://ascslab.org/research/briscv/index.html
@@ -384,6 +384,15 @@ https://riscv.org/software-tools/
 	- Roberto Giorgi and Gianfranco Mariotti
 	- Paper: http://www.dii.unisi.it/~giorgi/papers/Giorgi19-wcae.pdf
 	- Slides: http://www.dii.unisi.it/~giorgi/giorgi19-wcae_slides.pdf
+
+## Software: Security
+
+- Keystone: An Open Framework for Architecting Trusted Execution Environments
+	- https://keystone-enclave.org
+	- EuroSys 2020
+		- Dayeol Lee, David Kohlbrenner, Shweta Shinde, Krste Asanovic, Dawn Song 
+		- https://dl.acm.org/doi/abs/10.1145/3342195.3387532
+		- https://www.youtube.com/watch?v=S8MmKBCoPSg
 
 ---
 
