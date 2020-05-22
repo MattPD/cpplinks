@@ -83,6 +83,11 @@ See also:
 - [Abseil C++ Tips of the Week (TotW)](https://abseil.io/tips/)
 	- #122: Test Fixtures, Clarity, and Dataflow - https://abseil.io/tips/122
 	- #135: Test the Contract, not the Implementation - https://abseil.io/tips/135
+- Embedded C/C++ Unit Testing
+	- Basics
+		- https://interrupt.memfault.com/unit-testing-basics
+	- Mocks
+		- https://interrupt.memfault.com/blog/unit-test-mocking
 - James Grenning
 	- TDD How-to: Get your Legacy C Into a Test Harness
 		- https://wingman-sw.com/articles/tdd-legacy-c
