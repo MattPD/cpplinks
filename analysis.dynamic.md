@@ -66,6 +66,9 @@ See also:
 	- https://doi.org/10.1145/3321705.3329819
 	- https://www.diag.uniroma1.it/~delia/papers/asiaccs2019.pdf
 	- https://github.com/season-lab/sok-dbi-security/
+- Unravelling Code Injection in Binaries
+	- 2016; Suchakra Sharma
+	- https://suchakra.wordpress.com/2016/07/03/unravelling-code-injection-in-binaries/
 - Using Binary Instrumentation for Vulnerability Discovery (or even mitigation!)
 	- EuskalHack 2018; Joxean Koret
 	- https://github.com/joxeankoret/membugtool/blob/master/docs/Using%20Binary%20Instrumentation%20for%20Vulnerability%20Discovery%20(or%20even%20mitigation!).pdf
@@ -244,6 +247,11 @@ See also:
 	- PLDI 2005
 	- Chi-Keung Luk, Robert Cohn, Robert Muth, Harish Patil, Artur Klauser, Geoff Lowney, Steven Wallace, Vijay Janapa Reddi, Kim Hazelwood
 	- https://doi.org/10.1145/1065010.1065034
+- Controlling Program Execution through Binary Instrumentation
+	- SIGARCH Computer Architecture News 33(5) 2005
+	- Heidi Pan, Krste Asanović, Robert Cohn, Chi-Keung Luk
+	- https://doi.org/10.1145/1127577.1127587
+	- http://scale.eecs.berkeley.edu/papers/pin-wbia.pdf
 - Deterministic PinPoints: Representative and Repeatable Simulation Region Selection with PinPlay and Sniper
 	- HPCA 2013 Tutorial
 	- Harish Patil, Trevor E. Carlson
