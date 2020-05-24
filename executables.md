@@ -373,6 +373,8 @@ Contents:
 		- https://binaryresearch.github.io/2019/12/11/Analyzing-ELF-Binaries-with-Malformed-Headers-Part-2-Mapping-Program-Logic-with-Qiling-and-Graphviz.html
 	- Part 3 - Automatically Solving a Corrupted Keygenme with angr
 		- https://binaryresearch.github.io/2020/01/15/Analyzing-ELF-Binaries-with-Malformed-Headers-Part-3-Solving-A-Corrupted-Keygenme.html
+* Analyzing The Simplest C++ Program
+	- https://oneraynyday.github.io/dev/2020/05/03/Analyzing-The-Simplest-C++-Program/
 * Anatomy of an ELF core file - https://www.gabriel.urdhr.fr/2015/05/29/core-file/
 * Armouring the ELF: Binary encryption on the UNIX platform - scut & grugq - Phrack Magazine #58 (2001-12-28) - http://www.phrack.org/issues/58/5.html
 * Building an ELF Parser with Frida - https://versprite.com/og/frida/
