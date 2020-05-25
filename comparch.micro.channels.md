@@ -1041,6 +1041,9 @@ See also: [Computer Architecture](comparch.md)
 	- IEEE Signal Processing Magazine 36(2) 2019
 	- https://ieeexplore.ieee.org/document/8653533
 	- https://www.researchgate.net/publication/330225481_Side-Channel-Based_Code-Execution_Monitoring_Systems_-_A_Survey
+- Software Profiling via Electromagnetic Side-Channel Signal
+	- 2020 PhD Dissertation; Alireza Nazari
+	- http://hdl.handle.net/1853/62720
 - Spectral Profiling: Observer-Effect-Free Profiling by Monitoring EM Emanations
 	- 2016, IEEE MICRO 16
 	- http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2016/08/MICRO16.pdf
