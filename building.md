@@ -101,6 +101,10 @@ See also:
 	- https://www.repository.cam.ac.uk/handle/1810/288468
 	- mkcheck: Incremental Build Verification
 		- https://github.com/nandor/mkcheck
+- Identifying Bugs in Make and JVM-Oriented Builds
+	- 2020
+	- Thodoris Sotiropoulos, Stefanos Chaliasos, Dimitris Mitropoulos, Diomidis Spinellis
+	- https://arxiv.org/abs/2005.06881
 - Oops, My Tests Broke the Build: An Explorative Analysis of Travis CI with GitHub
 	- Mining Software Repositories (MSR) 2017
 	- M. Beller, G. Gousios, A. Zaidman
