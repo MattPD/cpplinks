@@ -444,6 +444,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 - lang_tester: Rust testing framework for compilers and VMs
 	- https://crates.io/crates/lang_tester
 - ldrgen: Liveness-driven random C code generator - https://github.com/gergo-/ldrgen
+- lit - LLVM Integrated Tester
+	- https://pypi.org/project/lit/
+	- Using LLVM LIT Out-Of-Tree
+		- https://medium.com/@mshockwave/using-llvm-lit-out-of-tree-5cddada85a78
 - llvm-mutate – mutate LLVM IR - http://eschulte.github.io/llvm-mutate/
 - opt-fuzz: a simple implementation of bounded exhaustive testing for LLVM programs
 	- https://github.com/regehr/opt-fuzz
