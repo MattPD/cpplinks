@@ -838,6 +838,8 @@ See also: [Performance Tools](performance.tools.md)
 	+ Ne10 is a library of common, useful functions that have been heavily optimised for ARM-based CPUs equipped with NEON SIMD capabilities. It provides consistent, well-tested behaviour, allowing for painless integration into a wide variety of applications. The library currently focuses primarily around math, signal processing, image processing, and physics functions.
 	+ http://projectne10.github.io/Ne10/
 	+ https://github.com/projectNe10/Ne10
+* sse2neon: A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64 NEON intrinsics
+	- https://github.com/DLTcollab/sse2neon
 * Streamline Performance Analyzer
 	- https://developer.arm.com/tools-and-software/embedded/arm-development-studio/components/streamline-performance-analyzer
 * User-mode access to ARMv7 PMU cycle counters
