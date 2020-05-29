@@ -67,6 +67,10 @@ See also:
 	- https://doi.org/10.1145/3363824
 	- https://cacm.acm.org/magazines/2020/2/242350-fuzzing
 	- https://patricegodefroid.github.io/public_psfiles/Fuzzing-101-CACM2020.pdf
+- Fuzzing: On the Exponential Cost of Vulnerability Discovery
+	- ESEC/FSE 2020
+	- Marcel Böhme, Brandon Falk
+	- https://mboehme.github.io/paper/FSE20.EmpiricalLaw.pdf
 - The Art, Science, and Engineering of Fuzzing: A Survey
 	- IEEE Transactions on Software Engineering (2019)
 	- Valentin J.M. Manes, HyungSeok Han, Choongwoo Han, Sang Kil Cha, Manuel Egele, Edward J. Schwartz, Maverick Woo
