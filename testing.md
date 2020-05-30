@@ -344,6 +344,9 @@ See also:
 
 ### Continuous Integration: Software: GitHub Actions 
 
+- Github Actions, C++ with Boost and CMake, almost a 50% speedup with caching
+	- 2020-05-27; Remy van Elst
+	- https://raymii.org/s/articles/Github_Actions_cpp_boost_cmake_speedup.html
 - Using GitHub Actions with C++ and CMake
 	- https://cristianadam.eu/20191222/using-github-actions-with-c-plus-plus-and-cmake/
 - Speeding up C++ GitHub Actions using ccache
