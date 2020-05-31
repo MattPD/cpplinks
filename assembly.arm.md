@@ -620,41 +620,43 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ### Scalable Vector Extension (SVE)
 
-* Arm SVE Tools Training
-	+ https://gitlab.com/arm-hpc/training/arm-sve-tools
-* Asvie: A Timing-Agnostic SVE Optimization Methodology 
+- Arm HPC tools for SVE
+	- https://developer.arm.com/tools-and-software/server-and-hpc/compile/arm-instruction-emulator/resources/tutorials/sve
+- Arm SVE Tools Training
+	- https://gitlab.com/arm-hpc/training/arm-sve-tools
+- Asvie: A Timing-Agnostic SVE Optimization Methodology 
 	- Methodology for ArmIE SVE
 		- <https://github.com/ARM-software/Methodology_for_ArmIE_SVE>
 	- Asvie: A Timing-Agnostic SVE Optimization Methodology
 		- Programming and Performance Visualization Tools (ProTools) 2019
 		- Miguel Tairum Cruz, Daniel Ruiz, Roxana Rusitoru
 		- https://doi.org/10.1109/ProTools49597.2019.00007
-* Porting and Optimizing HPC Applications for Arm SVE Documentation
-	+ https://developer.arm.com/docs/101726/0200
-	+ Coding for SVE vs Neon
+- Porting and Optimizing HPC Applications for Arm SVE Documentation
+	- https://developer.arm.com/docs/101726/0200
+	- Coding for SVE vs Neon
 		- https://developer.arm.com/docs/101726/0200/explore-the-scalable-vector-extension-sve/coding-for-sve-vs-neontm
-* Mastering the Arm HPC ecosystem
-	+ CEA-RIKEN HPC school (June 2019)
-	+ https://indico.math.cnrs.fr/event/4705/
-* Scalable Vector Extension (SVE)
-	+ https://community.arm.com/processors/b/blog/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture
-	+ https://developer.arm.com/hpc/a-sneak-peek-into-sve-and-vla-programming
-	+ ARMv8-A Next Generation Vector Architecture for HPC
+- Mastering the Arm HPC ecosystem
+	- CEA-RIKEN HPC school (June 2019)
+	- https://indico.math.cnrs.fr/event/4705/
+- Scalable Vector Extension (SVE)
+	- https://community.arm.com/processors/b/blog/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture
+	- https://developer.arm.com/hpc/a-sneak-peek-into-sve-and-vla-programming
+	- ARMv8-A Next Generation Vector Architecture for HPC
 		- Hot Chips 28 (2016)
 		- Nigel Stephens
 		- https://youtu.be/egE-VKoF4ZI?t=1h9m8s
 		- <https://community.arm.com/cfs-file/__key/telligent-evolution-components-attachments/01-2142-00-00-00-01-20-49/ARMv8_2D00_A-SVE-technology-Hot-Chips-v12.pdf>
-* Scalable Vector Extension support for AArch64 Linux
+- Scalable Vector Extension support for AArch64 Linux
 	- https://www.kernel.org/doc/html/latest/arm64/sve.html
-* The ARM Scalable Vector Extension
-	+ IEEE Micro, March 2017
-	+ Nigel Stephens, Stuart Biles, Matthias Boettcher, Jacob Eapen, Mbou Eyole, Giacomo Gabrielli, Matt Horsnell, Grigorios Magklis, Alejandro Martinez, Nathanael Premillieu, Alastair Reid, Alejandro Rico, Paul Walker
-	+ Preprint: https://alastairreid.github.io/papers/sve-ieee-micro-2017.pdf
-	+ http://dx.doi.org/10.1109/MM.2017.35
-* Using Arm’s scalable vector extension on stencil codes
-	+ The Journal of Supercomputing (2019)
-	+ Armejach, Adrià, Helena Caminal, Juan M. Cebrian, Rubén Langarita, Rekai González-Alberquilla, Chris Adeniyi-Jones, Mateo Valero, Marc Casas, Miquel Moretó
-	+ https://doi.org/10.1007/s11227-019-02842-5
+- The ARM Scalable Vector Extension
+	- IEEE Micro, March 2017
+	- Nigel Stephens, Stuart Biles, Matthias Boettcher, Jacob Eapen, Mbou Eyole, Giacomo Gabrielli, Matt Horsnell, Grigorios Magklis, Alejandro Martinez, Nathanael Premillieu, Alastair Reid, Alejandro Rico, Paul Walker
+	- Preprint: https://alastairreid.github.io/papers/sve-ieee-micro-2017.pdf
+	- http://dx.doi.org/10.1109/MM.2017.35
+- Using Arm’s scalable vector extension on stencil codes
+	- The Journal of Supercomputing (2019)
+	- Armejach, Adrià, Helena Caminal, Juan M. Cebrian, Rubén Langarita, Rekai González-Alberquilla, Chris Adeniyi-Jones, Mateo Valero, Marc Casas, Miquel Moretó
+	- https://doi.org/10.1007/s11227-019-02842-5
 
 #### SVE: LLVM Implementation
 
@@ -753,7 +755,8 @@ See also: [Readings: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ## Software: Emulation, Simulation
 
-* Arm Instruction Emulator (ArmIE) - https://developer.arm.com/products/software-development-tools/hpc/arm-instruction-emulator
+* Arm Instruction Emulator (ArmIE)
+	- https://developer.arm.com/tools-and-software/server-and-hpc/compile/arm-instruction-emulator
 * ARM instruction evaluator - http://svr-acjf3-armie.cl.cam.ac.uk/
 * ARM Lab (VM) - https://azeria-labs.com/arm-lab-vm/
 * ARMulator: A emulator for ARM programs (aims to run ARM programs in x86 platform)
