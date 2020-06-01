@@ -383,6 +383,11 @@ https://www.researchgate.net/publication/280306016_Pinballs_Portable_and_Shareab
 	- https://arxiv.org/abs/1710.06125
 	- https://github.com/GJDuck/EffectiveSan
 	- https://pldi18.sigplan.org/event/pldi-2018-papers-effectivesan-type-and-memory-error-detection-using-dynamically-typed-c-c-
+- FuZZan: Efficient Sanitizer Metadata Design for Fuzzing
+	- USENIX Annual Technical Conference (USENIX ATC) 2020
+	- Yuseok Jeon, WookHyun Han, Nathan Burow, Mathias Payer
+	- https://nebelwelt.net/files/20ATC.pdf
+	- https://github.com/HexHive/FuZZan
 - HexType: Efficient Detection of Type Confusion Errors for C++
 	- ACM Conference on Computer and Communication Security (CCS) 2017
 	- Yuseok Jeon, Priyam Biswas, Scott A. Carr, Byoungyoung Lee, and Mathias Payer.
