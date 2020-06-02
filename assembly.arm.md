@@ -52,6 +52,11 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- ACM Transactions on Architecture and Code Optimization, 11(2) 2014
 	- Shen, B.-Y., Hsu, W.-C., & Yang, W.
 	- https://doi.org/10.1145/2629335
+- An Empirical Study on ARM Disassembly Tools
+	- International Symposium on Software Testing and Analysis (ISSTA) 2020
+	- Muhui Jiang, Yajin Zhou, Xiapu Luo, Ruoyu Wang, Yang Liu, Kui Ren
+	- https://yajin.org/papers/issta20.pdf
+	- https://github.com/valour01/arm_disasssembler_study
 - Balancing Performance and Productivity for the Development of Dynamic Binary Instrumentation Tools: A Case Study on Arm Systems
 	- Compiler Construction (CC) 2020
 	- Cosmin Gorgovan, Guillermo Callaghan, Mikel Luján
