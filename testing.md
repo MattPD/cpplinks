@@ -444,6 +444,13 @@ See also:
 	- ISSTA 2014
 	- Paul Marinescu, Petr Hosek, Cristian Cadar
 	- https://srg.doc.ic.ac.uk/publications/covrig-issta-14.html
+- Efficient Binary-Level Coverage Analysis
+	- ESEC/FSE 2020
+	- M. Ammar Ben Khadra, Dominik Stoffel, Wolfgang Kunz
+	- https://arxiv.org/abs/2004.14191
+	- bcov: A tool for efficient binary-level coverage analysis
+		- bcov statically instruments x86-64 ELF binaries without compiler support. It features probe pruning, precise CFG analyses, and sophisticated instrumentation techniques.
+		- https://github.com/abenkhadra/bcov
 - Guidelines for coverage-based comparisons of non-adequate test suites
 	- ACM Transactions on Software Engineering and Methodology (2015)
 	- Gligoric, M., Groce, A., Zhang, C., Sharma, R., Alipour, A., Marinov, D.
