@@ -120,6 +120,8 @@ See also:
 	- Example: plugging Triton on top of QBDI - http://shell-storm.org/repo/Notepad/qbdi_with_triton.txt
 	- A Preliminary Test of QBDI - https://www.johnfxgalea.com/2018/01/13/a-preliminary-test-of-qbdi/
 	- Example: SRAC - a Simple Return Address Checker - https://github.com/johnfxgalea/SRAC
+- TinyInst: A lightweight dynamic instrumentation library
+	- https://github.com/googleprojectzero/TinyInst
 - Tracer: Set of Dynamic Binary Instrumentation and visualization tools for execution traces.
 	- https://github.com/SideChannelMarvels/Tracer
 	- https://insinuator.net/2016/03/how-to-crack-a-white-box-without-much-effort/
