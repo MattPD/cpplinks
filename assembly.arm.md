@@ -38,7 +38,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	- [2011](#2011)
 	- [2010](#2010)
 	- [History](#history)
-- [Tutorials, Courses](#tutorials-courses): [AArch64](#aarch64)
+- [Tutorials, Courses](#tutorials-courses): [AArch64](#aarch64), [Thumb-2](#thumb-2)
 
 ---
 
@@ -1151,3 +1151,8 @@ See also: [Performance Tools](performance.tools.md)
 	+ Chapter 8: the stack - http://thinkingeek.com/2017/05/29/exploring-aarch64-assembler-chapter-8/
 	+ Chapter 9: control constructs - http://thinkingeek.com/2017/11/05/exploring-aarch64-assembler-chapter-9/
 * Introduction to ARMv8 64-bit Architecture - https://quequero.org/2014/04/introduction-to-arm-architecture/
+
+## Thumb-2
+
+- ARM-ASM-Tutorial - Thumb-2 (T32)
+	- https://www.mikrocontroller.net/articles/ARM-ASM-Tutorial
