@@ -955,6 +955,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Pacific++ 2018 - https://www.youtube.com/watch?v=BVslyei0804
 - WinDbg Basics for Malware Analysis
 	- https://www.youtube.com/watch?v=QuFJpH3My7A
+- WinDbg: time to put the @ back in the bag
+	- vOPCDE #6 2020; Yarden Shafir
+	- https://www.youtube.com/watch?v=eONddXQjy2k
 
 ##### Readings
 
@@ -980,6 +983,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Windbg automation and extensions - https://nativecoding.wordpress.com/2016/01/10/automate-attach-to-process-on-windows-with-windbg/
 - WinDbg Malware Analysis Cheat Sheet
 	- https://oalabs.openanalysis.net/2019/02/18/windbg-for-malware-analysis/
+- WinDbg — the Fun Way
+	- Part 1: the basics of the new debugger data model — Using the new objects, having custom registers, searching and filtering output, declaring anonymous types and parsing lists and arrays
+		- https://medium.com/@yardenshafir2/windbg-the-fun-way-part-1-2e4978791f9b
+	- Part 2: how to use legacy commands with dx, the new disassembler, create synthetic methods and types, the changes to breakpoints and use the filesystem from within the debugger
+		- https://medium.com/@yardenshafir2/windbg-the-fun-way-part-2-7a904cba5435
 - WinDbg, Debugger Objects, and JavaScript! Oh, My! - https://www.osr.com/blog/2017/05/18/windbg-debugger-objects-javascript-oh/
 - Yet Another Hello World - https://blogs.msdn.microsoft.com/reiley/2011/09/29/yet-another-hello-world/
 
