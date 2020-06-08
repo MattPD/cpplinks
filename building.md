@@ -345,7 +345,6 @@ See also:
 		- Faster builds with PCH suggestions from C++ Build Insights
 			- https://devblogs.microsoft.com/cppblog/faster-builds-with-pch-suggestions-from-c-build-insights/
 
-
 ### Caching
 
 - ccache: A Fast C/C++ Compiler Cache
@@ -602,31 +601,21 @@ See also:
 
 ### CMake Talks
 
-- Building C++
-	- C++ Edinburgh 2018; Morris Hafner
-	- https://www.youtube.com/watch?v=n_f-2p5eDBo
+#### CMake Talks: 2020
+
 - C++ Weekly - Jason Turner
-	- Ep 78 - Intro to CMake
-		- https://www.youtube.com/watch?v=HPMvU64RUTY
-		- https://github.com/lefticus/cpp_starter_project
-	- Ep 82 - Intro To CTest
-		- https://www.youtube.com/watch?v=ZlMbqFcJEzA
-	- Ep 208 - The Ultimate CMake / C++ Quick Start
+	- Ep 208 - The Ultimate CMake / C++ Quick Start (2020)
 		- "CMake, sanitizers, clang-tidy, conan, cmake-format, clang-format, cppcheck, doxygen, ctest, catch, {fmt}, and more!"
 		- https://www.youtube.com/watch?v=YbgH7yat-Jo
+- Modern CMake: An introduction
+	- DC C++ User Group 2020; Eric Richardson
+	- https://www.youtube.com/watch?v=bDdkJu-nVTo
+
+#### CMake Talks: 2019
+
 - Deep CMake for Library Authors
 	- CppCon 2019; Craig Scott
 	- https://www.youtube.com/watch?v=m0DwB4OvDXk
-- Effective CMake
-	- Daniel Pfeifer
-	- C++Now 2017
-		- https://www.youtube.com/watch?v=bsXLMQ6WgIk
-		- https://github.com/boostcon/cppnow_presentations_2017/raw/master/05-19-2017_friday/effective_cmake__daniel_pfeifer__cppnow_05-19-2017.pdf
-	- MUCplusplus 2017
-		- https://www.youtube.com/watch?v=rLopVhns4Zs
-- Effective dependency management with CMake
-	- MUCplusplus 2017; Kai Wolf 
-	- https://www.youtube.com/watch?v=QayyhI-36os
 - Embracing Modern CMake
 	- Stephen Kelly
 	- https://steveire.wordpress.com/2017/11/05/embracing-modern-cmake/
@@ -634,7 +623,18 @@ See also:
 		- https://www.youtube.com/watch?v=JsjI5xr1jxM
 	- NDC TechTown 2019
 		- https://www.youtube.com/watch?v=mn1ZnO3MtVk
+- Oh No! More Modern CMake
+	- Meeting C++ 2019; Deniz Bahadir
+	- https://www.youtube.com/watch?v=y9kSr5enrSk
+	- https://github.com/Bagira80/More-Modern-CMake
+
+#### CMake Talks: 2018
+
+- Building C++
+	- C++ Edinburgh 2018; Morris Hafner
+	- https://www.youtube.com/watch?v=n_f-2p5eDBo
 - How to CMake Good
+	- 2018
 	- https://vector-of-bool.github.io/2018/08/12/cmake-good.html
 	- https://www.youtube.com/playlist?list=PLK6MXr8gasrGmIiSuVQXpfFuE1uPT615s
 - Introduction to CMake
@@ -647,18 +647,33 @@ See also:
 		- https://docs.google.com/presentation/d/1vIEfCE33-1BEMT1nNQQbhe-1va-3m2pL9c6_WrIIjdU/
 	- Video:
 		- https://www.youtube.com/watch?v=jt3meXdP-QI
-- Modern CMake for modular design
-	- Meeting C++ 2017; Mathieu Ropert
-	- https://www.youtube.com/watch?v=ztrnb-bVVPo
 - More Modern CMake - Working with CMake 3.12 and later
 	- Meeting C++ 2018; Deniz Bahadir
 	- https://meetingcpp.com/2018/Talks/items/More_Modern_CMake___Working_with_CMake_3_12_and_later.html
 	- https://meetingcpp.com/mcpp/slides/2018/MoreModernCMake.pdf
 	- https://www.youtube.com/watch?v=y7ndUhdQuU8
-- Oh No! More Modern CMake
-	- Meeting C++ 2019; Deniz Bahadir
-	- https://www.youtube.com/watch?v=y9kSr5enrSk
-	- https://github.com/Bagira80/More-Modern-CMake
+
+#### CMake Talks: 2017
+
+- C++ Weekly - Jason Turner
+	- Ep 78 - Intro to CMake (2017)
+		- https://www.youtube.com/watch?v=HPMvU64RUTY
+		- https://github.com/lefticus/cpp_starter_project
+	- Ep 82 - Intro To CTest (2017)
+		- https://www.youtube.com/watch?v=ZlMbqFcJEzA
+- Effective CMake
+	- Daniel Pfeifer
+	- C++Now 2017
+		- https://www.youtube.com/watch?v=bsXLMQ6WgIk
+		- https://github.com/boostcon/cppnow_presentations_2017/raw/master/05-19-2017_friday/effective_cmake__daniel_pfeifer__cppnow_05-19-2017.pdf
+	- MUCplusplus 2017
+		- https://www.youtube.com/watch?v=rLopVhns4Zs
+- Effective dependency management with CMake
+	- MUCplusplus 2017; Kai Wolf 
+	- https://www.youtube.com/watch?v=QayyhI-36os
+- Modern CMake for modular design
+	- Meeting C++ 2017; Mathieu Ropert
+	- https://www.youtube.com/watch?v=ztrnb-bVVPo
 - Using Modern CMake Patterns to Enforce a Good Modular Design
 	- CppCon 2017; Mathieu Ropert 
 	- https://www.youtube.com/watch?v=eC9-iRN2b04
