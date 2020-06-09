@@ -347,10 +347,15 @@ See also: [Computer Architecture](comparch.md)
 	- Kristin Barber, Anys Bacha, Li Zhou, Yinqian Zhang, Radu Teodorescu
 	- https://doi.org/10.1109/LCA.2019.2916328
 - ParTI - Towards Combined Hardware Countermeasures against Side Channel and Fault Injection Attacks
-	- CHES 2016, IACR-CRYPTO-2016 
+	- CHES 2016, IACR-CRYPTO-2016
 	- Tobias Schneider, Amir Moradi, Tim Güneysu
 	- https://eprint.iacr.org/2016/648
 	- https://www.youtube.com/watch?v=wTJvb6k5yp0
+- Prevention of Microarchitectural Covert Channels on an Open-Source 64-bit RISC-V Core
+	- 2020 Workshop on Computer Architecture Research with RISC-V (CARRV)
+	- Nils Wistoff, Moritz Schneider, Frank K. Gürkaynak, Luca Benini, Gernot Heiser
+	- https://arxiv.org/abs/2005.02193
+	- https://microkerneldude.wordpress.com/2020/06/09/sel4-is-verified-on-risc-v/
 - Principles of Secure Processor Architecture Design
 	- 2019 book; Jakub Szefer
 	- http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1315
