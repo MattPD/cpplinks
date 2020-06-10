@@ -600,8 +600,13 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ## Intrinsics & SIMD
 
-* ARC SIMD Built-in Functions - https://gcc.gnu.org/onlinedocs/gcc/ARC-SIMD-Built-in-Functions.html
-* ARM Intrinsics - MSDN - Microsoft - https://docs.microsoft.com/en-us/cpp/intrinsics/arm-intrinsics
+- ARC SIMD Built-in Functions - https://gcc.gnu.org/onlinedocs/gcc/ARC-SIMD-Built-in-Functions.html
+- ARM Intrinsics - MSDN - Microsoft - https://docs.microsoft.com/en-us/cpp/intrinsics/arm-intrinsics
+- Vectorization cost modeling for NEON, AVX, and SVE
+	- Performance Evaluation 140–141 (2020)
+	- Angela Pohl, Biagio Cosenza, Ben Juurlink
+	- https://doi.org/10.1016/j.peva.2020.102106
+	- http://www.cosenza.eu/papers/PohlPEJ20.pdf
 
 ### NEON
 
