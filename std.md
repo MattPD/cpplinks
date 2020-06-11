@@ -693,6 +693,11 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- Michael Wong, Howard Hinnant, Roger Orr, Bjarne Stroustrup, Daveed Vandevoorde
 	- https://wg21.link/p2000
 	- http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2020/p2000r1.pdf
+- Thriving in a Crowded and Changing World: C++ 2006–2020
+	- ACM/SIGPLAN History of Programming Languages HOPL-IV 2020
+	- Bjarne Stroustrup
+	- https://www.stroustrup.com/hopl20main-p5-p-bfc9cd4--final.pdf
+	- https://doi.org/10.1145/3386320
 
 ## History (2019)
 
