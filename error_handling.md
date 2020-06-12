@@ -412,6 +412,8 @@
 - Outcome
 	- https://github.com/ned14/outcome
 	- https://www.boost.org/doc/libs/release/libs/outcome
+- STX: C++ 20 error-handling and utility extensions
+	- https://github.com/lamarrr/STX
 - `tl::expected` and `tl::optional`
 	- https://github.com/TartanLlama/expected
 	- https://github.com/TartanLlama/optional
