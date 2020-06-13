@@ -69,6 +69,9 @@
 - CppSharp
 	- Tools and libraries to glue C/C++ APIs to high-level languages
 	- https://github.com/mono/CppSharp
+- Dynamic Invocation (Avoiding PInvoke & API Hooks)
+	- https://thewover.github.io/Dynamic-Invoke/
+	- https://github.com/FuzzySecurity/BlueHatIL-2020
 - P/Invoke: A library containing all P/Invoke code so you don't have to import it every time. Maintained and updated to support the latest Windows OS.
 	- https://github.com/AArnott/pinvoke
 - The .NET Inter-Operability Operation
