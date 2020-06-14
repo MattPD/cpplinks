@@ -706,6 +706,12 @@ See also: [Computer Architecture](comparch.md)
 	- https://cacheoutattack.com/
 	- L1D Eviction Sampling / CVE-2020-0549 / INTEL-SA-00329
 	- https://software.intel.com/security-software-guidance/software-guidance/l1d-eviction-sampling
+- DABANGG: Time for Fearless Flush based Cache Attacks
+	- 2020
+	- Anish Saxena, Biswabndan Panda
+	- https://eprint.iacr.org/2020/637
+	- https://www.cse.iitk.ac.in/users/biswap/DABANGG.pdf
+	- https://car3s.github.io/dabangg/
 - Leaking Information Through Cache LRU States
 	- High-Performance Computer Architecture (HPCA) 2020
 	- Wenjie Xiong, Jakub Szefer
