@@ -18,6 +18,9 @@
 
 ## Software
 
+- ankerl::nanobench: a platform independent microbenchmarking library for C++11/14/17/20
+	- https://github.com/martinus/nanobench
+	- https://nanobench.ankerl.com/
 - benchmark (Google)
 	- https://github.com/google/benchmark
 	- https://opensource.googleblog.com/2014/01/introducing-benchmark.html
