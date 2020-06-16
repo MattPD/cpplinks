@@ -92,6 +92,13 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - Formalising the ARMv8 Memory Consistency Model
 	- Will Deacon, ARM, Keynote, OpenSHMEM 2018
 	- https://www.csm.ornl.gov/workshops/openshmem2018/presentations/mm-openshmem2018.pdf
+- Isla-axiomatic: combines Sail ISA specifications with axiomatic memory models with an SMT solver
+	- Isla: a symbolic execution engine for Sail
+		- Executes instruction set architecture (ISA) specifications written in Sail, such as Sail ARMv8 model translated from ARM’s machine readable specification, or Sail RISC-V. It can be used to evaluate the relaxed-memory behavior of instruction set architectures specified in Sail, using an axiomatic memory model specified in a subset of the cat language used by the herd7 tools.
+		- https://github.com/rems-project/isla
+	- Isla-axiomatic: combines Sail ISA specifications with axiomatic memory models written in a subset of the cat language used by the diy tool suite (and in particular the memory model simulation tool herd7), with an SMT solver like z3 or CVC4.
+		- https://isla-axiomatic.cl.cam.ac.uk/
+		- https://isla-axiomatic.cl.cam.ac.uk/help_standalone.html
 - Mixed-size Concurrency: ARM, POWER, C/C++11, and SC
 	- POPL 2017
 	- Shaked Flur, Susmit Sarkar, Christopher Pulte, Kyndylan Nienhuis, Luc Maranget, Kathryn E. Gray, Ali Sezgin, Mark Batty, Peter Sewell
@@ -164,6 +171,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - ASL Interpreter
 	- Example implementation of Arm's Architecture Specification Language (ASL).
 	- https://github.com/ARM-software/asl-interpreter
+	- https://github.com/rems-project/asl-interpreter
 - End-to-End Verification of ARM Processors with ISA-Formal
 	- CAV 2016
 	- Alastair Reid, Rick Chen, Anastasios Deligiannis, David Gilday, David Hoyes, Will Keen, Ashan Pathirane, Owen Shepherd, Peter Vrabel, Ali Zaidi
