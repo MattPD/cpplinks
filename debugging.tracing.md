@@ -145,6 +145,8 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- https://arxiv.org/abs/1611.06952
 	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/lee-sangho
 	- "Table 1: Measuring branch misprediction penalty with RDTSCP, Intel PT CYC packet, and LBR elapsed cycle (10,000 times). We put 120 NOP instructions at the fall-through path. The LBR elapsed cycle is less noisy than RDTSCP and Intel PT."
+- Perf tools support for Intel® Processor Trace
+	- https://perf.wiki.kernel.org/index.php/Perf_tools_support_for_Intel%C2%AE_Processor_Trace
 - POMP: Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts
 	- USENIX Security 2017
 	- Jun Xu, Dongliang Mu, Xinyu Xing, Peng Liu, Ping Chen, Bing Mao
