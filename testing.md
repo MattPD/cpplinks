@@ -31,7 +31,8 @@ See also:
 		- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-mutation-software)
 		- [Talks](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-mutation-talks)
 - [Generation](https://github.com/MattPD/cpplinks/blob/master/testing.md#generation):
-	- [Random](https://github.com/MattPD/cpplinks/blob/master/testing.md#generation-random)
+	- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#generation-readings): [Random](https://github.com/MattPD/cpplinks/blob/master/testing.md#generation-readings-random)
+	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#generation-software): [Symbolic Execution](https://github.com/MattPD/cpplinks/blob/master/testing.md#generation-software-symbolic-execution)
 - [Property-Based Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md#property-based-testing):
 	- [Metamorphic](https://github.com/MattPD/cpplinks/blob/master/testing.md#property-based-testing-metamorphic): Metamorphic Relations, Metamorphic Testing
 - [Reduction](#reduction):
@@ -685,6 +686,10 @@ Mutation Analysis, Mutation Coverage, Mutation Testing
 
 # Generation
 
+## Generation: Readings
+
+Test Generation, Symbolic Execution
+
 - An Orchestrated Survey on Automated Software Test Case Generation
 	- Journal of Systems and Software 86 (2013)
 	- Saswat Anand, Edmund K. Burke, Tsong Yueh Chen, John Clark, Myra B. Cohen, Wolfgang Grieskamp, Mark Harman, Mary Jean Harrold, Phil Mcminn
@@ -731,7 +736,7 @@ Mutation Analysis, Mutation Coverage, Mutation Testing
 	- Patrice Godefroid
 	- http://drops.dagstuhl.de/opus/volltexte/2012/3845/
 
-## Generation: Random
+### Generation: Readings: Random
 
 Random Testing
 
@@ -765,6 +770,29 @@ Random Testing
 	- Lazy Linear Knapsack
 		- https://pvk.ca/Blog/2020/01/20/lazy-linear-knapsack/
 		- "TL;DR: the estimation algorithm for individual sampling passes works, and the combination of Hypothesis and Confidence Sequence Method lets us painlessly test for a statistical property."
+
+## Generation: Software
+
+### Generation: Software: Symbolic Execution
+
+- haybale: Symbolic execution of LLVM IR with an engine written in Rust
+	- operates on LLVM IR, which allows it to analyze programs written in C/C++, Rust, Swift, or any other language which compiles to LLVM IR
+	- https://github.com/PLSysSec/haybale
+- KLEE Symbolic Execution Engine
+	- https://github.com/klee/klee
+	- https://klee.github.io/
+	- KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs
+		- OSDI 2008
+		- C. Cadar, D. Dunbar, D. Engler
+		- http://www.doc.ic.ac.uk/~cristic/papers/klee-osdi-08.pdf
+		- https://klee.github.io/publications/
+- SymCC: efficient compiler-based symbolic execution
+	- https://github.com/eurecom-s3/symcc
+	- Symbolic execution with SymCC: Don't interpret, compile!
+		- USENIX Security 2020
+		- Sebastian Poeplau, Aurélien Francillon
+		- http://www.s3.eurecom.fr/tools/symbolic_execution/symcc.html
+		- https://www.usenix.org/conference/usenixsecurity20/presentation/poeplau
 
 ---
 
