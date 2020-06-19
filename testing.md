@@ -902,6 +902,11 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 	- https://agroce.github.io/idear18.pdf
 - Rust Bug Minimization Patterns
 	- http://blog.pnkfx.org/blog/2019/11/18/rust-bug-minimization-patterns/
+- Test-Case Reduction via Test-Case Generation: Insights From the Hypothesis Reducer
+	- European Conference on Object-Oriented Programming (ECOOP) 2020
+	- David R. MacIver and Alastair F. Donaldson
+	- https://drmaciver.github.io/papers/reduction-via-generation-preview.pdf
+	- https://doi.org/10.4230/LIPIcs.ECOOP.2020.13
 
 ## Reduction: Software
 
