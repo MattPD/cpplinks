@@ -1447,6 +1447,10 @@ See also: [Computer Architecture](comparch.md)
 	- Daniel Gruss, Anders Fogh, Clémentine Maurice, Moritz Lipp, Stefan Mangard 
 	- https://gruss.cc/files/prefetch.pdf
 	- https://www.youtube.com/watch?v=TJTQbs3oJx8
+- Reverse Engineering the Stream Prefetcher for Profit
+	- SILM 2020 Workshop on Software/Hardware Security @ Euro S&P 2020
+	- Aditya Rohan, Biswabandan Panda, Prakhar Agarwal
+	- https://www.cse.iitk.ac.in/users/biswap/streamer.pdf
 - Unveiling Hardware-based Data Prefetcher, a Hidden Source of Information Leakage
 	- Computer and Communications Security (CCS) 2018
 	- Youngjoo Shin, Hyung Chan Kim, Dokeun Kwon, Ji Hoon Jeong, Junbeom Hur
