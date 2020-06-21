@@ -196,6 +196,10 @@ See also:
 	- ‹Programming› 2020
 	- Jeff Smits, Gabriël Konat, Eelco Visser
 	- https://2020.programming-conference.org/details/programming-2020-papers/16/Constructing-Hybrid-Incremental-Compilers-for-Cross-Module-Extensibility-with-an-Inte
+- Incremental Whole Program Optimization and Compilation
+	- CGO 2017
+	- Patrick W. Sathyanathan, Wenlei He, Ten H. Tzen
+	- http://dl.acm.org/citation.cfm?id=3049857
 - Scalable Incremental Building with Dynamic Task Dependencies
 	- Automated Software Engineering (ASE) 2018
 	- Gabriël Konat, Sebastian Erdweg, Eelco Visser
