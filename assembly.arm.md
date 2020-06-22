@@ -590,6 +590,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	+ https://developer.arm.com/products/architecture/a-profile/docs/ddi0596/latest/a64-base-instructions-alphabetic-order
 * ARM v8-A Architecture Specification: A64 ISA XML for ARMv8.5
 	+ http://shell-storm.org/armv8-a/
+* Apple Silicon - Apple Developer Documentation
+	- https://developer.apple.com/documentation/apple_silicon
 * asm.thi.ng - baremetal ARM coding resources - http://asm.thi.ng/
 * Instruction Sets - https://developer.arm.com/products/architecture/instruction-sets
 * Linux Kernel Documentation
