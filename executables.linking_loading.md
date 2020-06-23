@@ -365,12 +365,16 @@ See also:
 
 ## Software: OS: macOS
 
+- cctools-port: Apple cctools and ld64 port for Linux, \*BSD and macOS
+	- https://github.com/tpoechtrager/cctools-port
 - ld64: Instructions on how to build the ld64 linker on macOS
 	- https://github.com/dmaclach/ld64
 - [lld] Initial commit for new Mach-O backend
 	- https://reviews.llvm.org/D75382
 - macdylibbundler: Utility to ease bundling libraries into executables for OSX
 	- https://github.com/auriamg/macdylibbundler
+- osxcross: Mac OS X cross toolchain for Linux, FreeBSD, OpenBSD and Android (Termux)
+	- https://github.com/tpoechtrager/osxcross
 - zld: A faster version of Apple's linker
 	- https://github.com/michaeleisel/zld
 
