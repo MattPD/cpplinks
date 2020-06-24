@@ -125,6 +125,7 @@ See also:
 	- Reducers are Fuzzers - https://blog.regehr.org/archives/1284
 	- Write Fuzzable Code - https://blog.regehr.org/archives/1687
 	- Helping Generative Fuzzers Avoid Looking Only Where the Light is Good, Part 1 - https://blog.regehr.org/archives/1700
+	- The Saturation Effect in Fuzzing - https://blog.regehr.org/archives/1796
 - One Weird Trick for Finding More Crashes: crasher recycling
 	- https://insights.sei.cmu.edu/cert/2013/09/one-weird-trick-for-finding-more-crashes-1.html
 - Statistical Evaluation of a Fuzzing Dictionary
@@ -245,7 +246,7 @@ See also:
 	- Automatically inferring file syntax with afl-analyze
 		- https://lcamtuf.blogspot.com/2016/02/say-hello-to-afl-analyze.html
 - AFL++
-	- afl++ is afl 2.56b with community patches, AFLfast power schedules, qemu 3.1 upgrade + laf-intel support, MOpt mutators, InsTrim instrumentation, unicorn_mode, Redqueen and a lot more!
+	- afl++ is afl with community patches, AFLfast power schedules, qemu 3.1 upgrade + laf-intel support, MOpt mutators, InsTrim instrumentation, unicorn_mode, Redqueen and a lot more!
 	- https://aflplus.plus/
 	- https://github.com/AFLplusplus/AFLplusplus
 - AFL-based-fuzzers-overview
