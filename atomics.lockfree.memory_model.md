@@ -187,8 +187,21 @@
 	- POPL 2019
 	- Azalea Raad, Marko Doko, Lovro Rožić, Ori Lahav, Viktor Vafeiadis
 	- https://popl19.sigplan.org/event/popl-2019-research-papers-on-library-correctness-under-weak-memory-consistency
+- Owicki-Gries Reasoning for C11 RAR
+	- ECOOP 2020
+	- Sadegh Dalvandi, Simon Doherty, Brijesh Dongol, Heike Wehrheim
+	- https://2020.ecoop.org/details/ecoop-2020-papers/11/Owicki-Gries-Reasoning-for-C11-RAR
+	- https://brijeshdongol.github.io/full-version/ECOOP20.pdf
+	- C11 RAR memory model (a fragment of C11 with both relaxed and release-acquire accesses)
 - Programming Languages & Verification – MPI SWS
 	- https://www.mpi-sws.org/research-areas/programming-languages-and-verification/
+	- 2020
+		- Reconciling Event Structures with Modern Multiprocessors
+			- ECOOP 2020
+			- Evgenii Moiseenko, Anton Podkopaev, Ori Lahav, Orestis Melkonian, Viktor Vafeiadis
+			- http://plv.mpi-sws.org/weakestmoToImm/
+			- https://arxiv.org/abs/1911.06567
+			- https://2020.ecoop.org/details/ecoop-2020-papers/5/Reconciling-Event-Structures-with-Modern-Multiprocessors
 	- 2018 - Effective stateless model checking for C/C++ concurrency - http://plv.mpi-sws.org/rcmc/
 	- 2017 - Formalizing the Concurrency Semantics of an LLVM Fragment - http://plv.mpi-sws.org/llvmcs/
 	- 2016 - Explaining Relaxed Memory Models with Program Transformations - http://plv.mpi-sws.org/trns/
