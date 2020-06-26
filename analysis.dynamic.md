@@ -128,6 +128,11 @@ See also:
 	- TracerPIN: TracerPin is a Intel PIN tool for generating execution traces of a running process.
 	- TracerGrind: TracerGrind is a Valgrind tool for generating execution traces of a running process.
 	- TraceGraph: TraceGraph is a GUI for visualizing execution traces produced by TracerGrind and TracerPin.
+- Triton: a Dynamic Binary Analysis (DBA) framework
+	- Provides internal components like a Dynamic Symbolic Execution (DSE) engine, a dynamic taint engine, AST representations of the x86, x86-64, ARM32 and AArch64 Instructions Set Architecture (ISA), SMT simplification passes, an SMT solver interface and, the last but not least, Python bindings. 
+	- https://github.com/JonathanSalwan/Triton
+	- Triton v0.8 and ARMv7: A Guideline for Adding New Architectures 
+		- https://blog.quarkslab.com/triton-v08-and-armv7-a-guideline-for-adding-new-architectures.html
 
 ---
 
