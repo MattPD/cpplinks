@@ -27,17 +27,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	- [Lifting: Disassemblers, Decompilers, Recompilers](#software-lifting)
 	- [Performance](#software-performance)
 	- [Virtualization](#software-virtualization)
-- [Talks](#talks):
-	- [2019](#2019)
-	- [2018](#2018)
-	- [2017](#2017)
-	- [2016](#2016)
-	- [2015](#2015)
-	- [2014](#2014)
-	- [2012](#2012)
-	- [2011](#2011)
-	- [2010](#2010)
-	- [History](#history)
+- [Talks](#talks): [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014), [2012](#2012), [2011](#2011), [2010](#2010), [History](#history)
 - [Tutorials, Courses](#tutorials-courses): [AArch64](#aarch64), [Thumb-2](#thumb-2)
 
 ---
@@ -1150,22 +1140,40 @@ See also: [Performance Tools](performance.tools.md)
 
 ## AArch64
 
-* A Guide to ARM64 / AArch64 Assembly on Linux with Shellcodes and Cryptography
-	+ https://modexp.wordpress.com/2018/10/30/arm64-assembly/
-* arm64 assembly crash course - https://github.com/Siguza/ios-resources/blob/master/bits/arm64.md
-* Armv8-A Instruction Set Architecture (ISA)
-	+ https://developer.arm.com/architectures/learn-the-architecture/armv8-a-instruction-set-architecture
-* Exploring AArch64 assembler - http://thinkingeek.com/category/aarch64/
-	+ Chapter 1: first program - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter1/
-	+ Chapter 2: register operands and immediate operands - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter-2/
-	+ Chapter 3: more about register operands - http://thinkingeek.com/2016/10/23/exploring-aarch64-assembler-chapter-3/
-	+ Chapter 4: arithmetic and bitwise instructions - http://thinkingeek.com/2016/10/23/exploring-aarch64-assembler-chapter-4/
-	+ Chapter 5: memory - http://thinkingeek.com/2016/11/13/exploring-aarch64-assembler-chapter-5/
-	+ Chapter 6: control flow - http://thinkingeek.com/2016/11/27/exploring-aarch64-assembler-chapter-6/
-	+ Chapter 7: functions - http://thinkingeek.com/2017/03/19/exploring-aarch64-assembler-chapter-7/
-	+ Chapter 8: the stack - http://thinkingeek.com/2017/05/29/exploring-aarch64-assembler-chapter-8/
-	+ Chapter 9: control constructs - http://thinkingeek.com/2017/11/05/exploring-aarch64-assembler-chapter-9/
-* Introduction to ARMv8 64-bit Architecture - https://quequero.org/2014/04/introduction-to-arm-architecture/
+- A Guide to ARM64 / AArch64 Assembly on Linux with Shellcodes and Cryptography
+	- https://modexp.wordpress.com/2018/10/30/arm64-assembly/
+- ARM AArch64 Assembly Language Lectures
+	- Princeton COS 217 (Spring 2020)
+	- https://www.cs.princeton.edu/courses/archive/spr20/cos217/schedule.html
+	- Assembly Language 1
+		- https://www.youtube.com/watch?v=w--9Zm55C0o
+		- https://www.cs.princeton.edu/courses/archive/spr20/cos217/lectures/13_Assembly1.pdf
+	- Assembly Language 2
+		- https://www.youtube.com/watch?v=JDCPs-m-3Dw
+		- https://www.cs.princeton.edu/courses/archive/spr20/cos217/lectures/14_Assembly2.pdf
+	- Assembly Language Functions
+		- https://www.youtube.com/watch?v=HkGldSflDwM
+		- https://www.cs.princeton.edu/courses/archive/spr20/cos217/lectures/15_AssemblyFunctions.pdf
+	- Machine Language Instructions
+		- https://www.youtube.com/watch?v=guXTCGlL50A
+		- https://www.cs.princeton.edu/courses/archive/spr20/cos217/lectures/17_MachineLang.pdf
+	- Assembler and Linker
+		- https://www.youtube.com/watch?v=ZYV6pAhvX_M
+		- https://www.cs.princeton.edu/courses/archive/spr20/cos217/lectures/17_MachineLang.pdf#page=37
+- arm64 assembly crash course - https://github.com/Siguza/ios-resources/blob/master/bits/arm64.md
+- Armv8-A Instruction Set Architecture (ISA)
+	- https://developer.arm.com/architectures/learn-the-architecture/armv8-a-instruction-set-architecture
+- Exploring AArch64 assembler - http://thinkingeek.com/category/aarch64/
+	- Chapter 1: first program - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter1/
+	- Chapter 2: register operands and immediate operands - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter-2/
+	- Chapter 3: more about register operands - http://thinkingeek.com/2016/10/23/exploring-aarch64-assembler-chapter-3/
+	- Chapter 4: arithmetic and bitwise instructions - http://thinkingeek.com/2016/10/23/exploring-aarch64-assembler-chapter-4/
+	- Chapter 5: memory - http://thinkingeek.com/2016/11/13/exploring-aarch64-assembler-chapter-5/
+	- Chapter 6: control flow - http://thinkingeek.com/2016/11/27/exploring-aarch64-assembler-chapter-6/
+	- Chapter 7: functions - http://thinkingeek.com/2017/03/19/exploring-aarch64-assembler-chapter-7/
+	- Chapter 8: the stack - http://thinkingeek.com/2017/05/29/exploring-aarch64-assembler-chapter-8/
+	- Chapter 9: control constructs - http://thinkingeek.com/2017/11/05/exploring-aarch64-assembler-chapter-9/
+- Introduction to ARMv8 64-bit Architecture - https://quequero.org/2014/04/introduction-to-arm-architecture/
 
 ## Thumb-2
 
