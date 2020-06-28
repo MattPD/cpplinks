@@ -101,6 +101,12 @@ See also:
 	- https://www.repository.cam.ac.uk/handle/1810/288468
 	- mkcheck: Incremental Build Verification
 		- https://github.com/nandor/mkcheck
+- Escaping Dependency Hell: Finding Build Dependency Errors with the Unified Dependency Graph
+	- International Symposium on Software Testing and Analysis (ISSTA) 2020
+	- Gang Fan, Chengpeng Wang, Rongxin Wu, Qingkai Shi, Charles Zhang
+	- https://qingkaishi.github.io/public_pdfs/ISSTA20-VeriBuild.pdf
+	- https://veribuild.github.io/
+	- https://conf.researchr.org/details/issta-2020/issta-2020-papers/38/Escaping-Dependency-Hell-Finding-Build-Dependency-Errors-with-the-Unified-Dependency
 - Identifying Bugs in Make and JVM-Oriented Builds
 	- 2020
 	- Thodoris Sotiropoulos, Stefanos Chaliasos, Dimitris Mitropoulos, Diomidis Spinellis
