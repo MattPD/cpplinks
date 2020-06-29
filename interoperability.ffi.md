@@ -3,7 +3,7 @@
 # Contents
 
 - [General](#general)
-- Language-specific: [Bash](#bash), [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Objective-C](#objective-c), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata)
+- Language-specific: [Bash](#bash), [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Objective-C](#objective-c), [OCaml](#ocaml), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata)
 
 ---
 
@@ -189,6 +189,24 @@
 - OC - Easily Declare/Invoke Objective-C APIs from C11 or C++11
 	- Macro magic for declaring/calling Objective-C APIs from C11 or C++. Preloads selectors, chooses the correct objc_msgSend to call per method/platform.
 	- https://github.com/garettbass/oc
+
+---
+
+# OCaml
+
+- Foreign Function Interface - Real World OCaml
+	- http://dev.realworldocaml.org/foreign-function-interface.html
+- Interfacing C with OCaml
+	- https://caml.inria.fr/pub/docs/manual-ocaml/intfc.html
+- Duplo: A Framework for OCaml Post-Link Optimisation
+	- [ICFP 2020](https://icfp20.sigplan.org/details/icfp-2020-papers/5/Duplo-A-Framework-for-OCaml-Post-Link-Optimisation)
+	- Nandor Licker, Timothy M. Jones
+	- https://www.cl.cam.ac.uk/~nl364/docs/duplo.pdf
+	- LLIR (Low-Level Intermediate Representation) cross-language post-link optimiser for OCaml and C
+		- https://github.com/nandor/llir-opt
+- cxx_wrapped.h
+	- simple template to wrap C++ object as OCaml custom value (used for example in ocaml-hypertable)
+	- https://github.com/ygrek/scraps/blob/master/cxx_wrapped.h
 
 ---
 
