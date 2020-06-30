@@ -174,12 +174,38 @@ See also: [Computer Architecture](comparch.md)
 
 ## Defense - Cache
 
+### Defense - Cache: 2021
+
+- Systematic Analysis of Randomization-based Protected Cache Architectures
+	- IEEE Symposium on Security & Privacy (S&P) 2021
+	- Antoon Purnal, Lukas Giner, Daniel Gruss, Ingrid Verbauwhede
+	- https://www.esat.kuleuven.be/cosic/publications/article-3194.pdf
+
+### Defense - Cache: 2020
+
 - A Benchmark Suite for Evaluating Caches' Vulnerability to Timing Attacks
 	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2020
 	- Shuwen Deng, Wenjie Xiong, Jakub Szefer
 	- https://arxiv.org/abs/1911.08619
 	- https://www.youtube.com/watch?v=Kq5KJ1NWd-s
 	- https://caslab.csl.yale.edu/code/cache-security-benchmarks/
+- HybCache: Hybrid Side-Channel-Resilient Caches for Trusted Execution Environments
+	- USENIX Security 2020
+	- Ghada Dessouky, Tommaso Frassetto, Ahmad-Reza Sadeghi
+	- https://arxiv.org/abs/1909.09599
+	- https://www.usenix.org/system/files/sec20spring_dessouky_prepub.pdf
+- Meet the Sherlock Holmes’ of Side Channel Leakage: A Survey of Cache SCA Detection Techniques
+	- IEEE Access (2020)
+	- Ayaz Akram, Maria Mushtaq, Muhammad Khurram Bhatti, Vianney Lapotre, Guy Gogniat
+	- https://ieeexplore.ieee.org/abstract/document/9035459/
+- SmokeBomb: Effective Mitigation Against Cache Side-channel Attacks on the ARM Architecture
+	- MobiSys 2020
+	- Haehyun Cho, Jinbum Park, Donguk Kim, Ziming Zhao, Yan Shoshitaishvili, Adam Doupeé, Gail-Joon Ahn
+	- https://doi.org/10.1145/3386901.3388888
+	- https://haehyun.github.io/papers/smokebomb-mobisys20.pdf
+
+### Defense - Cache: 2019
+
 - An Exploration of Effective Fuzzing for Side-channel Cache Leakage
 	- Software Testing, Verification and Reliability (STVR) 2019
 	- Tiyash Basu, Kartik Aggarwal, Chundong Wang, Sudipta Chattopadhyay 
@@ -190,77 +216,24 @@ See also: [Computer Architecture](comparch.md)
 	- Journal of Hardware and Systems Security 3(4) 2019
 	- Shuwen Deng, Wenjie Xiong & Jakub Szefer 
 	- https://eprint.iacr.org/2019/167
-- Architecting against Software Cache-Based Side-Channel Attacks
-	- IEEE Transactions on Computers 62(7), July 2013
-	- Jingfei Kong, O. Aciicmez, J-P Seifert, Huiyang Zhou
-	- http://ieeexplore.ieee.org/document/6178238/
-- Automated Detection of Instruction Cache Leaks in Modular Exponentiation Software
-	- CARDIS 2016
-	- Andreas Zankl, Johann Heyszl, Georg Sigl
-	- https://link.springer.com/chapter/10.1007/978-3-319-54669-8_14
-	- https://github.com/falsecurity/cache-leak-detector
 - Automated Software Protection for the Masses Against Side-Channel Attacks
 	- HiPEAC 2019
 	- Nicolas Belleville, Damien Couroussé, Karine Heydemann, Henri-Pierre Charles 
 	- https://dl.acm.org/citation.cfm?id=3281662
-- CacheAudit: A Tool for the Static Analysis of Cache Side Channels 
-	- USENIX Security 2013
-	- Goran Doychev, Dominik Feld, Boris Köpf, Laurent Mauborgne, Jan Reineke
-	- https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/doychev
-	- https://github.com/cacheaudit/cacheaudit
-- CacheD: Identifying Cache-Based Timing Channels in Production Software
-	- USENIX Security 2017
-	- Shuai Wang, Pei Wang, Xiao Liu, Danfeng Zhang, Dinghao Wu
-	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/wang-shuai
-- CacheShield: Protecting Legacy Processes Against Cache Attacks
-	- CODASPY 2018
-	- Samira Briongos, Gorka Irazoqui, Pedro Malagón, Thomas Eisenbarth
-	- https://arxiv.org/abs/1709.01795
-	- https://dl.acm.org/citation.cfm?id=3176258.3176320
 - CaSym: Cache Aware Symbolic Execution for Side Channel Detection and Mitigation 
 	- Security & Privacy (S&P) 2019
 	- Brotzman, R L, Shen Liu, Danfeng Zhang, Gang Tan, Mahmut T. Kandemir
 	- http://www.cse.psu.edu/~dbz5017/pub/oakland19.pdf
-- CEASER: Mitigating Conflict-Based Cache Attacks via Encrypted-Address and Remapping
-	- MICRO 2018
-	- Moinuddin K. Qureshi
-	- http://memlab.ece.gatech.edu/papers/MICRO_2018_2.pdf
 - Cyclone: Detecting Contention-Based Cache Information Leaks Through Cyclic Interference
 	- MICRO-52 2019
 	- Austin Harris, Shijia Wei, Prateek Sahu, Pranav Kumar, Todd Austin, Mohit Tiwari
 	- https://spark.ece.utexas.edu/
 	- http://spark.ece.utexas.edu/pubs/MICRO-19-cyclone.pdf
-- DAWG: A Defense Against Cache Timing Attacks in Speculative Execution Processors
-	- MICRO 2018
-	- Vladimir Kiriansky, Ilia A. Lebedev, Saman P. Amarasinghe, Srinivas Devadas, Joel S. Emer
-	- https://doi.org/10.1109/MICRO.2018.00083
-- Did we learn from LLC Side Channel Attacks? A Cache Leakage Detection Tool for Crypto Libraries
-	- arXiv 2017
-	- Gorka Irazoqui, Kai Cong, Xiaofei Guo, Hareesh Khattri, Arun Kanuparthi, Thomas Eisenbarth, Berk Sunar
-	- https://arxiv.org/abs/1709.01552
 - Fooling the Sense of Cross-core Last-level Cache Eviction based Attacker by Prefetching Common Sense
 	- PACT 2019
 	- Biswabandan Panda
 	- https://eprint.iacr.org/2019/391
 	- https://www.cse.iitk.ac.in/users/biswap/BITP.pdf
-- How secure is your cache against side-channel attacks?
-	- MICRO 2017
-	- Zecheng He, Ruby B. Lee
-	- https://doi.org/10.1145/3123939.3124546
-	- http://palms.ee.princeton.edu/system/files/Micro-camera-ready-final.pdf
-- HybCache: Hybrid Side-Channel-Resilient Caches for Trusted Execution Environments
-	- USENIX Security 2020
-	- Ghada Dessouky, Tommaso Frassetto, Ahmad-Reza Sadeghi
-	- https://arxiv.org/abs/1909.09599
-	- https://www.usenix.org/system/files/sec20spring_dessouky_prepub.pdf
-- Meet the Sherlock Holmes’ of Side Channel Leakage: A Survey of Cache SCA Detection Techniques
-	- IEEE Access (2020)
-	- Ayaz Akram, Maria Mushtaq, Muhammad Khurram Bhatti, Vianney Lapotre, Guy Gogniat
-	- https://ieeexplore.ieee.org/abstract/document/9035459/
-- On the Incomparability of Cache Algorithms in Terms of Timing Leakage
-	- arXiv 2018
-	- Pablo Cañones, Boris Köpf, Jan Reineke
-	- https://arxiv.org/abs/1807.01240
 - ScatterCache: Thwarting Cache Attacks via Cache Set Randomization
 	- USENIX Security 2019
 	- Mario Werner, Thomas Unterluggauer, Lukas Giner, Michael Schwarz, Daniel Gruss, Stefan Mangard
@@ -269,21 +242,72 @@ See also: [Computer Architecture](comparch.md)
 	- International Symposium on Computer Architecture (ISCA) 2019
 	- Mengjia Yan, Jen-Yang Wen, Christopher Fletcher, Josep Torrellas
 	- http://iacoma.cs.uiuc.edu/work/comanuma.html
+
+### Defense - Cache: 2018
+
+- CacheShield: Protecting Legacy Processes Against Cache Attacks
+	- CODASPY 2018
+	- Samira Briongos, Gorka Irazoqui, Pedro Malagón, Thomas Eisenbarth
+	- https://arxiv.org/abs/1709.01795
+	- https://dl.acm.org/citation.cfm?id=3176258.3176320
+- CEASER: Mitigating Conflict-Based Cache Attacks via Encrypted-Address and Remapping
+	- MICRO 2018
+	- Moinuddin K. Qureshi
+	- http://memlab.ece.gatech.edu/papers/MICRO_2018_2.pdf
+- DAWG: A Defense Against Cache Timing Attacks in Speculative Execution Processors
+	- MICRO 2018
+	- Vladimir Kiriansky, Ilia A. Lebedev, Saman P. Amarasinghe, Srinivas Devadas, Joel S. Emer
+	- https://doi.org/10.1109/MICRO.2018.00083
+- On the Incomparability of Cache Algorithms in Terms of Timing Leakage
+	- arXiv 2018
+	- Pablo Cañones, Boris Köpf, Jan Reineke
+	- https://arxiv.org/abs/1807.01240
+
+### Defense - Cache: 2017
+
+- CacheD: Identifying Cache-Based Timing Channels in Production Software
+	- USENIX Security 2017
+	- Shuai Wang, Pei Wang, Xiao Liu, Danfeng Zhang, Dinghao Wu
+	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/wang-shuai
+- Did we learn from LLC Side Channel Attacks? A Cache Leakage Detection Tool for Crypto Libraries
+	- arXiv 2017
+	- Gorka Irazoqui, Kai Cong, Xiaofei Guo, Hareesh Khattri, Arun Kanuparthi, Thomas Eisenbarth, Berk Sunar
+	- https://arxiv.org/abs/1709.01552
+- How secure is your cache against side-channel attacks?
+	- MICRO 2017
+	- Zecheng He, Ruby B. Lee
+	- https://doi.org/10.1145/3123939.3124546
+	- http://palms.ee.princeton.edu/system/files/Micro-camera-ready-final.pdf
 - Secure Hierarchy-Aware Cache Replacement Policy (SHARP): Defending Against Cache-Based Side Channel Attacks
 	- ISCA 2017
 	- Mengjia Yan, Bhargava Gopireddy, Thomas Shull, Josep Torrellas
 	- https://ieeexplore.ieee.org/abstract/document/8192484
-- SmokeBomb: Effective Mitigation Against Cache Side-channel Attacks on the ARM Architecture
-	- MobiSys 2020
-	- Haehyun Cho, Jinbum Park, Donguk Kim, Ziming Zhao, Yan Shoshitaishvili, Adam Doupeé, Gail-Joon Ahn
-	- https://doi.org/10.1145/3386901.3388888
-	- https://haehyun.github.io/papers/smokebomb-mobisys20.pdf
 - Strong and Efficient Cache Side-Channel Protection using Hardware Transactional Memory
 	- USENIX Security Symposium 2017
 	- Daniel Gruss, Julian Lettner, Felix Schuster, Olga Ohrimenko, István Haller, Manuel Costa
 	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/gruss
 	- https://gruss.cc/files/cloak.pdf
 	- https://github.com/Microsoft/msr-cloak
+
+### Defense - Cache: 2016
+
+- Automated Detection of Instruction Cache Leaks in Modular Exponentiation Software
+	- CARDIS 2016
+	- Andreas Zankl, Johann Heyszl, Georg Sigl
+	- https://link.springer.com/chapter/10.1007/978-3-319-54669-8_14
+	- https://github.com/falsecurity/cache-leak-detector
+
+### Defense - Cache: 2013
+
+- Architecting against Software Cache-Based Side-Channel Attacks
+	- IEEE Transactions on Computers 62(7), July 2013
+	- Jingfei Kong, O. Aciicmez, J-P Seifert, Huiyang Zhou
+	- http://ieeexplore.ieee.org/document/6178238/
+- CacheAudit: A Tool for the Static Analysis of Cache Side Channels 
+	- USENIX Security 2013
+	- Goran Doychev, Dominik Feld, Boris Köpf, Laurent Mauborgne, Jan Reineke
+	- https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/doychev
+	- https://github.com/cacheaudit/cacheaudit
 
 ## Defense - Floating Point Unit (FPU)
 
@@ -704,6 +728,7 @@ See also: [Computer Architecture](comparch.md)
 	- 2020
 	- Stephan van Schaik, Marina Minkin, Andrew Kwong, Daniel Genkin, Yuval Yarom
 	- https://cacheoutattack.com/
+	- https://arxiv.org/abs/2006.13353
 	- L1D Eviction Sampling / CVE-2020-0549 / INTEL-SA-00329
 	- https://software.intel.com/security-software-guidance/software-guidance/l1d-eviction-sampling
 - DABANGG: Time for Fearless Flush based Cache Attacks
