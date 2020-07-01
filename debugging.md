@@ -99,6 +99,8 @@ See also:
 		- International Conference on Software Engineering (ICSE) 2020
 		- Lukas Kirschner, Ezekiel Soremekun, and Andreas Zeller
 		- https://www.dropbox.com/s/ddn3fe55lws1rdr/icse2020-ddmax.pdf
+		- https://publications.cispa.saarland/3060/1/camera-ready-submission.pdf
+		- https://conf.researchr.org/details/icse-2020/icse-2020-papers/119/Debugging-Inputs
 		- ddmax implementations & experimental data: https://tinyurl.com/DebuggingInputs
 * Devon H. O'Dell
 	+ Building a Debugging Mindset
@@ -256,44 +258,63 @@ _Books, Books Reviews_
 	- 1992 Ph.D. dissertation; Fabio Q. B. da Silva
 	- http://hdl.handle.net/1842/13542
 	- http://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-241/
+- Formally Defining Debuggers: A Comparison of Three Approaches
+	- International Workshop on Automated Debugging (AADEBUG) 1995
+	- Karen L. Bernstein, Eugene W. Stark
+	- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.2511
 - Debug Information Validation for Optimized Code
 	- PLDI 2020
 	- Yuanbo Li, Shuo Ding, Qirun Zhang, Davide Italiano
 	- https://helloqirun.github.io/papers/pldi20_yuanbo1.pdf
 	- https://www.cc.gatech.edu/~qrzhang/projects/debug/debug.html
 	- https://pldi20.sigplan.org/details/pldi-2020-papers/60/Debug-Information-Validation-for-Optimized-Code
+- Operational Semantics of a Focusing Debugger
+	- Electronic Notesin Theoretical Computer Science 1 (1995)
+	- Karen L. Bernstein, Eugene W.Stark
+	- http://dx.doi.org/10.1016/S1571-0661(04)80002-1
+- Proving the Correctness of Algorithmic Debugging for Functional Programs
+	- Trends in Functional Programming (TFP) 2006
+	- Olaf Chitil, Yong Luo
+	- http://www.cs.nott.ac.uk/~psznhn/TFP2006/Papers/23-ChitilLuo-ProvingCorrectnessOfDeclarativeDebugging.pdf
+	- https://www.cs.kent.ac.uk/pubs/2007/2863/content.pdf
 
 #### Testing
 
-* Comparing The Quality Of Debug Information Produced By Clang And GCC
-	+ https://robert.ocallahan.org/2018/11/comparing-quality-of-debug-information.html
-	+ debuginfo-quality: Evaluate the quality of debuginfo in an ELF binary
+- Comparing The Quality Of Debug Information Produced By Clang And GCC
+	- https://robert.ocallahan.org/2018/11/comparing-quality-of-debug-information.html
+	- debuginfo-quality: Evaluate the quality of debuginfo in an ELF binary
 		- https://github.com/rocallahan/debuginfo-quality
-* Debug Frame Checking: Check `.eh_frame` and `.debug_frame` information
-	+ https://github.com/francesco-zappa-nardelli/eh_frame_check
-* DExTer (Debugging Experience Tester)
-	+ https://github.com/SNSystems/dexter
-	+ Measuring the User Debugging Experience 
+- Debug Frame Checking: Check `.eh_frame` and `.debug_frame` information
+	- https://github.com/francesco-zappa-nardelli/eh_frame_check
+- DExTer (Debugging Experience Tester)
+	- https://github.com/SNSystems/dexter
+	- Measuring the User Debugging Experience 
 		- 2018 European LLVM Developers Meeting; Greg Bedwell
 		- https://www.youtube.com/watch?v=XRT_GmpGjXE
 		- https://llvm.org/devmtg/2018-04/slides/Bedwell-Measuring_the_User_Debugging_Experience.pdf
 		- http://llvm.org/devmtg/2018-04/slides/Bedwell-Measuring_the_User_Debugging_Experience_poster.png
 		- https://www.snsystems.com/technology/tech-blog/measuring-the-user-debug-experience
-* Feedback-Directed Differential Testing of Interactive Debuggers
-	+ ESEC/FSE 2018
-	+ Daniel Lehmann, Michael Pradel
-	+ http://software-lab.org/publications/fse2018.pdf
-	+ https://github.com/sola-da/DifferentialDebuggerTesting
-* Interactive Metamorphic Testing of Debuggers
-	+ ISSTA 2019
-	+ Sandro Tolksdorf, Daniel Lehmann, Michael Pradel
-	+ https://conf.researchr.org/event/issta-2019/issta-2019-technical-papers-interactive-metamorphic-testing-of-debuggers
-* lldb-repro: a utility to transparently capture and replay debugger sessions through the command line driver
+- DIVA - Debug Information Visual Analyzer
+	- DIVA is a command line tool that processes DWARF debug information contained within ELF files and prints the semantics of that debug information. The DIVA output is designed to be understandable by software programmers without any low-level compiler or DWARF knowledge; as such, it can be used to report debug information bugs to the compiler provider.
+	- https://github.com/SNSystems/DIVA
+	- 2017 EuroLLVM Developers’ Meeting lightning talk
+		- video: https://www.youtube.com/watch?v=SwtpXaCk2bE
+		- slides: http://llvm.org/devmtg/2017-03/assets/slides/diva_debug_information_visual_analyzer.pdf
+- Feedback-Directed Differential Testing of Interactive Debuggers
+	- ESEC/FSE 2018
+	- Daniel Lehmann, Michael Pradel
+	- http://software-lab.org/publications/fse2018.pdf
+	- https://github.com/sola-da/DifferentialDebuggerTesting
+- Interactive Metamorphic Testing of Debuggers
+	- ISSTA 2019
+	- Sandro Tolksdorf, Daniel Lehmann, Michael Pradel
+	- https://conf.researchr.org/event/issta-2019/issta-2019-technical-papers-interactive-metamorphic-testing-of-debuggers
+- lldb-repro: a utility to transparently capture and replay debugger sessions through the command line driver
 	- used to test the reproducers by running the test suite twice
 	- https://github.com/llvm/llvm-project/tree/master/lldb/utils/lldb-repro
 	- https://lldb.llvm.org/resources/reproducers.html
-* Samy Al Bahra, Backtrace
-	+ Compiler debug quality suite - https://github.com/backtrace-labs/cdqs
+- Samy Al Bahra, Backtrace
+	- Compiler debug quality suite - https://github.com/backtrace-labs/cdqs
 
 ## Reverse Debugging
 
