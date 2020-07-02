@@ -824,7 +824,7 @@ Disassemblers, Decompilers, Recompilers
 
 See also: [Performance Tools](performance.tools.md)
 
-* Arm HPC tools and libraries
+- Arm HPC tools and libraries
 	- https://developer.arm.com/tools-and-software/server-and-hpc
 	- Arm Allinea Studio
 		- https://www.arm.com/products/development-tools/server-and-hpc/allinea-studio
@@ -832,36 +832,38 @@ See also: [Performance Tools](performance.tools.md)
 		- https://developer.arm.com/tools-and-software/server-and-hpc/compile/arm-compiler-for-linux/arm-performance-libraries
 	- Profiling Tools
 		- https://developer.arm.com/hpc/hpc-software/categories/profiling-tools
-* Arm Optimized Routines
-	+ Optimized implementations of various library functions for ARM architecture processors
-	+ https://github.com/ARM-software/optimized-routines
-* Compute Library
-	+ The ARM Computer Vision and Machine Learning library is a set of functions optimised for both ARM CPUs and GPUs using SIMD technologies.
-	+ https://developer.arm.com/technologies/compute-library
-	+ https://github.com/ARM-software/ComputeLibrary
-* LIKWID: Performance monitoring and benchmarking suite
-	+ https://github.com/RRZE-HPC/likwid
-	+ https://hpc.fau.de/research/tools/likwid/
-* Microbenchmarks for Cortex A53
+- Arm Optimized Routines
+	- Optimized implementations of various library functions for ARM architecture processors
+	- https://github.com/ARM-software/optimized-routines
+- Compute Library
+	- The ARM Computer Vision and Machine Learning library is a set of functions optimised for both ARM CPUs and GPUs using SIMD technologies.
+	- https://developer.arm.com/technologies/compute-library
+	- https://github.com/ARM-software/ComputeLibrary
+- HWCPipe: a simple and extensible interface for reading CPU and GPU hardware counters
+	- https://github.com/ARM-software/HWCPipe
+- LIKWID: Performance monitoring and benchmarking suite
+	- https://github.com/RRZE-HPC/likwid
+	- https://hpc.fau.de/research/tools/likwid/
+- Microbenchmarks for Cortex A53
 	- https://github.com/thomwiggers/microbenchmark-aarch64/
 	- Energy-Efficient ARM64 Cluster with Cryptanalytic Applications
 	- LATINCRYPT 2017; Thom Wiggers
 	- https://thomwiggers.nl/publication/armcluster/
-* Ne10 Open Source Library
-	+ Ne10 is a library of common, useful functions that have been heavily optimised for ARM-based CPUs equipped with NEON SIMD capabilities. It provides consistent, well-tested behaviour, allowing for painless integration into a wide variety of applications. The library currently focuses primarily around math, signal processing, image processing, and physics functions.
-	+ http://projectne10.github.io/Ne10/
-	+ https://github.com/projectNe10/Ne10
-* sse2neon: A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64 NEON intrinsics
+- Ne10 Open Source Library
+	- Ne10 is a library of common, useful functions that have been heavily optimised for ARM-based CPUs equipped with NEON SIMD capabilities. It provides consistent, well-tested behaviour, allowing for painless integration into a wide variety of applications. The library currently focuses primarily around math, signal processing, image processing, and physics functions.
+	- http://projectne10.github.io/Ne10/
+	- https://github.com/projectNe10/Ne10
+- sse2neon: A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64 NEON intrinsics
 	- https://github.com/DLTcollab/sse2neon
-* Streamline Performance Analyzer
+- Streamline Performance Analyzer
 	- https://developer.arm.com/tools-and-software/embedded/arm-development-studio/components/streamline-performance-analyzer
-* User-mode access to ARMv7 PMU cycle counters
+- User-mode access to ARMv7 PMU cycle counters
 	- https://github.com/thoughtpolice/enable_arm_pmu
 	- User-mode performance counters for ARM/Linux
 		- http://neocontra.blogspot.com/2013/05/user-mode-performance-counters-for.html
-* User-mode access to ARMv8 PMU cycle counters
+- User-mode access to ARMv8 PMU cycle counters
 	- https://github.com/rdolbeau/enable_arm_pmu
-* Using Perf and its friend eBPF on Arm platform
+- Using Perf and its friend eBPF on Arm platform
 	- Linaro Connect San Diego 2019; Leo Yan
 	- https://connect.linaro.org/resources/san19/san19-223/
 
@@ -1163,7 +1165,7 @@ See also: [Performance Tools](performance.tools.md)
 - arm64 assembly crash course - https://github.com/Siguza/ios-resources/blob/master/bits/arm64.md
 - Armv8-A Instruction Set Architecture (ISA)
 	- https://developer.arm.com/architectures/learn-the-architecture/armv8-a-instruction-set-architecture
-- Exploring AArch64 assembler - http://thinkingeek.com/category/aarch64/
+- Exploring AArch64 assembler - https://thinkingeek.com/categories/aarch64/
 	- Chapter 1: first program - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter1/
 	- Chapter 2: register operands and immediate operands - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter-2/
 	- Chapter 3: more about register operands - http://thinkingeek.com/2016/10/23/exploring-aarch64-assembler-chapter-3/
