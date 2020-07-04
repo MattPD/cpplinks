@@ -316,6 +316,10 @@ See also:
 	- https://github.com/google/FuzzBench
 	- https://security.googleblog.com/2020/03/fuzzbench-fuzzer-benchmarking-as-service.html
 	- https://opensource.googleblog.com/2020/03/fuzzbench-fuzzer-benchmarking-as-service.html
+- Magma: A Ground-Truth Fuzzing Benchmark
+	- A ground-truth binary fuzzing benchmark suite based on real programs with real bugs.
+	- https://github.com/HexHive/magma
+	- https://hexhive.epfl.ch/magma/
 
 ## Software: OS: Linux
 
