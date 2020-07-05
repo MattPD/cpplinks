@@ -5,12 +5,13 @@ See also: [compilers](compilers.md)
 # Contents
 
 - [General](#general)
+	- [Debugging](#debugging)
 	- [History](#history)
 	- [Lectures](#lectures)
 - [Testing](#testing)
-	- [Readings](#readings)
-	- [Software](#software)
-	- [Talks](#talks)
+	- [Readings](#testing-readings): [Performance Optimization](#testing-readings-performance-optimization), [Reduction](#testing-readings-reduction): [LLVM](#testing-readings-reduction-llvm)
+	- [Software](#testing-software): [Performance Optimization](#testing-software-performance-optimization), [Reduction](#testing-software-reduction)
+	- [Talks](#testing-talks)
 - [Validation](#validation)
 - [Verification](#verification)
 
@@ -27,7 +28,7 @@ See also: [compilers](compilers.md)
 	- Patrick Bahr and Graham Hutton
 	- http://www.cs.nott.ac.uk/~pszgmh/bib.html#ccc
 - Calculating Correct Compilers II: Return of the Register Machines
-	- September 2019
+	- Journal of Functional Programming 2020
 	- Patrick Bahr and Graham Hutton
 	- http://www.cs.nott.ac.uk/~pszgmh/bib.html#ccc2
 - Compiling with Proofs
@@ -62,7 +63,11 @@ See also: [compilers](compilers.md)
 
 ## Debugging
 
-See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing"](https://software-lab.org/publications/csur2019_compiler_testing.pdf)
+See also:
+
+- Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing"](https://software-lab.org/publications/csur2019_compiler_testing.pdf)
+- [Compilers Correctness](https://github.com/MattPD/cpplinks/blob/master/compilers.correctness.md): [Testing](https://github.com/MattPD/cpplinks/blob/master/compilers.correctness.md#testing): [Reduction](https://github.com/MattPD/cpplinks/blob/master/compilers.correctness.md#testing-readings-reduction):
+- [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.md): [Readings](https://github.com/MattPD/cpplinks/blob/master/debugging.md#readings): Delta Debugging
 
 - Automatic Isolation of Compiler Errors
 	- ACM Transactions on Programming Languages and Systems (TOPLAS) 16(5) 1994
@@ -85,11 +90,6 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- http://blog.ezyang.com/2011/06/debugging-compilers-with-optimization-fuel/
 - GCC Wiki: Finding miscompilations on large testcases
 	- https://gcc.gnu.org/wiki/Analysing_Large_Testcases
-- LLVM bugpoint
-	- LLVM bugpoint tool: design and usage
-		- https://llvm.org/docs/Bugpoint.html
-	- Reduce Your Testcases with Bugpoint and Custom Scripts
-		- http://blog.llvm.org/2015/11/reduce-your-testcases-with-bugpoint-and.html
 - Locating a compiler bug with git bisection
 	- 2020; William Woodruff
 	- https://blog.yossarian.net/2020/05/07/Locating-a-compiler-bug-with-git-bisection
@@ -180,7 +180,7 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- Materials: http://materials.dagstuhl.de/index.php?semnr=17502
 - EMI-based Compiler Testing - http://web.cs.ucdavis.edu/~su/emi-project/
 
-## Readings
+## Testing: Readings
 
 - An empirical comparison of compiler testing techniques
 	- International Conference on Software Engineering (ICSE 2016)
@@ -189,12 +189,6 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- http://emponcc.github.io/
 	- https://github.com/emponcc/emponcc.github.io/blob/master/CompilerTestingComparison.md
 	- https://dl.acm.org/citation.cfm?id=2884878
-- Automatic Test Case Reduction for OpenCL
-	- IWOCL 2016
-	- Moritz Pflanzer, Alastair F. Donaldson, Andrei Lascu
-	- https://dl.acm.org/citation.cfm?id=2909439
-	- paper: https://spiral.imperial.ac.uk/handle/10044/1/39576
-	- slides: http://www.iwocl.org/wp-content/uploads/iwocl-2016-automatic-test-case-reduction.pdf
 - Automated Testing of Graphics Shader Compilers
 	- SPLASH 2017 OOPSLA
 	- Alastair F. Donaldson, Hugues Evrard, Andrei Lascu, Paul Thomson
@@ -324,20 +318,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- SCALA 2016
 	- Georg Ofenbeck, Tiark Rompf, Markus Püschel
 	- https://www.cs.purdue.edu/homes/rompf/papers/ofenbeck-scala16.pdf
-- ReduKtor: How We Stopped Worrying About Bugs in Kotlin Compiler
-	- Automated Software Engineering (ASE) 2019
-	- Daniil Stepanov, Marat Akhin, Mikhail Belyaev
-	- https://arxiv.org/abs/1909.07331
 - System Under Test: LLVM - https://systemundertest.org/llvm/
 - Taming compiler fuzzers
 	- PLDI 2013
 	- Y. Chen, A. Groce, C. Zhang, W.-K. Wong, X. Fern, E. Eide, J. Regehr
 	- https://www.cs.utah.edu/~regehr/papers/pldi13.pdf
 	- Fuzzers Need Taming - https://blog.regehr.org/archives/925
-- Test-Case Reduction for C Compiler Bugs
-	- PLDI 2012
-	- John Regehr, Yang Chen, Pascal Cuoq, Eric Eide, Chucky Ellison, Xuejun Yang
-	- https://www.cs.utah.edu/~regehr/papers/pldi12-preprint.pdf
 - Testing LLVM - http://blog.regehr.org/archives/1450
 - Testing Static Analyses for Precision and Soundness
 	- Code Generation and Optimization (CGO) 2020
@@ -351,7 +337,7 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 - The problem with differential testing is that at least one of the compilers must get it right
 	- http://blog.frama-c.com/index.php?post/2013/09/25/The-problem-with-differential-testing-is-that-at-least-one-of-the-compilers-must-get-it-right
 
-### Performance Optimization
+### Testing: Readings: Performance Optimization
 
 - Compiler Testing via a Theory of Sound Optimisations in the C11/C++11 Memory Model
 	- Programming Language Design and Implementation (PLDI) 2013
@@ -400,22 +386,52 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- slides: https://nebelwelt.net/publications/files/15LangSec-presentation.pdf
 	- talk: https://www.youtube.com/watch?v=g6LCtHz_MDc&list=PL0pRF4xvoD0kuECJuowraVIIHlT3pN1Cm&index=3
 
-## Software
+### Testing: Readings: Reduction
 
-- CF3: Test suite for arithmetic optimization of C compilers
-	- https://ist.ksc.kwansei.ac.jp/~ishiura/pub/CF3/
-	- https://github.com/ishiura-compiler/CF3
+See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): [Reduction](https://github.com/MattPD/cpplinks/blob/master/testing.md#reduction)
+
+- Automatic Test Case Reduction for OpenCL
+	- IWOCL 2016
+	- Moritz Pflanzer, Alastair F. Donaldson, Andrei Lascu
+	- https://dl.acm.org/citation.cfm?id=2909439
+	- paper: https://spiral.imperial.ac.uk/handle/10044/1/39576
+	- slides: http://www.iwocl.org/wp-content/uploads/iwocl-2016-automatic-test-case-reduction.pdf
+- Perses: Syntax-Directed Program Reduction
+	- https://github.com/chengniansun/perses
+	- ICSE 2018
+		- Chengnian Sun, Yuanbo Li, Qirun Zhang, Tianxiao Gu, Zhendong Su
+		- https://dl.acm.org/doi/10.1145/3180155.3180236
+		- https://people.inf.ethz.ch/suz/publications/perses.pdf
+		- https://helloqirun.github.io/papers/icse18_chengnian.pdf
+- ReduKtor: How We Stopped Worrying About Bugs in Kotlin Compiler
+	- Automated Software Engineering (ASE) 2019
+	- Daniil Stepanov, Marat Akhin, Mikhail Belyaev
+	- https://arxiv.org/abs/1909.07331
+- Test-Case Reduction for C Compiler Bugs
+	- PLDI 2012
+	- John Regehr, Yang Chen, Pascal Cuoq, Eric Eide, Chucky Ellison, Xuejun Yang
+	- https://www.cs.utah.edu/~regehr/papers/pldi12-preprint.pdf
+
+#### Testing: Readings: Reduction: LLVM
+
+- How to reduce a test case using LLVM bugpoint?
+	- 2020; Djordje Todorovic
+	- https://djolertrk.github.io/llvm-debug-info-blog/
+- LLVM bugpoint
+	- LLVM bugpoint tool: design and usage
+		- https://llvm.org/docs/Bugpoint.html
+	- Reduce Your Testcases with Bugpoint and Custom Scripts
+		- http://blog.llvm.org/2015/11/reduce-your-testcases-with-bugpoint-and.html
+- LLVM-Reduce for testcase reduction
+	- 2019 LLVM Developers’ Meeting; Diego Trevino Ferrer
+	- https://www.youtube.com/watch?v=n1jDj7J9N8c
+
+## Testing: Software
+
 - Csmith, a random generator of C programs
 	- https://github.com/csmith-project/csmith
 	- https://embed.cs.utah.edu/csmith/
 	- Csmith testing - http://blog.frama-c.com/index.php?pages/Csmith-testing
-- C-Reduce, a C program reducer
-	- https://embed.cs.utah.edu/creduce/
-	- https://github.com/csmith-project/creduce
-	- https://github.com/zjturner/creduce-windows
-	- Design and Evolution of C-Reduce
-		- Part 1: https://blog.regehr.org/archives/1678
-		- Part 2: https://blog.regehr.org/archives/1679
 - Fuzzing LLVM libraries and tools - https://llvm.org/docs/FuzzingLLVM.html
 	- Adventures in Fuzzing Instruction Selection
 		- 2017 EuroLLVM Developers’ Meeting; Justin Bogner
@@ -449,8 +465,6 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- Using LLVM LIT Out-Of-Tree
 		- https://medium.com/@mshockwave/using-llvm-lit-out-of-tree-5cddada85a78
 - llvm-mutate – mutate LLVM IR - http://eschulte.github.io/llvm-mutate/
-- opt-fuzz: a simple implementation of bounded exhaustive testing for LLVM programs
-	- https://github.com/regehr/opt-fuzz
 - Orange3
 	- a tool to test C compilers with randomly generated programs; mainly targets arithmetic optimization such as constant folding.
 	- https://ist.ksc.kwansei.ac.jp/~ishiura/pub/orange3/
@@ -470,7 +484,25 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- specifically designed to trigger compiler optimization bugs and is intended for compiler testing
 	- https://github.com/intel/yarpgen
 
-## Talks
+### Testing: Software: Performance Optimization
+
+- CF3: Test suite for arithmetic optimization of C compilers
+	- https://ist.ksc.kwansei.ac.jp/~ishiura/pub/CF3/
+	- https://github.com/ishiura-compiler/CF3
+- opt-fuzz: a simple implementation of bounded exhaustive testing for LLVM programs
+	- https://github.com/regehr/opt-fuzz
+
+### Testing: Software: Reduction
+
+- C-Reduce, a C program reducer
+	- https://embed.cs.utah.edu/creduce/
+	- https://github.com/csmith-project/creduce
+	- https://github.com/zjturner/creduce-windows
+	- Design and Evolution of C-Reduce
+		- Part 1: https://blog.regehr.org/archives/1678
+		- Part 2: https://blog.regehr.org/archives/1679
+
+## Testing: Talks
 
 - A Year of Experience with Broad Based Continuous Testing with GCC
 	- GNU Tools Cauldron 2019; Jeff Law
