@@ -84,7 +84,12 @@
 	- http://mdf356.blogspot.com/2015/06/the-difficulty-of-lock-free-programming.html
 - The x86 Memory Model
 	- http://www.msully.net/blog/2015/02/25/the-x86-memory-model/
+- Travis Downs
+	- A Concurrency Cost Hierarchy
+		- https://travisdowns.github.io/blog/2020/07/06/concurrency-costs.html
+		- https://github.com/travisdowns/concurrency-hierarchy-bench
 - Trip Report: Ad-Hoc Meeting on Threads in C++
+	- 2006; Eric Niebler
 	- http://www.artima.com/cppsource/threads_meeting.html
 
 ## Dissertations
