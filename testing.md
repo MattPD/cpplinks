@@ -144,6 +144,13 @@ See also:
 
 # Research
 
+## Research: Optimization
+
+- Software Testing - Test Suite Compilation and Execution Optimizations
+	- 2020 PhD Dissertation
+	- Panagiotis Stratis
+	- https://hdl.handle.net/1842/37110
+
 ## Research: 2010s
 
 - Assertions Are Strongly Correlated with Test Suite Effectiveness
