@@ -68,6 +68,10 @@
 	- BabelStream: STREAM, for lots of devices written in many programming models
 		- https://github.com/UoB-HPC/BabelStream
 		- http://uob-hpc.github.io/BabelStream/
+- TheBandwidthBenchmark
+	- https://github.com/RRZE-HPC/TheBandwidthBenchmark
+	- https://hpc-wiki.info/hpc/Micro_benchmarking#The_Bandwidth_Benchmark
+	- a collection of simple streaming kernels; apart from the micro-benchmark functionality also a blueprint for other micro-benchmark applications; contains C modules for: aligned data allocation, query and control affinity settings, accurate timing
 - tinymembench: simple benchmark for memory throughput and latency
 	- https://github.com/ssvb/tinymembench
 
