@@ -689,7 +689,7 @@ See also: [Computer Architecture](comparch.md)
 - Exploring Branch Predictors for Constructing Transient Execution Trojans
 	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2020
 	- Tao Zhang, Kenneth Koltermann, Dmitry Evtyushkin
-	- http://www.cs.wm.edu/~dmitry/publications/
+	- http://www.cs.wm.edu/~dmitry/assets/files/zhang2020exploring.pdf
 	- https://www.youtube.com/watch?v=OLQshI-1KBc 
 - Jump Over ASLR: Attacking Branch Predictors to Bypass ASLR
 	- MICRO 2016
@@ -1107,9 +1107,11 @@ See also: [Computer Architecture](comparch.md)
 	- Intel LazyFP vulnerability: Exploiting lazy FPU state switching
 		- http://blog.cyberus-technology.de/posts/2018-06-06-intel-lazyfp-vulnerability.html
 - On Subnormal Floating Point and Abnormal Timing
+	- IEEE Security and Privacy (“Oakland”) 2015
+	- Marc Andrysco, David Kohlbrenner Keaton Mowery, Ranjit Jhala, Sorin Lerner, Hovav Shacham
 	- http://www.ieee-security.org/TC/SP2015/papers-archived/6949a623.pdf
 	- https://cseweb.ucsd.edu/~dkohlbre/papers/subnormal.pdf
-	- http://cseweb.ucsd.edu/~hovav/papers/akmjls15.html
+	- https://hovav.net/ucsd/papers/akmjls15.html
 	- https://github.com/kmowery/libfixedtimefixedpoint
 
 ---
@@ -1675,6 +1677,13 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 			- https://www.youtube.com/watch?v=vJfXu9Q_DmI
 		- Escaping the Chrome Sandbox with RIDL
 			- https://googleprojectzero.blogspot.com/2020/02/escaping-chrome-sandbox-with-ridl.html
+		- CrossTalk: Speculative Data Leaks Across Cores Are Real
+			- IEEE Symposium on Security & Privacy (S&P) 2021
+			- Ragab, H.; Milburn, A.; Razavi, K.; Bos, H.; Giuffrida, C.
+			- https://www.vusec.net/projects/crosstalk/
+			- https://github.com/vusec/ridl
+			- Special Register Buffer Data Sampling - https://software.intel.com/security-software-guidance/insights/deep-dive-special-register-buffer-data-sampling
+			- SRBDS (CVE-2020-0543) - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0543
 	- ZombieLoad: Cross-Privilege-Boundary Data Sampling
 		- Computer and Communications Security (CCS) 2019
 		- Michael Schwarz, Moritz Lipp, Daniel Moghimi, Jo Van Bulck, Julian Stecklina, Thomas Prescher, Daniel Gruss
