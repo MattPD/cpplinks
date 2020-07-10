@@ -613,16 +613,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * 8 gdb tricks you should know - https://blogs.oracle.com/ksplice/8-gdb-tricks-you-should-know
 * Beej's Quick Guide to GDB - https://beej.us/guide/bggdb/
 * Cheatsheet - https://github.com/jshaw87/Cheatsheets/blob/master/Cheatsheet_GDB.txt
-* Displaying Stack Frames in gdb with Python - http://jefftrull.github.io/c++/gdb/python/2018/03/02/print-frame.html
 * Fast Tracing with GDB - https://suchakra.wordpress.com/2016/06/29/fast-tracing-with-gdb/
 * GDB Basics Tutorial
 	- https://platform.avatao.com/paths/a0dc20fc-f1b5-43c9-89fc-3a5fccfb5f0b/challenges/166366b3-2e89-49ee-86a3-023663d197b7
-* GDB Custom Commands: Dynamic Arrays
-	- https://testfit.io/devblog/gdb_custom_commands_dynamic_arrays
-* GDB Debugging Automation with Python: Implementing a memory leak detector - https://nativecoding.wordpress.com/2016/07/31/gdb-debugging-automation-with-python/
 * gdb Debugging Full Example (Tutorial): ncurses - http://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html
-* GDB scripting and Indirect functions
-	- https://fasterthanli.me/blog/2020/gdb-scripting-and-indirect-functions/
 * GDB Tips and Tricks - Shane Kirk
 	+ 1: A Tale of Two Terminals - http://www.shanekirk.com/2017/08/gdb-tips-and-tricks-1-a-tale-of-two-terminals/
 	+ 2: Setting Breakpoints with Regular Expressions - http://www.shanekirk.com/2017/08/gdb-tips-and-tricks-2-setting-breakpoints-with-regular-expressions/
@@ -640,19 +634,12 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * Howto: GDB Remote Serial Protocol
 	- https://www.embecosm.com/appnotes/ean4/embecosm-howto-rsp-server-ean4-issue-2.html
 * Introduction to Debuggers - Saumil Shah - http://www.slideshare.net/saumilshah/introduction-to-debuggers
-* Jeff Trull
-	+ Displaying Stack Frames in gdb with Python - http://jefftrull.github.io/c++/gdb/python/2018/03/02/print-frame.html
-	+ Improving C++ backtraces with the gdb Python API - http://jefftrull.github.io/c++/gdb/python/2018/04/24/improved-backtrace.html
-	+ Skipping library code in gdb with help from libClang - http://jefftrull.github.io/c++/gdb/python/libclang/llvm/2018/04/30/stepping-with-libclang.html
 * Julia Evans
 	+ Three steps to learning GDB - https://jvns.ca/blog/2014/02/10/three-steps-to-learning-gdb/
 	+ How does gdb work? - https://jvns.ca/blog/2016/08/10/how-does-gdb-work/
 	+ How does gdb call functions? - https://jvns.ca/blog/2018/01/04/how-does-gdb-call-functions/
 * Notes on GDB - https://publicclu2.blogspot.com/2013/05/notes-on-gdb.html
-* Object Inspection in GDB - https://hgad.net/posts/object-inspection-in-gdb/
 * Process Injection with GDB - https://magisterquis.github.io/2018/03/11/process-injection-with-gdb.html
-* Python Interpreter in GNU Debugger
-	- https://www.pythonsheets.com/appendix/python-gdb.html
 * RevEngE is a dish served cold: Debug-Oriented Malware Decompilation and Reassembly
 	- Reversing and Offensive-oriented Trends Symposium (ROOTS) 2019
 	- Marcus Botacin, Lucas Galante, Paulo de Geus, André Grégio
@@ -661,8 +648,28 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- RevEngE: Reverse Engineering Engine
 		- Explore debugging extensions and malware decompilation capabilities based on dynamic GDB debugging sessions.
 		- https://github.com/marcusbotacin/Reverse.Engineering.Engine
-* Skipping standard C++ library during debug session in gdb - https://xaizek.github.io/2016-05-26/skipping-standard-library-in-gdb/
 * Victor Stinner's Notes - GDB: GNU debugger - http://vstinner.readthedocs.io/gdb.html
+
+#### Readings: Python API
+
+- GDB Custom Commands: Dynamic Arrays
+	- https://testfit.io/devblog/gdb_custom_commands_dynamic_arrays
+- GDB Debugging Automation with Python: Implementing a memory leak detector
+	- https://nativecoding.wordpress.com/2016/07/31/gdb-debugging-automation-with-python/
+- GDB Scripting and Indirect Functions
+	- https://fasterthanli.me/blog/2020/gdb-scripting-and-indirect-functions/
+- Jeff Trull
+	- Displaying Stack Frames in gdb with Python - http://jefftrull.github.io/c++/gdb/python/2018/03/02/print-frame.html
+	- Improving C++ backtraces with the gdb Python API - http://jefftrull.github.io/c++/gdb/python/2018/04/24/improved-backtrace.html
+	- Skipping library code in gdb with help from libClang - http://jefftrull.github.io/c++/gdb/python/libclang/llvm/2018/04/30/stepping-with-libclang.html
+- Object Inspection in GDB
+	- https://hgad.net/posts/object-inspection-in-gdb/
+- Python Interpreter in GNU Debugger
+	- https://www.pythonsheets.com/appendix/python-gdb.html
+- Skipping standard C++ library during debug session in gdb
+	- https://xaizek.github.io/2016-05-26/skipping-standard-library-in-gdb/
+- The GDB Python API
+	- https://developers.redhat.com/blog/2017/11/10/gdb-python-api/
 
 ### Talks
 
