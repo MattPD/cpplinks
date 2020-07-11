@@ -225,8 +225,14 @@
 	- part 3 - deep dive into ctypes implementation in CPython
 		- http://yizhang82.me/python-interop-inside-ctypes
 		- https://blogs.msdn.microsoft.com/yizhang/2018/02/02/calling-c-functions-from-python-part-3-deep-dive-into-ctypes-implementation-in-cpython/
-- cppyy: Automatic Python-C++ bindings
+- cppyy: Python-C++ bindings interface based on Cling/LLVM
+	- https://bitbucket.org/wlav/cppyy
 	- https://cppyy.readthedocs.io/
+	- High-performance Python-C++ bindings with PyPy and Cling
+		- PyHPC 2016
+		- Wim T. L. P. Lavrijsen, Aditi Dutta
+		- https://dl.acm.org/doi/10.5555/3019083.3019087
+		- http://wlav.web.cern.ch/wlav/Cppyy_LavrijsenDutta_PyHPC16.pdf
 - Cython: Static Typing and C/C++ Interfacing in (C)Python
 	- StockholmCpp; October 24, 2019; Arda Aytekin
 	- https://www.youtube.com/watch?v=0R3fw7h64MY
