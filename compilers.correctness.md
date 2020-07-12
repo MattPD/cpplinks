@@ -1,6 +1,9 @@
 # [C++ links](README.md): compilers - correctness
 
-See also: [compilers](compilers.md)
+See also:
+
+- [Compilers](compilers.md)
+- [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.md): [Implementation](https://github.com/MattPD/cpplinks/blob/master/debugging.md#implementation): [Correctness](https://github.com/MattPD/cpplinks/blob/master/debugging.md#correctness)
 
 # Contents
 
@@ -63,11 +66,9 @@ See also: [compilers](compilers.md)
 
 ## Debugging
 
-See also:
+Debugging of compilers bugs
 
-- Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing"](https://software-lab.org/publications/csur2019_compiler_testing.pdf)
-- [Compilers Correctness](https://github.com/MattPD/cpplinks/blob/master/compilers.correctness.md): [Testing](https://github.com/MattPD/cpplinks/blob/master/compilers.correctness.md#testing): [Reduction](https://github.com/MattPD/cpplinks/blob/master/compilers.correctness.md#testing-readings-reduction):
-- [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.md): [Readings](https://github.com/MattPD/cpplinks/blob/master/debugging.md#readings): Delta Debugging
+See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing"](https://software-lab.org/publications/csur2019_compiler_testing.pdf); [Compilers Correctness](https://github.com/MattPD/cpplinks/blob/master/compilers.correctness.md): [Testing](https://github.com/MattPD/cpplinks/blob/master/compilers.correctness.md#testing): [Reduction](https://github.com/MattPD/cpplinks/blob/master/compilers.correctness.md#testing-readings-reduction); [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.md): [Readings](https://github.com/MattPD/cpplinks/blob/master/debugging.md#readings): Delta Debugging
 
 - Automatic Isolation of Compiler Errors
 	- ACM Transactions on Programming Languages and Systems (TOPLAS) 16(5) 1994
@@ -414,14 +415,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 #### Testing: Readings: Reduction: LLVM
 
-- How to reduce a test case using LLVM bugpoint?
-	- 2020; Djordje Todorovic
-	- https://djolertrk.github.io/llvm-debug-info-blog/
 - LLVM bugpoint
 	- LLVM bugpoint tool: design and usage
 		- https://llvm.org/docs/Bugpoint.html
 	- Reduce Your Testcases with Bugpoint and Custom Scripts
 		- http://blog.llvm.org/2015/11/reduce-your-testcases-with-bugpoint-and.html
+	- How to reduce a test case using LLVM bugpoint?
+		- 2020; Djordje Todorovic
+		- https://djolertrk.github.io/llvm-debug-info-blog/
 - LLVM-Reduce for testcase reduction
 	- 2019 LLVM Developers’ Meeting; Diego Trevino Ferrer
 	- https://www.youtube.com/watch?v=n1jDj7J9N8c
@@ -479,6 +480,9 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://github.com/vegard/prog-fuzz
 - Quest: A tool for testing C compilers - https://github.com/lindig/quest
 - shader-compiler-bugs: A collection of shader compiler bugs - https://github.com/mc-imperial/shader-compiler-bugs
+- Xsmith: a library and DSL for creating random program generators
+	- https://www.flux.utah.edu/project/xsmith
+	- https://gitlab.flux.utah.edu/xsmith/xsmith
 - yarpgen: Yet Another Random Program Generator
 	- a random C/C++ program generator, which produces correct runnable C/C++ programs
 	- specifically designed to trigger compiler optimization bugs and is intended for compiler testing
@@ -666,6 +670,7 @@ Validation: Including translation validation, equivalence checking.
 		- https://github.com/Microsoft/AliveInLean
 - Alive2: Automatic verification of LLVM optimizations
 	- https://github.com/AliveToolkit/alive2
+	- https://alive2.llvm.org/
 	- Alive2: Verifying Existing Optimizations
 		- 2019 LLVM Developers’ Meeting; Nuno Lopes, John Regehr
 		- https://www.youtube.com/watch?v=paJhdBp_iA4
