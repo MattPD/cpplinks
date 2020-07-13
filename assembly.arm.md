@@ -465,8 +465,12 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 ### TrustZone
 
 - A Deep Dive Into Samsung's TrustZone
-	- Part 1: https://blog.quarkslab.com/a-deep-dive-into-samsungs-trustzone-part-1.html
-	- Part 2: https://blog.quarkslab.com/a-deep-dive-into-samsungs-trustzone-part-2.html
+	- Part 1: Detailed overview of Samsung's TrustZone components
+		- https://blog.quarkslab.com/a-deep-dive-into-samsungs-trustzone-part-1.html
+	- Part 2: Tools development for reverse-engineering and vulnerability research
+		- https://blog.quarkslab.com/a-deep-dive-into-samsungs-trustzone-part-2.html
+	- Part 3: Vulnerability exploitation to reach code execution in EL3 on a Samsung device
+		- https://blog.quarkslab.com/a-deep-dive-into-samsungs-trustzone-part-3.html
 - Attacking the ARM's TrustZone
 	- https://blog.quarkslab.com/attacking-the-arms-trustzone.html
 - Azeria Labs
@@ -481,8 +485,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- https://www.blackhat.com/us-19/briefings/schedule/#breaking-samsungs-arm-trustzone-14932
 	- https://www.youtube.com/watch?v=uXH5LJGRwXI
 - Cachegrab: a tool designed to help perform and visualize trace-driven cache attacks against software in the secure world of TrustZone-enabled ARMv8 cores
-	+ https://github.com/nccgroup/cachegrab
-	+ https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/december/34C3-Tool-Release-Cachegrab/
+	- https://github.com/nccgroup/cachegrab
+	- https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/december/34C3-Tool-Release-Cachegrab/
 - Demystifying Arm TrustZone: A Comprehensive Survey
 	- ACM Computing Surveys 51(6) 2019
 	- Sandro Pinto and Nuno Santos
@@ -504,10 +508,14 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- USENIX Security 2020
 	- Lee Harrison, Hayawardh Vjayakumar, Rohan Padhye, Koushik Sen, Michael Grace
 	- https://people.eecs.berkeley.edu/~rohanpadhye/files/partemu-usenixsec20.pdf
+- Running Trusted Firmware-A on gem5
+	- https://community.arm.com/developer/research/b/articles/posts/running-trusted-firmware-a-on-gem5
 - SoK: Understanding the Prevailing Security Vulnerabilities in TrustZone-assisted TEE Systems
 	- IEEE Symposium on Security and Privacy (S&P) 2020
 	- David Cerdeira, Nuno Santos, Pedro Fonseca, Sandro Pinto
 	- https://www.cs.purdue.edu/homes/pfonseca/papers/sp2020-tees.pdf
+- TEE-reversing: A curated list of public TEE resources for learning how to reverse-engineer and achieve trusted code execution on ARM devices
+	- https://github.com/enovella/TEE-reversing
 - Verification of a Practical Hardware Security Architecture Through Static Information Flow Analysis (ARM TrustZone)
 	- ASPLOS 2017
 	- Andrew Ferraiuolo, Rui Xu, Danfeng Zhang, Andrew C. Myers, G. Edward Suh
