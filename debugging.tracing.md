@@ -444,6 +444,12 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- https://github.com/immunityinc/libptrace
 - MemTrace: Memory Tracing Software
 	- https://github.com/deplinenoise/ig-memtrace
+- NtTrace: An strace-like program for the Windows 'native' API
+	- https://rogerorr.github.io/NtTrace/
+	- https://github.com/rogerorr/NtTrace
+- StraceNT - A System Call Tracer for Windows 
+	- https://intellectualheaven.com/default.asp?BH=StraceNT
+	- https://github.com/ipankajg/stracent
 - tiny_tracer: A Pin Tool for tracing API calls and transition between sections of the traced module 
 	- https://github.com/hasherezade/tiny_tracer
 	- Tracing executables with a Pin Tool (tiny_tracer) - https://www.youtube.com/watch?v=kurzaoWuSHA
