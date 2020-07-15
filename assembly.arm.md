@@ -321,6 +321,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Sudoku, registers and rabbits (2/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-sudoku-registers-and-rabbits
 	- Going around in circles (3/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-going-around-in-circles
 	- Bringing Amdahl's law to heel (4/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-bringing-amdahl-s-law-to-heel
+- Profiling Firmware on Cortex-M
+	- https://interrupt.memfault.com/blog/profiling-firmware-on-cortex-m
 
 ## Performance
 
