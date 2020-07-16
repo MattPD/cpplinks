@@ -195,6 +195,11 @@ See also:
 
 - Debugging Dyld
 	- https://lowlevelbits.org/debugging-dyld/
+- dyld: Dynamic Linking On OS X
+	- Friday Q&A 2012-11-09
+	- https://www.mikeash.com/pyblog/friday-qa-2012-11-09-dyld-dynamic-linking-on-os-x.html
+- Dynamic Library Programming Topics
+	- https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/DynamicLibraries
 
 ### Linux
 
