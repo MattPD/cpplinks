@@ -261,6 +261,9 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- http://ltrace.org/
 	- https://gitlab.com/cespedes/ltrace
 	- How does ltrace work? - https://blog.packagecloud.io/eng/2016/03/14/how-does-ltrace-work/
+- ProcMon-for-Linux: Process Monitor for Linux
+	- Process Monitor (Procmon) is a Linux reimagining of the classic Procmon tool from the Sysinternals suite of tools for Windows. Procmon provides a convenient and efficient way for Linux developers to trace the syscall activity on the system.
+	- https://github.com/microsoft/ProcMon-for-Linux
 - StackTrack — Linux Call graph visualization and execution tracking
 	- https://stacktrack.github.io/
 - uftrace: Function (graph) tracer for user-space
