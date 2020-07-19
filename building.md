@@ -185,6 +185,11 @@ See also:
 		- https://www.usenix.org/system/files/login/articles/login_fall19_02_fouladi.pdf
 	- gg: The Stanford Builder
 		- https://github.com/stanfordsnr/gg
+- Scalable Build Service System with Smart Scheduling Service
+	- International Symposium on Software Testing and Analysis (ISSTA) 2020
+	- Kaiyuan Wang, Greg Tener, Vijay Gullapalli, Xin Huang, Ahmed Gad, Daniel Rall
+	- https://kaiyuanw.github.io/papers/paper24-issta20.pdf
+	- https://conf.researchr.org/details/issta-2020/issta-2020-papers/6/Scalable-Build-Service-System-with-Smart-Scheduling-Service
 
 ## Incremental Building
 
