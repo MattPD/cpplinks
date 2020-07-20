@@ -106,6 +106,12 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 # Courses
 
+- KAIST CS420: Compiler Design
+	- Spring 2020; Jeehoon Kang
+		- https://github.com/kaist-cp/cs420
+		- https://www.youtube.com/playlist?list=PL5aMzERQ_OZ8RWqn-XiZLXm1IJuaQbXp0
+	- KECC: KAIST Educational C Compiler
+		- https://github.com/kaist-cp/cs420
 - Stanford OpenEdX: Compilers - Alex Aiken
 	- http://online.stanford.edu/course/compilers-0
 - University of Utah: Advanced Compilers - John Regehr
