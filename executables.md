@@ -48,6 +48,9 @@ Contents:
 ## General: Software
 
 * Backdoor Factory (BDF): patch PE, ELF, Mach-O binaries with shellcode - https://github.com/secretsquirrel/the-backdoor-factory
+* Binary2Groundtruth: Generates a ground truth map of a binary with the help of debug symbols
+	- Supports PE and ELF binaries.
+	- https://github.com/LL-MM/approxis-groundtruth
 * bingrep: Greps through binaries from various OSs and architectures, and colors them (ELF, Mach-O, PE)
 	+ https://github.com/m4b/bingrep
 * Bloaty McBloatface: a size profiler for binaries (ELF, Mach-O) - https://github.com/google/bloaty
@@ -79,7 +82,8 @@ Contents:
 	+ https://github.com/sashs/filebytes/
 * Fileformat: A set of libraries and tools for representation, manipulation, and analysis of binary files in various object file formats
 	+ COFF, ELF, Intel HEX, Mach-O, PE, raw data
-	+ https://github.com/avast-tl/fileformat
+	- https://github.com/avast/retdec/tree/master/src/fileformat
+	- https://github.com/avast/retdec/wiki/Project-Repository-Structure
 * FunctionSimSearch
 	+ Example C++ code to demonstrate how to do SimHash-based similarity search over CFGs extracted from disassemblies
 	+ https://github.com/googleprojectzero/functionsimsearch
