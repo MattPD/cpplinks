@@ -256,8 +256,15 @@ See also:
 		- https://binarydodo.wordpress.com/2016/05/12/symbol-binding-types-in-elf-and-their-effect-on-linking-of-relocatable-files/
 	- Symbol resolution during link-editing
 		- https://binarydodo.wordpress.com/2016/07/01/symbol-resolution-during-link-editing/
-- ELF Binaries and Relocation Entries - Stafford Horne
-	- http://stffrdhrn.github.io/hardware/embedded/openrisc/2019/11/29/relocs.html
+- ELF Binary Relocations and Thread Local Storage - Stafford Horne
+	- TLS Examples
+		- https://github.com/stffrdhrn/tls-examples
+	- ELF Binaries and Relocation Entries
+		- http://stffrdhrn.github.io/hardware/embedded/openrisc/2019/11/29/relocs.html
+	- Thread Local Storage
+		- https://stffrdhrn.github.io/hardware/embedded/openrisc/2020/01/19/tls.html
+	- How Relocations and Thread Local Storage are Implemented
+		- https://stffrdhrn.github.io/software/toolchain/openrisc/2020/07/21/relocs_tls_impl.html
 - [Executable and Linkable Format 101](https://intezer.com/tag/elf/) - Ignacio Sanmillan
 	- Part 3: Relocations - https://www.intezer.com/executable-and-linkable-format-101-part-3-relocations/
 - GOT and PLT
