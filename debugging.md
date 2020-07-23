@@ -610,37 +610,39 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ### Readings
 
-* 8 gdb tricks you should know - https://blogs.oracle.com/ksplice/8-gdb-tricks-you-should-know
-* Beej's Quick Guide to GDB - https://beej.us/guide/bggdb/
-* Cheatsheet - https://github.com/jshaw87/Cheatsheets/blob/master/Cheatsheet_GDB.txt
-* Fast Tracing with GDB - https://suchakra.wordpress.com/2016/06/29/fast-tracing-with-gdb/
-* GDB Basics Tutorial
+- 8 gdb tricks you should know - https://blogs.oracle.com/ksplice/8-gdb-tricks-you-should-know
+- Beej's Quick Guide to GDB - https://beej.us/guide/bggdb/
+- Cheatsheet - https://github.com/jshaw87/Cheatsheets/blob/master/Cheatsheet_GDB.txt
+- Extending gdbserver to support an strace client
+	- https://developers.redhat.com/blog/2020/03/16/extending-gdbserver-to-support-an-strace-client/
+- Fast Tracing with GDB - https://suchakra.wordpress.com/2016/06/29/fast-tracing-with-gdb/
+- GDB Basics Tutorial
 	- https://platform.avatao.com/paths/a0dc20fc-f1b5-43c9-89fc-3a5fccfb5f0b/challenges/166366b3-2e89-49ee-86a3-023663d197b7
-* gdb Debugging Full Example (Tutorial): ncurses - http://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html
-* GDB Tips and Tricks - Shane Kirk
-	+ 1: A Tale of Two Terminals - http://www.shanekirk.com/2017/08/gdb-tips-and-tricks-1-a-tale-of-two-terminals/
-	+ 2: Setting Breakpoints with Regular Expressions - http://www.shanekirk.com/2017/08/gdb-tips-and-tricks-2-setting-breakpoints-with-regular-expressions/
-	+ 3: Saving and Restoring Breakpoints Using Files - http://www.shanekirk.com/2017/09/gdb-tips-and-tricks-3-saving-and-restoring-breakpoints-using-files/
-	+ 4: Reverse Debugging - http://www.shanekirk.com/2017/10/gdb-tips-and-tricks-4-reverse-debugging/
-	+ 5: The Display Command - http://www.shanekirk.com/2017/12/gdb-tips-and-tricks-5-the-display-command/
-	+ 6: Examining Data Types - http://www.shanekirk.com/2018/02/gdb-tips-and-tricks-6-examining-data-types/
-* GDB Tutorial - https://www.gdb-tutorial.net/
-* GDB Wiki - https://sourceware.org/gdb/wiki/
-* gdbWatchPoint: GDB tips & tricks
+- gdb Debugging Full Example (Tutorial): ncurses - http://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html
+- GDB Tips and Tricks - Shane Kirk
+	- 1: A Tale of Two Terminals - http://www.shanekirk.com/2017/08/gdb-tips-and-tricks-1-a-tale-of-two-terminals/
+	- 2: Setting Breakpoints with Regular Expressions - http://www.shanekirk.com/2017/08/gdb-tips-and-tricks-2-setting-breakpoints-with-regular-expressions/
+	- 3: Saving and Restoring Breakpoints Using Files - http://www.shanekirk.com/2017/09/gdb-tips-and-tricks-3-saving-and-restoring-breakpoints-using-files/
+	- 4: Reverse Debugging - http://www.shanekirk.com/2017/10/gdb-tips-and-tricks-4-reverse-debugging/
+	- 5: The Display Command - http://www.shanekirk.com/2017/12/gdb-tips-and-tricks-5-the-display-command/
+	- 6: Examining Data Types - http://www.shanekirk.com/2018/02/gdb-tips-and-tricks-6-examining-data-types/
+- GDB Tutorial - https://www.gdb-tutorial.net/
+- GDB Wiki - https://sourceware.org/gdb/wiki/
+- gdbWatchPoint: GDB tips & tricks
 	- https://undo.io/resources/gdb-watchpoint/
 	- https://www.youtube.com/playlist?list=PLrADU7tRzDD4xHv_zVoLKYg9mXYjXGhjG
-* Hitchikers Guide To The GDB - http://apoorvaj.io/hitchhikers-guide-to-the-gdb.html
-* How to point GDB to your sources - https://alex.dzyoba.com/blog/gdb-source-path/
-* Howto: GDB Remote Serial Protocol
+- Hitchikers Guide To The GDB - http://apoorvaj.io/hitchhikers-guide-to-the-gdb.html
+- How to point GDB to your sources - https://alex.dzyoba.com/blog/gdb-source-path/
+- Howto: GDB Remote Serial Protocol
 	- https://www.embecosm.com/appnotes/ean4/embecosm-howto-rsp-server-ean4-issue-2.html
-* Introduction to Debuggers - Saumil Shah - http://www.slideshare.net/saumilshah/introduction-to-debuggers
-* Julia Evans
-	+ Three steps to learning GDB - https://jvns.ca/blog/2014/02/10/three-steps-to-learning-gdb/
-	+ How does gdb work? - https://jvns.ca/blog/2016/08/10/how-does-gdb-work/
-	+ How does gdb call functions? - https://jvns.ca/blog/2018/01/04/how-does-gdb-call-functions/
-* Notes on GDB - https://publicclu2.blogspot.com/2013/05/notes-on-gdb.html
-* Process Injection with GDB - https://magisterquis.github.io/2018/03/11/process-injection-with-gdb.html
-* RevEngE is a dish served cold: Debug-Oriented Malware Decompilation and Reassembly
+- Introduction to Debuggers - Saumil Shah - http://www.slideshare.net/saumilshah/introduction-to-debuggers
+- Julia Evans
+	- Three steps to learning GDB - https://jvns.ca/blog/2014/02/10/three-steps-to-learning-gdb/
+	- How does gdb work? - https://jvns.ca/blog/2016/08/10/how-does-gdb-work/
+	- How does gdb call functions? - https://jvns.ca/blog/2018/01/04/how-does-gdb-call-functions/
+- Notes on GDB - https://publicclu2.blogspot.com/2013/05/notes-on-gdb.html
+- Process Injection with GDB - https://magisterquis.github.io/2018/03/11/process-injection-with-gdb.html
+- RevEngE is a dish served cold: Debug-Oriented Malware Decompilation and Reassembly
 	- Reversing and Offensive-oriented Trends Symposium (ROOTS) 2019
 	- Marcus Botacin, Lucas Galante, Paulo de Geus, André Grégio
 	- https://lasca.ic.unicamp.br/paulo/papers/2019-ROOTS-marcus.botacin-lucas.galante-RevEngE.pdf
@@ -648,7 +650,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- RevEngE: Reverse Engineering Engine
 		- Explore debugging extensions and malware decompilation capabilities based on dynamic GDB debugging sessions.
 		- https://github.com/marcusbotacin/Reverse.Engineering.Engine
-* Victor Stinner's Notes - GDB: GNU debugger - http://vstinner.readthedocs.io/gdb.html
+- Victor Stinner's Notes - GDB: GNU debugger - http://vstinner.readthedocs.io/gdb.html
 
 #### Readings: Python API
 
