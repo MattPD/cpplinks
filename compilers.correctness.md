@@ -554,24 +554,17 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 Validation: Including translation validation, equivalence checking.
 
-- Black-Box Equivalence Checking Across Compiler Optimizations
-	- APLAS 2017
-	- Manjeet Dahiya, Sorav Bansal
-	- http://www.cse.iitd.ac.in/~sbansal/pubs/aplas17.pdf
-- Modeling undefined behaviour semantics for checking equivalence across compiler optimizations
-	- HVC 2017; Manjeet Dahiya, Sorav Bansal
-	- http://www.cse.iitd.ernet.in/~sbansal/pubs/hvc17.pdf
-	- http://www.cse.iitd.ac.in/~dahiya/hvc17.pdf
-- Evaluating value-graph translation validation for LLVM
-	- Programming and Language Design Implementation (PLDI) 2011
-	- Jean-Baptiste Tristan, Paul Govereau, Greg Morrisett
-	- https://dl.acm.org/citation.cfm?id=1993498.1993533
-- Formally Verified Compilation of Low-Level C code
-	- 2016 PhD Dissertation; Pierre Wilke
-	- https://tel.archives-ouvertes.fr/tel-01483676
-- Proving the correctness of heuristically optimized code
-	- CACM 1978; Hanan Samet
-	- http://www.cs.umd.edu/~hjs/pubs/compilers/proving-correctness.pdf
+## Validation: 2020
+
+- A Scalable Validation of Binary Lifters
+	- PLDI 2020
+	- Sandeep Dasgupta, & Vikram S. Adve
+	- https://sdasgup3.github.io/files/pldi_2020.pdf
+	- https://www.youtube.com/watch?v=veV6TuPsRYw
+	- https://pldi20.sigplan.org/details/pldi-2020-papers/4/Scalable-Validation-of-Binary-Lifters
+
+## Validation: 2019
+
 - Semantic Program Alignment for Equivalence Checking
 	- PLDI 2019
 	- Berkeley Churchill, Oded Padon, Rahul Sharma, Alex Aiken
@@ -580,6 +573,46 @@ Validation: Including translation validation, equivalence checking.
 	- https://pldi19.sigplan.org/details/pldi-2019-papers/14/Semantic-Program-Alignment-for-Equivalence-Checking
 	- Semantic Alignment Equivalence Checker
 		- https://github.com/bchurchill/pldi19-equivalence-checker
+
+## Validation: 2017
+
+- Black-Box Equivalence Checking Across Compiler Optimizations
+	- APLAS 2017
+	- Manjeet Dahiya, Sorav Bansal
+	- http://www.cse.iitd.ac.in/~sbansal/pubs/aplas17.pdf
+- Modeling undefined behaviour semantics for checking equivalence across compiler optimizations
+	- HVC 2017; Manjeet Dahiya, Sorav Bansal
+	- http://www.cse.iitd.ernet.in/~sbansal/pubs/hvc17.pdf
+	- http://www.cse.iitd.ac.in/~dahiya/hvc17.pdf
+- Translation Validation for Verified, Efficient and Timely Operating Systems
+	- 2017 PhD Dissertation; Thomas Sewell
+	- http://handle.unsw.edu.au/1959.4/58861
+	- https://ts.data61.csiro.au/publications/papers/Sewell:phd
+	- https://ts.data61.csiro.au/projects/TS/compiler-correctness.pml
+- Translation Validation of Bounded Exhaustive Test Cases
+	- 2017; Nuno Lopes, John Regehr
+	- https://blog.regehr.org/archives/1510
+	- Translation Validation with Alive - https://github.com/nunoplopes/alive/tree/newsema/tv
+
+## Validation: 2016
+
+- Formally Verified Compilation of Low-Level C code
+	- 2016 PhD Dissertation; Pierre Wilke
+	- https://tel.archives-ouvertes.fr/tel-01483676
+- Validating Optimizations of Concurrent C/C++ Programs
+	- CGO 2016
+	- Soham Chakraborty, Viktor Vafeiadis
+	- https://plv.mpi-sws.org/validc/paper.pdf
+
+## Validation: 2011-1978
+
+- Evaluating value-graph translation validation for LLVM
+	- Programming and Language Design Implementation (PLDI) 2011
+	- Jean-Baptiste Tristan, Paul Govereau, Greg Morrisett
+	- https://dl.acm.org/citation.cfm?id=1993498.1993533
+- Proving the correctness of heuristically optimized code
+	- CACM 1978; Hanan Samet
+	- http://www.cs.umd.edu/~hjs/pubs/compilers/proving-correctness.pdf
 - Translation validation
 	- TACAS 1998
 	- Amir Pnueli, Michael Siegel, Eli Singerman
@@ -600,19 +633,6 @@ Validation: Including translation validation, equivalence checking.
 	- PLDI 2000
 	- George C. Necula
 	- https://dl.acm.org/citation.cfm?id=349314
-- Translation Validation for Verified, Efficient and Timely Operating Systems
-	- 2017 PhD Dissertation; Thomas Sewell
-	- http://handle.unsw.edu.au/1959.4/58861
-	- https://ts.data61.csiro.au/publications/papers/Sewell:phd
-	- https://ts.data61.csiro.au/projects/TS/compiler-correctness.pml
-- Translation Validation of Bounded Exhaustive Test Cases
-	- 2017; Nuno Lopes, John Regehr
-	- https://blog.regehr.org/archives/1510
-	- Translation Validation with Alive - https://github.com/nunoplopes/alive/tree/newsema/tv
-- Validating Optimizations of Concurrent C/C++ Programs
-	- CGO 2016
-	- Soham Chakraborty, Viktor Vafeiadis
-	- https://plv.mpi-sws.org/validc/paper.pdf
 
 ---
 
