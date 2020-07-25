@@ -1418,6 +1418,10 @@ See also: [Computer Architecture](comparch.md)
 	- https://github.com/vusec/xlate
 	- https://www.vusec.net/projects/xlate/
 	- https://www.usenix.org/conference/usenixsecurity18/presentation/van-schaik
+- PThammer: Cross-User-Kernel-Boundary Rowhammer through Implicit Accesses
+	- International Symposium on Microarchitecture (MICRO) 2020
+	- Zhi Zhang, Yueqiang Cheng, Dongxi Liu, Surya Nepal, Zhi Wang, Yuval Yarom
+	- https://arxiv.org/abs/2007.08707
 - RevAnC: A Framework for Reverse Engineering Hardware Page Table Caches
 	- EuroSec 2017
 	- 2017 Technical Report: Reverse Engineering Hardware Page Table Caches Using Side-Channel Attacks on the MMU
