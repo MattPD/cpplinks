@@ -1056,25 +1056,40 @@ See also: [Performance Tools](performance.tools.md)
 
 ## History
 
-* ARM inventor: Sophie Wilson
-	+ ARM inventor (Part 1) - https://www.youtube.com/watch?v=jhwwrSaHdh8
-	+ The first ARM processor in the world with Sophie Wilson (Part 2) - https://www.youtube.com/watch?v=re5xAqgKqc0
-	+ ARM Instruction Set design history with Sophie Wilson (Part 3) - https://www.youtube.com/watch?v=QqxThgLTLyk
-* ARM microarchitect: Steve Furber
-	+ https://www.youtube.com/watch?v=_VYxIaw1kBU
-* ARM Processor Evolution
-	+ Keynote I, Hot Chips 23 (2011). Simon Segars, ARM 
-	+ https://www.youtube.com/watch?v=ht2cDH2kcW8
-* Clever solutions find inconvenient truths: A history of the ARM Architecture, and the lessons learned while building it
-	+ Cambridge Science Festival 2016
-	+ Richard Grisenthwaite, Lead Architect and Fellow, ARM
-	+ https://soundcloud.com/university-of-cambridge/a-history-of-the-arm-architecture-and-the-lessons-learned-while-building-it
-	+ https://sms.cam.ac.uk/media/2202336
-	+ https://player.fm/series/cambridge-science-festival-2016/a-history-of-the-arm-architecture-and-the-lessons-learned-while-building-it
-	+ Lessons from the ARM Architecture - Slides (2010): http://www.eit.lth.se/fileadmin/eit/courses/eitf20/ARM_RG.pdf
-* The Future of Microprocessors, Sophie Wilson
-	+ 2016 - Code Mesh - https://www.youtube.com/watch?v=_9mzmvhwMqw
-	+ 2014 - Wuthering Bytes - https://www.youtube.com/watch?v=b5j_Y-ML3dg
+- ARM inventor: Sophie Wilson
+	- 2015 Charbax
+	- ARM inventor (Part 1) - https://www.youtube.com/watch?v=jhwwrSaHdh8
+	- The first ARM processor in the world with Sophie Wilson (Part 2) - https://www.youtube.com/watch?v=re5xAqgKqc0
+	- ARM Instruction Set design history with Sophie Wilson (Part 3) - https://www.youtube.com/watch?v=QqxThgLTLyk
+- ARM microarchitect: Steve Furber
+	- 2016 Charbax
+	- https://www.youtube.com/watch?v=_VYxIaw1kBU
+- ARM Microprocessor Rise and Fall
+	- 2019 Talks at Google; Dave Jaggar
+	- https://www.youtube.com/watch?v=_6sh097Dk5k
+- ARM Processor Evolution
+	- Keynote I, Hot Chips 23 (2011); Simon Segars, ARM
+	- https://www.youtube.com/watch?v=ht2cDH2kcW8
+- ARM Processor - Sowing the Seeds of Success
+	- 2015 Computerphile; Steve Furber
+	- https://www.youtube.com/watch?v=1jOJl8gRPyQ
+- Clever solutions find inconvenient truths: A history of the ARM Architecture, and the lessons learned while building it
+	- Cambridge Science Festival 2016
+	- Richard Grisenthwaite, Lead Architect and Fellow, ARM
+	- https://soundcloud.com/university-of-cambridge/a-history-of-the-arm-architecture-and-the-lessons-learned-while-building-it
+	- https://sms.cam.ac.uk/media/2202336
+	- https://player.fm/series/cambridge-science-festival-2016/a-history-of-the-arm-architecture-and-the-lessons-learned-while-building-it
+	- Lessons from the ARM Architecture - Slides (2010): http://www.eit.lth.se/fileadmin/eit/courses/eitf20/ARM_RG.pdf
+- Historic ARM Presentation to Apple Computer (ARM 610 processor)
+	- 1992
+	- https://www.youtube.com/watch?v=ZV1NdS_w4As
+- The Future of Microprocessors, Sophie Wilson
+	- 2016 - Code Mesh - https://www.youtube.com/watch?v=_9mzmvhwMqw
+	- 2014 - Wuthering Bytes - https://www.youtube.com/watch?v=b5j_Y-ML3dg
+- The Ultimate Acorn Archimedes talk: Everything about the Archimedes computer (with zero 'Eureka!' jokes) 
+	- 36th Chaos Communication Congress (2019); Matt Evans
+	- https://media.ccc.de/v/36c3-10703-the_ultimate_acorn_archimedes_talk
+	- https://www.youtube.com/watch?v=Hf67JYkUCHQ
 
 ---
 
