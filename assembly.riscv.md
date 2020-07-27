@@ -107,6 +107,11 @@ https://riscv.org/risc-v-books/
 - Simulation of RISC-V based Systems in gem5
 	- 2018 Diploma Thesis (Dipl.-Ing.); Robert Schefel
 	- https://cfaed.tu-dresden.de/files/Images/people/chair-cc/theses/1808_Scheffel.pdf
+- Verifying Instruction Set Simulators using Coverage-guided Fuzzing
+	- Design, Automation & Test in Europe Conference & Exhibition (DATE) 2019
+	- Vladimir Herdt, Daniel Große, Hoang M. Le, Rolf Drechsler
+	- http://www.informatik.uni-bremen.de/agra/doc/konf/2019DATE_Verifying_Instruction_Set_Simulators_using_Coverage-guided_Fuzzing.pdf
+	- http://www.informatik.uni-bremen.de/agra/systemc-verification/riscv-vp.html
 
 ---
 
