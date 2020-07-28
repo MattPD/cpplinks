@@ -28,6 +28,18 @@
 	- https://github.com/DigitalInBlue/Celero
 - hayai: the C++ benchmarking framework
 	- https://github.com/nickbruun/hayai
+- HdrHistogram: A High Dynamic Range (HDR) Histogram
+	- https://hdrhistogram.github.io/HdrHistogram/
+	- https://github.com/HdrHistogram/HdrHistogram_c
+	- Understanding Latency and Response Time: Pitfalls and Key Lessons
+		- 2015; Gil Tene
+		- https://www.youtube.com/watch?v=G5UskyPG9_o
+		- https://www.azul.com/presentation/understanding-latency-and-response-time-behavior/
+	- How Not to Measure Latency
+		- 2013; Gil Tene
+		- https://www.youtube.com/watch?v=DxF077s081Q
+		- https://www.slideshare.net/howarddgreen/how-not-to-measure-latency-london-oct-2013
+		- https://www.azul.com/presentation/how-not-to-measure-latency/
 - moodycamel::microbench
 	- https://github.com/cameron314/microbench
 - geiger: A micro benchmark library in C++ that supports hardware performance counters
@@ -349,6 +361,10 @@
 - timemory: Timing + Memory + Hardware Counter Utilities for C / C++ / CUDA / Python
 	- Linux, macOS, Windows
 	- https://github.com/NERSC/timemory
+	- Timemory: Modular Performance Analysis for HPC
+		- ISC 2020
+		- Jonathan R. Madsen, Muaaz G. Awan, Hugo Brunie, Jack Deslippe, Rahulkumar Gayatri, Leonid Oliker, Yunsong Wang, Charlene Yang, Samuel Williams
+		- https://doi.org/10.1007/978-3-030-50743-5_22
 - Tracy Profiler
 	- Tracy is a real time, nanosecond resolution frame profiler that can be used for remote or embedded telemetry of your application. It can profile CPU (C++, Lua), GPU (OpenGL, Vulkan) and memory. It also can display locks held by threads and their interactions with each other.
 	- https://bitbucket.org/wolfpld/tracy
