@@ -14,6 +14,8 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 
 # Readings
 
+- A simple way to get more value from tracing
+	- https://danluu.com/tracing-analytics/
 - Debug your programs like they're closed source! (strace, ltrace)
 	- https://jvns.ca/blog/2014/04/20/debug-your-programs-like-theyre-closed-source/
 - Hidden in Plain Sight
