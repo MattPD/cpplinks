@@ -991,6 +991,9 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ Process Viewer, PE files Editor, Dumper, Rebuilder, Comparator, Analyzer
 	+ https://petoolse.github.io/petools/
 	+ https://github.com/petoolse/petools
+* PE Tree: Python module for viewing Portable Executable (PE) files in a tree-view using pefile and PyQt5.
+	- Can also be used with IDA Pro to dump in-memory PE files and reconstruct imports.
+	- https://github.com/blackberry/pe_tree
 * PE-bear - https://hshrzd.wordpress.com/pe-bear/
 * pe-parse - Principled, lightweight C/C++ PE parser - https://github.com/trailofbits/pe-parse 
 * PE-sieve: a small tool for investigating inline hooks (and other in-memory code patches) 
