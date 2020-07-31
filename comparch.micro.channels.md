@@ -1781,6 +1781,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Store-to-Leak Forwarding: There and Back Again
 		- Black Hat Asia 2020
 		- https://www.blackhat.com/asia-20/briefings/schedule/#store-to-leak-forwarding-there-and-back-again-18610
+- TagBleed: Breaking KASLR on the Isolated Kernel Address Space Using Tagged TLBs
+	- Euro S&P 2020
+	- Jakob Koschel, Cristiano Giuffrida, Herbert Bos, Kaveh Razavi
+	- https://download.vusec.net/papers/tagbleed_eurosp20.pdf
 - Translation Leak-aside Buffer: Defeating Cache Side-channel Protections with TLB Attacks
 	- Ben Gras, Kaveh Razavi, Herbert Bos, Cristiano Giuffrida
 	- https://www.vusec.net/projects/tlbleed/
