@@ -699,6 +699,8 @@ Validation: Including translation validation, equivalence checking.
 		- https://blog.regehr.org/archives/1722
 	- Alive2 Part 2: Tracking miscompilations in LLVM using its own unit tests
 		- https://blog.regehr.org/archives/1737
+	- Alive2 Part 3: Things You Can and Can’t Do with Undef in LLVM
+		- https://blog.regehr.org/archives/1837
 - An Abstract Stack Based Approach to Verified Compositional Compilation to Machine Code
 	- POPL 2019
 	- Yuting Wang, Pierre Wilke, Zhong Shao
