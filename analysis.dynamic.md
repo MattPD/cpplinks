@@ -328,6 +328,9 @@ https://www.researchgate.net/publication/280306016_Pinballs_Portable_and_Shareab
 		- Sanitizer special case list - https://clang.llvm.org/docs/SanitizerSpecialCaseList.html
 		- ThreadSanitizer - https://clang.llvm.org/docs/ThreadSanitizer.html
 		- UndefinedBehaviorSanitizer - https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html
+			- `-fsanitize=pointer-overflow`
+				- Pointer Overflow Checking is in LLVM - https://blog.regehr.org/archives/1518
+				- Catching pointer overflow bugs - https://wdtz.org/catching-pointer-overflow-bugs.html
 	- GCC
 		- https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html
 		- Address and Thread Sanitizers in GCC
