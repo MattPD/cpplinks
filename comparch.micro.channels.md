@@ -528,6 +528,31 @@ See also: [Computer Architecture](comparch.md)
 
 ## Defense - Speculation
 
+- Pitchfork: Detecting Spectre vulnerabilities using symbolic execution
+	- https://github.com/cdisselkoen/pitchfork
+
+### Defense - Speculation: 2020
+
+- ConTExT: A Generic Approach for Mitigating Spectre
+	- Network and Distributed Systems Security (NDSS) Symposium 2020
+	- Michael Schwarz, Moritz Lipp, Claudio Canella, Robert Schilling, Florian Kargl, Daniel Gruss
+	- https://misc0110.net/files/context.pdf
+- KLEESpectre: Detecting Information Leakage through Speculative Cache Attacks via Symbolic Execution
+	- ACM Transactions on Software Engineering and Methodology (TOSEM) 2020
+	- Guanhua Wang, Sudipta Chattopadhyay, Arnab Kumar Biswas, Tulika Mitra, Abhik Roychoudhury
+	- https://arxiv.org/abs/1909.00647
+	- https://github.com/winter2020/kleespectre
+- MuonTrap: Preventing Cross-Domain Spectre-Like Attacks by Capturing Speculative State
+	- ISCA 2020
+	- Sam Ainsworth, Timothy M. Jones
+	- https://arxiv.org/abs/1911.08384
+- Securing the Memory Hierarchy from Speculative Side-Channel Attacks
+	- 2020 Licentiate Dissertation; Christos Sakalis
+	- http://www.it.uu.se/research/publications/lic/2020-003/
+	- http://www.diva-portal.org/smash/get/diva2:1389898/FULLTEXT01.pdf
+
+### Defense - Speculation: 2019
+
 - A Formal Approach to Secure Speculation 
 	- 2019 IEEE 32nd Computer Security Foundations Symposium (CSF)
 	- Kevin Cheang, Cameron Rasmussen, Sanjit Seshia, Pramod Subramanyan
@@ -539,9 +564,6 @@ See also: [Computer Architecture](comparch.md)
 	- https://doi.org/10.1145/3314221.3314647
 	- https://pldi19.sigplan.org/event/pldi-2019-papers-abstract-interpretation-under-speculative-execution
 	- https://bitbucket.org/mengwu/timingsyn
-- An Inside Story of Mitigating Speculative Execution Side Channel Vulnerabilities
-	- Black Hat 2018; Anders Fogh, Christopher Ertl
-	- https://www.youtube.com/watch?v=_J9MpK4MQWk
 - Beyond Spectre: Confronting New Technical and Policy Challenges: Proceedings of a Workshop
 	- National Academies of Sciences, Engineering, and Medicine (2019)
 	- https://doi.org/10.17226/25418
@@ -557,31 +579,10 @@ See also: [Computer Architecture](comparch.md)
 	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2019
 	- Mohammadkazem Taram, Ashish Venkat, Dean Tullsen
 	- http://www.cs.virginia.edu/~av6ds/papers/asplos2019.pdf
-- ConTExT: A Generic Approach for Mitigating Spectre
-	- Network and Distributed Systems Security (NDSS) Symposium 2020
-	- Michael Schwarz, Moritz Lipp, Claudio Canella, Robert Schilling, Florian Kargl, Daniel Gruss
-	- https://misc0110.net/files/context.pdf
-- InvisiSpec: Making Speculative Execution Invisible in the Cache Hierarchy 
-	- International Symposium on Microarchitecture (MICRO) 2018
-	- Mengjia Yan, Jiho Choi, Dimitrios Skarlatos, Adam Morrison, Christopher W. Fletcher, Josep Torrellas
-	- http://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_micro18.pdf
-	- Paper: http://iacoma.cs.uiuc.edu/iacoma-papers/micro18.pdf
-	- Poster: http://myan8.web.engr.illinois.edu/data/InvisiSpec_Poster.pdf
-	- Lightning talk: https://www.youtube.com/watch?v=mAO5iejYUec
-	- https://github.com/mjyan0720/InvisiSpec-1.0
-- KLEESpectre: Detecting Information Leakage through Speculative Cache Attacks via Symbolic Execution
-	- ACM Transactions on Software Engineering and Methodology (TOSEM) 2020
-	- Guanhua Wang, Sudipta Chattopadhyay, Arnab Kumar Biswas, Tulika Mitra, Abhik Roychoudhury
-	- https://arxiv.org/abs/1909.00647
-	- https://github.com/winter2020/kleespectre
 - MI6: Secure Enclaves in a Speculative Out-of-Order Processor
 	- MICRO-52 2019
 	- Thomas Bourgeat, Ilia Lebedev, Andrew Wright, Sizhuo Zhang, Arvind, Srinivas Devadas
 	- https://dl.acm.org/citation.cfm?id=3358310
-- MuonTrap: Preventing Cross-Domain Spectre-Like Attacks by Capturing Speculative State
-	- ISCA 2020
-	- Sam Ainsworth, Timothy M. Jones
-	- https://arxiv.org/abs/1911.08384
 - NDA: Preventing Speculative Execution Attacks at Their Source
 	- MICRO 2019
 	- Ofir Weisse, Ian Neal, Kevin Loughlin, Thomas Wenisch, Baris Kasikci
@@ -593,16 +594,10 @@ See also: [Computer Architecture](comparch.md)
 	- https://asset-group.github.io/papers/oo7.pdf
 	- A binary analysis framework to defend against potential vulnerability to Spectre attacks
 		- https://github.com/winter2020/oo7
-- Pitchfork: Detecting Spectre vulnerabilities using symbolic execution
-	- https://github.com/cdisselkoen/pitchfork
 - SafeSpec: Banishing the Spectre of a Meltdown with Leakage-Free Speculation
 	- Design Automation Conference (DAC) 2019
 	- Khaled N. Khasawneh, Esmaeil Mohammadian Koruyeh, Chengyu Song, Dmitry Evtyushkin, Dmitry Ponomarev, Nael Abu-Ghazaleh
 	- http://www.cs.binghamton.edu/~dima/dac2019.pdf
-- Securing the Memory Hierarchy from Speculative Side-Channel Attacks
-	- 2020 Licentiate Dissertation; Christos Sakalis
-	- http://www.it.uu.se/research/publications/lic/2020-003/
-	- http://www.diva-portal.org/smash/get/diva2:1389898/FULLTEXT01.pdf
 - SPECCFI: Mitigating Spectre Attacks using CFI Informed Speculation
 	- arXiv 2019; IEEE S&P 2020
 	- Esmaeil Mohammadian Koruyeh, Shirin Haji Amin Shirazi, Khaled N. Khasawneh, Chengyu Song, Nael Abu-Ghazaleh
@@ -621,6 +616,35 @@ See also: [Computer Architecture](comparch.md)
 	- https://anysbacha.github.io/publications/barber_pact19.pdf
 	- https://anysbacha.github.io/publications/barber_pact19_slides.pdf
 	- http://web.cse.ohio-state.edu/~teodorescu.1/resources/papers/specshield_pact2019.pdf
+- Spectre is here to stay: An analysis of side-channels and speculative execution
+	- arXiv 2019
+	- Ross Mcilroy, Jaroslav Sevcik, Tobias Tebbi, Ben L. Titzer, Toon Verwaest 
+	- https://arxiv.org/abs/1902.05178
+- SpectreGuard: An Efficient Data-centric Defense Mechanism against Spectre Attacks
+	- Design Automation Conference (DAC) 2019
+	- Jacob Fustos, Farzad Farshchi, Heechul Yun
+	- http://www.ittc.ku.edu/~heechul/papers/spectreguard-dac2019-camera.pdf
+- Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data
+	- International Symposium on Microarchitecture (MICRO) 2019
+	- Jiyong Yu, Mengjia Yan, Artem Khyzha, Adam Morrison, Josep Torrellas, Christopher Fletcher
+	- https://www.cs.tau.ac.il/~mad/publications/micro2019-stt.pdf
+	- http://iacoma.cs.uiuc.edu/iacoma-papers/micro19_2.pdf
+	- http://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_micro19_2.pdf
+	- https://keystone-enclave.org/open-source-enclaves-workshop/slides/OSEW19_ChristopherFletcher_UIUC.pdf
+
+### Defense - Speculation: 2018
+
+- An Inside Story of Mitigating Speculative Execution Side Channel Vulnerabilities
+	- Black Hat 2018; Anders Fogh, Christopher Ertl
+	- https://www.youtube.com/watch?v=_J9MpK4MQWk
+- InvisiSpec: Making Speculative Execution Invisible in the Cache Hierarchy 
+	- International Symposium on Microarchitecture (MICRO) 2018
+	- Mengjia Yan, Jiho Choi, Dimitrios Skarlatos, Adam Morrison, Christopher W. Fletcher, Josep Torrellas
+	- http://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_micro18.pdf
+	- Paper: http://iacoma.cs.uiuc.edu/iacoma-papers/micro18.pdf
+	- Poster: http://myan8.web.engr.illinois.edu/data/InvisiSpec_Poster.pdf
+	- Lightning talk: https://www.youtube.com/watch?v=mAO5iejYUec
+	- https://github.com/mjyan0720/InvisiSpec-1.0
 - Spectector: Principled Detection of Speculative Information Flows
 	- IEEE Symposium on Security & Privacy 2020
 	- arXiv 2018
@@ -630,14 +654,6 @@ See also: [Computer Architecture](comparch.md)
 - Spectre: Secrets, Side-Channels, Sandboxes, and Security
 	- CppCon 2018; Chandler Carruth
 	- https://www.youtube.com/watch?v=_f7O3IfIR2k
-- Spectre is here to stay: An analysis of side-channels and speculative execution
-	- arXiv 2019
-	- Ross Mcilroy, Jaroslav Sevcik, Tobias Tebbi, Ben L. Titzer, Toon Verwaest 
-	- https://arxiv.org/abs/1902.05178
-- SpectreGuard: An Efficient Data-centric Defense Mechanism against Spectre Attacks
-	- Design Automation Conference (DAC) 2019
-	- Jacob Fustos, Farzad Farshchi, Heechul Yun
-	- http://www.ittc.ku.edu/~heechul/papers/spectreguard-dac2019-camera.pdf
 - Spectres, Virtual Ghosts, and Hardware Support
 	- Hardware and Architectural Support for Security and Privacy (HASP) 2018
 	- Xiaowan Dong, Zhuojia Shen, John Criswell, Alan Cox, Sandhya Dwarkadas
@@ -646,13 +662,6 @@ See also: [Computer Architecture](comparch.md)
 	- 2018 Technical Report
 	- Abraham Gonzalez, Ben Korpan, Ed Younis, Jerry Zhao
 	- https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F18/projects/reports/project4_report.pdf
-- Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data
-	- International Symposium on Microarchitecture (MICRO) 2019
-	- Jiyong Yu, Mengjia Yan, Artem Khyzha, Adam Morrison, Josep Torrellas, Christopher Fletcher
-	- https://www.cs.tau.ac.il/~mad/publications/micro2019-stt.pdf
-	- http://iacoma.cs.uiuc.edu/iacoma-papers/micro19_2.pdf
-	- http://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_micro19_2.pdf
-	- https://keystone-enclave.org/open-source-enclaves-workshop/slides/OSEW19_ChristopherFletcher_UIUC.pdf
 
 ---
 
