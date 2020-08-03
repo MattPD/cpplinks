@@ -537,6 +537,10 @@ See also: [Computer Architecture](comparch.md)
 	- Network and Distributed Systems Security (NDSS) Symposium 2020
 	- Michael Schwarz, Moritz Lipp, Claudio Canella, Robert Schilling, Florian Kargl, Daniel Gruss
 	- https://misc0110.net/files/context.pdf
+- Evolution of Defenses against Transient-Execution Attacks
+	- GLSVLSI 2020
+	- Claudio Canella, Sai Manoj Pudukotai Dinakarrao, Daniel Gruss, Khaled N. Khasawneh.    
+	- https://gruss.cc/files/transient-defenses.pdf
 - KLEESpectre: Detecting Information Leakage through Speculative Cache Attacks via Symbolic Execution
 	- ACM Transactions on Software Engineering and Methodology (TOSEM) 2020
 	- Guanhua Wang, Sudipta Chattopadhyay, Arnab Kumar Biswas, Tulika Mitra, Abhik Roychoudhury
