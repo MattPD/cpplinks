@@ -124,6 +124,9 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 - Fuzzing
 	- Internals of Hongfuzz - Intel PT
 		- https://tunnelshade.in/blog/2018/09/hongfuzz-intel-pt-instrumentation/
+	- kAFL: HW-assisted Feedback Fuzzing for x86 Kernels
+		- https://github.com/IntelLabs/kAFL/
+		- kAFL uses Qemu/KVM and Intel PT to provide fast execution and coverage feedback. This allows to run many x86 FW and OS kernels with any desired toolchain and without major modifications.
 	- PTrix: Efficient Hardware-Assisted Fuzzing for COTS Binary
 		- 2019 Asia Conference on Computer and Communications Security (AsiaCCS)
 		- Yaohui Chen, Dongliang Mu, Jun Xu, Zhichuang Sun, Wenbo Shen, Xinyu Xing, Long Lu, Bing Mao
