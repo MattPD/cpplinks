@@ -301,9 +301,6 @@
 - gperftools (originally Google Performance Tools)
 	- "The fastest malloc we’ve seen; works particularly well with threads and STL. Also: thread-friendly heap-checker, heap-profiler, and cpu-profiler."
 	- https://github.com/gperftools/gperftools
-- gprof2dot
-	- "Python script to convert the output from many profilers into a dot graph."
-	- https://github.com/jrfonseca/gprof2dot
 - HawkTracer
 	- a highly portable, low-overhead, configurable profiling tool for getting performance metrics from low-end devices
 	- Linux, Windows, macOS; C & C++ library; Python & Rust wrappers
@@ -369,6 +366,14 @@
 	- Tracy is a real time, nanosecond resolution frame profiler that can be used for remote or embedded telemetry of your application. It can profile CPU (C++, Lua), GPU (OpenGL, Vulkan) and memory. It also can display locks held by threads and their interactions with each other.
 	- https://bitbucket.org/wolfpld/tracy
 	- Introduction to the Tracy profiler - https://www.youtube.com/watch?v=fB5B46lbapc
+
+## Profiling: Output
+
+- cpuprofilify: Converts output of various profiling/sampling tools to the .cpuprofile format so it can be loaded into Chrome DevTools.
+	- https://github.com/thlorenz/cpuprofilify
+- gprof2dot
+	- "Python script to convert the output from many profilers into a dot graph."
+	- https://github.com/jrfonseca/gprof2dot
 
 # Timing
 
