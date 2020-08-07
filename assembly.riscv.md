@@ -414,8 +414,12 @@ https://riscv.org/software-tools/
 - LLVM backend development by example (RISC-V)
 	- 2018 LLVM Developers’ Meeting; Alex Bradbury
 	- https://www.youtube.com/watch?v=AFaIP-dF-RA
+	- https://speakerdeck.com/asb/llvm-backend-development-by-example-risc-v
 	- RISC-V LLVM Coding Lab at the LLVM Developers' Meeting 2018
 		- https://www.lowrisc.org/llvm/devmtg18/
+		- https://github.com/lowRISC/lowrisc-site/blob/master/content/llvm/devmtg18.md
+	- RISC-V LLVM: a series of patches implementing a RISC-V backend for LLVM as well as initial tutorial material. 
+		- https://github.com/lowRISC/riscv-llvm
 
 ## 2017
 
