@@ -424,6 +424,8 @@ See also:
 	- Marko Ivanković, Goran Petrović, René Just, Gordon Fraser
 	- https://homes.cs.washington.edu/~rjust/publ/google_coverage_fse_2019.pdf
 	- https://ai.google/research/pubs/pub48413/
+	- Code Coverage Best Practices
+		- https://testing.googleblog.com/2020/08/code-coverage-best-practices.html
 - Code Coverage for Suite Evaluation by Developers
 	- ICSE 2014
 	- Rahul Gopinath, Carlos Jensen, Alex Groce
