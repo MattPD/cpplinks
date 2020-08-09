@@ -363,6 +363,9 @@ See also:
 			- https://devblogs.microsoft.com/cppblog/finding-build-bottlenecks-with-cpp-build-insights/
 		- Faster builds with PCH suggestions from C++ Build Insights
 			- https://devblogs.microsoft.com/cppblog/faster-builds-with-pch-suggestions-from-c-build-insights/
+		- Improving code generation time with C++ Build Insights
+			- https://devblogs.microsoft.com/cppblog/improving-code-generation-time-with-cpp-build-insights/
+
 
 ### Caching
 
