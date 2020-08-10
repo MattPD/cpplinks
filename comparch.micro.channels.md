@@ -1757,14 +1757,21 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- arXiv 2018
 	- Giorgi Maisuradze, Christian Rossow
 	- https://arxiv.org/abs/1801.04084
-- SpeechMiner: A Framework for Investigating and Measuring Speculative Execution Vulnerabilities
-	- NDSS 2020
-	- Yuan Xiao, Yinqian Zhang, Radu Teodorescu
-	- https://arxiv.org/abs/1912.00329
 - Two methods for exploiting speculative control flow hijacks.
 	- WOOT @ USENIX Security Symposium 2019
 	- Andrea Mambretti, Alexandra Sandulescu, Matthias Neugschwandtner, Alessandro Sorniotti, Anil Kurmus
 	- http://ale.sopit.net/pdf/woot.pdf
+
+## Speculation: 2020
+
+- Survey of Transient Execution Attacks
+	- 2020
+	- Wenjie Xiong, Jakub Szefer
+	- https://arxiv.org/abs/2006.03841
+- SpeechMiner: A Framework for Investigating and Measuring Speculative Execution Vulnerabilities
+	- NDSS 2020
+	- Yuan Xiao, Yinqian Zhang, Radu Teodorescu
+	- https://arxiv.org/abs/1912.00329
 
 ---
 
