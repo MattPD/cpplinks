@@ -730,7 +730,11 @@ Validation: Including translation validation, equivalence checking.
 		- https://cakeml.org/cav19.pdf
 - CompCert: formally-verified C compiler
 	- http://compcert.inria.fr/
-	- https://github.com/AbsInt/CompCert 
+	- https://github.com/AbsInt/CompCert
+	- CompCert Tutorial
+		- November 2015; Ben Greenman
+		- A fast walk through the CompCert compiler. Goes over the architecture, correctness strategy, and correctness proof.
+		- http://www.ccs.neu.edu/home/types/resources/notes/compcert/cc.pdf
 	- The formal verification of compilers - Xavier Leroy - DeepSpec Summer School 2017
 		- https://deepspec.org/event/dsss17/lecture_leroy.html
 		- http://gallium.inria.fr/~xleroy/courses/DSSS-2017/
