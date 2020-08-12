@@ -268,6 +268,9 @@ _Books, Books Reviews_
 	- https://helloqirun.github.io/papers/pldi20_yuanbo1.pdf
 	- https://www.cc.gatech.edu/~qrzhang/projects/debug/debug.html
 	- https://pldi20.sigplan.org/details/pldi-2020-papers/60/Debug-Information-Validation-for-Optimized-Code
+- LLVM and debug information quality
+	- Triplefault 2020; Djordje Todorovic
+	- https://www.youtube.com/watch?v=GpMLt1oecOk
 - Operational Semantics of a Focusing Debugger
 	- Electronic Notesin Theoretical Computer Science 1 (1995)
 	- Karen L. Bernstein, Eugene W.Stark
