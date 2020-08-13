@@ -94,6 +94,13 @@ See also:
 	- ICOOOLPS / ECOOP 2016
 	- Gábor Horváth, Norbert Pataki
 	- https://2016.ecoop.org/event/icooolps-2016-source-language-representation-of-function-summaries-in-static-analysis
+- Sys: a Static/Symbolic Tool for Finding Good Bugs in Good (Browser) Code
+	- USENIX Security Symposium 2020
+	- Fraser Brown, Deian Stefan, Dawson Engler
+	- https://cseweb.ucsd.edu/~dstefan/pubs/brown:2020:sys.pdf
+	- https://sys.programming.systems/
+	- Sys: a Static/Symbolic Tool for Finding Good Bugs in Good (Browser) Code
+		- https://github.com/PLSysSec/sys
 - Tailoring Programs for Static Analysis via Program Transformation
 	- International Conference on Software Engineering (ICSE) 2020
 	- Rijnard van Tonder and Claire Le Goues
