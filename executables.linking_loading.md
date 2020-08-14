@@ -486,3 +486,10 @@ See also:
 	- WWDC 2016; Nick Kledzik, Louis Gerbarg
 	- https://developer.apple.com/videos/play/wwdc2016/406/
 	- "Launching an App is a complicated and subtle process and the ramifications on launch times of different App design patterns are often non-obvious. Come learn what happens in the time between when an App begins launching and when the main() function gets control and how that time relates to the code and structure of your App. Learn about the inner details of the dynamic loader, dyld, and best practices for structuring your code to perform at its best from the very start."
+
+## Talks: 2012
+
+- lld - the LLVM Linker
+	- 2012 EuroLLVM Developers’ Meeting; Michael Spencer
+	- https://www.youtube.com/watch?v=zCaFF3aOabg
+	- http://llvm.org/devmtg/2012-04-12/Slides/Michael_Spencer.pdf
