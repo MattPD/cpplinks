@@ -941,6 +941,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 - An RPC Debugging Framework with Visual Studio
 	- http://donw.io/post/rpc-debugging-vs/
+- Anti-Debug Tricks
+	- This encyclopedia contains the description of anti-debug tricks which work on the latest Windows releases with the most popular debuggers (such as OllyDbg, WinDbg, x64dbg).
+	- https://anti-debug.checkpoint.com/
+	- https://github.com/CheckPointSW/Anti-Debug-DB
 - ArkDasm: 64-bit interactive disassembler and debugger for Windows
 	- http://www.arkdasm.com/
 - Creating a Public Symbol Server, Easily
