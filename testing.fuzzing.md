@@ -61,6 +61,10 @@ See also:
 	- Cybersecurity 2018
 	- Jun Li, Bodong Zhao and Chao Zhang
 	- https://cybersecurity.springeropen.com/articles/10.1186/s42400-018-0002-y
+- Fuzzing: Challenges and Reflections
+	- IEEE Software 2020
+	- Marcel Böhme, Cristian Cadar, Abhik Roychoudhury
+	- https://www.comp.nus.edu.sg/~abhik/pdf/IEEE-SW-Fuzzing.pdf
 - Fuzzing: Hack, Art, and Science
 	- Communications of the ACM (CACM) 63(2) 2020
 	- Patrice Godefroid
