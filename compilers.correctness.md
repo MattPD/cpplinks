@@ -13,7 +13,7 @@ See also:
 	- [Lectures](#lectures)
 - [Testing](#testing)
 	- [Readings](#testing-readings): [Performance Optimization](#testing-readings-performance-optimization), [Reduction](#testing-readings-reduction): [LLVM](#testing-readings-reduction-llvm)
-	- [Software](#testing-software): [Performance Optimization](#testing-software-performance-optimization), [Reduction](#testing-software-reduction)
+	- [Software](#testing-software): [Generation](#testing-software-generation), [Performance Optimization](#testing-software-performance-optimization), [Reduction](#testing-software-reduction)
 	- [Talks](#testing-talks)
 - [Validation](#validation)
 - [Verification](#verification)
@@ -429,10 +429,6 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 ## Testing: Software
 
-- Csmith, a random generator of C programs
-	- https://github.com/csmith-project/csmith
-	- https://embed.cs.utah.edu/csmith/
-	- Csmith testing - http://blog.frama-c.com/index.php?pages/Csmith-testing
 - Fuzzing LLVM libraries and tools - https://llvm.org/docs/FuzzingLLVM.html
 	- Adventures in Fuzzing Instruction Selection
 		- 2017 EuroLLVM Developers’ Meeting; Justin Bogner
@@ -454,18 +450,32 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- GraphicsFuzz: Metamorphic Testing for Graphics Shader Compilers
 		- VF Conference 2019; Alastair Donaldson
 		- https://www.youtube.com/watch?v=r2GHwhCbcKo
-- kscope
-	- a library which recursively generates randomized code while keeping it 100% equivalent to the original one
-	- http://ithare.com/c17-compiler-bug-hunt-very-first-results-12-bugs-reported-3-already-fixed/
-	- https://github.com/ITHare/kscope
+	- shader-compiler-bugs: A collection of shader compiler bugs
+		- https://github.com/mc-imperial/shader-compiler-bugs
 - lang_tester: Rust testing framework for compilers and VMs
 	- https://crates.io/crates/lang_tester
-- ldrgen: Liveness-driven random C code generator - https://github.com/gergo-/ldrgen
 - lit - LLVM Integrated Tester
 	- https://pypi.org/project/lit/
 	- Using LLVM LIT Out-Of-Tree
 		- https://medium.com/@mshockwave/using-llvm-lit-out-of-tree-5cddada85a78
 - llvm-mutate – mutate LLVM IR - http://eschulte.github.io/llvm-mutate/
+- OutputCheck: A tool for checking tool output inspired by LLVM's FileCheck
+	- https://github.com/stp/OutputCheck/
+- prog-fuzz: Compiler/source code fuzzing tool using AFL instrumentation
+	- https://github.com/vegard/prog-fuzz
+
+### Testing: Software: Generation
+
+- Csmith, a random generator of C programs
+	- https://github.com/csmith-project/csmith
+	- https://embed.cs.utah.edu/csmith/
+	- Csmith testing - http://blog.frama-c.com/index.php?pages/Csmith-testing
+- kscope
+	- a library which recursively generates randomized code while keeping it 100% equivalent to the original one
+	- http://ithare.com/c17-compiler-bug-hunt-very-first-results-12-bugs-reported-3-already-fixed/
+	- https://github.com/ITHare/kscope
+- ldrgen: Liveness-driven random C code generator
+	- https://github.com/gergo-/ldrgen
 - Orange3
 	- a tool to test C compilers with randomly generated programs; mainly targets arithmetic optimization such as constant folding.
 	- https://ist.ksc.kwansei.ac.jp/~ishiura/pub/orange3/
@@ -474,12 +484,9 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- a tool to test C compilers by randomly generated programs; based on equivalent transformations on C programs and can generate wider class of C test programs than Orange3.
 	- https://ist.ksc.kwansei.ac.jp/~ishiura/pub/orange4/
 	- https://github.com/ishiura-compiler/Orange4
-- OutputCheck: A tool for checking tool output inspired by LLVM's FileCheck
-	- https://github.com/stp/OutputCheck/
-- prog-fuzz: Compiler/source code fuzzing tool using AFL instrumentation
-	- https://github.com/vegard/prog-fuzz
-- Quest: A tool for testing C compilers - https://github.com/lindig/quest
-- shader-compiler-bugs: A collection of shader compiler bugs - https://github.com/mc-imperial/shader-compiler-bugs
+- Quest: A tool for testing C compilers
+	- a tool that generates C code for testing C compilers
+	- https://github.com/lindig/quest
 - Xsmith: a library and DSL for creating random program generators
 	- https://www.flux.utah.edu/project/xsmith
 	- https://gitlab.flux.utah.edu/xsmith/xsmith
