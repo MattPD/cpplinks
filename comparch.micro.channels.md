@@ -539,7 +539,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://misc0110.net/files/context.pdf
 - Evolution of Defenses against Transient-Execution Attacks
 	- GLSVLSI 2020
-	- Claudio Canella, Sai Manoj Pudukotai Dinakarrao, Daniel Gruss, Khaled N. Khasawneh.    
+	- Claudio Canella, Sai Manoj Pudukotai Dinakarrao, Daniel Gruss, Khaled N. Khasawneh
 	- https://gruss.cc/files/transient-defenses.pdf
 - KLEESpectre: Detecting Information Leakage through Speculative Cache Attacks via Symbolic Execution
 	- ACM Transactions on Software Engineering and Methodology (TOSEM) 2020
@@ -1827,6 +1827,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Jo Van Bulck, David Oswald, Eduard Marin, Abdulla Aldoseri, Flavio D.Garcia, Frank Piessens
 	- https://people.cs.kuleuven.be/~jo.vanbulck/ccs19-tale.pdf
 	- https://github.com/jovanbulck/0xbadc0de
+- How Trusted Execution Environments Fuel Research on Microarchitectural Attacks
+	- IEEE Security & Privacy 2020
+	- Michael Schwarz, Daniel Gruss
+	- https://gruss.cc/files/tee_fuel.pdf
 
 ## Arm TrustZone
 
