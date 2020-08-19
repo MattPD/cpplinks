@@ -6,7 +6,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 
 - [Readings](#readings):
 	- [Binary Analysis](#readings-binary-analysis)
-	- [Concurrency](#concurrency)
+	- [Concurrency](#readings-concurrency)
 	- [Formalization, Specification, Verification](#formalization-specification-verification)
 	- [Instruction Set Architecture](#instruction-set-architecture)
 	- [Performance](#performance)
@@ -17,11 +17,11 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	- [Simulation](#simulation)
 	- [Virtualization](#virtualization)
 - [References](#references):
-	- [Concurrency](#concurrency)
 	- [Intrinsics & SIMD](#intrinsics--simd)
 	- [Toolchains](#toolchains)
 - [Software](#software):
 	- [Binary Analysis](#software-binary-analysis)
+	- [Concurrency](#software-concurrency)
 	- [Debugging, Tracing](#software-debugging-tracing)
 	- [Emulation, Simulation](#software-emulation-simulation)
 	- [Lifting: Disassemblers, Decompilers, Recompilers](#software-lifting)
@@ -77,7 +77,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Yi-Ping You, Tsung-Chun Lin, and Wuu Yang
 	- https://doi.org/10.1145/3339186.3339192
 
-## Concurrency
+## Readings: Concurrency
 
 - Formalising the ARMv8 Memory Consistency Model
 	- Will Deacon, ARM, Keynote, OpenSHMEM 2018
@@ -604,8 +604,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 * The ARM Instruction Set Architecture - Mark McDermott (Slides)
 	+ <http://users.ece.utexas.edu/~valvano/EE345M/Arm_EE382N_4.pdf>
 * The ARM Machinists Atlas
-	+ https://www.youtube.com/watch?v=PRaJQepIf44
-	+ <http://xlogicx.net/?page_id=668>
+	- https://www.youtube.com/watch?v=PRaJQepIf44
+	- https://xlogicx.net/ARM_Atlas.html
 * Works on ARM newsletter - https://github.com/vielmetti/worksonarm-news
 
 ## Intrinsics & SIMD
@@ -756,6 +756,11 @@ See also: [Readings: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Post-processing of linker output to calculate and visualize memory usage for elf-sections
 	- https://github.com/ARMmbed/mbed-os-linker-report
 	- https://os.mbed.com/blog/entry/visualizing-linker-stats/
+
+## Software: Concurrency
+
+- PROGRESS64: a C library of scalable functions for concurrent programs, primarily focused on networking applications
+	- https://github.com/ARM-software/progress64
 
 ## Software: Debugging, Tracing
 
