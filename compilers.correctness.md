@@ -209,6 +209,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- N. Hasabnis, R. Qiao, R. Sekar 
 	- http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15.pdf
 	- http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15_talk.pdf
+- Closer to the Edge: Testing Compilers More Thoroughly by Being Less Conservative About Undefined Behaviour
+	- Automated Software Engineering (ASE) 2020
+	- Karine Even-Mendoza, Cristian Cadar, Alastair F. Donaldson
+	- https://srg.doc.ic.ac.uk/projects/csmithedge/
+	- https://srg.doc.ic.ac.uk/files/papers/csmithedge-ase-nier-20.pdf
 - Compiler fuzzing, part 1
 	- http://www.vegardno.net/2018/06/compiler-fuzzing.html
 - Compiler Fuzzing through Deep Learning
