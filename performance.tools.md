@@ -213,8 +213,10 @@
 		- Andreas Abel, Jan Reineke
 		- https://arxiv.org/abs/1810.04610
 	- nanoBench: A Low-Overhead Tool for Running Microbenchmarks on x86 Systems
-		- 2019; Andreas Abel, Jan Reineke
+		- 2020 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+		- Andreas Abel, Jan Reineke
 		- https://arxiv.org/abs/1911.03282
+		- https://www.youtube.com/watch?v=DEN4UteY4Sg
 - Open Power/Performance Analysis Tool (OPPAT)
 	- a cross-OS, cross-architecture Power and Performance Analysis Tool
 	- cross-OS: supports Windows ETW trace files and Linux/Android perf/trace-cmd trace files
