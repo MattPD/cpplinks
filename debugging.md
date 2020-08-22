@@ -208,9 +208,6 @@ _Books, Books Reviews_
 		- Instruction-level Tracing: Framework & Applications
 		- Sanjay Bhansali 
 		- http://www.cs.wisc.edu/areas/pl/seminar/fall05/Bhansali.ppt
-* GCC gOlogy: studying the impact of optimizations on debugging
-	+ http://www.fsfla.org/~lxoliva/writeups/gOlogy/gOlogy.txt
-	+ GNU Tools Cauldron 2018 slides: http://people.redhat.com/aoliva/writeups/gOlogy/slides.pdf
 * How breakpoints are set - http://majantali.net/2016/10/how-breakpoints-are-set/
 * How do debuggers keep track of the threads in your program?
 	+ http://timetobleed.com/how-do-debuggers-keep-track-of-the-threads-in-your-program/
@@ -268,6 +265,10 @@ _Books, Books Reviews_
 	- https://helloqirun.github.io/papers/pldi20_yuanbo1.pdf
 	- https://www.cc.gatech.edu/~qrzhang/projects/debug/debug.html
 	- https://pldi20.sigplan.org/details/pldi-2020-papers/60/Debug-Information-Validation-for-Optimized-Code
+- GCC gOlogy: studying the impact of optimizations on debugging
+	- 2018; Alexandre Oliva
+	- https://www.fsfla.org/~lxoliva/writeups/gOlogy/gOlogy.txt
+	- GNU Tools Cauldron 2018 slides: https://www.fsfla.org/~lxoliva/writeups/gOlogy/slides.pdf
 - LLVM and debug information quality
 	- Triplefault 2020; Djordje Todorovic
 	- https://www.youtube.com/watch?v=GpMLt1oecOk
@@ -280,6 +281,12 @@ _Books, Books Reviews_
 	- Olaf Chitil, Yong Luo
 	- http://www.cs.nott.ac.uk/~psznhn/TFP2006/Papers/23-ChitilLuo-ProvingCorrectnessOfDeclarativeDebugging.pdf
 	- https://www.cs.kent.ac.uk/pubs/2007/2863/content.pdf
+- Secure Delivery of Program Properties Through Optimizing Compilation
+	- ACM International Conference on Compiler Construction (CC) 2020
+	- Son Tuan Vu, Karine Heydemann, Arnaud de Grandmaison, Albert Cohen
+	- https://research.google/pubs/pub48841/
+	- "We propose an approach to encode, translate, and preserve the semantics of both functional and non-functional properties along the optimizing compilation of C to machine code. The approach involves (1) capturing and translating source-level properties through lowering passes and intermediate representations, such that data and control flow optimizations will preserve their consistency with the transformed program, and (2) carrying properties and their translation as debug information down to machine code."
+	- "A fortunate side-effect of inserting artificial definitions is to prevent most optimization passes from harming the observed variables’ debug information."
 
 #### Testing
 
