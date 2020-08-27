@@ -338,6 +338,11 @@
 	- http://web.eece.maine.edu/~vweaver/projects/perf_events/
 - perfmon2 - http://perfmon2.sourceforge.net/
 	- "Perfmon2 aims to be a portable interface across all modern processors. It is designed to give full access to a given PMU and all the corresponding hardware performance counters. Typically the PMU hardware implementations use a different number of registers, counters with different length and possibly other unique features, a complexity that the software has to cope with. Although processors have different PMU implementations, they usually use configurations registers and data registers. Perfmon2 provides a uniform abstract model of these registers and exports read/write operations accordingly."
+- Perfetto - System profiling, app tracing, and trace analysis
+	- Performance instrumentation and tracing for Android, Linux, and Chrome
+	- https://github.com/google/perfetto
+	- https://perfetto.dev/
+	- https://perfetto.dev/docs/
 - Performance Application Programming Interface (PAPI)
 	- http://icl.cs.utk.edu/papi/
 	- http://icl.cs.utk.edu/projects/papi/wiki/Main_Page
