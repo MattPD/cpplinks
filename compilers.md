@@ -146,6 +146,10 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 	- Winter 2019; Sorin Lerner
 		- https://podcast.ucsd.edu/watch/wi19/cse231_a00
 		- https://ucsd-pl.github.io/cse231/wi19/
+- UFMG DCC888: Static Program Analysis
+	- 2020; Fernando Magno Quintão Pereira
+	- https://homepages.dcc.ufmg.br/~fernando/classes/dcc888/
+	- https://www.youtube.com/playlist?list=PLC-dUCVQghfdu7AG5f_p4oRyKgjDuoAWU
 - NPTEL: Compiler Design
 	- 2011; Y.N. Srikant
 		- https://nptel.ac.in/courses/106108052/
