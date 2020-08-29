@@ -555,6 +555,10 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - Hypervisor Necromancy; Reanimating Kernel Protectors, or On emulating hypervisors; a Samsung RKP case study
 	- Phrack 2020-02-14; Aris Thallas
 	- http://phrack.org/papers/emulating_hypervisors_samsung_rkp.html
+- Optimizing the Design and Implementation of the Linux ARM Hypervisor
+	- 2017 USENIX Annual Technical Conference
+	- Christoffer Dall, Shih-Wei Li, Jason Nieh
+	- https://www.usenix.org/conference/atc17/technical-sessions/presentation/dall
 - The Design, Implementation, and Evaluation of Software and Architectural Support for ARM Virtualization
 	- 2018 PhD Thesis; [Christoffer Dall](http://www.cs.columbia.edu/~cdall/)
 	- https://academiccommons.columbia.edu/catalog/ac:t1g1jwstss
