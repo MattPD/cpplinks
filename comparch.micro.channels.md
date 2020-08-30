@@ -1772,6 +1772,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- NDSS 2020
 	- Yuan Xiao, Yinqian Zhang, Radu Teodorescu
 	- https://arxiv.org/abs/1912.00329
+- The Evolution of Transient-Execution Attacks
+	- GLSVLSI 2020
+	- Claudio Canella, Khaled N. Khasawneh, Daniel Gruss
+	- https://gruss.cc/files/transient-attacks.pdf
 
 ---
 
