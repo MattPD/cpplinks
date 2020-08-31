@@ -492,6 +492,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 - Quest: A tool for testing C compilers
 	- a tool that generates C code for testing C compilers
 	- https://github.com/lindig/quest
+- StarSmith
+	- Language-Agnostic Generation of Compilable Test Programs
+	- International Conference on Software Testing, Validation and Verification (ICST) 2020
+	- Patrick Kreutzer, Stefan Kraus, Michael Philippsen
+	- https://icst2020.info/details/icst-2020-papers/2/Language-Agnostic-Generation-of-Compilable-Test-Programs
+	- https://ieeexplore.ieee.org/abstract/document/9159098
+	- https://github.com/FAU-Inf2/StarSmith
 - Xsmith: a library and DSL for creating random program generators
 	- https://www.flux.utah.edu/project/xsmith
 	- https://gitlab.flux.utah.edu/xsmith/xsmith
