@@ -895,6 +895,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ https://github.com/eteran/edb-debugger
 * ich: Linux crash harness with runtime process instrumentation
 	- https://github.com/zznop/ich
+* kdress: Transform vmlinuz into a fully debuggable vmlinux that can be used with /proc/kcore
+	- https://github.com/elfmaster/kdress
 * libkdumpfile: Kernel coredump file access
 	+ https://github.com/ptesarik/libkdumpfile
 * libthread_db
@@ -1105,8 +1107,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * GNU Tools Cauldron 2018
 	+ gOlogy: impact of -O* on -g
 		- Alexandre Oliva
-		- http://people.redhat.com/aoliva/writeups/gOlogy/slides.pdf
-		- http://www.fsfla.org/~lxoliva/writeups/gOlogy/gOlogy.txt
+		- https://www.fsfla.org/~lxoliva/writeups/gOlogy/slides.pdf
+		- https://www.fsfla.org/~lxoliva/writeups/gOlogy/gOlogy.txt
 	+ A collection of debug info improvements for the GNU Compiler Collection
 		- Alexandre Oliva, Mark J. Wielaard
 		- https://gnu.wildebeest.org/~mark/cauldron-2018/DebuginfoImprovements.pdf
