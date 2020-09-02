@@ -324,6 +324,8 @@
 	- https://github.com/RRZE-HPC/likwid/wiki/PatternsHaswellEP
 - microprofile: an embeddable profiler
 	- https://github.com/jonasmr/microprofile
+- not-perf: A sampling CPU profiler for Linux
+	- https://github.com/koute/not-perf
 - Optick: C++ Profiler For Games
 	- https://github.com/bombomby/optick
 	- https://optick.dev/
