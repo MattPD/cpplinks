@@ -966,6 +966,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/
 - DuBStep (Dynamic Breakpoint API): A Library for creating hardware execution and data breakpoints at runtime on Win32/Win64
 	- https://github.com/justinboswell/dubstep
+- HyperDbg: an open-source, user mode and kernel mode Windows debugger with a focus on using hardware technologies
+	- https://hyperdbg.com
+	- https://github.com/HyperDbg/HyperDbg
 - kdmp-parser: Windows kernel dump C++ parser
 	- https://github.com/0vercl0k/kdmp-parser
 - makin - reveal anti-debug tricks (Windows) - https://github.com/secrary/makin
