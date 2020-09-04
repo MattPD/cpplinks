@@ -418,6 +418,11 @@ https://www.researchgate.net/publication/280306016_Pinballs_Portable_and_Shareab
 	- Code Generation and Optimization (CGO) 2015
 	- Evgeniy Stepanov and Konstantin Serebryany
 	- https://research.google.com/pubs/archive/43308.pdf
+- ParmeSan: Sanitizer-guided Greybox Fuzzing
+	- USENIX Security 2020
+	- Sebastian Österlund, Kaveh Razavi, Herbert Bos, Cristiano Giuffrida
+	- https://github.com/vusec/parmesan
+	- https://www.usenix.org/conference/usenixsecurity20/presentation/osterlund
 - PartiSan: Fast and Flexible Sanitization via Run-time Partitioning
 	- Research in Attacks, Intrusions and Defenses (RAID) 2018
 	- Julian Lettner, Dokyung Song, Taemin Park, Stijn Volckaert, Per Larsen, Michael Franz
