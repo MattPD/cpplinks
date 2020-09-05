@@ -144,6 +144,8 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 - libipt - an Intel(R) Processor Trace decoder library
 	- https://github.com/01org/processor-trace
 	- https://github.com/intel/libipt
+- libxdc (eXtremely fast DeCoder): The fastest Intel PT decoder for fuzzing
+	- https://github.com/nyx-fuzz/libxdc
 - Linux perf Documentation: Intel Processor Trace
 	- https://github.com/torvalds/linux/blob/master/tools/perf/Documentation/intel-pt.txt
 - Inferring Fine-grained Control Flow Inside SGX Enclaves with Branch Shadowing
