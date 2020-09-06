@@ -665,11 +665,6 @@ Validation: Including translation validation, equivalence checking.
 	- 2018 PhD Thesis; Sigurd Schneider
 	- https://www.ps.uni-saarland.de/Publications/documents/Schneider_2018_PhDThesis.pdf
 	- LVC - Linear Verified Compiler: https://www.ps.uni-saarland.de/~sdschn/LVC.html
-- A Verified Packrat Parser Interpreter for Parsing Expression Grammars
-	- Conference on Certified Programs and Proofs (CPP) 2020 
-	- Clement Blaudeau, Natarajan Shankar
-	- https://arxiv.org/abs/2001.04457
-	- https://www.youtube.com/watch?v=hLjRcMAMuts
 - ALIVe: Automatic LLVM InstCombine Verifier
 	- https://github.com/nunoplopes/alive
 	- online: http://rise4fun.com/Alive
@@ -831,11 +826,6 @@ Validation: Including translation validation, equivalence checking.
 	- http://sf.snu.ac.kr/gil.hur/publications/crellvm.pdf
 	- http://sf.snu.ac.kr/gil.hur/publications/crellvm.zip
 	- https://github.com/snu-sf/crellvm-tests-parallel
-- Mechanized Semantics and Verified Compilation for a Dataflow Synchronous Language with Reset
-	- POPL 2020
-	- Timothy Bourke, Lélio Brun, Marc Pouzet
-	- https://popl20.sigplan.org/details/POPL-2020-Research-Papers/20/Mechanized-Semantics-and-Verified-Compilation-for-a-Dataflow-Synchronous-Language-wit
-	- https://github.com/INRIA/velus
 - Pilsner: A Compositionally Verified Compiler for a Higher-Order Imperative Language
 	- International Conference on Functional Programming (ICFP) 2015
 	- Georg Neis, Chung-Kil Hur, Jan-Oliver Kaiser, Craig McLaughlin, Derek Dreyer, Viktor Vafeiadis
@@ -850,15 +840,6 @@ Validation: Including translation validation, equivalence checking.
 	- 2017 Ph.D. Dissertation; Ramana Kumar
 	- http://www.sigplan.org/Awards/Dissertation/2017_kumar.pdf
 	- https://cakeml.org/
-- The Correctness of a Code Generator for a Functional Language
-	- Verification, Model Checking, and Abstract Interpretation (VMCAI) 2020
-	- Nathanaël Courant, Antoine Séré, Natarajan Shankar
-	- https://doi.org/10.1007/978-3-030-39322-9_4
-- Towards Formally Verified Just-In-Time Compilation
-	- CoqPL 2020
-	- Aurèle Barrière, Sandrine Blazy, David Pichardie
-	- https://www.youtube.com/watch?v=Be-CwSREJOI
-	- https://popl20.sigplan.org/details/CoqPL-2020-papers/4/Towards-Formally-Verified-Just-in-Time-compilation
 - Vale (Verified Assembly Language for Everest)
 	- USENIX Security Symposium 2017
 	- Barry Bond and Chris Hawblitzel, Manos Kapritsos, K. Rustan M. Leino, Jacob R. Lorch, Bryan Parno, Ashay Rane, Srinath Setty, Laure Thompson
@@ -879,3 +860,32 @@ Validation: Including translation validation, equivalence checking.
 	- Summit on Advances in Programming Languages (SNAPL) 2015
 	- Amal Ahmed
 	- http://www.ccs.neu.edu/home/amal/papers/verifcomp.pdf
+
+## Verification: 2020
+
+- A Verified Packrat Parser Interpreter for Parsing Expression Grammars
+	- Conference on Certified Programs and Proofs (CPP) 2020
+	- Clement Blaudeau, Natarajan Shankar
+	- https://arxiv.org/abs/2001.04457
+	- https://www.youtube.com/watch?v=hLjRcMAMuts
+- Mechanized Semantics and Verified Compilation for a Dataflow Synchronous Language with Reset
+	- POPL 2020
+	- Timothy Bourke, Lélio Brun, Marc Pouzet
+	- https://popl20.sigplan.org/details/POPL-2020-Research-Papers/20/Mechanized-Semantics-and-Verified-Compilation-for-a-Dataflow-Synchronous-Language-wit
+	- https://github.com/INRIA/velus
+- The Correctness of a Code Generator for a Functional Language
+	- Verification, Model Checking, and Abstract Interpretation (VMCAI) 2020
+	- Nathanaël Courant, Antoine Séré, Natarajan Shankar
+	- https://doi.org/10.1007/978-3-030-39322-9_4
+- Towards a Verified Range Analysis for JavaScript JITs
+	- Programming Language Design and Implementation (PLDI) 2020
+	- Fraser Brown, John Renner, Andres Nötzli, Sorin Lerner, Hovav Shacham, Deian Stefan
+	- https://doi.org/10.1145/3385412.3385968
+	- https://vera.programming.systems
+	- https://github.com/PLSysSec/vera
+	- https://pldi20.sigplan.org/details/pldi-2020-papers/8/Towards-a-Verified-Range-Analysis-for-JavaScript-JITs
+- Towards Formally Verified Just-In-Time Compilation
+	- CoqPL 2020
+	- Aurèle Barrière, Sandrine Blazy, David Pichardie
+	- https://www.youtube.com/watch?v=Be-CwSREJOI
+	- https://popl20.sigplan.org/details/CoqPL-2020-papers/4/Towards-Formally-Verified-Just-in-Time-compilation
