@@ -677,12 +677,23 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Nigel Stephens, Stuart Biles, Matthias Boettcher, Jacob Eapen, Mbou Eyole, Giacomo Gabrielli, Matt Horsnell, Grigorios Magklis, Alejandro Martinez, Nathanael Premillieu, Alastair Reid, Alejandro Rico, Paul Walker
 	- Preprint: https://alastairreid.github.io/papers/sve-ieee-micro-2017.pdf
 	- http://dx.doi.org/10.1109/MM.2017.35
+
+#### Scalable Vector Extension (SVE): Applications
+
+- Evaluating the Effectiveness of a Vector-Length-Agnostic Instruction Set
+	- Euro-Par 2020: Parallel Processing
+	- Andrei Poenaru, Simon McIntosh-Smith
+	- https://doi.org/10.1007/978-3-030-57675-2_7
+	- https://www.youtube.com/watch?v=oX_SD43qrWA
+	- Emulated SVE Analysis Tools
+		- Scripts used to characterise performance of applications using the Arm Instruction Emulator (ArmIE)
+		- https://github.com/UoB-HPC/sve-analysis-tools/tree/euro-par-2020
 - Using Arm’s scalable vector extension on stencil codes
 	- The Journal of Supercomputing (2019)
 	- Armejach, Adrià, Helena Caminal, Juan M. Cebrian, Rubén Langarita, Rekai González-Alberquilla, Chris Adeniyi-Jones, Mateo Valero, Marc Casas, Miquel Moretó
 	- https://doi.org/10.1007/s11227-019-02842-5
 
-#### SVE: LLVM Implementation
+#### Scalable Vector Extension (SVE): LLVM Implementation
 
 * Road to SVE enablement in LLDB
 	- Linaro Connect San Diego 2019; Omair Javaid
