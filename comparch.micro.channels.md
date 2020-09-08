@@ -1764,6 +1764,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 
 ## Speculation: 2020
 
+- Speculative Dereferencing of Registers: Reviving Foreshadow
+	- 2020
+	- Martin Schwarzl, Thomas Schuster, Michael Schwarz, Daniel Gruss
+	- https://arxiv.org/abs/2008.02307
 - Survey of Transient Execution Attacks
 	- 2020
 	- Wenjie Xiong, Jakub Szefer
