@@ -512,5 +512,9 @@ https://www.researchgate.net/publication/280306016_Pinballs_Portable_and_Shareab
 - CFGGrind: Dynamic Control Flow Graph Reconstruction
 	- https://github.com/rimsa/CFGgrind
 	- https://compilers.iecc.com/comparch/article/19-11-004
+	- Practical Dynamic Reconstruction of Control Flow Graphs
+		- Software: Practice and Experience, 2020
+		- Andrei Rimsa, José Nelson Amaral, Fernando Magno Quintão Pereira
+		- https://homepages.dcc.ufmg.br/~fernando/publications/papers/RimsaSPE20.pdf
 - Taintgrind: A taint-tracking plugin for the Valgrind memory checking tool
 	- https://github.com/wmkhoo/taintgrind
