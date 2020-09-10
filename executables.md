@@ -928,7 +928,11 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	- https://blog.vastart.dev/2020/04/calling-arbitrary-functions-in-exes.html
 * Case studies in Rich Header analysis and hunting (2018-08-09) - http://ropgadget.com/posts/richheader_hunting.html
 * Common Object File Format (COFF) - https://support.microsoft.com/en-us/help/121460/common-object-file-format-coff
-* Dynamic Reconstruction of Relocation Information for Stripped Binaries - http://www.cs.columbia.edu/~vpappas/papers/reloc.raid14.pdf
+* Dynamic Reconstruction of Relocation Information for Stripped Binaries
+	- Research in Attacks, Intrusions and Defenses (RAID) 2014
+	- Vasilis Pappas, Michalis Polychronakis, Angelos D. Keromytis
+	- http://www.cs.columbia.edu/~vpappas/papers/reloc.raid14.pdf
+	- https://www.youtube.com/watch?v=fVIuguG2mw8
 * Finding the Needle: A Study of the PE32 Rich Header and Respective Malware Triage
 	+ https://www.sec.in.tum.de/i20/publications/finding-the-needle-a-study-of-the-pe32-rich-header-and-respective-malware-triage
 	+ https://www.semanticscholar.org/paper/Finding-the-Needle-A-Study-of-the-PE32-Rich-Header-Webster-Kolosnjaji/44adfa896e6598b1723507060126125a0cad39a1
