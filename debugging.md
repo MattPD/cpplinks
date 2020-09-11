@@ -265,6 +265,10 @@ _Books, Books Reviews_
 	- https://helloqirun.github.io/papers/pldi20_yuanbo1.pdf
 	- https://www.cc.gatech.edu/~qrzhang/projects/debug/debug.html
 	- https://pldi20.sigplan.org/details/pldi-2020-papers/60/Debug-Information-Validation-for-Optimized-Code
+- Debugging Optimized Code Without Being Misled
+	- ACM Transactions on Programming Languages and Systems (TOPLAS) 16(3) 1994
+	- Max Copperman
+	- https://people.eecs.berkeley.edu/~fateman/264/papers/copperman.pdf
 - GCC gOlogy: studying the impact of optimizations on debugging
 	- 2018; Alexandre Oliva
 	- https://www.fsfla.org/~lxoliva/writeups/gOlogy/gOlogy.txt
