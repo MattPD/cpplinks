@@ -831,6 +831,10 @@ Validation: Including translation validation, equivalence checking.
 	- Georg Neis, Chung-Kil Hur, Jan-Oliver Kaiser, Craig McLaughlin, Derek Dreyer, Viktor Vafeiadis
 	- https://people.mpi-sws.org/~dreyer/papers/pilsner/paper.pdf
 	- http://plv.mpi-sws.org/pils/
+- Program Logics for Certified Compilers
+	- Andrew W. Appel with Robert Dockins, Aquinas Hobor, Lennart Beringer, Josiah Dodds, Gordon Stewart, Sandrine Blazy, Xavier Leroy
+	- Cambridge University Press, 2014
+	- https://www.cs.princeton.edu/%7Eappel/papers/plcc.pdf
 - Pushing the Limits of Compiler Verification
 	- 2018 PhD Thesis; Eric Mullen
 	- https://homes.cs.washington.edu/~djg/theses/mullen_thesis.pdf
