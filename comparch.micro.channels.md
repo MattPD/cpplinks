@@ -1681,6 +1681,18 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 		- 2019 arXiv
 		- Marina Minkin, Daniel Moghimi, Moritz Lipp, Michael Schwarz, Jo Van Bulck, Daniel Genkin, Daniel Gruss, Frank Piessens, Berk Sunar, Yuval Yarom
 		- https://arxiv.org/abs/1905.12701
+	- Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis
+		- USENIX Security 2020
+		- Daniel Moghimi, Moritz Lipp, Berk Sunar, Michael Schwarz
+		- https://moghimi.org/papers/usenixsec20-Medusa.pdf
+		- https://www.usenix.org/conference/usenixsecurity20/presentation/moghimi-medusa
+		- Transynther: Fuzz Testing Meltdown-style attacks
+			- https://github.com/VernamLab/medusa/tree/master/Transynther
+		- Data Sampling on MDS-resistant 10th Generation Intel Core (Ice Lake)
+			- 2020
+			- Daniel Moghimi
+			- https://moghimi.org/papers/techreport2020-IceLakeMDS.pdf
+			- https://github.com/danielmgmi/IceBreak
 	- RIDL: Rogue In-Flight Data Load
 		- IEEE Symposium on Security and Privacy (S&P) 2019
 		- Stephan van Schaik, Alyssa Milburn, Sebastian Österlund, Pietro Frigo, Giorgi Maisuradze, Kaveh Razavi, Herbert Bos, and Cristiano Giuffrida
