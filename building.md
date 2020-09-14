@@ -569,6 +569,8 @@ See also:
 	- https://izzys.casa/2019/02/everything-you-never-wanted-to-know-about-cmake/
 - How to Build a CMake-Based Project
 	- http://preshing.com/20170511/how-to-build-a-cmake-based-project/
+- How To Find Packages With CMake: The Basics
+	- https://dev.to/slurpsmadrips/how-to-find-packages-with-cmake-the-basics-ikk
 - It's Time To Do CMake Right
 	- https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/
 - Learn CMake's Scripting Language in 15 Minutes
