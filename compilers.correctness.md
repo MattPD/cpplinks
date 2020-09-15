@@ -524,6 +524,9 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Design and Evolution of C-Reduce
 		- Part 1: https://blog.regehr.org/archives/1678
 		- Part 2: https://blog.regehr.org/archives/1679
+- C-Vise: a super-parallel Python port of the C-Reduce
+	- The port is fully compatible to the C-Reduce and uses the same efficient LLVM-based C/C++ reduction tool named clang_delta.
+	- https://github.com/marxin/cvise
 
 ## Testing: Talks
 
