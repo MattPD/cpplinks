@@ -1890,6 +1890,11 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- DIMVA 2017
 	- Michael Schwarz, Samuel Weiser, Daniel Gruss, Clémentine Maurice, Stefan Mangard
 	- https://arxiv.org/abs/1702.08719
+- Microarchitectural Side-Channel Attacks for Privileged Software Adversaries
+	- 2020 PhD Dissertation
+	- Jo Van Bulck
+	- https://lirias.kuleuven.be/3047121
+	- https://jovanbulck.github.io/files/phd-thesis.pdf
 - MicroScope: Enabling Microarchitectural Replay Attacks
 	- International Symposium on Computer Architecture (ISCA) 2019
 	- Dimitrios Skarlatos, Mengjia Yan, Bhargava Gopireddy, Read Sprabery, Josep Torrellas, Christopher Fletcher
