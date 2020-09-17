@@ -672,6 +672,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 		- <https://community.arm.com/cfs-file/__key/telligent-evolution-components-attachments/01-2142-00-00-00-01-20-49/ARMv8_2D00_A-SVE-technology-Hot-Chips-v12.pdf>
 - Scalable Vector Extension support for AArch64 Linux
 	- https://www.kernel.org/doc/html/latest/arm64/sve.html
+- SVE Programming Examples
+	- https://developer.arm.com/documentation/dai0548/latest/
 - The ARM Scalable Vector Extension
 	- IEEE Micro, March 2017
 	- Nigel Stephens, Stuart Biles, Matthias Boettcher, Jacob Eapen, Mbou Eyole, Giacomo Gabrielli, Matt Horsnell, Grigorios Magklis, Alejandro Martinez, Nathanael Premillieu, Alastair Reid, Alejandro Rico, Paul Walker
