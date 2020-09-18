@@ -209,11 +209,6 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- N. Hasabnis, R. Qiao, R. Sekar 
 	- http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15.pdf
 	- http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15_talk.pdf
-- Closer to the Edge: Testing Compilers More Thoroughly by Being Less Conservative About Undefined Behaviour
-	- Automated Software Engineering (ASE) 2020
-	- Karine Even-Mendoza, Cristian Cadar, Alastair F. Donaldson
-	- https://srg.doc.ic.ac.uk/projects/csmithedge/
-	- https://srg.doc.ic.ac.uk/files/papers/csmithedge-ase-nier-20.pdf
 - Compiler fuzzing, part 1
 	- http://www.vegardno.net/2018/06/compiler-fuzzing.html
 - Compiler Fuzzing through Deep Learning
@@ -237,11 +232,6 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- IEEE Transactions on Software Engineering (2019)
 	- Junjie Chen, Guancheng Wang, Dan Hao, Yingfei Xiong, Hongyu Zhang, Lu Zhang, Bing Xie
 	- https://ieeexplore.ieee.org/abstract/document/8588375
-- CUDAsmith: A Fuzzer for CUDA Compilers
-	- Computers, Software and Applications Conference (COMPSAC) 2020
-	- Bo Jiang, Xiaoyan Wang, W. K. Chan, T. H. Tse, Na Li, Yongfeng Yin, Zhenyu Zhang
-	- https://www.cs.hku.hk/data/techreps/document/TR-2020-05.pdf
-	- https://github.com/gongbell/CUDAsmith
 - DATm: Diderot's Automated Testing Model.
 	- 39th International Conference on Software Engineering ICSE (12th International Workshop on Automation of Software Test AST) 2017
 	- C. Chiw, G. Kindlmann, J. Reppy
@@ -331,6 +321,27 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://www.cs.utah.edu/~regehr/papers/pldi13.pdf
 	- Fuzzers Need Taming - https://blog.regehr.org/archives/925
 - Testing LLVM - http://blog.regehr.org/archives/1450
+- The problem with differential testing is that at least one of the compilers must get it right
+	- http://blog.frama-c.com/index.php?post/2013/09/25/The-problem-with-differential-testing-is-that-at-least-one-of-the-compilers-must-get-it-right
+
+### Testing: Readings: 2020
+
+- Closer to the Edge: Testing Compilers More Thoroughly by Being Less Conservative About Undefined Behaviour
+	- Automated Software Engineering (ASE) 2020
+	- Karine Even-Mendoza, Cristian Cadar, Alastair F. Donaldson
+	- https://srg.doc.ic.ac.uk/projects/csmithedge/
+	- https://srg.doc.ic.ac.uk/files/papers/csmithedge-ase-nier-20.pdf
+- CUDAsmith: A Fuzzer for CUDA Compilers
+	- Computers, Software and Applications Conference (COMPSAC) 2020
+	- Bo Jiang, Xiaoyan Wang, W. K. Chan, T. H. Tse, Na Li, Yongfeng Yin, Zhenyu Zhang
+	- https://www.cs.hku.hk/data/techreps/document/TR-2020-05.pdf
+	- https://github.com/gongbell/CUDAsmith
+- Putting Randomized Compiler Testing into Production
+	- ECOOP 2020
+	- Alastair Donaldson, Hugues Evrard, Paul Thomson
+	- https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2020/ECOOP_GraphicsFuzz.pdf
+	- https://2020.ecoop.org/details/ecoop-2020-papers/22/Putting-Randomized-Compiler-Testing-into-Production
+	- http://multicore.doc.ic.ac.uk/tools/GraphicsFuzz/ECOOP2020Artifact/
 - Testing Static Analyses for Precision and Soundness
 	- Code Generation and Optimization (CGO) 2020
 	- Jubi Taneja, Zhengyang Liu, John Regehr
@@ -340,8 +351,6 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 		- https://blog.regehr.org/archives/1709
 		- LLVM Dataflow Info Printer Pass
 			- https://github.com/regehr/llvm-dataflow-info
-- The problem with differential testing is that at least one of the compilers must get it right
-	- http://blog.frama-c.com/index.php?post/2013/09/25/The-problem-with-differential-testing-is-that-at-least-one-of-the-compilers-must-get-it-right
 
 ### Testing: Readings: Performance Optimization
 
@@ -424,7 +433,7 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- LLVM bugpoint tool: design and usage
 		- https://llvm.org/docs/Bugpoint.html
 	- Reduce Your Testcases with Bugpoint and Custom Scripts
-		- http://blog.llvm.org/2015/11/reduce-your-testcases-with-bugpoint-and.html
+		- https://blog.llvm.org/posts/2015-11-12-reduce-your-testcases-with-bugpoint-and/
 	- How to reduce a test case using LLVM bugpoint?
 		- 2020; Djordje Todorovic
 		- https://djolertrk.github.io/llvm-debug-info-blog/
