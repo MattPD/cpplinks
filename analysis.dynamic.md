@@ -324,6 +324,8 @@ https://www.researchgate.net/publication/280306016_Pinballs_Portable_and_Shareab
 		- LeakSanitizer - https://clang.llvm.org/docs/LeakSanitizer.html
 		- MemorySanitizer - https://clang.llvm.org/docs/MemorySanitizer.html
 		- SanitizerCoverage - https://clang.llvm.org/docs/SanitizerCoverage.html
+			- SanCov: Above and Below the Sanitizer Interface
+				- https://calabi-yau.space/blog/sanitizer-coverage-interface.html
 		- SanitizerStats - https://clang.llvm.org/docs/SanitizerStats.html
 		- Sanitizer special case list - https://clang.llvm.org/docs/SanitizerSpecialCaseList.html
 		- ThreadSanitizer - https://clang.llvm.org/docs/ThreadSanitizer.html
