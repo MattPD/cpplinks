@@ -19,12 +19,12 @@ See also:
 	+ [Software Engineering](#software-engineering)
 	+ [Transparency](#transparency)
 * [Software](#software):
-	+ [GDB](#gdb): [Projects](#projects), [Readings](#readings-1), [Talks](#talks)
-	+ [LLDB](#lldb): [Projects](#projects-1), [Readings](#readings-2), [Talks](#talks-1)
+	+ [GDB](#gdb): [Projects](#gdb-projects), [Readings](#gdb-readings), [Talks](#gdb-talks)
+	+ [LLDB](#lldb): [Projects](#lldb-projects), [Readings](#lldb-readings), [Talks](#lldb-talks)
 	+ [RR](#rr)
 	+ [OS-specific](#os-specific): [iOS](#iOS), [Linux](#linux), [macOS](#macos), [Windows](#windows) - [WinDbg](#windbg)
 	+ [Stack Trace & Unwinding](#stack-trace--unwinding)
-* [Talks](#talks-2): [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
+* [Talks](#talks): [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
 
 ---
 
@@ -52,7 +52,6 @@ See also:
 	+ Debug Mode: https://libcxx.llvm.org/docs/DesignDocs/DebugMode.html
 	+ GDB pretty-printers for libc++
 		- https://github.com/llvm/llvm-project/blob/master/libcxx/utils/gdb/libcxx/printers.py
-		- https://chromium.googlesource.com/chromium/src/+/master/third_party/libcxx-pretty-printers/printers.py
 		- https://github.com/koutheir/libcxx-pretty-printers
 * Visual C++ Debug Iterator Support: https://docs.microsoft.com/en-us/cpp/standard-library/debug-iterator-support
 
@@ -121,7 +120,8 @@ See also:
 	+ https://dl.acm.org/citation.cfm?id=3359650
 	+ https://blog.acolyer.org/2019/11/08/the-inflection-point-hypothesis/
 * What does debugging a program look like? - Julia Evans - https://jvns.ca/blog/2019/06/23/a-few-debugging-resources/
-* When debugging a stack overflow, you want to focus on the repeating recursive part - Raymond Chen - https://blogs.msdn.microsoft.com/oldnewthing/20090107-00/?p=19573
+* When debugging a stack overflow, you want to focus on the repeating recursive part - Raymond Chen
+	- https://devblogs.microsoft.com/oldnewthing/20090107-00/?p=19573
 
 ## Books
 
@@ -226,12 +226,12 @@ _Books, Books Reviews_
 * Samy Al Bahra, Backtrace
 	+ Compiler debug quality suite - https://github.com/backtrace-labs/cdqs
 	+ Compile Once Debug Twice: Picking a Compiler for Debuggability
-		- https://backtrace.io/blog/compile-once-debug-twice-picking-a-compiler-for-debuggability-1of3/
+		- https://backtrace.io/blog/engineering/compile-once-debug-twice-picking-a-compiler-for-debuggability-1of3/
 	+ Debugging the Debugger: Why Your Debugger Doesn’t Work When You Need it To
 		- https://backtrace.io/debuggingthedebugger/
 	+ Implementing a Debugger - Backtrace
-		- The Fundamentals - http://backtrace.io/blog/blog/2016/08/11/debugger-internals/
-		- Building a Go Debugger - https://backtrace.io/blog/building-a-go-debugger/
+		- The Fundamentals - https://backtrace.io/blog/backtrace/debugger-internals/
+		- Building a Go Debugger - https://backtrace.io/blog/backtrace/building-a-go-debugger/
 * Writing a basic Windows debugger - https://www.codeproject.com/Articles/43682/Writing-a-basic-Windows-debugger
 * Writing a Debugger - Joseph Kain - http://system.joekain.com/debugger/
 * Writing a Linux Debugger - Simon Brand
@@ -515,7 +515,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * GDB - The Architecture of Open Source Applications - Stan Shebs
 	+ http://aosabook.org/en/gdb.html
 
-### Projects
+### GDB: Projects
 
 * CGDB: Console front-end to the GNU debugger
 	- https://github.com/cgdb/cgdb
@@ -582,7 +582,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://invictus1306.github.io/vulnerabilities/2019/10/20/quickpatch.html
 * SymGDB - symbolic execution plugin for gdb - https://github.com/SQLab/symgdb
 
-#### Editor Integration
+#### GDB: Projects: Editor Integration
 
 - GDB-MI: a package by Nick Roberts which makes Emacs use GDB/MI interface to talk with the GNU Debugger
 	- https://www.emacswiki.org/emacs/GDB-MI
@@ -597,7 +597,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - RealGUD: An extensible, modular GNU Emacs front-end for interacting with external debuggers
 	- https://github.com/realgud/realgud
 
-#### Memory Debugging
+#### GDB: Projects: Memory Debugging
 
 * pahole-gdb: pahole implementation for gdb - https://github.com/PhilArmstrong/pahole-gdb
 * gdb-heap
@@ -605,7 +605,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ https://fedorahosted.org/gdb-heap/
 	+ https://fedoraproject.org/wiki/Features/MemoryDebuggingTools
 
-#### Plotting
+#### GDB: Projects: Plotting
 
 - GDBplotlib: Plotting and exporting of variables from GDB
 	- https://github.com/X-Neon/gdbplotlib
@@ -613,7 +613,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- a set of utils for: plotting from the gdb command line, saving c data to .mat files from gdb command line, exploring the stack frame
 	- https://github.com/bthcode/gdb-plot
 
-#### Profiling
+#### GDB: Projects: Profiling
 
 * gdbpmp: A GDB Based Wallclock Profiler - https://github.com/markhpc/gdbpmp
 * gdbprof: A wall clock time-based profiler built on GDB's Python interface
@@ -622,16 +622,15 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * GDB profiler: Rich man's profiler, a profiler for native OCaml and other executables
 	+ https://github.com/copy/gdbprofiler
 
-### Readings
+### GDB: Readings
 
 - 8 gdb tricks you should know - https://blogs.oracle.com/ksplice/8-gdb-tricks-you-should-know
 - Beej's Quick Guide to GDB - https://beej.us/guide/bggdb/
-- Cheatsheet - https://github.com/jshaw87/Cheatsheets/blob/master/Cheatsheet_GDB.txt
 - Extending gdbserver to support an strace client
 	- https://developers.redhat.com/blog/2020/03/16/extending-gdbserver-to-support-an-strace-client/
 - Fast Tracing with GDB - https://suchakra.wordpress.com/2016/06/29/fast-tracing-with-gdb/
-- GDB Basics Tutorial
-	- https://platform.avatao.com/paths/a0dc20fc-f1b5-43c9-89fc-3a5fccfb5f0b/challenges/166366b3-2e89-49ee-86a3-023663d197b7
+- Faster debugging with watchpoints
+	- https://interrupt.memfault.com/blog/cortex-m-watchpoints
 - gdb Debugging Full Example (Tutorial): ncurses - http://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html
 - GDB Tips and Tricks - Shane Kirk
 	- 1: A Tale of Two Terminals - http://www.shanekirk.com/2017/08/gdb-tips-and-tricks-1-a-tale-of-two-terminals/
@@ -666,12 +665,12 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- https://github.com/marcusbotacin/Reverse.Engineering.Engine
 - Victor Stinner's Notes - GDB: GNU debugger - http://vstinner.readthedocs.io/gdb.html
 
-#### Readings: Python API
+#### GDB: Readings: Python API
 
 - GDB Custom Commands: Dynamic Arrays
 	- https://testfit.io/devblog/gdb_custom_commands_dynamic_arrays
 - GDB Debugging Automation with Python: Implementing a memory leak detector
-	- https://nativecoding.wordpress.com/2016/07/31/gdb-debugging-automation-with-python/
+	- https://web.archive.org/https://nativecoding.wordpress.com/2016/07/31/gdb-debugging-automation-with-python/
 - GDB Scripting and Indirect Functions
 	- https://fasterthanli.me/blog/2020/gdb-scripting-and-indirect-functions/
 - Jeff Trull
@@ -687,7 +686,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - The GDB Python API
 	- https://developers.redhat.com/blog/2017/11/10/gdb-python-api/
 
-### Talks
+### GDB: Talks
 
 * A flexible GDB (GNU Debugger) target description for processor diversity – SFO17-210
 	- http://connect.linaro.org/resource/sfo17/sfo17-210/
@@ -742,7 +741,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 * The LLDB Debugger - https://lldb.llvm.org/
 
-### Projects
+### LLDB: Projects
 
 - ds2: Debug server for lldb
 	- ds2 is a debug server designed to be used with LLDB to perform remote debugging of Linux, Android, FreeBSD, Windows and Windows Phone targets. Windows/Windows Phone support is still under active development.
@@ -767,7 +766,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - vplot: C++ container graph visualization for lldb
 	- https://github.com/egladysh/vplot
 
-#### Editor Integration
+#### LLDB: Projects: Editor Integration
 
 * CodeLLDB: a LLDB front end for Visual Studio Code - https://github.com/vadimcn/vscode-lldb
 * LLDB Vim Frontend - https://github.com/gilligan/vim-lldb
@@ -777,7 +776,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://marketplace.visualstudio.com/items?itemName=webfreak.debug
 	- https://github.com/WebFreak001/code-debug
 
-### Readings
+### LLDB: Readings
 
 * LLDB Cheat Sheet
 	+ https://www.nesono.com/content/lldb-cheat-sheet
@@ -791,7 +790,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- 2019 Master’s Thesis; Raphael Isemann
 	- https://hdl.handle.net/20.500.12380/300037
 
-### Talks
+### LLDB: Talks
 
 * Support for mini-debuginfo in LLDB
 	- How to read the .gnu_debugdata section.
@@ -1012,7 +1011,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- vOPCDE #6 2020; Yarden Shafir
 	- https://www.youtube.com/watch?v=eONddXQjy2k
 
-##### Readings
+##### WinDbg: Readings
 
 - Collection of WinDBG resources - https://blogs.msdn.microsoft.com/reiley/2012/07/28/collection-of-windbg-resources/
 - Break On Process Creation in WinDbg
@@ -1044,7 +1043,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - WinDbg, Debugger Objects, and JavaScript! Oh, My! - https://www.osr.com/blog/2017/05/18/windbg-debugger-objects-javascript-oh/
 - Yet Another Hello World - https://blogs.msdn.microsoft.com/reiley/2011/09/29/yet-another-hello-world/
 
-##### Projects
+##### WinDbg: Projects
 
 * 0CCh Windbg extension - https://github.com/0cch/0cchext
 * DbgModelCppLib: A header-only C++ library for producing and consuming data from the debugger data model
@@ -1063,7 +1062,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * WinDBGtree: A command tree based on commands and extensions for Windows Kernel Debugging
 	+ https://github.com/vagnerpilar/windbgtree
 
-##### Time Travel Debugging
+##### WinDbg: Time Travel Debugging
 
 * Time Travel Debugging FAQ - https://blogs.msdn.microsoft.com/windbg/2017/10/20/time-travel-debugging-faq/
 * Time Travel Debugging - Overview - https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/time-travel-debugging-overview
