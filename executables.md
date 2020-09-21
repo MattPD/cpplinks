@@ -235,6 +235,9 @@ Contents:
 * Debugging formats DWARF and STAB - https://www.ibm.com/developerworks/library/os-debugging/
 * DWARF Extensions for Separate Debug Information Files - https://gcc.gnu.org/wiki/DebugFission
 * DWARF Package File Format - https://gcc.gnu.org/wiki/DebugFissionDWP
+* DWARF: Debug Information is Huge and What to do About It
+	- Samy Al Bahra
+	- https://help.backtrace.io/en/articles/1716990-dwarf
 * Exploring the DWARF debug format information - https://www.ibm.com/developerworks/aix/library/au-dwarf-debug-format/index.html
 * From Debugging-Information Based Binary-Level Type Inference to CFG Generation
 	+ Conference on Data and Application Security and Privacy (CODASPY) 2018
