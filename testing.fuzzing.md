@@ -300,6 +300,8 @@ See also:
 	- https://chromium.googlesource.com/chromium/src/testing/libfuzzer/+/HEAD/efficient_fuzzing.md
 - Fuzzing arbitrary functions in ELF binaries using LIEF and LibFuzzer
 	- https://blahcat.github.io/2018/03/11/fuzzing-arbitrary-functions-in-elf-binaries/
+- Fuzzing binaries with LLVM's libFuzzer and rev.ng
+	- https://rev.ng/blog/fuzzing/post.html
 - Introduction to using libFuzzer with llvm-toolset
 	- https://developers.redhat.com/blog/2019/03/05/introduction-to-using-libfuzzer-with-llvm-toolset/
 - libfuzzer-workshop
