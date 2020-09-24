@@ -106,29 +106,28 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 
 # Courses
 
+- Cornell CS 6120: Advanced Compilers
+	- Fall 2020; Adrian Sampson
+		- https://www.cs.cornell.edu/courses/cs6120/2020fa/
+		- source code: https://github.com/sampsyo/cs6120
+		- lectures: https://www.cs.cornell.edu/courses/cs6120/2020fa/lesson/
+			- https://vod.video.cornell.edu/channel/CS%2B6120/179754792
+			- https://cornell.app.box.com/s/wb3387ebfbte9btx3weekmc8nij5glep
 - KAIST CS420: Compiler Design
 	- Spring 2020; Jeehoon Kang
 		- https://github.com/kaist-cp/cs420
 		- https://www.youtube.com/playlist?list=PL5aMzERQ_OZ8RWqn-XiZLXm1IJuaQbXp0
 	- KECC: KAIST Educational C Compiler
-		- https://github.com/kaist-cp/cs420
-- Stanford OpenEdX: Compilers - Alex Aiken
-	- http://online.stanford.edu/course/compilers-0
-- University of Utah: Advanced Compilers - John Regehr
-	- Weeks 1 and 2: http://blog.regehr.org/archives/1419
-	- Weeks 3-5: http://blog.regehr.org/archives/1428
-- UW CSE CSEP 501: Compilers - Hal Perkins
-	- https://courses.cs.washington.edu/courses/csep501/
-	- Winter 2018
-		- Homepage: https://courses.cs.washington.edu/courses/csep501/18sp/
-		- Lecture Videos: https://courses.cs.washington.edu/courses/csep501/18sp/video/
-	- Winter 2016
-		- Homepage: https://courses.cs.washington.edu/courses/csep501/16wi/
-		- Playlist: https://www.youtube.com/playlist?list=PLTPQEx-31JXhfAWGnGzwbfhB2zUB7Jd4C
-		- Topics: https://courses.cs.washington.edu/courses/csep501/16wi/calendar/lecturelist.html
+		- https://github.com/kaist-cp/kecc-public
+- NPTEL: Compiler Design
+	- 2011; Y.N. Srikant
+		- https://nptel.ac.in/courses/106108052/
+		- https://www.youtube.com/playlist?list=PL3690D679B876DE6A
 - SFU CMPT 886: Program Analysis and Reliability - Nick Sumner, Spring 2015
 	- Playlist: https://www.youtube.com/playlist?list=PLNC6lmsIySCOPjY8IwKBtD2cqe-MMgIGM
 	- Schedule & Slides: http://www.cs.sfu.ca/~wsumner/teaching/886/15/schedule.html
+- Stanford OpenEdX: Compilers - Alex Aiken
+	- http://online.stanford.edu/course/compilers-0
 - UCB CS294-113: Virtual Machines and Managed Runtimes
 	- http://www.wolczko.com/CS294/
 	- A Concise and Opinionated History of Virtual Machines
@@ -150,10 +149,18 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 	- 2020; Fernando Magno Quintão Pereira
 	- https://homepages.dcc.ufmg.br/~fernando/classes/dcc888/
 	- https://www.youtube.com/playlist?list=PLC-dUCVQghfdu7AG5f_p4oRyKgjDuoAWU
-- NPTEL: Compiler Design
-	- 2011; Y.N. Srikant
-		- https://nptel.ac.in/courses/106108052/
-		- https://www.youtube.com/playlist?list=PL3690D679B876DE6A
+- University of Utah: Advanced Compilers - John Regehr
+	- Weeks 1 and 2: http://blog.regehr.org/archives/1419
+	- Weeks 3-5: http://blog.regehr.org/archives/1428
+- UW CSE CSEP 501: Compilers - Hal Perkins
+	- https://courses.cs.washington.edu/courses/csep501/
+	- Winter 2018
+		- Homepage: https://courses.cs.washington.edu/courses/csep501/18sp/
+		- Lecture Videos: https://courses.cs.washington.edu/courses/csep501/18sp/video/
+	- Winter 2016
+		- Homepage: https://courses.cs.washington.edu/courses/csep501/16wi/
+		- Playlist: https://www.youtube.com/playlist?list=PLTPQEx-31JXhfAWGnGzwbfhB2zUB7Jd4C
+		- Topics: https://courses.cs.washington.edu/courses/csep501/16wi/calendar/lecturelist.html
 
 # Implementations
 
