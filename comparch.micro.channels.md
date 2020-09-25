@@ -1780,6 +1780,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- 2020
 	- Martin Schwarzl, Thomas Schuster, Michael Schwarz, Daniel Gruss
 	- https://arxiv.org/abs/2008.02307
+- Speculative Probing: Hacking Blind in the Spectre Era
+	- ACM Conference on Computer and Communications Security (CCS) 2020
+	- Enes Göktaş, Kaveh Razavi, Georgios Portokalidis, Herbert Bos, Cristiano Giuffrida
+	- https://www.vusec.net/projects/blindside/
 - Survey of Transient Execution Attacks
 	- 2020
 	- Wenjie Xiong, Jakub Szefer
