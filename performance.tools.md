@@ -104,14 +104,14 @@
 	- MALT: a MALloc Tracker to find where and how your made your memory allocations in C/C++/Fortran applications
 		- https://memtt.github.io/malt/
 		- https://github.com/memtt/malt
-	- MALT: A Malloc Tracker
-		- International Workshop on Software Engineering for Parallel Systems (SEPS) 2017
-		- Sébastien Valat, Andres S. Charif-Rubial, William Jalby
-		- paper: https://memtt.github.io/malt/downloads/2017-seps-malt.pdf
-		- slides: https://svalat.github.io/docs/2017-10-MALT-SEPS17.pdf
-	- FOSDEM 2019; Sébastien Valat
-		- https://www.youtube.com/watch?v=TnMOjdIy_Ow
-		- https://fosdem.org/2019/schedule/event/numaprof/
+		- MALT: A Malloc Tracker
+			- International Workshop on Software Engineering for Parallel Systems (SEPS) 2017
+			- Sébastien Valat, Andres S. Charif-Rubial, William Jalby
+			- paper: https://memtt.github.io/malt/downloads/2017-seps-malt.pdf
+			- slides: https://svalat.github.io/docs/2017-10-MALT-SEPS17.pdf
+		- FOSDEM 2019; Sébastien Valat
+			- https://www.youtube.com/watch?v=TnMOjdIy_Ow
+			- https://fosdem.org/2019/schedule/event/numaprof/
 - Memoro: A Detailed Heap Profiler
 	- https://epfl-vlsc.github.io/memoro/
 	- https://github.com/epfl-vlsc/memoro
@@ -124,7 +124,7 @@
 		- https://www.youtube.com/watch?v=fm47XsATelI
 		- https://llvm.org/devmtg/2019-10/slides/Treyer-Memoro.pdf
 - memory-profiler: A memory profiler for Linux
-	- https://github.com/nokia/memory-profiler
+	- https://github.com/koute/memory-profiler
 - memtrail: A LD_PRELOAD based memory profiler and leak detector for Linux
 	- ​https://github.com/jrfonseca/memtrail
 - memusage - profile memory usage of a program
@@ -166,7 +166,7 @@
 		- https://sc18.supercomputing.org/proceedings/src_poster/src_poster_pages/spost115.html
 - BHive: A Benchmark Suite and Measurement Framework for Validating x86-64 Basic Block Performance Models
 	- IISWC 2019
-	- Yishen Chen, Ajay Brahmakshatriya, Charith Mendis, Alex Renda, Eric Atkinson, Ondrej Sykora, Saman Amarasinghe, Michael Carbin 
+	- Yishen Chen, Ajay Brahmakshatriya, Charith Mendis, Alex Renda, Eric Atkinson, Ondrej Sykora, Saman Amarasinghe, Michael Carbin
 	- http://groups.csail.mit.edu/commit/papers/19/ithemal-measurement.pdf
 	- https://github.com/ithemal/bhive
 - Intel Architecture Code Analyzer (IACA)
@@ -177,7 +177,7 @@
 	- https://github.com/psg-mit/Ithemal
 	- Ithemal: Accurate, Portable and Fast Basic Block Throughput Estimation using Deep Neural Networks
 		- ICML 2019
-		- Charith Mendis, Alex Renda, Saman Amarasinghe, Michael Carbin 
+		- Charith Mendis, Alex Renda, Saman Amarasinghe, Michael Carbin
 		- https://arxiv.org/abs/1808.07412
 		- http://proceedings.mlr.press/v97/mendis19a.html
 - llvm-exegesis – LLVM Machine Instruction Benchmark
@@ -208,6 +208,10 @@
 	- nanoBench Cache Analyzer
 		- https://github.com/andreas-abel/nanoBench/tree/master/tools/CacheAnalyzer
 		- https://uops.info/cache.html
+	- Automatic Generation of Models of Microarchitectures
+		- 2020 PhD Dissertation; Andreas Abel
+		- https://d-nb.info/1212853466/34
+		- https://dx.doi.org/10.22028/D291-31299
 	- uops.info: Characterizing Latency, Throughput, and Port Usage of Instructions on Intel Microarchitectures
 		- ASPLOS 2019
 		- Andreas Abel, Jan Reineke
@@ -273,7 +277,7 @@
 
 - Agner Fog's test programs for measuring clock cycles and performance monitoring
 	- http://www.agner.org/optimize/#testp
-- BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more 
+- BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more
 	- https://iovisor.github.io/bcc/
 	- https://github.com/iovisor/bcc
 	- https://github.com/iovisor/bpf-docs
