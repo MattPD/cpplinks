@@ -123,6 +123,10 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 - C++20 in Breadth (not depth!)
 	- C++Now 2019; Alisdair Meredith
 	- https://www.youtube.com/watch?v=tczJe5YGHuc
+- C++20: An (Almost) Complete Overview
+	- CppCon 2020; Marc Gregoire
+	- https://www.youtube.com/watch?v=FRkJCvHWdwQ
+	- https://github.com/CppCon/CppCon2020/tree/main/Presentations/cpp20_an_almost_complete_overview
 - C++20: C++ at 40
 	- CppCon 2019; Bjarne Stroustrup
 	- https://www.youtube.com/watch?v=u_ij0YNkFUs
@@ -339,13 +343,13 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 - C++17 Features
 	- https://www.bfilipek.com/2017/01/cpp17features.html
 	- https://github.com/fenbf/cpp17features
-- C++17 in details: language clarifications 
+- C++17 in details: language clarifications
 	- http://www.bfilipek.com/2017/06/cpp17-details-clarifications.html
 - C++17 in detail: Summary & Bonus
 	- http://www.bfilipek.com/2017/09/c17-in-detail-summary-bonus.html
 - C++ Status at the end of 2016
 	- http://www.bfilipek.com/2016/12/c-status-at-end-of-2016.html
-- C++ Status at the end of 2017 
+- C++ Status at the end of 2017
 	- https://www.bfilipek.com/2017/12/cpp-status-2017.html
 - What's in C++17? - JF Bastien
 	- Slides: https://jfbastien.github.io/what-is-cpp17
@@ -364,7 +368,7 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- http://www.cppstd17.com/
 - C++ Concurrency in Action, Second Edition
 	- 2017 (early access) / 2018 (publication)
-	- Anthony Williams 
+	- Anthony Williams
 	- https://www.manning.com/books/c-plus-plus-concurrency-in-action-second-edition
 - C++ Templates - The Complete Guide, 2nd Edition
 	- 2017; David Vandevoorde, Nicolai M. Josuttis, and Douglas Gregor
@@ -526,7 +530,7 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 - Red Hat at the ISO C++ Standards Meeting (March 2016): Parallelism, Concurrency, and Coroutines
 	- https://developers.redhat.com/blog/2016/04/21/red-hat-at-the-iso-c-standards-meeting-march-2016-parallelism-concurrency-and-coroutines/
 - Trip report: C++ meeting at Jacksonville - https://usingstdcpp.org/2016/03/05/trip-report-c-meeting-at-jacksonville/
-  
+
 ### 2015-05 Lenexa
 
 - Lenexa C++ Meeting Report (Core Language)
@@ -811,7 +815,7 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 		- http://www.cs.columbia.edu/%7Eaho/Talks/12-09-07_DMR.pdf
 	- Doug McIlroy at the Dennis Ritchie Tribute at Bell Labs
 		- https://vimeo.com/73204980
-- Workshop on Quality Software: A Festschrift for Bjarne Stroustrup 
+- Workshop on Quality Software: A Festschrift for Bjarne Stroustrup
 	- https://parasol.tamu.edu/bjarnefest/
 	- https://www.youtube.com/playlist?list=PLRgQTVaiosr8MCB7CAwvtNMa-zAnW1_Vz
 
