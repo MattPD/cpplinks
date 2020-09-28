@@ -47,7 +47,7 @@
 	+ https://monoinfinito.wordpress.com/2013/07/25/c-exceptions-under-the-hood-appendix-iii-rtti-and-exceptions-orthogonality/
 * Simon Brand - Functional exceptionless error-handling with optional and expected
 	+ Demonstrates how to use `optional` and `expected` with monadic extensions.
-	+ https://blog.tartanllama.xyz/optional-expected/        
+	+ https://blog.tartanllama.xyz/optional-expected/
 * "Buckaroo" - Error Handling in C++ or: Why You Should Use Eithers in Favor of Exceptions and Error-codes
 	+ Presents some reasons to use Eithers (A.K.A. `std::expected`) instead of other alternatives.
 	+ https://hackernoon.com/error-handling-in-c-or-why-you-should-use-eithers-in-favor-of-exceptions-and-error-codes-f0640912eb45
@@ -146,16 +146,16 @@
 	+ Stack Frame Destruction - http://web.archive.org/web/20141208235529/http://theofilos.cs.columbia.edu/blog/2013/10/03/c-exception-handling-stack-frame-destruction/
 * Jeff Preshing - The Cost of Enabling Exception Handling
 	+ Uses microbenchmarking and assembly analysis to examine the effect of enabling exceptions.
-	+ http://preshing.com/20110807/the-cost-of-enabling-exception-handling/        
+	+ http://preshing.com/20110807/the-cost-of-enabling-exception-handling/
 * Vittorio Romeo - Why choose sum types over exceptions?
 	+ A case study of somewhere you might want to choose sum types over exceptions, along with some more general guidance.
-	+ https://vittorioromeo.info/index/blog/adts_over_exceptions.html        
+	+ https://vittorioromeo.info/index/blog/adts_over_exceptions.html
 * Patrice Roy - Exceptions in C++ and their Costs
 	+ A series of microbenchmarks looking at the tradeoffs between exceptions and error codes.
 	+ http://h-deb.clg.qc.ca/Sujets/Developpement/Exceptions-Costs.html
 * Herb Sutter - When and How to Use Exceptions
 	+ Guidelines on which cases to use exceptions for.
-	+ http://www.drdobbs.com/when-and-how-to-use-exceptions/184401836        
+	+ http://www.drdobbs.com/when-and-how-to-use-exceptions/184401836
 * Ian Lance Taylor
 	+ GCC Exception Frames - https://www.airs.com/blog/archives/166
 	+ Exception Destruction - https://www.airs.com/blog/archives/257
@@ -205,7 +205,7 @@
 * C++ Exception Handling for IA64
 	+ USENIX Workshop on Industrial Experiences with Systems Software (WIESS) 2000
 	+ Christophe de Dinechin
-	+ http://www.usenix.org/events/wiess2000/dinechin.html 
+	+ http://www.usenix.org/events/wiess2000/dinechin.html
 * Exception Handling: Issues and a Proposed Notation
 	+ Communications of the ACM (CACM) 18(12) 1975
 	+ John B. Goodenough
@@ -298,7 +298,7 @@
 	- Yuchi Tian, Baishakhi Ray
 	- https://yuchi1989.github.io/papers/fse17-ErrDoc.pdf
 	- ErrDoc: Tool for detecting, categorizing, and repairing error handling bugs - https://github.com/yuchi1989/ErrDoc/
-- Detecting Error-Handling Bugs without Error Specification Input 
+- Detecting Error-Handling Bugs without Error Specification Input
 	- Automated Software Engineering (ASE) 2019
 	- Zhouyang Jia, Shanshan Li, Tingting Yu, Xiangke Liao, Ji Wang, Xiaodong Liu, Yunhuai Liu
 	- https://doi.org/10.1109/ASE.2019.00029
@@ -310,7 +310,7 @@
 	- https://dl.acm.org/citation.cfm?id=3338960
 	- https://thakur.cs.ucdavis.edu/bibliography/defreez_rubio_thakur_FSE2019.html
 	- https://github.com/ucd-plse/eesi
-- Fuzzing Error Handling Code in Device Drivers Based on Software Fault Injection 
+- Fuzzing Error Handling Code in Device Drivers Based on Software Fault Injection
 	- ISSRE 2019 - The 30th International Symposium on Software Reliability Engineering
 	- Zu-Ming Jiang, Jia-Ju Bai, Julia Lawall, Shi-Min Hu
 	- https://hal.inria.fr/hal-02389293/
@@ -319,7 +319,7 @@
 	- Zu-Ming Jiang, Jia-Ju Bai, Kangjie Lu, Shi-Min Hu
 	- https://www-users.cs.umn.edu/~kjlu/papers/fifuzz.pdf
 	- https://www.usenix.org/conference/usenixsecurity20/presentation/jiang
-- Testing Error Handling Code in Device Drivers Using Characteristic Fault Injection 
+- Testing Error Handling Code in Device Drivers Using Characteristic Fault Injection
 	- 2016 USENIX Annual Technical Conference
 	- Jia-Ju Bai, Yu-Ping Wang, Jie Yin, Shi-Min Hu
 	- https://www.usenix.org/node/196270
@@ -434,6 +434,12 @@
 
 # Talks
 
+## 2020
+
+- Exceptions Under the Spotlight
+	- Munich C++ User Group (MUC++) 2020; Inbal Levi
+	- https://www.youtube.com/watch?v=7mQBfl2K-5Y
+
 ## 2019
 
 * Back to Basics: Exception Handling and Exception Safety
@@ -446,7 +452,7 @@
 * Don't write exception classes, declare exception types
 	+ SwedenCpp 2019; Harald Achitz
 	+ https://www.youtube.com/watch?v=EGJAisKmUvU
-	+ https://a4z.bitbucket.io/presentations/cpp2/errtypes/ 
+	+ https://a4z.bitbucket.io/presentations/cpp2/errtypes/
 * Error Handling is Cancelling Operations
 	+ CppCon 2019; Andrzej Krzemieński
 	+ https://www.youtube.com/watch?v=zte8IxkHqc4
