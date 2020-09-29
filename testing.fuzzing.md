@@ -103,7 +103,7 @@ See also:
 	- https://lafintel.wordpress.com/2016/08/15/circumventing-fuzzing-roadblocks-with-compiler-transformations/
 	- LAF LLVM Passes - https://gitlab.com/laf-intel/laf-llvm-pass
 - Fuzzers love assertions
-	- Jesse Ruderman 
+	- Jesse Ruderman
 	- http://www.squarefree.com/2014/02/03/fuzzers-love-assertions/
 - Fuzzing with AFL workshop
 	- SteelCon 2017, BSides London and Bristol 2019
@@ -160,9 +160,6 @@ See also:
 		- Security and Privacy (S&P) 2018
 		- Peng Chen, Hao Chen
 		- https://arxiv.org/abs/1803.01307
-- ClusterFuzz: a scalable fuzzing infrastructure which finds security and stability issues in software
-	- https://github.com/google/clusterfuzz
-	- https://opensource.googleblog.com/2019/02/open-sourcing-clusterfuzz.html
 - DeepState: A unit test-like interface for fuzzing and symbolic execution
 	- DeepState is a framework that provides C and C++ developers with a common interface to various symbolic execution and fuzzing engines. Users can write one test harness using a Google Test-like API, then execute it using multiple backends without having to learn the complexities of the underlying engines. It supports writing unit tests and API sequence tests, as well as automatic test generation.
 	- https://github.com/trailofbits/deepstate
@@ -240,6 +237,17 @@ See also:
 - zzuf: a transparent application input fuzzer
 	- https://github.com/samhocevar/zzuf
 	- http://caca.zoy.org/wiki/zzuf
+
+## Software: Infrastructure
+
+- ClusterFuzz: a scalable fuzzing infrastructure which finds security and stability issues in software
+	- https://github.com/google/clusterfuzz
+	- https://opensource.googleblog.com/2019/02/open-sourcing-clusterfuzz.html
+- OneFuzz: A self-hosted Fuzzing-As-A-Service platform
+	- https://github.com/microsoft/onefuzz
+- OSS-Fuzz: Continuous Fuzzing for Open Source Software
+	- https://github.com/google/oss-fuzz
+	- https://google.github.io/oss-fuzz/
 
 ## Software: AFL
 
@@ -384,7 +392,7 @@ Fuzzing applied to software performance.
 ## Talks: 2019
 
 - C++ Sanitizers and Fuzzing for the Windows Platform Using New Compilers, Visual Studio, and Azure
-	- CppCon 2019: Jim Radigan 
+	- CppCon 2019: Jim Radigan
 	- https://www.youtube.com/watch?v=0EsqxGgYOQU
 	- https://github.com/CppCon/CppCon2019/tree/master/Presentations/address_sanitizers__cloud_at_microsoft
 - Fuzzing for developers
@@ -404,7 +412,7 @@ Fuzzing applied to software performance.
 	- Meeting C++ 2019; Tina Ulbrich, Niel Waldren
 	- https://meetingcpp.com/mcpp/slides/2019/Testing%20Legacy%20Code%20-%20Fuzzing%20for%20Better%20Input%20Data.pdf
 -  What the Fuzz
-	- Black Hat Europe 2019; Cornelius Aschermann and Sergej Schumilo 
+	- Black Hat Europe 2019; Cornelius Aschermann and Sergej Schumilo
 	- https://www.youtube.com/watch?v=Wy7qY5ms3qY
 	- https://www.blackhat.com/eu-19/briefings/schedule/#what-the-fuzz-18031
 
@@ -426,14 +434,14 @@ Fuzzing applied to software performance.
 	- https://www.youtube.com/watch?v=DFQT1YxvpDo
 	- https://vimeo.com/292689978
 - Making Your Library More Reliable with Fuzzing
-	- C++Now 2018; Marshall Clow 
+	- C++Now 2018; Marshall Clow
 	- https://www.youtube.com/watch?v=LlLJRHToyUk
 	- https://github.com/boostcon/cppnow_presentations_2018/blob/master/05-10-2018_thursday/making_your_library_more_reliable_with_fuzzing__marshall_clow__cppnow_05182018.pdf
 - Seems Exploitable: Exposing Hidden Exploitable Behaviors Using Extended Differential Fuzzing
 	- HITB2018AMS; Fernando Arnaboldi
 	- https://conference.hitb.org/hitbsecconf2018ams/sessions/seems-exploitable-exposing-hidden-exploitable-behaviors-using-extended-differential-fuzzing/
 - Structure aware fuzzing
-	- Meeting C++ 2018; Réka Kovács 
+	- Meeting C++ 2018; Réka Kovács
 	- https://www.youtube.com/watch?v=wTWNmOSKfD4
 	- https://meetingcpp.com/mcpp/slides/2018/Structured%20fuzzing.pdf
 - Want more stable kernel? Fuzz it!
