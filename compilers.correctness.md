@@ -79,7 +79,7 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- Jacqueline M. Caron, Peter A. Darnell
 	- https://doi.org/10.1145/74105.74106
 - Compiler Bug Isolation via Effective Witness Test Program Generation
-	- ESEC/FSE 2019 
+	- ESEC/FSE 2019
 	- Junjie Chen, Jiaqi Han, Peiyi Sun, Lingming Zhang, Dan Hao, Lu Zhang
 	- https://dl.acm.org/citation.cfm?id=3338957
 	- https://personal.utdallas.edu/~lxz144130/publications/fse2019.pdf
@@ -151,16 +151,16 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 		- Correct and Secure Compilation for Multi-Language Software - Amal Ahmed
 			- https://www.youtube.com/playlist?list=PL0DsGHMPLUWUSJ8_THYt6Jcu7Kgp2kjaP
 	- 2016 - https://www.cs.uoregon.edu/research/summerschool/summer16/curriculum.php
-		- Logical relations/Compiler verification - Amal Ahmed 
+		- Logical relations/Compiler verification - Amal Ahmed
 			- https://www.youtube.com/playlist?list=PLiHLLF-foEexzqkMlTqzbbX_7V45MAXyX
 	- 2015 - https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html
-		- Logical Relations - Amal Ahmed 
+		- Logical Relations - Amal Ahmed
 			- https://www.youtube.com/playlist?list=PLiHLLF-foEex7BOvMbrbUFC9XgU7fZW66
 	- 2014 - https://www.cs.uoregon.edu/research/summerschool/summer14/curriculum.html
 		- Software Verification - Andrew Appel
 	- 2013 - https://www.cs.uoregon.edu/research/summerschool/summer13/curriculum.html
 		- Logical Relations - Amal Ahmed
-		- Verifying LLVM Optimizations in Coq - Steve Zdancewic 
+		- Verifying LLVM Optimizations in Coq - Steve Zdancewic
 	- 2012 - https://www.cs.uoregon.edu/research/summerschool/summer12/curriculum.html
 		- Logical Relations - Amal Ahmed
 		- Compiler verification - Xavier Leroy
@@ -204,9 +204,9 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- IEEE International Symposium on Software Reliability Engineering (ISSRE) 2018
 	- Josie Holmes and Alex Groce
 	- https://agroce.github.io/issre18.pdf
-- Checking Correctness of Code Generator Architecture Specifications 
+- Checking Correctness of Code Generator Architecture Specifications
 	- Code Generation and Optimization (CGO) 2015
-	- N. Hasabnis, R. Qiao, R. Sekar 
+	- N. Hasabnis, R. Qiao, R. Sekar
 	- http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15.pdf
 	- http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15_talk.pdf
 - Compiler fuzzing, part 1
@@ -352,6 +352,15 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 		- LLVM Dataflow Info Printer Pass
 			- https://github.com/regehr/llvm-dataflow-info
 
+### Testing: Readings: Generation
+
+- Stack-Driven Program Generation of WebAssembly
+	- Asian Symposium on Programming Languages and Systems (APLAS) 2020
+	- Árpád Perényi, Jan Midtgaard
+	- https://janmidtgaard.dk/papers/Perenyi-Midtgaard%3aAPLAS20.pdf
+	- Property-Based Testing of WebAssembly
+		- https://github.com/jmid/wasm-prop-tester
+
 ### Testing: Readings: Performance Optimization
 
 - Compiler Testing via a Theory of Sound Optimisations in the C11/C++11 Memory Model
@@ -378,7 +387,7 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://hal.inria.fr/hal-01682683
 - Lost in translation: Exposing hidden compiler optimization opportunities
 	- 2019 arXiv
-	- Kyriakos Georgiou, Zbigniew Chamski, Andres Amaya Garcia, David May, Kerstin Eder 
+	- Kyriakos Georgiou, Zbigniew Chamski, Andres Amaya Garcia, David May, Kerstin Eder
 	- https://arxiv.org/abs/1903.11397
 	- https://github.com/TrustworthySystemLab/LostInTranslation
 - Random Testing of Compilers’ Performance Based on Mixed Static and Dynamic Code Comparison
@@ -670,7 +679,7 @@ Validation: Including translation validation, equivalence checking.
 # Verification
 
 - A Higher-Order Abstract Syntax Approach to the Verified Compilation of Functional Programs
-	- 2016 PhD thesis; Yuting Wang 
+	- 2016 PhD thesis; Yuting Wang
 	- https://arxiv.org/abs/1702.03363
 	- http://www.cs.yale.edu/homes/wang-yuting/files/phd_thesis.pdf
 - A Verified Compiler for a Linear Function/Imperative Intermediate Language
@@ -781,7 +790,7 @@ Validation: Including translation validation, equivalence checking.
 		- https://hal.inria.fr/hal-01399482/
 	- CompCertM: CompCert with Lightweight Modular Verification and Multi-Language Linking
 		- POPL 2020
-		- Youngju Song, Minki Cho, Dongjoo Kim, Yonghyun Kim, Jeehoon Kang, Chung-Kil Hur 
+		- Youngju Song, Minki Cho, Dongjoo Kim, Yonghyun Kim, Jeehoon Kang, Chung-Kil Hur
 		- https://sf.snu.ac.kr/compcertm/
 	- CompCertS: A Memory-Aware Verified C Compiler Using a Pointer as Integer Semantics
 		- Journal of Automated Reasoning 63(2) (2019)
