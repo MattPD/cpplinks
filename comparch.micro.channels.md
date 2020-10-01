@@ -62,7 +62,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://strathprints.strath.ac.uk/66223/1/Biswas_etal_ACM_CS_2017_A_survey_of_timing_channels_and_countermeasures.pdf
 - A Systematic Evaluation of Transient Execution Attacks and Defenses
 	- arXiv 2018
-	- Claudio Canella, Jo Van Bulck, Michael Schwarz, Moritz Lipp, Benjamin von Berg, Philipp Ortner, Frank Piessens, Dmitry Evtyushkin, Daniel Gruss 
+	- Claudio Canella, Jo Van Bulck, Michael Schwarz, Moritz Lipp, Benjamin von Berg, Philipp Ortner, Frank Piessens, Dmitry Evtyushkin, Daniel Gruss
 	- https://arxiv.org/abs/1811.05441
 - Communication Model and Capacity Limits of Covert Channels Created by Software Activities
 	- IEEE Transactions on Information Forensics and Security (TIFS) 2020
@@ -116,7 +116,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://link.springer.com/article/10.1007/s41635-018-0046-1
 - Systematic Classification of Side-Channel Attacks: A Case Study for Mobile Devices
 	- IEEE Communications Surveys & Tutorials 20(1) 2018
-	- Raphael Spreitzer, Veelasha Moonsamy, Thomas Korak, Stefan Mangard 
+	- Raphael Spreitzer, Veelasha Moonsamy, Thomas Korak, Stefan Mangard
 	- https://arxiv.org/abs/1611.03748
 - The Last Mile: An Empirical Study of Timing Channels on seL4
 	- CCS 2014
@@ -130,7 +130,7 @@ See also: [Computer Architecture](comparch.md)
 	- http://users.ece.utexas.edu/~tiwari/pubs/HPCA-15-contention.pdf
 - Your Processor Leaks Information - and There's Nothing You Can Do About It
 	- arXiv 2017
-	- Qian Ge, Yuval Yarom, Frank Li, Gernot Heiser 
+	- Qian Ge, Yuval Yarom, Frank Li, Gernot Heiser
 	- https://arxiv.org/abs/1612.04474
 
 ---
@@ -168,7 +168,7 @@ See also: [Computer Architecture](comparch.md)
 
 - BRB: Mitigating Branch Predictor Side-Channels
 	- High-Performance Computer Architecture (HPCA) 2019
-	- Ilias Vougioukas, Andreas Sandberg, Nikos Nikoleris, Stephan Diestelhorst, Bashir Al-Hashimi, Geoff Merrett 
+	- Ilias Vougioukas, Andreas Sandberg, Nikos Nikoleris, Stephan Diestelhorst, Bashir Al-Hashimi, Geoff Merrett
 	- https://eprints.soton.ac.uk/426627/
 	- complementary dataset: https://doi.org/10.5258/soton/d0739
 
@@ -208,19 +208,19 @@ See also: [Computer Architecture](comparch.md)
 
 - An Exploration of Effective Fuzzing for Side-channel Cache Leakage
 	- Software Testing, Verification and Reliability (STVR) 2019
-	- Tiyash Basu, Kartik Aggarwal, Chundong Wang, Sudipta Chattopadhyay 
+	- Tiyash Basu, Kartik Aggarwal, Chundong Wang, Sudipta Chattopadhyay
 	- https://doi.org/10.1002/stvr.1718
 	- https://asset-group.github.io/papers/STVR-cache-side-channel-fuzz.pdf
 	- https://github.com/tiyashbasu/Cache_Side_Channel_Tester
 - Analysis of Secure Caches Using a Three-Step Model for Timing-Based Attacks
 	- Journal of Hardware and Systems Security 3(4) 2019
-	- Shuwen Deng, Wenjie Xiong & Jakub Szefer 
+	- Shuwen Deng, Wenjie Xiong & Jakub Szefer
 	- https://eprint.iacr.org/2019/167
 - Automated Software Protection for the Masses Against Side-Channel Attacks
 	- HiPEAC 2019
-	- Nicolas Belleville, Damien Couroussé, Karine Heydemann, Henri-Pierre Charles 
+	- Nicolas Belleville, Damien Couroussé, Karine Heydemann, Henri-Pierre Charles
 	- https://dl.acm.org/citation.cfm?id=3281662
-- CaSym: Cache Aware Symbolic Execution for Side Channel Detection and Mitigation 
+- CaSym: Cache Aware Symbolic Execution for Side Channel Detection and Mitigation
 	- Security & Privacy (S&P) 2019
 	- Brotzman, R L, Shen Liu, Danfeng Zhang, Gang Tan, Mahmut T. Kandemir
 	- http://www.cse.psu.edu/~dbz5017/pub/oakland19.pdf
@@ -303,7 +303,7 @@ See also: [Computer Architecture](comparch.md)
 	- IEEE Transactions on Computers 62(7), July 2013
 	- Jingfei Kong, O. Aciicmez, J-P Seifert, Huiyang Zhou
 	- http://ieeexplore.ieee.org/document/6178238/
-- CacheAudit: A Tool for the Static Analysis of Cache Side Channels 
+- CacheAudit: A Tool for the Static Analysis of Cache Side Channels
 	- USENIX Security 2013
 	- Goran Doychev, Dominik Feld, Boris Köpf, Laurent Mauborgne, Jan Reineke
 	- https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/doychev
@@ -402,7 +402,7 @@ See also: [Computer Architecture](comparch.md)
 	- Parallel Architectures and Compilation Techniques (PACT) 2019
 	- Daniel Townley and Dmitry Ponomarev
 	- http://www.cs.binghamton.edu/~dima/pact19.pdf
-- Using Information Flow to Design an ISA That Controls Timing Channels 
+- Using Information Flow to Design an ISA That Controls Timing Channels
 	- CSF 2019
 	- Drew Zagieboylo, G. Edward Suh, Andrew C. Myers
 	- http://www.cs.cornell.edu/andru/papers/hyperisa/
@@ -415,7 +415,7 @@ See also: [Computer Architecture](comparch.md)
 	- USENIX Security Symposium 2020
 	- 2019 arXiv
 	- Cesar Pereida García, Sohaib ul Hassan, Nicola Tuveri, Iaroslav Gridin, Alejandro Cabrera Aldaya, Billy Bob Brumley
-	- https://arxiv.org/abs/1909.01785 
+	- https://arxiv.org/abs/1909.01785
 - ctgrind
 	- https://www.imperialviolet.org/2010/04/01/ctgrind.html
 	- https://github.com/agl/ctgrind/
@@ -429,7 +429,7 @@ See also: [Computer Architecture](comparch.md)
 - dudect: dude, is my code constant time? - https://github.com/oreparaz/dudect
 - KASLR is Dead: Long Live KASLR
 	- Engineering Secure Software and Systems (ESSoS) 2017
-	- Daniel Gruss, Moritz Lipp, Michael Schwarz, Richard Fellner, Clémentine Maurice, Stefan Mangard 
+	- Daniel Gruss, Moritz Lipp, Michael Schwarz, Richard Fellner, Clémentine Maurice, Stefan Mangard
 	- https://gruss.cc/files/kaiser.pdf
 	- https://github.com/IAIK/KAISER
 - MicroWalk: A Framework for Finding Side Channels in Binaries
@@ -461,7 +461,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://github.com/awslabs/s2n/tree/master/tests/sidetrail
 	- http://www0.cs.ucl.ac.uk/staff/b.cook/VSSTE18_sidetrail.pdf
 	- https://aws.amazon.com/blogs/security/how-aws-sidetrail-verifies-key-aws-cryptography-code/
-- Site Isolation: Process Separation for Web Sites within the Browser 
+- Site Isolation: Process Separation for Web Sites within the Browser
 	- USENIX Security Symposium (2019)
 	- Charles Reis, Alexander Moshchuk, Nasko Oskov
 	- https://ai.google/research/pubs/pub48285
@@ -485,7 +485,7 @@ See also: [Computer Architecture](comparch.md)
 - Why Constant-Time Crypto? - https://www.bearssl.org/constanttime.html
 - You Shall Not Bypass: Employing data dependencies to prevent Bounds Check Bypass
 	- arXiv 2018
-	- Oleksii Oleksenko, Bohdan Trach, Tobias Reiher, Mark Silberstein, Christof Fetzer 
+	- Oleksii Oleksenko, Bohdan Trach, Tobias Reiher, Mark Silberstein, Christof Fetzer
 	- https://arxiv.org/abs/1805.08506
 
 ### Defense - Software - Compilation and Programming Languages
@@ -557,7 +557,7 @@ See also: [Computer Architecture](comparch.md)
 
 ### Defense - Speculation: 2019
 
-- A Formal Approach to Secure Speculation 
+- A Formal Approach to Secure Speculation
 	- 2019 IEEE 32nd Computer Security Foundations Symposium (CSF)
 	- Kevin Cheang, Cameron Rasmussen, Sanjit Seshia, Pramod Subramanyan
 	- https://ieeexplore.ieee.org/abstract/document/8823732
@@ -622,7 +622,7 @@ See also: [Computer Architecture](comparch.md)
 	- http://web.cse.ohio-state.edu/~teodorescu.1/resources/papers/specshield_pact2019.pdf
 - Spectre is here to stay: An analysis of side-channels and speculative execution
 	- arXiv 2019
-	- Ross Mcilroy, Jaroslav Sevcik, Tobias Tebbi, Ben L. Titzer, Toon Verwaest 
+	- Ross Mcilroy, Jaroslav Sevcik, Tobias Tebbi, Ben L. Titzer, Toon Verwaest
 	- https://arxiv.org/abs/1902.05178
 - SpectreGuard: An Efficient Data-centric Defense Mechanism against Spectre Attacks
 	- Design Automation Conference (DAC) 2019
@@ -641,7 +641,7 @@ See also: [Computer Architecture](comparch.md)
 - An Inside Story of Mitigating Speculative Execution Side Channel Vulnerabilities
 	- Black Hat 2018; Anders Fogh, Christopher Ertl
 	- https://www.youtube.com/watch?v=_J9MpK4MQWk
-- InvisiSpec: Making Speculative Execution Invisible in the Cache Hierarchy 
+- InvisiSpec: Making Speculative Execution Invisible in the Cache Hierarchy
 	- International Symposium on Microarchitecture (MICRO) 2018
 	- Mengjia Yan, Jiho Choi, Dimitrios Skarlatos, Adam Morrison, Christopher W. Fletcher, Josep Torrellas
 	- http://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_micro18.pdf
@@ -703,10 +703,10 @@ See also: [Computer Architecture](comparch.md)
 	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2020
 	- Tao Zhang, Kenneth Koltermann, Dmitry Evtyushkin
 	- http://www.cs.wm.edu/~dmitry/assets/files/zhang2020exploring.pdf
-	- https://www.youtube.com/watch?v=OLQshI-1KBc 
+	- https://www.youtube.com/watch?v=OLQshI-1KBc
 - Jump Over ASLR: Attacking Branch Predictors to Bypass ASLR
 	- MICRO 2016
-	- Dmitry Evtyushkin, Dmitry Ponomarev, Nael Abu-Ghazaleh 
+	- Dmitry Evtyushkin, Dmitry Ponomarev, Nael Abu-Ghazaleh
 	- http://www.cs.binghamton.edu/~dima/micro16.pdf
 	- PoC for breaking hypervisor ASLR using branch target buffer collisions
 		- https://github.com/felixwilhelm/mario_baslr/
@@ -750,6 +750,10 @@ See also: [Computer Architecture](comparch.md)
 	- https://eprint.iacr.org/2020/637
 	- https://www.cse.iitk.ac.in/users/biswap/DABANGG.pdf
 	- https://car3s.github.io/dabangg/
+- Flushgeist: Cache Leaks from Beyond the Flush
+	- 2020
+	- Pepe Vila, Andreas Abel, Marco Guarnieri, Boris Köpf, Jan Reineke
+	- https://arxiv.org/abs/2005.13853
 - Leaking Information Through Cache LRU States
 	- High-Performance Computer Architecture (HPCA) 2020
 	- Wenjie Xiong, Jakub Szefer
@@ -764,7 +768,7 @@ See also: [Computer Architecture](comparch.md)
 	- ASPLOS 2020
 	- Po-An Tsai, Andres Sanchez, Christopher W. Fletcher, Daniel Sanchez
 	- http://people.csail.mit.edu/poantsai/papers/2020.safecracker.asplos.pdf
-	- https://www.youtube.com/watch?v=auKcSndPjuw 
+	- https://www.youtube.com/watch?v=auKcSndPjuw
 - Stealthy Tracking of Autonomous Vehicles with Cache Side Channels
 	- USENIX Security 2020
 	- Mulong Luo, Andrew C. Myers, G. Edward Suh
@@ -776,7 +780,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://doi.org/10.1145/3320269.3384746
 - Website Fingerprinting Through the Cache Occupancy Channel and its Real World Practicality
 	- IEEE Transactions on Dependable and Secure Computing (TDSC) 2020
-	- Anatoly Shusterman, Zohar Avraham, Eliezer Croitoru, Yarden Haskal, Lachlan Kang, Dvir Levi, Yosef Meltser, Prateek Mittal, Yossi Oren, Yuval Yarom 
+	- Anatoly Shusterman, Zohar Avraham, Eliezer Croitoru, Yarden Haskal, Lachlan Kang, Dvir Levi, Yosef Meltser, Prateek Mittal, Yossi Oren, Yuval Yarom
 	- https://orenlab.sise.bgu.ac.il/p/RobustFingerprinting-TDSC
 
 ## Cache (2019)
@@ -807,7 +811,7 @@ See also: [Computer Architecture](comparch.md)
 
 - Are Coherence Protocol States vulnerable to Information Leakage?
 	- HPCA 2018
-	- Fan Yao, Milos Doroslovacki, Guru Venkataramani 
+	- Fan Yao, Milos Doroslovacki, Guru Venkataramani
 	- https://www2.seas.gwu.edu/~guruv/hpca2018.pdf
 	- https://www.youtube.com/watch?v=NQQ0zC1G7p0
 - MeltdownPrime and SpectrePrime: Automatically-Synthesized Attacks Exploiting Invalidation-Based Coherence Protocols
@@ -820,7 +824,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://arxiv.org/abs/1711.08002
 - Robust Website Fingerprinting Through the Cache Occupancy Channel
 	- USENIX Security Symposium 2019; 2018 arXiv
-	- Anatoly Shusterman, Lachlan Kang, Yarden Haskal, Yosef Meltser, Prateek Mittal, Yossi Oren, Yuval Yarom 
+	- Anatoly Shusterman, Lachlan Kang, Yarden Haskal, Yosef Meltser, Prateek Mittal, Yossi Oren, Yuval Yarom
 	- https://arxiv.org/abs/1811.07153
 
 ## Cache (2017)
@@ -902,7 +906,7 @@ See also: [Computer Architecture](comparch.md)
 	- Fast Software Encryption (FSE) 2007
 	- Kris Tiri, Onur Aciiçmez, Michael Neve, Flemming Andersen
 	- https://iacr.org/archive/fse2007/45930404/45930404.pdf
-- FLUSH+RELOAD: A High Resolution, Low Noise, L3 Cache Side-Channel Attack 
+- FLUSH+RELOAD: A High Resolution, Low Noise, L3 Cache Side-Channel Attack
 	- USENIX Security 2014
 	- Yuval Yarom, Katrina Falkner
 	- https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/yarom
@@ -952,7 +956,7 @@ See also: [Computer Architecture](comparch.md)
 	- USENIX 2016: https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/pessl
 - Drammer: Deterministic Rowhammer Attacks on Mobile Platforms
 	- CCS (2016)
-	- Victor van der Veen, Yanick Fratantonio, Martina Lindorfer, Daniel Gruss, Clementine Maurice, Giovanni Vigna, Herbert Bos, Kaveh Razavi, Cristiano Giuffrida 
+	- Victor van der Veen, Yanick Fratantonio, Martina Lindorfer, Daniel Gruss, Clementine Maurice, Giovanni Vigna, Herbert Bos, Kaveh Razavi, Cristiano Giuffrida
 	- https://gruss.cc/files/drammer.pdf
 	- https://www.vusec.net/projects/drammer/
 - Exploiting Correcting Codes: On the Effectiveness of ECC Memory Against Rowhammer Attacks
@@ -999,7 +1003,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.vusec.net/download/?t=papers/throwhammer_atc18.pdf
 - Understanding Rowhammer Attacks through the Lens of a Unified Reference Framework
 	- 2019 arXiv
-	- Xiaoxuan Lou, Fan Zhang, Zheng Leong Chua, Zhenkai Liang, Yueqiang Cheng, Yajin Zhou 
+	- Xiaoxuan Lou, Fan Zhang, Zheng Leong Chua, Zhenkai Liang, Yueqiang Cheng, Yajin Zhou
 	- https://arxiv.org/abs/1901.03538
 - Whispers in the Hyper-space: High-speed Covert Channel Attacks in the Cloud
 	- USENIX Security Symposium 2012
@@ -1157,7 +1161,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.computer.org/csdl/proceedings-article/sp/2020/349700a890/1i0rIjF42ic
 	- https://ilias.giechaskiel.com/papers/capsule-sp-preprint.pdf
 - FPGAhammer: Remote Voltage Fault Attacks on Shared FPGAs, suitable for DFA on AES
-	- IACR Transactions on Cryptographic Hardware and Embedded Systems, 2018(3), 44-68. 
+	- IACR Transactions on Cryptographic Hardware and Embedded Systems, 2018(3), 44-68.
 	- Jonas Krautter, Dennis R.E. Gnad, Mehdi B. Tahoori
 	- https://tches.iacr.org/index.php/TCHES/article/view/7268
 - FPGA Side Channel Attacks without Physical Access
@@ -1193,7 +1197,7 @@ See also: [Computer Architecture](comparch.md)
 - Reading Between the Dies: Cross-SLR Covert Channels on Multi-Tenant Cloud FPGAs
 	- International Conference on Computer Design (ICCD) 2019
 	- Ilias Giechaskiel, Kasper Rasmussen, Jakub Szefer
-	- https://ilias.giechaskiel.com/papers/slr-iccd-preprint.pdf 
+	- https://ilias.giechaskiel.com/papers/slr-iccd-preprint.pdf
 	- https://caslab.csl.yale.edu/code/slr-covert-channel/
 - Remote Inter-Chip Power Analysis Side-Channel Attacks at Board-Level
 	- Cryptology ePrint Archive: Report 2018/881
@@ -1219,7 +1223,7 @@ See also: [Computer Architecture](comparch.md)
 	- Dennis R. E. Gnad, Fabian Oboril, Mehdi B. Tahoori
 	- https://ieeexplore.ieee.org/abstract/document/8056840
 
-## FPGA local attacks 
+## FPGA local attacks
 
 (with physical access or within close proximity)
 
@@ -1244,7 +1248,7 @@ See also: [Computer Architecture](comparch.md)
 ## FPGA attacks countermeasures
 
 - Active Fences against Voltage-based Side Channels in Multi-Tenant FPGAs
-	- ICCAD 2019 
+	- ICCAD 2019
 	- Jonas Krautter, Dennis R.E. Gnad, Falk Schellenberg, Amir Moradi, Mehdi B. Tahoori
 	- https://eprint.iacr.org/2019/1152
 - Checking for Electrical Level Security Threats in Bitstreams for Multi-Tenant FPGAs
@@ -1377,7 +1381,7 @@ See also: [Computer Architecture](comparch.md)
 	- Video: https://www.youtube.com/watch?v=yz8E5n1Tzlo
 - ODINI : Escaping Sensitive Data from Faraday-Caged, Air-Gapped Computers via Magnetic Fields
 	- https://cyber.bgu.ac.il/advanced-cyber/airgap
-	- Mordechai Guri, Boris Zadov, Andrey Daidakulov, Yuval Elovici 
+	- Mordechai Guri, Boris Zadov, Andrey Daidakulov, Yuval Elovici
 	- Paper: https://cyber.bgu.ac.il/advanced-cyber/system/files/ODINI_1.pdf
 	- Video: https://www.youtube.com/watch?v=h07iXD-aSCA
 
@@ -1461,7 +1465,7 @@ See also: [Computer Architecture](comparch.md)
 	- 2017 26th USENIX Security Symposium
 	- Adrian Tang, Simha Sethumadhavan, and Salvatore Stolfo
 	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/tang
-- Leaky Noise: New Side-Channel Attack Vectors in Mixed-Signal IoT Devices 
+- Leaky Noise: New Side-Channel Attack Vectors in Mixed-Signal IoT Devices
 	- IACR Transactions on Cryptographic Hardware and Embedded Systems, 2019(3), 305-339.
 	- Dennis R. E. Gnad, Jonas Krautter, Mehdi B. Tahoori
 	- https://tches.iacr.org/index.php/TCHES/article/view/8297
@@ -1488,7 +1492,7 @@ See also: [Computer Architecture](comparch.md)
 	- http://www.cs.ucr.edu/~zhiyunq/pub/dac19_cpu_preferter.pdf
 - Prefetch Side-Channel Attacks: Bypassing SMAP and Kernel ASLR
 	- Conference on Computer and Communications Security (CCS) 2016
-	- Daniel Gruss, Anders Fogh, Clémentine Maurice, Moritz Lipp, Stefan Mangard 
+	- Daniel Gruss, Anders Fogh, Clémentine Maurice, Moritz Lipp, Stefan Mangard
 	- https://gruss.cc/files/prefetch.pdf
 	- https://www.youtube.com/watch?v=TJTQbs3oJx8
 - Reverse Engineering the Stream Prefetcher for Profit
@@ -1564,7 +1568,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://github.com/bbbrumley/portsmash
 - SMoTherSpectre: exploiting speculative execution through port contention
 	- CCS 2019
-	- Atri Bhattacharyya, Alexandra Sandulescu, Matthias Neugschwandtner, Alessandro Sorniotti, Babak Falsafi, Mathias Payer, Anil Kurmus 
+	- Atri Bhattacharyya, Alexandra Sandulescu, Matthias Neugschwandtner, Alessandro Sorniotti, Babak Falsafi, Mathias Payer, Anil Kurmus
 	- https://arxiv.org/abs/1903.01843
 	- http://nebelwelt.net/blog/20190306-SMoTherSpectre.html
 	- https://github.com/HexHive/SMoTherSpectre
@@ -1609,7 +1613,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 		- https://foreshadowattack.eu/
 	- A deeper look at L1 Terminal Fault aka Foreshadow - https://www.redhat.com/en/blog/deeper-look-l1-terminal-fault-aka-foreshadow
 	- Analysis and mitigation of L1 Terminal Fault (L1TF) - https://blogs.technet.microsoft.com/srd/2018/08/14/analysis-and-mitigation-of-l1-terminal-fault-l1tf/
-	- Breaking Virtual Memory Protection and the SGX Ecosystem with Foreshadow 
+	- Breaking Virtual Memory Protection and the SGX Ecosystem with Foreshadow
 		- IEEE Micro 39(3) 2019
 		- Jo Van Bulck, Marina Minkin, Ofir Weisse, Daniel Genkin, Baris Kasikci, Frank Piessens, Mark Silberstein, Thomas F. Wenisch, Yuval Yarom, Raoul Strackx
 		- https://doi.org/10.1109/MM.2019.2910104
@@ -1636,7 +1640,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 		- https://arxiv.org/abs/1801.01207
 		- Meltdown Proof-of-Concept - https://github.com/IAIK/meltdown
 		- http://blog.cyberus-technology.de/posts/2018-01-03-meltdown.html
-		- Black Hat USA 2018 - https://mlq.me/download/bhusa2018_meltdown_slides.pdf 
+		- Black Hat USA 2018 - https://mlq.me/download/bhusa2018_meltdown_slides.pdf
 		- KASLR: Break It, Fix It, Repeat
 			- ACM Asia Conference on Computer and Communications Security (ASIA CCS) 2020
 			- Claudio Canella, Michael Schwarz, Martin Haubenwallner, Martin Schwarzl, Daniel Gruss
@@ -1655,7 +1659,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 		- https://www.youtube.com/watch?v=6O8LTwVfTVs
 	- Paul Kocher: Spectre Mitigations in Microsoft's C/C++ Compiler
 		- https://www.paulkocher.com/doc/MicrosoftCompilerSpectreMitigation.html
-	- ARM Whitepaper "Cache Speculation Side-channels" - https://developer.arm.com/support/security-update/download-the-whitepaper 
+	- ARM Whitepaper "Cache Speculation Side-channels" - https://developer.arm.com/support/security-update/download-the-whitepaper
 	- Behind the scenes of a bug collision - https://cyber.wtf/2018/01/05/behind-the-scene-of-a-bug-collision/
 	- CPU security bugs caused by speculative execution - https://github.com/marcan/speculation-bugs
 	- Intel Analysis of Speculative Execution Side Channels - https://newsroom.intel.com/wp-content/uploads/sites/11/2018/01/Intel-Analysis-of-Speculative-Execution-Side-Channels.pdf
@@ -1718,7 +1722,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 		- Michael Schwarz, Moritz Lipp, Daniel Moghimi, Jo Van Bulck, Julian Stecklina, Thomas Prescher, Daniel Gruss
 		- https://arxiv.org/abs/1905.05726
 		- ZombieLoad Attack: Leaking Your Recent Memory Operations on Intel CPUs
-			- 36C3 (2019); Michael Schwarz, Moritz Lipp, Daniel Gruss 
+			- 36C3 (2019); Michael Schwarz, Moritz Lipp, Daniel Gruss
 			- https://media.ccc.de/v/36c3-10754-zombieload_attack
 		- ZombieLoad: Leaking Data on Intel CPUs
 			- ToorCon 21 (2019); Daniel Moghimi
@@ -1859,7 +1863,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 ## Arm TrustZone
 
 - Hardware-Backed Heist: Extracting ECDSA Keys from Qualcomm’s TrustZone
-	- NCC Group Whitepaper (2019); Keegan Ryan 
+	- NCC Group Whitepaper (2019); Keegan Ryan
 	- https://www.nccgroup.trust/us/our-research/private-key-extraction-qualcomm-keystore/
 
 ## Intel SGX
@@ -1868,7 +1872,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- EuroSec 2017
 	- Johannes Götzfried, Moritz Eckert, Sebastian Schinzel, Tilo Müller
 	- https://www1.informatik.uni-erlangen.de/filepool/projects/sgx-timing/sgx-timing.pdf
-- CacheZoom: How SGX Amplifies The Power of Cache Attacks 
+- CacheZoom: How SGX Amplifies The Power of Cache Attacks
 	- Cryptographic Hardware and Embedded Systems (CHES) 2017
 	- Ahmad Moghimi, Gorka Irazoqui, Thomas Eisenbarth
 	- https://arxiv.org/abs/1703.06986
@@ -1910,7 +1914,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Gyselinck J., Van Bulck J., Piessens F., Strackx R.
 	- https://people.cs.kuleuven.be/~jo.vanbulck/essos18.pdf
 	- https://distrinet.cs.kuleuven.be/software/off-limits/
-- Racing in Hyperspace: Closing Hyper-Threading Side Channels on SGX with Contrived Data Races 
+- Racing in Hyperspace: Closing Hyper-Threading Side Channels on SGX with Contrived Data Races
 	- IEEE S&P (Oakland) 2018
 	- Guoxing Chen, Wenhao Wang, Tianyu Chen, Sanchuan Chen, Yinqian Zhang, XiaoFeng Wang, Ten-Hwang Lai, Dongdai Lin
 	- https://web.cse.ohio-state.edu/~zhang.834/papers/sp18.pdf
@@ -2026,9 +2030,9 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 
 ## 2018
 
-- A Christmas Carol - The Spectres of the Past, Present, and Future 
+- A Christmas Carol - The Spectres of the Past, Present, and Future
 	- 35c3 (2018)
-	- Moritz Lipp, Michael Schwarz, Daniel Gruss and Claudio Canella 
+	- Moritz Lipp, Michael Schwarz, Daniel Gruss and Claudio Canella
 	- https://media.ccc.de/v/35c3-9893-a_christmas_carol_-_the_spectres_of_the_past_present_and_future
 - Behind the Speculative Curtain: The True Story of Fighting Meltdown and Spectre
 	- Black Hat USA 2018
@@ -2114,7 +2118,8 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 - RuhrSec 2016: "Cache Side-Channel Attacks and the case of Rowhammer", Daniel Gruss - https://www.youtube.com/watch?v=gxsguH5opsM
 - Side-Channel Attacks on Everyday Applications - https://www.youtube.com/watch?v=GPwNFrpd1KU
 - Three lessons that I learnt from Rowhammer - with implications for future security research - Thomas Dullien (Halvar Flake) - Null Singapore - https://www.youtube.com/watch?v=fkDD2ea7SD8
-- Using Undocumented CPU Behavior to See Into Kernel Mode and Break KASLR in the Process - https://www.youtube.com/watch?v=Pwq0vv4X7m4 - 
+- Using Undocumented CPU Behavior to See Into Kernel Mode and Break KASLR in the Process
+	- https://www.youtube.com/watch?v=Pwq0vv4X7m4
 - What could possibly go wrong with {insert x86 instruction here}? [33c3] - https://www.youtube.com/watch?v=wue4QomGE74
 
 ## 2015
