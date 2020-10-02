@@ -422,6 +422,14 @@
 
 ## Videos
 
+### 2020
+
+- A Relaxed Guide to memory_order_relaxed
+	- CppCon 2020
+	- Paul E. McKenney & Hans Boehm
+	- https://www.youtube.com/watch?v=cWkUqK71DZ0
+	- https://github.com/CppCon/CppCon2020/tree/main/Presentations/a_relaxed_guide_to_memory_order_relaxed
+
 ### 2019
 
 - Atomics, Locks, and Tasks
