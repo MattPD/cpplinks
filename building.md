@@ -131,6 +131,11 @@ See also:
 	- Bo Zhou, Xia Xin, David Lo, Xinyu Wang
 	- http://www.mysmu.edu/faculty/davidlo/papers/compsac14-dependency.pdf
 	- https://www.semanticscholar.org/paper/Build-Predictor%3A-More-Accurate-Missed-Dependency-in-Zhou-Xia/a4d4b05c8594fc7358a89f0afffb7e405b65fa0d
+- Build Scripts with Perfect Dependencies
+	- SPLASH 2020 OOPSLA
+	- Sarah Spall, Neil Mitchell, Sam Tobin-Hochstadt
+	- https://arxiv.org/abs/2007.12737
+	- https://2020.splashcon.org/details/splash-2020-oopsla/45/Build-Scripts-with-Perfect-Dependencies
 - Program Repository
 	- LLVM with Program Repository Support
 			- https://github.com/SNSystems/llvm-project-prepo
