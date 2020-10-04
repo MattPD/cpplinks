@@ -109,7 +109,7 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- Better profiling experience - https://easyperf.net/blog/2019/09/13/Intel-PT-part4
 - Failure Sketches: A Better Way to Debug
 	- HotOS 2015
-	- Baris Kasikci, Benjamin Schubert, Cristiano Pereira, Gilles Pokam, Madan Musuvathi, George Candea 
+	- Baris Kasikci, Benjamin Schubert, Cristiano Pereira, Gilles Pokam, Madan Musuvathi, George Candea
 	- https://www.usenix.org/conference/hotos15/workshop-program/presentation/kasikci
 	- http://dslab.epfl.ch/pubs/failure-sketches.pdf
 	- https://web.eecs.umich.edu/~barisk/public/fs-slides.pdf
@@ -210,7 +210,7 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 		- https://github.com/microsoft/DTrace-on-Windows
 		- https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/DTrace-on-Windows/ba-p/362902
 	- DTrace Review
-		- Google Tech Talks; August 15, 2007; Bryan Cantrill 
+		- Google Tech Talks; August 15, 2007; Bryan Cantrill
 		- https://www.youtube.com/watch?v=TgmA48fILq8
 		- https://www.youtube.com/watch?v=6chLw2aodYQ
 - minitrace: Simple C/C++ library for producing JSON traces suitable for Chrome's built-in trace viewer (about:tracing)
@@ -271,12 +271,15 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 - ProcMon-for-Linux: Process Monitor for Linux
 	- Process Monitor (Procmon) is a Linux reimagining of the classic Procmon tool from the Sysinternals suite of tools for Windows. Procmon provides a convenient and efficient way for Linux developers to trace the syscall activity on the system.
 	- https://github.com/microsoft/ProcMon-for-Linux
+- reverie: trace and intercept Linux syscalls
+	- A library to intercept Linux syscalls (and select x86_64 instructions), and convert them into function calls. The user of this library provides a shared library containing the callbacks that are triggered on intercepted events.
+	- https://github.com/reverie-rs/reverie
 - StackTrack — Linux Call graph visualization and execution tracking
 	- https://stacktrack.github.io/
 - uftrace: Function (graph) tracer for user-space
 	- https://github.com/namhyung/uftrace
 	- Understanding the runtime behaviors of C++ programs using uftrace tool
-		- CppCon 2017; Honggyu Kim 
+		- CppCon 2017; Honggyu Kim
 		- https://www.youtube.com/watch?v=s0B8hV2O8ps
 
 ### Software: Linux - BCC/BPF
@@ -318,7 +321,7 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 - uBPF: Userspace eBPF VM
 	- https://github.com/iovisor/ubpf
 - ply: Dynamic Tracing in Linux
-	- A light-weight dynamic tracer for Linux that leverages the kernel's BPF VM in concert with kprobes and tracepoints to attach probes to arbitrary points in the kernel. 
+	- A light-weight dynamic tracer for Linux that leverages the kernel's BPF VM in concert with kprobes and tracepoints to attach probes to arbitrary points in the kernel.
 	- https://wkz.github.io/ply/
 	- https://github.com/iovisor/ply
 
@@ -382,7 +385,7 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 		- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2020
 		- Omar S. Navarro Leija, Kelly Shiptoski, Ryan G. Scott, Baojun Wang, Nicholas Renner, Ryan R. Newton, Joseph Devietti
 		- https://doi.org/10.1145/3373376.3378519
-		- https://gatowololo.github.io/resources/publications/dettrace.pdf  
+		- https://gatowololo.github.io/resources/publications/dettrace.pdf
 		- https://www.youtube.com/watch?v=YkmS-vf12nE
 - Hiding Call To Ptrace - https://github.com/yellowbyte/analysis-of-anti-analysis/blob/master/research/hiding_call_to_ptrace/hiding_call_to_ptrace.md
 - Intercepting and Emulating Linux System Calls with Ptrace - http://nullprogram.com/blog/2018/06/23/
@@ -457,12 +460,12 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 - NtTrace: An strace-like program for the Windows 'native' API
 	- https://rogerorr.github.io/NtTrace/
 	- https://github.com/rogerorr/NtTrace
-- StraceNT - A System Call Tracer for Windows 
+- StraceNT - A System Call Tracer for Windows
 	- https://intellectualheaven.com/default.asp?BH=StraceNT
 	- https://github.com/ipankajg/stracent
 - Symbolizer - A fast execution trace symbolizer for Windows
 	- https://github.com/0vercl0k/symbolizer
-- tiny_tracer: A Pin Tool for tracing API calls and transition between sections of the traced module 
+- tiny_tracer: A Pin Tool for tracing API calls and transition between sections of the traced module
 	- https://github.com/hasherezade/tiny_tracer
 	- Tracing executables with a Pin Tool (tiny_tracer) - https://www.youtube.com/watch?v=kurzaoWuSHA
 - tracectory: a tool to analyze and visualize x86 instruction traces
