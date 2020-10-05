@@ -1876,10 +1876,11 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Cryptographic Hardware and Embedded Systems (CHES) 2017
 	- Ahmad Moghimi, Gorka Irazoqui, Thomas Eisenbarth
 	- https://arxiv.org/abs/1703.06986
-- CopyCat: Controlled Instruction-Level Attacks on Enclaves for Maximal Key Extraction
-	- 2020
+- CopyCat: Controlled Instruction-Level Attacks on Enclaves
+	- USENIX Security Symposium 2020
 	- Daniel Moghimi, Jo Van Bulck, Nadia Heninger, Frank Piessens, Berk Sunar
 	- https://arxiv.org/abs/2002.08437
+	- https://www.usenix.org/conference/usenixsecurity20/presentation/moghimi-copycat
 - Exploitable Hardware Features and Vulnerabilities Enhanced Side-Channel Attacks on Intel SGX and Their Countermeasures
 	- 2019 PhD Dissertation; Chen, Guoxing
 	- http://rave.ohiolink.edu/etdc/view?acc_num=osu1554949268465917
@@ -1923,6 +1924,11 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- SysTEX 2017
 	- Jo Van Bulck, Frank Piessens, Raoul Strackx
 	- https://github.com/jovanbulck/sgx-step
+- SGAxe: How SGX Fails in Practice
+	- 2020
+	- Stephan van Schaik, Andrew Kwong, Daniel Genkin, Yuval Yarom
+	- https://sgaxe.com/
+	- https://cacheoutattack.com/files/SGAxe.pdf
 - SGXlinger: A New Side-Channel Attack Vector Based on Interrupt Latency Against Enclave Execution
 	- International Conference on Computer Design (ICCD) 2018
 	- Wenjian He, Wei Zhang, Sanjeev Das, Yang Liu
