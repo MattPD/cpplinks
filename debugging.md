@@ -2,10 +2,10 @@
 
 See also:
 
-* [Debugging - tracing](https://github.com/MattPD/cpplinks/blob/master/debugging.tracing.md): [Readings](https://github.com/MattPD/cpplinks/blob/master/debugging.tracing.md#readings); [Software](https://github.com/MattPD/cpplinks/blob/master/debugging.tracing.md#software); [Talks](https://github.com/MattPD/cpplinks/blob/master/debugging.tracing.md#talks)
-* [Executables](executables.md):
-	+ [DWARF](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-2), [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-2), [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-2)
-	+ [PDB](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-program-database): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#readings-5), [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#software-5), [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#talks-5)
+- [Debugging - tracing](https://github.com/MattPD/cpplinks/blob/master/debugging.tracing.md): [Readings](https://github.com/MattPD/cpplinks/blob/master/debugging.tracing.md#readings); [Software](https://github.com/MattPD/cpplinks/blob/master/debugging.tracing.md#software); [Talks](https://github.com/MattPD/cpplinks/blob/master/debugging.tracing.md#talks)
+- [Executables](executables.md):
+	- [DWARF](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-talks)
+	- [PDB](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#pdb-talks)
 
 # Contents
 
@@ -77,13 +77,13 @@ See also:
 			- http://delta.stage.tigris.org/using_delta.html
 	+ Yesterday, my program worked. Today, it does not. Why?
 		- ESEC 1999
-		- Andreas Zeller 
+		- Andreas Zeller
 		- https://www.st.cs.uni-saarland.de/publications/details/zeller-esec-1999/
 	+ Picireny: Hierarchical Delta Debugging Framework
 		- https://github.com/renatahodovan/picireny
 	+ Simplifying and Isolating Failure-Inducing Input
 		- IEEE Transactions on Software Engineering 28(2) 2002
-		- Andreas Zeller, Ralf Hildebrandt 
+		- Andreas Zeller, Ralf Hildebrandt
 		- https://www.st.cs.uni-saarland.de/publications/details/zeller-tse-2002/
 		- https://blog.acolyer.org/2015/11/16/simplifying-and-isolating-failure-inducing-input/
 	+ HDD: Hierarchical Delta Debugging
@@ -127,13 +127,15 @@ See also:
 
 _Books, Books Reviews_
 
-* Effective Debugging - https://www.spinellis.gr/debugging/
-* Four Books on Debugging - https://blog.regehr.org/archives/849
-* Geoff Wozniak
-	+ On battle scars and debugging - http://wozniak.ca/blog/2018/01/15/On-battle-scars-and-debugging/
-	+ From intuition to methodology in debugging - http://wozniak.ca/blog/2018/02/04/From-intuition-to-methodology-in-debugging/
-	+ Formalizing debugging - https://wozniak.ca/blog/2018/03/25/Book-review-Formalizing-debugging/
-* Why Programs Fail: A Guide to Systematic Debugging - http://www.whyprogramsfail.com/
+- Effective Debugging - https://www.spinellis.gr/debugging/
+- Four Books on Debugging - https://blog.regehr.org/archives/849
+- Geoff Wozniak
+	- On battle scars and debugging - http://wozniak.ca/blog/2018/01/15/On-battle-scars-and-debugging/
+	- From intuition to methodology in debugging - http://wozniak.ca/blog/2018/02/04/From-intuition-to-methodology-in-debugging/
+	- Formalizing debugging - https://wozniak.ca/blog/2018/03/25/Book-review-Formalizing-debugging/
+	- The puzzling empathy of debugging - https://wozniak.ca/blog/2018/05/07/1/
+	- Retro debugging - https://wozniak.ca/blog/2019/01/04/1/
+- Why Programs Fail: A Guide to Systematic Debugging - http://www.whyprogramsfail.com/
 
 ## Concurrency
 
@@ -146,7 +148,7 @@ _Books, Books Reviews_
 ### Probe Effect
 
 * A probe effect in concurrent programs
-	+ Software: Practice and Experience 16 (3)(1986) 
+	+ Software: Practice and Experience 16 (3)(1986)
 	+ J. Gait
 	+ https://doi.org/10.1002/spe.4380160304
 * Debugging Concurrent Programs
@@ -206,7 +208,7 @@ _Books, Books Reviews_
 	+ https://www.usenix.org/legacy/events/vee06/full_papers/p154-bhansali.pdf
 	+ iDNA: Time Travel Debugging
 		- Instruction-level Tracing: Framework & Applications
-		- Sanjay Bhansali 
+		- Sanjay Bhansali
 		- http://www.cs.wisc.edu/areas/pl/seminar/fall05/Bhansali.ppt
 * How breakpoints are set - http://majantali.net/2016/10/how-breakpoints-are-set/
 * How do debuggers keep track of the threads in your program?
@@ -302,7 +304,7 @@ _Books, Books Reviews_
 	- https://github.com/francesco-zappa-nardelli/eh_frame_check
 - DExTer (Debugging Experience Tester)
 	- https://github.com/SNSystems/dexter
-	- Measuring the User Debugging Experience 
+	- Measuring the User Debugging Experience
 		- 2018 European LLVM Developers Meeting; Greg Bedwell
 		- https://www.youtube.com/watch?v=XRT_GmpGjXE
 		- https://llvm.org/devmtg/2018-04/slides/Bedwell-Measuring_the_User_Debugging_Experience.pdf
@@ -366,7 +368,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ https://github.com/junxzm1990/pomp
 * REPT: Reverse Debugging of Failures in Deployed Software
 	+ USENIX Symposium on Operating Systems Design and Implementation (OSDI) 2018
-	+ Weidong Cui, Xinyang Ge, Baris Kasikci, Ben Niu, Upamanyu Sharma, Ruoyu Wang, Insu Yun 
+	+ Weidong Cui, Xinyang Ge, Baris Kasikci, Ben Niu, Upamanyu Sharma, Ruoyu Wang, Insu Yun
 	+ https://www.usenix.org/conference/osdi18/presentation/weidong
 	+ https://www.microsoft.com/en-us/research/publication/rept-reverse-debugging-of-failures-in-deployed-software/
 * Reverse History
@@ -927,7 +929,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ A postmortem and live debugger
 	+ https://github.com/delphix/sdb
 	+ Debugging ZFS: From Illumos to Linux
-		- OpenZFS Developer Summit 2019; Serapheim Dimitropoulos 
+		- OpenZFS Developer Summit 2019; Serapheim Dimitropoulos
 		- https://drive.google.com/file/d/1oho9X5bkW-I-yJ-pVD8VqkaloxhGepzT/view
 * vmlinux-to-elf: A tool to recover a fully analyzable ELF from a raw kernel, through extracting the kernel symbol table (kallsyms)
 	- https://github.com/marin-m/vmlinux-to-elf
@@ -1022,7 +1024,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Journal of Computer Virology and Hacking Techniques (2020)
 	- François Plumerault, Baptiste David
 	- http://dx.doi.org/10.1007/s11416-020-00347-x
-- JavaScript bridge makes malware analysis with WinDbg easier 
+- JavaScript bridge makes malware analysis with WinDbg easier
 	- https://blog.talosintelligence.com/2019/02/windbg-malware-analysis-with-javascript.html
 - Stupid debugger tricks: Calling functions and methods - https://blogs.msdn.microsoft.com/oldnewthing/20070427-00/?p=27083
 - Time travel debugging: It’s a blast! (from the past)
