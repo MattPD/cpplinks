@@ -40,7 +40,7 @@ See also:
 	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#reduction-software)
 - [Software](#software):
 	- [Test Doubles](#software-test-doubles): [Mocking](#software-test-doubles-mocking)
-- [Talks](#talks): [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2015](#talks-2015), [2014](#talks-2014)
+- [Talks](#talks): [2020](#talks-2020), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2015](#talks-2015), [2014](#talks-2014)
 
 ---
 
@@ -102,7 +102,7 @@ See also:
 - Kent Beck
 	- Programmer Test Principles
 		- https://medium.com/@kentbeck_7670/programmer-test-principles-d01c064d7934
-	- “Unit” Tests? 
+	- “Unit” Tests?
 		- https://www.facebook.com/notes/kent-beck/unit-tests/1726369154062608/
 - Nelson Elhage
 	- Two kinds of testing - https://blog.nelhage.com/post/two-kinds-of-testing/
@@ -155,7 +155,7 @@ See also:
 
 - Assertions Are Strongly Correlated with Test Suite Effectiveness
 	- ESEC/FSE 2015
-	- Yucheng Zhang, Ali Mesbah 
+	- Yucheng Zhang, Ali Mesbah
 	- http://salt.ece.ubc.ca/publications/fse15.html
 - Assurances in Software Testing: A Roadmap
 	- ICSE-NIER 2019: International Conference on Software Engineering: New Ideas and Emerging Results
@@ -350,7 +350,7 @@ See also:
 - Boost.Hana .appveyor.yml
 	- https://github.com/boostorg/hana/blob/master/.appveyor.yml
 
-### Continuous Integration: Software: GitHub Actions 
+### Continuous Integration: Software: GitHub Actions
 
 - Github Actions, C++ with Boost and CMake, almost a 50% speedup with caching
 	- 2020-05-27; Remy van Elst
@@ -440,7 +440,7 @@ See also:
 	- International Symposium on Software Testing and Analysis (2013)
 	- Gligoric, M., Groce, A., Zhang, C., Sharma, R., Alipour, A., Marinov, D.
 	- https://agroce.github.io/issta13.pdf
-- Coverage and Its Discontents 
+- Coverage and Its Discontents
 	- Onward! Essays, SPLASH 2014
 	- Alex Groce, Mohammad Amin Alipour, Rahul Gopinath
 	- https://agroce.github.io/onwardessays14.pdf
@@ -478,7 +478,7 @@ See also:
 	- IEEE International Conference on Software Testing, Verification and Validation (ICST) 2018
 	- Y. Kim, S. Hong, B. Ko, L. Phan, M. Kim
 	- http://swtv.kaist.ac.kr/publications/icst18-deminer.pdf
-- Mythical Unit Test Coverage 
+- Mythical Unit Test Coverage
 	- IEEE Software, Volume 35, Issue 3, May/June 2018
 	- V. Antinyan, J. Derehag, A. Sandberg, M. Staron
 	- https://ieeexplore.ieee.org/document/8354427/
@@ -507,7 +507,7 @@ See also:
 - afl-cov - AFL Fuzzing Code Coverage
 	- https://github.com/mrash/afl-cov
 - cmake_catch_coverage
-	- Integration of CMake, Catch and CMake CodeCoverage module for C++ code. 
+	- Integration of CMake, Catch and CMake CodeCoverage module for C++ code.
 	- (CMake CodeCoverage depends on: gcov, gcovr, genhtml, lcov.)
 	- https://github.com/fkromer/catch_cmake_coverage
 - Code Coverage in Chromium
@@ -532,12 +532,12 @@ See also:
 		- Linaro Connect 2018; Masami Hiramatsu
 		- https://www.youtube.com/watch?v=U_qWLa9KnW8
 	- Gcovr
-		- Gcovr provides a utility for managing the use of the GNU gcov utility and generating summarized code coverage results. 
+		- Gcovr provides a utility for managing the use of the GNU gcov utility and generating summarized code coverage results.
 		- http://gcovr.com/
 		- https://github.com/gcovr/gcovr
-	- GCovHTML - Generate reports on code coverage 
+	- GCovHTML - Generate reports on code coverage
 		- https://gitlab.com/stone.code/gcovhtml
-	- Dev Santa Claus Part 2: C++ code coverage metrics with gcov 
+	- Dev Santa Claus Part 2: C++ code coverage metrics with gcov
 		- setting up code coverage metrics for a C++ codebase built using Bamboo, CMake and GCC.
 		- https://genbattle.bitbucket.io/blog/2018/01/19/Dev-Santa-Claus-Part-2/
 	- Using Gcov and Lcov to generate beautiful C++ code coverage statistics
@@ -586,7 +586,7 @@ Mutation Analysis, Mutation Coverage, Mutation Testing
 	- Pizzoleto, Alessandro Viola, Fabiano Cutigi Ferrari, Jeff Offutt, Leo Fernandes, Márcio Ribeiro
 	- https://cs.gmu.edu/~offutt/rsrch/papers/SLR-CostReductionMutation.pdf
 - An Analysis and Survey of the Development of Mutation Testing
-	- IEEE Trans. Software Eng. 37 (5) (2011) 
+	- IEEE Trans. Software Eng. 37 (5) 2011
 	- Y. Jia, M. Harman
 	- http://dx.doi.org/10.1109/TSE.2010.62
 	- http://crest.cs.ucl.ac.uk/fileadmin/crest/sebasepaper/JiaH10.pdf
@@ -596,7 +596,7 @@ Mutation Analysis, Mutation Coverage, Mutation Testing
 	- https://sites.google.com/site/mikepapadakis/ICSE17.pdf
 	- https://sites.google.com/site/mikepapadakis/faults-mutants
 	- https://sites.google.com/site/mikepapadakis/metallaxis
-- An Industrial Application of Mutation Testing: Lessons, Challenges, and Research Directions 
+- An Industrial Application of Mutation Testing: Lessons, Challenges, and Research Directions
 	- International Workshop on Mutation Analysis (Mutation 2018)
 	- Goran Petrovic, Marko Ivankovic, Robert Kurtz, Paul Ammann, René Just
 	- https://research.google/pubs/pub46907/
@@ -720,7 +720,7 @@ Test Generation, Symbolic Execution
 	- http://www.doc.ic.ac.uk/~cristic/papers/klee-osdi-08.pdf
 	- https://klee.github.io/publications/
 - KLOVER (KLee based cOVERage tool, for C/C++)
-	- KLOVER: Automatic Test Generation for C and C++ Programs, Using Symbolic Execution 
+	- KLOVER: Automatic Test Generation for C and C++ Programs, Using Symbolic Execution
 		- IEEE Software Volume 34, Issue 5, 2017
 		- H. Yoshida, G. Li, T. Kamiya, I. Ghosh, S. Rajan, S. Tokumoto, K. Munakata, T. Uehara
 		- http://ieeexplore.ieee.org/document/8048666/
@@ -881,7 +881,7 @@ Metamorphic Relations, Metamorphic Testing
 	- S. Segura, D. Towey, Z. Zhou, T. Chen
 	- https://doi.ieeecomputersociety.org/10.1109/MS.2018.2875968
 	- https://ro.uow.edu.au/eispapers1/3037/
-- Techniques for Testing Scientific Programs Without an Oracle 
+- Techniques for Testing Scientific Programs Without an Oracle
 	- International Workshop on Software Engineering for Computational Science and Engineering (SE-CSE) 2013
 	- U. Kanewala and J. Bieman
 	- https://www.cs.colostate.edu/~bieman/Pubs/kanewalaBieman_icsews13secse_preprint.pdf
@@ -904,7 +904,7 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 	- https://agroce.github.io/atest16.pdf
 - Notes on Test-Case Reduction
 	- https://www.drmaciver.com/2019/01/notes-on-test-case-reduction/
-- Reduce Before You Localize: Delta-Debugging and Spectrum-Based Fault Localization 
+- Reduce Before You Localize: Delta-Debugging and Spectrum-Based Fault Localization
 	- 2018 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)
 	- Arpit Christi, Matthew Lyle Olson, Mohammad Amin Alipour, Alex Groce
 	- https://doi.org/10.1109/ISSREW.2018.00005
@@ -945,13 +945,13 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 	- https://claremacrae.co.uk/conferences/presentations.html
 - Boost.Test
 	- http://www.boost.org/libs/test/
-	- Production use of Boost.Test 
+	- Production use of Boost.Test
 		- BoostCon 2010; Gennadiy Rozental
 		- https://www.youtube.com/watch?v=WUQkn4CnzF4
 - [Boost].UT: C++20 μ(micro)/Unit Testing Framework
 	- https://github.com/boost-experimental/ut
 - Catch2
-	- A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch) 
+	- A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch)
 	- http://catch-lib.net
 	- https://github.com/catchorg/Catch2
 	- Modern C++ Testing with Catch2 - Phil Nash
@@ -1042,6 +1042,14 @@ Test Doubles: Faking, Mocking
 - Google Test Automation Conference (GTAC)
 	- https://developers.google.com/google-test-automation-conference/
 
+## Talks: 2020
+
+- C++ Testing Techniques, Tips and Tricks
+	- CppEurope 2020; Clare Macrae
+	- https://www.youtube.com/watch?v=-5N-u34L7wo
+	- https://www.slideshare.net/ClareMacrae/cpp-testing-techniques-tips-and-tricks-cpp-europe
+	- https://github.com/claremacrae/talks/blob/main/Cpp_Testing_Techniques_Tips_and_Tricks.md
+
 ## Talks: 2019
 
 - Back to Basics: Test-driven Development
@@ -1095,7 +1103,7 @@ Test Doubles: Faking, Mocking
 	- CppCon 2015; T. Winters & H. Wright
 	- https://www.youtube.com/watch?v=u5senBJUkPc
 - Fast Iteration Tools in the Production of the Talos Principle
-	- GDC Europe 2015;  Alen Ladavac 
+	- GDC Europe 2015;  Alen Ladavac
 	- http://www.gdcvault.com/play/1022784/Fast-Iteration-Tools-in-the
 
 ## Talks: 2014
