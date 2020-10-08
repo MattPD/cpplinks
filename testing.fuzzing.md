@@ -48,6 +48,8 @@ See also:
 	- http://www.cs.umd.edu/~mwh/papers/klees2018fuzzeval.html
 	- https://arxiv.org/abs/1808.09700
 	- https://www.youtube.com/watch?v=ID8XtoMn43I
+	- 2020 Symposium on Hot Topics on the Science of Security (HotSOS); Michael Hicks
+		- https://www.youtube.com/watch?v=abgDxQBHU9Y
 	- Evaluating Empirical Evaluations (for Fuzz Testing)
 		- http://www.pl-enthusiast.net/2018/08/23/evaluating-empirical-evaluations-for-fuzz-testing/
 	- How to Spot Good Fuzzing Research
