@@ -94,6 +94,11 @@ See also:
 
 ## Correctness
 
+- A Model for Detecting Faults in Build Specifications
+	- SPLASH 2020 OOPSLA
+	- Thodoris Sotiropoulos, Stefanos Chaliasos, Dimitris Mitropoulos, Diomidis Spinellis
+	- https://2020.splashcon.org/details/splash-2020-oopsla/20/A-Model-for-Detecting-Faults-in-Build-Specifications
+	- https://dimitro.gr/assets/papers/SCMS20.pdf
 - Detecting Incorrect Build Rules
 	- International Conference on Software Engineering (ICSE) 2019
 	- Nandor Licker, Andrew Rice
@@ -148,8 +153,8 @@ See also:
 		- https://llvm.org/devmtg/2016-11/Slides/Bowen-Hugett-ToyProgrammingDemo.pdf
 		- https://youtu.be/-pL94rqyQ6c
 	- Targeting a statically compiled program repository with LLVM
-		- 2019 EuroLLVM Developers’ Meeting; Phil Camp , Russell Gallop 
-		- https://www.youtube.com/watch?v=mlQyEBDnDJE 
+		- 2019 EuroLLVM Developers’ Meeting; Phil Camp, Russell Gallop
+		- https://www.youtube.com/watch?v=mlQyEBDnDJE
 		- http://llvm.org/devmtg/2019-04/slides/Lightning-Camp-Program_Repo.pdf
 	- LLVM Build Times Using a Program Repository
 		- https://www.snsystems.com/technology/tech-blog/llvm-build-times-using-a-program-repository
@@ -164,7 +169,7 @@ See also:
 	- Andrey Mokhov, Neil Mitchell, Simon Peyton Jones, Simon Marlow
 	- https://www.microsoft.com/en-us/research/publication/non-recursive-make-considered-harmful/
 	- https://simonmar.github.io/bib/shake-2016_abstract.html
-- Recursive Make Considered Harmful 
+- Recursive Make Considered Harmful
 	- Journal of AUUG Inc, 19(1):14–25, 1998
 	- Peter Miller
 	- http://aegis.sourceforge.net/auug97.pdf
@@ -300,7 +305,7 @@ See also:
 	- http://ourmachinery.com/post/physical-design/
 - Reducing Build Time through Precompilations for Evolving Large Software
 	- International Conference on Software Maintenance (ICSM) 2005
-	- Yu, Yijun; Dayani-Fard, Homayoun; Mylopoulos, John and Andritsos, Periklis 
+	- Yu, Yijun; Dayani-Fard, Homayoun; Mylopoulos, John and Andritsos, Periklis
 	- http://www.cs.toronto.edu/%7Eperiklis/pubs/icsm05.pdf
 	- http://oro.open.ac.uk/6944/
 - To Unify or Not to Unify: A Case Study on Unified Builds (in WebKit)
@@ -544,7 +549,7 @@ See also:
 	- https://github.com/Akagi201/learning-cmake
 - Modern CMake Examples
 	- https://github.com/pr0g/cmake-examples
-- Polly: Collection of CMake toolchain files and scripts for cross-platform build and CI testing (GCC, Visual Studio, iOS, Android, Clang analyzer, sanitizers etc.) 
+- Polly: Collection of CMake toolchain files and scripts for cross-platform build and CI testing (GCC, Visual Studio, iOS, Android, Clang analyzer, sanitizers etc.)
 	- https://github.com/ruslo/polly
 
 ### CMake Readings
@@ -698,13 +703,13 @@ See also:
 	- MUCplusplus 2017
 		- https://www.youtube.com/watch?v=rLopVhns4Zs
 - Effective dependency management with CMake
-	- MUCplusplus 2017; Kai Wolf 
+	- MUCplusplus 2017; Kai Wolf
 	- https://www.youtube.com/watch?v=QayyhI-36os
 - Modern CMake for modular design
 	- Meeting C++ 2017; Mathieu Ropert
 	- https://www.youtube.com/watch?v=ztrnb-bVVPo
 - Using Modern CMake Patterns to Enforce a Good Modular Design
-	- CppCon 2017; Mathieu Ropert 
+	- CppCon 2017; Mathieu Ropert
 	- https://www.youtube.com/watch?v=eC9-iRN2b04
 
 ## FASTBuild
@@ -725,7 +730,7 @@ See also:
 
 - A more helpful makefile
 	- https://jakemccrary.com/blog/2018/12/27/a-more-helpful-makefile/
-- A Super-Simple Makefile for Medium-Sized C/C++ Projects 
+- A Super-Simple Makefile for Medium-Sized C/C++ Projects
 	- https://spin.atomicobject.com/2016/08/26/makefile-c-projects/
 - A Tutorial on Portable Makefiles
 	- http://nullprogram.com/blog/2017/08/20/
@@ -764,7 +769,7 @@ See also:
 - GNU Make meets file names with spaces in them - https://www.cmcrossroads.com/article/gnu-make-meets-file-names-spaces-them
 - GNU Make Standard Library - http://gmsl.sourceforge.net/
 - HOWTO: Intro to GNU make variables - https://blog.melski.net/2015/01/07/howto-intro-to-gnu-make-variables/
-- Make is (probably) fine 
+- Make is (probably) fine
 	- https://blog.yossarian.net/2019/04/23/Make-is-probably-fine
 - Make it simple: An empirical analysis of GNU Make feature use in open source projects
 	- International Conference on Program Comprehension 2015
@@ -844,7 +849,7 @@ See also:
 
 ### MSBuild
 
-- MSBuild (Visual C++) - https://docs.microsoft.com/en-us/cpp/build/msbuild-visual-cpp 
+- MSBuild (Visual C++) - https://docs.microsoft.com/en-us/cpp/build/msbuild-visual-cpp
 - Make VC++ Compiles Fast Through Parallel Compilation
 	- https://randomascii.wordpress.com/2014/03/22/make-vc-compiles-fast-through-parallel-compilation/
 - Microsoft AnyBuild
@@ -865,13 +870,13 @@ See also:
 	- GoingNative 63: C++ Build Tools - https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-63-CPP-Build-Tools
 - Using A Custom Toolchain In Visual Studio With MSBuild
 	- http://www.reedbeta.com/blog/custom-toolchain-with-msbuild/
-- Visual Studio and Custom Build Rules 
+- Visual Studio and Custom Build Rules
 	- http://miken-1gam.blogspot.com/2013/01/visual-studio-and-custom-build-rules.html
 
 ## Xcode
 
 - xcbuild-debugging-tricks
-	- Xcode new build system debugging tricks 
+	- Xcode new build system debugging tricks
 	- https://gist.github.com/ddunbar/2dda0e836c855ea96759d1d05f086d69
 - https://XcodeBuildSettings.com
 
@@ -892,7 +897,7 @@ See also:
 	- https://www.youtube.com/watch?v=34KzT2yvQuM
 	- https://github.com/CppCon/CppCon2019/tree/master/Presentations/behind_the_scenes_of_a_cpp_build_system
 - Building Modules
-	- CppCon 2019; Michael Spencer 
+	- CppCon 2019; Michael Spencer
 	- https://www.youtube.com/watch?v=L0SHHkBenss
 
 ## 2018
