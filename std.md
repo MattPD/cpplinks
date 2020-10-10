@@ -162,6 +162,10 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 - Beyond C++17 (Part 2 of N)
 	- C++Now 2019; Mateusz Pusz
 	- https://www.youtube.com/watch?v=XjUmU3q1XsA
+- How C++20 Changes the Way We Write Code
+	- CppCon 2020; Timur Doumler
+	- https://www.youtube.com/watch?v=ImLFlLjSveM
+	- https://github.com/CppCon/CppCon2020/tree/main/Presentations/how_cpp20_changes_the_way_we_write_code
 
 ## C++20: Trip Reports
 
