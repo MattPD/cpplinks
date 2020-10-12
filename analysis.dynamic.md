@@ -5,7 +5,7 @@ See also:
 - [Compilers](https://github.com/MattPD/cpplinks/blob/master/compilers.md)
 - [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.md)
 - [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
-	- [Static Program Analysis](analysis.static.md) - static analysis (static checkers and compilers) and verification 
+	- [Static Program Analysis](analysis.static.md) - static analysis (static checkers and compilers) and verification
 	- [Symbolic Execution](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#symbolic-execution)
 	- [LLVM](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#llvm)
 		- [LLVM - Verification](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#llvm---verification)
@@ -129,9 +129,9 @@ See also:
 	- TracerGrind: TracerGrind is a Valgrind tool for generating execution traces of a running process.
 	- TraceGraph: TraceGraph is a GUI for visualizing execution traces produced by TracerGrind and TracerPin.
 - Triton: a Dynamic Binary Analysis (DBA) framework
-	- Provides internal components like a Dynamic Symbolic Execution (DSE) engine, a dynamic taint engine, AST representations of the x86, x86-64, ARM32 and AArch64 Instructions Set Architecture (ISA), SMT simplification passes, an SMT solver interface and, the last but not least, Python bindings. 
+	- Provides internal components like a Dynamic Symbolic Execution (DSE) engine, a dynamic taint engine, AST representations of the x86, x86-64, ARM32 and AArch64 Instructions Set Architecture (ISA), SMT simplification passes, an SMT solver interface and, the last but not least, Python bindings.
 	- https://github.com/JonathanSalwan/Triton
-	- Triton v0.8 and ARMv7: A Guideline for Adding New Architectures 
+	- Triton v0.8 and ARMv7: A Guideline for Adding New Architectures
 		- https://blog.quarkslab.com/triton-v08-and-armv7-a-guideline-for-adding-new-architectures.html
 
 ---
@@ -204,7 +204,7 @@ See also:
 	- Workshop on Computer Architecture Research with RISC-V (CARRV) 2017
 	- Michael Clark and Bruce Hoult
 	- https://anarch128.org/~mclark/rv8-carrv.pdf
-	- https://carrv.github.io/papers/clark-rv8-carrv2017.pdf  
+	- https://carrv.github.io/papers/clark-rv8-carrv2017.pdf
 	- https://rv8.io/
 	- https://github.com/rv8-io/rv8
 - Scalable Emulation of Heterogeneous Systems
@@ -269,8 +269,7 @@ See also:
 - Pinballs: Portable and Shareable User-level Checkpoints for Reproducible Analysis and Simulation
 	- REPRODUCE 2014: Workshop on Reproducible Research Methodologies
 	- Harish Patil, Trevor E. Carlson
-	- 
-https://www.researchgate.net/publication/280306016_Pinballs_Portable_and_Shareable_User-level_Checkpoints_for_Reproducible_Analysis_and_Simulation_Appeared_in_REPRODUCE_2014_Workshop_on_Reproducible_Research_Methodologies
+	- https://www.researchgate.net/publication/280306016_Pinballs_Portable_and_Shareable_User-level_Checkpoints_for_Reproducible_Analysis_and_Simulation_Appeared_in_REPRODUCE_2014_Workshop_on_Reproducible_Research_Methodologies
 - PinPlay: a framework for deterministic replay and reproducible analysis of parallel programs
 	- Code Generation and Optimization (CGO) 2010
 	- Harish Patil, Cristiano Pereira, Mack Stallcup, Gregory Lueck, James Cownie
@@ -439,9 +438,16 @@ https://www.researchgate.net/publication/280306016_Pinballs_Portable_and_Shareab
 ### Software: Sanitizers: Projects
 
 - QASan: QEMU-AddressSanitizer
+	- a custom QEMU that detects memory errors in the guest using AddressSanitizer
 	- https://github.com/andreafioraldi/qasan
 	- Sanitized Emulation with QASan
 		- https://andreafioraldi.github.io/articles/2019/12/20/sanitized-emulation-with-qasan.html
+	- Fuzzing binaries for memory safety errors with QASan
+		- IEEE Secure Development Conference (SecDev) 2020
+		- Andrea Fioraldi, Daniele Cono D’Elia, Leonardo Querzoni
+		- https://andreafioraldi.github.io/assets/qasan-secdev20.pdf
+		- https://andreafioraldi.github.io/assets/qasan-secdev20-slides.pdf
+		- https://youtube.com/watch?v=UtFXU7Nkd8g
 - sanitizers-cmake: CMake modules to help use sanitizers
 	- https://github.com/arsenm/sanitizers-cmake
 - TypeART: LLVM-based type and memory allocation tracking sanitizer
@@ -460,7 +466,7 @@ https://www.researchgate.net/publication/280306016_Pinballs_Portable_and_Shareab
 - Address and Thread Sanitizer in GCC: State of the Onion
 	- GNU Tools Cauldron 2013; Dodji Seketeli
 	- https://gcc.gnu.org/wiki/cauldron2013?action=AttachFile&do=view&target=asan.pdf
-	- https://www.youtube.com/watch?v=41_WZk6AePY 
+	- https://www.youtube.com/watch?v=41_WZk6AePY
 - C++ Sanitizers
 	- C++ Weekly; Ep. 84 (2017)
 	- https://www.youtube.com/watch?v=MB6NPkB4YVs
@@ -507,9 +513,9 @@ https://www.researchgate.net/publication/280306016_Pinballs_Portable_and_Shareab
 	- https://www.youtube.com/watch?v=3l0BQs2ThTo
 - gdb + valgrind - https://fau.re/blog/20140330_vgdb.html
 - Valgrind and GDB: Tame the Wild C - http://heeris.id.au/2016/valgrind-gdb/
-- Watching for software inefficiencies with Valgrind 
+- Watching for software inefficiencies with Valgrind
 	- https://kristerw.blogspot.com/2020/02/watching-for-software-inefficiencies.html
-	- deadstores: A Valgrind tool for finding redundant loads/stores. 
+	- deadstores: A Valgrind tool for finding redundant loads/stores.
 		- https://github.com/kristerw/deadstores
 - CFGGrind: Dynamic Control Flow Graph Reconstruction
 	- https://github.com/rimsa/CFGgrind
