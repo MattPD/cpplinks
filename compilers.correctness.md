@@ -530,6 +530,9 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 - CF3: Test suite for arithmetic optimization of C compilers
 	- https://ist.ksc.kwansei.ac.jp/~ishiura/pub/CF3/
 	- https://github.com/ishiura-compiler/CF3
+- LongFruit: Quickly Finding RISC-V Code Quality Issues with Differential Analysis
+	- https://www.lowrisc.org/blog/2020/10/how-we-used-differential-testing-to-rapidly-find-and-fix-missed-optimisation-opportunities-in-llvms-risc-v-backend/
+	- https://github.com/lowRISC/longfruit
 - opt-fuzz: a simple implementation of bounded exhaustive testing for LLVM programs
 	- https://github.com/regehr/opt-fuzz
 
