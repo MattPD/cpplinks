@@ -10,7 +10,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 
 # Contents
 
-- [Readings](#readings): [Books](#books)
+- [Readings](#readings): [Books](#books), [Security](#security)
 - [Formalization, Specification, Verification](#formalization-specification-verification)
 - [Open-Source Hardware Projects](#open-source-hardware-projects)
 - [References](#references)
@@ -29,7 +29,7 @@ https://riscv.org/publications/
 	- 2018 PhD Thesis; Christopher Celio
 	- https://www2.eecs.berkeley.edu/Pubs/TechRpts/2018/EECS-2018-151.html
 - An Agile Approach to Building RISC-V Microprocessors - https://people.eecs.berkeley.edu/~bora/Journals/2016/IEEEMicro16.pdf
-- CARRV: Workshop on Computer Architecture Research with RISC-V - https://carrv.github.io/ 
+- CARRV: Workshop on Computer Architecture Research with RISC-V - https://carrv.github.io/
 - Design of the RISC-V Instruction Set Architecture - http://www.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-1.html
 - GRVI Phalanx: A Massively Parallel RISC-V FPGA Accelerator Accelerator - https://arxiv.org/abs/1606.01037
 - How Genode came to RISC-V - https://genode.org/documentation/articles/riscv
@@ -61,6 +61,13 @@ https://riscv.org/publications/
 	- https://www.researchgate.net/publication/328314631_Towards_a_High-Performance_RISC-V_Emulator
 	- https://www.researchgate.net/profile/Vanderson_Rosario2/publication/328314631_Towards_a_High-Performance_RISC-V_Emulator/links/5bc5e1ec458515f7d9bf6342/Towards-a-High-Performance-RISC-V-Emulator.pdf
 
+## Readings: Security
+
+- Return-Oriented Programming on RISC-V
+	- 2020 ACM Asia Conference on Computer and Communications Security (AsiaCCS)
+	- Georges-Axel Jaloyan, Konstantinos Markantonakis, Raja Naeem Akram, David Robin, Keith Mayes, David Naccache
+	- https://doi.org/10.1145/3320269.3384738
+
 ## Books
 
 https://riscv.org/risc-v-books/
@@ -68,7 +75,7 @@ https://riscv.org/risc-v-books/
 - "Computer Organization and Design: The Hardware Software Interface: RISC-V Edition" by David A. Patterson, John L. Hennessy (2017)
 	- http://store.elsevier.com/product.jsp?isbn=9780128122754
 - "The RISC-V Reader: An Open Architecture Atlas" by David Patterson, Andrew Waterman (2017)
-	- http://www.riscvbook.com/ 
+	- http://www.riscvbook.com/
 
 ## Concurrency
 
@@ -169,7 +176,7 @@ Taxonomy of Open Source Processors - http://parallel.princeton.edu/openpiton/ope
 	- https://pulp-platform.github.io/ariane/
 	- https://github.com/pulp-platform/ariane
 - BlackParrot (SystemVerilog)
-	- Linux-capable cache-coherent, RV64GC multicore  
+	- Linux-capable cache-coherent, RV64GC multicore
 	- https://github.com/black-parrot
 	- BlackParrot: An Agile Open Source RISC-V Multicore for Accelerator SoCs
 		- FOSDEM 2020; Dan Petrisko
@@ -260,7 +267,7 @@ Taxonomy of Open Source Processors - http://parallel.princeton.edu/openpiton/ope
 		- Susumu Mashimo, Akifumi Fujita, Reoma Matsuo, Seiya Akaki, Akifumi Fukuda, Toru Koizumi, Junichiro Kadomoto, Hidetsugu Irie, Masahiro Goshima, Koji Inoue, Ryota Shioya
 		- http://sv.rsg.ci.i.u-tokyo.ac.jp/pdfs/Mashimo-FPT'19.pdf
 - SCR1: an open-source RISC-V compatible MCU core (SystemVerilog)
-	- https://github.com/syntacore/scr1 
+	- https://github.com/syntacore/scr1
 - SERV: The SErial RISC-V CPU (Verilog)
 	- https://github.com/olofk/serv
 - SHAKTI Processor Project (Bluespec System Verilog; generated Verilog)
@@ -293,9 +300,9 @@ Taxonomy of Open Source Processors - http://parallel.princeton.edu/openpiton/ope
 
 https://riscv.org/specifications/
 
-- A RISC-V ELF psABI Document - RISC-V calling convention - https://github.com/riscv/riscv-elf-psabi-doc 
+- A RISC-V ELF psABI Document - RISC-V calling convention - https://github.com/riscv/riscv-elf-psabi-doc
 - Calling Convention - http://riscv.org/wp-content/uploads/2015/01/riscv-calling.pdf
-- Documentation for RISC-V Spike - https://github.com/poweihuang17/Documentation_Spike 
+- Documentation for RISC-V Spike - https://github.com/poweihuang17/Documentation_Spike
 - Notes on RISC-V assembly - https://www.imperialviolet.org/2016/12/31/riscv.html
 - Reference Card - https://www.cl.cam.ac.uk/teaching/1617/ECAD+Arch/files/docs/RISCVGreenCardv8-20151013.pdf
 - RISC-V Assembly Programmer's Manual - https://github.com/riscv/riscv-asm-manual/blob/master/riscv-asm.md
@@ -308,7 +315,7 @@ https://riscv.org/specifications/
 	- https://www.akkadia.org/drepper/risc-v-instructions.html
 - RISC-V Toolchain Conventions - https://github.com/lowRISC/riscv-toolchain-conventions
 - The Embedded RISC-V Project
-	- A complementary RISC-V specification intended for bare metal embedded applications 
+	- A complementary RISC-V specification intended for bare metal embedded applications
 	- https://emb-riscv.github.io/
 	- https://github.com/emb-riscv
 	- https://github.com/emb-riscv/specs-markdown
@@ -325,12 +332,13 @@ https://riscv.org/software-tools/
 
 - Compiler Explorer with RISC-V support - https://cx.rv8.io/
 - Debian port - https://wiki.debian.org/RISC-V
-- hpm_counters: A simple utility for doing RISC-V Hardware Performance Monitor (HPM) perf monitoring - https://github.com/ccelio/riscv-hpmcounters 
+- hpm_counters: A simple utility for doing RISC-V Hardware Performance Monitor (HPM) perf monitoring
+	- https://github.com/ccelio/riscv-hpmcounters
 - RISC-V Disassembler: Single file RISC-V Disassembler with support for RV32/RV64/RV128 IMAFDC
 	- https://github.com/michaeljclark/riscv-disassembler
 - RISC-V Meta – a suite of tools that operate on RISC-V ISA - https://github.com/michaeljclark/riscv-meta/
 - RISC-V support for LLVM projects - http://www.lowrisc.org/llvm/status/ - https://github.com/lowRISC/riscv-llvm
-- RISC-V Torture Test Generator - https://github.com/ucb-bar/riscv-torture 
+- RISC-V Torture Test Generator - https://github.com/ucb-bar/riscv-torture
 - Xv6 for RISC-V
 	- https://github.com/mit-pdos/xv6-riscv
 	- a re-implementation of Dennis Ritchie's and Ken Thompson's Unix Version 6 (v6)
@@ -395,7 +403,7 @@ https://riscv.org/software-tools/
 - Keystone: An Open Framework for Architecting Trusted Execution Environments
 	- https://keystone-enclave.org
 	- EuroSys 2020
-		- Dayeol Lee, David Kohlbrenner, Shweta Shinde, Krste Asanovic, Dawn Song 
+		- Dayeol Lee, David Kohlbrenner, Shweta Shinde, Krste Asanovic, Dawn Song
 		- https://dl.acm.org/doi/abs/10.1145/3342195.3387532
 		- https://www.youtube.com/watch?v=S8MmKBCoPSg
 
@@ -418,13 +426,13 @@ https://riscv.org/software-tools/
 	- RISC-V LLVM Coding Lab at the LLVM Developers' Meeting 2018
 		- https://www.lowrisc.org/llvm/devmtg18/
 		- https://github.com/lowRISC/lowrisc-site/blob/master/content/llvm/devmtg18.md
-	- RISC-V LLVM: a series of patches implementing a RISC-V backend for LLVM as well as initial tutorial material. 
+	- RISC-V LLVM: a series of patches implementing a RISC-V backend for LLVM as well as initial tutorial material.
 		- https://github.com/lowRISC/riscv-llvm
 
 ## 2017
 
 - End-to-end formal ISA verification of RISC-V processors with riscv-formal
-	- 34C3 (2017), Clifford Wolf 
+	- 34C3 (2017), Clifford Wolf
 	- https://www.youtube.com/watch?v=VU97ffHF_IQ
 	- https://media.ccc.de/v/34c3-8768-end-to-end_formal_isa_verification_of_risc-v_processors_with_riscv-formal
 
