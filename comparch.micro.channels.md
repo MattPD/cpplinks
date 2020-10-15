@@ -1976,12 +1976,17 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 
 ## 2020
 
-- Improving protections against speculative execution side channel
-	- FOSDEM 2020; David Stewart
-	- https://fosdem.org/2020/schedule/event/speculative_execution/
 - Cryptographic Software in a Post-Spectre World
 	- Real World Crypto 2020; Chandler Carruth
 	- https://chandlerc.blog/talks/2020_post_spectre_crypto/post_spectre_crypto.html
+- Improving protections against speculative execution side channel
+	- FOSDEM 2020; David Stewart
+	- https://fosdem.org/2020/schedule/event/speculative_execution/
+- Principled Secure Processor Design
+	- [UW-Madison Virtual Computer Architecture Seminar for Fall 2020](http://pages.cs.wisc.edu/~markhill/includes/seminar2020.html)
+	- Chris Fletcher (Illinois)
+	- https://www.youtube.com/watch?v=2lTkNk3HZ-c
+	- http://pages.cs.wisc.edu/~markhill/seminar2020/fletcher2020_09_principled_secure_processor_design.pdf
 
 ## 2019
 
