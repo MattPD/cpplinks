@@ -901,6 +901,11 @@ Validation: Including translation validation, equivalence checking.
 	- Timothy Bourke, Lélio Brun, Marc Pouzet
 	- https://popl20.sigplan.org/details/POPL-2020-Research-Papers/20/Mechanized-Semantics-and-Verified-Compilation-for-a-Dataflow-Synchronous-Language-wit
 	- https://github.com/INRIA/velus
+- Specification and verification in the field: Applying formal methods to BPF just-in-time compilers in the Linux kernel
+	- Operating Systems Design and Implementation (OSDI) 2020
+	- Luke Nelson, Jacob Van Geffen, Emina Torlak, Xi Wang
+	- https://unsat.cs.washington.edu/papers/nelson-jitterbug.pdf
+	- https://github.com/uw-unsat/jitterbug
 - The Correctness of a Code Generator for a Functional Language
 	- Verification, Model Checking, and Abstract Interpretation (VMCAI) 2020
 	- Nathanaël Courant, Antoine Séré, Natarajan Shankar
