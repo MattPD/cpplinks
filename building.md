@@ -375,7 +375,11 @@ See also:
 			- https://devblogs.microsoft.com/cppblog/faster-builds-with-pch-suggestions-from-c-build-insights/
 		- Improving code generation time with C++ Build Insights
 			- https://devblogs.microsoft.com/cppblog/improving-code-generation-time-with-cpp-build-insights/
-
+		- Introducing vcperf /timetrace for C++ build time analysis
+			- https://devblogs.microsoft.com/cppblog/introducing-vcperf-timetrace-for-cpp-build-time-analysis/
+		- Faster C++ builds, simplified: a new metric for time
+			- the wall clock time responsibility (WCTR): can be used to estimate how much time is really spent by each activity in your build, even in the presence of parallelism.
+			- https://devblogs.microsoft.com/cppblog/faster-cpp-builds-simplified-a-new-metric-for-time/
 
 ### Caching
 
