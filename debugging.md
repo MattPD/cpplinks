@@ -974,6 +974,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - HyperDbg: an open-source, user mode and kernel mode Windows debugger with a focus on using hardware technologies
 	- https://hyperdbg.com
 	- https://github.com/HyperDbg/HyperDbg
+- IceBox: Virtual Machine Introspection, Tracing & Debugging
+	- https://github.com/thalium/icebox
 - kdmp-parser: Windows kernel dump C++ parser
 	- https://github.com/0vercl0k/kdmp-parser
 - makin - reveal anti-debug tricks (Windows) - https://github.com/secrary/makin
