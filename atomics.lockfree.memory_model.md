@@ -94,7 +94,7 @@
 
 ## Dissertations
 
-- Compiler optimisations and relaxed memory consistency models 
+- Compiler optimisations and relaxed memory consistency models
 	- 2017 PhD dissertation; Robin Morisset
 	- http://www.theses.fr/en/2017PSLEE050
 	- https://tel.archives-ouvertes.fr/tel-01823521/
@@ -116,7 +116,7 @@
 	- [2015 SIGPLAN John C. Reynolds Doctoral Dissertation award citation](http://www.sigplan.org/Awards/Dissertation/#2015): "Mark Batty’s dissertation makes significant contributions to the understanding of memory models for C and C++. The ISO C++ committee proposed a design for C and C++ concurrency that was not up to the task of capturing a realistic relaxed-memory concurrency model. Batty’s work uncovered a number of subtle and serious flaws in the design, and produced an improved design in completely rigorous and machine-checked mathematics. Using software tools to explore the consequences of the design, derived directly from the mathematics, it showed that it has the desired behavior on many examples, and developed mechanized proofs that the design meets some of the original goals, showing that for programs in various subsets of the language one can reason in simpler models. The standards committee have adopted this work in their C11, C++11, and C++14 standards. The members of the award committee were impressed with the quality of the work, the impact it has had on the standardization process for C++, and the clarity of the presentation."
 - The Semantics of Multicopy Atomic ARMv8 and RISC-V
 	- 2019 PhD dissertation; Christopher Pulte
-	- https://doi.org/10.17863/CAM.39379 
+	- https://doi.org/10.17863/CAM.39379
 	- https://www.repository.cam.ac.uk/handle/1810/292229
 
 ## Papers - Data Structures
@@ -214,7 +214,7 @@
 	- 2015 - Reasoning about C11 Program Transformations - http://plv.mpi-sws.org/c11comp/
 - Shared Memory Consistency Models: A Tutorial
 	- IEEE Computer 29(12) 1996
-	- Sarita V. Adve, Kourosh Gharachorloo 
+	- Sarita V. Adve, Kourosh Gharachorloo
 	- http://rsim.cs.illinois.edu/~sadve/Publications/computer96.pdf
 	- http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-95-7.pdf
 - Simple and Efficient Semantics for Concurrent Programming Languages
@@ -232,7 +232,7 @@
 	- Proposes the designation "Weak DRF0 (WDRF0)" for the C++ memory model: "C/C++ has settled for a memory model weaker than DRF0, which we call Weak DRF0 (WDRF0). DRF programs are not guaranteed SC semantics in WDRF0. To get SC, programmers have to additionally avoid the use of the so-called low-level atomic primitives. The weak semantics of DRF programs in C++ is similar in complexity to the semantics of non-DRF programs in Java."
 - Threads Basics
 	- HP Labs Technical Report 2009-259; Hans-J. Boehm
-	- First Published: Nov. 17, 2008; Last revised: January 16, 2011 
+	- First Published: Nov. 17, 2008; Last revised: January 16, 2011
 	- http://www.hboehm.info/c++mm/threadsintro.html
 - Threads Cannot be Implemented as a Library
 	- PLDI 2005; Hans-J. Boehm
@@ -260,10 +260,15 @@
 - 1024cores
 	- http://www.1024cores.net/
 	- http://www.1024cores.net/home/lock-free-algorithms
-- C++11 Language Extensions — Concurrency
-	- https://isocpp.org/wiki/faq/cpp11-language-concurrency
-- C++11 Standard Library Extensions — Concurrency
-	- https://isocpp.org/wiki/faq/cpp11-library-concurrency
+	- C++ Standard
+		- [atomics] Atomic operations library
+			- https://eel.is/c++draft/#atomics
+		- [basic.exec] Program execution
+			- https://eel.is/c++draft/basic.exec
+		- C++11 Language Extensions — Concurrency
+			- https://isocpp.org/wiki/faq/cpp11-language-concurrency
+		- C++11 Standard Library Extensions — Concurrency
+			- https://isocpp.org/wiki/faq/cpp11-library-concurrency
 - C/C++11 mappings to processors
 	- C/C++11 atomic operations to x86, PowerPC, ARMv7, ARMv8, and Itanium instruction sequences
 	- https://www.cl.cam.ac.uk/~pes20/cpp/cpp0xmappings.html
@@ -287,7 +292,7 @@
 		- https://www.cl.cam.ac.uk/~pes20/weakmemory/
 - Some notes on lock-free and wait-free algorithms
 	- http://www.rossbencina.com/code/lockfree
-- The Check Tool Suite: Programmability, Correctness and Security Issues in Heterogeneous Multiprocessor and Mobile Systems 
+- The Check Tool Suite: Programmability, Correctness and Security Issues in Heterogeneous Multiprocessor and Mobile Systems
 	- Martonosi Research Group - http://mrmgroup.cs.princeton.edu/
 	- http://check.cs.princeton.edu/
 - Threads and memory model for C++
@@ -336,7 +341,7 @@
 	- http://svr-pes20-cppmem.cl.cam.ac.uk/cppmem/
 	- https://www.modernescpp.com/index.php/cppmem-an-overview
 - diy
-	- The sofware suite diy provides tools to design and test weak memory models. It handles ARMv8 (AArch64), ARMv7 (ARM), Power (PPC) and X86 assembly models, plus a generic (LISA) assembly language. 
+	- The sofware suite diy provides tools to design and test weak memory models. It handles ARMv8 (AArch64), ARMv7 (ARM), Power (PPC) and X86 assembly models, plus a generic (LISA) assembly language.
 	- http://diy.inria.fr/
 	- herd, a memory model simulator
 		- http://diy.inria.fr/herd/
