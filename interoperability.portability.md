@@ -2,15 +2,15 @@
 
 # Contents
 
-- [General](#general): [Readings](#readings), [Software](#software), [Talks](#talks)
-- [ABI](#abi): [Readings](#readings-1), [Software](#software-1), [Talks](#talks-1)
-- [Name Mangling](#name-mangling): [Readings](#readings-2), [Software](#software-2), [Talks](#talks-2)
+- [General](#general): [Readings](#general-readings), [Software](#general-software), [Talks](#general-talks)
+- [ABI](#abi): [Readings](#abi-readings), [Software](#abi-software), [Talks](#abi-talks)
+- [Name Mangling](#name-mangling): [Readings](#name-mangling-readings), [Software](#name-mangling-software), [Talks](#name-mangling-talks)
 
 ---
 
 # General
 
-## Readings
+## General: Readings
 
 - Beautiful Native Libraries
 	- http://lucumr.pocoo.org/2013/8/18/beautiful-native-libraries/
@@ -40,17 +40,17 @@
 	- https://arxiv.org/abs/1907.00863
 	- https://github.com/jku-ssw/gcc-builtin-study
 
-## Software
+## General: Software
 
 - Hedley
 	- a single C/C++ header you can include in your project to enable compiler-specific features while retaining compatibility with all compilers. It contains dozens of macros to help make your code easier to use, harder to misuse, safer, faster, and more portable.
 	- https://nemequ.github.io/hedley/
 	- https://github.com/nemequ/hedley
 - Portable Snippets
-	- a collection of public domain (CC0) code snippets written in C for performing various common tasks which are typically OS, architecture, and/or compiler-dependent. 
+	- a collection of public domain (CC0) code snippets written in C for performing various common tasks which are typically OS, architecture, and/or compiler-dependent.
 	- https://github.com/nemequ/portable-snippets
 
-## Talks
+## General: Talks
 
 - Making a Language Cross Platform: Libraries and Tooling
 	- 2019 LLVM Developers’ Meeting; Gwen Mittertreiner
@@ -67,7 +67,7 @@
 
 # ABI
 
-## Readings
+## ABI: Readings
 
 - `[[trivial_abi]]` 101
 	- https://quuxplusone.github.io/blog/2018/05/02/trivial-abi-101/
@@ -77,6 +77,8 @@
 	- https://gcc.gnu.org/onlinedocs/libstdc++/manual/abi.html
 - ABIs, linkers and other animals - Stephen Kell (2014)
 	- https://www.cl.cam.ac.uk/~srk31/research/talks/kell14abis-slides.pdf
+- Big List of ABI Resources
+	- https://github.com/lenary/abis
 - Binary Compatibility Examples
 	- https://community.kde.org/Policies/Binary_Compatibility_Examples
 - Binary Compatibility Issues With C++
@@ -118,7 +120,7 @@
 - X86-64 System V Application Binary Interface
 	- https://github.com/hjl-tools/x86-psABI/wiki/X86-psABI
 
-## Software
+## ABI: Software
 
 - ABI Compliance Checker (ABICC)
 	- A tool for checking backward API/ABI compatibility of a C/C++ library
@@ -152,7 +154,7 @@
 - pexcheck: Pexcheck is a command-line tool for checking the binary compatibility of public interfaces.
 	- https://github.com/AVGTechnologies/pexcheck
 
-## Talks
+## ABI: Talks
 
 - Analyzing changes to the binary interface exposed by the Kernel to its modules
 	- Kernel Recipes 2019; Dodji Seketeli, Matthias Männich, Jessica Yu
@@ -204,7 +206,7 @@
 
 # Name Mangling
 
-## Readings
+## Name Mangling: Readings
 
 - Measuring Mangled Name Ambiguity in Large C / C++ Projects
 	- SQAMIA 2017
@@ -217,7 +219,7 @@
 	- http://ieeexplore.ieee.org/document/8090143/
 	- https://www.researchgate.net/publication/320832497_Towards_Better_Symbol_Resolution_for_CC_Programs_A_Cluster-Based_Solution
 
-## Software
+## Name Mangling: Software
 
 - c++filtjs: c++filt in JavaScript with Emscripten
 	- https://d.fuqu.jp/c++filtjs/
@@ -237,6 +239,6 @@
 	- https://github.com/nico/demumble
 - GCC and MSVC C++ Demangler - http://demangler.com/
 
-## Talks
+## Name Mangling: Talks
 
 - C++ Weekly - Ep 8 C++ Name Demangling - https://www.youtube.com/watch?v=uX99t7GmuDc
