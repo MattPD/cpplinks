@@ -25,6 +25,9 @@ Contents:
 
 ## General: Readings
 
+* Actually Portable Executable
+	- https://justine.storage.googleapis.com/ape.html
+	- https://github.com/jart/cosmopolitan
 * Comparison of executable file formats - https://en.wikipedia.org/wiki/Comparison_of_executable_file_formats
 * Executable and object file formats - https://en.wikipedia.org/wiki/Template:Executables
 * From Hack to Elaborate Technique—A Survey on Binary Rewriting
@@ -231,12 +234,12 @@ Contents:
 
 * An interesting tree serialization algorithm from DWARF - https://eli.thegreenplace.net/2011/09/29/an-interesting-tree-serialization-algorithm-from-dwarf
 * David A's DWARF Page - https://www.prevanders.net/dwarf.html
-* Debug Information is Huge and What to do About It - https://documentation.backtrace.io/dwarf/
 * Debugging formats DWARF and STAB - https://www.ibm.com/developerworks/library/os-debugging/
 * DWARF Extensions for Separate Debug Information Files - https://gcc.gnu.org/wiki/DebugFission
 * DWARF Package File Format - https://gcc.gnu.org/wiki/DebugFissionDWP
 * DWARF: Debug Information is Huge and What to do About It
 	- Samy Al Bahra
+	- https://documentation.backtrace.io/dwarf/
 	- https://help.backtrace.io/en/articles/1716990-dwarf
 * Exploring the DWARF debug format information - https://www.ibm.com/developerworks/aix/library/au-dwarf-debug-format/index.html
 * From Debugging-Information Based Binary-Level Type Inference to CFG Generation
