@@ -738,6 +738,8 @@ See also:
 	- https://spin.atomicobject.com/2016/08/26/makefile-c-projects/
 - A Tutorial on Portable Makefiles
 	- http://nullprogram.com/blog/2017/08/20/
+- make help - Well documented Makefiles
+	- https://www.thapaliya.com/en/writings/well-documented-makefiles/
 - Makefile Tutorial
 	- https://gist.github.com/isaacs/62a2d1825d04437c6f08
 - Notes for new Make users
