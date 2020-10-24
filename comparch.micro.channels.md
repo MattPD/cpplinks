@@ -541,6 +541,10 @@ See also: [Computer Architecture](comparch.md)
 	- GLSVLSI 2020
 	- Claudio Canella, Sai Manoj Pudukotai Dinakarrao, Daniel Gruss, Khaled N. Khasawneh
 	- https://gruss.cc/files/transient-defenses.pdf
+- Hardware-Software Contracts for Secure Speculation
+	- IEEE Symposium on Security and Privacy (IEEE S&P) 2021
+	- Marco Guarnieri, Boris Köpf, Jan Reineke, Pepe Vila
+	- https://arxiv.org/abs/2006.03841
 - KLEESpectre: Detecting Information Leakage through Speculative Cache Attacks via Symbolic Execution
 	- ACM Transactions on Software Engineering and Methodology (TOSEM) 2020
 	- Guanhua Wang, Sudipta Chattopadhyay, Arnab Kumar Biswas, Tulika Mitra, Abhik Roychoudhury
@@ -1791,7 +1795,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 - Survey of Transient Execution Attacks
 	- 2020
 	- Wenjie Xiong, Jakub Szefer
-	- https://arxiv.org/abs/2006.03841
+	- https://arxiv.org/abs/2005.13435
 - SpeechMiner: A Framework for Investigating and Measuring Speculative Execution Vulnerabilities
 	- NDSS 2020
 	- Yuan Xiao, Yinqian Zhang, Radu Teodorescu
