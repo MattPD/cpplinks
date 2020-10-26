@@ -120,9 +120,19 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 
 ## C++20: Talks
 
+- Beyond C++17
+	- C++Now 2018; Mateusz Pusz
+	- https://www.youtube.com/watch?v=y7PBciQp0B8
+- Beyond C++17 (Part 2 of N)
+	- C++Now 2019; Mateusz Pusz
+	- https://www.youtube.com/watch?v=XjUmU3q1XsA
 - C++20 in Breadth (not depth!)
 	- C++Now 2019; Alisdair Meredith
 	- https://www.youtube.com/watch?v=tczJe5YGHuc
+- C++20 STL Features: One Year of Development on GitHub
+	- CppCon 2020; Stephan T. Lavavej
+	- https://www.youtube.com/watch?v=8kjRx8vo6y4
+	- https://github.com/CppCon/CppCon2020/tree/main/Presentations/cpp20_stl_features_1_year_of_development_on_github
 - C++20: An (Almost) Complete Overview
 	- CppCon 2020; Marc Gregoire
 	- https://www.youtube.com/watch?v=FRkJCvHWdwQ
@@ -146,6 +156,10 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- EuroLLVM 2019; Marshall Clow
 	- https://www.youtube.com/watch?v=coXGSfUak-Q
 	- http://llvm.org/devmtg/2019-04/slides/TechTalk-Clow-Changes_to_the_C++_standard_library_for_C++20.pdf
+- How C++20 Changes the Way We Write Code
+	- CppCon 2020; Timur Doumler
+	- https://www.youtube.com/watch?v=ImLFlLjSveM
+	- https://github.com/CppCon/CppCon2020/tree/main/Presentations/how_cpp20_changes_the_way_we_write_code
 - The Best Parts of C++
 	- CppCon 2019; Jason Turner
 	- https://www.youtube.com/watch?v=iz5Qx18H6lg
@@ -156,16 +170,6 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 - The C++20 Standard Library: Beyond Ranges
 	- CppCon 2019; Jeff Garland
 	- https://www.youtube.com/watch?v=fI19ttpUNRQ
-- Beyond C++17
-	- C++Now 2018; Mateusz Pusz
-	- https://www.youtube.com/watch?v=y7PBciQp0B8
-- Beyond C++17 (Part 2 of N)
-	- C++Now 2019; Mateusz Pusz
-	- https://www.youtube.com/watch?v=XjUmU3q1XsA
-- How C++20 Changes the Way We Write Code
-	- CppCon 2020; Timur Doumler
-	- https://www.youtube.com/watch?v=ImLFlLjSveM
-	- https://github.com/CppCon/CppCon2020/tree/main/Presentations/how_cpp20_changes_the_way_we_write_code
 
 ## C++20: Trip Reports
 
