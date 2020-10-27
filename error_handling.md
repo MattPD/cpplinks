@@ -437,8 +437,19 @@
 ## 2020
 
 - Exceptions Under the Spotlight
-	- Munich C++ User Group (MUC++) 2020; Inbal Levi
-	- https://www.youtube.com/watch?v=7mQBfl2K-5Y
+	- Inbal Levi
+	- Munich C++ User Group (MUC++) 2020
+		- https://www.youtube.com/watch?v=7mQBfl2K-5Y
+	- CppCon 2020
+		- https://www.youtube.com/watch?v=N_-bUNMLGvE
+		- https://github.com/CppCon/CppCon2020/tree/main/Presentations/exceptions_under_the_spotlight
+- Back to Basics: Exceptions
+	- Klaus Iglberger
+	- Munich C++ User Group (MUC++) 2020
+		- https://www.youtube.com/watch?v=hBiDEGJxddU
+	- CppCon 2020
+		- https://www.youtube.com/watch?v=0ojB8c0xUd8
+		- https://github.com/CppCon/CppCon2020/tree/main/Presentations/back_to_basics_exceptions
 
 ## 2019
 
