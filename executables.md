@@ -7,7 +7,7 @@ Organization: Preference given to the most specific category; e.g., if an articl
 See also:
 
 - [Compilers](https://github.com/MattPD/cpplinks/blob/master/compilers.md)
-- [Linking and Loading](https://github.com/MattPD/cpplinks/blob/master/executables.linking_loading.md) 
+- [Linking and Loading](https://github.com/MattPD/cpplinks/blob/master/executables.linking_loading.md)
 
 Contents:
 
@@ -117,7 +117,7 @@ Contents:
 	+ Changing symbol visibility
 	+ Renaming symbols
 	+ Actions are performed in-place, leaving the rest of the binary untouched
-* The Witchcraft Compiler Collection  
+* The Witchcraft Compiler Collection
 	+ https://github.com/endrazine/wcc
 	+ wld: The Witchcraft Linker
 		- wld takes an ELF executable as an input and modifies it to create a shared library.
@@ -608,7 +608,7 @@ Contents:
 	- https://github.com/bingseclab/ElfFrag
 - Elfhack: to optimize ELF binaries for size and cold startup speed - https://github.com/mozilla/positron/tree/master/build/unix/elfhack
 - ELFIO - ELF (Executable and Linkable Format) reader and producer implemented as a header only C++ library
-	- http://serge1.github.io/ELFIO 
+	- http://serge1.github.io/ELFIO
 	- https://github.com/serge1/ELFIO
 - ELFkickers (ebfc, elfls, elftoc, infect, objres, rebind, sstrip) - http://www.muppetlabs.com/~breadbox/software/elfkickers.html
 - Elfkit: Rust ELF parsing, manipulation, and (re)linking toolkit - https://github.com/aep/elfkit
@@ -662,7 +662,7 @@ Contents:
 		- https://www.youtube.com/watch?v=a03HXo8a_Io
 - Stasis: build static position-independant-executables without any runtime requirements (no libc or ldso)
 	- https://github.com/korhalio/stasis
-- syms2elf: a plugin to export the symbols recognized to the ELF symbol table 
+- syms2elf: a plugin to export the symbols recognized to the ELF symbol table
 	- Hex-Ray's IDA Pro and radare2 - https://github.com/danigargu/syms2elf
 	- Binary Ninja - https://github.com/monosource/syms2elf
 - The ERESI Reverse Engineering Software Interface: ELFsh (ELF shell), Embedded ELF Debugger (e2dbg)
@@ -676,6 +676,12 @@ Contents:
 - Vtable-Dumper - a tool to list content of virtual tables in a C++ shared library - https://github.com/lvc/vtable-dumper
 
 ## ELF: Talks
+
+### ELF: Talks (2020)
+
+- In-depth: ELF - The Extensible & Linkable Format
+	- 2020
+	- https://www.youtube.com/watch?v=nC1U1LJQL8o
 
 ### ELF: Talks (2019)
 
@@ -757,7 +763,7 @@ Contents:
 	- https://www.youtube.com/watch?v=4LU6N6THh2U
 	- https://infocon.org/cons/CONFidence/CONFidence%202013/presentations/julian_bangert_sergey_bratus.pdf
 - Any Input Is a Program Weird Machines in ABI
-	- CONFidence 2013; Rebecca Bx Shapiro, Julian Bangert, Sergey Bratus 
+	- CONFidence 2013; Rebecca Bx Shapiro, Julian Bangert, Sergey Bratus
 	- https://www.youtube.com/watch?v=crt5gxOoUuM
 	- https://infocon.org/cons/CONFidence/CONFidence%202013/presentations/julian_bangert_rebecca_shapiro_sergey_bratus.pdf
 - "Weird Machines" in ELF: A Spotlight on the Underappreciated Metadata
@@ -770,7 +776,7 @@ Contents:
 ### ELF: Talks (2012)
 
 - Programming Weird Machines with ELF Metadata
-	- DEF CON 20 (2012); Rebecca "bx" Shapiro, Sergey Bratus 
+	- DEF CON 20 (2012); Rebecca "bx" Shapiro, Sergey Bratus
 	- https://www.youtube.com/watch?v=V5KsUm1KfZE
 	- https://www.youtube.com/watch?v=YgtxxLCVD-o
 	- http://cs.dartmouth.edu/~bx/elf-bf-tools/slides/elf-defcon20.pdf
@@ -997,7 +1003,7 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	- https://rammerlabs.alidml.ru/index-eng.html
 	- https://rammerlabs.alidml.ru/peanatomist-eng.html
 * PE Insider - http://cerbero.io/peinsider/
-* PE Tools - Portable executable (PE) manipulation toolkit 
+* PE Tools - Portable executable (PE) manipulation toolkit
 	+ Process Viewer, PE files Editor, Dumper, Rebuilder, Comparator, Analyzer
 	+ https://petoolse.github.io/petools/
 	+ https://github.com/petoolse/petools
@@ -1005,8 +1011,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	- Can also be used with IDA Pro to dump in-memory PE files and reconstruct imports.
 	- https://github.com/blackberry/pe_tree
 * PE-bear - https://hshrzd.wordpress.com/pe-bear/
-* pe-parse - Principled, lightweight C/C++ PE parser - https://github.com/trailofbits/pe-parse 
-* PE-sieve: a small tool for investigating inline hooks (and other in-memory code patches) 
+* pe-parse - Principled, lightweight C/C++ PE parser - https://github.com/trailofbits/pe-parse
+* PE-sieve: a small tool for investigating inline hooks (and other in-memory code patches)
 	+ https://hshrzd.wordpress.com/pe-sieve/
 	+ https://github.com/hasherezade/pe-sieve
 * pe_recovery_tools: Helper tools for recovering dumped PE files - https://github.com/hasherezade/pe_recovery_tools
