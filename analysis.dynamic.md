@@ -139,13 +139,12 @@ See also:
 # Dynamic Binary Translation (DBT)
 
 - A Retargetable System-Level DBT Hypervisor
-	- 2019 USENIX Annual Technical Conference
 	- Tom Spink, Harry Wagstaff, Björn Franke
-	- https://www.usenix.org/conference/atc19/presentation/spink
-- Unleashing the Power of Learning: An Enhanced Learning-Based Approach for Dynamic Binary Translation
 	- 2019 USENIX Annual Technical Conference
-	- Changheng Song, Wenwen Wang, Pen-Chung Yew, Antonia Zhai, Weihua Zhang
-	- https://www.usenix.org/conference/atc19/presentation/song
+		- https://www.usenix.org/conference/atc19/presentation/spink
+	- ACM Transactions on Computer Systems 36(4) 2020
+		- https://doi.org/10.1145/3386161
+		- https://www.research.ed.ac.uk/portal/en/publications/a-retargetable-systemlevel-dbt-hypervisor(5807dfc5-6f47-4de6-af05-f0a575960b8d).html
 - Acceleration of memory accesses in dynamic binary translation
 	- 2018 PhD Dissertation; Antoine Faravelon
 	- https://tel.archives-ouvertes.fr/tel-02004524/
@@ -211,6 +210,10 @@ See also:
 	- 2019 Ph.D. Dissertation; Luca Carloni
 	- https://academiccommons.columbia.edu/doi/10.7916/d8-a78j-z392
 	- "in this dissertation we first present a novel machine emulator design based on dynamic binary translation that makes the following improvements over the state of the art: it scales on multicore hosts while remaining memory efficient, correctly handles cross-ISA differences in atomic instruction semantics, leverages the host floating point (FP) unit to speed up FP emulation without sacrificing correctness, and can be efficiently instrumented to---among other possible uses---drive the execution of a full-system, cross-ISA simulator with support for accelerators."
+- Unleashing the Power of Learning: An Enhanced Learning-Based Approach for Dynamic Binary Translation
+	- 2019 USENIX Annual Technical Conference
+	- Changheng Song, Wenwen Wang, Pen-Chung Yew, Antonia Zhai, Weihua Zhang
+	- https://www.usenix.org/conference/atc19/presentation/song
 
 ---
 
