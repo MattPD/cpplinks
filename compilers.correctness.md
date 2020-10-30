@@ -342,6 +342,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2020/ECOOP_GraphicsFuzz.pdf
 	- https://2020.ecoop.org/details/ecoop-2020-papers/22/Putting-Randomized-Compiler-Testing-into-Production
 	- http://multicore.doc.ic.ac.uk/tools/GraphicsFuzz/ECOOP2020Artifact/
+- Random Testing for C and C++ Compilers with YARPGen
+	- OOPSLA 2020
+	- Vsevolod Livinskii, Dmitry Babokin, John Regehr
+	- https://doi.org/10.1145/3428264
+	- http://www.cs.utah.edu/~regehr/yarpgen-oopsla20.pdf
 - Testing Static Analyses for Precision and Soundness
 	- Code Generation and Optimization (CGO) 2020
 	- Jubi Taneja, Zhengyang Liu, John Regehr
