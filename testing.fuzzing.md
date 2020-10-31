@@ -104,6 +104,11 @@ See also:
 - Circumventing Fuzzing Roadblocks with Compiler Transformations
 	- https://lafintel.wordpress.com/2016/08/15/circumventing-fuzzing-roadblocks-with-compiler-transformations/
 	- LAF LLVM Passes - https://gitlab.com/laf-intel/laf-llvm-pass
+- FUDGE: Fuzz Driver Generation at Scale
+	- European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2019
+	- Domagoj Babić, Stefan Bucur, Yaohui Chen, Franjo Ivančić, Tim King, Markus Kusano, Caroline Lemieux, László Szekeres, Wei Wang
+	- https://doi.org/10.1145/3338906.3340456
+	- https://research.google/pubs/pub48314/
 - Fuzzers love assertions
 	- Jesse Ruderman
 	- http://www.squarefree.com/2014/02/03/fuzzers-love-assertions/
