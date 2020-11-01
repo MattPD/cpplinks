@@ -531,6 +531,14 @@ See also: [Computer Architecture](comparch.md)
 - Pitchfork: Detecting Spectre vulnerabilities using symbolic execution
 	- https://github.com/cdisselkoen/pitchfork
 
+### Defense - Speculation: 2021
+
+- DOLMA: Securing Speculation with the Principle of Transient Non-Observability
+	- USENIX Security 2021
+	- Kevin Loughlin, Ian Neal, Jiacheng Ma, Elisa Tsai, Ofir Weisse, Satish Narayanasamy, Baris Kasikci
+	- https://www.kevinloughlin.org/dolma.pdf
+	- https://github.com/efeslab/dolma
+
 ### Defense - Speculation: 2020
 
 - ConTExT: A Generic Approach for Mitigating Spectre
