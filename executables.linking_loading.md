@@ -22,7 +22,7 @@ See also:
 	- [Linkers](#software-linkers)
 	- [OS: macOS](#software-os-macos)
 	- [OS: Linux](#software-os-linux)
-- [Talks](#talks): [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016)
+- [Talks](#talks): [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2012](#talks-2012)
 
 ---
 
@@ -41,6 +41,9 @@ See also:
 	- ACM Computing Surveys, Volume 4, Number 3, September 1972
 	- Leon Presser, John R. White
 	- http://www-inst.eecs.berkeley.edu/~cs162/sp06/hand-outs/p149-presser-linker-loader.pdf
+- Optimizing the LLVM ELF linker for a distributed compilation environment: Concurrent Linking with LLVM LLD
+	- 2020 Master’s thesis; Alexander Wilkens
+	- https://www.diva-portal.org/smash/record.jsf?pid=diva2:1484152
 - Oracle Solaris 11.1 Linkers and Libraries Guide
 	- https://docs.oracle.com/cd/E26502_01/html/E26507/
 - The Missing Link: Explaining ELF Static Linking, Semantically
@@ -184,7 +187,7 @@ See also:
 	- ThinLTO: Scalable and Incremental Link-Time Optimization
 		- CppCon 2017; Teresa Johnson
 		- https://www.youtube.com/watch?v=p9nH2vZ2mNo
-	- ThinLTO: Scalable and incremental LTO 
+	- ThinLTO: Scalable and incremental LTO
 		- CGO 2017
 		- Teresa Johnson, Mehdi Amini, and Xinliang David Li
 		- https://research.google/pubs/pub47584/
@@ -311,7 +314,7 @@ See also:
 
 - An Evil Copy: How the Loader Betrays You
 	- Network and Distributed System Security Symposium (NDSS) 2017
-	- Xinyang Ge, Mathias Payer, Trent Jaeger 
+	- Xinyang Ge, Mathias Payer, Trent Jaeger
 	- https://nebelwelt.net/publications/files/17NDSS.pdf
 	- https://www.microsoft.com/en-us/research/publication/evil-copy-loader-betrays/
 - Breaking the links: Exploiting the linker
@@ -336,7 +339,7 @@ See also:
 	- https://glandium.org/blog/?p=2764
 - How To Write Shared Libraries - Ulrich Drepper
 	- https://www.akkadia.org/drepper/dsohowto.pdf
-- Inlining — shared libraries are special 
+- Inlining — shared libraries are special
 	- https://kristerw.blogspot.com/2016/11/inlining-shared-libraries-are-special.html
 - PLT and GOT - the key to code sharing and dynamic libraries
 	- https://www.technovelty.org/linux/plt-and-got-the-key-to-code-sharing-and-dynamic-libraries.html
@@ -363,7 +366,7 @@ See also:
 - linkermapviz
 	- Interactive visualization of GNU ld’s linker map with a tree map.
 	- https://github.com/PromyLOPh/linkermapviz
-- linksem: Semantic model for aspects of ELF static linking and DWARF debug information 
+- linksem: Semantic model for aspects of ELF static linking and DWARF debug information
 	- https://github.com/rems-project/linksem
 - ShlibVisibilityChecker: Tool for locating internal symbols unnecessarily exported from shared libraries
 	- https://github.com/yugr/ShlibVisibilityChecker
@@ -469,7 +472,7 @@ See also:
 	- https://archive.fosdem.org/2017/schedule/event/lld/
 	- https://archive.fosdem.org/2017/schedule/event/lld/attachments/slides/1446/export/events/attachments/lld/slides/1446/FosdemLLD2017.pdf
 - My Little Object File: How Linkers Implement C++
-	- CppCon 2017; Michael Spencer 
+	- CppCon 2017; Michael Spencer
 	- https://youtu.be/a5L66zguFe4
 - The Missing Link: The Curious symbiosis between C++ and the Linker
 	- C++ Meetup Sydney hosted by IMC; December 6, 2017
