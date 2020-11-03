@@ -185,12 +185,12 @@
 
 ## Papers
 
-* A Study of the Applicability of Existing Exception-handling Techniques to Component-based Real-time Software Technology
-	+ ACM Transactions on Programming Languages and Systems (TOPLAS) 20(2) 1998
-	+ Jun Lang and David B. Stewart
-	+ https://doi.org/10.1145/276393.276395
-	+ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.33.3400&rep=rep1&type=pdf
-* A Study on the Effects of Exception Usage in Open-Source C++ Systems
+- A Study of the Applicability of Existing Exception-handling Techniques to Component-based Real-time Software Technology
+	- ACM Transactions on Programming Languages and Systems (TOPLAS) 20(2) 1998
+	- Jun Lang and David B. Stewart
+	- https://doi.org/10.1145/276393.276395
+	- http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.33.3400&rep=rep1&type=pdf
+- A Study on the Effects of Exception Usage in Open-Source C++ Systems
 	- 2019 Master Thesis; Kirsten Bradley
 		- http://hdl.handle.net/10012/14714
 	- Source Code Analysis and Manipulation (SCAM) 2019
@@ -198,80 +198,86 @@
 		- https://plg.uwaterloo.ca/~migod/papers/2019/scam19.pdf
 	- Zelda - Zee Exception Length and Destination Analyzer
 		- https://github.com/k10bradley/zelda
-* C++ exception handling
-	+ IEEE Concurrency 8(4) 2000
-	+ Christophe De Dinechin
-	+ https://doi.org/10.1109/4434.895109
-* C++ Exception Handling for IA64
-	+ USENIX Workshop on Industrial Experiences with Systems Software (WIESS) 2000
-	+ Christophe de Dinechin
-	+ http://www.usenix.org/events/wiess2000/dinechin.html
-* Exception Handling: Issues and a Proposed Notation
-	+ Communications of the ACM (CACM) 18(12) 1975
-	+ John B. Goodenough
-	+ https://dl.acm.org/citation.cfm?id=361230
-* Exception-Safety in Generic Components: Lessons Learned from Specifying Exception-Safety for the C++ Standard Library
-	+ David Abrahams
-	+ https://www.boost.org/community/exception_safety.html
-	+ Error and Exception Handling - https://www.boost.org/community/error_handling.html
-* Exceptional Kernel: Using C++ Exceptions in the Linux Kernel
-	+ 2004
-	+ Halldór Ísak Gylfason, Gísli Hjálmtýsson
-	+ http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.100.7504
-	+ http://web.archive.org/http://netlab.ru.is/exception/KernelExceptions.pdf
-	+ C++ Exceptions & the Linux Kernel (2005)
+- C++ exception handling
+	- IEEE Concurrency 8(4) 2000
+	- Christophe De Dinechin
+	- https://doi.org/10.1109/4434.895109
+- C++ Exception Handling for IA64
+	- USENIX Workshop on Industrial Experiences with Systems Software (WIESS) 2000
+	- Christophe de Dinechin
+	- http://www.usenix.org/events/wiess2000/dinechin.html
+- Exception Handling: Issues and a Proposed Notation
+	- Communications of the ACM (CACM) 18(12) 1975
+	- John B. Goodenough
+	- https://dl.acm.org/citation.cfm?id=361230
+- Exception-Safety in Generic Components: Lessons Learned from Specifying Exception-Safety for the C++ Standard Library
+	- David Abrahams
+	- https://www.boost.org/community/exception_safety.html
+	- Error and Exception Handling - https://www.boost.org/community/error_handling.html
+- Exceptional Kernel: Using C++ Exceptions in the Linux Kernel
+	- 2004
+	- Halldór Ísak Gylfason, Gísli Hjálmtýsson
+	- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.100.7504
+	- http://web.archive.org/http://netlab.ru.is/exception/KernelExceptions.pdf
+	- C++ Exceptions & the Linux Kernel (2005)
 		- http://www.drdobbs.com/cpp/c-exceptions-the-linux-kernel/229100146
-* Generating Precise Error Specifications for C: A Zero Shot Learning Approach
-	+ SPLASH 2019 OOPSLA
-	+ Baijun Wu, John Peter Campora III, He Yi, Alexander Schlecht, Sheng Chen
-	+ https://dl.acm.org/citation.cfm?id=3360586
-	+ https://2019.splashcon.org/details/splash-2019-oopsla/44/Generating-Precise-Error-Specifications-for-C-A-Zero-Shot-Learning-Approach
-	+ https://bitbucket.org/plcacs/errorspec/src/master/
-* Interprocedural exception analysis for C++
-	+ ECOOP 2011
-	+ Prakash Prabhu, Naoto Maeda, Gogul Balakrishnan, Franjo Ivančić, Aarti Gupta
-	+ https://www.semanticscholar.org/paper/Interprocedural-Exception-Analysis-for-C%2B%2B-Prabhu-Maeda/0aa41227da8f2db0af3afc67f71b7d9ebc09fb8c
-	+ http://pages.cs.wisc.edu/~bgogul/Research/Papers/ecoop11.html
-* Low-cost Deterministic C++ Exceptions for Embedded Systems
-	+ Compiler Construction (CC) 2019
-	+ James Renwick, Tom Spink, Björn Frank
-	+ https://doi.org/10.1145/3302516.3307346
-	+ https://www.research.ed.ac.uk/portal/en/publications/lowcost-deterministic-c-exceptions-for-embedded-systems(2cfc59d5-fa95-45e0-83b2-46e51098cf1f).html
-* Model checking C++ programs with exceptions
-	+ Science of Computer Programming, Volume 128, 2016
-	+ P. Ročkai, J. Barnat, L. Brim
-	+ https://dl.acm.org/citation.cfm?id=2974473
-	+ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.671.6441&rep=rep1&type=pdf
-	+ https://journal.ub.tu-berlin.de/eceasst/article/view/983
-	+ http://fmt.cs.utwente.nl/conferences/avocs2014/slides/slides.pdf
-* Optimizing away C++ exception handling
-	+ SIGPLAN Notices 33(8) 1998
-	+ Jonathan L. Schilling
-	+ https://dl.acm.org/citation.cfm?id=286390
-	+ http://www.ut.sco.com/developers/products/ehopt.pdf
-* Path-Based Function Embedding and Its Application to Error-Handling Specification Mining
-	+ European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2018
-	+ Daniel DeFreez, Aditya V. Thakur, Cindy Rubio-González
-	+ https://doi.org/10.1145/3236024.3236059
-	+ http://web.cs.ucdavis.edu/~rubio/includes/fse18.pdf
-* Terse Exception Messages
-	+ Overload Journal #127, June 2015; Chris Oldwood
-	+ https://accu.org/index.php/journals/2110
-* The Use of C++ Exception Handling Constructs: A Comprehensive Study
-	+ Source Code Analysis and Manipulation (SCAM) 2015
-	+ Rodrigo Bonifacio, Fausto Carvalho, Guilherme N. Ramos, Uira Kulesza, Roberta Coelho
-	+ http://rbonifacio.net/papers/scam2015/rbonifacio-scam2015.pdf
-* Using Off-the-Shelf Exception Support Components in C++ Verification
-	+ Software Quality, Reliability and Security (QRS) 2017
-	+ Vladimír Štill, Petr Ročkai, Jiří Barnat
-	+ https://arxiv.org/pdf/1703.02394
-	+ https://divine.fi.muni.cz/2017/exceptions/
-* Zipr++: Exceptional Binary Rewriting
-	+ Forming an Ecosystem Around Software Transformation (FEAST) 2017
-	+ Jason Hiser, Anh Nguyen-Tuong, William Hawkins, Matthew McGill, Michele Co, Jack Davidson
-	+ https://dl.acm.org/citation.cfm?doid=3141235.3141240
-	+ https://tc.gtisc.gatech.edu/feast17/papers/p9-hiserA.pdf
-	+ Section 2.2 - EH Frame IR Construction - exception handling and stack unwinding information in Linux ELF executable files
+- Generating Precise Error Specifications for C: A Zero Shot Learning Approach
+	- SPLASH 2019 OOPSLA
+	- Baijun Wu, John Peter Campora III, He Yi, Alexander Schlecht, Sheng Chen
+	- https://dl.acm.org/citation.cfm?id=3360586
+	- https://2019.splashcon.org/details/splash-2019-oopsla/44/Generating-Precise-Error-Specifications-for-C-A-Zero-Shot-Learning-Approach
+	- https://bitbucket.org/plcacs/errorspec/src/master/
+- Interprocedural exception analysis for C++
+	- ECOOP 2011
+	- Prakash Prabhu, Naoto Maeda, Gogul Balakrishnan, Franjo Ivančić, Aarti Gupta
+	- https://www.semanticscholar.org/paper/Interprocedural-Exception-Analysis-for-C%2B%2B-Prabhu-Maeda/0aa41227da8f2db0af3afc67f71b7d9ebc09fb8c
+	- http://pages.cs.wisc.edu/~bgogul/Research/Papers/ecoop11.html
+- Low-cost Deterministic C++ Exceptions for Embedded Systems
+	- Compiler Construction (CC) 2019
+	- James Renwick, Tom Spink, Björn Frank
+	- https://doi.org/10.1145/3302516.3307346
+	- https://www.research.ed.ac.uk/portal/en/publications/lowcost-deterministic-c-exceptions-for-embedded-systems(2cfc59d5-fa95-45e0-83b2-46e51098cf1f).html
+- Model checking C++ programs with exceptions
+	- Science of Computer Programming, Volume 128, 2016
+	- P. Ročkai, J. Barnat, L. Brim
+	- https://dl.acm.org/citation.cfm?id=2974473
+	- http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.671.6441&rep=rep1&type=pdf
+	- https://journal.ub.tu-berlin.de/eceasst/article/view/983
+	- http://fmt.cs.utwente.nl/conferences/avocs2014/slides/slides.pdf
+- On the Impact of Exception Handling Compatibility on Binary Instrumentation
+	- 2020 Workshop on Forming an Ecosystem Around Software Transformation (FEAST)
+	- Soumyakant Priyadarshan, Huan Nguyen, R. Sekar
+	- https://doi.org/10.1145/3411502.3418428
+	- http://seclab.cs.stonybrook.edu/seclab/pubs/feast20.pdf
+	- https://feastworkshop.github.io/2020/papers/ExHandling.pdf
+- Optimizing away C++ exception handling
+	- SIGPLAN Notices 33(8) 1998
+	- Jonathan L. Schilling
+	- https://dl.acm.org/citation.cfm?id=286390
+	- http://www.ut.sco.com/developers/products/ehopt.pdf
+- Path-Based Function Embedding and Its Application to Error-Handling Specification Mining
+	- European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2018
+	- Daniel DeFreez, Aditya V. Thakur, Cindy Rubio-González
+	- https://doi.org/10.1145/3236024.3236059
+	- http://web.cs.ucdavis.edu/~rubio/includes/fse18.pdf
+- Terse Exception Messages
+	- Overload Journal #127, June 2015; Chris Oldwood
+	- https://accu.org/index.php/journals/2110
+- The Use of C++ Exception Handling Constructs: A Comprehensive Study
+	- Source Code Analysis and Manipulation (SCAM) 2015
+	- Rodrigo Bonifacio, Fausto Carvalho, Guilherme N. Ramos, Uira Kulesza, Roberta Coelho
+	- http://rbonifacio.net/papers/scam2015/rbonifacio-scam2015.pdf
+- Using Off-the-Shelf Exception Support Components in C++ Verification
+	- Software Quality, Reliability and Security (QRS) 2017
+	- Vladimír Štill, Petr Ročkai, Jiří Barnat
+	- https://arxiv.org/pdf/1703.02394
+	- https://divine.fi.muni.cz/2017/exceptions/
+- Zipr++: Exceptional Binary Rewriting
+	- Forming an Ecosystem Around Software Transformation (FEAST) 2017
+	- Jason Hiser, Anh Nguyen-Tuong, William Hawkins, Matthew McGill, Michele Co, Jack Davidson
+	- https://dl.acm.org/citation.cfm?doid=3141235.3141240
+	- https://tc.gtisc.gatech.edu/feast17/papers/p9-hiserA.pdf
+	- Section 2.2 - EH Frame IR Construction - exception handling and stack unwinding information in Linux ELF executable files
 
 ### Papers: Correctness
 
