@@ -158,7 +158,9 @@
 	- Jeehoon Kang, Chung-Kil Hur, Ori Lahav, Viktor Vafeiadis, Derek Dreyer
 	- https://sf.snu.ac.kr/promise-concurrency/
 - AutoMO: Automatic Inference of Memory Order Parameters for C/C++11
-	- SPLASH 2015 OOPSLA
+	- OOPSLA 2015
+	- Peizhao Ou, Brian Demsky
+	- http://plrg.ics.uci.edu/automo/
 	- http://plrg.eecs.uci.edu/publications/oopsla15inference.pdf
 - Bridging the Gap Between Programming Languages and Hardware Weak Memory Models
 	- POPL 2019
@@ -170,6 +172,11 @@
 	- https://wiki.ifs.hsr.ch/SemProgAnTr/files/CppMemoryModel_26_12_12.pdf
 - Concurrency memory model compiler consequences
 	- http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2007/n2338.html
+- Foundations of Empirical Memory Consistency Testing
+	- OOPSLA 2020
+	- Tyler Sorensen, Esin Tureci, Jake Kirkham, Margaret R. Martonosi
+	- https://2020.splashcon.org/details/splash-2020-oopsla/102/Foundations-of-Empirical-Memory-Consistency-Testing
+	- https://users.soe.ucsc.edu/~tsorensen/files/oopsla2020.pdf
 - Foundations of the C++ Concurrency Memory Model
 	- PLDI 2008; Hans-J. Boehm and Sarita V. Adve
 	- http://rsim.cs.illinois.edu/Pubs/08PLDI.pdf
