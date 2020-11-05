@@ -308,6 +308,8 @@ See also:
 	- Yu, Yijun; Dayani-Fard, Homayoun; Mylopoulos, John and Andritsos, Periklis
 	- http://www.cs.toronto.edu/%7Eperiklis/pubs/icsm05.pdf
 	- http://oro.open.ac.uk/6944/
+- The Little Things: Speeding up C++ compilation
+	- https://codingnest.com/the-little-things-speeding-up-c-compilation/
 - To Unify or Not to Unify: A Case Study on Unified Builds (in WebKit)
 	- Compiler Construction (CC) 2019
 	- Takafumi Kubota, Yusuke Suzuki, and Kenji Kono
