@@ -247,6 +247,8 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 
 - Linux tracing systems & how they fit together
 	- https://jvns.ca/blog/2017/07/05/linux-tracing-systems/
+- etrace: Utility for tracing execution of apps
+	- https://github.com/canonical/etrace
 - KUtrace
 	- Low-overhead tracing of all Linux kernel-user transitions, for serious performance analysis. Includes kernel patches, loadable module, and post-processing software. Output is HTML/SVG per-CPU-core timeline that you can pan/zoom down to the nanosecond.
 	- https://github.com/dicksites/KUtrace
