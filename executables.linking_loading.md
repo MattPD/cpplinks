@@ -150,6 +150,8 @@ See also:
 		- http://wiki.osdev.org/Linker_Scripts
 - LD - Linker Scripts
 	- https://sourceware.org/binutils/docs/ld/Scripts.html
+- From Zero to main(): Demystifying Firmware Linker Scripts
+	- https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware
 
 ## Readings: LTO
 
