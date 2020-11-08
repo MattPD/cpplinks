@@ -162,6 +162,11 @@ See also:
 	- Software: Practice and Experience, 48(6) 2018
 	- Sheng-Yu Fu, Ding-Yong Hong, Yu-Ping Liu, Jan-Jan Wu, Wei-Chung Hsu
 	- https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2573?af=R
+- Fast and Correct Load Link/Store Conditional Instruction Handling in DBT Systems
+	- 2020 International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES)
+	- Martin Kristien, Tom Spink, Brian Campbell, Susmit Sarkar, Ian Stark, Björn Franke, Igor Böhm, Nigel Topham
+	- http://hdl.handle.net/10023/20838
+	- _How to emulate LL/SC instructions on hosts that only support Compare-And-Swap (e.g. x86)_
 - Hermes: A fast cross-ISA binary translator with post-optimization
 	- Code Generation and Optimization (CGO) 2015
 	- Xiaochun Zhang, Qi Guo, Yunji Chen, Tianshi Chen, Weiwu Hu
