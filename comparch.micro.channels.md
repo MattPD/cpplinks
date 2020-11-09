@@ -1792,6 +1792,11 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 
 ## Speculation: 2020
 
+- SpecROP: Speculative Exploitation of ROP Chains
+	- Research in Attacks, Intrusions and Defenses (RAID) 2020
+	- Atri Bhattacharyya, Andrés Sánchez, Esmaeil M. Koruyeh, Nael Abu-Ghazaleh, Chengyu Song, Mathias Payer
+	- https://www.usenix.org/conference/raid2020/presentation/bhattacharyya
+	- https://github.com/HexHive/specrop/
 - Speculative Dereferencing of Registers: Reviving Foreshadow
 	- 2020
 	- Martin Schwarzl, Thomas Schuster, Michael Schwarz, Daniel Gruss
@@ -1800,14 +1805,14 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- ACM Conference on Computer and Communications Security (CCS) 2020
 	- Enes Göktaş, Kaveh Razavi, Georgios Portokalidis, Herbert Bos, Cristiano Giuffrida
 	- https://www.vusec.net/projects/blindside/
-- Survey of Transient Execution Attacks
-	- 2020
-	- Wenjie Xiong, Jakub Szefer
-	- https://arxiv.org/abs/2005.13435
 - SpeechMiner: A Framework for Investigating and Measuring Speculative Execution Vulnerabilities
 	- NDSS 2020
 	- Yuan Xiao, Yinqian Zhang, Radu Teodorescu
 	- https://arxiv.org/abs/1912.00329
+- Survey of Transient Execution Attacks
+	- 2020
+	- Wenjie Xiong, Jakub Szefer
+	- https://arxiv.org/abs/2005.13435
 - The Evolution of Transient-Execution Attacks
 	- GLSVLSI 2020
 	- Claudio Canella, Khaled N. Khasawneh, Daniel Gruss
