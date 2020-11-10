@@ -1058,6 +1058,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 
 - Amber: Reflective PE packer
 	- https://github.com/EgeBalci/Amber
+- Crinkler: an executable file compressor (or rather, a compressing linker) for Windows for compressing small demoscene executables
+	- https://github.com/runestubbe/Crinkler
 - fasm_packer: PE Packer written in x86 assembly (FASM syntax)
 	- https://github.com/DimitriFourny/resources/tree/master/fasm_packer
 - pe_armor: Metamorphic PE packer generated and assembled by a Python code
