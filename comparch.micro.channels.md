@@ -1486,6 +1486,10 @@ See also: [Computer Architecture](comparch.md)
 	- Yannan Liu, Lingxiao Wei, Zhe Zhou, Kehuan Zhang, Wenyuan Xu, Qiang Xu
 	- https://dl.acm.org/citation.cfm?id=2978299
 	- https://www.youtube.com/watch?v=YwL_p3TxhlA
+- PLATYPUS: Software-based Power Side-Channel Attacks on x86
+	- 2020
+	- Moritz Lipp, Andreas Kogler, David Oswald, Michael Schwarz, Catherine Easdon, Claudio Canella, Daniel Gruss
+	- https://platypusattack.com/
 - POWERT Channels: A Novel Class of Covert Communication Exploiting Power Management Vulnerabilities
 	- High-Performance Computer Architecture (HPCA) 2019
 	- S. K. Khatamifard, L. Wang, S. Köse, and U. R. Karpuzcu
