@@ -342,11 +342,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2020/ECOOP_GraphicsFuzz.pdf
 	- https://2020.ecoop.org/details/ecoop-2020-papers/22/Putting-Randomized-Compiler-Testing-into-Production
 	- http://multicore.doc.ic.ac.uk/tools/GraphicsFuzz/ECOOP2020Artifact/
+	- https://www.youtube.com/watch?v=qhqTyGccwS0
 - Random Testing for C and C++ Compilers with YARPGen
 	- OOPSLA 2020
 	- Vsevolod Livinskii, Dmitry Babokin, John Regehr
 	- https://doi.org/10.1145/3428264
 	- http://www.cs.utah.edu/~regehr/yarpgen-oopsla20.pdf
+	- https://www.youtube.com/watch?v=mb9aRoXnicE
 - Testing Static Analyses for Precision and Soundness
 	- Code Generation and Optimization (CGO) 2020
 	- Jubi Taneja, Zhengyang Liu, John Regehr
@@ -610,6 +612,12 @@ Validation: Including translation validation, equivalence checking.
 	- https://sdasgup3.github.io/files/pldi_2020.pdf
 	- https://www.youtube.com/watch?v=veV6TuPsRYw
 	- https://pldi20.sigplan.org/details/pldi-2020-papers/4/Scalable-Validation-of-Binary-Lifters
+- Counterexample-Guided Correlation Algorithm for Translation Validation
+	- OOPSLA 2020
+	- Shubhani Gupta, Abhishek Rose, Sorav Bansal
+	- https://doi.org/10.1145/3428289
+	- https://www.youtube.com/watch?v=Bn_ekogqDcw
+	- https://raw.githubusercontent.com/compilerai/compilerai-publications/master/counter.pdf
 
 ## Validation: 2019
 
@@ -922,6 +930,7 @@ Validation: Including translation validation, equivalence checking.
 	- https://vera.programming.systems
 	- https://github.com/PLSysSec/vera
 	- https://pldi20.sigplan.org/details/pldi-2020-papers/8/Towards-a-Verified-Range-Analysis-for-JavaScript-JITs
+	- https://www.youtube.com/watch?v=5tRK5_GPdpM
 - Towards Formally Verified Just-In-Time Compilation
 	- CoqPL 2020
 	- Aurèle Barrière, Sandrine Blazy, David Pichardie
