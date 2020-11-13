@@ -288,6 +288,8 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 
 #### Software: Linux - BCC/BPF - Readings
 
+- eBPF - Introduction, Tutorials & Community Resources
+	- https://ebpf.io/
 - Dive into BPF: a list of reading material
 	- https://qmonnet.github.io/whirl-offload/2016/09/01/dive-into-bpf/
 - The BSD Packet Filter
