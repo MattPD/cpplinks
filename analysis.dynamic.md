@@ -496,6 +496,9 @@ See also:
 	- GNU Tools Cauldron 2014; Evgeniy Stepanov, Kostya Serebryany
 	- https://docs.google.com/presentation/d/1QG2qlzpxlsdDsX4uHhTLWAoUmbzbhedFMoMvviud0Us
 	- https://www.youtube.com/watch?v=Ek7z_oC0dak
+- Run-time tracking of uninitialized data with MemorySanitizer
+	- 2013 EuroLLVM Developers’ Meeting; Evgeniy Stepanov
+	- https://www.youtube.com/watch?v=2Y0T-1AB-gY
 - The Type Sanitizer: Free Yourself from -fno-strict-aliasing
 	- 2017 LLVM Developers’ Meeting; Hal Finkel
 	- https://www.youtube.com/watch?v=vAXJeN7k32Y
