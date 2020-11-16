@@ -936,3 +936,7 @@ Validation: Including translation validation, equivalence checking.
 	- Aurèle Barrière, Sandrine Blazy, David Pichardie
 	- https://www.youtube.com/watch?v=Be-CwSREJOI
 	- https://popl20.sigplan.org/details/CoqPL-2020-papers/4/Towards-Formally-Verified-Just-in-Time-compilation
+- Verified Optimizations for Functional Languages
+	- 2020 PhD Dissertation; Zoe Paraskevopoulou
+	- https://www.cs.princeton.edu/research/techreps/TR-006-20
+	- https://zoep.github.io/thesis_final.pdf
