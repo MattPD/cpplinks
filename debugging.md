@@ -794,51 +794,55 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ### LLDB: Talks
 
-* Support for mini-debuginfo in LLDB
-	- How to read the .gnu_debugdata section.
-	- FOSDEM 2020; Konrad Kleine
-	- https://fosdem.org/2020/schedule/event/debugging_mini/
-* Better C++ debugging using Clang Modules in LLDB
+- Better C++ debugging using Clang Modules in LLDB
 	- 2019 LLVM Developers’ Meeting; Raphael Isemann
 	- https://www.youtube.com/watch?v=vuNZLlHhy0k
 	- http://llvm.org/devmtg/2019-10/talk-abstracts.html#tech13
-* Bringing RenderScript to LLDB
+- Bringing RenderScript to LLDB
 	- 2016 EuroLLVM Developers' Meeting; Luke Drummond & Ewan Crawford, Codeplay
 	- https://www.youtube.com/watch?v=BBC61L0QKCM
 	- http://www.llvm.org/devmtg/2016-03/Presentations/EuroLLVM2016-E.Crawford_and_L.Drummond-Bringing_RenderScript_to_LLDB.pdf
-* Debugging Tips and Tricks
+- Debugging Tips and Tricks
 	- WWDC 2016; Kate Stone, Enrico Granata, Sean Callanan, Jim Ingham
 	- https://developer.apple.com/videos/play/wwdc2016/417
-* Debugging with LLDB
+- Debugging with LLDB
 	- WWDC 2012; Greg Clayton
 	- https://developer.apple.com/videos/play/wwdc2012/415/
-* Debugging with LLVM: A quick introduction to LLDB and LLVM sanitizers
+- Debugging with LLVM: A quick introduction to LLDB and LLVM sanitizers
 	- FOSDEM 2020; Andrzej Warzynski; Graham Hunter
 	- https://fosdem.org/2020/schedule/event/debugging_with_llvm/
-* ds2: a tiny debug server used with lldb
+- ds2: a tiny debug server used with lldb
 	- 2015 LLVM Developers’ Meeting; Stephane Sezer, Facebook
 	- https://www.youtube.com/watch?v=n00EhLskJWk
 	- https://github.com/facebook/ds2
-* LLDB - a new C++ debugger
+- LLDB - a new C++ debugger
 	- DevConf.CZ 2019; Jan Kratochvíl
 	- https://www.youtube.com/watch?v=2BjKNaiB3yM
 	- https://devconfcz2019.sched.com/event/Jcht
-* LLDB Reproducers
+- LLDB Reproducers
 	- 2019 EuroLLVM Developers’ Meeting; Jonas Devlieghere
 	- https://www.youtube.com/watch?v=ygdzXnfyvbg
 	- http://llvm.org/devmtg/2019-04/talks.html#Talk_12
-* LLDB Tutorial: Adding debugger support for your target
+- LLDB Tutorial: Adding debugger support for your target
 	- 2016 EuroLLVM Developers' Meeting; Deepak Panickal & Andrzej Warzynski, Codeplay
 	- https://github.com/codeplaysoftware/lldb-msp430
 	- http://www.llvm.org/devmtg/2016-03/Tutorials/LLDB-tutorial.pdf
 	- https://www.youtube.com/watch?v=9hhDZeV0fYU
-* LLDB: Beyond "po"
+- LLDB: Beyond "po"
 	- WWDC 2019; Davide Italiano, Jonas Devlieghere
 	- https://developer.apple.com/videos/play/wwdc2019/429/
 	- https://www.raywenderlich.com/3868932-wwdc-2019-top-10-videos#toc-anchor-011
-* Migrating from GDB to LLDB
+- Migrating from GDB to LLDB
 	- WWDC 2011; Jim Ingham
 	- https://developer.apple.com/videos/play/wwdc2011/321/
+- Support for mini-debuginfo in LLDB
+	- How to read the .gnu_debugdata section.
+	- FOSDEM 2020; Konrad Kleine
+	- https://fosdem.org/2020/schedule/event/debugging_mini/
+- Why should I use LLDB?
+	- 2015 EuroLLVM Developers’ Meeting; Deepak Panickal and Ewan Crawford
+	- https://www.youtube.com/watch?v=JtpQZw9NpIU
+	- https://llvm.org/devmtg/2015-04/slides/Why_should_I_use_LLDB.pdf
 
 ## RR
 
