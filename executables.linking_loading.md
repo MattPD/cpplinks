@@ -339,6 +339,14 @@ See also:
 
 - Fun with weak dynamic linking
 	- https://glandium.org/blog/?p=2764
+- Guided Linking: Dynamic Linking without the Costs
+	- OOPSLA 2020
+	- Sean Bartell, Will Dietz, Vikram S. Adve
+	- https://dl.acm.org/doi/abs/10.1145/3428213
+	- http://design.cs.iastate.edu/splash20/oopsla20/oopsla20main-p80-p.pdf
+	- https://www.youtube.com/watch?v=apzR151q1wE
+	- BCDB: The Bitcode Database with Guided Linking
+		- https://github.com/yotann/bcdb
 - How To Write Shared Libraries - Ulrich Drepper
 	- https://www.akkadia.org/drepper/dsohowto.pdf
 - Inlining — shared libraries are special
