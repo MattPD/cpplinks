@@ -161,6 +161,7 @@ See also:
 	- Compile Faster with the Program Repository and ccache
 		- 2020 European LLVM Developers Meeting; Ying Yi, Paul Bowen-Huggett
 		- http://www.llvm.org/devmtg/2020-04/talks.html#LightningTalk_51
+		- https://www.snsystems.com/technology/tech-blog/compile-faster-with-the-program-repository-and-ccache
 - mtime comparison considered harmful
 	- "tl;dr: Rebuilding a target because its mtime is older than the mtimes of its dependencies, like make does, is very error prone. redo does it better, and so can you."
 	- https://apenwarr.ca/log/20181113
@@ -638,6 +639,8 @@ See also:
 	- https://github.com/TheLartians/CPM.cmake
 - Izzy's eXtension Modules: Make CMake less painful when trying to write Modern Flexible CMake
 	- https://github.com/slurps-mad-rips/ixm
+- package-example: CMake: config mode of find_package command
+	- https://github.com/forexample/package-example
 - ucm - useful cmake macros
 	- https://github.com/onqtam/ucm
 
