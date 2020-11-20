@@ -89,6 +89,14 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- 2011
 	- Edward Z. Yang
 	- http://blog.ezyang.com/2011/06/debugging-compilers-with-optimization-fuel/
+- Enhanced Compiler Bug Isolation via Memoized Search
+	- ASE 2020
+	- Junjie Chen, Haoyang Ma, Lingming Zhang
+	- https://www.youtube.com/watch?v=G8Ev6hujI6g
+	- https://lingming.cs.illinois.edu/publications/ase2020b.pdf
+	- https://conf.researchr.org/details/ase-2020/ase-2020-papers/36/Enhanced-Compiler-Bug-Isolation-via-Memoized-Search
+	- RecBi: Reinforcement compiler Bug isolation
+		- https://github.com/haoyang9804/RecBi
 - GCC Wiki: Finding miscompilations on large testcases
 	- https://gcc.gnu.org/wiki/Analysing_Large_Testcases
 - Locating a compiler bug with git bisection
@@ -331,6 +339,8 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- Karine Even-Mendoza, Cristian Cadar, Alastair F. Donaldson
 	- https://srg.doc.ic.ac.uk/projects/csmithedge/
 	- https://srg.doc.ic.ac.uk/files/papers/csmithedge-ase-nier-20.pdf
+	- https://www.youtube.com/watch?v=JGpAO_Gu4zU
+	- https://conf.researchr.org/details/ase-2020/ase-2020-nier-track/8/Closer-to-the-Edge-Testing-Compilers-More-Thoroughly-by-Being-Less-Conservative-Abou
 - CUDAsmith: A Fuzzer for CUDA Compilers
 	- Computers, Software and Applications Conference (COMPSAC) 2020
 	- Bo Jiang, Xiaoyan Wang, W. K. Chan, T. H. Tse, Na Li, Yongfeng Yin, Zhenyu Zhang
