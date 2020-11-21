@@ -319,43 +319,81 @@ Contents:
 
 ## DWARF: Talks
 
-* 2018 - DWARF v5 Highlights - Why You Care
-	+ 2018 LLVM Developers’ Meeting; Paul Robinson
-	+ https://www.youtube.com/watch?v=2Pb00xz8uH8
-* 2018 - FOSDEM 2018 - [Debugging Tools](https://fosdem.org/2018/schedule/track/debugging_tools/)
-	+ DWARF Pieces And Other DWARF Location Woes - https://fosdem.org/2018/schedule/event/dwarfpieces/
-	+ DWARF5 and GNU extensions - https://fosdem.org/2018/schedule/event/debugging_tools_dwarf5/
-	+ Rust versus DWARF versus LLVM - https://fosdem.org/2018/schedule/event/debugging_tools_rust/
-* 2017 - Consistent Views at Recommended Breakpoints (bis), GNU Tools Cauldron 2017
-	+ https://slideslive.com/38902686/consistent-views-at-recommended-breakpoints-bis
-	+ Related post: https://developers.redhat.com/blog/2017/07/11/statement-frontier-notes-and-location-views/
-* 2017 - Build-ids, symbols and debuginfo tooling BoF, GNU Tools Cauldron 2017
-	+ https://slideslive.com/38902681/buildids-symbols-and-debuginfo-tooling-bof
-* 2017 - Debugging Debug Information - Francesco Zappa Nardelli - [Workshop on Software Correctness and Reliability 2017](http://www.srl.inf.ethz.ch/workshop2017.php)
-	+ https://www.youtube.com/watch?v=lBJIrGgEP1A
-	+ Tales from Binary Formats ([ENTROPY 2018](https://entropy2018.sciencesconf.org/resource/page/id/1) slides) - https://entropy2018.sciencesconf.org/data/nardelli.pdf
-* 2016 - Debugging debuggers!! (Symbolic Debugging with DWARF)
+### DWARF: Talks: 2020
+
+- Reliable Stack Traces, the Reality of Myth: DWARF Stack Unwinding and other stories
+	- Rebase 2020; Francesco Zappa Nardelli
+	- https://www.youtube.com/watch?v=PESekIIvHSU
+	- https://fzn.fr/projects/frdwarf/
+	- https://2020.splashcon.org/details/splash-2020-rebase/30/Reliable-Stack-Traces-the-Reality-of-Myth
+
+### DWARF: Talks: 2018
+
+- DWARF v5 Highlights - Why You Care
+	- 2018 LLVM Developers’ Meeting; Paul Robinson
+	- https://www.youtube.com/watch?v=2Pb00xz8uH8
+- FOSDEM 2018 - [Debugging Tools](https://fosdem.org/2018/schedule/track/debugging_tools/)
+	- DWARF Pieces And Other DWARF Location Woes
+		- Andreas Arnez
+		- https://fosdem.org/2018/schedule/event/dwarfpieces/
+	- DWARF5 and GNU extensions
+		- Mark Wielaard
+		- https://fosdem.org/2018/schedule/event/debugging_tools_dwarf5/
+	- Rust versus DWARF versus LLVM
+		- Tom Tromey
+		- https://fosdem.org/2018/schedule/event/debugging_tools_rust/
+
+### DWARF: Talks: 2017
+
+- Build-ids, symbols and debuginfo tooling BoF
+	- GNU Tools Cauldron 2017; Mark Wielaard
+	- https://slideslive.com/38902681/buildids-symbols-and-debuginfo-tooling-bof
+- Consistent Views at Recommended Breakpoints (bis)
+	- GNU Tools Cauldron 2017; Alexandre Oliva
+	- https://slideslive.com/38902686/consistent-views-at-recommended-breakpoints-bis
+	- Related post: https://developers.redhat.com/blog/2017/07/11/statement-frontier-notes-and-location-views/
+- Debugging Debug Information
+	- [Workshop on Software Correctness and Reliability 2017](http://www.srl.inf.ethz.ch/workshop2017.php); Francesco Zappa Nardelli
+	- https://www.youtube.com/watch?v=lBJIrGgEP1A
+	- Tales from Binary Formats ([ENTROPY 2018](https://entropy2018.sciencesconf.org/resource/page/id/1) slides) - https://entropy2018.sciencesconf.org/data/nardelli.pdf
+
+### DWARF: Talks: 2016
+
+- Cheap generation of debugging information
+	- Journées Compilation 2016; Xavier Leroy
+	- http://pauillac.inria.fr/~xleroy/talks/Compilation-2016.pdf
+- Debugging debuggers!! (Symbolic Debugging with DWARF)
 	- !!Con 2016; Samy Al Bahra
 	- https://www.youtube.com/watch?v=OEa0EfJja_Y
 	- https://backtrace.io/blog/backtrace/symbolic-debugging-with-dwarf/
 	- https://backtrace.io/wp-content/uploads/2017/06/slides.pdf
 	- https://www.slideshare.net/sbahra/symbolic-debugging-with-dwarf
-* 2016 - Cheap generation of debugging information - http://pauillac.inria.fr/~xleroy/talks/Compilation-2016.pdf
-* 2016 - Fixing LTO Debug Information - GNU Tools Cauldron 2016 - https://gcc.gnu.org/wiki/cauldron2016?action=AttachFile&do=view&target=Cauldron2016-LTOEarlyDebug.pdf - https://www.youtube.com/watch?v=xtm7DxDG5js
-* 2015 - What is new in DWARF5 - Hafiz Abid Qadeer, GNU Tools Cauldron 2015
-	+ https://www.youtube.com/watch?v=Q04ScFDCmyQ&gl=CA
-	+ https://gcc.gnu.org/wiki/cauldron2015?action=AttachFile&do=view&target=Hafiz+Abid+Qadeer_+What+is+new+in+DWARF5.pdf
-* 2013 - DWARF What Should GCC Tell GDB - GNU Tools Cauldron 2013 - https://www.youtube.com/watch?v=2aWmp5FXLb0
-* 2012 - Dwarf Oriented Programming - Overwriting the Exception Handling Cache Pointer - DEFCON 20
-	+ https://www.youtube.com/watch?v=FjjTZatJ3ao
-	+ https://www.defcon.org/images/defcon-20/dc-20-presentations/Branco-Oakley-Bratus/DEFCON-20-Branco-Oakley-Bratus-Dwarf-Oriented-Programming.pdf
-* 2011 - Exploiting the hard-working DWARF: Trojan and Exploit Techniques With No Native Executable Code
-	+ http://www.cs.dartmouth.edu/~sergey/battleaxe/
-	+ Slides: http://www.cs.dartmouth.edu/~sergey/battleaxe/hackito_2011_oakley_bratus.pdf
-	+ Report: http://www.cs.dartmouth.edu/reports/TR2011-688.pdf
-	+ Paper: https://www.usenix.org/legacy/event/woot11/tech/final_files/Oakley.pdf
-	+ Video (WOOT'11): https://www.usenix.org/conference/woot11/exploiting-hard-working-dwarf-trojan-and-exploit-techniques-no-native-executable
-	+ Video (Shmoocon 2011): https://www.youtube.com/watch?v=nLH7ytOTYto
+- Fixing LTO Debug Information
+	- GNU Tools Cauldron 2016; Richard Biener
+	- https://www.youtube.com/watch?v=xtm7DxDG5js
+	- https://gcc.gnu.org/wiki/cauldron2016?action=AttachFile&do=view&target=Cauldron2016-LTOEarlyDebug.pdf
+
+### DWARF: Talks: 2011-2015
+
+- DWARF What Should GCC Tell GDB
+	- GNU Tools Cauldron 2013; Michael Eager
+	- https://www.youtube.com/watch?v=2aWmp5FXLb0
+- Dwarf Oriented Programming - Overwriting the Exception Handling Cache Pointer
+	- DEFCON 20; Rodrigo Rubira Branco, James Oakley, Sergey Bratus
+	- https://www.youtube.com/watch?v=FjjTZatJ3ao
+	- https://www.defcon.org/images/defcon-20/dc-20-presentations/Branco-Oakley-Bratus/DEFCON-20-Branco-Oakley-Bratus-Dwarf-Oriented-Programming.pdf
+- Exploiting the hard-working DWARF: Trojan and Exploit Techniques With No Native Executable Code
+	- 2011; James Oakley and Sergey Bratus
+	- http://www.cs.dartmouth.edu/~sergey/battleaxe/
+	- Slides: http://www.cs.dartmouth.edu/~sergey/battleaxe/hackito_2011_oakley_bratus.pdf
+	- Report: http://www.cs.dartmouth.edu/reports/TR2011-688.pdf
+	- Paper: https://www.usenix.org/legacy/event/woot11/tech/final_files/Oakley.pdf
+	- Video (WOOT'11): https://www.usenix.org/conference/woot11/exploiting-hard-working-dwarf-trojan-and-exploit-techniques-no-native-executable
+	- Video (Shmoocon 2011): https://www.youtube.com/watch?v=nLH7ytOTYto
+- What is new in DWARF5
+	- GNU Tools Cauldron 2015; Hafiz Abid Qadeer
+	- https://www.youtube.com/watch?v=Q04ScFDCmyQ&gl=CA
+	- https://gcc.gnu.org/wiki/cauldron2015?action=AttachFile&do=view&target=Hafiz+Abid+Qadeer_+What+is+new+in+DWARF5.pdf
 
 ---
 
