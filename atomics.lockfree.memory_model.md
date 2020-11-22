@@ -75,11 +75,12 @@
 	- http://moodycamel.com/blog/2014/detailed-design-of-a-lock-free-queue
 	- http://moodycamel.com/blog/2014/solving-the-aba-problem-for-lock-free-free-lists
 - PSA: you should use WTF::Lock and WTF::Condition instead of WTF::SpinLock, WTF::Mutex, WTF::ThreadCondition, std::mutex, std::condition_variable, or std::condition_variable_any
-	- http://permalink.gmane.org/gmane.os.opendarwin.webkit.devel/27578
 	- https://lists.webkit.org/pipermail/webkit-dev/2015-August/027615.html
 - Raymond Chen
-	- What’s up with compare_exchange_weak anyway? - https://blogs.msdn.microsoft.com/oldnewthing/20180329-00/?p=98375
-	- How do I choose between the strong and weak versions of compare-exchange? - https://blogs.msdn.microsoft.com/oldnewthing/20180330-00/?p=98395
+	- What’s up with compare_exchange_weak anyway?
+		- https://devblogs.microsoft.com/oldnewthing/20180329-00/?p=98375
+	- How do I choose between the strong and weak versions of compare-exchange?
+		- https://devblogs.microsoft.com/oldnewthing/20180330-00/?p=98395
 - The difficulty of lock-free programming: a bug in lockfree stack
 	- http://mdf356.blogspot.com/2015/06/the-difficulty-of-lock-free-programming.html
 - The x86 Memory Model
@@ -128,7 +129,8 @@
 	- https://www.cl.cam.ac.uk/research/srg/netos/projects/archive/lock-free/
 - Systems programming: Coping with parallelism
 	- 1986 Technical report, IBM Almaden Research Center; R. Treiber
-	- http://domino.research.ibm.com/library/cyberdig.nsf/papers/58319A2ED2B1078985257003004617EF/$File/rj5118.pdf
+	- https://dominoweb.draco.res.ibm.com/58319a2ed2b1078985257003004617ef.html
+	- https://dominoweb.draco.res.ibm.com/reports/rj5118.pdf
 	- Includes Treiber's lock-free stack.
 - References: Synchrobench 30+ data structures papers
 	- https://github.com/gramoli/synchrobench#data-structures
@@ -157,6 +159,9 @@
 	- POPL 2017
 	- Jeehoon Kang, Chung-Kil Hur, Ori Lahav, Viktor Vafeiadis, Derek Dreyer
 	- https://sf.snu.ac.kr/promise-concurrency/
+	- https://people.mpi-sws.org/~viktor/papers/popl2017-promising.pdf
+	- https://popl17.sigplan.org/details/POPL-2017-papers/38/A-Promising-Semantics-for-Relaxed-Memory-Concurrency
+	- https://www.youtube.com/watch?v=MDaWaPCs74U
 - AutoMO: Automatic Inference of Memory Order Parameters for C/C++11
 	- OOPSLA 2015
 	- Peizhao Ou, Brian Demsky
@@ -168,7 +173,7 @@
 	- https://popl19.sigplan.org/event/popl-2019-research-papers-bridging-the-gap-between-programming-languages-and-hardware-weak-memory-models
 - C++ Memory Model
 	- 2012; Martin Kempf
-	- https://wiki.ifs.hsr.ch/SemProgAnTr/TopicsFallSemester2012
+	- https://wiki.ifs.hsr.ch/SemProgAnTr/SeminarHS12
 	- https://wiki.ifs.hsr.ch/SemProgAnTr/files/CppMemoryModel_26_12_12.pdf
 - Concurrency memory model compiler consequences
 	- http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2007/n2338.html
@@ -222,7 +227,6 @@
 - Shared Memory Consistency Models: A Tutorial
 	- IEEE Computer 29(12) 1996
 	- Sarita V. Adve, Kourosh Gharachorloo
-	- http://rsim.cs.illinois.edu/~sadve/Publications/computer96.pdf
 	- http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-95-7.pdf
 - Simple and Efficient Semantics for Concurrent Programming Languages
 	- http://web.cs.ucla.edu/~todd/research/memmodels.html
@@ -267,15 +271,15 @@
 - 1024cores
 	- http://www.1024cores.net/
 	- http://www.1024cores.net/home/lock-free-algorithms
-	- C++ Standard
-		- [atomics] Atomic operations library
-			- https://eel.is/c++draft/#atomics
-		- [basic.exec] Program execution
-			- https://eel.is/c++draft/basic.exec
-		- C++11 Language Extensions — Concurrency
-			- https://isocpp.org/wiki/faq/cpp11-language-concurrency
-		- C++11 Standard Library Extensions — Concurrency
-			- https://isocpp.org/wiki/faq/cpp11-library-concurrency
+- C++ Standard
+	- [atomics] Atomic operations library
+		- https://eel.is/c++draft/#atomics
+	- [basic.exec] Program execution
+		- https://eel.is/c++draft/basic.exec
+	- C++11 Language Extensions — Concurrency
+		- https://isocpp.org/wiki/faq/cpp11-language-concurrency
+	- C++11 Standard Library Extensions — Concurrency
+		- https://isocpp.org/wiki/faq/cpp11-library-concurrency
 - C/C++11 mappings to processors
 	- C/C++11 atomic operations to x86, PowerPC, ARMv7, ARMv8, and Itanium instruction sequences
 	- https://www.cl.cam.ac.uk/~pes20/cpp/cpp0xmappings.html
@@ -308,7 +312,7 @@
 	- 2018; Matt Kline
 	- https://assets.bitbashing.io/papers/lockless.pdf
 - Why the "volatile" type class should not be used
-	- https://www.kernel.org/doc/Documentation/volatile-considered-harmful.txt
+	- https://www.kernel.org/doc/Documentation/process/volatile-considered-harmful.rst
 
 ## Books
 
@@ -353,7 +357,6 @@
 	- herd, a memory model simulator
 		- http://diy.inria.fr/herd/
 		- http://diy.inria.fr/doc/herd.html
-		- https://github.com/herd/herdtools
 		- https://github.com/herd/herdtools7
 - MemSynth: An advanced automated reasoning tool for memory consistency model specifications.
 	- https://github.com/uwplse/memsynth
@@ -451,6 +454,9 @@
 - Concurrency in C++20 and Beyond
 	- CppCon 2019; Anthony Williams
 	- https://www.youtube.com/watch?v=jozHW_B3D4U
+- The C++ memory model: an intuition
+	- StockholmCpp 2019; Arvid Norberg
+	- https://www.youtube.com/watch?v=OyNG4qiWnmU
 - The C++20 Synchronization Library
 	- Bryce Adelstein Lelbach
 	- CppCon 2019
@@ -467,12 +473,12 @@
 - Wait-free data structures and wait-free transactions
 	- Hydra: Distributed Computing Conference 2019; Pedro Ramalhete
 	- https://www.youtube.com/watch?v=oDfr9w9p8XY
-	- https://hydraconf.com/2019/talks/1jwmdzkmjcalsclwavttxk/
+	- https://2019.hydraconf.com/2019/talks/1jwmdzkmjcalsclwavttxk
 - Weak Memory Concurrency in C/C++11
 	- Hydra: Distributed Computing Conference 2019; Ori Lahav
 	- https://www.youtube.com/watch?v=mOqu8vGSysc
 	- http://www.cs.tau.ac.il/~orilahav/papers/lahav_c11.pdf
-	- https://hydraconf.com/2019/talks/143pbdxfvijthb8rg3qk6e/
+	- https://2019.hydraconf.com/2019/talks/143pbdxfvijthb8rg3qk6e
 
 ### 2018
 
@@ -505,7 +511,7 @@
 
 - The speed of concurrency (is lock-free faster?)
 	- CppCon 2016; Fedor Pikus
-	- Slides: https://github.com/CppCon/CppCon2016/tree/master/Presentations/The%20speed%20of%20concurrency%20%28is%20lock-free%20faster%29
+	- Slides: https://github.com/CppCon/CppCon2016/tree/master/Presentations/The%20speed%20of%20concurrency
 	- Video: https://channel9.msdn.com/Events/CPP/CppCon-2016/CppCon-2016-Fedor-Pikus-The-speed-of-concurrency-is-lock-free-faster
 	- Video: https://www.youtube.com/watch?v=9hJkWwHDDxs
 
@@ -514,17 +520,17 @@
 - Atomic Counters or A Lesson on Performance and Hardware Concurrency
 	- ACCU 2015
 	- Info: http://accu.org/index.php/conferences/accu_conference_2015/accu2015_sessions#atomic_counters_or_a_lesson_on_performance_and_hardware_concurrency
-	- Slides: http://accu.org/content/conf2015/DetlefVollmann-Atomic%20Counters.pdf
+	- Slides: https://accu.org/conf-docs/PDFs_2015/DetlefVollmann-Atomic%20Counters.pdf
 	- Slides: http://www.vollmann.ch/en/presentations/atomic-counters-accu-2015.pdf
 	- Video: http://www.infoq.com/presentations/atomic-counters
 - Safety: off. How not to shoot yourself in the foot with C++ atomics
 	- ACCU 2015
 	- Info: http://accu.org/index.php/conferences/accu_conference_2015/accu2015_sessions#safety-off._how_not_to_shoot_yourself_in_the_foot_with_c_atomics
-	- Slides: http://accu.org/content/conf2015/AnthonyWilliams-safety_off.pdf
+	- Slides: https://accu.org/conf-docs/PDFs_2015/AnthonyWilliams-safety_off.pdf
 - The Dos and Don'ts of Multithreading
 	- ACCU 2015
 	- Info: http://accu.org/index.php/conferences/accu_conference_2015/accu2015_sessions#the_dos_and_don_ts_of_multithreading
-	- Slides: http://accu.org/content/conf2015/HubertMatthews-Multithreading%20Dos%20And%20Donts.pdf
+	- Slides: https://accu.org/conf-docs/PDFs_2015/HubertMatthews-Multithreading%20Dos%20And%20Donts.pdf
 	- Video: http://www.infoq.com/presentations/multithreading
 	- Note: more on atomics & memory ordering compared to the NDC 2014 version.
 - Live Lock-Free or Deadlock (Practical Lock-free Programming)
@@ -548,8 +554,7 @@
 	- https://www.youtube.com/watch?v=PDQXpKE_Kao
 - C Concurrency: Still Tricky
 	- LLVM Developers' Meeting 2015; Francesco Zappa Nardelli
-	- Video HD: http://llvm.org/devmtg/2015-04/Videos/HD/Day%201/Francesco%20Zappa%20Nardelli%20(keynote).mp4
-	- Video SD: http://llvm.org/devmtg/2015-04/Videos/SD/Day%201/Francesco%20Zappa%20Nardelli%20(keynote)_1.mp4
+	- Video: https://www.youtube.com/watch?v=g8DUN8-AKgs
 	- Slides: http://llvm.org/devmtg/2015-04/slides/CConcurrency_EuroLLVM2015.pdf
 - Memory Access Ordering in Complex Embedded Systems
 	- NDC 2015: Chris Shore
@@ -582,8 +587,7 @@
 	- LLVM Developers' Meeting 2014; Robin Morisset
 	- Slides: http://llvm.org/devmtg/2014-10/Slides/Morisset-AtomicsPresentation.pdf
 	- Video (Google Tech Talk): https://www.youtube.com/watch?v=hE4HW1Y2Dao
-	- Video (720p): http://llvm.org/devmtg/2014-10/Videos/Blowing%20up%20the%20Atomic%20Barrier-720.mov
-	- Video (360p): http://llvm.org/devmtg/2014-10/Videos/Blowing%20up%20the%20Atomic%20Barrier-360.mov
+	- Video: https://www.youtube.com/watch?v=cDM6Gr_XzGI
 - The C++ Memory Model
 	- Meeting C++ 2014; Valentin Ziegler
 	- https://www.youtube.com/watch?v=gpsz8sc6mNU
@@ -593,7 +597,6 @@
 - The C++ memory model
 	- NDC 2014; Mike Long
 	- https://vimeo.com/97419179
-	- https://www.youtube.com/watch?v=BiLX7n_z9s4
 	- https://github.com/meekrosoft/cppmemmodel
 	- Slides: https://meekrosoft.github.io/cppmemmodel/
 
@@ -629,7 +632,7 @@
 	- https://channel9.msdn.com/Events/GoingNative/GoingNative-2012/Threads-and-Shared-Variables-in-C-11
 - C++11 Threads Surprises
 	- 2012 Hans-J. Boehm
-	- Slides: https://parasol.tamu.edu/bjarnefest/program/boehm-slides.PDFs
+	- Slides: https://parasol.tamu.edu/bjarnefest/program/boehm-slides.pdf
 	- Video (slides not visible):
 		- https://www.youtube.com/watch?v=UWx4EA2uBzs
 		- https://www.youtube.com/watch?v=TnCWTPuWzIk
