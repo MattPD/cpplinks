@@ -40,12 +40,15 @@
 		- https://www.youtube.com/watch?v=DxF077s081Q
 		- https://www.slideshare.net/howarddgreen/how-not-to-measure-latency-london-oct-2013
 		- https://www.azul.com/presentation/how-not-to-measure-latency/
-- moodycamel::microbench
-	- https://github.com/cameron314/microbench
 - geiger: A micro benchmark library in C++ that supports hardware performance counters
 	- https://github.com/david-grs/geiger
+- moodycamel::microbench
+	- https://github.com/cameron314/microbench
 - Nonius: A C++ micro-benchmarking framework
 	- https://github.com/libnonius/nonius
+- ubench.h: single header benchmark framework for C and C++
+	- https://github.com/sheredom/ubench.h
+	- https://www.duskborn.com/posts/introducing_ubench_h/
 
 ## Readings
 
@@ -277,7 +280,7 @@
 		- https://arxiv.org/abs/1807.06735
 - MAQAO (Modular Assembly Quality Analyzer and Optimizer)
 	- http://www.maqao.org/
-	- http://maqao.bordeaux.inria.fr/
+	- https://gitlab.exascale-computing.eu/MAQAO/MAQAO
 
 # Profiling
 
