@@ -86,7 +86,7 @@ See also:
 	- #135: Test the Contract, not the Implementation - https://abseil.io/tips/135
 - Embedded C/C++ Unit Testing
 	- Basics
-		- https://interrupt.memfault.com/unit-testing-basics
+		- https://interrupt.memfault.com/blog/unit-testing-basics
 	- Mocks
 		- https://interrupt.memfault.com/blog/unit-test-mocking
 - James Grenning
@@ -156,7 +156,8 @@ See also:
 - Assertions Are Strongly Correlated with Test Suite Effectiveness
 	- ESEC/FSE 2015
 	- Yucheng Zhang, Ali Mesbah
-	- http://salt.ece.ubc.ca/publications/fse15.html
+	- https://doi.org/10.1145/2786805.2786858
+	- http://ece.ubc.ca/~amesbah/resources/papers/fse15.pdf
 - Assurances in Software Testing: A Roadmap
 	- ICSE-NIER 2019: International Conference on Software Engineering: New Ideas and Emerging Results
 	- Marcel Böhme
@@ -174,8 +175,8 @@ See also:
 	- Unit Testing in C++ with Compiler Instrumentation and Friends
 		- Acta Cybernetica 23 (2017)
 		- Gábor Márton and Zoltán Porkoláb
-		- http://www.inf.u-szeged.hu/actacybernetica/edb/vol23n2/actacyb_23_2_2017_14.xml
-		- http://www.inf.u-szeged.hu/actacybernetica/edb/vol23n2/pdf/actacyb_23_2_2017_14.pdf
+		- https://doi.org/10.14232/actacyb.23.2.2017.14
+		- https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/3947
 	- Compile-Time Function Call Interception for Testing in C/C++
 		- Studia Universitatis Babeș-Bolyai Informatica, v. 63, n. 1, 2018
 		- Gábor Márton, Zoltán Porkoláb
@@ -214,13 +215,12 @@ See also:
 		- http://crestweb.cs.ucl.ac.uk/resources/oracle_repository/
 - Tools and Language Elements for Testing, Encapsulation and Controlling Abstraction in Large Scale C++ Projects
 	- 2019 Doctoral dissertation; Gábor Márton
-	- http://www.tnkcs.inf.elte.hu/vedes/Marton_Gabor_Ertekezes1.pdf
+	- https://doi.org/10.15476/ELTE.2019.084
 	- https://www.researchgate.net/publication/337717375_Tools_and_Language_Elements_for_Testing_Encapsulation_and_Controlling_Abstraction_in_Large_Scale_C_Projects
 - When Testing Meets Code Review: Why and How Developers Review Tests
 	- ICSE 2018
 	- Davide Spadini, Mauricio Aniche, Margaret-Anne Storey, Magiel Bruntink, Alberto Bacchelli
-	- https://pure.tudelft.nl/portal/en/publications/when-testing-meets-code-review-why-and-how-developers-review-tests(256e7d56-352f-44ae-919b-97fad0eafe69).html
-	- https://pure.tudelft.nl/portal/files/38853938/PID5219697.pdf
+	- https://research.tudelft.nl/en/publications/when-testing-meets-code-review-why-and-how-developers-review-test
 
 ## Research: 2000s
 
@@ -398,9 +398,9 @@ See also:
 	- Automated Software Engineering (ASE) 2018
 	- Michael Hilton, Jonathan Bell, Darko Marinov
 	- http://jonbell.net/publications/coverage
-	- https://www.code-coverage.org/publications/
+	- http://www.code-coverage.org/publications/
 	- Code Coverage Analytics: Understanding how lines are (un)covered
-		- https://www.code-coverage.org/
+		- http://www.code-coverage.org/
 - Applications of Synchronization Coverage
 	- Principles and Practice of Parallel Programming (PPoPP) 2005
 	- Arkady Bron, Eitan Farchi, Yonit Magid, Yarden Nir, Shmuel Ur
@@ -729,7 +729,7 @@ Test Generation, Symbolic Execution
 		- Guodong Li, Indradeep Ghosh, and Sreeranga P. Rajan
 		- https://link.springer.com/chapter/10.1007/978-3-642-22110-1_49
 		- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.205.5180
-		- http://www.cs.utah.edu/~ligd/publications/KLOVER-CAV11.pdf
+		- https://lipeng28.github.io/papers/klover.pdf
 - Symbolic Execution Algorithms for Test Generation
 	- 2009 Dissertation; Ru-Gang Xu
 	- https://people.mpi-sws.org/~rupak/Papers/RuGangXuThesis.pdf
@@ -812,13 +812,12 @@ Random Testing
 - Finding Property Tests
 	- https://www.hillelwayne.com/post/contract-examples/
 - Generating Good Generators for Inductive Relations
-	- POPL 2018
+	- [POPL 2018](https://popl18.sigplan.org/event/popl-2018-papers-generating-good-generators-for-inductive-relations)
 	- Leonidas Lampropoulos, Zoe Paraskevopoulou, Benjamin C. Pierce
-	- https://www.cis.upenn.edu/~llamp/pdf/GeneratingGoodGenerators.pdf
-	- https://popl18.sigplan.org/event/popl-2018-papers-generating-good-generators-for-inductive-relations
-	- http://www.cs.cmu.edu/~popl-interviews/paraskevopoulou.html
+	- https://zoep.github.io/GeneratingGoodGenerators.pdf
 - How hard is it to guide test case generators with branch coverage feedback?
-	- https://engineering.backtrace.io/posts/2020-03-11-how-hard-is-it-to-guide-test-case-generators-with-branch-coverage-feedback/
+	- https://pvk.ca/Blog/2020/03/11/how-hard-is-it-to-guide-test-case-generators-with-branch-coverage-feedback/
+	- https://engineering.backtrace.io/2020-03-11-how-hard-is-it-to-guide-test-case-generators-with-branch-coverage-feedback/
 - How to Specify it! A Guide to Writing Properties of Pure Functions
 	- Trends in Functional Programming (TFP) 2019
 	- John Hughes
@@ -925,9 +924,7 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 - Delta Debugging
 	- https://www.st.cs.uni-saarland.de/dd/
 	- Delta: Heuristically minimizes interesting files
-		- http://delta.stage.tigris.org/
-		- Minimizing Interesting Files with Delta
-			- http://delta.stage.tigris.org/using_delta.html
+		- https://github.com/dsw/delta
 - halfempty: Fast, Parallel Testcase Minimization
 	- https://github.com/googleprojectzero/halfempty
 - Shrink Ray: a test-case reducer designed to be effective on a wide range of formats
@@ -1032,6 +1029,9 @@ Test Doubles: Faking, Mocking
 	- https://github.com/dascandy/hippomocks
 - Mockitopp: Simple mocking for C++
 	- https://github.com/tpounds/mockitopp
+- Mocxx: A versatile C++ function mocking framework
+	- https://github.com/Guardsquare/mocxx
+	- https://tech.guardsquare.com/posts/mocxx-the-mocking-tool/
 - Trompeloeil: Header-only C++14 mocking framework
 	- https://github.com/rollbear/trompeloeil
 
@@ -1074,7 +1074,6 @@ Test Doubles: Faking, Mocking
 - C++ Unit testing - the good, the bad & the ugly
 	- NDC 2017; Dror Helper
 	- https://www.youtube.com/watch?v=EiN3cF_y3vM
-	- https://vimeo.com/223984399
 	- https://www.slideshare.net/dhelper/c-unit-testing-the-good-the-bad-the-ugly
 - Microcontrollers in Micro-increments: A Test-driven C++ Workflow for Embedded Systems
 	- CppCon 2017: Mike Ritchie
