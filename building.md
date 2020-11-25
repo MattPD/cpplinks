@@ -173,7 +173,7 @@ See also:
 - Recursive Make Considered Harmful
 	- Journal of AUUG Inc, 19(1):14–25, 1998
 	- Peter Miller
-	- http://aegis.sourceforge.net/auug97.pdf
+	- https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.20.2572&rank=1
 	- http://sites.e-advies.nl/nonrecursive-make.html
 
 ## Distributed
@@ -401,7 +401,7 @@ See also:
 	- https://github.com/tomtom-international/cpp-dependencies
 - Header Hero: optimizing C++ codebase header #include dependencies
 	- A tool for optimizing C++ header files and reducing build times.
-	- https://bitbucket.org/bitsquid/header_hero
+	- https://github.com/niklas-ourmachinery/bitsquid-header-hero
 	- https://bitsquid.blogspot.com/2011/10/caring-by-sharing-header-hero.html
 	- https://aras-p.info/blog/2018/01/17/Header-Hero-Improvements/
 - include-what-you-use
@@ -447,6 +447,10 @@ See also:
 
 - Build System Shootout: Comparison of build program expressive power
 	- https://github.com/ndmitchell/build-shootout
+- blight: a framework for wrapping and instrumenting build tools
+	- https://github.com/trailofbits/blight
+	- High-fidelity build instrumentation with blight
+		- https://blog.trailofbits.com/2020/11/25/high-fidelity-build-instrumentation-with-blight/
 - TraceCode: Trace a build to find out which source files are built in a binary
 	- https://github.com/nexB/tracecode-toolkit
 	- Debug your build by tracing and reversing: stracing your build from sources to binaries
@@ -471,9 +475,10 @@ See also:
 	- Chapter 2: A Brief Introduction to the GNU Autotools
 		- https://nostarch.com/download/samples/Autotools2e_Sample_Ch2.pdf
 - Autotools: A Demystification Tutorial
-	- Embedded Linux Conference 2016; Thomas Petazzoni
-	- https://www.youtube.com/watch?v=_zX8LJ9Xjyk
-	- http://events.linuxfoundation.org/sites/events/files/slides/petazzoni-autotools-tutorial.pdf
+	- [Embedded Linux Conference 2016](https://elinux.org/ELC_2016_Presentations); Thomas Petazzoni
+	- https://www.youtube.com/watch?v=a1NRxIA9ahA
+	- https://elinux.org/images/4/43/Petazzoni.pdf
+	- https://bootlin.com/pub/conferences/2016/elc/petazzoni-autotools-tutorial/
 - Autotools: a practitioner's guide to Autoconf, Automake and Libtool
 	- http://freesoftwaremagazine.com/books/autotools_a_guide_to_autoconf_automake_libtool/
 - Four Languages and Lots of Macros: Analyzing Autotools Build Systems
@@ -483,7 +488,6 @@ See also:
 	- https://www.cs.cmu.edu/~ckaestne/pdf/gpce17.pdf
 - GNU Autoconf: A uniform means of creating makefiles at build time
 	- Ethan McCallum - C/C++ Users Journal, January 2006
-	- http://collaboration.cmc.ec.gc.ca/science/rpn/biblio/ddj/Website/articles/CUJ/2006/0601/0601mccallum/0601mccallum.html
 	- https://web.archive.org/http://www.drdobbs.com/gnu-autoconf/184402060
 	- https://web.archive.org/http://collaboration.cmc.ec.gc.ca/science/rpn/biblio/ddj/Website/articles/CUJ/2006/0601/0601mccallum/0601mccallum.html
 - GNU Autoconf, Automake and Libtool
@@ -753,8 +757,6 @@ See also:
 	- http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/
 - Propositions as Filenames, Builds as Proofs: The Essence of Make
 	- https://bentnib.org/posts/2015-04-17-propositions-as-filenames-essence-of-make.html
-- Well documented Makefiles (available via `make help`)
-	- https://suva.sh/posts/well-documented-makefiles/
 
 ### GNU Make
 
@@ -787,7 +789,8 @@ See also:
 - Make it simple: An empirical analysis of GNU Make feature use in open source projects
 	- International Conference on Program Comprehension 2015
 	- Douglas H Martin, James R Cordy, Bram Adams, Giulio Antoniol
-	- http://maroon.cs.queensu.ca/home/cordy/Papers/MCAA_ICPC15_Makefiles.pdf
+	- https://doi.ieeecomputersociety.org/10.1109/ICPC.2015.31
+	- https://research.cs.queensu.ca/home/cordy/Papers/MCAA_ICPC15_Makefiles.pdf
 - Managing Projects with GNU Make
 	- http://www.wanderinghorse.net/computing/make/
 	- http://www.oreilly.com/openbook/make3/book/index.csp
