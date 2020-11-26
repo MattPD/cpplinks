@@ -5,7 +5,7 @@ See also:
 - [Compilers](https://github.com/MattPD/cpplinks/blob/master/compilers.md)
 - [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.md)
 - [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
-	- [Dynamic Program Analysis](analysis.dynamic.md) - instrumentation, translation, sanitizers 
+	- [Dynamic Program Analysis](analysis.dynamic.md) - instrumentation, translation, sanitizers
 	- [Symbolic Execution](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#symbolic-execution)
 	- [LLVM - Verification](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#llvm---verification)
 - [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
@@ -66,7 +66,7 @@ See also:
 	- https://cacm.acm.org/magazines/2010/2/69354-a-few-billion-lines-of-code-later/fulltext
 - Automated Program Transformation for Improving Software Quality
 	- 2019 PhD Dissertation; Rijnard van Tonder
-	- https://www.cs.cmu.edu/~rvantond/pdfs/rijnard-dissertation.pdf
+	- https://rijnard.com/pdfs/dissertation-rijnard.pdf
 - How to Build Static Checking Systems Using Orders of Magnitude Less Code
 	- ASPLOS 2016
 	- Fraser Brown, Andres Nötzli, Dawson Engler
@@ -104,9 +104,9 @@ See also:
 - Tailoring Programs for Static Analysis via Program Transformation
 	- International Conference on Software Engineering (ICSE) 2020
 	- Rijnard van Tonder and Claire Le Goues
-	- https://www.cs.cmu.edu/~rvantond/pdfs/tailoring-analysis-icse-2020.pdf
+	- https://rijnard.com/pdfs/tailoring-analysis-icse-2020.pdf
 - Toward Full Elasticity in Distributed Static Analysis
-	- Diego Garbervetsky, Edgardo Zoppi, Thomas Ball, Ben Livshits 
+	- Diego Garbervetsky, Edgardo Zoppi, Thomas Ball, Ben Livshits
 	- 2016 Microsoft Research Technical Report: MSR-TR-2015-88
 	- https://www.microsoft.com/en-us/research/publication/toward-full-elasticity-distributed-static-analysis/
 - Undecidability of static analysis
@@ -140,11 +140,12 @@ See also: [Compilers Correctness](https://github.com/MattPD/cpplinks/blob/master
 - Testing Static Analyzers with Randomly Generated Programs
 	- NFM 2012: NASA Formal Methods
 	- Pascal Cuoq, Benjamin Monate, Anne Pacalet, Virgile Prevosto, John Regehr, Boris Yakobowski, Xuejun Yang
-	- http://blog.frama-c.com/public/csmith.pdf
+	- https://www.cs.utah.edu/~regehr/papers/nfm12.pdf
 - Towards Scalable Translation Validation of Static Analyzers
 	- ROSAEC Technical Report ROSAEC-2014-003, Nov 2014
 	- Jeehoon Kang, Sungkeun Cho, Joonwon Choi, Chung-Kil Hur, Kwangkeun Yi
-	- http://sf.snu.ac.kr/gil.hur/publications/ROSAEC_2014_003.pdf
+	- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.698.4724
+	- http://rosaec.snu.ac.kr/publish/2014/techmemo/ROSAEC-2014-003.pdf
 - Systematic Approaches for Increasing Soundness and Precision of Static Analyzers
 	- State Of the Art in Program Analysis (SOAP) 2017
 	- Esben Sparre Andreasen, Anders Møller, Benjamin Barslev Nielsen
@@ -184,15 +185,14 @@ _Benchmarks & comparisons_
 	- 2015 Master’s Thesis: https://repository.tudelft.nl/islandora/object/uuid:3d834130-8dd7-420a-9af9-6e77761cdad6/
 - Automated Customized Bug-Benchmark Generation
 	- IEEE SCAM 2019
-	- Vineeth Kashyap, Jason Ruchti, Lucja Kot, Emma Turetsky, Rebecca Swords, David Melski, Eric Schulte 
+	- Vineeth Kashyap, Jason Ruchti, Lucja Kot, Emma Turetsky, Rebecca Swords, David Melski, Eric Schulte
 	- https://arxiv.org/abs/1901.02819
 	- https://www.dropbox.com/sh/f3p1wbomv93fz78/AABzXcLzqp5zkx75nQym6gJPa
 - Benchmark Software for Evaluation of Software Analysis Tools
-	- https://github.com/Toyota-ITC-SSD/Software-Analysis-Benchmark
+	- http://web.archive.org/web/20180611162911/https://github.com/Toyota-ITC-SSD/Software-Analysis-Benchmark
 	- Static analysis benchmarks from Toyota ITC - https://github.com/regehr/itc-benchmarks
 - How Toyota Picks Software Tools
 	- EETimes, August 11, 2015; Bernard Cole
-	- https://www.eetimes.com/author.asp?section_id=36&doc_id=1327387
 	- http://web.archive.org/web/20150815120014/http://www.eetimes.com/author.asp?section_id=36&doc_id=1327387
 - Quantitative Evaluation of Static Analysis Tools
 	- Software Reliability Engineering Workshops (ISSREW) 2014
@@ -207,7 +207,7 @@ _Benchmarks & comparisons_
 	- IEEE International Symposium on Software Reliability Engineering (ISSRE) 2015
 	- Shinichi Shiraishi, Veena Mohan, and Hemalatha Marimuthu
 	- https://www.researchgate.net/publication/283548090_Test_Suites_for_Benchmarks_of_Static_Analysis_Tools
-- Towards Automatically Generating a Sound and Complete Dataset for Evaluating Static Analysis Tools 
+- Towards Automatically Generating a Sound and Complete Dataset for Evaluating Static Analysis Tools
 	- NDSS Workshop on Binary Analysis Research (BAR) 2019
 	- Aravind Machiry, Nilo Redini, Eric Gustafson, Hojjat Aghakhani, Christopher Kruegel, Giovanni Vigna
 	- https://ruoyuwang.me/bar2019/pdfs/bar2019-final90.pdf
@@ -221,25 +221,27 @@ _Benchmarks & comparisons_
 
 # Software
 
-- BDE Verify - A Static Checker for C++
+- BDE Verify: A Static Checker for C++
 	- https://github.com/bloomberg/bde_verify
-	- http://bloomberg.github.io/bde_verify/bde_verify_build/html/
+	- https://bloomberg.github.io/bde_verify/
 - CodeChecker: an analyzer tooling, defect database and viewer extension for the Clang Static Analyzer and Clang Tidy
 	- https://github.com/Ericsson/codechecker
 - Cppcheck: A tool for static C/C++ code analysis
 	- http://cppcheck.sourceforge.net/
 	- https://github.com/danmar/cppcheck
+- cpplint: static code checker for C++
+	- https://github.com/cpplint/cpplint
 - Crab: A Language-Agnostic Library for Static Analysis
 	- https://github.com/seahorn/crab
 	- Crab-llvm: Abstract Interpretation of LLVM bitcode
 		- https://github.com/seahorn/crab-llvm
-- IKOS (Inference Kernel for Open Static Analyzers)
+- IKOS: Inference Kernel for Open Static Analyzers
 	- Static analyzer for C/C++ based on the theory of Abstract Interpretation.
 	- https://github.com/NASA-SW-VnV/ikos
 - Infer Static Analyzer: A static analyzer for Java, C, C++, and Objective-C
 	- http://fbinfer.com/
 	- https://github.com/facebook/infer
-- Phasar - A LLVM-based static code analysis framework
+- Phasar: A LLVM-based static code analysis framework
 	- http://phasar.org/
 	- https://github.com/secure-software-engineering/phasar
 	- Static Analysis for C++ with Phasar
@@ -260,7 +262,7 @@ _Benchmarks & comparisons_
 		- Strange Loop 2019; Arnaud Venet and Jez Ng
 		- https://www.youtube.com/watch?v=_fA7vkVJhF8
 		- https://thestrangeloop.com/2019/easy-abstract-interpretation-with-sparta.html
-- Verasco, a formally verified C static analyzer
+- Verasco: a formally verified C static analyzer
 	- static analyzer for the CompCert subset of ISO C 1999 that establishes the absence of run-time errors in analyzed programs
 	- entirely specified and proved sound using the Coq proof assistant
 	- http://compcert.inria.fr/verasco/
@@ -287,7 +289,7 @@ _Benchmarks & comparisons_
 			- part 2: Integrate qmake and other build systems using Bear - https://www.kdab.com/clang-tidy-part-2-integrate-qmake-and-other-build-systems-using-bear/
 		- How to use Clang Tidy to automatically correct code
 			- https://github.com/KratosMultiphysics/Kratos/wiki/How-to-use-Clang-Tidy-to-automatically-correct-code
-		- Intro to clang-tidy - C++ Weekly - Ep 3 
+		- Intro to clang-tidy - C++ Weekly - Ep 3
 			- https://www.youtube.com/watch?v=OchPaGEH4TE
 	- Clang Thread Safety Analysis
 		- https://clang.llvm.org/docs/ThreadSafetyAnalysis.html
@@ -338,9 +340,9 @@ _Verification & Model Checking_
 See also: [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef) - [LLVM](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#llvm) - [Verification](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef#llvm---verification)
 
 - CMBC: C Bounded Model Checker
-	- CBMC is a Bounded Model Checker for C and C++ programs. 
+	- Bounded Model Checker for C and C++ programs
 	- http://www.cprover.org/cbmc/
-	- https://github.com/diffblue/cbmc  
+	- https://github.com/diffblue/cbmc
 - DIVINE
 	- DIVINE is a modern, explicit-state model checker. Based on the LLVM toolchain, it can verify programs written in multiple real-world programming languages, including C and C++.
 	- https://divine.fi.muni.cz/
