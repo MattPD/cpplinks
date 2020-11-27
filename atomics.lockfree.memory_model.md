@@ -96,27 +96,31 @@
 ## Dissertations
 
 - Compiler optimisations and relaxed memory consistency models
-	- 2017 PhD dissertation; Robin Morisset
+	- 2017 Ph.D. Dissertation; Robin Morisset
 	- http://www.theses.fr/en/2017PSLEE050
 	- https://tel.archives-ouvertes.fr/tel-01823521/
 	- https://www.di.ens.fr/~zappa/students/morisset-phd.pdf
 - Correct Compilation of Relaxed Memory Concurrency
-	- 2019 PhD Dissertation; Soham Chakraborty
+	- 2019 Ph.D. Dissertation; Soham Chakraborty
 	- http://plv.mpi-sws.org/soham/thesis/
 	- https://kluedo.ub.uni-kl.de/frontdoor/index/index/docId/5697
 - Designing Memory Consistency Models For Shared-Memory Multiprocessors
-	- 1993 PhD dissertation; Sarita V. Adve
+	- 1993 Ph.D. Dissertation; Sarita V. Adve
 	- ftp://ftp.cs.wisc.edu/markhill/Theses/sarita_adve.pdf
 	- http://digital.library.wisc.edu/1793/59824
 - Memory Consistency Models for Shared-Memory Multiprocessors
-	- 1995 PhD dissertation; Kourosh Gharachorloo
+	- 1995 Ph.D. Dissertation; Kourosh Gharachorloo
 	- http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-95-9.pdf
+- Progressive Automated Formal Verification of Memory Consistency in Parallel Processors
+	- 2020 Ph.D. Dissertation; Yatin A. Manerkar
+	- https://www.cs.princeton.edu/research/techreps/TR-007-20
+	- https://mrmgroup.cs.princeton.edu/papers/manerkar_thesis.pdf
 - The C11 and C++11 Concurrency Model
-	- 2014 PhD dissertation; Mark Batty
+	- 2014 Ph.D. Dissertation; Mark Batty
 	- https://www.cs.kent.ac.uk/people/staff/mjb211/docs/toc.pdf
 	- [2015 SIGPLAN John C. Reynolds Doctoral Dissertation award citation](http://www.sigplan.org/Awards/Dissertation/#2015): "Mark Batty’s dissertation makes significant contributions to the understanding of memory models for C and C++. The ISO C++ committee proposed a design for C and C++ concurrency that was not up to the task of capturing a realistic relaxed-memory concurrency model. Batty’s work uncovered a number of subtle and serious flaws in the design, and produced an improved design in completely rigorous and machine-checked mathematics. Using software tools to explore the consequences of the design, derived directly from the mathematics, it showed that it has the desired behavior on many examples, and developed mechanized proofs that the design meets some of the original goals, showing that for programs in various subsets of the language one can reason in simpler models. The standards committee have adopted this work in their C11, C++11, and C++14 standards. The members of the award committee were impressed with the quality of the work, the impact it has had on the standardization process for C++, and the clarity of the presentation."
 - The Semantics of Multicopy Atomic ARMv8 and RISC-V
-	- 2019 PhD dissertation; Christopher Pulte
+	- 2019 Ph.D. Dissertation; Christopher Pulte
 	- https://doi.org/10.17863/CAM.39379
 	- https://www.repository.cam.ac.uk/handle/1810/292229
 
