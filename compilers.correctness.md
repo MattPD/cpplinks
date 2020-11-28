@@ -814,6 +814,12 @@ Validation: Including translation validation, equivalence checking.
 	- Closing the Gap – The Formally Verified Optimizing Compiler CompCert
 		- SSS'17: Safety-critical Systems Symposium 2017
 		- https://hal.inria.fr/hal-01399482/
+	- CompCertELF: Verified Separate Compilation of C Programs into ELF Object Files
+		- OOPSLA 2020
+		- Yuting Wang, Xiangzhe Xu, Pierre Wilke, Zhong Shao
+		- https://doi.org/10.1145/3428265
+		- https://www.youtube.com/watch?v=po9lhcSWssg
+		- https://2020.splashcon.org/details/splash-2020-oopsla/73/CompCertELF-Verified-Separate-Compilation-of-C-Programs-into-ELF-Object-Files
 	- CompCertM: CompCert with Lightweight Modular Verification and Multi-Language Linking
 		- POPL 2020
 		- Youngju Song, Minki Cho, Dongjoo Kim, Yonghyun Kim, Jeehoon Kang, Chung-Kil Hur
