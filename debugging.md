@@ -72,9 +72,7 @@ See also:
 * Delta Debugging
 	+ https://www.st.cs.uni-saarland.de/dd/
 	+ Delta: Heuristically minimizes interesting files
-		- http://delta.stage.tigris.org/
-		- Minimizing Interesting Files with Delta
-			- http://delta.stage.tigris.org/using_delta.html
+		- https://github.com/dsw/delta
 	+ Yesterday, my program worked. Today, it does not. Why?
 		- ESEC 1999
 		- Andreas Zeller
@@ -158,98 +156,101 @@ _Books, Books Reviews_
 
 ## Implementation
 
-* An Efficient and Generic Reversible Debugger using the Virtual Machine based Approach
-	+ Virtual Execution Environments (VEE) 2005
-	+ Toshihiko Koju, Shingo Takada, Norihisa Doi
-	+ https://www.usenix.org/events/vee05/full_papers/p79-koju.pdf
-* Debin: Predicting Debug Information in Stripped Binaries
-	+ ACM CCS 2018
-	+ Jingxuan He, Pesho Ivanov, Petar Tsankov, Veselin Raychev, Martin Vechev
-	+ https://dl.acm.org/citation.cfm?id=3243866
-	+ https://www.youtube.com/watch?v=x1x_KtS-5Hs
-	+ https://github.com/eth-sri/debin
-	+ https://files.sri.inf.ethz.ch/website/papers/ccs18-debin.pdf
-* Debuggers for Programming Languages
-	+ 2002 Book Chapter in "The Compiler Design Handbook: Optimizations and Machine Code Generation"
-	+ Sanjeev Kumar Aggarwal, M. Sarath Kumar
-	+ https://www.taylorfrancis.com/books/9781420040579/chapters/10.1201%2F9781420040579-12
-* Debugging with the natives - Stephen Kell
-	+ part 1 - http://www.cl.cam.ac.uk/~srk31/blog/2016/02/25/#native-debugging-part-1
-	+ part 2 - http://www.cl.cam.ac.uk/~srk31/blog/2017/01/30/#native-debugging-part-2
-* Debugging Native Extensions of Dynamic Languages
-	+ International Conference on Managed Languages & Runtimes (ManLang) 2018
-	+ Jacob Kreindl, Manuel Rigger, Hanspeter Mössenböck
-	+ https://doi.org/10.1145/3237009.3237017
-	+ http://ssw.jku.at/General/Staff/Kreindl/papers/ManLang_2018_SulongDebugging.pdf
-* Debugging with Intelligence via Probabilistic Inference
-	+ Zhaogui Xu, Shiqing Ma, Xiangyu Zhang, Shuofei Zhu, Baowen Xu
-	+ International Conference on Software Engineering (ICSE) 2018
-	+ https://www.cs.purdue.edu/homes/ma229/papers/ICSE18.pdf
-	+ https://blog.acolyer.org/2018/06/19/debugging-with-intelligence-via-probabilistic-inference/
-* Debugopt: Debugging fully optimized natively compiled programs using multistage instrumentation
-	+ Science of Computer Programming 169 (2019)
-	+ Jie Yin, Gang Tan, Hao Li, Xiaolong Bai, Yu Ping Wang, Shi Min Hu
-	+ https://www.sciencedirect.com/science/article/pii/S0167642318303629
-	+ https://oslab.cs.tsinghua.edu.cn/debugopt/debugopt.html
-* Eli Bendersky - http://eli.thegreenplace.net/tag/debuggers
-	+ How debuggers work
+- An Efficient and Generic Reversible Debugger using the Virtual Machine based Approach
+	- Virtual Execution Environments (VEE) 2005
+	- Toshihiko Koju, Shingo Takada, Norihisa Doi
+	- https://www.usenix.org/events/vee05/full_papers/p79-koju.pdf
+- Debin: Predicting Debug Information in Stripped Binaries
+	- ACM CCS 2018
+	- Jingxuan He, Pesho Ivanov, Petar Tsankov, Veselin Raychev, Martin Vechev
+	- https://dl.acm.org/citation.cfm?id=3243866
+	- https://www.youtube.com/watch?v=x1x_KtS-5Hs
+	- https://github.com/eth-sri/debin
+	- https://files.sri.inf.ethz.ch/website/papers/ccs18-debin.pdf
+- Debuggers for Programming Languages
+	- 2002 Book Chapter in "The Compiler Design Handbook: Optimizations and Machine Code Generation"
+	- Sanjeev Kumar Aggarwal, M. Sarath Kumar
+	- https://www.taylorfrancis.com/books/9781420040579/chapters/10.1201%2F9781420040579-12
+- Debugging with the natives - Stephen Kell
+	- part 1 - http://www.cl.cam.ac.uk/~srk31/blog/2016/02/25/#native-debugging-part-1
+	- part 2 - http://www.cl.cam.ac.uk/~srk31/blog/2017/01/30/#native-debugging-part-2
+- Debugging Native Extensions of Dynamic Languages
+	- International Conference on Managed Languages & Runtimes (ManLang) 2018
+	- Jacob Kreindl, Manuel Rigger, Hanspeter Mössenböck
+	- https://doi.org/10.1145/3237009.3237017
+	- http://ssw.jku.at/General/Staff/Kreindl/papers/ManLang_2018_SulongDebugging.pdf
+- Debugging with Intelligence via Probabilistic Inference
+	- Zhaogui Xu, Shiqing Ma, Xiangyu Zhang, Shuofei Zhu, Baowen Xu
+	- International Conference on Software Engineering (ICSE) 2018
+	- https://www.cs.rutgers.edu/~sm2283/papers/ICSE18.pdf
+	- https://blog.acolyer.org/2018/06/19/debugging-with-intelligence-via-probabilistic-inference/
+- Debugopt: Debugging fully optimized natively compiled programs using multistage instrumentation
+	- Science of Computer Programming 169 (2019)
+	- Jie Yin, Gang Tan, Hao Li, Xiaolong Bai, Yu Ping Wang, Shi Min Hu
+	- https://www.sciencedirect.com/science/article/pii/S0167642318303629
+	- https://oslab.cs.tsinghua.edu.cn/debugopt/debugopt.html
+- Eli Bendersky - http://eli.thegreenplace.net/tag/debuggers
+	- How debuggers work
 		- Part 1 - Basics - http://eli.thegreenplace.net/2011/01/23/how-debuggers-work-part-1
 		- Part 2 - Breakpoints - http://eli.thegreenplace.net/2011/01/27/how-debuggers-work-part-2-breakpoints
 		- Part 3 - Debugging information - http://eli.thegreenplace.net/2011/02/07/how-debuggers-work-part-3-debugging-information
-	+ An interesting tree serialization algorithm from DWARF - https://eli.thegreenplace.net/2011/09/29/an-interesting-tree-serialization-algorithm-from-dwarf
-	+ The contents of DWARF sections - https://eli.thegreenplace.net/2011/12/26/the-contents-of-dwarf-sections
-	+ Programmatic access to the call stack in C++ - https://eli.thegreenplace.net/2015/programmatic-access-to-the-call-stack-in-c/
-* Fast, Flexible, Polyglot Instrumentation Support for Debuggers and other Tools
-	+ The Art, Science, and Engineering of Programming, 2018, Vol. 2, Issue 3, Article 14
-	+ Van De Vanter, Michael; Seaton, Chris; Haupt, Michael; Humer, Christian; Würthinger, Thomas
-	+ http://programming-journal.org/2018/2/14/
-* Framework for Instruction-level Tracing and Analysis of Program Executions
-	+ Virtual Execution Environments (VEE) 2006
-	+ https://www.usenix.org/legacy/events/vee06/full_papers/p154-bhansali.pdf
-	+ iDNA: Time Travel Debugging
+	- An interesting tree serialization algorithm from DWARF - https://eli.thegreenplace.net/2011/09/29/an-interesting-tree-serialization-algorithm-from-dwarf
+	- The contents of DWARF sections - https://eli.thegreenplace.net/2011/12/26/the-contents-of-dwarf-sections
+	- Programmatic access to the call stack in C++ - https://eli.thegreenplace.net/2015/programmatic-access-to-the-call-stack-in-c/
+- Fast, Flexible, Polyglot Instrumentation Support for Debuggers and other Tools
+	- The Art, Science, and Engineering of Programming, 2018, Vol. 2, Issue 3, Article 14
+	- Van De Vanter, Michael; Seaton, Chris; Haupt, Michael; Humer, Christian; Würthinger, Thomas
+	- http://programming-journal.org/2018/2/14/
+- Framework for Instruction-level Tracing and Analysis of Program Executions
+	- Virtual Execution Environments (VEE) 2006
+	- https://www.usenix.org/legacy/events/vee06/full_papers/p154-bhansali.pdf
+	- iDNA: Time Travel Debugging
 		- Instruction-level Tracing: Framework & Applications
 		- Sanjay Bhansali
 		- http://www.cs.wisc.edu/areas/pl/seminar/fall05/Bhansali.ppt
-* How breakpoints are set - http://majantali.net/2016/10/how-breakpoints-are-set/
-* How do debuggers keep track of the threads in your program?
-	+ http://timetobleed.com/how-do-debuggers-keep-track-of-the-threads-in-your-program/
-* How to code debuggers - Tomasz Wegrzanowski - https://t-a-w.blogspot.com/2007/03/how-to-code-debuggers.html
-* Making a low level (Linux) debugger
-	+ part 1: assembly - https://blog.asrpo.com/making_a_low_level_debugger
-	+ part 2: C - https://blog.asrpo.com/making_a_low_level_debugger_part_2
-	+ part 3: our first program - https://blog.asrpo.com/making_a_low_level_debugger_part_3
-* On-Stack Replacement, Distilled
-	+ Programming Language Design and Implementation (PLDI) 2018
-	+ Daniele Cono D'Elia and Camil Demetrescu
-	+ https://pldi18.sigplan.org/event/pldi-2018-papers-on-stack-replacement-distilled
-	+ http://season-lab.github.io/papers/osr-distilled-pldi18.pdf
-	+ https://github.com/dcdelia/tinyvm
-	+ "As a novel application of OSR, we present a feasibility study on debugging of optimized code, showing how our techniques can be used to fix variables holding incorrect values at breakpoints due to optimizations."
-* Samy Al Bahra, Backtrace
-	+ Compiler debug quality suite - https://github.com/backtrace-labs/cdqs
-	+ Compile Once Debug Twice: Picking a Compiler for Debuggability
+- How breakpoints are set - http://majantali.net/2016/10/how-breakpoints-are-set/
+- How Debuggers Work - Michał Górny
+	- Getting and Setting x86 Registers, Part 1 - https://www.moritz.systems/blog/how-debuggers-work-getting-and-setting-x86-registers-part-1/
+	- Getting and Setting x86 Registers, Part 2: XSAVE - https://www.moritz.systems/blog/how-debuggers-work-getting-and-setting-x86-registers-part-2/
+- How do debuggers keep track of the threads in your program?
+	- http://timetobleed.com/how-do-debuggers-keep-track-of-the-threads-in-your-program/
+- How to code debuggers - Tomasz Wegrzanowski - https://t-a-w.blogspot.com/2007/03/how-to-code-debuggers.html
+- Making a low level (Linux) debugger
+	- part 1: assembly - https://web.archive.org/https://blog.asrpo.com/making_a_low_level_debugger
+	- part 2: C - https://web.archive.org/https://blog.asrpo.com/making_a_low_level_debugger_part_2
+	- part 3: our first program - https://web.archive.org/https://blog.asrpo.com/making_a_low_level_debugger_part_3
+- On-Stack Replacement, Distilled
+	- Programming Language Design and Implementation (PLDI) 2018
+	- Daniele Cono D'Elia and Camil Demetrescu
+	- https://pldi18.sigplan.org/event/pldi-2018-papers-on-stack-replacement-distilled
+	- http://season-lab.github.io/papers/osr-distilled-pldi18.pdf
+	- https://github.com/dcdelia/tinyvm
+	- "As a novel application of OSR, we present a feasibility study on debugging of optimized code, showing how our techniques can be used to fix variables holding incorrect values at breakpoints due to optimizations."
+- Samy Al Bahra, Backtrace
+	- Compiler debug quality suite - https://github.com/backtrace-labs/cdqs
+	- Compile Once Debug Twice: Picking a Compiler for Debuggability
 		- https://backtrace.io/blog/engineering/compile-once-debug-twice-picking-a-compiler-for-debuggability-1of3/
-	+ Debugging the Debugger: Why Your Debugger Doesn’t Work When You Need it To
+	- Debugging the Debugger: Why Your Debugger Doesn’t Work When You Need it To
 		- https://backtrace.io/debuggingthedebugger/
-	+ Implementing a Debugger - Backtrace
+	- Implementing a Debugger - Backtrace
 		- The Fundamentals - https://backtrace.io/blog/backtrace/debugger-internals/
 		- Building a Go Debugger - https://backtrace.io/blog/backtrace/building-a-go-debugger/
-* Writing a basic Windows debugger - https://www.codeproject.com/Articles/43682/Writing-a-basic-Windows-debugger
-* Writing a Debugger - Joseph Kain - http://system.joekain.com/debugger/
-* Writing a Linux Debugger - Simon Brand
-	+ 1\. Setup - https://blog.tartanllama.xyz/writing-a-linux-debugger-setup/
-	+ 2\. Breakpoints - https://blog.tartanllama.xyz/writing-a-linux-debugger-breakpoints/
-	+ 3\. Registers and memory - https://blog.tartanllama.xyz/writing-a-linux-debugger-registers/
-	+ 4\. Elves and dwarves - https://blog.tartanllama.xyz/writing-a-linux-debugger-elf-dwarf/
-	+ 5\. Source and signals - https://blog.tartanllama.xyz/writing-a-linux-debugger-source-signal/
-	+ 6\. Source-level stepping - https://blog.tartanllama.xyz/writing-a-linux-debugger-dwarf-step/
-	+ 7\. Source-level breakpoints - https://blog.tartanllama.xyz/writing-a-linux-debugger-source-break/
-	+ 8\. Stack unwinding - https://blog.tartanllama.xyz/writing-a-linux-debugger-unwinding/
-	+ 9\. Handling variables - https://blog.tartanllama.xyz/writing-a-linux-debugger-variables/
-	+ 10\. Advanced topics - https://blog.tartanllama.xyz/writing-a-linux-debugger-advanced-topics/
-	+ minidbg: A mini x86 linux debugger for teaching purposes - https://github.com/TartanLlama/minidbg
-* (Windows) Data Breakpoints - https://blogs.msdn.microsoft.com/reiley/2011/07/21/data-breakpoints/
-* (Windows) Side Effects of Debugger - https://blogs.msdn.microsoft.com/reiley/2011/08/27/side-effects-of-debugger/
+- Writing a basic Windows debugger - https://www.codeproject.com/Articles/43682/Writing-a-basic-Windows-debugger
+- Writing a Debugger - Joseph Kain - http://system.joekain.com/debugger/
+- Writing a Linux Debugger - Simon Brand
+	- 1\. Setup - https://blog.tartanllama.xyz/writing-a-linux-debugger-setup/
+	- 2\. Breakpoints - https://blog.tartanllama.xyz/writing-a-linux-debugger-breakpoints/
+	- 3\. Registers and memory - https://blog.tartanllama.xyz/writing-a-linux-debugger-registers/
+	- 4\. Elves and dwarves - https://blog.tartanllama.xyz/writing-a-linux-debugger-elf-dwarf/
+	- 5\. Source and signals - https://blog.tartanllama.xyz/writing-a-linux-debugger-source-signal/
+	- 6\. Source-level stepping - https://blog.tartanllama.xyz/writing-a-linux-debugger-dwarf-step/
+	- 7\. Source-level breakpoints - https://blog.tartanllama.xyz/writing-a-linux-debugger-source-break/
+	- 8\. Stack unwinding - https://blog.tartanllama.xyz/writing-a-linux-debugger-unwinding/
+	- 9\. Handling variables - https://blog.tartanllama.xyz/writing-a-linux-debugger-variables/
+	- 10\. Advanced topics - https://blog.tartanllama.xyz/writing-a-linux-debugger-advanced-topics/
+	- minidbg: A mini x86 linux debugger for teaching purposes - https://github.com/TartanLlama/minidbg
+- (Windows) Data Breakpoints - https://blogs.msdn.microsoft.com/reiley/2011/07/21/data-breakpoints/
+- (Windows) Side Effects of Debugger - https://blogs.msdn.microsoft.com/reiley/2011/08/27/side-effects-of-debugger/
 
 ### Correctness
 
@@ -355,8 +356,6 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ Yit Phang Khoo, Jeffrey S. Foster, Michael Hicks
 	+ http://www.cs.umd.edu/~mwh/papers/khoo13expositor.html
 	+ full version - http://www.cs.umd.edu/~mwh/papers/khoo13expositor-journal.html
-	+ Scriptable time-travel debugging Python library for GDB/UndoDB
-		- https://bitbucket.org/khooyp/expositor/src/default/
 * Improving the performance of reverse debugging
 	+ Programming and Computer Software 43(1) 2017
 	+ Klimushenkova, M.A. & Dovgalyuk, P.M.
@@ -412,14 +411,16 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * On The Dichotomy of Debugging Behavior Among Programmers
 	+ ICSE 2018
 	+ Moritz Beller, Niels Spruit, Diomidis Spinellis, Andy Zaidman
-	+ http://pure.tudelft.nl/ws/files/38319543/paper.pdf
+	+ https://dl.acm.org/doi/10.1145/3180155.3180175
+	+ https://inventitech.com/assets/publications/2018_beller_spruit_spinellis_zaidman_on_the_dichotomy_of_debugging_behavior_among_programmers.pdf
 * Where Is the Bug and How Is It Fixed? An Experiment with Practitioners
 	+ European Software Engineering Conference / Foundations of Software Engineering (ESEC/FSE) 2017
 	+ Marcel Böhme, Ezekiel O. Soremekun, Sudipta Chattopadhyay, Emamurho Ugherughe, Andreas Zeller
 	+ https://doi.org/10.1145/3106237.3106255
-	+ https://www.comp.nus.edu.sg/~mboehme/paper/FSE17.pdf
-	+ DBGBench - https://dbgbench.github.io/
-	+ "the correct fault locations, bug diagnoses, and software patches of 27 real errors in open-source C projects that were consolidated from hundreds of debugging sessions of professional software engineers"
+	+ https://mboehme.github.io/paper/FSE17.pdf
+	+ DBGBench
+		- https://dbgbench.github.io/
+		- "the correct fault locations, bug diagnoses, and software patches of 27 real errors in open-source C projects that were consolidated from hundreds of debugging sessions of professional software engineers"
 
 ## Transparency
 
@@ -431,11 +432,13 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * 2016 - Towards Transparent Debugging
 	+ IEEE Transactions on Dependable and Secure Computing (TDSC'16), 2016.
 	+ Fengwei Zhang, Kevin Leach, Angelos Stavrou, and Haining Wang
-	+ http://www.cs.wayne.edu/fengwei/paper/malt-tdsc16.pdf
+	+ https://doi.org/10.1109/TDSC.2016.2545671
+	+ http://webpages.eng.wayne.edu/~fy8421/paper/malt-tdsc18.pdf
 * 2015 - Using Hardware Features for Increased Debugging Transparency
 	+ 36th IEEE Symposium on Security and Privacy (S&P'15), 2015
 	+ Fengwei Zhang, Kevin Leach, Angelos Stavrou, Haining Wang, and Kun Sun
-	+ http://www.cs.wayne.edu/fengwei/paper/malt-sp15.pdf
+	+ https://doi.org/10.1109/SP.2015.11
+	+ http://webpages.eng.wayne.edu/~fy8421/paper/malt-sp15.pdf
 
 ---
 
@@ -481,17 +484,18 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ https://www.fireeye.com/blog/threat-research/2017/09/rvmi-full-system-analysis.html
 	+ Black Hat USA 2017
 		- https://www.blackhat.com/docs/us-17/thursday/us-17-Pfoh-rVMI-A-New-Paradigm-For-Full-System-Analysis.pdf
-		- https://www.youtube.com/watch?v=KtoipviVJjw
+		- https://www.youtube.com/watch?v=tEVevKVLs3s
 * Vivisect / Vdb / Vtrace
 	+ Vivisect - interactive disassembler
 	+ Vtrace - a cross-platform & cross-architecture debugging API
 	+ VDB - a cross-platform & cross-architecture debugger using Vtrace
-	+ http://visi.kenshoto.com/viki/MainPage
 	+ https://github.com/vivisect/vivisect
 	+ documentation: http://fitblip.pub/vdb-fork/sphinx/
 	+ fork & documentation: http://fitblip.pub/vdb-fork/
 	+ Using a Custom VDB Debugger for Exploit Analysis - https://www.fireeye.com/blog/threat-research/2013/02/custom-vdb-debugger-exploit-analysis.html
-	+ Malware Analysis with Vivisect - NEST - http://nest.unm.edu/files/5514/1254/9114/Malware_Analysis_with_Vivsect.pdf
+	+ Malware Analysis with Vivisect
+		- Colin Williams; NEST
+		- https://web.archive.org/http://nest.unm.edu/files/5514/1254/9114/Malware_Analysis_with_Vivsect.pdf
 	+ Binary Vivisection
 		- https://www.singlehop.com/blog/binary-vivisection-part-1/
 		- https://www.singlehop.com/blog/binary-vivisection-part-2/
@@ -571,7 +575,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- http://OnlineGDB.com
 * PEDA - Python Exploit Development Assistance for GDB
 	- https://github.com/longld/peda
-	- https://eugenekolo.com/blog/better-disassembly-with-gdb-peda/
+	- https://web.archive.org/web/20160126173234/https://eugenekolo.com/blog/better-disassembly-with-gdb-peda/
 	- http://ropshell.com/peda/Linux_Interactive_Exploit_Development_with_GDB_and_PEDA_Slides.pdf
 * PINCE: front-end reverse engineering tool for the GDB - https://github.com/korcankaraokcu/PINCE
 * pwndbg - Exploit Development and Reverse Engineering with GDB Made Easy
@@ -692,9 +696,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 * A flexible GDB (GNU Debugger) target description for processor diversity – SFO17-210
 	- http://connect.linaro.org/resource/sfo17/sfo17-210/
-* Become a GDB Power User - ACCU 2016 - Greg Law
+* Become a GDB Power User
+	- ACCU 2016; Greg Law
 	- https://www.youtube.com/watch?v=713ay4bZUrw
-	- including Q&A: https://www.youtube.com/watch?v=6ag7yvhDAiE
 * Debugging Linux C++
 	- CppCon 2018; Greg Law
 	- https://www.youtube.com/watch?v=V1t6faOKjuQ
@@ -725,7 +729,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://www.youtube.com/watch?v=oAYbt2PsKng
 	- https://docs.google.com/presentation/d/15qOKBh9FDjCeGS-xAHXZSJDS5_aoZk0Caz12FL_f294/
 * SecurityTube GDB Expert (SGDE)
-	- Walkthroughs: https://github.com/Kan1shka9/Securitytube-Gnu-Debugger-Expert
+	- Walkthroughs: https://github.com/chaitanyakrishna/Securitytube-Gnu-Debugger-Expert
 	- Course Videos: http://www.securitytube.net/tags/sgde
 	- https://www.youtube.com/playlist?list=PLiP0FxVgYuUz0kdK7L7YaI5n4qkOuymue
 * The GDB Text User Interface
@@ -786,7 +790,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * LLDB for GDB Users – Command Summary
 	+ https://developer.apple.com/library/content/documentation/General/Conceptual/lldb-guide/chapters/A3-GDB-Summary.html
 * LLDB Scripts - Debugging the Swift Compiler
-	+ https://github.com/apple/swift/blob/master/docs/DebuggingTheCompiler.rst#lldb-scripts
+	+ https://github.com/apple/swift/blob/main/docs/DebuggingTheCompiler.md#debugging-the-compiler-using-lldb-scripts
 * LLDB to GDB Command Map - https://lldb.llvm.org/lldb-gdb.html
 * Beyond Debug Information: Improving Program Reconstruction in LLDB using C++ Modules
 	- 2019 Master’s Thesis; Raphael Isemann
@@ -914,7 +918,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * ORC (Oops Rewind Capability) Unwinder
 	+ [Commit ee9f8fce9964](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ee9f8fce99640811b2b8e79d0d1dbe8bab69ba67)
 	+ [Commit 39358a033b2e](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=39358a033b2e4432052265c1fa0f36f572d8cfb5)
-	+ orc-unwinder.txt - https://github.com/torvalds/linux/blob/master/Documentation/x86/orc-unwinder.txt
+	+ ORC unwinder - https://github.com/torvalds/linux/blob/master/Documentation/x86/orc-unwinder.rst
 	+ The Linux x86 ORC Stack Unwinder - http://www.codeblueprint.co.uk/2017/07/31/the-orc-unwinder.html
 	+ The ORCs are coming - https://lwn.net/Articles/728339/
 	+ x86: ORC unwinder (previously undwarf) - https://lwn.net/Articles/727553/
@@ -1040,7 +1044,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Undocumented WinDBG - https://blogs.msdn.microsoft.com/reiley/2011/10/30/undocumented-windbg/
 - Use Windows Debuggers for Non-Debugging Tasks - https://blogs.msdn.microsoft.com/reiley/2011/10/23/use-windows-debuggers-for-non-debugging-tasks/
 - Using Function Evaluation in WinDBG - https://blogs.msdn.microsoft.com/reiley/2012/08/18/using-function-evaluation-in-windbg/
-- Windbg automation and extensions - https://nativecoding.wordpress.com/2016/01/10/automate-attach-to-process-on-windows-with-windbg/
+- Windbg automation and extensions - https://web.archive.org/https://nativecoding.wordpress.com/2016/01/10/automate-attach-to-process-on-windows-with-windbg/
 - WinDbg Malware Analysis Cheat Sheet
 	- https://oalabs.openanalysis.net/2019/02/18/windbg-for-malware-analysis/
 - WinDbg — the Fun Way
@@ -1097,7 +1101,6 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ Interfaces for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-s.html
 	+ Interfaces Definitions for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-sman.html
 * libunwind (nongnu.org) - http://www.nongnu.org/libunwind/
-* libunwind (PathScale) - https://github.com/pathscale/libunwind
 * Programmatic access to the call stack in C++ - https://eli.thegreenplace.net/2015/programmatic-access-to-the-call-stack-in-c/
 * pstack: Print stack traces of running processes. Uses its own ELF and DWARF parsing
 	+ https://github.com/peadar/pstack
@@ -1127,8 +1130,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- Alexandre Oliva, Mark J. Wielaard
 		- https://gnu.wildebeest.org/~mark/cauldron-2018/DebuginfoImprovements.pdf
 * Let's Write a Debugger!
-	+ [linux.conf.au 2018](https://rego.linux.conf.au/schedule/presentation/91/) - [Levente Kurusa](https://www.doc.ic.ac.uk/~lk1015/publications.html)
-	+ https://www.doc.ic.ac.uk/~lk1015/research/lca2018/talk_lca2018.pdf
+	+ linux.conf.au 2018 - Levente Kurusa
+	+ https://www.slideshare.net/LeventeKurusa/lets-write-a-debugger
 	+ https://opensource.com/article/18/1/how-debuggers-really-work
 	+ https://www.youtube.com/watch?v=qS51kIHWARM
 	+ https://github.com/levex/debugger-talk
@@ -1155,11 +1158,12 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ slides: https://speakerdeck.com/dho/building-a-debugging-mindset
 	+ transcript: https://9vx.org/post/building-a-debugging-mindset/
 * How do Debuggers (Really) Work - Pawel Moll
-	+ Linux Piter 2016 - https://www.youtube.com/watch?v=xqrxg3hl10o
+	+ Linux Piter 2016
+		- https://www.youtube.com/watch?v=xqrxg3hl10o
+		- https://ostconf.com/system/attachments/files/000/001/198/original/Pawel_Moll.pdf
 	+ ELC 2015
-		- https://www.youtube.com/watch?v=N1QSEY1El9o
 		- https://vimeo.com/220644951
-		- http://events.linuxfoundation.org/sites/events/files/slides/slides_16.pdf
+		- https://events.static.linuxfound.org/sites/events/files/slides/slides_16.pdf
 * Post-mortem Debugging: could you be the one? - Surge 2016 - Abel Mathew
 	+ https://www.youtube.com/watch?v=WHhorNLa934
 * Timeless Debugging - USENIX Enigma 2016 - George Hotz
