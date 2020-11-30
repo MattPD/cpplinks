@@ -69,7 +69,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - RevARM: A Platform-Agnostic ARM Binary Rewriter for Security Applications
 	- Annual Computer Security Applications Conference (ACSAC) 2017
 	- T. Kim, C. Kim, H. Choi, Y. Kwon, B. Saltaformaggio, X. Zhang, D. Xu
-	- <https://www.cs.purdue.edu/homes/kwon58/data/revarm_acsac17.pdf>
+	- <https://saltaformaggio.ece.gatech.edu/publications/ACSAC_17.pdf>
 	- <https://www.acsac.org/2017/openconf/modules/request.php?module=oc_program&action=summary.php&id=201>
 	- <https://www.researchgate.net/publication/321506390_RevARM_A_Platform-Agnostic_ARM_Binary_Rewriter_for_Security_Applications>
 - Translating AArch64 Floating-Point Instruction Set to the x86-64 Platform
@@ -94,7 +94,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Shaked Flur, Susmit Sarkar, Christopher Pulte, Kyndylan Nienhuis, Luc Maranget, Kathryn E. Gray, Ali Sezgin, Mark Batty, Peter Sewell
 	- http://www.cl.cam.ac.uk/~pes20/popl17/
 	- http://www.cl.cam.ac.uk/~pes20/AArch64
-- Modelling the ARM v8 Architecture, Operationally: Concurrency and ISA 
+- Modelling the ARM v8 Architecture, Operationally: Concurrency and ISA
 	- POPL 2016
 	- Shaked Flur, Kathryn E. Gray, Christopher Pulte, Susmit Sarkar, Ali Sezgin, Luc Maranget, Will Deacon, Peter Sewell
 	- http://www.cl.cam.ac.uk/~pes20/popl16-armv8/top.pdf
@@ -161,17 +161,14 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - ASL Interpreter
 	- Example implementation of Arm's Architecture Specification Language (ASL).
 	- https://github.com/ARM-software/asl-interpreter
-	- https://github.com/rems-project/asl-interpreter
 - End-to-End Verification of ARM Processors with ISA-Formal
 	- CAV 2016
 	- Alastair Reid, Rick Chen, Anastasios Deligiannis, David Gilday, David Hoyes, Will Keen, Ashan Pathirane, Owen Shepherd, Peter Vrabel, Ali Zaidi
 	- <https://alastairreid.github.io/papers/CAV_16/>
-	- <https://alastairreid.github.io/papers/cav2016_isa_formal.pdf>
-	- https://alastairreid.github.io/alastairreid.github.io/papers/ISA-Formal-CAV2016.pdf
 - Formal Semantics Extraction from Natural Language Specifications for ARM
 	- FM 2019: 23rd International Symposium on Formal Methods
 	- Anh V. Vu and Mizuhito Ogawa
-	- https://anhvvcs.github.io/pubs/corana.pdf
+	- https://www.cl.cam.ac.uk/~vv301/papers/fm19.pdf
 	- Corana: Dynamic Symbolic Execution Engine for ARM Cortex-M
 		- https://github.com/anhvvcs/corana
 	- Formal Semantics Extraction from Natural Language Specifications for ARM
@@ -186,7 +183,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Alasdair Armstrong, Thomas Bauereiss, Brian Campbell, Alastair Reid, Kathryn E. Gray, Robert M. Norton, Prashanth Mundkur, Mark Wassell, Jon French, Christopher Pulte, Shaked Flur, Ian Stark, Neel Krishnaswami, Peter Sewell
 	- <https://alastairreid.github.io/papers/POPL_19/>
 - L3: A Specification Language for Instruction Set Architectures
-	- http://www.cl.cam.ac.uk/~acjf3/arm/
+	- https://github.com/8l/L3
+	- https://web.archive.org/https://www.cl.cam.ac.uk/~acjf3/l3/
 - Low-level program verification under cached address translation
 	- 2019 PhD Dissertation; Hira Taqdees Syeda
 	- "In this thesis, we present a formal model of the memory management unit (MMU) in the interactive proof assistant Isabelle/HOL for the ARMv7-A architecture which includes the TLB, its maintenance operations, and its derived properties. We integrate this specification into the Cambridge ARM model. We derive sufficient conditions for TLB consistency, and we abstract away the functional details of the MMU using data refinement for simpler reasoning about executions in the presence of cached address translation, including complete and partial walks."
@@ -228,14 +226,14 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	+ https://alisdair.mcdiarmid.org/arm-immediate-value-encoding/
 * ARMv8 A64 Quick Reference
 	+ Instruction Set Quick Reference Sheets: https://github.com/flynd/asmsheets
-		- LaTeX: https://github.com/flynd/asmsheets/blob/master/arm64.tex
+		- https://github.com/flynd/asmsheets/blob/master/aarch32.tex
+		- https://github.com/flynd/asmsheets/blob/master/aarch64.tex
 		- PDF: https://courses.cs.washington.edu/courses/cse469/18wi/Materials/arm64.pdf
 * Exploring the Arm dot product instructions - https://community.arm.com/tools/b/blog/posts/exploring-the-arm-dot-product-instructions
 * Introduction to Computer Organization: ARM Assembly Language Using the Raspberry Pi
 	+ http://bob.cs.sonoma.edu/IntroCompOrg-RPi/intro-co-rpi.html
 * Learn the Architecture
 	+ https://developer.arm.com/architectures/learn-the-architecture
-* Optional CRC Instructions in ARMv8 - https://wiki.linaro.org/LEG/Engineering/OPTIM/CRC
 * REPICA: Rewriting Position Independent Code of ARM
 	- IEEE Access 6 (2018)
 	- Dongsoo Ha, Wenhui Jin, Heekuck Oh
@@ -256,7 +254,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	+ Pratik Kumar, Nagendra Chowdary, Anish Mathuria
 	+ <https://link.springer.com/chapter/10.1007/978-3-642-41224-0_3>
 * ARM Assembly and Shellcode Basics
-	- 44CON 2017; Saumil Shah 
+	- 44CON 2017; Saumil Shah
 	- https://www.youtube.com/watch?v=BhjJBuX0YCU
 * ARM Shellcode - Azeria Labs
 	+ Code: https://github.com/azeria-labs/ARM-assembly-examples
@@ -332,8 +330,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 * CoreSight, Perf and the OpenCSD Library
 	- https://www.linaro.org/blog/coresight-perf-and-the-opencsd-library/
 * Linaro Wiki - perf
-	+ https://wiki.linaro.org/KenWerner/Sandbox/perf ([archive.org](https://web.archive.org/https://wiki.linaro.org/KenWerner/Sandbox/perf))
-	+ https://wiki.linaro.org/Platform/DevPlatform/Tools/Perf ([archive.org](https://web.archive.org/https://wiki.linaro.org/Platform/DevPlatform/Tools/Perf))
+	+ https://web.archive.org/https://wiki.linaro.org/KenWerner/Sandbox/perf
+	+ https://web.archive.org/https://wiki.linaro.org/Platform/DevPlatform/Tools/Perf
 	+ ARM32/64: perf: dwarf stack frame unwinding support - https://wiki.linaro.org/LEG/Engineering/TOOLS/perf-callstack-unwinding
 * On-Target Trace Using the CoreSight Access Library
 	- https://developer.arm.com/products/software-development-tools/ds-5-development-studio/resources/tutorials/on-target-trace-using-the-coresight-access-library
@@ -350,18 +348,18 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	+ https://doi.org/10.1109/ARITH.2019.00025
 * LLVM and the Automatic Vectorization of Loops Invoking Math Routines: `-fsimdmath`
 	+ 2018 IEEE/ACM 5th Workshop on the LLVM Compiler Infrastructure in HPC (LLVM-HPC)
-	+ Francesco Petrogalli, Paul Walker 
+	+ Francesco Petrogalli, Paul Walker
 	+ <https://sc18.supercomputing.org/proceedings/workshops/workshop_files/ws_llvmf106s2-file1.pdf>
- 
+
 ## Security
 
 * ARM Lab Environment - https://www.vulnhub.com/series/arm-lab,145/
 * ARM Return Oriented Programming (ROP) - Billy Ellis
 	+ Cheatsheet - https://twitter.com/bellis1000/status/929713826106396673
-	+ https://billy-ellis.github.io/armintro.html
-	+ https://billy-ellis.github.io/rop1.html
-	+ https://billy-ellis.github.io/rop2.html
-	+ https://billy-ellis.github.io/rop3.html
+	+ https://web.archive.org/https://billy-ellis.github.io/armintro.html
+	+ https://web.archive.org/https://billy-ellis.github.io/rop1.html
+	+ https://web.archive.org/https://billy-ellis.github.io/rop2.html
+	+ https://web.archive.org/https://billy-ellis.github.io/rop3.html
 * Cache Speculation Side-channels
 	+ Richard Grisenthwaite
 	+ https://developer.arm.com/support/security-update
@@ -376,7 +374,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	+ Cryptology ePrint Archive: Report 2017/1253
 	+ Yann Le Corre, Johann Großschädl, Daniel Dinu
 	+ https://eprint.iacr.org/2017/1253
-* NORAX: Enabling Execute-Only Memory for COTS Binaries on AArch64 
+* NORAX: Enabling Execute-Only Memory for COTS Binaries on AArch64
 	+ Security and Privacy (S&P) 2017
 	+ Yaohui Chen, Dongli Zhang, Ruowen Wang, Rui Qiao, Ahmed Azab, Long Lu, Hayawardh Vijayakumar, Wenbo Shen
 	+ http://seclab.cs.sunysb.edu/seclab/pubs/norax.pdf
@@ -391,7 +389,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Donghyun Kwon, Hayoon Yi, Yeongpil Cho, Yunheung Paek
 	- https://doi.org/10.1145/3309698
 * Smashing the ARM Stack: ARM Exploitation Part 1
-	+ https://www.merckedsecurity.com/blog/smashing-the-arm-stack-part-1
+	+ https://web.archive.org/https://www.merckedsecurity.com/blog/smashing-the-arm-stack-part-1
 * TCP Bind Shell in Assembly (ARM 32-bit)
 	+ https://azeria-labs.com/tcp-bind-shell-in-assembly-arm-32-bit/
 * Understanding the Security of ARM Debugging Features
@@ -437,7 +435,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- 2019 LLVM Developers’ Meeting; Ahmed Bougacha, John McCall
 	- https://www.youtube.com/watch?v=C1nZvpEBfYA
 	- http://llvm.org/devmtg/2019-10/talk-abstracts.html#tech15
-	- https://github.com/apple/llvm-project/blob/apple/master/clang/docs/PointerAuthentication.rst
+	- https://github.com/apple/llvm-project/blob/apple/main/clang/docs/PointerAuthentication.rst
 - Examining Pointer Authentication on the iPhone XS
 	- 2019; Brandon Azad
 	- https://googleprojectzero.blogspot.com/2019/02/examining-pointer-authentication-on.html
@@ -548,7 +546,6 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Annual Computer Security Applications Conference (ACSAC) 2018
 	- Sergej Proskurin, Tamas Lengyel, Marius Momeu, Claudia Eckert, Apostolis Zarras
 	- https://dl.acm.org/citation.cfm?id=3274698
-	- https://dke.maastrichtuniversity.nl/zarras/files/ARM-altp2m.pdf
 	- https://www.sec.in.tum.de/i20/publications/hiding-in-the-shadows-empowering-arm-for-stealthy-virtual-machine-introspection
 	- DRAKVUF on ARM
 		- https://github.com/drakvuf-on-arm
@@ -589,9 +586,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	+ <http://infocenter.arm.com/help/topic/com.arm.doc.qrc0001m/QRC0001_UAL.pdf>
 * ARM Assembly Basics Cheatsheet - https://azeria-labs.com/assembly-basics-cheatsheet/
 * ARM architecture documentation set - http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.set.architecture/
-* ARM Info Center Reference Material - https://wiki.linaro.org/Resources/HowTo/DeveloperReferences
-* Arm A64 Instruction Set Architecture: Armv8-A
-	+ https://developer.arm.com/products/architecture/a-profile/docs/ddi0596/latest/a64-base-instructions-alphabetic-order
+* Arm A64 Instruction Set Architecture: Armv8-A - Base Instructions (alphabetic order)
+	+ https://developer.arm.com/docs/ddi0596/h/base-instructions-alphabetic-order
 * ARM v8-A Architecture Specification: A64 ISA XML for ARMv8.5
 	+ http://shell-storm.org/armv8-a/
 * Apple Silicon - Apple Developer Documentation
@@ -601,10 +597,9 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 * Linux Kernel Documentation
 	+ ARM: https://www.kernel.org/doc/Documentation/arm/
 	+ ARM64: https://www.kernel.org/doc/Documentation/arm64/
-* System call dispatching on Windows ARM64 - https://gracefulbits.com/2018/07/26/system-call-dispatching-for-windows-on-arm64/
+* System call dispatching on Windows ARM64 - https://gracefulbits.wordpress.com/2018/07/26/system-call-dispatching-for-windows-on-arm64/
 * The ARM Instruction Set - ARM University Program (Slides)
 	+ <https://www.cs.purdue.edu/homes/cs250/LectureNotes/arm_inst.pdf>
-	+ <https://www.eecs.umich.edu/courses/eecs370/eecs370.f17/resources/materials/arm_inst.pdf>
 * The ARM Instruction Set Architecture - Mark McDermott (Slides)
 	+ <http://users.ece.utexas.edu/~valvano/EE345M/Arm_EE382N_4.pdf>
 * The ARM Machinists Atlas
@@ -648,7 +643,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- https://developer.arm.com/tools-and-software/server-and-hpc/compile/arm-instruction-emulator/resources/tutorials/sve
 - Arm SVE Tools Training
 	- https://gitlab.com/arm-hpc/training/arm-sve-tools
-- Asvie: A Timing-Agnostic SVE Optimization Methodology 
+- Asvie: A Timing-Agnostic SVE Optimization Methodology
 	- Methodology for ArmIE SVE
 		- <https://github.com/ARM-software/Methodology_for_ArmIE_SVE>
 	- Asvie: A Timing-Agnostic SVE Optimization Methodology
@@ -690,6 +685,11 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Emulated SVE Analysis Tools
 		- Scripts used to characterise performance of applications using the Arm Instruction Emulator (ArmIE)
 		- https://github.com/UoB-HPC/sve-analysis-tools/tree/euro-par-2020
+- FFTE on SVE: SPIRAL-Generated Kernels
+	- International Conference on High Performance Computing in Asia-Pacific Region (HPC Asia) 2020
+	- Daisuke Takahashi and Franz Franchetti
+	- https://dl.acm.org/doi/abs/10.1145/3368474.3368488
+	- https://www.spiral.net/doc/papers/ffte-spiral.pdf
 - Using Arm’s scalable vector extension on stencil codes
 	- The Journal of Supercomputing (2019)
 	- Armejach, Adrià, Helena Caminal, Juan M. Cebrian, Rubén Langarita, Rekai González-Alberquilla, Chris Adeniyi-Jones, Mateo Valero, Marc Casas, Miquel Moretó
@@ -715,9 +715,6 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	+ armlink Linker User Guide - http://www.keil.com/support/man/docs/armlink/
 	+ armclang Compiler Getting Started Guide - <http://www.keil.com/support/man/docs/armclang_intro/>
 	+ armclang Compiler Reference Guide - <http://www.keil.com/support/man/docs/armclang_ref/>
-	+ armclang Compiler Software Development Guide - <http://www.keil.com/support/man/docs/armclang_dev/>
-	+ armclang_asm Assembler User Guide - <http://www.keil.com/support/man/docs/armclang_asm/>
-	+ armclang_link Linker User Guide - <http://www.keil.com/support/man/docs/armclang_link/>
 * Demystifying ARM Floating Point Compiler Options - https://embeddedartistry.com/blog/2017/10/9/r1q7pksku2q3gww9rpqef0dnskphtc
 * GNU Compiler Collection (GCC)
 	+ AArch64 Options - https://gcc.gnu.org/onlinedocs/gcc/AArch64-Options.html
@@ -751,12 +748,12 @@ See also: [Readings: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - MAMBO: A Low-Overhead Dynamic Binary Modification Tool for ARM
 	- https://github.com/beehive-lab/mambo
 	- Low Overhead Dynamic Binary Translation on ARM
-		- PLDI 2017 
+		- PLDI 2017
 		- Amanieu d'Antras, Cosmin Gorgovan, Jim Garside, Mikel Lujan
 		- https://www.youtube.com/watch?v=FCf-DJ2m0FM
 		- https://pldi17.sigplan.org/event/pldi-2017-papers-low-overhead-dynamic-binary-translation-on-arm
 		- <https://www.research.manchester.ac.uk/portal/files/56078084/pldi_16.pdf>
-	- Optimising Dynamic Binary Modification across ARM microarchitectures 
+	- Optimising Dynamic Binary Modification across ARM microarchitectures
 		- 2017 Ph.D. Thesis; Cosmin Gorgovan
 		- <http://apt.cs.manchester.ac.uk/publications/thesis/gorgovan17_phd.php>
 		- https://www.escholar.manchester.ac.uk/api/datastream?publicationPid=uk-ac-man-scw:307942&datastreamId=FULL-TEXT.PDF
@@ -764,11 +761,11 @@ See also: [Readings: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 		- International Conference on Performance Engineering (ICPE) 2018
 		- Cosmin Gorgovan, Amanieu d'Antras, Mikel Luján
 		- https://dl.acm.org/citation.cfm?id=3184425
-		- <http://www2.cs.man.ac.uk/%7Egorgovc9/mambo_tutorial_hipeac_2018.pdf>
 	- Dynamic Binary Instrumentation and Modification with MAMBO
 		- HiPEAC 2018
-		- <https://www.dropbox.com/s/3pfg9eovj1y9cw9/mambo_tutorial_hipeac_2018.pdf?dl=0>
 		- <https://www.research.manchester.ac.uk/portal/files/65557332/cosmin_mambo_icpe2018.pdf>
+		- <https://github.com/beehive-lab/mambo/releases/download/1/mambo_tutorial_hipeac_2018.pdf>
+		- <https://www.dropbox.com/s/3pfg9eovj1y9cw9/mambo_tutorial_hipeac_2018.pdf?dl=0>
 - mbed-os-linker-report: d3.js based ELF Linker Statistics
 	- Post-processing of linker output to calculate and visualize memory usage for elf-sections
 	- https://github.com/ARMmbed/mbed-os-linker-report
@@ -825,7 +822,12 @@ See also: [Readings: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	+ David McCann, Elisabeth Oswald, and Carolyn Whitnall
 	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/mccann
 * Emulate Raspberry Pi with QEMU - http://graznik.de/posts/emulate-raspberry-pi-with-qemu/
-* gem5 - ARM Implementation - http://gem5.org/ARM_Implementation
+* gem5
+	- ARM Implementation
+		- http://www.gem5.org/documentation/general_docs/architecture_support/arm_implementation/
+		- http://old.gem5.org/ARM_Implementation.html
+	- Building ARM Kernel - http://www.gem5.org/documentation/general_docs/fullsystem/building_arm_kernel
+	- Extending gem5 for ARM - http://www.gem5.org/documentation/learning_gem5/part1/extending_configs
 * OakSim: Online ARM assembler and emulator
 	+ https://wunkolo.github.io/OakSim/
 	+ https://github.com/Wunkolo/OakSim
@@ -916,7 +918,7 @@ See also: [Performance Tools](performance.tools.md)
 ## 2019
 
 * Arm/AArch64 BoF
-	+ [GNU Tools Cauldron 2019](https://gcc.gnu.org/wiki/cauldron2019#cauldron2019talks.The_Arm_AArch64_BoF); Kyrill Tkachov 
+	+ [GNU Tools Cauldron 2019](https://gcc.gnu.org/wiki/cauldron2019#cauldron2019talks.The_Arm_AArch64_BoF); Kyrill Tkachov
 	+ https://www.youtube.com/watch?v=PBaYzcydliQ
 	+ https://gcc.gnu.org/wiki/cauldron2019talks?action=AttachFile&do=view&target=Arm-BoF-Cauldron2019.pdf
 * The Definitive Guide to Make Software Fail on ARM64
@@ -934,7 +936,7 @@ See also: [Performance Tools](performance.tools.md)
 	+ Linaro Connect Vancouver 2018 (YVR18)
 	+ https://connect.linaro.org/resources/yvr18/sessions/yvr18-104/
 * ARMaHYDAN - Misadventures of ARM instruction encodings
-	+ CactusCon 2018 
+	+ CactusCon 2018
 	+ https://www.youtube.com/watch?v=qEfWt2naCx4
 	+ https://github.com/XlogicX/ARMaHYDAN
 * Introduction To Return Oriented Exploitation On ARM64
@@ -977,7 +979,7 @@ See also: [Performance Tools](performance.tools.md)
 	+ Slides: https://fahrplan.events.ccc.de/congress/2017/Fahrplan/system/event_attachments/attachments/000/003/393/original/How_can_you_trust_formally_verified_software_-_34C3_27_December_2017.pdf
 * Introducing LLDB for linux on Arm and AArch64 – BUD17-310 - http://connect.linaro.org/resource/bud17/bud17-310/
 * MAMBO: A Low-Overhead Dynamic Binary Modification Tool for ARM
-	+ PLDI 2017 
+	+ PLDI 2017
 	+ Amanieu d'Antras, Cosmin Gorgovan, Jim Garside, Mikel Lujan
 	+ https://www.youtube.com/watch?v=FCf-DJ2m0FM
 	+ https://pldi17.sigplan.org/event/pldi-2017-papers-low-overhead-dynamic-binary-translation-on-arm
@@ -993,7 +995,7 @@ See also: [Performance Tools](performance.tools.md)
 	+ David McCann, Elisabeth Oswald, and Carolyn Whitnall
 	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/mccann
 * TrustZone is not enough: Hijacking debug components for embedded security
-	+ 34th Chaos Communication Congress (34C3) 2017 - Pascal Cotret 
+	+ 34th Chaos Communication Congress (34C3) 2017 - Pascal Cotret
 	+ https://media.ccc.de/v/34c3-8831-trustzone_is_not_enough
 
 ## 2016
@@ -1015,9 +1017,8 @@ See also: [Performance Tools](performance.tools.md)
 * Hardware Assisted Tracing on ARM with CoreSight and OpenCSD
 	+ Embedded Linux Conference 2016
 		- https://www.youtube.com/watch?v=Gm2ZXIB18PQ
-		- http://events.linuxfoundation.org/sites/events/files/slides/ELC-E16.pdf
-		- http://elinux.org/images/b/b3/Hardware_Assisted_Tracing_on_ARM.pdf
-	+ Linaro Connect Las Vegas 2016 (LAS16) 
+		- https://elinux.org/images/b/b3/Hardware_Assisted_Tracing_on_ARM.pdf
+	+ Linaro Connect Las Vegas 2016 (LAS16)
 		- http://connect.linaro.org/resource/las16/las16-210/
 		- http://www.slideshare.net/linaroorg/las16210-hardware-assisted-tracing-on-arm-with-coresight-and-opencsd
 * Modelling the ARMv8 Architecture, Operationally: Concurrency and ISA
@@ -1035,13 +1036,13 @@ See also: [Performance Tools](performance.tools.md)
 
 * Cycle Accurate Profiling With Perf
 	+ Embedded Linux Conference Europe 2014
-	+ Pawel Moll, ARM 
+	+ Pawel Moll, ARM
 	+ https://www.elinux.org/File:Moll--cycle_accurate_profiling_with_perf.pdf
 	+ http://elinux.org/images/d/d0/Moll--cycle_accurate_profiling_with_perf.pdf
 * Square Pegs in Round holes, or System Level Performance Data and perf
 	+ Embedded Linux Conference Europe 2014
 	+ Pawel Moll, ARM
-	+ http://events.linuxfoundation.org/sites/events/files/slides/2014-10_square_pegs.pdf
+	+ https://events.static.linuxfound.org/sites/events/files/slides/2014-10_square_pegs.pdf
 
 ## 2012
 
@@ -1064,13 +1065,14 @@ See also: [Performance Tools](performance.tools.md)
 	+ Part 2 of 4: https://www.youtube.com/watch?v=Vm02ZMSfdOc
 	+ Part 3 of 4: https://www.youtube.com/watch?v=9ppbRPgzO_s
 	+ Part 4 of 4: https://www.youtube.com/watch?v=YPGMwuDaN2k
-	+ Slides: http://www.arm.com/files/downloads/ARMv8_Architecture.pdf
+	+ Slides:
+		- http://aarch64.me/public/documents/cpu/arm/ARMv8_Techonology_Preview_Richard.pdf
+		- http://web.archive.org/web/20180918053004/https://www.arm.com/files/downloads/ARMv8_Architecture.pdf
 
 ## 2010
 
 * Exploitation on ARM - Technique and Bypassing Defense Mechanisms
 	+ DEF CON 18 (2010); Itzhak "zuk" Avraham
-	+ https://www.exploit-db.com/docs/14548.pdf
 	+ Video (2010): https://www.youtube.com/watch?v=r4XFFV-tQMI
 	+ https://media.blackhat.com/bh-dc-11/Avraham/BlackHat_DC_2011_Avraham_ARM%20Exploitation-wp.2.0.pdf
 	+ http://conference.hackinthebox.org/hitbsecconf2011ams/materials/D1T3%20-%20Itzhak%20Zuk%20Avraham%20-%20Popping%20Shell%20On%20Android%20Devices.pdf
@@ -1108,7 +1110,7 @@ See also: [Performance Tools](performance.tools.md)
 - The Future of Microprocessors, Sophie Wilson
 	- 2016 - Code Mesh - https://www.youtube.com/watch?v=_9mzmvhwMqw
 	- 2014 - Wuthering Bytes - https://www.youtube.com/watch?v=b5j_Y-ML3dg
-- The Ultimate Acorn Archimedes talk: Everything about the Archimedes computer (with zero 'Eureka!' jokes) 
+- The Ultimate Acorn Archimedes talk: Everything about the Archimedes computer (with zero 'Eureka!' jokes)
 	- 36th Chaos Communication Congress (2019); Matt Evans
 	- https://media.ccc.de/v/36c3-10703-the_ultimate_acorn_archimedes_talk
 	- https://www.youtube.com/watch?v=Hf67JYkUCHQ
@@ -1162,14 +1164,14 @@ See also: [Performance Tools](performance.tools.md)
 	+ Efficient C for ARM - http://www.davespace.co.uk/arm/efficient-c-for-arm/
 * ARM Challenges - "Root Me" Learning Platform - https://www.root-me.org/?page=recherche&lang=en&recherche=ARM
 * ARM exploitation for IoT
-	+ Episode 1: Reversing ARM applications - https://quequero.org/2017/07/arm-exploitation-iot-episode-1/
-	+ Episode 2: ARM shellcoding - https://quequero.org/2017/09/arm-exploitation-iot-episode-2/
-	+ Episode 3: ARM exploitations - https://quequero.org/2017/11/arm-exploitation-iot-episode-3/
+	+ Episode 1: Reversing ARM applications - https://web.archive.org/https://quequero.org/2017/07/arm-exploitation-iot-episode-1/
+	+ Episode 2: ARM shellcoding - https://web.archive.org/https://quequero.org/2017/09/arm-exploitation-iot-episode-2/
+	+ Episode 3: ARM exploitations - https://web.archive.org/https://quequero.org/2017/11/arm-exploitation-iot-episode-3/
 * ARM lectures by Dr. Santanu Chaudhury, EE Department, IIT Delhi - https://www.youtube.com/playlist?list=PL95AFA4ABA8B28627
-* EECS 370 - http://www.eecs.umich.edu/courses/eecs370/eecs370.f17/resources/
-	+ ARM Examples - https://www.eecs.umich.edu/courses/eecs370/eecs370.w17/resources/materials/370ARMExamples.pdf
-	+ ARM Instruction Set Quick Reference Card - https://www.eecs.umich.edu/courses/eecs370/eecs370.f17/resources/materials/ARM_Instruction_Set.pdf
-	+ ARM v8 Quick Reference Guide - http://www.eecs.umich.edu/courses/eecs370/eecs370.f17/resources/materials/ARM-v8-Quick-Reference-Guide.pdf
+* EECS 370 - http://www.eecs.umich.edu/courses/eecs370/ - http://www.eecs.umich.edu/courses/eecs370/eecs370/resources/
+	+ ARM Examples - https://www.eecs.umich.edu/courses/eecs370/eecs370.f20/resources/materials/370ARMExamples.pdf
+	+ ARM Instruction Set Quick Reference Card - https://www.eecs.umich.edu/courses/eecs370/eecs370.f20/resources/materials/ARM_Instruction_Set.pdf
+	+ ARM v8 Quick Reference Guide - http://www.eecs.umich.edu/courses/eecs370/eecs370.f20/resources/materials/ARM-v8-Quick-Reference-Guide.pdf
 * ELEC 5260/ELEC 6260-6266: Embedded Computing Systems
 	+ http://www.eng.auburn.edu/~nelson/courses/elec5260_6260/
 	+ ARM Assembly Language (Knaggs & Welsh - Bournemouth Univ.)
@@ -1222,7 +1224,7 @@ See also: [Performance Tools](performance.tools.md)
 	- Chapter 7: functions - http://thinkingeek.com/2017/03/19/exploring-aarch64-assembler-chapter-7/
 	- Chapter 8: the stack - http://thinkingeek.com/2017/05/29/exploring-aarch64-assembler-chapter-8/
 	- Chapter 9: control constructs - http://thinkingeek.com/2017/11/05/exploring-aarch64-assembler-chapter-9/
-- Introduction to ARMv8 64-bit Architecture - https://quequero.org/2014/04/introduction-to-arm-architecture/
+- Introduction to ARMv8 64-bit Architecture - https://web.archive.org/https://quequero.org/2014/04/introduction-to-arm-architecture/
 
 ## Thumb-2
 
