@@ -4,7 +4,7 @@
 
 * [Readings](#readings): [Blogs](#blogs-posts-and-series), [Documentation](#documentation), [Papers](#papers), [References](#references), [StackOverflow](#stackoverflow-questions)
 * [Software](#software): [Benchmarks](#benchmarks), [Libraries](#libraries), [Tools](#tools)
-* [Talks](#talks): [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
+* [Talks](#talks): [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
 
 ---
 
@@ -67,10 +67,9 @@
 	- How can I turn a structured exception into a C++ exception without having to use /EHa, if I can constrain exactly where the structured exception is coming from?
 		- https://devblogs.microsoft.com/oldnewthing/20200117-00/?p=103338
 * Stefan Gränitz - Series: Rich Recoverable Error Handling with llvm::Expected<T>
-	+ A series of posts demonstrating the motivation and use of `llvm::Expected`.
-	+ Part 1 - Motivation: https://weliveindetail.github.io/blog/post/2017/09/06/llvm-expected-basics.html
-	+ Part 2 - Differentiation: https://weliveindetail.github.io/blog/post/2017/10/22/llvm-expected-differentiation.html
-	+ Part 3 - All Helpers: https://weliveindetail.github.io/blog/post/2017/10/28/llvm-expected-helpers.html
+	+ Demonstrating the motivation and use of `llvm::Expected`.
+	+ https://weliveindetail.github.io/blog/post/2017/10/22/llvm-expected.html
+	+ https://github.com/weliveindetail/llvm-expected
 	+ Talk - C++ User Group Berlin 2017, September 19th: Rich Polymorphic Error Handling with llvm::Expected<T>
 		- Slides (PDF): https://github.com/weliveindetail/talks/raw/master/Expectify.pdf
 * Mike Hearn - What's wrong with exceptions? Nothing.
@@ -82,7 +81,7 @@
 * Boris Kolpackov
 	+ Throwing Destructors - https://www.kolpackov.net/projects/c++/eh/dtor-1.xhtml
 * Hyungjoon Koo (Kevin)
-	+ ELF Sections for Exception Handling - http://dandylife.net/blog/archives/686
+	+ ELF Sections for Exception Handling - https://dandylife.net/blog/archives/686
 * Andrzej Krzemieński
 	+ https://akrzemi1.wordpress.com/2011/09/21/destructors-that-throw/
 	+ https://akrzemi1.wordpress.com/2012/11/14/not-using-stdthread/
@@ -243,7 +242,6 @@
 	- https://dl.acm.org/citation.cfm?id=2974473
 	- http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.671.6441&rep=rep1&type=pdf
 	- https://journal.ub.tu-berlin.de/eceasst/article/view/983
-	- http://fmt.cs.utwente.nl/conferences/avocs2014/slides/slides.pdf
 - On the Impact of Exception Handling Compatibility on Binary Instrumentation
 	- 2020 Workshop on Forming an Ecosystem Around Software Transformation (FEAST)
 	- Soumyakant Priyadarshan, Huan Nguyen, R. Sekar
@@ -266,14 +264,15 @@
 - The Use of C++ Exception Handling Constructs: A Comprehensive Study
 	- Source Code Analysis and Manipulation (SCAM) 2015
 	- Rodrigo Bonifacio, Fausto Carvalho, Guilherme N. Ramos, Uira Kulesza, Roberta Coelho
-	- http://rbonifacio.net/papers/scam2015/rbonifacio-scam2015.pdf
+	- https://doi.org/10.1109/SCAM.2015.7335398
+	- https://web.archive.org/http://rbonifacio.net/papers/scam2015/rbonifacio-scam2015.pdf
 - Using Off-the-Shelf Exception Support Components in C++ Verification
 	- Software Quality, Reliability and Security (QRS) 2017
 	- Vladimír Štill, Petr Ročkai, Jiří Barnat
-	- https://arxiv.org/pdf/1703.02394
+	- https://arxiv.org/abs/1703.02394
 	- https://divine.fi.muni.cz/2017/exceptions/
 - Zipr++: Exceptional Binary Rewriting
-	- Forming an Ecosystem Around Software Transformation (FEAST) 2017
+	- [Forming an Ecosystem Around Software Transformation (FEAST) 2017](https://www.sigsac.org/ccs/CCS2017/toc/FEASTToC.html)
 	- Jason Hiser, Anh Nguyen-Tuong, William Hawkins, Matthew McGill, Michele Co, Jack Davidson
 	- https://dl.acm.org/citation.cfm?doid=3141235.3141240
 	- https://tc.gtisc.gatech.edu/feast17/papers/p9-hiserA.pdf
@@ -442,13 +441,6 @@
 
 ## 2020
 
-- Exceptions Under the Spotlight
-	- Inbal Levi
-	- Munich C++ User Group (MUC++) 2020
-		- https://www.youtube.com/watch?v=7mQBfl2K-5Y
-	- CppCon 2020
-		- https://www.youtube.com/watch?v=N_-bUNMLGvE
-		- https://github.com/CppCon/CppCon2020/tree/main/Presentations/exceptions_under_the_spotlight
 - Back to Basics: Exceptions
 	- Klaus Iglberger
 	- Munich C++ User Group (MUC++) 2020
@@ -456,6 +448,17 @@
 	- CppCon 2020
 		- https://www.youtube.com/watch?v=0ojB8c0xUd8
 		- https://github.com/CppCon/CppCon2020/tree/main/Presentations/back_to_basics_exceptions
+- Design Patterns for Handling/Reporting Errors in C++ - Parallel Algorithms & Executors
+	- CppCon 2020; Mark Hoemmen
+	- https://www.youtube.com/watch?v=DpLZ4pnrx0o
+	- https://github.com/CppCon/CppCon2020/blob/main/Presentations/design_patterns_for_error_handling/
+- Exceptions Under the Spotlight
+	- Inbal Levi
+	- Munich C++ User Group (MUC++) 2020
+		- https://www.youtube.com/watch?v=7mQBfl2K-5Y
+	- CppCon 2020
+		- https://www.youtube.com/watch?v=N_-bUNMLGvE
+		- https://github.com/CppCon/CppCon2020/tree/main/Presentations/exceptions_under_the_spotlight
 
 ## 2019
 
@@ -522,7 +525,7 @@
 	+ CppCon 2018; James McNellis
 	+ https://www.youtube.com/watch?v=COEv2kq_Ht8
 	+ ‏https://1drv.ms/b/s!AoyrqeD9L48NknYwKYcWS0diFlRb
-	+ https://github.com/CppCon/CppCon2018/tree/master/Presentations/Unwinding%20the%20Stack%20-%20Exploring%20How%20C%2B%2B%20Exceptions%20Work%20on%20Windows
+	+ <https://github.com/CppCon/CppCon2018/tree/master/Presentations/unwinding_the_stack_exploring_how_cpp_exceptions_work_on_windows>
 * What Could Possibly Go Wrong?: A Tale of Expectations and Exceptions
 	+ CppCon 2018; Brand & Nash
 	+ https://www.youtube.com/watch?v=GC4cp4U2f2E
