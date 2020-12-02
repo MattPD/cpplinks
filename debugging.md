@@ -294,6 +294,10 @@ _Books, Books Reviews_
 	- https://research.google/pubs/pub48841/
 	- "We propose an approach to encode, translate, and preserve the semantics of both functional and non-functional properties along the optimizing compilation of C to machine code. The approach involves (1) capturing and translating source-level properties through lowering passes and intermediate representations, such that data and control flow optimizations will preserve their consistency with the transformed program, and (2) carrying properties and their translation as debug information down to machine code."
 	- "A fortunate side-effect of inserting artificial definitions is to prevent most optimization passes from harming the observed variables’ debug information."
+- Who is Debugging the Debuggers? Exposing Debug Information Bugs in Optimized Binaries
+	- ASPLOS 2021
+	- Giuseppe Antonio Di Luna, Davide Italiano, Luca Massarelli, Sebastian Osterlund, Cristiano Giuffrida, Leonardo Querzoni
+	- https://arxiv.org/abs/2011.13994
 
 #### Testing
 
