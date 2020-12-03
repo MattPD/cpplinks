@@ -42,7 +42,7 @@ See also:
 	- http://www.cs.columbia.edu/~cota/pubs/cota_vee19.pdf
 	- https://www.sld.cs.columbia.edu/qemu-vee.html
 - Dynamic Binary Instrumentation Primer
-	- http://deniable.org/reversing/binary-instrumentation
+	- http://deniable.org/posts/binary-instrumentation/
 	- https://github.com/fdiskyou/DBI
 - Optimization of Naïve Dynamic Binary Instrumentation Tools
 	- 2011 Ph.D. Dissertation; Reid Kleckner
@@ -51,9 +51,9 @@ See also:
 	- DBI Engine Detection Tool and all PoC code
 		- https://github.com/zhechkoz/PwIN
 	- 2018 Master Thesis; Zhechko Zhechev
-		- https://kirschju.re/static/ma_zhechev_2018.pdf
+		- https://web.archive.org/https://kirschju.re/static/ma_zhechev_2018.pdf
 	- REcon Montreal 2018
-		- https://kirschju.re/static/recon_2018_kirsch_zhechev_pwin.pdf
+		- https://web.archive.org/https://kirschju.re/static/recon_2018_kirsch_zhechev_pwin.pdf
 		- https://infocondb.org/con/recon/recon-2018/pwning-intel-pin-reconsidering-intel-pin-in-context-of-security
 		- https://recon.cx/2018/montreal/schedule/events/145.html
 	- Pwning Intel piN – Why DBI is unsuitable for security applications
@@ -89,7 +89,7 @@ See also:
 		- http://s3.eurecom.fr/docs/bar18_muench.pdf
 	- Dynamic Binary Firmware Analysis: Challenges & Solutions
 		- 2019 PhD Dissertation; Marius Muench
-		- http://www.eurecom.fr/en/publication/5969/detail/dynamic-binary-firmware-analysis-challenges-and-solutions
+		- https://www.eurecom.fr/publication/5969
 - DynamoRIO: Dynamic Instrumentation Tool Platform
 	- https://dynamorio.org/
 	- https://github.com/DynamoRIO/dynamorio
@@ -118,7 +118,7 @@ See also:
 		- 34C3 (2017)
 		- https://events.ccc.de/congress/2017/Fahrplan/events/9006.html
 	- Example: plugging Triton on top of QBDI - http://shell-storm.org/repo/Notepad/qbdi_with_triton.txt
-	- A Preliminary Test of QBDI - https://www.johnfxgalea.com/2018/01/13/a-preliminary-test-of-qbdi/
+	- A Preliminary Test of QBDI - https://web.archive.org/web/20181019164425/https://www.johnfxgalea.com/2018/01/13/a-preliminary-test-of-qbdi/
 	- Example: SRAC - a Simple Return Address Checker - https://github.com/johnfxgalea/SRAC
 - TinyInst: A lightweight dynamic instrumentation library
 	- https://github.com/googleprojectzero/TinyInst
@@ -208,7 +208,7 @@ See also:
 	- Workshop on Computer Architecture Research with RISC-V (CARRV) 2017
 	- Michael Clark and Bruce Hoult
 	- https://anarch128.org/~mclark/rv8-carrv.pdf
-	- https://carrv.github.io/papers/clark-rv8-carrv2017.pdf
+	- https://carrv.github.io/2017/papers/clark-rv8-carrv2017.pdf
 	- https://rv8.io/
 	- https://github.com/rv8-io/rv8
 - Scalable Emulation of Heterogeneous Systems
@@ -318,8 +318,6 @@ See also:
 
 ## Software: Sanitizers
 
-### Software: Sanitizers: Readings
-
 - Sanitizers: AddressSanitizer, ThreadSanitizer, MemorySanitizer
 	- https://github.com/google/sanitizers
 	- https://github.com/google/sanitizers/wiki
@@ -346,6 +344,26 @@ See also:
 			- https://developers.redhat.com/blog/2014/12/02/address-and-thread-sanitizers-gcc/
 		- Useful GCC address sanitizer checks not enabled by default
 			- https://kristerw.blogspot.com/2018/06/useful-gcc-address-sanitizer-checks-not.html
+- DRace: Data-race detector for Windows applications built on top of DynamoRIO
+	- shipped with the following detector backends: tsan (internal ThreadSanitizer), fasttrack, dummy (no detection at all), printer (print all calls to the detector)
+	- https://github.com/siemens/drace
+	- Dynamic Instrumentation of Code for Data-Race Detection
+		- MUC++ 2020; Felix Mößbauer
+		- https://www.youtube.com/watch?v=zWVipIkcypU
+	- High Performance Dynamic Threading Analysis for Hybrid Applications
+		- 2019 Master Thesis; Felix Mößbauer
+		- https://doi.org/10.5282/ubm/epub.60621
+- Kernel Concurrency Sanitizer (KCSAN)
+	- https://github.com/google/ktsan/wiki/KCSAN
+	- Concurrency bugs should fear the big bad data-race detector
+		- part 1: https://lwn.net/Articles/816850/
+		- part 2: https://lwn.net/Articles/816854/
+- Kernel Thread Sanitizer (KTSAN)
+	- https://github.com/google/ktsan
+	- https://github.com/google/ktsan/wiki
+
+### Software: Sanitizers: Readings
+
 - Adding Clang Sanitizers to a CMake Build
 	- https://genbattle.bitbucket.io/blog/2018/01/05/Dev-Santa-Claus-Part-1/
 		- https://old.reddit.com/r/cpp/comments/7qzqlg/dev_santa_claus_pt1_adding_clang_sanitizers_to_a/
@@ -356,14 +374,6 @@ See also:
 - GWP-ASan: Sampling heap memory error detection in-the-wild
 	- 2019; Vlad Tsyrklevich
 	- https://sites.google.com/a/chromium.org/dev/Home/chromium-security/articles/gwp-asan
-- Kernel Concurrency Sanitizer (KCSAN)
-	- https://github.com/google/ktsan/wiki/KCSAN
-	- Concurrency bugs should fear the big bad data-race detector
-		- part 1: https://lwn.net/Articles/816850/
-		- part 2: https://lwn.net/Articles/816854/
-- Kernel Thread Sanitizer (KTSAN)
-	- https://github.com/google/ktsan
-	- https://github.com/google/ktsan/wiki
 
 #### Software: Sanitizers: Readings: Research
 
@@ -410,8 +420,8 @@ See also:
 - HexType: Efficient Detection of Type Confusion Errors for C++
 	- ACM Conference on Computer and Communication Security (CCS) 2017
 	- Yuseok Jeon, Priyam Biswas, Scott A. Carr, Byoungyoung Lee, and Mathias Payer.
-	- Slides (PDF): http://nebelwelt.net/publications/files/1734c3-presentation.pdf
 	- Paper (PDF): https://nebelwelt.net/publications/files/17CCS.pdf
+	- Slides (PDF): http://nebelwelt.net/publications/files/17CCC-presentation.pdf
 	- 34C3 (2017)
 		- https://media.ccc.de/v/34c3-8848-type_confusion_discovery_abuse_and_protection
 		- https://www.youtube.com/watch?v=jbglFfkRYQs
@@ -523,7 +533,7 @@ See also:
 	- C++ Weekly - Episode 86
 	- https://www.youtube.com/watch?v=3l0BQs2ThTo
 - gdb + valgrind - https://fau.re/blog/20140330_vgdb.html
-- Valgrind and GDB: Tame the Wild C - http://heeris.id.au/2016/valgrind-gdb/
+- Valgrind and GDB: Tame the Wild C - https://heeris.id.au/2016/valgrind-gdb/
 - Watching for software inefficiencies with Valgrind
 	- https://kristerw.blogspot.com/2020/02/watching-for-software-inefficiencies.html
 	- deadstores: A Valgrind tool for finding redundant loads/stores.
