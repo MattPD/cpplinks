@@ -151,6 +151,9 @@
 	- Don't break your users: keep your API/ABI stable!
 		- DevConf.CZ 2020; Anderson Sasaki
 		- https://www.youtube.com/watch?v=tFuFO_bDke0
+- Component Interface Binder (CIB)
+	- publish ABI stable C++ library that can be used across different compilers
+	- https://github.com/satya-das/cib
 - pexcheck: Pexcheck is a command-line tool for checking the binary compatibility of public interfaces.
 	- https://github.com/AVGTechnologies/pexcheck
 
@@ -200,7 +203,8 @@
 	- https://www.youtube.com/watch?v=DZ93lP1I7wU
 - What's an ABI and why is it so complicated?
 	- ACCU 2015; Jonathan Wakely
-	- https://accu.org/content/conf2015/JonathanWakely-What%20Is%20An%20ABI%20And%20Why%20Is%20It%20So%20Complicated.pdf
+	- https://kayari.org/tmp/abi.html
+	- https://accu.org/conf-docs/PDFs_2015/JonathanWakely-What%20Is%20An%20ABI%20And%20Why%20Is%20It%20So%20Complicated.pdf
 
 ---
 
@@ -225,13 +229,12 @@
 	- https://d.fuqu.jp/c++filtjs/
 	- https://github.com/nattofriends/c-filtjs
 - C++ Itanium ABI demangler: C++ demangler in Python that converts the mangled name into an AST
-	- https://github.com/whitequark/binja_itanium_cxx_abi/blob/master/demangler.py
+	- https://github.com/whitequark/binja_itanium_cxx_abi/tree/master/itanium_demangler
 - cppmangle: A library for demangling and mangling Visual Studio C++ names
 	- https://github.com/AVGTechnologies/cppmangle
 - cpp_demangle: A crate for demangling C++ symbols
 	- https://github.com/gimli-rs/cpp_demangle
 - Demangler: A C++ library and tools for demangling mangled C++ names
-	- https://github.com/avast-tl/demangler
 	- https://github.com/avast-tl/retdec/tree/master/src/demangler
 	- https://github.com/avast-tl/retdec/tree/master/tests/demangler
 - demumble: A better c++filt and a better undname.exe, in one binary.
