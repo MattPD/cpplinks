@@ -399,6 +399,11 @@
 
 ## Libraries
 
+- Abseil Status
+	- https://abseil.io/blog/2020-091021-status
+	- https://github.com/abseil/abseil-cpp/tree/master/absl/status
+	- User Guide - https://abseil.io/docs/cpp/guides/status
+	- Choosing Canonical Error Codes - https://abseil.io/docs/cpp/guides/status-codes
 - Boost.Exception
 	- https://github.com/boostorg/exception
 - cpp_exception_handling_abi
