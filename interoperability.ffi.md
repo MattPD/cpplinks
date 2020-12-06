@@ -28,12 +28,6 @@
 
 # C
 
-- C handler wrapping in C++ - https://arekmd.github.io/wrapping-c-handlers/
-- CppCon 2014: Lisa Lippincott "How to call C libraries from C++"
-	- https://www.youtube.com/watch?v=3ZO0V4Prefc
-	- https://github.com/CppCon/CppCon2014/tree/master/Presentations/How%20to%20call%20C%20libraries%20from%20C%2B%2B
-	- Code and slides from Lisa Lippincott's “How to Call C libraries from C++” presentation from Cppcon 2014
-	- https://github.com/jfirebaugh/PlusPlus
 - Cross-language interfaces between C and C++ - https://gustedt.wordpress.com/2017/08/08/cross-language-interfaces-between-c-and-c/
 - DragonFFI: C Foreign Function Interface and JIT using Clang/LLVM
 	- DragonFFI is a C Foreign Function Interface (FFI) library written in C++ and based on Clang/LLVM. It allows any language to call C functions thought the provided APIs and bindings.
@@ -46,7 +40,13 @@
 	- https://www.slideshare.net/StefanusDuToit/cpp-con-2014-hourglass-interfaces-for-c-apis
 	- https://www.youtube.com/watch?v=PVYdHDm0q6Y
 	- https://github.com/CppCon/CppCon2014/tree/master/Presentations/Hourglass%20Interfaces%20for%20C%2B%2B%20APIs
-- Skip the FFI: Embedding Clang for C Interoperability 
+- How to call C libraries from C++
+	- CppCon 2014; Lisa Lippincott
+	- https://www.youtube.com/watch?v=3ZO0V4Prefc
+	- https://github.com/CppCon/CppCon2014/tree/master/Presentations/How%20to%20call%20C%20libraries%20from%20C%2B%2B
+	- Code and slides from Lisa Lippincott's “How to Call C libraries from C++” presentation from Cppcon 2014
+	- https://github.com/jfirebaugh/PlusPlus
+- Skip the FFI: Embedding Clang for C Interoperability
 	- 2014 LLVM Developers' Meeting
 	- Jordan Rose, John McCall
 	- https://llvm.org/devmtg/2014-10/#talk18
@@ -95,8 +95,8 @@
 	- https://github.com/atilaneves/dpp
 	- https://dlang.org/blog/2019/04/08/project-highlight-dpp/
 - Zero Overhead Interface Between DLang & C++ Standard Lib
-	- Alexandru Razvan Caciulescu | DConf2017
-	- https://www.youtube.com/watch?v=c5zGnOWKaGo
+	- DConf2017; Alexandru Razvan Caciulescu
+	- https://www.youtube.com/watch?v=j-Ws4VjyUWg
 
 ---
 
@@ -108,7 +108,7 @@
 	- https://wiki.haskell.org/Cxx_foreign_function_interface
 - fficxx - FFI to C++ in Haskell
 	- Haskell-C++ Foreign Function Interface Generator
-	- http://ianwookim.org/fficxx/
+	- https://web.archive.org/http://ianwookim.org/fficxx/
 	- https://github.com/wavewave/fficxx
 - inline-c-cpp: Lets you embed C++ code into Haskell
 	- http://hackage.haskell.org/package/inline-c-cpp
@@ -270,6 +270,8 @@
 
 # Rust
 
+- Autocxx: a tool for calling C++ from Rust in a heavily automated but safe fashion
+	- https://github.com/google/autocxx
 - bindgen: Automatically generates Rust FFI bindings to C and C++ libraries
 	- https://github.com/rust-lang/rust-bindgen
 - cbindgen: creates C/C++11 headers for Rust libraries which expose a public C API
