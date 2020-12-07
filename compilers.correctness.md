@@ -131,7 +131,8 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- ACM SIGSOFT Software Engineering Notes 28(6) 2003
 	- Maulik A. Dave
 	- https://dl.acm.org/citation.cfm?id=966235
-	- http://www.cs.utah.edu/~skchoe/research/p2-dave.pdf
+	- https://web.archive.org/http://www.cs.utah.edu/~skchoe/research/p2-dave.pdf
+	- https://www.semanticscholar.org/paper/Compiler-verification%3A-a-bibliography-Dave/36e028f88fc56eaf919b6d96c7a087c102ad4569
 	- Compiler Verification: A Brief History - http://web.archive.org/web/20090807085152/http://www.geocities.com/compiler00/dave1.html
 - Correctness of a Compiler for Algol-like Programs
 	- Stanford Artificial Intelligence Memo No. 48 (1967)
@@ -186,7 +187,6 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 - Dagstuhl Seminar 17502 – Testing and Verification of Compilers
 	- December 2017
 	- http://dagstuhl.de/17502
-	- Materials: http://materials.dagstuhl.de/index.php?semnr=17502
 - EMI-based Compiler Testing - http://web.cs.ucdavis.edu/~su/emi-project/
 
 ## Testing: Readings
@@ -228,7 +228,7 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- OOPSLA 2019
 	- Michael Marcozzi, Qiyi Tang, Alastair Donaldson, Cristian Cadar
 	- https://srg.doc.ic.ac.uk/projects/compiler-bugs/
-	- https://sites.google.com/view/michaelmarcozzi/software-tools/compiler-bugs-impact
+	- https://sites.google.com/view/michaelmarcozzi/software/compiler-bugs-impact
 	- A Systematic Impact Study for Fuzzer-Found Compiler Bugs
 		- 2019 arXiv (pre-print)
 		- https://arxiv.org/abs/1902.09334
@@ -297,8 +297,7 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://xiongyingfei.github.io/publications.html#ASE19b
 - Improving the Utility of Compiler Fuzzers
 	- 2014 Ph.D. Dissertation; Yang Chen
-	- http://www.cs.utah.edu/~chenyang/papers/thesis_draft.pdf
-	- https://search.proquest.com/openview/4799de27b7f7d50c7d4f1d2335316065/1?pq-origsite=gscholar&cbl=18750&diss=y
+	- https://collections.lib.utah.edu/details?id=196364
 - K-CONFIG: Using Failing Test Cases to Generate Test Cases in GCC Compilers
 	- Automated Software Engineering (ASE 2019) Late Breaking Research-Track
 	- Md Rafiqul Islam Rabin, Mohammad Amin Alipour
@@ -498,6 +497,9 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://pypi.org/project/lit/
 	- Using LLVM LIT Out-Of-Tree
 		- https://medium.com/@mshockwave/using-llvm-lit-out-of-tree-5cddada85a78
+	- Pushing Back Lit's Boundaries to Test Libc++
+		- 2020 LLVM Developers’ Meeting; Louis Dionne
+		- https://www.youtube.com/watch?v=z5-wo0TW26M
 - llvm-mutate – mutate LLVM IR - http://eschulte.github.io/llvm-mutate/
 - OutputCheck: A tool for checking tool output inspired by LLVM's FileCheck
 	- https://github.com/stp/OutputCheck/
@@ -719,7 +721,8 @@ Validation: Including translation validation, equivalence checking.
 	- slides: http://llvm.org/devmtg/2014-10/Slides/Menendez-Alive.pdf
 	- Alive-FP: Automated Verification of Floating Point Based Peephole Optimizations in LLVM
 		- SAS 2016; David Menendez, Santosh Nagarakatte, Aarti Gupta
-		- https://www.cs.rutgers.edu/research/technical_reports/report.php?series_id=1&report_id=723
+		- https://doi.org/doi:10.7282/T3XW4PC5
+		- https://doi.org/10.1007/978-3-662-53413-7_16
 	- Alive-Loops: https://github.com/rutgers-apl/alive-loops
 		- Termination checking for LLVM peephole optimizations
 		- ICSE 2016; David Menendez, Santosh Nagarakatte
@@ -784,7 +787,7 @@ Validation: Including translation validation, equivalence checking.
 	- The Verified CakeML Compiler Backend
 		- JFP 2019
 		- Yong Kiam Tan, Magnus O. Myreen, Ramana Kumar, Anthony Fox, Scott Owens, Michael Norrish
-		- https://www.cs.cmu.edu/~yongkiat/files/cakeml-jfp.pdf
+		- https://cakeml.org/jfp19.pdf
 	- Icing: Supporting Fast-math Style Optimizations in a Verified Compiler
 		- Computer-Aided Verification (CAV) 2019
 		- Heiko Becker, Eva Darulova, Magnus O. Myreen, Zachary Tatlock
@@ -865,7 +868,7 @@ Validation: Including translation validation, equivalence checking.
 - Compilation Using Correct-by-Construction Program Synthesis
 	- 2016 Master's Thesis; Clément Pit-Claudel
 	- http://pit-claudel.fr/clement/MSc/
-	- https://dspace.mit.edu/bitstream/handle/1721.1/107293/973557793-MIT.pdf?sequence=1
+	- https://dspace.mit.edu/handle/1721.1/107293
 	- http://pit-claudel.fr/clement/MSc/FiatToFacade_Pit-Claudel_2016.pdf
 - Compositional Verification of Compiler Optimisations on Relaxed Memory
 	- ESOP 2018
@@ -876,8 +879,6 @@ Validation: Including translation validation, equivalence checking.
 	- Jeehoon Kang, Yoonseung Kim, Youngju Song, Juneyoung Lee, Sanghoon Park, Mark Dongyeon Shin, Yonghyun Kim, Sungkeun Cho, Joonwon Choi,Chung-Kil Hur, Kwangkeun Yi
 	- a verified credible compilation (or equivalently, verified translation validation) framework for LLVM
 	- http://sf.snu.ac.kr/crellvm/
-	- http://sf.snu.ac.kr/gil.hur/publications/crellvm.pdf
-	- http://sf.snu.ac.kr/gil.hur/publications/crellvm.zip
 	- https://github.com/snu-sf/crellvm-tests-parallel
 - Pilsner: A Compositionally Verified Compiler for a Higher-Order Imperative Language
 	- International Conference on Functional Programming (ICFP) 2015
