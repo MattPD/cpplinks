@@ -277,6 +277,8 @@ See also:
 
 # Continuous Integration
 
+- awesome-ci: List of Continuous Integration services
+	- https://github.com/ligurio/awesome-ci
 - ci_helloworld: A simple example of how to setup a complete CI environment for C and C++
 	- https://github.com/ainfosec/ci_helloworld
 	- A Test a Day Keeps Your Manager Away!
@@ -535,8 +537,6 @@ See also:
 		- Gcovr provides a utility for managing the use of the GNU gcov utility and generating summarized code coverage results.
 		- http://gcovr.com/
 		- https://github.com/gcovr/gcovr
-	- GCovHTML - Generate reports on code coverage
-		- https://gitlab.com/stone.code/gcovhtml
 	- Dev Santa Claus Part 2: C++ code coverage metrics with gcov
 		- setting up code coverage metrics for a C++ codebase built using Bamboo, CMake and GCC.
 		- https://genbattle.bitbucket.io/blog/2018/01/19/Dev-Santa-Claus-Part-2/
@@ -551,8 +551,6 @@ See also:
 	- Kcov - a single-step code coverage tool
 		- Simon Kågström; SwedenCpp::Stockholm::0x0F, September 20, 2018
 		- https://www.youtube.com/watch?v=1QMHbp5LUKg
-- OpenCppCoverage: an open source code coverage tool for C++ under Windows
-	- https://github.com/OpenCppCoverage/OpenCppCoverage
 - LLVM
 	- Clang Source-based Code Coverage
 		- https://clang.llvm.org/docs/SourceBasedCodeCoverage.html
@@ -560,6 +558,8 @@ See also:
 		- https://clang.llvm.org/docs/SanitizerCoverage.html
 		- A quick tour of LLVM’s Sanitizer coverage
 			- https://tech.labs.oliverwyman.com/blog/2017/10/04/a-quick-tour-of-llvms-sanitizer-coverage/
+- OpenCppCoverage: an open source code coverage tool for C++ under Windows
+	- https://github.com/OpenCppCoverage/OpenCppCoverage
 - TestCov: Test execution, coverage measurement, and test-suite reduction
 	- https://gitlab.com/sosy-lab/software/test-suite-validator
 
