@@ -282,6 +282,10 @@ _Benchmarks & comparisons_
 		- Faster, Stronger C++ Analysis with the Clang Static Analyzer
 			- 2018 LLVM Developers’ Meeting; George Karpenkov, Artem Dergachev
 			- https://www.youtube.com/watch?v=4n3l-ZcDJNY
+		- Using the Clang Static Analyzer to Find Bugs
+			- 2020 LLVM Developers’ Meeting; Vince Bridgers
+			- https://www.youtube.com/watch?v=nTslG8HtKeA
+			- https://llvm.org/devmtg/2020-09/slides/Using_the_clang_static_ananalyzer_to_find_bugs.pdf
 	- Clang-Tidy: Clang-based C++ “linter” tool
 		- http://clang.llvm.org/extra/clang-tidy/
 		- Clang-Tidy - KDAB
@@ -348,7 +352,8 @@ See also: [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6be
 	- https://divine.fi.muni.cz/
 - ESBMC
 	- ESBMC is an open source, permissively licensed, context-bounded model checker based on satisfiability modulo theories for the verification of single- and multi-threaded C/C++ programs.
-	- http://www.esbmc.org/
+	- https://github.com/esbmc/esbmc
+	- https://ssvlab.github.io/esbmc/
 - Symbiotic
 	- Tool for verifying computer programs based on instrumentation, program slicing and symbolic executor KLEE.
 	- http://staticafi.github.io/symbiotic/
