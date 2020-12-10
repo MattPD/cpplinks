@@ -171,21 +171,12 @@
 	- Peizhao Ou, Brian Demsky
 	- http://plrg.ics.uci.edu/automo/
 	- http://plrg.eecs.uci.edu/publications/oopsla15inference.pdf
-- Bridging the Gap Between Programming Languages and Hardware Weak Memory Models
-	- POPL 2019
-	- Anton Podkopaev, Ori Lahav, Viktor Vafeiadis
-	- https://popl19.sigplan.org/event/popl-2019-research-papers-bridging-the-gap-between-programming-languages-and-hardware-weak-memory-models
 - C++ Memory Model
 	- 2012; Martin Kempf
 	- https://wiki.ifs.hsr.ch/SemProgAnTr/SeminarHS12
 	- https://wiki.ifs.hsr.ch/SemProgAnTr/files/CppMemoryModel_26_12_12.pdf
 - Concurrency memory model compiler consequences
 	- http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2007/n2338.html
-- Foundations of Empirical Memory Consistency Testing
-	- OOPSLA 2020
-	- Tyler Sorensen, Esin Tureci, Jake Kirkham, Margaret R. Martonosi
-	- https://2020.splashcon.org/details/splash-2020-oopsla/102/Foundations-of-Empirical-Memory-Consistency-Testing
-	- https://users.soe.ucsc.edu/~tsorensen/files/oopsla2020.pdf
 - Foundations of the C++ Concurrency Memory Model
 	- PLDI 2008; Hans-J. Boehm and Sarita V. Adve
 	- http://rsim.cs.illinois.edu/Pubs/08PLDI.pdf
@@ -204,25 +195,8 @@
 	- CACM 2010
 	- Sarita V. Adve, Hans-J. Boehm
 	- http://cacm.acm.org/magazines/2010/8/96610-memory-models-a-case-for-rethinking-parallel-languages-and-hardware/fulltext
-- On Library Correctness under Weak Memory Consistency
-	- POPL 2019
-	- Azalea Raad, Marko Doko, Lovro Rožić, Ori Lahav, Viktor Vafeiadis
-	- https://popl19.sigplan.org/event/popl-2019-research-papers-on-library-correctness-under-weak-memory-consistency
-- Owicki-Gries Reasoning for C11 RAR
-	- ECOOP 2020
-	- Sadegh Dalvandi, Simon Doherty, Brijesh Dongol, Heike Wehrheim
-	- https://2020.ecoop.org/details/ecoop-2020-papers/11/Owicki-Gries-Reasoning-for-C11-RAR
-	- https://brijeshdongol.github.io/full-version/ECOOP20.pdf
-	- C11 RAR memory model (a fragment of C11 with both relaxed and release-acquire accesses)
 - Programming Languages & Verification – MPI SWS
 	- https://www.mpi-sws.org/research-areas/programming-languages-and-verification/
-	- 2020
-		- Reconciling Event Structures with Modern Multiprocessors
-			- ECOOP 2020
-			- Evgenii Moiseenko, Anton Podkopaev, Ori Lahav, Orestis Melkonian, Viktor Vafeiadis
-			- http://plv.mpi-sws.org/weakestmoToImm/
-			- https://arxiv.org/abs/1911.06567
-			- https://2020.ecoop.org/details/ecoop-2020-papers/5/Reconciling-Event-Structures-with-Modern-Multiprocessors
 	- 2018 - Effective stateless model checking for C/C++ concurrency - http://plv.mpi-sws.org/rcmc/
 	- 2017 - Formalizing the Concurrency Semantics of an LLVM Fragment - http://plv.mpi-sws.org/llvmcs/
 	- 2016 - Explaining Relaxed Memory Models with Program Transformations - http://plv.mpi-sws.org/trns/
@@ -254,11 +228,6 @@
 	- http://www.hpl.hp.com/techreports/2004/HPL-2004-209.pdf
 	- http://www.hboehm.info/misc_slides/pldi05_threads.pdf
 	- LtU: http://lambda-the-ultimate.org/node/950
-- Verifying C11 Programs Operationally
-	- Principles and Practice of Parallel Programming (PPoPP) 2019
-	- Simon Doherty, Brijesh Dongol, Heike Wehrheim, John Derrick
-	- https://arxiv.org/abs/1811.09143
-	- https://ppopp19.sigplan.org/event/ppopp-2019-papers-verifying-c11-programs-operationally
 - x86-TSO: A Rigorous and Usable Programmer’s Model for x86 Multiprocessors
 	- CACM 2010
 	- Peter Sewell, Susmit Sarkar, Scott Owens, Francesco Zappa Nardelli, Magnus O. Myreen
@@ -267,6 +236,54 @@
 	- CACM 2012, ACM Queue 2011
 	- Hans-J. Boehm, Sarita V. Adve
 	- https://queue.acm.org/detail.cfm?id=2088916
+
+### Papers - Memory Model: 2019
+
+- Bridging the Gap Between Programming Languages and Hardware Weak Memory Models
+	- POPL 2019
+	- Anton Podkopaev, Ori Lahav, Viktor Vafeiadis
+	- https://popl19.sigplan.org/event/popl-2019-research-papers-bridging-the-gap-between-programming-languages-and-hardware-weak-memory-models
+- On Library Correctness under Weak Memory Consistency
+	- POPL 2019
+	- Azalea Raad, Marko Doko, Lovro Rožić, Ori Lahav, Viktor Vafeiadis
+	- https://popl19.sigplan.org/event/popl-2019-research-papers-on-library-correctness-under-weak-memory-consistency
+- Verifying C11 Programs Operationally
+	- Principles and Practice of Parallel Programming (PPoPP) 2019
+	- Simon Doherty, Brijesh Dongol, Heike Wehrheim, John Derrick
+	- https://arxiv.org/abs/1811.09143
+	- https://ppopp19.sigplan.org/event/ppopp-2019-papers-verifying-c11-programs-operationally
+
+### Papers - Memory Model: 2020
+
+- Foundations of Empirical Memory Consistency Testing
+	- OOPSLA 2020
+	- Tyler Sorensen, Esin Tureci, Jake Kirkham, Margaret R. Martonosi
+	- https://2020.splashcon.org/details/splash-2020-oopsla/102/Foundations-of-Empirical-Memory-Consistency-Testing
+	- https://users.soe.ucsc.edu/~tsorensen/files/oopsla2020.pdf
+- Owicki-Gries Reasoning for C11 RAR
+	- ECOOP 2020
+	- Sadegh Dalvandi, Simon Doherty, Brijesh Dongol, Heike Wehrheim
+	- https://2020.ecoop.org/details/ecoop-2020-papers/11/Owicki-Gries-Reasoning-for-C11-RAR
+	- https://brijeshdongol.github.io/full-version/ECOOP20.pdf
+	- C11 RAR memory model (a fragment of C11 with both relaxed and release-acquire accesses)
+- Reconciling Event Structures with Modern Multiprocessors
+	- ECOOP 2020
+	- Evgenii Moiseenko, Anton Podkopaev, Ori Lahav, Orestis Melkonian, Viktor Vafeiadis
+	- http://plv.mpi-sws.org/weakestmoToImm/
+	- https://arxiv.org/abs/1911.06567
+	- https://2020.ecoop.org/details/ecoop-2020-papers/5/Reconciling-Event-Structures-with-Modern-Multiprocessors
+
+### Papers - Memory Model: 2021
+
+- Verifying Observational Robustness against a C11-Style Memory Model
+	- POPL 2021
+	- Roy Margalit, Ori Lahav
+	- https://www.cs.tau.ac.il/~orilahav/papers/popl21_robustness.pdf
+	- https://www.cs.tau.ac.il/~orilahav/papers/popl21_robustness_full.pdf
+	- https://popl21.sigplan.org/details/POPL-2021-research-papers/4/Verifying-Observational-Robustness-Against-a-C11-style-Memory-Model
+	- Rocker: Robustness Checker
+		- a tool to verify robustness of programs written in TPL against C11 semantics.
+		- https://github.com/rymrg/rocker
 
 ---
 
