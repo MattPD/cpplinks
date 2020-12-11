@@ -85,8 +85,7 @@ See also:
 
 # Conferences
 
-Compilers Call For Papers for Conferences, Workshops and Journals at WikiCFP - http://www.wikicfp.com/cfp/call?conference=compilers  
-Computer Architecture and Compilers Conference Map - http://archconfmap.com/
+Compilers Call For Papers for Conferences, Workshops and Journals at WikiCFP - http://www.wikicfp.com/cfp/call?conference=compilers
 
 - ASPLOS: International Conference on Architectural Support for Programming Languages and Operating Systems - https://asplos-conference.org/ - http://dblp.uni-trier.de/db/conf/asplos/
 - CASES: Compilers, Architecture, and Synthesis for Embedded Systems - http://www.esweek.org/cases - http://dblp.uni-trier.de/db/conf/cases/
@@ -102,12 +101,13 @@ Computer Architecture and Compilers Conference Map - http://archconfmap.com/
 - POPL: Principles of Programming Languages - http://www.sigplan.org/Conferences/POPL/ - http://dblp.uni-trier.de/db/conf/popl/
 - PPoPP: ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming - http://www.sigplan.org/Conferences/PPOPP/ - http://dblp.uni-trier.de/db/conf/ppopp/
 - SAS: International Static Analysis Symposium - http://www.staticanalysis.org/ - http://dblp.uni-trier.de/db/conf/sas/
-- SCOPES: International Workshop on Software and Compilers for Embedded Systems - http://www.scopesconf.org/ - http://dblp.uni-trier.de/db/conf/scopes/
+- SCOPES: International Workshop on Software and Compilers for Embedded Systems - https://scopesconf.org/ - http://dblp.uni-trier.de/db/conf/scopes/
 
 # Courses
 
 - Cornell CS 6120: Advanced Compilers
 	- Fall 2020; Adrian Sampson
+		- The Self-Guided Online Course: https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/
 		- https://www.cs.cornell.edu/courses/cs6120/2020fa/
 		- source code: https://github.com/sampsyo/cs6120
 		- lectures: https://www.cs.cornell.edu/courses/cs6120/2020fa/lesson/
