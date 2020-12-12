@@ -451,6 +451,9 @@ See also:
 	- https://github.com/trailofbits/blight
 	- High-fidelity build instrumentation with blight
 		- https://blog.trailofbits.com/2020/11/25/high-fidelity-build-instrumentation-with-blight/
+- Build Interceptor
+	- a collection of scripts for recording the .i files generated during a build of C or C++ programs with the GCC toolchain
+	- https://github.com/dsw/build-interceptor
 - TraceCode: Trace a build to find out which source files are built in a binary
 	- https://github.com/nexB/tracecode-toolkit
 	- Debug your build by tracing and reversing: stracing your build from sources to binaries
