@@ -407,6 +407,13 @@ See also: [Computer Architecture](comparch.md)
 	- Drew Zagieboylo, G. Edward Suh, Andrew C. Myers
 	- http://www.cs.cornell.edu/andru/papers/hyperisa/
 
+## Defense - Power
+
+- PARAM: A Microprocessor Hardened for Power Side-Channel Attack Resistance
+	- IEEE International Symposium on Hardware Oriented Security and Trust (HOST) 2020
+	- Muhammad Arsath K F, Vinod Ganesan, Rahul Bodduna, Chester Rebeiro
+	- https://arxiv.org/abs/1911.08813
+
 ## Defense - Software
 
 - C++ Developer Guidance for Speculative Execution Side Channels
@@ -1487,7 +1494,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://dl.acm.org/citation.cfm?id=2978299
 	- https://www.youtube.com/watch?v=YwL_p3TxhlA
 - PLATYPUS: Software-based Power Side-Channel Attacks on x86
-	- 2020
+	- 2020; IEEE Symposium on Security & Privacy (S&P) 2021
 	- Moritz Lipp, Andreas Kogler, David Oswald, Michael Schwarz, Catherine Easdon, Claudio Canella, Daniel Gruss
 	- https://platypusattack.com/
 - POWERT Channels: A Novel Class of Covert Communication Exploiting Power Management Vulnerabilities
