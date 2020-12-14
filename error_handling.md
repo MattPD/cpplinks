@@ -75,6 +75,9 @@
 * Mike Hearn - What's wrong with exceptions? Nothing.
 	+ A defense of exceptions in general, but contains discussion on issues with C++'s implementation of them.
 	+ https://blog.plan99.net/what-s-wrong-with-exceptions-nothing-cee2ed0616
+* Stafford Horne
+	- Unwinding a Bug - How C++ Exceptions Work
+	- http://stffrdhrn.github.io/software/toolchain/openrisc/2020/12/13/cxx-exception-unwinding.html
 * Shane Kirk - C++ Exceptions: The Good, The Bad, And The Ugly
 	+ A discussion of the pros and cons of exceptions.
 	+ http://www.shanekirk.com/2015/06/c-exceptions-the-good-the-bad-and-the-ugly/
