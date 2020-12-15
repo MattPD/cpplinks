@@ -322,7 +322,6 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- https://www.reddit.com/r/cpp/comments/7ca2sh/2017_albuquerque_iso_c_committee_reddit_trip/
 - Red Hat at the ISO C++ Standards Meeting (November 2017): Parallelism and Concurrency
 	- https://developers.redhat.com/blog/2017/12/01/red-hat-iso-c-standards-meeting-november-2017-parallelism-concurrency/
-	- https://issues.isocpp.org/buglist.cgi?component=Concurrency
 - Trip Report: C++ Standards Meeting in Albuquerque, November 2017
 	- https://botondballo.wordpress.com/2017/11/20/trip-report-c-standards-meeting-in-albuquerque-november-2017/
 - Trip report: Fall ISO C++ standards meeting (Albuquerque)
@@ -478,7 +477,7 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 
 - 2017 Toronto ISO C++ Committee Discussion Thread (Concepts in C++20; Coroutines, Ranges and Networking TSes published)
 	- https://www.reddit.com/r/cpp/comments/6ngkgc/2017_toronto_iso_c_committee_discussion_thread/
-	- https://www.codeplay.com/portal/10-06-17-whats-in-cpp-20-and-cpp17-final-score-card
+	- https://www.codeplay.com/portal/news/2017/07/10/what-s-in-cpp20-and-the-cpp17-final-score-card-a-report-from-kona-and-look-at-the-toronto-cpp-meeting.html
 	- https://herbsutter.com/2017/07/15/trip-report-summer-iso-c-standards-meeting-toronto/
 - Red Hat at the ISO C++ Standards Meeting (July 2017): Parallelism and Concurrency
 	- https://developers.redhat.com/blog/2017/08/29/red-hat-at-the-iso-c-standards-meeting-july-2017-parallelism-and-concurrency/
@@ -700,6 +699,7 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 
 ## History (2020)
 
+- ISO/IEC 14882:2020 - https://www.iso.org/standard/79358.html
 - Direction for ISO C++
 	- 2020-01-13
 	- Michael Wong, Howard Hinnant, Roger Orr, Bjarne Stroustrup, Daveed Vandevoorde
@@ -726,7 +726,6 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- Bjarne Stroustrup
 	- https://www.youtube.com/watch?v=ooehrkYkGdA
 - Unix50 - Unix Today and Tomorrow: The Languages
-	- https://www.bell-labs.com/watch/unix-50/xnCgoEyz31M/
 	- https://www.youtube.com/watch?v=xnCgoEyz31M
 	- "Brian Kernighan discussed the little languages of Unix and how it works well with other programming languages while Bjarne Stroustrup focused on the journey from C to C++ and its value. Tom Van Cutsem, Lieven Trappeniers and Lode Hoste of Nokia Bell Labs discussed new computational tools being created using Augmented/Artificial intelligence and machine learning that are transforming software development."
 
@@ -740,7 +739,6 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 - History and Spirit of C
 	- NDC Techtown 2017; Olve Maudal
 	- https://www.youtube.com/watch?v=xGVRF-Y--hI
-	- https://vimeo.com/256731302
 - Operating principles for evolving C++
 	- 2017-01-31
 	- JC van Winkel, Jose Daniel Garcia, Ville Voutilainen, Roger Orr, Michael Wong, Sylvain Bonnal
@@ -824,7 +822,7 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- Doug McIlroy at the Dennis Ritchie Tribute at Bell Labs
 		- https://vimeo.com/73204980
 - Workshop on Quality Software: A Festschrift for Bjarne Stroustrup
-	- https://parasol.tamu.edu/bjarnefest/
+	- https://parasollab.web.illinois.edu/events/bjarnefest/
 	- https://www.youtube.com/playlist?list=PLRgQTVaiosr8MCB7CAwvtNMa-zAnW1_Vz
 
 ## History (2011)
