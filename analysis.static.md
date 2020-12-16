@@ -274,6 +274,9 @@ _Benchmarks & comparisons_
 		- http://clang-analyzer.llvm.org/
 		- Checker Developer Manual
 			- http://clang-analyzer.llvm.org/checker_dev_manual.html
+		- An in-depth look at Liveness Analysis in the Clang Static Analyzer
+			- 2020; Kristóf Umann
+			- http://lists.llvm.org/pipermail/cfe-dev/2020-July/066330.html
 		- Clang Static Analysis
 			- Meeting C++ 2016; Gabor Horvath
 			- https://www.youtube.com/watch?v=UcxF6CVueDM
