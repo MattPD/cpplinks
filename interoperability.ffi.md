@@ -14,6 +14,9 @@
 - libffi: A portable foreign-function interface library
 	- http://sourceware.org/libffi
 	- https://github.com/libffi/libffi
+- Scapix Language Bridge
+	- Automatic, on the fly bindings from C++ to Java, Objective-C, Swift, Python, JavaScript (WebAssembly), and C#. Bridge code automatically generated directly from C++ header files, no need to manually maintain IDL definitions or bindings.
+	- https://github.com/scapix-com/scapix
 - SWIG: Simplified Wrapper and Interface Generator
 	- http://www.swig.org/
 
