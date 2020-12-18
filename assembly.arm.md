@@ -878,6 +878,8 @@ See also: [Performance Tools](performance.tools.md)
 - LIKWID: Performance monitoring and benchmarking suite
 	- https://github.com/RRZE-HPC/likwid
 	- https://hpc.fau.de/research/tools/likwid/
+- Machine-readable data: JSON descriptions of hardware performance events for Arm cores
+	- https://github.com/ARM-software/data
 - Microbenchmarks for Cortex A53
 	- https://github.com/thomwiggers/microbenchmark-aarch64/
 	- Energy-Efficient ARM64 Cluster with Cryptanalytic Applications
