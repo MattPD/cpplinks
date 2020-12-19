@@ -332,8 +332,10 @@ _Books, Books Reviews_
 	- https://conf.researchr.org/event/issta-2019/issta-2019-technical-papers-interactive-metamorphic-testing-of-debuggers
 - lldb-repro: a utility to transparently capture and replay debugger sessions through the command line driver
 	- used to test the reproducers by running the test suite twice
-	- https://github.com/llvm/llvm-project/tree/master/lldb/utils/lldb-repro
+	- https://github.com/llvm/llvm-project/tree/main/lldb/utils/lldb-repro
 	- https://lldb.llvm.org/resources/reproducers.html
+	- An Introduction to LLDB Reproducers
+		- https://pspdfkit.com/blog/2020/an-introduction-to-lldb-reproducers/
 - Samy Al Bahra, Backtrace
 	- Compiler debug quality suite - https://github.com/backtrace-labs/cdqs
 
