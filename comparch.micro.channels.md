@@ -53,7 +53,7 @@ See also: [Computer Architecture](comparch.md)
 	- http://dx.doi.org/10.1007/s13389-016-0141-6
 	- Cryptology ePrint Archive, Report 2016/613
 	- http://eprint.iacr.org/2016/613
-	- https://ts.data61.csiro.au/publications/nictaabstracts/9074.pdf
+	- https://ts.data61.csiro.au/publications/csiro_full_text/Ge_YCH_18.pdf
 	- http://eprint.iacr.org.metacomment.io/2016/613
 - A Survey of Timing Channels and Countermeasures
 	- ACM Computing Surveys (CSUR) Volume 50 Issue 1 (2017)
@@ -83,20 +83,16 @@ See also: [Computer Architecture](comparch.md)
 	- http://cs.adelaide.edu.au/~yval/Mastik/
 	- http://cryptologie.net/article/366/ches-2016-tutorial-part-1-common-criteria-certification-of-a-smartcard-a-technical-overview/
 	- https://cryptologie.net/article/367/ches-2016-tutorial-part-2-micro-architectural-side-channel-attacks/
+	- - Microarchitectural Side-Channel Attacks
+		- CHES 2016 tutorial
+		- https://cs.adelaide.edu.au/~yval/Mastik/presentations/CHES16-Tutorial.pptx
+		- https://cs.adelaide.edu.au/~yval/Mastik/presentations/CHES16-Tutorial2.pptx
 - Memory Systems attacks/mitigations research papers
 	- https://www.cse.iitk.ac.in/users/biswap/SMS.html
 - Microarchitectural Attacks and Countermeasures
 	- Cryptographic Engineering (2009)
 	- Onur Acıiçmez, Çetin Kaya Koç
 	- https://link.springer.com/chapter/10.1007/978-0-387-71817-0_18
-- Microarchitectural Side-Channel Attacks
-	- CHES 2016 tutorial
-	- http://cs.adelaide.edu.au/~yval/CHES16/
-	- http://cs.adelaide.edu.au/~yval/CHES16/CHES16-tutorial.pptx
-	- http://cs.adelaide.edu.au/~yval/CHES16/CHES16-tutorial2.pptx
-	- http://www.chesworkshop.org/ches2016/presentations/CHES16-Tutorial2_1.pdf
-	- http://www.chesworkshop.org/ches2016/presentations/CHES16-Tutorial2_2.pdf
-	- https://cryptologie.net/article/367/ches-2016-tutorial-part-2-micro-architectural-side-channel-attacks/
 - Negative Result: Reading Kernel Memory From User Mode
 	- 2017; Anders Fogh
 	- https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/
@@ -123,7 +119,7 @@ See also: [Computer Architecture](comparch.md)
 	- David Cock, Qian Ge, Toby Murray, Gernot Heiser
 	- http://research.davidcock.fastmail.fm/slides/lastmile.pdf
 	- https://ts.data61.csiro.au/publications/nictaabstracts/8295.pdf
-	- http://ts.data61.csiro.au/projects/TS/timingchannels.pml
+	- https://ts.data61.csiro.au/projects/TS/timeprotection/
 - Understanding contention-based channels and using them for defense
 	- HPCA 2015
 	- Hunger, C., Kazdagli, M., Rawat, A., Dimakis, A., Vishwanath, S., Tiwari, M.
@@ -162,7 +158,7 @@ See also: [Computer Architecture](comparch.md)
 	- ISCA 2019 tutorial
 	- https://sites.google.com/view/arch-sec/home
 - Timing Channels - Trustworthy Systems - Data61
-	- https://ts.data61.csiro.au/projects/TS/timingchannels/
+	- https://ts.data61.csiro.au/projects/TS/timeprotection/
 
 ## Defense - Branch Predictor
 
@@ -176,6 +172,10 @@ See also: [Computer Architecture](comparch.md)
 
 ### Defense - Cache: 2021
 
+- MIRAGE: Mitigating Conflict-Based Cache Attacks with a Practical Fully-Associative Design
+	- USENIX Security 2021
+	- Gururaj Saileshwar, Moinuddin Qureshi
+	- https://arxiv.org/abs/2009.09090
 - Systematic Analysis of Randomization-based Protected Cache Architectures
 	- IEEE Symposium on Security & Privacy (S&P) 2021
 	- Antoon Purnal, Lukas Giner, Daniel Gruss, Ingrid Verbauwhede
@@ -315,7 +315,7 @@ See also: [Computer Architecture](comparch.md)
 	- USENIX Security 2017
 	- David Kohlbrenner and Hovav Shacham
 	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/kohlbrenner
-	- https://cseweb.ucsd.edu/~dkohlbre/floats/
+	- https://homes.cs.washington.edu/~dkohlbre/floats/
 - Towards Verified, Constant-time Floating Point Operations
 	- ACM CCS 2018
 	- Marc Andrysco, Andres Nötzli, Fraser Brown, Ranjit Jhala, and Deian Stefan
@@ -340,7 +340,7 @@ See also: [Computer Architecture](comparch.md)
 - CheckMate: Automated Exploit Program Generation for Hardware Security Verification
 	- International Symposium on Microarchitecture (MICRO) 2018
 	- Caroline Trippel, Daniel Lustig, and Margaret Martonosi
-	- http://www.cs.princeton.edu/~ctrippel/ctrippel_MICRO51.pdf
+	- https://www-cs.stanford.edu/~trippel/pubs/ctrippel_MICRO51.pdf
 	- https://github.com/ctrippel/checkmate
 - Data Oblivious ISA Extensions for Side Channel-Resistant and High Performance Computing
 	- Network and Distributed System Security Symposium (NDSS) 2019
@@ -451,7 +451,7 @@ See also: [Computer Architecture](comparch.md)
 - Principled Elimination of Microarchitectural Timing Channels through Operating-System Enforced Time Protection
 	- 2019 PhD Thesis; Qian Ge
 	- http://ts.data61.csiro.au/publications/papers/Ge:phd.pdf
-	- http://ts.data61.csiro.au/publications/papers/Ge:phd.abstract.pml
+	- http://handle.unsw.edu.au/1959.4/64228
 - Provably Secure Countermeasures against Side-channel Attacks
 	- 2015 Dissertation; Praveen Kumar Vadnala
 	- https://orbilu.uni.lu/bitstream/10993/21653/2/PraveenVadnala_Thesis.pdf
@@ -475,7 +475,7 @@ See also: [Computer Architecture](comparch.md)
 - Time Protection: the Missing OS Abstraction
 	- EuroSys 2019
 	- Qian Ge, Yuval Yarom, Tom Chothia, Gernot Heiser
-	- https://ts.data61.csiro.au/publications/csiroabstracts/Ge_YCH_19.abstract.pml
+	- https://ts.data61.csiro.au/publications/csiroabstracts/Ge_YCH_19.abstract.pml.html
 - Towards Practical Tools for Side Channel Aware Software Engineering: "Grey Box" Modelling for Instruction Leakages
 	- USENIX Security 2017
 	- David McCann, Elisabeth Oswald, Carolyn Whitnall
@@ -513,7 +513,7 @@ See also: [Computer Architecture](comparch.md)
 - Mitigating Data Leakage by Protecting Memory-resident Sensitive Data
 	- Annual Computer Security Applications Conference (ACSAC) 2019
 	- Tapti Palit, Fabian Monrose, Michalis Polychronakis
-	- https://doi.org/10.1145/3359789.335981
+	- https://doi.org/10.1145/3359789.3359815
 	- https://www3.cs.stonybrook.edu/~mikepo/papers/dataencr.acsac19.pdf
 - P0928: Mitigating Spectre v1 Attacks in C++
 	- 2020; Devin Jeanpierre, Geoffrey Romer, Chandler Carruth
@@ -665,7 +665,7 @@ See also: [Computer Architecture](comparch.md)
 	- Mengjia Yan, Jiho Choi, Dimitrios Skarlatos, Adam Morrison, Christopher W. Fletcher, Josep Torrellas
 	- http://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_micro18.pdf
 	- Paper: http://iacoma.cs.uiuc.edu/iacoma-papers/micro18.pdf
-	- Poster: http://myan8.web.engr.illinois.edu/data/InvisiSpec_Poster.pdf
+	- Poster: https://people.csail.mit.edu/mengjia/data/InvisiSpec_Poster.pdf
 	- Lightning talk: https://www.youtube.com/watch?v=mAO5iejYUec
 	- https://github.com/mjyan0720/InvisiSpec-1.0
 - Spectector: Principled Detection of Speculative Information Flows
@@ -733,12 +733,12 @@ See also: [Computer Architecture](comparch.md)
 	- ASIACCS 2007
 	- Onur Aciiçmez, Çetin Kaya Koç, Jean-Pierre Seifert
 	- https://eprint.iacr.org/2006/351.pdf
-	- https://koclab.cs.ucsb.edu/docs/koc/c40.pdf
+	- https://cetinkayakoc.net/docs/c40.pdf
 - Predicting Secret Keys via Branch Prediction
 	- CT-RSA 2007
 	- Onur Acıiçmez, Çetin Kaya Koç, Jean-Pierre Seifert
 	- https://eprint.iacr.org/2006/288.pdf
-	- https://koclab.cs.ucsb.edu/docs/koc/c39.pdf
+	- https://cetinkayakoc.net/docs/c39.pdf
 	- MSR talk: https://www.youtube.com/watch?v=rWFj4N6MaQw
 - Understanding and Mitigating Covert Channels Through Branch Predictors
 	- ACM TACO 13(1): 10 (2016)
@@ -856,12 +856,12 @@ See also: [Computer Architecture](comparch.md)
 	- CCS 2017
 	- Yinqian Zhang
 	- https://dl.acm.org/citation.cfm?doid=3133956.3136064
-	- http://web.cse.ohio-state.edu/~zhang.834/slides/tutorial17.pdf
+	- https://yinqian.org/slides/tutorial17.pdf
 - Hello from the Other Side: SSH over Robust Cache Covert Channels in the Cloud
 	- Network and Distributed System Security Symposium (NDSS) 2017
 	- Clémentine Maurice, Manuel Weber, Michael Schwarz, Lukas Giner, Daniel Gruss, Carlo Alberto Boano, Kay Römer, Stefan Mangard
 	- slides: https://gruss.cc/files/hello_ndss_slides.pdf
-	- https://github.com/IAIK/hello
+	- https://github.com/IAIK/CJAG
 	- BH Asia 2017: https://www.youtube.com/watch?v=a9sGk7FtnYk
 
 ## Cache (2016)
@@ -887,7 +887,9 @@ See also: [Computer Architecture](comparch.md)
 - CacheBleed: A Timing Attack on OpenSSL Constant Time RSA
 	- IACR 2016
 	- Y. Yarom, D. Genkin, N. Heninger
-	- https://ssrg.nicta.com.au/projects/TS/cachebleed/cachebleed.pdf
+	- https://eprint.iacr.org/2016/224
+	- https://web.eecs.umich.edu/~genkin/cachebleed/
+	- https://www.youtube.com/watch?v=Fjz4dkU2N3g
 	- Section 2.2 (The Intel cache hierarchy), Section 2.5 (Intel L1 cache banks)
 - Flush+Flush: A Fast and Stealthy Cache Attack
 	- Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA) 2016
@@ -1139,7 +1141,7 @@ See also: [Computer Architecture](comparch.md)
 
 - LazyFP: Leaking FPU Register State using Microarchitectural Side-Channels
 	- 2018; Julian Stecklina, Thomas Prescher
-	- https://blog.cyberus-technology.de/images/lazyFP.pdf
+	- https://arxiv.org/abs/1806.07480
 	- Intel LazyFP vulnerability: Exploiting lazy FPU state switching
 		- http://blog.cyberus-technology.de/posts/2018-06-06-intel-lazyfp-vulnerability.html
 - On Subnormal Floating Point and Abnormal Timing
@@ -1147,6 +1149,7 @@ See also: [Computer Architecture](comparch.md)
 	- Marc Andrysco, David Kohlbrenner Keaton Mowery, Ranjit Jhala, Sorin Lerner, Hovav Shacham
 	- http://www.ieee-security.org/TC/SP2015/papers-archived/6949a623.pdf
 	- https://cseweb.ucsd.edu/~dkohlbre/papers/subnormal.pdf
+	- https://homes.cs.washington.edu/~dkohlbre/papers/subnormal.pdf
 	- https://hovav.net/ucsd/papers/akmjls15.html
 	- https://github.com/kmowery/libfixedtimefixedpoint
 
@@ -1231,7 +1234,7 @@ See also: [Computer Architecture](comparch.md)
 	- Shanquan Tian, Jakub Szefer
 	- https://caslab.csl.yale.edu/publications/tian2019temporal.pdf
 	- https://dl.acm.org/citation.cfm?doid=3289602.3293920
-	- http://www.isfpga.org/slides/Tian_TemporalThermalCovertChannelsinCloudFPGAs.pptx
+	- https://new.isfpga.org/past/fpga2019/slides/Tian_TemporalThermalCovertChannelsinCloudFPGAs.pptx
 	- http://caslab.csl.yale.edu/code/temporalthermalcc/
 - Timing Violation Induced Faults in Multi-Tenant FPGAs
 	- 2019 Design, Automation & Test in Europe Conference & Exhibition (DATE)
@@ -1306,7 +1309,9 @@ See also: [Computer Architecture](comparch.md)
 - Confidentiality Issues on a GPU in a Virtualized Environment
 	- FC 2014: Financial Cryptography and Data Security
 	- Clémentine Maurice, Christoph Neumann, Olivier Heen, Aurélien Francillon
-	- http://www.eurecom.fr/en/publication/4205/detail/confidentiality-issues-on-a-gpu-in-a-virtualized-environment
+	- https://doi.org/10.1007/978-3-662-45472-5_9
+	- https://www.eurecom.fr/publication/4205
+	- http://s3.eurecom.fr/docs/fc14_maurice.pdf
 - Constructing and Characterizing Covert Channels on GPGPUs
 	- MICRO-50, 2017
 	- Hoda Naghibijouybari, Khaled N. Khasawneh, Nael Abu-Ghazaleh
@@ -1384,8 +1389,8 @@ See also: [Computer Architecture](comparch.md)
 	- NDSS 2018
 	- Michael Schwarz, Moritz Lipp, Daniel Gruss, Samuel Weiser, Clémentine Maurice, Raphael Spreitzer, Stefan Mangard
 	- https://arxiv.org/abs/1706.06381
-	- https://www.ndss-symposium.org/wp-content/uploads/sites/25/2018/02/ndss2018_04B-1_Schwarz_paper.pdf
-	- http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/03/NDSS2018_04B-1_Schwarz_Slides.pdf
+	- https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_04B-1_Schwarz_paper.pdf
+	- https://www.ndss-symposium.org/wp-content/uploads/2018/03/NDSS2018_04B-1_Schwarz_Slides.pdf
 	- https://www.youtube.com/watch?v=limElEZNdS8
 
 ---
@@ -1398,10 +1403,10 @@ See also: [Computer Architecture](comparch.md)
 	- https://arxiv.org/abs/1802.02317
 	- Paper: https://arxiv.org/abs/1802.02317
 	- Video: https://www.youtube.com/watch?v=yz8E5n1Tzlo
-- ODINI : Escaping Sensitive Data from Faraday-Caged, Air-Gapped Computers via Magnetic Fields
+- ODINI: Escaping Sensitive Data from Faraday-Caged, Air-Gapped Computers via Magnetic Fields
 	- https://cyber.bgu.ac.il/advanced-cyber/airgap
 	- Mordechai Guri, Boris Zadov, Andrey Daidakulov, Yuval Elovici
-	- Paper: https://cyber.bgu.ac.il/advanced-cyber/system/files/ODINI_1.pdf
+	- Paper: https://arxiv.org/abs/1802.02700
 	- Video: https://www.youtube.com/watch?v=h07iXD-aSCA
 
 ---
@@ -1429,8 +1434,8 @@ See also: [Computer Architecture](comparch.md)
 - Microarchitectural Minefields: 4K-Aliasing Covert Channel and Multi-Tenant Detection in IaaS Clouds
 	- NDSS 2018
 	- Dean Sullivan, Orlando Arias, Travis Meade, Yier Jin
-	- http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/02/ndss2018_06A-3_Sullivan_paper.pdf
-	- http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/03/NDSS2018-06A-3_Sullivan_Slides.pdf
+	- https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_06A-3_Sullivan_paper.pdf
+	- https://www.ndss-symposium.org/wp-content/uploads/2018/03/NDSS2018-06A-3_Sullivan_Slides.pdf
 	- https://www.youtube.com/watch?v=0KIojo5nk2s
 - SPOILER: Speculative Load Hazards Boost Rowhammer and Cache Attacks
 	- USENIX Security 2019
@@ -1500,7 +1505,9 @@ See also: [Computer Architecture](comparch.md)
 - POWERT Channels: A Novel Class of Covert Communication Exploiting Power Management Vulnerabilities
 	- High-Performance Computer Architecture (HPCA) 2019
 	- S. K. Khatamifard, L. Wang, S. Köse, and U. R. Karpuzcu
-	- http://www.eng.usf.edu/~kose/files/conferences/hpca_19.pdf
+	- https://doi.org/10.1109/HPCA.2019.00045
+	- http://hajim.rochester.edu/ece/sites/kose/files/conferences/hpca_19.pdf
+	- PoC (Lorenzo Masciullo): https://github.com/lore-masc/POWERTChannel_Thesis
 
 ---
 
@@ -1525,8 +1532,8 @@ See also: [Computer Architecture](comparch.md)
 - Unveiling Hardware-based Data Prefetcher, a Hidden Source of Information Leakage
 	- Computer and Communications Security (CCS) 2018
 	- Youngjoo Shin, Hyung Chan Kim, Dokeun Kwon, Ji Hoon Jeong, Junbeom Hur
-	- http://isslab.korea.ac.kr/notice/read/1/77
 	- https://dl.acm.org/citation.cfm?doid=3243734.3243736
+	- https://ccs.korea.ac.kr/board/bbs/board.php?bo_table=cssa_news&wr_id=61
 - Using Undocumented CPU Behavior to See Into Kernel Mode and Break KASLR in the Process
 	- BlackHat USA 2016
 	- Anders Fogh & Daniel Gruss
@@ -1912,7 +1919,6 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 - Exploitable Hardware Features and Vulnerabilities Enhanced Side-Channel Attacks on Intel SGX and Their Countermeasures
 	- 2019 PhD Dissertation; Chen, Guoxing
 	- http://rave.ohiolink.edu/etdc/view?acc_num=osu1554949268465917
-	- https://etd.ohiolink.edu/pg_10?0::NO:10:P10_ACCESSION_NUM:osu1554949268465917
 - Inferring Fine-grained Control Flow Inside SGX Enclaves with Branch Shadowing
 	- USENIX Security 2017
 	- https://arxiv.org/abs/1611.06952
@@ -1921,7 +1927,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 - Leaky Cauldron on the Dark Land: Understanding Memory Side-Channel Hazards in SGX
 	- CCS 2017
 	- Wenhao Wang, Guoxing Chen, Xiaorui Pan, Yinqian Zhang, XiaoFeng Wang, Vincent Bindschaedler, Haixu Tang, Carl A. Gunter
-	- http://web.cse.ohio-state.edu/~zhang.834/papers/ccs17b.pdf
+	- https://yinqian.org/papers/ccs17b.pdf
 	- https://acmccs.github.io/papers/p2421-wangA.pdf
 - Malware Guard Extension: Using SGX to Conceal Cache Attacks
 	- DIMVA 2017
@@ -1946,7 +1952,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 - Racing in Hyperspace: Closing Hyper-Threading Side Channels on SGX with Contrived Data Races
 	- IEEE S&P (Oakland) 2018
 	- Guoxing Chen, Wenhao Wang, Tianyu Chen, Sanchuan Chen, Yinqian Zhang, XiaoFeng Wang, Ten-Hwang Lai, Dongdai Lin
-	- https://web.cse.ohio-state.edu/~zhang.834/papers/sp18.pdf
+	- https://yinqian.org/papers/sp18a.pdf
 	- https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a388.pdf
 - SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control
 	- SysTEX 2017
@@ -1966,7 +1972,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Guoxing Chen, Sanchuan Chen, Yuan Xiao, Yinqian Zhang, Zhiqiang Lin, Ten H. Lai
 	- https://arxiv.org/abs/1802.09085
 	- https://github.com/osusecLab/SgxPectre
-- Side Channels on Intel SGX - https://web.cse.ohio-state.edu/~zhang.834/projects/sgx-side-channels.html
+- Side Channels on Intel SGX - https://yinqian.org/projects/sgx-side-channels.html
 - TSX-based Defenses Against SGX Side-channel Attacks - https://gts3.org/2018/tsgx-defense.html
 - Tutorial: Uncovering and mitigating side-channel leakage in Intel SGX enclaves
 	- Security, Privacy, and Applied Cryptography Engineering (SPACE) 2018
@@ -1983,8 +1989,12 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 # TSX
 
 - Breaking Kernel Address Space Layout Randomization with Intel TSX
+	- Computer and Communications Security (CCS 2016)
+	- Yeongjin Jang, Sangho Lee, Taesoo Kim
+	- https://www.microsoft.com/en-us/research/publication/breaking-kernel-address-space-layout-randomization-with-intel-tsx/
 	- https://sslab.gtisc.gatech.edu/assets/papers/2016/jang:drk-ccs.pdf
-	- http://www.cc.gatech.edu/~yjang37/assets/papers/2016/jang:drk-ccs.pdf
+	- https://gts3.org/assets/papers/2016/jang:drk-ccs.pdf
+	- https://github.com/sslab-gatech/DrK
 	- decoded icache (caches decoded micro-ops) - inside L1 icache, virtually-indexed and virtually tagged (VIVT), does not require an iTLB access for address translation
 - Meltdown-MCA-TAA
 	- Meltdown-MCA-TAA (microcode assist caused by transactional asynchronous abort) - [ZombieLoad](https://zombieloadattack.com/) Variant 2
@@ -2029,7 +2039,6 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 - Broad-Based Side-Channel Defenses for Modern Processor Architectures
 	- Ashay Rane
 	- https://www.microsoft.com/en-us/research/video/broad-based-side-channel-defenses-for-modern-processor-architectures/
-	- https://ashay.rane.info/project-raccoon/
 - Ghosts in a Nutshell
 	- Black Hat Asia 2019
 	- Claudio Canella, Moritz Lipp
