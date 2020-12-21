@@ -560,6 +560,8 @@ See also:
 			- https://tech.labs.oliverwyman.com/blog/2017/10/04/a-quick-tour-of-llvms-sanitizer-coverage/
 - OpenCppCoverage: an open source code coverage tool for C++ under Windows
 	- https://github.com/OpenCppCoverage/OpenCppCoverage
+- SCov: Generate reports on code coverage using gcov, lcov, or llvm-cov
+	- https://gitlab.com/stone.code/scov
 - TestCov: Test execution, coverage measurement, and test-suite reduction
 	- https://gitlab.com/sosy-lab/software/test-suite-validator
 
