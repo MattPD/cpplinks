@@ -1081,6 +1081,13 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ https://github.com/aras-p/sizer
 	+ http://aras-p.info/projSizer.html
 * Sizer - Win32 executable size report utility - https://github.com/tsafin/pdb-sizer
+* SoReL-20M: Sophos-ReversingLabs 20 million sample dataset
+	- https://github.com/sophos-ai/SOREL-20M
+	- SOREL-20M: A Large Scale Benchmark Dataset for Malicious PE Detection
+		- 2020; Richard Harang, Ethan M. Rudd
+		- https://arxiv.org/abs/2012.07634
+	- Sophos-ReversingLabs (SOREL) 20 Million sample malware dataset
+		- https://ai.sophos.com/2020/12/14/sophos-reversinglabs-sorel-20-million-sample-malware-dataset/
 * SymbolSort: A Utility for Measuring C++ Code Bloat
 	+ https://github.com/adrianstone55/SymbolSort
 	+ http://gameangst.com/?p=320
