@@ -190,6 +190,9 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- "In this thesis, we present a formal model of the memory management unit (MMU) in the interactive proof assistant Isabelle/HOL for the ARMv7-A architecture which includes the TLB, its maintenance operations, and its derived properties. We integrate this specification into the Cambridge ARM model. We derive sufficient conditions for TLB consistency, and we abstract away the functional details of the MMU using data refinement for simpler reasoning about executions in the presence of cached address translation, including complete and partial walks."
 	- <https://www.unsworks.unsw.edu.au/permalink/f/a5fmj0/unsworks_60079>
 	- http://unsworks.unsw.edu.au/fapi/datastream/unsworks:60079/SOURCE02?view=true
+- Renee: ARMv8 binary verification project
+	- The Renee project is investigating the formalization of ARMv8 instruction semantics and reasoning and verification of ARMv8 binaries including their security properties.
+	- https://ssrg-vt.github.io/Renee/
 - sail-arm: Sail version of the ARMv8.5-A ISA definition
 	- https://github.com/rems-project/sail-arm
 - Scapula: Compare ARM CPUs Against ARM's Machine Parsable Architecture Reference Manual
