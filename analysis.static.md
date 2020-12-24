@@ -106,8 +106,8 @@ See also:
 	- Rijnard van Tonder and Claire Le Goues
 	- https://rijnard.com/pdfs/tailoring-analysis-icse-2020.pdf
 - Toward Full Elasticity in Distributed Static Analysis
-	- Diego Garbervetsky, Edgardo Zoppi, Thomas Ball, Ben Livshits
 	- 2016 Microsoft Research Technical Report: MSR-TR-2015-88
+	- Diego Garbervetsky, Edgardo Zoppi, Thomas Ball, Ben Livshits
 	- https://www.microsoft.com/en-us/research/publication/toward-full-elasticity-distributed-static-analysis/
 - Undecidability of static analysis
 	- ACM Letters on Programming Languages and Systems (LOPLAS) Volume 1 Issue 4, Dec. 1992
@@ -274,6 +274,9 @@ _Benchmarks & comparisons_
 		- http://clang-analyzer.llvm.org/
 		- Checker Developer Manual
 			- http://clang-analyzer.llvm.org/checker_dev_manual.html
+		- A survey of dataflow analyses in Clang
+			- 2020; Kristóf Umann
+			- https://lists.llvm.org/pipermail/cfe-dev/2020-October/066937.html
 		- An in-depth look at Liveness Analysis in the Clang Static Analyzer
 			- 2020; Kristóf Umann
 			- http://lists.llvm.org/pipermail/cfe-dev/2020-July/066330.html
