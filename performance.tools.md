@@ -132,6 +132,9 @@
 	- ​https://github.com/jrfonseca/memtrail
 - memusage - profile memory usage of a program
 	- http://man7.org/linux/man-pages/man1/memusage.1.html
+- mstat: measure memory usage of a program over time (Linux)
+	- fine-grained, cgroup-based tool for profiling memory usage over time of a process tree
+	- https://github.com/bpowers/mstat
 - MTuner - a C/C++ memory profiler and memory leak finder for Windows, PlayStation 4, PlayStation 3, etc.
 	- https://milostosic.github.io/MTuner/
 	- https://github.com/milostosic/MTuner
