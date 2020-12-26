@@ -249,7 +249,7 @@ See also:
 ## Software: Pin
 
 - Pin - A Dynamic Binary Instrumentation Tool
-	- http://www.pintool.org/
+	- https://www.intel.com/software/pintool
 	- https://en.wikipedia.org/wiki/Pin_(computer_program)
 
 ### Software: Pin: Readings
@@ -502,6 +502,11 @@ See also:
 - MemorySanitizer, ThreadSanitizer: Scalable run-time detection of uninitialized memory reads and data races with LLVM instrumentation
 	- 2012 LLVM Developers’ Meeting; Kostya Serebryany
 	- https://www.youtube.com/watch?v=HDgttiIvMxA
+- New Address Sanitizer Features
+	- 2013 LLVM Developers’ Meeting
+	- Kostya Serebryany, Alexey Samsonov
+	- https://www.youtube.com/watch?v=ldZvZE8fWwA
+	- https://llvm.org/devmtg/2013-11/slides/Serebryany-ASAN.pdf
 - News from Sanitizers
 	- GNU Tools Cauldron 2014; Evgeniy Stepanov, Kostya Serebryany
 	- https://docs.google.com/presentation/d/1QG2qlzpxlsdDsX4uHhTLWAoUmbzbhedFMoMvviud0Us
