@@ -72,7 +72,7 @@ See also: [Computer Architecture](comparch.md)
 	- 2017 Ph.D. Dissertation; Gorka Irazoqui
 	- https://web.wpi.edu/Pubs/ETD/Available/etd-042417-114714/unrestricted/girazoki.pdf
 - Exploiting processor side channels to enable cross VM malicious code execution
-	- 2015 Master's Thesis, Sophia M. D'Antoine
+	- 2015 Master's Thesis; Sophia M. D'Antoine
 	- http://digitool.rpi.edu:8881/dtl_publish/15/175977.html
 	- https://www.sophia.re/thesis.pdf
 	- https://www.blackhat.com/docs/us-15/materials/us-15-DAntoine-Exploiting-Out-Of-Order-Execution-For-Covert-Cross-VM-Communication-wp.pdf
@@ -1835,6 +1835,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- GLSVLSI 2020
 	- Claudio Canella, Khaled N. Khasawneh, Daniel Gruss
 	- https://gruss.cc/files/transient-attacks.pdf
+- Transient-Execution Attacks and Defenses
+	- 2020 Habilitation Thesis; Daniel Gruss
+	- https://gruss.cc/files/habil.pdf
+	- https://gruss.cc/files/habil_part1_only.pdf
 
 ---
 
