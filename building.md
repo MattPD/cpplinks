@@ -99,6 +99,8 @@ See also:
 	- Thodoris Sotiropoulos, Stefanos Chaliasos, Dimitris Mitropoulos, Diomidis Spinellis
 	- https://2020.splashcon.org/details/splash-2020-oopsla/20/A-Model-for-Detecting-Faults-in-Build-Specifications
 	- https://dimitro.gr/assets/papers/SCMS20.pdf
+	- BuildFS: A dynamic method for detecting faults in incremental and parallel builds
+		- https://github.com/theosotr/buildfs
 - Detecting Incorrect Build Rules
 	- International Conference on Software Engineering (ICSE) 2019
 	- Nandor Licker, Andrew Rice
