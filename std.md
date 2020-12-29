@@ -6,6 +6,7 @@
 - [References](#references)
 - [Standard](#standard)
 - [Standardization](#standardization)
+- [C++23](#c23)
 - [C++20](#c20): [C++20 Readings](#c20-readings), [C++20 Talks](#c20-talks)
 - [C++17](#c17): [C++17 Readings](#c17-readings), [C++17 Talks](#c17-talks)
 - [C++14](#c14): [C++14 Readings](#c14-readings), [C++14 Talks](#c14-talks)
@@ -97,6 +98,17 @@
 		- https://thephd.github.io/getting-there-standardization-in-2019
 - Specification Style Guidelines
 	- https://github.com/cplusplus/draft/wiki/Specification-Style-Guidelines
+
+---
+
+# C++23
+
+## C++23: Trip Reports
+
+### 2020-11 Virtual Meeting
+
+- Trip report: Autumn ISO C++ standards meeting (virtual)
+	- https://herbsutter.com/2020/11/13/trip-report-autumn-iso-c-standards-meeting-virtual/
 
 ---
 
