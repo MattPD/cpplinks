@@ -801,6 +801,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * Beyond Debug Information: Improving Program Reconstruction in LLDB using C++ Modules
 	- 2019 Master’s Thesis; Raphael Isemann
 	- https://hdl.handle.net/20.500.12380/300037
+* How to Extend LLDB to Provide a Better Debugging Experience
+	- https://pspdfkit.com/blog/2018/how-to-extend-lldb-to-provide-a-better-debugging-experience/
 
 ### LLDB: Talks
 
