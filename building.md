@@ -449,6 +449,8 @@ See also:
 
 - Build System Shootout: Comparison of build program expressive power
 	- https://github.com/ndmitchell/build-shootout
+- Bear: Build EAR - a tool that generates a compilation database for Clang tooling
+	- https://github.com/rizsotto/Bear
 - blight: a framework for wrapping and instrumenting build tools
 	- https://github.com/trailofbits/blight
 	- High-fidelity build instrumentation with blight
