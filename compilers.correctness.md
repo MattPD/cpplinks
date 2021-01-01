@@ -957,3 +957,8 @@ Validation: Including translation validation, equivalence checking.
 	- 2020 PhD Dissertation; Zoe Paraskevopoulou
 	- https://www.cs.princeton.edu/research/techreps/TR-006-20
 	- https://zoep.github.io/thesis_final.pdf
+- Verifying and Improving Halide’s Term Rewriting System with Program Synthesis
+	- OOPSLA 2020
+	- Julie L. Newcomb, Andrew Adams, Steven Johnson, Rastislav Bodik, Shoaib Kamil
+	- https://2020.splashcon.org/details/splash-2020-oopsla/42/Verifying-and-Improving-Halide-s-Term-Rewriting-System-with-Program-Synthesis
+	- https://dl.acm.org/doi/10.1145/3428234
