@@ -467,7 +467,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ Building a Flexible Hypervisor-Level Debugger
 		- Insomni'hack 2019; Mathieu Tarral
 		- https://drive.google.com/open?id=1ZMUszfwWDOljdDfPOJgkEfSabNy0UAJR
-‏* QIRA - QEMU Interactive Runtime Analyser
+* QIRA - QEMU Interactive Runtime Analyser
 	+ http://qira.me/
 	+ https://github.com/BinaryAnalysisPlatform/qira/
 * Radare2
