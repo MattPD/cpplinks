@@ -285,6 +285,11 @@ _Benchmarks & comparisons_
 			- https://www.youtube.com/watch?v=UcxF6CVueDM
 		- Clang Static Analyzer - A Checker Developer's Guide.
 			- https://github.com/haoNoQ/clang-analyzer-guide
+		- Detecting Uninitialized Variables in C++ with the Clang Static Analyzer
+			- Acta Cybernetica 2020
+			- Kristóf Umann, Zoltán Porkoláb
+			- https://doi.org/10.14232/actacyb.282900
+			- https://clang.llvm.org/docs/analyzer/checkers.html#optin-cplusplus-uninitializedobject-c
 		- Faster, Stronger C++ Analysis with the Clang Static Analyzer
 			- 2018 LLVM Developers’ Meeting; George Karpenkov, Artem Dergachev
 			- https://www.youtube.com/watch?v=4n3l-ZcDJNY
