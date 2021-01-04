@@ -337,6 +337,8 @@ See also:
 
 ## Readings: Shared Libraries
 
+- Chain loading, not preloading: the dynamic linker as a virtualization vector
+	- https://www.cs.kent.ac.uk/people/staff/srk21/blog/2021/01/04/#elf-chain-loading
 - Fun with weak dynamic linking
 	- https://glandium.org/blog/?p=2764
 - Guided Linking: Dynamic Linking without the Costs
