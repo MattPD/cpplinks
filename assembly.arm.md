@@ -20,6 +20,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	- [Intrinsics & SIMD](#intrinsics--simd)
 	- [Toolchains](#toolchains)
 - [Software](#software):
+	- [Assembly](#software-assembly)
 	- [Binary Analysis](#software-binary-analysis)
 	- [Concurrency](#software-concurrency)
 	- [Debugging, Tracing](#software-debugging-tracing)
@@ -734,15 +735,25 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- https://gitlab.com/arm-hpc
 - AMaCC (Another Mini ARM C Compiler) - Small C Compiler generating ELF executable for Arm architecture
 	- https://github.com/jserv/amacc
-- AZM - Live ARM Assembler and Syntax Checker
-	- https://azm.azerialabs.com/
 - libopencm3: Open source ARM Cortex-M microcontroller library
 	- http://libopencm3.org/
 	- https://github.com/libopencm3/libopencm3
 - mra_tools: Tools to process ARM's Machine Readable Architecture Specification
 	- <https://github.com/alastairreid/mra_tools>
-- VIXL: AArch64 Runtime Code Generation Library
-	- https://github.com/armvixl/vixl
+
+## Software: Assembly
+
+- AZM - Live ARM Assembler and Syntax Checker
+	- https://azm.azerialabs.com/
+- Xbyak_aarch64: JIT assembler for AArch64 CPUs in C++
+	- https://github.com/fujitsu/xbyak_aarch64
+- Xbyak_translator_aarch64: A translator which generates JIT functions for ARMv8 with SVE from JIT functions for x86
+	- https://github.com/fujitsu/xbyak_translator_aarch64
+- VIXL: ARMv8 Runtime Code Generation Library
+	- https://git.linaro.org/arm/vixl.git/about/
+	- Programmatic assemblers to generate A64, A32 or T32 code at runtime. The assemblers abstract some of the constraints of each ISA; for example, most instructions support any immediate.
+	- Disassemblers that can print any instruction emitted by the assemblers.
+	- A simulator that can simulate any instruction emitted by the A64 assembler. The simulator allows generated code to be run on another architecture without the need for a full ISA model.
 
 ## Software: Binary Analysis
 
