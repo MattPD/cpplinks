@@ -304,6 +304,10 @@ See also:
 		- https://metanokid.github.io/coding-scars/investigating-cpp-compile-times-3
 	- Getting data from C++ Build Insights SDK
 		- https://metanokid.github.io/coding-scars/investigating-cpp-compile-times-4
+- Native Build System for Unity Builds with Sophisticated Bundle Strategies
+	- IEICE Transactions on Information and Systems 104.1 (2021)
+	- Takafumi Kubota, Kenji Kono
+	- https://doi.org/10.1587/transinf.2020EDP7105
 - Physical Design of The Machinery
 	- http://ourmachinery.com/post/physical-design/
 - Reducing Build Time through Precompilations for Evolving Large Software
