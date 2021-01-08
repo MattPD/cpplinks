@@ -287,6 +287,9 @@
 
 # Profiling
 
+- 0x.Tools: Always-on Profiling for Production Systems (Linux)
+	- https://0x.tools/
+	- https://github.com/tanelpoder/0xtools
 - Agner Fog's test programs for measuring clock cycles and performance monitoring
 	- http://www.agner.org/optimize/#testp
 - BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more
