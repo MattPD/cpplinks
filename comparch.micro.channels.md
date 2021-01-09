@@ -497,6 +497,12 @@ See also: [Computer Architecture](comparch.md)
 
 ### Defense - Software - Compilation and Programming Languages
 
+- Automatically Eliminating Speculative Leaks from Cryptographic Code with Blade
+	- Principles of Programming Languages (POPL) 2021
+	- Marco Vassena, Craig Disselkoen, Klaus V. Gleissenthall, Sunjay Cauligi, Rami Gökhan Kici, Ranjit Jhala, Dean Tullsen, Deian Stefan
+	- https://arxiv.org/abs/2005.00294
+	- https://cseweb.ucsd.edu/~dstefan/pubs/vassena:2021:blade.pdf
+	- https://github.com/PLSysSec/blade
 - Compiler mitigations for time attacks on modern x86 processors
 	- ACM TACO 8(4) (2012)
 	- Jeroen V. Cleemput, Bart Coppens, Bjorn De Sutter
