@@ -1091,6 +1091,10 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 * SymbolSort: A Utility for Measuring C++ Code Bloat
 	+ https://github.com/adrianstone55/SymbolSort
 	+ http://gameangst.com/?p=320
+* μthenticode: a cross-platform library for verifying Authenticode signatures
+	- https://github.com/trailofbits/uthenticode
+	- Verifying Windows binaries, without Windows
+		- https://blog.trailofbits.com/2020/05/27/verifying-windows-binaries-without-windows/
 
 ### PE: Software: Loaders
 
