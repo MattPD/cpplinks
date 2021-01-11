@@ -306,6 +306,10 @@ _Benchmarks & comparisons_
 			- https://github.com/KratosMultiphysics/Kratos/wiki/How-to-use-Clang-Tidy-to-automatically-correct-code
 		- Intro to clang-tidy - C++ Weekly - Ep 3
 			- https://www.youtube.com/watch?v=OchPaGEH4TE
+			- Using Clang-Tidy for Customized Checkers and Large Scale Source Tree Refactoring
+				- 2020 LLVM Developers’ Meeting; Vince Bridgers
+				- https://www.youtube.com/watch?v=UfLH7dORav8
+				- https://llvm.org/devmtg/2020-09/slides/LLVM-Virtual-Presentation-Clang-Tidy.pdf
 	- Clang Thread Safety Analysis
 		- https://clang.llvm.org/docs/ThreadSafetyAnalysis.html
 		- C/C++ Thread Safety Analysis
