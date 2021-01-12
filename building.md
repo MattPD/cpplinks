@@ -13,7 +13,7 @@ See also:
 	- [Correctness](#correctness)
 	- [Dependencies](#dependencies)
 	- [Distributed](#distributed)
-	- [Incremental Building](#incremental-building)
+	- [Incremental](#incremental)
 	- [Reproducibility](#reproducibility)
 - [Build Performance](#build-performance):
 	- [Build Performance Readings](#build-performance-readings)
@@ -204,7 +204,7 @@ See also:
 	- https://kaiyuanw.github.io/papers/paper24-issta20.pdf
 	- https://conf.researchr.org/details/issta-2020/issta-2020-papers/6/Scalable-Build-Service-System-with-Smart-Scheduling-Service
 
-## Incremental Building
+## Incremental
 
 - A Sound and Optimal Incremental Build System with Dynamic Dependencies
 	- SPLASH 2015 OOPSLA
@@ -220,6 +220,9 @@ See also:
 	- ‹Programming› 2020
 	- Jeff Smits, Gabriël Konat, Eelco Visser
 	- https://2020.programming-conference.org/details/programming-2020-papers/16/Constructing-Hybrid-Incremental-Compilers-for-Cross-Module-Extensibility-with-an-Inte
+- How does Google avoid clean builds?
+	- common failure modes affecting incremental builds that are often fixed by running clean builds
+	- https://jmmv.dev/2020/12/google-no-clean-builds.html
 - Incremental Whole Program Optimization and Compilation
 	- CGO 2017
 	- Patrick W. Sathyanathan, Wenlei He, Ten H. Tzen
