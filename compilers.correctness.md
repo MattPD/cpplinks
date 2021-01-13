@@ -146,6 +146,10 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 - Formalising Meaning: a History of Programming Language Semantics
 	- 2019 PhD dissertation; Troy Kaighin Astarte
 	- http://homepages.cs.ncl.ac.uk/t.astarte/res/pdf/TK_Astarte_Formalising_Meaning_2019.pdf
+- Toward Compiler Implementation Correctness Proofs
+	- ACM Transactions on Programming Languages and Systems (TOPLAS) 8(2) 1986
+	- Laurian M. Chirica, David F. Martin
+	- https://doi.org/10.1145/5397.30847
 
 ## Lectures
 
