@@ -152,6 +152,10 @@ See also:
 	- https://sourceware.org/binutils/docs/ld/Scripts.html
 - From Zero to main(): Demystifying Firmware Linker Scripts
 	- https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware
+- The Most Thoroughly Commented Linker Script in The World (Probably)
+	- "a linker script for the Atmel/Microchip SAM D21 with an absolutely obscene amount of documentation"
+	- https://blog.thea.codes/the-most-thoroughly-commented-linker-script/
+	- https://github.com/theacodes/Winterbloom_Castor_and_Pollux/blob/master/firmware/scripts/samd21g18a.ld
 
 ## Readings: LTO
 
