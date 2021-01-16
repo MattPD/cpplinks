@@ -547,6 +547,8 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- a random C/C++ program generator, which produces correct runnable C/C++ programs
 	- specifically designed to trigger compiler optimization bugs and is intended for compiler testing
 	- https://github.com/intel/yarpgen
+	- Finding Bugs in C and C++ Compilers using YARPGen
+		- https://blog.sigplan.org/2021/01/14/finding-bugs-in-c-and-c-compilers-using-yarpgen/
 
 ### Testing: Software: Performance Optimization
 
