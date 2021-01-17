@@ -336,7 +336,6 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 * Linaro Wiki - perf
 	+ https://web.archive.org/https://wiki.linaro.org/KenWerner/Sandbox/perf
 	+ https://web.archive.org/https://wiki.linaro.org/Platform/DevPlatform/Tools/Perf
-	+ ARM32/64: perf: dwarf stack frame unwinding support - https://wiki.linaro.org/LEG/Engineering/TOOLS/perf-callstack-unwinding
 * On-Target Trace Using the CoreSight Access Library
 	- https://developer.arm.com/products/software-development-tools/ds-5-development-studio/resources/tutorials/on-target-trace-using-the-coresight-access-library
 * OpenCSD HOWTO - using the library with perf
@@ -385,7 +384,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 * RevARM: A Platform-Agnostic ARM Binary Rewriter for Security Applications
 	+ Annual Computer Security Applications Conference (ACSAC) 2017
 	+ T. Kim, C. Kim, H. Choi, Y. Kwon, B. Saltaformaggio, X. Zhang, D. Xu
-	+ <https://www.cs.purdue.edu/homes/kwon58/data/revarm_acsac17.pdf>
+	+ <https://saltaformaggio.ece.gatech.edu/publications/ACSAC_17.pdf>
 	+ <https://www.acsac.org/2017/openconf/modules/request.php?module=oc_program&action=summary.php&id=201>
 	+ <https://www.researchgate.net/publication/321506390_RevARM_A_Platform-Agnostic_ARM_Binary_Rewriter_for_Security_Applications>
 * Safe and Efficient Implementation of a Security System on ARM using Intra-level Privilege Separation
@@ -592,8 +591,6 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 * ARM architecture documentation set - http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.set.architecture/
 * Arm A64 Instruction Set Architecture: Armv8-A - Base Instructions (alphabetic order)
 	+ https://developer.arm.com/docs/ddi0596/h/base-instructions-alphabetic-order
-* ARM v8-A Architecture Specification: A64 ISA XML for ARMv8.5
-	+ http://shell-storm.org/armv8-a/
 * Apple Silicon - Apple Developer Documentation
 	- https://developer.apple.com/documentation/apple_silicon
 * asm.thi.ng - baremetal ARM coding resources - http://asm.thi.ng/
@@ -694,6 +691,11 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Daisuke Takahashi and Franz Franchetti
 	- https://dl.acm.org/doi/abs/10.1145/3368474.3368488
 	- https://www.spiral.net/doc/papers/ffte-spiral.pdf
+- Using Arm Scalable Vector Extension to Optimize OPEN MPI
+	- Cluster, Cloud and Internet Computing (CCGRID) 2020
+	- Zhong, Dong, Pavel Shamis, Qinglei Cao, George Bosilca, Shinji Sumimoto, Kenichi Miura, Jack Dongarra
+	- https://ieeexplore.ieee.org/document/9139622
+	- https://www.icl.utk.edu/publications/using-arm-scalable-vector-extension-optimize-open-mpi
 - Using Arm’s scalable vector extension on stencil codes
 	- The Journal of Supercomputing (2019)
 	- Armejach, Adrià, Helena Caminal, Juan M. Cebrian, Rubén Langarita, Rekai González-Alberquilla, Chris Adeniyi-Jones, Mateo Valero, Marc Casas, Miquel Moretó
@@ -744,7 +746,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 ## Software: Assembly
 
 - AZM - Live ARM Assembler and Syntax Checker
-	- https://azm.azerialabs.com/
+	- https://azeria-labs.com/azm/
 - Xbyak_aarch64: JIT assembler for AArch64 CPUs in C++
 	- https://github.com/fujitsu/xbyak_aarch64
 - Xbyak_translator_aarch64: A translator which generates JIT functions for ARMv8 with SVE from JIT functions for x86
