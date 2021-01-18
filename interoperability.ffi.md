@@ -108,6 +108,10 @@
 - http://fortranwiki.org/fortran/show/Interoperability
 - https://stackoverflow.com/tags/fortran-iso-c-binding/info
 - C/Fortran interoperability - https://pages.tacc.utexas.edu/~eijkhout/istc/html/language.html
+- Designing a Modern C++/Fortran Interface by Example
+	- FortranCon 2020; Maximilien Ambroise
+	- https://www.youtube.com/watch?v=5h0qHCVnfHI
+	- https://tcevents.chem.uzh.ch/event/12/contributions/47/
 
 ---
 
