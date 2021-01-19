@@ -925,6 +925,15 @@ Validation: Including translation validation, equivalence checking.
 	- Amal Ahmed
 	- http://www.ccs.neu.edu/home/amal/papers/verifcomp.pdf
 
+## Verification: 2021
+
+- A Minimalistic Verified Bootstrapped Compiler (Proof Pearl)
+	- Certified Programs and Proofs (CPP) 2021
+	- Magnus O. Myreen
+	- https://doi.org/10.1145/3437992.3439915
+	- http://www.cse.chalmers.se/~myreen/cpp2021-bootstrap-myreen.pdf
+	- https://www.youtube.com/watch?v=Ip6Y4O2T60Y
+
 ## Verification: 2020
 
 - A Verified Packrat Parser Interpreter for Parsing Expression Grammars
