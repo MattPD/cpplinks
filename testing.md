@@ -1051,6 +1051,11 @@ Test Doubles: Faking, Mocking
 	- https://www.youtube.com/watch?v=-5N-u34L7wo
 	- https://www.slideshare.net/ClareMacrae/cpp-testing-techniques-tips-and-tricks-cpp-europe
 	- https://github.com/claremacrae/talks/blob/main/Cpp_Testing_Techniques_Tips_and_Tricks.md
+- Test Driven C++
+	- Munich C++ User Group 2020; Phil Nash
+	- Part 1: https://www.youtube.com/watch?v=MqNqi_OvnXA
+	- Part 2: https://www.youtube.com/watch?v=OZFhRjzaC0o
+	- https://levelofindirection.com/refs/tdcpp.html
 
 ## Talks: 2019
 
