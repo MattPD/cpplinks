@@ -393,6 +393,8 @@ See also:
 	- https://sourceware.org/binutils/docs/ld/
 - LLD - The LLVM Linker
 	- https://lld.llvm.org/
+- mold: A Modern Linker
+	- https://github.com/rui314/mold
 
 ## Software: OS: macOS
 
