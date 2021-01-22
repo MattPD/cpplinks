@@ -175,8 +175,10 @@ Compilers Call For Papers for Conferences, Workshops and Journals at WikiCFP - h
 	- LLVM Developers' Meeting - http://llvm.org/devmtg/
 	- http://blog.llvm.org/
 	- http://llvmweekly.org/
-	- Clang: a C language family frontend for LLVM
+	- Clang: A C language family frontend for LLVM
 		- http://clang.llvm.org/
+	- MLIR: Hybrid multi level IR for building compilers
+	        - https://mlir.llvm.org/	
 - GCC (GNU Compiler Collection)
 	- https://gcc.gnu.org/
 	- GNU Tools Cauldron - https://gcc.gnu.org/wiki#Events
@@ -206,6 +208,7 @@ Compilers Call For Papers for Conferences, Workshops and Journals at WikiCFP - h
 		- Comments on the Internals Manual - http://muq.org/~cynbe/gcc/gccint.html
 	- GCC Wiki - https://gcc.gnu.org/wiki
 - LLVM documentation - http://llvm.org/docs/
+- MLIR documentation - https://mlir.llvm.org/docs/
 - Visual C++ documentation
 	- https://docs.microsoft.com/en-us/cpp/
 	- https://github.com/Microsoft/cpp-docs
@@ -260,6 +263,12 @@ See:
 
 # Talks
 
+## 2020
+
+- MLIR: an Agile Infrastructure for Building a Compiler Ecosystem
+     - 2020 LLVM in HPC Workshop ; Mehdi Amini
+     - https://www.youtube.com/watch?v=0bxyZDGs-aA
+     
 ## 2019
 
 - An overview of Clang
