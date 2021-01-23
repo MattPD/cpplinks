@@ -533,6 +533,10 @@ See also: [Computer Architecture](comparch.md)
 	- CGO 2020
 	- Ejebagom John Ojogbo, Mithuna Thottethodi, T. N. Vijaykumar
 	- https://doi.org/10.1145/3368826.3377921
+- Specfuscator: Evaluating Branch Removal as a Spectre Mitigation
+	- Financial Cryptography and Data Security 2021
+	- Martin Schwarzl, Claudio Alberto Canella, Daniel Gruss, Michael Schwarz
+	- https://martinschwarzl.at/media/files/specfuscator.pdf
 - Speculative Load Hardening (a Spectre variant #1 mitigation)
 	- 2018; Chandler Carruth
 	- https://llvm.org/docs/SpeculativeLoadHardening.html
@@ -1822,9 +1826,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- https://www.usenix.org/conference/raid2020/presentation/bhattacharyya
 	- https://github.com/HexHive/specrop/
 - Speculative Dereferencing of Registers: Reviving Foreshadow
-	- 2020
+	- 2020; Financial Cryptography and Data Security 2021
 	- Martin Schwarzl, Thomas Schuster, Michael Schwarz, Daniel Gruss
 	- https://arxiv.org/abs/2008.02307
+	- Extended Version (2021): https://martinschwarzl.at/media/files/spec_deref_extended.pdf
 - Speculative Probing: Hacking Blind in the Spectre Era
 	- ACM Conference on Computer and Communications Security (CCS) 2020
 	- Enes Göktaş, Kaveh Razavi, Georgios Portokalidis, Herbert Bos, Cristiano Giuffrida
