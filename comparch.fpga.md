@@ -103,6 +103,11 @@ https://speakerdeck.com/mattpd/fpgas-and-open-source-hardware-an-intro-meeting-c
   - FOSS Verilog-to-Bitstream FGPA synthesis flow for Xilinx 7-Series FPGAs and iCE40
   - Project X-Ray: Documenting the Xilinx 7-series bit-stream format - https://github.com/SymbiFlow/prjxray
 
+## Software: Compilers
+
+* CIRCT - https://circt.llvm.org/ 
+   - The CIRCT (Circuit IR Compilers and Tools) project is an effort looking to apply MLIR and the LLVM development methodology to the domain of hardware design tools. Dialect like Handshake, FIRRTL, RTL, SV, LLHD etc are available to build the IR at different levels of abstraction. After applying the various transformations and optimizations you can lower it to LLVM IR for targeting the FPGA devices.
+
 # Talks & Videos
 
 * University of Toronto FPGA Seminar Series - http://www.eecg.utoronto.ca/~jayar/FPGAseminar/
