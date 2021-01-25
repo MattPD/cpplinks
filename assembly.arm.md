@@ -655,6 +655,10 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- https://developer.arm.com/docs/101726/0200
 	- Coding for SVE vs Neon
 		- https://developer.arm.com/docs/101726/0200/explore-the-scalable-vector-extension-sve/coding-for-sve-vs-neontm
+- Introduction to Arm SVE
+	- HiPEAC 2021; John Linford
+	- https://www.youtube.com/watch?v=mVdeE2Qbm2I
+	- https://montblanc-project.eu/wp-content/uploads/2021/01/MB2020-HiPEAC_2021-JLinford-SVE.pdf
 - Mastering the Arm HPC ecosystem
 	- CEA-RIKEN HPC school (June 2019)
 	- https://indico.math.cnrs.fr/event/4705/
