@@ -64,7 +64,11 @@ Contents:
 * Boost Dynamic Library Load (Boost.DLL): Library for comfortable work with DLL and DSO
 	+ https://github.com/boostorg/dll
 	+ https://www.boost.org/doc/libs/release/doc/html/boost_dll.html
-* cave_miner: search for code cave in binaries (ELF, Mach-O, PE), and inject code in them - https://github.com/Antonin-Deniau/cave_miner
+* cave_miner: search for code cave in binaries (ELF, Mach-O, PE), and inject code in them
+	- https://github.com/Antonin-Deniau/cave_miner
+* checksec.py: Checksec tool in Python, rich output, based on LIEF
+	- A simple tool to verify the security properties of your binaries.
+	- https://github.com/Wenzel/checksec.py
 * codesize: Code size visualization tool with PDB/ELF/Mach-O support
 	+ https://github.com/zeux/codesize
 * ddbug - Display debugging information
