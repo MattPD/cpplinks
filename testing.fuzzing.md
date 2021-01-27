@@ -193,6 +193,9 @@ See also:
 	- Feedback-driven fuzzing - https://github.com/google/honggfuzz/blob/master/docs/FeedbackDrivenFuzzing.md
 	- Fuzzing TCP servers - http://blog.swiecki.net/2018/01/fuzzing-tcp-servers.html
 	- Internals of Hongfuzz - Intel PT - https://tunnelshade.in/blog/2018/09/hongfuzz-intel-pt-instrumentation/
+- Jackalope: Binary, coverage-guided fuzzer for Windows and macOS
+	- A customizable, distributed, coverage-guided fuzzer that is able to work with black-box binaries.
+	- https://github.com/googleprojectzero/Jackalope
 - JFS (JIT Fuzzing Solver)
 	- Constraint solver based on coverage-guided fuzzing
 	- https://github.com/delcypher/jfs
