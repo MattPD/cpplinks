@@ -406,6 +406,15 @@ See also:
 	- Erik van der Kouwe, Vinod Nigade, Cristiano Giuffrida
 	- http://www.cs.vu.nl/~giuffrida/papers/dangsan_eurosys17.pdf
 	- https://github.com/vusec/dangsan
+- Debugging and Detecting Numerical Errors in Computation with Posits
+	- PLDI 2020
+	- Sangeeta Chowdhary, Jay P. Lim, Santosh Nagarakatte
+	- https://doi.org/10.1145/3385412.3386004
+	- https://www.cs.rutgers.edu/~santosh.nagarakatte/papers/PositDebug-PLDI-2020-preprint.pdf
+	- FPSanitizer: A debugger to detect and diagnose numerical errors in floating point programs
+		- https://github.com/rutgers-apl/fpsanitizer
+	- PositDebug: A debugger to detect numerical errors in applications using posits
+		- https://github.com/rutgers-apl/PositDebug
 - EffectiveSan: Type and Memory Error Detection using Dynamically Typed C/C++
 	- PLDI 2018
 	- Gregory J. Duck, Roland H. C. Yap
