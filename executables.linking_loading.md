@@ -489,6 +489,10 @@ See also:
 	- FOSDEM 2017; Peter Smith
 	- https://archive.fosdem.org/2017/schedule/event/lld/
 	- https://archive.fosdem.org/2017/schedule/event/lld/attachments/slides/1446/export/events/attachments/lld/slides/1446/FosdemLLD2017.pdf
+- lld: A Fast, Simple, and Portable Linker
+	- 2017 LLVM Developers’ Meeting; Rui Ueyama
+	- https://www.youtube.com/watch?v=yTtWohFzS6s
+	- https://llvm.org/devmtg/2017-10/slides/Ueyama-lld.pdf
 - My Little Object File: How Linkers Implement C++
 	- CppCon 2017; Michael Spencer
 	- https://youtu.be/a5L66zguFe4
@@ -500,7 +504,7 @@ See also:
 ## Talks: 2016
 
 - New LLD linker for ELF: A high performance linker from the LLVM project
-	- 2016 EuroLLVM Developers' Meeting; R. Ueyama
+	- 2016 EuroLLVM Developers' Meeting; Rui Ueyama
 	- https://www.youtube.com/watch?v=CYCRqjVa6l4
 	- https://llvm.org/devmtg/2016-03/Presentations/EuroLLVM%202016-%20New%20LLD%20linker%20for%20ELF.pdf
 - Optimizing App Startup Time: Linkers, loaders, and you
