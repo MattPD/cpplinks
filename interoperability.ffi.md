@@ -112,6 +112,11 @@
 	- FortranCon 2020; Maximilien Ambroise
 	- https://www.youtube.com/watch?v=5h0qHCVnfHI
 	- https://tcevents.chem.uzh.ch/event/12/contributions/47/
+- Shroud: generate Fortran and Python wrappers for C and C++ libraries
+	- https://github.com/LLNL/shroud
+	- FortranCon 2020; Lee Taylor
+		- https://tcevents.chem.uzh.ch/event/12/contributions/30/
+		- https://www.youtube.com/watch?v=1mdI-M94vDc
 
 ---
 
