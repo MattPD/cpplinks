@@ -472,6 +472,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 ## Testing: Software
 
+- DejaGnu - GNU Test Framework
+	- https://www.gnu.org/software/dejagnu/
+	- GCC Wiki: How to prepare a testcase
+		- https://gcc.gnu.org/wiki/HowToPrepareATestcase
+	- GCC Contributors Guide: Working with the testsuite
+		- https://dmalcolm.fedorapeople.org/gcc/newbies-guide/working-with-the-testsuite.html
 - Fuzzing LLVM libraries and tools - https://llvm.org/docs/FuzzingLLVM.html
 	- Adventures in Fuzzing Instruction Selection
 		- 2017 EuroLLVM Developers’ Meeting; Justin Bogner
