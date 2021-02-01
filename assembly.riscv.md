@@ -100,6 +100,15 @@ https://riscv.org/risc-v-books/
 	- http://shell-storm.org/shellcode/files/shellcode-908.php
 	- https://github.com/chrysh/riscv_exploitation
 
+### Instruction Set Architecture: Extensions
+
+#### Instruction Set Architecture: Extensions: V Vector Extension
+
+- riscv-v-spec: Working draft of the proposed RISC-V V vector extension
+	- https://github.com/riscv/riscv-v-spec
+- Programming with RISC-V Vector Instructions
+	- https://gms.tf/riscv-vector.html
+
 ## Simulation
 
 - Flexible Timing Simulation of RISC-V Processors with Sniper
