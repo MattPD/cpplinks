@@ -312,7 +312,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- 2019 LLVM Developers’ Meeting; Sjoerd Meijer, Sam Parker
 	- https://www.youtube.com/watch?v=TUDWpAhLjBU
 	- http://llvm.org/devmtg/2019-10/talk-abstracts.html#tech2
-- Helium
+- Helium – Arm Developer
 	- https://developer.arm.com/architectures/instruction-sets/simd-isas/helium
 	- Helium Intrinsics
 		- https://developer.arm.com/architectures/instruction-sets/simd-isas/helium/helium-intrinsics
@@ -612,6 +612,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 - ARC SIMD Built-in Functions - https://gcc.gnu.org/onlinedocs/gcc/ARC-SIMD-Built-in-Functions.html
 - ARM Intrinsics - MSDN - Microsoft - https://docs.microsoft.com/en-us/cpp/intrinsics/arm-intrinsics
+- SIMD ISAs – Arm Developer
+	- https://developer.arm.com/architectures/instruction-sets/simd-isas
 - Vectorization cost modeling for NEON, AVX, and SVE
 	- Performance Evaluation 140–141 (2020)
 	- Angela Pohl, Biagio Cosenza, Ben Juurlink
@@ -620,6 +622,17 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ### NEON
 
+* Neon – Arm Developer
+	- https://developer.arm.com/architectures/instruction-sets/simd-isas/neon
+	- Neon Programmer's Guide for Armv8-A
+		- https://developer.arm.com/architectures/instruction-sets/simd-isas/neon/neon-programmers-guide-for-armv8-a
+* NEON Intrinsics - https://developer.arm.com/technologies/neon/intrinsics
+* NEON intrinsics guide - https://github.com/thenifty/neon-guide
+* NEON Programmer’s Guide - http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.den0018a/
+* Porting and Optimizing HPC Applications for Arm Documentation
+	+ https://developer.arm.com/docs/101725/0200
+	+ Coding for Neon
+		- https://developer.arm.com/docs/101725/0200/coding-for-neontm
 * ARM NEON Intrinsics - https://gcc.gnu.org/onlinedocs/gcc-4.9.4/gcc/ARM-NEON-Intrinsics.html#ARM-NEON-Intrinsics
 * Branch Free - Geoff Langdale
 	- An Intel Programmer Jumps Over the Wall: First Impressions of ARM SIMD Programming
@@ -630,13 +643,6 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	+ International Workshop on Software and Compilers for Embedded Systems (SCOPES) 2018
 	+ Angela Pohl, Biagio Cosenza, Ben Juurlink
 	+ http://www.cosenza.eu/papers/PohlSCOPES18.pdf
-* NEON Intrinsics - https://developer.arm.com/technologies/neon/intrinsics
-* NEON intrinsics guide - https://github.com/thenifty/neon-guide
-* NEON Programmer’s Guide - http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.den0018a/
-* Porting and Optimizing HPC Applications for Arm Documentation
-	+ https://developer.arm.com/docs/101725/0200
-	+ Coding for Neon
-		- https://developer.arm.com/docs/101725/0200/coding-for-neontm
 
 ### Scalable Vector Extension (SVE)
 
