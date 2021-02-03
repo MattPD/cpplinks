@@ -205,6 +205,9 @@
 	- ACCU 2015; Jonathan Wakely
 	- https://kayari.org/tmp/abi.html
 	- https://accu.org/conf-docs/PDFs_2015/JonathanWakely-What%20Is%20An%20ABI%20And%20Why%20Is%20It%20So%20Complicated.pdf
+- What is an ABI, and Why is Breaking it Bad?
+	- CppCon 2020; Marshall Clow
+	- https://www.youtube.com/watch?v=7RoTDjLLXJQ
 
 ---
 
