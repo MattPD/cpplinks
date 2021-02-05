@@ -57,8 +57,10 @@ Contents:
 * bingrep: Greps through binaries from various OSs and architectures, and colors them (ELF, Mach-O, PE)
 	+ https://github.com/m4b/bingrep
 * Bloaty McBloatface: a size profiler for binaries (ELF, Mach-O) - https://github.com/google/bloaty
-	+ http://blog.reverberate.org/2016/11/07/introducing-bloaty-mcbloatface.html
-	+ “(Ab)using Compiler Tools”; CppCon 2019; Reka Kovacs
+	- http://blog.reverberate.org/2016/11/07/introducing-bloaty-mcbloatface.html
+	- How Bloaty Works
+		- https://github.com/google/bloaty/blob/master/doc/how-bloaty-works.md
+	- “(Ab)using Compiler Tools”; CppCon 2019; Reka Kovacs
 		- https://www.youtube.com/watch?v=5Lke40ywMaU
 		- https://github.com/CppCon/CppCon2019/tree/master/Presentations/abusing_compiler_tools
 * Boost Dynamic Library Load (Boost.DLL): Library for comfortable work with DLL and DSO
