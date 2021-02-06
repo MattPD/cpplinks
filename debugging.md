@@ -1187,3 +1187,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 * The VS Debugger: How It Works + Tips and Tricks - GoingNative 28 - Gabriel Ha, Gregg Miskelly, Steve Carroll
 	+ https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-28-The-VS-Debugger-How-It-Works-Tips-and-Tricks
+
+## 2011
+
+- Forensic Debugging: How to Autopsy, Repair, and Reanimate a Release-built Game
+	- GDC 2011; Elan Ruskin
+	- https://www.gdcvault.com/play/1014351/Forensic-Debugging-How-to-Autopsy
