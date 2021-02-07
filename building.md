@@ -669,6 +669,11 @@ See also:
 
 ### CMake Talks
 
+#### CMake Talks: 2021
+
+- Better CMake - Jefferson Amstutz
+	- https://www.youtube.com/playlist?list=PL8i3OhJb4FNV10aIZ8oF0AA46HgA2ed8g
+
 #### CMake Talks: 2020
 
 - C++ Weekly - Jason Turner
