@@ -96,6 +96,9 @@ See also: [Computer Architecture](comparch.md)
 - Negative Result: Reading Kernel Memory From User Mode
 	- 2017; Anders Fogh
 	- https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/
+- Revisiting Isolated and Trusted Execution via Microarchitectural Cryptanalysis
+	- 2020 PhD Dissertation; Daniel Moghimi
+	- https://digital.wpi.edu/show/w9505326n
 - Software-based Microarchitectural Attacks
 	- 2017 PhD dissertation; Daniel Gruss
 	- https://gruss.cc/files/phd_thesis.pdf
