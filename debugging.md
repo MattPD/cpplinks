@@ -529,6 +529,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ### GDB: Projects
 
+* asm2cfg: Python command-line tool to turn GDB disassembly dumps to control-flow graphs
+	- https://github.com/Kazhuu/asm2cfg
 * CGDB: Console front-end to the GNU debugger
 	- https://github.com/cgdb/cgdb
 * Gdb Assembly Informant
