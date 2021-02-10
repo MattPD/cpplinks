@@ -379,6 +379,8 @@ See also:
 - libdlbind: Dynamic creation and update of ELF files, or: an allocator for JIT compilers
 	- an extension to System V-style dynamic loaders to allow dynamic allocation of objects and dynamic binding of symbols
 	- https://github.com/stephenrkell/libdlbind
+- libwhich: Like `which`, for dynamic libraries
+	- https://github.com/vtjnash/libwhich
 - linkermapviz
 	- Interactive visualization of GNU ld’s linker map with a tree map.
 	- https://github.com/PromyLOPh/linkermapviz
