@@ -17,6 +17,7 @@ See also:
 	- [Talks](#testing-talks)
 - [Validation](#validation)
 - [Verification](#verification)
+	- [Talks](#verification-talks)
 
 ---
 
@@ -983,3 +984,10 @@ Validation: Including translation validation, equivalence checking.
 	- Julie L. Newcomb, Andrew Adams, Steven Johnson, Rastislav Bodik, Shoaib Kamil
 	- https://2020.splashcon.org/details/splash-2020-oopsla/42/Verifying-and-Improving-Halide-s-Term-Rewriting-System-with-Program-Synthesis
 	- https://dl.acm.org/doi/10.1145/3428234
+
+## Verification: Talks
+
+- Verifying optimizations using SMT solvers
+	- 2013 LLVM Developers’ Meeting; Nuno Lopes
+	- https://www.youtube.com/watch?v=njav5YxXaCs
+	- https://llvm.org/devmtg/2013-11/slides/Lopes-SMT.pdf
