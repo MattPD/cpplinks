@@ -8,6 +8,8 @@ Note: see also [Communities](communities.md) -- where you can learn together.
 - C++ Patterns: A repository of modern C++ patterns curated by the community
 	- https://github.com/sftrabbit/CppPatterns-Patterns
 	- https://cpppatterns.com/
+- C++ Tip of The Week
+	- https://github.com/QuantlabFinancial/cpp_tip_of_the_week
 - C++ Tips of the Week: https://abseil.io/tips/
 - Awesome Modern C++ - A collection of resources on modern C++.
 	- https://awesomecpp.com/
@@ -16,6 +18,7 @@ Note: see also [Communities](communities.md) -- where you can learn together.
 	- https://github.com/lefticus/cppbestpractices
 - Get Started! - https://isocpp.org/get-started
 - Herb Sutter's Guru of the Week (GotW) series: https://herbsutter.com/gotw/
+	- 1997-2008: http://www.gotw.ca/gotw/
 - Learning C++ - Simon Brand - https://blog.tartanllama.xyz/learning-cpp/
 - List of Engineers Willing to Mentor You - http://stephaniehurlburt.com/blog/2016/11/14/list-of-engineers-willing-to-mentor-you
 - Proposal for Study Group: C++ Education - http://wg21.link/P1231
@@ -91,7 +94,7 @@ Note: see also [Communities](communities.md) -- where you can learn together.
 - C++ Weekly - Jason Turner - https://www.youtube.com/user/lefticus1/playlists
 - code_report
 	- https://youtube.com/c/codereport
-	- https://github.com/codereport
+	- https://github.com/codereport/Talks
 - Everything Cpp - https://www.youtube.com/channel/UCxwGBrWeIIWO9V_uLwRWCdA/playlists
 - Programming in C++ (Slides and Videos) - Michael Adams - https://www.ece.uvic.ca/~frodo/cppbook/
 
