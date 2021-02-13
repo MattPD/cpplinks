@@ -362,6 +362,11 @@ See also:
 	- https://github.com/trailofbits/sienna-locomotive
 	- User-Friendly Fuzzing with Sienna Locomotive
 		- https://blog.trailofbits.com/2019/04/08/user-friendly-fuzzing-with-sienna-locomotive/
+- TinyAFL
+	- Works similarly to WinAFL but instead uses TinyInst for coverage
+	- https://github.com/linhlhq/TinyAFL
+- WinAFL: A fork of AFL for fuzzing Windows binaries
+	- https://github.com/googleprojectzero/winafl
 
 ## Software: Performance
 
