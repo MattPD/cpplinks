@@ -757,6 +757,10 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 - AZM - Live ARM Assembler and Syntax Checker
 	- https://azeria-labs.com/azm/
+- Lightening: Just-in-time code generation library derived from GNU Lightning
+	- Lightening can generate code for the x86-64, i686, ARMv7, and AArch64 architectures.  It supports the calling conventions of MS Windows, GNU/Linux, and Mac OS.
+	- https://gitlab.com/wingo/lightening
+	- https://wingolog.org/archives/2019/05/24/lightening-run-time-code-generation
 - Xbyak_aarch64: JIT assembler for AArch64 CPUs in C++
 	- https://github.com/fujitsu/xbyak_aarch64
 - Xbyak_translator_aarch64: A translator which generates JIT functions for ARMv8 with SVE from JIT functions for x86
