@@ -419,6 +419,19 @@ See also:
 	- https://github.com/DavidBuchanan314/dlinject
 - Faulty.lib: Dynamic linker for compressed libraries, with on-demand decompression (ELF Linux systems)
 	- https://github.com/glandium/faulty.lib
+- Fun with LD_PRELOAD
+	- linux.conf.au 2009; Kevin Pulo
+	- https://www.youtube.com/watch?v=WocKUD5a4O0
+	- http://kev.pulo.com.au/publications/lca2009/lca2009-kevin-pulo-fun-with-ld_preload.pdf
+	- LD_PRELOAD libraries
+		- libsysconfcpus: override number of CPUs reported by sysconf()
+			- http://kev.pulo.com.au/libsysconfcpus/
+		- xlibtrace: trace libX11 calls
+			- http://kev.pulo.com.au/xlibtrace/
+		- xmultiwin: transparently "clone" X11 windows
+			- http://kev.pulo.com.au/xmultiwin/
+		- tunerlimit: control access to setrlimit(2)
+			- http://kev.pulo.com.au/tunerlimit/
 - GOTCHA: a library for wrapping function calls in shared libraries
 	- Gotcha is a library that wraps functions. Tools can use gotcha to install hooks into other libraries, for example putting a wrapper function around libc's malloc.
 	- It is similar to LD_PRELOAD, but operates via a programmable API. This enables easy methods of accomplishing tasks like code instrumentation or wholesale replacement of mechanisms in programs without disrupting their source code.
