@@ -155,6 +155,9 @@
 * Patrice Roy - Exceptions in C++ and their Costs
 	+ A series of microbenchmarks looking at the tradeoffs between exceptions and error codes.
 	+ http://h-deb.clg.qc.ca/Sujets/Developpement/Exceptions-Costs.html
+* Fangrui Song
+	- C++ exception handling ABI
+	- https://maskray.me/blog/2020-12-12-c++-exception-handling-abi
 * Herb Sutter - When and How to Use Exceptions
 	+ Guidelines on which cases to use exceptions for.
 	+ http://www.drdobbs.com/when-and-how-to-use-exceptions/184401836
