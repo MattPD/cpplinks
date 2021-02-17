@@ -555,8 +555,19 @@ Contents:
 
 - A Deep dive into (implicit) Thread Local Storage
 	- https://chao-tic.github.io/blog/2018/12/25/tls
+- All about thread-local storage
+	- https://maskray.me/blog/2021-02-14-all-about-thread-local-storage
 - Android ELF TLS
 	- https://android.googlesource.com/platform/bionic/+/HEAD/docs/elf-tls.md
+- ELF Binary Relocations and Thread Local Storage - Stafford Horne
+	- TLS Examples
+		- https://github.com/stffrdhrn/tls-examples
+	- ELF Binaries and Relocation Entries
+		- http://stffrdhrn.github.io/hardware/embedded/openrisc/2019/11/29/relocs.html
+	- Thread Local Storage
+		- https://stffrdhrn.github.io/hardware/embedded/openrisc/2020/01/19/tls.html
+	- How Relocations and Thread Local Storage are Implemented
+		- https://stffrdhrn.github.io/software/toolchain/openrisc/2020/07/21/relocs_tls_impl.html
 - ELF Handling For Thread-Local Storage
 	- https://www.akkadia.org/drepper/tls.pdf
 - Thread Local Storage (ELF Thread Local Storage ABI)
