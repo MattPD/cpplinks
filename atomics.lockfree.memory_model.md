@@ -126,6 +126,11 @@
 
 ## Papers - Data Structures
 
+- On the Nature of Progress
+	- OPODIS 2011: International Conference On Principles Of Distributed Systems
+	- Maurice Herlihy, Nir Shavit
+	- http://hdl.handle.net/1721.1/73900
+	- http://www.cs.tau.ac.il/~shanir/progress.pdf
 - Practical lock freedom
 	- 2004 Cambridge University Technical Report UCAM-CL-TR-579; Keir Fraser
 	- https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-579.pdf
@@ -206,6 +211,7 @@
 	- IEEE Computer 29(12) 1996
 	- Sarita V. Adve, Kourosh Gharachorloo
 	- http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-95-7.pdf
+	- http://www.ai.mit.edu/projects/aries/papers/consistency/computer_29_12_dec1996_p66.pdf
 - Simple and Efficient Semantics for Concurrent Programming Languages
 	- http://web.cs.ucla.edu/~todd/research/memmodels.html
 - Synthesizing Memory Models from Framework Sketches and Litmus Tests
