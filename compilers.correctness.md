@@ -388,6 +388,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- Programming Language Design and Implementation (PLDI) 2013
 	- Robin Morisset, Pankaj Pawan, Francesco Zappa Nardelli
 	- https://www.di.ens.fr/~zappa/readings/pldi13.pdf
+- CTOS: Compiler Testing for Optimization Sequences of LLVM
+	- IEEE Transactions on Software Engineering 2021
+	- He Jiang, Zhide Zhou, Zhilei Ren, Jingxuan Zhang, Xiaochen Li
+	- https://doi.org/10.1109/TSE.2021.3058671
+	- https://doi.ieeecomputersociety.org/10.1109/TSE.2021.3058671
 - Detecting Arithmetic Optimization Opportunities for C Compilers by Randomly Generated Equivalent Programs
 	- IPSJ Transactions on System LSI Design Methodology, vol. 9, 2016; A. Hashimoto and N. Ishiura
 	- <https://www.jstage.jst.go.jp/article/ipsjtsldm/9/0/9_21/_article>
