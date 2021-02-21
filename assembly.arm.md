@@ -903,13 +903,9 @@ See also: [Performance Tools](performance.tools.md)
 	- The ARM Computer Vision and Machine Learning library is a set of functions optimised for both ARM CPUs and GPUs using SIMD technologies.
 	- https://developer.arm.com/technologies/compute-library
 	- https://github.com/ARM-software/ComputeLibrary
-- HWCPipe: a simple and extensible interface for reading CPU and GPU hardware counters
-	- https://github.com/ARM-software/HWCPipe
 - LIKWID: Performance monitoring and benchmarking suite
 	- https://github.com/RRZE-HPC/likwid
 	- https://hpc.fau.de/research/tools/likwid/
-- Machine-readable data: JSON descriptions of hardware performance events for Arm cores
-	- https://github.com/ARM-software/data
 - Microbenchmarks for Cortex A53
 	- https://github.com/thomwiggers/microbenchmark-aarch64/
 	- Energy-Efficient ARM64 Cluster with Cryptanalytic Applications
@@ -923,15 +919,26 @@ See also: [Performance Tools](performance.tools.md)
 	- https://github.com/DLTcollab/sse2neon
 - Streamline Performance Analyzer
 	- https://developer.arm.com/tools-and-software/embedded/arm-development-studio/components/streamline-performance-analyzer
+- Using Perf and its friend eBPF on Arm platform
+	- Linaro Connect San Diego 2019; Leo Yan
+	- https://connect.linaro.org/resources/san19/san19-223/
+
+### Software: Performance: Events
+
+- HWCPipe: a simple and extensible interface for reading CPU and GPU hardware counters
+	- https://github.com/ARM-software/HWCPipe
+- Linux: ARMv8 PMU Performance Events
+	- https://github.com/torvalds/linux/tree/master/tools/perf/pmu-events/arch/arm64
+	- https://github.com/torvalds/linux/blob/master/arch/arm64/include/asm/perf_event.h
+	- https://github.com/torvalds/linux/blob/master/arch/arm64/kernel/perf_event.c
+- Machine-readable data: JSON descriptions of hardware performance events for Arm cores
+	- https://github.com/ARM-software/data
 - User-mode access to ARMv7 PMU cycle counters
 	- https://github.com/thoughtpolice/enable_arm_pmu
 	- User-mode performance counters for ARM/Linux
 		- http://neocontra.blogspot.com/2013/05/user-mode-performance-counters-for.html
 - User-mode access to ARMv8 PMU cycle counters
 	- https://github.com/rdolbeau/enable_arm_pmu
-- Using Perf and its friend eBPF on Arm platform
-	- Linaro Connect San Diego 2019; Leo Yan
-	- https://connect.linaro.org/resources/san19/san19-223/
 
 ## Software: Virtualization
 
