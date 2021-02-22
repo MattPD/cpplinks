@@ -105,7 +105,12 @@
 
 ## C++23: Trip Reports
 
-### 2020-11 Virtual Meeting
+### 2021-02-22 Virtual Meeting
+
+- Trip report: Winter 2021 ISO C++ standards meeting (virtual)
+	- https://herbsutter.com/2021/02/22/trip-report-winter-2021-iso-c-standards-meeting-virtual/
+
+### 2020-11-09 Virtual Meeting
 
 - Trip report: Autumn ISO C++ standards meeting (virtual)
 	- https://herbsutter.com/2020/11/13/trip-report-autumn-iso-c-standards-meeting-virtual/
