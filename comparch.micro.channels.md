@@ -558,6 +558,10 @@ See also: [Computer Architecture](comparch.md)
 	- Kevin Loughlin, Ian Neal, Jiacheng Ma, Elisa Tsai, Ofir Weisse, Satish Narayanasamy, Baris Kasikci
 	- https://www.kevinloughlin.org/dolma.pdf
 	- https://github.com/efeslab/dolma
+- Hunting the Haunter — Efficient Relational Symbolic Execution for Spectre with Haunted RelSE
+	- NDSS 2021
+	- Lesly-Ann Daniel, Sébastien Bardin, Tamara Rezk
+	- https://www.ndss-symposium.org/ndss-paper/hunting-the-haunter-efficient-relational-symbolic-execution-for-spectre-with-haunted-relse/
 
 ### Defense - Speculation: 2020
 
