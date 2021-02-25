@@ -82,9 +82,14 @@ See also: [computer architecture](comparch.md)
 ### CUDA Talks: 2021
 
 - CUDA Memory Model
-	- CUDA Community Meetup Group; 2021-01-04; Georgy Evtushenko
+	- CUDA Community Meetup Group 2021-01-04
+	- Georgy Evtushenko
 	- https://www.youtube.com/watch?v=VJ1QLrmfQws
 	- https://github.com/CUDACommunity/CUDACommunityMeetup2021/tree/master/CUDAMemoryModel
+- The CUDA C++ Standard Library
+	- Meeting C++ 2021
+	- Bryce Adelstein Lelbach
+	- https://www.youtube.com/watch?v=-ENnYEWezKo
 
 ---
 
