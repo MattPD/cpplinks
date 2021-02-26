@@ -372,6 +372,13 @@
 	- act is a toolbox for finding concurrency memory model discrepancies between C code and its compiled assembly.
 	- It can use memalloy as a test-case generator, and generates litmus tests that can be used with herd7.
 	- https://github.com/MattWindsor91/act/
+- C11Tester: A Testing tool for C11 and C++11 Atomics
+	- http://plrg.ics.uci.edu/c11tester/
+	- C11Tester: A Fuzzer for C/C++ Atomics
+		- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2021
+		- Weiyu Luo, Brian Demsky
+		- C11Tester: A Race Detector for C/C++ Atomics Technical Report
+			- https://arxiv.org/abs/2102.07901
 - CDSChecker: A Model Checker for C11 and C++11 Atomics
 	- http://demsky.eecs.uci.edu/c11modelchecker.html
 	- http://plrg.eecs.uci.edu/publications/c11modelcheck.pdf
