@@ -608,6 +608,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://github.com/WebFreak001/code-debug
 - neogdb.vim: Vim GDB front-end for neovim
 	- https://github.com/huawenyu/neogdb.vim
+- nvim-gdb: Neovim thin wrapper for GDB, LLDB, PDB/PDB++, and BashDB
+	- https://github.com/sakhnik/nvim-gdb
 - RealGUD: An extensible, modular GNU Emacs front-end for interacting with external debuggers
 	- https://github.com/realgud/realgud
 
@@ -782,13 +784,15 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 #### LLDB: Projects: Editor Integration
 
-* CodeLLDB: a LLDB front end for Visual Studio Code - https://github.com/vadimcn/vscode-lldb
-* LLDB Vim Frontend - https://github.com/gilligan/vim-lldb
-* LLDB Neovim Frontend - https://github.com/dbgx/lldb.nvim
-* Native Debug
+- CodeLLDB: a LLDB front end for Visual Studio Code - https://github.com/vadimcn/vscode-lldb
+- LLDB Neovim Frontend - https://github.com/dbgx/lldb.nvim
+- LLDB Vim Frontend - https://github.com/gilligan/vim-lldb
+- Native Debug
 	- GDB & LLDB Debugger support for VSCode
 	- https://marketplace.visualstudio.com/items?itemName=webfreak.debug
 	- https://github.com/WebFreak001/code-debug
+- nvim-gdb: Neovim thin wrapper for GDB, LLDB, PDB/PDB++, and BashDB
+	- https://github.com/sakhnik/nvim-gdb
 
 ### LLDB: Readings
 
