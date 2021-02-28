@@ -621,6 +621,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- 2019 LLVM Developers’ Meeting; Brian Homerding, Michael Kruse
 	- https://www.youtube.com/watch?v=isVQ8kYqaSA
 	- https://llvm.org/devmtg/2019-10/slides/Homerding-Kruse-LLVMTestingInfrastructureTutorial.pdf
+- Guaranteeing the correctness of MC for ARM
+	- 2012 EuroLLVM Developers’ Meeting; Richard Barton
+	- https://www.youtube.com/watch?v=3A-QM8hWmAc
+	- http://llvm.org/devmtg/2012-04-12/Slides/Richard_Barton.pdf
 - Testing and Qualification of Optimizing Compilers for Functional Safety
 	- 2019 EuroLLVM Developers’ Meeting; José Luis March Cabrelles
 	- https://www.youtube.com/watch?v=nSfT4oND9dU
