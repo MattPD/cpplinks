@@ -313,6 +313,13 @@ See also:
 		- Generative Programming: Concepts and Experiences (GPCE) 2014
 		- James H. Hill and Dennis C. Feiock
 		- https://core.ac.uk/download/pdf/46962422.pdf
+- pinball2elf: a tool to create stand-alone Linux binaries from checkpoints for arbitrary portions of execution of other Linux programs
+	- https://github.com/intel/pinball2elf
+	- ELFies: Executable Region Checkpoints for Performance Analysis and Simulation
+		- CGO 2021
+		- Harish Patil, Alexander Isaev, Wim Heirman, Alen Sabu, Ali Hajiabadi, Trevor E. Carlson
+		- https://conf.researchr.org/details/cgo-2021/cgo-2021-papers/11/ELFies-Executable-Region-Checkpoints-for-Performance-Analysis-and-Simulation
+		- https://heirman.net/papers/patil2021elfies.pdf
 - PinCTF: use Intel's Pin Tool to instrument binaries and count instructions
 	- https://github.com/ChrisTheCoolHut/PinCTF
 
