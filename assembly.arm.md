@@ -1264,6 +1264,11 @@ See also: [Performance Tools](performance.tools.md)
 	- Chapter 8: the stack - http://thinkingeek.com/2017/05/29/exploring-aarch64-assembler-chapter-8/
 	- Chapter 9: control constructs - http://thinkingeek.com/2017/11/05/exploring-aarch64-assembler-chapter-9/
 - Introduction to ARMv8 64-bit Architecture - https://web.archive.org/https://quequero.org/2014/04/introduction-to-arm-architecture/
+- Programming with 64-Bit ARM Assembly Language
+	- https://www.apress.com/us/book/9781484258804
+	- https://github.com/Apress/programming-with-64-bit-ARM-assembly-language
+	- HelloSilicon: third-party Apple Silicon version
+		- https://github.com/below/HelloSilicon
 
 ## Thumb-2
 
