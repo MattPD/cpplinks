@@ -238,35 +238,37 @@ Contents:
 
 ## DWARF: Readings
 
-* An interesting tree serialization algorithm from DWARF - https://eli.thegreenplace.net/2011/09/29/an-interesting-tree-serialization-algorithm-from-dwarf
-* David A's DWARF Page - https://www.prevanders.net/dwarf.html
-* Debugging formats DWARF and STAB - https://www.ibm.com/developerworks/library/os-debugging/
-* DWARF Extensions for Separate Debug Information Files - https://gcc.gnu.org/wiki/DebugFission
-* DWARF Package File Format - https://gcc.gnu.org/wiki/DebugFissionDWP
-* DWARF: Debug Information is Huge and What to do About It
+- An interesting tree serialization algorithm from DWARF - https://eli.thegreenplace.net/2011/09/29/an-interesting-tree-serialization-algorithm-from-dwarf
+- David A's DWARF Page - https://www.prevanders.net/dwarf.html
+- Debugging formats DWARF and STAB - https://www.ibm.com/developerworks/library/os-debugging/
+- DWARF Extensions For Heterogeneous Debugging
+	- https://llvm.org/docs/AMDGPUDwarfExtensionsForHeterogeneousDebugging.html
+- DWARF Extensions for Separate Debug Information Files - https://gcc.gnu.org/wiki/DebugFission
+- DWARF Package File Format - https://gcc.gnu.org/wiki/DebugFissionDWP
+- DWARF: Debug Information is Huge and What to do About It
 	- Samy Al Bahra
 	- https://documentation.backtrace.io/dwarf/
 	- https://help.backtrace.io/en/articles/1716990-dwarf
-* Exploring the DWARF debug format information - https://www.ibm.com/developerworks/aix/library/au-dwarf-debug-format/index.html
-* From Debugging-Information Based Binary-Level Type Inference to CFG Generation
-	+ Conference on Data and Application Security and Privacy (CODASPY) 2018
-	+ D. Zeng and G. Tan
-	+ http://www.cse.psu.edu/~gxt29/papers/cfgConsMeta.pdf
-* How debuggers work: Part 3 - Debugging information - http://eli.thegreenplace.net/2011/02/07/how-debuggers-work-part-3-debugging-information
-* Implementing a Debugger: The Fundamentals - https://backtrace.io/blog/debugger-internals/
-* Improving C++ Builds with Split DWARF - https://www.productive-cpp.com/improving-cpp-builds-with-split-dwarf/
-* Introduction to the DWARF Debugging Format - http://www.dwarfstd.org/doc/Debugging%20using%20DWARF.pdf
-* Programmatic access to the call stack in C++ - https://eli.thegreenplace.net/2015/programmatic-access-to-the-call-stack-in-c/
-* Querying DWARF For Fun And Profit - https://developers.redhat.com/blog/2015/01/22/querying-dwarf-for-fun-and-profit/
-* Reliable and Fast DWARF-based Stack Unwinding
-	+ OOPSLA 2019
-	+ Théophile Bastian, Stephen Kell, Francesco Zappa Nardelli
-	+ https://www.di.ens.fr/~zappa/projects/frdwarf/
-	+ https://2019.splashcon.org/details/splash-2019-oopsla/30/Reliable-and-Fast-DWARF-based-Stack-Unwinding
-* The contents of DWARF sections - https://eli.thegreenplace.net/2011/12/26/the-contents-of-dwarf-sections
-* Using COMDAT Sections to Reduce the Size of DWARF Debug Information - https://gcc.gnu.org/wiki/DwarfSeparateTypeInfo
-* Where are your symbols, debuginfo and sources? - https://gnu.wildebeest.org/blog/mjw/2016/02/02/where-are-your-symbols-debuginfo-and-sources/
-* Writing a Linux Debugger Part 4: Elves and dwarves - https://blog.tartanllama.xyz/writing-a-linux-debugger-elf-dwarf/
+- Exploring the DWARF debug format information - https://www.ibm.com/developerworks/aix/library/au-dwarf-debug-format/index.html
+- From Debugging-Information Based Binary-Level Type Inference to CFG Generation
+	- Conference on Data and Application Security and Privacy (CODASPY) 2018
+	- D. Zeng and G. Tan
+	- http://www.cse.psu.edu/~gxt29/papers/cfgConsMeta.pdf
+- How debuggers work: Part 3 - Debugging information - http://eli.thegreenplace.net/2011/02/07/how-debuggers-work-part-3-debugging-information
+- Implementing a Debugger: The Fundamentals - https://backtrace.io/blog/debugger-internals/
+- Improving C++ Builds with Split DWARF - https://www.productive-cpp.com/improving-cpp-builds-with-split-dwarf/
+- Introduction to the DWARF Debugging Format - http://www.dwarfstd.org/doc/Debugging%20using%20DWARF.pdf
+- Programmatic access to the call stack in C++ - https://eli.thegreenplace.net/2015/programmatic-access-to-the-call-stack-in-c/
+- Querying DWARF For Fun And Profit - https://developers.redhat.com/blog/2015/01/22/querying-dwarf-for-fun-and-profit/
+- Reliable and Fast DWARF-based Stack Unwinding
+	- OOPSLA 2019
+	- Théophile Bastian, Stephen Kell, Francesco Zappa Nardelli
+	- https://www.di.ens.fr/~zappa/projects/frdwarf/
+	- https://2019.splashcon.org/details/splash-2019-oopsla/30/Reliable-and-Fast-DWARF-based-Stack-Unwinding
+- The contents of DWARF sections - https://eli.thegreenplace.net/2011/12/26/the-contents-of-dwarf-sections
+- Using COMDAT Sections to Reduce the Size of DWARF Debug Information - https://gcc.gnu.org/wiki/DwarfSeparateTypeInfo
+- Where are your symbols, debuginfo and sources? - https://gnu.wildebeest.org/blog/mjw/2016/02/02/where-are-your-symbols-debuginfo-and-sources/
+- Writing a Linux Debugger Part 4: Elves and dwarves - https://blog.tartanllama.xyz/writing-a-linux-debugger-elf-dwarf/
 
 ## DWARF: Software
 
