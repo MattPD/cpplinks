@@ -1510,6 +1510,12 @@ See also: [Computer Architecture](comparch.md)
 	- IACR Transactions on Cryptographic Hardware and Embedded Systems, 2019(3), 305-339.
 	- Dennis R. E. Gnad, Jonas Krautter, Mehdi B. Tahoori
 	- https://tches.iacr.org/index.php/TCHES/article/view/8297
+- MIRACLE: MIcRo-ArChitectural Leakage Evaluation
+	- The SCARV Miracle study aims to provide a rigorous and systematic evaluation of micro-architectural power side-channel leakage effects found in common embedded CPUs and micro-controllers.
+	- Ben Marshall, Daniel Page, James Webb
+	- https://eprint.iacr.org/2021/261
+	- https://github.com/scarv/miracle
+	- https://miracle.scarv.org/
 - On Code Execution Tracking via Power Side-Channel
 	- Conference on Computer and Communications Security (CCS) 2016
 	- Yannan Liu, Lingxiao Wei, Zhe Zhou, Kehuan Zhang, Wenyuan Xu, Qiang Xu
