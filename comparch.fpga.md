@@ -37,7 +37,7 @@ https://speakerdeck.com/mattpd/fpgas-and-open-source-hardware-an-intro-meeting-c
 
 # HDL
 
-## Verilog
+## HDL: Verilog
 
 * EDA Playground - Verilog Tutorials
   - http://eda-playground.readthedocs.io/en/latest/code-examples/verilog.html
@@ -50,7 +50,7 @@ https://speakerdeck.com/mattpd/fpgas-and-open-source-hardware-an-intro-meeting-c
 * Quick Reference for Verilog HDL - https://github.com/parallella/oh/blob/master/docs/verilog_reference.md
 * Verilog Page - http://www.asic-world.com/verilog/
 
-## SystemVerilog
+## HDL: SystemVerilog
 
 * Appendix A "Hardware Description Languages" from Neil Weste, David Harris (2010) "CMOS VLSI Design: A Circuits and Systems Perspective" (4th Edition) - http://pages.hmc.edu/harris/cmosvlsi/4e/cmosvlsidesign_4e_App.pdf
 * IEEE Standard 1800-2012 - http://standards.ieee.org/getieee/1800/download/1800-2012.pdf 
@@ -62,6 +62,13 @@ https://speakerdeck.com/mattpd/fpgas-and-open-source-hardware-an-intro-meeting-c
     - More Standard Gotchas: Subtleties in Verilog and SystemVerilog That Every Engineer Should Know - http://www.sutherland-hdl.com/papers/2007-SNUG-SanJose_gotcha_again_paper.pdf
 * SystemVerilog Central - http://www.asic-world.com/systemverilog/
 * SystemVerilog Training and Examples from Doulos - The Guide to SystemVerilog - https://www.doulos.com/knowhow/sysverilog/
+
+# HLS
+
+- Productive Parallel Programming for FPGA with High Level Synthesis (Tutorial)
+	- Torsten Hoefler, Johannes de Fine Licht
+	- https://spcl.inf.ethz.ch/Teaching/hls-tutorial/
+	- https://github.com/spcl/hls_tutorial_examples
 
 # Open Source Hardware FPGA Projects
 
