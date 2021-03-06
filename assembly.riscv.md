@@ -322,6 +322,9 @@ https://riscv.org/specifications/
 - RISC-V Instructions
 	- riscv-instr-encoding spreadsheet: a compact overview of the available instructions, their grouping, the encoding, etc.
 	- https://www.akkadia.org/drepper/risc-v-instructions.html
+- RISC-V Reference Card: An unofficial reference sheet for RISC-V
+	- https://github.com/jameslzhu/riscv-card
+	- https://github.com/jameslzhu/riscv-card/blob/master/riscv-card.pdf
 - RISC-V Toolchain Conventions - https://github.com/lowRISC/riscv-toolchain-conventions
 - The Embedded RISC-V Project
 	- A complementary RISC-V specification intended for bare metal embedded applications
