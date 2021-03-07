@@ -567,46 +567,54 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 # References
 
-* ARM Architecture Documentation
-	+ The Applications (‘A’) profile - https://developer.arm.com/products/architecture/a-profile/docs
-	+ The Real-Time (‘R’) profile - https://developer.arm.com/products/architecture/r-profile/docs
-	+ The Microcontroller (‘M’) profile - https://developer.arm.com/products/architecture/m-profile/docs
-* ARM Architecture Reference Manuals
-	- http://infocenter.arm.com/help/topic/com.arm.doc.subset.architecture.reference/index.html#reference
-* Application Binary Interface for the Arm® Architecture
+- ARM Architecture Documentation
+	- A-Profile: The Applications profile - https://developer.arm.com/products/architecture/a-profile/docs
+		- A-Profile Architectures - Exploration Tools - https://developer.arm.com/products/architecture/a-profile/exploration-tools
+		- ARM Architecture Reference Manual ARMv8, for ARMv8-A architecture profile
+			- https://developer.arm.com/docs/ddi0487/latest/arm-architecture-reference-manual-armv8-for-armv8-a-architecture-profile
+		- Programmer’s Guide for ARMv8-A: ARM® Cortex-A Series, Version: 1.0
+			- <http://infocenter.arm.com/help/topic/com.arm.doc.den0024a/DEN0024A_v8_architecture_PG.pdf>
+	- R-Profile: The Real-Time profile - https://developer.arm.com/products/architecture/r-profile/docs
+	- M-Profile: The Microcontroller profile - https://developer.arm.com/products/architecture/m-profile/docs
+- Application Binary Interface for the Arm® Architecture
 	- https://github.com/ARM-software/abi-aa
-* A-Profile
-	+ A-Profile Architectures - Exploration Tools - https://developer.arm.com/products/architecture/a-profile/exploration-tools
-	+ ARM Architecture Reference Manual ARMv8, for ARMv8-A architecture profile
-		- https://developer.arm.com/docs/ddi0487/latest/arm-architecture-reference-manual-armv8-for-armv8-a-architecture-profile
-	+ Cortex-A57 Software Optimization Guide
+- ARM and Thumb-2 Instruction Set Quick Reference Card
+	- <http://infocenter.arm.com/help/topic/com.arm.doc.qrc0001m/QRC0001_UAL.pdf>
+- ARM Assembly Basics Cheatsheet - https://azeria-labs.com/assembly-basics-cheatsheet/
+- ARM architecture documentation set - http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.set.architecture/
+- Arm A64 Instruction Set Architecture: Armv8-A - Base Instructions (alphabetic order)
+	- https://developer.arm.com/docs/ddi0596/h/base-instructions-alphabetic-order
+- asm.thi.ng - baremetal ARM coding resources - http://asm.thi.ng/
+- Instruction Sets - https://developer.arm.com/products/architecture/instruction-sets
+- The ARM Machinists Atlas
+	- https://www.youtube.com/watch?v=PRaJQepIf44
+	- https://xlogicx.net/ARM_Atlas.html
+- Works on ARM newsletter - https://github.com/vielmetti/worksonarm-news
+
+## References: OS
+
+- Linux
+	- Linux Kernel Documentation
+		- ARM: https://www.kernel.org/doc/Documentation/arm/
+		- ARM64: https://www.kernel.org/doc/Documentation/arm64/
+- macOS
+	- Apple Silicon - Apple Developer Documentation
+		- https://developer.apple.com/documentation/apple_silicon
+- Windows
+		- System call dispatching on Windows ARM64
+			- https://gracefulbits.wordpress.com/2018/07/26/system-call-dispatching-for-windows-on-arm64/
+
+## References: Microarchitecture
+
+- A-Profile
+	- Cortex-A57 Software Optimization Guide
 		- http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.uan0015b/
 		- https://developer.arm.com/docs/uan0015/latest/cortex-a57-software-optimization-guide-software-optimization-guide
 		- PDF: <http://infocenter.arm.com/help/topic/com.arm.doc.uan0015b/Cortex_A57_Software_Optimization_Guide_external.pdf>
-	+ Programmer’s Guide for ARMv8-A: ARM® Cortex-A Series, Version: 1.0
-		- <http://infocenter.arm.com/help/topic/com.arm.doc.den0024a/DEN0024A_v8_architecture_PG.pdf>
-* ARM and Thumb-2 Instruction Set Quick Reference Card
-	+ <http://infocenter.arm.com/help/topic/com.arm.doc.qrc0001m/QRC0001_UAL.pdf>
-* ARM Assembly Basics Cheatsheet - https://azeria-labs.com/assembly-basics-cheatsheet/
-* ARM architecture documentation set - http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.set.architecture/
-* Arm A64 Instruction Set Architecture: Armv8-A - Base Instructions (alphabetic order)
-	+ https://developer.arm.com/docs/ddi0596/h/base-instructions-alphabetic-order
-* Apple Silicon - Apple Developer Documentation
-	- https://developer.apple.com/documentation/apple_silicon
-* asm.thi.ng - baremetal ARM coding resources - http://asm.thi.ng/
-* Instruction Sets - https://developer.arm.com/products/architecture/instruction-sets
-* Linux Kernel Documentation
-	+ ARM: https://www.kernel.org/doc/Documentation/arm/
-	+ ARM64: https://www.kernel.org/doc/Documentation/arm64/
-* System call dispatching on Windows ARM64 - https://gracefulbits.wordpress.com/2018/07/26/system-call-dispatching-for-windows-on-arm64/
-* The ARM Instruction Set - ARM University Program (Slides)
-	+ <https://www.cs.purdue.edu/homes/cs250/LectureNotes/arm_inst.pdf>
-* The ARM Instruction Set Architecture - Mark McDermott (Slides)
-	+ <http://users.ece.utexas.edu/~valvano/EE345M/Arm_EE382N_4.pdf>
-* The ARM Machinists Atlas
-	- https://www.youtube.com/watch?v=PRaJQepIf44
-	- https://xlogicx.net/ARM_Atlas.html
-* Works on ARM newsletter - https://github.com/vielmetti/worksonarm-news
+- Apple
+	- Apple M1 CPU Microarchitectures Research by Dougall Johnson
+		- Research on the Apple M1 CPU microarchitectures (Firestorm and Icestorm), with instruction tables describing throughput, latency, and uops for most instructions, and detailed experiments and measurements.
+		- https://dougallj.github.io/applecpu/firestorm.html
 
 ## Intrinsics & SIMD
 
