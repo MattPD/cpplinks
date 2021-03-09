@@ -768,6 +768,14 @@ See also: [Computer Architecture](comparch.md)
 
 # Cache
 
+## Cache (2021)
+
+- Prime+Probe 1, JavaScript 0: Overcoming Browser-based Side-Channel Defenses
+	- USENIX Security Symposium 2021
+	- Anatoly Shusterman, Ayush Agarwal, Sioli O’Connell, Daniel Genkin, Yossi Oren, Yuval Yarom
+	- https://orenlab.sise.bgu.ac.il/p/PP0
+	- https://github.com/Yossioren/pp0
+
 ## Cache (2020)
 
 - Analysis and Detection of Cache-Based Exploits
