@@ -351,6 +351,8 @@ See also:
 			- https://developers.redhat.com/blog/2014/12/02/address-and-thread-sanitizers-gcc/
 		- Useful GCC address sanitizer checks not enabled by default
 			- https://kristerw.blogspot.com/2018/06/useful-gcc-address-sanitizer-checks-not.html
+	- MSVC
+		- AddressSanitizer - https://docs.microsoft.com/en-us/cpp/sanitizers/asan
 - DRace: Data-race detector for Windows applications built on top of DynamoRIO
 	- shipped with the following detector backends: tsan (internal ThreadSanitizer), fasttrack, dummy (no detection at all), printer (print all calls to the detector)
 	- https://github.com/siemens/drace
