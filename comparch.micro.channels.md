@@ -21,6 +21,7 @@ See also: [Computer Architecture](comparch.md)
 - [Floating Point Unit (FPU)](#floating-point-unit-fpu)
 - [FPGA](#fpga)
 - [GPU](#gpu)
+- [Interconnect][#interconnect]
 - [Interrupts](#interrupts)
 - [Keyboard](#keyboard)
 - [Magnetic](#magnetic)
@@ -1382,6 +1383,16 @@ See also: [Computer Architecture](comparch.md)
 	- IEEE Transactions on Dependable and Secure Computing (TDSC) 2019
 	- H. NaghibiJouybari, A. Neupane, Z. Qian, N. Abu-Ghazaleh
 	- http://dx.doi.org/10.1109/TDSC.2019.2944624
+
+---
+
+# Interconnect
+
+- Lord of the Ring(s): Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical
+	- USENIX Security 2021
+	- Riccardo Paccagnella, Licheng Luo, Christopher W. Fletcher
+	- https://arxiv.org/abs/2103.03443
+	- https://github.com/FPSG-UIUC/lotr
 
 ---
 
