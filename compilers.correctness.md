@@ -484,6 +484,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 		- https://gcc.gnu.org/wiki/HowToPrepareATestcase
 	- GCC Contributors Guide: Working with the testsuite
 		- https://dmalcolm.fedorapeople.org/gcc/newbies-guide/working-with-the-testsuite.html
+	- GCC Testing Efforts
+		- https://gcc.gnu.org/testing/
+	- Howto: Using DejaGnu for Testing - A Simple Introduction 
+		- https://www.embecosm.com/appnotes/ean8/ean8-howto-dejagnu-1.0.html
+	- bunsen: Toolkit for compact storage and analysis of DejaGNU test results
+		- https://github.com/serhei/bunsen
 - Fuzzing LLVM libraries and tools - https://llvm.org/docs/FuzzingLLVM.html
 	- Adventures in Fuzzing Instruction Selection
 		- 2017 EuroLLVM Developers’ Meeting; Justin Bogner
