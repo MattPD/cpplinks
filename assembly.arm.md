@@ -328,20 +328,23 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ## Performance
 
-* An Instruction Level Energy Characterization of ARM Processors
-	+ 2015 Technical Report (FORTH-ICS/TR-450); Evangelos Vasilakis
-	+ https://www.ics.forth.gr/carv/greenvm/files/tr450.pdf
-* CoreSight, Perf and the OpenCSD Library
+- An Instruction Level Energy Characterization of ARM Processors
+	- 2015 Technical Report (FORTH-ICS/TR-450); Evangelos Vasilakis
+	- https://www.ics.forth.gr/carv/greenvm/files/tr450.pdf
+- CoreSight, Perf and the OpenCSD Library
 	- https://www.linaro.org/blog/coresight-perf-and-the-opencsd-library/
-* Linaro Wiki - perf
-	+ https://web.archive.org/https://wiki.linaro.org/KenWerner/Sandbox/perf
-	+ https://web.archive.org/https://wiki.linaro.org/Platform/DevPlatform/Tools/Perf
-* On-Target Trace Using the CoreSight Access Library
+- Linaro Wiki - perf
+	- https://web.archive.org/https://wiki.linaro.org/KenWerner/Sandbox/perf
+	- https://web.archive.org/https://wiki.linaro.org/Platform/DevPlatform/Tools/Perf
+- On-Target Trace Using the CoreSight Access Library
 	- https://developer.arm.com/products/software-development-tools/ds-5-development-studio/resources/tutorials/on-target-trace-using-the-coresight-access-library
-* OpenCSD HOWTO - using the library with perf
+- OpenCSD HOWTO - using the library with perf
 	- https://github.com/Linaro/OpenCSD/blob/master/HOWTO.md
-* Statistical Profiling Extension for ARMv8-A
+- Statistical Profiling Extension for ARMv8-A
 	- https://community.arm.com/processors/b/blog/posts/statistical-profiling-extension-for-armv8-a
+- Using Perf and its friend eBPF on Arm platform
+	- Linaro Connect San Diego 2019; Leo Yan
+	- https://connect.linaro.org/resources/san19/san19-223/
 
 ### Performance: Numerics
 
@@ -904,13 +907,11 @@ See also: [Performance Tools](performance.tools.md)
 		- https://developer.arm.com/tools-and-software/server-and-hpc/compile/arm-compiler-for-linux/arm-performance-libraries
 	- Profiling Tools
 		- https://developer.arm.com/hpc/hpc-software/categories/profiling-tools
-- Arm Optimized Routines
-	- Optimized implementations of various library functions for ARM architecture processors
-	- https://github.com/ARM-software/optimized-routines
-- Compute Library
-	- The ARM Computer Vision and Machine Learning library is a set of functions optimised for both ARM CPUs and GPUs using SIMD technologies.
-	- https://developer.arm.com/technologies/compute-library
-	- https://github.com/ARM-software/ComputeLibrary
+- Streamline Performance Analyzer
+	- https://developer.arm.com/tools-and-software/embedded/arm-development-studio/components/streamline-performance-analyzer
+
+### Software: Performance: Benchmarking
+
 - LIKWID: Performance monitoring and benchmarking suite
 	- https://github.com/RRZE-HPC/likwid
 	- https://hpc.fau.de/research/tools/likwid/
@@ -919,17 +920,6 @@ See also: [Performance Tools](performance.tools.md)
 	- Energy-Efficient ARM64 Cluster with Cryptanalytic Applications
 	- LATINCRYPT 2017; Thom Wiggers
 	- https://thomwiggers.nl/publication/armcluster/
-- Ne10 Open Source Library
-	- Ne10 is a library of common, useful functions that have been heavily optimised for ARM-based CPUs equipped with NEON SIMD capabilities. It provides consistent, well-tested behaviour, allowing for painless integration into a wide variety of applications. The library currently focuses primarily around math, signal processing, image processing, and physics functions.
-	- http://projectne10.github.io/Ne10/
-	- https://github.com/projectNe10/Ne10
-- sse2neon: A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64 NEON intrinsics
-	- https://github.com/DLTcollab/sse2neon
-- Streamline Performance Analyzer
-	- https://developer.arm.com/tools-and-software/embedded/arm-development-studio/components/streamline-performance-analyzer
-- Using Perf and its friend eBPF on Arm platform
-	- Linaro Connect San Diego 2019; Leo Yan
-	- https://connect.linaro.org/resources/san19/san19-223/
 
 ### Software: Performance: Events
 
@@ -948,6 +938,30 @@ See also: [Performance Tools](performance.tools.md)
 - User-mode access to ARMv8 PMU cycle counters
 	- https://github.com/rdolbeau/enable_arm_pmu
 
+### Software: Performance: Libraries
+
+- Arm Optimized Routines
+	- Optimized implementations of various library functions for ARM architecture processors
+	- https://github.com/ARM-software/optimized-routines
+- Compute Library
+	- The ARM Computer Vision and Machine Learning library is a set of functions optimised for both ARM CPUs and GPUs using SIMD technologies.
+	- https://developer.arm.com/technologies/compute-library
+	- https://github.com/ARM-software/ComputeLibrary
+- Ne10 Open Source Library
+	- Ne10 is a library of common, useful functions that have been heavily optimised for ARM-based CPUs equipped with NEON SIMD capabilities. It provides consistent, well-tested behaviour, allowing for painless integration into a wide variety of applications. The library currently focuses primarily around math, signal processing, image processing, and physics functions.
+	- http://projectne10.github.io/Ne10/
+	- https://github.com/projectNe10/Ne10
+
+### Software: Performance: SIMD
+
+- SIMDe (SIMD Everywhere): Implementations of SIMD instruction sets for systems which don't natively support them
+	- The SIMDe header-only library provides fast, portable implementations of SIMD intrinsics on hardware which doesn't natively support them, such as calling SSE functions on ARM. There is no performance penalty if the hardware supports the native implementation (e.g., SSE/AVX runs at full speed on x86, NEON on ARM, etc.).
+	- https://github.com/simd-everywhere/simde
+	- https://github.com/simd-everywhere/simde#related-projects
+- sse2neon: A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64 NEON intrinsics
+	- https://github.com/DLTcollab/sse2neon
+	- https://github.com/DLTcollab/sse2neon#related-projects
+
 ## Software: Virtualization
 
 - NOVA Microhypervisor
@@ -956,7 +970,6 @@ See also: [Performance Tools](performance.tools.md)
 	- NOVA Microhypervisor on ARMv8-A
 		- FOSDEM 2020; Udo Steinberg
 		- https://fosdem.org/2020/schedule/event/uk_nova/
-
 
 ---
 
