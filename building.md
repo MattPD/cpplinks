@@ -584,6 +584,10 @@ See also:
 
 ### CMake Readings
 
+- Alex Reinking
+	- Building a Dual Shared and Static Library with CMake
+		- https://alexreinking.com/blog/building-a-dual-shared-and-static-library-with-cmake.html
+		- https://github.com/alexreinking/SharedStaticStarter
 - An Introduction to Modern CMake
 	- https://cliutils.gitlab.io/modern-cmake/
 - Basic CMake usage
