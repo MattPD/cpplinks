@@ -1046,6 +1046,11 @@ Test Doubles: Faking, Mocking
 
 ## Talks: 2020
 
+- Automated Testing with CMake, CTest, and CDash
+	- Utah C++ Programmers Meetup; April 8, 2020
+	- Richard Thomson
+	- https://www.youtube.com/watch?v=YlIqlVVJWuo
+	- https://www.slideshare.net/LegalizeAdulthood/automated-testing-with-cmake-ctest-and-cdash
 - C++ Testing Techniques, Tips and Tricks
 	- CppEurope 2020; Clare Macrae
 	- https://www.youtube.com/watch?v=-5N-u34L7wo
