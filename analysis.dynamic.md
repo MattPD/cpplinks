@@ -162,6 +162,12 @@ See also:
 	- Software: Practice and Experience, 48(6) 2018
 	- Sheng-Yu Fu, Ding-Yong Hong, Yu-Ping Liu, Jan-Jan Wu, Wei-Chung Hsu
 	- https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2573?af=R
+- Enhancing Atomic Instruction Emulation for Cross-ISA Dynamic Binary Translation
+	- Code Generation and Optimization (CGO) 2021
+	- Ziyi Zhao, Zhang Jiang, Xiaoli Gong, Ying Chen, Wenwen Wang, Pen-Chung Yew
+	- https://github.com/NKU-EmbeddedSystem/ABA-LLSC
+	- https://tr0py.github.io/assets/materials/QEMU-ABA-CGO2021.pdf
+	- https://tr0py.github.io/assets/materials/QEMU-ABA-CGO2021-slides.pdf
 - Fast and Correct Load Link/Store Conditional Instruction Handling in DBT Systems
 	- 2020 International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES)
 	- Martin Kristien, Tom Spink, Brian Campbell, Susmit Sarkar, Ian Stark, Björn Franke, Igor Böhm, Nigel Topham
