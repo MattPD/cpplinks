@@ -618,6 +618,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Apple M1 CPU Microarchitectures Research by Dougall Johnson
 		- Research on the Apple M1 CPU microarchitectures (Firestorm and Icestorm), with instruction tables describing throughput, latency, and uops for most instructions, and detailed experiments and measurements.
 		- https://dougallj.github.io/applecpu/firestorm.html
+- Fujitsu
+	- Fujitsu A64FX - https://github.com/fujitsu/A64FX
 
 ## Intrinsics & SIMD
 
