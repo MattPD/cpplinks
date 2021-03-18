@@ -68,6 +68,9 @@
 - Memory Bandwidth Benchmark
 	- MBW determines the "copy" memory bandwidth available to userspace programs. Its simplistic approach models that of real applications. It is not tuned to extremes and it is not aware of hardware architecture, just like your average software package.
 	- https://github.com/raas/mbw
+- Multichase: a pointer chaser benchmark
+	- Multiload - a superset of multichase which runs latency, memory bandwidth, and loaded-latency
+	- https://github.com/google/multichase
 - pmbw: Parallel Memory Bandwidth Benchmark / Measurement
 	- a set of assembler routines to measure the parallel memory (cache and RAM) bandwidth of modern multi-core machines
 	- http://panthema.net/2013/pmbw/
