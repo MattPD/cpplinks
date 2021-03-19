@@ -356,6 +356,9 @@ See also:
 		- https://aras-p.info/blog/2019/09/28/Clang-Build-Analyzer/
 		- time-trace: timeline / flame chart profiler for Clang
 			- https://aras-p.info/blog/2019/01/16/time-trace-timeline-flame-chart-profiler-for-Clang/
+- compile-time-perf: Measures high-level timing and memory usage metrics during compilation
+	- compile-time-perf (CTP) is designed to be a high-level "profiler" for compiling large projects. It is designed to be simple to install, compiler and language agnostic, and included as part of CI. It is not intended to replace compiler flags like -ftime-trace but supplement them.
+	- https://github.com/jrmadsen/compile-time-perf
 - CTMark (Compile Time Mark)
 	- https://github.com/llvm-mirror/test-suite/tree/master/CTMark
 - Metabench: A simple framework for compile-time microbenchmarks
