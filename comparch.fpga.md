@@ -69,6 +69,11 @@ https://speakerdeck.com/mattpd/fpgas-and-open-source-hardware-an-intro-meeting-c
 	- Torsten Hoefler, Johannes de Fine Licht
 	- https://spcl.inf.ethz.ch/Teaching/hls-tutorial/
 	- https://github.com/spcl/hls_tutorial_examples
+- Transformations of High-Level Synthesis Codes for High-Performance Computing
+	- IEEE Transactions on Parallel and Distributed Systems (TPDS) 2021
+	- Johannes de Fine Licht, Maciej Besta, Simon Meierhans, Torsten Hoefler
+	- https://arxiv.org/abs/1805.08288
+	- https://spcl.inf.ethz.ch/Publications/.pdf/hls-transformations.pdf
 
 # Open Source Hardware FPGA Projects
 
