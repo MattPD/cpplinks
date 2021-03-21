@@ -375,6 +375,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 
 ### Testing: Readings: Generation
 
+- Growing A Test Corpus with Bonsai Fuzzing
+	- ICSE 2021
+	- Vasudev Vikram, Rohan Padhye, Koushik Sen
+	- https://rohan.padhye.org/files/bonsai-icse21.pdf
+	- Bonsai Fuzzing: a fuzz-testing algorithm that generates concise test cases for software such as compilers.
+		- https://github.com/vasumv/bonsai-fuzzing
 - Stack-Driven Program Generation of WebAssembly
 	- Asian Symposium on Programming Languages and Systems (APLAS) 2020
 	- Árpád Perényi, Jan Midtgaard
