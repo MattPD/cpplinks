@@ -268,6 +268,8 @@ See also:
 		- https://binarydodo.wordpress.com/2016/05/12/symbol-binding-types-in-elf-and-their-effect-on-linking-of-relocatable-files/
 	- Symbol resolution during link-editing
 		- https://binarydodo.wordpress.com/2016/07/01/symbol-resolution-during-link-editing/
+- Copy relocations, canonical PLT entries and protected visibility
+	- https://maskray.me/blog/2021-01-09-copy-relocations-canonical-plt-entries-and-protected
 - ELF Binary Relocations and Thread Local Storage - Stafford Horne
 	- TLS Examples
 		- https://github.com/stffrdhrn/tls-examples
