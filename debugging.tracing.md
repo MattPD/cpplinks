@@ -127,6 +127,10 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- kAFL: HW-assisted Feedback Fuzzing for x86 Kernels
 		- https://github.com/IntelLabs/kAFL/
 		- kAFL uses Qemu/KVM and Intel PT to provide fast execution and coverage feedback. This allows to run many x86 FW and OS kernels with any desired toolchain and without major modifications.
+	- Honeybee: An experimental high performance, fuzzing oriented Intel Processor Trace capture and analysis suite
+		- https://github.com/trailofbits/Honeybee
+		- Un-bee-lievable Performance: Fast Coverage-guided Fuzzing with Honeybee and Intel Processor Trace
+			- https://blog.trailofbits.com/2021/03/19/un-bee-lievable-performance-fast-coverage-guided-fuzzing-with-honeybee-and-intel-processor-trace/
 	- PTrix: Efficient Hardware-Assisted Fuzzing for COTS Binary
 		- 2019 Asia Conference on Computer and Communications Security (AsiaCCS)
 		- Yaohui Chen, Dongliang Mu, Jun Xu, Zhichuang Sun, Wenbo Shen, Xinyu Xing, Long Lu, Bing Mao
