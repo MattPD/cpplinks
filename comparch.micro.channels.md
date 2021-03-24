@@ -1850,6 +1850,13 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Andrea Mambretti, Alexandra Sandulescu, Matthias Neugschwandtner, Alessandro Sorniotti, Anil Kurmus
 	- http://ale.sopit.net/pdf/woot.pdf
 
+## Speculation: 2021
+
+- Speculative Interference Attacks: Breaking Invisible Speculation Schemes
+	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2021
+	- Mohammad Behnia, Prateek Sahu, Riccardo Paccagnella, Jiyong Yu, Zirui Zhao, Xiang Zou, Thomas Unterluggauer, Josep Torrellas, Carlos Rozas, Adam Morrison, Frank Mckeen, Fangfei Liu, Ron Gabor, Christopher W. Fletcher, Abhishek Basak, Alaa Alameldeen
+	- https://arxiv.org/abs/2007.11818
+
 ## Speculation: 2020
 
 - SpecROP: Speculative Exploitation of ROP Chains
