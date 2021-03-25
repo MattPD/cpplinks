@@ -461,6 +461,12 @@ See also:
 	- Code Generation and Optimization (CGO) 2015
 	- Evgeniy Stepanov and Konstantin Serebryany
 	- https://research.google.com/pubs/archive/43308.pdf
+- NSan: A Floating-Point Numerical Sanitizer
+	- Compiler Construction (CC) 2021
+	- Clement Courbet
+	- https://dl.acm.org/doi/abs/10.1145/3446804.3446848
+	- https://arxiv.org/abs/2102.12782
+	- https://reviews.llvm.org/D97854
 - ParmeSan: Sanitizer-guided Greybox Fuzzing
 	- USENIX Security 2020
 	- Sebastian Österlund, Kaveh Razavi, Herbert Bos, Cristiano Giuffrida
