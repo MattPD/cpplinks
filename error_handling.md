@@ -177,16 +177,21 @@
 
 ## Documentation
 
-* Dwarf2 Exception Handler HOWTO
-	+ https://gcc.gnu.org/wiki/Dwarf2EHNewbiesHowto
-* Exception Handling in LLVM
-	+ http://llvm.org/docs/ExceptionHandling.html
-* Exception Handling ABI for the ARM Architecture
-	+ http://infocenter.arm.com/help/topic/com.arm.doc.ihi0038b/IHI0038B_ehabi.pdf
-* Itanium C++ ABI: Exception Handling
-	+ https://itanium-cxx-abi.github.io/cxx-abi/abi-eh.html
-* Using Exceptions in GCC
-	+ https://gcc.gnu.org/onlinedocs/libstdc++/manual/using_exceptions.html
+- Dwarf2 Exception Handler HOWTO
+	- https://gcc.gnu.org/wiki/Dwarf2EHNewbiesHowto
+- Exception Handling in LLVM
+	- http://llvm.org/docs/ExceptionHandling.html
+- Exception Handling ABI for the ARM Architecture
+	- http://infocenter.arm.com/help/topic/com.arm.doc.ihi0038b/IHI0038B_ehabi.pdf
+- Itanium C++ ABI: Exception Handling
+	- https://itanium-cxx-abi.github.io/cxx-abi/abi-eh.html
+- MSVC
+	- Exception handling in MSVC
+		- https://docs.microsoft.com/en-us/cpp/cpp/exception-handling-in-visual-cpp
+	- x64 exception handling
+		- https://docs.microsoft.com/en-us/cpp/build/exception-handling-x64
+- Using Exceptions in GCC
+	- https://gcc.gnu.org/onlinedocs/libstdc++/manual/using_exceptions.html
 
 ## Papers
 
