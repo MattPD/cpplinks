@@ -597,6 +597,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 - C-Vise: a super-parallel Python port of the C-Reduce
 	- The port is fully compatible to the C-Reduce and uses the same efficient LLVM-based C/C++ reduction tool named clang_delta.
 	- https://github.com/marxin/cvise
+- comby-reducer: A simple program reducer for any language
+	- A program and data format reducer for arbitrary language syntax. Produces human comprehensible output. Define declarative transformations with ease.
+	- https://github.com/comby-tools/comby-reducer
+	- https://comby.dev/blog/2021/03/26/comby-reducer
 
 ## Testing: Talks
 
