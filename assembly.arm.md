@@ -18,7 +18,9 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	- [Virtualization](#virtualization)
 - [References](#references):
 	- [Intrinsics & SIMD](#intrinsics--simd)
-	- [Toolchains](#toolchains)
+	- [Microarchitecture](#references-microarchitecture)
+	- [OS](#references-os)
+	- [Toolchains](#references-toolchains)
 - [Software](#software):
 	- [Assembly](#software-assembly)
 	- [Binary Analysis](#software-binary-analysis)
@@ -594,19 +596,6 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- https://xlogicx.net/ARM_Atlas.html
 - Works on ARM newsletter - https://github.com/vielmetti/worksonarm-news
 
-## References: OS
-
-- Linux
-	- Linux Kernel Documentation
-		- ARM: https://www.kernel.org/doc/Documentation/arm/
-		- ARM64: https://www.kernel.org/doc/Documentation/arm64/
-- macOS
-	- Apple Silicon - Apple Developer Documentation
-		- https://developer.apple.com/documentation/apple_silicon
-- Windows
-		- System call dispatching on Windows ARM64
-			- https://gracefulbits.wordpress.com/2018/07/26/system-call-dispatching-for-windows-on-arm64/
-
 ## References: Microarchitecture
 
 - A-Profile
@@ -617,9 +606,25 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - Apple
 	- Apple M1 CPU Microarchitectures Research by Dougall Johnson
 		- Research on the Apple M1 CPU microarchitectures (Firestorm and Icestorm), with instruction tables describing throughput, latency, and uops for most instructions, and detailed experiments and measurements.
-		- https://dougallj.github.io/applecpu/firestorm.html
+			- https://dougallj.github.io/applecpu/firestorm.html
+			- https://github.com/dougallj/applecpu
+		- Counting cycles and instructions on the Apple M1 processor
+			- https://lemire.me/blog/2021/03/24/counting-cycles-and-instructions-on-the-apple-m1-processor/
 - Fujitsu
 	- Fujitsu A64FX - https://github.com/fujitsu/A64FX
+
+## References: OS
+
+- Linux
+	- Linux Kernel Documentation
+		- ARM: https://www.kernel.org/doc/Documentation/arm/
+		- ARM64: https://www.kernel.org/doc/Documentation/arm64/
+- macOS
+	- Apple Silicon - Apple Developer Documentation
+		- https://developer.apple.com/documentation/apple_silicon
+- Windows
+	- System call dispatching on Windows ARM64
+		- https://gracefulbits.wordpress.com/2018/07/26/system-call-dispatching-for-windows-on-arm64/
 
 ## Intrinsics & SIMD
 
@@ -736,7 +741,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 * SVE/SVE2 Patches on Phabricator
 	- https://docs.google.com/document/d/1ph1l1KhrrHgBlrKeEnuoIPrVO9jTjHvcwUlz61QWNMA
 
-## Toolchains
+## References: Toolchains
 
 * ARM Product Manuals - Keil - <http://www.keil.com/support/man_arm.htm>
 	+ armasm Assembler User Guide - http://www.keil.com/support/man/docs/armasm/
