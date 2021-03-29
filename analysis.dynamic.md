@@ -173,6 +173,11 @@ See also:
 	- Martin Kristien, Tom Spink, Brian Campbell, Susmit Sarkar, Ian Stark, Björn Franke, Igor Böhm, Nigel Topham
 	- http://hdl.handle.net/10023/20838
 	- _How to emulate LL/SC instructions on hosts that only support Compare-And-Swap (e.g. x86)_
+- Helper Function Inlining in Dynamic Binary Translation
+	- Compiler Construction (CC) 2021
+	- Wenwen Wang
+	- https://dl.acm.org/doi/10.1145/3446804.3446851
+	- https://homepage.iis.sinica.edu.tw/papers/dyhong/19657-F.pdf
 - Hermes: A fast cross-ISA binary translator with post-optimization
 	- Code Generation and Optimization (CGO) 2015
 	- Xiaochun Zhang, Qi Guo, Yunji Chen, Tianshi Chen, Weiwu Hu
