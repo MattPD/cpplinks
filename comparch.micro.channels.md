@@ -374,6 +374,11 @@ See also: [Computer Architecture](comparch.md)
 	- IEEE Computer Architecture Letters (CAL) 18(2) 2019
 	- Kristin Barber, Anys Bacha, Li Zhou, Yinqian Zhang, Radu Teodorescu
 	- https://doi.org/10.1109/LCA.2019.2916328
+- Jamais Vu: Thwarting Microarchitectural Replay Attacks
+	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2021
+	- Dimitrios Skarlatos, Zirui Zhao, Riccardo Paccagnella, Christopher W. Fletcher, Josep Torrellas
+	- https://rp8.web.engr.illinois.edu/papers/jamaisvu-asplos2021.pdf
+	- https://github.com/dskarlatos/JamaisVu
 - ParTI - Towards Combined Hardware Countermeasures against Side Channel and Fault Injection Attacks
 	- CHES 2016, IACR-CRYPTO-2016
 	- Tobias Schneider, Amir Moradi, Tim Güneysu
