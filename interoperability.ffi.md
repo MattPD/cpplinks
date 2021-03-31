@@ -260,6 +260,9 @@
 	- SwedenCpp::Stockholm::0x0F, September 20, 2018; Thomas Nyberg
 	- https://www.youtube.com/watch?v=LbiozBn9v6Y
 	- https://github.com/ApproximateIdentity/cpp_extension_talk
+- HPy: a better API for Python
+	- https://hpyproject.org/
+	- https://github.com/hpyproject/hpy
 - libpy: Utilities for writing C++ extension modules
 	- https://github.com/quantopian/libpy
 - pybind11 — Seamless operability between C++11 and Python
