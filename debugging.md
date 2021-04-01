@@ -30,10 +30,14 @@ See also:
 
 # General
 
-* Program repair: Community-driven effort to facilitate discovery, access and systematization of data related to automated program repair research
-	+ http://program-repair.org/
-* UNIX Debugger Translation Table: gdb, lldb, dbx, adb, sdb
-	+ https://www.lurklurk.org/debuggers.html
+- Program repair: Community-driven effort to facilitate discovery, access and systematization of data related to automated program repair research
+	- https://program-repair.org/
+- UNIX Debugger Translation Table: gdb, lldb, dbx, adb, sdb
+	- https://www.lurklurk.org/debuggers.html
+- Debug Adapter Protocol (DAP)
+	- defines the abstract protocol used between a development tool (e.g., IDE or editor) and a debugger
+	- https://microsoft.github.io/debug-adapter-protocol/
+	- https://github.com/microsoft/debug-adapter-protocol
 
 ---
 
