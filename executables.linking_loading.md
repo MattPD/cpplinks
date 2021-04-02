@@ -348,6 +348,8 @@ See also:
 
 - Chain loading, not preloading: the dynamic linker as a virtualization vector
 	- https://www.cs.kent.ac.uk/people/staff/srk21/blog/2021/01/04/#elf-chain-loading
+	- donald: the Mickey Mouse of dynamic linkers
+		- https://github.com/stephenrkell/donald/
 - Fun with weak dynamic linking
 	- https://glandium.org/blog/?p=2764
 - Guided Linking: Dynamic Linking without the Costs
