@@ -533,7 +533,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ### GDB: Projects
 
-* asm2cfg: Python command-line tool to turn GDB disassembly dumps to control-flow graphs
+* asm2cfg: GDB extension to add commands to view and save disassembled functions as a dot control-flow graphs
 	- https://github.com/Kazhuu/asm2cfg
 * CGDB: Console front-end to the GNU debugger
 	- https://github.com/cgdb/cgdb
