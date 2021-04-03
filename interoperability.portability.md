@@ -152,8 +152,11 @@
 		- DevConf.CZ 2020; Anderson Sasaki
 		- https://www.youtube.com/watch?v=tFuFO_bDke0
 - Component Interface Binder (CIB)
-	- publish ABI stable C++ library that can be used across different compilers
+	- Allows you to publish ABI stable C++ library that can be used across different compilers
 	- https://github.com/satya-das/cib
+	- CIB - ABI stable architecture for a C++ SDK
+		- Meeting C++ online 2021; Satya Das
+		- https://www.youtube.com/watch?v=cp-MtGe-f6M
 - pexcheck: Pexcheck is a command-line tool for checking the binary compatibility of public interfaces.
 	- https://github.com/AVGTechnologies/pexcheck
 
