@@ -122,15 +122,15 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- https://web.eecs.umich.edu/~barisk/public/gist-slides.pdf
 	- https://blog.acolyer.org/2015/10/12/failure-sketching-a-technique-for-automated-root-cause-diagnosis-of-in-production-failures/
 - Fuzzing
-	- Internals of Hongfuzz - Intel PT
-		- https://tunnelshade.in/blog/2018/09/hongfuzz-intel-pt-instrumentation/
-	- kAFL: HW-assisted Feedback Fuzzing for x86 Kernels
-		- https://github.com/IntelLabs/kAFL/
-		- kAFL uses Qemu/KVM and Intel PT to provide fast execution and coverage feedback. This allows to run many x86 FW and OS kernels with any desired toolchain and without major modifications.
 	- Honeybee: An experimental high performance, fuzzing oriented Intel Processor Trace capture and analysis suite
 		- https://github.com/trailofbits/Honeybee
 		- Un-bee-lievable Performance: Fast Coverage-guided Fuzzing with Honeybee and Intel Processor Trace
 			- https://blog.trailofbits.com/2021/03/19/un-bee-lievable-performance-fast-coverage-guided-fuzzing-with-honeybee-and-intel-processor-trace/
+	- Hongfuzz - Internals of Hongfuzz - Intel PT
+		- https://tunnelshade.in/blog/hongfuzz-intel-pt-instrumentation/
+	- kAFL: HW-assisted Feedback Fuzzing for x86 Kernels
+		- https://github.com/IntelLabs/kAFL/
+		- kAFL uses Qemu/KVM and Intel PT to provide fast execution and coverage feedback. This allows to run many x86 FW and OS kernels with any desired toolchain and without major modifications.
 	- PTrix: Efficient Hardware-Assisted Fuzzing for COTS Binary
 		- 2019 Asia Conference on Computer and Communications Security (AsiaCCS)
 		- Yaohui Chen, Dongliang Mu, Jun Xu, Zhichuang Sun, Wenbo Shen, Xinyu Xing, Long Lu, Bing Mao
@@ -417,6 +417,8 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 		- https://jvns.ca/blog/2015/04/14/strace-zine/
 		- https://wizardzines.com/zines/strace/
 	- strace posts: https://jvns.ca/categories/strace/
+	- What problems do people solve with strace?
+		- https://jvns.ca/blog/2021/04/03/what-problems-do-people-solve-with-strace/
 - How does strace work?
 	- https://blog.packagecloud.io/eng/2016/02/29/how-does-strace-work/
 - My Favourite Secret Weapon – strace
