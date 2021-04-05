@@ -485,6 +485,8 @@ Contents:
 * Have fun with LIEF and Executable Formats - Play with ELF symbols - Part 2 (renaming dynamic symbols) - https://blog.quarkslab.com/have-fun-with-lief-and-executable-formats.html#elf
 * How is a binary executable organized? Let's explore it! - https://jvns.ca/blog/2014/09/06/how-to-read-an-executable/
 * How programs get run: ELF binaries - https://lwn.net/Articles/631631/
+* How to execute an object file
+	- Part 1: Calling a simple function without linking: https://blog.cloudflare.com/how-to-execute-an-object-file-part-1/
 * How To Write Shared Libraries - https://www.akkadia.org/drepper/dsohowto.pdf
 * I/O patterns on ELF binary initialization - https://glandium.org/blog/?p=1016
 * Improving binary layout for progressive decompression (2011) - https://glandium.org/blog/?p=2320
