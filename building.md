@@ -578,6 +578,8 @@ See also:
 	- https://github.com/dev-cafe/cmake-cookbook
 - CMake Examples
 	- https://github.com/ttroy50/cmake-examples
+- cpp_starter_project: A template CMake project to get you started with C++ and tooling
+	- https://github.com/lefticus/cpp_starter_project/
 - learning-cmake: a simple CMake tutorial project which contains some different scenarios
 	- https://github.com/Akagi201/learning-cmake
 - Modern CMake Examples
