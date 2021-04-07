@@ -611,6 +611,10 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 - Backporting to the Future
 	- Pacific++ 2018: Andrew Paxie
 	- https://www.youtube.com/watch?v=KKvSVyZ4_5k
+- C++11/14 at Scale: What Have We Learned?
+	- ACCU 2021; Vittorio Romeo
+	- https://www.youtube.com/watch?v=H8wzuvynV78
+	- https://accu.org/conf-docs/PDFs_2021/vittorio_romeo_cpp_11_14_at_scale_what_have_we_learned.pdf
 - C++14: Through the Looking Glass
 	- C++Now 2014; Michael Wong
 	- https://www.youtube.com/watch?v=a8cb0IFqae8
