@@ -940,6 +940,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ The Linux x86 ORC Stack Unwinder - http://www.codeblueprint.co.uk/2017/07/31/the-orc-unwinder.html
 	+ The ORCs are coming - https://lwn.net/Articles/728339/
 	+ x86: ORC unwinder (previously undwarf) - https://lwn.net/Articles/727553/
+* PageBuster: dump all executable pages of packed processes
+	- https://github.com/revng/pagebuster
+	- PageBuster: stealthily dump all the code ever executed
+		- https://rev.ng/blog/pagebuster/post.html
 * plutonium-dbg: A kernel-based debugger for Linux applications
 	+ https://github.com/plutonium-dbg/plutonium-dbg
 	+ Kernel-Assisted Debugging of Linux Applications
