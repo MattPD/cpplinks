@@ -610,6 +610,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 			- https://github.com/dougallj/applecpu
 		- Counting cycles and instructions on the Apple M1 processor
 			- https://lemire.me/blog/2021/03/24/counting-cycles-and-instructions-on-the-apple-m1-processor/
+		- Apple M1: Load and Store Queue Measurements
+			- https://dougallj.wordpress.com/2021/04/08/apple-m1-load-and-store-queue-measurements/
 - Fujitsu
 	- Fujitsu A64FX - https://github.com/fujitsu/A64FX
 
