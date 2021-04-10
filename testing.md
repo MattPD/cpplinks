@@ -224,6 +224,10 @@ See also:
 
 ## Research: 2000s
 
+- Refactoring test code
+	- International Conference on Extreme Programming and Flexible Processes (XP) 2001
+	- Arie Van Deursen, Leon Moonen, Alex Bergh, Gerard Kok
+	- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.19.5499
 - Software Testing and Industry Needs
 	- IEEE Software, vol. 23, no. 4, July-Aug. 2006
 	- R. L. Glass, R. Collard, A. Bertolino, J. Bach, C. Kaner
