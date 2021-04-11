@@ -136,6 +136,9 @@ https://riscv.org/risc-v-books/
 - Experimental_RISCV_Feature_Model
 	- An experimental DSL to describe the full feature list of a RISC-V implementation, along with constraints on features and between features
 	- https://github.com/rsnikhil/Experimental_RISCV_Feature_Model
+- FORCE-RISCV
+	- FORCE-RISCV is an instruction sequence generator (ISG) for the RISC-V instruction set architecture. It can be used to generate tests for design verification of RISC-V processors.
+	- https://github.com/openhwgroup/force-riscv
 - GRIFT: Galois RISC-V ISA Formal Tools
 	- https://github.com/GaloisInc/grift
 - ISA Semantics for ARMv8-A, RISC-V, and CHERI-MIPS
