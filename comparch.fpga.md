@@ -65,6 +65,8 @@ https://speakerdeck.com/mattpd/fpgas-and-open-source-hardware-an-intro-meeting-c
 
 # HLS
 
+## HLS: Readings
+
 - Productive Parallel Programming for FPGA with High Level Synthesis (Tutorial)
 	- Torsten Hoefler, Johannes de Fine Licht
 	- https://spcl.inf.ethz.ch/Teaching/hls-tutorial/
@@ -74,6 +76,11 @@ https://speakerdeck.com/mattpd/fpgas-and-open-source-hardware-an-intro-meeting-c
 	- Johannes de Fine Licht, Maciej Besta, Simon Meierhans, Torsten Hoefler
 	- https://arxiv.org/abs/1805.08288
 	- https://spcl.inf.ethz.ch/Publications/.pdf/hls-transformations.pdf
+
+## HLS: Software
+
+- hlslib: A collection of extensions for Vivado HLS and Intel FPGA OpenCL to improve developer quality of life
+	- https://github.com/definelicht/hlslib
 
 # Open Source Hardware FPGA Projects
 
