@@ -318,6 +318,9 @@ See also:
 	- https://www.youtube.com/watch?v=wHIlNRK_HiQ
 - BasicBlocks: Pin tool for printing the address of each basic block executed in a program.
 	- https://github.com/chokepoint/BasicBlocks
+- MICA: Microarchitecture-Independent Characterization of Applications
+	- a Pin tool for collecting microarchitecture-independent workload characteristics
+	- https://github.com/boegel/MICA
 - Pin++: A C++ template meta-programmable framework for authoring Pintools
 	- https://github.com/SEDS/PinPP
 	- Pin++: A Object-oriented Framework for Writing Pintools
