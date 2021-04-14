@@ -729,6 +729,11 @@ See also: [Computer Architecture](comparch.md)
 
 # Branch Predictor
 
+- Branch Prediction Attack on Blinded Scalar Multiplication
+	- IEEE Transactions on Computers 69(5) 2020
+	- Sarani Bhattacharya, Clémentine Maurice, Shivam Bhasin, Debdeep Mukhopadhyay
+	- https://hal.inria.fr/hal-02866753
+	- https://dx.doi.org/10.1109/TC.2019.2958611
 - BranchScope: A New Side-Channel Attack on Directional Branch Predictor
 	- ASPLOS 2018
 	- Dmitry Evtyushkin, Ryan Riley, Nael Abu-Ghazaleh, Dmitry Ponomarev
