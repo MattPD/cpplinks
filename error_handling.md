@@ -285,6 +285,13 @@
 	- https://doi.org/10.1145/3411502.3418428
 	- http://seclab.cs.stonybrook.edu/seclab/pubs/feast20.pdf
 	- https://feastworkshop.github.io/2020/papers/ExHandling.pdf
+- Towards Optimal Use of Exception Handling Information for Function Detection
+	- Dependable Systems and Networks (DSN) 2021
+	- Chengbin Pang, Ruotong Yu, Dongpeng Xu, Eric Koskinen, Georgios Portokalidis, Jun Xu
+	- https://arxiv.org/abs/2104.03168
+	- FETCH (Function dETection with exCeption Handling)
+		- A fast and easy-to-use tool to find function entries from x86/x64 System-V binaries (stripped or not)
+		- https://github.com/ruotongyu/FETCH
 - Zipr++: Exceptional Binary Rewriting
 	- [Forming an Ecosystem Around Software Transformation (FEAST) 2017](https://www.sigsac.org/ccs/CCS2017/toc/FEASTToC.html)
 	- Jason Hiser, Anh Nguyen-Tuong, William Hawkins, Matthew McGill, Michele Co, Jack Davidson
