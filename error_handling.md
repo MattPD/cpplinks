@@ -253,12 +253,6 @@
 	- https://dl.acm.org/citation.cfm?id=2974473
 	- http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.671.6441&rep=rep1&type=pdf
 	- https://journal.ub.tu-berlin.de/eceasst/article/view/983
-- On the Impact of Exception Handling Compatibility on Binary Instrumentation
-	- 2020 Workshop on Forming an Ecosystem Around Software Transformation (FEAST)
-	- Soumyakant Priyadarshan, Huan Nguyen, R. Sekar
-	- https://doi.org/10.1145/3411502.3418428
-	- http://seclab.cs.stonybrook.edu/seclab/pubs/feast20.pdf
-	- https://feastworkshop.github.io/2020/papers/ExHandling.pdf
 - Optimizing away C++ exception handling
 	- SIGPLAN Notices 33(8) 1998
 	- Jonathan L. Schilling
@@ -282,6 +276,15 @@
 	- Vladimír Štill, Petr Ročkai, Jiří Barnat
 	- https://arxiv.org/abs/1703.02394
 	- https://divine.fi.muni.cz/2017/exceptions/
+
+### Papers: Binary Analysis
+
+- On the Impact of Exception Handling Compatibility on Binary Instrumentation
+	- 2020 Workshop on Forming an Ecosystem Around Software Transformation (FEAST)
+	- Soumyakant Priyadarshan, Huan Nguyen, R. Sekar
+	- https://doi.org/10.1145/3411502.3418428
+	- http://seclab.cs.stonybrook.edu/seclab/pubs/feast20.pdf
+	- https://feastworkshop.github.io/2020/papers/ExHandling.pdf
 - Zipr++: Exceptional Binary Rewriting
 	- [Forming an Ecosystem Around Software Transformation (FEAST) 2017](https://www.sigsac.org/ccs/CCS2017/toc/FEASTToC.html)
 	- Jason Hiser, Anh Nguyen-Tuong, William Hawkins, Matthew McGill, Michele Co, Jack Davidson
