@@ -654,6 +654,15 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 Validation: Including translation validation, equivalence checking.
 
+## Validation: 2021
+
+- Language-Parametric Compiler Validation with Application to LLVM
+	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2021
+	- Theodoros Kasampalis, Daejun Park, Zhengyao Lin, Vikram Adve, Grigore Rosu
+	- https://dl.acm.org/doi/abs/10.1145/3445814.3446751
+	- https://daejunpark.github.io/asplos21.pdf
+	- https://zenodo.org/record/4322105
+
 ## Validation: 2020
 
 - A Scalable Validation of Binary Lifters
