@@ -21,30 +21,30 @@
 * Joe Duffy - The Error Model - http://joeduffyblog.com/2016/02/07/the-error-model/
 * Nicolas Brailovsky - C++ exceptions under the hood
 	+ A long series of posts looking at how C++ exceptions are actually implemented.
-	+ https://monoinfinito.wordpress.com/2013/02/05/c-exceptions-under-the-hood/
-	+ https://monoinfinito.wordpress.com/2013/02/12/c-exceptions-under-the-hood-ii-a-tiny-abi/
-	+ https://monoinfinito.wordpress.com/2013/02/19/c-exceptions-under-the-hood-3-an-abi-to-appease-the-linker/
-	+ https://monoinfinito.wordpress.com/2013/02/26/c-exceptions-under-the-hood-4-catching-what-you-throw/
-	+ https://monoinfinito.wordpress.com/2013/03/05/c-exceptions-under-the-hood-5-magic-around-__cxa_begin_catch-and-__cxa_end_catch/
-	+ https://monoinfinito.wordpress.com/2013/03/12/c-exceptions-under-the-hood-6-gcc_except_table-and-the-personality-function/
-	+ https://monoinfinito.wordpress.com/2013/03/19/c-exceptions-under-the-hood-7-a-nice-personality/
-	+ https://monoinfinito.wordpress.com/2013/03/26/c-exceptions-under-the-hood-8-two-phase-handling/
-	+ https://monoinfinito.wordpress.com/2013/04/02/c-exceptions-under-the-hood-9-catching-our-first-exception/
-	+ https://monoinfinito.wordpress.com/2013/04/09/c-exceptions-under-the-hood-10-_unwind_-and-call-frame-info/
-	+ https://monoinfinito.wordpress.com/2013/04/11/c-exceptions-under-the-hood-11-reading-a-cfi-table/
-	+ https://monoinfinito.wordpress.com/2013/04/16/c-exceptions-under-the-hood-12-and-suddenly-reflexion-in-c/
-	+ https://monoinfinito.wordpress.com/2013/04/23/c-exceptions-under-the-hood-14-multiple-landing-pads-the-teachings-of-the-guru/
-	+ https://monoinfinito.wordpress.com/2013/04/25/c-exceptions-under-the-hood-13-setting-the-context-for-a-landing-pad/
-	+ https://monoinfinito.wordpress.com/2013/05/02/c-exceptions-under-the-hood-15-finding-the-right-landing-pad/
-	+ https://monoinfinito.wordpress.com/2013/05/07/c-exceptions-under-the-hood-16-finding-the-right-catch-in-a-landing-pad/
-	+ https://monoinfinito.wordpress.com/2013/05/14/c-exceptions-under-the-hood-17-reflecting-on-an-exception-type-and-reading-gcc_except_table/
-	+ https://monoinfinito.wordpress.com/2013/05/16/c-exceptions-under-the-hood-18-getting-the-right-stack-frame/
-	+ https://monoinfinito.wordpress.com/2013/05/23/c-exceptions-under-the-hood-19-getting-the-right-catch-in-a-landing-pad/
-	+ https://monoinfinito.wordpress.com/2013/05/28/c-exceptions-under-the-hood-20-running-destructors-while-unwinding/
-	+ https://monoinfinito.wordpress.com/2013/06/04/c-exceptions-under-the-hood-21-a-summary-and-some-final-thoughts/
-	+ https://monoinfinito.wordpress.com/2013/06/11/c-exceptions-under-the-hood-appendix-i-the-true-cost-of-an-exception/
-	+ https://monoinfinito.wordpress.com/2013/06/13/c-exceptions-under-the-hood-appendix-ii-metaclasses-and-rtti-on-c/
-	+ https://monoinfinito.wordpress.com/2013/07/25/c-exceptions-under-the-hood-appendix-iii-rtti-and-exceptions-orthogonality/
+	+ https://monkeywritescode.blogspot.com/2013/02/c-exceptions-under-hood.html
+	+ https://monkeywritescode.blogspot.com/2013/02/c-exceptions-under-hood-ii-tiny-abi.html
+	+ https://monkeywritescode.blogspot.com/2013/02/c-exceptions-under-hood-3-abi-to.html
+	+ https://monkeywritescode.blogspot.com/2013/02/c-exceptions-under-hood-4-catching-what.html
+	+ https://monkeywritescode.blogspot.com/2013/03/c-exceptions-under-hood-5-magic-around.html
+	+ https://monkeywritescode.blogspot.com/2013/03/c-exceptions-under-hood-6.html
+	+ https://monkeywritescode.blogspot.com/2013/03/c-exceptions-under-hood-7-nice.html
+	+ https://monkeywritescode.blogspot.com/2013/03/c-exceptions-under-hood-8-two-phase.html
+	+ https://monkeywritescode.blogspot.com/2013/04/c-exceptions-under-hood-9-catching-our.html
+	+ https://monkeywritescode.blogspot.com/2013/04/c-exceptions-under-hood-10-unwind-and.html
+	+ https://monkeywritescode.blogspot.com/2013/04/c-exceptions-under-hood-11-reading-cfi.html
+	+ https://monkeywritescode.blogspot.com/2013/04/c-exceptions-under-hood-12-and-suddenly.html
+	+ https://monkeywritescode.blogspot.com/2013/04/c-exceptions-under-hood-13-setting.html
+	+ https://monkeywritescode.blogspot.com/2013/04/c-exceptions-under-hood-14-multiple.html
+	+ https://monkeywritescode.blogspot.com/2013/05/c-exceptions-under-hood-15-finding.html
+	+ https://monkeywritescode.blogspot.com/2013/05/c-exceptions-under-hood-16-finding.html
+	+ https://monkeywritescode.blogspot.com/2013/05/c-exceptions-under-hood-17-reflecting.html
+	+ https://monkeywritescode.blogspot.com/2013/05/c-exceptions-under-hood-18-getting.html
+	+ https://monkeywritescode.blogspot.com/2013/05/c-exceptions-under-hood-19-getting.html
+	+ https://monkeywritescode.blogspot.com/2013/05/c-exceptions-under-hood-20-running.html
+	+ https://monkeywritescode.blogspot.com/2013/06/c-exceptions-under-hood-21-summary-and.html
+	+ https://monkeywritescode.blogspot.com/2013/06/c-exceptions-under-hood-appendix-i-true.html
+	+ https://monkeywritescode.blogspot.com/2013/06/c-exceptions-under-hood-appendix-ii.html
+	+ https://monkeywritescode.blogspot.com/2013/07/c-exceptions-under-hood-appendix-iii.html
 * Simon Brand - Functional exceptionless error-handling with optional and expected
 	+ Demonstrates how to use `optional` and `expected` with monadic extensions.
 	+ https://blog.tartanllama.xyz/optional-expected/
