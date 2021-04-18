@@ -137,6 +137,9 @@ _Books, Books Reviews_
 	- Formalizing debugging - https://wozniak.ca/blog/2018/03/25/Book-review-Formalizing-debugging/
 	- The puzzling empathy of debugging - https://wozniak.ca/blog/2018/05/07/1/
 	- Retro debugging - https://wozniak.ca/blog/2019/01/04/1/
+- The Debugging Book: Tools and Techniques for Automated Software Debugging
+	- Andreas Zeller
+	- https://www.debuggingbook.org/
 - Why Programs Fail: A Guide to Systematic Debugging - http://www.whyprogramsfail.com/
 
 ## Concurrency
