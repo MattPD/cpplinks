@@ -14,11 +14,18 @@
 ## Blogs
 
 - Anthony Williams
-	- https://www.justsoftwaresolutions.co.uk/threading/implementing_dekkers_algorithm_with_fences.html
-	- https://www.justsoftwaresolutions.co.uk/threading/memory_models_and_synchronization.html
-	- https://www.justsoftwaresolutions.co.uk/threading/intel-memory-ordering-and-c++-memory-model.html
-	- https://www.justsoftwaresolutions.co.uk/threading/intel-and-amd-memory-ordering-defined.html
-	- https://www.justsoftwaresolutions.co.uk/threading/non_blocking_lock_free_and_wait_free.html
+	- Implementing Dekker's algorithm with Fences
+		- https://www.justsoftwaresolutions.co.uk/threading/implementing_dekkers_algorithm_with_fences.html
+	- Memory Models and Synchronization
+		- https://www.justsoftwaresolutions.co.uk/threading/memory_models_and_synchronization.html
+	- The Intel x86 Memory Ordering Guarantees and the C++ Memory Model
+		- https://www.justsoftwaresolutions.co.uk/threading/intel-memory-ordering-and-c++-memory-model.html
+	- Intel and AMD Define Memory Ordering
+		- https://www.justsoftwaresolutions.co.uk/threading/intel-and-amd-memory-ordering-defined.html
+	- Definitions of Non-blocking, Lock-free and Wait-free
+		- https://www.justsoftwaresolutions.co.uk/threading/non_blocking_lock_free_and_wait_free.html
+	- Can non-overlapping spinlocks deadlock in C++?
+		- https://www.justsoftwaresolutions.co.uk/cplusplus/can_spinlocks_deadlock.html
 - Bartosz Milewski
 	- http://bartoszmilewski.com/2008/11/11/who-ordered-sequential-consistency/
 	- http://bartoszmilewski.com/2008/12/01/c-atomics-and-memory-ordering/
