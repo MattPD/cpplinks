@@ -69,6 +69,10 @@ See also: [Computer Architecture](comparch.md)
 	- IEEE Transactions on Information Forensics and Security (TIFS) 2020
 	- Baki Yilmaz, Milos Prvulovic, Alenka Zajic
 	- https://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2020/01/T-IFS-10205-2019.R1.pdf
+- Computing with Time: Microarchitectural Weird Machines
+	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2021
+	- Dmitry Evtyushkin, Thomas Benjamin, Jesse Elwell, Jeffrey A. Eitel, Angelo Sapello, Abhrajit Ghosh
+	- https://doi.org/10.1145/3445814.3446729
 - Cross-core Microarchitectural Side Channel Attacks and Countermeasures
 	- 2017 Ph.D. Dissertation; Gorka Irazoqui
 	- https://web.wpi.edu/Pubs/ETD/Available/etd-042417-114714/unrestricted/girazoki.pdf
@@ -121,8 +125,8 @@ See also: [Computer Architecture](comparch.md)
 - The Last Mile: An Empirical Study of Timing Channels on seL4
 	- CCS 2014
 	- David Cock, Qian Ge, Toby Murray, Gernot Heiser
+	- https://ts.data61.csiro.au/publications/nictaabstracts/Cock_GMH_14.abstract.html
 	- http://research.davidcock.fastmail.fm/slides/lastmile.pdf
-	- https://ts.data61.csiro.au/publications/nictaabstracts/8295.pdf
 	- https://ts.data61.csiro.au/projects/TS/timeprotection/
 - Understanding contention-based channels and using them for defense
 	- HPCA 2015
