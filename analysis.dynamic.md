@@ -162,6 +162,11 @@ See also:
 	- Software: Practice and Experience, 48(6) 2018
 	- Sheng-Yu Fu, Ding-Yong Hong, Yu-Ping Liu, Jan-Jan Wu, Wei-Chung Hsu
 	- https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2573?af=R
+- Efficient LLVM-Based Dynamic Binary Translation
+	- VEE 2021
+	- Alexis Engelke, Dominik Okwieka, Martin Schulz
+	- https://doi.org/10.1145/3453933.3454022
+	- https://conf.researchr.org/details/vee-2021/vee-2021-papers/6/Efficient-LLVM-Based-Dynamic-Binary-Translation
 - Enhancing Atomic Instruction Emulation for Cross-ISA Dynamic Binary Translation
 	- Code Generation and Optimization (CGO) 2021
 	- Ziyi Zhao, Zhang Jiang, Xiaoli Gong, Ying Chen, Wenwen Wang, Pen-Chung Yew
