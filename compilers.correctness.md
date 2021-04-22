@@ -147,6 +147,11 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 - Formalising Meaning: a History of Programming Language Semantics
 	- 2019 PhD dissertation; Troy Kaighin Astarte
 	- http://homepages.cs.ncl.ac.uk/t.astarte/res/pdf/TK_Astarte_Formalising_Meaning_2019.pdf
+- Practical Testing of a C99 Compiler Using Output Comparison
+	- Software: Practice and Experience 37(14) 2007
+	- http://doi.wiley.com/10.1002/spe.812
+	- Pre-print: http://pobox.com/~flash/Practical_Testing_of_C99.pdf
+	- Bibliography, updated sporadically: http://pobox.com/~flash/compiler_testing_bibliography.html
 - Toward Compiler Implementation Correctness Proofs
 	- ACM Transactions on Programming Languages and Systems (TOPLAS) 8(2) 1986
 	- Laurian M. Chirica, David F. Martin
