@@ -200,7 +200,16 @@
 	- https://github.com/ThePhD/sol2
 	- Scripting at the Speed of Thought: Lua and C++ with sol3 - CppCon 2018; JeanHeyd Meneide
 		- https://www.youtube.com/watch?v=xQAmGBfKnas
-- Lua in the Stingray 3D game engine - Niklas Frykholm - https://www.youtube.com/watch?v=wTjyM7d7_YA
+
+## Lua: Talks
+
+- C++20 + Lua = Flexibility
+	- ACCU 2021; James Pascoe
+	- https://www.youtube.com/watch?v=ojph4RZvqqQ
+	- https://accu.org/conf-docs/PDFs_2021/james_pascoe_cpp20_lua_flexibility.pdf
+- Lua in the Stingray 3D game engine
+	- Lua Workshop 2015; Niklas Frykholm
+	- https://www.youtube.com/watch?v=wTjyM7d7_YA
 
 ---
 
