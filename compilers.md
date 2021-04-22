@@ -167,6 +167,13 @@ Compilers Call For Papers for Conferences, Workshops and Journals at WikiCFP - h
 		- Playlist: https://www.youtube.com/playlist?list=PLTPQEx-31JXhfAWGnGzwbfhB2zUB7Jd4C
 		- Topics: https://courses.cs.washington.edu/courses/csep501/16wi/calendar/lecturelist.html
 
+# Cross-compilation
+
+- GCC and Clang compiler drivers and cross compilation - http://maskray.me/blog/2021-03-28-compiler-driver-and-cross-compilation
+- How to cross compile with LLVM based tools
+	- FOSDEM 2017; Peter Smith
+	- https://archive.fosdem.org/2018/schedule/event/crosscompile/attachments/slides/2107/export/events/attachments/crosscompile/slides/2107/How_to_cross_compile_with_LLVM_based_tools.pdf
+
 # Implementations
 
 - List of Online C++ Compilers - https://arnemertz.github.io/online-compilers/
@@ -257,11 +264,6 @@ See:
 - STOKE: A stochastic superoptimizer and program synthesizer - http://stoke.stanford.edu - https://github.com/StanfordPL/stoke
 - Superoptimizing Compilers - http://superoptimization.org/wiki/Superoptimizing_Compilers
 - Superoptimization - James Pallister - FOSDEM 2015 - https://archive.fosdem.org/2015/schedule/event/superoptimization/
-
-# Cross-compilation
-
-- GCC and Clang compiler drivers and cross compilation - http://maskray.me/blog/2021-03-28-compiler-driver-and-cross-compilation
-- How to cross compile with LLVM based tools - https://archive.fosdem.org/2018/schedule/event/crosscompile/attachments/slides/2107/export/events/attachments/crosscompile/slides/2107/How_to_cross_compile_with_LLVM_based_tools.pdf
 
 # Talks
 
