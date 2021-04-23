@@ -171,8 +171,8 @@ Compilers Call For Papers for Conferences, Workshops and Journals at WikiCFP - h
 
 - GCC and Clang compiler drivers and cross compilation - http://maskray.me/blog/2021-03-28-compiler-driver-and-cross-compilation
 - How to cross compile with LLVM based tools
-	- FOSDEM 2017; Peter Smith
-	- https://archive.fosdem.org/2018/schedule/event/crosscompile/attachments/slides/2107/export/events/attachments/crosscompile/slides/2107/How_to_cross_compile_with_LLVM_based_tools.pdf
+	- FOSDEM 2018; Peter Smith
+	- https://archive.fosdem.org/2018/schedule/event/crosscompile/
 
 # Implementations
 
