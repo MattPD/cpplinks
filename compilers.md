@@ -167,6 +167,13 @@ Compilers Call For Papers for Conferences, Workshops and Journals at WikiCFP - h
 		- Playlist: https://www.youtube.com/playlist?list=PLTPQEx-31JXhfAWGnGzwbfhB2zUB7Jd4C
 		- Topics: https://courses.cs.washington.edu/courses/csep501/16wi/calendar/lecturelist.html
 
+# Cross-compilation
+
+- GCC and Clang compiler drivers and cross compilation - http://maskray.me/blog/2021-03-28-compiler-driver-and-cross-compilation
+- How to cross compile with LLVM based tools
+	- FOSDEM 2018; Peter Smith
+	- https://archive.fosdem.org/2018/schedule/event/crosscompile/
+
 # Implementations
 
 - List of Online C++ Compilers - https://arnemertz.github.io/online-compilers/
