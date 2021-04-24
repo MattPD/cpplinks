@@ -620,6 +620,14 @@ Mutation Analysis, Mutation Coverage, Mutation Testing
 	- Marinos Kintis, Mike Papadakis, Yue Jia, Nicos Malevris, Yves Le Traon, Mark Harman
 	- http://pages.cs.aueb.gr/~kintism/papers/tce/
 	- https://sites.google.com/site/mikepapadakis/tce-tse.pdf?attredirects=0&d=1
+- Does mutation testing improve testing practices?
+	- International Conference on Software Engineering (ICSE) 2021
+	- Goran Petrović, Marko Ivanković, Gordon Fraser, René Just
+	- https://arxiv.org/abs/2103.07189
+	- https://homes.cs.washington.edu/~rjust/publ/mutation_testing_practices_icse_2021.pdf
+	- Mutation Testing
+		- 2021; Goran Petrovic
+		- https://testing.googleblog.com/2021/04/mutation-testing.html
 - How Verified (or Tested) is My Code? Falsification-Driven Verification and Testing
 	- Automated Software Engineering (2018)
 	- Groce, Alex & Ahmed, Iftekhar & Jensen, Carlos & Mckenney, Paul & Holmes, Josie
