@@ -803,19 +803,21 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ### LLDB: Readings
 
-* LLDB Cheat Sheet
-	+ https://www.nesono.com/content/lldb-cheat-sheet
-	+ https://www.nesono.com/sites/default/files/lldb%20cheat%20sheet.pdf
-* LLDB for GDB Users – Command Summary
-	+ https://developer.apple.com/library/content/documentation/General/Conceptual/lldb-guide/chapters/A3-GDB-Summary.html
-* LLDB Scripts - Debugging the Swift Compiler
-	+ https://github.com/apple/swift/blob/main/docs/DebuggingTheCompiler.md#debugging-the-compiler-using-lldb-scripts
-* LLDB to GDB Command Map - https://lldb.llvm.org/lldb-gdb.html
-* Beyond Debug Information: Improving Program Reconstruction in LLDB using C++ Modules
+- LLDB Cheat Sheet
+	- https://www.nesono.com/content/lldb-cheat-sheet
+	- https://www.nesono.com/sites/default/files/lldb%20cheat%20sheet.pdf
+- LLDB for GDB Users – Command Summary
+	- https://developer.apple.com/library/content/documentation/General/Conceptual/lldb-guide/chapters/A3-GDB-Summary.html
+- LLDB Scripts - Debugging the Swift Compiler
+	- https://github.com/apple/swift/blob/main/docs/DebuggingTheCompiler.md#debugging-the-compiler-using-lldb-scripts
+- LLDB to GDB Command Map - https://lldb.llvm.org/lldb-gdb.html
+- Beyond Debug Information: Improving Program Reconstruction in LLDB using C++ Modules
 	- 2019 Master’s Thesis; Raphael Isemann
 	- https://hdl.handle.net/20.500.12380/300037
-* How to Extend LLDB to Provide a Better Debugging Experience
+- How to Extend LLDB to Provide a Better Debugging Experience
 	- https://pspdfkit.com/blog/2018/how-to-extend-lldb-to-provide-a-better-debugging-experience/
+- LLDB support for fork(2) and vfork(2)
+	- https://www.moritz.systems/blog/lldb-support-for-fork-and-vfork/
 
 ### LLDB: Talks
 
