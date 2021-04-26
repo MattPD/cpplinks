@@ -524,6 +524,13 @@ See also: [Computer Architecture](comparch.md)
 	- 2015 PhD Dissertation; Jeroen Van Cleemput
 	- http://hdl.handle.net/1854/LU-8503231
 	- https://biblio.ugent.be/publication/8503231
+- Constantine: Automatic Side-Channel Resistance Using Efficient Control and Data Flow Linearization
+	- Computer and Communications Security (CCS) 2021
+	- Pietro Borrello, Daniele Cono D'Elia, Leonardo Querzoni, Cristiano Giuffrida
+	- https://arxiv.org/abs/2104.10749
+	- https://download.vusec.net/papers/constantine_ccs21.pdf
+	- Constantine: a compiler-based system to automatically harden programs against microarchitectural side channels
+		- https://github.com/pietroborrello/constantine
 - FaCT: A Flexible, Constant-Time Programming Language
 	- SecDev 2017
 	- Sunjay Cauligi, Gary Soeller, Fraser Brown, Brian Johannesmeyer, Yunlu Huang, Ranjit Jhala, Deian Stefan
