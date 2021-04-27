@@ -51,7 +51,9 @@ See also: [Assembly (Arm)](assembly.arm.md), [Assembly (RISC-V)](assembly.riscv.
 # Communities
 
 - Computer Architecture Community - https://comp-arch-community.slack.com/ ([invitation](https://join.slack.com/t/comp-arch-community/shared_invite/enQtNTAwNTcxMTQ4NzU4LTZmOGY0NGI4NDIzY2NmZWMxNjBlMGJmYTMzNzkxNzc2YmQ1OTAwZTE4ODRmN2FmZmYwNGFhODIxOGE2YWQwNWM))
-- Systems Slack - https://systems-research.slack.com ([invitation](http://bit.ly/join-systems-slack-2019))
+- Computer Science Research and Practice: `#architecture`
+	- Slack Workspace: https://cs-research-practice.slack.com
+	- Invitation: https://bit.ly/join-cs-slack
 
 ---
 
@@ -188,6 +190,13 @@ See also: [Assembly (Arm)](assembly.arm.md), [Assembly (RISC-V)](assembly.riscv.
 - Multi2Sim
 	- http://www.multi2sim.org/
 	- https://github.com/Multi2Sim/multi2sim
+- QEMU: a generic and open source machine & userspace emulator and virtualizer
+	- https://www.qemu.org/
+	- https://gitlab.com/qemu-project/qemu
+	- QEMU, a Fast and Portable Dynamic Translator
+		- 2005 USENIX Annual Technical Conference
+		- Fabrice Bellard
+		- https://www.usenix.org/conference/2005-usenix-annual-technical-conference/qemu-fast-and-portable-dynamic-translator
 - Sniper - http://snipersim.org/
 - Structural Simulation Toolkit (SST) - http://sst-simulator.org/
 	- https://github.com/sstsimulator
