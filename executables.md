@@ -323,6 +323,9 @@ Contents:
 	+ Poke-a-hole and friends - https://lwn.net/Articles/335942/
 	+ pahole and other DWARF2 utilities - https://lwn.net/Articles/206805/
 	+ How to avoid wasting megabytes of memory a few bytes at a time - https://developers.redhat.com/blog/2016/06/01/how-to-avoid-wasting-megabytes-of-memory-a-few-bytes-at-a-time/
+* read-dwarf: a tool for exploring, symbolically executing, and validating ELF binaries generated from C, using DWARF debugging information
+	- https://htmlpreview.github.io/?https://github.com/rems-project/read-dwarf/blob/master/doc/html/read-dwarf/index.html
+	- https://github.com/rems-project/read-dwarf
 * structhole: Look for holes in structs by examining DWARF debugging output - https://github.com/cemeyer/structhole
 
 ## DWARF: Talks
