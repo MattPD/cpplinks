@@ -322,6 +322,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://www.syssec.ruhr-uni-bochum.de/research/publications/nautilus/
 	- https://github.com/RUB-SysSec/nautilus
 	- testing applications: ChakraCore (the JavaScript engine of Microsoft Edge), PHP, mruby, and Lua
+- Practical Testing of a C99 Compiler Using Output Comparison
+	- Software: Practice and Experience 37(14) 2007
+	- Flash Sheridan
+	- http://doi.wiley.com/10.1002/spe.812
+	- Pre-print: http://pobox.com/~flash/Practical_Testing_of_C99.pdf
+	- Bibliography, updated sporadically: http://pobox.com/~flash/compiler_testing_bibliography.html
 - RandIR: Differential Testing for Embedded Compilers
 	- SCALA 2016
 	- Georg Ofenbeck, Tiark Rompf, Markus Püschel
