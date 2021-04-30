@@ -956,10 +956,6 @@ See also: [Performance Tools](performance.tools.md)
 	- The ARM Computer Vision and Machine Learning library is a set of functions optimised for both ARM CPUs and GPUs using SIMD technologies.
 	- https://developer.arm.com/technologies/compute-library
 	- https://github.com/ARM-software/ComputeLibrary
-- Ne10 Open Source Library
-	- Ne10 is a library of common, useful functions that have been heavily optimised for ARM-based CPUs equipped with NEON SIMD capabilities. It provides consistent, well-tested behaviour, allowing for painless integration into a wide variety of applications. The library currently focuses primarily around math, signal processing, image processing, and physics functions.
-	- http://projectne10.github.io/Ne10/
-	- https://github.com/projectNe10/Ne10
 
 ### Software: Performance: SIMD
 
@@ -967,7 +963,17 @@ See also: [Performance Tools](performance.tools.md)
 	- The SIMDe header-only library provides fast, portable implementations of SIMD intrinsics on hardware which doesn't natively support them, such as calling SSE functions on ARM. There is no performance penalty if the hardware supports the native implementation (e.g., SSE/AVX runs at full speed on x86, NEON on ARM, etc.).
 	- https://github.com/simd-everywhere/simde
 	- https://github.com/simd-everywhere/simde#related-projects
-- sse2neon: A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64 NEON intrinsics
+
+#### Software: Performance: SIMD: Neon
+
+- Arm Neon reference tests
+	- Tests for Arm Neon instructions, useful for compilers and simulators.
+	- https://github.com/christophe-lyon/arm-neon-tests
+- Ne10 Open Source Library
+	- Ne10 is a library of common, useful functions that have been heavily optimised for ARM-based CPUs equipped with NEON SIMD capabilities. It provides consistent, well-tested behaviour, allowing for painless integration into a wide variety of applications. The library currently focuses primarily around math, signal processing, image processing, and physics functions.
+	- http://projectne10.github.io/Ne10/
+	- https://github.com/projectNe10/Ne10
+- sse2neon: A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64 Neon intrinsics
 	- https://github.com/DLTcollab/sse2neon
 	- https://github.com/DLTcollab/sse2neon#related-projects
 
