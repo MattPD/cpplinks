@@ -422,6 +422,12 @@ https://riscv.org/software-tools/
 		- https://dl.acm.org/doi/abs/10.1145/3342195.3387532
 		- https://www.youtube.com/watch?v=S8MmKBCoPSg
 
+## Software: Translation
+
+- arm2riscv: Arm AArch64 to RISC-V Transpiler
+	- https://github.com/schorrm/arm2riscv
+	- https://github.com/schorrm/arm2riscv/tree/master/docs
+
 ---
 
 # Talks
