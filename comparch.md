@@ -51,6 +51,8 @@ See also: [Assembly (Arm)](assembly.arm.md), [Assembly (RISC-V)](assembly.riscv.
 # Communities
 
 - Computer Architecture Community - https://comp-arch-community.slack.com/ ([invitation](https://join.slack.com/t/comp-arch-community/shared_invite/enQtNTAwNTcxMTQ4NzU4LTZmOGY0NGI4NDIzY2NmZWMxNjBlMGJmYTMzNzkxNzc2YmQ1OTAwZTE4ODRmN2FmZmYwNGFhODIxOGE2YWQwNWM))
+- Computer Architecture Student Association
+	- https://www.comparchsa.org/
 - Computer Science Research and Practice: `#architecture`
 	- Slack Workspace: https://cs-research-practice.slack.com
 	- Invitation: https://bit.ly/join-cs-slack
