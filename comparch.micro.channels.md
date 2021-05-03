@@ -184,6 +184,13 @@ See also: [Computer Architecture](comparch.md)
 	- USENIX Security 2021
 	- Gururaj Saileshwar, Moinuddin Qureshi
 	- https://arxiv.org/abs/2009.09090
+- Streamline: A Fast, Flushless Cache Covert-Channel Attack by Enabling Asynchronous Collusion
+	- ASPLOS 2021
+	- Gururaj Saileshwar, Christopher W. Fletcher, Moinuddin K. Qureshi
+	- https://doi.org/10.1145/3445814.3446742
+	- http://memlab.ece.gatech.edu/papers/ASPLOS_2021_1.pdf
+	- https://github.com/gururaj-s/streamline
+	- https://www.youtube.com/watch?v=jp7CDpxwjjQ
 - Systematic Analysis of Randomization-based Protected Cache Architectures
 	- IEEE Symposium on Security & Privacy (S&P) 2021
 	- Antoon Purnal, Lukas Giner, Daniel Gruss, Ingrid Verbauwhede
