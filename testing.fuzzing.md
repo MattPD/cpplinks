@@ -304,6 +304,12 @@ See also:
 	- https://tunnelshade.in/blog/2018/01/afl-internals-compile-time-instrumentation/
 - WinAFL: A fork of AFL for fuzzing Windows binaries
 	- https://github.com/googleprojectzero/winafl
+- Winnie-AFL: a fork of WinAFL that supports fuzzing using a fork-like API
+	- https://github.com/sslab-gatech/winnie
+	- WINNIE: Fuzzing Windows Applications with Harness Synthesis and Fast Cloning
+		- Network and Distributed Systems Security (NDSS) Symposium 2021
+		- Jinho Jung, Stephen Tong, Hong Hu, Jungwon Lim, Yonghwi Jin, Taesoo Kim
+		- https://www.ndss-symposium.org/ndss-paper/winnie-fuzzing-windows-applications-with-harness-synthesis-and-fast-cloning/
 - Zoo AFL: AFL utilities and modifications
 	- https://habr.com/en/company/dsec/blog/449134/
 
