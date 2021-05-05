@@ -969,6 +969,9 @@ See also: [Performance Tools](performance.tools.md)
 - Arm Neon reference tests
 	- Tests for Arm Neon instructions, useful for compilers and simulators.
 	- https://github.com/christophe-lyon/arm-neon-tests
+- AvxToNeon
+	- AVX intrinsics implemented with NEON SIMD intrinsics
+	- https://github.com/kunpengcompute/AvxToNeon
 - Ne10 Open Source Library
 	- Ne10 is a library of common, useful functions that have been heavily optimised for ARM-based CPUs equipped with NEON SIMD capabilities. It provides consistent, well-tested behaviour, allowing for painless integration into a wide variety of applications. The library currently focuses primarily around math, signal processing, image processing, and physics functions.
 	- http://projectne10.github.io/Ne10/
