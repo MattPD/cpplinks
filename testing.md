@@ -857,6 +857,10 @@ Metamorphic Relations, Metamorphic Testing
 	- COMPSAC 2003: International Conference on Computer Software and Applications
 	- Arnaud Gotlieb, Bernard Botella
 	- http://people.rennes.inria.fr/Arnaud.Gotlieb/publications/GB03.pdf
+- Dreaming up Metamorphic Relations: Experiences from Three Fuzzer Tools
+	- MET 2021
+	- Andrei Lascu, Matt Windsor, Alastair Donaldson, Tobias Grosser, John Wickerson
+	- https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2021/MET.pdf
 - Metamorphic Testing
 	- CREST Open Workshop 2012
 	- Tsong Yueh Chen
