@@ -402,6 +402,8 @@ See also:
 - GWP-ASan: Sampling heap memory error detection in-the-wild
 	- 2019; Vlad Tsyrklevich
 	- https://sites.google.com/a/chromium.org/dev/Home/chromium-security/articles/gwp-asan
+- Memory error checking in C and C++: Comparing Sanitizers and Valgrind
+	- https://developers.redhat.com/blog/2021/05/05/memory-error-checking-in-c-and-c-comparing-sanitizers-and-valgrind/
 
 #### Software: Sanitizers: Readings: Research
 
