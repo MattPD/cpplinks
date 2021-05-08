@@ -113,6 +113,8 @@
 	- https://github.com/itanium-cxx-abi/cxx-abi
 - Lessons from the Unix stdio ABI: 40 Years Later
 	- https://fingolfin.org/blog/20200327/stdio-abi.html
+- Removing an empty base class can break ABI
+	- https://quuxplusone.github.io/blog/2021/05/07/std-iterator-as-a-base-class/
 - Some thoughts on binary compatibility - http://blog.qt.io/blog/2009/08/12/some-thoughts-on-binary-compatibility/
 - Some thoughts on calling convention - http://blog.qt.io/blog/2009/08/15/some-thoughts-on-calling-convention/
 - The Importance of Calling Conventions - http://blog.aaronballman.com/2011/04/the-importance-of-calling-conventions/
