@@ -306,6 +306,13 @@
 - Caliper: A Performance Analysis Toolbox in a Library
 	- an instrumentation and performance profiling library
 	- https://github.com/LLNL/Caliper
+	- SPOT: a web-based visualization for ubiquitous performance data
+		- https://github.com/llnl/spot2_container
+	- Automating Application Performance Analysis with Caliper, SPOT, and Hatchet
+		- 2021 ECP Annual Meeting
+		- David Boehme, Matthew LeGendre, Abhinav Bhatele, Olga Pearce
+		- https://www.youtube.com/watch?v=p8gjA6rbpvo
+		- https://www.exascaleproject.org/event/perfanalysis/
 - Coz: Finding Code that Counts with Causal Profiling
 	- https://github.com/plasma-umass/coz/
 	- Charlie Curtsinger, Emery Berger
