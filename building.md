@@ -624,6 +624,8 @@ See also:
 	- https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/
 - Learn CMake's Scripting Language in 15 Minutes
 	- http://preshing.com/20170522/learn-cmakes-scripting-language-in-15-minutes/
+- Mastering CMake Book
+	- https://gitlab.kitware.com/cmake/mastering-cmake
 - More Modern CMake
 	- https://hsf-training.github.io/hsf-training-cmake-webpage/
 - Professional CMake: A Practical Guide
