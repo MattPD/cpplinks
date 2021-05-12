@@ -117,6 +117,14 @@
 	- FortranCon 2020; Lee Taylor
 		- https://tcevents.chem.uzh.ch/event/12/contributions/30/
 		- https://www.youtube.com/watch?v=1mdI-M94vDc
+- SWIG-Fortran
+	- https://github.com/swig-fortran
+	- Flibcpp: Fortran bindings to the C++ Standard Library
+		- https://github.com/swig-fortran/flibcpp
+	- Automated Fortran–C++ Bindings for Large-Scale Scientific Applications
+		- IDEAS-ECP Webinar 2021; Seth Johnson
+		- https://www.exascaleproject.org/event/fortran-cpp-bindings/
+		- https://www.youtube.com/watch?v=mC67NVuz6WI
 
 ---
 
