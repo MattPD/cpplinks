@@ -642,27 +642,29 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ### NEON
 
-* Neon – Arm Developer
+- Neon – Arm Developer
 	- https://developer.arm.com/architectures/instruction-sets/simd-isas/neon
 	- Neon Programmer's Guide for Armv8-A
 		- https://developer.arm.com/architectures/instruction-sets/simd-isas/neon/neon-programmers-guide-for-armv8-a
-* NEON Intrinsics - https://developer.arm.com/technologies/neon/intrinsics
-* NEON intrinsics guide - https://github.com/thenifty/neon-guide
-* NEON Programmer’s Guide - http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.den0018a/
-* Porting and Optimizing HPC Applications for Arm Documentation
-	+ https://developer.arm.com/docs/101725/0200
-	+ Coding for Neon
+- NEON Intrinsics - https://developer.arm.com/technologies/neon/intrinsics
+- NEON intrinsics guide - https://github.com/thenifty/neon-guide
+- NEON Programmer’s Guide - http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.den0018a/
+- Porting and Optimizing HPC Applications for Arm Documentation
+	- https://developer.arm.com/docs/101725/0200
+	- Coding for Neon
 		- https://developer.arm.com/docs/101725/0200/coding-for-neontm
-* ARM NEON Intrinsics - https://gcc.gnu.org/onlinedocs/gcc-4.9.4/gcc/ARM-NEON-Intrinsics.html#ARM-NEON-Intrinsics
-* Branch Free - Geoff Langdale
+- ARM NEON Intrinsics - https://gcc.gnu.org/onlinedocs/gcc-4.9.4/gcc/ARM-NEON-Intrinsics.html#ARM-NEON-Intrinsics
+- Branch Free - Geoff Langdale
 	- An Intel Programmer Jumps Over the Wall: First Impressions of ARM SIMD Programming
 		- https://branchfree.org/2019/03/26/an-intel-programmer-jumps-over-the-wall-first-impressions-of-arm-simd-programming/
 	- Fitting My Head Through The ARM Holes or: Two Sequences to Substitute for the Missing PMOVMSKB Instruction on ARM NEON
 		- https://branchfree.org/2019/04/01/fitting-my-head-through-the-arm-holes-or-two-sequences-to-substitute-for-the-missing-pmovmskb-instruction-on-arm-neon/
-* Control Flow Vectorization for ARM NEON
-	+ International Workshop on Software and Compilers for Embedded Systems (SCOPES) 2018
-	+ Angela Pohl, Biagio Cosenza, Ben Juurlink
-	+ http://www.cosenza.eu/papers/PohlSCOPES18.pdf
+- Control Flow Vectorization for ARM NEON
+	- International Workshop on Software and Compilers for Embedded Systems (SCOPES) 2018
+	- Angela Pohl, Biagio Cosenza, Ben Juurlink
+	- http://www.cosenza.eu/papers/PohlSCOPES18.pdf
+- Porting Intel Intrinsics to Arm Neon Intrinsics
+	- https://www.codeproject.com/Articles/5301747/Porting-Intel-Intrinsics-to-Arm-Neon-Intrinsics
 
 ### Scalable Vector Extension (SVE)
 
