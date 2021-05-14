@@ -179,9 +179,12 @@ https://riscv.org/risc-v-books/
 
 # Open-Source Hardware Projects
 
-RISC-V Cores and SoC Overview - https://github.com/riscv/riscv-cores-list
-
-Taxonomy of Open Source Processors - http://parallel.princeton.edu/openpiton/open_source_processors.php
+* RISC-V Cores and SoC Overview - https://github.com/riscv/riscv-cores-list
+* Taxonomy of Open Source Processors - http://parallel.princeton.edu/openpiton/open_source_processors.php
+* A Comparative Survey of Open-Source Application-Class RISC-V Processor Implementations
+	- ACM International Conference on Computing Frontiers (CF) 2021
+	- Alexander Dörflinger, Mark Albers, Yejun Guan, Benedikt Kleinbeck, Harald Michalik, Raphael Klink, Chistopher Blochwitz, Anouar Nechi, Mladen Berekovic
+	- https://dl.acm.org/doi/10.1145/3457388.3458657
 
 - Ariane RISC-V CPU (SystemVerilog)
 	- Ariane is a 6-stage, single issue, in-order CPU which implements the 64-bit RISC-V instruction set.
