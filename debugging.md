@@ -9,22 +9,22 @@ See also:
 
 # Contents
 
-* [General](#general)
-* [Standard Libraries](#standard-libraries)
-* [Readings](#readings):
-	+ [Books](#books)
-	+ [Concurrency](#concurrency)
-	+ [Implementation](#implementation): [Correctness](#correctness)
-	+ [Reverse Debugging](#reverse-debugging)
-	+ [Software Engineering](#software-engineering)
-	+ [Transparency](#transparency)
-* [Software](#software):
-	+ [GDB](#gdb): [Projects](#gdb-projects), [Readings](#gdb-readings), [Talks](#gdb-talks)
-	+ [LLDB](#lldb): [Projects](#lldb-projects), [Readings](#lldb-readings), [Talks](#lldb-talks)
-	+ [RR](#rr)
-	+ [OS-specific](#os-specific): [iOS](#iOS), [Linux](#linux), [macOS](#macos), [Windows](#windows) - [WinDbg](#windbg)
-	+ [Stack Trace & Unwinding](#stack-trace--unwinding)
-* [Talks](#talks): [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
+- [General](#general)
+- [Standard Libraries](#standard-libraries)
+- [Readings](#readings):
+	- [Books](#books)
+	- [Concurrency](#concurrency)
+	- [Implementation](#implementation): [Correctness](#correctness)
+	- [Reverse Debugging](#reverse-debugging)
+	- [Software Engineering](#software-engineering)
+	- [Transparency](#transparency)
+- [Software](#software):
+	- [GDB](#gdb): [Projects](#gdb-projects), [Readings](#gdb-readings), [Talks](#gdb-talks)
+	- [LLDB](#lldb): [Projects](#lldb-projects), [Readings](#lldb-readings), [Talks](#lldb-talks)
+	- [RR](#rr): [Projects](#rr-projects), [Readings](#rr-readings)
+	- [OS-specific](#os-specific): [iOS](#iOS), [Linux](#linux), [macOS](#macos), [Windows](#windows) - [WinDbg](#windbg)
+	- [Stack Trace & Unwinding](#stack-trace--unwinding)
+- [Talks](#talks): [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
 
 ---
 
@@ -873,25 +873,37 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ## RR
 
-* RR: Record and Replay Framework
-	+ http://rr-project.org/
-	+ https://github.com/mozilla/rr
-* rr Paper: "Lightweight User-Space Record And Replay"
-	+ http://robert.ocallahan.org/2016/10/rr-paper-lightweight-user-space-record.html
-* Control Flow Visualizer (CFViz): an rr / gdb plugin
-	+ https://botondballo.wordpress.com/2017/12/22/control-flow-visualizer-cfviz-an-rr-gdb-plugin/
-	+ https://bitbucket.org/botond/cfviz
-* Engineering Record And Replay For Deployability
-	+ USENIX ATC 2017
-	+ Robert O'Callahan, Chris Jones, Nathan Froyd, Kyle Huey, Albert Noll, Nimrod Partush
-	+ https://arxiv.org/abs/1705.05937
-	+ https://www.usenix.org/conference/atc17/technical-sessions/presentation/ocallahan
-* Improved debugging with rr - https://techtalk.intersec.com/2018/03/improved-debugging-with-rr/
-* rr-dataflow: An 'origin' command that continues to the origin of a piece of data in rr
-	+ https://github.com/jrmuizel/rr-dataflow
-	+ Using rr-dataflow: Why and How? - https://www.mgaudet.ca/technical/2018/10/18/using-rr-dataflow-why-and-how
-* Timeless Debugging of Complex Software: Root Cause Analysis of a Non-Deterministic JavaScriptCore Bug
-	+ http://blog.ret2.io/2018/06/19/pwn2own-2018-root-cause-analysis/
+- RR: Record and Replay Framework
+	- http://rr-project.org/
+	- https://github.com/mozilla/rr
+
+### RR: Projects
+
+- Control Flow Visualizer (CFViz): an rr / gdb plugin
+	- https://botondballo.wordpress.com/2017/12/22/control-flow-visualizer-cfviz-an-rr-gdb-plugin/
+	- https://bitbucket.org/botond/cfviz
+- rr-dataflow: An 'origin' command that continues to the origin of a piece of data in rr
+	- https://github.com/jrmuizel/rr-dataflow
+	- Using rr-dataflow: Why and How? - https://www.mgaudet.ca/technical/2018/10/18/using-rr-dataflow-why-and-how
+
+### RR: Readings
+
+- Engineering Record And Replay For Deployability
+	- USENIX ATC 2017
+	- Robert O'Callahan, Chris Jones, Nathan Froyd, Kyle Huey, Albert Noll, Nimrod Partush
+	- https://arxiv.org/abs/1705.05937
+	- https://www.usenix.org/conference/atc17/technical-sessions/presentation/ocallahan
+- Lightweight User-Space Record And Replay
+	- 2016
+	- Robert O'Callahan, Chris Jones, Nathan Froyd, Kyle Huey, Albert Noll, Nimrod Partush
+	- https://robert.ocallahan.org/2016/10/rr-paper-lightweight-user-space-record.html
+	- https://arxiv.org/abs/1610.02144
+- Improved debugging with rr
+	- https://techtalk.intersec.com/2018/03/improved-debugging-with-rr/
+- Instant replay: Debugging C and C++ programs with rr
+	- https://developers.redhat.com/blog/2021/05/03/instant-replay-debugging-c-and-c-programs-with-rr/
+- Timeless Debugging of Complex Software: Root Cause Analysis of a Non-Deterministic JavaScriptCore Bug
+	- http://blog.ret2.io/2018/06/19/pwn2own-2018-root-cause-analysis/
 
 ## OS-specific
 
