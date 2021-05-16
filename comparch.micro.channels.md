@@ -1880,6 +1880,12 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 
 ## Speculation: 2021
 
+- Reproducing Spectre Attack with gem5, How To Do It Right?
+	- EuroSec 2021
+	- Pierre Ayoub, Clémentine Maurice
+	- https://hal.inria.fr/hal-03215326/
+	- https://cmaurice.fr/pdf/eurosec21_ayoub.pdf
+	- https://pierreay.github.io/reproduce-spectre-gem5/
 - Speculative Interference Attacks: Breaking Invisible Speculation Schemes
 	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2021
 	- Mohammad Behnia, Prateek Sahu, Riccardo Paccagnella, Jiyong Yu, Zirui Zhao, Xiang Zou, Thomas Unterluggauer, Josep Torrellas, Carlos Rozas, Adam Morrison, Frank Mckeen, Fangfei Liu, Ron Gabor, Christopher W. Fletcher, Abhishek Basak, Alaa Alameldeen
@@ -1905,10 +1911,12 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- NDSS 2020
 	- Yuan Xiao, Yinqian Zhang, Radu Teodorescu
 	- https://arxiv.org/abs/1912.00329
-- Survey of Transient Execution Attacks
-	- 2020
+- Survey of Transient Execution Attacks and Their Mitigations 
 	- Wenjie Xiong, Jakub Szefer
-	- https://arxiv.org/abs/2005.13435
+	- 2020
+		- https://arxiv.org/abs/2005.13435
+	- ACM Computing Surveys 2021 Vol 54(3)
+		- https://dl.acm.org/doi/abs/10.1145/3442479
 - The Evolution of Transient-Execution Attacks
 	- GLSVLSI 2020
 	- Claudio Canella, Khaled N. Khasawneh, Daniel Gruss
