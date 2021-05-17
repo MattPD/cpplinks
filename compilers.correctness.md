@@ -35,6 +35,10 @@ See also:
 	- Journal of Functional Programming 2020
 	- Patrick Bahr and Graham Hutton
 	- http://www.cs.nott.ac.uk/~pszgmh/bib.html#ccc2
+- Calculating Dependently-Typed Compilers
+	- International Conference on Functional Programming 2021
+	- Mitchell Pickard, Graham Hutton
+	- http://www.cs.nott.ac.uk/~pszgmh/well-typed.pdf
 - Compiling with Proofs
 	- 1998 Ph.D. Thesis; George C. Necula
 	- https://people.eecs.berkeley.edu/~necula/Papers/thesis.pdf
