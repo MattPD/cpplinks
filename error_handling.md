@@ -192,6 +192,15 @@
 		- https://docs.microsoft.com/en-us/cpp/build/exception-handling-x64
 - Using Exceptions in GCC
 	- https://gcc.gnu.org/onlinedocs/libstdc++/manual/using_exceptions.html
+- Windows SEH
+	- Windows SEH Support in LLVM
+		- https://github.com/tentzen/llvm-project/wiki
+		- Hardware Exception Handling (MSVC -EHa) - Part 1: FE Clang implementation
+			- https://reviews.llvm.org/D80344/
+		- [llvm-dev] [RFC] [Windows SEH] Local_Unwind (Jumping out of a `_finally`) and -EHa (Hardware Exception Handling)
+			- https://lists.llvm.org/pipermail/llvm-dev/2020-March/140541.html
+		- [llvm-dev] [RFC] [Windows SEH][-EHa] Support Hardware Exception Handling
+			- https://lists.llvm.org/pipermail/llvm-dev/2020-April/140991.html
 
 ## Papers
 
