@@ -318,6 +318,11 @@ See also:
 - libFuzzer – a library for coverage-guided fuzz testing.
 	- http://llvm.org/docs/LibFuzzer.html
 	- http://tutorial.libFuzzer.info
+- A stroll down fuzzer optimisation lane and why instrumentation policies matter
+	- an in-depth view of libFuzzer internals and how this affects Envoy fuzzing performance
+	- https://blog.envoyproxy.io/a-stroll-down-fuzzer-optimisation-lane-and-why-instrumentation-policies-matter-f0012ec260b3
+	- Envoy fuzzing improvements
+		- https://raw.githubusercontent.com/envoyproxy/envoy/main/docs/security/audit_fuzzer_adalogics_2021.pdf
 - Deconstructing LibProtobuf/Mutator Fuzzing
 	- https://bshastry.github.io/2019/01/18/Deconstructing-LPM.html
 - Efficient Fuzzing Guide
