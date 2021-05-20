@@ -582,6 +582,8 @@ See also:
 - Valgrind
 	- C++ Weekly - Episode 86
 	- https://www.youtube.com/watch?v=3l0BQs2ThTo
+- Valgrind Memcheck: Different ways to lose your memory
+	- https://developers.redhat.com/blog/2021/04/23/valgrind-memcheck-different-ways-to-lose-your-memory/
 - gdb + valgrind - https://fau.re/blog/20140330_vgdb.html
 - Valgrind and GDB: Tame the Wild C - https://heeris.id.au/2016/valgrind-gdb/
 - Watching for software inefficiencies with Valgrind
