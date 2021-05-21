@@ -682,6 +682,10 @@ See also:
 
 #### CMake Talks: 2021
 
+- An Introduction to CMakePresets.json
+	- Pure Virtual C++ 2021; Erika Sweet, Kyle Edwards
+	- https://www.youtube.com/watch?v=NFbnm1t6Mc4
+	- https://channel9.msdn.com/Events/CPP/Pure-Virtual-Cpp-2021/An-Introduction-to-CMakePresetsjson
 - Better CMake - Jefferson Amstutz
 	- https://www.youtube.com/playlist?list=PL8i3OhJb4FNV10aIZ8oF0AA46HgA2ed8g
 
