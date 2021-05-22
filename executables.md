@@ -526,6 +526,9 @@ Contents:
 	- More ELF relocations - https://fasterthanli.me/blog/2020/more-elf-relocations/
 	- A no_std Rust binary - https://fasterthanli.me/blog/2020/a-no-std-rust-binary/
 	- Thread-local storage - https://fasterthanli.me/blog/2020/thread-local-storage/
+* Modern ELF Infection Techniques of SCOP Binaries
+	- PoC||GTFO 0x20, January 2020; Ryan "ElfMaster" O'Neill
+	- https://archive.org/details/pocorgtfo20/page/n44/mode/1up?view=theater
 * Position Independent Executables - https://blog.fpmurphy.com/2008/06/position-independent-executables.html
 * Programming With Ones and Zeros
 	+ Part 1 - http://www.hanshq.net/ones-and-zeros.html
