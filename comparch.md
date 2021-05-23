@@ -195,6 +195,8 @@ See also: [Assembly (Arm)](assembly.arm.md), [Assembly (RISC-V)](assembly.riscv.
 - QEMU: a generic and open source machine & userspace emulator and virtualizer
 	- https://www.qemu.org/
 	- https://gitlab.com/qemu-project/qemu
+	- QEMU internals: A series of posts about QEMU internals
+		- https://airbus-seclab.github.io/qemu_blog/
 	- QEMU, a Fast and Portable Dynamic Translator
 		- 2005 USENIX Annual Technical Conference
 		- Fabrice Bellard
