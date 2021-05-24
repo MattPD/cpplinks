@@ -478,6 +478,12 @@
 
 ## Videos
 
+### 2021
+
+- Memory Architectures for Programmable Forward-Looking Systems
+	- ISPASS 2021 Keynote Address; Dan Lustig
+	- https://www.youtube.com/watch?v=YVsYn3NDOYk
+
 ### 2020
 
 - A Relaxed Guide to memory_order_relaxed
