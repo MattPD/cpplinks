@@ -913,6 +913,8 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 
 ## Reduction: Readings
 
+- An Overview of Test Case Reduction
+	- https://blog.sigplan.org/2021/03/30/an-overview-of-test-case-reduction/
 - Everything You Ever Wanted To Know About Test-Case Reduction, But Didn’t Know to Ask
 	- https://blog.trailofbits.com/2019/11/11/test-case-reduction/
 - Mitigating (and Exploiting) Test Reduction Slippage
