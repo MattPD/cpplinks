@@ -569,6 +569,11 @@ See also: [Computer Architecture](comparch.md)
 	- https://llvm.org/docs/SpeculativeLoadHardening.html
 	- https://lists.llvm.org/pipermail/llvm-dev/2018-March/122085.html
 	- https://docs.google.com/document/d/1wwcfv3UV9ZnZVcGiGuoITT_61e_Ko3TmoCS3uXLcJR0/edit
+- Swivel: Hardening WebAssembly against Spectre
+	- USENIX Security Symposium 2021
+	- Shravan Narayan, Craig Disselkoen, Daniel Moghimi, Sunjay Cauligi, Evan Johnson, Zhao Gang, Anjo Vahldiek-Oberwagner, Ravi Sahita, Hovav Shacham, Dean Tullsen, Deian Stefan
+	- https://arxiv.org/abs/2102.12730
+	- https://www.usenix.org/conference/usenixsecurity21/presentation/narayan
 
 ## Defense - Speculation
 
