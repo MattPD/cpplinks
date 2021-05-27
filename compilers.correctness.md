@@ -473,6 +473,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Automated Software Engineering (ASE) 2019
 	- Daniil Stepanov, Marat Akhin, Mikhail Belyaev
 	- https://arxiv.org/abs/1909.07331
+- Test-Case Reduction and Deduplication Almost for Free with Transformation-Based Compiler Testing
+	- PLDI 2021
+	- Alastair Donaldson, Paul Thomson, Vasyl Teliman, Stefano Milizia, André Perez Maselco, Antoni Karpiński
+	- https://doi.org/10.1145/3453483.3454092
+	- http://multicore.doc.ic.ac.uk/publications/pldi-21.html
+	- https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2021/PLDI.pdf
+	- https://pldi21.sigplan.org/details/pldi-2021-papers/67/Test-Case-Reduction-and-Deduplication-Almost-for-Free-with-Transformation-Based-Compi
 - Test-Case Reduction for C Compiler Bugs
 	- PLDI 2012
 	- John Regehr, Yang Chen, Pascal Cuoq, Eric Eide, Chucky Ellison, Xuejun Yang
