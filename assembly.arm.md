@@ -28,7 +28,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	- [Debugging, Tracing](#software-debugging-tracing)
 	- [Emulation, Simulation](#software-emulation-simulation)
 	- [Lifting: Disassemblers, Decompilers, Recompilers](#software-lifting)
-	- [Performance](#software-performance)
+	- [Performance](#software-performance): [SIMD](#software-performance-simd)
 	- [Virtualization](#software-virtualization)
 - [Talks](#talks): [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014), [2012](#2012), [2011](#2011), [2010](#2010), [History](#history)
 - [Tutorials, Courses](#tutorials-courses): [AArch64](#aarch64), [Thumb-2](#thumb-2)
@@ -981,6 +981,12 @@ See also: [Performance Tools](performance.tools.md)
 - sse2neon: A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64 Neon intrinsics
 	- https://github.com/DLTcollab/sse2neon
 	- https://github.com/DLTcollab/sse2neon#related-projects
+
+#### Software: Performance: SIMD: SVE
+
+- Farm-SVE: A scalar C++ implementation of the ARM® Scalable Vector Extension (SVE)
+	- Naive/scalar implementation of the ARM C language extensions (ACLE) for the ARM Scalable Vector Extension (SVE) in standard C++.
+	- https://gitlab.inria.fr/bramas/farm-sve
 
 ## Software: Virtualization
 
