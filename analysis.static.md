@@ -329,6 +329,9 @@ _Benchmarks & comparisons_
 		- https://developers.redhat.com/blog/2020/03/26/static-analysis-in-gcc-10/
 	- Static analysis updates in GCC 11
 		- https://developers.redhat.com/blog/2021/01/28/static-analysis-updates-in-gcc-11/
+	- Detecting memory management bugs with GCC 11
+		- Part 1: Understanding dynamic allocation
+			- https://developers.redhat.com/blog/2021/04/30/detecting-memory-management-bugs-with-gcc-11-part-1-understanding-dynamic-allocation/
 - Visual C++
 	- /analyze (Code analysis)
 		- https://docs.microsoft.com/en-us/cpp/build/reference/analyze-code-analysis
