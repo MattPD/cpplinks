@@ -352,6 +352,8 @@ See also:
 	- https://www.cs.kent.ac.uk/people/staff/srk21/blog/2021/01/04/#elf-chain-loading
 	- donald: the Mickey Mouse of dynamic linkers
 		- https://github.com/stephenrkell/donald/
+- `-fno-semantic-interposition`: ELF interposition, the GCC/Clang option and why it can (sometimes incredibly) optimize `-fPIC` programs
+	- https://maskray.me/blog/2021-05-09-fno-semantic-interposition
 - Fun with weak dynamic linking
 	- https://glandium.org/blog/?p=2764
 - Guided Linking: Dynamic Linking without the Costs
