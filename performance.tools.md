@@ -405,6 +405,12 @@
 	- https://bitbucket.org/wolfpld/tracy
 	- Introduction to the Tracy profiler - https://www.youtube.com/watch?v=fB5B46lbapc
 
+## Profiling: MPI
+
+- mpiP: A light-weight MPI profiler
+	- https://github.com/LLNL/mpiP
+	- https://software.llnl.gov/mpiP/
+
 ## Profiling: Output
 
 - cpuprofilify: Converts output of various profiling/sampling tools to the .cpuprofile format so it can be loaded into Chrome DevTools.
