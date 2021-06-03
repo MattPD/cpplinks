@@ -171,9 +171,12 @@
 	- JNI, Project Panama
 	- https://www.eventbrite.com/e/nyjavasig-native-interfaces-the-phantom-menace-and-java-9-compatibility-tickets-42519931259#
 	- https://www.youtube.com/watch?v=YxHb6kAGZ10
-- Panama: A Foreign Policy for Java
-	- Devoxx 2018; Maurizio Cimadamore
-	- https://www.youtube.com/watch?v=cfxBrYud9KM
+- Project Panama: Interconnecting JVM and native code
+	- https://openjdk.java.net/projects/panama/
+	- https://github.com/openjdk/panama-foreign
+	- Panama: A Foreign Policy for Java
+		- Devoxx 2018; Maurizio Cimadamore
+		- https://www.youtube.com/watch?v=cfxBrYud9KM
 
 ---
 
