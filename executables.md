@@ -894,21 +894,23 @@ Contents:
 ## Mach-O: Software
 
 * cctools-port: Apple cctools port for Linux, \*BSD and Windows (Cygwin)
-	+ https://github.com/tpoechtrager/cctools-port
+	- https://github.com/tpoechtrager/cctools-port
 * jtool: (Mach-O Analyzer) - http://www.newosxbook.com/tools/jtool.html
 * MacDependency: shows all dependent libraries and frameworks of a given executable, dynamic library or framework on Mac OS X
-	+ https://github.com/kwin/macdependency/
+	- https://github.com/kwin/macdependency/
 * mach_override: runtime function overriding for Mac OS X - https://github.com/rentzsch/mach_override
 * MachoAnalysis: collection of analysis utils - https://github.com/eeeyes/macho_analysis
 * macholibre: Mach-O & Universal Binary Parser - https://github.com/aaronst/macholibre
-	+ Mach-O Libre: Pile Driving Apple Malware with Static Analysis, Big-Data, and Automation - https://www.first.org/resources/papers/conf2016/FIRST-2016-130.pdf
+	- Mach-O Libre: Pile Driving Apple Malware with Static Analysis, Big-Data, and Automation - https://www.first.org/resources/papers/conf2016/FIRST-2016-130.pdf
 * machO-tools - https://github.com/bx/machO-tools
 * MachOExplorer - https://github.com/everettjf/MachOExplorer
 * Machotools - "a small set of tools built on top of macholib to retrieve and change informations about mach-o files. Think of it as a pure python, cross-platform implementation of install_name_tool"
-	+ https://github.com/enthought/machotools
+	- https://github.com/enthought/machotools
 * MachOView: a visual Mach-O file browser - https://sourceforge.net/projects/machoview/
 * MachOView fork: https://github.com/gdbinit/MachOView
 * Maloader: userland Mach-O loader for Linux - https://github.com/shinh/maloader
+* XMachOViewer: a Mach-O viewer for Windows, Linux, MacOS
+	- https://github.com/horsicq/xmachoviewer
 
 ## Mach-O: Talks
 
