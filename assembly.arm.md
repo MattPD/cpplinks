@@ -1319,5 +1319,7 @@ See also: [Performance Tools](performance.tools.md)
 
 ## Thumb-2
 
-- ARM-ASM-Tutorial - Thumb-2 (T32)
+- ARM-ASM-Tutorial - Thumb-2 (T32) - Niklas Gürtler
 	- https://www.mikrocontroller.net/articles/ARM-ASM-Tutorial
+- The ARM processor (Thumb-2) - Raymond Chen
+	- part 1: Introduction: https://devblogs.microsoft.com/oldnewthing/20210531-00/?p=105265
