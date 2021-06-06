@@ -68,6 +68,8 @@
 	- https://github.com/cplusplus/papers/issues
 - Specref (search WG21 papers)
 	- http://www.specref.org/
+- WG21 CWG Issues
+	- https://wg21.cmeerw.net/cwg/
 - wg21.link - WG21 redirect service - https://wg21.link/
 - Where do I find the current C or C++ standard documents?
 	- https://stackoverflow.com/questions/81656/where-do-i-find-the-current-c-or-c-standard-documents
