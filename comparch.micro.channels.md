@@ -26,8 +26,9 @@ See also: [Computer Architecture](comparch.md)
 - [Keyboard](#keyboard)
 - [Magnetic](#magnetic)
 - [Memory Bus](#memory-bus)
-- [Memory Order Buffer (MOB)](#memory-order-buffer-mob)
 - [Memory Management Unit (MMU)](#memory-management-unit-mmu)
+- [Memory Order Buffer (MOB)](#memory-order-buffer-mob)
+- [Micro-Op Cache](#micro-op-cache)
 - [Power](#power)
 - [Prefetch](#prefetch)
 - [Pseudo-Random Number Generator (PRNG)](#pseudo-random-number-generator-prng)
@@ -1498,21 +1499,6 @@ See also: [Computer Architecture](comparch.md)
 
 ---
 
-# Memory Order Buffer (MOB)
-
-- Microarchitectural Minefields: 4K-Aliasing Covert Channel and Multi-Tenant Detection in IaaS Clouds
-	- NDSS 2018
-	- Dean Sullivan, Orlando Arias, Travis Meade, Yier Jin
-	- https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_06A-3_Sullivan_paper.pdf
-	- https://www.ndss-symposium.org/wp-content/uploads/2018/03/NDSS2018-06A-3_Sullivan_Slides.pdf
-	- https://www.youtube.com/watch?v=0KIojo5nk2s
-- SPOILER: Speculative Load Hazards Boost Rowhammer and Cache Attacks
-	- USENIX Security 2019
-	- Saad Islam, Ahmad Moghimi, Ida Bruhns, Moritz Krebbel, Berk Gulmezoglu, Thomas Eisenbarth, Berk Sunar
-	- https://arxiv.org/abs/1903.00446
-
----
-
 # Memory Management Unit (MMU)
 
 - ASLR on the Line: Practical Cache Attacks on the MMU
@@ -1543,6 +1529,31 @@ See also: [Computer Architecture](comparch.md)
 	- Jo Van Bulck, Nico Weichbrodt, Rüdiger Kapitza, Frank Piessens, Raoul Strackx
 	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/van-bulck
 	- https://github.com/jovanbulck/sgx-pte
+
+---
+
+# Memory Order Buffer (MOB)
+
+- Microarchitectural Minefields: 4K-Aliasing Covert Channel and Multi-Tenant Detection in IaaS Clouds
+	- NDSS 2018
+	- Dean Sullivan, Orlando Arias, Travis Meade, Yier Jin
+	- https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_06A-3_Sullivan_paper.pdf
+	- https://www.ndss-symposium.org/wp-content/uploads/2018/03/NDSS2018-06A-3_Sullivan_Slides.pdf
+	- https://www.youtube.com/watch?v=0KIojo5nk2s
+- SPOILER: Speculative Load Hazards Boost Rowhammer and Cache Attacks
+	- USENIX Security 2019
+	- Saad Islam, Ahmad Moghimi, Ida Bruhns, Moritz Krebbel, Berk Gulmezoglu, Thomas Eisenbarth, Berk Sunar
+	- https://arxiv.org/abs/1903.00446
+
+---
+
+# Micro-Op Cache
+
+- I See Dead µops: Leaking Secrets via Intel/AMD Micro-Op Caches
+	- IEEE International Symposium on Computer Architecture (ISCA) 2021
+	- Xida Ren, Logan Moody, Mohammadkazem Taram, Matthew Jordan, Dean M. Tullsen, Ashish Venkat
+	- https://www.cs.virginia.edu/venkat/papers/isca2021a.pdf
+	- "Modern Intel, AMD, and ARM processors translate complex instructions into simpler internal micro-ops that are then cached in a dedicated on-chip structure called the micro-op cache. This work presents an in-depth characterization study of the micro-op cache, reverse-engineering many undocumented features, and further describes attacks that exploit the micro-op cache as a timing channel to transmit secret information. In particular, this paper describes three attacks – (1) a same thread cross-domain attack that leaks secrets across the user-kernel boundary, (2) a cross-SMT thread attack that transmits secrets across two SMT threads via the micro-op cache, and (3) transient execution attacks that have the ability to leak an unauthorized secret accessed along a misspeculated path, even before the transient instruction is dispatched to execution, breaking several existing invisible speculation and fencing-based solutions that mitigate Spectre."
 
 ---
 
