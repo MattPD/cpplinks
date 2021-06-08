@@ -673,6 +673,10 @@ Validation: Including translation validation, equivalence checking.
 
 ## Validation: 2021
 
+- An SMT Encoding of LLVM's Memory Model for Bounded Translation Validation
+	- Conference on Computer-Aided Verification (CAV) 2021
+	- Juneyoung Lee, Dongjoo Kim, Chung-Kil Hur, Nuno P. Lopes
+	- https://web.ist.utl.pt/nuno.lopes/pubs.php?id=alive2-mem-cav21
 - Language-Parametric Compiler Validation with Application to LLVM
 	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2021
 	- Theodoros Kasampalis, Daejun Park, Zhengyao Lin, Vikram Adve, Grigore Rosu
