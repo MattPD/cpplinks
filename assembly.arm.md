@@ -1323,3 +1323,4 @@ See also: [Performance Tools](performance.tools.md)
 	- https://www.mikrocontroller.net/articles/ARM-ASM-Tutorial
 - The ARM processor (Thumb-2) - Raymond Chen
 	- part 1: Introduction: https://devblogs.microsoft.com/oldnewthing/20210531-00/?p=105265
+	- part 2: Differences between classic ARM and Thumb-2: https://devblogs.microsoft.com/oldnewthing/20210601-00/?p=105267
