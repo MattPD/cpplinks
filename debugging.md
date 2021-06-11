@@ -686,6 +686,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- RevEngE: Reverse Engineering Engine
 		- Explore debugging extensions and malware decompilation capabilities based on dynamic GDB debugging sessions.
 		- https://github.com/marcusbotacin/Reverse.Engineering.Engine
+- The GDB developer’s GNU Debugger tutorial, Part 1: Getting started with the debugger
+	- https://developers.redhat.com/blog/2021/04/30/the-gdb-developers-gnu-debugger-tutorial-part-1-getting-started-with-the-debugger/
 - Victor Stinner's Notes - GDB: GNU debugger - http://vstinner.readthedocs.io/gdb.html
 
 #### GDB: Readings: Python API
