@@ -276,7 +276,7 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- How does ltrace work? - https://blog.packagecloud.io/eng/2016/03/14/how-does-ltrace-work/
 - ProcMon-for-Linux: Process Monitor for Linux
 	- Process Monitor (Procmon) is a Linux reimagining of the classic Procmon tool from the Sysinternals suite of tools for Windows. Procmon provides a convenient and efficient way for Linux developers to trace the syscall activity on the system.
-	- https://github.com/microsoft/ProcMon-for-Linux
+	- https://github.com/Sysinternals/ProcMon-for-Linux
 - reverie: trace and intercept Linux syscalls
 	- A library to intercept Linux syscalls (and select x86_64 instructions), and convert them into function calls. The user of this library provides a shared library containing the callbacks that are triggered on intercepted events.
 	- https://github.com/reverie-rs/reverie
@@ -452,6 +452,10 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 - strace: new features
 	- FOSDEM 2018; Dmitry Levin
 	- https://fosdem.org/2018/schedule/event/debugging_tools_strace_features/
+- Using strace to troubleshoot issues
+	- DevConf.CZ 2021; Renaud Metrich
+	- https://www.youtube.com/watch?v=Rryi_1JZnuc
+	- https://static.sched.com/hosted_files/devconfcz2021/71/Devconf%20CZ%202021%20-%20STRACE%20in%20a%20nutshell.pdf
 
 ## Software: Windows
 
