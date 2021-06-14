@@ -397,6 +397,11 @@ See also:
 	- https://github.com/PromyLOPh/linkermapviz
 - linksem: Semantic model for aspects of ELF static linking and DWARF debug information
 	- https://github.com/rems-project/linksem
+- QuarkslaB Dynamic Loader (QBDL)
+	- The QuarkslaB Dynamic Linker (QBDL) library aims at providing a modular and portable way to dynamically load and link binaries.
+	- https://github.com/quarkslab/QBDL
+	- SSTIC 2021; Adrien Guinet, Romain Thomas
+		- https://sstic.org/2021/presentation/qbdl_quarkslab_dynamic_loader/
 - ShlibVisibilityChecker: Tool for locating internal symbols unnecessarily exported from shared libraries
 	- https://github.com/yugr/ShlibVisibilityChecker
 
