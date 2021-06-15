@@ -332,6 +332,8 @@ _Benchmarks & comparisons_
 	- Detecting memory management bugs with GCC 11
 		- Part 1: Understanding dynamic allocation
 			- https://developers.redhat.com/blog/2021/04/30/detecting-memory-management-bugs-with-gcc-11-part-1-understanding-dynamic-allocation/
+		- Part 2: Deallocation functions
+			- https://developers.redhat.com/blog/2021/05/05/detecting-memory-management-bugs-with-gcc-11-part-2-deallocation-functions/
 - Visual C++
 	- /analyze (Code analysis)
 		- https://docs.microsoft.com/en-us/cpp/build/reference/analyze-code-analysis
