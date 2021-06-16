@@ -1896,6 +1896,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 
 ## Speculation: 2021
 
+- Bypassing memory safety mechanisms through speculative control flow hijacks
+	- IEEE EuroS&P 2021
+	- Andrea Mambretti, Alexandra Sandulescu, Alessandro Sorniotti, William Robertson, Engin Kirda, Anil Kurmus
+	- https://arxiv.org/abs/2003.05503
 - Reproducing Spectre Attack with gem5, How To Do It Right?
 	- EuroSec 2021
 	- Pierre Ayoub, Clémentine Maurice
