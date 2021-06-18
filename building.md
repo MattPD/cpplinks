@@ -190,6 +190,10 @@ See also:
 	- Hamed Esfahani, Jonas Fietz, Qi Ke, Alexei Kolomiets, Erica Lan, Erik Mavrinac, Wolfram Schulte, Newton Sanches, Srikanth Kandula
 	- https://dl.acm.org/citation.cfm?id=2889222
 	- https://www.microsoft.com/en-us/research/publication/cloudbuild-microsofts-distributed-and-caching-build-service/
+- Distributed cloud builds for everyone
+	- https://blog.nelhage.com/post/distributed-builds-for-everyone/
+	- llama: A CLI for outsourcing computation to Amazon Lambda
+		- https://github.com/nelhage/llama
 - From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of Transient Functional Containers
 	- 2019 USENIX Annual Technical Conference
 	- Sadjad Fouladi, Francisco Romero, Dan Iter, Qian Li, Shuvo Chatterjee, Christos Kozyrakis, Matei Zaharia, Keith Winstein
