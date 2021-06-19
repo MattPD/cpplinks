@@ -12,7 +12,9 @@ See also:
 	- [History](#history)
 	- [Lectures](#lectures)
 - [Testing](#testing)
-	- [Readings](#testing-readings): [Performance Optimization](#testing-readings-performance-optimization), [Reduction](#testing-readings-reduction): [LLVM](#testing-readings-reduction-llvm)
+	- [Readings](#testing-readings):
+		- [Performance Optimization](#testing-readings-performance-optimization): [Vectorization](#testing-readings-performance-optimization-vectorization)
+		- [Reduction](#testing-readings-reduction): [LLVM](#testing-readings-reduction-llvm)
 	- [Software](#testing-software): [Generation](#testing-software-generation), [Performance Optimization](#testing-software-performance-optimization), [Reduction](#testing-software-reduction)
 	- [Talks](#testing-talks)
 - [Validation](#validation)
@@ -451,6 +453,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- paper: https://research.google.com/pubs/pub43856.html
 	- slides: https://nebelwelt.net/publications/files/15LangSec-presentation.pdf
 	- talk: https://www.youtube.com/watch?v=g6LCtHz_MDc&list=PL0pRF4xvoD0kuECJuowraVIIHlT3pN1Cm&index=3
+
+#### Testing: Readings: Performance Optimization: Vectorization
+
+- Vectorizing Compilers: A Test Suite and Results
+	- Supercomputing 1988
+	- David Callahan, Jack Dongarra, David Levine
+	- https://doi.org/10.1109/SUPERC.1988.44642
+	- https://www.semanticscholar.org/paper/Vectorizing-compilers%3A-a-test-suite-and-results-Callahan-Dongarra/4b3dc3baae8a448a6dce5c8d132971f8455b685a
 
 ### Testing: Readings: Reduction
 
