@@ -781,6 +781,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://github.com/DerekSelander/LLDB
 	- https://www.raywenderlich.com/162020/custom-lldb-commands-practice
 	- https://www.raywenderlich.com/161938/assembly-register-calling-convention-tutorial
+- lldb-eval: blazing fast debug expression evaluation
+	- https://github.com/google/lldb-eval/
+	- Blazing fast expression evaluation for C++ in LLDB
+		- https://werat.dev/blog/blazing-fast-expression-evaluation-for-c-in-lldb/
 - lldbinit: Similar implementation of .gdbinit from fG! for lldb in python
 	- https://github.com/deroko/lldbinit
 - LLDBINIT: A gdbinit clone for LLDB
