@@ -98,6 +98,8 @@ Contents:
 	+ https://github.com/googleprojectzero/functionsimsearch
 	+ Searching statically-linked vulnerable library functions in executable code
 		- https://googleprojectzero.blogspot.com/2018/12/searching-statically-linked-vulnerable.html
+* golfclub: Binary Golf Examples and Resources (ELF, PE)
+	- https://github.com/netspooky/golfclub
 * injectdso - A collection of tools for injecting DSOs - https://github.com/huku-/injectdso
 * LIEF - Library to Instrument Executable Formats
 	+ The purpose of this project is to provide a cross platform library which can parse, modify and abstract ELF, PE and MachO formats.
