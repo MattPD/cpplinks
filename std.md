@@ -114,6 +114,8 @@
 
 ### 2020-11-09 Virtual Meeting
 
+- Report from the virtual ISO C++ meetings in 2020 (core language) 
+	- https://developers.redhat.com/blog/2021/05/07/report-from-the-virtual-iso-c-meetings-in-2020-core-language
 - Trip report: Autumn ISO C++ standards meeting (virtual)
 	- https://herbsutter.com/2020/11/13/trip-report-autumn-iso-c-standards-meeting-virtual/
 
@@ -200,6 +202,8 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- https://cppcast.com/hana-dusikova-prague-trip-report/
 - Freestanding in Prague
 	- https://old.reddit.com/r/cpp/comments/f5hgqm/freestanding_in_prague/
+- Report from the February 2020 ISO C++ meeting (Core Language Working Group) 
+	- https://developers.redhat.com/blog/2020/04/23/report-from-the-february-2020-iso-c-meeting-core-language-working-group
 - Shipping C++20 in Prague
 	- https://cor3ntin.github.io/posts/cpp20/
 - Trip Report: C++ Standards Meeting in Prague, February 2020
