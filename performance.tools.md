@@ -436,5 +436,8 @@
 - FlameScope: a visualization tool for exploring different time ranges as Flame Graphs
 	- https://github.com/Netflix/flamescope
 	- Netflix FlameScope - https://medium.com/@NetflixTechBlog/netflix-flamescope-a57ca19d47bb
+- GOoDA (Generic Optimization Data Analyzer): PMU event data analysis package
+	- Gooda is a pmu event data analysis package that consists of some predefined data collection scripts to use perf record in a sensible manner, analyze the data utilizing a cycle accounting methodology and create the tables and dot/svg files needed for the gooda-visualizer package.
+	- https://github.com/David-Levinthal/gooda
 - pprof - a tool for visualization and analysis of profiling data
 	- https://github.com/google/pprof
