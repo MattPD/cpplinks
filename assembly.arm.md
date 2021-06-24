@@ -1325,3 +1325,4 @@ See also: [Performance Tools](performance.tools.md)
 	- part 1: Introduction: https://devblogs.microsoft.com/oldnewthing/20210531-00/?p=105265
 	- part 2: Differences between classic ARM and Thumb-2: https://devblogs.microsoft.com/oldnewthing/20210601-00/?p=105267
 	- part 3: Addressing modes: https://devblogs.microsoft.com/oldnewthing/20210602-00/?p=105271
+	- part 4: Single-instruction constants: https://devblogs.microsoft.com/oldnewthing/20210603-00/?p=105276
