@@ -15,7 +15,10 @@ See also:
 	- [Readings](#testing-readings):
 		- [Performance Optimization](#testing-readings-performance-optimization): [Vectorization](#testing-readings-performance-optimization-vectorization)
 		- [Reduction](#testing-readings-reduction): [LLVM](#testing-readings-reduction-llvm)
-	- [Software](#testing-software): [Generation](#testing-software-generation), [Performance Optimization](#testing-software-performance-optimization), [Reduction](#testing-software-reduction)
+	- [Software](#testing-software):
+		- [Generation](#testing-software-generation)
+		- [Performance Optimization](#testing-software-performance-optimization): [Vectorization](#testing-software-performance-optimization-vectorization)
+		- [Reduction](#testing-software-reduction)
 	- [Talks](#testing-talks)
 - [Validation](#validation)
 - [Verification](#verification)
@@ -456,6 +459,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 
 #### Testing: Readings: Performance Optimization: Vectorization
 
+- An Evaluation of Vectorizing Compilers
+	- Parallel Architectures and Compilation Techniques (PACT) 2011
+	- Saeed Maleki, Yaoqing Gao, María J. Garzarán, Tommy Wong, David A. Padua
+	- https://dl.acm.org/doi/10.1109/PACT.2011.68
+	- https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.927.6231&rep=rep1&type=pdf
 - Vectorizing Compilers: A Test Suite and Results
 	- Supercomputing 1988
 	- David Callahan, Jack Dongarra, David Levine
@@ -611,6 +619,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://github.com/lowRISC/longfruit
 - opt-fuzz: a simple implementation of bounded exhaustive testing for LLVM programs
 	- https://github.com/regehr/opt-fuzz
+
+#### Testing: Software: Performance Optimization: Vectorization
+
+- TSVC: Test Suite for Vectorizing Compilers
+	- https://github.com/UoB-HPC/TSVC_2
+	- https://github.com/llvm/llvm-test-suite/tree/main/MultiSource/Benchmarks/TSVC
 
 ### Testing: Software: Reduction
 
