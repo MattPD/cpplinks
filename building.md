@@ -363,6 +363,8 @@ See also:
 - compile-time-perf: Measures high-level timing and memory usage metrics during compilation
 	- compile-time-perf (CTP) is designed to be a high-level "profiler" for compiling large projects. It is designed to be simple to install, compiler and language agnostic, and included as part of CI. It is not intended to replace compiler flags like -ftime-trace but supplement them.
 	- https://github.com/jrmadsen/compile-time-perf
+- CompileScore: Visual Studio extension and standalone app for build times and compilation data visualization
+	- https://github.com/Viladoman/CompileScore
 - CTMark (Compile Time Mark)
 	- https://github.com/llvm-mirror/test-suite/tree/master/CTMark
 - Metabench: A simple framework for compile-time microbenchmarks
