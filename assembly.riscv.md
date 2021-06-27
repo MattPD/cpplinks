@@ -246,6 +246,8 @@ https://riscv.org/risc-v-books/
 	- https://github.com/onchipuis/mriscv
 	- https://github.com/onchipuis/mriscvcore
 	- https://twitter.com/onchipUIS
+- NEORV32 Processor: A size-optimized, customizable full-scale 32-bit RISC-V soft-core CPU and SoC written in platform-independent VHDL
+	- https://github.com/stnolting/neorv32
 - ORCA - an implementation of RISC-V intended to target FPGAs (VHDL)
 	- https://github.com/VectorBlox/orca
 - PicoRV32 - A Size-Optimized RISC-V CPU (Verilog)
