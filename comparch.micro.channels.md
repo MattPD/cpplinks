@@ -102,6 +102,12 @@ See also: [Computer Architecture](comparch.md)
 - Negative Result: Reading Kernel Memory From User Mode
 	- 2017; Anders Fogh
 	- https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/
+- Opening Pandora’s Box: A Systematic Study of New Ways Microarchitecture Can Leak Private Data
+	- International Symposium on Computer Architecture (ISCA) 2021
+	- Jose Rodrigo Sanchez Vicarte, Pradyumna Shome, Nandeeka Nayak, Caroline Trippel, Adam Morrison, David Kohlbrenner, Christopher W. Fletcher
+	- https://www.cs.tau.ac.il/~mad/publications/isca2021-pandora.pdf
+	- https://conferences.computer.org/iscapub/pdfs/ISCA2021-4ghucdBnCWYB7ES2Pe4YdT/333300a347/333300a347.pdf
+	- https://github.com/FPSG-UIUC/Pandora
 - Revisiting Isolated and Trusted Execution via Microarchitectural Cryptanalysis
 	- 2020 PhD Dissertation; Daniel Moghimi
 	- https://digital.wpi.edu/show/w9505326n
