@@ -211,8 +211,12 @@
 	- https://kayari.org/tmp/abi.html
 	- https://accu.org/conf-docs/PDFs_2015/JonathanWakely-What%20Is%20An%20ABI%20And%20Why%20Is%20It%20So%20Complicated.pdf
 - What is an ABI, and Why is Breaking it Bad?
-	- CppCon 2020; Marshall Clow
-	- https://www.youtube.com/watch?v=7RoTDjLLXJQ
+	- Marshall Clow
+	- CppCon 2020
+		- https://www.youtube.com/watch?v=7RoTDjLLXJQ
+	- CppNow 2021
+		- https://www.youtube.com/watch?v=-XjUiLgJE2Y
+		- https://cppnow.digital-medium.co.uk/wp-content/uploads/2021/05/Slides.pdf
 
 ---
 
