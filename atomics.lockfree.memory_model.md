@@ -88,6 +88,8 @@
 		- https://devblogs.microsoft.com/oldnewthing/20180329-00/?p=98375
 	- How do I choose between the strong and weak versions of compare-exchange?
 		- https://devblogs.microsoft.com/oldnewthing/20180330-00/?p=98395
+- Russ Cox
+	- Hardware Memory Models - https://research.swtch.com/hwmm
 - The difficulty of lock-free programming: a bug in lockfree stack
 	- http://mdf356.blogspot.com/2015/06/the-difficulty-of-lock-free-programming.html
 - The x86 Memory Model
