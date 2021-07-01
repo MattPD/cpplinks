@@ -432,6 +432,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://github.com/gergo-/missed-optimizations/raw/master/missed_optimizations_preprint.pdf
 	- Missed optimizations in C compilers: https://github.com/gergo-/missed-optimizations/
 	- https://hal.inria.fr/hal-01682683
+- LORE: A loop repository for the evaluation of compilers
+	- International Symposium on Workload Characterization (IISWC) 2017
+	- Zhi Chen, Zhangxiaowen Gong, Justin Josef Szaday, David C. Wong, David A. Padua, Alexandru Nicolau, Alexander V. Veidenbaum, Neftali Watkinson, Zehra Sura, Saeed Maleki, Josep Torrellas, Gerald DeJong
+	- https://iacoma.cs.uiuc.edu/iacoma-papers/iiswc17.pdf
+	- https://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_iiswc17.pdf
 - Lost in translation: Exposing hidden compiler optimization opportunities
 	- 2019 arXiv
 	- Kyriakos Georgiou, Zbigniew Chamski, Andres Amaya Garcia, David May, Kerstin Eder
@@ -617,6 +622,8 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 - LongFruit: Quickly Finding RISC-V Code Quality Issues with Differential Analysis
 	- https://www.lowrisc.org/blog/2020/10/how-we-used-differential-testing-to-rapidly-find-and-fix-missed-optimisation-opportunities-in-llvms-risc-v-backend/
 	- https://github.com/lowRISC/longfruit
+- LORE: LOop Repository for the Evaluation of compilers
+	- http://www.vectorization.computer/
 - opt-fuzz: a simple implementation of bounded exhaustive testing for LLVM programs
 	- https://github.com/regehr/opt-fuzz
 
