@@ -334,6 +334,8 @@ _Benchmarks & comparisons_
 			- https://developers.redhat.com/blog/2021/04/30/detecting-memory-management-bugs-with-gcc-11-part-1-understanding-dynamic-allocation/
 		- Part 2: Deallocation functions
 			- https://developers.redhat.com/blog/2021/05/05/detecting-memory-management-bugs-with-gcc-11-part-2-deallocation-functions/
+	- Use source-level annotations to help GCC detect buffer overflows
+		- https://developers.redhat.com/articles/2021/06/25/use-source-level-annotations-help-gcc-detect-buffer-overflows
 - Visual C++
 	- /analyze (Code analysis)
 		- https://docs.microsoft.com/en-us/cpp/build/reference/analyze-code-analysis
