@@ -246,6 +246,10 @@ https://riscv.org/risc-v-books/
 	- https://github.com/onchipuis/mriscv
 	- https://github.com/onchipuis/mriscvcore
 	- https://twitter.com/onchipUIS
+- NekoIchi: A simple RISC-V CPU & GPU running on an Arty A7-100T FPGA board (SystemVerilog)
+	- https://github.com/ecilasun/NekoIchi
+	- NekoIchi Tutorials: the articles for each part of the RISC-V CPU & GPU series
+		- https://github.com/ecilasun/nekoichiarticle
 - NEORV32 Processor: A size-optimized, customizable full-scale 32-bit RISC-V soft-core CPU and SoC written in platform-independent VHDL
 	- https://github.com/stnolting/neorv32
 - ORCA - an implementation of RISC-V intended to target FPGAs (VHDL)
