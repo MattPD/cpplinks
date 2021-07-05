@@ -127,6 +127,8 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 
 ## C++20: Readings
 
+- All C++20 core language features with examples
+	- https://oleksandrkvl.github.io/2021/04/02/cpp-20-overview.html
 - C++20 features described in Before/After tables ("Tony Tables")
 	- https://github.com/tvaneerd/cpp20_in_TTs
 - C++ 20: The Core Language
