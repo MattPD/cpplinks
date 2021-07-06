@@ -696,6 +696,10 @@ See also:
 	- https://channel9.msdn.com/Events/CPP/Pure-Virtual-Cpp-2021/An-Introduction-to-CMakePresetsjson
 - Better CMake - Jefferson Amstutz
 	- https://www.youtube.com/playlist?list=PL8i3OhJb4FNV10aIZ8oF0AA46HgA2ed8g
+- CMake: One Tool To Build Them All
+	- C++Now 2021; Bill Hoffman
+	- https://www.youtube.com/watch?v=wULu83jQmIQ
+	- https://cppnow.digital-medium.co.uk/wp-content/uploads/2021/05/CMake-One-Tool-To-Build-Them-All-CppNow.pdf
 - Cross Compiling with CMake
 	- Cpp Usergroup Dresden 2021; Andreas Reischuck
 	- https://www.youtube.com/watch?v=rgWwrzZLVR8
