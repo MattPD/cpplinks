@@ -90,6 +90,7 @@
 		- https://devblogs.microsoft.com/oldnewthing/20180330-00/?p=98395
 - Russ Cox
 	- Hardware Memory Models - https://research.swtch.com/hwmm
+	- Programming Language Memory Models - https://research.swtch.com/plmm
 - The difficulty of lock-free programming: a bug in lockfree stack
 	- http://mdf356.blogspot.com/2015/06/the-difficulty-of-lock-free-programming.html
 - The x86 Memory Model
