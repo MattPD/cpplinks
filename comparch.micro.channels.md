@@ -1428,6 +1428,12 @@ See also: [Computer Architecture](comparch.md)
 
 # Interconnect
 
+- Calibration Done Right: Noiseless Flush+Flush Attacks
+	- Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA) 2021
+	- Guillaume Didier, Clémentine Maurice
+	- https://cmaurice.fr/pdf/dimva21_didier.pdf
+	- https://github.com/MIAOUS-group/calibration-done-right
+	- "Flush+Flush is a stealthy and fast one [attack] that uses the timing of the `clflush` instruction depending on whether a line is cached. We show that the CPU interconnect plays a bigger role than previously thought in these timings and in Flush+Flush error rate."
 - Lord of the Ring(s): Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical
 	- USENIX Security 2021
 	- Riccardo Paccagnella, Licheng Luo, Christopher W. Fletcher
