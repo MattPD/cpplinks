@@ -1327,3 +1327,4 @@ See also: [Performance Tools](performance.tools.md)
 	- part 3: Addressing modes: https://devblogs.microsoft.com/oldnewthing/20210602-00/?p=105271
 	- part 4: Single-instruction constants: https://devblogs.microsoft.com/oldnewthing/20210603-00/?p=105276
 	- part 5: Arithmetic: https://devblogs.microsoft.com/oldnewthing/20210604-00/?p=105280
+	- part 6: The lie hiding inside the CMN instruction: https://devblogs.microsoft.com/oldnewthing/20210607-00/?p=105288
