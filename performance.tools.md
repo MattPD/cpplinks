@@ -439,5 +439,7 @@
 - GOoDA (Generic Optimization Data Analyzer): PMU event data analysis package
 	- Gooda is a pmu event data analysis package that consists of some predefined data collection scripts to use perf record in a sensible manner, analyze the data utilizing a cycle accounting methodology and create the tables and dot/svg files needed for the gooda-visualizer package.
 	- https://github.com/David-Levinthal/gooda
+- Hatchet: Graph-indexed Pandas DataFrames for analyzing hierarchical performance data
+	- https://github.com/hatchet/hatchet
 - pprof - a tool for visualization and analysis of profiling data
 	- https://github.com/google/pprof
