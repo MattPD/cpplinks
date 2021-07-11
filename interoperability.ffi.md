@@ -259,12 +259,25 @@
 
 # Python
 
+## Python: Readings
+
 - Calling C functions from Python
 	- part 1 - using ctypes - http://yizhang82.me/python-interop-ctypes
 	- part 2 - writing CPython extensions using Python/C API - http://yizhang82.me/python-interop-capi
 	- part 3 - deep dive into ctypes implementation in CPython
 		- http://yizhang82.me/python-interop-inside-ctypes
 		- https://blogs.msdn.microsoft.com/yizhang/2018/02/02/calling-c-functions-from-python-part-3-deep-dive-into-ctypes-implementation-in-cpython/
+- Python - using C and C++ libraries with ctypes
+	- https://solarianprogrammer.com/2019/07/18/python-using-c-cpp-libraries-ctypes/
+- Toward Efficient Interactions between Python and Native Libraries
+	- ESEC/FSE 2021
+	- Jialiang Tan, Yu Chen, Zhenming Liu, Bin Ren, Shuaiwen Leon Song, Xipeng Shen, Xu Liu
+	- https://arxiv.org/abs/2107.00064
+	- PieProf: identify Python interaction inefficiencies for production Python software packages in commodity CPU processors without modifying the software stack
+		- https://github.com/fse21/submission69/tree/76e2fff33aeb3e7f3515da5d53474a716c9d944f/PieProf
+
+## Python: Software
+
 - cppyy: Python-C++ bindings interface based on Cling/LLVM
 	- https://bitbucket.org/wlav/cppyy
 	- https://cppyy.readthedocs.io/
@@ -273,13 +286,6 @@
 		- Wim T. L. P. Lavrijsen, Aditi Dutta
 		- https://dl.acm.org/doi/10.5555/3019083.3019087
 		- http://wlav.web.cern.ch/wlav/Cppyy_LavrijsenDutta_PyHPC16.pdf
-- Cython: Static Typing and C/C++ Interfacing in (C)Python
-	- StockholmCpp; October 24, 2019; Arda Aytekin
-	- https://www.youtube.com/watch?v=0R3fw7h64MY
-- How and why to write Python binary extension modules using C++
-	- SwedenCpp::Stockholm::0x0F, September 20, 2018; Thomas Nyberg
-	- https://www.youtube.com/watch?v=LbiozBn9v6Y
-	- https://github.com/ApproximateIdentity/cpp_extension_talk
 - HPy: a better API for Python
 	- https://hpyproject.org/
 	- https://github.com/hpyproject/hpy
@@ -292,10 +298,18 @@
 		- https://www.youtube.com/watch?v=jQedHfF1Jfw
 	- Integrate Python and C++ with pybind11 - NDC 2018; Robert Smallshire
 		- https://www.youtube.com/watch?v=YReJ3pSnNDo
-- Python - using C and C++ libraries with ctypes
-	- https://solarianprogrammer.com/2019/07/18/python-using-c-cpp-libraries-ctypes/
 - Wrappy: Wrapping python made easy
 	- https://github.com/lava/wrappy
+
+## Python: Talks
+
+- Cython: Static Typing and C/C++ Interfacing in (C)Python
+	- StockholmCpp; October 24, 2019; Arda Aytekin
+	- https://www.youtube.com/watch?v=0R3fw7h64MY
+- How and why to write Python binary extension modules using C++
+	- SwedenCpp::Stockholm::0x0F, September 20, 2018; Thomas Nyberg
+	- https://www.youtube.com/watch?v=LbiozBn9v6Y
+	- https://github.com/ApproximateIdentity/cpp_extension_talk
 
 ---
 
