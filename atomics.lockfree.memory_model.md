@@ -214,6 +214,10 @@
 	- https://www.mpi-sws.org/research-areas/programming-languages-and-verification/
 	- 2018 - Effective stateless model checking for C/C++ concurrency - http://plv.mpi-sws.org/rcmc/
 	- 2017 - Formalizing the Concurrency Semantics of an LLVM Fragment - http://plv.mpi-sws.org/llvmcs/
+	- 2017 - Repairing Sequential Consistency in C/C++11
+		- PLDI 2017
+		- Ori Lahav, Viktor Vafeiadis, Jeehoon Kang, Chung-Kil Hur, Derek Dreyer
+		- https://plv.mpi-sws.org/scfix/
 	- 2016 - Explaining Relaxed Memory Models with Program Transformations - http://plv.mpi-sws.org/trns/
 	- 2016 - Validating Optimizations of Concurrent C/C++ Programs - http://plv.mpi-sws.org/validc/
 	- 2015 - Reasoning about C11 Program Transformations - http://plv.mpi-sws.org/c11comp/
