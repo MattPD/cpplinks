@@ -497,6 +497,12 @@ See also:
 	- https://nebelwelt.net/publications/files/16CCS2.pdf
 	- TypeSan checks casts in C++ code - code released for CCS 2016
 		- https://github.com/vusec/typesan
+- UAFSan: An Object-Identifier-Based Dynamic Approach for Detecting Use-After-Free Vulnerabilities
+	- ISSTA 2021
+	- Binfa Gui, Wei Song, Jeff Huang
+	- https://doi.org/10.1145/3460319.3464835
+	- UAFSan: a sanitizer that can detect UAFs (including double frees) in C/C++ software at runtime
+		- https://github.com/wsong-nj/UAFSan
 
 ### Software: Sanitizers: Projects
 
