@@ -362,6 +362,10 @@ _Verification & Model Checking_
 	- European Software Engineering Conference / Foundations of Software Engineering (ESEC/FSE) 2019
 	- John Lång, I.S.W.B. Prasetya
 	- https://arxiv.org/abs/1907.00172
+- Model Checking C++ Programs
+	- 2021
+	- Felipe R. Monteiro, Mikhail R. Gadelha, Lucas C. Cordeiro
+	- https://arxiv.org/abs/2107.01093
 
 ## Verification: Software
 
