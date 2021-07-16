@@ -630,6 +630,9 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ## Intrinsics & SIMD
 
+- Arm C Language Extensions (ACLE)
+	- the source material for the ACLE specifications
+	- https://github.com/ARM-software/acle
 - ARC SIMD Built-in Functions - https://gcc.gnu.org/onlinedocs/gcc/ARC-SIMD-Built-in-Functions.html
 - ARM Intrinsics - MSDN - Microsoft - https://docs.microsoft.com/en-us/cpp/intrinsics/arm-intrinsics
 - SIMD ISAs – Arm Developer
