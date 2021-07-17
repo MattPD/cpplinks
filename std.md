@@ -739,6 +739,7 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- Bjarne Stroustrup
 	- https://www.stroustrup.com/hopl20main-p5-p-bfc9cd4--final.pdf
 	- https://doi.org/10.1145/3386320
+	- https://www.pldi21.org/prerecorded_hopl.5.html
 
 ## History (2019)
 
