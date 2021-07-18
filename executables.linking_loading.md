@@ -22,7 +22,7 @@ See also:
 	- [Linkers](#software-linkers)
 	- [OS: macOS](#software-os-macos)
 	- [OS: Linux](#software-os-linux)
-- [Talks](#talks): [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2012](#talks-2012)
+- [Talks](#talks): [2021](#talks-2021), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2012](#talks-2012)
 
 ---
 
@@ -473,6 +473,12 @@ See also:
 ---
 
 # Talks
+
+## Talks: 2021
+
+- Linker Relaxation in LLD
+	- RISC-V Forum 2021; Chih-Mao Chen
+	- https://www.youtube.com/watch?v=4GnQbhNt1Cc
 
 ## Talks: 2019
 
