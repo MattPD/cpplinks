@@ -423,6 +423,7 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- http://ist.ksc.kwansei.ac.jp/~ishiura/publications/C2016-10a.pdf
 - Evaluating the Effects of Compiler Optimizations on Mutation Testing at the Compiler IR Level
 	- ISSRE 2016
+	- Farah Hariri, August Shi, Hayes Converse, Sarfraz Khurshid, Darko Marinov
 	- http://mir.cs.illinois.edu/farah/presentations/issre16_presentation.pdf
 	- http://mir.cs.illinois.edu/marinov/publications/HaririETAL16CompilerIRMutation.pdf
 	- https://www.researchgate.net/publication/311529837_Evaluating_the_Effects_of_Compiler_Optimizations_on_Mutation_Testing_at_the_Compiler_IR_Level
@@ -469,6 +470,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- Saeed Maleki, Yaoqing Gao, María J. Garzarán, Tommy Wong, David A. Padua
 	- https://dl.acm.org/doi/10.1109/PACT.2011.68
 	- https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.927.6231&rep=rep1&type=pdf
+- Evaluating Auto-Vectorizing Compilers through Objective Withdrawal of Useful Information
+	- ACM Transactions on Architecture and Code Optimization (TACO) 16(4), 40 2019
+	- Sergi Siso, Wes Armour, Jeyan Thiyagalingam
+	- https://dl.acm.org/doi/abs/10.1145/3356842
+	- https://ora.ox.ac.uk/objects/uuid:eac7b135-e92b-48dc-a1f7-4de66a441390
+	- autovec-benchmark: Auto-vectorization test suite with withdrawal of useful compile-time information
+		- https://github.com/sergisiso/autovec-benchmark
 - Vectorizing Compilers: A Test Suite and Results
 	- Supercomputing 1988
 	- David Callahan, Jack Dongarra, David Levine
@@ -629,6 +637,8 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 #### Testing: Software: Performance Optimization: Vectorization
 
+- autovec-benchmark: Auto-vectorization test suite with withdrawal of useful compile-time information
+	- https://github.com/sergisiso/autovec-benchmark
 - TSVC: Test Suite for Vectorizing Compilers
 	- https://github.com/UoB-HPC/TSVC_2
 	- https://github.com/llvm/llvm-test-suite/tree/main/MultiSource/Benchmarks/TSVC
