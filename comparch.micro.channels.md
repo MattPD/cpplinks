@@ -1581,6 +1581,12 @@ See also: [Computer Architecture](comparch.md)
 	- 2017 26th USENIX Security Symposium
 	- Adrian Tang, Simha Sethumadhavan, and Salvatore Stolfo
 	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/tang
+- IChannels: Exploiting Current Management Mechanisms to Create Covert Channels in Modern Processors
+	- ISCA 2021
+	- Jawad Haj-Yahya, Jeremie S. Kim, A. Giray Yaglikci, Ivan Puddu, Lois Orosa, Juan Gómez Luna, Mohammed Alser, Onur Mutlu
+	- https://arxiv.org/abs/2106.05050
+	- http://people.inf.ethz.ch/omutlu/pub/IChannels-covert-channels_isca21.pdf
+	- https://youtube.com/watch?v=Why4Ffn5bRY
 - Leaky Noise: New Side-Channel Attack Vectors in Mixed-Signal IoT Devices
 	- IACR Transactions on Cryptographic Hardware and Embedded Systems, 2019(3), 305-339.
 	- Dennis R. E. Gnad, Jonas Krautter, Mehdi B. Tahoori
