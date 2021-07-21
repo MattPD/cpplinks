@@ -286,6 +286,8 @@ Contents:
 * dsymutil - manipulate archived DWARF debug symbol files
 	+ https://llvm.org/docs/CommandGuide/dsymutil.html
 	+ https://github.com/llvm-mirror/llvm/tree/master/tools/dsymutil
+* DWARF Explorer - a GUI utility for navigating the DWARF debug information
+	- https://github.com/sevaa/dwex
 * dwarfexport: Export dwarf debug information from IDA Pro - https://github.com/ALSchwalm/dwarfexport
 * dwarfidl: Language, library and tools for DWARF-described interfaces - https://github.com/stephenrkell/dwarfidl
 * dwgrep: a tool, an associated language (Zwerg), and a library (libzwerg) for querying Dwarf (debuginfo) graphs
