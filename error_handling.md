@@ -4,7 +4,7 @@
 
 * [Readings](#readings): [Blogs](#blogs-posts-and-series), [Documentation](#documentation), [Papers](#papers), [References](#references), [StackOverflow](#stackoverflow-questions)
 * [Software](#software): [Benchmarks](#benchmarks), [Libraries](#libraries), [Tools](#tools)
-* [Talks](#talks): [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
+* [Talks](#talks): [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
 
 ---
 
@@ -473,6 +473,14 @@
 ---
 
 # Talks
+
+## 2021
+
+- Exceptional C++
+	- C++ on Sea 2021; Victor Ciura
+	- Microsoft Windows structured exception handling (SEH)
+	- https://www.youtube.com/watch?v=hIpE0IZz6F8
+	- https://ciura.ro/presentations/2021/Conferences/Exceptional%20C++%20-%20Victor%20Ciura%20-%20C++%20On%20Sea%202021.pdf
 
 ## 2020
 
