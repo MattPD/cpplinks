@@ -402,6 +402,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	+ International Symposium on Software Testing and Analysis (ISSTA) 2011
 	+ Chris Parnin, Alessandro Orso
 	+ https://dl.acm.org/citation.cfm?id=2001445
+	+ ISSTA 2021 Impact Paper Award Talk
+		- https://www.youtube.com/watch?v=W6os29gTA3I
 * Automated Debugging: Are We There Yet?
 	+ International Conference on Software Testing, Verification and Validation Workshops (ICSTW) 2011
 	+ Alex Orso
