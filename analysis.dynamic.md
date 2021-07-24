@@ -491,6 +491,11 @@ See also:
 	- Research in Attacks, Intrusions and Defenses (RAID) 2018
 	- Julian Lettner, Dokyung Song, Taemin Park, Stijn Volckaert, Per Larsen, Michael Franz
 	- https://arxiv.org/abs/1711.08108
+- SanRazor: Reducing Redundant Sanitizer Checks in C/C++ Programs
+	- USENIX Symposium on Operating Systems  Design and Implementation (OSDI) 2021
+	- Jiang Zhang, Shuai Wang, Manuel Rigger, Pinjia He, Zhendong Su
+	- https://www.usenix.org/conference/osdi21/presentation/zhang
+	- https://github.com/SanRazor-repo/SanRazor
 - TypeSanitizer: Practical Type Confusion Detection
 	- Computer and Communications Security (CCS) 2016
 	- Istvan Haller, Yuseok Jeon, Hui Peng, Mathias Payer, Herbert Bos, Cristiano Giuffrida, Erik van der Kouwe
