@@ -382,6 +382,9 @@ See also:
 - Visual C++
 	- vcperf: A build analysis tool for the MSVC toolchain
 		- https://github.com/microsoft/vcperf
+	- CPP-LIT: C++ Library Include Times
+		- Time to #include standard library and other C++ headers
+		- https://github.com/s9w/cpp-lit
 	- MSBuild Flame Graph: Turns MSBuild executions into flame graphs
 		- https://github.com/MetanoKid/msbuild-flame-graph
 	- C++ Build Analyzer: Analyzes MSVC C++ compilations with C++ Build Insights SDK
