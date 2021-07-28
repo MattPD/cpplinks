@@ -456,6 +456,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- SASIMI 2013
 	- E. Nagai, A. Hashimoto, N. Ishiura
 	- http://ist.ksc.kwansei.ac.jp/~ishiura/publications/C2013-10.pdf
+- Synthesizing Benchmarks for Predictive Modeling
+	- CGO 2017
+	- Chris Cummins, Pavlos Petoumenos, Zheng Wang, Hugh Leather
+	- https://github.com/ChrisCummins/paper-synthesizing-benchmarks
+	- https://chriscummins.cc/pub/2017-cgo.pdf
+	- CLgen: Deep learning program generator
+		- https://github.com/ChrisCummins/clgen
 - The Correctness-Security Gap in Compiler Optimization
 	- LangSec 2015, IEEE SPW
 	- Vijay D'Silva, Mathias Payer, Dawn Song
