@@ -108,6 +108,13 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.cs.tau.ac.il/~mad/publications/isca2021-pandora.pdf
 	- https://conferences.computer.org/iscapub/pdfs/ISCA2021-4ghucdBnCWYB7ES2Pe4YdT/333300a347/333300a347.pdf
 	- https://github.com/FPSG-UIUC/Pandora
+- Osiris: Automated Discovery of Microarchitectural Side Channels
+	- USENIX Security 2021
+	- Daniel Weber, Ahmad Ibrahim, Hamed Nemati, Michael Schwarz
+	- https://arxiv.org/abs/2106.03470
+	- https://www.usenix.org/conference/usenixsecurity21/presentation/weber
+	- https://publications.cispa.saarland/3431/1/main.pdf
+	- https://github.com/cispa/osiris
 - Revisiting Isolated and Trusted Execution via Microarchitectural Cryptanalysis
 	- 2020 PhD Dissertation; Daniel Moghimi
 	- https://digital.wpi.edu/show/w9505326n
