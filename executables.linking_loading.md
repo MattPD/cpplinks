@@ -215,6 +215,8 @@ See also:
 - Awesome LD_PRELOAD
 	- List of resources related to LD_PRELOAD, a mechanism for changing application behavior at run-time
 	- https://github.com/gaul/awesome-ld-preload
+- ELF Loaders, Libraries and Executables on Linux
+	- https://trugman-internals.com/elf-loaders-libraries-executables/
 - Linker limitations on 32-bit architectures
 	- 2019; Alexander E. Patrakov
 	- https://lwn.net/Articles/797303/
