@@ -269,6 +269,13 @@
 	- https://github.com/ithemal/timing-harness
 - uarch-bench: A benchmark for low-level CPU micro-architectural features
 	- https://github.com/travisdowns/uarch-bench
+- uiCA - The uops.info Code Analyzer
+	- https://uica.uops.info/
+	- https://github.com/andreas-abel/uiCA
+	- Accurate Throughput Prediction of Basic Blocks on Recent Intel Microarchitectures
+		- 2021
+		- Andreas Abel, Jan Reineke
+		- https://arxiv.org/abs/2107.14210
 
 # Optimization
 
