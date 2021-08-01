@@ -92,6 +92,10 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Isla-axiomatic: combines Sail ISA specifications with axiomatic memory models written in a subset of the cat language used by the diy tool suite (and in particular the memory model simulation tool herd7), with an SMT solver like z3 or CVC4.
 		- https://isla-axiomatic.cl.cam.ac.uk/
 		- https://isla-axiomatic.cl.cam.ac.uk/help_standalone.html
+	- Isla: Integrating Full-Scale ISA Semantics and Axiomatic Concurrency Models
+		- Computer Aided Verification (CAV) 2021
+		- Alasdair Armstrong, Brian Campbell, Ben Simner, Christopher Pulte, Peter Sewell
+		- https://link.springer.com/chapter/10.1007/978-3-030-81685-8_14
 - Mixed-size Concurrency: ARM, POWER, C/C++11, and SC
 	- POPL 2017
 	- Shaked Flur, Susmit Sarkar, Christopher Pulte, Kyndylan Nienhuis, Luc Maranget, Kathryn E. Gray, Ali Sezgin, Mark Batty, Peter Sewell
@@ -157,7 +161,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- 2016-07-26 - Verifying against the official ARM specification - https://alastairreid.github.io/using-armarm/
 	- 2016-07-18 - Finding Bugs versus Proving Absence of Bugs - https://alastairreid.github.io/finding-bugs/
 	- 2016-07-03 - Specification Terminology - https://alastairreid.github.io/spec-terminology/
-- ARMv8-A system semantics: instruction fetch in relaxed architectures
+- ARMv8-A System Semantics: Instruction Fetch in Relaxed Architectures
 	- ESOP 2020: European Symposium on Programming
 	- Ben Simner, Shaked Flur, Christopher Pulte, Alasdair Armstrong, Jean Pichon-Pharabod, Luc Maranget, Peter Sewell
 	- https://www.cl.cam.ac.uk/~pes20/iflat/
