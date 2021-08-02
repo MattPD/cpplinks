@@ -81,6 +81,9 @@
 	- http://moodycamel.com/blog/2014/a-fast-general-purpose-lock-free-queue-for-c++
 	- http://moodycamel.com/blog/2014/detailed-design-of-a-lock-free-queue
 	- http://moodycamel.com/blog/2014/solving-the-aba-problem-for-lock-free-free-lists
+- Peter Veentjer
+	- TSO and IBM System/370
+		- https://pveentjer.blogspot.com/2021/07/ibm-370.html
 - PSA: you should use WTF::Lock and WTF::Condition instead of WTF::SpinLock, WTF::Mutex, WTF::ThreadCondition, std::mutex, std::condition_variable, or std::condition_variable_any
 	- https://lists.webkit.org/pipermail/webkit-dev/2015-August/027615.html
 - Raymond Chen
