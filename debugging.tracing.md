@@ -399,6 +399,8 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 - Intercepting and Emulating Linux System Calls with Ptrace - http://nullprogram.com/blog/2018/06/23/
 - Ptrace-burrito: A plugin style wrapper around ptrace on Linux.
 	- https://github.com/brainsmoke/ptrace-burrito
+- ptrace-notes
+	- https://slbkbs.org/tmp/ptrace-notes.txt
 - Using Ptrace For Fun And Profit
 	- https://eklitzke.org/ptrace
 	- https://eklitzke.org/ptrace-continued
