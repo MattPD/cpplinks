@@ -425,6 +425,8 @@ Contents:
 
 ## ELF: Readings
 
+* A small ELF: Small 114 byte x86_64 ELF
+	- https://ftp.lol/posts/small-elf.html
 * A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux
 	+ http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
 	+ https://github.com/abraithwaite/teensy
