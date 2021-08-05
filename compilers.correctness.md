@@ -13,7 +13,7 @@ See also:
 	- [Lectures](#lectures)
 - [Testing](#testing)
 	- [Readings](#testing-readings):
-		- [Performance Optimization](#testing-readings-performance-optimization): [Vectorization](#testing-readings-performance-optimization-vectorization)
+		- [Performance Optimization](#testing-readings-performance-optimization): [Loops](#testing-readings-performance-optimization-loops), [Vectorization](#testing-readings-performance-optimization-vectorization)
 		- [Reduction](#testing-readings-reduction): [LLVM](#testing-readings-reduction-llvm)
 	- [Software](#testing-software):
 		- [Generation](#testing-software-generation)
@@ -433,11 +433,6 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://github.com/gergo-/missed-optimizations/raw/master/missed_optimizations_preprint.pdf
 	- Missed optimizations in C compilers: https://github.com/gergo-/missed-optimizations/
 	- https://hal.inria.fr/hal-01682683
-- LORE: A loop repository for the evaluation of compilers
-	- International Symposium on Workload Characterization (IISWC) 2017
-	- Zhi Chen, Zhangxiaowen Gong, Justin Josef Szaday, David C. Wong, David A. Padua, Alexandru Nicolau, Alexander V. Veidenbaum, Neftali Watkinson, Zehra Sura, Saeed Maleki, Josep Torrellas, Gerald DeJong
-	- https://iacoma.cs.uiuc.edu/iacoma-papers/iiswc17.pdf
-	- https://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_iiswc17.pdf
 - Lost in translation: Exposing hidden compiler optimization opportunities
 	- 2019 arXiv
 	- Kyriakos Georgiou, Zbigniew Chamski, Andres Amaya Garcia, David May, Kerstin Eder
@@ -469,6 +464,20 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- paper: https://research.google.com/pubs/pub43856.html
 	- slides: https://nebelwelt.net/publications/files/15LangSec-presentation.pdf
 	- talk: https://www.youtube.com/watch?v=g6LCtHz_MDc&list=PL0pRF4xvoD0kuECJuowraVIIHlT3pN1Cm&index=3
+
+#### Testing: Readings: Performance Optimization: Loops
+
+- An Empirical Study of the Effect of Source-level Loop Transformations on Compiler Stability
+	- OOPSLA 2018
+	- Zhangxiaowen Gong, Zhi Chen, Justin Szaday, David Wong, Zehra Sura, Neftali Watkinson, Saeed Maleki, David Padua, Alexander Veidenbaum, Alexandru Nicolau, Josep Torrellas
+	- https://2018.splashcon.org/details/splash-2018-OOPSLA/42/An-Empirical-Study-of-the-Effect-of-Source-level-Loop-Transformations-on-Compiler-Sta
+	- https://iacoma.cs.uiuc.edu/iacoma-papers/oopsla18.pdf
+	- https://dl.acm.org/doi/10.1145/3276496
+- LORE: A loop repository for the evaluation of compilers
+	- International Symposium on Workload Characterization (IISWC) 2017
+	- Zhi Chen, Zhangxiaowen Gong, Justin Josef Szaday, David C. Wong, David A. Padua, Alexandru Nicolau, Alexander V. Veidenbaum, Neftali Watkinson, Zehra Sura, Saeed Maleki, Josep Torrellas, Gerald DeJong
+	- https://iacoma.cs.uiuc.edu/iacoma-papers/iiswc17.pdf
+	- https://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_iiswc17.pdf
 
 #### Testing: Readings: Performance Optimization: Vectorization
 
