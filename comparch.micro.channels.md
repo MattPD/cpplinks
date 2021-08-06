@@ -775,6 +775,12 @@ See also: [Computer Architecture](comparch.md)
 	- ASPLOS 2018
 	- Dmitry Evtyushkin, Ryan Riley, Nael Abu-Ghazaleh, Dmitry Ponomarev
 	- http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf
+- BranchSpec: Information Leakage Attacks Exploiting Speculative Branch Instruction Executions
+	- IEEE International Conference on Computer Design (ICCD) 2020
+	- Md Hafizul Islam Chowdhuryy, Hang Liu, Fan Yao
+	- http://fan-yao.com/paper/2020_ICCD_branchspec.pdf
+	- https://github.com/fanyao/branchspec
+	- https://www.youtube.com/watch?v=Yo9B_azoMBw
 - Covert Channels Through Branch Predictors: A Feasibility Study
 	- Hardware and Architectural Support for Security and Privacy (HASP) 2015
 	- Dmitry Evtyushkin, Dmitry Ponomarev, Nael Abu-Ghazaleh
