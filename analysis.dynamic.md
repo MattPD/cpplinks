@@ -482,6 +482,15 @@ See also:
 	- https://dl.acm.org/doi/abs/10.1145/3446804.3446848
 	- https://arxiv.org/abs/2102.12782
 	- https://reviews.llvm.org/D97854
+- Parallel Shadow Execution to Accelerate the Debugging of Numerical Errors
+	- ESEC/FSE 2021
+	- Sangeeta Chowdhary, Santosh Nagarakatte
+	- https://doi.org/10.1145/3468264.3468585
+	- https://www.cs.rutgers.edu/~santosh.nagarakatte/papers/fse-2021-final-preprint.pdf
+	- https://people.cs.rutgers.edu/~sn349/papers/fse-2021-final-preprint.pdf
+	- https://2021.esec-fse.org/details/fse-2021-papers/54/Parallel-Shadow-Execution-to-Accelerate-the-Debugging-of-Numerical-Errors
+	- PFPSanitizer: A Parallel Shadow Execution Tool for Debugging Numerical Errors
+		-https://github.com/rutgers-apl/PFPSanitizer
 - ParmeSan: Sanitizer-guided Greybox Fuzzing
 	- USENIX Security 2020
 	- Sebastian Österlund, Kaveh Razavi, Herbert Bos, Cristiano Giuffrida
