@@ -24,7 +24,7 @@ See also:
 	- [RR](#rr): [Projects](#rr-projects), [Readings](#rr-readings)
 	- [OS-specific](#os-specific): [iOS](#iOS), [Linux](#linux), [macOS](#macos), [Windows](#windows) - [WinDbg](#windbg)
 	- [Stack Trace & Unwinding](#stack-trace--unwinding)
-- [Talks](#talks): [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
+- [Talks](#talks): [2021](#2021), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
 
 ---
 
@@ -1161,12 +1161,18 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 # Talks
 
+## 2021
+
+- Modern Linux C++ Debugging Tools: Under the Covers
+	- ACCU 2021; Greg Law & Dewang Li
+	- https://www.youtube.com/watch?v=qYbGDDIsH4M
+
 ## 2019
 
-* Modern Linux C++ Debugging Tools: Under the Covers
-	+ CppCon 2019; Greg Law
-	+ https://www.youtube.com/watch?v=WoRmXjVxuFQ
-	+ https://github.com/CppCon/CppCon2019/tree/master/Presentations/modern_linux_cpp_debugging_tools__under_the_covers
+- Modern Linux C++ Debugging Tools: Under the Covers
+	- CppCon 2019; Greg Law & Dewang Li
+	- https://www.youtube.com/watch?v=WoRmXjVxuFQ
+	- https://github.com/CppCon/CppCon2019/tree/master/Presentations/modern_linux_cpp_debugging_tools__under_the_covers
 
 ## 2018
 
