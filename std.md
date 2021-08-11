@@ -54,22 +54,13 @@
 
 - C++ standard draft
 	- https://github.com/cplusplus/draft
-	- http://eel.is/c++draft/
+	- https://eel.is/c++draft/
 	- C++ Standards Drafts in HTML - https://ubershmekel.github.io/cppdrafts/
 	- HTML version of the C++ working paper
 		- https://github.com/timsong-cpp/cppwp
 		- https://timsong-cpp.github.io/cppwp/
-- C++ International Standard schedule
-	- https://wg21.link/P1000
-- Current Status
-	- https://isocpp.org/std/status
-- ISO C++ paper scheduling and management
-	- track proposals on GitHub
-	- https://github.com/cplusplus/papers/issues
 - Specref (search WG21 papers)
-	- http://www.specref.org/
-- WG21 CWG Issues
-	- https://wg21.cmeerw.net/cwg/
+	- https://www.specref.org/
 - wg21.link - WG21 redirect service - https://wg21.link/
 - Where do I find the current C or C++ standard documents?
 	- https://stackoverflow.com/questions/81656/where-do-i-find-the-current-c-or-c-standard-documents
@@ -78,6 +69,7 @@
 
 # Standardization
 
+- JTC1/SC22/WG21 - The C++ Standards Committee - ISOCPP - http://www.open-std.org/jtc1/sc22/wg21/
 - Standardization - Standard C++ Foundation
 	- https://isocpp.org/std
 	- Standing Documents
@@ -87,7 +79,19 @@
 		- https://isocpp.org/std/standing-documents/sd-8-standard-library-compatibility
 		- CppCon 2018; Titus Winters
 		- https://www.youtube.com/watch?v=BWvSSsKCiAw
-- JTC1/SC22/WG21 - The C++ Standards Committee - ISOCPP - http://www.open-std.org/jtc1/sc22/wg21/
+- C++ International Standard schedule
+	- https://wg21.link/P1000
+- Current Status
+	- https://isocpp.org/std/status
+- ISO C++ paper scheduling and management
+	- track proposals on GitHub
+	- https://github.com/cplusplus/papers/issues
+- LEWG ISO C++ GitHub
+	- Project planning for the C++ Library Evolution Working Group 
+	- https://github.com/cplusplus/LEWG
+	- https://github.com/cplusplus/LEWG/wiki
+- WG21 CWG Issues
+	- https://wg21.cmeerw.net/cwg/
 - Bikeshed: A preprocessor for anyone writing specifications that converts source files into actual specs.
 	- https://tabatkins.github.io/bikeshed/
 	- https://github.com/tabatkins/bikeshed
