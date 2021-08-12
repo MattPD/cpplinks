@@ -300,6 +300,9 @@ See also:
 		- NDSS 2016
 		- N. Stephens, J. Grosen, C. Salls, A. Dutcher, R. Wang, J. Corbetta, Y. Shoshitaishvili, C. Kruegel, G. Vigna
 		- https://www.cs.ucsb.edu/~vigna/publications/2016_NDSS_Driller.pdf
+- E9AFL: Binary AFL
+	- E9AFL inserts American Fuzzy Lop (AFL) instrumentation into x86_64 Linux binaries. This allows binaries to be fuzzed without the need for recompilation.
+	- https://github.com/GJDuck/e9afl
 - Internals of AFL fuzzer - Compile Time Instrumentation
 	- https://tunnelshade.in/blog/2018/01/afl-internals-compile-time-instrumentation/
 - WinAFL: A fork of AFL for fuzzing Windows binaries
