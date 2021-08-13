@@ -481,6 +481,9 @@ See also:
 - Linker Relaxation in LLD
 	- RISC-V Forum 2021; Chih-Mao Chen
 	- https://www.youtube.com/watch?v=4GnQbhNt1Cc
+- Mach-O linker in Zig: linking in the era of Apple Silicon
+	- FOSDEM 2021; Jakub Konka
+	- https://fosdem.org/2021/schedule/event/zig_macho/
 
 ## Talks: 2019
 
