@@ -1337,3 +1337,4 @@ See also: [Performance Tools](performance.tools.md)
 	- part 6: The lie hiding inside the CMN instruction: https://devblogs.microsoft.com/oldnewthing/20210607-00/?p=105288
 	- part 7: Bitwise operations: https://devblogs.microsoft.com/oldnewthing/20210608-00/?p=105290
 	- part 8: Bit shifting and bitfield access: https://devblogs.microsoft.com/oldnewthing/20210609-00/?p=105293
+	- part 9: Sign and zero extension: https://devblogs.microsoft.com/oldnewthing/20210610-00/?p=105295
