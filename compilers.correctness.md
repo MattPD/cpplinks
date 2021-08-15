@@ -351,6 +351,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 - The problem with differential testing is that at least one of the compilers must get it right
 	- http://blog.frama-c.com/index.php?post/2013/09/25/The-problem-with-differential-testing-is-that-at-least-one-of-the-compilers-must-get-it-right
 
+### Testing: Readings: 2021
+
+- SpecTest: Specification-Based Compiler Testing
+	- Fundamental Approaches to Software Engineering (FASE) 2021
+	- Richard Schumi, Jun Sun
+	- https://www.springerprofessional.de/en/spectest-specification-based-compiler-testing/18985506
+
 ### Testing: Readings: 2020
 
 - Closer to the Edge: Testing Compilers More Thoroughly by Being Less Conservative About Undefined Behaviour
