@@ -1931,6 +1931,14 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- IEEE EuroS&P 2021
 	- Andrea Mambretti, Alexandra Sandulescu, Alessandro Sorniotti, William Robertson, Engin Kirda, Anil Kurmus
 	- https://arxiv.org/abs/2003.05503
+- Rage Against the Machine Clear: A Systematic Analysis of Machine Clears and Their Implications for Transient Execution Attacks
+	- USENIX Security Symposium 2021
+	- Hany Ragab, Enrico Barberis, Herbert Bos, Cristiano Giuffrida
+	- https://download.vusec.net/papers/fpvi-scsb_sec21.pdf
+	- https://github.com/vusec/fpvi-scsb
+	- https://www.vusec.net/projects/fpvi-scsb/
+	- Floating Point Value Injection (FPVI): CVE-2021-0086
+	- Speculative Code Store Bypass (SCSB): CVE-2021-0089
 - Reproducing Spectre Attack with gem5, How To Do It Right?
 	- EuroSec 2021
 	- Pierre Ayoub, Clémentine Maurice
