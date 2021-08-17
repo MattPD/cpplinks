@@ -535,6 +535,8 @@ Contents:
 * Modern ELF Infection Techniques of SCOP Binaries
 	- PoC||GTFO 0x20, January 2020; Ryan "ElfMaster" O'Neill
 	- https://archive.org/details/pocorgtfo20/page/n44/mode/1up?view=theater
+* Palindromic 64 bit ELF binaries
+	- https://n0.lol/bggp/writeup.html
 * Position Independent Executables - https://blog.fpmurphy.com/2008/06/position-independent-executables.html
 * Programming With Ones and Zeros
 	+ Part 1 - http://www.hanshq.net/ones-and-zeros.html
