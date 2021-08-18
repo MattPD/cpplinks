@@ -312,6 +312,8 @@ _Books, Books Reviews_
 	- https://robert.ocallahan.org/2018/11/comparing-quality-of-debug-information.html
 	- debuginfo-quality: Evaluate the quality of debuginfo in an ELF binary
 		- https://github.com/rocallahan/debuginfo-quality
+- Continuous integration with GDB Buildbot
+	- https://developers.redhat.com/blog/2020/02/17/continuous-integration-with-gdb-buildbot/
 - Debug Frame Checking: Check `.eh_frame` and `.debug_frame` information
 	- https://github.com/francesco-zappa-nardelli/eh_frame_check
 - DExTer (Debugging Experience Tester)
