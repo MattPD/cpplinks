@@ -935,6 +935,9 @@ See also:
 	- https://docs.microsoft.com/en-us/visualstudio/msbuild/
 - MSBuild (Visual C++) - https://docs.microsoft.com/en-us/cpp/build/msbuild-visual-cpp
 - MSBuild Binary and Structured Log Viewer - http://msbuildlog.com/
+- MSBuild compile_commands.json logger
+	- An MSBuild logger that emits compile_commands.json for C++ projects
+	- https://github.com/0xabu/MsBuildCompileCommandsJson
 - MSBuildEditor
 	- The MSBuild Editor extension provides improved support for editing MSBuild files in Visual Studio and Visual Studio for Mac.
 	- https://github.com/mhutch/MonoDevelop.MSBuildEditor
