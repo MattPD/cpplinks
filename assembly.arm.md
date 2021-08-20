@@ -50,6 +50,11 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Muhui Jiang, Yajin Zhou, Xiapu Luo, Ruoyu Wang, Yang Liu, Kui Ren
 	- https://yajin.org/papers/issta20.pdf
 	- https://github.com/valour01/arm_disasssembler_study
+- ArmWrestling: efficient binary rewriting for ARM
+	- 2021 Master's Thesis
+	- Luca Di Bartolomeo
+	- https://doi.org/10.3929/ethz-b-000474088
+	- https://hexhive.epfl.ch/theses/20-dibartolomeo-thesis.pdf
 - Balancing Performance and Productivity for the Development of Dynamic Binary Instrumentation Tools: A Case Study on Arm Systems
 	- Compiler Construction (CC) 2020
 	- Cosmin Gorgovan, Guillermo Callaghan, Mikel Luján
