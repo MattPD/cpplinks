@@ -55,6 +55,12 @@ See also:
 	- https://doi.org/10.1145/3280984
 	- http://theory.stanford.edu/~mp/mp/Publications_files/a125-patrignani.pdf
 	- http://theory.stanford.edu/~mp/mp/Publications_files/main-full.pdf
+- Generating Compiler Optimizations from Proofs
+	- POPL 2010
+	- Ross Tate, Michael Stepp, Sorin Lerner
+	- https://doi.org/10.1145/1707801.1706345
+	- https://www.cs.cornell.edu/~ross/publications/proofgen/
+	- https://cseweb.ucsd.edu/~lerner/papers/popl10.html
 - How to prove a compiler correct - Daniel Patterson
 	- https://dbp.io/essays/2018-01-16-how-to-prove-a-compiler-correct.html
 	- https://github.com/dbp/howtoproveacompiler
