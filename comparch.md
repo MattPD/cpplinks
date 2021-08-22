@@ -201,6 +201,9 @@ See also: [Assembly (Arm)](assembly.arm.md), [Assembly (RISC-V)](assembly.riscv.
 		- 2005 USENIX Annual Technical Conference
 		- Fabrice Bellard
 		- https://www.usenix.org/conference/2005-usenix-annual-technical-conference/qemu-fast-and-portable-dynamic-translator
+- SimEng (the Simulation Engine): a framework for building modern cycle-accurate processor simulators
+	- https://github.com/UoB-HPC/SimEng
+	- https://uob-hpc.github.io/SimEng/
 - Sniper - http://snipersim.org/
 - Structural Simulation Toolkit (SST) - http://sst-simulator.org/
 	- https://github.com/sstsimulator
