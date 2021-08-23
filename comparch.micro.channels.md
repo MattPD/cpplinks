@@ -46,62 +46,24 @@ See also: [Computer Architecture](comparch.md)
 
 # General
 
-- A Note on the Confinement Problem
-	- Communications of the ACM (CACM) 1973; Butler W. Lampson
-	- http://bwlampson.site/11-Confinement/Abstract.html
-- A Survey of Microarchitectural Timing Attacks and Countermeasures on Contemporary Hardware
-	- Q.Ge, Y. Yarom, D. Cock, and G. Heiser
-	- Journal of Cryptographic Engineering 8 (1) 2018
-	- http://dx.doi.org/10.1007/s13389-016-0141-6
-	- Cryptology ePrint Archive, Report 2016/613
-	- http://eprint.iacr.org/2016/613
-	- https://ts.data61.csiro.au/publications/csiro_full_text/Ge_YCH_18.pdf
-	- http://eprint.iacr.org.metacomment.io/2016/613
-- A Survey of Timing Channels and Countermeasures
-	- ACM Computing Surveys (CSUR) Volume 50 Issue 1 (2017)
-	- Arnab Kumar Biswas, Diapk Ghosal, Shishir Nagaraja
-	- https://dl.acm.org/citation.cfm?id=3023872
-	- https://strathprints.strath.ac.uk/66223/1/Biswas_etal_ACM_CS_2017_A_survey_of_timing_channels_and_countermeasures.pdf
-- A Systematic Evaluation of Transient Execution Attacks and Defenses
-	- arXiv 2018
-	- Claudio Canella, Jo Van Bulck, Michael Schwarz, Moritz Lipp, Benjamin von Berg, Philipp Ortner, Frank Piessens, Dmitry Evtyushkin, Daniel Gruss
-	- https://arxiv.org/abs/1811.05441
-- Communication Model and Capacity Limits of Covert Channels Created by Software Activities
-	- IEEE Transactions on Information Forensics and Security (TIFS) 2020
-	- Baki Yilmaz, Milos Prvulovic, Alenka Zajic
-	- https://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2020/01/T-IFS-10205-2019.R1.pdf
+- MASCAB: a Micro-Architectural Side-Channel Attack Bibliography
+	- Daniel Page
+	- https://github.com/danpage/mascab
+	- YouTube playlist: https://www.youtube.com/playlist?list=PLcjiHk8Sl-KK1qY4JOzTDu095TscjcEVa
+- Memory Systems attacks/mitigations research papers
+	- Biswabandan Panda
+	- https://www.cse.iitk.ac.in/users/biswap/SMS.html
+
+## General: 2021
+
 - Computing with Time: Microarchitectural Weird Machines
 	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2021
 	- Dmitry Evtyushkin, Thomas Benjamin, Jesse Elwell, Jeffrey A. Eitel, Angelo Sapello, Abhrajit Ghosh
 	- https://doi.org/10.1145/3445814.3446729
-- Cross-core Microarchitectural Side Channel Attacks and Countermeasures
-	- 2017 Ph.D. Dissertation; Gorka Irazoqui
-	- https://web.wpi.edu/Pubs/ETD/Available/etd-042417-114714/unrestricted/girazoki.pdf
-- Exploiting processor side channels to enable cross VM malicious code execution
-	- 2015 Master's Thesis; Sophia M. D'Antoine
-	- http://digitool.rpi.edu:8881/dtl_publish/15/175977.html
-	- https://www.sophia.re/thesis.pdf
-	- https://www.blackhat.com/docs/us-15/materials/us-15-DAntoine-Exploiting-Out-Of-Order-Execution-For-Covert-Cross-VM-Communication-wp.pdf
-- MASCAB: a Micro-Architectural Side-Channel Attack Bibliography
-	- https://github.com/danpage/mascab
-	- YouTube playlist: https://www.youtube.com/playlist?list=PLcjiHk8Sl-KK1qY4JOzTDu095TscjcEVa
-- Mastik: A Micro-Architectural Side-Channel Toolkit
-	- http://cs.adelaide.edu.au/~yval/Mastik/
-	- http://cryptologie.net/article/366/ches-2016-tutorial-part-1-common-criteria-certification-of-a-smartcard-a-technical-overview/
-	- https://cryptologie.net/article/367/ches-2016-tutorial-part-2-micro-architectural-side-channel-attacks/
-	- - Microarchitectural Side-Channel Attacks
-		- CHES 2016 tutorial
-		- https://cs.adelaide.edu.au/~yval/Mastik/presentations/CHES16-Tutorial.pptx
-		- https://cs.adelaide.edu.au/~yval/Mastik/presentations/CHES16-Tutorial2.pptx
-- Memory Systems attacks/mitigations research papers
-	- https://www.cse.iitk.ac.in/users/biswap/SMS.html
-- Microarchitectural Attacks and Countermeasures
-	- Cryptographic Engineering (2009)
-	- Onur Acıiçmez, Çetin Kaya Koç
-	- https://link.springer.com/chapter/10.1007/978-0-387-71817-0_18
-- Negative Result: Reading Kernel Memory From User Mode
-	- 2017; Anders Fogh
-	- https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/
+- Exploiting Microarchitectural Optimizations from Software
+	- 2021 Ph.D. Dissertation
+	- Moritz Lipp
+	- https://mlq.me/download/phd-thesis.pdf
 - Opening Pandora’s Box: A Systematic Study of New Ways Microarchitecture Can Leak Private Data
 	- International Symposium on Computer Architecture (ISCA) 2021
 	- Jose Rodrigo Sanchez Vicarte, Pradyumna Shome, Nandeeka Nayak, Caroline Trippel, Adam Morrison, David Kohlbrenner, Christopher W. Fletcher
@@ -115,15 +77,23 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.usenix.org/conference/usenixsecurity21/presentation/weber
 	- https://publications.cispa.saarland/3431/1/main.pdf
 	- https://github.com/cispa/osiris
+
+## General: 2020
+
+- Communication Model and Capacity Limits of Covert Channels Created by Software Activities
+	- IEEE Transactions on Information Forensics and Security (TIFS) 2020
+	- Baki Yilmaz, Milos Prvulovic, Alenka Zajic
+	- https://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2020/01/T-IFS-10205-2019.R1.pdf
 - Revisiting Isolated and Trusted Execution via Microarchitectural Cryptanalysis
-	- 2020 PhD Dissertation; Daniel Moghimi
+	- 2020 PhD Dissertation
+	- Daniel Moghimi
 	- https://digital.wpi.edu/show/w9505326n
-- Software-based Microarchitectural Attacks
-	- 2017 PhD dissertation; Daniel Gruss
-	- https://gruss.cc/files/phd_thesis.pdf
-	- slides: https://gruss.cc/files/phd_defense_slides.pdf
+
+## General: 2019
+
 - Software-based Side-Channel Attacks and Defenses in Restricted Environments
-	- 2019 PhD Thesis; Michael Schwarz
+	- 2019 PhD Thesis
+	- Michael Schwarz
 	- https://misc0110.net/web/files/phd_thesis.pdf
 - Survey of Microarchitectural Side and Covert Channels, Attacks, and Defenses
 	- Journal of Hardware and Systems Security 3(3) 2019
@@ -132,24 +102,98 @@ See also: [Computer Architecture](comparch.md)
 	- https://caslab.csl.yale.edu/publications/szefer2018surey.pdf
 	- 2016 preprint: http://eprint.iacr.org/2016/479
 	- https://link.springer.com/article/10.1007/s41635-018-0046-1
+
+## General: 2018
+
+- A Survey of Microarchitectural Timing Attacks and Countermeasures on Contemporary Hardware
+	- Q.Ge, Y. Yarom, D. Cock, and G. Heiser
+	- Journal of Cryptographic Engineering 8 (1) 2018
+		- http://dx.doi.org/10.1007/s13389-016-0141-6
+	- Cryptology ePrint Archive, Report 2016/613
+		- http://eprint.iacr.org/2016/613
+		- https://ts.data61.csiro.au/publications/csiro_full_text/Ge_YCH_18.pdf
+		- http://eprint.iacr.org.metacomment.io/2016/613
+- A Systematic Evaluation of Transient Execution Attacks and Defenses
+	- arXiv 2018
+	- Claudio Canella, Jo Van Bulck, Michael Schwarz, Moritz Lipp, Benjamin von Berg, Philipp Ortner, Frank Piessens, Dmitry Evtyushkin, Daniel Gruss
+	- https://arxiv.org/abs/1811.05441
 - Systematic Classification of Side-Channel Attacks: A Case Study for Mobile Devices
 	- IEEE Communications Surveys & Tutorials 20(1) 2018
 	- Raphael Spreitzer, Veelasha Moonsamy, Thomas Korak, Stefan Mangard
 	- https://arxiv.org/abs/1611.03748
+
+## General: 2017
+
+- A Survey of Timing Channels and Countermeasures
+	- ACM Computing Surveys (CSUR) Volume 50 Issue 1 (2017)
+	- Arnab Kumar Biswas, Diapk Ghosal, Shishir Nagaraja
+	- https://dl.acm.org/citation.cfm?id=3023872
+	- https://strathprints.strath.ac.uk/66223/1/Biswas_etal_ACM_CS_2017_A_survey_of_timing_channels_and_countermeasures.pdf
+- Cross-core Microarchitectural Side Channel Attacks and Countermeasures
+	- 2017 Ph.D. Dissertation
+	- Gorka Irazoqui
+	- https://web.wpi.edu/Pubs/ETD/Available/etd-042417-114714/unrestricted/girazoki.pdf
+- Negative Result: Reading Kernel Memory From User Mode
+	- 2017
+	- Anders Fogh
+	- https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/
+- Software-based Microarchitectural Attacks
+	- 2017 PhD dissertation
+	- Daniel Gruss
+	- https://gruss.cc/files/phd_thesis.pdf
+	- slides: https://gruss.cc/files/phd_defense_slides.pdf
+- Your Processor Leaks Information - and There's Nothing You Can Do About It
+	- arXiv 2017
+	- Qian Ge, Yuval Yarom, Frank Li, Gernot Heiser
+	- https://arxiv.org/abs/1612.04474
+
+## General: 2016
+
+- Mastik: A Micro-Architectural Side-Channel Toolkit
+	- http://cs.adelaide.edu.au/~yval/Mastik/
+	- http://cryptologie.net/article/366/ches-2016-tutorial-part-1-common-criteria-certification-of-a-smartcard-a-technical-overview/
+	- https://cryptologie.net/article/367/ches-2016-tutorial-part-2-micro-architectural-side-channel-attacks/
+	- - Microarchitectural Side-Channel Attacks
+		- CHES 2016 tutorial
+		- Yuval Yarom
+		- https://cs.adelaide.edu.au/~yval/Mastik/presentations/CHES16-Tutorial.pptx
+		- https://cs.adelaide.edu.au/~yval/Mastik/presentations/CHES16-Tutorial2.pptx
+
+## General: 2015
+
+- Exploiting processor side channels to enable cross VM malicious code execution
+	- 2015 Master's Thesis
+	- Sophia M. D'Antoine
+	- http://digitool.rpi.edu:8881/dtl_publish/15/175977.html
+	- https://www.sophia.re/thesis.pdf
+	- https://www.blackhat.com/docs/us-15/materials/us-15-DAntoine-Exploiting-Out-Of-Order-Execution-For-Covert-Cross-VM-Communication-wp.pdf
+- Understanding contention-based channels and using them for defense
+	- HPCA 2015
+	- Hunger, C., Kazdagli, M., Rawat, A., Dimakis, A., Vishwanath, S., Tiwari, M.
+	- http://users.ece.utexas.edu/~tiwari/pubs/HPCA-15-contention.pdf
+
+## General: 2014
+
 - The Last Mile: An Empirical Study of Timing Channels on seL4
 	- CCS 2014
 	- David Cock, Qian Ge, Toby Murray, Gernot Heiser
 	- https://ts.data61.csiro.au/publications/nictaabstracts/Cock_GMH_14.abstract.html
 	- http://research.davidcock.fastmail.fm/slides/lastmile.pdf
 	- https://ts.data61.csiro.au/projects/TS/timeprotection/
-- Understanding contention-based channels and using them for defense
-	- HPCA 2015
-	- Hunger, C., Kazdagli, M., Rawat, A., Dimakis, A., Vishwanath, S., Tiwari, M.
-	- http://users.ece.utexas.edu/~tiwari/pubs/HPCA-15-contention.pdf
-- Your Processor Leaks Information - and There's Nothing You Can Do About It
-	- arXiv 2017
-	- Qian Ge, Yuval Yarom, Frank Li, Gernot Heiser
-	- https://arxiv.org/abs/1612.04474
+
+## General: 2009
+
+- Microarchitectural Attacks and Countermeasures
+	- Cryptographic Engineering (2009)
+	- Onur Acıiçmez, Çetin Kaya Koç
+	- https://link.springer.com/chapter/10.1007/978-0-387-71817-0_18
+
+## General: 1973
+
+- A Note on the Confinement Problem
+	- Communications of the ACM (CACM) 1973
+	- Butler W. Lampson
+	- http://bwlampson.site/11-Confinement/Abstract.html
 
 ---
 
@@ -1970,7 +2014,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- NDSS 2020
 	- Yuan Xiao, Yinqian Zhang, Radu Teodorescu
 	- https://arxiv.org/abs/1912.00329
-- Survey of Transient Execution Attacks and Their Mitigations 
+- Survey of Transient Execution Attacks and Their Mitigations
 	- Wenjie Xiong, Jakub Szefer
 	- 2020
 		- https://arxiv.org/abs/2005.13435
