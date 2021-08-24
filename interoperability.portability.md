@@ -159,6 +159,8 @@
 	- CIB - ABI stable architecture for a C++ SDK
 		- Meeting C++ online 2021; Satya Das
 		- https://www.youtube.com/watch?v=cp-MtGe-f6M
+- Itanium Demangler: Pure Python Itanium C++ ABI demangler
+	- https://github.com/whitequark/python-itanium_demangler
 - pexcheck: Pexcheck is a command-line tool for checking the binary compatibility of public interfaces.
 	- https://github.com/AVGTechnologies/pexcheck
 
