@@ -153,6 +153,8 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 - Beyond C++17 (Part 2 of N)
 	- C++Now 2019; Mateusz Pusz
 	- https://www.youtube.com/watch?v=XjUmU3q1XsA
+- C++ Weekly C++20; Jason Turner
+	- https://www.youtube.com/playlist?list=PLs3KjaCtOwSYdpfm74DYyd1kOXEhCd1Rv
 - C++20 in Breadth (not depth!)
 	- C++Now 2019; Alisdair Meredith
 	- https://www.youtube.com/watch?v=tczJe5YGHuc
