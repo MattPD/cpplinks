@@ -241,6 +241,9 @@ _Benchmarks & comparisons_
 - Infer Static Analyzer: A static analyzer for Java, C, C++, and Objective-C
 	- http://fbinfer.com/
 	- https://github.com/facebook/infer
+- ORC: a tool for finding violations of C++'s One Definition Rule (ODR)
+	- ORC was originally conceived on macOS. While its current implementation is focused there, it does not have to be constrained to that toolchain.
+	- https://github.com/adobe/orc
 - Phasar: A LLVM-based static code analysis framework
 	- http://phasar.org/
 	- https://github.com/secure-software-engineering/phasar
