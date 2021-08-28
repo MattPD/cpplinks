@@ -743,6 +743,14 @@ Validation: Including translation validation, equivalence checking.
 
 ## Validation: 2021
 
+- Alive2: Bounded Translation Validation for LLVM
+	- PLDI 2021
+	- Nuno P. Lopes, Juneyoung Lee, Chung-Kil Hur, Zhengyang Liu, John Regehr
+	- https://doi.org/10.1145/3453483.3454030
+	- https://www.cs.utah.edu/~regehr/alive2-pldi21.pdf
+	- https://web.ist.utl.pt/nuno.lopes/pubs.php?id=alive2-pldi21
+	- https://github.com/AliveToolkit/alive2
+	- https://alive2.llvm.org/ce/
 - An SMT Encoding of LLVM's Memory Model for Bounded Translation Validation
 	- Conference on Computer-Aided Verification (CAV) 2021
 	- Juneyoung Lee, Dongjoo Kim, Chung-Kil Hur, Nuno P. Lopes
