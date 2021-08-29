@@ -21,7 +21,7 @@ See also: [Computer Architecture](comparch.md)
 - [Floating Point Unit (FPU)](#floating-point-unit-fpu)
 - [FPGA](#fpga)
 - [GPU](#gpu)
-- [Interconnect][#interconnect]
+- [Interconnect](#interconnect)
 - [Interrupts](#interrupts)
 - [Keyboard](#keyboard)
 - [Magnetic](#magnetic)
@@ -49,7 +49,6 @@ See also: [Computer Architecture](comparch.md)
 - MASCAB: a Micro-Architectural Side-Channel Attack Bibliography
 	- Daniel Page
 	- https://github.com/danpage/mascab
-	- YouTube playlist: https://www.youtube.com/playlist?list=PLcjiHk8Sl-KK1qY4JOzTDu095TscjcEVa
 - Memory Systems attacks/mitigations research papers
 	- Biswabandan Panda
 	- https://www.cse.iitk.ac.in/users/biswap/SMS.html
@@ -825,6 +824,14 @@ See also: [Computer Architecture](comparch.md)
 	- http://fan-yao.com/paper/2020_ICCD_branchspec.pdf
 	- https://github.com/fanyao/branchspec
 	- https://www.youtube.com/watch?v=Yo9B_azoMBw
+	- TR: Leakage of Sensitive Information through Speculative Branch Executions
+		- 2021
+		- Md Hafizul Islam Chowdhuryy, Fan Yao
+		- http://fan-yao.com/paper/TR_branchspec.pdf
+	- Leaking Secrets through Modern Branch Predictor in the Speculative World
+		- 2021
+		- Md Hafizul Islam Chowdhuryy, Fan Yao
+		- https://arxiv.org/abs/2107.09833
 - Covert Channels Through Branch Predictors: A Feasibility Study
 	- Hardware and Architectural Support for Security and Privacy (HASP) 2015
 	- Dmitry Evtyushkin, Dmitry Ponomarev, Nael Abu-Ghazaleh
