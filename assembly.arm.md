@@ -235,74 +235,76 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ## Instruction Set Architecture
 
-* ARM Assembly Language Programming - Pete Cockerell (historical)
-	+ http://www.peter-cockerell.net/aalp/
-* ARM immediate value encoding - Alisdair McDiarmid
-	+ https://alisdair.mcdiarmid.org/arm-immediate-value-encoding/
-* ARMv8 A64 Quick Reference
-	+ Instruction Set Quick Reference Sheets: https://github.com/flynd/asmsheets
+- ARM Assembly Language Programming - Pete Cockerell (historical)
+	- http://www.peter-cockerell.net/aalp/
+- ARMv8 A64 Quick Reference
+	- Instruction Set Quick Reference Sheets: https://github.com/flynd/asmsheets
 		- https://github.com/flynd/asmsheets/blob/master/aarch32.tex
 		- https://github.com/flynd/asmsheets/blob/master/aarch64.tex
 		- PDF: https://courses.cs.washington.edu/courses/cse469/18wi/Materials/arm64.pdf
-* Exploring the Arm dot product instructions - https://community.arm.com/tools/b/blog/posts/exploring-the-arm-dot-product-instructions
-* Introduction to Computer Organization: ARM Assembly Language Using the Raspberry Pi
-	+ http://bob.cs.sonoma.edu/IntroCompOrg-RPi/intro-co-rpi.html
-* Learn the Architecture
-	+ https://developer.arm.com/architectures/learn-the-architecture
-* REPICA: Rewriting Position Independent Code of ARM
+- Exploring the Arm dot product instructions - https://community.arm.com/tools/b/blog/posts/exploring-the-arm-dot-product-instructions
+- Introduction to Computer Organization: ARM Assembly Language Using the Raspberry Pi
+	- http://bob.cs.sonoma.edu/IntroCompOrg-RPi/intro-co-rpi.html
+- Learn the Architecture
+	- https://developer.arm.com/architectures/learn-the-architecture
+- REPICA: Rewriting Position Independent Code of ARM
 	- IEEE Access 6 (2018)
 	- Dongsoo Ha, Wenhui Jin, Heekuck Oh
 	- https://doi.org/10.1109/access.2018.2868411
 
-### Shellcode
+### Encoding, Shellcode
 
-* Alphanumeric ARM Shellcode
-	+ March 15, 2018
-	+ https://vishnudevtj.github.io/notes/arm-alphanumeric-shellcode
-* Alphanumeric RISC ARM Shellcode
-	+ Phrack Magazine #66 (2009-11-06)
-	+ Yves Younan, Pieter Philippaerts
-	+ http://www.phrack.org/archives/issues/66/12.txt
-	+ http://www.phrack.org/issues/66/12.html#article
-* Alphanumeric Shellcode Generator for ARM Architecture
-	+ SPACE 2013: Security, Privacy, and Applied Cryptography Engineering
-	+ Pratik Kumar, Nagendra Chowdary, Anish Mathuria
-	+ <https://link.springer.com/chapter/10.1007/978-3-642-41224-0_3>
-* ARM Assembly and Shellcode Basics
+- Alphanumeric ARM Shellcode
+	- March 15, 2018
+	- https://vishnudevtj.github.io/notes/arm-alphanumeric-shellcode
+- Alphanumeric RISC ARM Shellcode
+	- Phrack Magazine #66 (2009-11-06)
+	- Yves Younan, Pieter Philippaerts
+	- http://www.phrack.org/archives/issues/66/12.txt
+	- http://www.phrack.org/issues/66/12.html#article
+- Alphanumeric Shellcode Generator for ARM Architecture
+	- SPACE 2013: Security, Privacy, and Applied Cryptography Engineering
+	- Pratik Kumar, Nagendra Chowdary, Anish Mathuria
+	- <https://link.springer.com/chapter/10.1007/978-3-642-41224-0_3>
+- ARM Assembly and Shellcode Basics
 	- 44CON 2017; Saumil Shah
 	- https://www.youtube.com/watch?v=BhjJBuX0YCU
-* ARM Shellcode - Azeria Labs
-	+ Code: https://github.com/azeria-labs/ARM-assembly-examples
-	+ Introduction to Writing ARM Shellcode - https://azeria-labs.com/writing-arm-shellcode/
-	+ TCP Bind Shell (ARM 32-bit) - https://azeria-labs.com/tcp-bind-shell-in-assembly-arm-32-bit/
-	+ TCP Reverse Shell (ARM 32-bit) - https://azeria-labs.com/tcp-reverse-shell-in-assembly-arm-32-bit/
-	+ Process Memory and Memory Corruptions - https://azeria-labs.com/process-memory-and-memory-corruption/
-	+ Stack Overflow Challenges - https://azeria-labs.com/part-3-stack-overflow-challenges/
-	+ Process Continuation Shellcode - https://azeria-labs.com/process-continuation-shellcode/
-	+ Heap Exploitation Part 1: Understanding the Glibc Heap Implementation - https://azeria-labs.com/heap-exploitation-part-1-understanding-the-glibc-heap-implementation/
-* ARM shellcode and exploit development
-	+ BSidesMunich 2018 Workshop; Andrea Sindoni
-	+ https://github.com/invictus1306/Workshop-BSidesMunich2018
-	+ <https://github.com/invictus1306/Workshop-BSidesMunich2018/blob/master/workshop_slides.pdf>
-* ARMv8 Shellcodes from 'A' to 'Z'
-	+ ISPEC 2016
-	+ Hadrien Barral, Houda Ferradi, Rémi Géraud, Georges-Axel Jaloyan, David Naccache
-	+ https://arxiv.org/abs/1608.03415
-* Exploring New Depths of Threat Hunting ...or How to Write ARM Shellcode in Six Minutes
-	+ Security Analysts Summit (SAS) 2018
-	+ https://www.youtube.com/watch?v=DGJZBDlhIGU
-	+ https://azeria-labs.com/downloads/SAS-v1.0-Azeria.pdf
-* Filter-resistant Code Injection on ARM
-	+ CCS 2009
-	+ Yves Younan, Pieter Philippaerts, Frank Piessens, Wouter Joosen, Sven Lachmund, Thomas Walter
-	+ <http://amnesia.gtisc.gatech.edu/~moyix/CCS_09/docs/p11.pdf>
-* Make ARM Shellcode Great Again
+- ARM immediate value encoding - 2014 - Alisdair McDiarmid
+	- https://alisdair.mcdiarmid.org/arm-immediate-value-encoding/
+- ARM Shellcode - Azeria Labs
+	- Code: https://github.com/azeria-labs/ARM-assembly-examples
+	- Introduction to Writing ARM Shellcode - https://azeria-labs.com/writing-arm-shellcode/
+	- TCP Bind Shell (ARM 32-bit) - https://azeria-labs.com/tcp-bind-shell-in-assembly-arm-32-bit/
+	- TCP Reverse Shell (ARM 32-bit) - https://azeria-labs.com/tcp-reverse-shell-in-assembly-arm-32-bit/
+	- Process Memory and Memory Corruptions - https://azeria-labs.com/process-memory-and-memory-corruption/
+	- Stack Overflow Challenges - https://azeria-labs.com/part-3-stack-overflow-challenges/
+	- Process Continuation Shellcode - https://azeria-labs.com/process-continuation-shellcode/
+	- Heap Exploitation Part 1: Understanding the Glibc Heap Implementation - https://azeria-labs.com/heap-exploitation-part-1-understanding-the-glibc-heap-implementation/
+- ARM shellcode and exploit development
+	- BSidesMunich 2018 Workshop; Andrea Sindoni
+	- https://github.com/invictus1306/Workshop-BSidesMunich2018
+	- <https://github.com/invictus1306/Workshop-BSidesMunich2018/blob/master/workshop_slides.pdf>
+- ARMv8 Shellcodes from 'A' to 'Z'
+	- ISPEC 2016
+	- Hadrien Barral, Houda Ferradi, Rémi Géraud, Georges-Axel Jaloyan, David Naccache
+	- https://arxiv.org/abs/1608.03415
+- Encoding of immediate values on AArch64 - 2017 - Dominik Inführ
+	- https://dinfuehr.github.io/blog/encoding-of-immediate-values-on-aarch64/
+- Exploring New Depths of Threat Hunting ...or How to Write ARM Shellcode in Six Minutes
+	- Security Analysts Summit (SAS) 2018
+	- https://www.youtube.com/watch?v=DGJZBDlhIGU
+	- https://azeria-labs.com/downloads/SAS-v1.0-Azeria.pdf
+- Filter-resistant Code Injection on ARM
+	- CCS 2009
+	- Yves Younan, Pieter Philippaerts, Frank Piessens, Wouter Joosen, Sven Lachmund, Thomas Walter
+	- <http://amnesia.gtisc.gatech.edu/~moyix/CCS_09/docs/p11.pdf>
+- Make ARM Shellcode Great Again
 	- Saumil Shah
 	- Hack.lu 2018 - https://www.youtube.com/watch?v=9tx293lbGuc
 	- 44CON 2018 - https://www.youtube.com/watch?v=pkhla6_2Kl0
-* Shellcode: Encryption Algorithms in ARM Assembly
-	+ https://modexp.wordpress.com/2018/02/04/arm-crypto/
-	+ https://github.com/odzhan/shellcode
+- Shellcode: Encryption Algorithms in ARM Assembly
+	- https://modexp.wordpress.com/2018/02/04/arm-crypto/
+	- https://github.com/odzhan/shellcode
 
 ### A-profile
 
