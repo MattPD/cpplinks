@@ -208,15 +208,17 @@ Compilers Call For Papers for Conferences, Workshops and Journals at WikiCFP - h
 
 - Clang documentation - http://clang.llvm.org/docs/
 - GCC online documentation - https://gcc.gnu.org/onlinedocs/
+	- GCC Wiki - https://gcc.gnu.org/wiki
 	- Cynbe's GCC Debugging Hints - http://muq.org/~cynbe/gcc/
 		- Debugging Resources - http://muq.org/~cynbe/gcc/offsite-resources.html
 		- Comments on the Internals Manual - http://muq.org/~cynbe/gcc/gccint.html
-	- GCC Wiki - https://gcc.gnu.org/wiki
 - LLVM documentation - http://llvm.org/docs/
 - Visual C++ documentation
 	- https://docs.microsoft.com/en-us/cpp/
 	- https://github.com/Microsoft/cpp-docs
-	- https://msdn.microsoft.com/en-us/library/60k1461a.aspx
+	- https://docs.microsoft.com/en-us/cpp/visual-cpp-in-visual-studio
+- Security-related flags and options for C compilers
+	- https://airbus-seclab.github.io/c-compiler-security/
 
 ## Sanitizers
 
