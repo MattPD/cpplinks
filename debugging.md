@@ -466,6 +466,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 * LibVMI: Simplified Virtual Machine Introspection
 	+ "LibVMI is a virtual machine introspection library. This means that it helps you access the memory of a running virtual machine. LibVMI provides primitives for accessing this memory using physical or virtual addresses and kernel symbols. LibVMI also supports accessing memory from a physical memory snapshot, which is helpful for debugging or forensic analysis."
 	+ https://github.com/libvmi/libvmi
+* ppstep: Interactive C/C++ preprocessor macro debugger
+	+ https://github.com/notfoundry/ppstep
 * PulseDbg: Hypervisor-based debugger
 	+ https://github.com/honorarybot/PulseDBG
 * PyREBox: a Python scriptable Reverse Engineering sandbox
