@@ -354,6 +354,11 @@ See also:
 	- https://github.com/google/FuzzBench
 	- https://security.googleblog.com/2020/03/fuzzbench-fuzzer-benchmarking-as-service.html
 	- https://opensource.googleblog.com/2020/03/fuzzbench-fuzzer-benchmarking-as-service.html
+	- FuzzBench: An Open Fuzzer Benchmarking Platform and Service
+		- ESEC/FSE 2021
+		- Jonathan Metzman, László Szekeres, Laurent Maurice Romain Simon, Read Trevelin Sprabery, Abhishek Arya
+		- https://doi.org/10.1145/3468264.3473932
+		- https://research.google/pubs/pub50600/
 - Magma: A Ground-Truth Fuzzing Benchmark
 	- A ground-truth binary fuzzing benchmark suite based on real programs with real bugs.
 	- https://github.com/HexHive/magma
