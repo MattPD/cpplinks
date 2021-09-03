@@ -453,9 +453,10 @@ Contents:
 * Dynamic Linking in ELF - http://dandylife.net/blog/archives/660
 * ELF - No Section Header? No Problem - https://em386.blogspot.com/2006/10/elf-no-section-header-no-problem.html
 * ELF Binary Mangling
-	+ Part 1: Concepts - https://medium.com/@dmxinajeansuit/elf-binary-mangling-part-1-concepts-e00cb1352301
-	+ Part 2: Golfin’ - https://medium.com/@dmxinajeansuit/elf-binary-mangling-pt-2-golfin-7e5c82bb482c
-	+ Part 3: Weaponization - https://medium.com/@dmxinajeansuit/elf-binary-mangling-part-3-weaponization-6e11971108b3
+	- Part 1: Concepts - https://n0.lol/ebm/1.html
+	- Part 2: Golfin' - https://n0.lol/ebm/2.html
+	- Part 3: Weaponization - https://n0.lol/ebm/3.html
+	- Part 4: Limit Break - https://n0.lol/ebm/4.html
 * ELF File Format - http://resources.infosecinstitute.com/elf-file-format/
 * ELF Hello World Tutorial
 	+ http://www.cirosantilli.com/elf-hello-world/
