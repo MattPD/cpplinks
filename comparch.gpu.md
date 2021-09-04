@@ -59,27 +59,32 @@ See also: [computer architecture](comparch.md)
 
 # CUDA
 
-## CUDA Books
+## CUDA: Books
 
 - Wilt (2013) "The CUDA Handbook: A Comprehensive Guide to GPU Programming"
 	- http://www.cudahandbook.com/
 	- Chapter 8 (Streaming Multiprocessors) sample chapter: [HTML](http://www.informit.com/articles/article.aspx?p=2103809) [PDF](http://ptgmedia.pearsoncmg.com/images/9780321809469/samplepages/0321809467.pdf)
 
-## CUDA Courses
+## CUDA: Courses
 
 - Intro to Parallel Programming
 	- https://classroom.udacity.com/courses/cs344
 	- https://www.youtube.com/playlist?list=PLAwxTw4SYaPnFKojVQrmyOGFCqHTxfdv2
 
-## CUDA Documentation
+## CUDA: Documentation
 
 - CUDA C Programming Guide - http://docs.nvidia.com/cuda/cuda-c-programming-guide/
 - CUDA C Best Practices Guide - http://docs.nvidia.com/cuda/cuda-c-best-practices-guide/
 - CUDA Toolkit Documentation - http://docs.nvidia.com/cuda/
 
-## CUDA Talks
+## CUDA: Software
 
-### CUDA Talks: 2021
+- NVBench: CUDA Kernel Benchmarking Library
+	- https://github.com/NVIDIA/nvbench
+
+## CUDA: Talks
+
+### CUDA: Talks: 2021
 
 - CUDA Memory Model
 	- CUDA Community Meetup Group 2021-01-04
