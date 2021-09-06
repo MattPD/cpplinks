@@ -326,6 +326,8 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- https://github.com/iovisor/bcc
 	- https://www.iovisor.org/technology/bcc
 	- https://github.com/iovisor/bcc/blob/master/LINKS.md
+- ebpfpub: a generic function tracing library for Linux that supports tracepoints, kprobes, and uprobes
+	- https://github.com/trailofbits/ebpfpub
 - uBPF: Userspace eBPF VM
 	- https://github.com/iovisor/ubpf
 - ply: Dynamic Tracing in Linux
