@@ -108,6 +108,8 @@
 	- http://blog.aaronballman.com/2012/02/describing-the-msvc-abi-for-structure-return-types/
 - How C array sizes become part of the binary interface of a library
 	- https://developers.redhat.com/blog/2019/05/06/how-c-array-sizes-become-part-of-the-binary-interface-of-a-library/
+- How the GNU C Library handles backward compatibility
+	- https://developers.redhat.com/blog/2019/08/01/how-the-gnu-c-library-handles-backward-compatibility
 - Itanium C++ ABI
 	- https://itanium-cxx-abi.github.io/cxx-abi/
 	- https://github.com/itanium-cxx-abi/cxx-abi
