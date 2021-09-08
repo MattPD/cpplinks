@@ -365,6 +365,8 @@
 - Optick: C++ Profiler For Games
 	- https://github.com/bombomby/optick
 	- https://optick.dev/
+- Palanteer: visual Python and C++ profiler
+	- https://github.com/dfeneyrou/palanteer
 - perf
 	- https://perf.wiki.kernel.org/
 	- http://www.brendangregg.com/perf.html
