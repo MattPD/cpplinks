@@ -77,6 +77,10 @@ See also:
 	- https://dbp.io/pubs/2019/ccc/
 	- https://www.ccs.neu.edu/home/amal/papers/next700ccc.pdf
 	- https://www.youtube.com/watch?v=qrwzpo6ISCQ
+- Well-Typed Programs Can Go Wrong: A Study of Typing-Related Bugs in JVM Compilers
+	- OOPSLA 2021
+	- Stefanos Chaliasos, Thodoris Sotiropoulos, Georrgios-Petros Drosos, Charalambos Mitropoulos, Dimitris Mitropoulos, Diomidis Spinellis
+	- https://dimitro.gr/assets/papers/CSDMMS21.pdf
 - What even is compiler correctness? - https://www.williamjbowman.com/blog/2017/03/24/what-even-is-compiler-correctness/
 - Write Your Compiler by Proving It Correct - http://liamoc.net/posts/2015-08-23-verified-compiler.html
 
