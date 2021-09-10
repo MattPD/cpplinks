@@ -76,6 +76,12 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.usenix.org/conference/usenixsecurity21/presentation/weber
 	- https://publications.cispa.saarland/3431/1/main.pdf
 	- https://github.com/cispa/osiris
+- SoK: In Search of Lost Time: A Review of JavaScript Timers in Browsers
+	- IEEE European Symposium on Security and Privacy (EuroS&P) 2021
+	- Thomas Rokicki, Clémentine Maurice, Pierre Laperdrix
+	- https://hal.inria.fr/hal-03215569/
+	- https://cmaurice.fr/pdf/eurosp21_rokicki.pdf
+	- https://github.com/thomasrokicki/in-search-of-lost-time
 
 ## General: 2020
 
