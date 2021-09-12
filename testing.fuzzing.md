@@ -384,6 +384,8 @@ See also:
 - TinyAFL
 	- Works similarly to WinAFL but instead uses TinyInst for coverage
 	- https://github.com/linhlhq/TinyAFL
+- what the fuzz (wtf): a distributed, code-coverage guided, customizable, cross-platform snapshot-based fuzzer designed for attacking user / kernel-mode targets running on Microsoft Windows
+	- https://github.com/0vercl0k/wtf
 - WinAFL: A fork of AFL for fuzzing Windows binaries
 	- https://github.com/googleprojectzero/winafl
 
