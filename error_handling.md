@@ -361,30 +361,33 @@
 
 ### WG21 - C++ Standards Committee Papers
 
-* P0157: Handling Disappointment in C++
-	+ 2015-11-07; Lawrence Crowl
-	+ https://wg21.link/P0157
-* P0364: Report on Exception Handling Lite (Disappointment) from SG14
-	+ 2016-05-23; Michael Wong, Sunil Srivastava, Sean Middleditch, Patrice Roy
-	+ http://wg21.link/P0364
-* P0709: Zero-overhead deterministic exceptions: Throwing values
-	+ 2018-05-02; Herb Sutter
-	+ https://wg21.link/P0709
-* P1028: SG14 `status_code` and standard `error` object for P0709 Zero-overhead deterministic exceptions
-	+ 2018-05-06; Niall Douglas
-	+ https://wg21.link/P1028
-* P1640: Error size benchmarking
-	+ 2019-06-03; Ben Craig
-	+ https://wg21.link/P1640
-* P1676: Exception Optimizations. An experiment.
-	+ 2019-06-04; Gor Nishanov
-	+ https://wg21.link/P1676
-* P1886: Error speed benchmarking
-	+ 2019-10-05; Ben Craig
-	+ https://wg21.link/P1886
-* P1947: C++ exceptions and alternatives
-	+ 2019-11-18; Bjarne Stroustrup
-	+ https://wg21.link/P1947
+- P0157: Handling Disappointment in C++
+	- 2015-11-07; Lawrence Crowl
+	- https://wg21.link/P0157
+- P0323: `std::expected`
+	- 2016-2021; Vicente Botet, JF Bastien
+	- https://wg21.link/P0323
+- P0364: Report on Exception Handling Lite (Disappointment) from SG14
+	- 2016-05-23; Michael Wong, Sunil Srivastava, Sean Middleditch, Patrice Roy
+	- http://wg21.link/P0364
+- P0709: Zero-overhead deterministic exceptions: Throwing values
+	- 2018-05-02; Herb Sutter
+	- https://wg21.link/P0709
+- P1028: SG14 `status_code` and standard `error` object for P0709 Zero-overhead deterministic exceptions
+	- 2018-05-06; Niall Douglas
+	- https://wg21.link/P1028
+- P1640: Error size benchmarking
+	- 2019-06-03; Ben Craig
+	- https://wg21.link/P1640
+- P1676: Exception Optimizations. An experiment.
+	- 2019-06-04; Gor Nishanov
+	- https://wg21.link/P1676
+- P1886: Error speed benchmarking
+	- 2019-10-05; Ben Craig
+	- https://wg21.link/P1886
+- P1947: C++ exceptions and alternatives
+	- 2019-11-18; Bjarne Stroustrup
+	- https://wg21.link/P1947
 
 ## References
 
