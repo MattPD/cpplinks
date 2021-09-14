@@ -212,6 +212,10 @@ https://riscv.org/risc-v-books/
 	- https://github.com/micro-FPGA/engine-V
 - f32c - A 32-bit RISC-V / MIPS retargetable CPU core (VHDL)
 	- https://github.com/f32c/f32c
+- FemtoRV: a minimalistic RISC-V CPU (Verilog)
+	- Learning FPGA, yosys, nextpnr, and RISC-V 
+	- FemtoRV is a minimalistic RISC-V design, with easy-to-read Verilog sources (less than 1000 lines), directly written from the RISC-V specification. It includes a companion SOC, with drivers for an UART, a led matrix, a small OLED display, SPI RAM and SDCard. Its most basic configuration fits on the Lattice IceStick (< 1280 LUTs). It can be used for teaching processor design and RISC-V programming. 
+	- https://github.com/BrunoLevy/learn-fpga
 - FWRISC: a Featherweight RISC-V implementation of the RV32I instruction set
 	- https://github.com/mballance/fwrisc
 	- FWRISC: Sizing up the RISC-V Architecture
