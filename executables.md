@@ -719,6 +719,10 @@ Contents:
 	- libelfmaster_examples - https://github.com/elfmaster/libelfmaster_examples
 	- readelfmaster: A reimplementation of GNU readelf
 		- https://github.com/Bowlslaw/readelfmaster
+- machine-code: Assemblers, disassemblers, & ELF stuff
+	- tools that relate to machine code and object formats; for all architectures
+	- libraries for working with binary code: assembly, disassembly, instruction tables, object formats, and related areas
+	- https://gitlab.com/weinholt/machine-code
 - Mandibule: Linux ELF injector for x86 / x86_64 / arm / arm64
 	- Doesn't use `dlopen` and can inject into statically linked targets by mapping manually the ELF in memory from syscalls only
 	- https://github.com/ixty/mandibule
