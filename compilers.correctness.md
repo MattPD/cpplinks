@@ -490,6 +490,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://2018.splashcon.org/details/splash-2018-OOPSLA/42/An-Empirical-Study-of-the-Effect-of-Source-level-Loop-Transformations-on-Compiler-Sta
 	- https://iacoma.cs.uiuc.edu/iacoma-papers/oopsla18.pdf
 	- https://dl.acm.org/doi/10.1145/3276496
+- Correctness Testing of Loop Optimizations in C and C++ Compilers
+	- Seminar on Advanced Techniques & Tools for Software Evolution (SATToSE) 2018
+		- Remi van Veen, Marcel Beemster, Clemens Grelck
+		- https://staff.fnwi.uva.nl/c.u.grelck/publications/2018_SATToSE18_compiler_testing.pdf
+	- 2018 Master's Thesis; Remi van Veen
+		- https://solidsands.com/wp-content/uploads/thesis_remi_van_veen.pdf
+	- https://github.com/msaroufim/C-compiler-optimizations
 - LORE: A loop repository for the evaluation of compilers
 	- International Symposium on Workload Characterization (IISWC) 2017
 	- Zhi Chen, Zhangxiaowen Gong, Justin Josef Szaday, David C. Wong, David A. Padua, Alexandru Nicolau, Alexander V. Veidenbaum, Neftali Watkinson, Zehra Sura, Saeed Maleki, Josep Torrellas, Gerald DeJong
