@@ -1347,3 +1347,4 @@ See also: [Performance Tools](performance.tools.md)
 	- part 9: Sign and zero extension: https://devblogs.microsoft.com/oldnewthing/20210610-00/?p=105295
 	- part 10: Memory access and alignment: https://devblogs.microsoft.com/oldnewthing/20210611-00/?p=105299
 	- part 11: Atomic access and barriers: https://devblogs.microsoft.com/oldnewthing/20210614-00/?p=105307
+	- part 12: Control transfer: https://devblogs.microsoft.com/oldnewthing/20210615-00/?p=105311
