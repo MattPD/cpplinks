@@ -645,6 +645,11 @@ See also: [Computer Architecture](comparch.md)
 
 ### Defense - Speculation: 2021
 
+- BasicBlocker: ISA Redesign to Make Spectre-Immune CPUs Faster
+	- RAID 2021
+	- Jan Philipp Thoma, Jakob Feldtkeller, Markus Krausz, Tim Güneysu, Daniel J. Bernstein
+	- https://arxiv.org/abs/2007.15919
+	- https://cr.yp.to/papers/basicblocker-20210504.pdf
 - DOLMA: Securing Speculation with the Principle of Transient Non-Observability
 	- USENIX Security 2021
 	- Kevin Loughlin, Ian Neal, Jiacheng Ma, Elisa Tsai, Ofir Weisse, Satish Narayanasamy, Baris Kasikci
