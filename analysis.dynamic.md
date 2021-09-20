@@ -617,5 +617,12 @@ See also:
 		- Software: Practice and Experience, 2020
 		- Andrei Rimsa, José Nelson Amaral, Fernando Magno Quintão Pereira
 		- https://homepages.dcc.ufmg.br/~fernando/publications/papers/RimsaSPE20.pdf
+- InstrGrind: A dynamic instruction counter plugin for Valgrind
+	- https://github.com/rimsa/instrgrind
+	- Instruction Visibility in SPEC CPU2017
+		- Journal of Computer Languages, Volume 66, 2021
+		- Andrei Rimsa Álvares, José Nelson Amaral, Fernando Magno Quintão Pereira
+		- https://doi.org/10.1016/j.cola.2021.101062
+		- https://homepages.dcc.ufmg.br/~fernando/publications/papers/AlvaresJCL21.pdf
 - Taintgrind: A taint-tracking plugin for the Valgrind memory checking tool
 	- https://github.com/wmkhoo/taintgrind
