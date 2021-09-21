@@ -113,6 +113,11 @@ Compilers Call For Papers for Conferences, Workshops and Journals at WikiCFP - h
 		- lectures: https://www.cs.cornell.edu/courses/cs6120/2020fa/lesson/
 			- https://vod.video.cornell.edu/channel/CS%2B6120/179754792
 			- https://cornell.app.box.com/s/wb3387ebfbte9btx3weekmc8nij5glep
+- IIT Delhi COL874: Advanced Compiler Techniques
+	- 2020-2021; Sorav Bansal
+	- https://iitd.github.io/col874/
+	- Lectures: https://www.youtube.com/playlist?list=PLf3ZkSCyj1tf3rPAkOKY5hUzDrDoekAc7
+	- Meetings: https://www.youtube.com/playlist?list=PLf3ZkSCyj1tfCb_3bPAaWKtrcFHS0xRdn 
 - IU P423/P523: Compilers (Programming Language Implementation)
 	- Fall 2020; Jeremy Siek 
 	- https://iucompilercourse.github.io/IU-P423-P523-E313-E513-Fall-2020/
