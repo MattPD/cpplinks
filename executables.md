@@ -719,6 +719,12 @@ Contents:
 	- libelfmaster_examples - https://github.com/elfmaster/libelfmaster_examples
 	- readelfmaster: A reimplementation of GNU readelf
 		- https://github.com/Bowlslaw/readelfmaster
+- LibGolf: A Library for Binary Golf
+	- This library helps with Binary Golf. The idea is to get out of your way as soon as possible, and you let you get straight to customizing fields within the ELF and Program header.
+	- https://github.com/xcellerator/libgolf
+	- Dead Bytes
+		- tmp.0ut Volume 1 - April 2021; xcellerator
+		- https://tmpout.sh/1/1.html
 - machine-code: Assemblers, disassemblers, & ELF stuff
 	- tools that relate to machine code and object formats; for all architectures
 	- libraries for working with binary code: assembly, disassembly, instruction tables, object formats, and related areas
