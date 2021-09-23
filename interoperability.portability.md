@@ -79,6 +79,9 @@
 	- https://www.cl.cam.ac.uk/~srk31/research/talks/kell14abis-slides.pdf
 - Big List of ABI Resources
 	- https://github.com/lenary/abis
+- Binary Banshees and Digital Demons
+	- 2021; JeanHeyd “ThePhD” Meneide
+	- https://thephd.dev/binary-banshees-digital-demons-abi-c-c++-help-me-god-please
 - Binary Compatibility Examples
 	- https://community.kde.org/Policies/Binary_Compatibility_Examples
 - Binary Compatibility Issues With C++
