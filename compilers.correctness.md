@@ -682,6 +682,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 - TSVC: Test Suite for Vectorizing Compilers
 	- https://github.com/UoB-HPC/TSVC_2
 	- https://github.com/llvm/llvm-test-suite/tree/main/MultiSource/Benchmarks/TSVC
+- VectorBench: Benchmarks for vectorization
+	- VectorBench is a suite of C and C++ benchmark functions that you can use to evaluate the efficacy of your compiler transformations, particularly those that auto-vectorize scalar code or revectorize SIMD code. VectorBench includes a unique suite of more than 200 hand-vectorized functions, most of which have scalar equivalents.
+	- https://github.com/revec/VectorBench
+	- https://www.nextgenvec.org/
+	- Revec: Program Rejuvenation through Revectorization
+		- Compiler Construction 2019
+		- Charith Mendis, Ajay Jain, Paras Jain, Saman Amarasinghe
+		- https://arxiv.org/abs/1902.02816
 
 ### Testing: Software: Reduction
 
