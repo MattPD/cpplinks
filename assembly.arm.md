@@ -1348,3 +1348,4 @@ See also: [Performance Tools](performance.tools.md)
 	- part 10: Memory access and alignment: https://devblogs.microsoft.com/oldnewthing/20210611-00/?p=105299
 	- part 11: Atomic access and barriers: https://devblogs.microsoft.com/oldnewthing/20210614-00/?p=105307
 	- part 12: Control transfer: https://devblogs.microsoft.com/oldnewthing/20210615-00/?p=105311
+	- part 13: Trampolines: https://devblogs.microsoft.com/oldnewthing/20210616-00/?p=105314
