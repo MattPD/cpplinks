@@ -2223,6 +2223,14 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 
 # Talks
 
+## 2021
+
+- A Practical Introduction to Transient Execution Attacks
+	- European Symposium on Research in Computer Security (ESORICS) 2021
+	- Michael Schwarz
+	- https://www.youtube.com/watch?v=xteiXOpEjXs
+	- https://esorics2021.athene-center.de/tutorial-07-28.php
+
 ## 2020
 
 - Cryptographic Software in a Post-Spectre World
