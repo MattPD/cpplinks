@@ -275,6 +275,9 @@ _Books, Books Reviews_
 	- https://helloqirun.github.io/papers/pldi20_yuanbo1.pdf
 	- https://www.cc.gatech.edu/~qrzhang/projects/debug/debug.html
 	- https://pldi20.sigplan.org/details/pldi-2020-papers/60/Debug-Information-Validation-for-Optimized-Code
+	- Debugging Information Testing
+		- A Python reimplementation for the debug-information testing framework for the paper
+		- https://github.com/yuanboli233/debug-info-testing
 - Debugging Optimized Code Without Being Misled
 	- ACM Transactions on Programming Languages and Systems (TOPLAS) 16(3) 1994
 	- Max Copperman
