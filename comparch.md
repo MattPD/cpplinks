@@ -146,6 +146,13 @@ See also: [Assembly (Arm)](assembly.arm.md), [Assembly (RISC-V)](assembly.riscv.
 	- https://people.engr.ncsu.edu/efg/wcaes.html
 	- https://projects.ncsu.edu/wcae/
 
+## Courses: Memory
+
+- Memory Device Technologies and Applications
+	- Georgia Tech
+	- Fall 2021; Shimeng Yu
+	- https://www.youtube.com/playlist?list=PLnQi8W6dRSW5yM5nmfEwA4aqUr5EHZqw4
+
 ---
 
 # Emulation & Simulation
