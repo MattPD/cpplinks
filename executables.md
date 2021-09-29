@@ -875,13 +875,15 @@ Contents:
 
 # Mach-O
 
-* Mach-O Runtime Architecture - http://math-atlas.sourceforge.net/devel/assembly/MachORuntime.pdf
-* Mach-O Programming Topics - https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/MachOTopics/0-Introduction/introduction.html
-* OS X ABI Mach-O File Format Reference
-	+ https://github.com/aidansteele/osx-abi-macho-file-format-reference
-	+ PDF: https://pewpewthespells.com/re/Mach-O_File_Format.pdf
-* osx-re-101 - https://github.com/michalmalik/osx-re-101
-* Reverse Engineering/Mac OS X - https://en.wikibooks.org/wiki/Reverse_Engineering/Mac_OS_X
+- Mach-O Runtime Architecture - http://math-atlas.sourceforge.net/devel/assembly/MachORuntime.pdf
+- Mach-O Programming Topics - https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/MachOTopics/0-Introduction/introduction.html
+- OS X ABI Mach-O File Format Reference
+	- https://github.com/aidansteele/osx-abi-macho-file-format-reference
+	- PDF: https://pewpewthespells.com/re/Mach-O_File_Format.pdf
+- osx-re-101 - https://github.com/michalmalik/osx-re-101
+- Reverse Engineering/Mac OS X - https://en.wikibooks.org/wiki/Reverse_Engineering/Mac_OS_X
+- The Apple Compact Unwinding Format: Documented and Explained
+	- https://gankra.github.io/blah/compact-unwinding/
 
 ## Mach-O: Readings
 
