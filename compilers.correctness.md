@@ -222,44 +222,15 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- http://emponcc.github.io/
 	- https://github.com/emponcc/emponcc.github.io/blob/master/CompilerTestingComparison.md
 	- https://dl.acm.org/citation.cfm?id=2884878
-- Automated Testing of Graphics Shader Compilers
-	- SPLASH 2017 OOPSLA
-	- Alastair F. Donaldson, Hugues Evrard, Andrei Lascu, Paul Thomson
-	- https://dl.acm.org/citation.cfm?id=3152284.3133917
-	- https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2017/OOPSLA.pdf
-	- Overview of the GLFuzz transformations - https://medium.com/@afd_icl/overview-of-the-glfuzz-transformations-d530540a5a18
 - Automatic Testing of Symbolic Execution Engines via Program Generation and Differential Testing
 	- ASE 2017
 	- Timotej Kapus, Cristian Cadar
 	- https://srg.doc.ic.ac.uk/files/papers/symex-engine-tester-ase-17.pdf
-- Causal Distance-Metric-Based Assistance for Debugging After Compiler Fuzzing
-	- IEEE International Symposium on Software Reliability Engineering (ISSRE) 2018
-	- Josie Holmes and Alex Groce
-	- https://agroce.github.io/issre18.pdf
 - Checking Correctness of Code Generator Architecture Specifications
 	- Code Generation and Optimization (CGO) 2015
 	- N. Hasabnis, R. Qiao, R. Sekar
 	- http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15.pdf
 	- http://www3.cs.stonybrook.edu/~nhasabni/papers/cgo15_talk.pdf
-- Compiler fuzzing, part 1
-	- http://www.vegardno.net/2018/06/compiler-fuzzing.html
-- Compiler Fuzzing through Deep Learning
-	- International Symposium on Software Testing and Analysis (ISSTA) 2018
-	- Chris Cummins, Pavlos Petoumenos, Hugh Leather and Alastair Murray
-	- http://homepages.inf.ed.ac.uk/hleather/publications/2018_deepfuzzing_issta.pdf
-	- https://chriscummins.cc/deepsmith
-- Compiler Fuzzing: How Much Does It Matter?
-	- OOPSLA 2019
-	- Michael Marcozzi, Qiyi Tang, Alastair Donaldson, Cristian Cadar
-	- https://srg.doc.ic.ac.uk/projects/compiler-bugs/
-	- https://sites.google.com/view/michaelmarcozzi/software/compiler-bugs-impact
-	- A Systematic Impact Study for Fuzzer-Found Compiler Bugs
-		- 2019 arXiv (pre-print)
-		- https://arxiv.org/abs/1902.09334
-		- https://sites.google.com/view/michaelmarcozzi/compiler-bugs
-	- PapersWeLove London 2020
-		- Michael Marcozzi
-		- https://www.youtube.com/watch?v=CUBmXYahTb0
 - Coverage Prediction for Accelerating Compiler Testing
 	- IEEE Transactions on Software Engineering (2019)
 	- Junjie Chen, Guancheng Wang, Dan Hao, Yingfei Xiong, Hongyu Zhang, Lu Zhang, Bing Xie
@@ -273,11 +244,6 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- ICSE 2019
 	- Yuting Chen, Ting Su, Zhendong Su
 	- https://tingsu.github.io/files/icse19-classming.pdf
-- DeepFuzz: Automatic Generation of Syntax Valid C Programs for Fuzz Testing
-	- AAAI Conference on Artificial Intelligence (AAAI) 2019
-	- Xiao Liu, Xiaoting Li, Rupesh Prajapati, Dinghao Wu
-	- https://faculty.ist.psu.edu/wu/papers/DeepFuzz.pdf
-	- https://github.com/s3team/DeepFuzz
 - Differential Testing for Software
 	- Digital Technical Journal 10, 1 (1998)
 	- William M. McKeeman
@@ -307,21 +273,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://www.flux.utah.edu/download?uid=114
 	- https://blog.regehr.org/archives/492
 	- http://lambda-the-ultimate.org/node/4241
-- Fuzzing with Grammars
-	- In "The Fuzzing Book" - https://www.fuzzingbook.org/
-	- Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, Christian Holler
-	- https://www.fuzzingbook.org/html/Grammars.html
-- Fuzzing the .NET JIT Compiler
-	- http://mattwarren.org/2018/08/28/Fuzzing-the-.NET-JIT-Compiler/
-	- Fuzzlyn: Fuzzer for the .NET toolchains
-		- https://github.com/jakobbotsch/Fuzzlyn
 - History-Guided Configuration Diversification for Compiler Test-Program Generation
 	- Automated Software Engineering (ASE) 2019
 	- Junjie Chen, Guancheng Wang, Dan Hao, Yingfei Xiong, Hongyu Zhang, Lu Zhang
 	- https://xiongyingfei.github.io/publications.html#ASE19b
-- Improving the Utility of Compiler Fuzzers
-	- 2014 Ph.D. Dissertation; Yang Chen
-	- https://collections.lib.utah.edu/details?id=196364
 - K-CONFIG: Using Failing Test Cases to Generate Test Cases in GCC Compilers
 	- Automated Software Engineering (ASE 2019) Late Breaking Research-Track
 	- Md Rafiqul Islam Rabin, Mohammad Amin Alipour
@@ -352,11 +307,6 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- Georg Ofenbeck, Tiark Rompf, Markus Püschel
 	- https://www.cs.purdue.edu/homes/rompf/papers/ofenbeck-scala16.pdf
 - System Under Test: LLVM - https://systemundertest.org/llvm/
-- Taming compiler fuzzers
-	- PLDI 2013
-	- Y. Chen, A. Groce, C. Zhang, W.-K. Wong, X. Fern, E. Eide, J. Regehr
-	- https://www.cs.utah.edu/~regehr/papers/pldi13.pdf
-	- Fuzzers Need Taming - https://blog.regehr.org/archives/925
 - Testing LLVM - http://blog.regehr.org/archives/1450
 - The problem with differential testing is that at least one of the compilers must get it right
 	- http://blog.frama-c.com/index.php?post/2013/09/25/The-problem-with-differential-testing-is-that-at-least-one-of-the-compilers-must-get-it-right
@@ -377,18 +327,6 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://srg.doc.ic.ac.uk/files/papers/csmithedge-ase-nier-20.pdf
 	- https://www.youtube.com/watch?v=JGpAO_Gu4zU
 	- https://conf.researchr.org/details/ase-2020/ase-2020-nier-track/8/Closer-to-the-Edge-Testing-Compilers-More-Thoroughly-by-Being-Less-Conservative-Abou
-- CUDAsmith: A Fuzzer for CUDA Compilers
-	- Computers, Software and Applications Conference (COMPSAC) 2020
-	- Bo Jiang, Xiaoyan Wang, W. K. Chan, T. H. Tse, Na Li, Yongfeng Yin, Zhenyu Zhang
-	- https://www.cs.hku.hk/data/techreps/document/TR-2020-05.pdf
-	- https://github.com/gongbell/CUDAsmith
-- Putting Randomized Compiler Testing into Production
-	- ECOOP 2020
-	- Alastair Donaldson, Hugues Evrard, Paul Thomson
-	- https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2020/ECOOP_GraphicsFuzz.pdf
-	- https://2020.ecoop.org/details/ecoop-2020-papers/22/Putting-Randomized-Compiler-Testing-into-Production
-	- http://multicore.doc.ic.ac.uk/tools/GraphicsFuzz/ECOOP2020Artifact/
-	- https://www.youtube.com/watch?v=qhqTyGccwS0
 - Random Testing for C and C++ Compilers with YARPGen
 	- OOPSLA 2020
 	- Vsevolod Livinskii, Dmitry Babokin, John Regehr
@@ -404,6 +342,93 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 		- https://blog.regehr.org/archives/1709
 		- LLVM Dataflow Info Printer Pass
 			- https://github.com/regehr/llvm-dataflow-info
+
+### Testing: Readings: Fuzzing
+
+See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): [Fuzzing](https://github.com/MattPD/cpplinks/blob/master/testing.fuzzing.md)
+
+- Fuzzing with Grammars
+	- In "The Fuzzing Book" - https://www.fuzzingbook.org/
+	- Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, Christian Holler
+	- https://www.fuzzingbook.org/html/Grammars.html
+
+#### Testing: Readings: Fuzzing: 2020
+
+- CUDAsmith: A Fuzzer for CUDA Compilers
+	- Computers, Software and Applications Conference (COMPSAC) 2020
+	- Bo Jiang, Xiaoyan Wang, W. K. Chan, T. H. Tse, Na Li, Yongfeng Yin, Zhenyu Zhang
+	- https://www.cs.hku.hk/data/techreps/document/TR-2020-05.pdf
+	- https://github.com/gongbell/CUDAsmith
+- Putting Randomized Compiler Testing into Production
+	- ECOOP 2020
+	- Alastair Donaldson, Hugues Evrard, Paul Thomson
+	- https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2020/ECOOP_GraphicsFuzz.pdf
+	- https://2020.ecoop.org/details/ecoop-2020-papers/22/Putting-Randomized-Compiler-Testing-into-Production
+	- http://multicore.doc.ic.ac.uk/tools/GraphicsFuzz/ECOOP2020Artifact/
+	- https://www.youtube.com/watch?v=qhqTyGccwS0
+
+#### Testing: Readings: Fuzzing: 2019
+
+- Compiler Fuzzing: How Much Does It Matter?
+	- OOPSLA 2019
+	- Michael Marcozzi, Qiyi Tang, Alastair Donaldson, Cristian Cadar
+	- https://srg.doc.ic.ac.uk/projects/compiler-bugs/
+	- https://sites.google.com/view/michaelmarcozzi/software/compiler-bugs-impact
+	- A Systematic Impact Study for Fuzzer-Found Compiler Bugs
+		- 2019 arXiv (pre-print)
+		- https://arxiv.org/abs/1902.09334
+		- https://sites.google.com/view/michaelmarcozzi/compiler-bugs
+	- PapersWeLove London 2020
+		- Michael Marcozzi
+		- https://www.youtube.com/watch?v=CUBmXYahTb0
+- DeepFuzz: Automatic Generation of Syntax Valid C Programs for Fuzz Testing
+	- AAAI Conference on Artificial Intelligence (AAAI) 2019
+	- Xiao Liu, Xiaoting Li, Rupesh Prajapati, Dinghao Wu
+	- https://faculty.ist.psu.edu/wu/papers/DeepFuzz.pdf
+	- https://github.com/s3team/DeepFuzz
+
+#### Testing: Readings: Fuzzing: 2018
+
+- Causal Distance-Metric-Based Assistance for Debugging After Compiler Fuzzing
+	- IEEE International Symposium on Software Reliability Engineering (ISSRE) 2018
+	- Josie Holmes and Alex Groce
+	- https://agroce.github.io/issre18.pdf
+- Compiler fuzzing, part 1
+	- 2018; Vegard Nossum
+	- http://www.vegardno.net/2018/06/compiler-fuzzing.html
+- Compiler Fuzzing through Deep Learning
+	- International Symposium on Software Testing and Analysis (ISSTA) 2018
+	- Chris Cummins, Pavlos Petoumenos, Hugh Leather and Alastair Murray
+	- http://homepages.inf.ed.ac.uk/hleather/publications/2018_deepfuzzing_issta.pdf
+	- https://chriscummins.cc/deepsmith
+- Fuzzing the .NET JIT Compiler
+	- 2018; Matt Warren
+	- http://mattwarren.org/2018/08/28/Fuzzing-the-.NET-JIT-Compiler/
+	- Fuzzlyn: Fuzzer for the .NET toolchains
+		- https://github.com/jakobbotsch/Fuzzlyn
+
+#### Testing: Readings: Fuzzing: 2017
+
+- Automated Testing of Graphics Shader Compilers
+	- SPLASH 2017 OOPSLA
+	- Alastair F. Donaldson, Hugues Evrard, Andrei Lascu, Paul Thomson
+	- https://dl.acm.org/citation.cfm?id=3152284.3133917
+	- https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2017/OOPSLA.pdf
+	- Overview of the GLFuzz transformations - https://medium.com/@afd_icl/overview-of-the-glfuzz-transformations-d530540a5a18
+
+#### Testing: Readings: Fuzzing: 2014
+
+- Improving the Utility of Compiler Fuzzers
+	- 2014 Ph.D. Dissertation; Yang Chen
+	- https://collections.lib.utah.edu/details?id=196364
+
+#### Testing: Readings: Fuzzing: 2013
+
+- Taming compiler fuzzers
+	- PLDI 2013
+	- Y. Chen, A. Groce, C. Zhang, W.-K. Wong, X. Fern, E. Eide, J. Regehr
+	- https://www.cs.utah.edu/~regehr/papers/pldi13.pdf
+	- Fuzzers Need Taming - https://blog.regehr.org/archives/925
 
 ### Testing: Readings: Generation
 
