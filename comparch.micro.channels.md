@@ -53,6 +53,16 @@ See also: [Computer Architecture](comparch.md)
 	- Biswabandan Panda
 	- https://www.cse.iitk.ac.in/users/biswap/SMS.html
 
+## General: 2022
+
+- Rapid Prototyping for Microarchitectural Attacks
+	- USENIX Security 2022
+	- Catherine Easdon, Michael Schwarz, Martin Schwarzl, Daniel Gruss
+	- https://www.cattius.com/images/rapid-prototyping.pdf
+	- https://github.com/libtea/frameworks
+	- libtea (Transient Execution Attack library): a framework for rapid prototyping of microarchitectural attacks on Linux, compatible with x86 (32-bit and 64-bit, Intel and AMD CPUs) and AArch64.
+	- SCFirefox: a framework for rapid prototyping of browser-based microarchitectural attacks on Linux; adds libtea attack primitives to Firefox's JavaScript engine, SpiderMonkey.
+
 ## General: 2021
 
 - Computing with Time: Microarchitectural Weird Machines
