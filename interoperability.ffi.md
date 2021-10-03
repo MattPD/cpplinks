@@ -174,6 +174,11 @@
 - Project Panama: Interconnecting JVM and native code
 	- https://openjdk.java.net/projects/panama/
 	- https://github.com/openjdk/panama-foreign
+	- jextract: a tool which generates a Java API from one or more native C headers
+		- Using Panama "foreign-jextract" JDK
+			- https://github.com/openjdk/panama-foreign/blob/foreign-jextract/doc/panama_jextract.md
+		- Panama jextract samples
+			- https://github.com/sundararajana/panama-jextract-samples
 	- Panama: A Foreign Policy for Java
 		- Devoxx 2018; Maurizio Cimadamore
 		- https://www.youtube.com/watch?v=cfxBrYud9KM
@@ -273,8 +278,6 @@
 	- ESEC/FSE 2021
 	- Jialiang Tan, Yu Chen, Zhenming Liu, Bin Ren, Shuaiwen Leon Song, Xipeng Shen, Xu Liu
 	- https://arxiv.org/abs/2107.00064
-	- PieProf: identify Python interaction inefficiencies for production Python software packages in commodity CPU processors without modifying the software stack
-		- https://github.com/fse21/submission69/tree/76e2fff33aeb3e7f3515da5d53474a716c9d944f/PieProf
 
 ## Python: Software
 
