@@ -397,6 +397,9 @@
 - Processor Counter Monitor (PCM)
 	- https://github.com/opcm/pcm
 	- Intel Performance Counter Monitor (PCM) - http://www.intel.com/software/pcm
+- Profilerpedia: A map of the Software Profiling Ecosystem
+	- https://www.markhansen.co.nz/profilerpedia/
+	- https://docs.google.com/spreadsheets/d/1cVcHofphkQqk1yGeuBPVTit8HQ0oa5SlRM6gkHIagtw
 - Remotery: Single C file, Realtime CPU/GPU Profiler with Remote Web Viewer
 	- https://github.com/Celtoys/Remotery
 - sysdig
