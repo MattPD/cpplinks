@@ -315,6 +315,10 @@ https://riscv.org/risc-v-books/
 		- https://carrv.github.io/2017/papers/matthews-taiga-carrv2017.pdf
 - VexRiscv: FPGA-friendly 32-bit RISC-V CPU implementation (SpinalHDL)
 	- https://github.com/SpinalHDL/VexRiscv
+- Vortex RISC-V GPGPU (SystemVerilog)
+	- A full-system RISC-V-based GPGPU processor
+	- RV32IMF
+	- https://github.com/vortexgpgpu/vortex
 - YARVI - Yet Another RISC-V Implementation (Verilog)
 	- https://github.com/tommythorn/yarvi
 	- https://www.cl.cam.ac.uk/teaching/1516/ECAD+Arch/exercise-yarvi.html
