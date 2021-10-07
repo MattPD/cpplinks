@@ -860,46 +860,51 @@ See also: [Readings: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ## Software: Emulation, Simulation
 
-* Arm Instruction Emulator (ArmIE)
+- Arm Instruction Emulator (ArmIE)
 	- https://developer.arm.com/tools-and-software/server-and-hpc/compile/arm-instruction-emulator
-* ARM instruction evaluator - http://svr-acjf3-armie.cl.cam.ac.uk/
-* ARM Lab (VM) - https://azeria-labs.com/arm-lab-vm/
-* ARMulator: A emulator for ARM programs (aims to run ARM programs in x86 platform)
-	+ https://github.com/x-y-z/armulator
-	+ http://x-y-z.github.io/armulator/
-* ARM-X Firmware Emulation Framework
+- ARM instruction evaluator - http://svr-acjf3-armie.cl.cam.ac.uk/
+- ARM Lab (VM) - https://azeria-labs.com/arm-lab-vm/
+- ARMulator: A emulator for ARM programs (aims to run ARM programs in x86 platform)
+	- https://github.com/x-y-z/armulator
+	- http://x-y-z.github.io/armulator/
+- ARM-X Firmware Emulation Framework
 	- The ARM-X Firmware Emulation Framework is a collection of scripts, kernels and filesystems to be used with QEMU to emulate ARM/Linux IoT devices. ARM-X is aimed to facilitate IoT research by virtualising as much of the physical device as possible. It is the closest we can get to an actual IoT VM.
 	- https://armx.exploitlab.net/
 	- https://github.com/therealsaumil/armx/
 	- Introducing ARM-X: The ARM IoT Firmware Emulation Framework
 		- HITB+ CyberWeek 2019; Saumil Shah
 		- https://www.youtube.com/watch?v=NVl6uJiEaoI
-* arm_now: arm vm working out of the box for everyone (Linux / Windows) - https://github.com/nongiach/arm_now
-* ASMBits: A problem set and online judge for practicing Nios II or ARMv7 assembly language - https://asmbits.01xz.net/
-* CPUlator: An in-browser full-system MIPS, Nios II, and ARMv7 simulator and debugger - https://cpulator.01xz.net/
-* Debian on an emulated ARM machine
-	+ https://www.aurel32.net/info/debian_arm_qemu.php
-	+ https://wiki.debian.org/ArmEabiHowto
-	+ https://people.debian.org/~aurel32/qemu/
-* ELMO (Emulator for power Leakages for the M0): Leakage simulator for the ARM Cortex M0
-	+ https://github.com/bristol-sca/ELMO
-	+ Towards Practical Tools for Side Channel Aware Software Engineering: 'Grey Box' Modelling for Instruction Leakages
-	+ USENIX Security '17
-	+ David McCann, Elisabeth Oswald, and Carolyn Whitnall
-	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/mccann
-* Emulate Raspberry Pi with QEMU - http://graznik.de/posts/emulate-raspberry-pi-with-qemu/
-* gem5
+- arm_now: arm vm working out of the box for everyone (Linux / Windows) - https://github.com/nongiach/arm_now
+- ASMBits: A problem set and online judge for practicing Nios II or ARMv7 assembly language - https://asmbits.01xz.net/
+- CPUlator: An in-browser full-system MIPS, Nios II, and ARMv7 simulator and debugger - https://cpulator.01xz.net/
+- Debian on an emulated ARM machine
+	- https://www.aurel32.net/info/debian_arm_qemu.php
+	- https://wiki.debian.org/ArmEabiHowto
+	- https://people.debian.org/~aurel32/qemu/
+- ELMO (Emulator for power Leakages for the M0): Leakage simulator for the ARM Cortex M0
+	- https://github.com/bristol-sca/ELMO
+	- Towards Practical Tools for Side Channel Aware Software Engineering: 'Grey Box' Modelling for Instruction Leakages
+	- USENIX Security '17
+	- David McCann, Elisabeth Oswald, and Carolyn Whitnall
+	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/mccann
+- Emulate Raspberry Pi with QEMU - http://graznik.de/posts/emulate-raspberry-pi-with-qemu/
+- gem5
 	- ARM Implementation
 		- http://www.gem5.org/documentation/general_docs/architecture_support/arm_implementation/
 		- http://old.gem5.org/ARM_Implementation.html
 	- Building ARM Kernel - http://www.gem5.org/documentation/general_docs/fullsystem/building_arm_kernel
 	- Extending gem5 for ARM - http://www.gem5.org/documentation/learning_gem5/part1/extending_configs
-* OakSim: Online ARM assembler and emulator
-	+ https://wunkolo.github.io/OakSim/
-	+ https://github.com/Wunkolo/OakSim
-* Qemu images (ARM, MIPS, PowerPC, SPARC, AArch64) - https://blahcat.github.io/2017/06/25/qemu-images-to-play-with/
-* thumbulator: Thumb (16 bit ARM) instruction set simulator - https://github.com/dwelch67/thumbulator
-* VisUAL - A highly visual ARM emulator - http://salmanarif.bitbucket.org/visual/
+- OakSim: Online ARM assembler and emulator
+	- https://wunkolo.github.io/OakSim/
+	- https://github.com/Wunkolo/OakSim
+- Qemu images (ARM, MIPS, PowerPC, SPARC, AArch64) - https://blahcat.github.io/2017/06/25/qemu-images-to-play-with/
+- SimEng (the Simulation Engine): a framework for building modern cycle-accurate processor simulators
+	- A fast, easy to use and modify cycle-level simulator for CPUs. Its initial focus is on simulating single Arm cores in server CPUs, and so the instruction set architecture (ISA) target is initially Armv8.4-A+SVE. Later versions of the Arm ISA, and other ISAs such as RISC-V, will be supported in future releases.
+	- CPU models in SimEng include: Marvell ThunderX2, Fujitsu A64FX
+	- https://github.com/UoB-HPC/SimEng
+	- https://uob-hpc.github.io/SimEng/
+- thumbulator: Thumb (16 bit ARM) instruction set simulator - https://github.com/dwelch67/thumbulator
+- VisUAL - A highly visual ARM emulator - http://salmanarif.bitbucket.org/visual/
 
 ## Software: Lifting
 
