@@ -700,6 +700,16 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 - opt-fuzz: a simple implementation of bounded exhaustive testing for LLVM programs
 	- https://github.com/regehr/opt-fuzz
 
+#### Testing: Software: Performance Optimization: Parallelization
+
+- AutoParBench: a benchmark framework to evaluate compilers and tools designed to automatically insert OpenMP directives
+	- https://github.com/LLNL/AutoParBench
+	- AutoParBench: A Unified Test Framework for OpenMP-based Parallelizers
+		- International Conference on Supercomputing 2020
+		- Gleison Souza Diniz Mendonça, Chunhua Liao, Fernando Magno Quintão Pereira
+		- https://doi.org/10.1145/3392717.3392744
+		- https://www.osti.gov/servlets/purl/1635776
+
 #### Testing: Software: Performance Optimization: Vectorization
 
 - autovec-benchmark: Auto-vectorization test suite with withdrawal of useful compile-time information
