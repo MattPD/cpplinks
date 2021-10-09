@@ -669,6 +669,10 @@ See also: [Computer Architecture](comparch.md)
 	- NDSS 2021
 	- Lesly-Ann Daniel, Sébastien Bardin, Tamara Rezk
 	- https://www.ndss-symposium.org/ndss-paper/hunting-the-haunter-efficient-relational-symbolic-execution-for-spectre-with-haunted-relse/
+- SoK: Practical Foundations for Spectre Defenses
+	- 2021
+	- Sunjay Cauligi, Craig Disselkoen, Daniel Moghimi, Gilles Barthe, Deian Stefan
+	- https://arxiv.org/abs/2105.05801
 
 ### Defense - Speculation: 2020
 
