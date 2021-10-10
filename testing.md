@@ -102,6 +102,10 @@ See also:
 - Kent Beck
 	- Programmer Test Principles
 		- https://medium.com/@kentbeck_7670/programmer-test-principles-d01c064d7934
+	- Test Desiderata: properties making tests valuable
+		- https://github.com/KentBeck/TestDesiderata/blob/master/index.md
+		- 5-minute videos describing each property with Kent Beck and Kelly Sutton
+			- https://www.youtube.com/playlist?list=PLlmVY7qtgT_lkbrk9iZNizp978mVzpBKl
 	- “Unit” Tests?
 		- https://www.facebook.com/notes/kent-beck/unit-tests/1726369154062608/
 - Nelson Elhage
