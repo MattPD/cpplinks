@@ -17,7 +17,7 @@ See also:
 		- [Reduction](#testing-readings-reduction): [LLVM](#testing-readings-reduction-llvm)
 	- [Software](#testing-software):
 		- [Generation](#testing-software-generation)
-		- [Performance Optimization](#testing-software-performance-optimization): [Vectorization](#testing-software-performance-optimization-vectorization)
+		- [Performance Optimization](#testing-software-performance-optimization): [Parallelization](#testing-software-performance-optimization-parallelization), [Vectorization](#testing-software-performance-optimization-vectorization)
 		- [Reduction](#testing-software-reduction)
 	- [Talks](#testing-talks)
 - [Validation](#validation)
@@ -594,6 +594,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 - LLVM-Reduce for testcase reduction
 	- 2019 LLVM Developers’ Meeting; Diego Trevino Ferrer
 	- https://www.youtube.com/watch?v=n1jDj7J9N8c
+- reduce_pipeline: Automatic 'opt' pipeline reducer script
+	- Script for automatic 'opt' pipeline reduction for when using the new pass-manager (NPM). Based around the '-print-pipeline-passes' option.
+	- https://github.com/llvm/llvm-project/blob/main/llvm/utils/reduce_pipeline.py
+	- https://reviews.llvm.org/D110908
 
 ## Testing: Software
 
