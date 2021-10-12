@@ -200,7 +200,7 @@ Inline assembly (linux-insides)
 https://0xax.gitbooks.io/linux-insides/content/Theory/asm.html
 
 Intel Intrinsics Guide  
-https://software.intel.com/sites/landingpage/IntrinsicsGuide/
+https://www.intel.com/content/www/us/en/docs/intrinsics-guide/
 
 Linux Assembly HOWTO  
 http://asm.sourceforge.net/howto.html
