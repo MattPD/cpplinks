@@ -328,7 +328,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - Helium – Arm Developer
 	- https://developer.arm.com/architectures/instruction-sets/simd-isas/helium
 	- Helium Intrinsics
-		- https://developer.arm.com/architectures/instruction-sets/simd-isas/helium/helium-intrinsics
+		- <https://developer.arm.com/architectures/instruction-sets/intrinsics/#f:@navigationhierarchiessimdisa=[Helium]>
 	- Helium Programmer's Guide
 		- https://developer.arm.com/architectures/instruction-sets/simd-isas/helium/helium-programmers-guide
 - Making Helium
@@ -641,6 +641,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ## Intrinsics & SIMD
 
+- Arm Intrinsics reference search engine
+	- https://developer.arm.com/architectures/instruction-sets/intrinsics/
 - Arm C Language Extensions (ACLE)
 	- the source material for the ACLE specifications
 	- https://github.com/ARM-software/acle
@@ -654,20 +656,20 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- https://doi.org/10.1016/j.peva.2020.102106
 	- http://www.cosenza.eu/papers/PohlPEJ20.pdf
 
-### NEON
+### Neon
 
 - Neon – Arm Developer
 	- https://developer.arm.com/architectures/instruction-sets/simd-isas/neon
 	- Neon Programmer's Guide for Armv8-A
 		- https://developer.arm.com/architectures/instruction-sets/simd-isas/neon/neon-programmers-guide-for-armv8-a
-- NEON Intrinsics - https://developer.arm.com/technologies/neon/intrinsics
-- NEON intrinsics guide - https://github.com/thenifty/neon-guide
-- NEON Programmer’s Guide - http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.den0018a/
+- Neon Intrinsics - <https://developer.arm.com/architectures/instruction-sets/intrinsics/#f:@navigationhierarchiessimdisa=[Neon]>
+- Neon intrinsics guide - https://github.com/thenifty/neon-guide
+- Neon Programmer’s Guide - http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.den0018a/
 - Porting and Optimizing HPC Applications for Arm Documentation
 	- https://developer.arm.com/docs/101725/0200
 	- Coding for Neon
 		- https://developer.arm.com/docs/101725/0200/coding-for-neontm
-- ARM NEON Intrinsics - https://gcc.gnu.org/onlinedocs/gcc-4.9.4/gcc/ARM-NEON-Intrinsics.html#ARM-NEON-Intrinsics
+- ARM Neon Intrinsics - https://gcc.gnu.org/onlinedocs/gcc-4.9.4/gcc/ARM-NEON-Intrinsics.html#ARM-NEON-Intrinsics
 - Branch Free - Geoff Langdale
 	- An Intel Programmer Jumps Over the Wall: First Impressions of ARM SIMD Programming
 		- https://branchfree.org/2019/03/26/an-intel-programmer-jumps-over-the-wall-first-impressions-of-arm-simd-programming/
@@ -682,6 +684,10 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ### Scalable Vector Extension (SVE)
 
+- Arm Intrinsics reference search engine
+	- SVE: <https://developer.arm.com/architectures/instruction-sets/intrinsics/#f:@navigationhierarchiessimdisa=[sve]>
+	- SVE2: <https://developer.arm.com/architectures/instruction-sets/intrinsics/#f:@navigationhierarchiessimdisa=[sve2]>
+	- SVE & SVE2: <https://developer.arm.com/architectures/instruction-sets/intrinsics/#f:@navigationhierarchiessimdisa=[sve,sve2]>
 - Arm HPC tools for SVE
 	- https://developer.arm.com/tools-and-software/server-and-hpc/compile/arm-instruction-emulator/resources/tutorials/sve
 - Arm SVE Tools Training
@@ -694,9 +700,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 		- Miguel Tairum Cruz, Daniel Ruiz, Roxana Rusitoru
 		- https://doi.org/10.1109/ProTools49597.2019.00007
 - Porting and Optimizing HPC Applications for Arm SVE Documentation
-	- https://developer.arm.com/docs/101726/0200
-	- Coding for SVE vs Neon
-		- https://developer.arm.com/docs/101726/0200/explore-the-scalable-vector-extension-sve/coding-for-sve-vs-neontm
+	- https://developer.arm.com/documentation/101726
 - Introduction to Arm SVE
 	- HiPEAC 2021; John Linford
 	- https://www.youtube.com/watch?v=mVdeE2Qbm2I
