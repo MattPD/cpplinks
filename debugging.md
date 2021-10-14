@@ -1047,6 +1047,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - OllyDbg - http://www.ollydbg.de/
 - ScyllaHide: Advanced usermode anti-anti-debugger
 	- https://github.com/x64dbg/ScyllaHide
+- Showing Variables Using the Windows Debugging API
+	- Overload 29(165) October 2021
+	- Roger Orr
+	- https://accu.org/journals/overload/29/165/orr/
+	- https://github.com/rogerorr/articles/tree/main/Debugging_Optimised_Code
 - TitanHide: Hiding kernel-driver for x86/x64
 	- a driver intended to hide debuggers from certain processes
 	- https://github.com/mrexodia/TitanHide
