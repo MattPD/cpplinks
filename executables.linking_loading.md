@@ -356,7 +356,9 @@ See also:
 ## Readings: Shared Libraries
 
 - Chain loading, not preloading: the dynamic linker as a virtualization vector
-	- https://www.cs.kent.ac.uk/people/staff/srk21/blog/2021/01/04/#elf-chain-loading
+	- https://www.humprog.org/~stephen/blog/2021/01/04/#elf-chain-loading
+	- Tracing system calls in-process, using a chain loader
+		- https://www.humprog.org/~stephen/blog/2021/10/14/#syscall-tracing-in-process
 	- donald: the Mickey Mouse of dynamic linkers
 		- https://github.com/stephenrkell/donald/
 - `-fno-semantic-interposition`: ELF interposition, the GCC/Clang option and why it can (sometimes incredibly) optimize `-fPIC` programs
