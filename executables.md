@@ -563,6 +563,8 @@ Contents:
 * The missing link: explaining ELF static linking, semantically - Stephen Kell, Dominic P. Mulligan, Peter Sewell - OOPSLA 2016
 	+ http://www.cl.cam.ac.uk/~pes20/rems/papers/oopsla-elf-linking-2016.pdf
 	+ https://bitbucket.org/Peter_Sewell/linksem/
+* Tiny ELF Files: Revisited in 2021
+	- https://nathanotterness.com/2021/10/tiny_elf_modernized.html
 * Uncovering a few SIGSEGVs in binutils' BFD and GLIBC
 	+ https://chatsubo-labs.blogspot.com/2017/05/uncovering-few-sigsegvs-in-binutils-bfd.html
 	+ http://brainoverflow.org/papers/BFD-GLIBC_Fuzzing/0%20Uncovering%20a%20few%20SIGSEGVs%20in%20binutils'%20BFD%20and%20GLIBC.pdf
