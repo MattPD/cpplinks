@@ -900,6 +900,10 @@ See also: [Computer Architecture](comparch.md)
 
 ## Cache (2021)
 
+- iTimed: Cache Attacks on the Apple A10 Fusion SoC
+	- IEEE International Symposium on Hardware Oriented Security and Trust (HOST) 2021
+	- Gregor Haas, Seetal Potluri, Aydin Aysu
+	- https://eprint.iacr.org/2021/464
 - Prime+Probe 1, JavaScript 0: Overcoming Browser-based Side-Channel Defenses
 	- USENIX Security Symposium 2021
 	- Anatoly Shusterman, Ayush Agarwal, Sioli O’Connell, Daniel Genkin, Yossi Oren, Yuval Yarom
