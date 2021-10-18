@@ -327,6 +327,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://srg.doc.ic.ac.uk/files/papers/csmithedge-ase-nier-20.pdf
 	- https://www.youtube.com/watch?v=JGpAO_Gu4zU
 	- https://conf.researchr.org/details/ase-2020/ase-2020-nier-track/8/Closer-to-the-Edge-Testing-Compilers-More-Thoroughly-by-Being-Less-Conservative-Abou
+- Compiler Testing: A Systematic Literature Analysis
+	- Frontiers of Computer Science 14 (2020)
+	- Yixuan Tang, Zhilei Ren, Weiqiang Kong, He Jiang
+	- https://arxiv.org/abs/1810.02718
+	- https://link.springer.com/article/10.1007/s11704-019-8231-0
 - Random Testing for C and C++ Compilers with YARPGen
 	- OOPSLA 2020
 	- Vsevolod Livinskii, Dmitry Babokin, John Regehr
