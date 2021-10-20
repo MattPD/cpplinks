@@ -390,6 +390,7 @@
 	- It can use memalloy as a test-case generator, and generates litmus tests that can be used with herd7.
 	- https://github.com/MattWindsor91/act/
 - C11Tester: A Testing tool for C11 and C++11 Atomics
+	- a testing tool for C11/C++11 which randomly explores the behaviors of code under the C/C++ memory model
 	- http://plrg.ics.uci.edu/c11tester/
 	- C11Tester: A Fuzzer for C/C++ Atomics
 		- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2021
@@ -413,6 +414,11 @@
 	- https://github.com/uwplse/memsynth
 	- Build an x86 memory model!
 		- https://demo.memsynth.org/
+- Nidhugg: a bug-finding tool which targets bugs caused by concurrency and relaxed memory consistency in concurrent programs
+	- It works on the level of LLVM internal representation, which means that it can be used for programs written in languages such as C or C++.
+	- Currently Nidhugg supports the SC, TSO, PSO, POWER and ARM memory models.
+	- Target programs should use pthreads for concurrency, and each thread should be deterministic when run in isolation.
+	- https://github.com/nidhugg/nidhugg
 - Relacy Race Detector
 	- http://www.1024cores.net/home/relacy-race-detector
 - RMEM
