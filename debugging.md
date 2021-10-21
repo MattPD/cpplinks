@@ -1017,22 +1017,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ### Windows
 
-- An RPC Debugging Framework with Visual Studio
-	- http://donw.io/post/rpc-debugging-vs/
-- Anti-Debug Tricks
-	- This encyclopedia contains the description of anti-debug tricks which work on the latest Windows releases with the most popular debuggers (such as OllyDbg, WinDbg, x64dbg).
-	- https://anti-debug.checkpoint.com/
-	- https://github.com/CheckPointSW/Anti-Debug-DB
-- ArkDasm: 64-bit interactive disassembler and debugger for Windows
-	- http://www.arkdasm.com/
-- Creating a Public Symbol Server, Easily
-	- https://randomascii.wordpress.com/2020/03/14/creating-a-public-symbol-server-easily/
 - DbgShell: A PowerShell front-end for the Windows debugger engine
 	- https://github.com/Microsoft/DbgShell/
-- Debug Recipes (.NET and Windows problems) - https://github.com/lowleveldesign/debug-recipes
-- Debugging in Visual Studio - https://docs.microsoft.com/en-us/visualstudio/debugger/debugger-feature-tour
-- Debugging Tools for Windows (WinDbg, KD, CDB, NTSD)
-	- https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/
 - DuBStep (Dynamic Breakpoint API): A Library for creating hardware execution and data breakpoints at runtime on Win32/Win64
 	- https://github.com/justinboswell/dubstep
 - HyperDbg: an open-source, user mode and kernel mode Windows debugger with a focus on using hardware technologies
@@ -1042,24 +1028,44 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://github.com/thalium/icebox
 - kdmp-parser: Windows kernel dump C++ parser
 	- https://github.com/0vercl0k/kdmp-parser
-- makin - reveal anti-debug tricks (Windows) - https://github.com/secrary/makin
-- Nanomite - Windows Debugger for x64 and x86 - https://github.com/zer0fl4g/Nanomite/
-- OllyDbg - http://www.ollydbg.de/
+- makin - reveal anti-debug tricks (Windows)
+	- https://github.com/secrary/makin
+- Nanomite - Windows Debugger for x64 and x86
+	- https://github.com/zer0fl4g/Nanomite/
+- OllyDbg
+	- http://www.ollydbg.de/
 - ScyllaHide: Advanced usermode anti-anti-debugger
 	- https://github.com/x64dbg/ScyllaHide
+- TitanHide: Hiding kernel-driver for x86/x64
+	- a driver intended to hide debuggers from certain processes
+	- https://github.com/mrexodia/TitanHide
+- x64dbg
+	- https://x64dbg.com/
+	- https://github.com/x64dbg/x64dbg
+
+#### Windows: Readings
+
+- An RPC Debugging Framework with Visual Studio
+	- http://donw.io/post/rpc-debugging-vs/
+- Anti-Debug Tricks
+	- This encyclopedia contains the description of anti-debug tricks which work on the latest Windows releases with the most popular debuggers (such as OllyDbg, WinDbg, x64dbg).
+	- https://anti-debug.checkpoint.com/
+	- https://github.com/CheckPointSW/Anti-Debug-DB
+- Creating a Public Symbol Server, Easily
+	- https://randomascii.wordpress.com/2020/03/14/creating-a-public-symbol-server-easily/
+- Debug Recipes (.NET and Windows problems) - https://github.com/lowleveldesign/debug-recipes
+- Debugging in Visual Studio - https://docs.microsoft.com/en-us/visualstudio/debugger/debugger-feature-tour
+- Debugging Tools for Windows (WinDbg, KD, CDB, NTSD)
+	- https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/
+- Hardware breakpoints and exceptions on Windows
+	- https://ling.re/hardware-breakpoints/
 - Showing Variables Using the Windows Debugging API
 	- Overload 29(165) October 2021
 	- Roger Orr
 	- https://accu.org/journals/overload/29/165/orr/
 	- https://github.com/rogerorr/articles/tree/main/Debugging_Optimised_Code
-- TitanHide: Hiding kernel-driver for x86/x64
-	- a driver intended to hide debuggers from certain processes
-	- https://github.com/mrexodia/TitanHide
 - Windows Debugging Tools - Debugging Resources
 	- https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-resources
-- x64dbg
-	- https://x64dbg.com/
-	- https://github.com/x64dbg/x64dbg
 
 #### Visual Studio Debugger
 
