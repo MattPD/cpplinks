@@ -133,6 +133,16 @@ https://riscv.org/risc-v-books/
 
 # Formalization, Specification, Verification
 
+- End-to-End Formal Verification of a RISC-V Processor Extended with Capability Pointers
+	- FMCAD 2021
+	- Dapeng Gao, Tom Melham
+	- http://hdl.handle.net/20.500.12708/18622
+	- https://youtube.com/watch?v=u6XT3OCOIcc
+	- https://fmcad.org/FMCAD21/slides/end-to-end-verif.pdf
+	- Capability Hardware Enhanced RISC Instructions (CHERI) 
+		- https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/
+	- CHERI-modified versions of the Flute processor
+		- https://github.com/CTSRD-CHERI/Flute
 - Experimental_RISCV_Feature_Model
 	- An experimental DSL to describe the full feature list of a RISC-V implementation, along with constraints on features and between features
 	- https://github.com/rsnikhil/Experimental_RISCV_Feature_Model
