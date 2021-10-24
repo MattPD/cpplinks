@@ -182,6 +182,12 @@
 	- Panama: A Foreign Policy for Java
 		- Devoxx 2018; Maurizio Cimadamore
 		- https://www.youtube.com/watch?v=cfxBrYud9KM
+	- JEP 412: Foreign Function & Memory API (Incubator)
+		- https://openjdk.java.net/jeps/412
+		- A practical look at JEP-412 in JDK17 with libsodium
+			- https://blog.arkey.fr/2021/09/04/a-practical-look-at-jep-412-in-jdk17-with-libsodium/
+		- Finalizing the Foreign APIs
+			- https://inside.java/2021/09/16/finalizing-the-foreign-apis/
 
 ---
 
