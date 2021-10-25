@@ -363,6 +363,8 @@ See also:
 		- https://github.com/stephenrkell/donald/
 - `-fno-semantic-interposition`: ELF interposition, the GCC/Clang option and why it can (sometimes incredibly) optimize `-fPIC` programs
 	- https://maskray.me/blog/2021-05-09-fno-semantic-interposition
+- ELF dynamic linking: a brief introduction
+	- https://www.humprog.org/~stephen/blog/2021/10/18/#elf-dynamic-linking-intro
 - Fun with weak dynamic linking
 	- https://glandium.org/blog/?p=2764
 - Guided Linking: Dynamic Linking without the Costs
