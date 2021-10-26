@@ -665,6 +665,12 @@ See also: [Computer Architecture](comparch.md)
 	- Kevin Loughlin, Ian Neal, Jiacheng Ma, Elisa Tsai, Ofir Weisse, Satish Narayanasamy, Baris Kasikci
 	- https://www.kevinloughlin.org/dolma.pdf
 	- https://github.com/efeslab/dolma
+- Dynamic Process Isolation
+	- 2021
+	- Martin Schwarzl, Pietro Borrello, Andreas Kogler, Kenton Varda, Thomas Schuster, Daniel Gruss, Michael Schwarz
+	- https://arxiv.org/abs/2110.04751
+	- Dynamic Process Isolation: Research by Cloudflare and TU Graz
+		- https://blog.cloudflare.com/spectre-research-with-tu-graz/
 - Hunting the Haunter — Efficient Relational Symbolic Execution for Spectre with Haunted RelSE
 	- NDSS 2021
 	- Lesly-Ann Daniel, Sébastien Bardin, Tamara Rezk
