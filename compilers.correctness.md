@@ -723,6 +723,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 - autovec-benchmark: Auto-vectorization test suite with withdrawal of useful compile-time information
 	- https://github.com/sergisiso/autovec-benchmark
+- NeuroVectorizer training data
+	- https://github.com/intel/neuro-vectorizer/tree/master/training_data
+	- NeuroVectorizer: End-to-End Vectorization with Deep Reinforcement Learning
+	- CGO 2020
+	- Ameer Haj-Ali, Nesreen K. Ahmed, Ted Willke, Sophia Shao, Krste Asanovic, Ion Stoica
+	- https://arxiv.org/abs/1909.13639
+	- https://github.com/intel/neuro-vectorizer
 - TSVC: Test Suite for Vectorizing Compilers
 	- https://github.com/UoB-HPC/TSVC_2
 	- https://github.com/llvm/llvm-test-suite/tree/main/MultiSource/Benchmarks/TSVC
