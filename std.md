@@ -167,6 +167,9 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- CppCon 2020; Stephan T. Lavavej
 	- https://www.youtube.com/watch?v=8kjRx8vo6y4
 	- https://github.com/CppCon/CppCon2020/tree/main/Presentations/cpp20_stl_features_1_year_of_development_on_github
+- C++20 - Reaching for the Aims of C++
+	- CppCon 2021; Bjarne Stroustrup
+	- https://www.youtube.com/watch?v=15QF2q66NhU
 - C++20: An (Almost) Complete Overview
 	- CppCon 2020; Marc Gregoire
 	- https://www.youtube.com/watch?v=FRkJCvHWdwQ
