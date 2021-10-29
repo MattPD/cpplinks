@@ -701,6 +701,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 		- https://doi.org/10.1109/ProTools49597.2019.00007
 - Porting and Optimizing HPC Applications for Arm SVE Documentation
 	- https://developer.arm.com/documentation/101726
+- How to use LLDB to debug SVE enabled applications
+	- https://www.linaro.org/blog/how-to-use-lldb-to-debug-sve-enabled-applications/
 - Introduction to Arm SVE
 	- HiPEAC 2021; John Linford
 	- https://www.youtube.com/watch?v=mVdeE2Qbm2I
