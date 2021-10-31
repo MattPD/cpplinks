@@ -1069,8 +1069,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 #### Visual Studio Debugger
 
-* https://docs.microsoft.com/en-us/visualstudio/debugger/
-* https://devblogs.microsoft.com/visualstudio/tag/debug/
+- https://docs.microsoft.com/en-us/visualstudio/debugger/
+- https://devblogs.microsoft.com/visualstudio/tag/debug/
+- A Debugging Tip: Write Custom Visualizers in Visual Studio
+	- https://www.cppstories.com/2021/natvis-dbg-tip/
+	- https://github.com/fenbf/articles/tree/master/DebuggingTipsSamples
 
 #### WinDbg
 
