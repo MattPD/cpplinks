@@ -2207,7 +2207,6 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Guoxing Chen, Sanchuan Chen, Yuan Xiao, Yinqian Zhang, Zhiqiang Lin, Ten H. Lai
 	- https://arxiv.org/abs/1802.09085
 	- https://github.com/osusecLab/SgxPectre
-- Side Channels on Intel SGX - https://yinqian.org/projects/sgx-side-channels.html
 - TSX-based Defenses Against SGX Side-channel Attacks - https://gts3.org/2018/tsgx-defense.html
 - Tutorial: Uncovering and mitigating side-channel leakage in Intel SGX enclaves
 	- Security, Privacy, and Applied Cryptography Engineering (SPACE) 2018
@@ -2218,6 +2217,13 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- USENIX ATC 2018
 	- Oleksii Oleksenko, Bohdan Trach, Robert Krahn, Mark Silberstein, Christof Fetzer
 	- https://www.usenix.org/conference/atc18/presentation/oleksenko
+
+### Intel SGX: Defense
+
+- Defeating Speculative-Execution Attacks on SGX with HyperRace
+	- IEEE Conference on Dependable and Secure Computing 2019
+	- Guoxing Chen, Mengyuan Li, Fengwei Zhang, Yinqian Zhang
+	- https://yinqian.org/papers/idsc19.pdf
 
 ---
 
