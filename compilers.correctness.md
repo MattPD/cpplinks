@@ -701,6 +701,21 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 - CF3: Test suite for arithmetic optimization of C compilers
 	- https://ist.ksc.kwansei.ac.jp/~ishiura/pub/CF3/
 	- https://github.com/ishiura-compiler/CF3
+- llvm-test-suite: LLVM "test-suite" Repository
+	- https://github.com/llvm/llvm-test-suite
+	- Compile Time Mark: a collection of applications used for compiler performance testing
+		- https://github.com/llvm/llvm-test-suite/tree/main/CTMark
+	- MicroBenchmarks
+		- https://github.com/llvm/llvm-test-suite/tree/main/MicroBenchmarks
+	- MultiSource/Benchmarks
+		- https://github.com/llvm/llvm-test-suite/tree/main/MultiSource/Benchmarks
+	- SingleSource/Benchmarks
+		- https://github.com/llvm/llvm-test-suite/tree/main/SingleSource/Benchmarks
+	- tf: Easily run llvm test-suite benchmarks; a simple test framework built using bash
+		- https://github.com/guilhermeleobas/tf
+		- https://github.com/brenocfg/tf
+	- Benchmarks: LLVM test suite benchmarks (260 benchmarks - 36 test suites) 
+		- https://github.com/lac-dcc/Benchmarks
 - LongFruit: Quickly Finding RISC-V Code Quality Issues with Differential Analysis
 	- https://www.lowrisc.org/blog/2020/10/how-we-used-differential-testing-to-rapidly-find-and-fix-missed-optimisation-opportunities-in-llvms-risc-v-backend/
 	- https://github.com/lowRISC/longfruit
