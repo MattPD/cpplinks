@@ -1364,3 +1364,4 @@ See also: [Performance Tools](performance.tools.md)
 	- part 12: Control transfer: https://devblogs.microsoft.com/oldnewthing/20210615-00/?p=105311
 	- part 13: Trampolines: https://devblogs.microsoft.com/oldnewthing/20210616-00/?p=105314
 	- part 14: Manipulating flags: https://devblogs.microsoft.com/oldnewthing/20210617-00/?p=105317
+	- part 15: Miscellaneous instructions: https://devblogs.microsoft.com/oldnewthing/20210618-00/?p=105324
