@@ -44,7 +44,7 @@ See also:
 		- [MSBuild](#msbuild)
 	- [Xcode](#Xcode)
 	- [xmake](#xmake)
-- [Talks](#talks): [2019](#2019), [2018](#2018), [2017](#2017)
+- [Talks](#talks): [2021](#2021), [2019](#2019), [2018](#2018), [2017](#2017)
 
 ---
 
@@ -966,6 +966,12 @@ See also:
 ---
 
 # Talks
+
+## 2021
+
+- Designing a modern build system and dependency manager, how hard can it be?
+	- NDC TechTown 2021; Jussi Pakkanen
+	- https://www.youtube.com/watch?v=B6LSdboN_wM
 
 ## 2019
 
