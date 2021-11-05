@@ -2189,6 +2189,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Guoxing Chen, Wenhao Wang, Tianyu Chen, Sanchuan Chen, Yinqian Zhang, XiaoFeng Wang, Ten-Hwang Lai, Dongdai Lin
 	- https://yinqian.org/papers/sp18a.pdf
 	- https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a388.pdf
+- Security Vulnerabilities of SGX and Countermeasures: A Survey
+	- ACM Computing Surveys 54(6) 2021
+	- Shufan Fei, Zheng Yan, Wenxiu Ding, Haomeng Xie
+	- https://doi.org/10.1145/3456631
 - SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control
 	- SysTEX 2017
 	- Jo Van Bulck, Frank Piessens, Raoul Strackx
