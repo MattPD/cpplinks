@@ -357,6 +357,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, Christian Holler
 	- https://www.fuzzingbook.org/html/Grammars.html
 
+#### Testing: Readings: Fuzzing: 2021
+
+- Cranelift, Part 3: Correctness in Register Allocation
+	- Or: How I Learned to Stop Worrying and Fuzz with a Symbolic Checker
+	- 2021; Chris Fallin
+	- https://cfallin.org/blog/2021/03/15/cranelift-isel-3/
+	- https://github.com/bytecodealliance/regalloc.rs
+
 #### Testing: Readings: Fuzzing: 2020
 
 - CUDAsmith: A Fuzzer for CUDA Compilers
