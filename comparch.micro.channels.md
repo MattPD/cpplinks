@@ -2228,6 +2228,11 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- IEEE Conference on Dependable and Secure Computing 2019
 	- Guoxing Chen, Mengyuan Li, Fengwei Zhang, Yinqian Zhang
 	- https://yinqian.org/papers/idsc19.pdf
+- Repurposing Segmentation as a Practical LVI-NULL Mitigation in SGX
+	- USENIX 2022
+	- Lukas Giner, Andreas Kogler, Claudio Canella, Michael Schwarz, Daniel Gruss
+	- https://ginerlukas.com/publications/papers/lvinull.pdf
+	- https://github.com/redrabbyte/LVI-NULLify
 
 ---
 
