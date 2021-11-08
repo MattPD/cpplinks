@@ -933,9 +933,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ### Linux
 
-* crash-python: a semantic debugger for the Linux kernel
-	+ https://github.com/jeffmahoney/crash-python
-* debuginfod
+- AFLTriage: A tool to triage crashing input files with a debugger (GDB, Linux)
+	- https://github.com/quic/AFLTriage
+- crash-python: a semantic debugger for the Linux kernel
+	- https://github.com/jeffmahoney/crash-python
+- debuginfod
 	- elfutils debuginfod is a client/server in elfutils 0.178+ that automatically distributes elf/dwarf/source-code from servers to clients such as debuggers across HTTP
 		- https://sourceware.org/elfutils/Debuginfod.html
 	- Deploying debuginfod servers for your developers
@@ -949,71 +951,71 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- GNU Tools Cauldron 2019; Frank Ch. Eigler, Aaron Merey
 		- https://www.youtube.com/watch?v=cyOXWT_EBJ0
 		- https://gcc.gnu.org/wiki/cauldron2019talks?action=AttachFile&do=view&target=dbgserver.pdf
-* drgn: Scriptable debugger library
-	+ https://github.com/osandov/drgn/
-	+ https://drgn.readthedocs.io/
-	+ A kernel debugger in Python: drgn
+- drgn: Scriptable debugger library
+	- https://github.com/osandov/drgn/
+	- https://drgn.readthedocs.io/
+	- A kernel debugger in Python: drgn
 		- https://lwn.net/Articles/789641/
-* edb: a cross platform x86/x86-64 debugger
-	+ https://github.com/eteran/edb-debugger
-* ich: Linux crash harness with runtime process instrumentation
+- edb: a cross platform x86/x86-64 debugger
+	- https://github.com/eteran/edb-debugger
+- ich: Linux crash harness with runtime process instrumentation
 	- https://github.com/zznop/ich
-* kdress: Transform vmlinuz into a fully debuggable vmlinux that can be used with /proc/kcore
+- kdress: Transform vmlinuz into a fully debuggable vmlinux that can be used with /proc/kcore
 	- https://github.com/elfmaster/kdress
-* libkdumpfile: Kernel coredump file access
-	+ https://github.com/ptesarik/libkdumpfile
-* libthread_db
-	+ Notes about an odd, esoteric, yet incredibly useful library: libthread_db
+- libkdumpfile: Kernel coredump file access
+	- https://github.com/ptesarik/libkdumpfile
+- libthread_db
+	- Notes about an odd, esoteric, yet incredibly useful library: libthread_db
 		- http://timetobleed.com/notes-about-an-odd-esoteric-yet-incredibly-useful-library-libthread_db/
-* ORC (Oops Rewind Capability) Unwinder
-	+ [Commit ee9f8fce9964](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ee9f8fce99640811b2b8e79d0d1dbe8bab69ba67)
-	+ [Commit 39358a033b2e](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=39358a033b2e4432052265c1fa0f36f572d8cfb5)
-	+ ORC unwinder - https://github.com/torvalds/linux/blob/master/Documentation/x86/orc-unwinder.rst
-	+ The Linux x86 ORC Stack Unwinder - http://www.codeblueprint.co.uk/2017/07/31/the-orc-unwinder.html
-	+ The ORCs are coming - https://lwn.net/Articles/728339/
-	+ x86: ORC unwinder (previously undwarf) - https://lwn.net/Articles/727553/
-* PageBuster: dump all executable pages of packed processes
+- ORC (Oops Rewind Capability) Unwinder
+	- [Commit ee9f8fce9964](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ee9f8fce99640811b2b8e79d0d1dbe8bab69ba67)
+	- [Commit 39358a033b2e](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=39358a033b2e4432052265c1fa0f36f572d8cfb5)
+	- ORC unwinder - https://github.com/torvalds/linux/blob/master/Documentation/x86/orc-unwinder.rst
+	- The Linux x86 ORC Stack Unwinder - http://www.codeblueprint.co.uk/2017/07/31/the-orc-unwinder.html
+	- The ORCs are coming - https://lwn.net/Articles/728339/
+	- x86: ORC unwinder (previously undwarf) - https://lwn.net/Articles/727553/
+- PageBuster: dump all executable pages of packed processes
 	- https://github.com/revng/pagebuster
 	- PageBuster: stealthily dump all the code ever executed
 		- https://rev.ng/blog/pagebuster/post.html
-* plutonium-dbg: A kernel-based debugger for Linux applications
-	+ https://github.com/plutonium-dbg/plutonium-dbg
-	+ Kernel-Assisted Debugging of Linux Applications
+- plutonium-dbg: A kernel-based debugger for Linux applications
+	- https://github.com/plutonium-dbg/plutonium-dbg
+	- Kernel-Assisted Debugging of Linux Applications
 		- Reversing and Offensive-oriented Trends Symposium (ROOTS) 2018
 		- Tobias Holl, Philipp Klocke, Fabian Franzen, and Julian Kirsch
 		- https://vimeo.com/307238462
 		- https://dl.acm.org/citation.cfm?id=3289596
-* Scout - Instruction based research debugger
-	+ an extendable basic debugger designed for use in those cases that there is no built-in debugger / gdb-stub in the debugee process / firmware
-	+ https://github.com/CheckPointSW/Scout
-	+ https://scout-debugger.readthedocs.io/
-* sdb: The Slick/Simple Debugger
-	+ A postmortem and live debugger
-	+ https://github.com/delphix/sdb
-	+ Debugging ZFS: From Illumos to Linux
+- Scout - Instruction based research debugger
+	- an extendable basic debugger designed for use in those cases that there is no built-in debugger / gdb-stub in the debugee process / firmware
+	- https://github.com/CheckPointSW/Scout
+	- https://scout-debugger.readthedocs.io/
+- sdb: The Slick/Simple Debugger
+	- A postmortem and live debugger
+	- https://github.com/delphix/sdb
+	- Debugging ZFS: From Illumos to Linux
 		- OpenZFS Developer Summit 2019; Serapheim Dimitropoulos
 		- https://drive.google.com/file/d/1oho9X5bkW-I-yJ-pVD8VqkaloxhGepzT/view
-* symbol-scrapers: A bunch of scripts to scrape symbols from Linux distributions
+- symbol-scrapers: A bunch of scripts to scrape symbols from Linux distributions
 	- https://github.com/gabrielesvelto/symbol-scrapers/
-* vmlinux-to-elf: A tool to recover a fully analyzable ELF from a raw kernel, through extracting the kernel symbol table (kallsyms)
+- vmlinux-to-elf: A tool to recover a fully analyzable ELF from a raw kernel, through extracting the kernel symbol table (kallsyms)
 	- https://github.com/marin-m/vmlinux-to-elf
 
 #### Linux - Talks
 
-* Linux Kernel Debugging: Going Beyond Printk Messages
-	+ Embedded Linux Conference Europe (ELCE) 2019; Sergio Prado
-	+ https://www.youtube.com/watch?v=NDXYpR_m1CU
-	+ https://elinux.org/images/1/14/Linuxkerneldebugging.pdf
-	+ https://e-labworks.com/talks/elce2019
+- Linux Kernel Debugging: Going Beyond Printk Messages
+	- Embedded Linux Conference Europe (ELCE) 2019; Sergio Prado
+	- https://www.youtube.com/watch?v=NDXYpR_m1CU
+	- https://elinux.org/images/1/14/Linuxkerneldebugging.pdf
+	- https://e-labworks.com/talks/elce2019
 
 ### macOS
 
-* LLDBagility
-	+ https://github.com/quarkslab/LLDBagility/
-	+ a tool for debugging macOS virtual machines with the aid of the Fast Debugging Protocol (FDP)
-	+ https://blog.quarkslab.com/an-overview-of-macos-kernel-debugging.html
-	+ https://blog.quarkslab.com/lldbagility-practical-macos-kernel-debugging.html
-* Mac OS X Debugging Magic - https://developer.apple.com/library/content/technotes/tn2124/_index.html
+- LLDBagility
+	- https://github.com/quarkslab/LLDBagility/
+	- a tool for debugging macOS virtual machines with the aid of the Fast Debugging Protocol (FDP)
+	- https://blog.quarkslab.com/an-overview-of-macos-kernel-debugging.html
+	- https://blog.quarkslab.com/lldbagility-practical-macos-kernel-debugging.html
+- Mac OS X Debugging Magic - https://developer.apple.com/library/content/technotes/tn2124/_index.html
 
 ### Windows
 
