@@ -487,6 +487,10 @@ See also:
 
 ## Talks: 2021
 
+- From Program to Process - What Happens After the Compiler
+	- NDC TechTown 2021
+	- Anders Schau Knatten
+	- https://www.youtube.com/watch?v=fGnbGX88z3Y
 - Linker Relaxation in LLD
 	- RISC-V Forum 2021; Chih-Mao Chen
 	- https://www.youtube.com/watch?v=4GnQbhNt1Cc
