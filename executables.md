@@ -1045,6 +1045,11 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	+ Rich Header: a collection of the work performed investigating the PE32 Rich Header - https://github.com/HolmesProcessing/RichHeader-Service_Collection
 * Fully undetectable backdooring PE files - https://haiderm.com/fully-undetectable-backdooring-pe-files/
 * Introducing New Packing Method: First Reflective PE Packer Amber - https://pentest.blog/introducing-new-packing-method-first-reflective-pe-packer/
+* Lost in the Loader: The Many Faces of the Windows PE File Format
+	- International Symposium on Research in Attacks, Intrusions and Defenses (RAID) 2021
+	- Mariano Graziano, Lorenzo Flore, Andrea Lanzi, Davide Balzarotti
+	- https://www.eurecom.fr/en/publication/6603
+	- https://www.youtube.com/watch?v=yuptIE--UPw
 * Microsoft Portable Executable (PE) and Common Object File Format (COFF) Specification - https://msdn.microsoft.com/en-us/library/windows/desktop/ms680547.aspx
 * Microsoft's Rich Signature (undocumented) - http://ntcore.com/Files/richsign.htm
 * Modern PE Mangling
