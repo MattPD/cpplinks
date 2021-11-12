@@ -257,6 +257,10 @@ See also: [Computer Architecture](comparch.md)
 	- USENIX Security 2021
 	- Gururaj Saileshwar, Moinuddin Qureshi
 	- https://arxiv.org/abs/2009.09090
+- SpecSafe: Detecting Cache Side Channels in a Speculative World
+	- Object-Oriented Programming, Systems, Languages & Applications (OOPSLA) 2021
+	- Robert Brotzman, Danfeng Zhang, Gang Tan, Mahmut Kandemir
+	- https://doi.org/10.1145/3485506
 - Streamline: A Fast, Flushless Cache Covert-Channel Attack by Enabling Asynchronous Collusion
 	- ASPLOS 2021
 	- Gururaj Saileshwar, Christopher W. Fletcher, Moinuddin K. Qureshi
