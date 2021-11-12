@@ -77,6 +77,12 @@ See also:
 	- https://dbp.io/pubs/2019/ccc/
 	- https://www.ccs.neu.edu/home/amal/papers/next700ccc.pdf
 	- https://www.youtube.com/watch?v=qrwzpo6ISCQ
+- Towards Understanding Tool-chain Bugs in the LLVM Compiler Infrastructure
+	- IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER) 2021
+	- Xiaoyuan Xie, Haolin Yang, Qiang He, Lin Chen
+	- https://doi.org/10.1109/SANER50967.2021.00010
+	- https://www.youtube.com/watch?v=tWb9zwRH-1g
+	- https://github.com/DataProvided/Tool-chain-Bugs-Data
 - Well-Typed Programs Can Go Wrong: A Study of Typing-Related Bugs in JVM Compilers
 	- OOPSLA 2021
 	- Stefanos Chaliasos, Thodoris Sotiropoulos, Georrgios-Petros Drosos, Charalambos Mitropoulos, Dimitris Mitropoulos, Diomidis Spinellis
