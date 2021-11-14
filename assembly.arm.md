@@ -1366,3 +1366,4 @@ See also: [Performance Tools](performance.tools.md)
 	- part 14: Manipulating flags: https://devblogs.microsoft.com/oldnewthing/20210617-00/?p=105317
 	- part 15: Miscellaneous instructions: https://devblogs.microsoft.com/oldnewthing/20210618-00/?p=105324
 	- part 16: The calling convention: https://devblogs.microsoft.com/oldnewthing/20210621-00/?p=105327
+	- part 17: Prologues and epilogues: https://devblogs.microsoft.com/oldnewthing/20210622-00/?p=105332
