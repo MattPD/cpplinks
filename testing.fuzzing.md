@@ -253,6 +253,9 @@ See also:
 - ClusterFuzz: a scalable fuzzing infrastructure which finds security and stability issues in software
 	- https://github.com/google/clusterfuzz
 	- https://opensource.googleblog.com/2019/02/open-sourcing-clusterfuzz.html
+- ClusterFuzzLite: Simple continuous fuzzing that runs in CI
+	- https://github.com/google/clusterfuzzlite
+	- https://security.googleblog.com/2021/11/clusterfuzzlite-continuous-fuzzing-for.html
 - OneFuzz: A self-hosted Fuzzing-As-A-Service platform
 	- https://github.com/microsoft/onefuzz
 - OSS-Fuzz: Continuous Fuzzing for Open Source Software
