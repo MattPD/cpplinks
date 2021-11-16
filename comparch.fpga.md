@@ -7,21 +7,29 @@ https://speakerdeck.com/mattpd/fpgas-and-open-source-hardware-an-intro-meeting-c
 
 # Articles
 
-* A 16-nm Multiprocessing System-on-Chip Field-Programmable Gate Array Platform (2016) - http://doi.org/10.1109/MM.2016.18
-* Fundamental Underpinnings of Reconfigurable Computing Architectures (2015) - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7086421
-* It’s an FPGA! (2011)
-  - P. Alfke, I. Bolsens, B. Carter, M. Santarini, and S. Trimberger, IEEE Solid-State Circuits Mag., vol. 3, no. 4, 2011, pp. 15-20
-  - http://phdtree.org/pdf/39505483-its-an-fpga/ / http://ieeexplore.ieee.org/document/6069771/
-* Measuring the Gap Between FPGAs and ASICs (2007) - http://ieeexplore.ieee.org/document/4068926/
-* Reconfigurable Computing Architectures (2015) - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7086414
-* Reading List - ACM SIGDA Technical Committee on FPGAs (TCFPGA) Hall of Fame - http://hof.tcfpga.org/reading-list/
-* Three Ages of FPGAs: A Retrospective on the First Thirty Years of FPGA Technology (2015) - http://ieeexplore.ieee.org/abstract/document/7086413/
-* Trends in Reconfigurable Computing: Applications and Architectures (2015)
-  - Lesley Shannon, Veronica Cojocaru, Cong Nguyen Dao, and Philip H.W. Leong. In Proc. IEEE Symposium on Field-Programmable Custom Computing Machines (FCCM), 2015
-  - http://www.ee.usyd.edu.au/people/philip.leong/UserFiles/File/papers/trends_fccm15.pdf
-* Xilinx and the Birth of the Fabless Semiconductor Industry (2013)
-  - Steve Leibson, Chapter of "Fabless: the Transformation of the Semiconductor Industry"
-  - https://forums.xilinx.com/xlnx/attachments/xlnx/Xcell/200/1/Fabless%20Book%20Chapter%20FINAL.pdf
+- A 16-nm Multiprocessing System-on-Chip Field-Programmable Gate Array Platform (2016) - http://doi.org/10.1109/MM.2016.18
+- Fundamental Underpinnings of Reconfigurable Computing Architectures (2015) - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7086421
+- It’s an FPGA! (2011)
+	- P. Alfke, I. Bolsens, B. Carter, M. Santarini, and S. Trimberger, IEEE Solid-State Circuits Mag., vol. 3, no. 4, 2011, pp. 15-20
+	- http://phdtree.org/pdf/39505483-its-an-fpga/ / http://ieeexplore.ieee.org/document/6069771/
+- Measuring the Gap Between FPGAs and ASICs (2007) - http://ieeexplore.ieee.org/document/4068926/
+- Reconfigurable Computing Architectures (2015) - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7086414
+- Reading List - ACM SIGDA Technical Committee on FPGAs (TCFPGA) Hall of Fame - http://hof.tcfpga.org/reading-list/
+- Three Ages of FPGAs: A Retrospective on the First Thirty Years of FPGA Technology (2015) - http://ieeexplore.ieee.org/abstract/document/7086413/
+- Trends in Reconfigurable Computing: Applications and Architectures (2015)
+	- Lesley Shannon, Veronica Cojocaru, Cong Nguyen Dao, and Philip H.W. Leong. In Proc. IEEE Symposium on Field-Programmable Custom Computing Machines (FCCM), 2015
+	- http://www.ee.usyd.edu.au/people/philip.leong/UserFiles/File/papers/trends_fccm15.pdf
+- Xilinx and the Birth of the Fabless Semiconductor Industry (2013)
+	- Steve Leibson, Chapter of "Fabless: the Transformation of the Semiconductor Industry"
+	- https://forums.xilinx.com/xlnx/attachments/xlnx/Xcell/200/1/Fabless%20Book%20Chapter%20FINAL.pdf
+
+## Articles: 2021
+
+- Global is the New Local: FPGA Architecture at 5nm and Beyond
+	- The 2021 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA) 2021
+	- Stefan Nikolić, Francky Catthoor, Zsolt Tőkei, Paolo Ienne
+	- https://dl.acm.org/doi/10.1145/3431920.3439300
+	- https://github.com/EPFL-LAP/fpga21-scaled-tech
 
 # Courses
 
