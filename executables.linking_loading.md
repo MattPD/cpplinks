@@ -429,6 +429,8 @@ See also:
 
 - cctools-port: Apple cctools and ld64 port for Linux, \*BSD and macOS
 	- https://github.com/tpoechtrager/cctools-port
+- ld64
+	- https://github.com/apple-opensource/ld64
 - ld64: Instructions on how to build the ld64 linker on macOS
 	- https://github.com/dmaclach/ld64
 - [lld] Initial commit for new Mach-O backend
