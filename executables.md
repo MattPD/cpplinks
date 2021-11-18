@@ -85,6 +85,10 @@ Contents:
 		- https://software.intel.com/en-us/download/reverse-the-linking-process
 * Detect-It-Easy: Program for determining types of files for Windows, Linux and MacOS
 	- https://github.com/horsicq/Detect-It-Easy
+* elfshaker: a low-footprint, high-performance version control system fine-tuned for binaries
+	- stores snapshots of directories into highly-compressed pack files and provides fast on-demand access to the stored files
+	- particularly good for storing lots of similar files, for example object files from an incremental build
+	- https://github.com/elfshaker/elfshaker
 * FileBytes
 	+ Library to read and edit files in the following formats: Executable and Linking Format (ELF), Portable Executable (PE), MachO and OAT (Android Runtime)
 	+ https://scoding.de/filebytes-introduction
