@@ -436,6 +436,11 @@ See also:
 	- Erik van der Kouwe, Vinod Nigade, Cristiano Giuffrida
 	- http://www.cs.vu.nl/~giuffrida/papers/dangsan_eurosys17.pdf
 	- https://github.com/vusec/dangsan
+- Debloating Address Sanitizer
+	- USENIX Security Symposium 2022
+	- Yuchen Zhang, Chengbin Pang, Georgios Portokalidis, Nikos Triandopoulos, Jun Xu
+	- https://www.usenix.org/system/files/sec22summer_zhang-yuchen.pdf
+	- https://github.com/junxzm1990/ASAN--
 - Debugging and Detecting Numerical Errors in Computation with Posits
 	- PLDI 2020
 	- Sangeeta Chowdhary, Jay P. Lim, Santosh Nagarakatte
