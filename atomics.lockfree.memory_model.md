@@ -298,6 +298,10 @@
 
 ### Papers - Memory Model: 2021
 
+- A Survey of Programming Language Memory Models
+	- Programming and Computer Software, Vol. 47, No. 6, 2021
+	- Evgenii Moiseenko, Anton Podkopaev, Dmitrii Koznov
+	- https://media.githubusercontent.com/media/anlun/publicFiles/master/papers/Moiseenko-al-Programming21-full.pdf
 - Verifying Observational Robustness against a C11-Style Memory Model
 	- POPL 2021
 	- Roy Margalit, Ori Lahav
