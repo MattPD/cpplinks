@@ -34,6 +34,7 @@
 		- Using error codes effectively - https://akrzemi1.wordpress.com/2017/09/04/using-error-codes-effectively/
 		- error codes — some clarifications - https://akrzemi1.wordpress.com/2017/10/14/error-codes-some-clarifications/
 - Arthur O’Dwyer - https://quuxplusone.github.io/blog/tags/#exception-handling
+	- Copy Elision in Throw Statements - https://quuxplusone.github.io/blog/2018/04/09/elision-in-throw-statements/
 	- The Lakos Rule - https://quuxplusone.github.io/blog/2018/04/25/the-lakos-rule/
 - Boris Kolpackov
 	- Throwing Destructors - https://www.kolpackov.net/projects/c++/eh/dtor-1.xhtml
