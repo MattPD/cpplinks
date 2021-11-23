@@ -365,6 +365,15 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 #### Testing: Readings: Fuzzing: 2021
 
+- A Comprehensive Study of Deep Learning Compiler Bugs
+	- ESEC/FSE 2021
+	- Qingchao Shen, Haoyang Ma, Junjie Chen, Yongqiang Tian, Shing-Chi Cheung, Xiang Chen
+	- https://doi.org/10.1145/3468264.3468591
+		- Free Access (OpenTOC): https://www.sigsoft.org/resources/opentoc/ESEC-FSE-21toc.html
+	- https://2021.esec-fse.org/details/fse-2021-papers/60/A-Comprehensive-Study-of-Deep-Learning-Compiler-Bugs
+	- TVMfuzz: a demo project for fuzzing TVM
+		- https://github.com/ShenQingchao/DLCstudy
+		- https://github.com/anonymousWork000/DLCstudy
 - Cranelift, Part 3: Correctness in Register Allocation
 	- Or: How I Learned to Stop Worrying and Fuzz with a Symbolic Checker
 	- 2021; Chris Fallin
