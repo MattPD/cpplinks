@@ -253,6 +253,10 @@ See also: [Computer Architecture](comparch.md)
 
 ### Defense - Cache: 2021
 
+- Battle for Secure Caches: Attacks and Defenses on Randomized Caches
+	- 2021
+	- Gururaj Saileshwar
+	- https://www.sigarch.org/battle-for-secure-caches-attacks-and-defenses-on-randomized-caches/
 - MIRAGE: Mitigating Conflict-Based Cache Attacks with a Practical Fully-Associative Design
 	- USENIX Security 2021
 	- Gururaj Saileshwar, Moinuddin Qureshi
