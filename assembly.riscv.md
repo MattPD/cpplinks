@@ -459,6 +459,20 @@ https://riscv.org/software-tools/
 
 # Talks
 
+## 2020
+
+- Working with RISC-V: from open ISA to open Architecture to open Hardware
+	- HiPEAC ACACES Summer School 2020
+	- Luca Benini, Frank K. Gürkaynak
+	- session 1: https://www.youtube.com/watch?v=RklEOl3xAdQ
+	- session 2: https://www.youtube.com/watch?v=Ipy71G8eSWY
+	- slides:
+		- https://pulp-platform.org/docs/hipeac/acaces2021/01_Intro_RISC-V.pdf
+		- https://pulp-platform.org/docs/hipeac/acaces2021/02_Advanced_Cores.pdf
+		- https://pulp-platform.org/docs/hipeac/acaces2021/03_PULP_Concepts.pdf
+		- https://pulp-platform.org/docs/hipeac/acaces2021/04_PULP_Accelerators.pdf
+		- https://pulp-platform.org/docs/hipeac/acaces2021/05_PULP_Chips.pdf
+
 ## 2019
 
 - The Hype Around the RISC-V Hypervisor
