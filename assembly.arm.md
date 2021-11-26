@@ -1367,4 +1367,5 @@ See also: [Performance Tools](performance.tools.md)
 	- part 15: Miscellaneous instructions: https://devblogs.microsoft.com/oldnewthing/20210618-00/?p=105324
 	- part 16: The calling convention: https://devblogs.microsoft.com/oldnewthing/20210621-00/?p=105327
 	- part 17: Prologues and epilogues: https://devblogs.microsoft.com/oldnewthing/20210622-00/?p=105332
-	- part 18: Other kinds of prologues and epilogues, https://devblogs.microsoft.com/oldnewthing/20210623-00/?p=105351
+	- part 18: Other kinds of prologues and epilogues: https://devblogs.microsoft.com/oldnewthing/20210623-00/?p=105351
+	- part 19: Common patterns: https://devblogs.microsoft.com/oldnewthing/20210624-46/?p=105355
