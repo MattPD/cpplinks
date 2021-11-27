@@ -381,9 +381,10 @@ Assemblers - https://en.wikipedia.org/wiki/Comparison_of_assemblers#x86_assemble
 	- Chris James
 	- https://www.youtube.com/watch?v=LAkYW5ixvhg
 	- https://docs.google.com/presentation/d/1vJWsVZnpD25jqLQWeLvDXZSD2MMM5_tyBAqfWnaIx-c/
-- Just enough Assembly for Compiler Explorer - Anders Schau Knatten
-	- NDC TechTown 2019
-	- https://www.youtube.com/watch?v=soeFwz0cOqU
+- Just enough Assembly for Compiler Explorer
+	- Anders Schau Knatten
+	- CppCon 2021: https://www.youtube.com/watch?v=QLolzolunJ4
+	- NDC TechTown 2019: https://www.youtube.com/watch?v=soeFwz0cOqU
 - Linux x64 Assembly   
 	- https://www.youtube.com/playlist?list=PLKK11Ligqiti8g3gWRtMjMgf1KoKDOvME
 - Modern x64 Assembly
