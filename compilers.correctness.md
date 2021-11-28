@@ -586,6 +586,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://dl.acm.org/citation.cfm?id=2909439
 	- paper: https://spiral.imperial.ac.uk/handle/10044/1/39576
 	- slides: http://www.iwocl.org/wp-content/uploads/iwocl-2016-automatic-test-case-reduction.pdf
+- Binary Reduction of Dependency Graphs
+	- ESEC/FSE 2019
+	- Christian Gram Kalhauge and Jens Palsberg
+	- http://compilers.cs.ucla.edu/papers/binary-reduction/
+	- https://dl.acm.org/doi/10.1145/3338906.3338956
+	- JReduce: a tool to reduce Java ByteCode
+		- https://github.com/ucla-pls/jreduce
 - Perses: Syntax-Directed Program Reduction
 	- https://github.com/chengniansun/perses
 	- ICSE 2018
