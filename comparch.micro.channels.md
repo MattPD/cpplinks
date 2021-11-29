@@ -257,10 +257,14 @@ See also: [Computer Architecture](comparch.md)
 	- 2021
 	- Gururaj Saileshwar
 	- https://www.sigarch.org/battle-for-secure-caches-attacks-and-defenses-on-randomized-caches/
+- Detecting and Mitigating Cache-Based Side-Channels
+	- 2021 PhD Dissertation; Robert Brotzman
+	- http://www.cse.psu.edu/~gxt29/papers/RobBrotzman_Dissertation.pdf
 - MIRAGE: Mitigating Conflict-Based Cache Attacks with a Practical Fully-Associative Design
 	- USENIX Security 2021
 	- Gururaj Saileshwar, Moinuddin Qureshi
 	- https://arxiv.org/abs/2009.09090
+	- https://github.com/gururaj-s/MIRAGE
 - SpecSafe: Detecting Cache Side Channels in a Speculative World
 	- Object-Oriented Programming, Systems, Languages & Applications (OOPSLA) 2021
 	- Robert Brotzman, Danfeng Zhang, Gang Tan, Mahmut Kandemir
