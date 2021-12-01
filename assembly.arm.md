@@ -1369,3 +1369,4 @@ See also: [Performance Tools](performance.tools.md)
 	- part 17: Prologues and epilogues: https://devblogs.microsoft.com/oldnewthing/20210622-00/?p=105332
 	- part 18: Other kinds of prologues and epilogues: https://devblogs.microsoft.com/oldnewthing/20210623-00/?p=105351
 	- part 19: Common patterns: https://devblogs.microsoft.com/oldnewthing/20210624-46/?p=105355
+	- part 20: Code walkthrough: https://devblogs.microsoft.com/oldnewthing/20210625-00/?p=105369
