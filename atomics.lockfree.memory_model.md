@@ -312,6 +312,16 @@
 		- a tool to verify robustness of programs written in TPL against C11 semantics.
 		- https://github.com/rymrg/rocker
 
+### Papers - Memory Model: 2022
+
+- The Leaky Semicolon: Compositional Semantic Dependencies for Relaxed-Memory Concurrency
+	- POPL 2022
+	- Alan Jeffrey, James Riely, Mark Batty, Simon Cooksey, Anton Podkopaev
+	- https://github.com/weakmemory/weakmemory.github.io/blob/master/pwt.md
+	- https://popl22.sigplan.org/details/POPL-2022-popl-research-papers/54/The-Leaky-Semicolon-Compositional-Semantic-Dependencies-for-Relaxed-Memory-Concurren
+	- JetBrains Research Rus 2021
+		- https://www.youtube.com/watch?v=AsrckMUlIjY
+
 ---
 
 # References
