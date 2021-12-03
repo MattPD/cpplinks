@@ -374,6 +374,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- TVMfuzz: a demo project for fuzzing TVM
 		- https://github.com/ShenQingchao/DLCstudy
 		- https://github.com/anonymousWork000/DLCstudy
+- An Empirical Study of the Reliability of High-Level Synthesis Tools
+	- FCCM 2021
+	- Yann Herklotz, Zewei Du, Nadesh Ramanathan, John Wickerson
+	- https://johnwickerson.github.io/papers/fuzzingHLS.pdf
+	- https://johnwickerson.wordpress.com/2021/05/07/fuzzing-hls/
 - Cranelift, Part 3: Correctness in Register Allocation
 	- Or: How I Learned to Stop Worrying and Fuzz with a Symbolic Checker
 	- 2021; Chris Fallin
