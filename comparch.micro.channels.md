@@ -683,6 +683,10 @@ See also: [Computer Architecture](comparch.md)
 	- https://arxiv.org/abs/2110.04751
 	- Dynamic Process Isolation: Research by Cloudflare and TU Graz
 		- https://blog.cloudflare.com/spectre-research-with-tu-graz/
+- High-Assurance Cryptography in the Spectre Era
+	- IEEE Symposium on Security and Privacy (IEEE S&P) 2021
+	- Gilles Barthe, Sunjay Cauligi, Benjamin Gregoire, Adrien Koutsos, Kevin Liao, Tiago Oliveira, Swarn Priya, Tamara Rezk, Peter Schwabe
+	- https://eprint.iacr.org/2020/1104
 - Hunting the Haunter — Efficient Relational Symbolic Execution for Spectre with Haunted RelSE
 	- NDSS 2021
 	- Lesly-Ann Daniel, Sébastien Bardin, Tamara Rezk
