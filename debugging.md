@@ -1000,7 +1000,13 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - vmlinux-to-elf: A tool to recover a fully analyzable ELF from a raw kernel, through extracting the kernel symbol table (kallsyms)
 	- https://github.com/marin-m/vmlinux-to-elf
 
-#### Linux - Talks
+#### Linux: Readings
+
+- Live Debugging Techniques for the Linux Kernel
+	- Part 1: setting up an Oracle Linux virtual machine
+		- https://blogs.oracle.com/linux/post/live-kernel-debugging-1
+
+#### Linux: Talks
 
 - Linux Kernel Debugging: Going Beyond Printk Messages
 	- Embedded Linux Conference Europe (ELCE) 2019; Sergio Prado
