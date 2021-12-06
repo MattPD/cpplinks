@@ -178,8 +178,11 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- CppCon 2019; Bjarne Stroustrup
 	- https://www.youtube.com/watch?v=u_ij0YNkFUs
 - C++20: My Favourite Code Examples
-	- C++ on Sea 2021; Nicolai Josuttis
-	- https://www.youtube.com/watch?v=qdSAPQiRBDo
+	- Nico Josuttis
+	- C++ on Sea 2021
+		- https://www.youtube.com/watch?v=qdSAPQiRBDo
+	- Meeting C++ 2021
+		- https://www.youtube.com/watch?v=ey4pTOfdi9k
 - C++20: The small things
 	- Timur Doumler
 	- St. Petersburg C++ User Group, 11.06.2019
