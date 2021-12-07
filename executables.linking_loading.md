@@ -482,6 +482,8 @@ See also:
 - libprocesshider: Hide a process under Linux using the ld preloader
 	- https://github.com/gianlucaborello/libprocesshider
 	- https://sysdig.com/blog/hiding-linux-processes-for-fun-and-profit/
+- libtree: ldd as a tree with an option to bundle dependencies into a single folder
+	- https://github.com/haampie/libtree
 
 ---
 
