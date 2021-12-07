@@ -391,6 +391,12 @@ https://riscv.org/software-tools/
 
 ## Software: Emulation & Simulation
 
+- Banshee: A Fast LLVM-Based RISC-V Binary Translator
+	- https://github.com/pulp-platform/snitch/tree/master/sw/banshee
+	- International Conference on Computer-Aided Design (ICCAD) 2021
+		- Samuel Riedel, Fabian Schuiki, Paul Scheffler, Florian Zaruba, Luca Benini
+		- https://pulp-platform.org/docs/Banshee_ICCAD_2021.pdf
+		- https://www.research-collection.ethz.ch/handle/20.500.11850/517913
 - BRISC-V: an open-source, RISC-V based, full multicore, design space exploration platform
 	- https://ascslab.org/research/briscv/index.html
 	- BRISC-V Explorer (RTL) - http://ascslab.org/research/briscv/explorer/explorer.html
