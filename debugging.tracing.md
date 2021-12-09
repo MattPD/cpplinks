@@ -345,12 +345,6 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 
 - Ftrace - https://alex.dzyoba.com/blog/ftrace/
 - Ftrace: The hidden light switch - https://lwn.net/Articles/608497/
-- ftrace: Where modifying a running kernel all started
-	- Kernel Recipes 2019; Steven Rostedt
-	- https://www.youtube.com/watch?v=93uE_kWWQjs
-- Debugging realtime application with Ftrace
-	- FOSDEM 2018; Pierre Ficheux
-	- https://fosdem.org/2018/schedule/event/debugging_tools_ftrace/
 - Hooking Linux Kernel Functions
 	- Part 1: Looking for the Perfect Solution - https://www.apriorit.com/dev-blog/544-hooking-linux-functions-1
 	- Part 2: How to Hook Functions with Ftrace - https://www.apriorit.com/dev-blog/546-hooking-linux-functions-2
@@ -365,13 +359,27 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- https://github.com/brendangregg/perf-tools
 - Tracing the Linux kernel with ftrace
 	- https://embeddedbits.org/tracing-the-linux-kernel-with-ftrace/
-- Understanding the Linux Kernel via Ftrace - Kernel Recipes 2017 - Steven Rostedt
-	- https://kernel-recipes.org/en/2017/talks/understanding-the-linux-kernel-via-ftrace/
-	- https://www.youtube.com/watch?v=2ff-7UTg5rE
+
+#### Software: Linux - ftrace - Talks
+
+- ftrace: Where modifying a running kernel all started
+	- Kernel Recipes 2019; Steven Rostedt
+	- https://www.youtube.com/watch?v=93uE_kWWQjs
+- Debugging realtime application with Ftrace
+	- FOSDEM 2018; Pierre Ficheux
+	- https://fosdem.org/2018/schedule/event/debugging_tools_ftrace/
 - See what your computer is doing with Ftrace utilities
 	- linux.conf.au 2019; Steven Rostedt
 	- https://www.youtube.com/watch?v=68osT1soAPM
 	- https://2019.linux.conf.au/schedule/presentation/130/
+- Tracing with Ftrace: Critical Tooling for Linux Development
+	- Linux Foundation LF Live Mentorship Series 2021
+	- Steven Rostedt
+	- https://www.linuxfoundation.org/webinars/tracefs-the-building-blocks-of-linux-kernel-tracing-by-ftrace/
+	- https://events.linuxfoundation.org/mentorship-session-tracefs-the-building-blocks-of-linux-kernel-tracing-by-ftrace/
+- Understanding the Linux Kernel via Ftrace - Kernel Recipes 2017 - Steven Rostedt
+	- https://kernel-recipes.org/en/2017/talks/understanding-the-linux-kernel-via-ftrace/
+	- https://www.youtube.com/watch?v=2ff-7UTg5rE
 
 ### Software: Linux - LTTng
 
