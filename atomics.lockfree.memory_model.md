@@ -513,6 +513,10 @@
 - Memory Architectures for Programmable Forward-Looking Systems
 	- ISPASS 2021 Keynote Address; Dan Lustig
 	- https://www.youtube.com/watch?v=YVsYn3NDOYk
+- The Upcoming Concurrency TS Version 2 for Low-Latency and Lockless Synchronization
+	- CppCon 2021
+	- Maged Michael, Michael Wong, Paul E. McKenney
+	- https://www.youtube.com/watch?v=ZrQ7dk5OXJU&list=PLHTh1InhhwT6vjwMy3RG5Tnahw0G9qIx6&index=48
 
 ### 2020
 
