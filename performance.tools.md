@@ -52,10 +52,13 @@
 
 ## Readings
 
-- Examples:
+- Micro benchmarking libraries for C++
 	- http://www.bfilipek.com/2016/01/micro-benchmarking-libraries-for-c.html
 	- http://www.bfilipek.com/2016/02/revisiting-old-benchmark-vector-of.html
 	- http://www.bfilipek.com/2016/05/google-benchmark-library.html
+- Performance Analysis and Tuning on Modern CPU
+	- https://book.easyperf.net/perf_book
+	- https://github.com/dendibakh/perf-book
 - Systems Benchmarking Crimes - Gernot Heiser - https://www.cse.unsw.edu.au/~gernot/benchmarking-crimes.html
 
 # Memory
