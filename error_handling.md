@@ -36,6 +36,7 @@
 - Arthur O’Dwyer - https://quuxplusone.github.io/blog/tags/#exception-handling
 	- Copy Elision in Throw Statements - https://quuxplusone.github.io/blog/2018/04/09/elision-in-throw-statements/
 	- The Lakos Rule - https://quuxplusone.github.io/blog/2018/04/25/the-lakos-rule/
+	- Data race when catching by non-const reference - https://quuxplusone.github.io/blog/2018/09/16/data-race-when-catch-by-nonconst-reference/
 - Boris Kolpackov
 	- Throwing Destructors - https://www.kolpackov.net/projects/c++/eh/dtor-1.xhtml
 - "Buckaroo" - Error Handling in C++ or: Why You Should Use Eithers in Favor of Exceptions and Error-codes
