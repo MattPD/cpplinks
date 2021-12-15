@@ -683,6 +683,10 @@ See also: [Computer Architecture](comparch.md)
 	- https://arxiv.org/abs/2110.04751
 	- Dynamic Process Isolation: Research by Cloudflare and TU Graz
 		- https://blog.cloudflare.com/spectre-research-with-tu-graz/
+- Hardware-Software Contracts for Secure Speculation
+	- IEEE Symposium on Security and Privacy (IEEE S&P) 2021
+	- Marco Guarnieri, Boris Köpf, Jan Reineke, Pepe Vila
+	- https://arxiv.org/abs/2006.03841
 - High-Assurance Cryptography in the Spectre Era
 	- IEEE Symposium on Security and Privacy (IEEE S&P) 2021
 	- Gilles Barthe, Sunjay Cauligi, Benjamin Gregoire, Adrien Koutsos, Kevin Liao, Tiago Oliveira, Swarn Priya, Tamara Rezk, Peter Schwabe
