@@ -546,3 +546,5 @@ https://riscv.org/software-tools/
 - RISC-V QEMU
 	- Part 1: Privileged ISA v1.10, HiFive1 and VirtIO - https://www.sifive.com/blog/2017/12/20/risc-v-qemu-part-1-privileged-isa-hifive1-virtio/
 - RISC-V Tutorial at HPCA 2015 - https://riscv.org/2015/02/risc-v-tutorial-hpca-2015/
+- Understanding Assembly Part I: RISC-V
+	- https://mcyoung.xyz/2021/11/29/assembly-1/
