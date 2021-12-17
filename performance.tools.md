@@ -219,6 +219,9 @@
 		- https://arxiv.org/abs/2010.04017
 		- https://github.com/ithemal/DiffTune
 		- https://www.youtube.com/watch?v=7sN2YsqgPLY
+- microarchitecturometer: Measures microarchitectural details
+	- Measures microarchitectural details such as ROB size.
+	- https://github.com/Veedrac/microarchitecturometer
 - nanoBench: A tool for running small microbenchmarks on recent Intel and AMD x86 CPUs
 	- used for running the microbenchmarks for obtaining the latency, throughput, and port usage data available on http://uops.info
 	- https://github.com/andreas-abel/nanoBench
