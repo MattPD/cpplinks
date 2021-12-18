@@ -87,6 +87,9 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ## Readings: Concurrency
 
+- Atomics in AArch64
+	- 2021; Jim Cownie
+	- https://cpufun.substack.com/p/atomics-in-aarch64
 - Formalising the ARMv8 Memory Consistency Model
 	- Will Deacon, ARM, Keynote, OpenSHMEM 2018
 	- https://www.csm.ornl.gov/workshops/openshmem2018/presentations/mm-openshmem2018.pdf
