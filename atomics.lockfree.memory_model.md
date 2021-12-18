@@ -270,6 +270,14 @@
 	- POPL 2019
 	- Azalea Raad, Marko Doko, Lovro Rožić, Ori Lahav, Viktor Vafeiadis
 	- https://popl19.sigplan.org/event/popl-2019-research-papers-on-library-correctness-under-weak-memory-consistency
+- Promising-ARM/RISC-V: A Simpler and Faster Operational Concurrency Model
+	- PLDI 2019
+	- Christopher Pulte, Jean Pichon-Pharabod, Jeehoon Kang, Sung-Hwan Lee, Chung-Kil Hur
+	- https://dl.acm.org/doi/10.1145/3314221.3314624
+	- https://sf.snu.ac.kr/promising-arm-riscv/
+	- https://github.com/snu-sf/promising-arm
+	- https://github.com/promising-arm-riscv/promising-arm-riscv
+	- https://www.youtube.com/watch?v=0oHpVr1IFN0
 - Verifying C11 Programs Operationally
 	- Principles and Practice of Parallel Programming (PPoPP) 2019
 	- Simon Doherty, Brijesh Dongol, Heike Wehrheim, John Derrick
