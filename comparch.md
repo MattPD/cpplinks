@@ -18,30 +18,41 @@ See also: [Assembly (Arm)](assembly.arm.md), [Assembly (RISC-V)](assembly.riscv.
 
 - The Elements of Computing Systems: Building a Modern Computer from First Principles
 	- Build a Modern Computer from First Principles: From NAND to Tetris
+	- Noam Nisan and Shimon Schocken
+	- 2nd Edition; 2021 
 	- http://www.nand2tetris.org/
 	- (no prerequisites)
-- Patt & Patel: Introduction to Computing Systems: From Bits and Gates to C and Beyond!
-	- https://www.mheducation.com/highered/product/introduction-computing-systems-bits-gates-c-beyond-patt-patel/M0072467509.html
+- Introduction to Computing Systems: From Bits & Gates to C/C++ & Beyond
+	- Yale Patt and Sanjay Patel
+	- (3rd Edition; 2020)
+	- https://www.mheducation.com/highered/product/introduction-computing-systems-bits-gates-c-c-beyond-patt-patel/M9781260150537.html
 	- (no prerequisites, freshmen year level)
 - Digital Design and Computer Architecture
-	- ARM Edition (1st Edition; 2014) - https://www.elsevier.com/books/digital-design-and-computer-architecture/harris/978-0-12-800056-4
+	- ARM Edition (1st Edition; 2015): https://www.elsevier.com/books/digital-design-and-computer-architecture/harris/978-0-12-800056-4
+	- RISC-V Edition (1st Edition; 2021): https://www.elsevier.com/books/digital-design-and-computer-architecture-risc-v-edition/harris/978-0-12-820064-3
 	- (background; no prerequisites beyond basic programming) digital logic, hardware 
 - Computer Systems: A Programmer's Perspective (CS:APP)
 	- http://csapp.cs.cmu.edu/
 	- (undergraduate level, basic programming background helpful)
-- David A. Patterson, John L. Hennessy: "Computer Organization and Design: The Hardware-Software Interface"
-	- RISC-V Edition (1st Edition; 2017) - https://www.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-812275-4
+- Computer Organization and Design: The Hardware-Software Interface
+	- David A. Patterson, John L. Hennessy
+	- RISC-V Edition (2nd Edition; 2020) - https://www.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-820331-6
 	- (undergraduate level)
-- John L. Hennessy, David A. Patterson "Computer Architecture: A Quantitative Approach"
-	- 6th Edition - https://www.elsevier.com/books/computer-architecture/hennessy/978-0-12-811905-1
+- Computer Architecture: A Quantitative Approach
+	- John L. Hennessy, David A. Patterson 
+	- 6th Edition; 2017 - https://www.elsevier.com/books/computer-architecture/hennessy/978-0-12-811905-1
 	- (graduate level)
-- J.P. Shen and M.H. Lipasti. "Modern Processor Design: Fundamentals of Superscalar Processors"
+- Modern Processor Design: Fundamentals of Superscalar Processors
+	- J.P. Shen and M.H. Lipasti
+	- 2005
 	- https://www.waveland.com/browse.php?t=624
-- "Readings in Computer Architecture"
-	- http://booksite.elsevier.com/9781558605398/
+- Readings in Computer Architecture
+	- 1999
+	- Mark D. Hill, Norman P. Jouppi, Gurindar S. Sohi
 	- http://pages.cs.wisc.edu/~markhill/readings/www/
 	- (a collection of seminal papers in computer architecture)
-- ACM International Conference on Supercomputing (ICS) 25th Anniversary Volume (2014)
+- ACM International Conference on Supercomputing (ICS) 25th Anniversary Volume
+	 2014
 	- https://dl.acm.org/citation.cfm?id=2591635&picked=prox
 - Synthesis Lectures on Computer Architecture - Morgan & Claypool Publishers
 	- http://www.morganclaypool.com/toc/cac/11/1
