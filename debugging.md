@@ -1192,6 +1192,15 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ## 2021
 
+- Debugging Techniques
+	- Bob Steagall
+	- MUC++ 2021
+		- https://www.youtube.com/watch?v=LBs3RqyKI5c
+		- https://github.com/BobSteagall/MeetupTalks/blob/main/2021-10-07_debugging_techniques__bob_steagall__muc%2B%2B.pdf
+	- CppCon 2021
+		- https://www.youtube.com/watch?v=02WsP5gTJCg
+		- https://github.com/BobSteagall/CppCon2021/tree/main/DebuggingTechniques
+		- https://cppcon.digital-medium.co.uk/wp-content/uploads/2021/11/back_to_basics_classic_stl__bob_steagall__cppcon_2021.pdf
 - Modern Linux C++ Debugging Tools: Under the Covers
 	- ACCU 2021; Greg Law & Dewang Li
 	- https://www.youtube.com/watch?v=qYbGDDIsH4M
