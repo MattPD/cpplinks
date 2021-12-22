@@ -241,7 +241,7 @@ See also: [Computer Architecture](comparch.md)
 - Timing Channels - Trustworthy Systems - Data61
 	- https://ts.data61.csiro.au/projects/TS/timeprotection/
 
-## Defense - Branch Predictor
+## Defense: Branch Predictor
 
 - BRB: Mitigating Branch Predictor Side-Channels
 	- High-Performance Computer Architecture (HPCA) 2019
@@ -249,9 +249,9 @@ See also: [Computer Architecture](comparch.md)
 	- https://eprints.soton.ac.uk/426627/
 	- complementary dataset: https://doi.org/10.5258/soton/d0739
 
-## Defense - Cache
+## Defense: Cache
 
-### Defense - Cache: 2021
+### Defense: Cache: 2021
 
 - Battle for Secure Caches: Attacks and Defenses on Randomized Caches
 	- 2021
@@ -281,7 +281,7 @@ See also: [Computer Architecture](comparch.md)
 	- Antoon Purnal, Lukas Giner, Daniel Gruss, Ingrid Verbauwhede
 	- https://www.esat.kuleuven.be/cosic/publications/article-3194.pdf
 
-### Defense - Cache: 2020
+### Defense: Cache: 2020
 
 - A Benchmark Suite for Evaluating Caches' Vulnerability to Timing Attacks
 	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2020
@@ -304,7 +304,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://doi.org/10.1145/3386901.3388888
 	- https://haehyun.github.io/papers/smokebomb-mobisys20.pdf
 
-### Defense - Cache: 2019
+### Defense: Cache: 2019
 
 - An Exploration of Effective Fuzzing for Side-channel Cache Leakage
 	- Software Testing, Verification and Reliability (STVR) 2019
@@ -343,7 +343,7 @@ See also: [Computer Architecture](comparch.md)
 	- Mengjia Yan, Jen-Yang Wen, Christopher Fletcher, Josep Torrellas
 	- http://iacoma.cs.uiuc.edu/work/comanuma.html
 
-### Defense - Cache: 2018
+### Defense: Cache: 2018
 
 - CacheShield: Protecting Legacy Processes Against Cache Attacks
 	- CODASPY 2018
@@ -363,7 +363,7 @@ See also: [Computer Architecture](comparch.md)
 	- Pablo Cañones, Boris Köpf, Jan Reineke
 	- https://arxiv.org/abs/1807.01240
 
-### Defense - Cache: 2017
+### Defense: Cache: 2017
 
 - CacheD: Identifying Cache-Based Timing Channels in Production Software
 	- USENIX Security 2017
@@ -389,7 +389,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://gruss.cc/files/cloak.pdf
 	- https://github.com/Microsoft/msr-cloak
 
-### Defense - Cache: 2016
+### Defense: Cache: 2016
 
 - Automated Detection of Instruction Cache Leaks in Modular Exponentiation Software
 	- CARDIS 2016
@@ -397,7 +397,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://link.springer.com/chapter/10.1007/978-3-319-54669-8_14
 	- https://github.com/falsecurity/cache-leak-detector
 
-### Defense - Cache: 2013
+### Defense: Cache: 2013
 
 - Architecting against Software Cache-Based Side-Channel Attacks
 	- IEEE Transactions on Computers 62(7), July 2013
@@ -409,7 +409,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/doychev
 	- https://github.com/cacheaudit/cacheaudit
 
-## Defense - Floating Point Unit (FPU)
+## Defense: Floating Point Unit (FPU)
 
 - On the effectiveness of mitigations against floating-point timing channels
 	- USENIX Security 2017
@@ -423,7 +423,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.youtube.com/watch?v=f2y6yHXoEc0
 	- https://ranjitjhala.github.io/static/ctfp-ccs18.pdf
 
-## Defense - Hardware Design & Verification
+## Defense: Hardware Design & Verification
 
 - A Hardware Design Language for Timing-Sensitive Information-Flow Security
 	- ASPLOS 2015
@@ -512,14 +512,14 @@ See also: [Computer Architecture](comparch.md)
 	- Drew Zagieboylo, G. Edward Suh, Andrew C. Myers
 	- http://www.cs.cornell.edu/andru/papers/hyperisa/
 
-## Defense - Power
+## Defense: Power
 
 - PARAM: A Microprocessor Hardened for Power Side-Channel Attack Resistance
 	- IEEE International Symposium on Hardware Oriented Security and Trust (HOST) 2020
 	- Muhammad Arsath K F, Vinod Ganesan, Rahul Bodduna, Chester Rebeiro
 	- https://arxiv.org/abs/1911.08813
 
-## Defense - Software
+## Defense: Software
 
 - C++ Developer Guidance for Speculative Execution Side Channels
 	- https://docs.microsoft.com/en-us/cpp/security/developer-guidance-speculative-execution
@@ -538,7 +538,8 @@ See also: [Computer Architecture](comparch.md)
 	- http://essay.utwente.nl/72321/
 	- http://essay.utwente.nl/72321/1/Krak_MA_EEMCS.pdf
 	- model of instruction execution time for the ARM Cortex-A7
-- dudect: dude, is my code constant time? - https://github.com/oreparaz/dudect
+- dudect: dude, is my code constant time?
+	- https://github.com/oreparaz/dudect
 - KASLR is Dead: Long Live KASLR
 	- Engineering Secure Software and Systems (ESSoS) 2017
 	- Daniel Gruss, Moritz Lipp, Michael Schwarz, Richard Fellner, Clémentine Maurice, Stefan Mangard
@@ -594,13 +595,14 @@ See also: [Computer Architecture](comparch.md)
 	- Sandrine Blazy, David Pichardie, Alix Trieu
 	- https://hal.inria.fr/hal-01588444
 	- https://link.springer.com/chapter/10.1007/978-3-319-66402-6_16
-- Why Constant-Time Crypto? - https://www.bearssl.org/constanttime.html
+- Why Constant-Time Crypto?
+	- https://www.bearssl.org/constanttime.html
 - You Shall Not Bypass: Employing data dependencies to prevent Bounds Check Bypass
 	- arXiv 2018
 	- Oleksii Oleksenko, Bohdan Trach, Tobias Reiher, Mark Silberstein, Christof Fetzer
 	- https://arxiv.org/abs/1805.08506
 
-### Defense - Software - Compilation and Programming Languages
+### Defense: Software: Compilation and Programming Languages
 
 - Automatically Eliminating Speculative Leaks from Cryptographic Code with Blade
 	- Principles of Programming Languages (POPL) 2021
@@ -660,12 +662,12 @@ See also: [Computer Architecture](comparch.md)
 	- https://arxiv.org/abs/2102.12730
 	- https://www.usenix.org/conference/usenixsecurity21/presentation/narayan
 
-## Defense - Speculation
+## Defense: Speculation
 
 - Pitchfork: Detecting Spectre vulnerabilities using symbolic execution
 	- https://github.com/cdisselkoen/pitchfork
 
-### Defense - Speculation: 2021
+### Defense: Speculation: 2021
 
 - BasicBlocker: ISA Redesign to Make Spectre-Immune CPUs Faster
 	- RAID 2021
@@ -700,7 +702,7 @@ See also: [Computer Architecture](comparch.md)
 	- Sunjay Cauligi, Craig Disselkoen, Daniel Moghimi, Gilles Barthe, Deian Stefan
 	- https://arxiv.org/abs/2105.05801
 
-### Defense - Speculation: 2020
+### Defense: Speculation: 2020
 
 - ConTExT: A Generic Approach for Mitigating Spectre
 	- Network and Distributed Systems Security (NDSS) Symposium 2020
@@ -728,7 +730,7 @@ See also: [Computer Architecture](comparch.md)
 	- http://www.it.uu.se/research/publications/lic/2020-003/
 	- http://www.diva-portal.org/smash/get/diva2:1389898/FULLTEXT01.pdf
 
-### Defense - Speculation: 2019
+### Defense: Speculation: 2019
 
 - A Formal Approach to Secure Speculation
 	- 2019 IEEE 32nd Computer Security Foundations Symposium (CSF)
@@ -809,7 +811,7 @@ See also: [Computer Architecture](comparch.md)
 	- http://iacoma.cs.uiuc.edu/iacoma-papers/PRES/present_micro19_2.pdf
 	- https://keystone-enclave.org/open-source-enclaves-workshop/slides/OSEW19_ChristopherFletcher_UIUC.pdf
 
-### Defense - Speculation: 2018
+### Defense: Speculation: 2018
 
 - An Inside Story of Mitigating Speculative Execution Side Channel Vulnerabilities
 	- Black Hat 2018; Anders Fogh, Christopher Ertl
@@ -924,7 +926,7 @@ See also: [Computer Architecture](comparch.md)
 
 # Cache
 
-## Cache (2021)
+## Cache: 2021
 
 - iTimed: Cache Attacks on the Apple A10 Fusion SoC
 	- IEEE International Symposium on Hardware Oriented Security and Trust (HOST) 2021
@@ -936,7 +938,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://orenlab.sise.bgu.ac.il/p/PP0
 	- https://github.com/Yossioren/pp0
 
-## Cache (2020)
+## Cache: 2020
 
 - Analysis and Detection of Cache-Based Exploits
 	- 2020 Ph.D. Dissertation; Tsvetoslava Vateva-Gurova
@@ -987,7 +989,7 @@ See also: [Computer Architecture](comparch.md)
 	- Anatoly Shusterman, Zohar Avraham, Eliezer Croitoru, Yarden Haskal, Lachlan Kang, Dvir Levi, Yosef Meltser, Prateek Mittal, Yossi Oren, Yuval Yarom
 	- https://orenlab.sise.bgu.ac.il/p/RobustFingerprinting-TDSC
 
-## Cache (2019)
+## Cache: 2019
 
 - Attack Directories, Not Caches: Side Channel Attacks in a Non-Inclusive World
 	- IEEE Symposium on Security and Privacy (SP) 2019
@@ -1011,7 +1013,7 @@ See also: [Computer Architecture](comparch.md)
 	- Daimeng Wang, Ajaya Neupane, Zhiyun Qian, Nael Abu-Ghazaleh, Srikanth V. Krishnamurthy, Edward J. M. Colbert, Paul Yu
 	- http://www.cs.ucr.edu/~zhiyunq/pub/ndss19_cache_keystrokes.pdf
 
-## Cache (2018)
+## Cache: 2018
 
 - Are Coherence Protocol States vulnerable to Information Leakage?
 	- HPCA 2018
@@ -1031,7 +1033,7 @@ See also: [Computer Architecture](comparch.md)
 	- Anatoly Shusterman, Lachlan Kang, Yarden Haskal, Yosef Meltser, Prateek Mittal, Yossi Oren, Yuval Yarom
 	- https://arxiv.org/abs/1811.07153
 
-## Cache (2017)
+## Cache: 2017
 
 - AutoLock: Why Cache Attacks on ARM Are Harder Than You Think
 	- USENIX Security 2017
@@ -1049,7 +1051,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://github.com/IAIK/CJAG
 	- BH Asia 2017: https://www.youtube.com/watch?v=a9sGk7FtnYk
 
-## Cache (2016)
+## Cache: 2016
 
 - A High-Resolution Side-channel attack on the Last Level Cache
 	- DAC 2016 (best paper nominee)
@@ -1087,7 +1089,7 @@ See also: [Computer Architecture](comparch.md)
 	- http://web.cse.ohio-state.edu/~xiao.465/fp0501-zhang.pdf
 	- https://www.youtube.com/watch?v=tymvrJiJNl8
 
-## Cache (2015)
+## Cache: 2015
 
 - C5: Cross-Cores Cache Covert Channel
 	- Detection of Intrusions and Malware, and Vulnerability Assessment (DIMVA) 2015
@@ -1106,7 +1108,7 @@ See also: [Computer Architecture](comparch.md)
 	- http://palms.ee.princeton.edu/system/files/SP_vfinal.pdf
 	- https://www.youtube.com/watch?v=vpGI1ggKzC4
 
-## Cache (2007-2014)
+## Cache: 2007-2014
 
 - An Analytical Model for Time-Driven Cache Attacks
 	- Fast Software Encryption (FSE) 2007
@@ -1126,7 +1128,7 @@ See also: [Computer Architecture](comparch.md)
 	- Onur Aciiçmez
 	- http://eprint.iacr.org/2007/164
 
-## Cache - Data-Direct I/O (DDIO)
+## Cache: Data-Direct I/O (DDIO)
 
 - NetCAT: Practical Cache Attacks from the Network
 	- S&P 2020
@@ -1763,6 +1765,14 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.youtube.com/watch?v=Pwq0vv4X7m4
 	- https://www.blackhat.com/docs/us-16/materials/us-16-Fogh-Using-Undocumented-CPU-Behaviour-To-See-Into-Kernel-Mode-And-Break-KASLR-In-The-Process.pdf
 
+## Prefetch: 2022
+
+- AMD Prefetch Attacks through Power and Time
+	- USENIX Security 2022
+	- Moritz Lipp, Daniel Gruss, Michael Schwarz
+	- https://mlq.me/download/amdprefetch.pdf
+	- https://github.com/amdprefetch/amd-prefetch-attacks
+
 ---
 
 # Pseudo-Random Number Generator (PRNG)
@@ -2282,7 +2292,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 
 # Talks
 
-## 2021
+## Talks: 2021
 
 - A Practical Introduction to Transient Execution Attacks
 	- European Symposium on Research in Computer Security (ESORICS) 2021
@@ -2290,7 +2300,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- https://www.youtube.com/watch?v=xteiXOpEjXs
 	- https://esorics2021.athene-center.de/tutorial-07-28.php
 
-## 2020
+## Talks: 2020
 
 - Cryptographic Software in a Post-Spectre World
 	- Real World Crypto 2020; Chandler Carruth
@@ -2304,7 +2314,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- https://www.youtube.com/watch?v=2lTkNk3HZ-c
 	- http://pages.cs.wisc.edu/~markhill/seminar2020/fletcher2020_09_principled_secure_processor_design.pdf
 
-## 2019
+## Talks: 2019
 
 - AcuTherm: A Hybrid Attack on Password Entry Based on Both Acoustic and Thermal Side-Channels
 	- Black Hat Asia 2019
@@ -2354,7 +2364,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- https://www.youtube.com/watch?v=pdgCGyrRpAw
 	- https://talks.toorcon.net/toorcon21/talk/KE9SYU/
 
-## 2018
+## Talks: 2018
 
 - A Christmas Carol - The Spectres of the Past, Present, and Future
 	- 35c3 (2018)
@@ -2393,7 +2403,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Matt Miller, Anders Fogh, Christopher Ertl
 	- https://github.com/Microsoft/MSRC-Security-Research/blob/master/presentations/2018_08_BlackHatUSA/us-18-Fogh-Ertl-Wrangling-with-the-Ghost-An-Inside-Story-of-Mitigating-Speculative-Execution-Side-Channel-Vulnerabilities.pdf
 
-## 2017
+## Talks: 2017
 
 - Android Security Symposium 2017 - Drammer: Flip Feng Shui goes mobile (Victor van der Veen)
 	- https://www.youtube.com/watch?v=Zyqq2hj9zrc
@@ -2419,7 +2429,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- https://www.youtube.com/watch?v=4_-c7ueHHqc
 	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/gruss
 
-## 2016
+## Talks: 2016
 
 - Black Hat 2016 - ARMageddon: How Your Smartphone CPU Breaks Software-Level Security and Privacy - https://www.youtube.com/watch?v=9KsnFWejpQg
 - Black Hat 2016 - Side-Channel Attacks on Everyday Applications - Taylor Hornby
@@ -2448,7 +2458,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- https://www.youtube.com/watch?v=Pwq0vv4X7m4
 - What could possibly go wrong with {insert x86 instruction here}? [33c3] - https://www.youtube.com/watch?v=wue4QomGE74
 
-## 2015
+## Talks: 2015
 
 - Clémentine Maurice, Daniel Gruss: Rowhammer.js: Root privileges for web apps? - https://www.youtube.com/watch?v=9L5MJ43nbkI
 - Controlled-Channel Attacks: Deterministic Side Channels for Untrusted Operating Systems - https://www.youtube.com/watch?v=fwUaN5ik8zE
@@ -2465,11 +2475,11 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 - S$A: A Shared Cache Attack That Works across Cores and Defies VM Sandboxing -- and Its Application to AES - https://www.youtube.com/watch?v=mwMjn8niX-Y
 - Side-Channel Attacks by Differential Power Analysis - Nathaniel Graff - https://www.youtube.com/watch?v=bHncSnHQleY
 
-## 2014
+## Talks: 2014
 
 - MIT 6.858 Computer Systems Security, Fall 2014 - Lecture 16. Side-Channel Attacks - https://www.youtube.com/watch?v=PuVMkSEcPiI
 
-## 2009
+## Talks: 2009
 
 - Defcon 17 - Sniff Keystrokes With Lasers/Voltmeters - Side Channel Attacks Using Optical Sampling
 	- paper: https://www.defcon.org/images/defcon-17/dc-17-presentations/Andrea_Barisani-Daniele_%20Bianco/defcon-17-barisani-bianco-sniff_keystrokes-wp.pdf
