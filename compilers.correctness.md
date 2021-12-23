@@ -319,6 +319,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 
 ### Testing: Readings: 2021
 
+- JEST: N+1-version Differential Testing of Both JavaScript Engines and Specification
+	- International Conference on Software Engineering (ICSE) 2021
+	- Jihyeok Park, Seungmin An, Dongjun Youn, Gyeongwon Kim, Sukyoung Ryu
+	- https://arxiv.org/abs/2102.07498
 - SpecTest: Specification-Based Compiler Testing
 	- Fundamental Approaches to Software Engineering (FASE) 2021
 	- Richard Schumi, Jun Sun
