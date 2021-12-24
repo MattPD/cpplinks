@@ -170,6 +170,10 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 - C++20 - Reaching for the Aims of C++
 	- CppCon 2021; Bjarne Stroustrup
 	- https://www.youtube.com/watch?v=15QF2q66NhU
+- C++20 - The Hidden Pearls
+	- Meeting C++ 2021; Rainer Grimm
+	- https://www.youtube.com/watch?v=KKi6-T8xuX4
+	- https://meetingcpp.com/mcpp/slides/2021/C+20TheHiddenPearls6091.pdf
 - C++20: An (Almost) Complete Overview
 	- CppCon 2020; Marc Gregoire
 	- https://www.youtube.com/watch?v=FRkJCvHWdwQ
