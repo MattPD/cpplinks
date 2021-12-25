@@ -26,7 +26,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	- [Binary Analysis](#software-binary-analysis)
 	- [Concurrency](#software-concurrency)
 	- [Debugging, Tracing](#software-debugging-tracing)
-	- [Emulation, Simulation](#software-emulation-simulation)
+	- [Emulation, Simulation](#software-emulation-simulation): [x86, x86-64]((#software-emulation-simulation-x86-x86-64)
 	- [Lifting: Disassemblers, Decompilers, Recompilers](#software-lifting)
 	- [Performance](#software-performance): [SIMD](#software-performance-simd)
 	- [Virtualization](#software-virtualization)
@@ -914,6 +914,12 @@ See also: [Readings: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- https://uob-hpc.github.io/SimEng/
 - thumbulator: Thumb (16 bit ARM) instruction set simulator - https://github.com/dwelch67/thumbulator
 - VisUAL - A highly visual ARM emulator - http://salmanarif.bitbucket.org/visual/
+
+### Software: Emulation, Simulation: x86, x86-64
+
+- FEX-Emu: A fast linux usermode x86 and x86-64 emulator for AArch64 devices
+	- https://fex-emu.org
+	- https://github.com/FEX-Emu/FEX
 
 ## Software: Lifting
 
