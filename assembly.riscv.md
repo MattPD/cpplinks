@@ -534,6 +534,8 @@ https://riscv.org/software-tools/
 		- Spring 2020; John Winans
 		- https://www.youtube.com/playlist?list=PL3by7evD3F50uclXhrmlwoWQicSDTy8yT
 		- http://faculty.cs.niu.edu/~winans/CS463/
+- RISC-V Bytes - https://danielmangum.com/categories/risc-v-bytes/
+	- Cross-Platform Debugging with QEMU and GDB - https://danielmangum.com/posts/risc-v-bytes-qemu-gdb/
 - RISC-V Educational Materials
 	- https://riscv.org/educational-materials/
 	- https://github.com/riscv/educational-materials
