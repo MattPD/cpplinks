@@ -521,6 +521,11 @@
 - Memory Architectures for Programmable Forward-Looking Systems
 	- ISPASS 2021 Keynote Address; Dan Lustig
 	- https://www.youtube.com/watch?v=YVsYn3NDOYk
+- The Foundation of C++ Atomics: The Knowledge You Need to Correctly Use C++ Atomics
+	- Filipe Mulonde
+	- CppCon 2021: https://www.youtube.com/watch?v=BfEnMRWLjgQ
+	- CPPP 2021: https://github.com/CpppFr/CPPP-21/tree/main/the_foundation_of_cxx_atomics_the_knowledge_you_need_to_correctly_use_cxx_atomics-filipe_mulonde
+	- Meeting C++ 2021: https://www.youtube.com/watch?v=zE5IiaViVxk
 - The Upcoming Concurrency TS Version 2 for Low-Latency and Lockless Synchronization
 	- CppCon 2021
 	- Maged Michael, Michael Wong, Paul E. McKenney
