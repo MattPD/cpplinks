@@ -475,6 +475,13 @@ See also: [Computer Architecture](comparch.md)
 	- Dimitrios Skarlatos, Zirui Zhao, Riccardo Paccagnella, Christopher W. Fletcher, Josep Torrellas
 	- https://rp8.web.engr.illinois.edu/papers/jamaisvu-asplos2021.pdf
 	- https://github.com/dskarlatos/JamaisVu
+- Microarchitectural Timing Channels and their Prevention on an Open-Source 64-bit RISC-V Core
+	- Design, Automation and Test in Europe (DATE) 2021
+	- Nils Wistoff, Moritz Schneider, Frank K. Gürkaynak, Luca Benini, Gernot Heiser
+	- https://trustworthy.systems/publications/csiro_full_text/Wistoff_SGBH_21.pdf
+	- https://pulp-platform.org/docs/date2021/DATE21-nwistoff-timing-channels.pdf
+	- http://hdl.handle.net/102.100.100/387380
+	- L1 D$, L1 I$, TLB, BTB, BHT
 - ParTI - Towards Combined Hardware Countermeasures against Side Channel and Fault Injection Attacks
 	- CHES 2016, IACR-CRYPTO-2016
 	- Tobias Schneider, Amir Moradi, Tim Güneysu
