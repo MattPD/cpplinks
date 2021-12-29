@@ -502,6 +502,8 @@ Contents:
 * How to execute an object file
 	- Part 1: Calling a simple function without linking: https://blog.cloudflare.com/how-to-execute-an-object-file-part-1/
 	- Part 2: Handling relocations: https://blog.cloudflare.com/how-to-execute-an-object-file-part-2/
+	- Part 3: Dealing with external libraries: https://blog.cloudflare.com/how-to-execute-an-object-file-part-3/
+	- https://github.com/cloudflare/cloudflare-blog/tree/master/2021-03-obj-file
 * How To Write Shared Libraries - https://www.akkadia.org/drepper/dsohowto.pdf
 * I/O patterns on ELF binary initialization - https://glandium.org/blog/?p=1016
 * Improving binary layout for progressive decompression (2011) - https://glandium.org/blog/?p=2320
