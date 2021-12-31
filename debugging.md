@@ -1005,6 +1005,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Live Debugging Techniques for the Linux Kernel
 	- Part 1: setting up an Oracle Linux virtual machine
 		- https://blogs.oracle.com/linux/post/live-kernel-debugging-1
+	- Part 2: basic techniques utilizing gdb & QEMU's gdbserver, gdb Python
+		- https://blogs.oracle.com/linux/post/live-kernel-debugging-2
 
 #### Linux: Talks
 
