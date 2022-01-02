@@ -1154,3 +1154,13 @@ Test Doubles: Faking, Mocking
 - Pragmatic Unit Testing in C++
 	- CppCon 2014; Matt Hargett
 	- https://www.youtube.com/watch?v=Y8YVSohnlgY
+
+## Talks: 2013
+
+- Integrated Tests are a Scam
+	- DevConFu 2013; J.B. Rainsberger
+	- "Strong integration tests, consisting of collaboration tests (clients using test doubles in place of collaborating services) and contract tests (showing that service implementations correctly behave the way clients expect) can provide the same level of confidence as integrated tests at a lower total cost of maintenance."
+	- https://vimeo.com/80533536
+	- https://blog.thecodewhisperer.com/series#integrated-tests-are-a-scam
+		- https://blog.thecodewhisperer.com/permalink/integrated-tests-are-a-scam
+		- https://blog.thecodewhisperer.com/permalink/clearing-up-the-integrated-tests-scam
