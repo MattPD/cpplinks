@@ -484,6 +484,24 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 ### Testing: Readings: Performance Optimization
 
+- AnghaBench: A Suite with One Million Compilable C Benchmarks for Code-Size Reduction
+	- Angha Project
+		- http://cuda.dcc.ufmg.br/angha/
+		- https://github.com/brenocfg/AnghaBench
+	- AnghaBench: a Synthetic Collection of Benchmarks Mined from Open-Source Repositories
+		- Synthesis of Benchmarks for the C Programming Language by Mining Software Repositories
+		- SBLP 2019
+		- Breno Campos Ferreira Guimarães, José Wesley de S. Magalhães, Anderson Faustino da Silva, Fernando M. Q. Pereira
+		- https://dl.acm.org/doi/10.1145/3355378.3355380
+	- Automatic Synthesis of Compilable C Benchmarks from Open Source Repositories
+		- 2020
+		- Faustino, Anderson, Bruno Kind, Fernando Magno Quint
+		- http://lac.dcc.ufmg.br/pubs/TechReports/LaC_TechReport012020.pdf
+	- AnghaBench: A Suite with One Million Compilable C Benchmarks for Code-Size Reduction
+		- CGO 2021
+		- Anderson Faustino da Silva, Bruno Conde Kind, José Wesley de Souza Magalhães, Jerônimo Nunes Rocha, Breno Campos Ferreira Guimarães, Fernando Magno Quintão Pereira
+		- https://doi.org/10.1109/CGO51591.2021.9370322
+		- https://homepages.dcc.ufmg.br/~fernando/publications/papers/FaustinoCGO21.pdf
 - Compiler Testing via a Theory of Sound Optimisations in the C11/C++11 Memory Model
 	- Programming Language Design and Implementation (PLDI) 2013
 	- Robin Morisset, Pankaj Pawan, Francesco Zappa Nardelli
@@ -741,23 +759,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Angha Project
 		- http://cuda.dcc.ufmg.br/angha/
 		- https://github.com/brenocfg/AnghaBench
-	- AnghaBench: a Synthetic Collection of Benchmarks Mined from Open-Source Repositories
-		- Synthesis of Benchmarks for the C Programming Language by Mining Software Repositories
-		- SBLP 2019
-		- Breno Campos Ferreira Guimarães, José Wesley de S. Magalhães, Anderson Faustino da Silva, Fernando M. Q. Pereira
-		- https://dl.acm.org/doi/10.1145/3355378.3355380
-	- Automatic Synthesis of Compilable C Benchmarks from Open Source Repositories
-		- 2020
-		- Faustino, Anderson, Bruno Kind, Fernando Magno Quint
-		- http://lac.dcc.ufmg.br/pubs/TechReports/LaC_TechReport012020.pdf
-	- AnghaBench: A Suite with One Million Compilable C Benchmarks for Code-Size Reduction
-		- CGO 2021
-		- Anderson Faustino da Silva, Bruno Conde Kind, José Wesley de Souza Magalhães, Jerônimo Nunes Rocha, Breno Campos Ferreira Guimarães, Fernando Magno Quintão Pereira
-		- https://doi.org/10.1109/CGO51591.2021.9370322
-		- https://homepages.dcc.ufmg.br/~fernando/publications/papers/FaustinoCGO21.pdf
 - CF3: Test suite for arithmetic optimization of C compilers
 	- https://ist.ksc.kwansei.ac.jp/~ishiura/pub/CF3/
 	- https://github.com/ishiura-compiler/CF3
+- Compiler-benchmark-suites
+	- A list of benchmark suites used in the research related to compilers, program performance, scientific computations, etc.
+	- https://github.com/quepas/Compiler-benchmark-suites
 - llvm-test-suite: LLVM "test-suite" Repository
 	- https://github.com/llvm/llvm-test-suite
 	- Compile Time Mark: a collection of applications used for compiler performance testing
