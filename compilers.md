@@ -67,8 +67,14 @@ See also:
 		- https://github.com/gablin/ghb-thesis
 		- https://github.com/gablin/ghb-thesis/blob/master/ghb-thesis.pdf
 - Static Single Assignment (SSA) Book
-	- http://ssabook.gforge.inria.fr/latest/book-full.pdf
-	- https://gforge.inria.fr/scm/viewvc.php/ssabook/book/
+	- draft:
+		- http://web.archive.org/http://ssabook.gforge.inria.fr/latest/book-full.pdf
+		- GitHub Mirror
+			- https://github.com/pfalcon/ssabook
+			- PDF: https://pfalcon.github.io/ssabook/latest/
+	- SSA-based Compiler Design
+		- 2022; Fabrice Rastello, Florent Bouchez Tichadou
+		- https://link.springer.com/book/9783030805142
 
 ## LLVM
 
