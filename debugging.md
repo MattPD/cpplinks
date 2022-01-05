@@ -286,6 +286,12 @@ _Books, Books Reviews_
 	- 2018; Alexandre Oliva
 	- https://www.fsfla.org/~lxoliva/writeups/gOlogy/gOlogy.txt
 	- GNU Tools Cauldron 2018 slides: https://www.fsfla.org/~lxoliva/writeups/gOlogy/slides.pdf
+- Improving debug variable location coverage by using even more SSA
+	- 2021 LLVM Developers' Meeting
+	- Jeremy Morse
+	- https://www.youtube.com/watch?v=yxuwfNnp064
+	- https://llvm.org/devmtg/2021-11/slides/2021-ImprovingDebugVariableLocations.pdf
+	- https://www.snsystems.com/technology/tech-blog/improving-debug-variable-location-coverage-by-using-even-more-ssa
 - LLVM and debug information quality
 	- Triplefault 2020; Djordje Todorovic
 	- https://www.youtube.com/watch?v=GpMLt1oecOk
