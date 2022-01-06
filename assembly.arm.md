@@ -695,6 +695,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- https://developer.arm.com/tools-and-software/server-and-hpc/compile/arm-instruction-emulator/resources/tutorials/sve
 - Arm SVE Tools Training
 	- https://gitlab.com/arm-hpc/training/arm-sve-tools
+- ARM’s Scalable Vector Extensions: A Critical Look at SVE2 For Integer Workloads
+	- https://gist.github.com/zingaburga/805669eb891c820bd220418ee3f0d6bd
 - Asvie: A Timing-Agnostic SVE Optimization Methodology
 	- Methodology for ArmIE SVE
 		- <https://github.com/ARM-software/Methodology_for_ArmIE_SVE>
