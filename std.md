@@ -111,6 +111,9 @@
 
 ## C++23: Trip Reports
 
+- 2021 C++ Standardization Highlights
+	- https://botondballo.wordpress.com/2022/01/03/2021-c-standardization-highlights/
+
 ### 2021-06-07 Virtual Meeting
 
 - Trip report: Summer 2021 ISO C++ standards meeting (virtual)
