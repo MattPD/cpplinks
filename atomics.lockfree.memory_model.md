@@ -518,6 +518,11 @@
 
 ### 2021
 
+- Building a Lock-Free Multi-Producer, Multi-Consumer Queue for tcmalloc
+	- CppCon 2021
+	- Matt Kulukundis
+	- https://www.youtube.com/watch?v=_qaKkHuHYE0
+	- https://fowles.github.io/building-a-lock-free-mpmc-queue/
 - Memory Architectures for Programmable Forward-Looking Systems
 	- ISPASS 2021 Keynote Address; Dan Lustig
 	- https://www.youtube.com/watch?v=YVsYn3NDOYk
