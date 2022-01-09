@@ -9,6 +9,8 @@
 
 # General
 
+## General: Software
+
 - C++ Language Interface Foundation (CLIF)
 	- https://github.com/google/clif
 - libffi: A portable foreign-function interface library
@@ -19,6 +21,13 @@
 	- https://github.com/scapix-com/scapix
 - SWIG: Simplified Wrapper and Interface Generator
 	- http://www.swig.org/
+
+## General: Talks
+
+- Making Libraries Consumable for Non-C++ Developers
+	- CppCon 2021
+	- Aaron R Robinson
+	- https://www.youtube.com/watch?v=4r09pv9v1w0
 
 ---
 
