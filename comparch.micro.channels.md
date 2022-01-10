@@ -514,6 +514,11 @@ See also: [Computer Architecture](comparch.md)
 	- Parallel Architectures and Compilation Techniques (PACT) 2019
 	- Daniel Townley and Dmitry Ponomarev
 	- http://www.cs.binghamton.edu/~dima/pact19.pdf
+- SoK: Design Tools for Side-Channel-Aware Implementations
+	- ePrint 2021/497
+	- Ileana Buhan, Lejla Batina, Yuval Yarom, Patrick Schaumont
+	- https://arxiv.org/abs/2104.08593
+	- https://eprint.iacr.org/2021/497
 - Using Information Flow to Design an ISA That Controls Timing Channels
 	- CSF 2019
 	- Drew Zagieboylo, G. Edward Suh, Andrew C. Myers
