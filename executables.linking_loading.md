@@ -415,6 +415,8 @@ See also:
 		- https://sstic.org/2021/presentation/qbdl_quarkslab_dynamic_loader/
 - ShlibVisibilityChecker: Tool for locating internal symbols unnecessarily exported from shared libraries
 	- https://github.com/yugr/ShlibVisibilityChecker
+- timey: A utility for timing linkers
+	- https://github.com/SNSystems/timey
 
 ## Software: Linkers
 
