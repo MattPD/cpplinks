@@ -523,6 +523,11 @@
 	- Matt Kulukundis
 	- https://www.youtube.com/watch?v=_qaKkHuHYE0
 	- https://fowles.github.io/building-a-lock-free-mpmc-queue/
+- Hazard Pointer Synchronous Reclamation Beyond Concurrency TS2
+	- CppCon 2021; Maged Michael
+	- https://www.youtube.com/watch?v=HKCN_0f04b8
+	- Working Draft, Extensions to C++ for Concurrency Version 2
+		- http://wg21.link/N4895
 - Memory Architectures for Programmable Forward-Looking Systems
 	- ISPASS 2021 Keynote Address; Dan Lustig
 	- https://www.youtube.com/watch?v=YVsYn3NDOYk
