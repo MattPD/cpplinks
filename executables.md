@@ -1084,6 +1084,10 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 * Adlice PEViewer - https://www.adlice.com/download/roguekillerpe/
 * bearparser: Portable Executable parsing library - https://github.com/hasherezade/bearparser
 * CFF Explorer - http://www.ntcore.com/exsuite.php
+* coff_nm: `nm` and `addr2line` but for DI "debug-info" COFF files 
+	- prints out function, global, and source line information from a .dbg "DI" COFF debug file
+	- can handle both DI magic files and CAB (cabinet) files with DI files inside of them
+	- https://github.com/gamozolabs/coff_nm
 * Corkami PE files corpus - https://github.com/corkami/pocs/tree/master/PE
 * ExpDiff: Diff tool for comparing export tables in PE images - https://github.com/WalkingCat/ExpDiff
 * Five PE Analysis Tools Worth Looking At - https://blog.malwarebytes.com/threat-analysis/2014/05/five-pe-analysis-tools-worth-looking-at/
