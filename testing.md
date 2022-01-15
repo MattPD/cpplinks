@@ -40,7 +40,7 @@ See also:
 	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#reduction-software)
 - [Software](#software):
 	- [Test Doubles](#software-test-doubles): [Mocking](#software-test-doubles-mocking)
-- [Talks](#talks): [2021](#talks-2021), [2020](#talks-2020), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2015](#talks-2015), [2014](#talks-2014)
+- [Talks](#talks): [2021](#talks-2021), [2020](#talks-2020), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2015](#talks-2015), [2014](#talks-2014), [2013](#talks-2013)
 
 ---
 
@@ -1075,6 +1075,9 @@ Test Doubles: Faking, Mocking
 	- C++ on Sea 2021
 	- Kevlin Henney
 	- https://www.youtube.com/watch?v=RX6WvaxmIyY
+- The Unit Tests Strike Back: Testing the Hard Parts
+	- CppCon 2021; Dave Steffen
+	- https://www.youtube.com/watch?v=t5qCxp7PJ0Q
 
 ## Talks: 2020
 
