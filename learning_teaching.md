@@ -78,6 +78,10 @@ Note: see also [Communities](communities.md) -- where you can learn together.
 - Stop Teaching C (When Teaching C++) - Kate Gregory
 	- CppCast - Oct 14, 2015 - http://cppcast.com/2015/10/kate-gregory/
 	- CppCon 2015 - https://www.youtube.com/watch?v=YnWhqhNdYyk
+- Why You Should Write Code That You Should Never Write
+	- CppCon 2021; Daisy Hollman
+	- https://www.youtube.com/watch?v=kwnlGgZW9wo
+	- https://dhollman.github.io/presentations/cppcon-2021/what-you-can-learn-from-being-too-cute.html
 
 ### Self-Study
 
