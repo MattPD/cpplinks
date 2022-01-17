@@ -383,6 +383,22 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Yann Herklotz, Zewei Du, Nadesh Ramanathan, John Wickerson
 	- https://johnwickerson.github.io/papers/fuzzingHLS.pdf
 	- https://johnwickerson.wordpress.com/2021/05/07/fuzzing-hls/
+- C4: The C Compiler Concurrency Checker
+	- ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2021 (tool demonstrations track)
+	- Matt Windsor, Alastair F. Donaldson, John Wickerson
+	- https://johnwickerson.github.io/papers/c4_issta2021.pdf
+	- C4: a project to check C compiler concurrency.
+		- The goal is to be able to find bugs in the way real-world compilers implement the C11 memory model.
+		- https://c4-project.github.io
+		- https://github.com/c4-project
+		- Introducing C4: the C Compiler Concurrency Checker: https://johnwickerson.wordpress.com/2021/06/09/c4/
+		- C4 contains several free and open-source (FOSS) subprojects:
+			- c4f: a fuzzer for litmus tests github; MIT with some CECILL-B code
+			- c4t: an automatic runner for compiler test campaigns github; MIT
+			- c4-corpora: a set of litmus tests pre-generated with memalloy, for use as c4f input github; public domain
+			- c4-scripts: a set of Bash scripts for automating some c4f and c4t workflows github; MIT
+			- mutated-llvm: a copy of LLVM instrumented with run-time selectable, concurrency-related, mutations github; Apache 2.0 with LLVM extensions
+			- These projects are designed to be used together with a litmus test runner (such as litmus7) to run automatic tests against compilers on one or more machines.
 - Cranelift, Part 3: Correctness in Register Allocation
 	- Or: How I Learned to Stop Worrying and Fuzz with a Symbolic Checker
 	- 2021; Chris Fallin
