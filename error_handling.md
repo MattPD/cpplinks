@@ -485,6 +485,9 @@
 
 ## 2021
 
+- Embracing `noexcept` Operators and Specifiers Safely
+	- CppCon 2021; John Lakos
+	- https://www.youtube.com/watch?v=veAD1dmMdvw
 - Exceptional C++
 	- C++ on Sea 2021; Victor Ciura
 	- Microsoft Windows structured exception handling (SEH)
