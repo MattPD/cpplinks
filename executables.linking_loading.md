@@ -268,6 +268,11 @@ See also:
 	- Why would the incremental linker insert padding between section fragments?
 		- https://blogs.msdn.microsoft.com/oldnewthing/20190114-00/?p=100695
 
+## Readings: Performance
+
+- Why isn't ld.lld faster?
+	- https://maskray.me/blog/2021-12-19-why-isnt-ld.lld-faster
+
 ## Readings: Relocations
 
 - Binary Dodo - Arun
