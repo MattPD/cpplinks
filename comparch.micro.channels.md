@@ -461,6 +461,13 @@ See also: [Computer Architecture](comparch.md)
 	- https://dl.acm.org/citation.cfm?id=3243743
 	- https://www.youtube.com/watch?v=JdIbR_cwjaU
 	- http://www.cs.cornell.edu/andru/papers/hyperflow/
+- IntroSpectre: A Pre-Silicon Framework for Discovery and Analysis of Transient Execution Vulnerabilities
+	- ISCA 2021
+	- Moein Ghaniyoun, Kristin Barber, Yinqian Zhang, Radu Teodorescu
+	- http://web.cse.ohio-state.edu/~teodorescu.1/resources/introspectre-isca2021.pdf
+	- https://moeinghaniyoun.github.io/files/IntroSpectre.pdf
+	- https://moeinghaniyoun.github.io/files/IntroSpectre.ppsx
+	- https://www.youtube.com/watch?v=cEjbz06RCmk
 - IODINE: Verifying Constant-Time Execution of Hardware
 	- USENIX Security 2019
 	- Klaus von Gleissenthall, Rami Gökhan Kıcı, Deian Stefan, Ranjit Jhala
