@@ -919,6 +919,9 @@ See also: [Readings: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ### Software: Emulation, Simulation: x86, x86-64
 
+- Box64: Linux Userspace x86_64 Emulator with a twist, targeted at ARM64 Linux devices
+	- https://box86.org/
+	- https://github.com/ptitSeb/box64
 - FEX-Emu: A fast linux usermode x86 and x86-64 emulator for AArch64 devices
 	- https://fex-emu.org
 	- https://github.com/FEX-Emu/FEX
