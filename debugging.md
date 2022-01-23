@@ -43,86 +43,86 @@ See also:
 
 # Standard Libraries
 
-* GLIBC (GNU C Library)
+- GLIBC (GNU C Library)
 	+ General GLIBC Debugging Techniques - http://sourceware.org/glibc/wiki/Debugging/Development_Debugging
-	+ GDB pretty-printers for GLIBC
+	- GDB pretty-printers for GLIBC
 		- http://sourceware.org/glibc/wiki/Debugging/Pretty_Printers
-	+ Debugging the Loader - https://sourceware.org/glibc/wiki/Debugging/Loader_Debugging
-	+ Backtraces - http://www.gnu.org/software/libc/manual/html_node/Backtraces.html
-	+ Allocation Debugging - http://www.gnu.org/software/libc/manual/html_node/Allocation-Debugging.html
-* libstdc++ Debug Mode: https://gcc.gnu.org/onlinedocs/libstdc++/manual/debug_mode.html
-	+ Detecting incorrect C++ STL usage (libstdc++) - https://kristerw.blogspot.com/2018/03/detecting-incorrect-c-stl-usage.html
-* libc++
-	+ Debug Mode: https://libcxx.llvm.org/docs/DesignDocs/DebugMode.html
-	+ GDB pretty-printers for libc++
+	- Debugging the Loader - https://sourceware.org/glibc/wiki/Debugging/Loader_Debugging
+	- Backtraces - http://www.gnu.org/software/libc/manual/html_node/Backtraces.html
+	- Allocation Debugging - http://www.gnu.org/software/libc/manual/html_node/Allocation-Debugging.html
+- libstdc++ Debug Mode: https://gcc.gnu.org/onlinedocs/libstdc++/manual/debug_mode.html
+	- Detecting incorrect C++ STL usage (libstdc++) - https://kristerw.blogspot.com/2018/03/detecting-incorrect-c-stl-usage.html
+- libc++
+	- Debug Mode: https://libcxx.llvm.org/docs/DesignDocs/DebugMode.html
+	- GDB pretty-printers for libc++
 		- https://github.com/llvm/llvm-project/blob/master/libcxx/utils/gdb/libcxx/printers.py
 		- https://github.com/koutheir/libcxx-pretty-printers
-* Visual C++ Debug Iterator Support: https://docs.microsoft.com/en-us/cpp/standard-library/debug-iterator-support
+- Visual C++ Debug Iterator Support: https://docs.microsoft.com/en-us/cpp/standard-library/debug-iterator-support
 
 ---
 
 # Readings
 
-* Debugging - Ian Lance Taylor - https://airs.com/ian/essays/debug/debug.html
-* Debugging in the (Very) Large: Ten Years of Implementation and Experience
-	+ Symposium on Operating Systems Principles (SOSP) 2009
-	+ Kirk Glerum, Kinshuman Kinshumann, Steve Greenberg, Gabriel Aul, Vince Orgovan, Greg Nichols, David Grant, Gretchen Loihle, Galen Hunt
-	+ https://www.microsoft.com/en-us/research/publication/debugging-in-the-very-large-ten-years-of-implementation-and-experience/
-	+ https://www.sigops.org/sosp/sosp09/papers/glerum-sosp09.pdf
-	+ https://www.sigops.org/sosp/sosp09/slides/glerum-slides-sosp09.pdf
-* debugging-stories: A collection of debugging stories
+- Debugging - Ian Lance Taylor - https://airs.com/ian/essays/debug/debug.html
+- Debugging in the (Very) Large: Ten Years of Implementation and Experience
+	- Symposium on Operating Systems Principles (SOSP) 2009
+	- Kirk Glerum, Kinshuman Kinshumann, Steve Greenberg, Gabriel Aul, Vince Orgovan, Greg Nichols, David Grant, Gretchen Loihle, Galen Hunt
+	- https://www.microsoft.com/en-us/research/publication/debugging-in-the-very-large-ten-years-of-implementation-and-experience/
+	- https://www.sigops.org/sosp/sosp09/papers/glerum-sosp09.pdf
+	- https://www.sigops.org/sosp/sosp09/slides/glerum-slides-sosp09.pdf
+- debugging-stories: A collection of debugging stories
 	- https://github.com/danluu/debugging-stories
 	- http://danluu.com/teach-debugging/
-* Delta Debugging
-	+ https://www.st.cs.uni-saarland.de/dd/
-	+ Delta: Heuristically minimizes interesting files
+- Delta Debugging
+	- https://www.st.cs.uni-saarland.de/dd/
+	- Delta: Heuristically minimizes interesting files
 		- https://github.com/dsw/delta
-	+ Yesterday, my program worked. Today, it does not. Why?
+	- Yesterday, my program worked. Today, it does not. Why?
 		- ESEC 1999
 		- Andreas Zeller
 		- https://www.st.cs.uni-saarland.de/publications/details/zeller-esec-1999/
-	+ Picireny: Hierarchical Delta Debugging Framework
+	- Picireny: Hierarchical Delta Debugging Framework
 		- https://github.com/renatahodovan/picireny
-	+ Simplifying and Isolating Failure-Inducing Input
+	- Simplifying and Isolating Failure-Inducing Input
 		- IEEE Transactions on Software Engineering 28(2) 2002
 		- Andreas Zeller, Ralf Hildebrandt
 		- https://www.st.cs.uni-saarland.de/publications/details/zeller-tse-2002/
 		- https://blog.acolyer.org/2015/11/16/simplifying-and-isolating-failure-inducing-input/
-	+ HDD: Hierarchical Delta Debugging
+	- HDD: Hierarchical Delta Debugging
 		- ICSE 2006
 		- Ghassan Misherghi, Zhendong Su
 		- https://dl.acm.org/citation.cfm?id=1134307
 		- https://blog.acolyer.org/2015/11/17/hierarchical-delta-debugging/
-	+ Generalizing and Criticizing Delta Debugging
+	- Generalizing and Criticizing Delta Debugging
 		- 2011; John Regehr
 		- https://blog.regehr.org/archives/527
-	+ Debugging Inputs
+	- Debugging Inputs
 		- International Conference on Software Engineering (ICSE) 2020
 		- Lukas Kirschner, Ezekiel Soremekun, and Andreas Zeller
 		- https://www.dropbox.com/s/ddn3fe55lws1rdr/icse2020-ddmax.pdf
 		- https://publications.cispa.saarland/3060/1/camera-ready-submission.pdf
 		- https://conf.researchr.org/details/icse-2020/icse-2020-papers/119/Debugging-Inputs
 		- ddmax implementations & experimental data: https://tinyurl.com/DebuggingInputs
-* Devon H. O'Dell
-	+ Building a Debugging Mindset
+- Devon H. O'Dell
+	- Building a Debugging Mindset
 		- https://9vx.org/post/building-a-debugging-mindset/
 		- https://www.infoq.com/presentations/debugging-mindset
 		- https://speakerdeck.com/dho/building-a-debugging-mindset
-	+ Debugging: Psychology, Theory, and Application - https://9vx.org/post/debugging-psychology-theory-and-application/
-	+ The Debugging Mindset - https://queue.acm.org/detail.cfm?id=3068754
-* Henrik Warne
-	+ Great Programmers Write Debuggable Code - https://henrikwarne.com/2013/05/05/great-programmers-write-debuggable-code/
-	+ Finding Bugs: Debugger versus Logging - https://henrikwarne.com/2014/01/01/finding-bugs-debugger-versus-logging/
-	+ Learning From Your Bugs - https://henrikwarne.com/2016/04/28/learning-from-your-bugs/
-* How to Debug - John Regehr - https://blog.regehr.org/archives/199
-* I tend to prefer debugging with release builds instead of debug builds - Ken Johnson (Skywing) - http://www.nynaeve.net/?p=184
-* The Inflection Point Hypothesis: A Principled Debugging Approach for Locating the Root Cause of a Failure
-	+ Symposium on Operating Systems Principles (SOSP) 2019
-	+ Yongle Zhang, Kirk Rodrigues, Yu Luo, Michael Stumm, Ding Yuan
-	+ https://dl.acm.org/citation.cfm?id=3359650
-	+ https://blog.acolyer.org/2019/11/08/the-inflection-point-hypothesis/
-* What does debugging a program look like? - Julia Evans - https://jvns.ca/blog/2019/06/23/a-few-debugging-resources/
-* When debugging a stack overflow, you want to focus on the repeating recursive part - Raymond Chen
+	- Debugging: Psychology, Theory, and Application - https://9vx.org/post/debugging-psychology-theory-and-application/
+	- The Debugging Mindset - https://queue.acm.org/detail.cfm?id=3068754
+- Henrik Warne
+	- Great Programmers Write Debuggable Code - https://henrikwarne.com/2013/05/05/great-programmers-write-debuggable-code/
+	- Finding Bugs: Debugger versus Logging - https://henrikwarne.com/2014/01/01/finding-bugs-debugger-versus-logging/
+	- Learning From Your Bugs - https://henrikwarne.com/2016/04/28/learning-from-your-bugs/
+- How to Debug - John Regehr - https://blog.regehr.org/archives/199
+- I tend to prefer debugging with release builds instead of debug builds - Ken Johnson (Skywing) - http://www.nynaeve.net/?p=184
+- The Inflection Point Hypothesis: A Principled Debugging Approach for Locating the Root Cause of a Failure
+	- Symposium on Operating Systems Principles (SOSP) 2019
+	- Yongle Zhang, Kirk Rodrigues, Yu Luo, Michael Stumm, Ding Yuan
+	- https://dl.acm.org/citation.cfm?id=3359650
+	- https://blog.acolyer.org/2019/11/08/the-inflection-point-hypothesis/
+- What does debugging a program look like? - Julia Evans - https://jvns.ca/blog/2019/06/23/a-few-debugging-resources/
+- When debugging a stack overflow, you want to focus on the repeating recursive part - Raymond Chen
 	- https://devblogs.microsoft.com/oldnewthing/20090107-00/?p=19573
 
 ## Books
@@ -152,14 +152,14 @@ _Books, Books Reviews_
 
 ### Probe Effect
 
-* A probe effect in concurrent programs
-	+ Software: Practice and Experience 16 (3)(1986)
-	+ J. Gait
-	+ https://doi.org/10.1002/spe.4380160304
-* Debugging Concurrent Programs
-	+ ACM Computing Surveys (CSUR) 21(4) 1989
-	+ C. E. McDowell, D. P. Helmbold
-	+ https://users.soe.ucsc.edu/~dph/mypubs/debugConcProg89.pdf
+- A probe effect in concurrent programs
+	- Software: Practice and Experience 16 (3)(1986)
+	- J. Gait
+	- https://doi.org/10.1002/spe.4380160304
+- Debugging Concurrent Programs
+	- ACM Computing Surveys (CSUR) 21(4) 1989
+	- C. E. McDowell, D. P. Helmbold
+	- https://users.soe.ucsc.edu/~dph/mypubs/debugConcProg89.pdf
 
 ## Implementation
 
@@ -361,262 +361,262 @@ _Books, Books Reviews_
 
 See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.md#time-travel-debugging)
 
-* A Review of Reverse Debugging
-	+ System, Software, SoC and Silicon Debug Conference (S4D) 2012
-	+ Jakob Engblom
-	+ https://ieeexplore.ieee.org/document/6338149/
-	+ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.338.3420&rep=rep1&type=pdf
-* Don’t Panic: Reverse Debugging of Kernel Drivers
-	+ Foundations of Software Engineering (ESEC/FSE) 2015
-	+ Pavel Dovgalyuk, Denis Dmitriev, Vladimir Makarov
-	+ https://dl.acm.org/citation.cfm?doid=2786805.2803179
-	+ Review (Jakob Engblom): Reverse Debug with Hardware in the Loop - http://jakob.engbloms.se/archives/2432
-* Efficient Algorithms for Bidirectional Debugging
-	+ Programming Language Design and Implementation (PLDI) 2000
-	+ B. Boothe
-	+ https://dl.acm.org/citation.cfm?id=349339
-* Expositor: Scriptable Time-Travel Debugging with First Class Traces
-	+ International Conference on Software Engineering (ICSE) 2013
-	+ Yit Phang Khoo, Jeffrey S. Foster, Michael Hicks
-	+ http://www.cs.umd.edu/~mwh/papers/khoo13expositor.html
-	+ full version - http://www.cs.umd.edu/~mwh/papers/khoo13expositor-journal.html
-* Improving the performance of reverse debugging
-	+ Programming and Computer Software 43(1) 2017
-	+ Klimushenkova, M.A. & Dovgalyuk, P.M.
-	+ https://link.springer.com/article/10.1134/S0361768817010042
-* POMP: Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts
-	+ USENIX Security 2017
-	+ Jun Xu, Dongliang Mu, Xinyu Xing, Peng Liu, Ping Chen, Bing Mao
-	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/xu-jun
-	+ https://github.com/junxzm1990/pomp
-* REPT: Reverse Debugging of Failures in Deployed Software
-	+ USENIX Symposium on Operating Systems Design and Implementation (OSDI) 2018
-	+ Weidong Cui, Xinyang Ge, Baris Kasikci, Ben Niu, Upamanyu Sharma, Ruoyu Wang, Insu Yun
-	+ https://www.usenix.org/conference/osdi18/presentation/weidong
-	+ https://www.microsoft.com/en-us/research/publication/rept-reverse-debugging-of-failures-in-deployed-software/
-* Reverse History
-	+ Part One – Background - http://jakob.engbloms.se/archives/1547
-	+ Part Two – Research - http://jakob.engbloms.se/archives/1554
-	+ Part Three – Products - http://jakob.engbloms.se/archives/1564
-* Transition Watchpoints: Teaching Old Debuggers New Tricks
-	+ The Art, Science, and Engineering of Programming, 2017, Vol. 1, Issue 2, Article 16
-	+ Kapil Arya, Tyler Denniston, Ariel Rabkin, Gene Cooperman
-	+ http://programming-journal.org/2017/1/16/
+- A Review of Reverse Debugging
+	- System, Software, SoC and Silicon Debug Conference (S4D) 2012
+	- Jakob Engblom
+	- https://ieeexplore.ieee.org/document/6338149/
+	- http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.338.3420&rep=rep1&type=pdf
+- Don’t Panic: Reverse Debugging of Kernel Drivers
+	- Foundations of Software Engineering (ESEC/FSE) 2015
+	- Pavel Dovgalyuk, Denis Dmitriev, Vladimir Makarov
+	- https://dl.acm.org/citation.cfm?doid=2786805.2803179
+	- Review (Jakob Engblom): Reverse Debug with Hardware in the Loop - http://jakob.engbloms.se/archives/2432
+- Efficient Algorithms for Bidirectional Debugging
+	- Programming Language Design and Implementation (PLDI) 2000
+	- B. Boothe
+	- https://dl.acm.org/citation.cfm?id=349339
+- Expositor: Scriptable Time-Travel Debugging with First Class Traces
+	- International Conference on Software Engineering (ICSE) 2013
+	- Yit Phang Khoo, Jeffrey S. Foster, Michael Hicks
+	- http://www.cs.umd.edu/~mwh/papers/khoo13expositor.html
+	- full version - http://www.cs.umd.edu/~mwh/papers/khoo13expositor-journal.html
+- Improving the performance of reverse debugging
+	- Programming and Computer Software 43(1) 2017
+	- Klimushenkova, M.A. & Dovgalyuk, P.M.
+	- https://link.springer.com/article/10.1134/S0361768817010042
+- POMP: Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts
+	- USENIX Security 2017
+	- Jun Xu, Dongliang Mu, Xinyu Xing, Peng Liu, Ping Chen, Bing Mao
+	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/xu-jun
+	- https://github.com/junxzm1990/pomp
+- REPT: Reverse Debugging of Failures in Deployed Software
+	- USENIX Symposium on Operating Systems Design and Implementation (OSDI) 2018
+	- Weidong Cui, Xinyang Ge, Baris Kasikci, Ben Niu, Upamanyu Sharma, Ruoyu Wang, Insu Yun
+	- https://www.usenix.org/conference/osdi18/presentation/weidong
+	- https://www.microsoft.com/en-us/research/publication/rept-reverse-debugging-of-failures-in-deployed-software/
+- Reverse History
+	- Part One – Background - http://jakob.engbloms.se/archives/1547
+	- Part Two – Research - http://jakob.engbloms.se/archives/1554
+	- Part Three – Products - http://jakob.engbloms.se/archives/1564
+- Transition Watchpoints: Teaching Old Debuggers New Tricks
+	- The Art, Science, and Engineering of Programming, 2017, Vol. 1, Issue 2, Article 16
+	- Kapil Arya, Tyler Denniston, Ariel Rabkin, Gene Cooperman
+	- http://programming-journal.org/2017/1/16/
 
 ## Software Engineering
 
-* A Survey on Software Fault Localization
-	+ IEEE Transactions on Software Engineering 42(8) (2016)
-	+ W. Eric Wong, Ruizhi Gao, Yihao Li, Rui Abreu, Franz Wotawa
-	+ https://www.researchgate.net/publication/291951202_A_Survey_on_Software_Fault_Localization
-* Are Automated Debugging Techniques Actually Helping Programmers?
-	+ International Symposium on Software Testing and Analysis (ISSTA) 2011
-	+ Chris Parnin, Alessandro Orso
-	+ https://dl.acm.org/citation.cfm?id=2001445
-	+ ISSTA 2021 Impact Paper Award Talk
+- A Survey on Software Fault Localization
+	- IEEE Transactions on Software Engineering 42(8) (2016)
+	- W. Eric Wong, Ruizhi Gao, Yihao Li, Rui Abreu, Franz Wotawa
+	- https://www.researchgate.net/publication/291951202_A_Survey_on_Software_Fault_Localization
+- Are Automated Debugging Techniques Actually Helping Programmers?
+	- International Symposium on Software Testing and Analysis (ISSTA) 2011
+	- Chris Parnin, Alessandro Orso
+	- https://dl.acm.org/citation.cfm?id=2001445
+	- ISSTA 2021 Impact Paper Award Talk
 		- https://www.youtube.com/watch?v=W6os29gTA3I
-* Automated Debugging: Are We There Yet?
-	+ International Conference on Software Testing, Verification and Validation Workshops (ICSTW) 2011
-	+ Alex Orso
-	+ http://ieeexplore.ieee.org/document/5954471/
-	+ 2013 talk
+- Automated Debugging: Are We There Yet?
+	- International Conference on Software Testing, Verification and Validation Workshops (ICSTW) 2011
+	- Alex Orso
+	- http://ieeexplore.ieee.org/document/5954471/
+	- 2013 talk
 		- https://www.slideshare.net/alexorso/20130204dagstuhl-alex-orso
 		- https://pdfs.semanticscholar.org/2436/0dc1bd271dcf3ecb73622e2c7b1d54a008bf.pdf
 		- https://www.youtube.com/watch?v=WJHQnzLpVXk
-* Debugging Reinvented: Asking and Answering Why and Why Not Questions about Program Behavior
-	+ International Conference on Software Engineering ICSE 2008
-	+ Andrew J. Ko, Brad A. Myers
+- Debugging Reinvented: Asking and Answering Why and Why Not Questions about Program Behavior
+	- International Conference on Software Engineering ICSE 2008
+	- Andrew J. Ko, Brad A. Myers
 		- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.159.1425
 		- https://dl.acm.org/citation.cfm?id=1368130
-	+ Microsoft Research Talk:
+	- Microsoft Research Talk:
 		- https://www.microsoft.com/en-us/research/video/candidate-talk-debugging-reinvented-asking-and-answering-why-and-why-not-questions-about-program-behavior/
 		- https://www.youtube.com/watch?v=ScZfggGa4qs
 		- https://archive.org/details/Microsoft_Research_Video_103778
-	+ "Static and dynamic program slicing algorithms for extracting and answering developers questions about program output that substantially decrease fault localization time."
-	+ https://blog.acolyer.org/2014/10/17/debugging-reinvented/
-* On The Dichotomy of Debugging Behavior Among Programmers
-	+ ICSE 2018
-	+ Moritz Beller, Niels Spruit, Diomidis Spinellis, Andy Zaidman
-	+ https://dl.acm.org/doi/10.1145/3180155.3180175
-	+ https://inventitech.com/assets/publications/2018_beller_spruit_spinellis_zaidman_on_the_dichotomy_of_debugging_behavior_among_programmers.pdf
-* Where Is the Bug and How Is It Fixed? An Experiment with Practitioners
-	+ European Software Engineering Conference / Foundations of Software Engineering (ESEC/FSE) 2017
-	+ Marcel Böhme, Ezekiel O. Soremekun, Sudipta Chattopadhyay, Emamurho Ugherughe, Andreas Zeller
-	+ https://doi.org/10.1145/3106237.3106255
-	+ https://mboehme.github.io/paper/FSE17.pdf
-	+ DBGBench
+	- "Static and dynamic program slicing algorithms for extracting and answering developers questions about program output that substantially decrease fault localization time."
+	- https://blog.acolyer.org/2014/10/17/debugging-reinvented/
+- On The Dichotomy of Debugging Behavior Among Programmers
+	- ICSE 2018
+	- Moritz Beller, Niels Spruit, Diomidis Spinellis, Andy Zaidman
+	- https://dl.acm.org/doi/10.1145/3180155.3180175
+	- https://inventitech.com/assets/publications/2018_beller_spruit_spinellis_zaidman_on_the_dichotomy_of_debugging_behavior_among_programmers.pdf
+- Where Is the Bug and How Is It Fixed? An Experiment with Practitioners
+	- European Software Engineering Conference / Foundations of Software Engineering (ESEC/FSE) 2017
+	- Marcel Böhme, Ezekiel O. Soremekun, Sudipta Chattopadhyay, Emamurho Ugherughe, Andreas Zeller
+	- https://doi.org/10.1145/3106237.3106255
+	- https://mboehme.github.io/paper/FSE17.pdf
+	- DBGBench
 		- https://dbgbench.github.io/
 		- "the correct fault locations, bug diagnoses, and software patches of 27 real errors in open-source C projects that were consolidated from hundreds of debugging sessions of professional software engineers"
 
 ## Transparency
 
-* 2017 - Ninja: Towards Transparent Tracing and Debugging on ARM
-	+ USENIX Security 2017
-	+ Zhenyu Ning, Fengwei Zhang
-	+ https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/ning
-	+ http://www.cs.wayne.edu/fengwei/paper/ninja-usenixsecurity17.pdf
-* 2016 - Towards Transparent Debugging
-	+ IEEE Transactions on Dependable and Secure Computing (TDSC'16), 2016.
-	+ Fengwei Zhang, Kevin Leach, Angelos Stavrou, and Haining Wang
-	+ https://doi.org/10.1109/TDSC.2016.2545671
-	+ http://webpages.eng.wayne.edu/~fy8421/paper/malt-tdsc18.pdf
-* 2015 - Using Hardware Features for Increased Debugging Transparency
-	+ 36th IEEE Symposium on Security and Privacy (S&P'15), 2015
-	+ Fengwei Zhang, Kevin Leach, Angelos Stavrou, Haining Wang, and Kun Sun
-	+ https://doi.org/10.1109/SP.2015.11
-	+ http://webpages.eng.wayne.edu/~fy8421/paper/malt-sp15.pdf
+- 2017 - Ninja: Towards Transparent Tracing and Debugging on ARM
+	- USENIX Security 2017
+	- Zhenyu Ning, Fengwei Zhang
+	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/ning
+	- http://www.cs.wayne.edu/fengwei/paper/ninja-usenixsecurity17.pdf
+- 2016 - Towards Transparent Debugging
+	- IEEE Transactions on Dependable and Secure Computing (TDSC'16), 2016.
+	- Fengwei Zhang, Kevin Leach, Angelos Stavrou, and Haining Wang
+	- https://doi.org/10.1109/TDSC.2016.2545671
+	- http://webpages.eng.wayne.edu/~fy8421/paper/malt-tdsc18.pdf
+- 2015 - Using Hardware Features for Increased Debugging Transparency
+	- 36th IEEE Symposium on Security and Privacy (S&P'15), 2015
+	- Fengwei Zhang, Kevin Leach, Angelos Stavrou, Haining Wang, and Kun Sun
+	- https://doi.org/10.1109/SP.2015.11
+	- http://webpages.eng.wayne.edu/~fy8421/paper/malt-sp15.pdf
 
 ---
 
 # Software
 
-* dbg: A macro for printf-style debugging fans
-	+ https://github.com/sharkdp/dbg-macro
-* LibVMI: Simplified Virtual Machine Introspection
-	+ "LibVMI is a virtual machine introspection library. This means that it helps you access the memory of a running virtual machine. LibVMI provides primitives for accessing this memory using physical or virtual addresses and kernel symbols. LibVMI also supports accessing memory from a physical memory snapshot, which is helpful for debugging or forensic analysis."
-	+ https://github.com/libvmi/libvmi
-* ppstep: Interactive C/C++ preprocessor macro debugger
-	+ https://github.com/notfoundry/ppstep
-* PulseDbg: Hypervisor-based debugger
-	+ https://github.com/honorarybot/PulseDBG
-* PyREBox: a Python scriptable Reverse Engineering sandbox
-	+ "It is based on QEMU, and its goal is to aid reverse engineering by providing dynamic analysis and debugging capabilities from a different perspective. PyREBox allows to inspect a running QEMU VM, modify its memory or registers, and to instrument its execution, by creating simple scripts in python to automate any kind of analysis. QEMU (when working as a whole-system-emulator) emulates a complete system (CPU, memory, devices...). By using VMI techniques, it does not require to perform any modification into the guest operating system, as it transparently retrieves information from its memory at run-time."
-	+ https://github.com/Cisco-Talos/pyrebox
-	+ http://blog.talosintelligence.com/2017/07/pyrebox.html
-* pyvmidbg: LibVMI-based debug server, implemented in Python
-	+ Building a guest aware, stealth and agentless full-system debugger
-	+ https://github.com/Wenzel/pyvmidbg
-	+ Building a Flexible Hypervisor-Level Debugger
+- dbg: A macro for printf-style debugging fans
+	- https://github.com/sharkdp/dbg-macro
+- LibVMI: Simplified Virtual Machine Introspection
+	- "LibVMI is a virtual machine introspection library. This means that it helps you access the memory of a running virtual machine. LibVMI provides primitives for accessing this memory using physical or virtual addresses and kernel symbols. LibVMI also supports accessing memory from a physical memory snapshot, which is helpful for debugging or forensic analysis."
+	- https://github.com/libvmi/libvmi
+- ppstep: Interactive C/C++ preprocessor macro debugger
+	- https://github.com/notfoundry/ppstep
+- PulseDbg: Hypervisor-based debugger
+	- https://github.com/honorarybot/PulseDBG
+- PyREBox: a Python scriptable Reverse Engineering sandbox
+	- "It is based on QEMU, and its goal is to aid reverse engineering by providing dynamic analysis and debugging capabilities from a different perspective. PyREBox allows to inspect a running QEMU VM, modify its memory or registers, and to instrument its execution, by creating simple scripts in python to automate any kind of analysis. QEMU (when working as a whole-system-emulator) emulates a complete system (CPU, memory, devices...). By using VMI techniques, it does not require to perform any modification into the guest operating system, as it transparently retrieves information from its memory at run-time."
+	- https://github.com/Cisco-Talos/pyrebox
+	- http://blog.talosintelligence.com/2017/07/pyrebox.html
+- pyvmidbg: LibVMI-based debug server, implemented in Python
+	- Building a guest aware, stealth and agentless full-system debugger
+	- https://github.com/Wenzel/pyvmidbg
+	- Building a Flexible Hypervisor-Level Debugger
 		- Insomni'hack 2019; Mathieu Tarral
 		- https://drive.google.com/open?id=1ZMUszfwWDOljdDfPOJgkEfSabNy0UAJR
-* QIRA - QEMU Interactive Runtime Analyser
-	+ http://qira.me/
-	+ https://github.com/BinaryAnalysisPlatform/qira/
-* Radare2
-	+ Radare project started as a forensics tool, a scriptable commandline hexadecimal editor able to open disk files, but later support for analyzing binaries, disassembling code, debugging programs, attaching to remote gdb servers, etc.
-	+ http://www.radare.org/
-	+ https://github.com/radare/radare2
-	+ r2vmi: Hypervisor-Level Debugger based on Radare2 / LibVMI, using VMI IO and debug plugins
+- QIRA - QEMU Interactive Runtime Analyser
+	- http://qira.me/
+	- https://github.com/BinaryAnalysisPlatform/qira/
+- Radare2
+	- Radare project started as a forensics tool, a scriptable commandline hexadecimal editor able to open disk files, but later support for analyzing binaries, disassembling code, debugging programs, attaching to remote gdb servers, etc.
+	- http://www.radare.org/
+	- https://github.com/radare/radare2
+	- r2vmi: Hypervisor-Level Debugger based on Radare2 / LibVMI, using VMI IO and debug plugins
 		- https://github.com/Wenzel/r2vmi
 		- Hack.lu 2018: Hypervisor-Level Debugger: Benefits And Challenges - Mathieu Tarral
 			- https://www.youtube.com/watch?v=NnWYT-kCx_s
 		- r2con2018 - Hypervisor Level Debugger with r2 - Mathieu Tarral
 			- https://www.youtube.com/watch?v=JOJMgWa7E6A
 			- https://github.com/radareorg/r2con2018/tree/master/talks/10-hypervisor-level-debugger
-* ret-sync: Reverse-Engineering Tools SYNChronization
-	+ A set of plugins to synchronize a debugging session (WinDbg/GDB/LLDB/OllyDbg/OllyDbg2/x64dbg) with IDA/Ghidra disassemblers.
-	+ https://github.com/bootleg/ret-sync
-* rVMI - A New Paradigm For Full System Analysis
-	+ "rVMI is a debugger on steroids. It leverages Virtual Machine Introspection (VMI) and memory forensics to provide full system analysis. This means that an analyst can inspect userspace processes, kernel drivers, and preboot environments in a single tool."
-	+ https://github.com/fireeye/rVMI
-	+ https://www.fireeye.com/blog/threat-research/2017/09/rvmi-full-system-analysis.html
-	+ Black Hat USA 2017
+- ret-sync: Reverse-Engineering Tools SYNChronization
+	- A set of plugins to synchronize a debugging session (WinDbg/GDB/LLDB/OllyDbg/OllyDbg2/x64dbg) with IDA/Ghidra disassemblers.
+	- https://github.com/bootleg/ret-sync
+- rVMI - A New Paradigm For Full System Analysis
+	- "rVMI is a debugger on steroids. It leverages Virtual Machine Introspection (VMI) and memory forensics to provide full system analysis. This means that an analyst can inspect userspace processes, kernel drivers, and preboot environments in a single tool."
+	- https://github.com/fireeye/rVMI
+	- https://www.fireeye.com/blog/threat-research/2017/09/rvmi-full-system-analysis.html
+	- Black Hat USA 2017
 		- https://www.blackhat.com/docs/us-17/thursday/us-17-Pfoh-rVMI-A-New-Paradigm-For-Full-System-Analysis.pdf
 		- https://www.youtube.com/watch?v=tEVevKVLs3s
-* Vivisect / Vdb / Vtrace
-	+ Vivisect - interactive disassembler
-	+ Vtrace - a cross-platform & cross-architecture debugging API
-	+ VDB - a cross-platform & cross-architecture debugger using Vtrace
-	+ https://github.com/vivisect/vivisect
-	+ documentation: http://fitblip.pub/vdb-fork/sphinx/
-	+ fork & documentation: http://fitblip.pub/vdb-fork/
-	+ Using a Custom VDB Debugger for Exploit Analysis - https://www.fireeye.com/blog/threat-research/2013/02/custom-vdb-debugger-exploit-analysis.html
-	+ Malware Analysis with Vivisect
+- Vivisect / Vdb / Vtrace
+	- Vivisect - interactive disassembler
+	- Vtrace - a cross-platform & cross-architecture debugging API
+	- VDB - a cross-platform & cross-architecture debugger using Vtrace
+	- https://github.com/vivisect/vivisect
+	- documentation: http://fitblip.pub/vdb-fork/sphinx/
+	- fork & documentation: http://fitblip.pub/vdb-fork/
+	- Using a Custom VDB Debugger for Exploit Analysis - https://www.fireeye.com/blog/threat-research/2013/02/custom-vdb-debugger-exploit-analysis.html
+	- Malware Analysis with Vivisect
 		- Colin Williams; NEST
 		- https://web.archive.org/http://nest.unm.edu/files/5514/1254/9114/Malware_Analysis_with_Vivsect.pdf
-	+ Binary Vivisection
+	- Binary Vivisection
 		- https://www.singlehop.com/blog/binary-vivisection-part-1/
 		- https://www.singlehop.com/blog/binary-vivisection-part-2/
 		- https://www.singlehop.com/blog/binary-vivisection-part-3/
-	+ FireEye Labs Query-Oriented Debugger
+	- FireEye Labs Query-Oriented Debugger
 		- Command-line and Python debugger for instrumenting and modifying native software behavior on Windows and Linux
 		- https://github.com/fireeye/flare-qdb
 		- Querying Dynamic State using the FireEye Labs Query-Oriented Debugger (flare-qdb)
 			- https://www.fireeye.com/blog/threat-research/2017/01/flare_script_series.html
-* Voltron - https://github.com/snare/voltron
-* xendbg - A modern Xen debugger
-	+ https://github.com/nccgroup/xendbg
-	+ "`xendbg` is a feature-complete reference implementation of a modern Xen VMI debugger, superseding Xen's own limited and rarely-maintained [`gdbsx`](https://github.com/mirage/xen/tree/master/tools/debugger/gdbsx). It can debug both paravirtualized (PV) and hardware virtualized (HVM) guests, and provides both a standalone REPL and an LLDB server mode."
-	+ Xendbg: A Full-Featured Debugger for the Xen Hypervisor
+- Voltron - https://github.com/snare/voltron
+- xendbg - A modern Xen debugger
+	- https://github.com/nccgroup/xendbg
+	- "`xendbg` is a feature-complete reference implementation of a modern Xen VMI debugger, superseding Xen's own limited and rarely-maintained [`gdbsx`](https://github.com/mirage/xen/tree/master/tools/debugger/gdbsx). It can debug both paravirtualized (PV) and hardware virtualized (HVM) guests, and provides both a standalone REPL and an LLDB server mode."
+	- Xendbg: A Full-Featured Debugger for the Xen Hypervisor
 		- https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2019/january/xendbg-a-full-featured-debugger-for-the-xen-hypervisor/
 
 ## GDB
 
-* GDB: The GNU Project Debugger
-	+ https://sourceware.org/gdb/
-	+ https://sourceware.org/gdb/documentation/
-	+ https://sourceware.org/gdb/wiki/
-* GDB - The Architecture of Open Source Applications - Stan Shebs
-	+ http://aosabook.org/en/gdb.html
+- GDB: The GNU Project Debugger
+	- https://sourceware.org/gdb/
+	- https://sourceware.org/gdb/documentation/
+	- https://sourceware.org/gdb/wiki/
+- GDB - The Architecture of Open Source Applications - Stan Shebs
+	- http://aosabook.org/en/gdb.html
 
 ### GDB: Projects
 
-* asm2cfg: GDB extension to add commands to view and save disassembled functions as a dot control-flow graphs
+- asm2cfg: GDB extension to add commands to view and save disassembled functions as a dot control-flow graphs
 	- https://github.com/Kazhuu/asm2cfg
-* CGDB: Console front-end to the GNU debugger
+- CGDB: Console front-end to the GNU debugger
 	- https://github.com/cgdb/cgdb
-* Gdb Assembly Informant
+- Gdb Assembly Informant
 	- steps through your assembly code one instruction at a time and diffs register values
 	- https://github.com/thlorenz/gai
-* GDB dashboard
+- GDB dashboard
 	- https://github.com/cyrus-and/gdb-dashboard
 	- https://metricpanda.com/tips-for-productive-debugging-with-gdb
-* GDB helper scripts
+- GDB helper scripts
 	- https://github.com/tromey/gdb-helpers
-* gdb-gui: A gdb gui written in Python, running inside gdb itself
+- gdb-gui: A gdb gui written in Python, running inside gdb itself
 	- https://github.com/tromey/gdb-gui
-* gdb-helpers: GDB helper scripts
+- gdb-helpers: GDB helper scripts
 	- https://github.com/tromey/gdb-helpers
-* gdb-tools: Various tools to improve the gdb experience
+- gdb-tools: Various tools to improve the gdb experience
 	- https://github.com/vuvova/gdb-tools
 	- gdb tools: duel and @PrettyPrinter - https://fosdem.org/2018/schedule/event/debugging_tools_gdb_tools/
-* gdb-walkers: Bring mdb walkers to gdb, also add other helpful commands.
+- gdb-walkers: Bring mdb walkers to gdb, also add other helpful commands.
 	- https://github.com/hardenedapple/gdb-walkers
 	- GDB pipelines -- convenience iteration over inferior data structures
 		- Bringing MDB's "walkers" to GDB
 		- FOSDEM 2020; Matthew Malcomson
 		- https://fosdem.org/2020/schedule/event/debugging_gdb_pipelines/
-* GDBFrontend
+- GDBFrontend
 	- "an easy, flexible and extensionable gui debugger"
 	- https://github.com/rohanrhu/gdb-frontend
-* gdbgui: A browser-based frontend for GDB
+- gdbgui: A browser-based frontend for GDB
 	- https://gdbgui.com/
 	- https://github.com/cs01/gdbgui
-* GdbShellPipe: Enable piping of internal command output to external commands
-	+ https://github.com/hq6/GdbShellPipe
-* GDBundle: Plugin Manager for GDB and LLDB
+- GdbShellPipe: Enable piping of internal command output to external commands
+	- https://github.com/hq6/GdbShellPipe
+- GDBundle: Plugin Manager for GDB and LLDB
 	- https://github.com/memfault/gdbundle
 	- gdbundle - GDB and LLDB's Missing Plugin Manager
 		- https://interrupt.memfault.com/blog/gdbundle-plugin-manager
-* Gede: a graphical frontend (GUI) to GDB written in Qt
+- Gede: a graphical frontend (GUI) to GDB written in Qt
 	- http://gede.acidron.com/
 	- mirror: https://github.com/Nanoseb/gede
-* GEF (GDB Enhanced Features)
+- GEF (GDB Enhanced Features)
 	- https://github.com/hugsy/gef
 	- https://github.com/hugsy/gef-scripts
 	- https://github.com/hugsy/gef-structs
 	- GEF Tutorials - https://www.youtube.com/playlist?list=PLjAuO31Rg972WeMvdR_57Qu-aVM8T6DkQ
 	- https://blahcat.github.io/2017/08/01/gef-at-black-hat-arsenal-us-2017/
 	- https://github.com/toolswatch/blackhat-arsenal-tools/blob/master/exploitation/gef.md
-* libdebugme: Automatically drop to gdb on error
+- libdebugme: Automatically drop to gdb on error
 	- https://github.com/yugr/libdebugme
-* OnlineGDB
+- OnlineGDB
 	- "OnlineGDB an online compiler and debugger tool for C/C++ languages. It is world's first online IDE which gives debugging facility with embedded gdb."
 	- http://OnlineGDB.com
-* PEDA - Python Exploit Development Assistance for GDB
+- PEDA - Python Exploit Development Assistance for GDB
 	- https://github.com/longld/peda
 	- https://web.archive.org/web/20160126173234/https://eugenekolo.com/blog/better-disassembly-with-gdb-peda/
 	- http://ropshell.com/peda/Linux_Interactive_Exploit_Development_with_GDB_and_PEDA_Slides.pdf
-* PINCE: front-end reverse engineering tool for the GDB - https://github.com/korcankaraokcu/PINCE
-* pwndbg - Exploit Development and Reverse Engineering with GDB Made Easy
+- PINCE: front-end reverse engineering tool for the GDB - https://github.com/korcankaraokcu/PINCE
+- pwndbg - Exploit Development and Reverse Engineering with GDB Made Easy
 	- https://github.com/pwndbg/pwndbg
 	- https://github.com/pwndbg/pwndbg/blob/dev/FEATURES.md
-* Pwngdb - https://github.com/scwuaptx/Pwngdb
-* pygdbmi - Get Structured Output from GDB's Machine Interface - https://github.com/cs01/pygdbmi
-* QuickPatch: a GDB plug-in to patch an ELF file
+- Pwngdb - https://github.com/scwuaptx/Pwngdb
+- pygdbmi - Get Structured Output from GDB's Machine Interface - https://github.com/cs01/pygdbmi
+- QuickPatch: a GDB plug-in to patch an ELF file
 	- https://github.com/invictus1306/QuickPatch
 	- https://invictus1306.github.io/vulnerabilities/2019/10/20/quickpatch.html
-* SymGDB - symbolic execution plugin for gdb - https://github.com/SQLab/symgdb
+- SymGDB - symbolic execution plugin for gdb - https://github.com/SQLab/symgdb
 
 #### GDB: Projects: Editor Integration
 
@@ -637,11 +637,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 #### GDB: Projects: Memory Debugging
 
-* pahole-gdb: pahole implementation for gdb - https://github.com/PhilArmstrong/pahole-gdb
-* gdb-heap
-	+ https://github.com/rogerhu/gdb-heap
-	+ https://fedorahosted.org/gdb-heap/
-	+ https://fedoraproject.org/wiki/Features/MemoryDebuggingTools
+- pahole-gdb: pahole implementation for gdb - https://github.com/PhilArmstrong/pahole-gdb
+- gdb-heap
+	- https://github.com/rogerhu/gdb-heap
+	- https://fedorahosted.org/gdb-heap/
+	- https://fedoraproject.org/wiki/Features/MemoryDebuggingTools
 
 #### GDB: Projects: Plotting
 
@@ -653,12 +653,12 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 #### GDB: Projects: Profiling
 
-* gdbpmp: A GDB Based Wallclock Profiler - https://github.com/markhpc/gdbpmp
-* gdbprof: A wall clock time-based profiler built on GDB's Python interface
-	+ https://github.com/Muon/gdbprof
-	+ https://github.com/markhpc/gdbprof
-* GDB profiler: Rich man's profiler, a profiler for native OCaml and other executables
-	+ https://github.com/copy/gdbprofiler
+- gdbpmp: A GDB Based Wallclock Profiler - https://github.com/markhpc/gdbpmp
+- gdbprof: A wall clock time-based profiler built on GDB's Python interface
+	- https://github.com/Muon/gdbprof
+	- https://github.com/markhpc/gdbprof
+- GDB profiler: Rich man's profiler, a profiler for native OCaml and other executables
+	- https://github.com/copy/gdbprofiler
 
 ### GDB: Readings
 
@@ -728,58 +728,64 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ### GDB: Talks
 
-* A flexible GDB (GNU Debugger) target description for processor diversity – SFO17-210
+- A flexible GDB (GNU Debugger) target description for processor diversity – SFO17-210
+	- Linaro Connect San Francisco 2017; Yao Qi
 	- http://connect.linaro.org/resource/sfo17/sfo17-210/
-* Become a GDB Power User
+- Become a GDB Power User
 	- ACCU 2016; Greg Law
 	- https://www.youtube.com/watch?v=713ay4bZUrw
-* Debugging Linux C++
+- Debugging Linux C++
 	- CppCon 2018; Greg Law
 	- https://www.youtube.com/watch?v=V1t6faOKjuQ
-* GDB: C++ conversion & dogfooding C++
+- GDB: C++ conversion & dogfooding C++
 	- GNU Tools Cauldron 2017; Pedro Alves
 	- Slides: https://gcc.gnu.org/wiki/cauldron2017?action=AttachFile&do=view&target=gdb+-+C%2B%2B+conversion+%26+dogfood.pdf
 	- Video: https://slideslive.com/38902352/gdb-c-conversion-dogfooding-c
-* GDB - A Lot More Than You Knew - CppCon 2016 - Greg Law
+- GDB - A Lot More Than You Knew
+	- CppCon 2016 - Greg Law
 	- https://www.youtube.com/watch?v=-n9Fkq1e6sg
-* Give me 15 minutes & I'll change your view of GDB - CppCon 2015 - Greg Law
+- Give me 15 minutes & I'll change your view of GDB
+	- CppCon 2015 - Greg Law
 	- https://www.youtube.com/watch?v=PorfLSr3DDI
-* How custom GDB commands help in C++ development
+- How custom GDB commands help in C++ development
 	- Munich C++ User Group 2018 (Lightning Talk); Michael Krasnyk
 	- https://www.youtube.com/watch?v=QtTYXE1wSVs
-* Improving Debuggability with GDB's Python API - C++Now 2018 - Jeff Trull
+- Improving Debuggability with GDB's Python API
+	- C++Now 2018 - Jeff Trull
 	- https://www.youtube.com/watch?v=mLPp1x_1h3g
-* Liberating the Debugging Experience with the GDB Python API
+- Liberating the Debugging Experience with the GDB Python API
 	- ACCU Bay Area Meetup 2018; Jeff Trull
 	- https://github.com/accuBayArea/Slides/blob/master/slides/2018-08-08-jeff.pdf
 	- CppCon 2018 - https://www.youtube.com/watch?v=ck_jCH_G7pA
 	- gdb_python_api: Experiments with the GDB Python API
 		- https://github.com/jefftrull/gdb_python_api
-* More GDB wizardry and 8 other essential Linux application debugging tools
+- More GDB wizardry and 8 other essential Linux application debugging tools
 	- ACCU 2019; Greg Law
 	- https://www.youtube.com/watch?v=Yq6g_kvyvPU
-* Programmatic Debugging with GDB and Python
+- Programmatic Debugging with GDB and Python
 	- PyCon APAC/Taiwan 2015; Scott Tsai
 	- https://www.youtube.com/watch?v=oAYbt2PsKng
 	- https://docs.google.com/presentation/d/15qOKBh9FDjCeGS-xAHXZSJDS5_aoZk0Caz12FL_f294/
-* SecurityTube GDB Expert (SGDE)
+- SecurityTube GDB Expert (SGDE)
 	- Walkthroughs: https://github.com/chaitanyakrishna/Securitytube-Gnu-Debugger-Expert
 	- Course Videos: http://www.securitytube.net/tags/sgde
 	- https://www.youtube.com/playlist?list=PLiP0FxVgYuUz0kdK7L7YaI5n4qkOuymue
-* The GDB Text User Interface
+- The GDB Text User Interface
 	- FOSDEM 2020; Tom Tromey
 	- https://fosdem.org/2020/schedule/event/debugging_gdb_tui/
-* Understanding, Scripting, and Extending GDB (2017)
+- Understanding, Scripting, and Extending GDB 
+	- 2017; Kevin Pouget, Jean-François Méhaut, Fabrice Rastell
 	- https://mcgdb.0x972.info/team/
 	- https://github.com/kpouget/tuto-gdb.py
 	- Slides: https://mcgdb.0x972.info/files/tuto-gdb-py.presentation.pdf
-* Your Application versus GDB - FOSDEM 2014 - Tom Tromey
+- Your Application versus GDB
+	- FOSDEM 2014 - Tom Tromey
 	- https://archive.fosdem.org/2014/schedule/event/your_application_versus_gdb/
 	- https://www.youtube.com/watch?v=RwDA3oIOtWw
 
 ## LLDB
 
-* The LLDB Debugger - https://lldb.llvm.org/
+- The LLDB Debugger - https://lldb.llvm.org/
 
 ### LLDB: Projects
 
@@ -930,11 +936,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ### iOS
 
-* Chisel: a collection of LLDB commands to assist debugging iOS apps
-	+ https://github.com/facebook/chisel
-* KTRW: An iOS kernel debugger based on a KTRR bypass for A11 iPhones that works with LLDB
-	+ https://github.com/googleprojectzero/ktrw
-	+ KTRW: The journey to build a debuggable iPhone
+- Chisel: a collection of LLDB commands to assist debugging iOS apps
+	- https://github.com/facebook/chisel
+- KTRW: An iOS kernel debugger based on a KTRR bypass for A11 iPhones that works with LLDB
+	- https://github.com/googleprojectzero/ktrw
+	- KTRW: The journey to build a debuggable iPhone
 		- https://googleprojectzero.blogspot.com/2019/10/ktrw-journey-to-build-debuggable-iphone.html
 
 ### Linux
@@ -1143,56 +1149,56 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ##### WinDbg: Projects
 
-* 0CCh Windbg extension - https://github.com/0cch/0cchext
-* DbgModelCppLib: A header-only C++ library for producing and consuming data from the debugger data model
-	+ https://github.com/Microsoft/WinDbg-Libraries/tree/master/DbgModelCppLib
-	+ https://github.com/Microsoft/WinDbg-Samples/tree/master/DataModelHelloWorld/Cpp
-* PyKd - Python extension for WinDBG to access Debug Engine
-	+ https://githomelab.ru/pykd/pykd
-	+ windbg-pack: Set of python scripts for WinDBG - https://githomelab.ru/pykd/windbg-pack
-* TWindbg: PEDA-like debugger UI for WinDbg - https://github.com/bruce30262/TWindbg
-* WDBGARK: WinDBG Anti-RootKit extension - https://github.com/swwwolf/wdbgark
-* Winbagility: a tool to connect WinDbg on non /DEBUG Windows x64 systems
-	+ http://winbagility.github.io
-	+ https://github.com/Winbagility/Winbagility
-* WinDbg-Samples: Sample extensions, scripts, and API uses for WinDbg
-	+ https://github.com/Microsoft/WinDbg-Samples
-* WinDBGtree: A command tree based on commands and extensions for Windows Kernel Debugging
-	+ https://github.com/vagnerpilar/windbgtree
+- 0CCh Windbg extension - https://github.com/0cch/0cchext
+- DbgModelCppLib: A header-only C++ library for producing and consuming data from the debugger data model
+	- https://github.com/Microsoft/WinDbg-Libraries/tree/master/DbgModelCppLib
+	- https://github.com/Microsoft/WinDbg-Samples/tree/master/DataModelHelloWorld/Cpp
+- PyKd - Python extension for WinDBG to access Debug Engine
+	- https://githomelab.ru/pykd/pykd
+	- windbg-pack: Set of python scripts for WinDBG - https://githomelab.ru/pykd/windbg-pack
+- TWindbg: PEDA-like debugger UI for WinDbg - https://github.com/bruce30262/TWindbg
+- WDBGARK: WinDBG Anti-RootKit extension - https://github.com/swwwolf/wdbgark
+- Winbagility: a tool to connect WinDbg on non /DEBUG Windows x64 systems
+	- http://winbagility.github.io
+	- https://github.com/Winbagility/Winbagility
+- WinDbg-Samples: Sample extensions, scripts, and API uses for WinDbg
+	- https://github.com/Microsoft/WinDbg-Samples
+- WinDBGtree: A command tree based on commands and extensions for Windows Kernel Debugging
+	- https://github.com/vagnerpilar/windbgtree
 
 ##### WinDbg: Time Travel Debugging
 
-* Time Travel Debugging FAQ - https://blogs.msdn.microsoft.com/windbg/2017/10/20/time-travel-debugging-faq/
-* Time Travel Debugging - Overview - https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/time-travel-debugging-overview
-* Time Travel Debugging - Sample App Walkthrough - https://aka.ms/ttdtutorial
-* CppCon 2017: Time Travel Debugging: Root Causing Bugs in Commercial Scale Software
-	+ https://www.youtube.com/watch?v=l1YJTg_A914
-* Defrag Tools #186 - Time Travel Debugging - Advanced
-	+ https://channel9.msdn.com/Shows/Defrag-Tools/Defrag-Tools-186-Time-Travel-Debugging-Advanced
+- Time Travel Debugging FAQ - https://blogs.msdn.microsoft.com/windbg/2017/10/20/time-travel-debugging-faq/
+- Time Travel Debugging - Overview - https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/time-travel-debugging-overview
+- Time Travel Debugging - Sample App Walkthrough - https://aka.ms/ttdtutorial
+- CppCon 2017: Time Travel Debugging: Root Causing Bugs in Commercial Scale Software
+	- https://www.youtube.com/watch?v=l1YJTg_A914
+- Defrag Tools #186 - Time Travel Debugging - Advanced
+	- https://channel9.msdn.com/Shows/Defrag-Tools/Defrag-Tools-186-Time-Travel-Debugging-Advanced
 
 ## Stack Trace & Unwinding
 
-* BacktraceResolver: Very fast backtraces resolver
-	+ https://github.com/markpapadakis/BacktraceResolver
-* Backward-cpp: a beautiful stack trace pretty printer for C++
-	+ https://github.com/bombela/backward-cpp
-* Boost.Stacktrace
-	+ http://boostorg.github.io/stacktrace/
-	+ https://github.com/boostorg/stacktrace
-	+ http://www.boost.org/doc/libs/release/doc/html/stacktrace.html
-* CppCon 2017: Dave Watson “C++ Exceptions and Stack Unwinding”
-	+ https://www.youtube.com/watch?v=_Ivd3qzgT7U
-* libgcc_s (GNU) - https://gcc.gnu.org/onlinedocs/gccint/Libgcc.html
-	+ Data Definitions for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-s-ddefs.html
-	+ Interfaces for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-s.html
-	+ Interfaces Definitions for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-sman.html
-* libunwind (nongnu.org) - http://www.nongnu.org/libunwind/
-* Programmatic access to the call stack in C++ - https://eli.thegreenplace.net/2015/programmatic-access-to-the-call-stack-in-c/
-* pstack: Print stack traces of running processes. Uses its own ELF and DWARF parsing
-	+ https://github.com/peadar/pstack
-* quickstack: a tool to take call stack traces with minimal overheads
-	+ https://github.com/yoshinorim/quickstack
-* Unwind specification draft for GNU/Linux/ia64 (extends the exception ABI) - https://www.kernel.org/pub/linux/devel/gcc/unwind/
+- BacktraceResolver: Very fast backtraces resolver
+	- https://github.com/markpapadakis/BacktraceResolver
+- Backward-cpp: a beautiful stack trace pretty printer for C++
+	- https://github.com/bombela/backward-cpp
+- Boost.Stacktrace
+	- http://boostorg.github.io/stacktrace/
+	- https://github.com/boostorg/stacktrace
+	- http://www.boost.org/doc/libs/release/doc/html/stacktrace.html
+- CppCon 2017: Dave Watson “C++ Exceptions and Stack Unwinding”
+	- https://www.youtube.com/watch?v=_Ivd3qzgT7U
+- libgcc_s (GNU) - https://gcc.gnu.org/onlinedocs/gccint/Libgcc.html
+	- Data Definitions for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-s-ddefs.html
+	- Interfaces for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-s.html
+	- Interfaces Definitions for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-sman.html
+- libunwind (nongnu.org) - http://www.nongnu.org/libunwind/
+- Programmatic access to the call stack in C++ - https://eli.thegreenplace.net/2015/programmatic-access-to-the-call-stack-in-c/
+- pstack: Print stack traces of running processes. Uses its own ELF and DWARF parsing
+	- https://github.com/peadar/pstack
+- quickstack: a tool to take call stack traces with minimal overheads
+	- https://github.com/yoshinorim/quickstack
+- Unwind specification draft for GNU/Linux/ia64 (extends the exception ABI) - https://www.kernel.org/pub/linux/devel/gcc/unwind/
 
 ---
 
@@ -1222,64 +1228,64 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ## 2018
 
-* GNU Tools Cauldron 2018
-	+ gOlogy: impact of -O* on -g
+- GNU Tools Cauldron 2018
+	- gOlogy: impact of -O* on -g
 		- Alexandre Oliva
 		- https://www.fsfla.org/~lxoliva/writeups/gOlogy/slides.pdf
 		- https://www.fsfla.org/~lxoliva/writeups/gOlogy/gOlogy.txt
-	+ A collection of debug info improvements for the GNU Compiler Collection
+	- A collection of debug info improvements for the GNU Compiler Collection
 		- Alexandre Oliva, Mark J. Wielaard
 		- https://gnu.wildebeest.org/~mark/cauldron-2018/DebuginfoImprovements.pdf
-* Let's Write a Debugger!
-	+ linux.conf.au 2018 - Levente Kurusa
-	+ https://www.slideshare.net/LeventeKurusa/lets-write-a-debugger
-	+ https://opensource.com/article/18/1/how-debuggers-really-work
-	+ https://www.youtube.com/watch?v=qS51kIHWARM
-	+ https://github.com/levex/debugger-talk
+- Let's Write a Debugger!
+	- linux.conf.au 2018 - Levente Kurusa
+	- https://www.slideshare.net/LeventeKurusa/lets-write-a-debugger
+	- https://opensource.com/article/18/1/how-debuggers-really-work
+	- https://www.youtube.com/watch?v=qS51kIHWARM
+	- https://github.com/levex/debugger-talk
 
 ## 2017
 
-* Debugging the debugger - BSDCan 2017, Samy Bahra
-	+ https://www.youtube.com/watch?v=wyF-hGGPJMs
-	+ Compiler debug quality suite - https://github.com/backtrace-labs/cdqs
-	+ http://www.bsdcan.org/2017/schedule/events/787.en.html
-* Debugging Under Fire: Keep your Head when Systems have Lost their Mind • GOTO 2017 • Bryan Cantrill
-	+ https://www.youtube.com/watch?v=30jNsCVLpAE
-* How C++ Debuggers work - Simon Brand
-	+ C++ Edinburgh 2018
+- Debugging the debugger - BSDCan 2017, Samy Bahra
+	- https://www.youtube.com/watch?v=wyF-hGGPJMs
+	- Compiler debug quality suite - https://github.com/backtrace-labs/cdqs
+	- http://www.bsdcan.org/2017/schedule/events/787.en.html
+- Debugging Under Fire: Keep your Head when Systems have Lost their Mind • GOTO 2017 • Bryan Cantrill
+	- https://www.youtube.com/watch?v=30jNsCVLpAE
+- How C++ Debuggers work - Simon Brand
+	- C++ Edinburgh 2018
 		- https://www.youtube.com/watch?v=UiW24hzLy1M
-	+ Meeting C++ 2017
+	- Meeting C++ 2017
 		- https://meetingcpp.com/2017/talks/items/How_Cpp_Debuggers_Work.html
 		- https://www.youtube.com/watch?v=Q3Rm95Mk03c
 
 ## 2016
 
-* Building a Debugging Mindset - QConSF 2016 - Devon H. O'Dell
-	+ video: https://www.infoq.com/presentations/debugging-mindset
-	+ slides: https://speakerdeck.com/dho/building-a-debugging-mindset
-	+ transcript: https://9vx.org/post/building-a-debugging-mindset/
-* How do Debuggers (Really) Work - Pawel Moll
-	+ Linux Piter 2016
+- Building a Debugging Mindset - QConSF 2016 - Devon H. O'Dell
+	- video: https://www.infoq.com/presentations/debugging-mindset
+	- slides: https://speakerdeck.com/dho/building-a-debugging-mindset
+	- transcript: https://9vx.org/post/building-a-debugging-mindset/
+- How do Debuggers (Really) Work - Pawel Moll
+	- Linux Piter 2016
 		- https://www.youtube.com/watch?v=xqrxg3hl10o
 		- https://ostconf.com/system/attachments/files/000/001/198/original/Pawel_Moll.pdf
-	+ ELC 2015
+	- ELC 2015
 		- https://vimeo.com/220644951
 		- https://events.static.linuxfound.org/sites/events/files/slides/slides_16.pdf
-* Post-mortem Debugging: could you be the one? - Surge 2016 - Abel Mathew
-	+ https://www.youtube.com/watch?v=WHhorNLa934
-* Timeless Debugging - USENIX Enigma 2016 - George Hotz
-	+ https://www.youtube.com/watch?v=eGl6kpSajag
+- Post-mortem Debugging: could you be the one? - Surge 2016 - Abel Mathew
+	- https://www.youtube.com/watch?v=WHhorNLa934
+- Timeless Debugging - USENIX Enigma 2016 - George Hotz
+	- https://www.youtube.com/watch?v=eGl6kpSajag
 
 ## 2015
 
-* Debugging using an exact recording of a program's execution - C++Now 2015 - Julian Smith
-	+ Undo's Live Recorder
-	+ https://www.youtube.com/watch?v=NWWMogzgLS4
+- Debugging using an exact recording of a program's execution - C++Now 2015 - Julian Smith
+	- Undo's Live Recorder
+	- https://www.youtube.com/watch?v=NWWMogzgLS4
 
 ## 2014
 
-* The VS Debugger: How It Works + Tips and Tricks - GoingNative 28 - Gabriel Ha, Gregg Miskelly, Steve Carroll
-	+ https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-28-The-VS-Debugger-How-It-Works-Tips-and-Tricks
+- The VS Debugger: How It Works + Tips and Tricks - GoingNative 28 - Gabriel Ha, Gregg Miskelly, Steve Carroll
+	- https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-28-The-VS-Debugger-How-It-Works-Tips-and-Tricks
 
 ## 2011
 
