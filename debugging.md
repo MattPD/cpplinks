@@ -734,6 +734,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Become a GDB Power User
 	- ACCU 2016; Greg Law
 	- https://www.youtube.com/watch?v=713ay4bZUrw
+- Cool New Stuff in GDB 9, GDB 10, and GDB 11
+	- CppCon 2021; Greg Law
+	- https://www.youtube.com/watch?v=Ege7dKrGomU
 - Debugging Linux C++
 	- CppCon 2018; Greg Law
 	- https://www.youtube.com/watch?v=V1t6faOKjuQ
