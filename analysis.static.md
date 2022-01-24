@@ -22,6 +22,7 @@ See also:
 	- [Software](#verification-software): Verification Software
 - [Software](#software):
 	- [Compilers](#software-compilers): Clang, GCC, Visual C++ - static analysis support
+- [Talks](#talks): [2021](#talks-2021)
 
 ---
 
@@ -388,3 +389,13 @@ See also: [Program Analysis](https://gist.github.com/MattPD/00573ee14bf85ccac6be
 - Symbiotic
 	- Tool for verifying computer programs based on instrumentation, program slicing and symbolic executor KLEE.
 	- http://staticafi.github.io/symbiotic/
+
+---
+
+# Talks
+
+## Talks: 2021
+
+- Finding Bugs Using Path-Sensitive Static Analysis
+	- CppCon 2021; Gabor Horvath
+	- https://www.youtube.com/watch?v=aUIk97fJ_hY
