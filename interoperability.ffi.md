@@ -69,6 +69,9 @@
 		- https://www.youtube.com/watch?v=jdEmz3iXNlA
 	- The Salami Method for Cross Platform Development - CppCon 2018; Adi Shavit
 		- https://www.youtube.com/watch?v=ZSpGNiUvXVI
+- Using C Libraries in your Modern C++ Embedded Project
+	- CppCon 2021; Michael Caisse
+	- https://www.youtube.com/watch?v=Ototzy-nP4M
 
 ---
 
