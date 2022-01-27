@@ -114,6 +114,11 @@ See also:
 	- https://qingkaishi.github.io/public_pdfs/ISSTA20-VeriBuild.pdf
 	- https://veribuild.github.io/
 	- https://conf.researchr.org/details/issta-2020/issta-2020-papers/38/Escaping-Dependency-Hell-Finding-Build-Dependency-Errors-with-the-Unified-Dependency
+- Forward build systems, formally
+	- Certified Programs and Proofs (CPP) 2022
+	- Sarah Spall, Neil Mitchell, Sam Tobin-Hochstadt
+	- https://doi.org/10.1145/3497775.3503687
+	- https://popl22.sigplan.org/details/CPP-2022-papers/14/Forward-build-systems-formally
 - Identifying Bugs in Make and JVM-Oriented Builds
 	- 2020
 	- Thodoris Sotiropoulos, Stefanos Chaliasos, Dimitris Mitropoulos, Diomidis Spinellis
