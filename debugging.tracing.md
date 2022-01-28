@@ -138,6 +138,10 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 		- https://github.com/junxzm1990/afl-pt
 	- WinAFL Intel PT mode
 		- https://github.com/googleprojectzero/winafl/blob/master/readme_pt.md
+- Inferring Fine-grained Control Flow Inside SGX Enclaves with Branch Shadowing
+	- https://arxiv.org/abs/1611.06952
+	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/lee-sangho
+	- "Table 1: Measuring branch misprediction penalty with RDTSCP, Intel PT CYC packet, and LBR elapsed cycle (10,000 times). We put 120 NOP instructions at the fall-through path. The LBR elapsed cycle is less noisy than RDTSCP and Intel PT."
 - Intel PT Micro Tutorial - MICRO-48 (2015)
 	- https://sites.google.com/site/intelptmicrotutorial/
 - IPTAnalyzer: Intel PT log analyzer
@@ -152,10 +156,10 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- https://github.com/nyx-fuzz/libxdc
 - Linux perf Documentation: Intel Processor Trace
 	- https://github.com/torvalds/linux/blob/master/tools/perf/Documentation/intel-pt.txt
-- Inferring Fine-grained Control Flow Inside SGX Enclaves with Branch Shadowing
-	- https://arxiv.org/abs/1611.06952
-	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/lee-sangho
-	- "Table 1: Measuring branch misprediction penalty with RDTSCP, Intel PT CYC packet, and LBR elapsed cycle (10,000 times). We put 120 NOP instructions at the fall-through path. The LBR elapsed cycle is less noisy than RDTSCP and Intel PT."
+- magic-trace: Easy Intel Processor Trace Visualizer
+	- https://github.com/janestreet/magic-trace
+	- Magic-trace: Diagnosing tricky performance issues easily with Intel Processor Trace
+		- https://blog.janestreet.com/magic-trace/
 - Perf tools support for Intel® Processor Trace
 	- https://perf.wiki.kernel.org/index.php/Perf_tools_support_for_Intel%C2%AE_Processor_Trace
 - POMP: Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts
