@@ -162,6 +162,15 @@
 	- (lock-free lock-free stack, queues, unordered set/map, skip-list)
 	- https://github.com/khizmax/libcds#references
 
+### Papers - Data Structures: Queues
+
+- Mechanized Verification of a Fine-Grained Concurrent Queue from Meta’s Folly Library
+	- Certified Programs and Proofs (CPP) 2022
+	- Simon Friis Vindum, Lars Birkedal, Dan Frumin
+	- https://popl22.sigplan.org/details/CPP-2022-papers/16/Mechanized-Verification-of-a-Fine-Grained-Concurrent-Queue-from-Meta-s-Folly-Library
+	- MPMCQueue: a high-performance bounded concurrent queue that supports multiple producers, multiple consumers, and optional blocking
+		- https://github.com/facebook/folly/blob/main/folly/MPMCQueue.h
+
 ## Papers - Implementation
 
 - Common Compiler Optimisations are Invalid in the C11 Memory Model and what we can do about it
