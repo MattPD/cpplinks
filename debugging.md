@@ -1169,6 +1169,12 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - WinDBGtree: A command tree based on commands and extensions for Windows Kernel Debugging
 	- https://github.com/vagnerpilar/windbgtree
 
+##### WinDbg: Talks
+
+- A first look into how WinDbg works
+	- 2022; Tim Misiak
+	- https://www.youtube.com/watch?v=QStC084UrgY
+
 ##### WinDbg: Time Travel Debugging
 
 - Time Travel Debugging FAQ - https://blogs.msdn.microsoft.com/windbg/2017/10/20/time-travel-debugging-faq/
