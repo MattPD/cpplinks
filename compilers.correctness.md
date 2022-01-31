@@ -1008,6 +1008,11 @@ Validation: Including translation validation, equivalence checking.
 	- Amir Pnueli, Ofer Shtrichman, Michael Siegel
 	- https://dl.acm.org/citation.cfm?id=729871
 	- "Translation validation is an alternative to the verification of translators (compilers, code generators). Rather than proving in advance that the compiler always produces a target code which correctly implements the source code (compiler verification), each individual translation (i.e. a run of the compiler) is followed by a validation phase which verifies that the target code produced on this run correctly implements the submitted source program."
+- Translation Validation for a Verified OS Kernel
+	- PLDI 2013
+	- Thomas Arthur Leck Sewell, Magnus O. Myreen, Gerwin Klein
+	- https://doi.org/10.1145/2499370.2462183
+	- https://www.cl.cam.ac.uk/~mom22/pldi13.pdf
 - Translation validation for an optimizing compiler
 	- PLDI 2000
 	- George C. Necula
