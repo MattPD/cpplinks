@@ -32,6 +32,7 @@ See also: [Computer Architecture](comparch.md)
 - [Power](#power)
 - [Prefetch](#prefetch)
 - [Pseudo-Random Number Generator (PRNG)](#pseudo-random-number-generator-prng)
+- [Reorder Buffer (ROB)](reorder-buffer-rob)
 - [Return Stack Buffer (RSB)](#return-stack-buffer-rsb)
 - [SMT](#smt)
 - [Speculation](#speculation)
@@ -1801,6 +1802,15 @@ See also: [Computer Architecture](comparch.md)
 	- Dmitry Evtyushkin, Dmitry V. Ponomarev
 	- http://www.cs.binghamton.edu/~dima/ccs16.pdf
 	- https://www.youtube.com/watch?v=G1xzG43mkZU
+
+---
+
+# Reorder Buffer (ROB)
+
+- "It's a Trap!"-How Speculation Invariance Can Be Abused with Forward Speculative Interference
+	- IEEE International Symposium On Secure And Private Execution Enviroment Design (SEED) 2021
+	- Pavlos Aimoniotis, Christos Sakalis, Magnus Själander, Stefanos Kaxiras
+	- https://arxiv.org/abs/2109.10774
 
 ---
 
