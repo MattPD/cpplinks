@@ -537,6 +537,7 @@ https://riscv.org/software-tools/
 - RISC-V Bytes - https://danielmangum.com/categories/risc-v-bytes/
 	- Cross-Platform Debugging with QEMU and GDB - https://danielmangum.com/posts/risc-v-bytes-qemu-gdb/
 	- Caller and Callee Saved Registers - https://danielmangum.com/posts/risc-v-bytes-caller-callee-registers/
+	- Passing on the Stack - https://danielmangum.com/posts/risc-v-bytes-passing-on-the-stack/
 - RISC-V Educational Materials
 	- https://riscv.org/educational-materials/
 	- https://github.com/riscv/educational-materials
