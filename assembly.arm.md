@@ -291,6 +291,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- ISPEC 2016
 	- Hadrien Barral, Houda Ferradi, Rémi Géraud, Georges-Axel Jaloyan, David Naccache
 	- https://arxiv.org/abs/1608.03415
+- Bit-Twiddling: Optimising AArch64 Logical Immediate Encoding (and Decoding)
+	- https://dougallj.wordpress.com/2021/10/30/bit-twiddling-optimising-aarch64-logical-immediate-encoding-and-decoding/
 - Encoding of immediate values on AArch64 - 2017 - Dominik Inführ
 	- https://dinfuehr.github.io/blog/encoding-of-immediate-values-on-aarch64/
 - Exploring New Depths of Threat Hunting ...or How to Write ARM Shellcode in Six Minutes
