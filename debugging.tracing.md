@@ -149,6 +149,11 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- Using Intel PT for Vulnerability Triaging with IPTAnalyzer
 		- https://darungrim.com/research/2020-05-07-UsingIntelPTForVulnerabilityTriagingWithIPTAnalyzer.html
 		- "IPTAnalyzer is a tool to perform parallel processing of the IPT trace logs. The tool can process Intel PT trace using Python multiprocessing library and create a basic blocks cache file. This block information can be useful in overall analysis of the control flow changes. For example, if you want to collect instructions from specific image or address range, you can query this basic block cache file to find the locations that falls into the range before retrieving full instructions."
+- JPortal: Precise and Efficient Control-Flow Tracing for JVM Programs with Intel Processor Trace
+	- PLDI 2021
+	- Zhiqiang Zuo, Kai Ji, Yifei Wang, Wei Tao, Linzhang Wang, Xuandong Li, Guoqing Harry Xu
+	- https://pldi21.sigplan.org/details/pldi-2021-papers/71/JPortal-Precise-and-Efficient-Control-Flow-Tracing-for-JVM-Programs-with-Intel-Proce
+	- https://github.com/JPortal-system/system
 - libipt - an Intel(R) Processor Trace decoder library
 	- https://github.com/01org/processor-trace
 	- https://github.com/intel/libipt
