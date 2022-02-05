@@ -699,6 +699,8 @@ Contents:
 - elfutils
 	- a collection of utilities and libraries to read, create and modify ELF binary files, find and handle DWARF debug data, symbols, thread state and stacktraces for processes and core files on GNU/Linux
 	- https://sourceware.org/elfutils/
+- ELFXtract: an automated analysis tool used for enumerating ELF binaries
+	- https://github.com/AidenPearce369/elfxtract
 - Exodus - a tool that makes it easy to successfully relocate Linux ELF binaries from one system to another
 	- https://github.com/Intoli/exodus
 - GNU Binary Utilities - https://sourceware.org/binutils/docs/binutils/
