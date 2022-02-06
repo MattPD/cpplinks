@@ -209,6 +209,9 @@ See also:
 	- https://www.mikeash.com/pyblog/friday-qa-2012-11-09-dyld-dynamic-linking-on-os-x.html
 - Dynamic Library Programming Topics
 	- https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/DynamicLibraries
+- How iOS 15 makes your app launch faster
+	- the chained fixups format
+	- https://www.emergetools.com/blog/posts/iOS15LaunchTime
 
 ### Linux
 
