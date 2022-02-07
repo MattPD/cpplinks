@@ -44,7 +44,7 @@ See also:
 # Standard Libraries
 
 - GLIBC (GNU C Library)
-	+ General GLIBC Debugging Techniques - http://sourceware.org/glibc/wiki/Debugging/Development_Debugging
+	- General GLIBC Debugging Techniques - http://sourceware.org/glibc/wiki/Debugging/Development_Debugging
 	- GDB pretty-printers for GLIBC
 		- http://sourceware.org/glibc/wiki/Debugging/Pretty_Printers
 	- Debugging the Loader - https://sourceware.org/glibc/wiki/Debugging/Loader_Debugging
@@ -1022,6 +1022,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- https://blogs.oracle.com/linux/post/live-kernel-debugging-1
 	- Part 2: basic techniques utilizing gdb & QEMU's gdbserver, gdb Python
 		- https://blogs.oracle.com/linux/post/live-kernel-debugging-2
+	- Part 3: advanced techniques: kdb and kgdboc, crash
+		- https://blogs.oracle.com/linux/post/live-kernel-debugging-3
 
 #### Linux: Talks
 
