@@ -404,6 +404,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- 2021; Chris Fallin
 	- https://cfallin.org/blog/2021/03/15/cranelift-isel-3/
 	- https://github.com/bytecodealliance/regalloc.rs
+- One Engine to Fuzz ’em All: Generic Language Processor Testing with Semantic Validation
+	- IEEE S&P 2021
+	- Yongheng Chen, Rui Zhong, Hong Hu, Hangfan Zhang, Yupeng Yang, Dinghao Wu, Wenke Lee
+	- https://faculty.ist.psu.edu/wu/papers/polyglot.pdf
+	- PolyGlot, a fuzzing framework for language processors
+		- https://github.com/s3team/Polyglot
 
 #### Testing: Readings: Fuzzing: 2020
 
