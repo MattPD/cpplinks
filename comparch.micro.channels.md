@@ -527,6 +527,16 @@ See also: [Computer Architecture](comparch.md)
 	- Ileana Buhan, Lejla Batina, Yuval Yarom, Patrick Schaumont
 	- https://arxiv.org/abs/2104.08593
 	- https://eprint.iacr.org/2021/497
+- Speculative Execution and Timing Predictability in an Open Source RISC-V Core
+	- IEEE Real Time Systems Symposium (RTSS) 2021
+	- Alban Gruin, Thomas Carle, Hugues Cassé, Christine Rochange
+	- https://ieeexplore.ieee.org/document/9622403
+	- https://hal-univ-tlse3.archives-ouvertes.fr/hal-03477573
+	- https://www.irit.fr/TRACES/site/minotaur-presentation-at-rtss-2021/
+	- MINOTAuR (Mostly IN-Order Timing predictAble pRocessor)
+		- a timing predictable open source RISC-V core based on the Ariane core
+		- SystemVerilog
+		- https://gitlab.irit.fr/minotaur/MINOTAuR
 - Using Information Flow to Design an ISA That Controls Timing Channels
 	- CSF 2019
 	- Drew Zagieboylo, G. Edward Suh, Andrew C. Myers
