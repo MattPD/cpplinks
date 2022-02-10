@@ -90,6 +90,11 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - Atomics in AArch64
 	- 2021; Jim Cownie
 	- https://cpufun.substack.com/p/atomics-in-aarch64
+- Formal Verification of a Multiprocessor Hypervisor on Arm Relaxed Memory Hardware
+	- Symposium on Operating Systems Principles (SOSP) 2021
+	- Runzhou Tao, Jianan Yao, Xupeng Li, Shih-Wei Li, Jason Nieh, Ronghui Gu
+	- https://dl.acm.org/doi/10.1145/3477132.3483560
+	- https://www.cs.columbia.edu/~nieh/pubs/sosp2021_vrm.pdf
 - Formalising the ARMv8 Memory Consistency Model
 	- Will Deacon, ARM, Keynote, OpenSHMEM 2018
 	- https://www.csm.ornl.gov/workshops/openshmem2018/presentations/mm-openshmem2018.pdf
