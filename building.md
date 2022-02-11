@@ -487,6 +487,8 @@ See also:
 - Build Interceptor
 	- a collection of scripts for recording the .i files generated during a build of C or C++ programs with the GCC toolchain
 	- https://github.com/dsw/build-interceptor
+- build-bom: Dynamically discover the commands used to create a piece of software
+	- https://github.com/travitch/build-bom
 - TraceCode: Trace a build to find out which source files are built in a binary
 	- https://github.com/nexB/tracecode-toolkit
 	- Debug your build by tracing and reversing: stracing your build from sources to binaries
