@@ -8,7 +8,7 @@ See also:
 # Contents
 
 - [General](#general)
-- [Readings](#readings): [Books](#readings-books), [General](#readings-general), [Practice](#readings-practice)
+- [Readings](#readings): [Books](#readings-books), [General](#readings-general), [Evaluation](#readings-evaluation), [Practice](#readings-practice)
 - [Software](#software)
 	- [Software: AFL](#software-afl)
 	- [Software: libFuzzer](#software-libfuzzer)
@@ -42,21 +42,6 @@ See also:
 
 ## Readings: General
 
-- Evaluating Fuzz Testing
-	- ACM Conference on Computer and Communications Security (CCS) 2018
-	- George T. Klees, Andrew Ruef, Benjamin Cooper, Shiyi Wei, Michael Hicks
-	- http://www.cs.umd.edu/~mwh/papers/klees2018fuzzeval.html
-	- https://arxiv.org/abs/1808.09700
-	- https://www.youtube.com/watch?v=ID8XtoMn43I
-	- 2020 Symposium on Hot Topics on the Science of Security (HotSOS); Michael Hicks
-		- https://www.youtube.com/watch?v=abgDxQBHU9Y
-	- Evaluating Empirical Evaluations (for Fuzz Testing)
-		- http://www.pl-enthusiast.net/2018/08/23/evaluating-empirical-evaluations-for-fuzz-testing/
-	- How to Spot Good Fuzzing Research
-		- https://blog.trailofbits.com/2018/10/05/how-to-spot-good-fuzzing-research/
-	- Fuzzing and how to evaluate it
-		- ISSISP 2018; Michael Hicks
-		- https://cs.anu.edu.au/cybersec/issisp2018/assets/slides/hicks-fuzz-testing-eval.pdf
 - FuzzingPaper: Recent Papers Related To Fuzzing
 	- https://github.com/wcventure/FuzzingPaper
 - Fuzzing: a survey
@@ -89,6 +74,35 @@ See also:
 	- IEEE Security & Privacy, 17(1) 2019
 	- Mathias Payer
 	- https://ieeexplore.ieee.org/document/8674043
+
+## Readings: Evaluation
+
+- Evaluating Fuzz Testing
+	- ACM Conference on Computer and Communications Security (CCS) 2018
+	- George T. Klees, Andrew Ruef, Benjamin Cooper, Shiyi Wei, Michael Hicks
+	- http://www.cs.umd.edu/~mwh/papers/klees2018fuzz`.html
+	- https://arxiv.org/abs/1808.09700
+	- https://www.youtube.com/watch?v=ID8XtoMn43I
+	- 2020 Symposium on Hot Topics on the Science of Security (HotSOS); Michael Hicks
+		- https://www.youtube.com/watch?v=abgDxQBHU9Y
+	- Evaluating Empirical Evaluations (for Fuzz Testing)
+		- http://www.pl-enthusiast.net/2018/08/23/evaluating-empirical-evaluations-for-fuzz-testing/
+	- How to Spot Good Fuzzing Research
+		- https://blog.trailofbits.com/2018/10/05/how-to-spot-good-fuzzing-research/
+	- Fuzzing and how to evaluate it
+		- ISSISP 2018; Michael Hicks
+		- https://cs.anu.edu.au/cybersec/issisp2018/assets/slides/hicks-fuzz-testing-eval.pdf
+- On the Reliability of Coverage-Based Fuzzer Benchmarking
+	- International Conference on Software Engineering (ICSE) 2022
+	- Marcel Böhme, Laszlo Szekeres, Jonathan Metzman
+	- https://doi.org/10.1145/3510003.3510230
+	- https://mboehme.github.io/paper/ICSE22.pdf
+- Statistical Evaluation of a Fuzzing Dictionary
+	- https://bshastry.github.io/2018/10/01/Evaluating-Dictionary-For-Fuzzing.html
+	- Static Program Analysis as a Fuzzing Aid
+		- https://link.springer.com/chapter/10.1007/978-3-319-66332-6_2
+	- Orthrus: A tool to manage, conduct, and assess dictionary-based fuzz testing
+		- https://github.com/test-pipeline/Orthrus
 
 ## Readings: Practice
 
@@ -139,12 +153,6 @@ See also:
 	- The Saturation Effect in Fuzzing - https://blog.regehr.org/archives/1796
 - One Weird Trick for Finding More Crashes: crasher recycling
 	- https://insights.sei.cmu.edu/cert/2013/09/one-weird-trick-for-finding-more-crashes-1.html
-- Statistical Evaluation of a Fuzzing Dictionary
-	- https://bshastry.github.io/2018/10/01/Evaluating-Dictionary-For-Fuzzing.html
-	- Static Program Analysis as a Fuzzing Aid
-		- https://link.springer.com/chapter/10.1007/978-3-319-66332-6_2
-	- Orthrus: A tool to manage, conduct, and assess dictionary-based fuzz testing
-		- https://github.com/test-pipeline/Orthrus
 - The Art of Fuzzing – Slides and Demos
 	- 2017; René Freingruber
 	- AFL & WinAFL, Taint Analysis, Reversing Tricks for Fuzzing, in-memory fuzzing, DynamoRio
