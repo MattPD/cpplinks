@@ -445,6 +445,9 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Xiao Liu, Xiaoting Li, Rupesh Prajapati, Dinghao Wu
 	- https://faculty.ist.psu.edu/wu/papers/DeepFuzz.pdf
 	- https://github.com/s3team/DeepFuzz
+- Neural Program Synthesis for Compiler Fuzzing
+	- 2019 PhD Dissertation; Xiao Liu
+	- https://faculty.ist.psu.edu/wu/papers/xiao-liu-dissertation.pdf
 
 #### Testing: Readings: Fuzzing: 2018
 
