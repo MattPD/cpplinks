@@ -1821,6 +1821,11 @@ See also: [Computer Architecture](comparch.md)
 	- IEEE International Symposium On Secure And Private Execution Enviroment Design (SEED) 2021
 	- Pavlos Aimoniotis, Christos Sakalis, Magnus Själander, Stefanos Kaxiras
 	- https://arxiv.org/abs/2109.10774
+- Reorder Buffer Contention: A Forward Speculative Interference Attack for Speculation Invariant Instructions
+	- IEEE Computer Architecture Letters 20(2) 2021
+	- Pavlos Aimoniotis, Christos Sakalis, Magnus Själander, Stefanos Kaxiras
+	- https://doi.ieeecomputersociety.org/10.1109/LCA.2021.3123408
+	- https://www.computer.org/csdl/journal/ca/5555/01/09591413/1y2Fj3E6wSY
 
 ---
 
