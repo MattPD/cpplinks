@@ -87,6 +87,10 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ## Readings: Concurrency
 
+- Armed Cats: Formal Concurrency Modelling at Arm
+	- POPL 2022 
+	- Jade Alglave, Will Deacon, Richard Grisenthwaite, Antoine Hacquard, Luc Maranget
+	- https://doi.org/10.1145/3458926
 - Atomics in AArch64
 	- 2021; Jim Cownie
 	- https://cpufun.substack.com/p/atomics-in-aarch64
