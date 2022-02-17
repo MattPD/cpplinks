@@ -501,6 +501,12 @@ See also:
 
 ## Talks: 2021
 
+- Dynamically Loaded Libraries Outside the Standard
+	- CppCon 2021; Zhihao Yuan
+	- https://www.youtube.com/watch?v=fyFVCUwsMws&list=PLHTh1InhhwT6vjwMy3RG5Tnahw0G9qIx6&index=135
+	- https://speakerdeck.com/lichray/dynamically-loaded-libraries-outside-the-standard
+	- https://cppcon.digital-medium.co.uk/wp-content/uploads/2021/10/Dynamically-Loaded-Libraries-Outside-the-Standard.pdf
+	- https://github.com/zhihaoy/dl-examples
 - From Program to Process - What Happens After the Compiler
 	- NDC TechTown 2021
 	- Anders Schau Knatten
