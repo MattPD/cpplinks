@@ -417,6 +417,9 @@ Assemblers - https://en.wikipedia.org/wiki/Comparison_of_assemblers#x86_assemble
 
 ## 2018
 
+- Decoding x86 instructions with help of octal digits
+	- 2018; Tomasz Grysztar
+	- https://www.youtube.com/watch?v=hN7mJ4nXC7M
 - Hardware Backdoors in x86 CPUs
 	- Black Hat 2018; Christopher Domas
 	- https://www.youtube.com/watch?v=_eSAF_qT_FY
