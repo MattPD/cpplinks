@@ -46,6 +46,7 @@
 - Chris Brumme - The Exception Model
 	- Windows Structured Exception Handling (SEH) and C++ exceptions
 	- https://blogs.msdn.microsoft.com/cbrumme/2003/10/01/the-exception-model/
+	- https://cbrumme.dev/the-exception-model
 - Edaqa Mortoray
 	- Everything wrong with C++ exceptions
 		- Does as it says on the tin.
