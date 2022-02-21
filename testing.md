@@ -541,6 +541,8 @@ See also:
 	- Writing Better Function Tests with GCOV
 		- Linaro Connect 2018; Masami Hiramatsu
 		- https://www.youtube.com/watch?v=U_qWLa9KnW8
+	- embedded-gcov: GCC/gcov code coverage data extraction from the actual embedded system, without requiring a file system, or an operating system, or standard C libraries.
+		- https://github.com/nasa-jpl/embedded-gcov
 	- Gcovr
 		- Gcovr provides a utility for managing the use of the GNU gcov utility and generating summarized code coverage results.
 		- http://gcovr.com/
