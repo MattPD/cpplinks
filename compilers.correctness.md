@@ -418,6 +418,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Bo Jiang, Xiaoyan Wang, W. K. Chan, T. H. Tse, Na Li, Yongfeng Yin, Zhenyu Zhang
 	- https://www.cs.hku.hk/data/techreps/document/TR-2020-05.pdf
 	- https://github.com/gongbell/CUDAsmith
+- Fuzzing JavaScript Engines with Aspect-preserving Mutation
+	- IEEE Symposium on Security and Privacy (S&P) 2020
+	- Soyeon Park, Wen Xu, Insu Yun, Daehee Jang, Taesoo Kim
+	- https://gts3.org/assets/papers/2020/park:die.pdf
+	- https://github.com/sslab-gatech/DIE
 - Putting Randomized Compiler Testing into Production
 	- ECOOP 2020
 	- Alastair Donaldson, Hugues Evrard, Paul Thomson
