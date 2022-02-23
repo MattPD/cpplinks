@@ -418,14 +418,17 @@ Contents:
 
 # ELF
 
-* ELF and ABI Standards - Linux Foundation Referenced Specifications - http://refspecs.linuxfoundation.org/elf/
-* ELF101 a Linux executable walkthrough - https://speakerdeck.com/ange/booklet-elf101-a-linux-executable-walkthrough
-* Executable and Linkable Format: format specification - https://formats.kaitai.io/elf/
-* Learning Linux Binary Analysis (2016) - Ryan O'Neill - http://www.bitlackeys.org/#research
-* linux-re-101
-	+ https://github.com/michalmalik/linux-re-101
-	+ https://libraries.io/github/michalmalik/linux-re-101
-* References - SkyFree.org - http://www.skyfree.org/linux/references/references.html
+- ELF and ABI Standards - Linux Foundation Referenced Specifications - http://refspecs.linuxfoundation.org/elf/
+- Awesome ELF Resources: ELF Resources and Links
+	- https://github.com/tmpout/awesome-elf
+	- https://tmpout.sh/2/15.html
+- ELF101 a Linux executable walkthrough - https://speakerdeck.com/ange/booklet-elf101-a-linux-executable-walkthrough
+- Executable and Linkable Format: format specification - https://formats.kaitai.io/elf/
+- Learning Linux Binary Analysis (2016) - Ryan O'Neill - http://www.bitlackeys.org/#research
+- linux-re-101
+	- https://github.com/michalmalik/linux-re-101
+	- https://libraries.io/github/michalmalik/linux-re-101
+- References - SkyFree.org - http://www.skyfree.org/linux/references/references.html
 
 ## ELF: Readings
 
