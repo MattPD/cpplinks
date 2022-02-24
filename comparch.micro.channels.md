@@ -1717,6 +1717,12 @@ See also: [Computer Architecture](comparch.md)
 	- Xida Ren, Logan Moody, Mohammadkazem Taram, Matthew Jordan, Dean M. Tullsen, Ashish Venkat
 	- https://www.cs.virginia.edu/venkat/papers/isca2021a.pdf
 	- "Modern Intel, AMD, and ARM processors translate complex instructions into simpler internal micro-ops that are then cached in a dedicated on-chip structure called the micro-op cache. This work presents an in-depth characterization study of the micro-op cache, reverse-engineering many undocumented features, and further describes attacks that exploit the micro-op cache as a timing channel to transmit secret information. In particular, this paper describes three attacks – (1) a same thread cross-domain attack that leaks secrets across the user-kernel boundary, (2) a cross-SMT thread attack that transmits secrets across two SMT threads via the micro-op cache, and (3) transient execution attacks that have the ability to leak an unauthorized secret accessed along a misspeculated path, even before the transient instruction is dispatched to execution, breaking several existing invisible speculation and fencing-based solutions that mitigate Spectre."
+- UC-Check: Characterizing Micro-operation Caches in x86 Processors and Implications in Security and Performance
+	- MICRO 2021
+	- Joonsung Kim, Hamin Jang, Hunjun Lee, Seungho Lee, Jangwoo Kim
+	- https://dl.acm.org/doi/10.1145/3466752.3480079
+	- https://github.com/SNU-HPCS/UC-Check
+	- https://www.youtube.com/watch?v=1jvHDjxscoo
 
 ---
 
