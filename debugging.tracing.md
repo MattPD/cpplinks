@@ -350,6 +350,11 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- FOSDEM 2020; Quentin Monnet
 	- https://fosdem.org/2020/schedule/event/debugging_bpf/
 
+### Software: Linux - Code Injection
+
+- Cexigua: Linux based inter-process code injection without ptrace(2)
+	- https://github.com/AonCyberLabs/Cexigua
+
 ### Software: Linux - ftrace
 
 - Ftrace - https://alex.dzyoba.com/blog/ftrace/
