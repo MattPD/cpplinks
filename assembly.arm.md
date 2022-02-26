@@ -746,6 +746,11 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 #### Scalable Vector Extension (SVE): Applications
 
+- A fast vectorized sorting implementation based on the ARM scalable vector extension (SVE)
+	- PeerJ Comput. Sci. 7: e769 (2021)
+	- Bérenger Bramas
+	- https://arxiv.org/abs/2105.07782
+	- https://gitlab.inria.fr/bramas/arm-sve-sort
 - Evaluating the Effectiveness of a Vector-Length-Agnostic Instruction Set
 	- Euro-Par 2020: Parallel Processing
 	- Andrei Poenaru, Simon McIntosh-Smith
