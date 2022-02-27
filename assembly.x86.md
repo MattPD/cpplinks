@@ -424,6 +424,9 @@ Assemblers - https://en.wikipedia.org/wiki/Comparison_of_assemblers#x86_assemble
 	- Black Hat 2018; Christopher Domas
 	- https://www.youtube.com/watch?v=_eSAF_qT_FY
 	- https://github.com/xoreaxeaxeax/rosenbridge
+- Increase in complexity of x86 instruction codes (REX, VEX, EVEX)
+	- 2018; Tomasz Grysztar
+	- https://www.youtube.com/watch?v=6IuILMoPpDU
 - Inside the AMD Microcode ROM
 	- 35C3 (2018)
 	- https://www.youtube.com/watch?v=W3FbTMqYi4U
