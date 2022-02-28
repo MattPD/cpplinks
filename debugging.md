@@ -682,6 +682,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - gdbWatchPoint: GDB tips & tricks
 	- https://undo.io/resources/gdb-watchpoint/
 	- https://www.youtube.com/playlist?list=PLrADU7tRzDD4xHv_zVoLKYg9mXYjXGhjG
+- GDBWave - A Post-Simulation Waveform-Based RISC-V GDB Debugging Server
+	- https://tomverbeure.github.io/2022/02/20/GDBWave-Post-Simulation-RISCV-SW-Debugging.html
+	- GDBWave: GDB server to debug CPU simulation waveform traces
+		- https://github.com/tomverbeure/gdbwave
 - Hitchikers Guide To The GDB - http://apoorvaj.io/hitchhikers-guide-to-the-gdb.html
 - How to point GDB to your sources - https://alex.dzyoba.com/blog/gdb-source-path/
 - Howto: GDB Remote Serial Protocol
