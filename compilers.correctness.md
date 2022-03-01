@@ -560,6 +560,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://github.com/gergo-/missed-optimizations/raw/master/missed_optimizations_preprint.pdf
 	- Missed optimizations in C compilers: https://github.com/gergo-/missed-optimizations/
 	- https://hal.inria.fr/hal-01682683
+- Finding Missed Optimizations through the Lens of Dead Code Elimination
+	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2022
+	- Theodoros Theodoridis, Manuel Rigger, Zhendong Su
+	- https://ethz.ch/content/dam/ethz/special-interest/infk/ast-dam/documents/Theodoridis-ASPLOS22-DCE-Paper.pdf
+	- https://github.com/DeadCodeProductions/dead
 - Lost in translation: Exposing hidden compiler optimization opportunities
 	- 2019 arXiv
 	- Kyriakos Georgiou, Zbigniew Chamski, Andres Amaya Garcia, David May, Kerstin Eder
