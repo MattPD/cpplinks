@@ -494,6 +494,9 @@
 	- Microsoft Windows structured exception handling (SEH)
 	- https://www.youtube.com/watch?v=hIpE0IZz6F8
 	- https://ciura.ro/presentations/2021/Conferences/Exceptional%20C++%20-%20Victor%20Ciura%20-%20C++%20On%20Sea%202021.pdf
+- Failing Successfully: Reporting and Handling Errors
+	- CppCon 2021; Robert Leahy
+	- https://www.youtube.com/watch?v=KJ3jWZryl2A
 
 ## 2020
 
