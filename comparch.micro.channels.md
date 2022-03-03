@@ -1555,6 +1555,10 @@ See also: [Computer Architecture](comparch.md)
 	- P. Frigo, C. Giuffrida, H. Bos, K. Razavi
 	- https://www.vusec.net/projects/glitch/
 	- https://www.vusec.net/wp-content/uploads/2018/05/glitch.pdf
+- Network-on-Chip Microarchitecture-based Covert Channel in GPUs
+	- MICRO 2021
+	- Jaeguk Ahn, Jiho Kim, Hans Kasan, Leila Delshadtehrani, Wonjun Song, Ajay Joshi, John Kim
+	- https://dl.acm.org/doi/10.1145/3466752.3480093
 - Practical Microarchitectural Attacks from Integrated GPU
 	- 2017 Master’s Thesis; 2017 Pietro Frigo
 	- https://repository.tudelft.nl/islandora/object/uuid:c0d3c629-4c67-4741-9776-05802d89872f
