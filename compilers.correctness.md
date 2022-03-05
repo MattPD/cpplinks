@@ -367,6 +367,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, Christian Holler
 	- https://www.fuzzingbook.org/html/Grammars.html
 
+#### Testing: Readings: Fuzzing: 2022
+
+- Coverage-Guided Tensor Compiler Fuzzing with Joint IR-Pass Mutation
+	- OOPSLA 2022
+	- Jiawei Liu, Yuxiang Wei, Sen Yang, Yinlin Deng, Lingming Zhang
+	- https://arxiv.org/abs/2202.09947
+	- https://github.com/Tzer-AnonBot/tzer
+
 #### Testing: Readings: Fuzzing: 2021
 
 - A Comprehensive Study of Deep Learning Compiler Bugs
