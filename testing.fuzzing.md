@@ -77,6 +77,10 @@ See also:
 
 ## Readings: Evaluation
 
+- Dissecting American Fuzzy Lop - A FuzzBench Evaluation
+	- International Fuzzing Workshop (FUZZING) 2022
+	- Andrea Fioraldi, Alessandro Mantovani, Dominik Maier, Davide Balzarotti
+	- https://s3.eurecom.fr/docs/fuzzing22_fioraldi_report.pdf
 - Evaluating Fuzz Testing
 	- ACM Conference on Computer and Communications Security (CCS) 2018
 	- George T. Klees, Andrew Ruef, Benjamin Cooper, Shiyi Wei, Michael Hicks
