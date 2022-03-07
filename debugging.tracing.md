@@ -354,6 +354,8 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 
 - Cexigua: Linux based inter-process code injection without ptrace(2)
 	- https://github.com/AonCyberLabs/Cexigua
+- dlinject: Inject a shared library (arbitrary code) into a live linux process, without ptrace
+	- https://github.com/DavidBuchanan314/dlinject
 
 ### Software: Linux - ftrace
 
