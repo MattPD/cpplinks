@@ -128,6 +128,11 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Nian Liu, Binyu Zang, Haibo Chen
 	- https://doi.org/10.1145/3332466.3374535
 	- https://ipads.se.sjtu.edu.cn/_media/publications/liuppopp20.pdf
+- Relaxed virtual memory in Armv8A-A
+	- ESOP 2022
+	- Ben Simner, Alasdair Armstrong, Jean Pichon-Pharabod, Christopher Pulte, Richard Grisenthwaite, Peter Sewell
+	- https://www.cl.cam.ac.uk/~pes20/RelaxedVM-Arm/
+	- extended version: https://arxiv.org/abs/2203.00642
 - Relaxed-Memory Concurrency - Power and ARM
 	- http://www.cl.cam.ac.uk/~pes20/weakmemory/#PA
 	- <http://www.cl.cam.ac.uk/~pes20/papers/topics.html#Power_and_ARM>
