@@ -1270,6 +1270,12 @@ Validation: Including translation validation, equivalence checking.
 	- https://doi.org/10.1145/3437992.3439915
 	- http://www.cse.chalmers.se/~myreen/cpp2021-bootstrap-myreen.pdf
 	- https://www.youtube.com/watch?v=Ip6Y4O2T60Y
+- Formally Verified Speculation and Deoptimization in a JIT Compiler
+	- POPL 2021
+	- Aurèle Barrière, Sandrine Blazy, Olivier Flückiger, David Pichardie, Jan Vitek
+	- https://doi.org/10.1145/3434327
+	- https://www.youtube.com/watch?v=1W1LQWBVfz4
+	- https://popl21.sigplan.org/details/POPL-2021-research-papers/46/Formally-Verified-Speculation-and-Deoptimization-in-a-JIT-Compiler
 
 ## Verification: 2020
 
