@@ -952,6 +952,13 @@ See also: [Computer Architecture](comparch.md)
 	- https://dl.acm.org/citation.cfm?id=2870636
 	- http://www.cs.wm.edu/~dmitry/assets/files/taco-a10-evtyushkin.pdf
 
+## Branch Predictor: 2022
+
+- You Cannot Always Win the Race: Analyzing the LFENCE/JMP Mitigation for Branch Target Injection
+	- 2022
+	- Alyssa Milburn, Ke Sun, Henrique Kawakami
+	- https://arxiv.org/abs/2203.04277
+
 ---
 
 # Cache
