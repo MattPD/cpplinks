@@ -348,6 +348,10 @@ _Books, Books Reviews_
 	- ISSTA 2019
 	- Sandro Tolksdorf, Daniel Lehmann, Michael Pradel
 	- https://conf.researchr.org/event/issta-2019/issta-2019-technical-papers-interactive-metamorphic-testing-of-debuggers
+- lldb-eval fuzzer: Finding bugs in an LLDB-based expression evaluator
+	- 2021 LLVM Developers' Meeting; Tonko Sabolčec
+	- https://www.youtube.com/watch?v=dJ9k7-pmwvM
+	- https://llvm.org/devmtg/2021-11/slides/2021-LLDB-eval-fuzzer-Finding-Bugs-In-LLDB-based-expression-evaluator.pdf
 - lldb-repro: a utility to transparently capture and replay debugger sessions through the command line driver
 	- used to test the reproducers by running the test suite twice
 	- https://github.com/llvm/llvm-project/tree/main/lldb/utils/lldb-repro
