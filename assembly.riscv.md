@@ -539,6 +539,7 @@ https://riscv.org/software-tools/
 	- Caller and Callee Saved Registers - https://danielmangum.com/posts/risc-v-bytes-caller-callee-registers/
 	- Passing on the Stack - https://danielmangum.com/posts/risc-v-bytes-passing-on-the-stack/
 	- Introduction to Instruction Formats - https://danielmangum.com/posts/risc-v-bytes-intro-instruction-formats/
+	- Privilege Levels - https://danielmangum.com/posts/risc-v-bytes-privilege-levels/
 - RISC-V Educational Materials
 	- https://riscv.org/educational-materials/
 	- https://github.com/riscv/educational-materials
