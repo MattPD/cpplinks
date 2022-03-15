@@ -1270,6 +1270,14 @@ Validation: Including translation validation, equivalence checking.
 	- https://doi.org/10.1145/3437992.3439915
 	- http://www.cse.chalmers.se/~myreen/cpp2021-bootstrap-myreen.pdf
 	- https://www.youtube.com/watch?v=Ip6Y4O2T60Y
+- Formal Verification of High-Level Synthesis
+	- OOPSLA 2021
+	- Yann Herklotz, James D. Pollard, Nadesh Ramanathan, John Wickerson
+	- https://doi.org/10.1145/3485494
+	- https://yannherklotz.com/papers/fvhls_oopsla21.pdf
+	- Vericert: A formally verified high-level synthesis tool based on CompCert and written in Coq
+		- https://github.com/ymherklotz/vericert
+		- https://johnwickerson.wordpress.com/2021/08/27/vericert/
 - Formally Verified Speculation and Deoptimization in a JIT Compiler
 	- POPL 2021
 	- Aurèle Barrière, Sandrine Blazy, Olivier Flückiger, David Pichardie, Jan Vitek
