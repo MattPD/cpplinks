@@ -138,6 +138,9 @@
 - ABI Dumper
 	- A tool to dump ABI of an ELF object containing DWARF debug info
 	- https://github.com/lvc/abi-dumper
+- ABI-Checker
+	- A tool to help automate testing that two languages/compilers agree on ABIs for the purposes of FFI
+	- https://github.com/Gankra/abi-checker
 - ABIGAIL: Application Binary Interface Generic Analysis and Instrumentation Library
 	- abidiff - compares the Application Binary Interfaces (ABI) of two shared libraries in ELF format
 		- https://sourceware.org/libabigail/manual/abidiff.html
