@@ -430,11 +430,18 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	+ https://web.archive.org/https://www.merckedsecurity.com/blog/smashing-the-arm-stack-part-1
 * TCP Bind Shell in Assembly (ARM 32-bit)
 	+ https://azeria-labs.com/tcp-bind-shell-in-assembly-arm-32-bit/
-* Understanding the Security of ARM Debugging Features
-	+ Security & Privacy (S&P) 2019
-	+ Zhenyu Ning, Fengwei Zhang
-	+ https://compass.cs.wayne.edu/nailgun/
-	+ http://webpages.eng.wayne.edu/~fy8421/paper/nailgun-sp19.pdf
+
+### Security: Debugging
+
+- Revisiting ARM Debugging Features: Nailgun and Its Defense
+	- IEEE Transactions on Dependable and Secure Computing (TDSC) 2022
+	- Zhenyu Ning, Chenxu Wang, Yinhua Chen, Fengwei Zhang, Jiannong Cao
+	- https://fengweiz.github.io/paper/nailgun-tdsc22.pdf
+- Understanding the Security of ARM Debugging Features
+	- Security & Privacy (S&P) 2019
+	- Zhenyu Ning, Fengwei Zhang
+	- https://compass.cs.wayne.edu/nailgun/
+	- http://webpages.eng.wayne.edu/~fy8421/paper/nailgun-sp19.pdf
 
 ### Memory Tagging Extension (MTE)
 
