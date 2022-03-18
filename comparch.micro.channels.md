@@ -2357,6 +2357,13 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 
 # Talks
 
+## Talks: 2022
+
+- Tutorial: Microarchitectural Side Channel Attacks
+	- International Solid-State Circuits Conference (ISSCC) 2022
+	- Todd Austin
+	- https://www.youtube.com/watch?v=dLkyuUrAuzg
+
 ## Talks: 2021
 
 - A Practical Introduction to Transient Execution Attacks
@@ -2391,6 +2398,7 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- https://www.youtube.com/watch?v=t9qOTIFO7Uw
 - Broad-Based Side-Channel Defenses for Modern Processor Architectures
 	- Ashay Rane
+	- Microsoft Research; February 25, 2019
 	- https://www.microsoft.com/en-us/research/video/broad-based-side-channel-defenses-for-modern-processor-architectures/
 - Ghosts in a Nutshell
 	- Black Hat Asia 2019
