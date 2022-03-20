@@ -61,6 +61,13 @@ https://riscv.org/publications/
 	- https://www.researchgate.net/publication/328314631_Towards_a_High-Performance_RISC-V_Emulator
 	- https://www.researchgate.net/profile/Vanderson_Rosario2/publication/328314631_Towards_a_High-Performance_RISC-V_Emulator/links/5bc5e1ec458515f7d9bf6342/Towards-a-High-Performance-RISC-V-Emulator.pdf
 
+## Readings: Performance
+
+- Supporting RISC-V Performance Counters through Performance analysis tools for Linux (Perf)
+	- CARRV 2021
+	- Joao Mario Domingos, Pedro Tomas, Leonel Sousa
+	- https://arxiv.org/abs/2112.11767
+
 ## Readings: Security
 
 - Return-Oriented Programming on RISC-V
