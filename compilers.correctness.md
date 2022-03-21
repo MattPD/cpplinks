@@ -1262,6 +1262,15 @@ Validation: Including translation validation, equivalence checking.
 	- Amal Ahmed
 	- http://www.ccs.neu.edu/home/amal/papers/verifcomp.pdf
 
+## Verification: 2022
+
+- Verified Compilation of C Programs with a Nominal Memory Model
+	- POPL 2022
+	- Yuting Wang, Ling Zhang, Zhong Shao, Jérémie Koenig
+	- https://doi.org/10.1145/3498686
+	- https://github.com/SJTU-PLV/nominal-compcert-popl22-artifact
+	- https://popl22.sigplan.org/details/POPL-2022-popl-research-papers/25/Verified-Compilation-of-C-Programs-with-a-Nominal-Memory-Model
+
 ## Verification: 2021
 
 - A Minimalistic Verified Bootstrapped Compiler (Proof Pearl)
