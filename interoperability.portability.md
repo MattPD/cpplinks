@@ -192,6 +192,9 @@
 	- https://jrb-programming.blogspot.com/2012/12/easy-binary-compatible-interfaces.html
 	- https://github.com/jbandela/cppcomponents
 	- https://github.com/jbandela/cross_compiler_call
+- How Can Package Managers Handle ABI (In)compatibility in C++?
+	- CppCon 2021; Todd Gamblin
+	- https://www.youtube.com/watch?v=gWe2K_oCp6A
 - How to break an ABI and keep your users happy
 	- CppCon 2017; Gennadiy Rozental
 	- https://www.youtube.com/watch?v=NzaYUlAw93k
