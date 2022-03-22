@@ -2,10 +2,10 @@
 
 # Contents
 
-* [Readings](#readings)
-* [References](#references)
-* [Software](#software): [Data Structures](#software---data-structures)
-* [Talks](#talks)
+- [Readings](#readings)
+- [References](#references)
+- [Software](#software): [Data Structures](#software-data-structures), [Performance](#software-performance)
+- [Talks](#talks)
 
 ---
 
@@ -457,11 +457,8 @@
 	- ARM, POWER, RISC-V, x86
 	- help page: http://www.cl.cam.ac.uk/~sf502/regressions/rmem/help.html
 	- web interface: http://www.cl.cam.ac.uk/users/pes20/rmem/
-- Synchrobench
-	- https://github.com/gramoli/synchrobench
-	- A benchmark to compare synchronization techniques for multicore programming
 
-## Software - Data Structures
+## Software: Data Structures
 
 - ASCYLIB
 	- https://github.com/LPD-EPFL/ASCYLIB
@@ -498,6 +495,15 @@
 		- http://katalog.ub.tuwien.ac.at/AC14552708
 		- http://www.ub.tuwien.ac.at/dipl/VL/51367.pdf
 		- https://github.com/mpoeter/emr
+
+## Software: Performance
+
+- CircusTent: Atomic Memory Operation System Benchmarks
+	- Memory system characterization benchmarks using atomic operations
+	- https://github.com/tactcomplabs/circustent
+- Synchrobench
+	- https://github.com/gramoli/synchrobench
+	- A benchmark to compare synchronization techniques for multicore programming
 
 ---
 
