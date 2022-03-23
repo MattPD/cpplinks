@@ -370,6 +370,11 @@ See also:
 	- https://github.com/jrmadsen/compile-time-perf
 - CompileScore: Visual Studio extension and standalone app for build times and compilation data visualization
 	- https://github.com/Viladoman/CompileScore
+- ctbench: Compile-time benchmark and analysis for Clang
+	- https://github.com/JPenuchot/ctbench
+	- ctbench: compile time benchmarking for Clang - Jules Pénuchot - CPPP 2021
+		- https://www.youtube.com/watch?v=1RZY6skM0Rc
+		- https://github.com/CpppFr/CPPP-21/tree/main/ctbench_compile_time_benchmarking_for_clang-jules_p%C3%A9nuchot
 - CTMark (Compile Time Mark)
 	- https://github.com/llvm-mirror/test-suite/tree/master/CTMark
 - Metabench: A simple framework for compile-time microbenchmarks
