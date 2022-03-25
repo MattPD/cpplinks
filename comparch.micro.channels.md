@@ -1888,6 +1888,12 @@ See also: [Computer Architecture](comparch.md)
 	- Security & Privacy (S&P) 2019
 	- Alejandro Cabrera Aldaya, Billy Bob Brumley, Sohaib ul Hassan, Cesar Pereida García, Nicola Tuveri
 	- https://eprint.iacr.org/2018/1060
+- Port Contention Goes Portable: Port Contention Side Channels in Web Browsers
+	- AsiaCCS 2022
+	- Thomas Rokicki, Clémentine Maurice, Marina Botvinnik, Yossi Oren
+	- https://doi.org/10.1145/3488932.3517411
+	- https://people.irisa.fr/Thomas.Rokicki/publications/wpc.pdf
+	- https://github.com/MIAOUS-group/web-port-contention
 - PortSmash (CVE-2018-5407): side-channel vulnerability on SMT/Hyper-Threading architectures
 	- https://github.com/bbbrumley/portsmash
 - SMoTherSpectre: exploiting speculative execution through port contention
