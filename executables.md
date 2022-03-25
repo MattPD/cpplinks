@@ -432,87 +432,91 @@ Contents:
 
 ## ELF: Readings
 
-* A small ELF: Small 114 byte x86_64 ELF
+- A short note on entrypoint obscuring in ELF binaries
+	- tmp.0ut Volume 2; February 2022
+	- s01den
+	- https://tmpout.sh/2/2.html
+- A small ELF: Small 114 byte x86_64 ELF
 	- https://ftp.lol/posts/small-elf.html
-* A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux
-	+ http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
-	+ https://github.com/abraithwaite/teensy
-* About ELF Auxiliary Vectors - http://articles.manugarg.com/aboutelfauxiliaryvectors
-* Analyzing ELF Binaries with Malformed Headers
+- A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux
+	- http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
+	- https://github.com/abraithwaite/teensy
+- About ELF Auxiliary Vectors - http://articles.manugarg.com/aboutelfauxiliaryvectors
+- Analyzing ELF Binaries with Malformed Headers
 	- Part 1 - Emulating Tiny Programs
 		- https://binaryresearch.github.io/2019/09/17/Analyzing-ELF-Binaries-with-Malformed-Headers-Part-1-Emulating-Tiny-Programs.html
 	- Part 2 - Mapping Program Logic with Qiling and Graphviz
 		- https://binaryresearch.github.io/2019/12/11/Analyzing-ELF-Binaries-with-Malformed-Headers-Part-2-Mapping-Program-Logic-with-Qiling-and-Graphviz.html
 	- Part 3 - Automatically Solving a Corrupted Keygenme with angr
 		- https://binaryresearch.github.io/2020/01/15/Analyzing-ELF-Binaries-with-Malformed-Headers-Part-3-Solving-A-Corrupted-Keygenme.html
-* Analyzing The Simplest C++ Program
+- Analyzing The Simplest C++ Program
 	- https://oneraynyday.github.io/dev/2020/05/03/Analyzing-The-Simplest-C++-Program/
-* Anatomy of an ELF core file - https://www.gabriel.urdhr.fr/2015/05/29/core-file/
-* Armouring the ELF: Binary encryption on the UNIX platform - scut & grugq - Phrack Magazine #58 (2001-12-28) - http://www.phrack.org/issues/58/5.html
-* Building an ELF Parser with Frida - https://versprite.com/og/frida/
-* Cheating the ELF: Subversive Dynamic Linking to Libraries - https://grugq.github.io/docs/subversiveld.pdf
-* Computer Science from the Bottom Up - https://www.bottomupcs.com/
-	+ Behind the process - https://www.bottomupcs.com/chapter07.xhtml
-	+ Dynamic Linking - https://www.bottomupcs.com/chapter08.xhtml
-* Constructing the ELF - A Magnetized Needle and a Steady Hand - http://nullprogram.com/blog/2016/11/17/
-* Custom ELF program headers—what, why and how - http://www.cl.cam.ac.uk/~srk31/blog/2017/02/14/
-	+ Rag-bag of utilities and scripts that do strange things with ELF files - https://github.com/stephenrkell/elftin/
-* Dynamic Linking in ELF - http://dandylife.net/blog/archives/660
-* ELF - No Section Header? No Problem - https://em386.blogspot.com/2006/10/elf-no-section-header-no-problem.html
-* ELF Binary Mangling
+- Anatomy of an ELF core file - https://www.gabriel.urdhr.fr/2015/05/29/core-file/
+- Armouring the ELF: Binary encryption on the UNIX platform - scut & grugq - Phrack Magazine #58 (2001-12-28) - http://www.phrack.org/issues/58/5.html
+- Building an ELF Parser with Frida - https://versprite.com/og/frida/
+- Cheating the ELF: Subversive Dynamic Linking to Libraries - https://grugq.github.io/docs/subversiveld.pdf
+- Computer Science from the Bottom Up - https://www.bottomupcs.com/
+	- Behind the process - https://www.bottomupcs.com/chapter07.xhtml
+	- Dynamic Linking - https://www.bottomupcs.com/chapter08.xhtml
+- Constructing the ELF - A Magnetized Needle and a Steady Hand - http://nullprogram.com/blog/2016/11/17/
+- Custom ELF program headers—what, why and how - http://www.cl.cam.ac.uk/~srk31/blog/2017/02/14/
+	- Rag-bag of utilities and scripts that do strange things with ELF files - https://github.com/stephenrkell/elftin/
+- Dynamic Linking in ELF - http://dandylife.net/blog/archives/660
+- ELF - No Section Header? No Problem - https://em386.blogspot.com/2006/10/elf-no-section-header-no-problem.html
+- ELF Binary Mangling
 	- Part 1: Concepts - https://n0.lol/ebm/1.html
 	- Part 2: Golfin' - https://n0.lol/ebm/2.html
 	- Part 3: Weaponization - https://n0.lol/ebm/3.html
 	- Part 4: Limit Break - https://n0.lol/ebm/4.html
-* ELF File Format - http://resources.infosecinstitute.com/elf-file-format/
-* ELF Hello World Tutorial
-	+ http://www.cirosantilli.com/elf-hello-world/
-	+ https://github.com/cirosantilli/cirosantilli.github.io/blob/master/elf-hello-world.md
-* ELF introspection, robustly and portably - http://www.cl.cam.ac.uk/~srk31/blog/devel/elf-introspection.html
-* ELF loading and dynamic linking - https://www.gabriel.urdhr.fr/2015/01/22/elf-linking/
-* ELF Parsing Bugs by Example with Melkor Fuzzer
-	+ https://ioactive.com/pdfs/IOActive_ELF_Parsing_with_Melkor.pdf
-	+ http://blog.ioactive.com/2014/11/elf-parsing-bugs-by-example-with-melkor.html
-* ELF shared library injection forensics - https://backtrace.io/blog/elf-shared-library-injection-forensics/
-* ELF symbol lookup
-	+ ELF: symbol lookup via DT_HASH - https://flapenguin.me/2017/04/24/elf-lookup-dt-hash/
-	+ ELF: better symbol lookup via DT_GNU_HASH - https://flapenguin.me/2017/05/10/elf-lookup-dt-gnu-hash/
-* ELF symbol visibility and the perils of name clashing
+- ELF File Format - http://resources.infosecinstitute.com/elf-file-format/
+- ELF Hello World Tutorial
+	- http://www.cirosantilli.com/elf-hello-world/
+	- https://github.com/cirosantilli/cirosantilli.github.io/blob/master/elf-hello-world.md
+- ELF introspection, robustly and portably - http://www.cl.cam.ac.uk/~srk31/blog/devel/elf-introspection.html
+- ELF loading and dynamic linking - https://www.gabriel.urdhr.fr/2015/01/22/elf-linking/
+- ELF Parsing Bugs by Example with Melkor Fuzzer
+	- https://ioactive.com/pdfs/IOActive_ELF_Parsing_with_Melkor.pdf
+	- http://blog.ioactive.com/2014/11/elf-parsing-bugs-by-example-with-melkor.html
+- ELF shared library injection forensics - https://backtrace.io/blog/elf-shared-library-injection-forensics/
+- ELF symbol lookup
+	- ELF: symbol lookup via DT_HASH - https://flapenguin.me/2017/04/24/elf-lookup-dt-hash/
+	- ELF: better symbol lookup via DT_GNU_HASH - https://flapenguin.me/2017/05/10/elf-lookup-dt-gnu-hash/
+- ELF symbol visibility and the perils of name clashing
 	- http://www.fcollyer.com/2013/01/04/elf-symbol-visibility-and-the-perils-of-name-clashing/
-* ELFs are dorky, Elves are cool - Sergey Bratus and Julian Bangert - PoC||GTFO 00 - https://greatscottgadgets.com/pocorgtfo/pocorgtfo00.pdf
-* ELF: From The Programmer's Perspective (1995) - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.8698
-* ELF, libelf, compressed sections and elfutils - https://gnu.wildebeest.org/blog/mjw/2016/01/13/elf-libelf-compressed-sections-and-elfutils/
-* Eli Bendersky - Linkers and loaders - http://eli.thegreenplace.net/tag/linkers-and-loaders
-	+ Load-time relocation of shared libraries - https://eli.thegreenplace.net/2011/08/25/load-time-relocation-of-shared-libraries
-	+ Position Independent Code (PIC) in shared libraries - https://eli.thegreenplace.net/2011/11/03/position-independent-code-pic-in-shared-libraries
-	+ Position Independent Code (PIC) in shared libraries on x64 - https://eli.thegreenplace.net/2011/11/11/position-independent-code-pic-in-shared-libraries-on-x64
-	+ How statically linked programs run on Linux - https://eli.thegreenplace.net/2012/08/13/how-statically-linked-programs-run-on-linux
-	+ Library order in static linking - https://eli.thegreenplace.net/2013/07/09/library-order-in-static-linking
-* Executable and Linkable Format 101
-	+ Part 1: Sections and Segments - http://www.intezer.com/executable-linkable-format-101-part1-sections-segments/
-	+ Part 2: Symbols - http://www.intezer.com/executable-linkable-format-101-part-2-symbols/
-	+ Part 3: Relocations - https://www.intezer.com/executable-and-linkable-format-101-part-3-relocations/
-	+ Part 4: Dynamic Linking - https://www.intezer.com/executable-linkable-format-101-part-4-dynamic-linking/
-* Exploiting ELF Expansion Variables - https://backtrace.io/blog/exploiting-elf-expansion-variables/
-* Generating executable files from scratch - https://github.com/cameronswinoga/yabfc/wiki/Generating-executable-files-from-scratch
-* GNU Hash ELF Sections
-	+ https://blogs.oracle.com/ali/gnu-hash-elf-sections
-	+ http://www.linker-aliens.org/blogs/ali/entry/gnu_hash_elf_sections/
-* Good Practices in Library Design, Implementation, and Maintenance - https://www.akkadia.org/drepper/goodpractice.pdf
-* Have fun with LIEF and Executable Formats - Play with ELF symbols - Part 2 (renaming dynamic symbols) - https://blog.quarkslab.com/have-fun-with-lief-and-executable-formats.html#elf
-* How is a binary executable organized? Let's explore it! - https://jvns.ca/blog/2014/09/06/how-to-read-an-executable/
-* How programs get run: ELF binaries - https://lwn.net/Articles/631631/
-* How to execute an object file
+- ELFs are dorky, Elves are cool - Sergey Bratus and Julian Bangert - PoC||GTFO 00 - https://greatscottgadgets.com/pocorgtfo/pocorgtfo00.pdf
+- ELF: From The Programmer's Perspective (1995) - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.8698
+- ELF, libelf, compressed sections and elfutils - https://gnu.wildebeest.org/blog/mjw/2016/01/13/elf-libelf-compressed-sections-and-elfutils/
+- Eli Bendersky - Linkers and loaders - http://eli.thegreenplace.net/tag/linkers-and-loaders
+	- Load-time relocation of shared libraries - https://eli.thegreenplace.net/2011/08/25/load-time-relocation-of-shared-libraries
+	- Position Independent Code (PIC) in shared libraries - https://eli.thegreenplace.net/2011/11/03/position-independent-code-pic-in-shared-libraries
+	- Position Independent Code (PIC) in shared libraries on x64 - https://eli.thegreenplace.net/2011/11/11/position-independent-code-pic-in-shared-libraries-on-x64
+	- How statically linked programs run on Linux - https://eli.thegreenplace.net/2012/08/13/how-statically-linked-programs-run-on-linux
+	- Library order in static linking - https://eli.thegreenplace.net/2013/07/09/library-order-in-static-linking
+- Executable and Linkable Format 101
+	- Part 1: Sections and Segments - http://www.intezer.com/executable-linkable-format-101-part1-sections-segments/
+	- Part 2: Symbols - http://www.intezer.com/executable-linkable-format-101-part-2-symbols/
+	- Part 3: Relocations - https://www.intezer.com/executable-and-linkable-format-101-part-3-relocations/
+	- Part 4: Dynamic Linking - https://www.intezer.com/executable-linkable-format-101-part-4-dynamic-linking/
+- Exploiting ELF Expansion Variables - https://backtrace.io/blog/exploiting-elf-expansion-variables/
+- Generating executable files from scratch - https://github.com/cameronswinoga/yabfc/wiki/Generating-executable-files-from-scratch
+- GNU Hash ELF Sections
+	- https://blogs.oracle.com/ali/gnu-hash-elf-sections
+	- http://www.linker-aliens.org/blogs/ali/entry/gnu_hash_elf_sections/
+- Good Practices in Library Design, Implementation, and Maintenance - https://www.akkadia.org/drepper/goodpractice.pdf
+- Have fun with LIEF and Executable Formats - Play with ELF symbols - Part 2 (renaming dynamic symbols) - https://blog.quarkslab.com/have-fun-with-lief-and-executable-formats.html#elf
+- How is a binary executable organized? Let's explore it! - https://jvns.ca/blog/2014/09/06/how-to-read-an-executable/
+- How programs get run: ELF binaries - https://lwn.net/Articles/631631/
+- How to execute an object file
 	- Part 1: Calling a simple function without linking: https://blog.cloudflare.com/how-to-execute-an-object-file-part-1/
 	- Part 2: Handling relocations: https://blog.cloudflare.com/how-to-execute-an-object-file-part-2/
 	- Part 3: Dealing with external libraries: https://blog.cloudflare.com/how-to-execute-an-object-file-part-3/
 	- https://github.com/cloudflare/cloudflare-blog/tree/master/2021-03-obj-file
-* How To Write Shared Libraries - https://www.akkadia.org/drepper/dsohowto.pdf
-* I/O patterns on ELF binary initialization - https://glandium.org/blog/?p=1016
-* Improving binary layout for progressive decompression (2011) - https://glandium.org/blog/?p=2320
-* In-Memory-Only ELF Execution (Without tmpfs) - https://magisterquis.github.io/2018/03/31/in-memory-only-elf-execution.html
-* In the lands of corrupted elves: Breaking ELF software with Melkor fuzzer - https://www.blackhat.com/docs/us-14/materials/arsenal/us-14-Hernandez-Melkor-Slides.pdf
-* Introduction to the ELF Format
+- How To Write Shared Libraries - https://www.akkadia.org/drepper/dsohowto.pdf
+- I/O patterns on ELF binary initialization - https://glandium.org/blog/?p=1016
+- Improving binary layout for progressive decompression (2011) - https://glandium.org/blog/?p=2320
+- In-Memory-Only ELF Execution (Without tmpfs) - https://magisterquis.github.io/2018/03/31/in-memory-only-elf-execution.html
+- In the lands of corrupted elves: Breaking ELF software with Melkor fuzzer - https://www.blackhat.com/docs/us-14/materials/arsenal/us-14-Hernandez-Melkor-Slides.pdf
+- Introduction to the ELF Format
 	- Part I: The ELF Header - https://blog.k3170makan.com/2018/09/introduction-to-elf-format-elf-header.html
 	- Part II: Understanding Program Headers - https://blog.k3170makan.com/2018/09/introduction-to-elf-format-part-ii.html
 	- Part III: The Section Headers - https://blog.k3170makan.com/2018/09/introduction-to-elf-file-format-part.html
@@ -522,13 +526,13 @@ Contents:
 	- Part VI(2): The Symbol Table and Relocations - https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi_18.html
 	- Part VI(3): More Relocation tricks - r_addend execution - https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi-more.html
 	- Part VII: Dynamic Linking / Loading and the .dynamic section - https://blog.k3170makan.com/2018/11/introduction-to-elf-format-part-vii.html
-* Inside ELF Symbol Tables
-	+ https://blogs.oracle.com/ali/inside-elf-symbol-tables
-	+ http://www.linker-aliens.org/blogs/ali/entry/inside_elf_symbol_tables/
-* Linux Internals - Dynamic Linking Wizardry - https://0x00sec.org/t/linux-internals-dynamic-linking-wizardry/1082
-* Linux Internals - The Art Of Symbol Resolution - https://0x00sec.org/t/linux-internals-the-art-of-symbol-resolution/1488
-* Linux x86 Program Start Up (dynamically loaded x86 ELF files) - http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html
-* Making our own executable packer
+- Inside ELF Symbol Tables
+	- https://blogs.oracle.com/ali/inside-elf-symbol-tables
+	- http://www.linker-aliens.org/blogs/ali/entry/inside_elf_symbol_tables/
+- Linux Internals - Dynamic Linking Wizardry - https://0x00sec.org/t/linux-internals-dynamic-linking-wizardry/1082
+- Linux Internals - The Art Of Symbol Resolution - https://0x00sec.org/t/linux-internals-the-art-of-symbol-resolution/1488
+- Linux x86 Program Start Up (dynamically loaded x86 ELF files) - http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html
+- Making our own executable packer
 	- What's in a Linux executable? - https://fasterthanli.me/blog/2020/whats-in-a-linux-executable/
 	- Running an executable without exec - https://fasterthanli.me/blog/2020/running-an-executable-without-exec/
 	- Position-independent code - https://fasterthanli.me/blog/2020/position-independent-code/
@@ -542,45 +546,45 @@ Contents:
 	- More ELF relocations - https://fasterthanli.me/blog/2020/more-elf-relocations/
 	- A no_std Rust binary - https://fasterthanli.me/blog/2020/a-no-std-rust-binary/
 	- Thread-local storage - https://fasterthanli.me/blog/2020/thread-local-storage/
-* Modern ELF Infection Techniques of SCOP Binaries
+- Modern ELF Infection Techniques of SCOP Binaries
 	- PoC||GTFO 0x20, January 2020; Ryan "ElfMaster" O'Neill
 	- https://archive.org/details/pocorgtfo20/page/n44/mode/1up?view=theater
-* Palindromic 64 bit ELF binaries
+- Palindromic 64 bit ELF binaries
 	- https://n0.lol/bggp/writeup.html
-* Position Independent Executables - https://blog.fpmurphy.com/2008/06/position-independent-executables.html
-* Programming With Ones and Zeros
-	+ Part 1 - http://www.hanshq.net/ones-and-zeros.html
-	+ Ones and Zeros, Part 2: Making Executable Files - http://www.hanshq.net/making-executables.html
-* RE a 64bit ELF binary - Devil’s swapper write-up - https://0x00sec.org/t/re-a-64bit-elf-binary-devils-swapper-write-up/2379
-* Relocations in ELF Toolchains - https://www.sifive.com/blog/2017/08/21/all-aboard-part-2-relocations/
-* Resolving ELF Relocation Name / Symbols - https://em386.blogspot.com/2006/10/resolving-elf-relocation-name-symbols.html
-* Secure Code Partitioning With ELF binaries (SCOP) - http://bitlackeys.org/papers/secure_code_partitioning_2018.txt
-* Smallest x86 ELF Hello World - http://timelessname.com/elfbin/
-* Special sections in Linux binaries - https://lwn.net/Articles/531148/
-* Targeting File Parsers with S2E and Kaitai Struct - targeted symbolic execution of readelf - https://adrianherrera.github.io/post/kaitai-s2e/
-* The 101 of ELF Binaries on Linux: Understanding and Analysis - https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/
-* The Anatomy of an Executable - dissection of a simple "hello world" ELF binary - https://github.com/mewrev/dissection
-* The Cerberus ELF Interface - http://phrack.org/issues/61/8.html
-* The Cost Of ELF Symbol Hashing
-	+ https://blogs.oracle.com/ali/the-cost-of-elf-symbol-hashing
-	+ http://www.linker-aliens.org/blogs/ali/entry/the_cost_of_elf_symbol/
-* The ELF Object File Format by Dissection (1995) - http://www.linuxjournal.com/article/1060
-* The Executable and Linkable Format (ELF)
-	+ https://publicclu2.blogspot.com/2013/05/executable-and-linkable-format-elf.html
-	+ https://www.cs.stevens.edu/%7Ejschauma/631A/elf.html
-	+ http://web.archive.org/web/20120415084409/http://www.acsu.buffalo.edu:80/~charngda/elf.html
-* The missing link: explaining ELF static linking, semantically - Stephen Kell, Dominic P. Mulligan, Peter Sewell - OOPSLA 2016
-	+ http://www.cl.cam.ac.uk/~pes20/rems/papers/oopsla-elf-linking-2016.pdf
-	+ https://bitbucket.org/Peter_Sewell/linksem/
-* Tiny ELF Files: Revisited in 2021
+- Position Independent Executables - https://blog.fpmurphy.com/2008/06/position-independent-executables.html
+- Programming With Ones and Zeros
+	- Part 1 - http://www.hanshq.net/ones-and-zeros.html
+	- Ones and Zeros, Part 2: Making Executable Files - http://www.hanshq.net/making-executables.html
+- RE a 64bit ELF binary - Devil’s swapper write-up - https://0x00sec.org/t/re-a-64bit-elf-binary-devils-swapper-write-up/2379
+- Relocations in ELF Toolchains - https://www.sifive.com/blog/2017/08/21/all-aboard-part-2-relocations/
+- Resolving ELF Relocation Name / Symbols - https://em386.blogspot.com/2006/10/resolving-elf-relocation-name-symbols.html
+- Secure Code Partitioning With ELF binaries (SCOP) - http://bitlackeys.org/papers/secure_code_partitioning_2018.txt
+- Smallest x86 ELF Hello World - http://timelessname.com/elfbin/
+- Special sections in Linux binaries - https://lwn.net/Articles/531148/
+- Targeting File Parsers with S2E and Kaitai Struct - targeted symbolic execution of readelf - https://adrianherrera.github.io/post/kaitai-s2e/
+- The 101 of ELF Binaries on Linux: Understanding and Analysis - https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/
+- The Anatomy of an Executable - dissection of a simple "hello world" ELF binary - https://github.com/mewrev/dissection
+- The Cerberus ELF Interface - http://phrack.org/issues/61/8.html
+- The Cost Of ELF Symbol Hashing
+	- https://blogs.oracle.com/ali/the-cost-of-elf-symbol-hashing
+	- http://www.linker-aliens.org/blogs/ali/entry/the_cost_of_elf_symbol/
+- The ELF Object File Format by Dissection (1995) - http://www.linuxjournal.com/article/1060
+- The Executable and Linkable Format (ELF)
+	- https://publicclu2.blogspot.com/2013/05/executable-and-linkable-format-elf.html
+	- https://www.cs.stevens.edu/%7Ejschauma/631A/elf.html
+	- http://web.archive.org/web/20120415084409/http://www.acsu.buffalo.edu:80/~charngda/elf.html
+- The missing link: explaining ELF static linking, semantically - Stephen Kell, Dominic P. Mulligan, Peter Sewell - OOPSLA 2016
+	- http://www.cl.cam.ac.uk/~pes20/rems/papers/oopsla-elf-linking-2016.pdf
+	- https://bitbucket.org/Peter_Sewell/linksem/
+- Tiny ELF Files: Revisited in 2021
 	- https://nathanotterness.com/2021/10/tiny_elf_modernized.html
-* Uncovering a few SIGSEGVs in binutils' BFD and GLIBC
-	+ https://chatsubo-labs.blogspot.com/2017/05/uncovering-few-sigsegvs-in-binutils-bfd.html
-	+ http://brainoverflow.org/papers/BFD-GLIBC_Fuzzing/0%20Uncovering%20a%20few%20SIGSEGVs%20in%20binutils'%20BFD%20and%20GLIBC.pdf
-* Understanding Linux ELF RTLD internals - http://s.eresi-project.org/inc/articles/elf-rtld.txt
-* Understanding the Memory Layout of Linux Executables - https://gist.github.com/CMCDragonkai/10ab53654b2aa6ce55c11cfc5b2432a4
-* 'Weird Machine' patterns - https://www.researchgate.net/publication/283630248_%27Weird_Machine%27_patterns
-* Writing shared libraries - http://plan99.net/~mike/writing-shared-libraries.html
+- Uncovering a few SIGSEGVs in binutils' BFD and GLIBC
+	- https://chatsubo-labs.blogspot.com/2017/05/uncovering-few-sigsegvs-in-binutils-bfd.html
+	- http://brainoverflow.org/papers/BFD-GLIBC_Fuzzing/0%20Uncovering%20a%20few%20SIGSEGVs%20in%20binutils'%20BFD%20and%20GLIBC.pdf
+- Understanding Linux ELF RTLD internals - http://s.eresi-project.org/inc/articles/elf-rtld.txt
+- Understanding the Memory Layout of Linux Executables - https://gist.github.com/CMCDragonkai/10ab53654b2aa6ce55c11cfc5b2432a4
+- 'Weird Machine' patterns - https://www.researchgate.net/publication/283630248_%27Weird_Machine%27_patterns
+- Writing shared libraries - http://plan99.net/~mike/writing-shared-libraries.html
 
 ### Thread Local Storage (TLS)
 
