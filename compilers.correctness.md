@@ -1264,6 +1264,11 @@ Validation: Including translation validation, equivalence checking.
 
 ## Verification: 2022
 
+- The Trusted Computing Base of the CompCert Verified Compiler
+	- European Symposium on Programming (ESOP) 2022
+	- David Monniaux, Sylvain Boulmé
+	- https://arxiv.org/abs/2201.10280
+	- https://hal.archives-ouvertes.fr/hal-03541595
 - Verified Compilation of C Programs with a Nominal Memory Model
 	- POPL 2022
 	- Yuting Wang, Ling Zhang, Zhong Shao, Jérémie Koenig
