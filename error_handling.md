@@ -489,6 +489,10 @@
 - Embracing `noexcept` Operators and Specifiers Safely
 	- CppCon 2021; John Lakos
 	- https://www.youtube.com/watch?v=veAD1dmMdvw
+- Examining and mitigating the performance impact of C++ exceptions on the non-exceptional path in LLVM
+	- 2021 LLVM Developers' Meeting; Modi Mo
+	- https://www.youtube.com/watch?v=7iIlqkLMKqE
+	- https://llvm.org/devmtg/2021-11/slides/2021-ExaminingandMitigatingthePerformanceImpactof-C-exceptionsonthe-non-exceptionalpathinLLVM.pdf
 - Exceptional C++
 	- C++ on Sea 2021; Victor Ciura
 	- Microsoft Windows structured exception handling (SEH)
