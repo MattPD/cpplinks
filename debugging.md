@@ -299,6 +299,9 @@ _Books, Books Reviews_
 	- Electronic Notesin Theoretical Computer Science 1 (1995)
 	- Karen L. Bernstein, Eugene W.Stark
 	- http://dx.doi.org/10.1016/S1571-0661(04)80002-1
+- Possible issues with debugging and inspecting compiler-optimized binaries
+	- 2020; William Cohen
+	- https://developers.redhat.com/blog/2020/03/13/possible-issues-with-debugging-and-inspecting-compiler-optimized-binaries/
 - Proving the Correctness of Algorithmic Debugging for Functional Programs
 	- Trends in Functional Programming (TFP) 2006
 	- Olaf Chitil, Yong Luo
