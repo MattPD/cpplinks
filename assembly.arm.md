@@ -7,6 +7,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 - [Readings](#readings):
 	- [Binary Analysis](#readings-binary-analysis)
 	- [Concurrency](#readings-concurrency)
+	- [Emulation](#readings-emulation)
 	- [Formalization, Specification, Verification](#formalization-specification-verification)
 	- [Instruction Set Architecture](#instruction-set-architecture)
 	- [Performance](#performance)
@@ -157,6 +158,14 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- http://www.di.ens.fr/~zappa/readings/damp09.pdf
 - The Semantics of Power and ARM Multiprocessor Programs
 	- http://www.cl.cam.ac.uk/~pes20/weakmemory/index4.html
+
+## Readings: Emulation
+
+- EXAMINER: Automatically Locating Inconsistent Instructions between Real Devices and CPU Emulators for ARM
+	- ASPLOS 2022
+	- Muhui Jiang, Tianyi Xu, Yajin Zhou, Yufeng Hu, Ming Zhong, Lei Wu, Xiapu Luo, Kui Ren
+	- https://arxiv.org/abs/2105.14273
+	- https://alastairreid.github.io/RelatedWork/papers/jiang:arxiv:2021/
 
 ## Formalization, Specification, Verification
 
