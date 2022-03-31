@@ -2239,6 +2239,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 
 ## Intel SGX
 
+- A Survey of Published Attacks on Intel SGX
+	- 2020
+	- Alexander Nilsson, Pegah Nikbakht Bideh, Joakim Brorsson
+	- https://arxiv.org/abs/2006.13598
 - Cache Attacks on Intel SGX
 	- EuroSec 2017
 	- Johannes Götzfried, Moritz Eckert, Sebastian Schinzel, Tilo Müller
