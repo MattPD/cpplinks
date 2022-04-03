@@ -697,6 +697,13 @@ See also: [Computer Architecture](comparch.md)
 - Pitchfork: Detecting Spectre vulnerabilities using symbolic execution
 	- https://github.com/cdisselkoen/pitchfork
 
+### Defense: Speculation: 2022
+
+- Performance Evolution of Mitigating Transient Execution Attacks
+	- EuroSys 2022
+	- Jonathan Behrens, Adam Belay, M. Frans Kaashoek
+	- https://doi.org/10.1145/3492321.3519559
+
 ### Defense: Speculation: 2021
 
 - BasicBlocker: ISA Redesign to Make Spectre-Immune CPUs Faster
