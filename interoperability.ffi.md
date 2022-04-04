@@ -3,7 +3,7 @@
 # Contents
 
 - [General](#general)
-- Language-specific: [Bash](#bash), [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Fortran](#fortran), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Objective-C](#objective-c), [OCaml](#ocaml), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata)
+- Language-specific: [Bash](#bash), [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Fortran](#fortran), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Objective-C](#objective-c), [OCaml](#ocaml), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata), [WebAssembly](#webassembly)
 
 ---
 
@@ -380,3 +380,12 @@
 
 - Stata commands for inline C++ code in do-files
 	- https://github.com/robertgrant/statacpp
+
+---
+
+# WebAssembly
+
+- Emscripten
+	- Emscripten compiles C and C++ to WebAssembly using LLVM and Binaryen. Emscripten output can run on the Web, in Node.js, and in wasm runtimes.
+	- https://emscripten.org/
+	- https://github.com/emscripten-core/emscripten
