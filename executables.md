@@ -453,7 +453,6 @@ Contents:
 	- https://oneraynyday.github.io/dev/2020/05/03/Analyzing-The-Simplest-C++-Program/
 - Anatomy of an ELF core file - https://www.gabriel.urdhr.fr/2015/05/29/core-file/
 - Armouring the ELF: Binary encryption on the UNIX platform - scut & grugq - Phrack Magazine #58 (2001-12-28) - http://www.phrack.org/issues/58/5.html
-- Building an ELF Parser with Frida - https://versprite.com/og/frida/
 - Cheating the ELF: Subversive Dynamic Linking to Libraries - https://grugq.github.io/docs/subversiveld.pdf
 - Computer Science from the Bottom Up - https://www.bottomupcs.com/
 	- Behind the process - https://www.bottomupcs.com/chapter07.xhtml
@@ -474,9 +473,6 @@ Contents:
 	- https://github.com/cirosantilli/cirosantilli.github.io/blob/master/elf-hello-world.md
 - ELF introspection, robustly and portably - http://www.cl.cam.ac.uk/~srk31/blog/devel/elf-introspection.html
 - ELF loading and dynamic linking - https://www.gabriel.urdhr.fr/2015/01/22/elf-linking/
-- ELF Parsing Bugs by Example with Melkor Fuzzer
-	- https://ioactive.com/pdfs/IOActive_ELF_Parsing_with_Melkor.pdf
-	- http://blog.ioactive.com/2014/11/elf-parsing-bugs-by-example-with-melkor.html
 - ELF shared library injection forensics - https://backtrace.io/blog/elf-shared-library-injection-forensics/
 - ELF symbol lookup
 	- ELF: symbol lookup via DT_HASH - https://flapenguin.me/2017/04/24/elf-lookup-dt-hash/
@@ -561,7 +557,6 @@ Contents:
 - Secure Code Partitioning With ELF binaries (SCOP) - http://bitlackeys.org/papers/secure_code_partitioning_2018.txt
 - Smallest x86 ELF Hello World - http://timelessname.com/elfbin/
 - Special sections in Linux binaries - https://lwn.net/Articles/531148/
-- Targeting File Parsers with S2E and Kaitai Struct - targeted symbolic execution of readelf - https://adrianherrera.github.io/post/kaitai-s2e/
 - The 101 of ELF Binaries on Linux: Understanding and Analysis - https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/
 - The Anatomy of an Executable - dissection of a simple "hello world" ELF binary - https://github.com/mewrev/dissection
 - The Cerberus ELF Interface - http://phrack.org/issues/61/8.html
@@ -585,6 +580,24 @@ Contents:
 - Understanding the Memory Layout of Linux Executables - https://gist.github.com/CMCDragonkai/10ab53654b2aa6ce55c11cfc5b2432a4
 - 'Weird Machine' patterns - https://www.researchgate.net/publication/283630248_%27Weird_Machine%27_patterns
 - Writing shared libraries - http://plan99.net/~mike/writing-shared-libraries.html
+
+### ELF: Readings: Parsing
+
+- Building an ELF Parser with Frida
+	- 2017; VerSprite
+	- https://versprite.com/og/frida/
+	- https://github.com/VerSprite/engage/blob/master/js/elf_parser.js
+- ELF Parsing Bugs by Example with Melkor Fuzzer
+	- 2014; Alejandro Hernández
+	- https://ioactive.com/pdfs/IOActive_ELF_Parsing_with_Melkor.pdf
+	- http://blog.ioactive.com/2014/11/elf-parsing-bugs-by-example-with-melkor.html
+- Some ELF Parser Bugs
+	- tmp.0ut Volume 2; February 2022
+	- netspooky
+	- https://tmpout.sh/2/3.html
+- Targeting File Parsers with S2E and Kaitai Struct - targeted symbolic execution of readelf
+	- https://adrianherrera.github.io/post/kaitai-s2e/
+	- 2017; Adrian Herrera
 
 ### Thread Local Storage (TLS)
 
