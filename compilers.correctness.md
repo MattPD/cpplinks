@@ -395,6 +395,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Yann Herklotz, Zewei Du, Nadesh Ramanathan, John Wickerson
 	- https://johnwickerson.github.io/papers/fuzzingHLS.pdf
 	- https://johnwickerson.wordpress.com/2021/05/07/fuzzing-hls/
+- Automated Conformance Testing for JavaScript Engines via Deep Compiler Fuzzing
+	- PLDI 2021
+	- Guixin Ye, Zhanyong Tang, Shin Hwei Tan, Dingyi Fang, Xiaoyang Sun, Lizhong Bian, Songfang Huang, Haibo Wang, Zheng Wang
+	- https://doi.org/10.1145/3453483.3454054
+	- https://pldi21.sigplan.org/details/pldi-2021-papers/29/Automated-Conformance-Testing-for-JavaScript-Engines-via-Deep-Compiler-Fuzzing
 - C4: The C Compiler Concurrency Checker
 	- ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2021 (tool demonstrations track)
 	- Matt Windsor, Alastair F. Donaldson, John Wickerson
