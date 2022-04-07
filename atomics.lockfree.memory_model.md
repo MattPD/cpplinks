@@ -139,6 +139,16 @@
 
 ## Papers - Data Structures
 
+- Lock-Free Locks Revisited
+	- PPoPP 2022
+	- Naama Ben-David, Guy E. Blelloch, Yuanhao Wei
+	- https://arxiv.org/abs/2201.00813
+	- https://dl.acm.org/doi/10.1145/3503221.3508433
+	- https://www.youtube.com/watch?v=1bH0yy6Wo4w
+	- _We have implemented a C++ library called Flock based on the ideas. Flock allows lock-based data structures to run in either lock-free or blocking (traditional locks) mode. We implemented a variety of tree and list-based data structures with Flock and compare the performance of the lock-free and blocking modes under a variety of workloads. The lock-free mode is almost as fast as blocking mode under almost all workloads, and significantly faster when threads are over-subscribed (more threads than processors). We also compare with several existing lock-based and lock-free alternatives._
+	- Flock: A library for lock-free locks
+		- a C++ library supporting lock-free locks as described in the paper
+		- https://github.com/cmuparlay/flock
 - On the Nature of Progress
 	- OPODIS 2011: International Conference On Principles Of Distributed Systems
 	- Maurice Herlihy, Nir Shavit
