@@ -155,9 +155,14 @@ See also:
 		- http://wiki.osdev.org/Linker_Scripts
 - LD - Linker Scripts
 	- https://sourceware.org/binutils/docs/ld/Scripts.html
+- Everything You Never Wanted To Know About Linker Script
+	- 2021; Miguel Young de la Sota
+	- https://mcyoung.xyz/2021/06/01/linker-script/
 - From Zero to main(): Demystifying Firmware Linker Scripts
+	- 2019; François Baldassari
 	- https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware
 - The Most Thoroughly Commented Linker Script in The World (Probably)
+	- 2021; Thea "Stargirl" Flowers
 	- "a linker script for the Atmel/Microchip SAM D21 with an absolutely obscene amount of documentation"
 	- https://blog.thea.codes/the-most-thoroughly-commented-linker-script/
 	- https://github.com/theacodes/Winterbloom_Castor_and_Pollux/blob/master/firmware/scripts/samd21g18a.ld
