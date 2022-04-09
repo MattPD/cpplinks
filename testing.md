@@ -867,6 +867,11 @@ Metamorphic Relations, Metamorphic Testing
 	- MET 2021
 	- Andrei Lascu, Matt Windsor, Alastair Donaldson, Tobias Grosser, John Wickerson
 	- https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2021/MET.pdf
+- Metamorphic Fuzzing of C++ Libraries
+	- IEEE International Conference on Software Testing, Verification and Validation (ICST) 2022
+	- Andrei Lascu, Alastair F. Donaldson, Tobias Grosser, Torsten Hoefler
+	- https://multicore.doc.ic.ac.uk/publications/icst-22.html
+	- https://github.com/0152la/mfpp
 - Metamorphic Testing
 	- CREST Open Workshop 2012
 	- Tsong Yueh Chen
