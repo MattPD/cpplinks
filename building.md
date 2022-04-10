@@ -722,6 +722,9 @@ See also:
 - Cross Compiling with CMake
 	- Cpp Usergroup Dresden 2021; Andreas Reischuck
 	- https://www.youtube.com/watch?v=rgWwrzZLVR8
+- Cross-Platform Development with CMake
+	- CPPP 2021; Julien Jomier
+	- https://www.youtube.com/watch?v=KSWEZaOtr7c
 - Modern CMake Modules
 	- CppCon 2021
 	- Bret Brown
