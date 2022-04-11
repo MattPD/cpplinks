@@ -623,7 +623,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - QuickPatch: a GDB plug-in to patch an ELF file
 	- https://github.com/invictus1306/QuickPatch
 	- https://invictus1306.github.io/vulnerabilities/2019/10/20/quickpatch.html
-- SymGDB - symbolic execution plugin for gdb - https://github.com/SQLab/symgdb
+- Seer - a GUI frontend to gdb
+	- https://github.com/epasveer/seer
+- SymGDB - symbolic execution plugin for gdb
+	- https://github.com/SQLab/symgdb
 
 #### GDB: Projects: Editor Integration
 
