@@ -691,6 +691,13 @@ See also: [Computer Architecture](comparch.md)
 	- Shravan Narayan, Craig Disselkoen, Daniel Moghimi, Sunjay Cauligi, Evan Johnson, Zhao Gang, Anjo Vahldiek-Oberwagner, Ravi Sahita, Hovav Shacham, Dean Tullsen, Deian Stefan
 	- https://arxiv.org/abs/2102.12730
 	- https://www.usenix.org/conference/usenixsecurity21/presentation/narayan
+- Systematic Analysis of Programming Languages and Their Execution Environments for Spectre Attacks
+	- Iternational Conference on Information Systems Security and Privacy (ICISSP) 2022
+	- Amir Naseredini, Stefan Gast, Martin Schwarzl, Pedro Miguel Sousa Bernardo, Amel Smajic, Claudio Canella, Martin Berger, Daniel Gruss
+	- https://arxiv.org/abs/2111.12528
+	- https://www.cc0x1f.net/publications/spectre_pl_slides.pdf
+	- UCL Information Security Research Seminar; February 3, 2022
+		- https://www.youtube.com/watch?v=9VnwaRH9b2s
 
 ## Defense: Speculation
 
