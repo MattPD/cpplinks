@@ -345,6 +345,10 @@
 - gperftools (originally Google Performance Tools)
 	- "The fastest malloc we’ve seen; works particularly well with threads and STL. Also: thread-friendly heap-checker, heap-profiler, and cpu-profiler."
 	- https://github.com/gperftools/gperftools
+- gprofng: The Next-Generation GNU Profiling Tool
+	- NHR PerfLab Seminar 2022; Ruud van der Pas
+		- https://www.youtube.com/watch?v=CXIjNFF17YY
+		- https://hpc.fau.de/2022/03/31/nhr-perflab-seminar-gprofng-the-next-generation-gnu-profiling-tool/
 - HawkTracer
 	- a highly portable, low-overhead, configurable profiling tool for getting performance metrics from low-end devices
 	- Linux, Windows, macOS; C & C++ library; Python & Rust wrappers
