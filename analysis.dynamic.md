@@ -542,6 +542,13 @@ See also:
 	- Yuchen Zhang, Chengbin Pang, Georgios Portokalidis, Nikos Triandopoulos, Jun Xu
 	- https://www.usenix.org/system/files/sec22summer_zhang-yuchen.pdf
 	- https://github.com/junxzm1990/ASAN--
+- SafePM: A Sanitizer for Persistent Memory
+	- EuroSys 2022
+	- Kartal Kaan Bozdoğan, Dimitrios Stavrakakis, Shady Issa, Pramod Bhatotia
+	- https://dse.in.tum.de/wp-content/uploads/2022/04/final_digital_version.pdf
+	- https://dse.in.tum.de/wp-content/uploads/2022/04/SafePM_eurosys22_presentation.pdf
+	- SafePM: Memory Safety for Persistent Memory
+	- https://github.com/TUM-DSE/safepm
 
 ### Software: Sanitizers: Projects
 
