@@ -412,60 +412,29 @@ See also:
 
 #### Software: Sanitizers: Readings: Research
 
-- A Preliminary Study on Open-Source Memory Vulnerability Detectors
-	- International Conference on Software Analysis, Evolution, and Reengineering (SANER), ERA track, 2020
-	- Yu Nong and Haipeng Cai
-	- http://chapering.github.io/pubs/saner20-a.pdf
-	- AddressSanitizer, CBMC, DrMemory, MemorySanitizer, Valgrind
-	- Research questions:
-		- RQ1: How effective are these detectors in terms of precision, recall, and accuracy?
-		- RQ2: How efficient are the detectors in terms of their cost for detecting vulnerabilities?
-		- RQ3: How do these detectors compare in terms of their detection accuracy?
 - AddressSanitizer: A Fast Address Sanity Checker
 	- 2012 USENIX Annual Technical Conference (ATC)
 	- Konstantin Serebryany, Derek Bruening, Alexander Potapenko, Dmitry Vyukov
 	- https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany
 	- https://research.google/pubs/pub37752/
-- CastSan: Efficient Detection of Polymorphic C++ Object Type Confusions with LLVM
-	- European Symposium on Research in Computer Security (ESORICS) 2018
-	- Muntean P., Wuerl S., Grossklags J., Eckert C.
-	- https://link.springer.com/chapter/10.1007/978-3-319-99073-6_1
-	- https://www.docdroid.net/INWYBF7/castsan-esorics18.pdf
-- CUP: Comprehensive User-Space Protection for C/C++
-	- AsiaCCS 2018
-	- Nathan Burow, Derrick McKee, Scott A. Carr, Mathias Payer
-	- https://hexhive.github.io/publications/files/18AsiaCCS.pdf
-	- https://github.com/HexHive/CUP
+- MemorySanitizer: fast detector of uninitialized memory use in C++
+	- Code Generation and Optimization (CGO) 2015
+	- Evgeniy Stepanov and Konstantin Serebryany
+	- https://research.google.com/pubs/archive/43308.pdf
+- TypeSanitizer: Practical Type Confusion Detection
+	- Computer and Communications Security (CCS) 2016
+	- Istvan Haller, Yuseok Jeon, Hui Peng, Mathias Payer, Herbert Bos, Cristiano Giuffrida, Erik van der Kouwe
+	- https://nebelwelt.net/publications/files/16CCS2.pdf
+	- TypeSan checks casts in C++ code - code released for CCS 2016
+		- https://github.com/vusec/typesan
+
+##### Software: Sanitizers: Readings: Research: 2017
+
 - DangSan: Scalable Use-after-free Detection
 	- European Conference on Computer Systems (EuroSys) 2017
 	- Erik van der Kouwe, Vinod Nigade, Cristiano Giuffrida
 	- http://www.cs.vu.nl/~giuffrida/papers/dangsan_eurosys17.pdf
 	- https://github.com/vusec/dangsan
-- Debloating Address Sanitizer
-	- USENIX Security Symposium 2022
-	- Yuchen Zhang, Chengbin Pang, Georgios Portokalidis, Nikos Triandopoulos, Jun Xu
-	- https://www.usenix.org/system/files/sec22summer_zhang-yuchen.pdf
-	- https://github.com/junxzm1990/ASAN--
-- Debugging and Detecting Numerical Errors in Computation with Posits
-	- PLDI 2020
-	- Sangeeta Chowdhary, Jay P. Lim, Santosh Nagarakatte
-	- https://doi.org/10.1145/3385412.3386004
-	- https://www.cs.rutgers.edu/~santosh.nagarakatte/papers/PositDebug-PLDI-2020-preprint.pdf
-	- FPSanitizer: A debugger to detect and diagnose numerical errors in floating point programs
-		- https://github.com/rutgers-apl/fpsanitizer
-	- PositDebug: A debugger to detect numerical errors in applications using posits
-		- https://github.com/rutgers-apl/PositDebug
-- EffectiveSan: Type and Memory Error Detection using Dynamically Typed C/C++
-	- PLDI 2018
-	- Gregory J. Duck, Roland H. C. Yap
-	- https://arxiv.org/abs/1710.06125
-	- https://github.com/GJDuck/EffectiveSan
-	- https://pldi18.sigplan.org/event/pldi-2018-papers-effectivesan-type-and-memory-error-detection-using-dynamically-typed-c-c-
-- FuZZan: Efficient Sanitizer Metadata Design for Fuzzing
-	- USENIX Annual Technical Conference (USENIX ATC) 2020
-	- Yuseok Jeon, WookHyun Han, Nathan Burow, Mathias Payer
-	- https://nebelwelt.net/files/20ATC.pdf
-	- https://github.com/HexHive/FuZZan
 - HexType: Efficient Detection of Type Confusion Errors for C++
 	- ACM Conference on Computer and Communication Security (CCS) 2017
 	- Yuseok Jeon, Priyam Biswas, Scott A. Carr, Byoungyoung Lee, and Mathias Payer.
@@ -477,15 +446,68 @@ See also:
 	- HexType: Efficient Detection of Type Confusion Errors for C++
 		- https://github.com/HexHive/HexType
 - HexVASAN: Venerable Variadic Vulnerabilities Vanquished
-	- Usenix Security Symposium 2017
+	- USENIX Security Symposium 2017
 	- Priyam Biswas, Alessandro Di Federico, Scott A. Carr, Prabhu Rajasekaran, Stijn Volckaert, Yeoul Na, Michael Franz, and Mathias Payer.
 	- https://nebelwelt.net/publications/files/17SEC.pdf
 	- https://nebelwelt.net/publications/files/17SEC-presentation.pdf
 	- https://github.com/HexHive/HexVASAN
-- MemorySanitizer: fast detector of uninitialized memory use in C++
-	- Code Generation and Optimization (CGO) 2015
-	- Evgeniy Stepanov and Konstantin Serebryany
-	- https://research.google.com/pubs/archive/43308.pdf
+
+##### Software: Sanitizers: Readings: Research: 2018
+
+- CastSan: Efficient Detection of Polymorphic C++ Object Type Confusions with LLVM
+	- European Symposium on Research in Computer Security (ESORICS) 2018
+	- Muntean P., Wuerl S., Grossklags J., Eckert C.
+	- https://link.springer.com/chapter/10.1007/978-3-319-99073-6_1
+	- https://www.docdroid.net/INWYBF7/castsan-esorics18.pdf
+- CUP: Comprehensive User-Space Protection for C/C++
+	- AsiaCCS 2018
+	- Nathan Burow, Derrick McKee, Scott A. Carr, Mathias Payer
+	- https://hexhive.github.io/publications/files/18AsiaCCS.pdf
+	- https://github.com/HexHive/CUP
+- EffectiveSan: Type and Memory Error Detection using Dynamically Typed C/C++
+	- PLDI 2018
+	- Gregory J. Duck, Roland H. C. Yap
+	- https://arxiv.org/abs/1710.06125
+	- https://github.com/GJDuck/EffectiveSan
+	- https://pldi18.sigplan.org/event/pldi-2018-papers-effectivesan-type-and-memory-error-detection-using-dynamically-typed-c-c-
+- PartiSan: Fast and Flexible Sanitization via Run-time Partitioning
+	- Research in Attacks, Intrusions and Defenses (RAID) 2018
+	- Julian Lettner, Dokyung Song, Taemin Park, Stijn Volckaert, Per Larsen, Michael Franz
+	- https://arxiv.org/abs/1711.08108
+
+##### Software: Sanitizers: Readings: Research: 2020
+
+- A Preliminary Study on Open-Source Memory Vulnerability Detectors
+	- International Conference on Software Analysis, Evolution, and Reengineering (SANER), ERA track, 2020
+	- Yu Nong and Haipeng Cai
+	- http://chapering.github.io/pubs/saner20-a.pdf
+	- AddressSanitizer, CBMC, DrMemory, MemorySanitizer, Valgrind
+	- Research questions:
+		- RQ1: How effective are these detectors in terms of precision, recall, and accuracy?
+		- RQ2: How efficient are the detectors in terms of their cost for detecting vulnerabilities?
+		- RQ3: How do these detectors compare in terms of their detection accuracy?
+- Debugging and Detecting Numerical Errors in Computation with Posits
+	- PLDI 2020
+	- Sangeeta Chowdhary, Jay P. Lim, Santosh Nagarakatte
+	- https://doi.org/10.1145/3385412.3386004
+	- https://www.cs.rutgers.edu/~santosh.nagarakatte/papers/PositDebug-PLDI-2020-preprint.pdf
+	- FPSanitizer: A debugger to detect and diagnose numerical errors in floating point programs
+		- https://github.com/rutgers-apl/fpsanitizer
+	- PositDebug: A debugger to detect numerical errors in applications using posits
+		- https://github.com/rutgers-apl/PositDebug
+- FuZZan: Efficient Sanitizer Metadata Design for Fuzzing
+	- USENIX Annual Technical Conference (USENIX ATC) 2020
+	- Yuseok Jeon, WookHyun Han, Nathan Burow, Mathias Payer
+	- https://nebelwelt.net/files/20ATC.pdf
+	- https://github.com/HexHive/FuZZan
+- ParmeSan: Sanitizer-guided Greybox Fuzzing
+	- USENIX Security 2020
+	- Sebastian Österlund, Kaveh Razavi, Herbert Bos, Cristiano Giuffrida
+	- https://github.com/vusec/parmesan
+	- https://www.usenix.org/conference/usenixsecurity20/presentation/osterlund
+
+##### Software: Sanitizers: Readings: Research: 2021
+
 - NSan: A Floating-Point Numerical Sanitizer
 	- Compiler Construction (CC) 2021
 	- Clement Courbet
@@ -501,32 +523,25 @@ See also:
 	- https://2021.esec-fse.org/details/fse-2021-papers/54/Parallel-Shadow-Execution-to-Accelerate-the-Debugging-of-Numerical-Errors
 	- PFPSanitizer: A Parallel Shadow Execution Tool for Debugging Numerical Errors
 		-https://github.com/rutgers-apl/PFPSanitizer
-- ParmeSan: Sanitizer-guided Greybox Fuzzing
-	- USENIX Security 2020
-	- Sebastian Österlund, Kaveh Razavi, Herbert Bos, Cristiano Giuffrida
-	- https://github.com/vusec/parmesan
-	- https://www.usenix.org/conference/usenixsecurity20/presentation/osterlund
-- PartiSan: Fast and Flexible Sanitization via Run-time Partitioning
-	- Research in Attacks, Intrusions and Defenses (RAID) 2018
-	- Julian Lettner, Dokyung Song, Taemin Park, Stijn Volckaert, Per Larsen, Michael Franz
-	- https://arxiv.org/abs/1711.08108
 - SanRazor: Reducing Redundant Sanitizer Checks in C/C++ Programs
 	- USENIX Symposium on Operating Systems  Design and Implementation (OSDI) 2021
 	- Jiang Zhang, Shuai Wang, Manuel Rigger, Pinjia He, Zhendong Su
 	- https://www.usenix.org/conference/osdi21/presentation/zhang
 	- https://github.com/SanRazor-repo/SanRazor
-- TypeSanitizer: Practical Type Confusion Detection
-	- Computer and Communications Security (CCS) 2016
-	- Istvan Haller, Yuseok Jeon, Hui Peng, Mathias Payer, Herbert Bos, Cristiano Giuffrida, Erik van der Kouwe
-	- https://nebelwelt.net/publications/files/16CCS2.pdf
-	- TypeSan checks casts in C++ code - code released for CCS 2016
-		- https://github.com/vusec/typesan
 - UAFSan: An Object-Identifier-Based Dynamic Approach for Detecting Use-After-Free Vulnerabilities
 	- ISSTA 2021
 	- Binfa Gui, Wei Song, Jeff Huang
 	- https://doi.org/10.1145/3460319.3464835
 	- UAFSan: a sanitizer that can detect UAFs (including double frees) in C/C++ software at runtime
 		- https://github.com/wsong-nj/UAFSan
+
+##### Software: Sanitizers: Readings: Research: 2022
+
+- Debloating Address Sanitizer
+	- USENIX Security Symposium 2022
+	- Yuchen Zhang, Chengbin Pang, Georgios Portokalidis, Nikos Triandopoulos, Jun Xu
+	- https://www.usenix.org/system/files/sec22summer_zhang-yuchen.pdf
+	- https://github.com/junxzm1990/ASAN--
 
 ### Software: Sanitizers: Projects
 
