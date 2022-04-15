@@ -374,6 +374,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Jiawei Liu, Yuxiang Wei, Sen Yang, Yinlin Deng, Lingming Zhang
 	- https://arxiv.org/abs/2202.09947
 	- https://github.com/Tzer-AnonBot/tzer
+- Making No-Fuss Compiler Fuzzing Effective
+	- Compiler Construction (CC) 2022
+	- Alex Groce, Rijnard van Tonder, Goutamkumar Tulajappa Kalburgi, Claire Le Goues
+	- https://dl.acm.org/doi/10.1145/3497776.3517765
+	- https://agroce.github.io/cc22.pdf
+	- Deconstructing programs for compiler fuzzing
+		- https://comby.dev/blog/2022/04/11/comby-decomposer-compiler-fuzzing
 - On the Naturalness of Fuzzer-Generated Code
 	- Mining Software Repositories (MSR) 2022
 	- Rajeswari Hita Kambhamettu, John R Billos, Tomi Oluwaseun-Apo, Benjamin Gafford, Rohan Padhye, Vincent J Hellendoorn
