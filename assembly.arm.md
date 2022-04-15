@@ -596,6 +596,11 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- ACM SIGOPS Operating Systems Review 52(1) 2018
 	- Christoffer Dall, Shih-Wei Li, Jin Tack Lim, and Jason Nieh
 	- https://dl.acm.org/citation.cfm?id=3273987
+- Cross-ISA Testing of the Pharo VM: Lessons Learned While Porting to ARMv8
+	- ACM SIGPLAN International Conference on Managed Programming Languages and Runtimes (MPLR) 2021
+	- Guillermo Polito, Pablo Tesone, Stéphane Ducasse, Luc Fabresse, Théo Rogliano, Pierre Misse-Chanabier, Carolina Hernandez Phillips
+	- https://doi.org/10.1145/3475738.3480715
+	- https://hal.archives-ouvertes.fr/hal-03332033/
 - Hiding in the Shadows: Empowering ARM for Stealthy Virtual Machine Introspection
 	- Annual Computer Security Applications Conference (ACSAC) 2018
 	- Sergej Proskurin, Tamas Lengyel, Marius Momeu, Claudia Eckert, Apostolis Zarras
