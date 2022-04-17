@@ -395,6 +395,9 @@
 - P1947: C++ exceptions and alternatives
 	- 2019-11-18; Bjarne Stroustrup
 	- https://wg21.link/P1947
+- P2544: C++ exceptions are becoming more and more problematic
+	- 2022-02-12; Thomas Neumann
+	- http://wg21.link/P2544
 
 ## References
 
@@ -424,6 +427,12 @@
 
 - A test on binary sizes of C error codes vs C++ exceptions
 	- https://github.com/jpakkane/excsize
+- C++ exception performance experiment
+	- https://github.com/neumannt/exceptionperformance
+	- compares different ways to implement exception handling in C++, namely: traditional C++ exceptions, std::expected, Boost::LEAF, Herbceptions, using a pure C++ approximation, Herbceptions, using inline assembly, Boost::Outcome
+	- considers two scenarios:
+		- The sqrt scenario perform a relatively expensive computation that might throw from time to time. This primarily stresses the unwinder.
+		- The fib scenario perform thousands of recursive calls, and thus measures the calling overhead of the different approaches.
 - error_bench: Micro benchmarks for various error handling mechanisms
 	- https://github.com/ben-craig/error_bench
 	- Error size benchmarking
