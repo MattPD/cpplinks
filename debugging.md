@@ -628,6 +628,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - SymGDB - symbolic execution plugin for gdb
 	- https://github.com/SQLab/symgdb
 
+#### GDB: Projects: Decompilation
+
+- decomp2dbg: A plugin to introduce a generic API for decompiler support in GDB
+	- https://github.com/mahaloz/decomp2dbg
+
 #### GDB: Projects: Editor Integration
 
 - GDB-MI: a package by Nick Roberts which makes Emacs use GDB/MI interface to talk with the GNU Debugger
