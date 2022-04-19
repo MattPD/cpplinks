@@ -627,10 +627,14 @@ Contents:
 	- Thread Local Storage
 		- https://stffrdhrn.github.io/hardware/embedded/openrisc/2020/01/19/tls.html
 
-### Transformation
+### ELF: Readings: Transformation
 
 - A Technique for Hooking Internal Functions of Dynamically-Linked ELF Binaries
 	- https://binaryresearch.github.io/2019/08/29/A-Technique-for-Hooking-Internal-Functions-of-Dynamically-Linked-ELF-Binaries.html
+- Bashing ELFs Like a Caveman
+	- tmp.0ut Volume 2; February 2022
+	- RiS
+	- https://tmpout.sh/2/12.html
 - Honey, I Shrunk the ELFs: Lightweight Binary Tailoring of Shared Libraries
 	- EMSOFT 2019
 	- ACM Transactions on Embedded Computing Systems (TECS) 18, 5s, Article 102 (October 2019)
