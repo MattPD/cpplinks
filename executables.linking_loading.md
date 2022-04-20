@@ -283,6 +283,8 @@ See also:
 
 ## Readings: Performance
 
+- Design and implementation of mold
+	- https://github.com/rui314/mold/blob/main/docs/design.md
 - Why isn't ld.lld faster?
 	- https://maskray.me/blog/2021-12-19-why-isnt-ld.lld-faster
 
