@@ -99,6 +99,8 @@ Note: see also [Communities](communities.md) -- where you can learn together.
 - code_report
 	- https://youtube.com/c/codereport
 	- https://github.com/codereport/Talks
+- Educational C++ Videos
+	- https://hackingcpp.com/cpp/educational_videos.html
 - Everything Cpp - https://www.youtube.com/channel/UCxwGBrWeIIWO9V_uLwRWCdA/playlists
 - Programming in C++ (Slides and Videos) - Michael Adams - https://www.ece.uvic.ca/~frodo/cppbook/
 
