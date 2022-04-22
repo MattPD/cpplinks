@@ -706,6 +706,12 @@ See also: [Computer Architecture](comparch.md)
 
 ### Defense: Speculation: 2022
 
+- Kasper: Scanning for Generalized Transient Execution Gadgets in the Linux Kernel
+	- NDSS 2022
+	- Brian Johannesmeyer, Jakob Koschel, Kaveh Razavi, Herbert Bos, Cristiano Giuffrida
+	- https://www.ndss-symposium.org/ndss-paper/auto-draft-247/
+	- https://github.com/vusec/kasper
+	- https://www.vusec.net/projects/kasper/
 - Performance Evolution of Mitigating Transient Execution Attacks
 	- EuroSys 2022
 	- Jonathan Behrens, Adam Belay, M. Frans Kaashoek
