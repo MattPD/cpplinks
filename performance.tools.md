@@ -368,6 +368,10 @@
 	- https://github.com/RRZE-HPC/likwid/wiki/likwid-perfctr
 	- https://github.com/RRZE-HPC/likwid/wiki/TutorialMarkerC
 	- https://github.com/RRZE-HPC/likwid/wiki/PatternsHaswellEP
+- magic-trace: collects and displays high-resolution traces of what a process is doing 
+	- "use it like perf: point it to a process and off it goes. The key difference from perf is that instead of sampling call stacks throughout time, magic-trace uses Intel Processor Trace to snapshot a ring buffer of all control flow leading up to a chosen point in time. Then, you can explore an interactive timeline of what happened."
+	- https://magic-trace.org/
+	- https://github.com/janestreet/magic-trace
 - microprofile: an embeddable profiler
 	- https://github.com/jonasmr/microprofile
 - not-perf: A sampling CPU profiler for Linux
