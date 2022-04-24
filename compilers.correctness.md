@@ -374,6 +374,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Jiawei Liu, Yuxiang Wei, Sen Yang, Yinlin Deng, Lingming Zhang
 	- https://arxiv.org/abs/2202.09947
 	- https://github.com/Tzer-AnonBot/tzer
+- High-coverage metamorphic testing of concurrency support in C compilers
+	- Software Testing Verification & Reliability 2022
+	- Matt Windsor, Alastair F. Donaldson, John Wickerson
+	- https://onlinelibrary.wiley.com/doi/10.1002/stvr.1812
 - Making No-Fuss Compiler Fuzzing Effective
 	- Compiler Construction (CC) 2022
 	- Alex Groce, Rijnard van Tonder, Goutamkumar Tulajappa Kalburgi, Claire Le Goues
