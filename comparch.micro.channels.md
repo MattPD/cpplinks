@@ -749,6 +749,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.ndss-symposium.org/ndss-paper/hunting-the-haunter-efficient-relational-symbolic-execution-for-spectre-with-haunted-relse/
 - SoK: Practical Foundations for Spectre Defenses
 	- 2021
+	- IEEE S&P 2022
 	- Sunjay Cauligi, Craig Disselkoen, Daniel Moghimi, Gilles Barthe, Deian Stefan
 	- https://arxiv.org/abs/2105.05801
 
