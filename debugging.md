@@ -969,6 +969,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 - AFLTriage: A tool to triage crashing input files with a debugger (GDB, Linux)
 	- https://github.com/quic/AFLTriage
+- Crash Utility: Linux kernel crash utility
+	- https://github.com/crash-utility/crash
+	- https://crash-utility.github.io/
 - crash-python: a semantic debugger for the Linux kernel
 	- https://github.com/jeffmahoney/crash-python
 - debuginfod
