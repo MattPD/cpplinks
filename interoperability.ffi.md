@@ -9,6 +9,15 @@
 
 # General
 
+## General: Readings
+
+### General: Readings: Security
+
+- Cross-Language Attacks
+	- Network and Distributed System Security Symposium (NDSS) 2022
+	- Samuel Mergendahl, Nathan Burow, Hamed Okhravi
+	- https://www.ndss-symposium.org/ndss-paper/auto-draft-259/
+
 ## General: Software
 
 - C++ Language Interface Foundation (CLIF)
