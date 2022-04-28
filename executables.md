@@ -621,6 +621,10 @@ Contents:
 
 ### ELF: Readings: Size Optimization
 
+- 84 byte aarch64 ELF
+	- tmp.0ut Volume 2; February 2022
+	- netspooky
+	- https://tmpout.sh/2/14.html
 - A small ELF: Small 114 byte x86_64 ELF
 	- https://ftp.lol/posts/small-elf.html
 - A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux
