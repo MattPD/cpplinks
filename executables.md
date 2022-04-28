@@ -436,11 +436,6 @@ Contents:
 	- tmp.0ut Volume 2; February 2022
 	- s01den
 	- https://tmpout.sh/2/2.html
-- A small ELF: Small 114 byte x86_64 ELF
-	- https://ftp.lol/posts/small-elf.html
-- A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux
-	- http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
-	- https://github.com/abraithwaite/teensy
 - About ELF Auxiliary Vectors - http://articles.manugarg.com/aboutelfauxiliaryvectors
 - Analyzing ELF Binaries with Malformed Headers
 	- Part 1 - Emulating Tiny Programs
@@ -555,7 +550,6 @@ Contents:
 - Relocations in ELF Toolchains - https://www.sifive.com/blog/2017/08/21/all-aboard-part-2-relocations/
 - Resolving ELF Relocation Name / Symbols - https://em386.blogspot.com/2006/10/resolving-elf-relocation-name-symbols.html
 - Secure Code Partitioning With ELF binaries (SCOP) - http://bitlackeys.org/papers/secure_code_partitioning_2018.txt
-- Smallest x86 ELF Hello World - http://timelessname.com/elfbin/
 - Special sections in Linux binaries - https://lwn.net/Articles/531148/
 - The 101 of ELF Binaries on Linux: Understanding and Analysis - https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/
 - The Anatomy of an Executable - dissection of a simple "hello world" ELF binary - https://github.com/mewrev/dissection
@@ -571,8 +565,6 @@ Contents:
 - The missing link: explaining ELF static linking, semantically - Stephen Kell, Dominic P. Mulligan, Peter Sewell - OOPSLA 2016
 	- http://www.cl.cam.ac.uk/~pes20/rems/papers/oopsla-elf-linking-2016.pdf
 	- https://bitbucket.org/Peter_Sewell/linksem/
-- Tiny ELF Files: Revisited in 2021
-	- https://nathanotterness.com/2021/10/tiny_elf_modernized.html
 - Uncovering a few SIGSEGVs in binutils' BFD and GLIBC
 	- https://chatsubo-labs.blogspot.com/2017/05/uncovering-few-sigsegvs-in-binutils-bfd.html
 	- http://brainoverflow.org/papers/BFD-GLIBC_Fuzzing/0%20Uncovering%20a%20few%20SIGSEGVs%20in%20binutils'%20BFD%20and%20GLIBC.pdf
@@ -626,6 +618,18 @@ Contents:
 		- http://stffrdhrn.github.io/hardware/embedded/openrisc/2019/11/29/relocs.html
 	- Thread Local Storage
 		- https://stffrdhrn.github.io/hardware/embedded/openrisc/2020/01/19/tls.html
+
+### ELF: Readings: Size Optimization
+
+- A small ELF: Small 114 byte x86_64 ELF
+	- https://ftp.lol/posts/small-elf.html
+- A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux
+	- http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
+	- https://github.com/abraithwaite/teensy
+- Smallest x86 ELF Hello World
+	- http://timelessname.com/elfbin/
+- Tiny ELF Files: Revisited in 2021
+	- https://nathanotterness.com/2021/10/tiny_elf_modernized.html
 
 ### ELF: Readings: Transformation
 
