@@ -60,6 +60,8 @@
 - Fangrui Song
 	- C++ exception handling ABI
 	- https://maskray.me/blog/2020-12-12-c++-exception-handling-abi
+- Fredrik Dahlgren
+	- Finding unhandled errors using CodeQL - https://blog.trailofbits.com/2022/01/11/finding-unhandled-errors-using-codeql/
 - Herb Sutter - When and How to Use Exceptions
 	- Guidelines on which cases to use exceptions for.
 	- http://www.drdobbs.com/when-and-how-to-use-exceptions/184401836
