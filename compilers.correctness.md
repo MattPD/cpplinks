@@ -778,6 +778,8 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 ### Testing: Software: Generation
 
+- afl-compiler-fuzzer: Variation of american fuzzy lop for testing compilers
+	- https://github.com/agroce/afl-compiler-fuzzer
 - Csmith, a random generator of C programs
 	- https://github.com/csmith-project/csmith
 	- https://embed.cs.utah.edu/csmith/
