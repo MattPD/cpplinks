@@ -716,6 +716,9 @@ See also: [Computer Architecture](comparch.md)
 	- EuroSys 2022
 	- Jonathan Behrens, Adam Belay, M. Frans Kaashoek
 	- https://doi.org/10.1145/3492321.3519559
+- Understanding and Improving the Performance of Mitigating Transient Execution Attacks
+	- 2022 PhD Dissertation; Jonathan Behrens
+	- https://pdos.csail.mit.edu/papers/behrensj-phd-thesis.pdf
 
 ### Defense: Speculation: 2021
 
