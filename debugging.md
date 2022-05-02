@@ -261,6 +261,12 @@ _Books, Books Reviews_
 
 ### Correctness
 
+- Automatic Generation of Debug Headers through BlackBox Equivalence Checking
+	- International Symposium on Code Generation and Optimization (CGO) 2022
+	- Vaibhav Kiran Kurhe, Pratik Karia, Shubhani Gupta, Abhishek Rose, Sorav Bansal
+	- https://doi.org/10.1109/CGO53902.2022.9741273
+	- https://doi.org/10.5281/zenodo.5788478
+	- https://sorav.compiler.ai/pubs/debugheaders.pdf
 - Correctness Proofs of Compilers and Debuggers: an Approach Based on Structural Operational Semantics
 	- 1992 Ph.D. dissertation; Fabio Q. B. da Silva
 	- http://hdl.handle.net/1842/13542
