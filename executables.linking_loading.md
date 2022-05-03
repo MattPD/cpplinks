@@ -242,9 +242,13 @@ See also:
 		- https://0x00sec.org/t/linux-internals-the-art-of-symbol-resolution/1488
 - Linux SHELF Loading
 	- Introducing SHELF Loading: The Nexus between Static and Position Independent Code
-	- tmp.0ut Volume 1 - April 2021
-	- ulexec, Anonymous_
-	- https://tmpout.sh/1/10/
+		- tmp.0ut Volume 1 - April 2021
+		- ulexec, Anonymous_
+		- https://tmpout.sh/1/10/
+	- SHELF encounters of the elements kind
+		- tmp.0ut Volume 2; February 2022
+		- ulexec
+		- https://tmpout.sh/2/5.html
 - Understanding ld-linux.so.2
 	- https://web.archive.org/web/20190421205537/http://www.cs.virginia.edu/~dww4s/articles/ld_linux.html
 
