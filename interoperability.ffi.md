@@ -86,6 +86,13 @@
 
 # C#
 
+- ClangSharpPInvokeGenerator: take a given set of C or C++ header files and generate C# bindings from them
+	- https://github.com/dotnet/ClangSharp#generating-bindings
+	- ClangSharp: Clang bindings for .NET written in C#
+		- ClangSharp provides Clang bindings written in C#. It is self-hosted and auto-generates itself by parsing the Clang C header files using ClangSharpPInvokeGenerator.
+		- https://github.com/dotnet/ClangSharp
+	- LLVMSharp: a multi-platform .NET Standard library for accessing the LLVM infrastructure. The bindings are auto-generated using ClangSharp parsing LLVM-C header files.
+		- https://github.com/dotnet/llvmsharp
 - CoreRTDemo: Building a native library in C# and calling it from C++
 	- https://github.com/encrypt0r/CoreRTDemo
 	- Writing Native Libraries in C# and using them in other languages
