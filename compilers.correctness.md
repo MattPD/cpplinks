@@ -128,6 +128,11 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 - Locating a compiler bug with git bisection
 	- 2020; William Woodruff
 	- https://blog.yossarian.net/2020/05/07/Locating-a-compiler-bug-with-git-bisection
+- LocSeq: Automated Localization for Compiler Optimization Sequence Bugs of LLVM
+	- IEEE Transactions on Reliability 2022
+	- Zhide Zhou, He Jiang, Zhilei Ren, Yuting Chen, Lei Qiao
+	- https://ieeexplore.ieee.org/abstract/document/9765328
+	- https://gitee.com/teazhou/loc-seq
 - Replay Compilation: Improving Debuggability of a Just-in-Time Compiler
 	- OOPSLA 2006
 	- Kazunori Ogata, Tamiya Onodera, Kiyokuni Kawachiya, Hideaki Komatsu, Toshio Nakatani
