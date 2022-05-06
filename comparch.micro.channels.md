@@ -1843,6 +1843,12 @@ See also: [Computer Architecture](comparch.md)
 	- Moritz Lipp, Daniel Gruss, Michael Schwarz
 	- https://mlq.me/download/amdprefetch.pdf
 	- https://github.com/amdprefetch/amd-prefetch-attacks
+- Augury: Using Data Memory-Dependent Prefetchers to Leak Data at Rest
+	- IEEE Symposium on Security and Privacy (S&P) 2022
+	- Jose Rodrigo Sanchez Vicarte, Michael Flanders, Riccardo Paccagnella, Grant Garrett-Grossman, Adam Morrison, Christopher W. Fletcher, David Kohlbrenner
+	- https://www.prefetchers.info/
+	- https://github.com/FPSG-UIUC/augury
+	- https://doi.ieeecomputersociety.org/10.1109/SP46214.2022.00089
 
 ---
 
