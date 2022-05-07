@@ -25,133 +25,133 @@ Contents:
 
 ## General: Readings
 
-* Actually Portable Executable
+- Actually Portable Executable
 	- https://justine.storage.googleapis.com/ape.html
 	- https://github.com/jart/cosmopolitan
-* Comparison of executable file formats - https://en.wikipedia.org/wiki/Comparison_of_executable_file_formats
-* Executable and object file formats - https://en.wikipedia.org/wiki/Template:Executables
-* From Hack to Elaborate Technique—A Survey on Binary Rewriting
+- Comparison of executable file formats - https://en.wikipedia.org/wiki/Comparison_of_executable_file_formats
+- Executable and object file formats - https://en.wikipedia.org/wiki/Template:Executables
+- From Hack to Elaborate Technique—A Survey on Binary Rewriting
 	- ACM Computing Surveys 52(3) 2019
 	- Matthias Wenzl, Georg Merzdovnik, Johanna Ullrich, and Edgar Weippl
 	- https://dl.acm.org/citation.cfm?doid=3341324.3316415
 	- https://publications.sba-research.org/publications/201906%20-%20GMerzdovnik%20-%20From%20hack%20to%20elaborate%20technique.pdf
-* Linux Foundation Referenced Specifications: ABI, ELF, DWARF - https://refspecs.linuxfoundation.org/
-* Type Inference on Executables
-	+ ACM Computing Surveys, Vol. 48, No. 4, Article 65, 2016
-	+ Juan Caballero and Zhiqiang Lin
-	+ https://www.utdallas.edu/~zxl111930/file/CSUR16.pdf
-	+ http://web.cse.ohio-state.edu/~lin.3021/file/CSUR16.pdf
-* Visual Documentation - File formats - Executables: ELF, Mach-O, PE (SVG and PDF available)
-	+ https://github.com/corkami/pics/blob/master/binary/README.md#executables
-	+ elf101: https://github.com/corkami/pics/tree/master/binary/elf101
-	+ macho101: https://github.com/corkami/pics/tree/master/binary/macho101
-	+ pe101: https://github.com/corkami/pics/tree/master/binary/pe101
-	+ pe102: https://github.com/corkami/pics/tree/master/binary/pe102
+- Linux Foundation Referenced Specifications: ABI, ELF, DWARF - https://refspecs.linuxfoundation.org/
+- Type Inference on Executables
+	- ACM Computing Surveys, Vol. 48, No. 4, Article 65, 2016
+	- Juan Caballero and Zhiqiang Lin
+	- https://www.utdallas.edu/~zxl111930/file/CSUR16.pdf
+	- http://web.cse.ohio-state.edu/~lin.3021/file/CSUR16.pdf
+- Visual Documentation - File formats - Executables: ELF, Mach-O, PE (SVG and PDF available)
+	- https://github.com/corkami/pics/blob/master/binary/README.md#executables
+	- elf101: https://github.com/corkami/pics/tree/master/binary/elf101
+	- macho101: https://github.com/corkami/pics/tree/master/binary/macho101
+	- pe101: https://github.com/corkami/pics/tree/master/binary/pe101
+	- pe102: https://github.com/corkami/pics/tree/master/binary/pe102
 
 ## General: Software
 
-* Backdoor Factory (BDF): patch PE, ELF, Mach-O binaries with shellcode - https://github.com/secretsquirrel/the-backdoor-factory
-* Binary2Groundtruth: Generates a ground truth map of a binary with the help of debug symbols
+- Backdoor Factory (BDF): patch PE, ELF, Mach-O binaries with shellcode - https://github.com/secretsquirrel/the-backdoor-factory
+- Binary2Groundtruth: Generates a ground truth map of a binary with the help of debug symbols
 	- Supports PE and ELF binaries.
 	- https://github.com/LL-MM/approxis-groundtruth
-* bingrep: Greps through binaries from various OSs and architectures, and colors them (ELF, Mach-O, PE)
-	+ https://github.com/m4b/bingrep
-* Bloaty McBloatface: a size profiler for binaries (ELF, Mach-O) - https://github.com/google/bloaty
+- bingrep: Greps through binaries from various OSs and architectures, and colors them (ELF, Mach-O, PE)
+	- https://github.com/m4b/bingrep
+- Bloaty McBloatface: a size profiler for binaries (ELF, Mach-O) - https://github.com/google/bloaty
 	- http://blog.reverberate.org/2016/11/07/introducing-bloaty-mcbloatface.html
 	- How Bloaty Works
 		- https://github.com/google/bloaty/blob/master/doc/how-bloaty-works.md
 	- “(Ab)using Compiler Tools”; CppCon 2019; Reka Kovacs
 		- https://www.youtube.com/watch?v=5Lke40ywMaU
 		- https://github.com/CppCon/CppCon2019/tree/master/Presentations/abusing_compiler_tools
-* Boost Dynamic Library Load (Boost.DLL): Library for comfortable work with DLL and DSO
-	+ https://github.com/boostorg/dll
-	+ https://www.boost.org/doc/libs/release/doc/html/boost_dll.html
-* cave_miner: search for code cave in binaries (ELF, Mach-O, PE), and inject code in them
+- Boost Dynamic Library Load (Boost.DLL): Library for comfortable work with DLL and DSO
+	- https://github.com/boostorg/dll
+	- https://www.boost.org/doc/libs/release/doc/html/boost_dll.html
+- cave_miner: search for code cave in binaries (ELF, Mach-O, PE), and inject code in them
 	- https://github.com/Antonin-Deniau/cave_miner
-* checksec.py: Checksec tool in Python, rich output, based on LIEF
+- checksec.py: Checksec tool in Python, rich output, based on LIEF
 	- A simple tool to verify the security properties of your binaries.
 	- https://github.com/Wenzel/checksec.py
-* codesize: Code size visualization tool with PDB/ELF/Mach-O support
-	+ https://github.com/zeux/codesize
-* ddbug - Display debugging information
-	+ ddbug is a utility that can extract useful information from DWARF/PDB debugging data. Its goal is to use the debugging information to provide insights into the code generation.
-	+ Supports: ELF files with DWARF, Mach-O files with DWARF, Windows PDB files (mimimal)
-	+ https://github.com/gimli-rs/ddbug
-* Delinker: Unlinks a binary executable to get back a set of .o object files for further transformation and re-linking.
-	+ https://github.com/jnider/delinker
-	+ Reverse the Linking Process
+- codesize: Code size visualization tool with PDB/ELF/Mach-O support
+	- https://github.com/zeux/codesize
+- ddbug - Display debugging information
+	- ddbug is a utility that can extract useful information from DWARF/PDB debugging data. Its goal is to use the debugging information to provide insights into the code generation.
+	- Supports: ELF files with DWARF, Mach-O files with DWARF, Windows PDB files (mimimal)
+	- https://github.com/gimli-rs/ddbug
+- Delinker: Unlinks a binary executable to get back a set of .o object files for further transformation and re-linking.
+	- https://github.com/jnider/delinker
+	- Reverse the Linking Process
 		- Compiler, Architecture, and Tools Conference (CATC) 2018
 		- Joel Nider
 		- https://software.intel.com/en-us/download/reverse-the-linking-process
-* Detect-It-Easy: Program for determining types of files for Windows, Linux and MacOS
+- Detect-It-Easy: Program for determining types of files for Windows, Linux and MacOS
 	- https://github.com/horsicq/Detect-It-Easy
-* elfshaker: a low-footprint, high-performance version control system fine-tuned for binaries
+- elfshaker: a low-footprint, high-performance version control system fine-tuned for binaries
 	- stores snapshots of directories into highly-compressed pack files and provides fast on-demand access to the stored files
 	- particularly good for storing lots of similar files, for example object files from an incremental build
 	- https://github.com/elfshaker/elfshaker
-* FileBytes
-	+ Library to read and edit files in the following formats: Executable and Linking Format (ELF), Portable Executable (PE), MachO and OAT (Android Runtime)
-	+ https://scoding.de/filebytes-introduction
-	+ https://github.com/sashs/filebytes/
-* Fileformat: A set of libraries and tools for representation, manipulation, and analysis of binary files in various object file formats
-	+ COFF, ELF, Intel HEX, Mach-O, PE, raw data
+- FileBytes
+	- Library to read and edit files in the following formats: Executable and Linking Format (ELF), Portable Executable (PE), MachO and OAT (Android Runtime)
+	- https://scoding.de/filebytes-introduction
+	- https://github.com/sashs/filebytes/
+- Fileformat: A set of libraries and tools for representation, manipulation, and analysis of binary files in various object file formats
+	- COFF, ELF, Intel HEX, Mach-O, PE, raw data
 	- https://github.com/avast/retdec/tree/master/src/fileformat
 	- https://github.com/avast/retdec/wiki/Project-Repository-Structure
-* FunctionSimSearch
-	+ Example C++ code to demonstrate how to do SimHash-based similarity search over CFGs extracted from disassemblies
-	+ https://github.com/googleprojectzero/functionsimsearch
-	+ Searching statically-linked vulnerable library functions in executable code
+- FunctionSimSearch
+	- Example C++ code to demonstrate how to do SimHash-based similarity search over CFGs extracted from disassemblies
+	- https://github.com/googleprojectzero/functionsimsearch
+	- Searching statically-linked vulnerable library functions in executable code
 		- https://googleprojectzero.blogspot.com/2018/12/searching-statically-linked-vulnerable.html
-* golfclub: Binary Golf Examples and Resources (ELF, PE)
+- golfclub: Binary Golf Examples and Resources (ELF, PE)
 	- https://github.com/netspooky/golfclub
-* injectdso - A collection of tools for injecting DSOs - https://github.com/huku-/injectdso
-* LIEF - Library to Instrument Executable Formats
-	+ The purpose of this project is to provide a cross platform library which can parse, modify and abstract ELF, PE and MachO formats.
-	+ https://github.com/lief-project/LIEF
-	+ https://lief.quarkslab.com/
-	+ references: https://lief.quarkslab.com/doc/latest/references.html
-* Pyew - https://github.com/joxeankoret/pyew
-	+ Pyew is a (command line) python tool to analyse malware. It does have support for hexadecimal viewing, disassembly (Intel 16, 32 and 64 bits), PE and ELF file formats (it performs code analysis and let you write scripts using an API to perform many types of analysis), follows direct call/jmp instructions in the interactive command line, displays function names and string data references; supports OLE2 format, PDF format and more. It also supports plugins to add more features to the tool.
-* Qiew - Hex/File format viewer (ELF and PE plugins available) - https://github.com/mtivadar/qiew
-* RetDec: a retargetable machine-code decompiler based on LLVM
-	+ Supported file formats: ELF, PE, Mach-O, COFF, AR (archive), Intel HEX, and raw machine code.
-	+ Supported architectures (32b only): Intel x86, ARM, MIPS, PIC32, and PowerPC.
-	+ https://github.com/avast-tl/retdec
-* Ropper - ROP gadget finder and binary information tool (ELF, PE, Mach-O)
-	+ https://scoding.de/ropper/
-	+ https://github.com/sashs/ropper
-* Sample Binaries: Sample binary executables (for a number of architectures) for binary analysis testing
-	+ https://github.com/GaloisInc/sample-binaries
-* Samples of binary with different formats and architectures. A test suite for your binary analysis tools. (ELF, Mach-O, PE)
-	+ https://github.com/JonathanSalwan/binary-samples
-* symtool: Static symbol manipulation tool for ELF and Mach-O objects
-	+ https://github.com/calebzulawski/symtool
-	+ Changing symbol visibility
-	+ Renaming symbols
-	+ Actions are performed in-place, leaving the rest of the binary untouched
-* The Witchcraft Compiler Collection
-	+ https://github.com/endrazine/wcc
-	+ wld: The Witchcraft Linker
+- injectdso - A collection of tools for injecting DSOs - https://github.com/huku-/injectdso
+- LIEF - Library to Instrument Executable Formats
+	- The purpose of this project is to provide a cross platform library which can parse, modify and abstract ELF, PE and MachO formats.
+	- https://github.com/lief-project/LIEF
+	- https://lief.quarkslab.com/
+	- references: https://lief.quarkslab.com/doc/latest/references.html
+- Pyew - https://github.com/joxeankoret/pyew
+	- Pyew is a (command line) python tool to analyse malware. It does have support for hexadecimal viewing, disassembly (Intel 16, 32 and 64 bits), PE and ELF file formats (it performs code analysis and let you write scripts using an API to perform many types of analysis), follows direct call/jmp instructions in the interactive command line, displays function names and string data references; supports OLE2 format, PDF format and more. It also supports plugins to add more features to the tool.
+- Qiew - Hex/File format viewer (ELF and PE plugins available) - https://github.com/mtivadar/qiew
+- RetDec: a retargetable machine-code decompiler based on LLVM
+	- Supported file formats: ELF, PE, Mach-O, COFF, AR (archive), Intel HEX, and raw machine code.
+	- Supported architectures (32b only): Intel x86, ARM, MIPS, PIC32, and PowerPC.
+	- https://github.com/avast-tl/retdec
+- Ropper - ROP gadget finder and binary information tool (ELF, PE, Mach-O)
+	- https://scoding.de/ropper/
+	- https://github.com/sashs/ropper
+- Sample Binaries: Sample binary executables (for a number of architectures) for binary analysis testing
+	- https://github.com/GaloisInc/sample-binaries
+- Samples of binary with different formats and architectures. A test suite for your binary analysis tools. (ELF, Mach-O, PE)
+	- https://github.com/JonathanSalwan/binary-samples
+- symtool: Static symbol manipulation tool for ELF and Mach-O objects
+	- https://github.com/calebzulawski/symtool
+	- Changing symbol visibility
+	- Renaming symbols
+	- Actions are performed in-place, leaving the rest of the binary untouched
+- The Witchcraft Compiler Collection
+	- https://github.com/endrazine/wcc
+	- wld: The Witchcraft Linker
 		- wld takes an ELF executable as an input and modifies it to create a shared library.
-	+ wcc: The Witchcraft Compiler
+	- wcc: The Witchcraft Compiler
 		- The wcc compiler takes binaries (ELF, PE, ...) as an input and creates valid ELF binaries as an output. It can be used to create relocatable object files from executables or shared libraries.
-	+ wsh: The Witchcraft shell
+	- wsh: The Witchcraft shell
 		- The witchcraft shell accepts ELF shared libraries, ELF ET_DYN executables and Witchcraft Shell Scripts written in Punk-C as an input. It loads all the executables in its own address space and makes their API available for programming in its embedded interpreter. This provides for binaries functionalities similar to those provided via reflection on languages like Java.
-	+ wldd: print shared libraries compilation flags
-	+ wcch: generate C headers from binaries
+	- wldd: print shared libraries compilation flags
+	- wcch: generate C headers from binaries
 
 ## General: Talks
 
-* Reverse Engineering Binaries
-	+ DevConf.CZ 2019; Divya Basant Kumar
-	+ https://www.youtube.com/watch?v=TZVBK5hu0sk
-* My Little Object File: How Linkers Implement C++
-	+ CppCon 2017; Michael Spencer
-	+ (ELF, MachO, COFF)
-	+ https://www.youtube.com/watch?v=a5L66zguFe4
-* The Life of Binaries
-	+ http://www.opensecuritytraining.info/LifeOfBinaries.html
-	+ https://www.youtube.com/playlist?list=PLUFkSN0XLZ-n_Na6jwqopTt1Ki57vMIc3
+- Reverse Engineering Binaries
+	- DevConf.CZ 2019; Divya Basant Kumar
+	- https://www.youtube.com/watch?v=TZVBK5hu0sk
+- My Little Object File: How Linkers Implement C++
+	- CppCon 2017; Michael Spencer
+	- (ELF, MachO, COFF)
+	- https://www.youtube.com/watch?v=a5L66zguFe4
+- The Life of Binaries
+	- http://www.opensecuritytraining.info/LifeOfBinaries.html
+	- https://www.youtube.com/playlist?list=PLUFkSN0XLZ-n_Na6jwqopTt1Ki57vMIc3
 
 ---
 
@@ -227,20 +227,20 @@ Contents:
 
 ## DLL: Talks
 
-* 2017 - Everything You Ever Wanted to Know about DLLs
-	+ CppCon; James McNellis
-	+ https://www.youtube.com/watch?v=JPQWQfDhICA
-	+ https://github.com/CppCon/CppCon2017/blob/master/Presentations/Everything%20You%20Ever%20Wanted%20to%20Know%20about%20DLLs/
-* 2017 - Memory-Based Library Loading: Someone Did That Already
-	+ Derbycon; Casey Rosini
-	+ http://www.irongeek.com/i.php?page=videos/derbycon7/t108-memory-based-library-loading-someone-did-that-already-casey-rosini
+- 2017 - Everything You Ever Wanted to Know about DLLs
+	- CppCon; James McNellis
+	- https://www.youtube.com/watch?v=JPQWQfDhICA
+	- https://github.com/CppCon/CppCon2017/blob/master/Presentations/Everything%20You%20Ever%20Wanted%20to%20Know%20about%20DLLs/
+- 2017 - Memory-Based Library Loading: Someone Did That Already
+	- Derbycon; Casey Rosini
+	- http://www.irongeek.com/i.php?page=videos/derbycon7/t108-memory-based-library-loading-someone-did-that-already-casey-rosini
 
 ---
 
 # DWARF
 
-* DWARF Debugging Standard Website - http://dwarfstd.org/
-* DWARF Debugging Standard Wiki - http://wiki.dwarfstd.org/
+- DWARF Debugging Standard Website - http://dwarfstd.org/
+- DWARF Debugging Standard Wiki - http://wiki.dwarfstd.org/
 
 ## DWARF: Readings
 
@@ -278,63 +278,63 @@ Contents:
 
 ## DWARF: Software
 
-* dareog: ORC meets DWARF - https://github.com/emersion/dareog
-* Debug Frame Checking: Check `.eh_frame` and `.debug_frame` information
-	+ https://github.com/francesco-zappa-nardelli/eh_frame_check
-* DIVA - Debug Information Visual Analyzer
-	+ DIVA is a command line tool that processes DWARF debug information contained within ELF files and prints the semantics of that debug information. The DIVA output is designed to be understandable by software programmers without any low-level compiler or DWARF knowledge; as such, it can be used to report debug information bugs to the compiler provider.
-	+ https://github.com/SNSystems/DIVA
-	+ 2017 EuroLLVM Developers’ Meeting lightning talk
+- dareog: ORC meets DWARF - https://github.com/emersion/dareog
+- Debug Frame Checking: Check `.eh_frame` and `.debug_frame` information
+	- https://github.com/francesco-zappa-nardelli/eh_frame_check
+- DIVA - Debug Information Visual Analyzer
+	- DIVA is a command line tool that processes DWARF debug information contained within ELF files and prints the semantics of that debug information. The DIVA output is designed to be understandable by software programmers without any low-level compiler or DWARF knowledge; as such, it can be used to report debug information bugs to the compiler provider.
+	- https://github.com/SNSystems/DIVA
+	- 2017 EuroLLVM Developers’ Meeting lightning talk
 		- video: https://www.youtube.com/watch?v=SwtpXaCk2bE
 		- slides: http://llvm.org/devmtg/2017-03/assets/slides/diva_debug_information_visual_analyzer.pdf
-* dsymutil - manipulate archived DWARF debug symbol files
-	+ https://llvm.org/docs/CommandGuide/dsymutil.html
-	+ https://github.com/llvm-mirror/llvm/tree/master/tools/dsymutil
-* DWARF Explorer - a GUI utility for navigating the DWARF debug information
+- dsymutil - manipulate archived DWARF debug symbol files
+	- https://llvm.org/docs/CommandGuide/dsymutil.html
+	- https://github.com/llvm-mirror/llvm/tree/master/tools/dsymutil
+- DWARF Explorer - a GUI utility for navigating the DWARF debug information
 	- https://github.com/sevaa/dwex
-* dwarfexport: Export dwarf debug information from IDA Pro - https://github.com/ALSchwalm/dwarfexport
-* dwarfidl: Language, library and tools for DWARF-described interfaces - https://github.com/stephenrkell/dwarfidl
-* dwgrep: a tool, an associated language (Zwerg), and a library (libzwerg) for querying Dwarf (debuginfo) graphs
-	+ project: https://github.com/pmachata/dwgrep
-	+ syntax: http://pmachata.github.io/dwgrep/syntax.html
-	+ tutorial: http://pmachata.github.io/dwgrep/tutorial.html
-	+ website: http://pmachata.github.io/dwgrep/
-* dwz: DWARF optimization and duplicate removal tool
-	+ https://sourceware.org/git/?p=dwz.git
-	+ https://fedoraproject.org/wiki/Features/DwarfCompressor
-	+ announcement (2012) - https://gcc.gnu.org/ml/gcc/2012-04/msg00686.html
-* gimli: A lazy, zero-copy parser for the DWARF debugging format
-	+ https://github.com/gimli-rs/gimli
-	+ Speeding Up `dwarfdump` With Rust - https://robert.ocallahan.org/2018/03/speeding-up-dwarfdump-with-rust.html
-* libbacktrace: A C library that may be linked into a C/C++ program to produce symbolic backtraces
-	+ As of September 2016, libbacktrace only supports ELF and PE/COFF executables with DWARF debugging information. The library is written to make it straightforward to add support for other object file and debugging formats.
-	+ https://github.com/ianlancetaylor/libbacktrace
-	+ https://github.com/gcc-mirror/gcc/tree/master/libbacktrace
-* libdwarf - DWARF debugging information - https://sourceforge.net/projects/libdwarf/
-	+ Libdwarf And Dwarfdump - http://wiki.dwarfstd.org/index.php?title=Libdwarf_And_Dwarfdump
-	+ Libdwarf: Library to provide access to DWARF debugging information
+- dwarfexport: Export dwarf debug information from IDA Pro - https://github.com/ALSchwalm/dwarfexport
+- dwarfidl: Language, library and tools for DWARF-described interfaces - https://github.com/stephenrkell/dwarfidl
+- dwgrep: a tool, an associated language (Zwerg), and a library (libzwerg) for querying Dwarf (debuginfo) graphs
+	- project: https://github.com/pmachata/dwgrep
+	- syntax: http://pmachata.github.io/dwgrep/syntax.html
+	- tutorial: http://pmachata.github.io/dwgrep/tutorial.html
+	- website: http://pmachata.github.io/dwgrep/
+- dwz: DWARF optimization and duplicate removal tool
+	- https://sourceware.org/git/?p=dwz.git
+	- https://fedoraproject.org/wiki/Features/DwarfCompressor
+	- announcement (2012) - https://gcc.gnu.org/ml/gcc/2012-04/msg00686.html
+- gimli: A lazy, zero-copy parser for the DWARF debugging format
+	- https://github.com/gimli-rs/gimli
+	- Speeding Up `dwarfdump` With Rust - https://robert.ocallahan.org/2018/03/speeding-up-dwarfdump-with-rust.html
+- libbacktrace: A C library that may be linked into a C/C++ program to produce symbolic backtraces
+	- As of September 2016, libbacktrace only supports ELF and PE/COFF executables with DWARF debugging information. The library is written to make it straightforward to add support for other object file and debugging formats.
+	- https://github.com/ianlancetaylor/libbacktrace
+	- https://github.com/gcc-mirror/gcc/tree/master/libbacktrace
+- libdwarf - DWARF debugging information - https://sourceforge.net/projects/libdwarf/
+	- Libdwarf And Dwarfdump - http://wiki.dwarfstd.org/index.php?title=Libdwarf_And_Dwarfdump
+	- Libdwarf: Library to provide access to DWARF debugging information
 		- Libdwarf meta repository that combines libdwarf with its dependency libelf
 		- https://github.com/avast-tl/libdwarf
-* libdwarfpp: A high-level API for accessing DWARF debugging information in C++
-	+ https://github.com/stephenrkell/libdwarfpp
-* libdwarfw: A C library to write DWARF debugging information
-	+ https://github.com/emersion/libdwarfw
-* llvm-dwarfdump - dump and verify DWARF debug information
-	+ https://llvm.org/docs/CommandGuide/llvm-dwarfdump.html
-* llvm-locstats - calculate statistics on DWARF debug location
-	+ https://llvm.org/docs/CommandGuide/llvm-locstats.html
-* Pahole and the dwarves: Debugging Information Manipulation Tools
-	+ https://git.kernel.org/pub/scm/devel/pahole/pahole.git/
-	+ https://github.com/acmel/dwarves
-	+ https://www.spinics.net/lists/dwarves/
-	+ The 7 dwarves: debugging information beyond gdb - https://landley.net/kdocs/ols/2007/ols2007v2-pages-35-44.pdf
-	+ Poke-a-hole and friends - https://lwn.net/Articles/335942/
-	+ pahole and other DWARF2 utilities - https://lwn.net/Articles/206805/
-	+ How to avoid wasting megabytes of memory a few bytes at a time - https://developers.redhat.com/blog/2016/06/01/how-to-avoid-wasting-megabytes-of-memory-a-few-bytes-at-a-time/
-* read-dwarf: a tool for exploring, symbolically executing, and validating ELF binaries generated from C, using DWARF debugging information
+- libdwarfpp: A high-level API for accessing DWARF debugging information in C++
+	- https://github.com/stephenrkell/libdwarfpp
+- libdwarfw: A C library to write DWARF debugging information
+	- https://github.com/emersion/libdwarfw
+- llvm-dwarfdump - dump and verify DWARF debug information
+	- https://llvm.org/docs/CommandGuide/llvm-dwarfdump.html
+- llvm-locstats - calculate statistics on DWARF debug location
+	- https://llvm.org/docs/CommandGuide/llvm-locstats.html
+- Pahole and the dwarves: Debugging Information Manipulation Tools
+	- https://git.kernel.org/pub/scm/devel/pahole/pahole.git/
+	- https://github.com/acmel/dwarves
+	- https://www.spinics.net/lists/dwarves/
+	- The 7 dwarves: debugging information beyond gdb - https://landley.net/kdocs/ols/2007/ols2007v2-pages-35-44.pdf
+	- Poke-a-hole and friends - https://lwn.net/Articles/335942/
+	- pahole and other DWARF2 utilities - https://lwn.net/Articles/206805/
+	- How to avoid wasting megabytes of memory a few bytes at a time - https://developers.redhat.com/blog/2016/06/01/how-to-avoid-wasting-megabytes-of-memory-a-few-bytes-at-a-time/
+- read-dwarf: a tool for exploring, symbolically executing, and validating ELF binaries generated from C, using DWARF debugging information
 	- https://htmlpreview.github.io/?https://github.com/rems-project/read-dwarf/blob/master/doc/html/read-dwarf/index.html
 	- https://github.com/rems-project/read-dwarf
-* structhole: Look for holes in structs by examining DWARF debugging output - https://github.com/cemeyer/structhole
+- structhole: Look for holes in structs by examining DWARF debugging output - https://github.com/cemeyer/structhole
 
 ## DWARF: Talks
 
@@ -929,30 +929,32 @@ Contents:
 
 ## Mach-O: Readings
 
-* Basics of the Mach-O file format - https://samhuri.net/posts/2010/01/basics-of-the-mach-o-file-format/
-* Dynamic Linking: ELF vs. Mach-O - http://timetobleed.com/dynamic-linking-elf-vs-mach-o/
-* Dynamic Linking of Imported Functions in Mach-O - https://www.apriorit.com/dev-blog/225-dynamic-linking-mach-o / https://www.codeproject.com/Articles/187181/Dynamic-Linking-of-Imported-Functions-in-Mach-O
-* Dynamic symbol table duel: ELF vs Mach-O, round 2 - http://timetobleed.com/dynamic-symbol-table-duel-elf-vs-mach-o-round-2/
-* DYLD Detayled - The internals of DYLD, the dynamic linker, and the `__LINKEDIT` section - http://newosxbook.com/articles/DYLD.html
-* Extracting libraries from dyld_shared_cache - https://worthdoingbadly.com/dscextract/
-* Friday Q&A 2012-04-27: PLCrashReporter and Unwinding the Stack With DWARF - https://www.mikeash.com/pyblog/friday-qa-2012-04-27-plcrashreporter-and-unwinding-the-stack-with-dwarf.html
-* Friday Q&A 2012-05-04: PLCrashReporter and Unwinding the Stack With DWARF, Part 2 - https://www.mikeash.com/pyblog/friday-qa-2012-05-04-plcrashreporter-and-unwinding-the-stack-with-dwarf-part-2.html
-* Friday Q&A 2012-11-09: dyld: Dynamic Linking On OS X - https://www.mikeash.com/pyblog/friday-qa-2012-11-09-dyld-dynamic-linking-on-os-x.html
-* Friday Q&A 2012-11-30: Let's Build A Mach-O Executable - https://www.mikeash.com/pyblog/friday-qa-2012-11-30-lets-build-a-mach-o-executable.html
-* Having Fun with Obfuscated Mach-O Files - https://www.pnfsoftware.com/blog/having-fun-with-obfuscated-mach-o-files/
-* Hello Mach-O: Dissection of minimal Intel 32-bits, 204 bytes, Mach-O "Hello World" executable file - https://seriot.ch/projects/hello_macho.html
-* Mach-O Binaries - http://www.m4b.io/reverse/engineering/mach/binaries/2015/03/29/mach-binaries.html
-* Mach-O Executables - https://www.objc.io/issues/6-build-tools/mach-o-executables/
-* MacOS Dylib Injection through Mach-O Binary Manipulation
+- Basics of the Mach-O file format - https://samhuri.net/posts/2010/01/basics-of-the-mach-o-file-format/
+- Dynamic Linking: ELF vs. Mach-O - http://timetobleed.com/dynamic-linking-elf-vs-mach-o/
+- Dynamic Linking of Imported Functions in Mach-O
+	- https://www.apriorit.com/dev-blog/225-dynamic-linking-mach-o
+	- https://www.codeproject.com/Articles/187181/Dynamic-Linking-of-Imported-Functions-in-Mach-O
+- Dynamic symbol table duel: ELF vs Mach-O, round 2 - http://timetobleed.com/dynamic-symbol-table-duel-elf-vs-mach-o-round-2/
+- DYLD Detayled - The internals of DYLD, the dynamic linker, and the `__LINKEDIT` section - http://newosxbook.com/articles/DYLD.html
+- Extracting libraries from dyld_shared_cache - https://worthdoingbadly.com/dscextract/
+- Friday Q&A 2012-04-27: PLCrashReporter and Unwinding the Stack With DWARF - https://www.mikeash.com/pyblog/friday-qa-2012-04-27-plcrashreporter-and-unwinding-the-stack-with-dwarf.html
+- Friday Q&A 2012-05-04: PLCrashReporter and Unwinding the Stack With DWARF, Part 2 - https://www.mikeash.com/pyblog/friday-qa-2012-05-04-plcrashreporter-and-unwinding-the-stack-with-dwarf-part-2.html
+- Friday Q&A 2012-11-09: dyld: Dynamic Linking On OS X - https://www.mikeash.com/pyblog/friday-qa-2012-11-09-dyld-dynamic-linking-on-os-x.html
+- Friday Q&A 2012-11-30: Let's Build A Mach-O Executable - https://www.mikeash.com/pyblog/friday-qa-2012-11-30-lets-build-a-mach-o-executable.html
+- Having Fun with Obfuscated Mach-O Files - https://www.pnfsoftware.com/blog/having-fun-with-obfuscated-mach-o-files/
+- Hello Mach-O: Dissection of minimal Intel 32-bits, 204 bytes, Mach-O "Hello World" executable file - https://seriot.ch/projects/hello_macho.html
+- Mach-O Binaries - http://www.m4b.io/reverse/engineering/mach/binaries/2015/03/29/mach-binaries.html
+- Mach-O Executables - https://www.objc.io/issues/6-build-tools/mach-o-executables/
+- MacOS Dylib Injection through Mach-O Binary Manipulation
 	- https://malwareunicorn.org/workshops/macos_dylib_injection.html
-* Parsing Mach-O files - https://lowlevelbits.org/parsing-mach-o-files/
-* Playing with Mach-O binaries and dyld
-	+ https://blog.lse.epita.fr/articles/82-playing-with-mach-os-and-dyld.html
-	+ https://lse.epita.fr/data/lt/2017-03-14/lt-2017-03-14-Stanislas_Lejay-Playing_with_machos_and_dyld.pdf
-* Redirection of Imported Functions in Mach-O - https://www.codeproject.com/Articles/187192/Redirection-of-Imported-Functions-in-Mach-O
-* Running Executables on macOS From Memory - https://blog.cylance.com/running-executables-on-macos-from-memory
-* Runtime binary loading via the dynamic loader on Apple Mac OS X - http://www.subreption.com/blog/2009/02/runtime-binary-loading-via-the-dynamic-loader-on-apple-mac-os-x.html
-* The Mach-O Transition: Darling in the Past 5 Years - http://blog.darlinghq.org/2017/02/the-mach-o-transition-darling-in-past-5.html
+- Parsing Mach-O files - https://lowlevelbits.org/parsing-mach-o-files/
+- Playing with Mach-O binaries and dyld
+	- https://blog.lse.epita.fr/articles/82-playing-with-mach-os-and-dyld.html
+	- https://lse.epita.fr/data/lt/2017-03-14/lt-2017-03-14-Stanislas_Lejay-Playing_with_machos_and_dyld.pdf
+- Redirection of Imported Functions in Mach-O - https://www.codeproject.com/Articles/187192/Redirection-of-Imported-Functions-in-Mach-O
+- Running Executables on macOS From Memory - https://blog.cylance.com/running-executables-on-macos-from-memory
+- Runtime binary loading via the dynamic loader on Apple Mac OS X - http://www.subreption.com/blog/2009/02/runtime-binary-loading-via-the-dynamic-loader-on-apple-mac-os-x.html
+- The Mach-O Transition: Darling in the Past 5 Years - http://blog.darlinghq.org/2017/02/the-mach-o-transition-darling-in-past-5.html
 
 ## Mach-O: Software
 
@@ -980,19 +982,19 @@ Contents:
 
 ## Mach-O: Talks
 
-* 2018 - Mach-O Tricks
-	+ BaiJiuCon at Mobile Security Conference (MOSEC) 2018
-	+ http://iokit.racing/machotricks.pdf
-* 2013 - DEF CON 21 - Mach-O Malware Analysis: Combatting Mac OSX/iOS Malware with Data Visualization
-	+ https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20presentations/Remy%20Baumgarten/
-	+ Slides: https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20presentations/Remy%20Baumgarten/DEFCON-21-Baumgarten-Mach-O-Viz.pdf
-	+ Paper: https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20presentations/Remy%20Baumgarten/DEFCON-21-Baumgarten-Mach-O-Viz-WP.pdf
-	+ Video: https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20video%20and%20slides%20x265/DEF%20CON%2021%20Hacking%20Conference%20Presentation%20By%20Remy%20Baumgarten%20-%20Combatting%20Mac%20OSX%20iOS%20Malware%20with%20Data%20Visualization%20-%20Video%20and%20Slides.mp4
-	+ http://macsecurity.net/view/42/
-	+ http://www.securitytube.net/video/9133
-* 2009 - Black Hat DC - Let your Mach-O fly - Vincenzo Iozzo
-	+ Slides: http://www.blackhat.com/presentations/bh-dc-09/Iozzo/BlackHat-DC-09-Iozzo-Macho-on-the-fly.pdf
-	+ Paper: http://www.blackhat.com/presentations/bh-dc-09/Iozzo/BlackHat-DC-09-Iozzo-let-your-mach0-fly-whitepaper.pdf
+- 2018 - Mach-O Tricks
+	- BaiJiuCon at Mobile Security Conference (MOSEC) 2018
+	- http://iokit.racing/machotricks.pdf
+- 2013 - DEF CON 21 - Mach-O Malware Analysis: Combatting Mac OSX/iOS Malware with Data Visualization
+	- https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20presentations/Remy%20Baumgarten/
+	- Slides: https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20presentations/Remy%20Baumgarten/DEFCON-21-Baumgarten-Mach-O-Viz.pdf
+	- Paper: https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20presentations/Remy%20Baumgarten/DEFCON-21-Baumgarten-Mach-O-Viz-WP.pdf
+	- Video: https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20video%20and%20slides%20x265/DEF%20CON%2021%20Hacking%20Conference%20Presentation%20By%20Remy%20Baumgarten%20-%20Combatting%20Mac%20OSX%20iOS%20Malware%20with%20Data%20Visualization%20-%20Video%20and%20Slides.mp4
+	- http://macsecurity.net/view/42/
+	- http://www.securitytube.net/video/9133
+- 2009 - Black Hat DC - Let your Mach-O fly - Vincenzo Iozzo
+	- Slides: http://www.blackhat.com/presentations/bh-dc-09/Iozzo/BlackHat-DC-09-Iozzo-Macho-on-the-fly.pdf
+	- Paper: http://www.blackhat.com/presentations/bh-dc-09/Iozzo/BlackHat-DC-09-Iozzo-let-your-mach0-fly-whitepaper.pdf
 
 ---
 
@@ -1002,25 +1004,25 @@ Contents:
 
 ## PDB: Readings
 
-* Binary Rewriting With Syzygy, Pt. I - https://doar-e.github.io/blog/2017/08/05/binary-rewriting-with-syzygy/
-* CodeView Debug Info Format - http://llvm.org/docs/SourceLevelDebugging.html#codeview-debug-info-format
-* Improving Link Time on Windows with clang-cl and lld - http://blog.llvm.org/2018/01/improving-link-time-on-windows-with.html
-* Jan Gray on inventing/implementing PDB files 1990-94 - https://twitter.com/jangray/status/659916997711544320
-* LLVM on Windows now supports PDB Debug Info - http://blog.llvm.org/2017/08/llvm-on-windows-now-supports-pdb-debug.html
-* PDB File Format - https://github.com/google/syzygy/wiki/PdbFileFormat
-* PDB Files: What Every Developer Must Know - https://www.wintellect.com/pdb-files-what-every-developer-must-know
-* PDB File Internals - http://www.informit.com/articles/article.aspx?p=22685
-* PDB v2.0 File Format documentation - https://reverseengineering.stackexchange.com/questions/2548/pdb-v2-0-file-format-documentation
-* radare2 PDB usage - https://github.com/radare/radare2/blob/master/doc/pdb/pdb_usage
-* The PDB File Format - https://llvm.org/docs/PDB/
-* The PDB Info Stream (aka the PDB Stream) - http://llvm.org/docs/PDB/PdbStream.html
-* PDB File Internals - http://www.informit.com/articles/article.aspx?p=22685
-* PDB Info Stream - https://www.reddit.com/r/programming/comments/6ukeuk/llvm_on_windows_now_supports_pdb_debug_info/dlvtucx/
-* PDB Stream Decomposition - https://moyix.blogspot.com/2007/08/pdb-stream-decomposition.html
-* pdbparse - Stream Descriptions wiki - https://code.google.com/archive/p/pdbparse/wikis/StreamDescriptions.wiki
-* Symbols the Microsoft Way - https://randomascii.wordpress.com/2013/03/09/symbols-the-microsoft-way/
-* The Types Stream - https://moyix.blogspot.com/2007/10/types-stream.html
-* What’s inside a PDB File? - https://blogs.msdn.microsoft.com/vcblog/2016/02/08/whats-inside-a-pdb-file/
+- Binary Rewriting With Syzygy, Pt. I - https://doar-e.github.io/blog/2017/08/05/binary-rewriting-with-syzygy/
+- CodeView Debug Info Format - http://llvm.org/docs/SourceLevelDebugging.html#codeview-debug-info-format
+- Improving Link Time on Windows with clang-cl and lld - http://blog.llvm.org/2018/01/improving-link-time-on-windows-with.html
+- Jan Gray on inventing/implementing PDB files 1990-94 - https://twitter.com/jangray/status/659916997711544320
+- LLVM on Windows now supports PDB Debug Info - http://blog.llvm.org/2017/08/llvm-on-windows-now-supports-pdb-debug.html
+- PDB File Format - https://github.com/google/syzygy/wiki/PdbFileFormat
+- PDB Files: What Every Developer Must Know - https://www.wintellect.com/pdb-files-what-every-developer-must-know
+- PDB File Internals - http://www.informit.com/articles/article.aspx?p=22685
+- PDB v2.0 File Format documentation - https://reverseengineering.stackexchange.com/questions/2548/pdb-v2-0-file-format-documentation
+- radare2 PDB usage - https://github.com/radare/radare2/blob/master/doc/pdb/pdb_usage
+- The PDB File Format - https://llvm.org/docs/PDB/
+- The PDB Info Stream (aka the PDB Stream) - http://llvm.org/docs/PDB/PdbStream.html
+- PDB File Internals - http://www.informit.com/articles/article.aspx?p=22685
+- PDB Info Stream - https://www.reddit.com/r/programming/comments/6ukeuk/llvm_on_windows_now_supports_pdb_debug_info/dlvtucx/
+- PDB Stream Decomposition - https://moyix.blogspot.com/2007/08/pdb-stream-decomposition.html
+- pdbparse - Stream Descriptions wiki - https://code.google.com/archive/p/pdbparse/wikis/StreamDescriptions.wiki
+- Symbols the Microsoft Way - https://randomascii.wordpress.com/2013/03/09/symbols-the-microsoft-way/
+- The Types Stream - https://moyix.blogspot.com/2007/10/types-stream.html
+- What’s inside a PDB File? - https://blogs.msdn.microsoft.com/vcblog/2016/02/08/whats-inside-a-pdb-file/
 
 ## PDB: Software
 
@@ -1054,9 +1056,9 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 
 ## PDB: Talks
 
-* 2016 LLVM Developers’ Meeting: R. Kleckner "CodeView, the MS Debug Info Format in LLVM"
-	+ https://www.youtube.com/watch?v=5twzd06NqGU
-	+ http://www.llvm.org/devmtg/2016-11/Slides/Kleckner-CodeViewInLLVM.pdf
+- 2016 LLVM Developers’ Meeting: R. Kleckner "CodeView, the MS Debug Info Format in LLVM"
+	- https://www.youtube.com/watch?v=5twzd06NqGU
+	- http://www.llvm.org/devmtg/2016-11/Slides/Kleckner-CodeViewInLLVM.pdf
 
 ---
 
@@ -1064,139 +1066,139 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 
 ## PE: Readings
 
-* A smallest PE executable (x64) with every byte executed - https://drakopensulo.wordpress.com/2017/08/06/smallest-pe-executable-x64-with-every-byte-executed/
-* An Analysis of the Windows PE Checksum Algorithm - https://www.codeproject.com/Articles/19326/An-Analysis-of-the-Windows-PE-Checksum-Algorithm
-* An In-Depth Look into the Win32 Portable Executable File Format
-	+ Part 1: http://reversingproject.info/wp-content/uploads/2009/05/an_in-depth_look_into_the_win32_portable_executable_file_format_part_1.pdf / http://www.delphibasics.info/home/delphibasicsarticles/anin-depthlookintothewin32portableexecutablefileformat-part1
-	+ Part 2: http://reversingproject.info/wp-content/uploads/2009/05/an_in-depth_look_into_the_win32_portable_executable_file_format_part_2.pdf / http://www.delphibasics.info/home/delphibasicsarticles/anin-depthlookintothewin32portableexecutablefileformat-part2
-* Binary offsets, virtual addresses and pefile - https://5d4a.wordpress.com/2017/09/21/binary-offsets-virtual-addresses-and-pefile/
-* Calling Arbitrary Functions In EXEs: Performing Calls to EXE Functions Like DLL Exports
+- A smallest PE executable (x64) with every byte executed - https://drakopensulo.wordpress.com/2017/08/06/smallest-pe-executable-x64-with-every-byte-executed/
+- An Analysis of the Windows PE Checksum Algorithm - https://www.codeproject.com/Articles/19326/An-Analysis-of-the-Windows-PE-Checksum-Algorithm
+- An In-Depth Look into the Win32 Portable Executable File Format
+	- Part 1: http://reversingproject.info/wp-content/uploads/2009/05/an_in-depth_look_into_the_win32_portable_executable_file_format_part_1.pdf / http://www.delphibasics.info/home/delphibasicsarticles/anin-depthlookintothewin32portableexecutablefileformat-part1
+	- Part 2: http://reversingproject.info/wp-content/uploads/2009/05/an_in-depth_look_into_the_win32_portable_executable_file_format_part_2.pdf / http://www.delphibasics.info/home/delphibasicsarticles/anin-depthlookintothewin32portableexecutablefileformat-part2
+- Binary offsets, virtual addresses and pefile - https://5d4a.wordpress.com/2017/09/21/binary-offsets-virtual-addresses-and-pefile/
+- Calling Arbitrary Functions In EXEs: Performing Calls to EXE Functions Like DLL Exports
 	- https://blog.vastart.dev/2020/04/calling-arbitrary-functions-in-exes.html
-* Case studies in Rich Header analysis and hunting (2018-08-09) - http://ropgadget.com/posts/richheader_hunting.html
-* Common Object File Format (COFF) - https://support.microsoft.com/en-us/help/121460/common-object-file-format-coff
-* Dynamic Reconstruction of Relocation Information for Stripped Binaries
+- Case studies in Rich Header analysis and hunting (2018-08-09) - http://ropgadget.com/posts/richheader_hunting.html
+- Common Object File Format (COFF) - https://support.microsoft.com/en-us/help/121460/common-object-file-format-coff
+- Dynamic Reconstruction of Relocation Information for Stripped Binaries
 	- Research in Attacks, Intrusions and Defenses (RAID) 2014
 	- Vasilis Pappas, Michalis Polychronakis, Angelos D. Keromytis
 	- http://www.cs.columbia.edu/~vpappas/papers/reloc.raid14.pdf
 	- https://www.youtube.com/watch?v=fVIuguG2mw8
-* Finding the Needle: A Study of the PE32 Rich Header and Respective Malware Triage
-	+ https://www.sec.in.tum.de/i20/publications/finding-the-needle-a-study-of-the-pe32-rich-header-and-respective-malware-triage
-	+ https://www.semanticscholar.org/paper/Finding-the-Needle-A-Study-of-the-PE32-Rich-Header-Webster-Kolosnjaji/44adfa896e6598b1723507060126125a0cad39a1
-	+ Rich Header: a collection of the work performed investigating the PE32 Rich Header - https://github.com/HolmesProcessing/RichHeader-Service_Collection
-* Fully undetectable backdooring PE files - https://haiderm.com/fully-undetectable-backdooring-pe-files/
-* Introducing New Packing Method: First Reflective PE Packer Amber - https://pentest.blog/introducing-new-packing-method-first-reflective-pe-packer/
-* Lost in the Loader: The Many Faces of the Windows PE File Format
+- Finding the Needle: A Study of the PE32 Rich Header and Respective Malware Triage
+	- https://www.sec.in.tum.de/i20/publications/finding-the-needle-a-study-of-the-pe32-rich-header-and-respective-malware-triage
+	- https://www.semanticscholar.org/paper/Finding-the-Needle-A-Study-of-the-PE32-Rich-Header-Webster-Kolosnjaji/44adfa896e6598b1723507060126125a0cad39a1
+	- Rich Header: a collection of the work performed investigating the PE32 Rich Header - https://github.com/HolmesProcessing/RichHeader-Service_Collection
+- Fully undetectable backdooring PE files - https://haiderm.com/fully-undetectable-backdooring-pe-files/
+- Introducing New Packing Method: First Reflective PE Packer Amber - https://pentest.blog/introducing-new-packing-method-first-reflective-pe-packer/
+- Lost in the Loader: The Many Faces of the Windows PE File Format
 	- International Symposium on Research in Attacks, Intrusions and Defenses (RAID) 2021
 	- Mariano Graziano, Lorenzo Flore, Andrea Lanzi, Davide Balzarotti
 	- https://www.eurecom.fr/en/publication/6603
 	- https://www.youtube.com/watch?v=yuptIE--UPw
-* Microsoft Portable Executable (PE) and Common Object File Format (COFF) Specification - https://msdn.microsoft.com/en-us/library/windows/desktop/ms680547.aspx
-* Microsoft's Rich Signature (undocumented) - http://ntcore.com/Files/richsign.htm
-* Modern PE Mangling
+- Microsoft Portable Executable (PE) and Common Object File Format (COFF) Specification - https://msdn.microsoft.com/en-us/library/windows/desktop/ms680547.aspx
+- Microsoft's Rich Signature (undocumented) - http://ntcore.com/Files/richsign.htm
+- Modern PE Mangling
 	- https://n0.lol/a/pemangle.html
-* PE (corkami wiki) - https://corkamiwiki.github.io/PE - https://github.com/corkami/docs/blob/master/PE/PE.md
-* Peering Inside the PE: A Tour of the Win32 Portable Executable File Format - https://msdn.microsoft.com/en-us/library/ms809762.aspx
-* PeLib Resources about the PE format - http://www.pelib.com/resources.php
-* Portable Executable File Corruption Preventing Malware From Running
-	+ What types of obstructions and anomalies in the PE file can make the Windows Portable Executable Image Loader and other PE parsing programs fail to load the file or display an error message?
-	+ https://toddcullumresearch.com/2017/07/16/portable-executable-file-corruption/
-* Portable Executable File Format – A Reverse Engineer View - http://www.stonedcoder.org/~kd/lib/CBJ-2005-74.pdf
-* Peering Inside the PE: A Tour of the Win32 Portable Executable File Format - https://msdn.microsoft.com/en-us/library/ms809762.aspx
-* Resource Hacker: a resource editor for 32-bit and 64-bit Windows applications
+- PE (corkami wiki) - https://corkamiwiki.github.io/PE - https://github.com/corkami/docs/blob/master/PE/PE.md
+- Peering Inside the PE: A Tour of the Win32 Portable Executable File Format - https://msdn.microsoft.com/en-us/library/ms809762.aspx
+- PeLib Resources about the PE format - http://www.pelib.com/resources.php
+- Portable Executable File Corruption Preventing Malware From Running
+	- What types of obstructions and anomalies in the PE file can make the Windows Portable Executable Image Loader and other PE parsing programs fail to load the file or display an error message?
+	- https://toddcullumresearch.com/2017/07/16/portable-executable-file-corruption/
+- Portable Executable File Format – A Reverse Engineer View - http://www.stonedcoder.org/~kd/lib/CBJ-2005-74.pdf
+- Peering Inside the PE: A Tour of the Win32 Portable Executable File Format - https://msdn.microsoft.com/en-us/library/ms809762.aspx
+- Resource Hacker: a resource editor for 32-bit and 64-bit Windows applications
 	- http://www.angusj.com/resourcehacker/
-* Resources: Microsoft Portable Executable and COFF (32-bit and 64-bit) Format - http://bytepointer.com/resources/
-* Robust Static Analysis of Portable Executable Malware - Katja Hahn, Master Thesis - https://github.com/katjahahn/PortEx/tree/master/masterthesis
-* The sad state of PE parsing - http://lucasg.github.io/2017/04/28/the-sad-state-of-pe-parsing/
-* The Undocumented Microsoft "Rich" Header - http://bytepointer.com/articles/the_microsoft_rich_header.htm
-* Tiny PE: Creating the smallest possible PE executable - http://www.phreedom.org/research/tinype/
-* Undocumented PECOFF - https://media.blackhat.com/bh-us-11/Vuksan/BH_US_11_VuksanPericin_PECOFF_WP.pdf
-* Why does a corrupted binary sometimes result in "Program too big to fit in memory"? - https://blogs.msdn.microsoft.com/oldnewthing/20060130-00/?p=32483
-* Why is 0x00400000 the default base address for an executable? - https://blogs.msdn.microsoft.com/oldnewthing/20141003-00/?p=43923
+- Resources: Microsoft Portable Executable and COFF (32-bit and 64-bit) Format - http://bytepointer.com/resources/
+- Robust Static Analysis of Portable Executable Malware - Katja Hahn, Master Thesis - https://github.com/katjahahn/PortEx/tree/master/masterthesis
+- The sad state of PE parsing - http://lucasg.github.io/2017/04/28/the-sad-state-of-pe-parsing/
+- The Undocumented Microsoft "Rich" Header - http://bytepointer.com/articles/the_microsoft_rich_header.htm
+- Tiny PE: Creating the smallest possible PE executable - http://www.phreedom.org/research/tinype/
+- Undocumented PECOFF - https://media.blackhat.com/bh-us-11/Vuksan/BH_US_11_VuksanPericin_PECOFF_WP.pdf
+- Why does a corrupted binary sometimes result in "Program too big to fit in memory"? - https://blogs.msdn.microsoft.com/oldnewthing/20060130-00/?p=32483
+- Why is 0x00400000 the default base address for an executable? - https://blogs.msdn.microsoft.com/oldnewthing/20141003-00/?p=43923
 
 ## PE: Software
 
-* Adlice PEViewer - https://www.adlice.com/download/roguekillerpe/
-* bearparser: Portable Executable parsing library - https://github.com/hasherezade/bearparser
-* CFF Explorer - http://www.ntcore.com/exsuite.php
-* coff_nm: `nm` and `addr2line` but for DI "debug-info" COFF files 
+- Adlice PEViewer - https://www.adlice.com/download/roguekillerpe/
+- bearparser: Portable Executable parsing library - https://github.com/hasherezade/bearparser
+- CFF Explorer - http://www.ntcore.com/exsuite.php
+- coff_nm: `nm` and `addr2line` but for DI "debug-info" COFF files 
 	- prints out function, global, and source line information from a .dbg "DI" COFF debug file
 	- can handle both DI magic files and CAB (cabinet) files with DI files inside of them
 	- https://github.com/gamozolabs/coff_nm
-* Corkami PE files corpus - https://github.com/corkami/pocs/tree/master/PE
-* ExpDiff: Diff tool for comparing export tables in PE images - https://github.com/WalkingCat/ExpDiff
-* Five PE Analysis Tools Worth Looking At - https://blog.malwarebytes.com/threat-analysis/2014/05/five-pe-analysis-tools-worth-looking-at/
-* libpeconv: A small library for mapping and unmapping PE files
-	+ https://github.com/hasherezade/libpeconv
-	+ Demo: RunPE (Process Hollowing) - https://github.com/hasherezade/libpeconv/tree/master/run_pe
-	+ pe_unmapper: Small tool to convert a PE from a virtual format into a raw format
-	+ https://github.com/hasherezade/libpeconv/tree/master/pe_unmapper
-* Malware-Analayzer PE Tools - http://www.malware-analyzer.com/pe-tools
-* Manalyze, a static analyzer for PE executables - https://manalyzer.org/ - https://github.com/JusticeRage/Manalyze
-* MiTeC EXE Explorer: Executable File Explorer for OS/2, NE, PE32, PE32+ and VxD file types
-	+ https://www.mitec.cz/exe.html
-* pefile: a Python module to read and work with PE (Portable Executable) files - https://github.com/erocarrera/pefile
-* PeLib: PE file manipulation library - https://github.com/avast-tl/pelib
-* PeRebuilder - https://github.com/AaLl86/retroware
-	+ automatically reconstruct the PE, and save it in a form that the Windows Loader is able to run (fixing the file alignment, relocating each section, fixing the import address table, and so on...)
-* pev: The PE file analysis toolkit
-	+ http://pev.sf.net
-	+ https://github.com/merces/pev
-* PEview - http://wjradburn.com/software/
-* PE Anatomist - PE files internals
+- Corkami PE files corpus - https://github.com/corkami/pocs/tree/master/PE
+- ExpDiff: Diff tool for comparing export tables in PE images - https://github.com/WalkingCat/ExpDiff
+- Five PE Analysis Tools Worth Looking At - https://blog.malwarebytes.com/threat-analysis/2014/05/five-pe-analysis-tools-worth-looking-at/
+- libpeconv: A small library for mapping and unmapping PE files
+	- https://github.com/hasherezade/libpeconv
+	- Demo: RunPE (Process Hollowing) - https://github.com/hasherezade/libpeconv/tree/master/run_pe
+	- pe_unmapper: Small tool to convert a PE from a virtual format into a raw format
+	- https://github.com/hasherezade/libpeconv/tree/master/pe_unmapper
+- Malware-Analayzer PE Tools - http://www.malware-analyzer.com/pe-tools
+- Manalyze, a static analyzer for PE executables - https://manalyzer.org/ - https://github.com/JusticeRage/Manalyze
+- MiTeC EXE Explorer: Executable File Explorer for OS/2, NE, PE32, PE32+ and VxD file types
+	- https://www.mitec.cz/exe.html
+- pefile: a Python module to read and work with PE (Portable Executable) files - https://github.com/erocarrera/pefile
+- PeLib: PE file manipulation library - https://github.com/avast-tl/pelib
+- PeRebuilder - https://github.com/AaLl86/retroware
+	- automatically reconstruct the PE, and save it in a form that the Windows Loader is able to run (fixing the file alignment, relocating each section, fixing the import address table, and so on...)
+- pev: The PE file analysis toolkit
+	- http://pev.sf.net
+	- https://github.com/merces/pev
+- PEview - http://wjradburn.com/software/
+- PE Anatomist - PE files internals
 	- https://rammerlabs.alidml.ru/index-eng.html
 	- https://rammerlabs.alidml.ru/peanatomist-eng.html
-* PE Insider - http://cerbero.io/peinsider/
-* PE Tools - Portable executable (PE) manipulation toolkit
-	+ Process Viewer, PE files Editor, Dumper, Rebuilder, Comparator, Analyzer
-	+ https://petoolse.github.io/petools/
-	+ https://github.com/petoolse/petools
-* PE Tree: Python module for viewing Portable Executable (PE) files in a tree-view using pefile and PyQt5.
+- PE Insider - http://cerbero.io/peinsider/
+- PE Tools - Portable executable (PE) manipulation toolkit
+	- Process Viewer, PE files Editor, Dumper, Rebuilder, Comparator, Analyzer
+	- https://petoolse.github.io/petools/
+	- https://github.com/petoolse/petools
+- PE Tree: Python module for viewing Portable Executable (PE) files in a tree-view using pefile and PyQt5.
 	- Can also be used with IDA Pro to dump in-memory PE files and reconstruct imports.
 	- https://github.com/blackberry/pe_tree
-* PE-bear - https://hshrzd.wordpress.com/pe-bear/
-* pe-parse - Principled, lightweight C/C++ PE parser - https://github.com/trailofbits/pe-parse
-* PE-sieve: a small tool for investigating inline hooks (and other in-memory code patches)
-	+ https://hshrzd.wordpress.com/pe-sieve/
-	+ https://github.com/hasherezade/pe-sieve
-* pe_recovery_tools: Helper tools for recovering dumped PE files - https://github.com/hasherezade/pe_recovery_tools
-* pe_to_shellcode: Converts PE into a shellcode
+- PE-bear - https://hshrzd.wordpress.com/pe-bear/
+- pe-parse - Principled, lightweight C/C++ PE parser - https://github.com/trailofbits/pe-parse
+- PE-sieve: a small tool for investigating inline hooks (and other in-memory code patches)
+	- https://hshrzd.wordpress.com/pe-sieve/
+	- https://github.com/hasherezade/pe-sieve
+- pe_recovery_tools: Helper tools for recovering dumped PE files - https://github.com/hasherezade/pe_recovery_tools
+- pe_to_shellcode: Converts PE into a shellcode
 	- https://github.com/hasherezade/pe_to_shellcode
-* pedump - dump windows PE files using Ruby - http://pedump.me/ - https://github.com/zed-0xff/pedump
-* pelook: PE/COFF dump and conversion tool - http://bytepointer.com/tools/index.htm#pelook
-* pestudio - https://www.winitor.com/
-* peupdate: update hidden PE and PDB information in Win32/64 executables - http://bytepointer.com/tools/index.htm#peupdate
-* PortEx: Java library to analyse Portable Executable files with a special focus on malware analysis and PE malformation robustness
-	+ https://github.com/katjahahn/PortEx/
-	+ http://katjahahn.github.io/PortEx/
-	+ Robust Static Analysis of Portable Executable Malware - Katja Hahn, Master Thesis - https://github.com/katjahahn/PortEx/tree/master/masterthesis
-	+ Wiki - https://github.com/katjahahn/PortEx/wiki
-	+ PE Visualizer - https://github.com/katjahahn/PortEx/wiki/PE-Visualizer
-* PPEE: A Professional PE File Explorer - https://www.mzrst.com/
-* Process Dump: Windows tool for dumping malware PE files from memory back to disk for analysis
-	+ http://split-code.com/processdump.html
-	+ https://github.com/glmcdona/Process-Dump
-	+ An Introduction to Dumping Malware with Process Dump - https://www.youtube.com/watch?v=dCU7N-Oh3jg
-* rcedit: Command line tool to edit resources of EXE file on Windows
+- pedump - dump windows PE files using Ruby - http://pedump.me/ - https://github.com/zed-0xff/pedump
+- pelook: PE/COFF dump and conversion tool - http://bytepointer.com/tools/index.htm#pelook
+- pestudio - https://www.winitor.com/
+- peupdate: update hidden PE and PDB information in Win32/64 executables - http://bytepointer.com/tools/index.htm#peupdate
+- PortEx: Java library to analyse Portable Executable files with a special focus on malware analysis and PE malformation robustness
+	- https://github.com/katjahahn/PortEx/
+	- http://katjahahn.github.io/PortEx/
+	- Robust Static Analysis of Portable Executable Malware - Katja Hahn, Master Thesis - https://github.com/katjahahn/PortEx/tree/master/masterthesis
+	- Wiki - https://github.com/katjahahn/PortEx/wiki
+	- PE Visualizer - https://github.com/katjahahn/PortEx/wiki/PE-Visualizer
+- PPEE: A Professional PE File Explorer - https://www.mzrst.com/
+- Process Dump: Windows tool for dumping malware PE files from memory back to disk for analysis
+	- http://split-code.com/processdump.html
+	- https://github.com/glmcdona/Process-Dump
+	- An Introduction to Dumping Malware with Process Dump - https://www.youtube.com/watch?v=dCU7N-Oh3jg
+- rcedit: Command line tool to edit resources of EXE file on Windows
 	- https://github.com/electron/rcedit
-* Reflective PE Unloader
-	+ This is code that can be used within a PE file to allow it to reflectively reconstruct itself in memory at runtime. The result is a byte for byte copy of the original PE file. This can be combined with Reflective DLL Injection to allow code to reconstruct itself after being loaded through an arbitrary means.
-	+ https://github.com/zeroSteiner/reflective-polymorphism
-* ripPE - section extractor and profiler for PE file analysis - https://github.com/matonis/ripPE
-* Sizer - Win32/64 executable size report utility
-	+ https://github.com/aras-p/sizer
-	+ http://aras-p.info/projSizer.html
-* Sizer - Win32 executable size report utility - https://github.com/tsafin/pdb-sizer
-* SoReL-20M: Sophos-ReversingLabs 20 million sample dataset
+- Reflective PE Unloader
+	- This is code that can be used within a PE file to allow it to reflectively reconstruct itself in memory at runtime. The result is a byte for byte copy of the original PE file. This can be combined with Reflective DLL Injection to allow code to reconstruct itself after being loaded through an arbitrary means.
+	- https://github.com/zeroSteiner/reflective-polymorphism
+- ripPE - section extractor and profiler for PE file analysis - https://github.com/matonis/ripPE
+- Sizer - Win32/64 executable size report utility
+	- https://github.com/aras-p/sizer
+	- http://aras-p.info/projSizer.html
+- Sizer - Win32 executable size report utility - https://github.com/tsafin/pdb-sizer
+- SoReL-20M: Sophos-ReversingLabs 20 million sample dataset
 	- https://github.com/sophos-ai/SOREL-20M
 	- SOREL-20M: A Large Scale Benchmark Dataset for Malicious PE Detection
 		- 2020; Richard Harang, Ethan M. Rudd
 		- https://arxiv.org/abs/2012.07634
 	- Sophos-ReversingLabs (SOREL) 20 Million sample malware dataset
 		- https://ai.sophos.com/2020/12/14/sophos-reversinglabs-sorel-20-million-sample-malware-dataset/
-* SymbolSort: A Utility for Measuring C++ Code Bloat
-	+ https://github.com/adrianstone55/SymbolSort
-	+ http://gameangst.com/?p=320
-* μthenticode: a cross-platform library for verifying Authenticode signatures
+- SymbolSort: A Utility for Measuring C++ Code Bloat
+	- https://github.com/adrianstone55/SymbolSort
+	- http://gameangst.com/?p=320
+- μthenticode: a cross-platform library for verifying Authenticode signatures
 	- https://github.com/trailofbits/uthenticode
 	- Verifying Windows binaries, without Windows
 		- https://blog.trailofbits.com/2020/05/27/verifying-windows-binaries-without-windows/
@@ -1226,29 +1228,29 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 
 ## PE: Talks
 
-* 2018 - Reflective PE Unloading
-	+ BSides Cleveland 2018; Spencer McIntyre
-	+ https://www.youtube.com/watch?v=GbCVVYMNUzA
-	+ http://www.irongeek.com/i.php?page=videos/bsidescleveland2018/b00-reflective-pe-unloading-spencer-mcintyre
-* 2018 - DEF CON 26 - Relocation Bonus
-	+ A look into the Windows Portable Executable (PE) header and how it can be weaponized to destroy parsers, disassemblers, and other tools
-	+ DEFCON-26-Nick-Cano-Relocation-Bonus-Attacking-the-Win-Loader.pdf
-	+ https://media.defcon.org/DEF%20CON%2026/DEF%20CON%2026%20presentations/Nick%20Cano/
-	+ https://github.com/nickcano/RelocBonus
-	+ https://github.com/nickcano/RelocBonusSlides
-* 2013 - 44Con 2013 - Exploring the Portable Executable format - Ange Albertini
-	+ https://speakerdeck.com/ange/workshop-exploring-the-portable-executable-format
-* 2013 - NoVA Hackers - 2013-03-11 - Joshua Pitts - Backdooring Win32 Portable Executables
-	+ https://www.youtube.com/watch?v=SXaoVo_U7kA
-* 2012 - Hack in Paris 2012 - Ange Albertini A Bit More of PE
-	+ https://www.youtube.com/watch?v=3duSgr5b1yc
-	+ https://www.youtube.com/watch?v=6HRfuN-fPwM
-* 2012 - Hashdays 2012 - Byte-ing the PE that fails you - Ange Albertini
-	+ https://www.youtube.com/watch?v=kibEcaG0zCk
-	+ https://speakerdeck.com/ange/byte-ing-the-pe-that-fails-you
-* 2011 - Berlinsides - x86 & PE - Ange Albertini - https://speakerdeck.com/ange/x86-and-pe
-* 2011 - BlackHat 2011 - Constant Insecurity: Things you didn’t know about (PE) Portable Executable file format
-	+ https://www.youtube.com/watch?v=uoQL3CE24ls
-	+ https://www.reversinglabs.com/newsroom/blog/constant-insecurity-things-you-didnt-know-about-pe-portable-executable-file-format.html
-	+ Paper - Undocumented PECOFF: https://media.blackhat.com/bh-us-11/Vuksan/BH_US_11_VuksanPericin_PECOFF_WP.pdf
-	+ Slides: https://media.blackhat.com/bh-us-11/Vuksan/BH_US_11_VuksanPericin_PECOFF_Slides.pdf
+- 2018 - Reflective PE Unloading
+	- BSides Cleveland 2018; Spencer McIntyre
+	- https://www.youtube.com/watch?v=GbCVVYMNUzA
+	- http://www.irongeek.com/i.php?page=videos/bsidescleveland2018/b00-reflective-pe-unloading-spencer-mcintyre
+- 2018 - DEF CON 26 - Relocation Bonus
+	- A look into the Windows Portable Executable (PE) header and how it can be weaponized to destroy parsers, disassemblers, and other tools
+	- DEFCON-26-Nick-Cano-Relocation-Bonus-Attacking-the-Win-Loader.pdf
+	- https://media.defcon.org/DEF%20CON%2026/DEF%20CON%2026%20presentations/Nick%20Cano/
+	- https://github.com/nickcano/RelocBonus
+	- https://github.com/nickcano/RelocBonusSlides
+- 2013 - 44Con 2013 - Exploring the Portable Executable format - Ange Albertini
+	- https://speakerdeck.com/ange/workshop-exploring-the-portable-executable-format
+- 2013 - NoVA Hackers - 2013-03-11 - Joshua Pitts - Backdooring Win32 Portable Executables
+	- https://www.youtube.com/watch?v=SXaoVo_U7kA
+- 2012 - Hack in Paris 2012 - Ange Albertini A Bit More of PE
+	- https://www.youtube.com/watch?v=3duSgr5b1yc
+	- https://www.youtube.com/watch?v=6HRfuN-fPwM
+- 2012 - Hashdays 2012 - Byte-ing the PE that fails you - Ange Albertini
+	- https://www.youtube.com/watch?v=kibEcaG0zCk
+	- https://speakerdeck.com/ange/byte-ing-the-pe-that-fails-you
+- 2011 - Berlinsides - x86 & PE - Ange Albertini - https://speakerdeck.com/ange/x86-and-pe
+- 2011 - BlackHat 2011 - Constant Insecurity: Things you didn’t know about (PE) Portable Executable file format
+	- https://www.youtube.com/watch?v=uoQL3CE24ls
+	- https://www.reversinglabs.com/newsroom/blog/constant-insecurity-things-you-didnt-know-about-pe-portable-executable-file-format.html
+	- Paper - Undocumented PECOFF: https://media.blackhat.com/bh-us-11/Vuksan/BH_US_11_VuksanPericin_PECOFF_WP.pdf
+	- Slides: https://media.blackhat.com/bh-us-11/Vuksan/BH_US_11_VuksanPericin_PECOFF_Slides.pdf
