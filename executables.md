@@ -110,6 +110,10 @@ Contents:
 	- https://github.com/lief-project/LIEF
 	- https://lief.quarkslab.com/
 	- references: https://lief.quarkslab.com/doc/latest/references.html
+- objconv: Object file converter
+	- A utility for cross-platform development of function libraries, for converting and modifying object files and for dumping and disassembling object and executable files for all x86 and x86-64 platforms.
+	- This utility can be used for converting object files between COFF/PE, OMF, ELF and Mach-O formats for all 32-bit and 64-bit x86 platforms. Can modify symbol names in object files. Can build, modify and convert function libraries across platforms. Can dump object files and executable files. Also includes a very good disassembler supporting the SSE4, AVX, AVX2, AVX512, FMA3, FMA4, XOP and Knights Corner instruction sets. Source code included (GPL).
+	- https://www.agner.org/optimize/#objconv
 - Pyew - https://github.com/joxeankoret/pyew
 	- Pyew is a (command line) python tool to analyse malware. It does have support for hexadecimal viewing, disassembly (Intel 16, 32 and 64 bits), PE and ELF file formats (it performs code analysis and let you write scripts using an API to perform many types of analysis), follows direct call/jmp instructions in the interactive command line, displays function names and string data references; supports OLE2 format, PDF format and more. It also supports plugins to add more features to the tool.
 - Qiew - Hex/File format viewer (ELF and PE plugins available) - https://github.com/mtivadar/qiew
