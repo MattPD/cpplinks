@@ -267,14 +267,6 @@ _Books, Books Reviews_
 	- https://doi.org/10.1109/CGO53902.2022.9741273
 	- https://doi.org/10.5281/zenodo.5788478
 	- https://sorav.compiler.ai/pubs/debugheaders.pdf
-- Correctness Proofs of Compilers and Debuggers: an Approach Based on Structural Operational Semantics
-	- 1992 Ph.D. dissertation; Fabio Q. B. da Silva
-	- http://hdl.handle.net/1842/13542
-	- http://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-241/
-- Formally Defining Debuggers: A Comparison of Three Approaches
-	- International Workshop on Automated Debugging (AADEBUG) 1995
-	- Karen L. Bernstein, Eugene W. Stark
-	- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.2511
 - Debug Information Validation for Optimized Code
 	- PLDI 2020
 	- Yuanbo Li, Shuo Ding, Qirun Zhang, Davide Italiano
@@ -284,10 +276,6 @@ _Books, Books Reviews_
 	- Debugging Information Testing
 		- A Python reimplementation for the debug-information testing framework for the paper
 		- https://github.com/yuanboli233/debug-info-testing
-- Debugging Optimized Code Without Being Misled
-	- ACM Transactions on Programming Languages and Systems (TOPLAS) 16(3) 1994
-	- Max Copperman
-	- https://people.eecs.berkeley.edu/~fateman/264/papers/copperman.pdf
 - GCC gOlogy: studying the impact of optimizations on debugging
 	- 2018; Alexandre Oliva
 	- https://www.fsfla.org/~lxoliva/writeups/gOlogy/gOlogy.txt
@@ -301,10 +289,6 @@ _Books, Books Reviews_
 - LLVM and debug information quality
 	- Triplefault 2020; Djordje Todorovic
 	- https://www.youtube.com/watch?v=GpMLt1oecOk
-- Operational Semantics of a Focusing Debugger
-	- Electronic Notesin Theoretical Computer Science 1 (1995)
-	- Karen L. Bernstein, Eugene W.Stark
-	- http://dx.doi.org/10.1016/S1571-0661(04)80002-1
 - Possible issues with debugging and inspecting compiler-optimized binaries
 	- 2020; William Cohen
 	- https://developers.redhat.com/blog/2020/03/13/possible-issues-with-debugging-and-inspecting-compiler-optimized-binaries/
@@ -323,6 +307,28 @@ _Books, Books Reviews_
 	- ASPLOS 2021
 	- Giuseppe Antonio Di Luna, Davide Italiano, Luca Massarelli, Sebastian Osterlund, Cristiano Giuffrida, Leonardo Querzoni
 	- https://arxiv.org/abs/2011.13994
+
+#### Correctness: 1990-1999
+
+- Correctness Proofs of Compilers and Debuggers: an Approach Based on Structural Operational Semantics
+	- 1992 Ph.D. dissertation; Fabio Q. B. da Silva
+	- http://hdl.handle.net/1842/13542
+	- http://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-241/
+- Debugging Optimized Code Without Being Misled
+	- ACM Transactions on Programming Languages and Systems (TOPLAS) 16(3) 1994
+	- Max Copperman
+	- https://people.eecs.berkeley.edu/~fateman/264/papers/copperman.pdf
+- Formally Defining Debuggers: A Comparison of Three Approaches
+	- International Workshop on Automated Debugging (AADEBUG) 1995
+	- Karen L. Bernstein, Eugene W. Stark
+	- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.2511
+- Non-Transparent Debugging of Optimized Code
+	- 1999 Ph.D. dissertation; Caroline Mae Tice
+	- https://www2.eecs.berkeley.edu/Pubs/TechRpts/1999/6232.html
+- Operational Semantics of a Focusing Debugger
+	- Electronic Notesin Theoretical Computer Science 1 (1995)
+	- Karen L. Bernstein, Eugene W.Stark
+	- http://dx.doi.org/10.1016/S1571-0661(04)80002-1
 
 #### Testing
 
