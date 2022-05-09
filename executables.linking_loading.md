@@ -249,6 +249,12 @@ See also:
 		- tmp.0ut Volume 2; February 2022
 		- ulexec
 		- https://tmpout.sh/2/5.html
+- Preloading the linker for fun and profit
+	- tmp.0ut Volume 2; February 2022
+	- elfmaster
+	- https://tmpout.sh/2/6.html
+	- "Linker preloading". This technique refers to the idea that one can maniuplate the kernels ELF loader (see linux/fs/binfmt_elf.c) to pass execution to a custom program interpreter instead of the real dynamic linker. 
+	- Note that the term 'program interpreter' usually refers to the dynamic linker, i.e. "/lib64/ld-linux.so". Also known as the RTLD (Runtime loader). This paper is about creating an alternate 'program interpreter' which is loaded prior to the dynamic linker itself.
 - Understanding ld-linux.so.2
 	- https://web.archive.org/web/20190421205537/http://www.cs.virginia.edu/~dww4s/articles/ld_linux.html
 
