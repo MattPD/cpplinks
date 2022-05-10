@@ -13,6 +13,11 @@
 
 ### General: Readings: Security
 
+- COOPER: Testing the Binding Code of Scripting Languages with Cooperative Mutation
+	- Network and Distributed System Security Symposium (NDSS) 2022
+	- Peng Xu, Yanhao Wang, Hong Hu, Purui Su
+	- https://www.ndss-symposium.org/ndss-paper/auto-draft-260/
+	- https://github.com/TCA-ISCAS/Cooper
 - Cross-Language Attacks
 	- Network and Distributed System Security Symposium (NDSS) 2022
 	- Samuel Mergendahl, Nathan Burow, Hamed Okhravi
