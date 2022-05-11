@@ -532,6 +532,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 ### Testing: Readings: Generation
 
+- CsmithEdge: More Effective Compiler Testing by Handling Undefined Behaviour Less Conservatively
+	- Empirical Software Engineering (EMSE) 2022
+	- Karine Even-Mendoza, Cristian Cadar, Alastair F. Donaldson
+	- https://multicore.doc.ic.ac.uk/publications/emse-22.html
+	- https://github.com/karineek/CsmithEdge
 - Growing A Test Corpus with Bonsai Fuzzing
 	- ICSE 2021
 	- Vasudev Vikram, Rohan Padhye, Koushik Sen
