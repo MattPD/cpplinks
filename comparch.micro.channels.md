@@ -691,6 +691,11 @@ See also: [Computer Architecture](comparch.md)
 	- Shravan Narayan, Craig Disselkoen, Daniel Moghimi, Sunjay Cauligi, Evan Johnson, Zhao Gang, Anjo Vahldiek-Oberwagner, Ravi Sahita, Hovav Shacham, Dean Tullsen, Deian Stefan
 	- https://arxiv.org/abs/2102.12730
 	- https://www.usenix.org/conference/usenixsecurity21/presentation/narayan
+- SynthCT: Towards Portable Constant-Time Code
+	- Network and Distributed Systems Security (NDSS) Symposium 2022
+	- Sushant Dinesh, Grant Garrett-Grossman, Christopher W. Fletcher
+	- https://www.ndss-symposium.org/ndss-paper/auto-draft-223/
+	- https://github.com/FPSG-UIUC/synthCT
 - Systematic Analysis of Programming Languages and Their Execution Environments for Spectre Attacks
 	- Iternational Conference on Information Systems Security and Privacy (ICISSP) 2022
 	- Amir Naseredini, Stefan Gast, Martin Schwarzl, Pedro Miguel Sousa Bernardo, Amel Smajic, Claudio Canella, Martin Berger, Daniel Gruss
