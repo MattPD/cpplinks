@@ -118,6 +118,11 @@
 			- http://crystalclearsoftware.com/2021cppcon/cpp23lib.pdf
 	- Meeting C++ 2021
 		- https://www.youtube.com/watch?v=rTVQe7zVQUw
+- What's New In C++23
+	- Pure Virtual C++ 2022
+	- Sy Brand
+	- https://docs.microsoft.com/en-us/events/pure-virtual-cpp-2022/whats-new-in-cpp23
+	- https://www.youtube.com/watch?v=mQzijnbnTO4
 
 ## C++23: Trip Reports
 
