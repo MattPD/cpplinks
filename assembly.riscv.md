@@ -467,6 +467,9 @@ https://riscv.org/software-tools/
 - arm2riscv: Arm AArch64 to RISC-V Transpiler
 	- https://github.com/schorrm/arm2riscv
 	- https://github.com/schorrm/arm2riscv/tree/master/docs
+- rv32i_jit: A super simple RV32i JIT, designed for ease of understanding and modification
+	- x86 backend
+	- https://github.com/gamozolabs/rv32i_jit
 
 ---
 
