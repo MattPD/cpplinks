@@ -964,6 +964,9 @@ Contents:
 
 - cctools-port: Apple cctools port for Linux, \*BSD and Windows (Cygwin)
 	- https://github.com/tpoechtrager/cctools-port
+- fishhook: A library that enables dynamically rebinding symbols in Mach-O binaries running on iOS
+	- This provides functionality that is similar to using DYLD_INTERPOSE on OS X
+	- https://github.com/facebook/fishhook
 - jtool: (Mach-O Analyzer) - http://www.newosxbook.com/tools/jtool.html
 - llvm-otool: Mach-O dumping tool
 	- https://llvm.org/docs/CommandGuide/llvm-otool.html
