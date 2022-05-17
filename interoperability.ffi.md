@@ -410,3 +410,7 @@
 	- Emscripten compiles C and C++ to WebAssembly using LLVM and Binaryen. Emscripten output can run on the Web, in Node.js, and in wasm runtimes.
 	- https://emscripten.org/
 	- https://github.com/emscripten-core/emscripten
+- Sandbox Games: Using WebAssembly and C++ to make a simple game
+	- CPPP 2021; Ólafur Waage
+	- https://www.youtube.com/watch?v=Su9SfiGySFQ
+	- https://github.com/CpppFr/CPPP-21/tree/main/webassembly-olafur_waage
