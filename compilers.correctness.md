@@ -378,7 +378,9 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- OOPSLA 2022
 	- Jiawei Liu, Yuxiang Wei, Sen Yang, Yinlin Deng, Lingming Zhang
 	- https://arxiv.org/abs/2202.09947
-	- https://github.com/Tzer-AnonBot/tzer
+	- https://dl.acm.org/doi/10.1145/3527317
+	- Tzer: TVM Implementation
+		- https://github.com/ise-uiuc/tzer
 - High-coverage metamorphic testing of concurrency support in C compilers
 	- Software Testing Verification & Reliability 2022
 	- Matt Windsor, Alastair F. Donaldson, John Wickerson
