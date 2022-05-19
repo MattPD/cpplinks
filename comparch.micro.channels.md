@@ -20,6 +20,7 @@ See also: [Computer Architecture](comparch.md)
 - [Electromagnetic (EM) Emanations](#electromagnetic-em-emanations)
 - [Floating Point Unit (FPU)](#floating-point-unit-fpu)
 - [FPGA](#fpga)
+- [Frontend](#frontend)
 - [GPU](#gpu)
 - [Interconnect](#interconnect)
 - [Interrupts](#interrupts)
@@ -1546,6 +1547,16 @@ See also: [Computer Architecture](comparch.md)
 	- Axel Poschmann, Amir Moradi, Khoongming Khoo, Chu-Wee Lim, Huaxiong Wang, San Ling
 	- https://www.emsec.ruhr-uni-bochum.de/media/crypto/veroeffentlichungen/2011/01/15/side_channel_2010.pdf
 	- https://link.springer.com/article/10.1007/s00145-010-9086-6
+
+---
+
+# Frontend
+
+- Leaky Frontends: Security Vulnerabilities in Processor Frontends
+	- International Symposium on High-Performance Computer Architecture (HPCA) 2022
+	- Shuwen Deng, Bowen Huang, Jakub Szefer
+	- https://arxiv.org/abs/2105.12224
+	- https://caslab.csl.yale.edu/code/leaky-frontends/
 
 ---
 
