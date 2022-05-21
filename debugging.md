@@ -840,6 +840,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://github.com/google/lldb-eval/
 	- Blazing fast expression evaluation for C++ in LLDB
 		- https://werat.dev/blog/blazing-fast-expression-evaluation-for-c-in-lldb/
+	- Building a faster expression evaluator for LLDB
+		- LLVM Developers’ Meeting 2021
+		- Andy Yankovsky
+		- https://www.youtube.com/watch?v=9aThSRGjYdA
+		- https://llvm.org/devmtg/2021-11/slides/2021-Buildingafaster-expression-evaluatorforLLDB.pdf
 - lldbinit: Similar implementation of .gdbinit from fG! for lldb in python
 	- https://github.com/deroko/lldbinit
 - LLDBINIT: A gdbinit clone for LLDB
