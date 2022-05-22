@@ -806,6 +806,13 @@ Contents:
 		- https://www.ekoparty.org/archivo/2007/eko3-Julio%20Auto%20-%20Next-Generation%20Debuggers%20For%20Reverse%20Engineering.pdf
 - Vtable-Dumper - a tool to list content of virtual tables in a C++ shared library - https://github.com/lvc/vtable-dumper
 
+### ELF: Software: Transformation
+
+- elfloader: An architecture-agnostic ELF file flattener for shellcode
+	- elfloader is a super simple loader for ELF files that generates a flat in-memory representation of the ELF.
+	- This allows you to turn any ELF into shellcode, or a simpler file format that is easier to load in hard-to-reach areas, like embedded devices.
+	- https://github.com/gamozolabs/elfloader
+
 ## ELF: Talks
 
 ### ELF: Talks (2020)
