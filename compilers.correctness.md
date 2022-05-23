@@ -215,6 +215,14 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- International Conference on Functional Programming 2021
 	- Mitchell Pickard, Graham Hutton
 	- http://www.cs.nott.ac.uk/~pszgmh/well-typed.pdf
+- Definitional Interpreters for Higher-Order Programming Languages
+	- Proceedings of the ACM Annual Conference 1972
+	- John C. Reynolds
+	- https://dl.acm.org/doi/10.1145/800194.805852
+	- Definitional Interpreters Revisited
+		- Higher-Order and Symbolic Computation, 11 (1998)
+		- John C. Reynolds
+		- https://homepages.inf.ed.ac.uk/wadler/papers/papers-we-love/reynolds-definitional-interpreters-revisited.pdf
 
 ---
 
