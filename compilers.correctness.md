@@ -11,6 +11,7 @@ See also:
 	- [Debugging](#debugging)
 	- [History](#history)
 	- [Lectures](#lectures)
+- [Calculation](#calculation)
 - [Testing](#testing)
 	- [Readings](#testing-readings):
 		- [Performance Optimization](#testing-readings-performance-optimization): [Loops](#testing-readings-performance-optimization-loops), [Vectorization](#testing-readings-performance-optimization-vectorization)
@@ -32,18 +33,6 @@ See also:
 - Black-Box Equivalence Checking Across Compiler Transformations
 	- 2018 PhD thesis; Manjeet Dahiya
 	- https://www.cse.iitd.ac.in/~sbansal/pubs/manjeet_thesis.pdf
-- Calculating Correct Compilers
-	- Journal of Functional Programming, Volume 25, September 2015
-	- Patrick Bahr and Graham Hutton
-	- http://www.cs.nott.ac.uk/~pszgmh/bib.html#ccc
-- Calculating Correct Compilers II: Return of the Register Machines
-	- Journal of Functional Programming 2020
-	- Patrick Bahr and Graham Hutton
-	- http://www.cs.nott.ac.uk/~pszgmh/bib.html#ccc2
-- Calculating Dependently-Typed Compilers
-	- International Conference on Functional Programming 2021
-	- Mitchell Pickard, Graham Hutton
-	- http://www.cs.nott.ac.uk/~pszgmh/well-typed.pdf
 - Compiling with Proofs
 	- 1998 Ph.D. Thesis; George C. Necula
 	- https://people.eecs.berkeley.edu/~necula/Papers/thesis.pdf
@@ -68,6 +57,7 @@ See also:
 	- https://dbp.io/essays/2018-04-19-how-to-prove-a-compiler-fully-abstract.html
 - Operational Refinement for Compiler Correctness
 	- 2012 PhD Dissertation; Robert W. Dockins
+	- https://arks.princeton.edu/ark:/88435/dsp01rr171x259
 	- ftp://ftp.cs.princeton.edu/reports/2012/936.pdf
 - Some Goals for High-impact Verified Compiler Research - https://blog.regehr.org/archives/1565
 - The Next 700 Compiler Correctness Theorems (Functional Pearl)
@@ -208,6 +198,23 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- 2012 - https://www.cs.uoregon.edu/research/summerschool/summer12/curriculum.html
 		- Logical Relations - Amal Ahmed
 		- Compiler verification - Xavier Leroy
+
+---
+
+# Calculation
+
+- Calculating Correct Compilers
+	- Journal of Functional Programming, Volume 25, September 2015
+	- Patrick Bahr and Graham Hutton
+	- http://www.cs.nott.ac.uk/~pszgmh/bib.html#ccc
+- Calculating Correct Compilers II: Return of the Register Machines
+	- Journal of Functional Programming 2020
+	- Patrick Bahr and Graham Hutton
+	- http://www.cs.nott.ac.uk/~pszgmh/bib.html#ccc2
+- Calculating Dependently-Typed Compilers
+	- International Conference on Functional Programming 2021
+	- Mitchell Pickard, Graham Hutton
+	- http://www.cs.nott.ac.uk/~pszgmh/well-typed.pdf
 
 ---
 
