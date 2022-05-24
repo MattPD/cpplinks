@@ -704,6 +704,12 @@ See also:
 
 ### CMake Talks
 
+#### CMake Talks: 2022
+
+- Things I Learnt While Trying to Avoid Becoming a CMake Expert
+	- ACCU 2022; CB Bailey
+	- https://www.youtube.com/watch?v=852VSXFaDO0
+
 #### CMake Talks: 2021
 
 - An Introduction to CMakePresets.json
