@@ -2246,6 +2246,11 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Euro S&P 2020
 	- Jakob Koschel, Cristiano Giuffrida, Herbert Bos, Kaveh Razavi
 	- https://download.vusec.net/papers/tagbleed_eurosp20.pdf
+- TLB Poisoning Attacks on AMD Secure Encrypted Virtualization
+	- Annual Computer Security Applications Conference (ACSAC) 2021
+	- Mengyuan Li, Yinqian Zhang, Huibo Wang, Kang Li, Yueqiang Cheng
+	- https://doi.org/10.1145/3485832.3485876
+	- https://yinqian.org/papers/acsac21.pdf
 - TLB;DR: Enhancing TLB-based Attacks with TLB Desynchronized Reverse Engineering
 	- USENIX Security 2022
 	- Andrei Tatar, Daniël Trujillo, Cristiano Giuffrida, Herbert Bos
