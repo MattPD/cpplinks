@@ -541,6 +541,13 @@
 
 ## Videos
 
+### 2022
+
+- A lock-free `std::atomic` `std::shared_ptr`
+	- ACCU 2022; Timur Doumler
+	- https://www.youtube.com/watch?v=a10JpqI-CvU
+	- https://accu.digital-medium.co.uk/wp-content/uploads/2022/04/talk.pdf
+
 ### 2021
 
 - Building a Lock-Free Multi-Producer, Multi-Consumer Queue for tcmalloc
