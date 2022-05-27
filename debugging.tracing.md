@@ -260,6 +260,9 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 
 - Linux tracing systems & how they fit together
 	- https://jvns.ca/blog/2017/07/05/linux-tracing-systems/
+- Cannoli: High-performance QEMU memory and instruction tracing 
+	- https://github.com/MarginResearch/cannoli
+	- https://margin.re/blog/cannoli-the-fast-qemu-tracer.aspx
 - etrace: Utility for tracing execution of apps
 	- https://github.com/canonical/etrace
 - KUtrace
