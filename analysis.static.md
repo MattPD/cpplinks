@@ -179,6 +179,11 @@ _Benchmarks & comparisons_
 	- SYNASC 2017
 	- Andrei Arusoaie, Ștefan Ciobâcă, Vlad Crăciun, Dragoș Gavriluț, Dorel Lucanu
 	- https://profs.info.uaic.ro/~stefan.ciobaca/synasc2017.pdf
+- An Empirical Study on the Effectiveness of Static C Code Analyzers for Vulnerability Detection
+	- International Symposium on Software Testing and Analysis (ISSTA) 2022
+	- Stephan Lipp, Sebastian Banescu, Alexander Pretschner
+	- https://mediatum.ub.tum.de/doc/1659728/1659728.pdf
+	- https://zenodo.org/record/6584404
 - Analyzing the State of Static Analysis: A Large-Scale Evaluation in Open Source Software
 	- Software Analysis, Evolution, and Reengineering (SANER) 2016
 	- http://ieeexplore.ieee.org/document/7476667/
