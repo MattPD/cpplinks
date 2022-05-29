@@ -1389,6 +1389,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://eclecticlight.co/2021/06/07/code-in-assembly-for-apple-silicon-with-the-asmattic-app/
 	- 2: Registers explained
 		- https://eclecticlight.co/2021/06/16/code-in-arm-assembly-registers-explained/
+	- 3: Working with pointers
+		- https://eclecticlight.co/2021/06/21/code-in-arm-assembly-working-with-pointers/
 - Exploring AArch64 assembler - https://thinkingeek.com/categories/aarch64/
 	- Chapter 1: first program - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter1/
 	- Chapter 2: register operands and immediate operands - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter-2/
