@@ -182,6 +182,11 @@ See also:
 	- Peter Miller
 	- https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.20.2572&rank=1
 	- http://sites.e-advies.nl/nonrecursive-make.html
+- Using Active Learning to Find High-Fidelity Builds
+	- Mining Software Repositories (MSR) 2022
+	- Harshitha Menon, Konstantinos Parasyris, Todd Gamblin, Tom Scogland
+	- https://arxiv.org/abs/2202.05223
+	- https://conf.researchr.org/details/msr-2022/msr-2022-technical-papers/41/Using-Active-Learning-to-Find-High-Fidelity-Builds
 
 ## Distributed
 
