@@ -400,6 +400,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Software Testing Verification & Reliability 2022
 	- Matt Windsor, Alastair F. Donaldson, John Wickerson
 	- https://onlinelibrary.wiley.com/doi/10.1002/stvr.1812
+- High-Throughput, Formal-Methods-Assisted Fuzzing for LLVM
+	- 2022; Yuyou Fan, John Regehr
+	- https://blog.regehr.org/archives/2148
+	- https://github.com/Hatsunespica/alive2
 - Making No-Fuss Compiler Fuzzing Effective
 	- Compiler Construction (CC) 2022
 	- Alex Groce, Rijnard van Tonder, Goutamkumar Tulajappa Kalburgi, Claire Le Goues
