@@ -491,6 +491,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 - dbg: A macro for printf-style debugging fans
 	- https://github.com/sharkdp/dbg-macro
+- Debug Break: break into the debugger programmatically
+	- debugbreak.h allows you to put breakpoints in your C/C++ code with a call to debug_break()
+	- Supports GCC, Clang and MSVC.
+	- Works well on ARM, AArch64, i686, x86-64, POWER and has a fallback code path for other architectures.
+	- https://github.com/scottt/debugbreak
 - LibVMI: Simplified Virtual Machine Introspection
 	- "LibVMI is a virtual machine introspection library. This means that it helps you access the memory of a running virtual machine. LibVMI provides primitives for accessing this memory using physical or virtual addresses and kernel symbols. LibVMI also supports accessing memory from a physical memory snapshot, which is helpful for debugging or forensic analysis."
 	- https://github.com/libvmi/libvmi
