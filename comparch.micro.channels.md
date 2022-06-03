@@ -2367,6 +2367,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Guoxing Chen, Sanchuan Chen, Yuan Xiao, Yinqian Zhang, Zhiqiang Lin, Ten H. Lai
 	- https://arxiv.org/abs/1802.09085
 	- https://github.com/osusecLab/SgxPectre
+- Side-Channel Attacks on Intel SGX: How SGX Amplifies The Power of Cache Attacks
+	- 2017 Master's Thesis
+	- Ahmad Moghimi
+	- https://digitalcommons.wpi.edu/etd-theses/399
 - TSX-based Defenses Against SGX Side-channel Attacks - https://gts3.org/2018/tsgx-defense.html
 - Tutorial: Uncovering and mitigating side-channel leakage in Intel SGX enclaves
 	- Security, Privacy, and Applied Cryptography Engineering (SPACE) 2018
