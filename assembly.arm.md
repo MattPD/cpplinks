@@ -1391,6 +1391,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://eclecticlight.co/2021/06/16/code-in-arm-assembly-registers-explained/
 	- 3: Working with pointers
 		- https://eclecticlight.co/2021/06/21/code-in-arm-assembly-working-with-pointers/
+	- 4: Controlling flow
+		- https://eclecticlight.co/2021/06/23/code-in-arm-assembly-controlling-flow/
 - Exploring AArch64 assembler - https://thinkingeek.com/categories/aarch64/
 	- Chapter 1: first program - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter1/
 	- Chapter 2: register operands and immediate operands - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter-2/
