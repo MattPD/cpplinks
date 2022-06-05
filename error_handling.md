@@ -505,10 +505,14 @@
 	- https://www.youtube.com/watch?v=7iIlqkLMKqE
 	- https://llvm.org/devmtg/2021-11/slides/2021-ExaminingandMitigatingthePerformanceImpactof-C-exceptionsonthe-non-exceptionalpathinLLVM.pdf
 - Exceptional C++
-	- C++ on Sea 2021; Victor Ciura
 	- Microsoft Windows structured exception handling (SEH)
-	- https://www.youtube.com/watch?v=hIpE0IZz6F8
-	- https://ciura.ro/presentations/2021/Conferences/Exceptional%20C++%20-%20Victor%20Ciura%20-%20C++%20On%20Sea%202021.pdf
+	- Victor Ciura
+	- C++ on Sea 2021
+		- https://www.youtube.com/watch?v=hIpE0IZz6F8
+		- https://ciura.ro/presentations/2021/Conferences/Exceptional%20C++%20-%20Victor%20Ciura%20-%20C++%20On%20Sea%202021.pdf
+	- CPPP 2021
+		- https://www.youtube.com/watch?v=PSgY2ZLSrY0
+		- https://ciura.ro/presentations/2021/Conferences/Exceptional%20C++%20-%20Victor%20Ciura%20-%20CPPP%202021.pdf
 - Failing Successfully: Reporting and Handling Errors
 	- CppCon 2021; Robert Leahy
 	- https://www.youtube.com/watch?v=KJ3jWZryl2A
