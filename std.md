@@ -205,6 +205,9 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- https://www.youtube.com/watch?v=u_ij0YNkFUs
 - C++20: My Favourite Code Examples
 	- Nico Josuttis
+	- ACCU 2022
+		- https://www.youtube.com/watch?v=UCIKbUvEKfI
+		- https://accu.digital-medium.co.uk/wp-content/uploads/2022/04/josuttis_C20_ACCUTalk_220407.pdf
 	- C++ on Sea 2021
 		- https://www.youtube.com/watch?v=qdSAPQiRBDo
 	- Meeting C++ 2021
