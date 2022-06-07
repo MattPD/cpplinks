@@ -485,7 +485,6 @@ Contents:
 	- Load-time relocation of shared libraries - https://eli.thegreenplace.net/2011/08/25/load-time-relocation-of-shared-libraries
 	- Position Independent Code (PIC) in shared libraries - https://eli.thegreenplace.net/2011/11/03/position-independent-code-pic-in-shared-libraries
 	- Position Independent Code (PIC) in shared libraries on x64 - https://eli.thegreenplace.net/2011/11/11/position-independent-code-pic-in-shared-libraries-on-x64
-	- How statically linked programs run on Linux - https://eli.thegreenplace.net/2012/08/13/how-statically-linked-programs-run-on-linux
 	- Library order in static linking - https://eli.thegreenplace.net/2013/07/09/library-order-in-static-linking
 - Executable and Linkable Format 101
 	- Part 1: Sections and Segments - http://www.intezer.com/executable-linkable-format-101-part1-sections-segments/
@@ -500,12 +499,6 @@ Contents:
 - Good Practices in Library Design, Implementation, and Maintenance - https://www.akkadia.org/drepper/goodpractice.pdf
 - Have fun with LIEF and Executable Formats - Play with ELF symbols - Part 2 (renaming dynamic symbols) - https://blog.quarkslab.com/have-fun-with-lief-and-executable-formats.html#elf
 - How is a binary executable organized? Let's explore it! - https://jvns.ca/blog/2014/09/06/how-to-read-an-executable/
-- How programs get run: ELF binaries - https://lwn.net/Articles/631631/
-- How to execute an object file
-	- Part 1: Calling a simple function without linking: https://blog.cloudflare.com/how-to-execute-an-object-file-part-1/
-	- Part 2: Handling relocations: https://blog.cloudflare.com/how-to-execute-an-object-file-part-2/
-	- Part 3: Dealing with external libraries: https://blog.cloudflare.com/how-to-execute-an-object-file-part-3/
-	- https://github.com/cloudflare/cloudflare-blog/tree/master/2021-03-obj-file
 - How To Write Shared Libraries - https://www.akkadia.org/drepper/dsohowto.pdf
 - I/O patterns on ELF binary initialization - https://glandium.org/blog/?p=1016
 - Improving binary layout for progressive decompression (2011) - https://glandium.org/blog/?p=2320
@@ -526,7 +519,6 @@ Contents:
 	- http://www.linker-aliens.org/blogs/ali/entry/inside_elf_symbol_tables/
 - Linux Internals - Dynamic Linking Wizardry - https://0x00sec.org/t/linux-internals-dynamic-linking-wizardry/1082
 - Linux Internals - The Art Of Symbol Resolution - https://0x00sec.org/t/linux-internals-the-art-of-symbol-resolution/1488
-- Linux x86 Program Start Up (dynamically loaded x86 ELF files) - http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html
 - Making our own executable packer
 	- What's in a Linux executable? - https://fasterthanli.me/blog/2020/whats-in-a-linux-executable/
 	- Running an executable without exec - https://fasterthanli.me/blog/2020/running-an-executable-without-exec/
@@ -576,6 +568,17 @@ Contents:
 - Understanding the Memory Layout of Linux Executables - https://gist.github.com/CMCDragonkai/10ab53654b2aa6ce55c11cfc5b2432a4
 - 'Weird Machine' patterns - https://www.researchgate.net/publication/283630248_%27Weird_Machine%27_patterns
 - Writing shared libraries - http://plan99.net/~mike/writing-shared-libraries.html
+
+### ELF: Readings: Execution
+
+- How programs get run: ELF binaries - https://lwn.net/Articles/631631/
+- How statically linked programs run on Linux - https://eli.thegreenplace.net/2012/08/13/how-statically-linked-programs-run-on-linux
+- How to execute an object file
+	- Part 1: Calling a simple function without linking: https://blog.cloudflare.com/how-to-execute-an-object-file-part-1/
+	- Part 2: Handling relocations: https://blog.cloudflare.com/how-to-execute-an-object-file-part-2/
+	- Part 3: Dealing with external libraries: https://blog.cloudflare.com/how-to-execute-an-object-file-part-3/
+	- https://github.com/cloudflare/cloudflare-blog/tree/master/2021-03-obj-file
+- Linux x86 Program Start Up (dynamically loaded x86 ELF files) - http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html
 
 ### ELF: Readings: Parsing
 
