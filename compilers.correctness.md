@@ -105,24 +105,8 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- 2011
 	- Edward Z. Yang
 	- http://blog.ezyang.com/2011/06/debugging-compilers-with-optimization-fuel/
-- Enhanced Compiler Bug Isolation via Memoized Search
-	- ASE 2020
-	- Junjie Chen, Haoyang Ma, Lingming Zhang
-	- https://www.youtube.com/watch?v=G8Ev6hujI6g
-	- https://lingming.cs.illinois.edu/publications/ase2020b.pdf
-	- https://conf.researchr.org/details/ase-2020/ase-2020-papers/36/Enhanced-Compiler-Bug-Isolation-via-Memoized-Search
-	- RecBi: Reinforcement compiler Bug isolation
-		- https://github.com/haoyang9804/RecBi
 - GCC Wiki: Finding miscompilations on large testcases
 	- https://gcc.gnu.org/wiki/Analysing_Large_Testcases
-- Locating a compiler bug with git bisection
-	- 2020; William Woodruff
-	- https://blog.yossarian.net/2020/05/07/Locating-a-compiler-bug-with-git-bisection
-- LocSeq: Automated Localization for Compiler Optimization Sequence Bugs of LLVM
-	- IEEE Transactions on Reliability 2022
-	- Zhide Zhou, He Jiang, Zhilei Ren, Yuting Chen, Lei Qiao
-	- https://ieeexplore.ieee.org/abstract/document/9765328
-	- https://gitee.com/teazhou/loc-seq
 - Replay Compilation: Improving Debuggability of a Just-in-Time Compiler
 	- OOPSLA 2006
 	- Kazunori Ogata, Tamiya Onodera, Kiyokuni Kawachiya, Hideaki Komatsu, Toshio Nakatani
@@ -136,11 +120,40 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- ACM SIGPLAN Workshop on Types in Language Design and Implementation (TLDI) 2005
 	- Bor-Yuh Evan Chang, Adam Chlipala, George C. Necula, Robert R. Schneck
 	- http://adam.chlipala.net/papers/CoolaidTLDI05/
+
+### Debugging: 2020
+
+- Enhanced Compiler Bug Isolation via Memoized Search
+	- ASE 2020
+	- Junjie Chen, Haoyang Ma, Lingming Zhang
+	- https://www.youtube.com/watch?v=G8Ev6hujI6g
+	- https://lingming.cs.illinois.edu/publications/ase2020b.pdf
+	- https://conf.researchr.org/details/ase-2020/ase-2020-papers/36/Enhanced-Compiler-Bug-Isolation-via-Memoized-Search
+	- RecBi: Reinforcement compiler Bug isolation
+		- https://github.com/haoyang9804/RecBi
+- Locating a compiler bug with git bisection
+	- 2020; William Woodruff
+	- https://blog.yossarian.net/2020/05/07/Locating-a-compiler-bug-with-git-bisection
 - Using Mutants to Help Developers Distinguish and Debug (Compiler) Faults
 	- Journal of Software Testing, Verification, and Reliability (STVR) Volume 30, Issue 2 (2020)
 	- Josie Holmes and Alex Groce
 	- https://agroce.github.io/stvr20.pdf
 	- https://github.com/agroce/compilermutants
+
+### Debugging: 2021
+
+- Automated Bug Localization in JIT Compilers
+	- Virtual Execution Environments (VEE) 2021
+	- HeuiChan Lim, Saumya Debray
+	- https://dl.acm.org/doi/10.1145/3453933.3454021
+
+### Debugging: 2022
+
+- LocSeq: Automated Localization for Compiler Optimization Sequence Bugs of LLVM
+	- IEEE Transactions on Reliability 2022
+	- Zhide Zhou, He Jiang, Zhilei Ren, Yuting Chen, Lei Qiao
+	- https://ieeexplore.ieee.org/abstract/document/9765328
+	- https://gitee.com/teazhou/loc-seq
 
 ## History
 
