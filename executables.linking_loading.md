@@ -217,6 +217,8 @@ See also:
 - dyld: Dynamic Linking On OS X
 	- Friday Q&A 2012-11-09
 	- https://www.mikeash.com/pyblog/friday-qa-2012-11-09-dyld-dynamic-linking-on-os-x.html
+- dyld_usage - report dynamic linker activity in real-time
+	- https://github.com/apple-opensource/dyld/blob/master/doc/rst/dyld_usage.rst
 - Dynamic Library Programming Topics
 	- https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/DynamicLibraries
 - How iOS 15 makes your app launch faster
