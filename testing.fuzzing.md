@@ -363,6 +363,10 @@ See also:
 
 ## Software: Benchmarking
 
+- Fuzz introspector
+	- Fuzz introspector is a tool to help fuzzer developers to get an understanding of their fuzzer’s performance and identify any potential blockers. Fuzz introspector aggregates the fuzzers’ functional data like coverage, hit frequency, entry points, etc. to give the developer a birds eye view of their fuzzer. This helps with identifying fuzz bottlenecks and blockers and eventually helps in developing better fuzzers.
+	- https://github.com/ossf/fuzz-introspector
+	- https://openssf.org/blog/2022/06/09/introducing-fuzz-introspector-an-openssf-tool-to-improve-fuzzing-coverage/
 - fuzzer-test-suite: Set of tests for fuzzing engines
 	- https://github.com/google/fuzzer-test-suite
 - FuzzBench: Fuzzer Benchmarking as a Service
