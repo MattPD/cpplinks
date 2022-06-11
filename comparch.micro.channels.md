@@ -984,6 +984,14 @@ See also: [Computer Architecture](comparch.md)
 
 ## Branch Predictor: 2022
 
+- Branch History Injection: On the Effectiveness of Hardware Mitigations Against Cross-Privilege Spectre-v2 Attacks
+	- USENIX Security 2022
+	- Enrico Barberis, Pietro Frigo, Marius Muench, Herbert Bos, Cristiano Giuffrida
+	- https://www.vusec.net/projects/bhi-spectre-bhb/
+	- https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/technical-documentation/branch-history-injection.html
+	- https://developer.arm.com/support/arm-security-updates/speculative-processor-vulnerability/spectre-bhb
+	- Today's Spectre variant: branch history injection
+		- https://lwn.net/Articles/887326
 - You Cannot Always Win the Race: Analyzing the LFENCE/JMP Mitigation for Branch Target Injection
 	- 2022
 	- Alyssa Milburn, Ke Sun, Henrique Kawakami
