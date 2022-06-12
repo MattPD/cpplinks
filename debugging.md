@@ -280,6 +280,12 @@ _Books, Books Reviews_
 	- 2018; Alexandre Oliva
 	- https://www.fsfla.org/~lxoliva/writeups/gOlogy/gOlogy.txt
 	- GNU Tools Cauldron 2018 slides: https://www.fsfla.org/~lxoliva/writeups/gOlogy/slides.pdf
+- Improving debug locations for variables in memory in optimized code
+	- 2022 EuroLLVM Developers' Meeting
+	- Orlando Cazalet-Hyams
+	- https://www.snsystems.com/technology/tech-blog/improving-debug-locations-for-variables-in-memory
+	- https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-ImprovingDebugLocations-for-Variables-in-Memory.pdf
+	- https://www.youtube.com/watch?v=wSmveKsWSSY
 - Improving debug variable location coverage by using even more SSA
 	- 2021 LLVM Developers' Meeting
 	- Jeremy Morse
