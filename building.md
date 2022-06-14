@@ -990,6 +990,13 @@ See also:
 	- https://gist.github.com/ddunbar/2dda0e836c855ea96759d1d05f086d69
 - https://XcodeBuildSettings.com
 
+### Xcode: Talks
+
+- Demystify parallelization in Xcode builds
+	- WWDC 2022
+	- Ben Herzog, Artem Chikin
+	- https://developer.apple.com/videos/play/wwdc2022/110364/
+
 ## xmake
 
 - xmake: A cross-platform build utility based on Lua
