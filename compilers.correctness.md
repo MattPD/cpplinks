@@ -350,6 +350,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 - The problem with differential testing is that at least one of the compilers must get it right
 	- http://blog.frama-c.com/index.php?post/2013/09/25/The-problem-with-differential-testing-is-that-at-least-one-of-the-compilers-must-get-it-right
 
+### Testing: Readings: 2022
+
+- Detecting C++ Compiler Front-end Bugs via Grammar Mutation and Differential Testing
+	- IEEE Transactions on Reliability 2022
+	- Haoxin Tu, He Jiang, Zhide Zhou, Yixuan Tang, Zhilei Ren, Lei Qiao, Lingxiao Jiang
+	- https://haoxintu.github.io/files/tr-2022-draft.pdf
+	- https://github.com/haoxintu/CCOFT
+
 ### Testing: Readings: 2021
 
 - JEST: N+1-version Differential Testing of Both JavaScript Engines and Specification
