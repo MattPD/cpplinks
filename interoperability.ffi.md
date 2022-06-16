@@ -331,6 +331,11 @@
 - HPy: a better API for Python
 	- https://hpyproject.org/
 	- https://github.com/hpyproject/hpy
+	- HPy: How To Design a C API For Optimizing Runtimes
+		- Truffle 2022: Truffle/GraalVM Languages Workshop
+		- Tim Felgentreff
+		- https://www.youtube.com/watch?v=SSS9q3md3mA
+		- https://2022.ecoop.org/details/truffle-2022/6/HPy-How-To-Design-a-C-API-For-Optimizing-Runtimes
 - libpy: Utilities for writing C++ extension modules
 	- https://github.com/quantopian/libpy
 - pybind11 — Seamless operability between C++11 and Python
