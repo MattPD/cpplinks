@@ -468,6 +468,10 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 
 - strace talks
 	- https://github.com/strace/strace-talks
+- Binary Analysis with Strace
+	- 2022; Jared Stroud
+	- https://www.youtube.com/watch?v=Zig-inHOhII
+	- https://github.com/lacework-dev/strace_lab_PUBLIC
 - Modern strace
 	- DevConf.CZ 2019; Dmitry Levin
 	- https://www.youtube.com/watch?v=cwDFpzQuWSU
