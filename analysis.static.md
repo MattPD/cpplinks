@@ -50,6 +50,9 @@ See also:
 		- https://arxiv.org/abs/1907.02558
 - On the Relationship Between Static Analysis and Type Theory
 	- https://semantic-domain.blogspot.com/2019/08/on-relationship-between-static-analysis.html
+- Pascal Cuoq
+	- Static analysis and low-level C programs that access the representation of addresses
+		- https://trust-in-soft.com/blog/2022/04/26/static-analysis-and-low-level-c-programs-that-access-the-representation-of-addresses/
 
 ## Readings: Books
 
