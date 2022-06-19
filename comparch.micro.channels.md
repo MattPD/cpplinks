@@ -1797,6 +1797,12 @@ See also: [Computer Architecture](comparch.md)
 	- 2017 26th USENIX Security Symposium
 	- Adrian Tang, Simha Sethumadhavan, and Salvatore Stolfo
 	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/tang
+- Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86
+	- USENIX Security 2022
+	- Yingchen Wang, Riccardo Paccagnella, Elizabeth He, Hovav Shacham, Christopher W. Fletcher, David Kohlbrenner
+	- https://www.hertzbleed.com/
+	- https://github.com/FPSG-UIUC/hertzbleed
+	- https://www.hertzbleed.com/herzbleed.pdf
 - IChannels: Exploiting Current Management Mechanisms to Create Covert Channels in Modern Processors
 	- ISCA 2021
 	- Jawad Haj-Yahya, Jeremie S. Kim, A. Giray Yaglikci, Ivan Puddu, Lois Orosa, Juan Gómez Luna, Mohammed Alser, Onur Mutlu
