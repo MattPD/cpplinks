@@ -267,6 +267,10 @@ _Books, Books Reviews_
 	- https://doi.org/10.1109/CGO53902.2022.9741273
 	- https://doi.org/10.5281/zenodo.5788478
 	- https://sorav.compiler.ai/pubs/debugheaders.pdf
+- Debugging Debug Information with Neural Networks
+	- IEEE Access (2022)
+	- Fiorella Artuso, Giuseppe Antonio Di Luna, Leonardo Querzoni
+	- https://ieeexplore.ieee.org/abstract/document/9779237
 - Debug Information Validation for Optimized Code
 	- PLDI 2020
 	- Yuanbo Li, Shuo Ding, Qirun Zhang, Davide Italiano
