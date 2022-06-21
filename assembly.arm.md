@@ -1395,6 +1395,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://eclecticlight.co/2021/06/23/code-in-arm-assembly-controlling-flow/
 	- 5: Conditional loops
 		- https://eclecticlight.co/2021/06/29/code-in-arm-assembly-conditional-loops/
+	- 6: Flow, pipelines and performance
+		- https://eclecticlight.co/2021/07/06/code-in-arm-assembly-flow-pipelines-and-performance/
 - Exploring AArch64 assembler - https://thinkingeek.com/categories/aarch64/
 	- Chapter 1: first program - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter1/
 	- Chapter 2: register operands and immediate operands - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter-2/
