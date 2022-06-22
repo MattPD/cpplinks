@@ -579,6 +579,9 @@ Contents:
 	- Part 3: Dealing with external libraries: https://blog.cloudflare.com/how-to-execute-an-object-file-part-3/
 	- https://github.com/cloudflare/cloudflare-blog/tree/master/2021-03-obj-file
 - Linux x86 Program Start Up (dynamically loaded x86 ELF files) - http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html
+- Running ELF executables from memory
+	- Executing ELF binary files from memory with memfd_create syscall
+	- https://www.guitmz.com/running-elf-from-memory/
 
 ### ELF: Readings: Parsing
 
