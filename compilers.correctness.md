@@ -216,6 +216,8 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 
 # Calculation
 
+## Calculation: 2000s
+
 - Calculating Correct Compilers
 	- Journal of Functional Programming, Volume 25, September 2015
 	- Patrick Bahr and Graham Hutton
@@ -228,6 +230,16 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- International Conference on Functional Programming 2021
 	- Mitchell Pickard, Graham Hutton
 	- http://www.cs.nott.ac.uk/~pszgmh/well-typed.pdf
+
+## Calculation: 1980s
+
+- Deriving Target Code as a Representation of Continuation Semantics
+	- ACM Transactions on Programming Languages and Systems 4, 3 (1982)
+	- Mitchell Wand
+	- https://dl.acm.org/doi/10.1145/357172.357179
+
+## Calculation: 1970s
+
 - Definitional Interpreters for Higher-Order Programming Languages
 	- Proceedings of the ACM Annual Conference 1972
 	- John C. Reynolds
