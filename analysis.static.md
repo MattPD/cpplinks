@@ -53,6 +53,9 @@ See also:
 - Pascal Cuoq
 	- Static analysis and low-level C programs that access the representation of addresses
 		- https://trust-in-soft.com/blog/2022/04/26/static-analysis-and-low-level-c-programs-that-access-the-representation-of-addresses/
+	- C programs that access the representation of addresses: TrustInSoft’s solution
+		- https://trust-in-soft.com/blog/2022/06/03/c-programs-that-access-the-representation-of-addresses-trustinsofts-solution/
+
 
 ## Readings: Books
 
