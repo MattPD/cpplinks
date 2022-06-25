@@ -543,6 +543,15 @@ See also: [Computer Architecture](comparch.md)
 	- Drew Zagieboylo, G. Edward Suh, Andrew C. Myers
 	- http://www.cs.cornell.edu/andru/papers/hyperisa/
 
+### Defense: Hardware Design & Verification: 2022
+
+- CellIFT: Leveraging Cells for Scalable and Precise Dynamic Information Flow Tracking in RTL
+	- USENIX Security 2022
+	- Flavien Solt, Ben Gras, Kaveh Razavi
+	- https://comsec.ethz.ch/research/microarch/cellift/
+	- https://comsec.ethz.ch/wp-content/files/cellift_sec22.pdf
+	- https://github.com/comsec-group/cellift-meta
+
 ## Defense: Power
 
 - PARAM: A Microprocessor Hardened for Power Side-Channel Attack Resistance
