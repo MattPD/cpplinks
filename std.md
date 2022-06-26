@@ -126,6 +126,8 @@
 
 ## C++23: Trip Reports
 
+- C++ 23 Status Report
+	- https://github.com/steve-downey/papers/blob/master/wg21-status.org
 - 2021 C++ Standardization Highlights
 	- https://botondballo.wordpress.com/2022/01/03/2021-c-standardization-highlights/
 
