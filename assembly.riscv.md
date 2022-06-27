@@ -442,9 +442,13 @@ https://riscv.org/software-tools/
 - TinyEMU
 	- https://bellard.org/tinyemu/
 	- TinyEMU is a system emulator for the RISC-V architecture. Its purpose is to be small and simple while being complete.
-- venus: RISC-V instruction set simulator built for education
+- Venus: RISC-V instruction set simulator built for education
 	- https://venus.cs61c.org/
+	- https://github.com/hm-riscv/venus
 	- https://github.com/ThaumicMekanism/venus
+	- RISC-V Venus Simulator embedded in VS Code
+		- https://github.com/hm-riscv/vscode-riscv-venus
+		- https://marketplace.visualstudio.com/items?itemName=hm.riscv-venus
 - WebRISC-V: a Web-Based Education-Oriented RISC-V Pipeline Simulation Environment
 	- http://www.dii.unisi.it/~giorgi/WebRISC-V
 	- source code: http://www.dii.unisi.it/~giorgi/WebRISC-V/download
