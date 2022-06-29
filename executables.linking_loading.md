@@ -22,7 +22,7 @@ See also:
 	- [Linkers](#software-linkers)
 	- [OS: macOS](#software-os-macos)
 	- [OS: Linux](#software-os-linux)
-- [Talks](#talks): [2021](#talks-2021), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2012](#talks-2012)
+- [Talks](#talks): [2022](#talks-2022), [2021](#talks-2021), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2012](#talks-2012)
 
 ---
 
@@ -522,6 +522,15 @@ See also:
 ---
 
 # Talks
+
+## Talks: 2022
+
+- LLD for Mach-O: The Journey
+	- 2022 EuroLLVM Developers' Meeting
+	- Nico Weber, Jez Ng
+	- https://www.youtube.com/watch?v=ynbFTojAOiY
+	- https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-LLD-for-Mach-O.pdf
+	- https://docs.google.com/presentation/d/16BMWED6foi6mWThtjAMW93HhtuePOYfTOuB2byJT9MQ/view
 
 ## Talks: 2021
 
