@@ -4,7 +4,7 @@
 
 - [Readings](#readings): [Blogs](#blogs-posts-and-series), [Documentation](#documentation), [Papers](#papers), [References](#references), [StackOverflow](#stackoverflow-questions)
 - [Software](#software): [Benchmarks](#benchmarks), [Libraries](#libraries), [Tools](#tools)
-- [Talks](#talks): [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
+- [Talks](#talks): [2022](#2022), [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
 
 ---
 
@@ -494,6 +494,14 @@
 ---
 
 # Talks
+
+## 2022
+
+- The Mysterious Life of an Exception
+	- REcon 2022
+	- Fabian Freyer, Marius Muench
+	- https://recon2022-exceptions.github.io/
+	- https://cfp.recon.cx/2022/talk/38RSED/
 
 ## 2021
 
