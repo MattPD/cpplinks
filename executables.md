@@ -1070,6 +1070,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 - PdbReader & PdbWriter - Common Compiler Infrastructure (CCI) - https://github.com/Microsoft/cci/tree/master/PDBReaderAndWriter
 - PDBRipper: an utility to extract an information from PDB files
 	- https://github.com/horsicq/PDBRipper
+- RawPDB: A C++17 library for reading Microsoft Program Debug Database PDB files
+	- https://github.com/MolecularMatters/raw_pdb
 - SymDiff: Diff tool for comparing symbols in PDB files
 	- https://github.com/WalkingCat/SymDiff
 - Syzygy Transformation Toolchain - PDB Module - https://github.com/google/syzygy/tree/master/syzygy/pdb
