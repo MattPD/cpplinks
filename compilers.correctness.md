@@ -231,6 +231,14 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- Mitchell Pickard, Graham Hutton
 	- http://www.cs.nott.ac.uk/~pszgmh/well-typed.pdf
 
+## Calculation: 1990s
+
+- Calculating Compilers
+	- 1992 PhD Dissertation
+	- Erik Meijer
+	- http://hdl.handle.net/2066/114054
+	- https://web.archive.org/web/20120416010128/http://research.microsoft.com/en-us/um/people/emeijer/Papers/Thesis.pdf
+
 ## Calculation: 1980s
 
 - Deriving Target Code as a Representation of Continuation Semantics
