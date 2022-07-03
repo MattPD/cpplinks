@@ -1935,6 +1935,11 @@ See also: [Computer Architecture](comparch.md)
 	- Esmaeil Mohammadian Koruyeh, Khaled N. Khasawneh, Chengyu Song, Nael Abu-Ghazaleh
 	- https://arxiv.org/abs/1807.07940
 	- https://www.usenix.org/conference/woot18/presentation/koruyeh
+- Spring: Spectre Returning in the Browser with Speculative Load Queuing and Deep Stacks
+	- Workshop On Offensive Technologies (WOOT) 2022
+	- Johannes Wikner, Cristiano Giuffrida, Herbert Bos, Kaveh Razavi
+	- https://comsec.ethz.ch/research/microarch/spring/
+	- https://comsec.ethz.ch/wp-content/files/spring_woot22.pdf
 
 ---
 
