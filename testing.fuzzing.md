@@ -23,8 +23,6 @@ See also:
 
 # General
 
-- Awesome Fuzzing
-	- https://github.com/secfigo/Awesome-Fuzzing
 - Google Fuzzing Forum
 	- Tutorials, examples, discussions, research proposals, and other resources related to fuzzing
 	- https://github.com/google/fuzzing
@@ -43,6 +41,8 @@ See also:
 
 ## Readings: Collections
 
+- Awesome Fuzzing
+	- https://github.com/secfigo/Awesome-Fuzzing
 - FuzzingPaper: Recent Papers Related To Fuzzing
 	- https://github.com/wcventure/FuzzingPaper
 - paper_collection: organized recent academic papers related to fuzzing, binary analysis, IoT security, and general exploitation
