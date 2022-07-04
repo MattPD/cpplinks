@@ -7,6 +7,7 @@ See also:
 
 # Contents
 
+- [Collections](#collections)
 - [General](#general)
 - [Readings](#readings): [Books](#readings-books), [General](#readings-general), [Evaluation](#readings-evaluation), [Practice](#readings-practice)
 - [Software](#software)
@@ -40,10 +41,15 @@ See also:
 - Generating Software Tests: Breaking Software for Fun and Profit
 	- https://www.fuzzingbook.org/
 
-## Readings: General
+## Readings: Collections
 
 - FuzzingPaper: Recent Papers Related To Fuzzing
 	- https://github.com/wcventure/FuzzingPaper
+- paper_collection: organized recent academic papers related to fuzzing, binary analysis, IoT security, and general exploitation
+	- https://github.com/0xricksanchez/paper_collection
+
+## Readings: General
+
 - Fuzzing: a survey
 	- Cybersecurity 2018
 	- Jun Li, Bodong Zhao and Chao Zhang
