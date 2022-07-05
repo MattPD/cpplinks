@@ -1399,6 +1399,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://eclecticlight.co/2021/07/06/code-in-arm-assembly-flow-pipelines-and-performance/
 	- 7: Moving data around
 		- https://eclecticlight.co/2021/07/08/code-in-arm-assembly-moving-data-around/
+	- 8: Integer arithmetic
+		- https://eclecticlight.co/2021/07/13/code-in-arm-assembly-integer-arithmetic/
 - Exploring AArch64 assembler - https://thinkingeek.com/categories/aarch64/
 	- Chapter 1: first program - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter1/
 	- Chapter 2: register operands and immediate operands - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter-2/
