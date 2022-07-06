@@ -672,6 +672,8 @@ See also:
 	- https://rix0r.nl/blog/2015/08/13/cmake-guide/
 - Tutorial: Easy dependency management for C++ with CMake and Git
 	- http://foonathan.net/blog/2016/07/07/cmake-dependency-handling.html
+- Tutorial: Preparing libraries for CMake FetchContent
+	- https://www.foonathan.net/2022/06/cmake-fetchcontent/
 - Using ccache with CMake
 	- https://crascit.com/2016/04/09/using-ccache-with-cmake/
 
