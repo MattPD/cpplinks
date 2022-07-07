@@ -525,6 +525,9 @@ See also:
 
 ## Talks: 2022
 
+- Link fast: Improve build and launch times
+	- WWDC 2022; Nick Kledzik
+	- https://developer.apple.com/videos/play/wwdc2022/110362/
 - LLD for Mach-O: The Journey
 	- 2022 EuroLLVM Developers' Meeting
 	- Nico Weber, Jez Ng
