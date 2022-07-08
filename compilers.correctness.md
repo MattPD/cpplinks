@@ -1229,6 +1229,11 @@ Validation: Including translation validation, equivalence checking.
 		- Computer-Aided Verification (CAV) 2019
 		- Heiko Becker, Eva Darulova, Magnus O. Myreen, Zachary Tatlock
 		- https://cakeml.org/cav19.pdf
+	- Verified Compilation and Optimization of Floating-Point Programs in CakeML
+		- ECOOP 2022
+		- Heiko Becker, Robert Rabe, Eva Darulova, Magnus O. Myreen, Zachary Tatlock, Ramana Kumar, Yong Kiam Tan, Anthony Fox
+		- https://2022.ecoop.org/details/ecoop-2022-papers/2/Verified-Compilation-and-Optimization-of-Floating-Point-Programs-in-CakeML
+		- https://cakeml.org/ecoop22.pdf
 - CompCert: formally-verified C compiler
 	- http://compcert.inria.fr/
 	- https://github.com/AbsInt/CompCert
