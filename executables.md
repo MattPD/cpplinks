@@ -1072,6 +1072,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	- https://github.com/horsicq/PDBRipper
 - RawPDB: A C++17 library for reading Microsoft Program Debug Database PDB files
 	- https://github.com/MolecularMatters/raw_pdb
+- resym: Cross-platform tool that allows browsing and extracting C and C++ type declarations from PDB files
+	- https://github.com/ergrelet/resym
 - SymDiff: Diff tool for comparing symbols in PDB files
 	- https://github.com/WalkingCat/SymDiff
 - Syzygy Transformation Toolchain - PDB Module - https://github.com/google/syzygy/tree/master/syzygy/pdb
