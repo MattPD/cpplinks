@@ -729,6 +729,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- GDBWave: GDB server to debug CPU simulation waveform traces
 		- https://github.com/tomverbeure/gdbwave
 - Hitchikers Guide To The GDB - http://apoorvaj.io/hitchhikers-guide-to-the-gdb.html
+- How to debug stack frames and recursion in GDB
+	- https://developers.redhat.com/articles/2022/06/07/how-debug-stack-frames-and-recursion-gdb
 - How to point GDB to your sources - https://alex.dzyoba.com/blog/gdb-source-path/
 - Howto: GDB Remote Serial Protocol
 	- https://www.embecosm.com/appnotes/ean4/embecosm-howto-rsp-server-ean4-issue-2.html
