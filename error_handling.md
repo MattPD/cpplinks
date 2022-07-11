@@ -497,6 +497,13 @@
 
 ## 2022
 
+- A Practical Approach to Error Handling
+	- Arno Schödl
+	- ACCU 2022
+		- https://www.youtube.com/watch?v=qQPLjxZ56QA
+		- https://accu.digital-medium.co.uk/wp-content/uploads/2022/04/Arno-Schoedl-A-Practical-Approach-to-Error-Handling.pdf
+	- CppNow 2022
+		- https://www.youtube.com/watch?v=eKcmEalOBhs
 - The Mysterious Life of an Exception
 	- REcon 2022
 	- Fabian Freyer, Marius Muench
