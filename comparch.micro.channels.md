@@ -559,6 +559,15 @@ See also: [Computer Architecture](comparch.md)
 	- Muhammad Arsath K F, Vinod Ganesan, Rahul Bodduna, Chester Rebeiro
 	- https://arxiv.org/abs/1911.08813
 
+## Defense: SMT
+
+- SecSMT: Securing SMT Processors against Contention-Based Covert Channels
+	- USENIX Security Symposium (USENIX Security) 2022
+	- Mohammadkazem Taram, Xida Ren, Ashish Venkat, Dean Tullsen
+	- https://www.usenix.org/conference/usenixsecurity22/presentation/taram
+	- https://mktrm.github.io/files/secsmt_usenix22.pdf
+	- https://github.com/mktrm/SecSMT_Artifact
+
 ## Defense: Software
 
 - C++ Developer Guidance for Speculative Execution Side Channels
