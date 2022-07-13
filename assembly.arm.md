@@ -1401,6 +1401,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://eclecticlight.co/2021/07/08/code-in-arm-assembly-moving-data-around/
 	- 8: Integer arithmetic
 		- https://eclecticlight.co/2021/07/13/code-in-arm-assembly-integer-arithmetic/
+	- 9: Bit operations
+		- https://eclecticlight.co/2021/07/16/code-in-arm-assembly-bit-operations/
 - Exploring AArch64 assembler - https://thinkingeek.com/categories/aarch64/
 	- Chapter 1: first program - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter1/
 	- Chapter 2: register operands and immediate operands - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter-2/
