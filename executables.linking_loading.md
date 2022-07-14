@@ -15,6 +15,7 @@ See also:
 	- [LTO](#readings-lto)
 	- [OS: POSIX](#readings-os-posix) (macOS, Linux, Solaris)
 	- [OS: Windows](#readings-os-windows)
+	- [Relaxation](#readings-relaxation)
 	- [Relocations](#readings-relocations)
 	- [Security](#readings-security)
 	- [Shared Libraries](#readings-shared-libraries)
@@ -299,6 +300,12 @@ See also:
 	- https://github.com/rui314/mold/blob/main/docs/design.md
 - Why isn't ld.lld faster?
 	- https://maskray.me/blog/2021-12-19-why-isnt-ld.lld-faster
+
+## Readings: Relaxation
+
+- Linker Relaxation in the RISC-V Toolchain
+	- 2017; Palmer Dabbelt
+	- https://www.sifive.com/blog/all-aboard-part-3-linker-relaxation-in-riscv-toolchain
 
 ## Readings: Relocations
 
