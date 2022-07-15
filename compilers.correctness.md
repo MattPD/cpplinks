@@ -1027,6 +1027,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 Validation: Including translation validation, equivalence checking.
 
+## Validation: 2022
+
+- End-to-End Translation Validation for the Halide Language
+	- OOPSLA 2022
+	- Basile Clément, Albert Cohen
+	- https://dl.acm.org/doi/10.1145/3527328
+	- https://cambium.inria.fr/~bclement/papers/tv-oopsla-2022.pdf
+
 ## Validation: 2021
 
 - Alive2: Bounded Translation Validation for LLVM
