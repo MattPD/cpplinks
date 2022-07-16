@@ -713,6 +713,9 @@ See also:
 
 #### CMake Talks: 2022
 
+- CMake 2022 C++ Modules and More
+	- CppNow 2022; Bill Hoffman
+	- https://www.youtube.com/watch?v=hkefPcWySzI
 - Things I Learnt While Trying to Avoid Becoming a CMake Expert
 	- ACCU 2022; CB Bailey
 	- https://www.youtube.com/watch?v=852VSXFaDO0
