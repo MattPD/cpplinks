@@ -1080,7 +1080,14 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 
 ## PDB: Talks
 
-- 2016 LLVM Developers’ Meeting: R. Kleckner "CodeView, the MS Debug Info Format in LLVM"
+- Crashing Your Way to Medium-IL: Exploiting the PDB Parser for Privilege Escalation
+	- Black Hat USA 2021
+	- Gal De Leon
+	- https://www.youtube.com/watch?v=ccmpzOOXZ20
+	- https://www.blackhat.com/us-21/briefings/schedule/#crashing-your-way-to-medium-il-exploiting-the-pdb-parser-for-privilege-escalation-23057
+- CodeView, the MS Debug Info Format in LLVM
+	- 2016 LLVM Developers’ Meeting
+	- R. Kleckner
 	- https://www.youtube.com/watch?v=5twzd06NqGU
 	- http://www.llvm.org/devmtg/2016-11/Slides/Kleckner-CodeViewInLLVM.pdf
 
