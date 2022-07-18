@@ -1010,6 +1010,14 @@ See also: [Computer Architecture](comparch.md)
 	- https://developer.arm.com/support/arm-security-updates/speculative-processor-vulnerability/spectre-bhb
 	- Today's Spectre variant: branch history injection
 		- https://lwn.net/Articles/887326
+- RETBLEED: Arbitrary Speculative Code Execution with Return Instructions
+	- USENIX Security 2022
+	- Johannes Wikner, Kaveh Razavi
+	- https://github.com/comsec-group/retbleed
+	- https://comsec.ethz.ch/wp-content/files/retbleed_sec22.pdf
+	- https://comsec.ethz.ch/research/microarch/retbleed/
+	- The "Retbleed" speculative execution vulnerabilities
+		- https://lwn.net/Articles/900917/
 - You Cannot Always Win the Race: Analyzing the LFENCE/JMP Mitigation for Branch Target Injection
 	- 2022
 	- Alyssa Milburn, Ke Sun, Henrique Kawakami
