@@ -233,6 +233,9 @@ See also:
 	- https://github.com/gaul/awesome-ld-preload
 - ELF Loaders, Libraries and Executables on Linux
 	- https://trugman-internals.com/elf-loaders-libraries-executables/
+- ELF symbol interposition and RTLD_LOCAL
+	- 2022; Kyle Huey
+	- https://pernos.co/blog/interposition-rtld-local/
 - Linker limitations on 32-bit architectures
 	- 2019; Alexander E. Patrakov
 	- https://lwn.net/Articles/797303/
