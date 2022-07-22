@@ -658,3 +658,5 @@ See also:
 		- https://homepages.dcc.ufmg.br/~fernando/publications/papers/AlvaresJCL21.pdf
 - Taintgrind: A taint-tracking plugin for the Valgrind memory checking tool
 	- https://github.com/wmkhoo/taintgrind
+- Use Valgrind Memcheck with a custom memory manager
+	- https://developers.redhat.com/articles/2022/03/23/use-valgrind-memcheck-custom-memory-manager
