@@ -1371,6 +1371,10 @@ Validation: Including translation validation, equivalence checking.
 
 ## Verification: 2022
 
+- Formally Verified Loop-Invariant Code Motion and Assorted Optimizations
+	- ACM Transactions on Embedded Computing Systems (TECS) 2022
+	- David Monniaux, Cyril Six
+	- https://doi.org/10.1145/3529507
 - The Trusted Computing Base of the CompCert Verified Compiler
 	- European Symposium on Programming (ESOP) 2022
 	- David Monniaux, Sylvain Boulmé
