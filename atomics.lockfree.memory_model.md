@@ -547,6 +547,10 @@
 	- ACCU 2022; Timur Doumler
 	- https://www.youtube.com/watch?v=a10JpqI-CvU
 	- https://accu.digital-medium.co.uk/wp-content/uploads/2022/04/talk.pdf
+- Concurrency in C++: A Programmer’s Overview
+	- CppNow 2022; Fedor Pikus
+	- part 1 of 2: https://www.youtube.com/watch?v=ywJ4cq67-uc
+	- part 2 of 2: https://www.youtube.com/watch?v=R0V4xJ9HZpA
 
 ### 2021
 
