@@ -419,3 +419,8 @@
 	- CPPP 2021; Ólafur Waage
 	- https://www.youtube.com/watch?v=Su9SfiGySFQ
 	- https://github.com/CpppFr/CPPP-21/tree/main/webassembly-olafur_waage
+- Typescripten: a compiler that creates C++ header files from TypeScript interface definitions
+	- https://github.com/think-cell/typescripten
+	- Typescripten: Generating type-safe JavaScript bindings for emscripten
+		- CppNow 2022; Sebastian Theophil
+		- https://www.youtube.com/watch?v=fOagTqBYHug
