@@ -756,6 +756,7 @@ Contents:
 			- https://mcuoneclipse.com/2013/04/14/text-data-and-bss-code-and-data-size-explained/
 			- http://www.geeksforgeeks.org/memory-layout-of-c-program/
 			- http://cs-fundamentals.com/c-programming/memory-layout-of-c-program-code-data-segments.php#size-of-code-data-bss-segments
+			- https://www.scaler.com/topics/c/memory-layout-in-c/
 	- 9 essential GNU binutils tools - https://opensource.com/article/19/10/gnu-binutils
 	- GNU Binutils: the ELF Swiss Army Knife - https://interrupt.memfault.com/blog/gnu-binutils
 - HoloDec: Decompiler for x86 and x86-64 ELF binaries - https://github.com/cararasu/holodec
