@@ -241,6 +241,11 @@ See also:
 	- CGO 2017
 	- Patrick W. Sathyanathan, Wenlei He, Ten H. Tzen
 	- http://dl.acm.org/citation.cfm?id=3049857
+- Riker: Always-Correct and Fast Incremental Builds from Simple Specifications
+	- 2022 USENIX Annual Technical Conference (ATC)
+	- Charlie Curtsinger, Daniel W. Barowy
+	- https://www.usenix.org/conference/atc22/presentation/curtsinger
+	- https://github.com/curtsinger-lab/riker
 - Scalable Incremental Building with Dynamic Task Dependencies
 	- Automated Software Engineering (ASE) 2018
 	- Gabriël Konat, Sebastian Erdweg, Eelco Visser
