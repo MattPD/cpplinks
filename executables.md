@@ -991,6 +991,8 @@ Contents:
 - macholibre: Mach-O & Universal Binary Parser - https://github.com/aaronst/macholibre
 	- Mach-O Libre: Pile Driving Apple Malware with Static Analysis, Big-Data, and Automation - https://www.first.org/resources/papers/conf2016/FIRST-2016-130.pdf
 - machO-tools - https://github.com/bx/machO-tools
+- macho-unwind-info: A parser for Apple's Compact Unwinding Format used in the __unwind_info section of Mach-O binaries
+	- https://github.com/mstange/macho-unwind-info
 - MachOExplorer - https://github.com/everettjf/MachOExplorer
 - Machotools - "a small set of tools built on top of macholib to retrieve and change informations about mach-o files. Think of it as a pure python, cross-platform implementation of install_name_tool"
 	- https://github.com/enthought/machotools
