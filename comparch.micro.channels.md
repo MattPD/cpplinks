@@ -57,6 +57,10 @@ See also: [Computer Architecture](comparch.md)
 
 ## General: 2022
 
+- Doing Research in Computer Architecture Security: A Starter Kit
+	- Computer Architecture Today 2022
+	- Mengjia Yan
+	- https://www.sigarch.org/doing-research-in-computer-architecture-security-a-starter-kit/
 - Rapid Prototyping for Microarchitectural Attacks
 	- USENIX Security 2022
 	- Catherine Easdon, Michael Schwarz, Martin Schwarzl, Daniel Gruss
