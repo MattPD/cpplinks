@@ -320,6 +320,10 @@ _Books, Books Reviews_
 
 #### Correctness: 1990-1999
 
+- A New Approach to Debugging Optimized Code
+	- PLDI 1992
+	- Gary Brooks, Gilbert J. Hansen, Steve Simmons
+	- https://doi.org/10.1145/143095.143108
 - Correctness Proofs of Compilers and Debuggers: an Approach Based on Structural Operational Semantics
 	- 1992 Ph.D. dissertation; Fabio Q. B. da Silva
 	- http://hdl.handle.net/1842/13542
