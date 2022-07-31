@@ -238,6 +238,10 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- Erik Meijer
 	- http://hdl.handle.net/2066/114054
 	- https://web.archive.org/web/20120416010128/http://research.microsoft.com/en-us/um/people/emeijer/Papers/Thesis.pdf
+- Deriving a Lazy Abstract Machine
+	- Journal of Functional Programming 7(3) 1997
+	- Peter Sestoft
+	- https://doi.org/10.1017/S0956796897002712
 
 ## Calculation: 1980s
 
