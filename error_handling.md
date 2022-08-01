@@ -504,6 +504,10 @@
 		- https://accu.digital-medium.co.uk/wp-content/uploads/2022/04/Arno-Schoedl-A-Practical-Approach-to-Error-Handling.pdf
 	- CppNow 2022
 		- https://www.youtube.com/watch?v=eKcmEalOBhs
+- Exceptions the Other Way Round
+	- CppNow 2022
+	- Sean Parent
+	- https://www.youtube.com/watch?v=mkkaAWNE-Ig
 - The Mysterious Life of an Exception
 	- REcon 2022
 	- Fabian Freyer, Marius Muench
