@@ -416,6 +416,9 @@ https://riscv.org/software-tools/
 - Dromajo: Esperanto Technology's RISC-V Reference Model
 	- RISC-V RV64GC emulator designed for RTL co-simulation
 	- https://github.com/chipsalliance/dromajo
+- emulsiV: A visual simulator for teaching computer architecture using the RISC-V instruction set
+	- https://github.com/ESEO-Tech/emulsiV
+	- https://eseo-tech.github.io/emulsiV/
 - libriscv: RISC-V userspace emulator library
 	- https://github.com/fwsGonzo/libriscv
 	- C++17 RISC-V RV32GC userspace emulator library
