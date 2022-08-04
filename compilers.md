@@ -204,7 +204,9 @@ Compilers Call For Papers for Conferences, Workshops and Journals at WikiCFP - h
 
 ## Detection
 
-- Pre-defined Compiler Macros - https://sourceforge.net/p/predef/wiki/
+- Pre-defined Compiler Macros
+	- https://github.com/cpredef/predef
+	- https://sourceforge.net/p/predef/wiki/
 	- Architectures - https://sourceforge.net/p/predef/wiki/Architectures/
 	- Compilers - https://sourceforge.net/p/predef/wiki/Compilers/
 	- Endianness - https://sourceforge.net/p/predef/wiki/Endianness/
