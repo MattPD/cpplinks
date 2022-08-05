@@ -126,6 +126,8 @@ See also:
 		- http://www.cl.cam.ac.uk/~srk31/blog/research/dynamic-linker-security.html
 	- C libraries and linking
 		- http://www.cl.cam.ac.uk/~srk31/blog/research/c-libraries-compilers-and-linking.html
+	- How and why to do link-time symbol wrapping (or not?)
+		- https://www.humprog.org/~stephen/blog/2022/08/03/#elf-symbol-wrapping-via-replacement
 	- Link order
 		- http://www.cl.cam.ac.uk/~srk31/blog/devel/link-order.html
 	- Weak dynamic symbols
