@@ -924,6 +924,14 @@ See also: [Computer Architecture](comparch.md)
 	- Abraham Gonzalez, Ben Korpan, Ed Younis, Jerry Zhao
 	- https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F18/projects/reports/project4_report.pdf
 
+## Defense: TLB
+
+- TLB-pilot: Mitigating TLB Contention Attack on GPUs with Microarchitecture-Aware Scheduling
+	- ACM Transactions on Architecture and Code Optimization (TACO) 19(1) 2021
+	- Bang Di, Daokun Hu, Zhen Xie, Jianhua Sun, Hao Chen, Jinkui Ren, Dong Li
+	- https://dl.acm.org/doi/full/10.1145/3491218
+	- https://github.com/qzpm7193/TLB_pilot
+
 ---
 
 # Arithmetic Logic Unit (ALU)
