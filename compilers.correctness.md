@@ -230,6 +230,10 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- International Conference on Functional Programming 2021
 	- Mitchell Pickard, Graham Hutton
 	- http://www.cs.nott.ac.uk/~pszgmh/well-typed.pdf
+- From Interpreter to Compiler and Virtual Machine: A Functional Derivation
+	- BRICS Report Series 10(14) 2003
+	- Mads Sig Ager, Dariusz Biernacki, Olivier Danvy, Jan Midtgaard
+	- https://doi.org/10.7146/brics.v10i14.21784
 
 ## Calculation: 1990s
 
