@@ -1409,6 +1409,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://eclecticlight.co/2021/07/23/code-in-arm-assembly-floating-point-registers-and-conversions/
 	- 12: Rounding and arithmetic
 		- https://eclecticlight.co/2021/07/27/code-in-arm-assembly-rounding-and-arithmetic/
+	- 13: Accelerating the M1 Mac: an introduction to SIMD
+		- https://eclecticlight.co/2021/08/06/accelerating-the-m1-mac-an-introduction-to-simd/
 - Exploring AArch64 assembler - https://thinkingeek.com/categories/aarch64/
 	- Chapter 1: first program - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter1/
 	- Chapter 2: register operands and immediate operands - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter-2/
