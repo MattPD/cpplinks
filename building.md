@@ -900,6 +900,9 @@ See also:
 - Remake – GNU Make with comprehensible tracing and a debugger
 	- http://bashdb.sourceforge.net/remake/
 	- https://github.com/rocky/remake
+- Using Landlock to Sandbox GNU Make
+	- https://justine.lol/make/
+	- https://github.com/jart/landlock-make
 
 ## Meson
 
