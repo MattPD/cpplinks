@@ -131,6 +131,11 @@
 - 2021 C++ Standardization Highlights
 	- https://botondballo.wordpress.com/2022/01/03/2021-c-standardization-highlights/
 
+### 2022-07-25 Virtual Meeting
+
+- July 2022 ISO C++ committee virtual meeting report
+	- https://blog.jetbrains.com/clion/2022/07/july-2022-iso-cpp/
+
 ### 2021-06-07 Virtual Meeting
 
 - Trip report: Summer 2021 ISO C++ standards meeting (virtual)
