@@ -1039,6 +1039,16 @@ See also: [Computer Architecture](comparch.md)
 
 # Cache
 
+## Cache: 2022
+
+- ÆPIC Leak: Architecturally Leaking Uninitialized Data from the Microarchitecture
+	- USENIX Security 2022
+	- Pietro Borrello, Andreas Kogler, Martin Schwarzl, Moritz Lipp, Daniel Gruss, Michael Schwarz
+	- https://aepicleak.com
+	- https://aepicleak.com/aepicleak.pdf
+	- https://github.com/IAIK/AEPIC
+	- leakage source: the superqueue between L2 and L3
+
 ## Cache: 2021
 
 - iTimed: Cache Attacks on the Apple A10 Fusion SoC
