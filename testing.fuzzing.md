@@ -102,6 +102,11 @@ See also:
 	- Fuzzing and how to evaluate it
 		- ISSISP 2018; Michael Hicks
 		- https://cs.anu.edu.au/cybersec/issisp2018/assets/slides/hicks-fuzz-testing-eval.pdf
+- FIXREVERTER: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing
+	- USENIX Security Symposium 2022
+	- Zenong Zhang, Zach Patterson, Michael Hicks, Shiyi Wei
+	- https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-zenong
+	- https://zenodo.org/record/6842295
 - On the Reliability of Coverage-Based Fuzzer Benchmarking
 	- International Conference on Software Engineering (ICSE) 2022
 	- Marcel Böhme, Laszlo Szekeres, Jonathan Metzman
