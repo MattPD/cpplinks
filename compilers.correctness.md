@@ -121,6 +121,26 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- Bor-Yuh Evan Chang, Adam Chlipala, George C. Necula, Robert R. Schneck
 	- http://adam.chlipala.net/papers/CoolaidTLDI05/
 
+### Debugging: 2022
+
+- LocSeq: Automated Localization for Compiler Optimization Sequence Bugs of LLVM
+	- IEEE Transactions on Reliability 2022
+	- Zhide Zhou, He Jiang, Zhilei Ren, Yuting Chen, Lei Qiao
+	- https://ieeexplore.ieee.org/abstract/document/9765328
+	- https://gitee.com/teazhou/loc-seq
+- Modeling Code Manipulation in JIT Compilers
+	- SOAP 2022: ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis
+	- HeuiChan Lim, Xiyu Kang, Saumya Debray
+	- https://doi.org/10.1145/3520313.3534656
+	- "This paper discusses a different approach to analyzing JIT compiler optimization behaviors, based on using dynamic analysis to construct abstract models of the JIT compiler’s optimizer and back end. By comparing the models obtained for buggy and non-buggy executions of the JIT compiler, we can pinpoint the components of the JIT compiler’s internal representation that have been affected by the bug; this can then be mapped back to identify the buggy code."
+
+### Debugging: 2021
+
+- Automated Bug Localization in JIT Compilers
+	- Virtual Execution Environments (VEE) 2021
+	- HeuiChan Lim, Saumya Debray
+	- https://dl.acm.org/doi/10.1145/3453933.3454021
+
 ### Debugging: 2020
 
 - Enhanced Compiler Bug Isolation via Memoized Search
@@ -139,21 +159,6 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- Josie Holmes and Alex Groce
 	- https://agroce.github.io/stvr20.pdf
 	- https://github.com/agroce/compilermutants
-
-### Debugging: 2021
-
-- Automated Bug Localization in JIT Compilers
-	- Virtual Execution Environments (VEE) 2021
-	- HeuiChan Lim, Saumya Debray
-	- https://dl.acm.org/doi/10.1145/3453933.3454021
-
-### Debugging: 2022
-
-- LocSeq: Automated Localization for Compiler Optimization Sequence Bugs of LLVM
-	- IEEE Transactions on Reliability 2022
-	- Zhide Zhou, He Jiang, Zhilei Ren, Yuting Chen, Lei Qiao
-	- https://ieeexplore.ieee.org/abstract/document/9765328
-	- https://gitee.com/teazhou/loc-seq
 
 ## History
 
