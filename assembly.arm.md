@@ -1384,7 +1384,7 @@ See also: [Performance Tools](performance.tools.md)
 - arm64 assembly crash course - https://github.com/Siguza/ios-resources/blob/master/bits/arm64.md
 - Armv8-A Instruction Set Architecture (ISA)
 	- https://developer.arm.com/architectures/learn-the-architecture/armv8-a-instruction-set-architecture
-- Code in ARM Assembly
+- Code in ARM Assembly - https://eclecticlight.co/tag/assembler/
 	- 1: Building an app to develop assembly routines, including an explanation of calling assembly language from Swift, with a complete Xcode project
 		- https://eclecticlight.co/2021/06/07/code-in-assembly-for-apple-silicon-with-the-asmattic-app/
 	- 2: Registers explained
@@ -1411,6 +1411,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://eclecticlight.co/2021/07/27/code-in-arm-assembly-rounding-and-arithmetic/
 	- 13: Accelerating the M1 Mac: an introduction to SIMD
 		- https://eclecticlight.co/2021/08/06/accelerating-the-m1-mac-an-introduction-to-simd/
+	- 14: Lanes and loads in NEON 
+		- https://eclecticlight.co/2021/08/23/code-in-arm-assembly-lanes-and-loads-in-neon/
 - Exploring AArch64 assembler - https://thinkingeek.com/categories/aarch64/
 	- Chapter 1: first program - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter1/
 	- Chapter 2: register operands and immediate operands - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter-2/
