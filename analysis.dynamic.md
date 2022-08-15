@@ -549,6 +549,12 @@ See also:
 	- https://dse.in.tum.de/wp-content/uploads/2022/04/SafePM_eurosys22_presentation.pdf
 	- SafePM: Memory Safety for Persistent Memory
 	- https://github.com/TUM-DSE/safepm
+- SymSan: Time and Space Efficient Concolic Execution via Dynamic Data-Flow Analysis
+	- USENIX Security 2022
+	- Ju Chen, Wookhyun Han, Mingjun Yin, Haochen Zeng, Chengyu Song, Byoungyong Lee, Heng Yin, and Insik Shin
+	- https://www.usenix.org/conference/usenixsecurity22/presentation/chen-ju
+	- An LLVM Sanitizer for Symbolic Tracing
+		- https://github.com/R-Fuzz/symsan
 
 ### Software: Sanitizers: Projects
 
