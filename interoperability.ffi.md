@@ -11,6 +11,14 @@
 
 ## General: Readings
 
+- Semantic Soundness for Language Interoperability
+	- PLDI 2022
+	- Daniel Patterson, Noble Mushtak, Andrew Wagner, Amal Ahmed
+	- https://doi.org/10.1145/3519939.3523703
+	- https://aps.arxiv.org/abs/2202.13158
+	- https://dbp.io/pubs/2022/semint.pdf
+	- https://www.youtube.com/watch?v=uasYCcvYIkQ
+
 ### General: Readings: Security
 
 - COOPER: Testing the Binding Code of Scripting Languages with Cooperative Mutation
