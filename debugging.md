@@ -781,6 +781,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - The GDB Python API
 	- https://developers.redhat.com/blog/2017/11/10/gdb-python-api/
 
+##### GDB: Readings: Python API: TUI
+
+- Add custom windows to GDB: Programming the TUI in Python
+	- https://developers.redhat.com/articles/2022/08/03/add-custom-windows-gdb-programming-tui-python
+
 ### GDB: Talks
 
 - A flexible GDB (GNU Debugger) target description for processor diversity – SFO17-210
