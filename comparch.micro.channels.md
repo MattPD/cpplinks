@@ -1048,6 +1048,10 @@ See also: [Computer Architecture](comparch.md)
 	- https://aepicleak.com/aepicleak.pdf
 	- https://github.com/IAIK/AEPIC
 	- leakage source: the superqueue between L2 and L3
+- Targeted Deanonymization via the Cache Side Channel: Attacks and Defenses
+	- USENIX Security 2022
+	- Mojtaba Zaheri, Yossi Oren, Reza Curtmola
+	- https://www.usenix.org/conference/usenixsecurity22/presentation/zaheri
 
 ## Cache: 2021
 
