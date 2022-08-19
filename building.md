@@ -438,6 +438,9 @@ See also:
 	- https://github.com/distcc/distcc
 - icecream: Distributed compiler with a central scheduler to share build load
 	- https://github.com/icecc/icecream
+- recc: Remote Execution Caching Compiler: a cross between ccache and distcc using the Remote Execution APIs
+	- https://buildgrid.gitlab.io/recc/
+	- https://gitlab.com/BuildGrid/recc
 - sccache - Shared Compilation Cache
 	- https://github.com/mozilla/sccache
 
