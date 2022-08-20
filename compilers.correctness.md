@@ -745,6 +745,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://ora.ox.ac.uk/objects/uuid:eac7b135-e92b-48dc-a1f7-4de66a441390
 	- autovec-benchmark: Auto-vectorization test suite with withdrawal of useful compile-time information
 		- https://github.com/sergisiso/autovec-benchmark
+- Performance Left on the Table: An Evaluation of Compiler Auto-Vectorization for RISC-V
+	- IEEE Micro 2022
+	- Neil Adit, Adrian Sampson
+	- https://ieeexplore.ieee.org/document/9802745
 - Vectorizing Compilers: A Test Suite and Results
 	- Supercomputing 1988
 	- David Callahan, Jack Dongarra, David Levine
