@@ -1429,6 +1429,9 @@ See also: [Performance Tools](performance.tools.md)
 	- https://github.com/Apress/programming-with-64-bit-ARM-assembly-language
 	- HelloSilicon: third-party Apple Silicon version
 		- https://github.com/below/HelloSilicon
+- The AArch64 processor (aka arm64) - Raymond Chen
+	- 1: Introduction
+		- https://devblogs.microsoft.com/oldnewthing/20220726-00/?p=106898
 
 ## Thumb-2
 
