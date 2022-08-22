@@ -28,6 +28,10 @@ https://riscv.org/publications/
 - A Highly Productive Implementation of an Out-of-Order Processor Generator
 	- 2018 PhD Thesis; Christopher Celio
 	- https://www2.eecs.berkeley.edu/Pubs/TechRpts/2018/EECS-2018-151.html
+- A Survey of the RISC-V Architecture Software Support
+	- IEEE Access 10 (2022)
+	- Benjamin W. Mezger, Douglas A. dos Santos, Luigi Dilillo, Cesar A. Zeferino, Douglas R. Melo
+	- https://dx.doi.org/10.1109/ACCESS.2022.3174125
 - An Agile Approach to Building RISC-V Microprocessors - https://people.eecs.berkeley.edu/~bora/Journals/2016/IEEEMicro16.pdf
 - CARRV: Workshop on Computer Architecture Research with RISC-V - https://carrv.github.io/
 - Design of the RISC-V Instruction Set Architecture - http://www.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-1.html
