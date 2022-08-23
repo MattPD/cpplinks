@@ -19,6 +19,13 @@
 	- https://dbp.io/pubs/2022/semint.pdf
 	- https://www.youtube.com/watch?v=uasYCcvYIkQ
 
+### General: Readings: Optimization
+
+- Low-level Cross-Language Post-Link Optimisation
+	- 2021 PhD Dissertation
+	- Nandor Licker
+	- https://doi.org/10.17863/CAM.87641
+
 ### General: Readings: Security
 
 - COOPER: Testing the Binding Code of Scripting Languages with Cooperative Mutation
