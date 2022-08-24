@@ -1988,10 +1988,37 @@ See also: [Computer Architecture](comparch.md)
 
 # SMT
 
+## SMT: 2022
+
+- HyperDegrade: From GHz to MHz Effective CPU Frequencies
+	- USENIX Security 2022
+	- Alejandro Cabrera Aldaya, Billy Bob Brumley
+	- https://www.usenix.org/conference/usenixsecurity22/presentation/aldaya
+- Port Contention Goes Portable: Port Contention Side Channels in Web Browsers
+	- AsiaCCS 2022
+	- Thomas Rokicki, Clémentine Maurice, Marina Botvinnik, Yossi Oren
+	- https://doi.org/10.1145/3488932.3517411
+	- https://people.irisa.fr/Thomas.Rokicki/publications/wpc.pdf
+	- https://github.com/MIAOUS-group/web-port-contention
+
+## SMT: 2020
+
 - ABSynthe: Automatic Blackbox Side-channel Synthesis on Commodity Microarchitectures
 	- Network and Distributed Systems Security (NDSS) Symposium 2020
 	- Ben Gras, Cristiano Giuffrida, Michael Kurth, Herbert Bos, Kaveh Razavi
 	- https://download.vusec.net/papers/absynthe_ndss20.pdf
+
+## SMT: 2019
+
+- SMoTherSpectre: exploiting speculative execution through port contention
+	- CCS 2019
+	- Atri Bhattacharyya, Alexandra Sandulescu, Matthias Neugschwandtner, Alessandro Sorniotti, Babak Falsafi, Mathias Payer, Anil Kurmus
+	- https://arxiv.org/abs/1903.01843
+	- http://nebelwelt.net/blog/20190306-SMoTherSpectre.html
+	- https://github.com/HexHive/SMoTherSpectre
+
+## SMT: 2005-2018
+
 - Cache missing for fun and profit
 	- BSDCan 2005; Colin Percival
 	- http://www.daemonology.net/papers/cachemissing.pdf
@@ -2000,25 +2027,15 @@ See also: [Computer Architecture](comparch.md)
 	- Onur Acıçmez, Jean-Pierre Seifert
 	- http://conferenze.dei.polimi.it/FDTC07/Aciicmez.pdf
 - Covert Shotgun: Automatically finding covert channels in SMT
+	- 2016; Anders Fogh
 	- https://cyber.wtf/2016/09/27/covert-shotgun/
 - Port Contention for Fun and Profit
+	- Cryptology ePrint Archive, Paper 2018/1060
 	- Security & Privacy (S&P) 2019
 	- Alejandro Cabrera Aldaya, Billy Bob Brumley, Sohaib ul Hassan, Cesar Pereida García, Nicola Tuveri
 	- https://eprint.iacr.org/2018/1060
-- Port Contention Goes Portable: Port Contention Side Channels in Web Browsers
-	- AsiaCCS 2022
-	- Thomas Rokicki, Clémentine Maurice, Marina Botvinnik, Yossi Oren
-	- https://doi.org/10.1145/3488932.3517411
-	- https://people.irisa.fr/Thomas.Rokicki/publications/wpc.pdf
-	- https://github.com/MIAOUS-group/web-port-contention
-- PortSmash (CVE-2018-5407): side-channel vulnerability on SMT/Hyper-Threading architectures
-	- https://github.com/bbbrumley/portsmash
-- SMoTherSpectre: exploiting speculative execution through port contention
-	- CCS 2019
-	- Atri Bhattacharyya, Alexandra Sandulescu, Matthias Neugschwandtner, Alessandro Sorniotti, Babak Falsafi, Mathias Payer, Anil Kurmus
-	- https://arxiv.org/abs/1903.01843
-	- http://nebelwelt.net/blog/20190306-SMoTherSpectre.html
-	- https://github.com/HexHive/SMoTherSpectre
+	- PortSmash (CVE-2018-5407): side-channel vulnerability on SMT/Hyper-Threading architectures
+		- https://github.com/bbbrumley/portsmash
 
 ---
 
