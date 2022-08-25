@@ -785,6 +785,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 - Add custom windows to GDB: Programming the TUI in Python
 	- https://developers.redhat.com/articles/2022/08/03/add-custom-windows-gdb-programming-tui-python
+- Display dynamic content from GDB in a custom window
+	- https://developers.redhat.com/articles/2022/06/06/display-dynamic-content-gdb-custom-window
 
 ### GDB: Talks
 
