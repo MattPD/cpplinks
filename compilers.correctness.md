@@ -1392,6 +1392,11 @@ Validation: Including translation validation, equivalence checking.
 	- ACM Transactions on Embedded Computing Systems (TECS) 2022
 	- David Monniaux, Cyril Six
 	- https://doi.org/10.1145/3529507
+- Formally Verified Superblock Scheduling
+	- CPP 2022: ACM SIGPLAN International Conference on Certified Programs and Proofs
+	- Cyril Six, Léo Gourdin, Sylvain Boulmé, David Monniaux, Justus Fasse, Nicolas Nardino
+	- https://dl.acm.org/doi/pdf/10.1145/3497775.3503679
+	- https://gricad-gitlab.univ-grenoble-alpes.fr/certicompil/compcert-kvx/-/tree/CPP22_main
 - The Trusted Computing Base of the CompCert Verified Compiler
 	- European Symposium on Programming (ESOP) 2022
 	- David Monniaux, Sylvain Boulmé
