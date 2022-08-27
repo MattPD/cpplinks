@@ -1432,6 +1432,8 @@ See also: [Performance Tools](performance.tools.md)
 - The AArch64 processor (aka arm64) - Raymond Chen
 	- 1: Introduction
 		- https://devblogs.microsoft.com/oldnewthing/20220726-00/?p=106898
+	- 2: Extended register operations
+		- https://devblogs.microsoft.com/oldnewthing/20220727-00/?p=106907
 
 ## Thumb-2
 
