@@ -444,6 +444,8 @@ https://riscv.org/software-tools/
 - RVirt: RISC-V hypervisor written in Rust
 	- https://github.com/mit-pdos/RVirt
 	- an S-mode trap-and-emulate hypervisor for RISC-V
+- semu: A minimalist RISC-V emulator capable of running xv6
+	- https://github.com/jserv/semu
 - Spike, a RISC-V ISA Simulator
 	- https://github.com/riscv/riscv-isa-sim
 - TinyEMU
