@@ -302,8 +302,10 @@ See also:
 ## Readings: Performance
 
 - Design and implementation of mold
+	- 2021; Rui Ueyama
 	- https://github.com/rui314/mold/blob/main/docs/design.md
 - Why isn't ld.lld faster?
+	- 2021; MaskRay (Fangrui Song)
 	- https://maskray.me/blog/2021-12-19-why-isnt-ld.lld-faster
 
 ## Readings: Relaxation
@@ -311,6 +313,9 @@ See also:
 - Linker Relaxation in the RISC-V Toolchain
 	- 2017; Palmer Dabbelt
 	- https://www.sifive.com/blog/all-aboard-part-3-linker-relaxation-in-riscv-toolchain
+- The dark side of RISC-V linker relaxation
+	- 2021; MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2021-03-14-the-dark-side-of-riscv-linker-relaxation
 
 ## Readings: Relocations
 
