@@ -1690,6 +1690,16 @@ See also: [Computer Architecture](comparch.md)
 
 # Interconnect
 
+## Interconnect: 2022
+
+- Don't Mesh Around: Side-Channel Attacks and Mitigations on Mesh Interconnects
+	- USENIX Security 2022
+	- Miles Dai, Riccardo Paccagnella, Miguel Gomez-Garcia, John McCalpin, Mengjia Yan
+	- https://www.usenix.org/conference/usenixsecurity22/presentation/dai
+	- https://github.com/CSAIL-Arch-Sec/dont-mesh-around
+
+## Interconnect: 2021
+
 - Calibration Done Right: Noiseless Flush+Flush Attacks
 	- Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA) 2021
 	- Guillaume Didier, Clémentine Maurice
