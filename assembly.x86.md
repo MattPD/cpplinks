@@ -259,6 +259,13 @@ http://net.cs.uni-bonn.de/fileadmin/user_upload/plohmann/x86_opcode_structure_an
 x86 oddities  
 http://x86.corkami.com 
 
+## OS-specific
+
+### Windows
+
+- The x86-64 processor (aka amd64, x64): Whirlwind tour
+	- https://devblogs.microsoft.com/oldnewthing/20220831-00/?p=107077
+
 ## Slides
 
 * Assembly: The mother of all languages - https://speakerdeck.com/takipiadmin/assembly-the-mother-of-all-languages
