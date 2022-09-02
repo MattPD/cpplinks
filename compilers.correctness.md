@@ -951,6 +951,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 		- Gleison Souza Diniz Mendonça, Chunhua Liao, Fernando Magno Quintão Pereira
 		- https://doi.org/10.1145/3392717.3392744
 		- https://www.osti.gov/servlets/purl/1635776
+- SOLLVE V&V: OpenMP Offloading Validation & Verification Suite
+	- https://github.com/SOLLVE/sollve_vv
+	- https://crpl.cis.udel.edu/ompvvsollve
+	- ECP SOLLVE: Validation and Verification Testsuite Status Update and Compiler Insight for OpenMP
+		- 2022
+		- Thomas Huber, Swaroop Pophale, Nolan Baker, Michael Carr, Nikhil Rao, Jaydon Reap, Kristina Holsapple, Joshua Hoke Davis, Tobias Burnus, Seyong Lee, David E. Bernholdt, Sunita Chandrasekaran
+		- https://arxiv.org/abs/2208.13301
 
 #### Testing: Software: Performance Optimization: Vectorization
 
