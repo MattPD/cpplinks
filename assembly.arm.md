@@ -1436,6 +1436,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220726-00/?p=106898
 	- 2: Extended register operations
 		- https://devblogs.microsoft.com/oldnewthing/20220727-00/?p=106907
+	- part 3: Addressing modes
+		- https://devblogs.microsoft.com/oldnewthing/20220728-00/?p=106912
 
 ## Thumb-2
 
