@@ -119,6 +119,9 @@ https://riscv.org/risc-v-books/
 	- https://github.com/riscv/riscv-v-spec
 - Programming with RISC-V Vector Instructions
 	- https://gms.tf/riscv-vector.html
+- RISC-V Vector Extension in a Nutshell
+	- Part 1: Introduction
+		- https://fprox.blogspot.com/2022/07/risc-v-vector-extension-in-nutshell.html
 
 ## Simulation
 
