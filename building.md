@@ -918,6 +918,9 @@ See also:
 	- https://medium.com/@germandiagogomez/getting-started-with-meson-in-c-part-2-58150354ff17
 	- https://medium.com/@germandiagogomez/getting-started-with-meson-in-c-part-3-70b9bc419957
 	- https://medium.com/@germandiagogomez/getting-started-with-meson-part-4-8bceec6149e1
+- Lessons Learned From Porting LibreOffice's Build System To Meson
+	- CppNorth 2022; Jussi Pakkanen
+	- https://www.youtube.com/watch?v=asB_hx_jJSw
 
 ## Ninja
 
