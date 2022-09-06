@@ -415,6 +415,16 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/doychev
 	- https://github.com/cacheaudit/cacheaudit
 
+### Defense: DRAM
+
+- DAGguise: Mitigating Memory Timing Side Channels
+	- ASPLOS 2022
+	- Peter W. Deutsch, Yuheng Yang, Thomas Bourgeat, Jules Drean, Joel Emer, Mengjia Yan
+	- https://doi.org/10.1145/3503222.3507747
+	- https://people.csail.mit.edu/mengjia/data/DAGguise_ASPLOS22.pdf
+	- https://people.csail.mit.edu/mengjia/data/DAGguise_presentation.pdf
+	- https://github.com/CSAIL-Arch-Sec/DAGguise
+
 ## Defense: Floating Point Unit (FPU)
 
 - On the effectiveness of mitigations against floating-point timing channels
