@@ -919,6 +919,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 - Compiler-benchmark-suites
 	- A list of benchmark suites used in the research related to compilers, program performance, scientific computations, etc.
 	- https://github.com/quepas/Compiler-benchmark-suites
+- ExeBench: An ML-Scale Dataset of Executable C Functions
+	- International Symposium on Machine Programming (MAPS) 2022
+	- Jordi Armengol-Estapé, Jackson Woodruff, Alexander Brauckmann, José Wesley de Souza Magalhães, Michael F. P. O'Boyle
+	- https://dl.acm.org/doi/10.1145/3520312.3534867
+	- https://github.com/jordiae/exebench
+	- https://huggingface.co/datasets/jordiae/exebench
 - llvm-test-suite: LLVM "test-suite" Repository
 	- https://github.com/llvm/llvm-test-suite
 	- Compile Time Mark: a collection of applications used for compiler performance testing
