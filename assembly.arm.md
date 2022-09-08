@@ -27,7 +27,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	- [Binary Analysis](#software-binary-analysis)
 	- [Concurrency](#software-concurrency)
 	- [Debugging, Tracing](#software-debugging-tracing)
-	- [Emulation, Simulation](#software-emulation-simulation): [x86, x86-64]((#software-emulation-simulation-x86-x86-64)
+	- [Emulation, Simulation](#software-emulation-simulation): [x86, x86-64](#software-emulation-simulation-x86-x86-64)
 	- [Lifting: Disassemblers, Decompilers, Recompilers](#software-lifting)
 	- [Performance](#software-performance): [SIMD](#software-performance-simd)
 	- [Virtualization](#software-virtualization)
@@ -1436,8 +1436,10 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220726-00/?p=106898
 	- 2: Extended register operations
 		- https://devblogs.microsoft.com/oldnewthing/20220727-00/?p=106907
-	- part 3: Addressing modes
+	- 3: Addressing modes
 		- https://devblogs.microsoft.com/oldnewthing/20220728-00/?p=106912
+	- 4: Addition and subtraction
+		- https://devblogs.microsoft.com/oldnewthing/20220729-00/?p=106915
 
 ## Thumb-2
 
