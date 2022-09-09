@@ -122,6 +122,8 @@ https://riscv.org/risc-v-books/
 - RISC-V Vector Extension in a Nutshell
 	- Part 1: Introduction
 		- https://fprox.blogspot.com/2022/07/risc-v-vector-extension-in-nutshell.html
+	- Part 2: Arithmetic and Logic Instructions
+		- https://fprox.blogspot.com/2022/08/risc-v-vector-extension-in-nutshell.html
 
 ## Simulation
 
