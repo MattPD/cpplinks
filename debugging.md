@@ -236,12 +236,14 @@ _Books, Books Reviews_
 - Samy Al Bahra, Backtrace
 	- Compiler debug quality suite - https://github.com/backtrace-labs/cdqs
 	- Compile Once Debug Twice: Picking a Compiler for Debuggability
-		- https://backtrace.io/blog/engineering/compile-once-debug-twice-picking-a-compiler-for-debuggability-1of3/
+		- https://engineering.backtrace.io/compile-once-debug-twice/
 	- Debugging the Debugger: Why Your Debugger Doesn’t Work When You Need it To
-		- https://backtrace.io/debuggingthedebugger/
+		- BSDCan 2017; Samy Al Bahra
+		- https://www.bsdcan.org/2017/schedule/events/787.en.html
+		- https://www.youtube.com/watch?v=wyF-hGGPJMs
 	- Implementing a Debugger - Backtrace
-		- The Fundamentals - https://backtrace.io/blog/backtrace/debugger-internals/
-		- Building a Go Debugger - https://backtrace.io/blog/backtrace/building-a-go-debugger/
+		- The Fundamentals - https://engineering.backtrace.io/2016-08-11-debugger-internals/
+		- Building a Go Debugger - https://engineering.backtrace.io/2016-11-23-building-a-go-debugger/
 - Writing a basic Windows debugger - https://www.codeproject.com/Articles/43682/Writing-a-basic-Windows-debugger
 - Writing a Debugger - Joseph Kain - http://system.joekain.com/debugger/
 - Writing a Linux Debugger - Simon Brand
