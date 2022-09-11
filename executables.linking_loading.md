@@ -310,6 +310,10 @@ See also:
 
 ## Readings: Relaxation
 
+- Linker Relaxation in LLD
+	- RISC-V Forum: Developer Tools & Tool Chains 2021
+	- Chih-Mao Chen
+	- https://www.youtube.com/watch?v=4GnQbhNt1Cc
 - Linker Relaxation in the RISC-V Toolchain
 	- 2017; Palmer Dabbelt
 	- https://www.sifive.com/blog/all-aboard-part-3-linker-relaxation-in-riscv-toolchain
