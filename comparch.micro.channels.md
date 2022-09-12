@@ -1802,6 +1802,11 @@ See also: [Computer Architecture](comparch.md)
 	- 34C3 (2017)
 		- https://media.ccc.de/v/34c3-9135-aslr_on_the_line
 		- https://github.com/brainsmoke/pub-archive/raw/master/slides/aotl-34c3-slides.pdf
+- Binoculars: Contention-Based Side-Channel Attacks Exploiting the Page Walker
+	- USENIX Security 2022
+	- Zirui Neil Zhao, Adam Morrison, Christopher Fletcher, Josep Torrellas
+	- https://www.usenix.org/conference/usenixsecurity22/presentation/zhao-zirui
+	- https://github.com/zzrcxb/binoculars
 - Malicious Management Unit: Why Stopping Cache Attacks in Software is Harder Than You Think
 	- USENIX Security 2018
 	- Stephan van Schaik, Cristiano Giuffrida, Herbert Bos, Kaveh Razavi
