@@ -223,6 +223,11 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 
 ## Calculation: 2000s
 
+- Calculating Certified Compilers for Non-Deterministic Languages
+	- MPC 2015: Mathematics of Program Construction
+	- Patrick Bahr
+	- https://bahr.io/pubs/entries/bahr15mpc.html
+	- https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.709.7040&rep=rep1&type=pdf
 - Calculating Correct Compilers
 	- Journal of Functional Programming, Volume 25, September 2015
 	- Patrick Bahr and Graham Hutton
