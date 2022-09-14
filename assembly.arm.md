@@ -1440,6 +1440,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220728-00/?p=106912
 	- 4: Addition and subtraction
 		- https://devblogs.microsoft.com/oldnewthing/20220729-00/?p=106915
+	- 5: Multiplication and division
+		- https://devblogs.microsoft.com/oldnewthing/20220801-00/?p=106922
 
 ## Thumb-2
 
