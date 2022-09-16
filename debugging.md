@@ -746,6 +746,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- How does gdb work? - https://jvns.ca/blog/2016/08/10/how-does-gdb-work/
 	- How does gdb call functions? - https://jvns.ca/blog/2018/01/04/how-does-gdb-call-functions/
 - Notes on GDB - https://publicclu2.blogspot.com/2013/05/notes-on-gdb.html
+- Printf-style debugging using GDB
+	- 2021; Kevin Buettner
+	- Part 1: dprintf
+		- https://developers.redhat.com/articles/2021/10/05/printf-style-debugging-using-gdb-part-1
 - Process Injection with GDB - https://magisterquis.github.io/2018/03/11/process-injection-with-gdb.html
 - RevEngE is a dish served cold: Debug-Oriented Malware Decompilation and Reassembly
 	- Reversing and Offensive-oriented Trends Symposium (ROOTS) 2019
