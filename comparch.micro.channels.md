@@ -35,6 +35,7 @@ See also: [Computer Architecture](comparch.md)
 - [Pseudo-Random Number Generator (PRNG)](#pseudo-random-number-generator-prng)
 - [Reorder Buffer (ROB)](reorder-buffer-rob)
 - [Return Stack Buffer (RSB)](#return-stack-buffer-rsb)
+- [Scheduler](#scheduler)
 - [SMT](#smt)
 - [Speculation](#speculation)
 - [Store Buffer](#store-buffer)
@@ -2008,6 +2009,15 @@ See also: [Computer Architecture](comparch.md)
 	- Johannes Wikner, Cristiano Giuffrida, Herbert Bos, Kaveh Razavi
 	- https://comsec.ethz.ch/research/microarch/spring/
 	- https://comsec.ethz.ch/wp-content/files/spring_woot22.pdf
+
+---
+
+# Scheduler
+
+- SQUIP: Exploiting the Scheduler Queue Contention Side Channel
+	- IEEE S&P 2023
+	- Stefan Gast, Jonas Juffinger, Martin Schwarzl, Gururaj Saileshwar, Andreas Kogler, Simone Franza, Markus Köstl, Daniel Gruss
+	- https://stefangast.eu/papers/squip.pdf
 
 ---
 
