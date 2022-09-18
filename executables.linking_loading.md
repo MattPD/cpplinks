@@ -317,6 +317,9 @@ See also:
 - Linker Relaxation in the RISC-V Toolchain
 	- 2017; Palmer Dabbelt
 	- https://www.sifive.com/blog/all-aboard-part-3-linker-relaxation-in-riscv-toolchain
+- RISC-V linker relaxation in lld
+	- 2022; MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2022-07-10-riscv-linker-relaxation-in-lld
 - The dark side of RISC-V linker relaxation
 	- 2021; MaskRay (Fangrui Song)
 	- https://maskray.me/blog/2021-03-14-the-dark-side-of-riscv-linker-relaxation
