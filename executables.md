@@ -280,6 +280,12 @@ Contents:
 - Where are your symbols, debuginfo and sources? - https://gnu.wildebeest.org/blog/mjw/2016/02/02/where-are-your-symbols-debuginfo-and-sources/
 - Writing a Linux Debugger Part 4: Elves and dwarves - https://blog.tartanllama.xyz/writing-a-linux-debugger-elf-dwarf/
 
+### DWARF: Readings: Compression
+
+- Compressed debug sections
+	- 2022; MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2022-01-23-compressed-debug-sections
+
 ## DWARF: Software
 
 - dareog: ORC meets DWARF - https://github.com/emersion/dareog
