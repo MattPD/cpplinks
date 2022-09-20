@@ -1069,6 +1069,10 @@ Validation: Including translation validation, equivalence checking.
 	- Basile Clément, Albert Cohen
 	- https://dl.acm.org/doi/10.1145/3527328
 	- https://cambium.inria.fr/~bclement/papers/tv-oopsla-2022.pdf
+- GCC Translation Validation
+	- 2022
+	- Krister Walfridsson
+	- https://kristerw.github.io/2022/09/13/translation-validation/
 
 ## Validation: 2021
 
