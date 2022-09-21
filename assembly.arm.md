@@ -114,6 +114,11 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 		- Computer Aided Verification (CAV) 2021
 		- Alasdair Armstrong, Brian Campbell, Ben Simner, Christopher Pulte, Peter Sewell
 		- https://link.springer.com/chapter/10.1007/978-3-030-81685-8_14
+- Just-In-Time Compilation on ARM—A Closer Look at Call-Site Code Consistency
+	- ACM Transactions on Architecture and Code Optimization (TACO) 19(4) 2022
+	- Tim Hartley, Foivos S. Zakkak, Andy Nisbet, Christos Kotselidis, Mikel Luján
+	- https://dl.acm.org/doi/10.1145/3546568
+	- https://figshare.com/articles/dataset/Datasets_for_TACO_-_JIT_Compilation_on_ARM/20372304
 - Mixed-size Concurrency: ARM, POWER, C/C++11, and SC
 	- POPL 2017
 	- Shaked Flur, Susmit Sarkar, Christopher Pulte, Kyndylan Nienhuis, Luc Maranget, Kathryn E. Gray, Ali Sezgin, Mark Batty, Peter Sewell
