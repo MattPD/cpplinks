@@ -126,6 +126,8 @@ https://riscv.org/risc-v-books/
 		- https://fprox.blogspot.com/2022/08/risc-v-vector-extension-in-nutshell.html
 	- Part 3: Masks
 		- https://fprox.blogspot.com/2022/08/risc-v-vector-extension-in-a-nutshell-part-3.html
+	- Part 4: permute operations
+		- https://fprox.blogspot.com/2022/08/isc-v-vector-extension-in-nutshell-part4.html
 
 ## Simulation
 
