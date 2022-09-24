@@ -1041,6 +1041,14 @@ See also: [Computer Architecture](comparch.md)
 	- https://comsec.ethz.ch/research/microarch/retbleed/
 	- The "Retbleed" speculative execution vulnerabilities
 		- https://lwn.net/Articles/900917/
+- The AMD Branch (Mis)predictor
+	- 2022; Pawel Wieczorkiewicz
+	- Part 1: Just Set it and Forget it!
+		- https://grsecurity.net/amd_branch_mispredictor_just_set_it_and_forget_it
+	- Part 2: Where No CPU has Gone Before (CVE-2021-26341)
+		- https://grsecurity.net/amd_branch_mispredictor_part_2_where_no_cpu_has_gone_before
+	- CVE-2021-26341: AMD CPUs May Transiently Execute Beyond Unconditional Direct Branch
+		- https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1026
 - You Cannot Always Win the Race: Analyzing the LFENCE/JMP Mitigation for Branch Target Injection
 	- 2022
 	- Alyssa Milburn, Ke Sun, Henrique Kawakami
