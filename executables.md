@@ -285,6 +285,9 @@ Contents:
 - Compressed debug sections
 	- 2022; MaskRay (Fangrui Song)
 	- https://maskray.me/blog/2022-01-23-compressed-debug-sections
+- zstd compressed debug sections
+	- 2022; MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2022-09-09-zstd-compressed-debug-sections
 
 ## DWARF: Software
 
