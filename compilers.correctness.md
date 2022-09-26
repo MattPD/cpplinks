@@ -463,6 +463,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- 2022; Yuyou Fan, John Regehr
 	- https://blog.regehr.org/archives/2148
 	- https://github.com/Hatsunespica/alive2
+- Jit-Picking: Differential Fuzzing of JavaScript Engines
+	- Computer and Communications Security (CCS) 2022
+	- Lukas Bernhard, Tobias Scharnowski, Moritz Schloegel, Tim Blazytko, Thorsten Holz
+	- https://doi.org/10.1145/3548606.3560624
+	- https://publications.cispa.saarland/3773/1/2022-CCS-JIT-Fuzzing.pdf
+	- https://github.com/RUB-SysSec/JIT-Picker
 - Making No-Fuss Compiler Fuzzing Effective
 	- Compiler Construction (CC) 2022
 	- Alex Groce, Rijnard van Tonder, Goutamkumar Tulajappa Kalburgi, Claire Le Goues
