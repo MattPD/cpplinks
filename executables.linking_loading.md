@@ -419,6 +419,9 @@ See also:
 		- https://github.com/stephenrkell/donald/
 - `-fno-semantic-interposition`: ELF interposition, the GCC/Clang option and why it can (sometimes incredibly) optimize `-fPIC` programs
 	- https://maskray.me/blog/2021-05-09-fno-semantic-interposition
+- Cheating the ELF: Subversive Dynamic Linking to Libraries
+	- 2001; the grugq - https://grugq.github.io/docs/
+	- https://grugq.github.io/docs/subversiveld.pdf
 - ELF dynamic linking: a brief introduction
 	- https://www.humprog.org/~stephen/blog/2021/10/18/#elf-dynamic-linking-intro
 - Fun with weak dynamic linking
