@@ -1447,6 +1447,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220729-00/?p=106915
 	- 5: Multiplication and division
 		- https://devblogs.microsoft.com/oldnewthing/20220801-00/?p=106922
+	- 6: Bitwise operations
+		- https://devblogs.microsoft.com/oldnewthing/20220802-00/?p=106927
 
 ## Thumb-2
 
