@@ -128,6 +128,8 @@ https://riscv.org/risc-v-books/
 		- https://fprox.blogspot.com/2022/08/risc-v-vector-extension-in-a-nutshell-part-3.html
 	- Part 4: permute operations
 		- https://fprox.blogspot.com/2022/08/isc-v-vector-extension-in-nutshell-part4.html
+	- Part 5.1: vector loads and store: Simple, strided, and segmented memory operations
+		- https://fprox.blogspot.com/2022/09/riscv-vector-extension-part5-1-load-store-memory.html
 
 ## Simulation
 
