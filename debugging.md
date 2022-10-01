@@ -750,6 +750,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- 2021; Kevin Buettner
 	- Part 1: dprintf
 		- https://developers.redhat.com/articles/2021/10/05/printf-style-debugging-using-gdb-part-1
+	- Part 2: save commands and output
+		- https://developers.redhat.com/articles/2021/10/13/printf-style-debugging-using-gdb-part-2
 - Process Injection with GDB - https://magisterquis.github.io/2018/03/11/process-injection-with-gdb.html
 - RevEngE is a dish served cold: Debug-Oriented Malware Decompilation and Reassembly
 	- Reversing and Offensive-oriented Trends Symposium (ROOTS) 2019
