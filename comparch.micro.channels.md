@@ -694,6 +694,10 @@ See also: [Computer Architecture](comparch.md)
 	- Sunjay Cauligi, Gary Soeller, Fraser Brown, Brian Johannesmeyer, Yunlu Huang, Ranjit Jhala, Deian Stefan
 	- https://cseweb.ucsd.edu/~dstefan/pubs/cauligi:2017:fact.pdf
 	- https://github.com/PLSysSec/FaCT
+- Layered Binary Templating: Efficient Detection of Compiler- and Linker-introduced Leakage
+	- 2022
+	- Martin Schwarzl, Erik Kraft, Daniel Gruss
+	- https://arxiv.org/abs/2208.02093
 - Mitigating Data Leakage by Protecting Memory-resident Sensitive Data
 	- Annual Computer Security Applications Conference (ACSAC) 2019
 	- Tapti Palit, Fabian Monrose, Michalis Polychronakis
