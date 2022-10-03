@@ -936,6 +936,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://dl.acm.org/doi/10.1145/3520312.3534867
 	- https://github.com/jordiae/exebench
 	- https://huggingface.co/datasets/jordiae/exebench
+- Jotai Benchmarks: Collection of executable benchmarks
+	- https://github.com/lac-dcc/jotai-benchmarks
+	- Jotai: a Methodology for the Generation of Executable C Benchmarks
+		- 2022 technical report
+		- Cecília Conde Kind, Michael Canesche, Fernando M. Quintão Pereira
+		- https://raw.githubusercontent.com/lac-dcc/jotai-benchmarks/main/assets/doc/LaC_TechReport022022.pdf
 - llvm-test-suite: LLVM "test-suite" Repository
 	- https://github.com/llvm/llvm-test-suite
 	- Compile Time Mark: a collection of applications used for compiler performance testing
