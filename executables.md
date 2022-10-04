@@ -460,7 +460,11 @@ Contents:
 - Analyzing The Simplest C++ Program
 	- https://oneraynyday.github.io/dev/2020/05/03/Analyzing-The-Simplest-C++-Program/
 - Anatomy of an ELF core file - https://www.gabriel.urdhr.fr/2015/05/29/core-file/
-- Armouring the ELF: Binary encryption on the UNIX platform - scut & grugq - Phrack Magazine #58 (2001-12-28) - http://www.phrack.org/issues/58/5.html
+- Armouring the ELF: Binary encryption on the UNIX platform
+	- Phrack Magazine #58 (2001-12-28)
+	- scut & grugq
+	- http://www.phrack.org/issues/58/5.html
+	- https://grugq.github.io/docs/phrack-58-05.txt
 - Cheating the ELF: Subversive Dynamic Linking to Libraries - https://grugq.github.io/docs/subversiveld.pdf
 - Computer Science from the Bottom Up - https://www.bottomupcs.com/
 	- Behind the process - https://www.bottomupcs.com/chapter07.xhtml
@@ -591,6 +595,9 @@ Contents:
 - Running ELF executables from memory
 	- Executing ELF binary files from memory with memfd_create syscall
 	- https://www.guitmz.com/running-elf-from-memory/
+- The Design and Implementation of Userland Exec
+	- 2004; the grugq - https://grugq.github.io/docs/
+	- https://grugq.github.io/docs/ul_exec.txt
 
 ### ELF: Readings: Parsing
 
