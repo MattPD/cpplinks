@@ -265,6 +265,14 @@
 		- https://hpc.fau.de/files/2020/02/Masterarbeit_JL-_final.pdf
 		- Measurements and reproducibility instructions
 			- https://github.com/RRZE-HPC/OSACA-Artifact-Appendix
+- PALMED: Throughput Characterization for Superscalar Architectures
+	- CGO 2022
+	- Nicolas Derumigny, Fabian Gruber, Théophile Bastian, Christophe Guillon, Guillaume Iooss, Louis-Noël Pouchet, Fabrice Rastello
+	- https://palmed.corse.inria.fr
+	- https://arxiv.org/abs/2012.11473
+	- https://www.youtube.com/watch?v=xxeVsu1hvsk
+	- https://gitlab.inria.fr/nderumig/palmed
+	- "PALMED is a framework aiming to automatically provide a precise performance model for a processor. It works by inferring a port mapping of a given processor and deducing the resource usage of each relevant instruction."
 - PMEvo: Portable Inference of Port Mappings for Out-of-Order Processors by Evolutionary Optimization
 	- PLDI 2020
 	- Fabian Ritter, Sebastian Hack
