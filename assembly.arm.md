@@ -1449,6 +1449,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220801-00/?p=106922
 	- 6: Bitwise operations
 		- https://devblogs.microsoft.com/oldnewthing/20220802-00/?p=106927
+	- 7: Bitfield manipulation
+		- https://devblogs.microsoft.com/oldnewthing/20220803-00/?p=106941
 
 ## Thumb-2
 
