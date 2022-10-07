@@ -542,6 +542,13 @@ See also:
 	- Yuchen Zhang, Chengbin Pang, Georgios Portokalidis, Nikos Triandopoulos, Jun Xu
 	- https://www.usenix.org/system/files/sec22summer_zhang-yuchen.pdf
 	- https://github.com/junxzm1990/ASAN--
+- Efficient Greybox Fuzzing to Detect Memory Errors
+	- Automated Software Engineering (ASE) 2022
+	- Jinsheng Ba, Gregory J. Duck, Abhik Roychoudhury
+	- https://arxiv.org/abs/2204.02773
+	- ReZZan: RET+Fuzzing+Sanitizer
+		- a fast memory error sanitizer for fuzzing C/C++ code
+		- https://github.com/bajinsheng/ReZZan
 - SafePM: A Sanitizer for Persistent Memory
 	- EuroSys 2022
 	- Kartal Kaan Bozdoğan, Dimitrios Stavrakakis, Shady Issa, Pramod Bhatotia
