@@ -2529,6 +2529,14 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- https://ginerlukas.com/publications/papers/lvinull.pdf
 	- https://github.com/redrabbyte/LVI-NULLify
 
+## RISC-V Physical Memory Protection (PMP)
+
+- Bypassing Isolated Execution on RISC-V using Side-Channel-Assisted Fault-Injection and Its Countermeasure
+	- IACR Transactions on Cryptographic Hardware and Embedded Systems, 2022(1)
+	- Shoei Nashimoto, Daisuke Suzuki, Rei Ueno, Naofumi Homma
+	- https://tches.iacr.org/index.php/TCHES/article/view/9289
+	- https://doi.org/10.46586/tches.v2022.i1.28-68
+
 ---
 
 # TSX
