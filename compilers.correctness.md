@@ -635,6 +635,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://janmidtgaard.dk/papers/Perenyi-Midtgaard%3aAPLAS20.pdf
 	- Property-Based Testing of WebAssembly
 		- https://github.com/jmid/wasm-prop-tester
+- Writing a Test Case Generator for a Programming Language
+	- 2020
+	- Nick Fitzgerald
+	- https://fitzgeraldnick.com/2020/08/24/writing-a-test-case-generator.html
 
 ### Testing: Readings: Performance Optimization
 
