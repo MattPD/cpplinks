@@ -1451,6 +1451,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220802-00/?p=106927
 	- 7: Bitfield manipulation
 		- https://devblogs.microsoft.com/oldnewthing/20220803-00/?p=106941
+	- 8: Bit shifting and rotation
+		- https://devblogs.microsoft.com/oldnewthing/20220804-00/?p=106945
 
 ## Thumb-2
 
