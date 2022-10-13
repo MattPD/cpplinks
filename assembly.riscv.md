@@ -450,6 +450,8 @@ https://riscv.org/software-tools/
 - rv32-sail - high-level emulator for RV32IM
 	- https://github.com/thoughtpolice/rv32-sail
 	- https://riscv.ls0f.pw/
+- rv32emu: RISC-V RV32I[MACF] emulator with ELF support
+	- https://github.com/sysprog21/rv32emu
 - rv8: RISC-V simulator for x86-64 - https://rv8.io/
 	- https://github.com/rv8-io/rv8
 - RVirt: RISC-V hypervisor written in Rust
