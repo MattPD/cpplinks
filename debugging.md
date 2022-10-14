@@ -330,6 +330,11 @@ _Books, Books Reviews_
 	- 1992 Ph.D. dissertation; Fabio Q. B. da Silva
 	- http://hdl.handle.net/1842/13542
 	- http://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-241/
+- Debugging Optimized Code with Dynamic Deoptimization
+	- PLDI 1992
+	- Urs Hölzle, Craig Chambers, David Ungar
+	- https://dl.acm.org/doi/10.1145/143103.143114
+	- https://bibliography.selflanguage.org/dynamic-deoptimization.html
 - Debugging Optimized Code Without Being Misled
 	- ACM Transactions on Programming Languages and Systems (TOPLAS) 16(3) 1994
 	- Max Copperman
