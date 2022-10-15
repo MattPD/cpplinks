@@ -1472,6 +1472,15 @@ See also: [Computer Architecture](comparch.md)
 	- https://issta2016.cispa.saarland/zero-overhead-profiling-via-em-emanations/
 	- http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2016/09/ZoP.pdf
 
+## Electromagnetic (EM) Emanations: 2021
+
+- Let’s Take it Offline: Boosting Brute-Force Attacks on iPhone’s User Authentication through SCA
+	- IACR Transactions on Cryptographic Hardware and Embedded Systems (TCHES) 2021(3)
+	- Oleksiy Lisovets, David Knichel, Thorben Moos, Amir Moradi
+	- https://eprint.iacr.org/2021/460
+	- https://iacr.org/cryptodb/data/paper.php?pubkey=31293
+	- https://www.youtube.com/watch?v=JwOJr0JEoiM
+
 ---
 
 # Floating Point Unit (FPU)
