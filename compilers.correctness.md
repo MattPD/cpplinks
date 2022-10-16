@@ -764,6 +764,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- IEEE Micro 2022
 	- Neil Adit, Adrian Sampson
 	- https://ieeexplore.ieee.org/document/9802745
+- A RISC-V Simulator and Benchmark Suite for Designing and Evaluating Vector Architectures
+	- ACM Transactions on Architecture and Code Optimization (TACO), 2020
+	- Cristóbal Ramírez Lazo, César-Alejandro Hernández-Calderón, Oscar Palomar, Osman Sabri Unsal, Marco Antonio Ramírez, Adrián Cristal
+	- https://dl.acm.org/doi/10.1145/3422667
+	- https://arxiv.org/abs/2111.01949
 - Vectorizing Compilers: A Test Suite and Results
 	- Supercomputing 1988
 	- David Callahan, Jack Dongarra, David Levine
@@ -997,6 +1002,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Ameer Haj-Ali, Nesreen K. Ahmed, Ted Willke, Sophia Shao, Krste Asanovic, Ion Stoica
 	- https://arxiv.org/abs/1909.13639
 	- https://github.com/intel/neuro-vectorizer
+- RiVEC: RISC-V Vectorized Benchmark Suite
+	- https://github.com/RALC88/riscv-vectorized-benchmark-suite
+	- A RISC-V Simulator and Benchmark Suite for Designing and Evaluating Vector Architectures
+		- ACM Transactions on Architecture and Code Optimization (TACO), 2020
+		- Cristóbal Ramírez Lazo, César-Alejandro Hernández-Calderón, Oscar Palomar, Osman Sabri Unsal, Marco Antonio Ramírez, Adrián Cristal
+		- https://dl.acm.org/doi/10.1145/3422667
+		- https://arxiv.org/abs/2111.01949
 - TSVC: Test Suite for Vectorizing Compilers
 	- https://github.com/UoB-HPC/TSVC_2
 	- https://github.com/llvm/llvm-test-suite/tree/main/MultiSource/Benchmarks/TSVC
