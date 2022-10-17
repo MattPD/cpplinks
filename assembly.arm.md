@@ -728,6 +728,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- http://www.cosenza.eu/papers/PohlSCOPES18.pdf
 - Porting Intel Intrinsics to Arm Neon Intrinsics
 	- https://www.codeproject.com/Articles/5301747/Porting-Intel-Intrinsics-to-Arm-Neon-Intrinsics
+- VPEXPANDB on NEON with Z3
+	- https://zeux.io/2022/09/02/vpexpandb-neon-z3/
 
 ### Scalable Vector Extension (SVE)
 
