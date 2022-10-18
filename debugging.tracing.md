@@ -346,6 +346,10 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- A light-weight dynamic tracer for Linux that leverages the kernel's BPF VM in concert with kprobes and tracepoints to attach probes to arbitrary points in the kernel.
 	- https://wkz.github.io/ply/
 	- https://github.com/iovisor/ply
+- Retsnoop: a BPF-based tool for non-intrusive mass-tracing of Linux kernel internals
+	- https://github.com/anakryiko/retsnoop
+	- Tracing Linux kernel with retsnoop
+		- https://nakryiko.com/posts/retsnoop-intro/
 
 #### Software: Linux - BCC/BPF - Talks
 
