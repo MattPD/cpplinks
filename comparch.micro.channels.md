@@ -1064,6 +1064,10 @@ See also: [Computer Architecture](comparch.md)
 
 ## Cache: 2022
 
+- AutoCAT: Reinforcement Learning for Automated Exploration of Cache Timing-Channel Attacks
+	- IEEE International Symposium on High-Performance Computer Architecture (HPCA) 2023
+	- Mulong Luo, Wenjie Xiong, Geunbae Lee, Yueying Li, Xiaomeng Yang, Amy Zhang, Yuandong Tian, Hsien Hsin S. Lee, G. Edward Suh
+	- https://arxiv.org/abs/2208.08025
 - ÆPIC Leak: Architecturally Leaking Uninitialized Data from the Microarchitecture
 	- USENIX Security 2022
 	- Pietro Borrello, Andreas Kogler, Martin Schwarzl, Moritz Lipp, Daniel Gruss, Michael Schwarz
