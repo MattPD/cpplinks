@@ -1455,6 +1455,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220803-00/?p=106941
 	- 8: Bit shifting and rotation
 		- https://devblogs.microsoft.com/oldnewthing/20220804-00/?p=106945
+	- 9: Sign and zero extension
+		- https://devblogs.microsoft.com/oldnewthing/20220805-00/?p=106948
 
 ## Thumb-2
 
