@@ -376,12 +376,6 @@ _Books, Books Reviews_
 		- https://llvm.org/devmtg/2018-04/slides/Bedwell-Measuring_the_User_Debugging_Experience.pdf
 		- http://llvm.org/devmtg/2018-04/slides/Bedwell-Measuring_the_User_Debugging_Experience_poster.png
 		- https://www.snsystems.com/technology/tech-blog/measuring-the-user-debug-experience
-- DIVA - Debug Information Visual Analyzer
-	- DIVA is a command line tool that processes DWARF debug information contained within ELF files and prints the semantics of that debug information. The DIVA output is designed to be understandable by software programmers without any low-level compiler or DWARF knowledge; as such, it can be used to report debug information bugs to the compiler provider.
-	- https://github.com/SNSystems/DIVA
-	- 2017 EuroLLVM Developers’ Meeting lightning talk
-		- video: https://www.youtube.com/watch?v=SwtpXaCk2bE
-		- slides: http://llvm.org/devmtg/2017-03/assets/slides/diva_debug_information_visual_analyzer.pdf
 - Feedback-Directed Differential Testing of Interactive Debuggers
 	- ESEC/FSE 2018
 	- Daniel Lehmann, Michael Pradel
@@ -391,6 +385,17 @@ _Books, Books Reviews_
 	- ISSTA 2019
 	- Sandro Tolksdorf, Daniel Lehmann, Michael Pradel
 	- https://conf.researchr.org/event/issta-2019/issta-2019-technical-papers-interactive-metamorphic-testing-of-debuggers
+- llvm-debuginfo-analyzer: Print a logical representation of low-level debug information
+	- llvm-debuginfo-analyzer parses debug and text sections in binary object files and prints their contents in a logical view, which is a human readable representation that closely matches the structure of the original user source code. Supported object file formats include ELF, Mach-O, PDB and COFF.
+	- https://llvm.org/docs/CommandGuide/llvm-debuginfo-analyzer.html
+	- https://github.com/llvm/llvm-project/tree/main/llvm/tools/llvm-debuginfo-analyzer
+	- https://github.com/SNSystems/llvm-debuginfo-analyzer
+	- (original tool, not maintained) DIVA - Debug Information Visual Analyzer
+		- DIVA is a command line tool that processes DWARF debug information contained within ELF files and prints the semantics of that debug information. The DIVA output is designed to be understandable by software programmers without any low-level compiler or DWARF knowledge; as such, it can be used to report debug information bugs to the compiler provider.
+		- https://github.com/SNSystems/DIVA
+		- 2017 EuroLLVM Developers’ Meeting lightning talk
+			- video: https://www.youtube.com/watch?v=SwtpXaCk2bE
+			- slides: http://llvm.org/devmtg/2017-03/assets/slides/diva_debug_information_visual_analyzer.pdf
 - lldb-eval fuzzer: Finding bugs in an LLDB-based expression evaluator
 	- 2021 LLVM Developers' Meeting; Tonko Sabolčec
 	- https://www.youtube.com/watch?v=dJ9k7-pmwvM
