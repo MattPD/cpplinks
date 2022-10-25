@@ -11,7 +11,7 @@ See also:
 
 Contents:
 
-- [General](#general): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-talks)
+- [General](#general): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-software): [Debugging Information](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-software-debugging-information) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-talks)
 - [DLL](#dll): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll-talks)
 - [DWARF](#dwarf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-talks)
 - [ELF](#elf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf-talks)
@@ -73,10 +73,6 @@ Contents:
 	- https://github.com/Wenzel/checksec.py
 - codesize: Code size visualization tool with PDB/ELF/Mach-O support
 	- https://github.com/zeux/codesize
-- ddbug - Display debugging information
-	- ddbug is a utility that can extract useful information from DWARF/PDB debugging data. Its goal is to use the debugging information to provide insights into the code generation.
-	- Supports: ELF files with DWARF, Mach-O files with DWARF, Windows PDB files (mimimal)
-	- https://github.com/gimli-rs/ddbug
 - Delinker: Unlinks a binary executable to get back a set of .o object files for further transformation and re-linking.
 	- https://github.com/jnider/delinker
 	- Reverse the Linking Process
@@ -143,6 +139,24 @@ Contents:
 		- The witchcraft shell accepts ELF shared libraries, ELF ET_DYN executables and Witchcraft Shell Scripts written in Punk-C as an input. It loads all the executables in its own address space and makes their API available for programming in its embedded interpreter. This provides for binaries functionalities similar to those provided via reflection on languages like Java.
 	- wldd: print shared libraries compilation flags
 	- wcch: generate C headers from binaries
+
+### General: Software: Debugging Information
+
+- ddbug - Display debugging information
+	- ddbug is a utility that can extract useful information from DWARF/PDB debugging data. Its goal is to use the debugging information to provide insights into the code generation.
+	- Supports: ELF files with DWARF, Mach-O files with DWARF, Windows PDB files (mimimal)
+	- https://github.com/gimli-rs/ddbug
+- llvm-debuginfo-analyzer: Print a logical representation of low-level debug information
+	- llvm-debuginfo-analyzer parses debug and text sections in binary object files and prints their contents in a logical view, which is a human readable representation that closely matches the structure of the original user source code. Supported object file formats include ELF, Mach-O, PDB and COFF.
+	- https://llvm.org/docs/CommandGuide/llvm-debuginfo-analyzer.html
+	- https://github.com/llvm/llvm-project/tree/main/llvm/tools/llvm-debuginfo-analyzer
+	- https://github.com/SNSystems/llvm-debuginfo-analyzer
+	- (original tool, not maintained) DIVA - Debug Information Visual Analyzer
+		- DIVA is a command line tool that processes DWARF debug information contained within ELF files and prints the semantics of that debug information. The DIVA output is designed to be understandable by software programmers without any low-level compiler or DWARF knowledge; as such, it can be used to report debug information bugs to the compiler provider.
+		- https://github.com/SNSystems/DIVA
+		- 2017 EuroLLVM Developers’ Meeting lightning talk
+			- video: https://www.youtube.com/watch?v=SwtpXaCk2bE
+			- slides: http://llvm.org/devmtg/2017-03/assets/slides/diva_debug_information_visual_analyzer.pdf
 
 ## General: Talks
 
@@ -294,12 +308,6 @@ Contents:
 - dareog: ORC meets DWARF - https://github.com/emersion/dareog
 - Debug Frame Checking: Check `.eh_frame` and `.debug_frame` information
 	- https://github.com/francesco-zappa-nardelli/eh_frame_check
-- DIVA - Debug Information Visual Analyzer
-	- DIVA is a command line tool that processes DWARF debug information contained within ELF files and prints the semantics of that debug information. The DIVA output is designed to be understandable by software programmers without any low-level compiler or DWARF knowledge; as such, it can be used to report debug information bugs to the compiler provider.
-	- https://github.com/SNSystems/DIVA
-	- 2017 EuroLLVM Developers’ Meeting lightning talk
-		- video: https://www.youtube.com/watch?v=SwtpXaCk2bE
-		- slides: http://llvm.org/devmtg/2017-03/assets/slides/diva_debug_information_visual_analyzer.pdf
 - dsymutil - manipulate archived DWARF debug symbol files
 	- https://llvm.org/docs/CommandGuide/dsymutil.html
 	- https://github.com/llvm-mirror/llvm/tree/master/tools/dsymutil
