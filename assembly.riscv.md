@@ -96,6 +96,11 @@ https://riscv.org/risc-v-books/
 
 ## Instruction Set Architecture
 
+- RISC-V Register Files
+	- https://fprox.blogspot.com/2022/10/risc-v-register-files.html
+
+### Instruction Set Architecture: Encoding
+
 - Basic Shellcode in RISC-V Linux
 	- Thomas Karpiniec
 	- https://thomask.sdf.org/blog/2018/08/25/basic-shellcode-in-riscv-linux.html
