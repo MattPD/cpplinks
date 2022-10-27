@@ -286,6 +286,14 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- http://ltrace.org/
 	- https://gitlab.com/cespedes/ltrace
 	- How does ltrace work? - https://blog.packagecloud.io/eng/2016/03/14/how-does-ltrace-work/
+- OSNOISE Tracer: computes the OS Noise suffered by a running thread
+	- In the context of high-performance computing (HPC), the Operating System Noise (osnoise) refers to the interference experienced by an application due to activities inside the operating system. In the context of Linux, NMIs, IRQs, SoftIRQs, and any other system thread can cause noise to the system. Moreover, hardware-related jobs can also cause noise, for example, via SMIs.
+	- https://docs.kernel.org/trace/osnoise-tracer.html
+	- Operating System Noise in the Linux Kernel
+		- IEEE Transactions on Computers, June 2022
+		- Daniel Bristot de Oliveira, Daniel Casini, Tommaso Cucinotta
+		- https://ieeexplore.ieee.org/document/9812514
+		- https://bristot.me/operating-system-noise-in-the-linux-kernel/
 - ProcMon-for-Linux: Process Monitor for Linux
 	- Process Monitor (Procmon) is a Linux reimagining of the classic Procmon tool from the Sysinternals suite of tools for Windows. Procmon provides a convenient and efficient way for Linux developers to trace the syscall activity on the system.
 	- https://github.com/Sysinternals/ProcMon-for-Linux
