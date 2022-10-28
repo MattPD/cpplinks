@@ -666,6 +666,17 @@ See also: [Computer Architecture](comparch.md)
 	- Oleksii Oleksenko, Bohdan Trach, Tobias Reiher, Mark Silberstein, Christof Fetzer
 	- https://arxiv.org/abs/1805.08506
 
+### Defense: Software: 2022
+
+- Rosita++: Automatic Higher-Order Leakage Elimination from Cryptographic Code
+	- 2021 ACM SIGSAC Conference on Computer and Communications Security (CCS)
+	- Madura A. Shelton, Łukasz Chmielewski, Niels Samwel, Markus Wagner, Lejla Batina, Yuval Yarom
+	- https://dl.acm.org/doi/10.1145/3460120.3485380
+	- https://arxiv.org/abs/2109.11741
+	- https://github.com/0xADE1A1DE/Rositaplusplus
+	- https://github.com/0xADE1A1DE/tracetools
+	- https://eprint.iacr.org/2021/1181
+
 ### Defense: Software: Compilation and Programming Languages
 
 - Automatically Eliminating Speculative Leaks from Cryptographic Code with Blade
