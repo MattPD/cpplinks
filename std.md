@@ -544,6 +544,11 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 		- https://github.com/CppCon/CppCon2017/blob/master/Tutorials/Practical%20C%2B%2B17/
 	- Meeting C++ 2017
 		- https://www.youtube.com/watch?v=YePHP4aIc1g
+- Remedial C++17
+	- NWCPP - Northwest C++ Users Group 2022
+	- Peter Williamson
+	- https://www.youtube.com/watch?v=f09IzxxEf8s
+	- https://nwcpp.org/Oct-2022.html
 - Seventeenification: Porting sqlpp11 to C++17
 	- CppCon 2017; Roland Bock
 	- https://www.youtube.com/watch?v=bA7b1HEFVFk&list=PLHTh1InhhwT6bwIpRk0ZbCA0N2p1taxd6&index=65
