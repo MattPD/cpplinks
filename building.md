@@ -432,6 +432,8 @@ See also:
 
 ### Caching
 
+- BuildCache: A build cache
+	- https://github.com/mbitsnbites/buildcache
 - ccache: A Fast C/C++ Compiler Cache
 	- https://ccache.samba.org
 - distcc: A free distributed C/C++ compiler system
