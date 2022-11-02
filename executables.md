@@ -48,6 +48,14 @@ Contents:
 	- pe101: https://github.com/corkami/pics/tree/master/binary/pe101
 	- pe102: https://github.com/corkami/pics/tree/master/binary/pe102
 
+### General: Readings: Debugging Information
+
+See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.md): [Implementation](https://github.com/MattPD/cpplinks/blob/master/debugging.md#implementation)
+
+- Distribution of debug information
+	- 2022; MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2022-10-30-distribution-of-debug-information
+
 ## General: Software
 
 - Backdoor Factory (BDF): patch PE, ELF, Mach-O binaries with shellcode - https://github.com/secretsquirrel/the-backdoor-factory
