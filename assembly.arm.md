@@ -1459,6 +1459,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220805-00/?p=106948
 	- 10: Loading constants
 		- https://devblogs.microsoft.com/oldnewthing/20220808-00/?p=106953
+	- 11: Loading addresses
+		- https://devblogs.microsoft.com/oldnewthing/20220809-00/?p=106955
 
 ## Thumb-2
 
