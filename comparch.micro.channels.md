@@ -705,10 +705,6 @@ See also: [Computer Architecture](comparch.md)
 	- Sunjay Cauligi, Gary Soeller, Fraser Brown, Brian Johannesmeyer, Yunlu Huang, Ranjit Jhala, Deian Stefan
 	- https://cseweb.ucsd.edu/~dstefan/pubs/cauligi:2017:fact.pdf
 	- https://github.com/PLSysSec/FaCT
-- Layered Binary Templating: Efficient Detection of Compiler- and Linker-introduced Leakage
-	- 2022
-	- Martin Schwarzl, Erik Kraft, Daniel Gruss
-	- https://arxiv.org/abs/2208.02093
 - Mitigating Data Leakage by Protecting Memory-resident Sensitive Data
 	- Annual Computer Security Applications Conference (ACSAC) 2019
 	- Tapti Palit, Fabian Monrose, Michalis Polychronakis
@@ -740,6 +736,17 @@ See also: [Computer Architecture](comparch.md)
 	- Shravan Narayan, Craig Disselkoen, Daniel Moghimi, Sunjay Cauligi, Evan Johnson, Zhao Gang, Anjo Vahldiek-Oberwagner, Ravi Sahita, Hovav Shacham, Dean Tullsen, Deian Stefan
 	- https://arxiv.org/abs/2102.12730
 	- https://www.usenix.org/conference/usenixsecurity21/presentation/narayan
+
+#### Defense: Software: Compilation and Programming Languages: 2022
+
+- Breaking and Fixing Speculative Load Hardening
+	- IACR ePrint 2022/715
+	- Zhiyuan Zhang, Gilles Barthe, Chitchanok Chuengsatiansup, Peter Schwabe, Yuval Yarom
+	- https://eprint.iacr.org/2022/715
+- Layered Binary Templating: Efficient Detection of Compiler- and Linker-introduced Leakage
+	- 2022
+	- Martin Schwarzl, Erik Kraft, Daniel Gruss
+	- https://arxiv.org/abs/2208.02093
 - SynthCT: Towards Portable Constant-Time Code
 	- Network and Distributed Systems Security (NDSS) Symposium 2022
 	- Sushant Dinesh, Grant Garrett-Grossman, Christopher W. Fletcher
