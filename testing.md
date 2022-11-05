@@ -1017,6 +1017,9 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 	- https://github.com/onqtam/doctest
 - Google Test
 	- https://github.com/google/googletest
+	- Introduction to Google Test and Google Mock
+		- Core C++ 2022; Noam Weiss
+		- https://www.youtube.com/watch?v=N8a7IFPAPXs
 - GUnit - Google.Test/Google.Mock/Cucumber on steroids
 	- extends/simplifies Google.Test/Google.Mock and adds support for Gherkin (Behaviour Driven Development) to it
 	- https://github.com/cpp-testing/GUnit
