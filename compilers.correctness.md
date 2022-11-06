@@ -641,6 +641,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://rohan.padhye.org/files/bonsai-icse21.pdf
 	- Bonsai Fuzzing: a fuzz-testing algorithm that generates concise test cases for software such as compilers.
 		- https://github.com/vasumv/bonsai-fuzzing
+- RemGen: Remanufacturing a Random Program Generator for Compiler Testing
+	- IEEE International Symposium on Software Reliability Engineering (ISSRE) 2022
+	- Haoxin Tu, He Jiang, Xiaochen Li, Zhilei Ren, Zhide Zhou, Lingxiao Jiang
+	- https://haoxintu.github.io/files/issre2022-camera-ready.pdf
+	- https://github.com/RemGen2022/RemCCG
+	- https://github.com/haoxintu/RemCCG
 - Stack-Driven Program Generation of WebAssembly
 	- Asian Symposium on Programming Languages and Systems (APLAS) 2020
 	- Árpád Perényi, Jan Midtgaard
