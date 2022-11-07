@@ -522,6 +522,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 # Software
 
+- Blinkenlights: a command line debugger that focuses on visualizing how software changes memory
+	- able to emulate statically linked i8086 and x86_64-pc-linux-gnu programs on the Linux, Mac, Windows, FreeBSD, NetBSD, and OpenBSD platforms
+	- https://justine.lol/blinkenlights/
 - dbg: A macro for printf-style debugging fans
 	- https://github.com/sharkdp/dbg-macro
 - Debug Break: break into the debugger programmatically
