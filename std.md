@@ -111,6 +111,10 @@
 
 ## C++23: Talks
 
+- A Preview of C++23
+	- NDC TechTown 2022
+	- Daniela Engert
+	- https://www.youtube.com/watch?v=r8c6ws9Tow0
 - C++23 Standard Library Preview
 	- Jeff Garland
 	- CppCon 2021
