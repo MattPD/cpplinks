@@ -726,6 +726,9 @@ See also:
 - CMake 2022 C++ Modules and More
 	- CppNow 2022; Bill Hoffman
 	- https://www.youtube.com/watch?v=hkefPcWySzI
+- import CMake, CMake and C++20 Modules
+	- CppCon 2022; Bill Hoffman
+	- https://www.youtube.com/watch?v=5X803cXe02Y
 - Things I Learnt While Trying to Avoid Becoming a CMake Expert
 	- ACCU 2022; CB Bailey
 	- https://www.youtube.com/watch?v=852VSXFaDO0
