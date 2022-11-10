@@ -485,6 +485,10 @@ https://riscv.org/software-tools/
 	- Roberto Giorgi and Gianfranco Mariotti
 	- Paper: http://www.dii.unisi.it/~giorgi/papers/Giorgi19-wcae.pdf
 	- Slides: http://www.dii.unisi.it/~giorgi/giorgi19-wcae_slides.pdf
+- QtRVSim: RISV-V simulator for education (WebAssembly Edition)
+	- https://comparch.edu.cvut.cz/qtrvsim/app/
+	- source code: https://github.com/cvut/qtrvsim
+	- Video: https://youtu.be/l0jfvINWgK4
 
 ## Software: Security
 
