@@ -80,7 +80,6 @@ See also: [Assembly (Arm)](assembly.arm.md), [Assembly (RISC-V)](assembly.riscv.
 	- http://comparch-conf.gatech.edu/dpc2/
 - The 2nd Cache Replacement Championship (CRC-2)
 	- http://crc2.ece.tamu.edu/
-	- https://github.com/ChampSim/ChampSim
 - The 1st Instruction Prefetching Championship (IPC-1)
 	- https://research.ece.ncsu.edu/ipc/
 
@@ -190,6 +189,12 @@ See also: [Assembly (Arm)](assembly.arm.md), [Assembly (RISC-V)](assembly.riscv.
 
 ## Software
 
+- ChampSim
+	- https://github.com/ChampSim/ChampSim
+	- The Championship Simulator: Architectural Simulation for Education and Competition
+		- 2022
+		- Nathan Gober, Gino Chacon, Lei Wang, Paul V. Gratz, Daniel A. Jiménez, Elvira Teran, Seth H. Pugsley, Jinchun Kim
+		- https://arxiv.org/abs/2210.14324
 - gem5 - http://gem5.org/
 	- Learning gem5: http://learning.gem5.org/
 		- Book: https://github.com/powerjg/learning_gem5
