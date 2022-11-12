@@ -98,6 +98,8 @@
 
 ## Memory - Profiling
 
+- Bytehound: a memory profiler for Linux
+	- https://github.com/koute/bytehound
 - Heaptrack - A Heap Memory Profiler for Linux
 	- https://github.com/KDE/heaptrack
 	- http://milianw.de/blog/heaptrack-a-heap-memory-profiler-for-linux
