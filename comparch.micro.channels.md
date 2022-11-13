@@ -737,6 +737,14 @@ See also: [Computer Architecture](comparch.md)
 	- https://arxiv.org/abs/2102.12730
 	- https://www.usenix.org/conference/usenixsecurity21/presentation/narayan
 
+#### Defense: Software: Compilation and Programming Languages: 2023
+
+- Spectre Declassified: Reading from the Right Place at the Wrong Time
+	- IEEE Symposium on Security and Privacy (S&P) 2023
+	- Basavesh Ammanaghatta Shivakumar, Jack Barnes, Gilles Barthe, Sunjay Cauligi, Chitchanok Chuengsatiansup, Daniel Genkin, Sioli O’Connell, Peter Schwabe, Rui Qi Sim, Yuval Yarom
+	- https://doi.ieeecomputersociety.org/10.1109/SP46215.2023.00011
+	- https://eprint.iacr.org/2022/426
+
 #### Defense: Software: Compilation and Programming Languages: 2022
 
 - Breaking and Fixing Speculative Load Hardening
