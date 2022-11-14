@@ -1119,11 +1119,12 @@ Validation: Including translation validation, equivalence checking.
 	- 2022
 	- Krister Walfridsson
 	- https://kristerw.github.io/2022/09/13/translation-validation/
+	- pysmtgcc: Some experiments with SMT solvers and GIMPLE IR
+		- https://github.com/kristerw/pysmtgcc
 	- Part 1: Writing a GCC plugin in Python
 		- https://kristerw.github.io/2022/10/20/gcc-python-plugin/
-		- pysmtgcc: Some experiments with SMT solvers and GIMPLE IR
-			- https://github.com/kristerw/pysmtgcc
-
+	- Part 2: Verifying GCC optimizations using an SMT solver
+		- https://kristerw.github.io/2022/11/01/verifying-optimizations/
 
 ## Validation: 2021
 
