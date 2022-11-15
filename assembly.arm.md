@@ -1463,6 +1463,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220809-00/?p=106955
 	- 12: Memory access and alignment
 		- https://devblogs.microsoft.com/oldnewthing/20220810-00/?p=106958
+	- 13: Atomic access
+		- https://devblogs.microsoft.com/oldnewthing/20220811-00/?p=106963
 
 ## Thumb-2
 
