@@ -115,6 +115,10 @@
 	- NDC TechTown 2022
 	- Daniela Engert
 	- https://www.youtube.com/watch?v=r8c6ws9Tow0
+- C++23 - What's In It For You?
+	- CppCon 2022
+	- Marc Gregoire
+	- https://www.youtube.com/watch?v=b0NkuoUkv0M
 - C++23 Standard Library Preview
 	- Jeff Garland
 	- CppCon 2021
