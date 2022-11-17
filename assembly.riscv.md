@@ -446,6 +446,12 @@ https://riscv.org/software-tools/
 	- C++17 RISC-V RV32GC userspace emulator library
 - MARSS-RISCV: Micro-Architectural System Simulator for RISC-V
 	- https://github.com/bucaps/marss-riscv
+- QtRVSim: RISC-V CPU Simulator for Education Purposes
+	- https://github.com/cvut/qtrvsim
+	- https://comparch.edu.cvut.cz/qtrvsim/app/
+	- QtRVSim – RISC-V Simulator for Computer Architectures Classes
+		- DevConf.cz Mini 2022; Jakub Dupak
+		- https://www.youtube.com/watch?v=l0jfvINWgK4
 - RARS: RISC-V Assembler and Runtime Simulator
 	- https://github.com/TheThirdOne/rars
 - Ripes: A graphical 5-stage RISC-V pipeline simulator & assembly editor
