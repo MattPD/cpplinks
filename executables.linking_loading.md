@@ -450,6 +450,9 @@ See also:
 	- https://2018.splashcon.org/event/splash-2018-oopsla-software-multiplexing-share-your-libraries-and-statically-link-them-too
 	- https://publish.illinois.edu/allvm-project/
 	- https://github.com/allvm/allvm-tools
+- Stop searching for shared libraries
+	- 2022; Harmen Stoppels
+	- https://stoppels.ch/2022/08/04/stop-searching-for-shared-libraries.html
 
 ---
 
