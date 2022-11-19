@@ -2328,6 +2328,16 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Andrea Mambretti, Alexandra Sandulescu, Matthias Neugschwandtner, Alessandro Sorniotti, Anil Kurmus
 	- http://ale.sopit.net/pdf/woot.pdf
 
+## Speculation: 2022
+
+- Revizor: Testing Black-box CPUs against Speculation Contracts
+	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2022
+	- Oleksii Oleksenko, Christof Fetzer, Boris Köpf, Mark Silberstein
+	- https://arxiv.org/abs/2105.06872
+	- Revizor: a microarchitectural fuzzer
+		- https://github.com/hw-sw-contracts/revizor
+		- https://github.com/microsoft/sca-fuzzer
+
 ## Speculation: 2021
 
 - Bypassing memory safety mechanisms through speculative control flow hijacks
