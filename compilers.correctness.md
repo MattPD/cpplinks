@@ -902,6 +902,9 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://github.com/stp/OutputCheck/
 - prog-fuzz: Compiler/source code fuzzing tool using AFL instrumentation
 	- https://github.com/vegard/prog-fuzz
+- Turnt: Tiny Unified Runner N' Tester
+	- simple snapshot-style integration testing for commands
+	- https://github.com/cucapra/turnt
 
 ### Testing: Software: Generation
 
