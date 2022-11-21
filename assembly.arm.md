@@ -1465,6 +1465,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220810-00/?p=106958
 	- 13: Atomic access
 		- https://devblogs.microsoft.com/oldnewthing/20220811-00/?p=106963
+	- 14: Barriers
+		- https://devblogs.microsoft.com/oldnewthing/20220812-00/?p=106968
 
 ## Thumb-2
 
