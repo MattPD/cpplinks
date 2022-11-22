@@ -172,6 +172,13 @@
 
 - Tools for microarchitectural benchmarking
 	- https://dendibakh.github.io/blog/2018/04/03/Tools-for-microarchitectural-benchmarking
+- AnICA: Analyzing Inconsistencies in Microarchitectural Code Analyzers
+	- OOPSLA 2022
+	- Fabian Ritter, Sebastian Hack
+	- https://dl.acm.org/doi/10.1145/3563288
+	- https://arxiv.org/abs/2209.05994
+	- https://github.com/cdl-saarland/AnICA
+	- https://compilers.cs.uni-saarland.de/projects/anica/
 - asmbench: A Benchmark Toolkit for Assembly Instructions Using the LLVM JIT
 	- https://github.com/RRZE-HPC/asmbench
 	- OoO Instruction Benchmarking Framework on the Back of Dragons
