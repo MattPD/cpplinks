@@ -891,6 +891,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://github.com/facebook/ds2
 	- 2015 LLVM Developers’ Meeting: Stephane Sezer "ds2, a tiny debug server used with lldb"
 	- https://www.youtube.com/watch?v=n00EhLskJWk&list=PL_R5A0lGi1AA4Lv2bBFSwhgDaHvvpVU21&index=27
+- GALA: GDB API over LLDB API
+	- An adapter package which enables GDB Python API in LLDB
+	- https://github.com/sivachandra/gala
 - GDBundle: Plugin Manager for GDB and LLDB
 	- https://github.com/memfault/gdbundle
 	- gdbundle - GDB and LLDB's Missing Plugin Manager
