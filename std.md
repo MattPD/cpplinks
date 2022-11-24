@@ -141,6 +141,11 @@
 - 2021 C++ Standardization Highlights
 	- https://botondballo.wordpress.com/2022/01/03/2021-c-standardization-highlights/
 
+### 2022-11 Kona
+
+- Trip report: Autumn ISO C++ standards meeting (Kona)
+	- https://herbsutter.com/2022/11/12/trip-report-autumn-iso-c-standards-meeting-kona/
+
 ### 2022-07-25 Virtual Meeting
 
 - July 2022 ISO C++ committee virtual meeting report
