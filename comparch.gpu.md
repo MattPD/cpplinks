@@ -121,6 +121,17 @@ See also: [computer architecture](comparch.md)
 
 ---
 
+# Performance
+
+## Performance: Optimization
+
+- Optimization Techniques for GPU Programming
+	- ACM Computing Surveys 2022
+	- Pieter Hijma, Stijn Heldens, Alessio Sclocco, Ben Van Werkhoven, Henri Bal
+	- https://dl.acm.org/doi/10.1145/3570638
+
+---
+
 # Software
 
 - PerfTest: GPU texture/buffer performance tester
