@@ -1865,6 +1865,20 @@ See also: [Computer Architecture](comparch.md)
 	- https://github.com/vusec/xlate
 	- https://www.vusec.net/projects/xlate/
 	- https://www.usenix.org/conference/usenixsecurity18/presentation/van-schaik
+- Processor MMIO Stale Data Vulnerabilities
+	- 2022
+	- https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/processor_mmio_stale_data.html
+	- 
+https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/technical-documentation/processor-mmio-stale-data-vulnerabilities.html
+	- https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/advisory-guidance/processor-mmio-stale-data-vulnerabilities.html
+	- Device Register Partial Write (DRPW) (CVE-2022-21166)
+		- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21166
+	- Shared Buffers Data Read (SBDR) (CVE-2022-21123)
+		- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21123
+	- Shared Buffers Data Sampling (SBDS) (CVE-2022-21125)
+		- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21125
+	- Update to Special Register Data Sampling (SRBDS update) (CVE-2022-21127)
+		- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21127
 - PThammer: Cross-User-Kernel-Boundary Rowhammer through Implicit Accesses
 	- International Symposium on Microarchitecture (MICRO) 2020
 	- Zhi Zhang, Yueqiang Cheng, Dongxi Liu, Surya Nepal, Zhi Wang, Yuval Yarom
