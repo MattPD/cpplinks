@@ -1467,6 +1467,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220811-00/?p=106963
 	- 14: Barriers
 		- https://devblogs.microsoft.com/oldnewthing/20220812-00/?p=106968
+	- 15: Control transfer
+		- https://devblogs.microsoft.com/oldnewthing/20220815-00/?p=106975
 
 ## Thumb-2
 
