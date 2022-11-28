@@ -2,10 +2,105 @@
 
 # Contents
 
+- [Data Structures](#data-structures): [Readings](#data-structures-readings), [Software](#data-structures-software), [Talks](#data-structures-talks)
 - [Readings](#readings)
 - [References](#references)
-- [Software](#software): [Data Structures](#software-data-structures), [Performance](#software-performance)
+- [Software](#software): [Performance](#software-performance)
 - [Talks](#talks)
+
+---
+
+# Data Structures: Readings
+
+- Lock-Free Locks Revisited
+	- PPoPP 2022
+	- Naama Ben-David, Guy E. Blelloch, Yuanhao Wei
+	- https://arxiv.org/abs/2201.00813
+	- https://dl.acm.org/doi/10.1145/3503221.3508433
+	- https://www.youtube.com/watch?v=1bH0yy6Wo4w
+	- _We have implemented a C++ library called Flock based on the ideas. Flock allows lock-based data structures to run in either lock-free or blocking (traditional locks) mode. We implemented a variety of tree and list-based data structures with Flock and compare the performance of the lock-free and blocking modes under a variety of workloads. The lock-free mode is almost as fast as blocking mode under almost all workloads, and significantly faster when threads are over-subscribed (more threads than processors). We also compare with several existing lock-based and lock-free alternatives._
+	- Flock: A library for lock-free locks
+		- a C++ library supporting lock-free locks as described in the paper
+		- https://github.com/cmuparlay/flock
+- On the Nature of Progress
+	- OPODIS 2011: International Conference On Principles Of Distributed Systems
+	- Maurice Herlihy, Nir Shavit
+	- http://hdl.handle.net/1721.1/73900
+	- http://www.cs.tau.ac.il/~shanir/progress.pdf
+- Practical lock freedom
+	- 2004 Cambridge University Technical Report UCAM-CL-TR-579; Keir Fraser
+	- https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-579.pdf
+- Practical lock-free data structures
+	- https://www.cl.cam.ac.uk/research/srg/netos/projects/archive/lock-free/
+- Systems programming: Coping with parallelism
+	- 1986 Technical report, IBM Almaden Research Center; R. Treiber
+	- https://dominoweb.draco.res.ibm.com/58319a2ed2b1078985257003004617ef.html
+	- https://dominoweb.draco.res.ibm.com/reports/rj5118.pdf
+	- Includes Treiber's lock-free stack.
+- References: Synchrobench 30+ data structures papers
+	- https://github.com/gramoli/synchrobench#data-structures
+	- Evaluated in Synchrobench: V. Gramoli. More than You Ever Wanted to Know about Synchronization. PPoPP 2015
+		- https://sites.google.com/site/synchrobench/
+- References: CDS C++ library data structures
+	- (lock-free lock-free stack, queues, unordered set/map, skip-list)
+	- https://github.com/khizmax/libcds#references
+
+## Data Structures: Readings: Queues
+
+- Mechanized Verification of a Fine-Grained Concurrent Queue from Meta’s Folly Library
+	- Certified Programs and Proofs (CPP) 2022
+	- Simon Friis Vindum, Lars Birkedal, Dan Frumin
+	- https://popl22.sigplan.org/details/CPP-2022-papers/16/Mechanized-Verification-of-a-Fine-Grained-Concurrent-Queue-from-Meta-s-Folly-Library
+	- MPMCQueue: a high-performance bounded concurrent queue that supports multiple producers, multiple consumers, and optional blocking
+		- https://github.com/facebook/folly/blob/main/folly/MPMCQueue.h
+
+# Data Structures: Software
+
+- ASCYLIB
+	- https://github.com/LPD-EPFL/ASCYLIB
+	- ASCYLIB is a concurrent-search data-structure library with over 30 implementantions of linked lists, hash tables, skip lists, and binary search trees.
+	- Asynchronized Concurrency: The Secret to Scaling Concurrent Search Data Structures
+		- ASPLOS 2015
+		- Tudor David, Rachid Guerraoui, Vasileios Trigonakis
+		- http://infoscience.epfl.ch/record/207109/files/ascy_asplos15.pdf
+		- Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/asynchronized-concurrency-the-secret-to-scaling-concurrent-search-data-structures/
+- Boost.Lockfree
+	- http://www.boost.org/doc/libs/release/doc/html/lockfree.html
+- CDS C++ library
+	- https://github.com/khizmax/libcds
+	- The Concurrent Data Structures (CDS) library is a collection of concurrent containers that don't require external (manual) synchronization for shared access, and safe memory reclamation (SMR) algorithms like Hazard Pointer and user-space RCU. CDS is mostly header-only template library. Only SMR core implementation is segregated to .so/.dll file.
+- ConcurrencyFreaks
+	- https://github.com/pramalhe/ConcurrencyFreaks
+	- A library of concurrent data structures and synchronization mechanisms.
+- Concurrency Kit
+	- Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems.
+	- https://github.com/concurrencykit/ck
+- Concurrent data structures
+	- Compilation of concurrent data structures with at least lock-free or wait-free properties.
+	- https://github.com/jfuentes/concurrent-data-structures
+- moodycamel::ConcurrentQueue (MPMC): https://github.com/cameron314/concurrentqueue
+	- moodycamel::ReaderWriterQueue (SPSC): SPSC: https://github.com/cameron314/readerwriterqueue
+	- http://moodycamel.com/blog/2013/a-fast-lock-free-queue-for-c++
+	- http://moodycamel.com/blog/2014/a-fast-general-purpose-lock-free-queue-for-c++
+	- http://moodycamel.com/blog/2014/detailed-design-of-a-lock-free-queue
+	- http://moodycamel.com/blog/2014/solving-the-aba-problem-for-lock-free-free-lists
+- xenium: a collection of concurrent data structures and memory reclamation algorithms (a header-only library)
+	- https://github.com/mpoeter/xenium
+	- Effective Memory Reclamation for Lock-Free Data Structures in C++
+		- 2018 Master's thesis; Manuel Pöter
+		- http://katalog.ub.tuwien.ac.at/AC14552708
+		- http://www.ub.tuwien.ac.at/dipl/VL/51367.pdf
+		- https://github.com/mpoeter/emr
+
+# Data Structures: Talks
+
+## Data Structures: Talks: 2021
+
+- Building a Lock-Free Multi-Producer, Multi-Consumer Queue for tcmalloc
+	- CppCon 2021
+	- Matt Kulukundis
+	- https://www.youtube.com/watch?v=_qaKkHuHYE0
+	- https://fowles.github.io/building-a-lock-free-mpmc-queue/
 
 ---
 
@@ -138,50 +233,6 @@
 	- 2019 Ph.D. Dissertation; Christopher Pulte
 	- https://doi.org/10.17863/CAM.39379
 	- https://www.repository.cam.ac.uk/handle/1810/292229
-
-## Papers - Data Structures
-
-- Lock-Free Locks Revisited
-	- PPoPP 2022
-	- Naama Ben-David, Guy E. Blelloch, Yuanhao Wei
-	- https://arxiv.org/abs/2201.00813
-	- https://dl.acm.org/doi/10.1145/3503221.3508433
-	- https://www.youtube.com/watch?v=1bH0yy6Wo4w
-	- _We have implemented a C++ library called Flock based on the ideas. Flock allows lock-based data structures to run in either lock-free or blocking (traditional locks) mode. We implemented a variety of tree and list-based data structures with Flock and compare the performance of the lock-free and blocking modes under a variety of workloads. The lock-free mode is almost as fast as blocking mode under almost all workloads, and significantly faster when threads are over-subscribed (more threads than processors). We also compare with several existing lock-based and lock-free alternatives._
-	- Flock: A library for lock-free locks
-		- a C++ library supporting lock-free locks as described in the paper
-		- https://github.com/cmuparlay/flock
-- On the Nature of Progress
-	- OPODIS 2011: International Conference On Principles Of Distributed Systems
-	- Maurice Herlihy, Nir Shavit
-	- http://hdl.handle.net/1721.1/73900
-	- http://www.cs.tau.ac.il/~shanir/progress.pdf
-- Practical lock freedom
-	- 2004 Cambridge University Technical Report UCAM-CL-TR-579; Keir Fraser
-	- https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-579.pdf
-- Practical lock-free data structures
-	- https://www.cl.cam.ac.uk/research/srg/netos/projects/archive/lock-free/
-- Systems programming: Coping with parallelism
-	- 1986 Technical report, IBM Almaden Research Center; R. Treiber
-	- https://dominoweb.draco.res.ibm.com/58319a2ed2b1078985257003004617ef.html
-	- https://dominoweb.draco.res.ibm.com/reports/rj5118.pdf
-	- Includes Treiber's lock-free stack.
-- References: Synchrobench 30+ data structures papers
-	- https://github.com/gramoli/synchrobench#data-structures
-	- Evaluated in Synchrobench: V. Gramoli. More than You Ever Wanted to Know about Synchronization. PPoPP 2015
-		- https://sites.google.com/site/synchrobench/
-- References: CDS C++ library data structures
-	- (lock-free lock-free stack, queues, unordered set/map, skip-list)
-	- https://github.com/khizmax/libcds#references
-
-### Papers - Data Structures: Queues
-
-- Mechanized Verification of a Fine-Grained Concurrent Queue from Meta’s Folly Library
-	- Certified Programs and Proofs (CPP) 2022
-	- Simon Friis Vindum, Lars Birkedal, Dan Frumin
-	- https://popl22.sigplan.org/details/CPP-2022-papers/16/Mechanized-Verification-of-a-Fine-Grained-Concurrent-Queue-from-Meta-s-Folly-Library
-	- MPMCQueue: a high-performance bounded concurrent queue that supports multiple producers, multiple consumers, and optional blocking
-		- https://github.com/facebook/folly/blob/main/folly/MPMCQueue.h
 
 ## Papers - Implementation
 
@@ -470,44 +521,6 @@
 	- help page: http://www.cl.cam.ac.uk/~sf502/regressions/rmem/help.html
 	- web interface: http://www.cl.cam.ac.uk/users/pes20/rmem/
 
-## Software: Data Structures
-
-- ASCYLIB
-	- https://github.com/LPD-EPFL/ASCYLIB
-	- ASCYLIB is a concurrent-search data-structure library with over 30 implementantions of linked lists, hash tables, skip lists, and binary search trees.
-	- Asynchronized Concurrency: The Secret to Scaling Concurrent Search Data Structures
-		- ASPLOS 2015
-		- Tudor David, Rachid Guerraoui, Vasileios Trigonakis
-		- http://infoscience.epfl.ch/record/207109/files/ascy_asplos15.pdf
-		- Adrian Colyer's "The Morning Paper" summary: http://blog.acolyer.org/2015/04/17/asynchronized-concurrency-the-secret-to-scaling-concurrent-search-data-structures/
-- Boost.Lockfree
-	- http://www.boost.org/doc/libs/release/doc/html/lockfree.html
-- CDS C++ library
-	- https://github.com/khizmax/libcds
-	- The Concurrent Data Structures (CDS) library is a collection of concurrent containers that don't require external (manual) synchronization for shared access, and safe memory reclamation (SMR) algorithms like Hazard Pointer and user-space RCU. CDS is mostly header-only template library. Only SMR core implementation is segregated to .so/.dll file.
-- ConcurrencyFreaks
-	- https://github.com/pramalhe/ConcurrencyFreaks
-	- A library of concurrent data structures and synchronization mechanisms.
-- Concurrency Kit
-	- Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems.
-	- https://github.com/concurrencykit/ck
-- Concurrent data structures
-	- Compilation of concurrent data structures with at least lock-free or wait-free properties.
-	- https://github.com/jfuentes/concurrent-data-structures
-- moodycamel::ConcurrentQueue (MPMC): https://github.com/cameron314/concurrentqueue
-	- moodycamel::ReaderWriterQueue (SPSC): SPSC: https://github.com/cameron314/readerwriterqueue
-	- http://moodycamel.com/blog/2013/a-fast-lock-free-queue-for-c++
-	- http://moodycamel.com/blog/2014/a-fast-general-purpose-lock-free-queue-for-c++
-	- http://moodycamel.com/blog/2014/detailed-design-of-a-lock-free-queue
-	- http://moodycamel.com/blog/2014/solving-the-aba-problem-for-lock-free-free-lists
-- xenium: a collection of concurrent data structures and memory reclamation algorithms (a header-only library)
-	- https://github.com/mpoeter/xenium
-	- Effective Memory Reclamation for Lock-Free Data Structures in C++
-		- 2018 Master's thesis; Manuel Pöter
-		- http://katalog.ub.tuwien.ac.at/AC14552708
-		- http://www.ub.tuwien.ac.at/dipl/VL/51367.pdf
-		- https://github.com/mpoeter/emr
-
 ## Software: Performance
 
 - CircusTent: Atomic Memory Operation System Benchmarks
@@ -556,11 +569,6 @@
 
 ### 2021
 
-- Building a Lock-Free Multi-Producer, Multi-Consumer Queue for tcmalloc
-	- CppCon 2021
-	- Matt Kulukundis
-	- https://www.youtube.com/watch?v=_qaKkHuHYE0
-	- https://fowles.github.io/building-a-lock-free-mpmc-queue/
 - Hazard Pointer Synchronous Reclamation Beyond Concurrency TS2
 	- CppCon 2021; Maged Michael
 	- https://www.youtube.com/watch?v=HKCN_0f04b8
