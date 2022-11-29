@@ -557,6 +557,12 @@ See also:
 
 ## Talks: 2022
 
+- C++ Function Multiversioning in Windows: High-performance Load-time Implementation Selection
+	- CppCon 2022 
+	- Joe Bialek and Pranav Kant
+	- Load Time Function Selection (LTFS)
+	- https://www.youtube.com/watch?v=LTM1was1dTU
+	- https://github.com/CppCon/CppCon2022/blob/main/Presentations/Load-Time-Function-Selection.pdf
 - Link fast: Improve build and launch times
 	- WWDC 2022; Nick Kledzik
 	- https://developer.apple.com/videos/play/wwdc2022/110362/
