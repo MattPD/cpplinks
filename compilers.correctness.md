@@ -458,6 +458,16 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, Christian Holler
 	- https://www.fuzzingbook.org/html/Grammars.html
 
+#### Testing: Readings: Fuzzing: 2023
+
+- Finding Deep-Learning Compilation Bugs with NNSmith
+	- ASPLOS 2023
+	- Jiawei Liu, Jinkun Lin, Fabian Ruffy, Cheng Tan, Jinyang Li, Aurojit Panda, Lingming Zhang
+	- https://arxiv.org/abs/2207.13066
+	- NNSmith: Automatic DNN generation for fuzzing and more
+		- https://nnsmith-asplos.readthedocs.io/en/latest/
+		- https://github.com/ise-uiuc/nnsmith
+
 #### Testing: Readings: Fuzzing: 2022
 
 - Coverage-Guided Tensor Compiler Fuzzing with Joint IR-Pass Mutation
