@@ -126,6 +126,10 @@
 			- http://crystalclearsoftware.com/2021cppcon/cpp23lib.pdf
 	- Meeting C++ 2021
 		- https://www.youtube.com/watch?v=rTVQe7zVQUw
+- How C++23 changes the way we write code
+	- NDC TechTown 2022
+	- Timur Doumler
+	- https://www.youtube.com/watch?v=HdZTw5qLg6A
 - What's New In C++23
 	- Sy Brand
 	- CppCon 2022
