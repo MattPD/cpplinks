@@ -1469,6 +1469,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220812-00/?p=106968
 	- 15: Control transfer
 		- https://devblogs.microsoft.com/oldnewthing/20220815-00/?p=106975
+	- 16: Conditional execution
+		- https://devblogs.microsoft.com/oldnewthing/20220817-00/?p=106998
 
 ## Thumb-2
 
