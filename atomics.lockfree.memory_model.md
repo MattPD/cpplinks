@@ -94,6 +94,13 @@
 
 # Data Structures: Talks
 
+## Data Structures: Talks: 2022
+
+- Scalable and Low Latency Lock-free Data Structures in C++
+	- CppCon 2022
+	- Alexander Krizhanovsky
+	- https://www.youtube.com/watch?v=_dS4Z6JifPs
+
 ## Data Structures: Talks: 2021
 
 - Building a Lock-Free Multi-Producer, Multi-Consumer Queue for tcmalloc
