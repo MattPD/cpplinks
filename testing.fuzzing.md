@@ -207,6 +207,9 @@ See also:
 		- https://2019.splashcon.org/details/splash-2019-oopsla/57/FuzzFactory-Domain-Specific-Fuzzing-with-Waypoints
 		- https://people.eecs.berkeley.edu/~ksen/papers/fuzzfactory.pdf
 		- https://people.eecs.berkeley.edu/~rohanpadhye/files/fuzzfactory-oopsla19.pdf
+- FuzzTest
+	- a C++ testing framework for writing and executing fuzz tests, which are property-based tests executed using coverage-guided fuzzing under the hood
+	- https://github.com/google/fuzztest
 - Grammarinator: ANTLRv4 grammar-based test generator
 	- https://github.com/renatahodovan/grammarinator
 - Honggfuzz
