@@ -2569,6 +2569,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- 2017 Master's Thesis
 	- Ahmad Moghimi
 	- https://digitalcommons.wpi.edu/etd-theses/399
+- SoK: SGX.Fail: How Stuff Gets eXposed
+	- 2022
+	- Stephan van Schaik, Alex Seto, Thomas Yurek, Adam Batori, Bader AlBassam, Christina Garman, Daniel Genkin, Andrew Miller, Eyal Ronen, Yuval Yarom
+	- https://sgx.fail/
 - TSX-based Defenses Against SGX Side-channel Attacks - https://gts3.org/2018/tsgx-defense.html
 - Tutorial: Uncovering and mitigating side-channel leakage in Intel SGX enclaves
 	- Security, Privacy, and Applied Cryptography Engineering (SPACE) 2018
