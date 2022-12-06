@@ -117,6 +117,10 @@
 	- https://github.com/encrypt0r/CoreRTDemo
 	- Writing Native Libraries in C# and using them in other languages
 		- https://dev.to/encrypt0r/writing-native-libraries-in-c-3kl
+- CppAst.NET: a .NET library providing a C/C++ parser for header files
+	- powered by Clang/libclang with access to the full AST, comments, and macros
+	- the target primary usage of this library is to serve as a simple foundation for domain oriented PInvoke/Interop codegen
+	- https://github.com/xoofx/CppAst.NET/
 - CppSharp
 	- Tools and libraries to glue C/C++ APIs to high-level languages
 	- https://github.com/mono/CppSharp
