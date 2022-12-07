@@ -1471,6 +1471,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220815-00/?p=106975
 	- 16: Conditional execution
 		- https://devblogs.microsoft.com/oldnewthing/20220817-00/?p=106998
+	- 17: Manipulating flags
+		- https://devblogs.microsoft.com/oldnewthing/20220818-00/?p=107005
 
 ## Thumb-2
 
