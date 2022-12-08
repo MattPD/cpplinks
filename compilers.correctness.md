@@ -875,6 +875,8 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 		- https://www.embecosm.com/appnotes/ean8/ean8-howto-dejagnu-1.0.html
 	- bunsen: Toolkit for compact storage and analysis of DejaGNU test results
 		- https://github.com/serhei/bunsen
+- FileCheck - Flexible pattern matching file verifier
+	- https://llvm.org/docs/CommandGuide/FileCheck.html
 - Fuzzing LLVM libraries and tools - https://llvm.org/docs/FuzzingLLVM.html
 	- Adventures in Fuzzing Instruction Selection
 		- 2017 EuroLLVM Developers’ Meeting; Justin Bogner
@@ -903,6 +905,7 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 - lit - LLVM Integrated Tester
 	- https://pypi.org/project/lit/
 	- Using LLVM LIT Out-Of-Tree
+		- 2020; Min-Yih Hsu
 		- https://medium.com/@mshockwave/using-llvm-lit-out-of-tree-5cddada85a78
 	- Pushing Back Lit's Boundaries to Test Libc++
 		- 2020 LLVM Developers’ Meeting; Louis Dionne
