@@ -144,6 +144,8 @@
 	- https://github.com/steve-downey/papers/blob/master/wg21-status.org
 - 2021 C++ Standardization Highlights
 	- https://botondballo.wordpress.com/2022/01/03/2021-c-standardization-highlights/
+- 2022-11 Kona ISO C++ Committee Trip Report — C++23 First Draft!
+	- https://old.reddit.com/r/cpp/comments/yxuqp7/202211_kona_iso_c_committee_trip_report_c23_first/
 
 ### 2022-11 Kona
 
