@@ -565,10 +565,15 @@
 
 ### 2022
 
-- A lock-free `std::atomic` `std::shared_ptr`
-	- ACCU 2022; Timur Doumler
-	- https://www.youtube.com/watch?v=a10JpqI-CvU
-	- https://accu.digital-medium.co.uk/wp-content/uploads/2022/04/talk.pdf
+- A lock-free `std::atomic<std::shared_ptr>`
+	- Timur Doumler
+	- 2022-09-13 - CppCon 2022
+		- https://www.youtube.com/watch?v=gTpubZ8N0no
+	- 2022-09-01 - NDC TechTown 2022
+		- https://www.youtube.com/watch?v=WHe-8Nzx9Ag
+	- 2022-04-06 - ACCU 2022
+		- https://www.youtube.com/watch?v=a10JpqI-CvU
+		- https://accu.org/conf-docs/PDFs_2022/timur_doumler_a_lockfree_atomic_shared_ptr.pdf
 - Concurrency in C++: A Programmer’s Overview
 	- CppNow 2022; Fedor Pikus
 	- part 1 of 2: https://www.youtube.com/watch?v=ywJ4cq67-uc
