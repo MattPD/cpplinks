@@ -381,6 +381,8 @@ See also:
 		- https://docs.oracle.com/cd/E26502_01/html/E26507/chapter3-29.html
 	- Relocation Sections
 		- https://docs.oracle.com/cd/E23824_01/html/819-0690/chapter6-54839.html
+- Relocatable linking - MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2022-11-21-relocatable-linking
 - Relocations in ELF Toolchains - Palmer Dabbelt
 	- https://www.sifive.com/blog/2017/08/21/all-aboard-part-2-relocations/
 - Relocations: fantastic symbols, but where to find them? - Siddhesh Poyarekar
