@@ -1107,6 +1107,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- Tobias Holl, Philipp Klocke, Fabian Franzen, and Julian Kirsch
 		- https://vimeo.com/307238462
 		- https://dl.acm.org/citation.cfm?id=3289596
+- Reverie: An ergonomic and safe syscall interception framework for Linux
+	- Reverie is a user space system-call interception framework for Linux. It can be used to intercept, modify, or elide a syscall before the kernel executes it. In essence, Reverie sits at the boundary between user space and kernel space.
+	- https://github.com/facebookexperimental/reverie
 - Scout - Instruction based research debugger
 	- an extendable basic debugger designed for use in those cases that there is no built-in debugger / gdb-stub in the debugee process / firmware
 	- https://github.com/CheckPointSW/Scout
