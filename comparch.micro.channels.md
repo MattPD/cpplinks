@@ -751,10 +751,6 @@ See also: [Computer Architecture](comparch.md)
 	- IACR ePrint 2022/715
 	- Zhiyuan Zhang, Gilles Barthe, Chitchanok Chuengsatiansup, Peter Schwabe, Yuval Yarom
 	- https://eprint.iacr.org/2022/715
-- Layered Binary Templating: Efficient Detection of Compiler- and Linker-introduced Leakage
-	- 2022
-	- Martin Schwarzl, Erik Kraft, Daniel Gruss
-	- https://arxiv.org/abs/2208.02093
 - SynthCT: Towards Portable Constant-Time Code
 	- Network and Distributed Systems Security (NDSS) Symposium 2022
 	- Sushant Dinesh, Grant Garrett-Grossman, Christopher W. Fletcher
@@ -1101,6 +1097,12 @@ See also: [Computer Architecture](comparch.md)
 	- https://aepicleak.com/aepicleak.pdf
 	- https://github.com/IAIK/AEPIC
 	- leakage source: the superqueue between L2 and L3
+- Layered Binary Templating: Efficient Detection of Compiler- and Linker-introduced Leakage
+	- 2022; ACNS 2023
+	- Martin Schwarzl, Erik Kraft, Daniel Gruss
+	- https://arxiv.org/abs/2208.02093
+	- https://martinschwarzl.at/media/files/layered.pdf
+	- https://github.com/IAIK/LayeredBinaryTemplating
 - Targeted Deanonymization via the Cache Side Channel: Attacks and Defenses
 	- USENIX Security 2022
 	- Mojtaba Zaheri, Yossi Oren, Reza Curtmola
