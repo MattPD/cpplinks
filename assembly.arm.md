@@ -1473,6 +1473,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220817-00/?p=106998
 	- 17: Manipulating flags
 		- https://devblogs.microsoft.com/oldnewthing/20220818-00/?p=107005
+	- 18: Return address protection
+		- https://devblogs.microsoft.com/oldnewthing/20220819-00/?p=107020
 
 ## Thumb-2
 
