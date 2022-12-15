@@ -1131,6 +1131,10 @@ Validation: Including translation validation, equivalence checking.
 	- Basile Clément, Albert Cohen
 	- https://dl.acm.org/doi/10.1145/3527328
 	- https://cambium.inria.fr/~bclement/papers/tv-oopsla-2022.pdf
+- Finding JIT Optimizer Bugs using SMT Solvers and Fuzzing
+	- 2022
+	- Carl Friedrich Bolz-Tereick
+	- https://www.pypy.org/posts/2022/12/jit-bug-finding-smt-fuzzing.html
 - GCC Translation Validation
 	- 2022
 	- Krister Walfridsson
