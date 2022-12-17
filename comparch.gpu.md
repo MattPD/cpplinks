@@ -134,6 +134,12 @@ See also: [computer architecture](comparch.md)
 
 # Software
 
+- GPU Vendor/Programming Model Compatibility Table
+	- 2022, JSC Accelerating Devices Lab Blog
+	- Andreas Herten
+	- https://doi.org/10.34732/xdvblg-r1bvif
+	- https://x-dev.pages.jsc.fz-juelich.de/2022/11/02/gpu-vendor-model-compat.html
+	- https://github.com/AndiH/gpu-lang-compat
 - PerfTest: GPU texture/buffer performance tester
 	- A simple GPU shader memory operation performance test tool. Current implementation is DirectX 11.0 based.
 	- https://github.com/sebbbi/perftest
