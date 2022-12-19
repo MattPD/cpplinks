@@ -304,13 +304,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 
 ## Testing: Readings
 
-- An empirical comparison of compiler testing techniques
+- An Empirical Comparison of Compiler Testing Techniques
 	- International Conference on Software Engineering (ICSE 2016)
 	- Junjie Chen, Wenxiang Hu, Dan Hao, Yingfei Xiong, Hongyu Zhang, Lu Zhang, Bing Xie
-	- http://sei.pku.edu.cn/~xiongyf04/papers/ICSE16.pdf
-	- http://emponcc.github.io/
-	- https://github.com/emponcc/emponcc.github.io/blob/master/CompilerTestingComparison.md
 	- https://dl.acm.org/citation.cfm?id=2884878
+	- https://xiongyingfei.github.io/papers/ICSE16.pdf
+	- https://emponcc.github.io/
+	- https://github.com/emponcc/emponcc.github.io/blob/master/CompilerTestingComparison.md
 - Automatic Testing of Symbolic Execution Engines via Program Generation and Differential Testing
 	- ASE 2017
 	- Timotej Kapus, Cristian Cadar
