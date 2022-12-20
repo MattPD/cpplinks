@@ -517,6 +517,9 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 - DIMCT: Dirty Inter Module Calls Tracer
 	- Allows tracing inter module calls for a specific module within a Windows process.
 	- https://github.com/amossys/dimct
+- Fibratus: A modern tool for Windows kernel exploration and tracing with a focus on security
+	- "Fibratus is a tool for exploration and tracing of the Windows kernel. It lets you trap system-wide events such as process life-cycle, file system I/O, registry modifications or network requests among many other observability signals. In a nutshell, Fibratus allows for gaining deep operational visibility into the Windows kernel but also processes running on top of it. It requires no drivers nor third-party software."
+	- https://github.com/rabbitstack/fibratus
 - libptrace: An event driven multi-core process debugging, tracing, and manipulation framework
 	- https://github.com/immunityinc/libptrace
 - MemTrace: Memory Tracing Software
