@@ -1238,6 +1238,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	- Robust Static Analysis of Portable Executable Malware - Katja Hahn, Master Thesis - https://github.com/katjahahn/PortEx/tree/master/masterthesis
 	- Wiki - https://github.com/katjahahn/PortEx/wiki
 	- PE Visualizer - https://github.com/katjahahn/PortEx/wiki/PE-Visualizer
+	- PortexAnalyzerGUI: Graphical interface for PortEx, a Portable Executable and Malware Analysis Library
+		- https://github.com/struppigel/PortexAnalyzerGUI
 - PPEE: A Professional PE File Explorer - https://www.mzrst.com/
 - Process Dump: Windows tool for dumping malware PE files from memory back to disk for analysis
 	- http://split-code.com/processdump.html
