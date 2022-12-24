@@ -1477,6 +1477,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220819-00/?p=107020
 	- 19: Miscellaneous instructions
 		- https://devblogs.microsoft.com/oldnewthing/20220822-00/?p=107032
+	- 20: The classic calling convention
+		- https://devblogs.microsoft.com/oldnewthing/20220823-00/?p=107041
 
 ## Thumb-2
 
