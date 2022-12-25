@@ -446,6 +446,16 @@ https://riscv.org/software-tools/
 	- C++17 RISC-V RV32GC userspace emulator library
 - MARSS-RISCV: Micro-Architectural System Simulator for RISC-V
 	- https://github.com/bucaps/marss-riscv
+- Pydrofoil: A fast RISC-V emulator based on the RISC-V Sail model
+	- https://github.com/pydrofoil/pydrofoil
+	- https://docs.pydrofoil.org/en/latest/
+	- Pydrofoil: A fast RISC-V emulator generated from the Sail model, using PyPy's JIT
+		- 2022-12
+		- https://www.youtube.com/watch?v=dUHWhUdXFJg
+	- Pydrofoil: Fast CPU emulators using PyPy's JIT and Sail
+		- 2022-10
+		- https://www.youtube.com/watch?v=WyxKY4AU7QA
+		- https://www.slideshare.net/secret/9xR1akke2qoy2N
 - QtRVSim: RISC-V CPU Simulator for Education Purposes
 	- https://github.com/cvut/qtrvsim
 	- https://comparch.edu.cvut.cz/qtrvsim/app/
