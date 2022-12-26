@@ -190,6 +190,8 @@ See also:
 		- Security and Privacy (S&P) 2018
 		- Peng Chen, Hao Chen
 		- https://arxiv.org/abs/1803.01307
+- Centipede: a distributed fuzzing engine
+	- https://github.com/google/centipede
 - DeepState: A unit test-like interface for fuzzing and symbolic execution
 	- DeepState is a framework that provides C and C++ developers with a common interface to various symbolic execution and fuzzing engines. Users can write one test harness using a Google Test-like API, then execute it using multiple backends without having to learn the complexities of the underlying engines. It supports writing unit tests and API sequence tests, as well as automatic test generation.
 	- https://github.com/trailofbits/deepstate
