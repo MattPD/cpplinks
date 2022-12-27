@@ -242,6 +242,8 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 		- https://www.youtube.com/watch?v=qdSAPQiRBDo
 	- Meeting C++ 2021
 		- https://www.youtube.com/watch?v=ey4pTOfdi9k
+	- NDC TechTown 2022
+		- https://www.youtube.com/watch?v=ailViuK1gmk
 - C++20: The small things
 	- Timur Doumler
 	- St. Petersburg C++ User Group, 11.06.2019
