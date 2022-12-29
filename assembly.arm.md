@@ -1479,6 +1479,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220822-00/?p=107032
 	- 20: The classic calling convention
 		- https://devblogs.microsoft.com/oldnewthing/20220823-00/?p=107041
+	- 21: Classic function prologues and epilogues
+		- https://devblogs.microsoft.com/oldnewthing/20220824-00/?p=107043
 
 ## Thumb-2
 
