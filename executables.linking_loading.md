@@ -492,6 +492,11 @@ See also:
 	- https://lld.llvm.org/
 - mold: A Modern Linker
 	- https://github.com/rui314/mold
+	- mold: A Modern Linker
+		- 2022 EasyBuild Tech Talks VI
+		- Rui Ueyama
+		- https://www.youtube.com/watch?v=hAt3kCalE0Y
+		- https://easybuild.io/tech-talks/006_mold.html
 
 ## Software: OS: macOS
 
