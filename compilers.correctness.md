@@ -1486,6 +1486,13 @@ Validation: Including translation validation, equivalence checking.
 	- ACM Transactions on Embedded Computing Systems (TECS) 2022
 	- David Monniaux, Cyril Six
 	- https://doi.org/10.1145/3529507
+- Formally Verified Native Code Generation in an Effectful JIT - or: Turning the CompCert Backend into a Formally Verified JIT Compiler
+	- POPL 2023
+	- Aurèle Barrière, Sandrine Blazy, David Pichardie
+	- https://doi.org/10.1145/3571202
+	- https://arxiv.org/abs/2212.03129
+	- https://hal.inria.fr/hal-03882598
+	- https://github.com/Aurele-Barriere/FM-JIT
 - Formally Verified Superblock Scheduling
 	- CPP 2022: ACM SIGPLAN International Conference on Certified Programs and Proofs
 	- Cyril Six, Léo Gourdin, Sylvain Boulmé, David Monniaux, Justus Fasse, Nicolas Nardino
