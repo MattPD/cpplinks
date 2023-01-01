@@ -1078,6 +1078,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- https://lwn.net/Articles/789641/
 - edb: a cross platform x86/x86-64 debugger
 	- https://github.com/eteran/edb-debugger
+- Hermit: A reproducible container
+	- Hermit launches Linux x86_64 programs in a special, hermetically isolated sandbox to control their execution. Hermit translates normal, nondeterministic behavior, into deterministic, repeatable behavior. This can be used for various applications, including replay-debugging, reproducible artifacts, chaos mode concurrency testing and bug analysis.
+	- https://github.com/facebookexperimental/hermit
+	- Hermit: Deterministic Linux for Controlled Testing and Software Bug-finding
+		- https://developers.facebook.com/blog/post/2022/11/22/hermit-deterministic-linux-testing/
 - ich: Linux crash harness with runtime process instrumentation
 	- https://github.com/zznop/ich
 - kdress: Transform vmlinuz into a fully debuggable vmlinux that can be used with /proc/kcore
