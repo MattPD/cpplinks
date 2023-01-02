@@ -118,6 +118,11 @@ https://riscv.org/risc-v-books/
 
 ### Instruction Set Architecture: Extensions
 
+#### Instruction Set Architecture: Extensions: C Standard Extension for Compressed Instructions
+
+- RISC-V Compressed Instructions (part 1): C extension
+	- https://fprox.blogspot.com/2022/12/riscv-c-extension.html
+
 #### Instruction Set Architecture: Extensions: V Vector Extension
 
 - riscv-v-spec: Working draft of the proposed RISC-V V vector extension
