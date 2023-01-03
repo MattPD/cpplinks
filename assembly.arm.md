@@ -1481,6 +1481,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220823-00/?p=107041
 	- 21: Classic function prologues and epilogues
 		- https://devblogs.microsoft.com/oldnewthing/20220824-00/?p=107043
+	- 22: Other kinds of classic prologues and epilogues
+		- https://devblogs.microsoft.com/oldnewthing/20220825-00/?p=107050
 
 ## Thumb-2
 
