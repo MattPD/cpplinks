@@ -46,6 +46,8 @@
 	- https://github.com/cameron314/microbench
 - Nonius: A C++ micro-benchmarking framework
 	- https://github.com/libnonius/nonius
+- picobench: A micro microbenchmarking library for C++11 in a single header file
+	- https://github.com/iboB/picobench
 - ubench.h: single header benchmark framework for C and C++
 	- https://github.com/sheredom/ubench.h
 	- https://www.duskborn.com/posts/introducing_ubench_h/
