@@ -462,6 +462,9 @@ See also:
 
 - GNU Linker Output Viewer & Editor
 	- https://github.com/JonTheBurger/GLOVE
+- interpose: Function interposition for Linux and macOS
+	- This single-header project implements dynamic library symbol interposition for both macOS and Linux.
+	- https://github.com/ccurtsinger/interpose
 - ld-limiter: Limit number of parallel link jobs
 	- https://github.com/yugr/ld-limiter
 - libdlbind: Dynamic creation and update of ELF files, or: an allocator for JIT compilers
