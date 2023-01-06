@@ -732,6 +732,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 - 8 gdb tricks you should know - https://blogs.oracle.com/ksplice/8-gdb-tricks-you-should-know
 - Beej's Quick Guide to GDB - https://beej.us/guide/bggdb/
+- Debugging binaries invoked from scripts with GDB
+	- https://developers.redhat.com/articles/2022/12/27/debugging-binaries-invoked-scripts-gdb
 - Extending gdbserver to support an strace client
 	- https://developers.redhat.com/blog/2020/03/16/extending-gdbserver-to-support-an-strace-client/
 - Fast Tracing with GDB - https://suchakra.wordpress.com/2016/06/29/fast-tracing-with-gdb/
