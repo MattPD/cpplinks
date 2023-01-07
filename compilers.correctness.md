@@ -875,6 +875,8 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 		- https://www.embecosm.com/appnotes/ean8/ean8-howto-dejagnu-1.0.html
 	- bunsen: Toolkit for compact storage and analysis of DejaGNU test results
 		- https://github.com/serhei/bunsen
+- Effcee: a C++ library for stateful pattern matching of strings, inspired by LLVM's FileCheck
+	- https://github.com/google/effcee
 - FileCheck - Flexible pattern matching file verifier
 	- https://llvm.org/docs/CommandGuide/FileCheck.html
 - Fuzzing LLVM libraries and tools - https://llvm.org/docs/FuzzingLLVM.html
