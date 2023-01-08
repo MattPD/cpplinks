@@ -394,14 +394,19 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ### Performance: Numerics
 
-* ARM Floating Point 2019: Latency, Area, Power
-	+ 2019 IEEE 26th Symposium on Computer Arithmetic (ARITH)
-	+ David Lutz
-	+ https://doi.org/10.1109/ARITH.2019.00025
-* LLVM and the Automatic Vectorization of Loops Invoking Math Routines: `-fsimdmath`
-	+ 2018 IEEE/ACM 5th Workshop on the LLVM Compiler Infrastructure in HPC (LLVM-HPC)
-	+ Francesco Petrogalli, Paul Walker
-	+ <https://sc18.supercomputing.org/proceedings/workshops/workshop_files/ws_llvmf106s2-file1.pdf>
+- ARM Floating Point 2019: Latency, Area, Power
+	- 2019 IEEE 26th Symposium on Computer Arithmetic (ARITH)
+	- David Lutz
+	- https://doi.org/10.1109/ARITH.2019.00025
+- LLVM and the Automatic Vectorization of Loops Invoking Math Routines: `-fsimdmath`
+	- 2018 IEEE/ACM 5th Workshop on the LLVM Compiler Infrastructure in HPC (LLVM-HPC)
+	- Francesco Petrogalli, Paul Walker
+	- <https://sc18.supercomputing.org/proceedings/workshops/workshop_files/ws_llvmf106s2-file1.pdf>
+
+### Performance: Statistical Profiling Extension (SPE)
+
+- Using the Arm Statistical Profiling Extension to detect false cache-line sharing
+	- https://www.linaro.org/blog/using-the-arm-statistical-profiling-extension-to-detect-false-cache-line-sharing/
 
 ## Security
 
