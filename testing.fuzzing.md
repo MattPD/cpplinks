@@ -412,6 +412,8 @@ See also:
 
 ## Software: OS: Windows
 
+- Rewind: a snapshot-based coverage-guided fuzzer targeting Windows kernel components
+	- https://github.com/quarkslab/rewind
 - Sienna Locomotive: A user-friendly fuzzing and crash triage tool for Windows
 	- https://github.com/trailofbits/sienna-locomotive
 	- User-Friendly Fuzzing with Sienna Locomotive
