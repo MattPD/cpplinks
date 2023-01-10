@@ -2013,6 +2013,12 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 
 ## Prefetch: 2022
 
+- Adversarial Prefetch: New Cross-Core Cache Side Channel Attacks
+	- IEEE S&P 2022
+	- Yanan Guo, Andrew Zigerelli, Youtao Zhang, Jun Yang
+	- https://arxiv.org/abs/2110.12340
+	- https://github.com/PittECEArch/AdversarialPrefetch
+	- https://www.youtube.com/watch?v=18VG28U83aM
 - AMD Prefetch Attacks through Power and Time
 	- USENIX Security 2022
 	- Moritz Lipp, Daniel Gruss, Michael Schwarz
