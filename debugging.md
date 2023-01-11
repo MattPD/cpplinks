@@ -829,6 +829,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Cool New Stuff in GDB 9, GDB 10, and GDB 11
 	- CppCon 2021; Greg Law
 	- https://www.youtube.com/watch?v=Ege7dKrGomU
+- Debugging Embedded Devices using GDB
+	- Embedded Linux Conference Europe 2020
+	- Chris Simmonds
+	- https://elinux.org/images/0/01/Debugging-with-gdb-csimmonds-elce-2020.pdf
+	- https://www.youtube.com/watch?v=JGhAgd2a_Ck
 - Debugging Linux C++
 	- CppCon 2018; Greg Law
 	- https://www.youtube.com/watch?v=V1t6faOKjuQ
