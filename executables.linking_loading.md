@@ -444,6 +444,9 @@ See also:
 	- https://kristerw.blogspot.com/2016/11/inlining-shared-libraries-are-special.html
 - PLT and GOT - the key to code sharing and dynamic libraries
 	- https://www.technovelty.org/linux/plt-and-got-the-key-to-code-sharing-and-dynamic-libraries.html
+- Shared libraries as executables
+	- 2022; Harmen Stoppels
+	- https://stoppels.ch/2022/08/20/executable-shared-libraries.html
 - Shared Libraries: Understanding Dynamic Loading
 	- http://amir.rachum.com/blog/2016/09/17/shared-libraries/
 - Software Multiplexing: Share Your Libraries and Statically Link Them Too
