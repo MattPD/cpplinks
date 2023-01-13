@@ -449,6 +449,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 		- LLVM Dataflow Info Printer Pass
 			- https://github.com/regehr/llvm-dataflow-info
 
+### Testing: Readings: 2017
+
+- Testing... Testing... GCC
+	- 2017; David Malcolm
+	- https://developers.redhat.com/blog/2017/02/13/testing-testing-gcc
+
 ### Testing: Readings: Fuzzing
 
 See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): [Fuzzing](https://github.com/MattPD/cpplinks/blob/master/testing.fuzzing.md)
