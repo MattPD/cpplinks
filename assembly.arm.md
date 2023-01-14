@@ -1488,6 +1488,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220824-00/?p=107043
 	- 22: Other kinds of classic prologues and epilogues
 		- https://devblogs.microsoft.com/oldnewthing/20220825-00/?p=107050
+	- 23: Common patterns
+		- https://devblogs.microsoft.com/oldnewthing/20220826-00/?p=107059
 
 ## Thumb-2
 
