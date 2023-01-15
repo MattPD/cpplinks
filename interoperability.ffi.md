@@ -3,7 +3,7 @@
 # Contents
 
 - [General](#general)
-- Language-specific: [Bash](#bash), [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Fortran](#fortran), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Objective-C](#objective-c), [OCaml](#ocaml), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata), [WebAssembly](#webassembly)
+- Language-specific: [Bash](#bash), [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Fortran](#fortran), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Nim](#nim), [Objective-C](#objective-c), [OCaml](#ocaml), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata), [WebAssembly](#webassembly)
 
 ---
 
@@ -284,6 +284,20 @@
 - Lua in the Stingray 3D game engine
 	- Lua Workshop 2015; Niklas Frykholm
 	- https://www.youtube.com/watch?v=wTjyM7d7_YA
+
+---
+
+# Nim
+
+- Nim's FFI (foreign function interface)
+	- https://nim-lang.org/docs/manual.html#foreign-function-interface
+- ImportCpp pragma
+	- https://nim-lang.org/docs/manual.html#implementation-specific-pragmas-importcpp-pragma
+- Nim Backend Integration: Interfacing
+	- https://nim-lang.org/docs/backends.html#interfacing
+- c2nim
+	- c2nim is a tool to translate Ansi C code to Nim. The output is human-readable Nim code that is meant to be tweaked by hand before and after the translation process.
+	- https://github.com/nim-lang/c2nim
 
 ---
 
