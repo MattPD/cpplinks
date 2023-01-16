@@ -56,6 +56,15 @@ See also: [Computer Architecture](comparch.md)
 	- Biswabandan Panda
 	- https://www.cse.iitk.ac.in/users/biswap/SMS.html
 
+## General: 2023
+
+- (M)WAIT for It: Bridging the Gap between Microarchitectural and Architectural Side Channels
+	- USENIX Security 2023
+	- Ruiyi Zhang, Taehyun Kim, Daniel Weber, Michael Schwarz
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/zhangruiyi
+	- https://publications.cispa.saarland/3769/1/mwait_sec23.pdf
+	- https://github.com/cispa/mwait
+
 ## General: 2022
 
 - Doing Research in Computer Architecture Security: A Starter Kit
