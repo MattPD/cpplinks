@@ -740,6 +740,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Faster debugging with watchpoints
 	- https://interrupt.memfault.com/blog/cortex-m-watchpoints
 - gdb Debugging Full Example (Tutorial): ncurses - http://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html
+- GDB JIT Interface 101
+	- https://weliveindetail.github.io/blog/post/2022/11/27/gdb-jit-interface-101.html
 - GDB Tips and Tricks - Shane Kirk
 	- 1: A Tale of Two Terminals - http://www.shanekirk.com/2017/08/gdb-tips-and-tricks-1-a-tale-of-two-terminals/
 	- 2: Setting Breakpoints with Regular Expressions - http://www.shanekirk.com/2017/08/gdb-tips-and-tricks-2-setting-breakpoints-with-regular-expressions/
