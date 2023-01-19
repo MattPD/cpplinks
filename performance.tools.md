@@ -466,6 +466,9 @@
 
 # Timing
 
+- libcpucycles: library to count CPU cycles
+	- Supports counters for amd64 (both PMC and TSC), arm32, arm64 (both PMC and VCT), mips64, ppc32, ppc64, riscv32, riscv64, sparc64, and x86, plus automatic fallbacks to various OS-level timing mechanisms.
+	- https://cpucycles.cr.yp.to
 - low-overhead-timers: Very low-overhead timer/counter interfaces for C on Intel 64 processors
 	- https://github.com/jdmccalpin/low-overhead-timers
 	- Comments on timing short code sections on Intel processors
