@@ -23,6 +23,7 @@ See also:
 	- [Linkers](#software-linkers)
 	- [OS: macOS](#software-os-macos)
 	- [OS: Linux](#software-os-linux)
+	- [OS: Windows](#software-os-windows)
 - [Talks](#talks): [2022](#talks-2022), [2021](#talks-2021), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2012](#talks-2012)
 
 ---
@@ -563,6 +564,11 @@ See also:
 	- https://sysdig.com/blog/hiding-linux-processes-for-fun-and-profit/
 - libtree: ldd as a tree with an option to bundle dependencies into a single folder
 	- https://github.com/haampie/libtree
+
+## Software: OS: Windows
+
+- LoaderLog: Small application that can be used to log loader snaps and other debug output
+	- https://github.com/TimMisiak/LoaderLog
 
 ---
 
