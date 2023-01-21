@@ -850,6 +850,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- C++ on Sea 2022
 	- Mark Williamson & Greg Law
 	- https://www.youtube.com/watch?v=to8KkFQn7jE
+- Getting the most out of GDB: Cool stuff about GDB you didn't know
+	- Meeting C++ 2022
+	- Greg Law, Chris Croft-White
+	- https://www.youtube.com/watch?v=IqH3Mh-OI-8
+	- https://meetingcpp.com/mcpp/slides/2022/GDB_Pro_20229084.pdf
 - Give me 15 minutes & I'll change your view of GDB
 	- CppCon 2015 - Greg Law
 	- https://www.youtube.com/watch?v=PorfLSr3DDI
