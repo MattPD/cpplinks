@@ -1490,6 +1490,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://devblogs.microsoft.com/oldnewthing/20220825-00/?p=107050
 	- 23: Common patterns
 		- https://devblogs.microsoft.com/oldnewthing/20220826-00/?p=107059
+	- 24: Code walkthrough
+		- https://devblogs.microsoft.com/oldnewthing/20220829-00/?p=107066
 
 ## Thumb-2
 
