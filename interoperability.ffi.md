@@ -3,7 +3,7 @@
 # Contents
 
 - [General](#general)
-- Language-specific: [Bash](#bash), [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Fortran](#fortran), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Nim](#nim), [Objective-C](#objective-c), [OCaml](#ocaml), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata), [WebAssembly](#webassembly)
+- Language-specific: [Bash](#bash), [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Fortran](#fortran), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Nim](#nim), [Objective-C](#objective-c), [OCaml](#ocaml), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata), [WebAssembly](#webassembly), [Zig](#zig)
 
 ---
 
@@ -457,3 +457,14 @@
 	- Typescripten: Generating type-safe JavaScript bindings for emscripten
 		- CppNow 2022; Sebastian Theophil
 		- https://www.youtube.com/watch?v=fOagTqBYHug
+
+---
+
+# Zig
+
+- Zig In-depth Overview - Integration with C libraries without FFI/bindings
+	- https://ziglang.org/learn/overview/#integration-with-c-libraries-without-ffibindings
+- Zig Language Reference - C
+	- https://ziglang.org/documentation/master/#C
+- Zig Learn - Chapter 4 - Working with C
+	- https://ziglearn.org/chapter-4/
