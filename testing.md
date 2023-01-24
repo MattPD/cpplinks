@@ -1079,6 +1079,14 @@ Test Doubles: Faking, Mocking
 - Google Test Automation Conference (GTAC)
 	- https://developers.google.com/google-test-automation-conference/
 
+## Talks: 2022
+
+- It's A Bug Hunt - Armor Plate Your Unit Tests in Cpp
+	- CppCon 2022
+	- Dave Steffen
+	- https://www.youtube.com/watch?v=P8qYIerTYA0
+	- https://github.com/CppCon/CppCon2022/blob/main/Presentations/its-a-bug-hunt-fix1.pdf
+
 ## Talks: 2021
 
 - Structure and Interpretation of Test Cases
