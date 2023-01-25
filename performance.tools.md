@@ -473,6 +473,9 @@
 	- https://github.com/jdmccalpin/low-overhead-timers
 	- Comments on timing short code sections on Intel processors
 		- http://sites.utexas.edu/jdm4372/2018/07/23/comments-on-timing-short-code-sections-on-intel-processors/
+- plf::nanotimer
+	- A simple C++03/11/etc timer class for ~microsecond-precision cross-platform benchmarking. The implementation is as limited and as simple as possible to create the lowest amount of overhead.
+	- https://github.com/mattreecebentley/plf_nanotimer
 
 # Visualization
 
