@@ -98,6 +98,8 @@ https://riscv.org/risc-v-books/
 
 - RISC-V Register Files
 	- https://fprox.blogspot.com/2022/10/risc-v-register-files.html
+- Adding custom instructions in the RISC-V ISA
+	- https://pcotret.gitlab.io/riscv-custom/
 
 ### Instruction Set Architecture: Encoding
 
@@ -125,7 +127,7 @@ https://riscv.org/risc-v-books/
 
 - RISC-V Compressed Instructions (part 1): C extension
 	- https://fprox.blogspot.com/2022/12/riscv-c-extension.html
- 
+
 #### Instruction Set Architecture: Extensions: V Vector Extension
 
 - riscv-v-spec: Working draft of the proposed RISC-V V vector extension
