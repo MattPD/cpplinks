@@ -285,6 +285,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ### Encoding, Shellcode
 
+- AArch64 Bitmask Immediates
+	- https://kddnewton.com/2022/08/11/aarch64-bitmask-immediates.html
 - Alphanumeric ARM Shellcode
 	- March 15, 2018
 	- https://vishnudevtj.github.io/notes/arm-alphanumeric-shellcode
