@@ -253,6 +253,13 @@
 	- CC 2017
 	- Robin Morisset, Francesco Zappa Nardelli
 	- https://conf.researchr.org/event/CC-2017/cc-2017-papers-partially-redundant-fence-elimination-for-x86-arm-and-power-processors
+- Sequential Reasoning for Optimizing Compilers under Weak Memory Concurrency
+	- Programming Language Design and Implementation (PLDI) 2022
+	- Minki Cho, Sung-Hwan Lee, Dongjae Lee, Chung-Kil Hur, Ori Lahav
+	- https://doi.org/10.1145/3519939.3523718
+	- https://sf.snu.ac.kr/promising-seq/
+	- https://www.youtube.com/watch?v=Er-BI2SOe5A
+	- https://github.com/snu-sf/promising-seq-coq
 
 ## Papers - Memory Model
 
