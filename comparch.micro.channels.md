@@ -2359,6 +2359,14 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Andrea Mambretti, Alexandra Sandulescu, Matthias Neugschwandtner, Alessandro Sorniotti, Anil Kurmus
 	- http://ale.sopit.net/pdf/woot.pdf
 
+## Speculation: 2023
+
+- Hide and Seek with Spectres: Efficient discovery of speculative information leaks with random testing
+	- IEEE Symposium on Security and Privacy 2023
+	- Oleksii Oleksenko, Marco Guarnieri, Boris Köpf, Mark Silberstein
+	- https://arxiv.org/abs/2301.07642
+	- https://github.com/microsoft/sca-fuzzer
+
 ## Speculation: 2022
 
 - Revizor: Testing Black-box CPUs against Speculation Contracts
