@@ -184,6 +184,13 @@
 	- A case study of somewhere you might want to choose sum types over exceptions, along with some more general guidance.
 	- https://vittorioromeo.info/index/blog/adts_over_exceptions.html
 
+## Readings: Security
+
+- Exception Oriented Programming: Abusing Exceptions for Code Execution
+	- 2022-2023; Bill Demirkapi
+	- https://billdemirkapi.me/exception-oriented-programming-abusing-exceptions-for-code-execution-part-1/
+	- https://billdemirkapi.me/abusing-exceptions-for-code-execution-part-2/
+
 ## Documentation
 
 - Dwarf2 Exception Handler HOWTO
