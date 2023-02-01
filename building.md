@@ -709,6 +709,9 @@ See also:
 	- https://github.com/biojppm/cmany
 - configure-cmake: autotools-style configure script wrapper around CMake
 	- https://github.com/nemequ/configure-cmake
+- Corrosion: Marrying Rust and CMake - Easy Rust and C/C++ Integration!
+	- Corrosion, formerly known as cmake-cargo, is a tool for integrating Rust into an existing CMake project. Corrosion is capable of importing executables, static libraries, and dynamic libraries from a crate.
+	- https://github.com/corrosion-rs/corrosion
 - CPM.cmake
 	- CMake's missing package manager. A small CMake script for setup-free, cross-platform and reproducible dependency management.
 	- https://github.com/TheLartians/CPM.cmake
