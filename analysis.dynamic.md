@@ -372,6 +372,9 @@ See also:
 			- https://kristerw.blogspot.com/2018/06/useful-gcc-address-sanitizer-checks-not.html
 	- MSVC
 		- AddressSanitizer - https://docs.microsoft.com/en-us/cpp/sanitizers/asan
+		- Introducing kernel sanitizers on Microsoft platforms
+			- Kernel AddressSanitizer (KASAN), Secure Kernel AddressSanitizer (SKASAN), Hyper-V AddressSanitizer (HASAN)
+			- https://www.microsoft.com/en-us/security/blog/2023/01/26/introducing-kernel-sanitizers-on-microsoft-platforms/
 - DRace: Data-race detector for Windows applications built on top of DynamoRIO
 	- shipped with the following detector backends: tsan (internal ThreadSanitizer), fasttrack, dummy (no detection at all), printer (print all calls to the detector)
 	- https://github.com/siemens/drace
