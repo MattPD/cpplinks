@@ -151,6 +151,11 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Christopher Pulte, Shaked Flur, Will Deacon, Jon French, Susmit Sarkar, Peter Sewell
 	- http://www.cl.cam.ac.uk/%7Epes20/armv8-mca/
 	- http://www.cl.cam.ac.uk/%7Epes20/armv8-mca/armv8-mca-draft.pdf
+- Synchronization Overview and Case Study on Arm Architecture
+	- 2022
+	- Ker Liu, Zaiping Bie
+	- https://community.arm.com/arm-community-blogs/b/infrastructure-solutions-blog/posts/synchronization-overview-and-case-study-on-arm-architecture-563085493
+	- https://developer.arm.com/documentation/107630/latest/
 - The ARMv8 Application Level Memory Model
 	- https://developer.arm.com/architectures/cpu-architecture/a-profile/memory-model-tool
 	- Herd - http://diy.inria.fr/www/?record=aarch64
