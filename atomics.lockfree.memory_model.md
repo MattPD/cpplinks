@@ -505,6 +505,18 @@
 		- Weiyu Luo, Brian Demsky
 		- C11Tester: A Race Detector for C/C++ Atomics Technical Report
 			- https://arxiv.org/abs/2102.07901
+	- Probabilistic Concurrency Testing for Weak Memory (PCTWM)
+		- https://github.com/GMYMingyu/C11_PCT_PCTWM
+		- https://github.com/GMYMingyu/pctwm_c11
+		- Probabilistic Concurrency Testing for Weak Memory Programs
+			- ASPLOS 2023
+			- Mingyu Gao, Soham Chakraborty, Burcu Kulahcioglu Ozkan
+			- https://dl.acm.org/doi/10.1145/3575693.3575729
+			- https://zenodo.org/record/7225459
+		- Probabilistic Testing for Weak Memory Concurrency
+			- 2022 Master's Thesis
+			- Mingyu Gao
+			- https://repository.tudelft.nl/islandora/object/uuid:28878472-f58d-42ad-b889-ef5e23d3d129
 - CDSChecker: A Model Checker for C11 and C++11 Atomics
 	- http://demsky.eecs.uci.edu/c11modelchecker.html
 	- http://plrg.eecs.uci.edu/publications/c11modelcheck.pdf
