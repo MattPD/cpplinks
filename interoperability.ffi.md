@@ -240,6 +240,9 @@
 			- https://blog.arkey.fr/2021/09/04/a-practical-look-at-jep-412-in-jdk17-with-libsodium/
 		- Finalizing the Foreign APIs
 			- https://inside.java/2021/09/16/finalizing-the-foreign-apis/
+	- Lifetimes in the Foreign Function & Memory API
+		- 2023; Maurizio Cimadamore
+		- https://cr.openjdk.java.net/~mcimadamore/panama/why_lifetimes.html
 
 ---
 
