@@ -1173,6 +1173,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ### Windows
 
+- BugChecker: SoftICE-like kernel debugger for Windows
+	- Windows XP to 11, x86 and x64
+	- https://github.com/vitoplantamura/BugChecker
 - DbgShell: A PowerShell front-end for the Windows debugger engine
 	- https://github.com/Microsoft/DbgShell/
 - DuBStep (Dynamic Breakpoint API): A Library for creating hardware execution and data breakpoints at runtime on Win32/Win64
