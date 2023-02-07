@@ -982,8 +982,7 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 - [Boost].UT: C++20 μ(micro)/Unit Testing Framework
 	- https://github.com/boost-experimental/ut
 - Catch2
-	- A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch)
-	- http://catch-lib.net
+	- A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)
 	- https://github.com/catchorg/Catch2
 	- Modern C++ Testing with Catch2 - Phil Nash
 		- Meeting C++ 2017: https://www.youtube.com/watch?v=3tIE6X5FjDE
