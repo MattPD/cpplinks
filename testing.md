@@ -55,7 +55,7 @@ See also:
 	- https://github.com/d-led/cpp-testing-no-excuses
 - What Is a Good Test Case?
 	- 2003; Cem Kaner
-	- http://www.kaner.com/pdfs/GoodTest.pdf
+	- https://kaner.com/pdfs/GoodTest.pdf
 
 ---
 
@@ -496,7 +496,7 @@ See also:
 - Not All Coverage Measurements Are Equal: Fuzzing by Coverage Accounting for Input Prioritization
 	- Network and Distributed System Security Symposium (NDSS) 2020
 	- Yanhao Wang, Xiangkun Jia, Yuwei Liu, Tiffany Bao, Dinghao Wu, and Purui Su
-	- https://ajax4sec.github.io/papers/ndss20-fall-paper422.pdf
+	- https://ndss-symposium.org/wp-content/uploads/2020/02/24422-paper.pdf
 - Selecting Software Test Data Using Data Flow Information
 	- IEEE Transactions on Software Engineering 11(4) 1985
 	- Sandra Rapps and Elaine J. Weyuker
@@ -533,8 +533,8 @@ See also:
 	- https://github.com/Longhanks/cpp-llvm-coverage
 - drcov: a DynamoRIO client tool that collects code coverage information
 	- Dr. Memory provides optional code coverage information to aid in fuzz testing (Fuzz Testing Mode) or in general testing.
-	- http://dynamorio.org/docs/page_drcov.html
-	- http://drmemory.org/docs/page_coverage.html
+	- https://dynamorio.org/page_drcov.html
+	- https://drmemory.org/page_coverage.html
 	- https://github.com/DynamoRIO/dynamorio/tree/master/clients/drcov
 - GNU gcov
 	- https://gcc.gnu.org/onlinedocs/gcc/Gcov.html
@@ -990,7 +990,7 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 - Cgreen - The Modern Unit Test and Mocking Framework for C and C++
 	- https://github.com/cgreen-devs/cgreen
 - CppUTest unit testing and mocking framework for C/C++
-	- http://cpputest.github.com
+	- https://cpputest.github.io
 	- https://github.com/cpputest/cpputest
 - CUTE: C++ Unit Testing Easier
 	- https://cute-test.com/
