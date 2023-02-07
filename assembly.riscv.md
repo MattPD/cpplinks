@@ -135,6 +135,7 @@ https://riscv.org/risc-v-books/
 - Programming with RISC-V Vector Instructions
 	- https://gms.tf/riscv-vector.html
 - RISC-V Vector Extension in a Nutshell
+	- https://fprox.substack.com/p/risc-v-vector-in-a-nutshell
 	- Part 1: Introduction
 		- https://fprox.blogspot.com/2022/07/risc-v-vector-extension-in-nutshell.html
 	- Part 2: Arithmetic and Logic Instructions
@@ -147,6 +148,8 @@ https://riscv.org/risc-v-books/
 		- https://fprox.blogspot.com/2022/09/riscv-vector-extension-part5-1-load-store-memory.html
 	- Part 5.2: vector loads and stores: Indexed memory operations, whole register instructions, managing faults during vector memory operations
 		- https://fprox.blogspot.com/2022/09/riscv-vector-extension-part5-2-load-store-memory.html
+	- How to read a RISC-V Vector assembly instruction
+		- https://fprox.substack.com/p/how-to-read-risc-v-vector-assembly
 
 ## Simulation
 
