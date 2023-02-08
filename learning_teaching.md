@@ -103,6 +103,7 @@ Note: see also [Communities](communities.md) -- where you can learn together.
 	- https://hackingcpp.com/cpp/educational_videos.html
 - Everything Cpp - https://www.youtube.com/channel/UCxwGBrWeIIWO9V_uLwRWCdA/playlists
 - Programming in C++ (Slides and Videos) - Michael Adams - https://www.ece.uvic.ca/~frodo/cppbook/
+- A Complete Guide to Standard C++ Algorithms - Šimon Tóth - https://github.com/HappyCerberus/book-cpp-algorithms
 
 ## Quizzes
 
