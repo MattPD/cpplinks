@@ -361,6 +361,9 @@ See also:
 		- Sanitizer special case list - https://clang.llvm.org/docs/SanitizerSpecialCaseList.html
 		- ThreadSanitizer - https://clang.llvm.org/docs/ThreadSanitizer.html
 		- UndefinedBehaviorSanitizer - https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html
+			- All about UndefinedBehaviorSanitizer
+				- 2023; MaskRay (Fangrui Song)
+				- https://maskray.me/blog/2023-01-29-all-about-undefined-behavior-sanitizer
 			- `-fsanitize=pointer-overflow`
 				- Pointer Overflow Checking is in LLVM - https://blog.regehr.org/archives/1518
 				- Catching pointer overflow bugs - https://wdtz.org/catching-pointer-overflow-bugs.html
