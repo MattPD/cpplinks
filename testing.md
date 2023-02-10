@@ -1034,6 +1034,8 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 		- https://codedive.pl/index/speaker/name/patryk-malek/year/2016/
 		- https://www.youtube.com/watch?v=aiapg-3vDcQ
 		- https://cdn2-ecros.pl/event/codedive/files/presentations/2016/Patryk_Malek_Property_based_testing_in_cpp.pdf
+- snitch: Lightweight C++20 testing framework
+	- https://github.com/cschreib/snitch
 
 ## Software: Test Doubles
 
