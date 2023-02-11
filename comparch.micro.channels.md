@@ -2020,6 +2020,14 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 	- https://www.youtube.com/watch?v=Pwq0vv4X7m4
 	- https://www.blackhat.com/docs/us-16/materials/us-16-Fogh-Using-Undocumented-CPU-Behaviour-To-See-Into-Kernel-Mode-And-Break-KASLR-In-The-Process.pdf
 
+## Prefetch: 2023
+
+- AfterImage: Leaking Control Flow Data and Tracking Load Operations via the Hardware Prefetcher
+	- ASPLOS 2023
+	- Yun Chen, Lingfeng Pei, Trevor E. Carlson
+	- https://dl.acm.org/doi/10.1145/3575693.3575719
+	- "we take an additional step to reverse-engineer the major components of the IP-stride prefetcher in the Haswell and Coffee Lake microarchitectures. To the best of our knowledge, this is the first work to reveal the index, update and trigger mechanisms in detail. We additionally investigate the effects of cross-page address prefetching, determine the number of entries in the history table, and reverse engineer the IP-stride prefetcher’s replacement policy."
+
 ## Prefetch: 2022
 
 - Adversarial Prefetch: New Cross-Core Cache Side Channel Attacks
