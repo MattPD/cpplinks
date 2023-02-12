@@ -445,6 +445,14 @@ See also:
 	- https://kristerw.blogspot.com/2016/11/inlining-shared-libraries-are-special.html
 - PLT and GOT - the key to code sharing and dynamic libraries
 	- https://www.technovelty.org/linux/plt-and-got-the-key-to-code-sharing-and-dynamic-libraries.html
+- Remote Library Injection
+	- 2004
+	- skape, Jarkko Turkulainen
+	- http://hick.org/code/skape/papers/remote-library-injection.pdf
+	- Memdlopen: dlopen from memory
+		- https://github.com/m1m1x/memdlopen
+	- memdlopen-lib: An updated version of m1m1x's memdlopen project (based on Nologin's paper)
+		- https://github.com/X-C3LL/memdlopen-lib
 - Shared libraries as executables
 	- 2022; Harmen Stoppels
 	- https://stoppels.ch/2022/08/20/executable-shared-libraries.html
