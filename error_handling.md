@@ -502,6 +502,16 @@
 
 # Talks
 
+## 2023
+
+- The expected outcome
+	- Ivan Čukić
+	- Meeting C++ 2022
+	- C++23 std::expected
+	- https://www.youtube.com/watch?v=1O_t7rxuq0c
+	- https://meetingcpp.com/mcpp/schedule/talkview.php?tid=269
+	- https://meetingcpp.com/mcpp/slides/2022/ivan-cukic-meeting-cpp-2022-expected-outcome4240.pdf
+
 ## 2022
 
 - A Practical Approach to Error Handling
