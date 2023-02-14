@@ -238,10 +238,6 @@ https://riscv.org/risc-v-books/
 	- Alexander Dörflinger, Mark Albers, Yejun Guan, Benedikt Kleinbeck, Harald Michalik, Raphael Klink, Chistopher Blochwitz, Anouar Nechi, Mladen Berekovic
 	- https://dl.acm.org/doi/10.1145/3457388.3458657
 
-- Ariane RISC-V CPU (SystemVerilog)
-	- Ariane is a 6-stage, single issue, in-order CPU which implements the 64-bit RISC-V instruction set.
-	- https://pulp-platform.github.io/ariane/
-	- https://github.com/pulp-platform/ariane
 - BlackParrot (SystemVerilog)
 	- Linux-capable cache-coherent, RV64GC multicore
 	- https://github.com/black-parrot
@@ -252,6 +248,11 @@ https://riscv.org/risc-v-books/
 	- https://ccelio.github.io/riscv-boom-doc/
 	- https://github.com/ucb-bar/riscv-boom
 	- https://twitter.com/boom_cpu
+- CVA6 RISC-V CPU (SystemVerilog)
+	- application class, 6-stage, single issue, in-order CPU, implements the 64-bit RISC-V instruction set, capable of booting Linux
+	- https://github.com/openhwgroup/cva6
+	- https://docs.openhwgroup.org/projects/cva6-user-manual/
+	- https://pulp-platform.org/docs/Ariane_detailed.pdf
 - Davis In-Order (DINO) CPU models (Chisel)
 	- A teaching-focused RISC-V CPU design used at UC Davis
 	- https://github.com/jlpteaching/dinocpu
