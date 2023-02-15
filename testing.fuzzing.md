@@ -172,7 +172,7 @@ See also:
 	- 2017; René Freingruber
 	- AFL & WinAFL, Taint Analysis, Reversing Tricks for Fuzzing, in-memory fuzzing, DynamoRio
 	- https://sec-consult.com/en/blog/2017/11/the-art-of-fuzzing-slides-and-demos/
-	- https://sec-consult.com/wp-content/uploads/files/vulnlab/the_art_of_fuzzing_slides.pdf
+	- https://sec-consult.com/fileadmin/user_upload/sec-consult/Dynamisch/Blogartikel/2017_11/the_art_of_fuzzing_slides.pdf
 - What You Corrupt Is Not What You Crash: Challenges in Fuzzing Embedded Devices
 	- NDSS 2018
 	- M. Muench, J. Stijohann, F. Kargl, A. Francillon, Davide Balzarotti
@@ -220,7 +220,7 @@ See also:
 	- https://github.com/google/honggfuzz
 	- Feedback-driven fuzzing - https://github.com/google/honggfuzz/blob/master/docs/FeedbackDrivenFuzzing.md
 	- Fuzzing TCP servers - http://blog.swiecki.net/2018/01/fuzzing-tcp-servers.html
-	- Internals of Hongfuzz - Intel PT - https://tunnelshade.in/blog/2018/09/hongfuzz-intel-pt-instrumentation/
+	- Internals of Hongfuzz - Intel PT - https://tunnelshade.in/blog/hongfuzz-intel-pt-instrumentation
 - Jackalope: Binary, coverage-guided fuzzer for Windows and macOS
 	- A customizable, distributed, coverage-guided fuzzer that is able to work with black-box binaries.
 	- https://github.com/googleprojectzero/Jackalope
@@ -237,7 +237,7 @@ See also:
 	- https://github.com/RUB-SysSec/nautilus
 	- Network and Distributed System Security Symposium (NDSS) 2019
 		- Cornelius Aschermann, Tommaso Frassetto, Thorsten Holz, Patrick Jauernig, Ahmad-Reza Sadeghi, Daniel Teuchert
-		- https://www.syssec.ruhr-uni-bochum.de/research/publications/nautilus/
+		- https://www.ndss-symposium.org/ndss-paper/nautilus-fishing-for-deep-bugs-with-grammars
 - Orthrus
 	- https://github.com/test-pipeline/orthrus
 	- Orthrus is a tool for managing, conducting, and assessing dictionary-based security (fuzz) testing for autotools projects. At the moment, it supports Clang/LLVM instrumentation and the AFL ecosystem (afl-fuzz, afl-utils, afl-cov). The ultimate aim is for Orthrus to be a generic wrapper around state-of-the-art fuzz and instrumentation tools on the one hand, and disparate build systems on the other.
@@ -335,7 +335,7 @@ See also:
 	- E9AFL inserts American Fuzzy Lop (AFL) instrumentation into x86_64 Linux binaries. This allows binaries to be fuzzed without the need for recompilation.
 	- https://github.com/GJDuck/e9afl
 - Internals of AFL fuzzer - Compile Time Instrumentation
-	- https://tunnelshade.in/blog/2018/01/afl-internals-compile-time-instrumentation/
+	- https://tunnelshade.in/blog/afl-internals-compile-time-instrumentation
 - WinAFL: A fork of AFL for fuzzing Windows binaries
 	- https://github.com/googleprojectzero/winafl
 - Winnie-AFL: a fork of WinAFL that supports fuzzing using a fork-like API
@@ -362,7 +362,7 @@ See also:
 - Efficient Fuzzing Guide
 	- https://chromium.googlesource.com/chromium/src/testing/libfuzzer/+/HEAD/efficient_fuzzing.md
 - Fuzzing arbitrary functions in ELF binaries using LIEF and LibFuzzer
-	- https://blahcat.github.io/2018/03/11/fuzzing-arbitrary-functions-in-elf-binaries/
+	- https://blahcat.github.io/posts/2018/03/11/fuzzing-arbitrary-functions-in-elf-binaries.html
 - Fuzzing binaries with LLVM's libFuzzer and rev.ng
 	- https://rev.ng/blog/fuzzing/post.html
 - Introduction to using libFuzzer with llvm-toolset
@@ -434,7 +434,7 @@ Fuzzing applied to software performance.
 	- ISSTA 2018
 	- Caroline Lemieux, Rohan Padhye, Koushik Sen, and Dawn Song
 	- https://github.com/carolemieux/perffuzz
-	- https://people.eecs.berkeley.edu/~rohanpadhye/files/PerfFuzz-issta18.pdf
+	- https://www.carolemieux.com/perffuzz-issta2018.pdf
 - perf fuzzer: Targeted fuzzing of the perf_event_open() system call
 	- Technical Report, University of Maine, Tech. Rep., 2015
 	- V. M. Weaver and D. Jones
@@ -505,7 +505,7 @@ Fuzzing applied to software performance.
 - Fuzzing with AFL
 	- NDC TechTown 2018; Erlend Oftedal
 	- https://www.youtube.com/watch?v=DFQT1YxvpDo
-	- https://vimeo.com/292689978
+	- https://vimeo.com/channels/1411625/292689978
 - Making Your Library More Reliable with Fuzzing
 	- C++Now 2018; Marshall Clow
 	- https://www.youtube.com/watch?v=LlLJRHToyUk
