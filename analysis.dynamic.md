@@ -430,6 +430,14 @@ See also:
 	- Code Generation and Optimization (CGO) 2015
 	- Evgeniy Stepanov and Konstantin Serebryany
 	- https://research.google.com/pubs/archive/43308.pdf
+- ThreadSanitizer: data race detection in practice
+	- WBIA 2009: Workshop on Binary Instrumentation and Applications
+	- Konstantin Serebryany, Timur Iskhodzhanov
+	- https://dl.acm.org/doi/abs/10.1145/1791194.1791203
+	- https://research.google/pubs/pub35604/
+
+##### Software: Sanitizers: Readings: Research: 2016
+
 - TypeSanitizer: Practical Type Confusion Detection
 	- Computer and Communications Security (CCS) 2016
 	- Istvan Haller, Yuseok Jeon, Hui Peng, Mathias Payer, Herbert Bos, Cristiano Giuffrida, Erik van der Kouwe
