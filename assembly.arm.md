@@ -176,6 +176,9 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Muhui Jiang, Tianyi Xu, Yajin Zhou, Yufeng Hu, Ming Zhong, Lei Wu, Xiapu Luo, Kui Ren
 	- https://arxiv.org/abs/2105.14273
 	- https://alastairreid.github.io/RelatedWork/papers/jiang:arxiv:2021/
+- Why is Rosetta 2 fast?
+	- 2022; Dougall Johnson
+	- https://dougallj.wordpress.com/2022/11/09/why-is-rosetta-2-fast/
 
 ## Formalization, Specification, Verification
 
