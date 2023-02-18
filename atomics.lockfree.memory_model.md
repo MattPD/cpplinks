@@ -408,6 +408,12 @@
 
 ### Papers - Memory Model: 2022
 
+- Mixed-Proxy Extensions for the NVIDIA PTX Memory Consistency Model
+	- International Symposium on Computer Architecture (ISCA), Industry Track, 2022
+	- Daniel Lustig, Simon Cooksey, Olivier Giroux
+	- https://github.com/NVlabs/mixedproxy
+	- https://doi.org/10.1145/3470496.3533045
+	- > In this work, we describe the "proxy" extensions added to version 7.5 of NVIDIA's PTX ISA for GPUs. A proxy is an extra tag abstractly applied to every memory or fence operation. Proxies generalize the notion of address translation and specialized non-coherent cache hierarchies into an abstraction that cleanly describes the resulting non-standard behavior. The goal of proxies is to facilitate integration of these specialized memory accesses into the general-purpose PTX programming model in a fully composable manner. 
 - The Leaky Semicolon: Compositional Semantic Dependencies for Relaxed-Memory Concurrency
 	- POPL 2022
 	- Alan Jeffrey, James Riely, Mark Batty, Simon Cooksey, Anton Podkopaev
