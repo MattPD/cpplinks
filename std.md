@@ -145,6 +145,11 @@
 - 2021 C++ Standardization Highlights
 	- https://botondballo.wordpress.com/2022/01/03/2021-c-standardization-highlights/
 
+### 2023-02 Issaquah
+
+- 2023-02 Issaquah ISO C++ Committee Trip Report — C++23 Is Done! 🎉
+	- https://old.reddit.com/r/cpp/comments/112ef9t/202302_issaquah_iso_c_committee_trip_report_c23/
+
 ### 2022-11 Kona
 
 - 2022-11 Kona ISO C++ Committee Trip Report — C++23 First Draft!
