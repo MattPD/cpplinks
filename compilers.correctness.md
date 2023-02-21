@@ -1490,6 +1490,12 @@ Validation: Including translation validation, equivalence checking.
 
 ## Verification: 2022
 
+- Formal Verification of Just-in-Time Compilation
+	- 2022 PhD Dissertation
+	- Aurèle Barrière
+	- https://theses.hal.science/tel-03987749
+	- Defense Recording
+		- https://www.youtube.com/watch?v=mbkF3BwenV4
 - Formally Verified Loop-Invariant Code Motion and Assorted Optimizations
 	- ACM Transactions on Embedded Computing Systems (TECS) 2022
 	- David Monniaux, Cyril Six
