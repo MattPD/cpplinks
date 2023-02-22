@@ -353,6 +353,9 @@ See also:
 		- DataFlowSanitizer - https://clang.llvm.org/docs/DataFlowSanitizer.html
 		- Hardware-assisted AddressSanitizer Design Documentation - https://clang.llvm.org/docs/HardwareAssistedAddressSanitizerDesign.html
 		- LeakSanitizer - https://clang.llvm.org/docs/LeakSanitizer.html
+			- All about LeakSanitizer
+				- 2023; MaskRay (Fangrui Song)
+				- https://maskray.me/blog/2023-02-12-all-about-leak-sanitizer
 		- MemorySanitizer - https://clang.llvm.org/docs/MemorySanitizer.html
 		- SanitizerCoverage - https://clang.llvm.org/docs/SanitizerCoverage.html
 			- SanCov: Above and Below the Sanitizer Interface
