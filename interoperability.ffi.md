@@ -277,6 +277,10 @@
 	- https://github.com/ThePhD/sol2
 	- Scripting at the Speed of Thought: Lua and C++ with sol3 - CppCon 2018; JeanHeyd Meneide
 		- https://www.youtube.com/watch?v=xQAmGBfKnas
+- Using Lua with C++ (and C)
+	- Elias Daler
+	- 2023-02-14
+	- https://edw.is/using-lua-with-cpp/
 
 ## Lua: Talks
 
