@@ -372,6 +372,9 @@ https://riscv.org/risc-v-books/
 	- A full-system RISC-V-based GPGPU processor
 	- RV32IMF
 	- https://github.com/vortexgpgpu/vortex
+- core-v-wally: Configurable RISC-V Processor (SystemVerilog)
+	- https://github.com/openhwgroup/cvw
+	- Wally is a 5-stage pipelined processor configurable to support all the standard RISC-V options, incluidng RV32/64, A, C, F, D, and M extensions, FENCE.I, and the various privileged modes and CSRs. It is written in SystemVerilog. It passes the RISC-V Arch Tests and boots Linux on an FPGA.
 - YARVI - Yet Another RISC-V Implementation (Verilog)
 	- https://github.com/tommythorn/yarvi
 	- https://www.cl.cam.ac.uk/teaching/1516/ECAD+Arch/exercise-yarvi.html
