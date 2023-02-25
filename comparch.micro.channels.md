@@ -64,6 +64,10 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.usenix.org/conference/usenixsecurity23/presentation/zhangruiyi
 	- https://publications.cispa.saarland/3769/1/mwait_sec23.pdf
 	- https://github.com/cispa/mwait
+- Remote Side-Channel Attacks and Defenses
+	- 2023 PhD Dissertation
+	- Martin Schwarzl
+	- https://martinschwarzl.at/media/files/thesis_main.pdf
 
 ## General: 2022
 
