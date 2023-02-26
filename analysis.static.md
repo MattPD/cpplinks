@@ -80,11 +80,6 @@ See also:
 	- https://web.stanford.edu/~mlfbrown/paper.pdf
 	- http://lambda-the-ultimate.org/node/5348
 	- https://blog.acolyer.org/2016/05/31/how-to-build-static-checking-systems-using-orders-of-magnitude-less-code/
-- Lessons from Building Static Analysis Tools at Google
-	- Communications of the ACM, Vol. 61 No. 4, 2018
-	- Caitlin Sadowski, Edward Aftandilian, Alex Eagle, Liam Miller-Cushon, Ciera Jaspan
-	- https://cacm.acm.org/magazines/2018/4/226371-lessons-from-building-static-analysis-tools-at-google/abstract
-	- https://research.google.com/pubs/pub46576.html
 - Object Model Construction for Inheritance in C++ and Its Applications to Program Analysis
 	- Compiler Construction (CC) 2012
 	- Yang, Jing, Gogul Balakrishnan, Naoto Maeda, Franjo Ivancic, Aarti Gupta, Nishant Sinha, Sriram Sankaranarayanan, Naveen Sharma
@@ -174,6 +169,20 @@ See also: [Compilers Correctness](https://github.com/MattPD/cpplinks/blob/master
 	- Computer Security Foundations Symposium 2017
 	- Gilles Barthe, Sandrine Blazy, Vincent Laporte, David Pichardie, Alix Trieu
 	- https://hal.inria.fr/hal-01588422/
+
+## Readings: Research: Usability
+
+- A Large-Scale Study of Usability Criteria Addressed by Static Analysis Tools
+	- International Symposium on Software Testing and Analysis (ISSTA) 2022
+	- Marcus Nachtigall, Michael Schlichtig, Eric Bodden
+	- https://doi.org/10.1145/3533767.3534374
+	- https://www.bodden.de/pubs/nsb22large.pdf
+	- https://sites.google.com/view/datatoolsurvey/
+- Lessons from Building Static Analysis Tools at Google
+	- Communications of the ACM, Vol. 61 No. 4, 2018
+	- Caitlin Sadowski, Edward Aftandilian, Alex Eagle, Liam Miller-Cushon, Ciera Jaspan
+	- https://cacm.acm.org/magazines/2018/4/226371-lessons-from-building-static-analysis-tools-at-google/abstract
+	- https://research.google.com/pubs/pub46576.html
 
 ---
 
