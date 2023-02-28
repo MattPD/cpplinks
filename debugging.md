@@ -261,6 +261,15 @@ _Books, Books Reviews_
 - (Windows) Data Breakpoints - https://blogs.msdn.microsoft.com/reiley/2011/07/21/data-breakpoints/
 - (Windows) Side Effects of Debugger - https://blogs.msdn.microsoft.com/reiley/2011/08/27/side-effects-of-debugger/
 
+### Implementation: 2023
+
+- D2X: An eXtensible conteXtual Debugger for Modern DSLs
+	- CGO 2023
+	- Ajay Brahmakshatriya, Saman Amarasinghe
+	- https://dl.acm.org/doi/abs/10.1145/3579990.3580014
+	- http://groups.csail.mit.edu/commit/papers/2023/ajay-cgo23-d2x.pdf
+	- https://zenodo.org/record/7459640
+
 ### Correctness
 
 - Automatic Generation of Debug Headers through BlackBox Equivalence Checking
