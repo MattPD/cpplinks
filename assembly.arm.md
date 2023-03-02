@@ -119,6 +119,12 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Tim Hartley, Foivos S. Zakkak, Andy Nisbet, Christos Kotselidis, Mikel Luján
 	- https://dl.acm.org/doi/10.1145/3546568
 	- https://figshare.com/articles/dataset/Datasets_for_TACO_-_JIT_Compilation_on_ARM/20372304
+- Lasagne: A Static Binary Translator for Weak Memory Model Architectures
+	- Programming Language Design and Implementation (PLDI) 2022
+	- Rodrigo C. O. Rocha, Dennis Sprokholt, Martin Fink, Redha Gouicem, Tom Spink, Soham Chakraborty, Pramod Bhatotia
+	- https://dl.acm.org/doi/10.1145/3519939.3523719
+	- https://pldi22.sigplan.org/details/pldi-2022-pldi/52/Lasagne-A-Static-Binary-Translator-for-Weak-Memory-Model-Architectures
+	- https://www.youtube.com/watch?v=CbllhRN1Huk
 - Mixed-size Concurrency: ARM, POWER, C/C++11, and SC
 	- POPL 2017
 	- Shaked Flur, Susmit Sarkar, Christopher Pulte, Kyndylan Nienhuis, Luc Maranget, Kathryn E. Gray, Ali Sezgin, Mark Batty, Peter Sewell
