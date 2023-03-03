@@ -121,6 +121,14 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- Bor-Yuh Evan Chang, Adam Chlipala, George C. Necula, Robert R. Schneck
 	- http://adam.chlipala.net/papers/CoolaidTLDI05/
 
+### Debugging: 2023
+
+- MLIR Actions: Tracing and Debugging MLIR-based Compilers
+	- RFC
+		- https://discourse.llvm.org/t/rfc-mlir-action-tracing-and-debugging-mlir-based-compilers/68679
+	- Open MLIR Meeting 2023-02-23; Mehdi Amini
+		- https://www.youtube.com/watch?v=ayQSyekVa3c
+
 ### Debugging: 2022
 
 - LocSeq: Automated Localization for Compiler Optimization Sequence Bugs of LLVM
