@@ -331,6 +331,12 @@ _Books, Books Reviews_
 	- https://www.youtube.com/watch?v=SIYPYP06fY0
 	- https://convolv.es/talks/testing-debug-info/
 	- https://github.com/jryans/debug-info-issues
+- Where Did My Variable Go? Poking Holes in Incomplete Debug Information
+	- ASPLOS 2023
+	- Cristian Assaiante, Daniele Cono D'Elia, Giuseppe Antonio Di Luna, Leonardo Querzoni
+	- https://arxiv.org/abs/2211.09568
+	- https://dl.acm.org/doi/10.1145/3575693.3575720
+	- https://github.com/cristianassaiante/incomplete-debuginfo
 - Who is Debugging the Debuggers? Exposing Debug Information Bugs in Optimized Binaries
 	- ASPLOS 2021
 	- Giuseppe Antonio Di Luna, Davide Italiano, Luca Massarelli, Sebastian Osterlund, Cristiano Giuffrida, Leonardo Querzoni
