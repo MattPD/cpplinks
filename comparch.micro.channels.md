@@ -571,6 +571,14 @@ See also: [Computer Architecture](comparch.md)
 	- Drew Zagieboylo, G. Edward Suh, Andrew C. Myers
 	- http://www.cs.cornell.edu/andru/papers/hyperisa/
 
+### Defense: Hardware Design & Verification: 2023
+
+- ProSpeCT: Provably Secure Speculation for the Constant-Time Policy
+	- USENIX Security Symposium 2023
+	- Lesly-Ann Daniel, Marton Bognar, Job Noorman, Sébastien Bardin, Tamara Rezk, Frank Piessens
+	- https://arxiv.org/abs/2302.12108
+	- https://github.com/proteus-core/prospect
+
 ### Defense: Hardware Design & Verification: 2022
 
 - CellIFT: Leveraging Cells for Scalable and Precise Dynamic Information Flow Tracking in RTL
