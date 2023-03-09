@@ -422,6 +422,14 @@
 	- JetBrains Research Rus 2021
 		- https://www.youtube.com/watch?v=AsrckMUlIjY
 
+### Papers - Memory Model: 2023
+
+- AtoMig: Automatically Migrating Millions Lines of Code from TSO to WMM
+	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2023
+	- Martin Beck, Koustubha Bhat, Lazar Stricevic, Geng Chen, Diogo Behrens, Ming Fu, Viktor Vafeiadis, Haibo Chen, Hermann Härtig
+	- https://dl.acm.org/doi/10.1145/3575693.3579849
+	- https://people.mpi-sws.org/~viktor/papers/asplos2023-atomig.pdf
+
 ---
 
 # References
