@@ -154,6 +154,11 @@ https://riscv.org/risc-v-books/
 	- How to read a RISC-V Vector assembly instruction
 		- https://fprox.substack.com/p/how-to-read-risc-v-vector-assembly
 
+### Instruction Set Architecture: Profiles
+
+- Sneak peek at RISC-V RVA23(U64) profile
+	- https://fprox.substack.com/p/risc-v-profile-rva23u64
+
 ## Simulation
 
 - Flexible Timing Simulation of RISC-V Processors with Sniper
