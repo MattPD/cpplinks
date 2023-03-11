@@ -579,6 +579,10 @@ See also:
 
 - LoaderLog: Small application that can be used to log loader snaps and other debug output
 	- https://github.com/TimMisiak/LoaderLog
+- memory-module-loader
+	- An implementation of a Windows loader that can load dynamic-linked libraries (DLLs) directly from memory
+	- https://github.com/scythe-io/memory-module-loader
+	- https://scythe.io/library/loading-capabilities-from-memory-open-sourcing-scythes-windows-c-in-memory-module-loader
 
 ---
 
