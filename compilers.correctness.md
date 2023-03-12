@@ -1601,6 +1601,11 @@ Validation: Including translation validation, equivalence checking.
 
 ## Verification: Talks
 
+- CompCert: A Journey through the Landscape of Mechanized Semantics for Verified Compilation
+	- Certified Programs and Proofs (CPP) 2023 (Keynote)
+	- Sandrine Blazy
+	- https://www.youtube.com/watch?v=9KhagyiGQ_A
+	- https://popl23.sigplan.org/details/CPP-2023-papers/26/CompCert-a-journey-through-the-landscape-of-mechanized-semantics-for-verified-compil
 - Verifying optimizations using SMT solvers
 	- 2013 LLVM Developers’ Meeting; Nuno Lopes
 	- https://www.youtube.com/watch?v=njav5YxXaCs
