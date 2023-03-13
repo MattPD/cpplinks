@@ -271,6 +271,13 @@ See also: [Computer Architecture](comparch.md)
 
 ## Defense: Cache
 
+### Defense: Cache: 2022
+
+- Fast, Robust and Accurate Detection of Cache-Based Spectre Attack Phases
+	- ICCAD 2022
+	- Arash Pashrashid, Ali Hajiabadi, Trevor E. Carlson
+	- https://doi.org/10.1145/3508352.3549330
+
 ### Defense: Cache: 2021
 
 - Battle for Secure Caches: Attacks and Defenses on Randomized Caches
