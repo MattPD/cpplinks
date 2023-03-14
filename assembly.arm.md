@@ -767,9 +767,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- SVE & SVE2: <https://developer.arm.com/architectures/instruction-sets/intrinsics/#f:@navigationhierarchiessimdisa=[sve,sve2]>
 - Arm HPC tools for SVE
 	- https://developer.arm.com/tools-and-software/server-and-hpc/compile/arm-instruction-emulator/resources/tutorials/sve
-- Arm SVE Tools Training
-	- https://gitlab.com/arm-hpc/training/arm-sve-tools
-- ARM’s Scalable Vector Extensions: A Critical Look at SVE2 For Integer Workloads
+- Arm’s Scalable Vector Extensions: A Critical Look at SVE2 For Integer Workloads
 	- https://gist.github.com/zingaburga/805669eb891c820bd220418ee3f0d6bd
 - Asvie: A Timing-Agnostic SVE Optimization Methodology
 	- Methodology for ArmIE SVE
@@ -780,15 +778,6 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 		- https://doi.org/10.1109/ProTools49597.2019.00007
 - Porting and Optimizing HPC Applications for Arm SVE Documentation
 	- https://developer.arm.com/documentation/101726
-- How to use LLDB to debug SVE enabled applications
-	- https://www.linaro.org/blog/how-to-use-lldb-to-debug-sve-enabled-applications/
-- Introduction to Arm SVE
-	- HiPEAC 2021; John Linford
-	- https://www.youtube.com/watch?v=mVdeE2Qbm2I
-	- https://montblanc-project.eu/wp-content/uploads/2021/01/MB2020-HiPEAC_2021-JLinford-SVE.pdf
-- Mastering the Arm HPC ecosystem
-	- CEA-RIKEN HPC school (June 2019)
-	- https://indico.math.cnrs.fr/event/4705/
 - Scalable Vector Extension (SVE)
 	- https://community.arm.com/processors/b/blog/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture
 	- https://developer.arm.com/hpc/a-sneak-peek-into-sve-and-vla-programming
@@ -799,8 +788,6 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 		- <https://community.arm.com/cfs-file/__key/telligent-evolution-components-attachments/01-2142-00-00-00-01-20-49/ARMv8_2D00_A-SVE-technology-Hot-Chips-v12.pdf>
 - Scalable Vector Extension support for AArch64 Linux
 	- https://www.kernel.org/doc/html/latest/arm64/sve.html
-- SVE Programming Examples
-	- https://developer.arm.com/documentation/dai0548/latest/
 - The ARM Scalable Vector Extension
 	- IEEE Micro, March 2017
 	- Nigel Stephens, Stuart Biles, Matthias Boettcher, Jacob Eapen, Mbou Eyole, Giacomo Gabrielli, Matt Horsnell, Grigorios Magklis, Alejandro Martinez, Nathanael Premillieu, Alastair Reid, Alejandro Rico, Paul Walker
@@ -839,15 +826,36 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 #### Scalable Vector Extension (SVE): LLVM Implementation
 
-* Road to SVE enablement in LLDB
+- Road to SVE enablement in LLDB
 	- Linaro Connect San Diego 2019; Omair Javaid
 	- https://connect.linaro.org/resources/san19/san19-204/
-* Scalable Vectorization for LLVM
+- Scalable Vectorization for LLVM
 	- 2016 LLVM Developers’ Meeting; Amara Emerson & Graham Hunter, ARM
 	- https://www.youtube.com/watch?v=0up2hJk7k94
 	- http://llvm.org/devmtg/2016-11/Slides/Emerson-ScalableVectorizationinLLVMIR.pdf
-* SVE/SVE2 Patches on Phabricator
+- SVE/SVE2 Patches on Phabricator
 	- https://docs.google.com/document/d/1ph1l1KhrrHgBlrKeEnuoIPrVO9jTjHvcwUlz61QWNMA
+
+#### Scalable Vector Extension (SVE): Tutorials
+
+- Arm SVE Tools Training
+	- https://gitlab.com/arm-hpc/training/arm-sve-tools
+	- Hands-on training materials for Arm compilers, libraries, and tools related to SVE
+- Hands on: Try Arm SVE on Docker
+	- Tutorials for Arm SVE on Docker
+	- https://github.com/kaityo256/xbyak_aarch64_handson
+- How to use LLDB to debug SVE enabled applications
+	- https://www.linaro.org/blog/how-to-use-lldb-to-debug-sve-enabled-applications/
+- Introduction to Arm SVE
+	- HiPEAC 2021; John Linford
+	- https://www.youtube.com/watch?v=mVdeE2Qbm2I
+	- https://montblanc-project.eu/wp-content/uploads/2021/01/MB2020-HiPEAC_2021-JLinford-SVE.pdf
+- Mastering the Arm HPC ecosystem
+	- CEA-RIKEN HPC school (June 2019)
+	- https://indico.math.cnrs.fr/event/4705/
+- SVE Programming Examples
+	- Learn the architecture - SVE and SVE2 programming examples
+	- https://developer.arm.com/documentation/dai0548/latest/
 
 ## References: Toolchains
 
