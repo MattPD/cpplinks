@@ -4,7 +4,7 @@
 
 - [Readings](#readings): [Blogs](#blogs-posts-and-series), [Documentation](#documentation), [Papers](#papers), [References](#references), [StackOverflow](#stackoverflow-questions)
 - [Software](#software): [Benchmarks](#benchmarks), [Libraries](#libraries), [Tools](#tools)
-- [Talks](#talks): [2022](#2022), [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
+- [Talks](#talks): [2023](#2023), [2022](#2022), [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
 
 ---
 
@@ -190,6 +190,13 @@
 	- 2022-2023; Bill Demirkapi
 	- https://billdemirkapi.me/exception-oriented-programming-abusing-exceptions-for-code-execution-part-1/
 	- https://billdemirkapi.me/abusing-exceptions-for-code-execution-part-2/
+- Let Me Unwind That For You: Exceptions to Backward-Edge Protection
+	- Network and Distributed System Security (NDSS) 2023
+	- Victor Duta, Fabian Freyer, Fabio Pagani, Marius Muench, Cristiano Giuffrida
+	- https://www.ndss-symposium.org/ndss-paper/let-me-unwind-that-for-you-exceptions-to-backward-edge-protection/
+	- https://ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s295_paper.pdf
+	- CHOP: Catch Handler Oriented Programming
+		- https://github.com/chop-project/chop
 
 ## Documentation
 
