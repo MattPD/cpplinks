@@ -205,7 +205,7 @@
 		- http://proceedings.mlr.press/v97/mendis19a.html
 - llvm-exegesis – LLVM Machine Instruction Benchmark
 	- https://llvm.org/docs/CommandGuide/llvm-exegesis.html
-	- https://github.com/llvm-mirror/llvm/tree/master/tools/llvm-exegesis
+	- https://github.com/llvm/llvm-project/tree/main/llvm/tools/llvm-exegesis
 	- Static Performance Analysis with LLVM
 		- 2018 European LLVM Developers Meeting
 		- C. Courbet, O. Sykora, G. Chatelet, B. De Backer
@@ -218,7 +218,7 @@
 		- http://llvm.org/devmtg/2018-04/slides/Chatelet-Measuring%20x86%20instruction%20latencies%20with%20LLVM.pdf
 - llvm-mca - LLVM Machine Code Analyzer
 	- https://llvm.org/docs/CommandGuide/llvm-mca.html
-	- https://github.com/llvm-mirror/llvm/tree/master/tools/llvm-mca
+	- https://github.com/llvm/llvm-project/tree/main/llvm/tools/llvm-mca
 	- Understanding the performance of code using LLVM's Machine Code Analyzer (llvm-mca)
 		- 2018 LLVM Developers’ Meeting; Andrea Di Biagio & Matt Davis
 		- https://www.youtube.com/watch?v=Ku2D8bjEGXk
