@@ -149,6 +149,13 @@ http://grail.cba.csuohio.edu/~somos/asmx86.html
 Useful assembly links
 http://www.agner.org/optimize/#links
 
+# Performance
+
+- Precise Event Sampling on AMD vs Intel: Quantitative and Qualitative Comparison
+	- IEEE Transactions on Parallel and Distributed Systems 2023
+	- Muhammad Aditya Sasongko, Milind Chabbi, Paul H J Kelly, Didem Unat
+	- https://ieeexplore.ieee.org/document/10068807
+
 # References
 
 Agner Fog: Software optimization resources  
