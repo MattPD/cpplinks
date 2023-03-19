@@ -1290,8 +1290,6 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	- Rekkrunchy: fork of rygs kkrunchy_k7 0.23a4/asm07, with patches
 		- fixed pdb loading, pack ratio analysis 
 		- https://github.com/ConspiracyHu/rekkrunchy-with-analytics
-- pe_armor: Metamorphic PE packer generated and assembled by a Python code
-	- https://github.com/DimitriFourny/resources/tree/master/pe_armor
 - squishy: a modern pc 64k intro packer
 	- http://logicoma.io/squishy/
 	- modern 64k intro compression
