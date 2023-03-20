@@ -39,6 +39,7 @@ See also: [Computer Architecture](comparch.md)
 - [SMT](#smt)
 - [Speculation](#speculation)
 - [Store Buffer](#store-buffer)
+- [Superscalar](#superscalar)
 - [Thermal](#thermal)
 - [Translation Lookaside Buffer (TLB)](#translation-lookaside-buffer-tlb)
 - [Trusted Execution Environments (TEEs)](#trusted-execution-environments-tees): [Arm TrustZone](#arm-trustzone), [Intel SGX](#intel-sgx)
@@ -2473,6 +2474,17 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Marina Minkin, Daniel Moghimi, Moritz Lipp, Michael Schwarz, Jo Van Bulck, Daniel Genkin, Daniel Gruss, Frank Piessens, Berk Sunar, Yuval Yarom
 	- https://arxiv.org/abs/1905.12701
 	- CVE-2018-12126 - Microarchitectural Store Buffer Data Sampling (MSBDS) - Fallout
+
+---
+
+# Superscalar
+
+- CPU Port Contention Without SMT
+	- European Symposium on Research in Computer Security (ESORICS) 2022
+	- Thomas Rokicki, Clémentine Maurice, Michael Schwarz
+	- https://hal.science/hal-03798342
+	- https://github.com/MIAOUS-group/port-contention-without-smt
+	- https://link.springer.com/chapter/10.1007/978-3-031-17143-7_11
 
 ---
 
