@@ -153,6 +153,8 @@ https://riscv.org/risc-v-books/
 		- https://fprox.blogspot.com/2022/09/riscv-vector-extension-part5-2-load-store-memory.html
 	- How to read a RISC-V Vector assembly instruction
 		- https://fprox.substack.com/p/how-to-read-risc-v-vector-assembly
+	- RISC-V Vector Register Groups
+		- https://fprox.substack.com/p/risc-v-vector-register-groups
 
 ### Instruction Set Architecture: Profiles
 
