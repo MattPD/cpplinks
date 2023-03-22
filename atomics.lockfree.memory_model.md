@@ -3,6 +3,7 @@
 # Contents
 
 - [Data Structures](#data-structures): [Readings](#data-structures-readings), [Software](#data-structures-software), [Talks](#data-structures-talks)
+- [Memory Reclamation](#memory-reclamation)
 - [Readings](#readings)
 - [References](#references)
 - [Software](#software): [Performance](#software-performance)
@@ -108,6 +109,26 @@
 	- Matt Kulukundis
 	- https://www.youtube.com/watch?v=_qaKkHuHYE0
 	- https://fowles.github.io/building-a-lock-free-mpmc-queue/
+
+---
+
+# Memory Reclamation
+
+- Concurrent Deferred Reference Counting
+	- https://github.com/cmuparlay/concurrent_deferred_rc
+	- Smarter Atomic Smart Pointers: Efficient Concurrent Memory Management
+		- CppCon 2022
+		- Daniel Anderson
+		- https://www.youtube.com/watch?v=OS7Asaa6zmY
+	- Turning Manual Concurrent Memory Reclamation into Automatic Reference Counting
+		- Programming Language Design and Implementation (PLDI) 2022
+		- Daniel Anderson, Guy E. Blelloch, Yuanhao Wei
+		- https://arxiv.org/abs/2204.05985
+		- https://doi.org/10.1145/3519939.3523730
+	- Concurrent Deferred Reference Counting with Constant-Time Overhead
+		- Programming Language Design and Implementation (PLDI) 2021
+		- Daniel Anderson, Guy E. Blelloch, Yuanhao Wei
+		- https://doi.org/10.1145/3453483.3454060
 
 ---
 
