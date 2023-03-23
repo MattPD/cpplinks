@@ -481,6 +481,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- NNSmith: Automatic DNN generation for fuzzing and more
 		- https://nnsmith-asplos.readthedocs.io/en/latest/
 		- https://github.com/ise-uiuc/nnsmith
+- FUZZILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities
+	- Network and Distributed Systems Security (NDSS) Symposium 2023
+	- Samuel Groß, Simon Koch, Lukas Bernhard, Thorsten Holz, Martin Johns
+	- https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/
+	- https://github.com/evaluating-fuzzilli-for-js-jit-fuzzing
+	- https://github.com/googleprojectzero/fuzzilli
 
 #### Testing: Readings: Fuzzing: 2022
 
