@@ -278,6 +278,12 @@ _Books, Books Reviews_
 	- https://doi.org/10.1109/CGO53902.2022.9741273
 	- https://doi.org/10.5281/zenodo.5788478
 	- https://sorav.compiler.ai/pubs/debugheaders.pdf
+- Compilation Consistency Modulo Debug Information
+	- ASPLOS 2023
+	- Theodore Luo Wang, Yongqiang Tian, Yiwen Dong, Zhenyang Xu, Chengnian Sun
+	- https://dl.acm.org/doi/10.1145/3575693.3575740
+	- https://chengniansun.bitbucket.io/public/publication/asplos23/
+	- https://doi.org/10.5281/zenodo.7217505
 - Debugging Debug Information with Neural Networks
 	- IEEE Access (2022)
 	- Fiorella Artuso, Giuseppe Antonio Di Luna, Leonardo Querzoni
