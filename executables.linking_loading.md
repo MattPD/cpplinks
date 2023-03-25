@@ -119,6 +119,8 @@ See also:
 		- https://maskray.me/blog/2022-02-27-analysis-and-introspection-options-in-linkers
 	- COMDAT and section group
 		- https://maskray.me/blog/2021-07-25-comdat-and-section-group
+	- Linker notes on AArch64
+		- https://maskray.me/blog/2023-03-05-linker-notes-on-aarch64
 - Nick Desaulniers
 	- Part 1 – Object Files and Symbols - https://nickdesaulniers.github.io/blog/2016/08/13/object-files-and-symbols/
 	- Part 2 – Static and Dynamic Libraries - https://nickdesaulniers.github.io/blog/2016/11/20/static-and-dynamic-libraries/
