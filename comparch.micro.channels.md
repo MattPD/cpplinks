@@ -2124,6 +2124,12 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 
 # Scheduler
 
+- Hacky Racers: Exploiting Instruction-Level Parallelism to Generate Stealthy Fine-Grained Timers
+	- ASPLOS 2023
+	- Haocheng Xiao, Sam Ainsworth
+	- https://arxiv.org/abs/2211.14647
+	- https://dl.acm.org/doi/10.1145/3575693.3575700
+	- https://github.com/FxPiGaAo/Hacky-Racer
 - SQUIP: Exploiting the Scheduler Queue Contention Side Channel
 	- IEEE S&P 2023
 	- Stefan Gast, Jonas Juffinger, Martin Schwarzl, Gururaj Saileshwar, Andreas Kogler, Simone Franza, Markus Köstl, Daniel Gruss
