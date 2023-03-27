@@ -155,6 +155,8 @@ https://riscv.org/risc-v-books/
 		- https://fprox.substack.com/p/how-to-read-risc-v-vector-assembly
 	- RISC-V Vector Register Groups
 		- https://fprox.substack.com/p/risc-v-vector-register-groups
+	- RISC-V Vector Element Groups
+		- https://fprox.substack.com/p/risc-v-vector-element-groups
 
 ### Instruction Set Architecture: Profiles
 
