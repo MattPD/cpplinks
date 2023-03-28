@@ -18,6 +18,7 @@ See also:
 	- [Readings](https://github.com/MattPD/cpplinks/blob/master/analysis.dynamic.md#dynamic-binary-instrumentation-dbi-readings)
 	- [Software](https://github.com/MattPD/cpplinks/blob/master/analysis.dynamic.md#dynamic-binary-instrumentation-dbi-software)
 - [Dynamic Binary Translation (DBT)](#dynamic-binary-translation-dbt)
+- [Readings](#readings)
 - [Software](#software):
 	- [Frida](#software-frida)
 	- [Pin](#software-pin)
@@ -235,6 +236,17 @@ See also:
 	- 2019 USENIX Annual Technical Conference
 	- Changheng Song, Wenwen Wang, Pen-Chung Yew, Antonia Zhai, Weihua Zhang
 	- https://www.usenix.org/conference/atc19/presentation/song
+
+---
+
+# Readings
+
+- Finding Unstable Code via Compiler-Driven Differential Testing
+	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2023
+	- Shaohua Li, Zhendong Su
+	- https://dl.acm.org/doi/10.1145/3582016.3582053
+	- CompDiff: a tool that implements compiler-driven differential testing on top of AFL++
+		- https://github.com/shao-hua-li/compdiff
 
 ---
 
