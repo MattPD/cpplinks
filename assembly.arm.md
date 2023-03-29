@@ -473,6 +473,14 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 * TCP Bind Shell in Assembly (ARM 32-bit)
 	+ https://azeria-labs.com/tcp-bind-shell-in-assembly-arm-32-bit/
 
+### Security: Arm Confidential Compute Architecture (CCA)
+
+- Design and Verification of the Arm Confidential Compute Architecture
+	- USENIX Symposium on Operating Systems Design and Implementation (OSDI) 2022
+	- Xupeng Li, Xuheng Li, Christoffer Dall, Ronghui Gu, Jason Nieh, Yousuf Sait, Gareth Stockwell
+	- https://www.usenix.org/conference/osdi22/presentation/li
+	- https://github.com/columbia/VIA
+
 ### Security: Debugging
 
 - Revisiting ARM Debugging Features: Nailgun and Its Defense
