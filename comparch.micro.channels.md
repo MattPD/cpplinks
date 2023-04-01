@@ -595,6 +595,10 @@ See also: [Computer Architecture](comparch.md)
 	- https://comsec.ethz.ch/research/microarch/cellift/
 	- https://comsec.ethz.ch/wp-content/files/cellift_sec22.pdf
 	- https://github.com/comsec-group/cellift-meta
+- Delay-on-Squash: Stopping Microarchitectural Replay Attacks in Their Tracks
+	- ACM Transactions on Architecture and Code Optimization (TACO), Vol. 20, No. 1, Article 9. 2022
+	- Christos Sakalis, Stefanos Kaxiras, Magnus Själander
+	- https://doi.org/10.1145/3563695
 
 ## Defense: Power
 
