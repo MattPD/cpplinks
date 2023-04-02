@@ -55,7 +55,7 @@ See also:
 - libc++
 	- Debug Mode: https://libcxx.llvm.org/docs/DesignDocs/DebugMode.html
 	- GDB pretty-printers for libc++
-		- https://github.com/llvm/llvm-project/blob/master/libcxx/utils/gdb/libcxx/printers.py
+		- https://github.com/llvm/llvm-project/blob/main/libcxx/utils/gdb/libcxx/printers.py
 		- https://github.com/koutheir/libcxx-pretty-printers
 - Visual C++ Debug Iterator Support: https://docs.microsoft.com/en-us/cpp/standard-library/debug-iterator-support
 
@@ -132,9 +132,9 @@ _Books, Books Reviews_
 - Effective Debugging - https://www.spinellis.gr/debugging/
 - Four Books on Debugging - https://blog.regehr.org/archives/849
 - Geoff Wozniak
-	- On battle scars and debugging - http://wozniak.ca/blog/2018/01/15/On-battle-scars-and-debugging/
-	- From intuition to methodology in debugging - http://wozniak.ca/blog/2018/02/04/From-intuition-to-methodology-in-debugging/
-	- Formalizing debugging - https://wozniak.ca/blog/2018/03/25/Book-review-Formalizing-debugging/
+	- On battle scars and debugging - https://wozniak.ca/blog/2018/01/15/1/
+	- From intuition to methodology in debugging - https://wozniak.ca/blog/2018/02/04/1/
+	- Formalizing debugging - https://wozniak.ca/blog/2018/03/25/1/
 	- The puzzling empathy of debugging - https://wozniak.ca/blog/2018/05/07/1/
 	- Retro debugging - https://wozniak.ca/blog/2019/01/04/1/
 - The Debugging Book: Tools and Techniques for Automated Software Debugging
@@ -220,7 +220,7 @@ _Books, Books Reviews_
 	- Getting and Setting x86 Registers, Part 1 - https://www.moritz.systems/blog/how-debuggers-work-getting-and-setting-x86-registers-part-1/
 	- Getting and Setting x86 Registers, Part 2: XSAVE - https://www.moritz.systems/blog/how-debuggers-work-getting-and-setting-x86-registers-part-2/
 - How do debuggers keep track of the threads in your program?
-	- http://timetobleed.com/how-do-debuggers-keep-track-of-the-threads-in-your-program/
+	- https://web.archive.org/http://timetobleed.com/how-do-debuggers-keep-track-of-the-threads-in-your-program/
 - How to code debuggers - Tomasz Wegrzanowski - https://t-a-w.blogspot.com/2007/03/how-to-code-debuggers.html
 - Making a low level (Linux) debugger
 	- part 1: assembly - https://web.archive.org/https://blog.asrpo.com/making_a_low_level_debugger
@@ -322,7 +322,6 @@ _Books, Books Reviews_
 - Proving the Correctness of Algorithmic Debugging for Functional Programs
 	- Trends in Functional Programming (TFP) 2006
 	- Olaf Chitil, Yong Luo
-	- http://www.cs.nott.ac.uk/~psznhn/TFP2006/Papers/23-ChitilLuo-ProvingCorrectnessOfDeclarativeDebugging.pdf
 	- https://www.cs.kent.ac.uk/pubs/2007/2863/content.pdf
 - Secure Delivery of Program Properties Through Optimizing Compilation
 	- ACM International Conference on Compiler Construction (CC) 2020
@@ -390,12 +389,13 @@ _Books, Books Reviews_
 - Debug Frame Checking: Check `.eh_frame` and `.debug_frame` information
 	- https://github.com/francesco-zappa-nardelli/eh_frame_check
 - DExTer (Debugging Experience Tester)
+	- https://github.com/llvm/llvm-project/tree/main/cross-project-tests/debuginfo-tests/dexter
 	- https://github.com/SNSystems/dexter
 	- Measuring the User Debugging Experience
 		- 2018 European LLVM Developers Meeting; Greg Bedwell
 		- https://www.youtube.com/watch?v=XRT_GmpGjXE
 		- https://llvm.org/devmtg/2018-04/slides/Bedwell-Measuring_the_User_Debugging_Experience.pdf
-		- http://llvm.org/devmtg/2018-04/slides/Bedwell-Measuring_the_User_Debugging_Experience_poster.png
+		- https://llvm.org/devmtg/2018-04/slides/Bedwell-Measuring_the_User_Debugging_Experience_poster.png
 		- https://www.snsystems.com/technology/tech-blog/measuring-the-user-debug-experience
 - Feedback-Directed Differential Testing of Interactive Debuggers
 	- ESEC/FSE 2018
@@ -424,7 +424,6 @@ _Books, Books Reviews_
 - lldb-repro: a utility to transparently capture and replay debugger sessions through the command line driver
 	- used to test the reproducers by running the test suite twice
 	- https://github.com/llvm/llvm-project/tree/main/lldb/utils/lldb-repro
-	- https://lldb.llvm.org/resources/reproducers.html
 	- An Introduction to LLDB Reproducers
 		- https://pspdfkit.com/blog/2020/an-introduction-to-lldb-reproducers/
 - Samy Al Bahra, Backtrace
@@ -523,21 +522,20 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ## Transparency
 
-- 2017 - Ninja: Towards Transparent Tracing and Debugging on ARM
+- Ninja: Towards Transparent Tracing and Debugging on ARM
 	- USENIX Security 2017
 	- Zhenyu Ning, Fengwei Zhang
 	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/ning
-	- http://www.cs.wayne.edu/fengwei/paper/ninja-usenixsecurity17.pdf
-- 2016 - Towards Transparent Debugging
-	- IEEE Transactions on Dependable and Secure Computing (TDSC'16), 2016.
+- Towards Transparent Debugging
+	- IEEE Transactions on Dependable and Secure Computing (TDSC) 2016
 	- Fengwei Zhang, Kevin Leach, Angelos Stavrou, and Haining Wang
 	- https://doi.org/10.1109/TDSC.2016.2545671
-	- http://webpages.eng.wayne.edu/~fy8421/paper/malt-tdsc18.pdf
-- 2015 - Using Hardware Features for Increased Debugging Transparency
-	- 36th IEEE Symposium on Security and Privacy (S&P'15), 2015
+	- https://compass.sustech.edu.cn/paper/malt-tdsc18.pdf
+- Using Hardware Features for Increased Debugging Transparency
+	- 36th IEEE Symposium on Security and Privacy (S&P) 2015
 	- Fengwei Zhang, Kevin Leach, Angelos Stavrou, Haining Wang, and Kun Sun
 	- https://doi.org/10.1109/SP.2015.11
-	- http://webpages.eng.wayne.edu/~fy8421/paper/malt-sp15.pdf
+	- https://compass.sustech.edu.cn/paper/malt-sp15.pdf
 
 ---
 
@@ -601,14 +599,15 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://github.com/vivisect/vivisect
 	- documentation: http://fitblip.pub/vdb-fork/sphinx/
 	- fork & documentation: http://fitblip.pub/vdb-fork/
-	- Using a Custom VDB Debugger for Exploit Analysis - https://www.fireeye.com/blog/threat-research/2013/02/custom-vdb-debugger-exploit-analysis.html
+	- Using a Custom VDB Debugger for Exploit Analysis
+		- https://web.archive.org/web/20210921035401/https://www.fireeye.com/blog/threat-research/2013/02/custom-vdb-debugger-exploit-analysis.html
 	- Malware Analysis with Vivisect
 		- Colin Williams; NEST
 		- https://web.archive.org/http://nest.unm.edu/files/5514/1254/9114/Malware_Analysis_with_Vivsect.pdf
 	- Binary Vivisection
-		- https://www.singlehop.com/blog/binary-vivisection-part-1/
-		- https://www.singlehop.com/blog/binary-vivisection-part-2/
-		- https://www.singlehop.com/blog/binary-vivisection-part-3/
+		- http://www.singlehop.com/blog/binary-vivisection-part-1/
+		- http://www.singlehop.com/blog/binary-vivisection-part-2/
+		- http://www.singlehop.com/blog/binary-vivisection-part-3/
 	- FireEye Labs Query-Oriented Debugger
 		- Command-line and Python debugger for instrumenting and modifying native software behavior on Windows and Linux
 		- https://github.com/fireeye/flare-qdb
@@ -677,7 +676,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://github.com/hugsy/gef-scripts
 	- https://github.com/hugsy/gef-structs
 	- GEF Tutorials - https://www.youtube.com/playlist?list=PLjAuO31Rg972WeMvdR_57Qu-aVM8T6DkQ
-	- https://blahcat.github.io/2017/08/01/gef-at-black-hat-arsenal-us-2017/
+	- https://blahcat.github.io/posts/2017/08/01/gef-at-black-hat-arsenal-us-2017.html
 	- https://github.com/toolswatch/blackhat-arsenal-tools/blob/master/exploitation/gef.md
 - libdebugme: Automatically drop to gdb on error
 	- https://github.com/yugr/libdebugme
@@ -816,7 +815,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 #### GDB: Readings: Python API
 
 - GDB Custom Commands: Dynamic Arrays
-	- https://testfit.io/devblog/gdb_custom_commands_dynamic_arrays
+	- https://portal.testfit.io/devblog/gdb_custom_commands_dynamic_arrays
 - GDB Debugging Automation with Python: Implementing a memory leak detector
 	- https://web.archive.org/https://nativecoding.wordpress.com/2016/07/31/gdb-debugging-automation-with-python/
 - GDB Scripting and Indirect Functions
@@ -1126,7 +1125,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://github.com/ptesarik/libkdumpfile
 - libthread_db
 	- Notes about an odd, esoteric, yet incredibly useful library: libthread_db
-		- http://timetobleed.com/notes-about-an-odd-esoteric-yet-incredibly-useful-library-libthread_db/
+		- https://web.archive.org/http://timetobleed.com/notes-about-an-odd-esoteric-yet-incredibly-useful-library-libthread_db/
 - LIKE-DBG (LInux-KErnel-DeBuGger): Fully dockerized Linux kernel debugging environment
 	- https://github.com/0xricksanchez/like-dbg
 - ORC (Oops Rewind Capability) Unwinder
@@ -1288,7 +1287,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://blog.talosintelligence.com/2019/02/windbg-malware-analysis-with-javascript.html
 - Stupid debugger tricks: Calling functions and methods - https://blogs.msdn.microsoft.com/oldnewthing/20070427-00/?p=27083
 - Time travel debugging: It’s a blast! (from the past)
-	- https://blogs.technet.microsoft.com/srd/2019/05/29/time-travel-debugging-its-a-blast-from-the-past/
+	- https://msrc.microsoft.com/blog/2019/05/time-travel-debugging-its-a-blast-from-the-past/
 - Tutorial: Using WinDBG to call arbitrary functions — WinDBG kung-fu series
 	- http://cfc.kizzx2.com/index.php/tutorial-using-windbg-to-call-arbitrary-functions-windbg-kung-fu-series/
 - Undocumented WinDBG - https://blogs.msdn.microsoft.com/reiley/2011/10/30/undocumented-windbg/
@@ -1296,7 +1295,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Using Function Evaluation in WinDBG - https://blogs.msdn.microsoft.com/reiley/2012/08/18/using-function-evaluation-in-windbg/
 - Windbg automation and extensions - https://web.archive.org/https://nativecoding.wordpress.com/2016/01/10/automate-attach-to-process-on-windows-with-windbg/
 - WinDbg Malware Analysis Cheat Sheet
-	- https://oalabs.openanalysis.net/2019/02/18/windbg-for-malware-analysis/
+	- https://web.archive.org/https://oalabs.openanalysis.net/2019/02/18/windbg-for-malware-analysis/
 - WinDbg — the Fun Way
 	- Part 1: the basics of the new debugger data model — Using the new objects, having custom registers, searching and filtering output, declaring anonymous types and parsing lists and arrays
 		- https://medium.com/@yardenshafir2/windbg-the-fun-way-part-1-2e4978791f9b
@@ -1311,9 +1310,6 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - DbgModelCppLib: A header-only C++ library for producing and consuming data from the debugger data model
 	- https://github.com/Microsoft/WinDbg-Libraries/tree/master/DbgModelCppLib
 	- https://github.com/Microsoft/WinDbg-Samples/tree/master/DataModelHelloWorld/Cpp
-- PyKd - Python extension for WinDBG to access Debug Engine
-	- https://githomelab.ru/pykd/pykd
-	- windbg-pack: Set of python scripts for WinDBG - https://githomelab.ru/pykd/windbg-pack
 - TWindbg: PEDA-like debugger UI for WinDbg - https://github.com/bruce30262/TWindbg
 - WDBGARK: WinDBG Anti-RootKit extension - https://github.com/swwwolf/wdbgark
 - Winbagility: a tool to connect WinDbg on non /DEBUG Windows x64 systems
@@ -1338,7 +1334,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - CppCon 2017: Time Travel Debugging: Root Causing Bugs in Commercial Scale Software
 	- https://www.youtube.com/watch?v=l1YJTg_A914
 - Defrag Tools #186 - Time Travel Debugging - Advanced
-	- https://channel9.msdn.com/Shows/Defrag-Tools/Defrag-Tools-186-Time-Travel-Debugging-Advanced
+	- https://learn.microsoft.com/en-us/shows/defrag-tools/186-time-travel-debugging-advanced
 
 ## Stack Trace & Unwinding
 
@@ -1347,10 +1343,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Backward-cpp: a beautiful stack trace pretty printer for C++
 	- https://github.com/bombela/backward-cpp
 - Boost.Stacktrace
-	- http://boostorg.github.io/stacktrace/
 	- https://github.com/boostorg/stacktrace
 	- http://www.boost.org/doc/libs/release/doc/html/stacktrace.html
-- CppCon 2017: Dave Watson “C++ Exceptions and Stack Unwinding”
+- C++ Exceptions and Stack Unwinding
+	- CppCon 2017: Dave Watson
 	- https://www.youtube.com/watch?v=_Ivd3qzgT7U
 - libgcc_s (GNU) - https://gcc.gnu.org/onlinedocs/gccint/Libgcc.html
 	- Data Definitions for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-s-ddefs.html
@@ -1449,7 +1445,7 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 ## 2014
 
 - The VS Debugger: How It Works + Tips and Tricks - GoingNative 28 - Gabriel Ha, Gregg Miskelly, Steve Carroll
-	- https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-28-The-VS-Debugger-How-It-Works-Tips-and-Tricks
+	- https://learn.microsoft.com/en-us/shows/c9-goingnative/goingnative-28-vs-debugger-how-it-works-tips-tricks
 
 ## 2011
 
