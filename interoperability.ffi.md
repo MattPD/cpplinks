@@ -378,6 +378,9 @@
 		- https://2022.ecoop.org/details/truffle-2022/6/HPy-How-To-Design-a-C-API-For-Optimizing-Runtimes
 - libpy: Utilities for writing C++ extension modules
 	- https://github.com/quantopian/libpy
+- nanobind: tiny and efficient C++/Python bindings
+	- https://github.com/wjakob/nanobind
+	- https://nanobind.readthedocs.io/en/latest/
 - pybind11 — Seamless operability between C++11 and Python
 	- https://github.com/pybind/pybind11
 	- http://pybind11.readthedocs.io
