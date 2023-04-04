@@ -487,6 +487,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/
 	- https://github.com/evaluating-fuzzilli-for-js-jit-fuzzing
 	- https://github.com/googleprojectzero/fuzzilli
+- FuzzJIT: Towards Fuzzing JavaScript Engine JIT Compiler
+	- Junjie Wang, Zhiyi Zhang, Shuang Liu, Xiaoning Du, Junjie Chen
+	- USENIX Security Symposium 2023
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/wangjunjie
+	- https://github.com/SpaceNaN/fuzzjit
 - JITfuzz: Coverage-guided Fuzzing for JVM Just-in-Time Compilers
 	- International Conference on Software Engineering (ICSE) 2023
 	- Mingyuan Wu, Minghai Lu, Heming Cui, Junjie Chen, Yuqun Zhang, Lingming Zhang
