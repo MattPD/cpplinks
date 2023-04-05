@@ -12,6 +12,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	- [Instruction Set Architecture](#instruction-set-architecture)
 	- [Performance](#performance)
 	- [Security](#security):
+		- [Arm Confidential Compute Architecture (CCA)](#security-arm-confidential-compute-architecture-cca)
 		- [Memory Tagging Extension (MTE)](#memory-tagging-extension-mte)
 		- [Pointer Authentication](#pointer-authentication)
 		- [TrustZone](#trustzone)
@@ -475,6 +476,11 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ### Security: Arm Confidential Compute Architecture (CCA)
 
+- A verification methodology for the Arm Confidential Computing Architecture
+	- OOPSLA 2023
+	- Anthony C. J. Fox, Gareth Stockwell, Shale Xiong, Hanno Becker, Dominic P. Mulligan, Gustavo Petri, Nathan Chong
+	- https://dominicpm.github.io/publications/fox-verification-2023.pdf
+	- https://2023.splashcon.org/details/splash-2023-oopsla/14/A-verification-methodology-for-the-Arm-Confidential-Computing-Architecture
 - Design and Verification of the Arm Confidential Compute Architecture
 	- USENIX Symposium on Operating Systems Design and Implementation (OSDI) 2022
 	- Xupeng Li, Xuheng Li, Christoffer Dall, Ronghui Gu, Jason Nieh, Yousuf Sait, Gareth Stockwell
