@@ -79,6 +79,7 @@ See also:
 ## LLVM
 
 - A Tourist’s Guide to the LLVM Source Code - http://blog.regehr.org/archives/1453
+- How Clang Compiles a Function - https://blog.regehr.org/archives/1605
 - Life of an instruction in LLVM - http://eli.thegreenplace.net/2012/11/24/life-of-an-instruction-in-llvm
 	- Life of an instruction in Clang / LLVM - https://github.com/thegameg/llvm-life/
 - LLVM - Chris Lattner, The Architecture of Open Source Applications - http://www.aosabook.org/en/llvm.html
