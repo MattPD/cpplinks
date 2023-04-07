@@ -26,6 +26,7 @@ See also:
 	- [Autotools](#autotools)
 	- [Bazel](#bazel)
 	- [Boost.Build](#boost-build)
+	- [Buck2](#buck2)
 	- [build2](#build2)
 	- [CMake](#cmake):
 		- [CMake Examples](#cmake-examples)
@@ -588,6 +589,14 @@ See also:
 	- BoostCon 2011; Boris Schaeling
 	- https://www.youtube.com/watch?v=OgYwvzUUupM
 	- https://github.com/boostcon/2011_presentations/raw/master/mon/Boost.Build.pdf
+
+## Buck2
+
+- Buck2: A large-scale build tool
+	- C++, Python, Rust, Erlang, OCaml
+	- https://buck2.build/
+	- https://github.com/facebook/buck2
+	- https://engineering.fb.com/2023/04/06/open-source/buck2-open-source-large-scale-build-system/
 
 ## build2
 
