@@ -160,7 +160,11 @@ https://riscv.org/risc-v-books/
 
 ### Instruction Set Architecture: Profiles
 
+- RISC-V Profiles: Defining sets of extensions for coherent ecosystems
+	- 2023-03-22
+	- https://fprox.substack.com/p/risc-v-profiles
 - Sneak peek at RISC-V RVA23(U64) profile
+	- 2023-02-26
 	- https://fprox.substack.com/p/risc-v-profile-rva23u64
 
 ## Simulation
