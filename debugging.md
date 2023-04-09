@@ -466,6 +466,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Weidong Cui, Xinyang Ge, Baris Kasikci, Ben Niu, Upamanyu Sharma, Ruoyu Wang, Insu Yun
 	- https://www.usenix.org/conference/osdi18/presentation/weidong
 	- https://www.microsoft.com/en-us/research/publication/rept-reverse-debugging-of-failures-in-deployed-software/
+- Reverse Debugging of Kernel Failures in Deployed Systems
+	- USENIX Annual Technical Conference (ATC) 2020
+	- Xinyang Ge, Ben Niu, Weidong Cui
+	- https://www.microsoft.com/en-us/research/publication/reverse-debugging-of-kernel-failures-in-deployed-systems/
 - Reverse History
 	- Part One – Background - http://jakob.engbloms.se/archives/1547
 	- Part Two – Research - http://jakob.engbloms.se/archives/1554
