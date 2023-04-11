@@ -552,6 +552,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Hans Liljestrand, Thomas Nyman, Kui Wang, Carlos Chinea Perez, Jan-Erik Ekberg, N. Asokan
 	- https://www.usenix.org/conference/usenixsecurity19/presentation/liljestrand
 	- https://github.com/pointer-authentication
+- Pointer authentication in AArch64 Linux
+	- https://www.kernel.org/doc/html/latest/arm64/pointer-authentication.html
 - Pointer Authentication on ARMv8.3: Design and Analysis of the New Software Security Instructions
 	- 2017
 	- https://www.qualcomm.com/documents/whitepaper-pointer-authentication-armv83
