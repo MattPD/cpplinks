@@ -586,6 +586,11 @@ See also: [Computer Architecture](comparch.md)
 	- Lesly-Ann Daniel, Marton Bognar, Job Noorman, Sébastien Bardin, Tamara Rezk, Frank Piessens
 	- https://arxiv.org/abs/2302.12108
 	- https://github.com/proteus-core/prospect
+- Systematic Prevention of On-Core Timing Channels by Full Temporal Partitioning
+	- IEEE Transactions on Computers, Volume 72, Issue 5, 2023
+	- Nils Wistoff, Moritz Schneider, Frank K. Gürkaynak, Gernot Heiser, Luca Benini
+	- https://arxiv.org/abs/2202.12029
+	- https://ieeexplore.ieee.org/document/9913709
 
 ### Defense: Hardware Design & Verification: 2022
 
