@@ -377,6 +377,10 @@ _Books, Books Reviews_
 	- Electronic Notesin Theoretical Computer Science 1 (1995)
 	- Karen L. Bernstein, Eugene W.Stark
 	- http://dx.doi.org/10.1016/S1571-0661(04)80002-1
+- Source-Level Debugging of Scalar Optimized Code
+	- PLDI 1996
+	- Ali-Reza Adl-Tabatabai, Thomas Gross
+	- https://dl.acm.org/doi/10.1145/249069.231388
 
 #### Testing
 
