@@ -798,6 +798,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- 2018 Master's Thesis; Remi van Veen
 		- https://solidsands.com/wp-content/uploads/thesis_remi_van_veen.pdf
 	- https://github.com/msaroufim/C-compiler-optimizations
+- Fuzzing Loop Optimizations in Compilers for C++ and Data-Parallel Languages
+	- PLDI 2023
+	- Vsevolod Livinskii, Dmitry Babokin, John Regehr
+	- https://doi.org/10.1145/3591295
+	- https://users.cs.utah.edu/~regehr/pldi23.pdf
+	- https://github.com/intel/yarpgen
 - LORE: A loop repository for the evaluation of compilers
 	- International Symposium on Workload Characterization (IISWC) 2017
 	- Zhi Chen, Zhangxiaowen Gong, Justin Josef Szaday, David C. Wong, David A. Padua, Alexandru Nicolau, Alexander V. Veidenbaum, Neftali Watkinson, Zehra Sura, Saeed Maleki, Josep Torrellas, Gerald DeJong
