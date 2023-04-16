@@ -517,6 +517,9 @@ https://riscv.org/software-tools/
 	- https://github.com/jserv/semu
 - Spike, a RISC-V ISA Simulator
 	- https://github.com/riscv/riscv-isa-sim
+	- Adding a new RISC-V extension (to Spike)
+		- 2023-04-14
+		- https://fprox.substack.com/p/adding-a-new-risc-v-extension-to
 - TinyEMU
 	- https://bellard.org/tinyemu/
 	- TinyEMU is a system emulator for the RISC-V architecture. Its purpose is to be small and simple while being complete.
