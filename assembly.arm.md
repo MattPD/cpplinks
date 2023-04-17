@@ -1077,6 +1077,16 @@ See also: [Performance Tools](performance.tools.md)
 	- LATINCRYPT 2017; Thom Wiggers
 	- https://thomwiggers.nl/publication/armcluster/
 
+### Software: Performance: Cache
+
+- CacheFlow: a Linux kernel module that exposes the contents of the last-level cache on *most* Arm machines
+	- https://github.com/weirdindiankid/cacheflow
+	- Observing the Invisible: Live Cache Inspection for High-Performance Embedded Systems
+		- IEEE Transactions on Computers 2021
+		- Dharmesh Tarapore, Shahin Roozkhosh, Steven Brzozowski, Renato Mancuso
+		- https://arxiv.org/abs/2007.12271
+		- https://dx.doi.org/10.1109/TC.2021.3060650
+
 ### Software: Performance: Events
 
 - HWCPipe: a simple and extensible interface for reading CPU and GPU hardware counters
