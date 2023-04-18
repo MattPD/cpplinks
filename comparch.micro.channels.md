@@ -704,6 +704,14 @@ See also: [Computer Architecture](comparch.md)
 	- Oleksii Oleksenko, Bohdan Trach, Tobias Reiher, Mark Silberstein, Christof Fetzer
 	- https://arxiv.org/abs/1805.08506
 
+### Defense: Software: 2023
+
+- Formalising the Prevention of Microarchitectural Timing Channels by Operating Systems
+	- FM 2023: Formal Methods
+	- Robert Sison, Scott Buckley, Toby Murray, Gerwin Klein, Gernot Heiser
+	- https://doi.org/10.1007/978-3-031-27481-7_8
+	- https://trustworthy.systems/publications/papers/Sison_BMKH_23.abstract
+
 ### Defense: Software: 2022
 
 - Rosita++: Automatic Higher-Order Leakage Elimination from Cryptographic Code
