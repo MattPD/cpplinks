@@ -600,6 +600,15 @@ See also:
 	- An LLVM Sanitizer for Symbolic Tracing
 		- https://github.com/R-Fuzz/symsan
 
+##### Software: Sanitizers: Readings: Research: 2023
+
+- Don’t Look UB: Exposing Sanitizer-Eliding Compiler Optimizations
+	- PLDI 2023
+	- Raphael Isemann, Cristiano Giuffrida, Herbert Bos, Erik van der Kouwe, Klaus von Gleissenthall
+	- https://goto.ucsd.edu/~gleissen/papers/dontlookub.pdf
+	- https://github.com/vusec/LookUB
+	- https://pldi23.sigplan.org/details/pldi-2023-pldi/38/Don-t-Look-UB-Exposing-Sanitizer-Eliding-Compiler-Optimizations
+
 ### Software: Sanitizers: Projects
 
 - QASan: QEMU-AddressSanitizer
