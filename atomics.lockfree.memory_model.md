@@ -455,6 +455,12 @@
 	- Reese Levine, Tianhao Guo, Mingun Cho, Alan Baker, Raph Levien, David Neto, Andrew Quinn, Tyler Sorensen
 	- https://dl.acm.org/doi/10.1145/3575693.3575750
 	- https://github.com/reeselevine/mc-mutants-artifact
+- Optimal Reads-From Consistency Checking for C11-Style Memory Models
+	- PLDI 2023
+	- Parosh Aziz Abdulla, Soham Chakraborty, Shankaranarayanan Krishna, Umang Mathur, Andreas Pavlogiannis, Hünkar Can Tunç
+	- https://arxiv.org/abs/2304.03714
+	- https://pldi23.sigplan.org/details/pldi-2023-pldi/32/Optimal-Reads-From-Consistency-Checking-for-C11-Style-Memory-Models
+	- https://doi.org/10.5281/zenodo.7816526
 
 ---
 
