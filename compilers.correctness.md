@@ -488,10 +488,15 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://github.com/evaluating-fuzzilli-for-js-jit-fuzzing
 	- https://github.com/googleprojectzero/fuzzilli
 - FuzzJIT: Towards Fuzzing JavaScript Engine JIT Compiler
-	- Junjie Wang, Zhiyi Zhang, Shuang Liu, Xiaoning Du, Junjie Chen
 	- USENIX Security Symposium 2023
+	- Junjie Wang, Zhiyi Zhang, Shuang Liu, Xiaoning Du, Junjie Chen
 	- https://www.usenix.org/conference/usenixsecurity23/presentation/wangjunjie
 	- https://github.com/SpaceNaN/fuzzjit
+- Industrial Deployment of Compiler Fuzzing Techniques for Two GPU Shading Languages
+	- ICST 2023
+	- Alastair F. Donaldson, Ben Clayton, Ryan Harrison, Hasan Mohsin, David Neto, Vasyl Teliman, Hana Watson
+	- https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2023/ICST.pdf
+	- https://conf.researchr.org/details/icst-2023/icst-2023-industry/47/Industrial-Deployment-of-Compiler-Fuzzing-Techniques-for-Two-GPU-Shading-
 - JITfuzz: Coverage-guided Fuzzing for JVM Just-in-Time Compilers
 	- International Conference on Software Engineering (ICSE) 2023
 	- Mingyuan Wu, Minghai Lu, Heming Cui, Junjie Chen, Yuqun Zhang, Lingming Zhang
