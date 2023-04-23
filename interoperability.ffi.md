@@ -28,6 +28,11 @@
 
 ### General: Readings: Security
 
+- BinWrap: Hybrid Protection Against Native Node.js Add-ons
+	- ACM Asia Conference on Computer and Communications Security (ASIA CCS) 2023
+	- George Christou, Grigoris Ntousakis, Eric Lahtinen, Sotiris Ioannidis, Vasileios P. Kemerlis, Nikos Vasilakis
+	- https://cs.brown.edu/~vpk/papers/binwrap.asiaccs23.pdf
+	- https://github.com/atlas-brown/binwrap
 - COOPER: Testing the Binding Code of Scripting Languages with Cooperative Mutation
 	- Network and Distributed System Security Symposium (NDSS) 2022
 	- Peng Xu, Yanhao Wang, Hong Hu, Purui Su
