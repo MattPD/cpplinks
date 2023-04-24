@@ -2076,6 +2076,7 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 - AMD Prefetch Attacks through Power and Time
 	- USENIX Security 2022
 	- Moritz Lipp, Daniel Gruss, Michael Schwarz
+	- https://www.usenix.org/conference/usenixsecurity22/presentation/lipp
 	- https://mlq.me/download/amdprefetch.pdf
 	- https://github.com/amdprefetch/amd-prefetch-attacks
 - Augury: Using Data Memory-Dependent Prefetchers to Leak Data at Rest
