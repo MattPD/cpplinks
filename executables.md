@@ -496,6 +496,8 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 	- Part 3: Weaponization - https://n0.lol/ebm/3.html
 	- Part 4: Limit Break - https://n0.lol/ebm/4.html
 - ELF File Format - http://resources.infosecinstitute.com/elf-file-format/
+- ELF hash function may overflow
+	- https://maskray.me/blog/2023-04-12-elf-hash-function
 - ELF Hello World Tutorial
 	- http://www.cirosantilli.com/elf-hello-world/
 	- https://github.com/cirosantilli/cirosantilli.github.io/blob/master/elf-hello-world.md
