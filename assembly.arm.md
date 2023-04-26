@@ -14,7 +14,7 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 	- [Security](#security):
 		- [Arm Confidential Compute Architecture (CCA)](#security-arm-confidential-compute-architecture-cca)
 		- [Memory Tagging Extension (MTE)](#memory-tagging-extension-mte)
-		- [Pointer Authentication](#pointer-authentication)
+		- [Pointer Authentication (PAC)](#pointer-authentication-pac)
 		- [TrustZone](#trustzone)
 	- [Simulation](#simulation)
 	- [Virtualization](#virtualization)
@@ -530,7 +530,20 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- 2020; Joe Bialek, Ken Johnson, Matt Miller, Tony Chen
 	- https://github.com/microsoft/MSRC-Security-Research/blob/master/papers/2020/Security%20analysis%20of%20memory%20tagging.pdf
 
-### Pointer Authentication
+### Pointer Authentication (PAC)
+
+- Pointer authentication in AArch64 Linux
+	- https://www.kernel.org/doc/html/latest/arm64/pointer-authentication.html
+
+#### Pointer Authentication (PAC): 2022
+
+- PACMem: Enforcing Spatial and Temporal Memory Safety via Arm Pointer Authentication
+	- CCS 2022
+	- Yuan Li, Wende Tan, Zhizheng Lv, Songtao Yang, Mathias Payer, Ying Liu, Chao Zhang
+	- https://doi.org/10.1145/3548606.3560598
+	- https://hexhive.epfl.ch/publications/files/22CCS2.pdf
+
+#### Pointer Authentication (PAC): 2019-2017
 
 - arm64e: An ABI for Pointer Authentication
 	- 2019 LLVM Developers’ Meeting; Ahmed Bougacha, John McCall
@@ -552,8 +565,6 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Hans Liljestrand, Thomas Nyman, Kui Wang, Carlos Chinea Perez, Jan-Erik Ekberg, N. Asokan
 	- https://www.usenix.org/conference/usenixsecurity19/presentation/liljestrand
 	- https://github.com/pointer-authentication
-- Pointer authentication in AArch64 Linux
-	- https://www.kernel.org/doc/html/latest/arm64/pointer-authentication.html
 - Pointer Authentication on ARMv8.3: Design and Analysis of the New Software Security Instructions
 	- 2017
 	- https://www.qualcomm.com/documents/whitepaper-pointer-authentication-armv83
