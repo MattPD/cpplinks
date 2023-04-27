@@ -353,6 +353,10 @@ _Books, Books Reviews_
 	- PLDI 1992
 	- Gary Brooks, Gilbert J. Hansen, Steve Simmons
 	- https://doi.org/10.1145/143095.143108
+- An Annotated Bibliography on Debugging Optimized Code
+	- Digital Technical Journal, Volume 10, Number 1, 1998
+	- Ronald F. Brender
+	- http://web.archive.org/web/20050329205642/http://research.compaq.com:80/wrl/DECarchives/DTJ/DTJT07/DTJT07BIHM.HTM
 - Correctness Proofs of Compilers and Debuggers: an Approach Based on Structural Operational Semantics
 	- 1992 Ph.D. dissertation; Fabio Q. B. da Silva
 	- http://hdl.handle.net/1842/13542
