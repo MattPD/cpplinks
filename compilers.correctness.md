@@ -1192,6 +1192,10 @@ Validation: Including translation validation, equivalence checking.
 	- CAV 2022: Computer Aided Verification
 	- Seongwon Bang, Seunghyeon Nam, Inwhan Chun, Ho Young Jhoo, Juneyoung Lee
 	- https://link.springer.com/chapter/10.1007/978-3-031-13188-2_19
+- Translation Validation of Tensor Compilers
+	- 2022 PhD dissertation
+	- Basile Clément
+	- https://theses.hal.science/tel-03903895/
 
 ## Validation: 2021
 
