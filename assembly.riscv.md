@@ -14,7 +14,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 - [Formalization, Specification, Verification](#formalization-specification-verification)
 - [Open-Source Hardware Projects](#open-source-hardware-projects)
 - [References](#references)
-- [Software](#software): [Emulation & Simulation](#software-emulation--simulation), [Security](#software-security)
+- [Software](#software): [Binary Analysis](#software-binary-analysis), [Emulation & Simulation](#software-emulation--simulation), [Security](#software-security)
 - [Talks](#talks)
 - [Tutorials](#tutorials)
 
@@ -450,6 +450,12 @@ https://riscv.org/software-tools/
 	- xv6-riscv-book: Text describing xv6 on RISC-V
 		- https://github.com/mit-pdos/xv6-riscv-book
 		- 6.S081: Operating System Engineering - https://pdos.csail.mit.edu/6.828/
+
+## Software: Binary Analysis
+
+- MAMBO: A Low-Overhead Dynamic Binary Modification Tool for RISC architectures
+	- supports Arm (both AArch32 and AArch64) and RISC-V (RV64GC)
+	- https://github.com/beehive-lab/mambo
 
 ## Software: Emulation & Simulation
 
