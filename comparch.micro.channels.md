@@ -272,6 +272,14 @@ See also: [Computer Architecture](comparch.md)
 
 ## Defense: Cache
 
+### Defense: Cache: 2023
+
+- ClepsydraCache - Preventing Cache Attacks with Time-Based Evictions
+	- USENIX Security 2023
+	- Jan Philipp Thoma, Christian Niesler, Dominic Funke, Gregor Leander, Pierre Mayr, Nils Pohl, Lucas Davi, Tim Güneysu
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/thoma
+	- https://arxiv.org/abs/2104.11469
+
 ### Defense: Cache: 2022
 
 - Fast, Robust and Accurate Detection of Cache-Based Spectre Attack Phases
