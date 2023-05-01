@@ -153,6 +153,8 @@
 
 - 2023-02 Issaquah ISO C++ Committee Trip Report — C++23 Is Done! 🎉
 	- https://old.reddit.com/r/cpp/comments/112ef9t/202302_issaquah_iso_c_committee_trip_report_c23/
+- ISO C++ Feb 2023 meeting trip report (core language)
+	- https://developers.redhat.com/blog/2023/04/10/iso-c-feb-2023-meeting-trip-report-core-language
 
 ### 2022-11 Kona
 
