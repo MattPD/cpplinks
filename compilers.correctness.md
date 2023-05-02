@@ -408,6 +408,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 - The problem with differential testing is that at least one of the compilers must get it right
 	- http://blog.frama-c.com/index.php?post/2013/09/25/The-problem-with-differential-testing-is-that-at-least-one-of-the-compilers-must-get-it-right
 
+### Testing: Readings: 2023
+
+- Program Reconditioning: Avoiding Undefined Behaviour When Finding and Reducing Compiler Bugs
+	- PLDI 2023
+	- Bastien Lecoeur, Hasan Mohsin, Alastair F. Donaldson
+	- https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2023/PLDI.pdf
+	- "The problem we address is: How can we apply differential testing and test-case reduction to languages that feature UB [Undefined Behaviour] (or whose current implementations feature UB) in the absence of UB-detection tools, to yield minimised UB-free programs that trigger miscompilations?"
+
 ### Testing: Readings: 2022
 
 - Detecting C++ Compiler Front-end Bugs via Grammar Mutation and Differential Testing
