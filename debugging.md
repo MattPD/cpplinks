@@ -1188,6 +1188,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 #### Linux: Talks
 
+- Linux Debuginfo Formats - DWARF, ELF, dwo, dwp - What are They All?
+	- CppCon 2022
+	- Greg Law
+	- https://www.youtube.com/watch?v=l3h7F9za_pc
 - Linux Kernel Debugging: Going Beyond Printk Messages
 	- Embedded Linux Conference Europe (ELCE) 2019; Sergio Prado
 	- https://www.youtube.com/watch?v=NDXYpR_m1CU
