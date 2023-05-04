@@ -163,9 +163,13 @@
 - Shane Kirk - C++ Exceptions: The Good, The Bad, And The Ugly
 	- A discussion of the pros and cons of exceptions.
 	- http://www.shanekirk.com/2015/06/c-exceptions-the-good-the-bad-and-the-ugly/
-- Simon Brand - Functional exceptionless error-handling with optional and expected
-	- Demonstrates how to use `optional` and `expected` with monadic extensions.
-	- https://blog.tartanllama.xyz/optional-expected/
+- Simon Brand
+	- Functional exceptionless error-handling with optional and expected
+		- (2017) Demonstrates how to use `optional` and `expected` with monadic extensions.
+		- https://blog.tartanllama.xyz/optional-expected/
+	- Functional exception-less error handling with C++23's `optional` and `expected`
+		- (2023) updated version
+		- https://devblogs.microsoft.com/cppblog/cpp23s-optional-and-expected/
 - Stafford Horne
 	- Unwinding a Bug - How C++ Exceptions Work
 	- http://stffrdhrn.github.io/software/toolchain/openrisc/2020/12/13/cxx-exception-unwinding.html
