@@ -507,6 +507,12 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- https://www.youtube.com/watch?v=Rryi_1JZnuc
 	- https://static.sched.com/hosted_files/devconfcz2021/71/Devconf%20CZ%202021%20-%20STRACE%20in%20a%20nutshell.pdf
 
+## Software: macOS
+
+- macOS Dtrace scripts
+	- Updated versions of stock dtrace scripts as well as fresh dtrace scripts to be used on macOS
+	- https://gitlab.com/pmdj/macos-dtrace-scripts
+
 ## Software: Windows
 
 - ATrace: a tool for tracing execution of binaries on Windows
