@@ -1161,6 +1161,11 @@ See also: [Computer Architecture](comparch.md)
 	- USENIX Security 2022
 	- Mojtaba Zaheri, Yossi Oren, Reza Curtmola
 	- https://www.usenix.org/conference/usenixsecurity22/presentation/zaheri
+- Write Me and I’ll Tell You Secrets–Write-After-Write Effects On Intel CPUs
+	- 25th International Symposium on Research in Attacks, Intrusions and Defenses (RAID) 2022
+	- Jan Philipp Thoma, Tim Güneysu
+	- "In this paper, we investigate the peculiarities of write instructions in recent CPUs. We identify Write+Write, a new side channel on Intel CPUs that leaks whether two addresses contend for the same cache set. We show how Write+Write can be used for rapid construction of eviction sets on current cache architectures."
+	- https://dl.acm.org/doi/abs/10.1145/3545948.3545987
 
 ## Cache: 2021
 
