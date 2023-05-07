@@ -239,6 +239,13 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- International Conference on Functional Programming 2021
 	- Mitchell Pickard, Graham Hutton
 	- http://www.cs.nott.ac.uk/~pszgmh/well-typed.pdf
+- Monadic Compiler Calculation
+	- International Conference on Functional Programming (ICFP) 2022
+	- Patrick Bahr, Graham Hutton
+	- https://www.cs.nott.ac.uk/~pszgmh/ccc3.pdf
+	- https://bahr.io/pubs/files/mococo-paper.pdf
+	- https://github.com/pa-ba/monadic-compiler-calculation
+	- https://icfp22.sigplan.org/details/icfp-2022-papers/4/Monadic-Compiler-Calculation
 
 ## Calculation: 2010s
 
