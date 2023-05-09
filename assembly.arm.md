@@ -429,6 +429,9 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ### Performance: Statistical Profiling Extension (SPE)
 
+- perf-arm-spe - Support for Arm Statistical Profiling Extension within Perf tools
+	- https://perf.wiki.kernel.org/index.php/Latest_Manual_Page_of_perf-arm-spe.1
+	- https://man7.org/linux/man-pages/man1/perf-arm-spe.1.html
 - Using the Arm Statistical Profiling Extension to detect false cache-line sharing
 	- https://www.linaro.org/blog/using-the-arm-statistical-profiling-extension-to-detect-false-cache-line-sharing/
 
