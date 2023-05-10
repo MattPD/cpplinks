@@ -456,6 +456,10 @@ https://riscv.org/software-tools/
 - MAMBO: A Low-Overhead Dynamic Binary Modification Tool for RISC architectures
 	- supports Arm (both AArch32 and AArch64) and RISC-V (RV64GC)
 	- https://github.com/beehive-lab/mambo
+	- Evaluating the Impact of Optimizations for Dynamic Binary Modification on 64-bit RISC-V
+		- 2023 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+		- John Alistair Kressel, Guillermo Callaghan, Cosmin Gorgovan, Mikel Luján
+		- https://research.manchester.ac.uk/en/publications/evaluating-the-impact-of-optimizations-for-dynamic-binary-modific
 
 ## Software: Emulation & Simulation
 
