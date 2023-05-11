@@ -1138,6 +1138,15 @@ See also: [Computer Architecture](comparch.md)
 
 # Cache
 
+## Cache: 2023
+
+- CacheQL: Quantifying and Localizing Cache Side-Channel Vulnerabilities in Production Software
+	- USENIX Security 2023
+	- Yuanyuan Yuan, Zhibo Liu, Shuai Wang
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/yuanyuanyuan
+	- Extended Version: https://arxiv.org/abs/2209.14952
+	- https://github.com/Yuanyuan-Yuan/CacheQL
+
 ## Cache: 2022
 
 - AutoCAT: Reinforcement Learning for Automated Exploration of Cache Timing-Channel Attacks
