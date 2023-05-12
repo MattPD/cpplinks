@@ -121,6 +121,8 @@ See also:
 		- https://maskray.me/blog/2021-07-25-comdat-and-section-group
 	- Linker notes on AArch64
 		- https://maskray.me/blog/2023-03-05-linker-notes-on-aarch64
+	- Weak symbol
+		- https://maskray.me/blog/2021-04-25-weak-symbol
 - Nick Desaulniers
 	- Part 1 – Object Files and Symbols - https://nickdesaulniers.github.io/blog/2016/08/13/object-files-and-symbols/
 	- Part 2 – Static and Dynamic Libraries - https://nickdesaulniers.github.io/blog/2016/11/20/static-and-dynamic-libraries/
