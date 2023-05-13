@@ -430,6 +430,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- Haoxin Tu, He Jiang, Zhide Zhou, Yixuan Tang, Zhilei Ren, Lei Qiao, Lingxiao Jiang
 	- https://haoxintu.github.io/files/tr-2022-draft.pdf
 	- https://github.com/haoxintu/CCOFT
+- Metamorphic Testing of Deep Learning Compilers
+	- SIGMETRICS 2022
+	- Proceedings of the ACM on Measurement and Analysis of Computing Systems, Volume 6, Issue 1, March 2022
+	- Dongwei Xiao, Zhibo Liu, Yuanyuan Yuan, Qi Pang, Shuai Wang
+	- https://dl.acm.org/doi/abs/10.1145/3508035
+	- https://www.youtube.com/watch?v=C4yCBihNQUA
+	- https://github.com/Wilbur-Django/Testing-DNN-Compilers
 
 ### Testing: Readings: 2021
 
