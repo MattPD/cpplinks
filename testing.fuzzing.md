@@ -406,6 +406,9 @@ See also:
 	- DIFUZE: Interface Aware Fuzzing for Kernel Drivers - CCS 2017
 	- https://acmccs.github.io/papers/p2123-corinaA.pdf
 	- http://seclist.us/difuze-fuzzer-for-linux-kernel-drivers.html
+- Snapchange: Lightweight fuzzing of a memory snapshot using KVM
+	- https://github.com/awslabs/snapchange
+	- https://aws.amazon.com/blogs/opensource/announcing-snapchange-an-open-source-kvm-backed-snapshot-fuzzing-framework/
 - syzkaller: an unsupervised, coverage-guided kernel fuzzer
 	- https://github.com/google/syzkaller
 	- Coverage-guided kernel fuzzing with syzkaller - https://lwn.net/Articles/677764/
