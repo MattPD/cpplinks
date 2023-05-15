@@ -246,6 +246,9 @@ _Books, Books Reviews_
 		- Building a Go Debugger - https://engineering.backtrace.io/2016-11-23-building-a-go-debugger/
 - Writing a basic Windows debugger - https://www.codeproject.com/Articles/43682/Writing-a-basic-Windows-debugger
 - Writing a Debugger - Joseph Kain - http://system.joekain.com/debugger/
+- Writing a Debugger From Scratch - DbgRs - Tim Misiak
+	 - Part 1 - Attaching to a Process
+	 	- https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-1/
 - Writing a Linux Debugger - Simon Brand
 	- 1\. Setup - https://blog.tartanllama.xyz/writing-a-linux-debugger-setup/
 	- 2\. Breakpoints - https://blog.tartanllama.xyz/writing-a-linux-debugger-breakpoints/
