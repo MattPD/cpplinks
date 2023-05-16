@@ -1446,6 +1446,10 @@ See also: [Performance Tools](performance.tools.md)
 
 ## AArch64
 
+- A Gentle Introduction to Assembly Language Programming
+	- A book teaching assembly language programming in the Arm 64-bit ISA
+	- "What makes this introduction "gentle" is that it assumes the reader is already comfortable with C or C++ coding. We use this assumed knowledge to bridge backward towards the low level ISA (Instruction Set Architecture)."
+	- https://github.com/pkivolowitz/asm_book
 - A Guide to ARM64 / AArch64 Assembly on Linux with Shellcodes and Cryptography
 	- https://modexp.wordpress.com/2018/10/30/arm64-assembly/
 - ARM AArch64 Assembly Language Lectures
