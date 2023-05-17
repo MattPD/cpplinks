@@ -83,6 +83,10 @@ See also: [Computer Architecture](comparch.md)
 	- https://github.com/libtea/frameworks
 	- libtea (Transient Execution Attack library): a framework for rapid prototyping of microarchitectural attacks on Linux, compatible with x86 (32-bit and 64-bit, Intel and AMD CPUs) and AArch64.
 	- SCFirefox: a framework for rapid prototyping of browser-based microarchitectural attacks on Linux; adds libtea attack primitives to Firefox's JavaScript engine, SpiderMonkey.
+- Side Channel Security Risks in Commodity Microarchitectures
+	- 2022 PhD Dissertation
+	- Benjamin James Gras
+	- https://hdl.handle.net/1871.1/af1080bc-4efa-4fef-a1a3-257fa060cfb5
 
 ## General: 2021
 
