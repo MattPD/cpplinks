@@ -448,6 +448,9 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- Fundamental Approaches to Software Engineering (FASE) 2021
 	- Richard Schumi, Jun Sun
 	- https://www.springerprofessional.de/en/spectest-specification-based-compiler-testing/18985506
+- Toolchain testing
+	- 2021; MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2021-08-08-toolchain-testing
 
 ### Testing: Readings: 2020
 
