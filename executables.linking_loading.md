@@ -342,8 +342,6 @@ See also:
 		- https://binarydodo.wordpress.com/2016/05/12/symbol-binding-types-in-elf-and-their-effect-on-linking-of-relocatable-files/
 	- Symbol resolution during link-editing
 		- https://binarydodo.wordpress.com/2016/07/01/symbol-resolution-during-link-editing/
-- Copy relocations, canonical PLT entries and protected visibility
-	- https://maskray.me/blog/2021-01-09-copy-relocations-canonical-plt-entries-and-protected
 - ELF Binary Relocations and Thread Local Storage - Stafford Horne
 	- TLS Examples
 		- https://github.com/stffrdhrn/tls-examples
@@ -380,6 +378,13 @@ See also:
 - Making our own executable packer - Amos Wenger
 	- ELF relocations - https://fasterthanli.me/blog/2020/elf-relocations/
 	- More ELF relocations - https://fasterthanli.me/blog/2020/more-elf-relocations/
+- MaskRay (Fangrui Song)
+	- All about Global Offset Table
+		- https://maskray.me/blog/2021-08-29-all-about-global-offset-table
+	- Copy relocations, canonical PLT entries and protected visibility
+		- https://maskray.me/blog/2021-01-09-copy-relocations-canonical-plt-entries-and-protected
+	- Relocatable linking
+		- https://maskray.me/blog/2022-11-21-relocatable-linking
 - Moving code around - Thiago Macieira
 	- http://blog.qt.io/blog/2010/12/04/moving-code-around/
 	- http://blog.qt.io/blog/2010/12/05/moving-code-around-more-easily/
@@ -388,8 +393,6 @@ See also:
 		- https://docs.oracle.com/cd/E26502_01/html/E26507/chapter3-29.html
 	- Relocation Sections
 		- https://docs.oracle.com/cd/E23824_01/html/819-0690/chapter6-54839.html
-- Relocatable linking - MaskRay (Fangrui Song)
-	- https://maskray.me/blog/2022-11-21-relocatable-linking
 - Relocations in ELF Toolchains - Palmer Dabbelt
 	- https://www.sifive.com/blog/2017/08/21/all-aboard-part-2-relocations/
 - Relocations: fantastic symbols, but where to find them? - Siddhesh Poyarekar
