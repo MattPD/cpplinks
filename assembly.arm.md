@@ -96,6 +96,9 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ## Readings: Concurrency
 
+- Arm and Lock-Free Programming
+	- 2020; Bruce Dawson
+	- https://randomascii.wordpress.com/2020/11/29/arm-and-lock-free-programming/
 - Armed Cats: Formal Concurrency Modelling at Arm
 	- POPL 2022 
 	- Jade Alglave, Will Deacon, Richard Grisenthwaite, Antoine Hacquard, Luc Maranget
