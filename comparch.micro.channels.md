@@ -69,6 +69,13 @@ See also: [Computer Architecture](comparch.md)
 	- 2023 PhD Dissertation
 	- Martin Schwarzl
 	- https://martinschwarzl.at/media/files/thesis_main.pdf
+- ShowTime: Amplifying Arbitrary CPU Timing Side Channels
+	- AsiaCCS 2023
+	- Antoon Purnal, Marton Bognar, Frank Piessens, Ingrid Verbauwhede
+	- https://antoonpurnal.github.io/files/pdf/ShowTime.pdf
+	- https://github.com/KULeuven-COSIC/ShowTime
+	- "a general framework to expose arbitrary microarchitectural timing channels to coarse-grained timers"
+	- "consists of Convert routines, transforming microarchitectural leakage from one type to another, and Amplify routines, inflating the timing difference of a single microarchitectural event to make it distinguishable with crude sources of time"
 
 ## General: 2022
 
