@@ -280,6 +280,22 @@ See also: [Computer Architecture](comparch.md)
 	- Ilias Vougioukas, Andreas Sandberg, Nikos Nikoleris, Stephan Diestelhorst, Bashir Al-Hashimi, Geoff Merrett
 	- https://eprints.soton.ac.uk/426627/
 	- complementary dataset: https://doi.org/10.5258/soton/d0739
+- Half&Half: Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution
+	- IEEE Security & Privacy (Oakland) 2023
+	- Hosein Yavarzadeh, Mohammadkazem Taram, Shravan Narayan, Deian Stefan, Dean Tullsen
+	- https://cseweb.ucsd.edu/~tullsen/halfandhalf.pdf
+	- > Our approach incurs more than an order of magnitude lesser overhead than other state-of-the-art defenses. This result is enabled by a comprehensive reverse engineering of the branch predictors on three high-end Intel processor families, revealing for the first time the structures and index functions of all tables in the predictor. Our analysis reveals the unexpected result that despite hundreds of bits used to index the branch prediction tables in these processors, a single bit of the branch address is used without modification as an independent bit of the index function of every table in the predictor.  Thus, two branches that differ in this single bit can never influence each other. 
+	- > Observation 1. Global history records the history footprint of the last 93 taken branches, whether they are conditional or unconditional. Not-taken branches do not affect the history.
+	- > Observation 2. In the Skylake microarchitecture, the following bits are used to update the PHR:
+	- > - Branch Address [18:3] : 16 bits
+	- > - Branch Target Address [5:0] : 6 bits
+	- > Observation 3. The PHR is updated in two steps whenever a branch is taken by:
+	- > 1) Shift two bits to the left: PHR = PHR << 2
+	- > 2) XOR the 16-bit footprint into the PHR: PHR[15:0] = PHR[15:0] ⊕ footprint
+	- > Observation 4. The 12 lower bits of the PC are used as input to the index and/or tag hash functions. Other microbenchmarks confirmed that all of these 12 lower bits of the PC are involved in either the index or tag hash functions.
+	- > Observation 5. There are 3 PHTs in the CBP, each of which is a 4-way set associative table. Only one bit of the PC is used to index the PHTs (PC[5] on Alder Lake, Tiger Lake, Ice Lake, Skylake and Cascade Lake, PC[4] on Haswell and Ivy Bridge).
+	- > Observation 6. Each PHT is indexed by a 9-bit index function, using eight bits derived from global history, and a single bit of the PC which is not combined with any other bits. This same bit is also used (without being combined) for the base predictor.
+	- > Observation 7. We found that 13 lower bits of the branch address (PC[12:0]) are used to index to the base predictor.
 
 ## Defense: Cache
 
