@@ -1614,6 +1614,11 @@ Validation: Including translation validation, equivalence checking.
 	- https://doi.org/10.1145/3434327
 	- https://www.youtube.com/watch?v=1W1LQWBVfz4
 	- https://popl21.sigplan.org/details/POPL-2021-research-papers/46/Formally-Verified-Speculation-and-Deoptimization-in-a-JIT-Compiler
+- Relational compilation for end-to-end verification
+	- 2021 PhD Dissertation
+	- Clément Pit-Claudel
+	- https://people.csail.mit.edu/cpitcla/thesis/thesis.html
+	- https://people.csail.mit.edu/cpitcla/thesis/thesis.pdf
 
 ## Verification: 2020
 
