@@ -373,6 +373,10 @@ _Books, Books Reviews_
 	- ACM Transactions on Programming Languages and Systems (TOPLAS) 16(3) 1994
 	- Max Copperman
 	- https://people.eecs.berkeley.edu/~fateman/264/papers/copperman.pdf
+- Debugging Optimized Code: Concepts and Implementation on DIGITAL Alpha Systems
+	- Digital Technical Journal, Volume 10, Number 1, 1998
+	- Ronald F. Brender, Jeffrey E. Nelson, Mark E. Arsenault
+	- https://www.hpl.hp.com/hpjournal/dtj/vol10num1/vol10num1art7.pdf
 - Formally Defining Debuggers: A Comparison of Three Approaches
 	- International Workshop on Automated Debugging (AADEBUG) 1995
 	- Karen L. Bernstein, Eugene W. Stark
