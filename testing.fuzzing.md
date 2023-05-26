@@ -81,6 +81,15 @@ See also:
 	- Mathias Payer
 	- https://ieeexplore.ieee.org/document/8674043
 
+## Readings: Embedded
+
+- Fuzzing Embedded Systems Using Debug Interfaces
+	- International Symposium on Software Testing and Analysis (ISSTA) 2023
+	- Max Eisele, Daniel Ebert, Christopher Huth, Andreas Zeller
+	- https://publications.cispa.saarland/3950/
+	- GDBFuzz: Debugger-Driven Fuzzing
+		- https://github.com/boschresearch/gdbfuzz
+
 ## Readings: Evaluation
 
 - Dissecting American Fuzzy Lop - A FuzzBench Evaluation
