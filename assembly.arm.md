@@ -543,6 +543,11 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 #### Pointer Authentication (PAC): 2022
 
+- PACMAN: attacking ARM pointer authentication with speculative execution
+	- International Symposium on Computer Architecture (ISCA) 2022
+	- Joseph Ravichandran, Weon Taek Na, Jay Lang, Mengjia Yan
+	- https://pacmanattack.com/
+	- https://dl.acm.org/doi/10.1145/3470496.3527429
 - PACMem: Enforcing Spatial and Temporal Memory Safety via Arm Pointer Authentication
 	- CCS 2022
 	- Yuan Li, Wende Tan, Zhizheng Lv, Songtao Yang, Mathias Payer, Ying Liu, Chao Zhang
