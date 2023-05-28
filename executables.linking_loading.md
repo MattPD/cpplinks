@@ -452,6 +452,10 @@ See also:
 	- https://www.akkadia.org/drepper/dsohowto.pdf
 - Inlining — shared libraries are special
 	- https://kristerw.blogspot.com/2016/11/inlining-shared-libraries-are-special.html
+- Luci: Loader-based Dynamic Software Updates for Off-the-shelf Shared Objects
+	- USENIX Annual Technical Conference (ATC) 2023
+	- Bernhard Heinloth, Peter Wägemann, Wolfgang Schröder-Preikschat
+	- https://www.usenix.org/conference/atc23/presentation/heinloth
 - PLT and GOT - the key to code sharing and dynamic libraries
 	- https://www.technovelty.org/linux/plt-and-got-the-key-to-code-sharing-and-dynamic-libraries.html
 - Remote Library Injection
