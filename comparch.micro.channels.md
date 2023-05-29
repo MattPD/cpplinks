@@ -2027,6 +2027,61 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 
 # Power
 
+## Power: 2023
+
+- Hot Pixels: Frequency, Power, and Temperature Attacks on GPUs and Arm SoCs
+	- USENIX Security 2023
+	- Hritvik Taneja, Jason Kim, Jie Jeff Xu, Stephan van Schaik, Daniel Genkin, Yuval Yarom
+	- https://arxiv.org/abs/2305.12784
+	- "Are software-based physical side channels present on GPUs and high-end Arm SoCs? What would it take to create such attacks and what information can be extracted using it?"
+
+## Power: 2022
+
+- Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86
+	- USENIX Security 2022
+	- Yingchen Wang, Riccardo Paccagnella, Elizabeth He, Hovav Shacham, Christopher W. Fletcher, David Kohlbrenner
+	- https://www.hertzbleed.com/
+	- https://github.com/FPSG-UIUC/hertzbleed
+	- https://www.hertzbleed.com/herzbleed.pdf
+
+## Power: 2021
+
+- IChannels: Exploiting Current Management Mechanisms to Create Covert Channels in Modern Processors
+	- ISCA 2021
+	- Jawad Haj-Yahya, Jeremie S. Kim, A. Giray Yaglikci, Ivan Puddu, Lois Orosa, Juan Gómez Luna, Mohammed Alser, Onur Mutlu
+	- https://arxiv.org/abs/2106.05050
+	- http://people.inf.ethz.ch/omutlu/pub/IChannels-covert-channels_isca21.pdf
+	- https://youtube.com/watch?v=Why4Ffn5bRY
+- MIRACLE: MIcRo-ArChitectural Leakage Evaluation
+	- TCHES 2021; Cryptology ePrint Archive, Paper 2021/261
+	- Ben Marshall, Daniel Page, James Webb
+	- https://eprint.iacr.org/2021/261
+	- https://github.com/scarv/miracle
+	- https://miracle.scarv.org/
+	- The SCARV Miracle study aims to provide a rigorous and systematic evaluation of micro-architectural power side-channel leakage effects found in common embedded CPUs and micro-controllers.
+
+## Power: 2020
+
+- PLATYPUS: Software-based Power Side-Channel Attacks on x86
+	- 2020; IEEE Symposium on Security & Privacy (S&P) 2021
+	- Moritz Lipp, Andreas Kogler, David Oswald, Michael Schwarz, Catherine Easdon, Claudio Canella, Daniel Gruss
+	- https://platypusattack.com/
+
+## Power: 2019
+
+- Leaky Noise: New Side-Channel Attack Vectors in Mixed-Signal IoT Devices
+	- IACR Transactions on Cryptographic Hardware and Embedded Systems, 2019(3)
+	- Dennis R. E. Gnad, Jonas Krautter, Mehdi B. Tahoori
+	- https://tches.iacr.org/index.php/TCHES/article/view/8297
+- POWERT Channels: A Novel Class of Covert Communication Exploiting Power Management Vulnerabilities
+	- High-Performance Computer Architecture (HPCA) 2019
+	- S. K. Khatamifard, L. Wang, S. Köse, and U. R. Karpuzcu
+	- https://doi.org/10.1109/HPCA.2019.00045
+	- http://hajim.rochester.edu/ece/sites/kose/files/conferences/hpca_19.pdf
+	- PoC (Lorenzo Masciullo): https://github.com/lore-masc/POWERTChannel_Thesis
+
+## Power: 2016-2018
+
 - A New Class of Covert Channels Exploiting Power Management Vulnerabilities
 	- IEEE Computer Architecture Letters (2018)
 	- S. K. Khatamifard, L. Wang, S. Kose, U. R. Karpuzcu
@@ -2037,43 +2092,11 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 	- 2017 26th USENIX Security Symposium
 	- Adrian Tang, Simha Sethumadhavan, and Salvatore Stolfo
 	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/tang
-- Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86
-	- USENIX Security 2022
-	- Yingchen Wang, Riccardo Paccagnella, Elizabeth He, Hovav Shacham, Christopher W. Fletcher, David Kohlbrenner
-	- https://www.hertzbleed.com/
-	- https://github.com/FPSG-UIUC/hertzbleed
-	- https://www.hertzbleed.com/herzbleed.pdf
-- IChannels: Exploiting Current Management Mechanisms to Create Covert Channels in Modern Processors
-	- ISCA 2021
-	- Jawad Haj-Yahya, Jeremie S. Kim, A. Giray Yaglikci, Ivan Puddu, Lois Orosa, Juan Gómez Luna, Mohammed Alser, Onur Mutlu
-	- https://arxiv.org/abs/2106.05050
-	- http://people.inf.ethz.ch/omutlu/pub/IChannels-covert-channels_isca21.pdf
-	- https://youtube.com/watch?v=Why4Ffn5bRY
-- Leaky Noise: New Side-Channel Attack Vectors in Mixed-Signal IoT Devices
-	- IACR Transactions on Cryptographic Hardware and Embedded Systems, 2019(3), 305-339.
-	- Dennis R. E. Gnad, Jonas Krautter, Mehdi B. Tahoori
-	- https://tches.iacr.org/index.php/TCHES/article/view/8297
-- MIRACLE: MIcRo-ArChitectural Leakage Evaluation
-	- The SCARV Miracle study aims to provide a rigorous and systematic evaluation of micro-architectural power side-channel leakage effects found in common embedded CPUs and micro-controllers.
-	- Ben Marshall, Daniel Page, James Webb
-	- https://eprint.iacr.org/2021/261
-	- https://github.com/scarv/miracle
-	- https://miracle.scarv.org/
 - On Code Execution Tracking via Power Side-Channel
 	- Conference on Computer and Communications Security (CCS) 2016
 	- Yannan Liu, Lingxiao Wei, Zhe Zhou, Kehuan Zhang, Wenyuan Xu, Qiang Xu
 	- https://dl.acm.org/citation.cfm?id=2978299
 	- https://www.youtube.com/watch?v=YwL_p3TxhlA
-- PLATYPUS: Software-based Power Side-Channel Attacks on x86
-	- 2020; IEEE Symposium on Security & Privacy (S&P) 2021
-	- Moritz Lipp, Andreas Kogler, David Oswald, Michael Schwarz, Catherine Easdon, Claudio Canella, Daniel Gruss
-	- https://platypusattack.com/
-- POWERT Channels: A Novel Class of Covert Communication Exploiting Power Management Vulnerabilities
-	- High-Performance Computer Architecture (HPCA) 2019
-	- S. K. Khatamifard, L. Wang, S. Köse, and U. R. Karpuzcu
-	- https://doi.org/10.1109/HPCA.2019.00045
-	- http://hajim.rochester.edu/ece/sites/kose/files/conferences/hpca_19.pdf
-	- PoC (Lorenzo Masciullo): https://github.com/lore-masc/POWERTChannel_Thesis
 
 ---
 
