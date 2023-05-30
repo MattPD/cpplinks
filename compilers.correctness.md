@@ -517,6 +517,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Junjie Wang, Zhiyi Zhang, Shuang Liu, Xiaoning Du, Junjie Chen
 	- https://www.usenix.org/conference/usenixsecurity23/presentation/wangjunjie
 	- https://github.com/SpaceNaN/fuzzjit
+- GrayC: Greybox Fuzzing of Compilers and Analysers for C
+	- ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2023
+	- Karine Even Mendoza, Arindam Sharma, Alastair F. Donaldson, Cristian Cadar
+	- https://kclpure.kcl.ac.uk/portal/en/publications/grayc-greybox-fuzzing-of-compilers-and-analysers-for-c(614e1ae8-b5b8-44ae-939a-75e3009eea91).html
+	- https://srg.doc.ic.ac.uk/projects/grayc/
+	- https://github.com/srg-imperial/directed-compiler-fuzzing-code
 - Industrial Deployment of Compiler Fuzzing Techniques for Two GPU Shading Languages
 	- ICST 2023
 	- Alastair F. Donaldson, Ben Clayton, Ryan Harrison, Hasan Mohsin, David Neto, Vasyl Teliman, Hana Watson
