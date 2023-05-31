@@ -3,7 +3,7 @@
 # Contents
 
 - [General](#general)
-- Language-specific: [Bash](#bash), [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Fortran](#fortran), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Nim](#nim), [Objective-C](#objective-c), [OCaml](#ocaml), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata), [WebAssembly](#webassembly), [Zig](#zig)
+- Language-specific: [Bash](#bash), [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Fortran](#fortran), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Nim](#nim), [Objective-C](#objective-c), [OCaml](#ocaml), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata), [Swift](#swift), [WebAssembly](#webassembly), [Zig](#zig)
 
 ---
 
@@ -454,6 +454,13 @@
 
 - Stata commands for inline C++ code in do-files
 	- https://github.com/robertgrant/statacpp
+
+---
+
+# Swift
+
+- C++ Interoperability Workgroup
+	- https://www.swift.org/cxx-interop-workgroup/
 
 ---
 
