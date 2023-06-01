@@ -1301,12 +1301,12 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ##### WinDbg: Readings
 
-- Collection of WinDBG resources - https://blogs.msdn.microsoft.com/reiley/2012/07/28/collection-of-windbg-resources/
+- Collection of WinDbg resources - https://blogs.msdn.microsoft.com/reiley/2012/07/28/collection-of-windbg-resources/
 - Break On Process Creation in WinDbg
 	- https://shakreiner.com/posts/break-on-process-windbg/
 - Debugger Data Model, Javascript & X64 Exception Handling - https://doar-e.github.io/blog/2017/12/01/debugger-data-model/
 - Debugging Tools for Windows - https://blogs.msdn.microsoft.com/windbg/
-- Exploiting flaws in Windbg: how to escape or fool debuggers from existing flaws
+- Exploiting flaws in WinDbg: how to escape or fool debuggers from existing flaws
 	- Journal of Computer Virology and Hacking Techniques (2020)
 	- François Plumerault, Baptiste David
 	- http://dx.doi.org/10.1007/s11416-020-00347-x
@@ -1315,12 +1315,12 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Stupid debugger tricks: Calling functions and methods - https://blogs.msdn.microsoft.com/oldnewthing/20070427-00/?p=27083
 - Time travel debugging: It’s a blast! (from the past)
 	- https://msrc.microsoft.com/blog/2019/05/time-travel-debugging-its-a-blast-from-the-past/
-- Tutorial: Using WinDBG to call arbitrary functions — WinDBG kung-fu series
+- Tutorial: Using WinDbg to call arbitrary functions — WinDBG kung-fu series
 	- http://cfc.kizzx2.com/index.php/tutorial-using-windbg-to-call-arbitrary-functions-windbg-kung-fu-series/
-- Undocumented WinDBG - https://blogs.msdn.microsoft.com/reiley/2011/10/30/undocumented-windbg/
+- Undocumented WinDbg - https://blogs.msdn.microsoft.com/reiley/2011/10/30/undocumented-windbg/
 - Use Windows Debuggers for Non-Debugging Tasks - https://blogs.msdn.microsoft.com/reiley/2011/10/23/use-windows-debuggers-for-non-debugging-tasks/
-- Using Function Evaluation in WinDBG - https://blogs.msdn.microsoft.com/reiley/2012/08/18/using-function-evaluation-in-windbg/
-- Windbg automation and extensions - https://web.archive.org/https://nativecoding.wordpress.com/2016/01/10/automate-attach-to-process-on-windows-with-windbg/
+- Using Function Evaluation in WinDbg - https://blogs.msdn.microsoft.com/reiley/2012/08/18/using-function-evaluation-in-windbg/
+- WinDbg automation and extensions - https://web.archive.org/https://nativecoding.wordpress.com/2016/01/10/automate-attach-to-process-on-windows-with-windbg/
 - WinDbg Malware Analysis Cheat Sheet
 	- https://web.archive.org/https://oalabs.openanalysis.net/2019/02/18/windbg-for-malware-analysis/
 - WinDbg — the Fun Way
@@ -1333,12 +1333,12 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ##### WinDbg: Projects
 
-- 0CCh Windbg extension - https://github.com/0cch/0cchext
+- 0CCh WinDbg extension - https://github.com/0cch/0cchext
 - DbgModelCppLib: A header-only C++ library for producing and consuming data from the debugger data model
 	- https://github.com/Microsoft/WinDbg-Libraries/tree/master/DbgModelCppLib
 	- https://github.com/Microsoft/WinDbg-Samples/tree/master/DataModelHelloWorld/Cpp
 - TWindbg: PEDA-like debugger UI for WinDbg - https://github.com/bruce30262/TWindbg
-- WDBGARK: WinDBG Anti-RootKit extension - https://github.com/swwwolf/wdbgark
+- WDBGARK: WinDbg Anti-RootKit extension - https://github.com/swwwolf/wdbgark
 - Winbagility: a tool to connect WinDbg on non /DEBUG Windows x64 systems
 	- http://winbagility.github.io
 	- https://github.com/Winbagility/Winbagility
@@ -1358,10 +1358,16 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Time Travel Debugging FAQ - https://blogs.msdn.microsoft.com/windbg/2017/10/20/time-travel-debugging-faq/
 - Time Travel Debugging - Overview - https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/time-travel-debugging-overview
 - Time Travel Debugging - Sample App Walkthrough - https://aka.ms/ttdtutorial
-- CppCon 2017: Time Travel Debugging: Root Causing Bugs in Commercial Scale Software
+- Time Travel Debugging: Root Causing Bugs in Commercial Scale Software
+	- CppCon 2017
+	- James McNellis, Jordi Mola, Ken Sykes
 	- https://www.youtube.com/watch?v=l1YJTg_A914
-- Defrag Tools #186 - Time Travel Debugging - Advanced
+- Time Travel Debugging - Advanced
+	- Defrag Tools #186 (2017)
+	- Andrew Richards, JCAB (Juan Carlos Arevalo Baeza), Jordi Mola
 	- https://learn.microsoft.com/en-us/shows/defrag-tools/186-time-travel-debugging-advanced
+- TTD-Bindings: Bindings for Microsoft WinDbg Time Travel Debugging (TTD)
+	- https://github.com/commial/ttd-bindings
 
 ## Stack Trace & Unwinding
 
