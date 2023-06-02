@@ -1267,6 +1267,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 - SymbolSort: A Utility for Measuring C++ Code Bloat
 	- https://github.com/adrianstone55/SymbolSort
 	- http://gameangst.com/?p=320
+- WinDiff: Web-based tool that allows browsing and comparing symbol and type information of Microsoft Windows binaries across different versions of the OS
+	- https://github.com/ergrelet/windiff
 - μthenticode: a cross-platform library for verifying Authenticode signatures
 	- https://github.com/trailofbits/uthenticode
 	- Verifying Windows binaries, without Windows
