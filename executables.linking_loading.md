@@ -385,6 +385,8 @@ See also:
 		- https://maskray.me/blog/2021-01-09-copy-relocations-canonical-plt-entries-and-protected
 	- Relocatable linking
 		- https://maskray.me/blog/2022-11-21-relocatable-linking
+	- Relocation overflow and code models
+		- https://maskray.me/blog/2023-05-14-relocation-overflow-and-code-models
 - Moving code around - Thiago Macieira
 	- http://blog.qt.io/blog/2010/12/04/moving-code-around/
 	- http://blog.qt.io/blog/2010/12/05/moving-code-around-more-easily/
