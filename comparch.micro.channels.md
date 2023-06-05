@@ -2029,6 +2029,10 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 
 ## Power: 2023
 
+- DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data
+	- IEEE Symposium on Security and Privacy (S&P) 2023
+	- Yingchen Wang, Riccardo Paccagnella, Alan Wandke, Zhao Gang, Grant Garrett-Grossman, Christopher Fletcher, David Kohlbrenner, Hovav Shacham
+	- https://www.hertzbleed.com/2h2b.pdf
 - Hot Pixels: Frequency, Power, and Temperature Attacks on GPUs and Arm SoCs
 	- USENIX Security 2023
 	- Hritvik Taneja, Jason Kim, Jie Jeff Xu, Stephan van Schaik, Daniel Genkin, Yuval Yarom
