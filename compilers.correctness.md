@@ -1597,6 +1597,16 @@ Validation: Including translation validation, equivalence checking.
 	- https://doi.org/10.1145/3498686
 	- https://github.com/SJTU-PLV/nominal-compcert-popl22-artifact
 	- https://popl22.sigplan.org/details/POPL-2022-popl-research-papers/25/Verified-Compilation-of-C-Programs-with-a-Nominal-Memory-Model
+- Verified Tensor-Program Optimization Via High-level Scheduling Rewrites
+	- POPL 2022
+	- Amanda Liu, Gilbert Louis Bernstein, Adam Chlipala, Jonathan Ragan-Kelley
+	- https://doi.org/10.1145/3498717
+	- https://www.youtube.com/watch?v=f2NEU1ENt6A
+	- https://popl22.sigplan.org/details/POPL-2022-popl-research-papers/55/Verified-Tensor-Program-Optimization-Via-High-level-Scheduling-Rewrites
+	- Verified ATL Scheduling Framework
+		- https://github.com/ChezJrk/verified-scheduling
+	- SAMPL Talk 2022/04/21
+		- https://www.youtube.com/watch?v=AUe9lzhBOgc
 
 ## Verification: 2021
 
