@@ -780,6 +780,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- https://developer.arm.com/docs/101725/0200
 	- Coding for Neon
 		- https://developer.arm.com/docs/101725/0200/coding-for-neontm
+- A whirlwind tour of AArch64 vector instructions
+	- https://www.corsix.org/content/whirlwind-tour-aarch64-vector-instructions
 - ARM Neon Intrinsics - https://gcc.gnu.org/onlinedocs/gcc-4.9.4/gcc/ARM-NEON-Intrinsics.html#ARM-NEON-Intrinsics
 - Bit twiddling with Arm Neon: beating SSE movemasks, counting bits and more
 	- https://community.arm.com/arm-community-blogs/b/infrastructure-solutions-blog/posts/porting-x86-vector-bitmask-optimizations-to-arm-neon
