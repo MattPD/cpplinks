@@ -450,6 +450,12 @@
 	- Martin Beck, Koustubha Bhat, Lazar Stricevic, Geng Chen, Diogo Behrens, Ming Fu, Viktor Vafeiadis, Haibo Chen, Hermann Härtig
 	- https://dl.acm.org/doi/10.1145/3575693.3579849
 	- https://people.mpi-sws.org/~viktor/papers/asplos2023-atomig.pdf
+- GPUHarbor: Testing GPU Memory Consistency at Large (Experience Paper)
+	- ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2023
+	- Reese Levine, Mingun Cho, Devon McKee, Andrew Quinn, Tyler Sorensen
+	- https://doi.org/10.1145/3597926.3598095
+	- https://reeselevine.github.io/assets/pdf/gpuharbor.pdf
+	- https://gpuharbor.ucsc.edu/webgpu-mem-testing/tuning/
 - MC Mutants: Evaluating and Improving Testing for Memory Consistency Specifications
 	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2023
 	- Reese Levine, Tianhao Guo, Mingun Cho, Alan Baker, Raph Levien, David Neto, Andrew Quinn, Tyler Sorensen
