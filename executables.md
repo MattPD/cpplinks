@@ -1134,6 +1134,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 ## PE: Readings
 
 - A smallest PE executable (x64) with every byte executed - https://drakopensulo.wordpress.com/2017/08/06/smallest-pe-executable-x64-with-every-byte-executed/
+- Abusing undocumented features to spoof PE section headers
+	- https://secret.club/2023/06/05/spoof-pe-sections.html
 - An Analysis of the Windows PE Checksum Algorithm - https://www.codeproject.com/Articles/19326/An-Analysis-of-the-Windows-PE-Checksum-Algorithm
 - An In-Depth Look into the Win32 Portable Executable File Format
 	- Part 1: http://reversingproject.info/wp-content/uploads/2009/05/an_in-depth_look_into_the_win32_portable_executable_file_format_part_1.pdf / http://www.delphibasics.info/home/delphibasicsarticles/anin-depthlookintothewin32portableexecutablefileformat-part1
