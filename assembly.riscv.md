@@ -613,6 +613,10 @@ https://riscv.org/software-tools/
 
 # Tutorials
 
+- Adding a new RISC-V instruction (to LLVM)
+	- Extending the LLVM compiler to assemble new RISC-V instructions
+	- 2023-05-05
+	- https://fprox.substack.com/p/adding-a-new-risc-v-instruction-to
 - "All Aboard" Blog Series
 	- Part 0: Introduction: Part 0: Introduction - https://www.sifive.com/blog/2017/08/07/all-aboard-part-0-introduction/
 	- Part 1: The -march, -mabi, and -mtune arguments to RISC-V Compilers - https://www.sifive.com/blog/2017/08/14/all-aboard-part-1-compiler-args/
