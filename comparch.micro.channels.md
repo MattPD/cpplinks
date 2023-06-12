@@ -2494,6 +2494,14 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Oleksii Oleksenko, Marco Guarnieri, Boris Köpf, Mark Silberstein
 	- https://arxiv.org/abs/2301.07642
 	- https://github.com/microsoft/sca-fuzzer
+- The Ghost Is The Machine: Weird Machines in Transient Execution
+	- IEEE Workshop on Offensive Technologies (WOOT) 2023
+	- Ping-Lun Wang, Fraser Brown, Riad S. Wahby
+	- http://wootconference.org/papers/woot23-paper10.pdf
+	- Transient Weird Machine
+		- transient weird machines implemented for ARM64 and x86-64 machines using the exception, TSX, branch predictor, and branch target buffer as the transient execution primitives
+		- These weird machines can perform logic operations (e.g., OR, AND, NOT, ...) in the cache states using transient execution, and their computations are purely microarchitectural. This means that no existing deubgger or analysis tool can capture their computation states during execution.
+		- https://github.com/joeywang4/Transient-Weird-Machine
 
 ## Speculation: 2022
 
