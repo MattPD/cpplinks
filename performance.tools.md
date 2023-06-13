@@ -358,9 +358,6 @@
 		- https://easyperf.net/blog/2020/02/26/coz-vs-sampling-profilers
 - easy_profiler: Lightweight cross-platform profiler library for C++
 	- https://github.com/yse/easy_profiler
-- Event Tracing for Windows (ETW) / Windows Performance Toolkit – Xperf
-	- https://blogs.msdn.microsoft.com/ntdebugging/2008/04/03/windows-performance-toolkit-xperf/
-	- ETW Central: https://randomascii.wordpress.com/2015/09/24/etw-central/
 - gperftools (originally Google Performance Tools)
 	- "The fastest malloc we’ve seen; works particularly well with threads and STL. Also: thread-friendly heap-checker, heap-profiler, and cpu-profiler."
 	- https://github.com/gperftools/gperftools
@@ -463,6 +460,14 @@
 - gprof2dot
 	- "Python script to convert the output from many profilers into a dot graph."
 	- https://github.com/jrfonseca/gprof2dot
+
+## Profiling: Windows
+
+- Event Tracing for Windows (ETW) / Windows Performance Toolkit – Xperf
+	- https://blogs.msdn.microsoft.com/ntdebugging/2008/04/03/windows-performance-toolkit-xperf/
+	- ETW Central: https://randomascii.wordpress.com/2015/09/24/etw-central/
+- WindowsPerf: (Linux perf inspired) Windows on Arm performance profiling tool
+	- https://gitlab.com/Linaro/WindowsPerf/windowsperf
 
 # Timing
 
