@@ -1512,6 +1512,8 @@ See also: [Performance Tools](performance.tools.md)
 		- https://eclecticlight.co/2021/08/06/accelerating-the-m1-mac-an-introduction-to-simd/
 	- 14: Lanes and loads in NEON 
 		- https://eclecticlight.co/2021/08/23/code-in-arm-assembly-lanes-and-loads-in-neon/
+- “csinc”, the AArch64 instruction you didn’t know you wanted
+	- https://danlark.org/2023/06/06/csinc-the-arm-instruction-you-didnt-know-you-wanted/
 - Exploring AArch64 assembler - https://thinkingeek.com/categories/aarch64/
 	- Chapter 1: first program - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter1/
 	- Chapter 2: register operands and immediate operands - http://thinkingeek.com/2016/10/08/exploring-aarch64-assembler-chapter-2/
