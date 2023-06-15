@@ -470,6 +470,11 @@ See also:
 	- StockholmCpp 2020; Tobias Hieta
 	- https://www.youtube.com/watch?v=X4pyOtawqjg
 	- https://gist.github.com/tru/ad677ba2b1d543e238b0e09eb3aad3ac
+- Improving C++ Compilation Times: Tools & Techniques
+	- ACCU 2023
+	- Vittorio Romeo
+	- https://www.youtube.com/watch?v=PfHD3BsVsAM
+	- https://raw.githubusercontent.com/vittorioromeo/corecpp2023/main/improving_compilation_times_corecpp2023.pdf
 - LLVM Compile-Time: Challenges. Improvements. Outlook.
 	- 2017 LLVM Developers’ Meeting; Michael Zolotukhin
 	- https://www.youtube.com/watch?v=bYHMwyyZ6Mk
