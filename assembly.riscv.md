@@ -109,6 +109,11 @@ https://riscv.org/risc-v-books/
 - Basic Shellcode in RISC-V Linux
 	- Thomas Karpiniec
 	- https://thomask.sdf.org/blog/2018/08/25/basic-shellcode-in-riscv-linux.html
+- Emoji shellcoding in RISC-V
+	- IEEE Workshop on Offensive Technologies (WOOT) 2023
+	- Hadrien Barral, Georges-Axel Jaloyan, David Naccache
+	- https://wootconference.org/papers/woot23-paper5.pdf
+	- https://github.com/RischardV/emoji-shellcoding
 - RISC-V: #AlphanumericShellcoding
 	- USENIX Workshop on Offensive Technologies (WOOT) 2019; DEF CON 27 (2019)
 	- Hadrien Barral, Rémi Géraud-Stewart, Georges-Axel Jaloyan, David Naccache
