@@ -284,6 +284,116 @@
 
 ## Papers - Memory Model
 
+### Papers - Memory Model: 2023
+
+- AtoMig: Automatically Migrating Millions Lines of Code from TSO to WMM
+	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2023
+	- Martin Beck, Koustubha Bhat, Lazar Stricevic, Geng Chen, Diogo Behrens, Ming Fu, Viktor Vafeiadis, Haibo Chen, Hermann Härtig
+	- https://dl.acm.org/doi/10.1145/3575693.3579849
+	- https://people.mpi-sws.org/~viktor/papers/asplos2023-atomig.pdf
+- Compound Memory Models
+	- PLDI 2023
+	- Andrés Goens, Soham Chakraborty, Susmit Sarkar, Sukarn Agarwal, Nicolai Oswald, Vijay Nagarajan
+	- https://doi.org/10.1145/3591267
+	- https://homepages.inf.ed.ac.uk/vnagaraj/papers/pldi23.pdf
+	- "what should be the consistency model of the heterogeneous machine? We call our answer to this question a compound memory model. A compound memory model is not a new memory model; it is a compositional amalgamation where, informally speaking, threads from each device continue to adhere to the memory ordering rules of that device’s original memory model."
+	- "we present a compositional operational model describing the resulting model when devices with distinct consistency models are fused together. We instantiate our model with the compound x86TSO/PTX model -- a CPU enforcing x86TSO and a GPU enforcing the PTX model. A key result is that the x86TSO/PTX compound model retains compiler mappings from the language-based (scoped) C memory model. This means that threads mapped to the x86TSO device can continue to use the already proven C-to-x86TSO compiler mapping, and the same for PTX."
+- GPUHarbor: Testing GPU Memory Consistency at Large (Experience Paper)
+	- ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2023
+	- Reese Levine, Mingun Cho, Devon McKee, Andrew Quinn, Tyler Sorensen
+	- https://doi.org/10.1145/3597926.3598095
+	- https://reeselevine.github.io/assets/pdf/gpuharbor.pdf
+	- https://gpuharbor.ucsc.edu/webgpu-mem-testing/tuning/
+- MC Mutants: Evaluating and Improving Testing for Memory Consistency Specifications
+	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2023
+	- Reese Levine, Tianhao Guo, Mingun Cho, Alan Baker, Raph Levien, David Neto, Andrew Quinn, Tyler Sorensen
+	- https://dl.acm.org/doi/10.1145/3575693.3575750
+	- https://github.com/reeselevine/mc-mutants-artifact
+- Optimal Reads-From Consistency Checking for C11-Style Memory Models
+	- PLDI 2023
+	- Parosh Aziz Abdulla, Soham Chakraborty, Shankaranarayanan Krishna, Umang Mathur, Andreas Pavlogiannis, Hünkar Can Tunç
+	- https://arxiv.org/abs/2304.03714
+	- https://pldi23.sigplan.org/details/pldi-2023-pldi/32/Optimal-Reads-From-Consistency-Checking-for-C11-Style-Memory-Models
+	- https://doi.org/10.5281/zenodo.7816526
+
+### Papers - Memory Model: 2022
+
+- Mixed-Proxy Extensions for the NVIDIA PTX Memory Consistency Model
+	- International Symposium on Computer Architecture (ISCA), Industry Track, 2022
+	- Daniel Lustig, Simon Cooksey, Olivier Giroux
+	- https://github.com/NVlabs/mixedproxy
+	- https://doi.org/10.1145/3470496.3533045
+	- > In this work, we describe the "proxy" extensions added to version 7.5 of NVIDIA's PTX ISA for GPUs. A proxy is an extra tag abstractly applied to every memory or fence operation. Proxies generalize the notion of address translation and specialized non-coherent cache hierarchies into an abstraction that cleanly describes the resulting non-standard behavior. The goal of proxies is to facilitate integration of these specialized memory accesses into the general-purpose PTX programming model in a fully composable manner. 
+- The Leaky Semicolon: Compositional Semantic Dependencies for Relaxed-Memory Concurrency
+	- POPL 2022
+	- Alan Jeffrey, James Riely, Mark Batty, Simon Cooksey, Anton Podkopaev
+	- https://github.com/weakmemory/weakmemory.github.io/blob/master/pwt.md
+	- https://popl22.sigplan.org/details/POPL-2022-popl-research-papers/54/The-Leaky-Semicolon-Compositional-Semantic-Dependencies-for-Relaxed-Memory-Concurren
+	- JetBrains Research Rus 2021
+		- https://www.youtube.com/watch?v=AsrckMUlIjY
+
+### Papers - Memory Model: 2021
+
+- A Survey of Programming Language Memory Models
+	- Programming and Computer Software, Vol. 47, No. 6, 2021
+	- Evgenii Moiseenko, Anton Podkopaev, Dmitrii Koznov
+	- https://media.githubusercontent.com/media/anlun/publicFiles/master/papers/Moiseenko-al-Programming21-full.pdf
+- Verifying Observational Robustness against a C11-Style Memory Model
+	- POPL 2021
+	- Roy Margalit, Ori Lahav
+	- https://www.cs.tau.ac.il/~orilahav/papers/popl21_robustness.pdf
+	- https://www.cs.tau.ac.il/~orilahav/papers/popl21_robustness_full.pdf
+	- https://popl21.sigplan.org/details/POPL-2021-research-papers/4/Verifying-Observational-Robustness-Against-a-C11-style-Memory-Model
+	- Rocker: Robustness Checker
+		- a tool to verify robustness of programs written in TPL against C11 semantics.
+		- https://github.com/rymrg/rocker
+
+### Papers - Memory Model: 2020
+
+- Foundations of Empirical Memory Consistency Testing
+	- OOPSLA 2020
+	- Tyler Sorensen, Esin Tureci, Jake Kirkham, Margaret R. Martonosi
+	- https://2020.splashcon.org/details/splash-2020-oopsla/102/Foundations-of-Empirical-Memory-Consistency-Testing
+	- https://users.soe.ucsc.edu/~tsorensen/files/oopsla2020.pdf
+- Owicki-Gries Reasoning for C11 RAR
+	- ECOOP 2020
+	- Sadegh Dalvandi, Simon Doherty, Brijesh Dongol, Heike Wehrheim
+	- https://2020.ecoop.org/details/ecoop-2020-papers/11/Owicki-Gries-Reasoning-for-C11-RAR
+	- https://brijeshdongol.github.io/full-version/ECOOP20.pdf
+	- C11 RAR memory model (a fragment of C11 with both relaxed and release-acquire accesses)
+- Reconciling Event Structures with Modern Multiprocessors
+	- ECOOP 2020
+	- Evgenii Moiseenko, Anton Podkopaev, Ori Lahav, Orestis Melkonian, Viktor Vafeiadis
+	- http://plv.mpi-sws.org/weakestmoToImm/
+	- https://arxiv.org/abs/1911.06567
+	- https://2020.ecoop.org/details/ecoop-2020-papers/5/Reconciling-Event-Structures-with-Modern-Multiprocessors
+
+### Papers - Memory Model: 2019
+
+- Bridging the Gap Between Programming Languages and Hardware Weak Memory Models
+	- POPL 2019
+	- Anton Podkopaev, Ori Lahav, Viktor Vafeiadis
+	- https://popl19.sigplan.org/event/popl-2019-research-papers-bridging-the-gap-between-programming-languages-and-hardware-weak-memory-models
+- On Library Correctness under Weak Memory Consistency
+	- POPL 2019
+	- Azalea Raad, Marko Doko, Lovro Rožić, Ori Lahav, Viktor Vafeiadis
+	- https://popl19.sigplan.org/event/popl-2019-research-papers-on-library-correctness-under-weak-memory-consistency
+- Promising-ARM/RISC-V: A Simpler and Faster Operational Concurrency Model
+	- PLDI 2019
+	- Christopher Pulte, Jean Pichon-Pharabod, Jeehoon Kang, Sung-Hwan Lee, Chung-Kil Hur
+	- https://dl.acm.org/doi/10.1145/3314221.3314624
+	- https://sf.snu.ac.kr/promising-arm-riscv/
+	- https://github.com/snu-sf/promising-arm
+	- https://github.com/promising-arm-riscv/promising-arm-riscv
+	- https://www.youtube.com/watch?v=0oHpVr1IFN0
+- Verifying C11 Programs Operationally
+	- Principles and Practice of Parallel Programming (PPoPP) 2019
+	- Simon Doherty, Brijesh Dongol, Heike Wehrheim, John Derrick
+	- https://arxiv.org/abs/1811.09143
+	- https://ppopp19.sigplan.org/event/ppopp-2019-papers-verifying-c11-programs-operationally
+
+### Papers - Memory Model: 2018-1996
+
 - A Promising Semantics for Relaxed-Memory Concurrency
 	- POPL 2017
 	- Jeehoon Kang, Chung-Kil Hur, Ori Lahav, Viktor Vafeiadis, Derek Dreyer
@@ -366,107 +476,6 @@
 	- CACM 2012, ACM Queue 2011
 	- Hans-J. Boehm, Sarita V. Adve
 	- https://queue.acm.org/detail.cfm?id=2088916
-
-### Papers - Memory Model: 2019
-
-- Bridging the Gap Between Programming Languages and Hardware Weak Memory Models
-	- POPL 2019
-	- Anton Podkopaev, Ori Lahav, Viktor Vafeiadis
-	- https://popl19.sigplan.org/event/popl-2019-research-papers-bridging-the-gap-between-programming-languages-and-hardware-weak-memory-models
-- On Library Correctness under Weak Memory Consistency
-	- POPL 2019
-	- Azalea Raad, Marko Doko, Lovro Rožić, Ori Lahav, Viktor Vafeiadis
-	- https://popl19.sigplan.org/event/popl-2019-research-papers-on-library-correctness-under-weak-memory-consistency
-- Promising-ARM/RISC-V: A Simpler and Faster Operational Concurrency Model
-	- PLDI 2019
-	- Christopher Pulte, Jean Pichon-Pharabod, Jeehoon Kang, Sung-Hwan Lee, Chung-Kil Hur
-	- https://dl.acm.org/doi/10.1145/3314221.3314624
-	- https://sf.snu.ac.kr/promising-arm-riscv/
-	- https://github.com/snu-sf/promising-arm
-	- https://github.com/promising-arm-riscv/promising-arm-riscv
-	- https://www.youtube.com/watch?v=0oHpVr1IFN0
-- Verifying C11 Programs Operationally
-	- Principles and Practice of Parallel Programming (PPoPP) 2019
-	- Simon Doherty, Brijesh Dongol, Heike Wehrheim, John Derrick
-	- https://arxiv.org/abs/1811.09143
-	- https://ppopp19.sigplan.org/event/ppopp-2019-papers-verifying-c11-programs-operationally
-
-### Papers - Memory Model: 2020
-
-- Foundations of Empirical Memory Consistency Testing
-	- OOPSLA 2020
-	- Tyler Sorensen, Esin Tureci, Jake Kirkham, Margaret R. Martonosi
-	- https://2020.splashcon.org/details/splash-2020-oopsla/102/Foundations-of-Empirical-Memory-Consistency-Testing
-	- https://users.soe.ucsc.edu/~tsorensen/files/oopsla2020.pdf
-- Owicki-Gries Reasoning for C11 RAR
-	- ECOOP 2020
-	- Sadegh Dalvandi, Simon Doherty, Brijesh Dongol, Heike Wehrheim
-	- https://2020.ecoop.org/details/ecoop-2020-papers/11/Owicki-Gries-Reasoning-for-C11-RAR
-	- https://brijeshdongol.github.io/full-version/ECOOP20.pdf
-	- C11 RAR memory model (a fragment of C11 with both relaxed and release-acquire accesses)
-- Reconciling Event Structures with Modern Multiprocessors
-	- ECOOP 2020
-	- Evgenii Moiseenko, Anton Podkopaev, Ori Lahav, Orestis Melkonian, Viktor Vafeiadis
-	- http://plv.mpi-sws.org/weakestmoToImm/
-	- https://arxiv.org/abs/1911.06567
-	- https://2020.ecoop.org/details/ecoop-2020-papers/5/Reconciling-Event-Structures-with-Modern-Multiprocessors
-
-### Papers - Memory Model: 2021
-
-- A Survey of Programming Language Memory Models
-	- Programming and Computer Software, Vol. 47, No. 6, 2021
-	- Evgenii Moiseenko, Anton Podkopaev, Dmitrii Koznov
-	- https://media.githubusercontent.com/media/anlun/publicFiles/master/papers/Moiseenko-al-Programming21-full.pdf
-- Verifying Observational Robustness against a C11-Style Memory Model
-	- POPL 2021
-	- Roy Margalit, Ori Lahav
-	- https://www.cs.tau.ac.il/~orilahav/papers/popl21_robustness.pdf
-	- https://www.cs.tau.ac.il/~orilahav/papers/popl21_robustness_full.pdf
-	- https://popl21.sigplan.org/details/POPL-2021-research-papers/4/Verifying-Observational-Robustness-Against-a-C11-style-Memory-Model
-	- Rocker: Robustness Checker
-		- a tool to verify robustness of programs written in TPL against C11 semantics.
-		- https://github.com/rymrg/rocker
-
-### Papers - Memory Model: 2022
-
-- Mixed-Proxy Extensions for the NVIDIA PTX Memory Consistency Model
-	- International Symposium on Computer Architecture (ISCA), Industry Track, 2022
-	- Daniel Lustig, Simon Cooksey, Olivier Giroux
-	- https://github.com/NVlabs/mixedproxy
-	- https://doi.org/10.1145/3470496.3533045
-	- > In this work, we describe the "proxy" extensions added to version 7.5 of NVIDIA's PTX ISA for GPUs. A proxy is an extra tag abstractly applied to every memory or fence operation. Proxies generalize the notion of address translation and specialized non-coherent cache hierarchies into an abstraction that cleanly describes the resulting non-standard behavior. The goal of proxies is to facilitate integration of these specialized memory accesses into the general-purpose PTX programming model in a fully composable manner. 
-- The Leaky Semicolon: Compositional Semantic Dependencies for Relaxed-Memory Concurrency
-	- POPL 2022
-	- Alan Jeffrey, James Riely, Mark Batty, Simon Cooksey, Anton Podkopaev
-	- https://github.com/weakmemory/weakmemory.github.io/blob/master/pwt.md
-	- https://popl22.sigplan.org/details/POPL-2022-popl-research-papers/54/The-Leaky-Semicolon-Compositional-Semantic-Dependencies-for-Relaxed-Memory-Concurren
-	- JetBrains Research Rus 2021
-		- https://www.youtube.com/watch?v=AsrckMUlIjY
-
-### Papers - Memory Model: 2023
-
-- AtoMig: Automatically Migrating Millions Lines of Code from TSO to WMM
-	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2023
-	- Martin Beck, Koustubha Bhat, Lazar Stricevic, Geng Chen, Diogo Behrens, Ming Fu, Viktor Vafeiadis, Haibo Chen, Hermann Härtig
-	- https://dl.acm.org/doi/10.1145/3575693.3579849
-	- https://people.mpi-sws.org/~viktor/papers/asplos2023-atomig.pdf
-- GPUHarbor: Testing GPU Memory Consistency at Large (Experience Paper)
-	- ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2023
-	- Reese Levine, Mingun Cho, Devon McKee, Andrew Quinn, Tyler Sorensen
-	- https://doi.org/10.1145/3597926.3598095
-	- https://reeselevine.github.io/assets/pdf/gpuharbor.pdf
-	- https://gpuharbor.ucsc.edu/webgpu-mem-testing/tuning/
-- MC Mutants: Evaluating and Improving Testing for Memory Consistency Specifications
-	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2023
-	- Reese Levine, Tianhao Guo, Mingun Cho, Alan Baker, Raph Levien, David Neto, Andrew Quinn, Tyler Sorensen
-	- https://dl.acm.org/doi/10.1145/3575693.3575750
-	- https://github.com/reeselevine/mc-mutants-artifact
-- Optimal Reads-From Consistency Checking for C11-Style Memory Models
-	- PLDI 2023
-	- Parosh Aziz Abdulla, Soham Chakraborty, Shankaranarayanan Krishna, Umang Mathur, Andreas Pavlogiannis, Hünkar Can Tunç
-	- https://arxiv.org/abs/2304.03714
-	- https://pldi23.sigplan.org/details/pldi-2023-pldi/32/Optimal-Reads-From-Consistency-Checking-for-C11-Style-Memory-Models
-	- https://doi.org/10.5281/zenodo.7816526
 
 ---
 
