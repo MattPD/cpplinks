@@ -1562,6 +1562,13 @@ Validation: Including translation validation, equivalence checking.
 	- Amal Ahmed
 	- http://www.ccs.neu.edu/home/amal/papers/verifcomp.pdf
 
+## Verification: 2023
+
+- Formally Verifying Optimizations with Block Simulations
+	- 2023
+	- Léo Gourdin, Benjamin Bonneau, Sylvain Boulmé, David Monniaux, Alexandre Bérard
+	- https://hal.science/hal-04102940/
+
 ## Verification: 2022
 
 - Formal Verification of Just-in-Time Compilation
