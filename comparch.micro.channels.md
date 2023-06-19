@@ -76,6 +76,10 @@ See also: [Computer Architecture](comparch.md)
 	- https://github.com/KULeuven-COSIC/ShowTime
 	- "a general framework to expose arbitrary microarchitectural timing channels to coarse-grained timers"
 	- "consists of Convert routines, transforming microarchitectural leakage from one type to another, and Amplify routines, inflating the timing difference of a single microarchitectural event to make it distinguishable with crude sources of time"
+- SoK: Analysis of Root Causes and Defense Strategies for Attacks on Microarchitectural Optimizations
+	- IEEE European Symposium on Security and Privacy (Euro S&P) 2023
+	- Nadja Ramhöj Holtryd, Madhavan Manivannan, Per Stenström
+	- https://arxiv.org/abs/2212.10221
 
 ## General: 2022
 
