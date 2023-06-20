@@ -6,6 +6,7 @@
 - [References](#references)
 - [Standard](#standard)
 - [Standardization](#standardization)
+- [C++26](#c26)
 - [C++23](#c23): [C++23 Talks](#c23-talks)
 - [C++20](#c20): [C++20 Readings](#c20-readings), [C++20 Talks](#c20-talks)
 - [C++17](#c17): [C++17 Readings](#c17-readings), [C++17 Talks](#c17-talks)
@@ -104,6 +105,18 @@
 		- https://thephd.github.io/getting-there-standardization-in-2019
 - Specification Style Guidelines
 	- https://github.com/cplusplus/draft/wiki/Specification-Style-Guidelines
+
+---
+
+# C++26
+
+## C++26: Trip Reports
+
+### C++26: Trip Reports: 2023-06
+
+- Trip report: Summer ISO C++ standards meeting (Varna, Bulgaria)
+	- https://herbsutter.com/2023/06/16/trip-report-summer-iso-c-standards-meeting-varna-bulgaria/
+
 
 ---
 
