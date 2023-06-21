@@ -1156,6 +1156,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- The Linux x86 ORC Stack Unwinder - http://www.codeblueprint.co.uk/2017/07/31/the-orc-unwinder.html
 	- The ORCs are coming - https://lwn.net/Articles/728339/
 	- x86: ORC unwinder (previously undwarf) - https://lwn.net/Articles/727553/
+	- Unwinding a Stack by Hand with Frame Pointers and ORC
+		- 2022
+		- Stephen Brennan
+		- https://blogs.oracle.com/linux/post/unwinding-stack-frame-pointers-and-orc
 - PageBuster: dump all executable pages of packed processes
 	- https://github.com/revng/pagebuster
 	- PageBuster: stealthily dump all the code ever executed
