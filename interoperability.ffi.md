@@ -362,6 +362,10 @@
 	- ESEC/FSE 2021
 	- Jialiang Tan, Yu Chen, Zhenming Liu, Bin Ren, Shuaiwen Leon Song, Xipeng Shen, Xu Liu
 	- https://arxiv.org/abs/2107.00064
+- Towards Reliable Memory Management for Python Native Extensions
+	- ICOOOLPS 2023 
+	- Joannah Nanjekye, David Bremner, Aleksandar Micic
+	- https://conf.researchr.org/details/ecoop-issta-2023/ICOOOLPS-2023/4/Towards-Reliable-Memory-Management-for-Python-Native-Extensions
 
 ## Python: Software
 
