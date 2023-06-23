@@ -112,6 +112,9 @@ See also:
 			- https://research.google.com/pubs/pub34417.html
 			- https://gcc.gnu.org/wiki/HomePage?action=AttachFile&do=view&target=gcc-2008-proceedings.pdf
 			- http://airs.com/ian/gold-slides.pdf
+- Jordan Rose
+	- Dynamic Linking Is Bad For Apps And Static Linking Is Also Bad For Apps
+		- https://belkadan.com/blog/2022/02/Dynamic-Linking-and-Static-Linking/
 - MaskRay (Fangrui Song)
 	- All about COMMON symbols
 		- https://maskray.me/blog/2022-02-06-all-about-common-symbols
