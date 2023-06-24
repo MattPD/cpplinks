@@ -1568,6 +1568,10 @@ Validation: Including translation validation, equivalence checking.
 	- 2023
 	- Léo Gourdin, Benjamin Bonneau, Sylvain Boulmé, David Monniaux, Alexandre Bérard
 	- https://hal.science/hal-04102940/
+- Verifying the Verifier: eBPF Range Analysis Verification
+	- International Conference on Computer Aided Verification (CAV) 2023
+	- Harishankar Vishwanathan, Matan Shachnai, Srinivas Narayana, Santosh Nagarakatte
+	- https://people.cs.rutgers.edu/~sn349/papers/agni-cav2023.pdf
 
 ## Verification: 2022
 
