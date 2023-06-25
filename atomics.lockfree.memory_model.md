@@ -591,6 +591,9 @@
 		- http://diy.inria.fr/herd/
 		- http://diy.inria.fr/doc/herd.html
 		- https://github.com/herd/herdtools7
+		- Understanding Memory Ordering using LKMM and Herd7
+			- 2023; Joel Fernandes
+			- http://www.joelfernandes.org/resources/lkmm_herd7.pdf
 - MemSynth: An advanced automated reasoning tool for memory consistency model specifications.
 	- https://github.com/uwplse/memsynth
 	- Build an x86 memory model!
