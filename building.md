@@ -669,6 +669,8 @@ See also:
 	- https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1
 - Everything You Never Wanted to Know About CMake
 	- https://izzys.casa/2019/02/everything-you-never-wanted-to-know-about-cmake/
+- Everything You Never Wanted to Know About CMake (Redux)
+	- https://izzys.casa/2023/06/everything-you-never-wanted-to-know-about-cmake-redux/
 - How to Build a CMake-Based Project
 	- http://preshing.com/20170511/how-to-build-a-cmake-based-project/
 - How To Find Packages With CMake: The Basics
