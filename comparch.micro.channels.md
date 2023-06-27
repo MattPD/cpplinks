@@ -2144,6 +2144,12 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 	- Yun Chen, Lingfeng Pei, Trevor E. Carlson
 	- https://dl.acm.org/doi/10.1145/3575693.3575719
 	- "we take an additional step to reverse-engineer the major components of the IP-stride prefetcher in the Haswell and Coffee Lake microarchitectures. To the best of our knowledge, this is the first work to reveal the index, update and trigger mechanisms in detail. We additionally investigate the effects of cross-page address prefetching, determine the number of entries in the history table, and reverse engineer the IP-stride prefetcher’s replacement policy."
+- BunnyHop: Exploiting the Instruction Prefetcher
+	- USENIX Security 2023
+	- Zhiyuan Zhang, Mingtian Tao, Sioli O'Connell, Chitchanok Chuengsatiansup, Daniel Genkin, Yuval Yarom
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/zhangzhiyuan-bunnyhop
+	- https://github.com/0xADE1A1DE/BunnyHop
+	- "What effects do the instruction prefetcher and branch predictor have on each other and what are the security implications of these effects?"
 
 ## Prefetch: 2022
 
