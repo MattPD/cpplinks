@@ -91,6 +91,9 @@
 	- http://syrcose.ispras.ru/2009/files/02_paper.pdf
 	- http://static.coldattic.info/restricted/science/syrcose09/cppbincomp.pdf
 - Binary-compatible C++ Interfaces - https://chadaustin.me/cppinterface.html
+- C++ standard library ABI compatibility
+	- 2023; MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2023-06-25-c++-standard-library-abi-compatibility
 - C++ Standards Committee Papers
 	- ABI breakage - summary of initial comments
 		- 2019; Roger Orr
