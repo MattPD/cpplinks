@@ -1395,6 +1395,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://github.com/peadar/pstack
 - quickstack: a tool to take call stack traces with minimal overheads
 	- https://github.com/yoshinorim/quickstack
+- Stack unwinding
+	- MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2020-11-08-stack-unwinding
 - Unwind specification draft for GNU/Linux/ia64 (extends the exception ABI) - https://www.kernel.org/pub/linux/devel/gcc/unwind/
 
 ---
