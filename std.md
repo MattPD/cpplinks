@@ -147,6 +147,12 @@
 		- https://www.youtube.com/watch?v=eD-ceG-oByA
 	- 2022-09-01: NDC TechTown 2022
 		- https://www.youtube.com/watch?v=HdZTw5qLg6A
+- New Algorithms in C++23
+	- Italian C++ Conference 2023
+	- Conor Hoekstra
+	- https://www.youtube.com/watch?v=5FU7Gtkb0IA
+	- https://github.com/codereport/Content/tree/main/Talks/2023-06-ItalianC%2B%2B
+	- https://github.com/italiancpp/itcppcon23/blob/main/New%20Algorithms%20in%20C%2B%2B23%20-%20Conor%20Hoekstra.pdf
 - What's New In C++23
 	- Sy Brand
 	- CppCon 2022
