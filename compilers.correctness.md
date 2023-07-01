@@ -430,6 +430,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- Haoxin Tu, He Jiang, Zhide Zhou, Yixuan Tang, Zhilei Ren, Lei Qiao, Lingxiao Jiang
 	- https://haoxintu.github.io/files/tr-2022-draft.pdf
 	- https://github.com/haoxintu/CCOFT
+- Interpreter-guided Differential JIT Compiler Unit Testing
+	- Programming Language Design and Implementation (PLDI) 2022
+	- Guillermo Polito, Stéphane Ducasse, Pablo Tesone
+	- https://doi.org/10.1145/3519939.3523457
+	- https://www.youtube.com/watch?v=V3LUdA52rnc
 - Metamorphic Testing of Deep Learning Compilers
 	- SIGMETRICS 2022
 	- Proceedings of the ACM on Measurement and Analysis of Computing Systems, Volume 6, Issue 1, March 2022
