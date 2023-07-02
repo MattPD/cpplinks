@@ -406,6 +406,16 @@
 	- Peizhao Ou, Brian Demsky
 	- http://plrg.ics.uci.edu/automo/
 	- http://plrg.eecs.uci.edu/publications/oopsla15inference.pdf
+- Bounding Data Races in Space and Time
+	- PLDI 2018
+	- Stephen Dolan, KC Sivaramakrishnan, Anil Madhavapeddy
+	- https://doi.org/10.1145/3192366.3192421
+	- https://pldi18.sigplan.org/details/pldi-2018-papers/15/Bounding-Data-Races-in-Space-and-Time
+	- https://kcsrk.info/papers/pldi18-memory.pdf
+	- https://speakerdeck.com/kayceesrk/bounding-data-races-in-space-and-time
+	- The Morning Paper by Adrian Colyer 
+		- https://blog.acolyer.org/2018/08/09/bounding-data-races-in-space-and-time-part-i/
+		- https://blog.acolyer.org/2018/08/10/bounding-data-races-in-space-and-time-part-ii/
 - C++ Memory Model
 	- 2012; Martin Kempf
 	- https://wiki.ifs.hsr.ch/SemProgAnTr/SeminarHS12
