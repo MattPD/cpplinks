@@ -1171,6 +1171,11 @@ See also: [Computer Architecture](comparch.md)
 
 ## Cache: 2023
 
+- Cache Side-Channel Attacks on Existing and Emerging Computing Platforms
+	- 2023 PhD Dissertation
+	- Antoon Purnal
+	- https://antoonpurnal.github.io/files/pdf/PhDThesis.pdf
+	- https://www.youtube.com/watch?v=VU5esOOomnQ
 - CacheQL: Quantifying and Localizing Cache Side-Channel Vulnerabilities in Production Software
 	- USENIX Security 2023
 	- Yuanyuan Yuan, Zhibo Liu, Shuai Wang
