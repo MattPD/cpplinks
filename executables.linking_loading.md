@@ -590,6 +590,8 @@ See also:
 	- https://sysdig.com/blog/hiding-linux-processes-for-fun-and-profit/
 - libtree: ldd as a tree with an option to bundle dependencies into a single folder
 	- https://github.com/haampie/libtree
+- stelf-loader: A stealthy ELF loader - no files, no execve, no RWX
+	- https://github.com/DavidBuchanan314/stelf-loader
 
 ## Software: OS: Windows
 
