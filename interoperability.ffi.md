@@ -465,6 +465,11 @@
 
 - C++ Interoperability Workgroup
 	- https://www.swift.org/cxx-interop-workgroup/
+- Vision Documents
+	- Using C++ from Swift
+		- https://github.com/apple/swift-evolution/blob/main/visions/using-c%2B%2B-from-swift.md
+	- Using Swift from C++
+		- https://github.com/apple/swift-evolution/blob/main/visions/using-swift-from-c%2B%2B.md
 
 ---
 
