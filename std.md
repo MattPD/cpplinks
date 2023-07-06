@@ -114,9 +114,10 @@
 
 ### C++26: Trip Reports: 2023-06
 
+- Five Awesome C++ Papers for the H1 2023 - C++26, Varna and More 
+	- https://www.cppstories.com/2023/h1-cpp-papers23/
 - Trip report: Summer ISO C++ standards meeting (Varna, Bulgaria)
 	- https://herbsutter.com/2023/06/16/trip-report-summer-iso-c-standards-meeting-varna-bulgaria/
-
 
 ---
 
