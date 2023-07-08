@@ -824,6 +824,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- slides: https://nebelwelt.net/publications/files/15LangSec-presentation.pdf
 	- talk: https://www.youtube.com/watch?v=g6LCtHz_MDc&list=PL0pRF4xvoD0kuECJuowraVIIHlT3pN1Cm&index=3
 
+#### Testing: Readings: Performance Optimization: 2023
+
+- Exploring Missed Optimizations in WebAssembly Optimizers
+	- ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2023
+	- Zhibo Liu, Dongwei Xiao, Zongjie Li, Shuai Wang, Wei Meng
+	- https://2023.issta.org/details/issta-2023-technical-papers/28/Exploring-Missed-Optimizations-in-WebAssembly-Optimizers
+
 #### Testing: Readings: Performance Optimization: Loops
 
 - An Empirical Study of the Effect of Source-level Loop Transformations on Compiler Stability
