@@ -310,6 +310,12 @@ See also: [Computer Architecture](comparch.md)
 	- Jan Philipp Thoma, Christian Niesler, Dominic Funke, Gregor Leander, Pierre Mayr, Nils Pohl, Lucas Davi, Tim Güneysu
 	- https://www.usenix.org/conference/usenixsecurity23/presentation/thoma
 	- https://arxiv.org/abs/2104.11469
+- Scatter and Split Securely: Defeating Cache Contention and Occupancy Attacks
+	- 2023 IEEE Symposium on Security and Privacy (S&P)
+	- Lukas Giner, Stefan Steinegger, Antoon Purnal, Maria Eichlseder, Thomas Unterluggauer, Stefan Mangard, Daniel Gruss
+	- https://doi.ieeecomputersociety.org/10.1109/SP46215.2023.00063
+	- https://gruss.cc/files/sasscache.pdf
+	- https://www.youtube.com/watch?v=e4YmNdfJvLk
 
 ### Defense: Cache: 2022
 
