@@ -656,6 +656,14 @@
 
 ## Videos
 
+### 2023
+
+- Lock-free Micro Problems
+	- Italian C++ Conference 2023
+	- Davide Di Gennaro
+	- https://www.youtube.com/watch?v=N-3Hxgan1KA
+	- https://github.com/italiancpp/itcppcon23/blob/main/Lock-free%20micro%20problems%20-%20Davide%20Di%20Gennaro.pdf
+
 ### 2022
 
 - A lock-free `std::atomic<std::shared_ptr>`
