@@ -252,5 +252,12 @@ See also: [Assembly (Arm)](assembly.arm.md), [Assembly (RISC-V)](assembly.riscv.
 - IEEE Computer Architecture Letters (CAL) - https://www.computer.org/web/cal
 - IEEE Micro - https://publications.computer.org/micro/
 - IEEE Technical Committee on Computer Architecture (TCCA) Awards - http://ieeetcca.org/awards/
-- Influential ISCA Paper Award - https://www.sigarch.org/awards/acm-sigarchieee-cs-tcca-influential-isca-paper-award/
+- ISCA: International Symposium on Computer Architecture
+	- Influential ISCA Paper Award
+		- https://www.sigarch.org/awards/acm-sigarchieee-cs-tcca-influential-isca-paper-award/
+	- 25 years of ISCA (1973-1995)
+		- https://dl.acm.org/doi/proceedings/10.1145/285930
+	- ISCA@50 Retrospective: 1996-2020
+		- https://www.sigarch.org/isca50-retrospective-1996-2020/
+		- https://sites.coecis.cornell.edu/isca50retrospective/
 - MICRO Test of Time (ToT) Award - http://www.microarch.org/Micro-ToT-Award/
