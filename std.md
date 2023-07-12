@@ -118,6 +118,8 @@
 	- https://www.cppstories.com/2023/h1-cpp-papers23/
 - Trip report: Summer ISO C++ standards meeting (Varna, Bulgaria)
 	- https://herbsutter.com/2023/06/16/trip-report-summer-iso-c-standards-meeting-varna-bulgaria/
+- Trip report: Summer ISO C++ Meeting in Varna, Bulgaria
+	- https://www.think-cell.com/en/career/devblog/trip-report-summer-iso-cpp-meeting-in-varna-bulgaria
 
 ---
 
