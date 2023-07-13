@@ -425,6 +425,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 
 ### Testing: Readings: 2022
 
+- Compiler Testing using Template Java Programs
+	- IEEE/ACM International Conference on Automated Software Engineering (ASE) 2022
+	- Zhiqiang Zang, Nathan Wiatrek, Milos Gligoric, August Shi
+	- https://arxiv.org/abs/2209.04514
+	- https://doi.org/10.1145/3551349.3556958
+	- https://github.com/EngineeringSoftware/jattack
 - Detecting C++ Compiler Front-end Bugs via Grammar Mutation and Differential Testing
 	- IEEE Transactions on Reliability 2022
 	- Haoxin Tu, He Jiang, Zhide Zhou, Yixuan Tang, Zhilei Ren, Lei Qiao, Lingxiao Jiang
