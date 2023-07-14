@@ -122,6 +122,8 @@ See also:
 		- https://maskray.me/blog/2022-02-27-analysis-and-introspection-options-in-linkers
 	- COMDAT and section group
 		- https://maskray.me/blog/2021-07-25-comdat-and-section-group
+	- Dependency related linker options
+		- https://maskray.me/blog/2021-06-13-dependency-related-linker-options
 	- Linker notes on AArch64
 		- https://maskray.me/blog/2023-03-05-linker-notes-on-aarch64
 	- Weak symbol
