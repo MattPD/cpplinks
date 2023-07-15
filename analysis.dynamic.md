@@ -469,6 +469,12 @@ See also:
 	- https://goto.ucsd.edu/~gleissen/papers/dontlookub.pdf
 	- https://github.com/vusec/LookUB
 	- https://pldi23.sigplan.org/details/pldi-2023-pldi/38/Don-t-Look-UB-Exposing-Sanitizer-Eliding-Compiler-Optimizations
+- FloatZone: Accelerating Memory Error Detection using the Floating Point Unit
+	- USENIX Security 2023
+	- Floris Gorter, Enrico Barberis, Raphael Isemann, Erik van der Kouwe, Cristiano Giuffrida, Herbert Bos
+	- https://www.vusec.net/projects/floatzone/
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/gorter
+	- https://github.com/vusec/floatzone
 
 ##### Software: Sanitizers: Readings: Research: 2022
 
