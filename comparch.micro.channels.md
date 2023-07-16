@@ -1140,6 +1140,13 @@ See also: [Computer Architecture](comparch.md)
 	- https://dl.acm.org/citation.cfm?id=2870636
 	- http://www.cs.wm.edu/~dmitry/assets/files/taco-a10-evtyushkin.pdf
 
+## Branch Predictor: 2023
+
+- All your PC are belong to us: Exploiting Non-control-transfer Instruction BTB Updates for Dynamic PC Extraction
+	- ISCA 2023
+	- Jiyong Yu, Trent Jaeger, Christopher Wardlaw Fletcher
+	- https://doi.org/10.1145/3579371.3589100
+
 ## Branch Predictor: 2022
 
 - Branch History Injection: On the Effectiveness of Hardware Mitigations Against Cross-Privilege Spectre-v2 Attacks
