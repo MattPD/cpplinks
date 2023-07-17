@@ -600,6 +600,12 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 - 'Weird Machine' patterns - https://www.researchgate.net/publication/283630248_%27Weird_Machine%27_patterns
 - Writing shared libraries - http://plan99.net/~mike/writing-shared-libraries.html
 
+### ELF: Readings: Compression
+
+- Compressed arbitrary sections
+	- This article describes SHF_ALLOC|SHF_COMPRESSED sections in ELF and a proposed linker option --compress-sections to compress arbitrary sections.
+	- https://maskray.me/blog/2023-07-07-compressed-arbitrary-sections
+
 ### ELF: Readings: Execution
 
 - How programs get run: ELF binaries - https://lwn.net/Articles/631631/
