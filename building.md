@@ -338,6 +338,9 @@ See also:
 	- https://doi.org/10.1587/transinf.2020EDP7105
 - Physical Design of The Machinery
 	- http://ourmachinery.com/post/physical-design/
+- Precompiled headers
+	- 2023; MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2023-07-16-precompiled-headers
 - Reducing Build Time through Precompilations for Evolving Large Software
 	- International Conference on Software Maintenance (ICSM) 2005
 	- Yu, Yijun; Dayani-Fard, Homayoun; Mylopoulos, John and Andritsos, Periklis
