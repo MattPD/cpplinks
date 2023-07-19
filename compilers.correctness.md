@@ -1237,6 +1237,8 @@ Validation: Including translation validation, equivalence checking.
 		- https://kristerw.github.io/2022/10/20/gcc-python-plugin/
 	- Part 2: Verifying GCC optimizations using an SMT solver
 		- https://kristerw.github.io/2022/11/01/verifying-optimizations/
+	- Part 3: Memory representation
+		- https://kristerw.github.io/2023/07/17/memory-representation/
 - SMT-Based Translation Validation for Machine Learning Compiler
 	- CAV 2022: Computer Aided Verification
 	- Seongwon Bang, Seunghyeon Nam, Inwhan Chun, Ho Young Jhoo, Juneyoung Lee
