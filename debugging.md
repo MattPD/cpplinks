@@ -955,6 +955,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://github.com/memfault/gdbundle
 	- gdbundle - GDB and LLDB's Missing Plugin Manager
 		- https://interrupt.memfault.com/blog/gdbundle-plugin-manager
+- LLEF: LLDB Enhanced Features
+	- https://github.com/foundryzero/llef
 - LLDB Scripts: A collection of LLDB aliases/regexes and Python scripts to aid in your debugging sessions
 	- https://github.com/DerekSelander/LLDB
 	- https://www.raywenderlich.com/162020/custom-lldb-commands-practice
