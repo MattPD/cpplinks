@@ -114,6 +114,8 @@
 
 ### C++26: Trip Reports: 2023-06
 
+- 2023-06 Varna ISO C++ Committee Trip Report — First Official C++26 meeting!
+	- https://old.reddit.com/r/cpp/comments/14h4ono/202306_varna_iso_c_committee_trip_report_first/
 - Five Awesome C++ Papers for the H1 2023 - C++26, Varna and More 
 	- https://www.cppstories.com/2023/h1-cpp-papers23/
 - Trip report: Summer ISO C++ standards meeting (Varna, Bulgaria)
