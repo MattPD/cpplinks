@@ -1445,6 +1445,15 @@ See also: [Computer Architecture](comparch.md)
 
 # DRAM
 
+## DRAM: 2023
+
+- DramaQueen: Revisiting Side Channels in DRAM
+	- Third Workshop on DRAM Security (DRAMSec) 2023, co-located with ISCA 2023
+	- Victor van der Veen, Ben Gras
+	- https://dramsec.ethz.ch/papers/dramaqueen.pdf
+
+## DRAM: 2014-2020
+
 - Another Flip in the Wall of Rowhammer Defenses
 	- Security and Privacy S&P 2018
 	- D. Gruss, M. Lipp, M. Schwarz, D. Genkin, J. Juffinger, S. O'Connell, W. Schoechl, Y. Yarom
