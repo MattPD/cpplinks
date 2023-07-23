@@ -96,6 +96,11 @@
 	- 2014 LLVM Developers' Meeting
 	- Jordan Rose, John McCall
 	- https://llvm.org/devmtg/2014-10/#talk18
+- The Challenges of Implementing the C Standard Library in C++
+	- CppNow 2023
+	- Siva Chandra Reddy
+	- https://www.youtube.com/watch?v=cuVrWUGSIgM
+	- https://github.com/boostcon/cppnow_presentations_2023/blob/main/cppnow_slides/The_Challenges_of_Implementing_the_C_Standard_Library_in_Cpp.pdf
 - The Salami Method
 	- The Salami Method finely distinguishes between the different aspects and layers required for exposing platform-independent C++ on different “specific” platforms. At its extreme it strives to create a single, thin, transparent layer for each such aspect so that each layer is more easily built, tested, debugged, managed and maintained.
 	- http://videocortex.io/2017/salami-method/
