@@ -193,6 +193,12 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 - Formalising Meaning: a History of Programming Language Semantics
 	- 2019 PhD dissertation; Troy Kaighin Astarte
 	- http://homepages.cs.ncl.ac.uk/t.astarte/res/pdf/TK_Astarte_Formalising_Meaning_2019.pdf
+- More on Advice on Structuring Compilers and Proving them Correct
+	- James W. Thatcher, Eric G. Wagner and Jesse B. Wright
+	- Theoretical Computer Science, Volume 15, Issue 3, 1981
+		- https://doi.org/10.1016/0304-3975(81)90080-3
+	- SDCG 1980: Semantics-Directed Compiler Generation
+		- https://doi.org/10.1007/3-540-10250-7_22
 - Toward Compiler Implementation Correctness Proofs
 	- ACM Transactions on Programming Languages and Systems (TOPLAS) 8(2) 1986
 	- Laurian M. Chirica, David F. Martin
