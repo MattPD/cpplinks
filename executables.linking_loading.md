@@ -24,7 +24,7 @@ See also:
 	- [OS: macOS](#software-os-macos)
 	- [OS: Linux](#software-os-linux)
 	- [OS: Windows](#software-os-windows)
-- [Talks](#talks): [2022](#talks-2022), [2021](#talks-2021), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2012](#talks-2012)
+- [Talks](#talks): [2023](#talks-2023), [2022](#talks-2022), [2021](#talks-2021), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2012](#talks-2012)
 
 ---
 
@@ -607,6 +607,13 @@ See also:
 ---
 
 # Talks
+
+## Talks: 2023
+
+- Everything I wish they told me about linkers
+	- MUC++ 2023
+	- Ofek Shilon
+	- https://www.youtube.com/watch?v=H5VQhQ61aeo
 
 ## Talks: 2022
 
