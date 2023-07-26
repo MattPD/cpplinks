@@ -1253,6 +1253,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - TitanHide: Hiding kernel-driver for x86/x64
 	- a driver intended to hide debuggers from certain processes
 	- https://github.com/mrexodia/TitanHide
+- udmp-parser: A Cross-Platform C++ parser library for Windows user minidumps
+	- https://github.com/0vercl0k/udmp-parser
 - x64dbg
 	- https://x64dbg.com/
 	- https://github.com/x64dbg/x64dbg
