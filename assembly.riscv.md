@@ -269,11 +269,16 @@ https://riscv.org/risc-v-books/
 	- https://ccelio.github.io/riscv-boom-doc/
 	- https://github.com/ucb-bar/riscv-boom
 	- https://twitter.com/boom_cpu
+- core-v-wally: Configurable RISC-V Processor (SystemVerilog)
+	- https://github.com/openhwgroup/cvw
+	- Wally is a 5-stage pipelined processor configurable to support all the standard RISC-V options, incluidng RV32/64, A, C, F, D, and M extensions, FENCE.I, and the various privileged modes and CSRs. It is written in SystemVerilog. It passes the RISC-V Arch Tests and boots Linux on an FPGA.
 - CVA6 RISC-V CPU (SystemVerilog)
 	- application class, 6-stage, single issue, in-order CPU, implements the 64-bit RISC-V instruction set, capable of booting Linux
 	- https://github.com/openhwgroup/cva6
 	- https://docs.openhwgroup.org/projects/cva6-user-manual/
 	- https://pulp-platform.org/docs/Ariane_detailed.pdf
+- DarkRISCV: open-source RISC-V CPU core implemented in Verilog from scratch in one night! (Verilog)
+	- https://github.com/darklife/darkriscv
 - Davis In-Order (DINO) CPU models (Chisel)
 	- A teaching-focused RISC-V CPU design used at UC Davis
 	- https://github.com/jlpteaching/dinocpu
@@ -393,9 +398,6 @@ https://riscv.org/risc-v-books/
 	- A full-system RISC-V-based GPGPU processor
 	- RV32IMF
 	- https://github.com/vortexgpgpu/vortex
-- core-v-wally: Configurable RISC-V Processor (SystemVerilog)
-	- https://github.com/openhwgroup/cvw
-	- Wally is a 5-stage pipelined processor configurable to support all the standard RISC-V options, incluidng RV32/64, A, C, F, D, and M extensions, FENCE.I, and the various privileged modes and CSRs. It is written in SystemVerilog. It passes the RISC-V Arch Tests and boots Linux on an FPGA.
 - YARVI - Yet Another RISC-V Implementation (Verilog)
 	- https://github.com/tommythorn/yarvi
 	- https://www.cl.cam.ac.uk/teaching/1516/ECAD+Arch/exercise-yarvi.html
