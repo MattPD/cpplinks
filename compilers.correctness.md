@@ -428,6 +428,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- Bastien Lecoeur, Hasan Mohsin, Alastair F. Donaldson
 	- https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2023/PLDI.pdf
 	- "The problem we address is: How can we apply differential testing and test-case reduction to languages that feature UB [Undefined Behaviour] (or whose current implementations feature UB) in the absence of UB-detection tools, to yield minimised UB-free programs that trigger miscompilations?"
+- Testing the Compiler for a New-Born Programming Language: An Industrial Case Study (Experience Paper)
+	- ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2023
+	- Yingquan Zhao, Junjie Chen, Ruifeng Fu, Haojie Ye, Zan Wang
+	- https://doi.org/10.1145/3597926.3598077
+	- https://2023.issta.org/details/issta-2023-technical-papers/37/Testing-the-Compiler-for-a-New-Born-Programming-Language-An-Industrial-Case-Study-E
 
 ### Testing: Readings: 2022
 
