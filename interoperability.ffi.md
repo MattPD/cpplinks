@@ -470,6 +470,8 @@
 
 - C++ Interoperability Workgroup
 	- https://www.swift.org/cxx-interop-workgroup/
+- Mixing Swift and C++
+	- https://www.swift.org/documentation/cxx-interop/
 - Vision Documents
 	- Using C++ from Swift
 		- https://github.com/apple/swift-evolution/blob/main/visions/using-c%2B%2B-from-swift.md
