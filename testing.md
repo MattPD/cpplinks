@@ -929,6 +929,8 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 		- https://blog.sigplan.org/2021/03/30/an-overview-of-test-case-reduction/
 	- Beyond Bugs
 		- https://blog.sigplan.org/2021/05/25/test-case-reduction-beyond-bugs/
+- Adaptive parallel test-case reduction
+	- https://notebook.drmaciver.com/posts/2023-07-27-13:03.html
 - Everything You Ever Wanted To Know About Test-Case Reduction, But Didn’t Know to Ask
 	- https://blog.trailofbits.com/2019/11/11/test-case-reduction/
 - Mitigating (and Exploiting) Test Reduction Slippage
