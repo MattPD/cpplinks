@@ -2060,6 +2060,12 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 
 ## Power: 2023
 
+- Collide+Power: Leaking Inaccessible Data with Software-based Power Side Channels
+	- USENIX Security 2023
+	- Andreas Kogler, Jonas Juffinger, Lukas Giner, Lukas Gerlach, Martin Schwarzl, Michael Schwarz, Daniel Gruss, Stefan Mangard
+	- https://collidepower.com/
+	- https://github.com/iaik/collidepower
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/kogler
 - DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data
 	- IEEE Symposium on Security and Privacy (S&P) 2023
 	- Yingchen Wang, Riccardo Paccagnella, Alan Wandke, Zhao Gang, Grant Garrett-Grossman, Christopher Fletcher, David Kohlbrenner, Hovav Shacham
