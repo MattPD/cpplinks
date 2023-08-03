@@ -530,6 +530,11 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- 2018 LLVM Developers’ Meeting
 	- Kostya Serebryany, Evgenii Stepanov, Vlad Tsyrklevich
 	- https://llvm.org/devmtg/2018-10/talk-abstracts.html#talk16
+- MTE As Implemented
+	- 2023
+	- Mark Brand
+	- Part 1: Implementation Testing
+		- https://googleprojectzero.blogspot.com/2023/08/mte-as-implemented-part-1.html
 - scudo: Add initial memory tagging support
 	- https://reviews.llvm.org/D70762
 - Security analysis of memory tagging
