@@ -614,6 +614,10 @@ See also:
 	- MUC++ 2023
 	- Ofek Shilon
 	- https://www.youtube.com/watch?v=H5VQhQ61aeo
+- Meet mergeable libraries
+	- WWDC 2023
+	- Cyndy Ishida
+	- https://developer.apple.com/videos/play/wwdc2023/10268/
 
 ## Talks: 2022
 
