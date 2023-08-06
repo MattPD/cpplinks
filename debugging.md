@@ -1354,6 +1354,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://github.com/Winbagility/Winbagility
 - WinDbg-Samples: Sample extensions, scripts, and API uses for WinDbg
 	- https://github.com/Microsoft/WinDbg-Samples
+- WinDbgCookbook: small, useful scripts, extensions, and debugger data model "dx" queries
+	- https://github.com/TimMisiak/WinDbgCookbook
 - WinDBGtree: A command tree based on commands and extensions for Windows Kernel Debugging
 	- https://github.com/vagnerpilar/windbgtree
 
