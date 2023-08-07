@@ -756,6 +756,12 @@ See also: [Computer Architecture](comparch.md)
 	- Robert Sison, Scott Buckley, Toby Murray, Gerwin Klein, Gernot Heiser
 	- https://doi.org/10.1007/978-3-031-27481-7_8
 	- https://trustworthy.systems/publications/papers/Sison_BMKH_23.abstract
+- Quarantine: Mitigating Transient Execution Attacks with Physical Domain Isolation
+	- International Symposium on Research in Attacks, Intrusions and Defenses (RAID) 2023
+	- Mathé Hertogh, Manuel Wiesinger, Sebastian Österlund, Marius Muench, Nadav Amit, Herbert Bos, Cristiano Giuffrida
+	- https://doi.org/10.1145/3607199.3607248
+	- https://download.vusec.net/papers/quarantine_raid23.pdf
+	- https://github.com/vusec/quarantine
 
 ### Defense: Software: 2022
 
