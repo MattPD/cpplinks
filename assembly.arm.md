@@ -535,6 +535,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Mark Brand
 	- Part 1: Implementation Testing
 		- https://googleprojectzero.blogspot.com/2023/08/mte-as-implemented-part-1.html
+	- Part 2: Mitigation Case Studies
+		- https://googleprojectzero.blogspot.com/2023/08/mte-as-implemented-part-2-mitigation.html
 - scudo: Add initial memory tagging support
 	- https://reviews.llvm.org/D70762
 - Security analysis of memory tagging
