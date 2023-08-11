@@ -1252,6 +1252,8 @@ Validation: Including translation validation, equivalence checking.
 		- https://kristerw.github.io/2023/07/17/memory-representation/
 	- Part 4: Address calculations
 		- https://kristerw.github.io/2023/07/18/address-calculations/
+	- Part 5: Pointer alignment
+		- https://kristerw.github.io/2023/07/20/pointer-alignment/
 - SMT-Based Translation Validation for Machine Learning Compiler
 	- CAV 2022: Computer Aided Verification
 	- Seongwon Bang, Seunghyeon Nam, Inwhan Chun, Ho Young Jhoo, Juneyoung Lee
