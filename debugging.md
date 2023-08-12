@@ -1393,6 +1393,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - C++ Exceptions and Stack Unwinding
 	- CppCon 2017: Dave Watson
 	- https://www.youtube.com/watch?v=_Ivd3qzgT7U
+- cpptrace: Lightweight, zero-configuration-required, and cross-platform stacktrace library for C++
+	- supports C++11 and greater on Linux, macOS, and Windows including MinGW and Cygwin environments
+	- https://github.com/jeremy-rifkin/cpptrace
 - libgcc_s (GNU) - https://gcc.gnu.org/onlinedocs/gccint/Libgcc.html
 	- Data Definitions for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-s-ddefs.html
 	- Interfaces for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-s.html
