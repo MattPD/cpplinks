@@ -2543,6 +2543,13 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Oleksii Oleksenko, Marco Guarnieri, Boris Köpf, Mark Silberstein
 	- https://arxiv.org/abs/2301.07642
 	- https://github.com/microsoft/sca-fuzzer
+- Inception: Exposing New Attack Surfaces with Training in Transient Execution
+	- USENIX Security 2023
+	- Daniël Trujillo, Johannes Wikner, Kaveh Razavi
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/trujillo
+	- https://comsec.ethz.ch/research/microarch/inception/
+	- https://comsec.ethz.ch/wp-content/files/inception_sec23.pdf
+	- https://github.com/comsec-group/inception
 - The Ghost Is The Machine: Weird Machines in Transient Execution
 	- IEEE Workshop on Offensive Technologies (WOOT) 2023
 	- Ping-Lun Wang, Fraser Brown, Riad S. Wahby
