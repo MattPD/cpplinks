@@ -914,6 +914,9 @@ See also:
 	- https://www.cmcrossroads.com/keyword/type/3169?type=article
 - GNU Make meets file names with spaces in them - https://www.cmcrossroads.com/article/gnu-make-meets-file-names-spaces-them
 - GNU Make Standard Library - http://gmsl.sourceforge.net/
+- How to write vaguely acceptable makefiles
+	- 2014; Stephen Kell
+	- https://www.humprog.org/~stephen/blog/devel/writing-makefiles.html
 - HOWTO: Intro to GNU make variables - https://blog.melski.net/2015/01/07/howto-intro-to-gnu-make-variables/
 - Make is (probably) fine
 	- https://blog.yossarian.net/2019/04/23/Make-is-probably-fine
