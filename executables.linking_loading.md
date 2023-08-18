@@ -592,6 +592,11 @@ See also:
 	- https://sysdig.com/blog/hiding-linux-processes-for-fun-and-profit/
 - libtree: ldd as a tree with an option to bundle dependencies into a single folder
 	- https://github.com/haampie/libtree
+- Shiva JIT micropatching engine
+	- A custom ELF linker/loader for installing ET_REL binary patches at runtime
+	- Shiva is an ELF dynamic linker that is specialized for patching native Linux software. Shiva has been custom tailored towards the requirements of the DARPA AMP project and currently supports the AArch64 architecture.
+	- Patches are written in C and compiled into ELF relocatable objects. Shiva loads, links, and patches the new code into memory.
+	- https://github.com/advanced-microcode-patching/shiva
 - stelf-loader: A stealthy ELF loader - no files, no execve, no RWX
 	- https://github.com/DavidBuchanan314/stelf-loader
 
