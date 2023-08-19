@@ -2550,6 +2550,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- https://comsec.ethz.ch/research/microarch/inception/
 	- https://comsec.ethz.ch/wp-content/files/inception_sec23.pdf
 	- https://github.com/comsec-group/inception
+- Speculation at Fault: Modeling and Testing Microarchitectural Leakage of CPU Exceptions
+	- USENIX Security Symposium 2023
+	- Jana Hofmann, Emanuele Vannacci, Cédric Fournet, Boris Köpf, Oleksii Oleksenko
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/hofmann
 - The Ghost Is The Machine: Weird Machines in Transient Execution
 	- IEEE Workshop on Offensive Technologies (WOOT) 2023
 	- Ping-Lun Wang, Fraser Brown, Riad S. Wahby
