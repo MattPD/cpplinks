@@ -157,6 +157,12 @@ See also:
 	- https://github.com/mykter/afl-training
 - Fuzzing workflows: a fuzz job from start to finish
 	- https://foxglovesecurity.com/2016/03/15/fuzzing-workflows-a-fuzz-job-from-start-to-finish/
+- How to Build a Fuzzing Corpus
+	- 2023
+	- Ben Hawkes
+	- https://blog.isosceles.com/how-to-build-a-corpus-for-fuzzing/
+	- Common Corpus: build coverage-minimized corpus data sets for fuzzing
+		- https://github.com/isosceles-security/common-corpus
 - John Regehr
 	- Who Fuzzes the Fuzzer? - https://blog.regehr.org/archives/501
 	- Better Random Testing by Leaving Features Out - https://blog.regehr.org/archives/591
