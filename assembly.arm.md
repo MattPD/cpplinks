@@ -550,6 +550,13 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - Pointer authentication in AArch64 Linux
 	- https://www.kernel.org/doc/html/latest/arm64/pointer-authentication.html
 
+#### Pointer Authentication (PAC): 2023
+
+- Demystifying Pointer Authentication on Apple M1
+	- USENIX Security Symposium 2023
+	- Zechao Cai, Jiaxun Zhu, Wenbo Shen, Yutian Yang, Rui Chang, Yu Wang, Jinku Li, Kui Ren
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/cai-zechao
+
 #### Pointer Authentication (PAC): 2022
 
 - PACMAN: attacking ARM pointer authentication with speculative execution
