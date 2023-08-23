@@ -1609,6 +1609,11 @@ Validation: Including translation validation, equivalence checking.
 	- 2023
 	- Léo Gourdin, Benjamin Bonneau, Sylvain Boulmé, David Monniaux, Alexandre Bérard
 	- https://hal.science/hal-04102940/
+- Lazy Code Transformations in a Formally Verified Compiler
+	- ICOOOLPS 2023: ACM International Workshop on Implementation, Compilation, Optimization of OO Languages, Programs and Systems
+	- Léo Gourdin
+	- https://dl.acm.org/doi/abs/10.1145/3605158.3605848
+	- https://hal.science/hal-04108775
 - Verifying the Verifier: eBPF Range Analysis Verification
 	- International Conference on Computer Aided Verification (CAV) 2023
 	- Harishankar Vishwanathan, Matan Shachnai, Srinivas Narayana, Santosh Nagarakatte
