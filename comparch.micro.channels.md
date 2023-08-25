@@ -1818,53 +1818,44 @@ See also: [Computer Architecture](comparch.md)
 
 # GPU
 
-- A complete key recovery timing attack on a GPU
-	- High Performance Computer Architecture (HPCA) 2016
-	- Zhen Hang Jiang, Yunsi Fei, David Kaeli
-	- https://doi.org/10.1109/HPCA.2016.7446081
-- A Novel Side-Channel Timing Attack on GPUs
-	- Great Lakes Symposium on VLSI (GLSVLSI) 2017
-	- Zhen Hang Jiang, Yunsi Fei, David Kaeli
-	- https://doi.org/10.1145/3060403.3060462
-- Confidentiality Issues on a GPU in a Virtualized Environment
-	- FC 2014: Financial Cryptography and Data Security
-	- Clémentine Maurice, Christoph Neumann, Olivier Heen, Aurélien Francillon
-	- https://doi.org/10.1007/978-3-662-45472-5_9
-	- https://www.eurecom.fr/publication/4205
-	- http://s3.eurecom.fr/docs/fc14_maurice.pdf
-- Constructing and Characterizing Covert Channels on GPGPUs
-	- MICRO-50, 2017
-	- Hoda Naghibijouybari, Khaled N. Khasawneh, Nael Abu-Ghazaleh
-	- http://www.cs.ucr.edu/~kkhas001/pubs/micro17-gpu.pdf
-- CUDA Leaks: Information Leakage in GPU Architectures
-	- ACM Transactions on Embedded Computing Systems (TECS) 2016
-	- Roberto Di Pietro, Flavio Lombardi, Antonio Villani
-	- https://arxiv.org/abs/1305.7383
-	- https://dl.acm.org/citation.cfm?id=2801153
+## GPU: 2023
+
+- Spy in the GPU-box: Covert and Side Channel Attacks on Multi-GPU Systems
+	- ISCA 2023: The 50th International Symposium on Computer Architecture
+	- Sankha Baran Dutta, Hoda Naghibijouybari, Arjun Gupta, Nael Abu-Ghazaleh, Andres Marquez, Kevin Barker
+	- https://arxiv.org/abs/2203.15981
+	- https://doi.org/10.1145/3579371.3589080
+	- https://www.youtube.com/watch?v=NjuuYt_hW7U
+
+## GPU: 2021
+
+- Network-on-Chip Microarchitecture-based Covert Channel in GPUs
+	- MICRO 2021
+	- Jaeguk Ahn, Jiho Kim, Hans Kasan, Leila Delshadtehrani, Wonjun Song, Ajay Joshi, John Kim
+	- https://dl.acm.org/doi/10.1145/3466752.3480093
+
+## GPU: 2019
+
 - Exploiting Bank Conflict-based Side-channel Timing Leakage of GPUs
 	- ACM Transactions on Architecture and Code Optimization (TACO) 16(4) 2019
 	- Jiang Zhen Hang, Fei Yunsi, Kaeli David
 	- https://doi.org/10.1145/3361870
-- GPU Security Exposed: Exploiting Shared Memory
-	- Black Hat Europe 2016
-	- Justin Taft
-	- https://www.blackhat.com/docs/eu-16/materials/eu-16-Taft-GPU-Security-Exposed.pdf
 - GPUGuard: Mitigating Contention Based Side and Covert Channel Attacks on GPUs
 	- International Conference on Super-computing (ICS) 2019
 	- Qiumin Xu, Hoda Naghibijouybari, Shibo Wang, Nael Abu-Ghazaleh, Mu-rali Annavaram
 	- https://doi.org/10.1145/3330345.3330389
+- Side Channel Attacks on GPUs
+	- IEEE Transactions on Dependable and Secure Computing (TDSC) 2019
+	- H. NaghibiJouybari, A. Neupane, Z. Qian, N. Abu-Ghazaleh
+	- http://dx.doi.org/10.1109/TDSC.2019.2944624
+
+## GPU: 2018
+
 - Grand Pwning Unit: Accelerating Microarchitectural Attacks with the GPU
 	- S&P 2018
 	- P. Frigo, C. Giuffrida, H. Bos, K. Razavi
 	- https://www.vusec.net/projects/glitch/
 	- https://www.vusec.net/wp-content/uploads/2018/05/glitch.pdf
-- Network-on-Chip Microarchitecture-based Covert Channel in GPUs
-	- MICRO 2021
-	- Jaeguk Ahn, Jiho Kim, Hans Kasan, Leila Delshadtehrani, Wonjun Song, Ajay Joshi, John Kim
-	- https://dl.acm.org/doi/10.1145/3466752.3480093
-- Practical Microarchitectural Attacks from Integrated GPU
-	- 2017 Master’s Thesis; 2017 Pietro Frigo
-	- https://repository.tudelft.nl/islandora/object/uuid:c0d3c629-4c67-4741-9776-05802d89872f
 - RCoal: Mitigating GPU Timing Attack via Subwarp-based Randomized Coalescing Technique
 	- Proceedings of the 24th International Symposium on High-Performance Computer Architecture (HPCA), 2018
 	- Gurunath Kadam, [Danfeng Zhang](http://www.cse.psu.edu/~dbz5017/publication.html), [Adwait Jog](http://adwaitjog.github.io/pubs.html)
@@ -1877,10 +1868,45 @@ See also: [Computer Architecture](comparch.md)
 	- http://www.cs.ucr.edu/~zhiyunq/pub/ccs18_gpu_side_channel.pdf
 	- http://www.cs.ucr.edu/~nael/pubs/ccs18.pdf
 	- https://www.youtube.com/watch?v=lFspD48dahc
-- Side Channel Attacks on GPUs
-	- IEEE Transactions on Dependable and Secure Computing (TDSC) 2019
-	- H. NaghibiJouybari, A. Neupane, Z. Qian, N. Abu-Ghazaleh
-	- http://dx.doi.org/10.1109/TDSC.2019.2944624
+
+## GPU: 2017
+
+- A Novel Side-Channel Timing Attack on GPUs
+	- Great Lakes Symposium on VLSI (GLSVLSI) 2017
+	- Zhen Hang Jiang, Yunsi Fei, David Kaeli
+	- https://doi.org/10.1145/3060403.3060462
+- Constructing and Characterizing Covert Channels on GPGPUs
+	- MICRO-50, 2017
+	- Hoda Naghibijouybari, Khaled N. Khasawneh, Nael Abu-Ghazaleh
+	- http://www.cs.ucr.edu/~kkhas001/pubs/micro17-gpu.pdf
+- Practical Microarchitectural Attacks from Integrated GPU
+	- 2017 Master’s Thesis; 2017 Pietro Frigo
+	- https://repository.tudelft.nl/islandora/object/uuid:c0d3c629-4c67-4741-9776-05802d89872f
+
+## GPU: 2016
+
+- A complete key recovery timing attack on a GPU
+	- High Performance Computer Architecture (HPCA) 2016
+	- Zhen Hang Jiang, Yunsi Fei, David Kaeli
+	- https://doi.org/10.1109/HPCA.2016.7446081
+- CUDA Leaks: Information Leakage in GPU Architectures
+	- ACM Transactions on Embedded Computing Systems (TECS) 2016
+	- Roberto Di Pietro, Flavio Lombardi, Antonio Villani
+	- https://arxiv.org/abs/1305.7383
+	- https://dl.acm.org/citation.cfm?id=2801153
+- GPU Security Exposed: Exploiting Shared Memory
+	- Black Hat Europe 2016
+	- Justin Taft
+	- https://www.blackhat.com/docs/eu-16/materials/eu-16-Taft-GPU-Security-Exposed.pdf
+
+## GPU: 2014
+
+- Confidentiality Issues on a GPU in a Virtualized Environment
+	- FC 2014: Financial Cryptography and Data Security
+	- Clémentine Maurice, Christoph Neumann, Olivier Heen, Aurélien Francillon
+	- https://doi.org/10.1007/978-3-662-45472-5_9
+	- https://www.eurecom.fr/publication/4205
+	- http://s3.eurecom.fr/docs/fc14_maurice.pdf
 
 ---
 
