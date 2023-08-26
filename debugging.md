@@ -23,6 +23,7 @@ See also:
 	- [LLDB](#lldb): [Projects](#lldb-projects), [Readings](#lldb-readings), [Talks](#lldb-talks)
 	- [RR](#rr): [Projects](#rr-projects), [Readings](#rr-readings)
 	- [OS-specific](#os-specific): [iOS](#iOS), [Linux](#linux), [macOS](#macos), [Windows](#windows) - [WinDbg](#windbg)
+	- [Crash Analysis & Reporting](#crash-analysis--reporting)
 	- [Stack Trace & Unwinding](#stack-trace--unwinding)
 - [Talks](#talks): [2021](#2021), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
 
@@ -1380,6 +1381,17 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://learn.microsoft.com/en-us/shows/defrag-tools/186-time-travel-debugging-advanced
 - TTD-Bindings: Bindings for Microsoft WinDbg Time Travel Debugging (TTD)
 	- https://github.com/commial/ttd-bindings
+
+## Crash Analysis & Reporting
+
+- llvm-crash-analyzer: A Tool for the Program Analysis of Corefiles
+	- designed to observe/triage the root cause of the crash
+	- as an outcome it will point to a blame function, machine instruction, and line of source code of the problematic piece of the program
+	- https://github.com/cisco-open/llvm-crash-analyzer
+	- 2022 LLVM Performance Workshop at CGO
+		- Djordje Todorovic, Bharathi Seshadri, Ananthakrishna Sowda, Nikola Tesic, Ivan Baev
+		- https://www.youtube.com/watch?v=Y4TkdYZfarA
+		- https://llvm.org/devmtg/2022-04-03/slides/llvm-crash-analyzer.pdf
 
 ## Stack Trace & Unwinding
 
