@@ -127,6 +127,12 @@ See also:
 		- https://link.springer.com/chapter/10.1007/978-3-319-66332-6_2
 	- Orthrus: A tool to manage, conduct, and assess dictionary-based fuzz testing
 		- https://github.com/test-pipeline/Orthrus
+- Systematic Assessment of Fuzzers using Mutation Analysis
+	- USENIX Security 2023
+	- Philipp Goerz, Bjoern Mathis, Keno Hassler, Emre Gueler, Thorsten Holz, Andreas Zeller, Rahul Gopinath
+	- https://rahul.gopinath.org/publications/2023/04/26/systematic/
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/gorz
+	- https://github.com/CISPA-SysSec/mua_fuzzer_bench/
 
 ## Readings: Practice
 
