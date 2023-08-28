@@ -414,6 +414,10 @@
 	- SwedenCpp::Stockholm::0x0F, September 20, 2018; Thomas Nyberg
 	- https://www.youtube.com/watch?v=LbiozBn9v6Y
 	- https://github.com/ApproximateIdentity/cpp_extension_talk
+- Writing Python Bindings for C++ Libraries for Performance and Ease of Use
+	- CppNow 2023
+	- Saksham Sharma
+	- https://www.youtube.com/watch?v=2rJJfTt72Dk
 
 ---
 
