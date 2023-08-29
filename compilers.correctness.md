@@ -423,6 +423,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 
 ### Testing: Readings: 2023
 
+- Metamorphic Shader Fusion for Testing Graphics Shader Compilers
+	- International Conference on Software Engineering (ICSE) 2023
+	- Dongwei Xiao, Zhibo Liu, Shuai Wang
+	- https://doi.org/10.1109/ICSE48619.2023.00201
+	- https://conf.researchr.org/details/icse-2023/icse-2023-technical-track/123/Metamorphic-Shader-Fusion-for-Testing-Graphics-Shader-Compilers
 - Program Reconditioning: Avoiding Undefined Behaviour When Finding and Reducing Compiler Bugs
 	- PLDI 2023
 	- Bastien Lecoeur, Hasan Mohsin, Alastair F. Donaldson
