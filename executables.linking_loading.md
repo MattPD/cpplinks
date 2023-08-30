@@ -623,6 +623,10 @@ See also:
 	- WWDC 2023
 	- Cyndy Ishida
 	- https://developer.apple.com/videos/play/wwdc2023/10268/
+- Speeding up the BFD linker
+	- SUSE Labs Conference 2023
+	- Michael Matz
+	- https://www.youtube.com/watch?v=h5pXt_YCwkU
 
 ## Talks: 2022
 
