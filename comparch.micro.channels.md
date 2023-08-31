@@ -1201,6 +1201,11 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.usenix.org/conference/usenixsecurity23/presentation/yuanyuanyuan
 	- Extended Version: https://arxiv.org/abs/2209.14952
 	- https://github.com/Yuanyuan-Yuan/CacheQL
+- Synchronization Storage Channels (S2C): Timer-less Cache Side-Channel Attacks on the Apple M1 via Hardware Synchronization Instructions
+	- USENIX Security Symposium 2023
+	- Jiyong Yu, Aishani Dutta, Trent Jaeger, David Kohlbrenner, Christopher W. Fletcher
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/yu-jiyong
+	- https://github.com/FPSG-UIUC/S2C
 
 ## Cache: 2022
 
