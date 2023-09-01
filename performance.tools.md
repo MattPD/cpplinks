@@ -148,6 +148,10 @@
 - MTuner - a C/C++ memory profiler and memory leak finder for Windows, PlayStation 4, PlayStation 3, etc.
 	- https://milostosic.github.io/MTuner/
 	- https://github.com/milostosic/MTuner
+- Object Introspection: Dynamic C++ Object Profiling
+	- enables on-demand, hierarchical profiling of objects in arbitrary C & C++ programs with no recompilation
+	- https://github.com/facebookexperimental/object-introspection
+	- https://facebookexperimental.github.io/object-introspection/
 - PerfMemPlus: A Tool for Automatic Discovery of Memory Performance Problems
 	- Tool for memory performance analysis based on Linux perf.
 	- https://github.com/helchr/perfMemPlus
