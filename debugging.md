@@ -1384,6 +1384,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ## Crash Analysis & Reporting
 
+- Crashpad: a crash-reporting system
+	- https://github.com/chromium/crashpad
 - llvm-crash-analyzer: A Tool for the Program Analysis of Corefiles
 	- designed to observe/triage the root cause of the crash
 	- as an outcome it will point to a blame function, machine instruction, and line of source code of the problematic piece of the program
