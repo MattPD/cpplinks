@@ -253,6 +253,10 @@
 	- Lifetimes in the Foreign Function & Memory API
 		- 2023; Maurizio Cimadamore
 		- https://cr.openjdk.java.net/~mcimadamore/panama/why_lifetimes.html
+	- Project Panama: Foreign Function & Memory API
+		- JVM Language Summit 2023
+		- Maurizio Cimadamore
+		- https://www.youtube.com/watch?v=kUFysMkMS00
 
 ---
 
