@@ -1152,6 +1152,10 @@ See also: [Computer Architecture](comparch.md)
 	- ISCA 2023
 	- Jiyong Yu, Trent Jaeger, Christopher Wardlaw Fletcher
 	- https://doi.org/10.1145/3579371.3589100
+- Phantom: Exploiting Decoder-detectable Mispredictions
+	- MICRO 2023
+	- Johannes Wikner, Daniël Trujillo, Kaveh Razavi
+	- https://comsec.ethz.ch/wp-content/files/phantom_micro23.pdf
 
 ## Branch Predictor: 2022
 
