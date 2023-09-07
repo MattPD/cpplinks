@@ -463,6 +463,10 @@
 	- James Bornholt and Emina Torlak
 	- MemSynth: Synthesis-Aided Memory Model Development
 		- http://memsynth.uwplse.org/
+- The Problem of Programming Language Concurrency Semantics
+	- ESOP 2015: European Symposium on Programming Languages and Systems
+	- Mark Batty, Kayvan Memarian, Kyndylan Nienhuis, Jean Pichon-Pharabod, Peter Sewell 
+	- https://link.springer.com/chapter/10.1007/978-3-662-46669-8_12
 - The Silently Shifting Semicolon
 	- SNAPL 2015
 	- Daniel Marino, Todd D. Millstein, Madanlal Musuvathi, Satish Narayanasamy, Abhayendra Singh, Madan Musuvathi
