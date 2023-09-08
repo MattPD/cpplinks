@@ -552,6 +552,8 @@ See also:
 
 ## Software: OS: Linux
 
+- DDexec: A technique to run binaries filelessly and stealthily on Linux by "overwriting" the shell's process with another
+	- https://github.com/arget13/DDexec
 - dlinject.py: Inject a shared library (i.e. arbitrary code) into a live linux process, without ptrace
 	- https://github.com/DavidBuchanan314/dlinject
 - Faulty.lib: Dynamic linker for compressed libraries, with on-demand decompression (ELF Linux systems)
