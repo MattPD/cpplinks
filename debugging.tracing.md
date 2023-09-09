@@ -352,8 +352,9 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 - ebpfpub: a generic function tracing library for Linux that supports tracepoints, kprobes, and uprobes
 	- https://github.com/trailofbits/ebpfpub
 	- https://blog.trailofbits.com/2023/08/09/use-our-suite-of-ebpf-libraries/
-- uBPF: Userspace eBPF VM
-	- https://github.com/iovisor/ubpf
+- linuxevents: A container-aware library for process monitoring with no runtime dependencies
+	- https://github.com/trailofbits/linuxevents
+	- https://blog.trailofbits.com/2023/08/09/use-our-suite-of-ebpf-libraries/
 - ply: Dynamic Tracing in Linux
 	- A light-weight dynamic tracer for Linux that leverages the kernel's BPF VM in concert with kprobes and tracepoints to attach probes to arbitrary points in the kernel.
 	- https://wkz.github.io/ply/
@@ -362,6 +363,8 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- https://github.com/anakryiko/retsnoop
 	- Tracing Linux kernel with retsnoop
 		- https://nakryiko.com/posts/retsnoop-intro/
+- uBPF: Userspace eBPF VM
+	- https://github.com/iovisor/ubpf
 
 #### Software: Linux - BCC/BPF - Talks
 
