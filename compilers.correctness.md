@@ -439,6 +439,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- Bastien Lecoeur, Hasan Mohsin, Alastair F. Donaldson
 	- https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2023/PLDI.pdf
 	- "The problem we address is: How can we apply differential testing and test-case reduction to languages that feature UB [Undefined Behaviour] (or whose current implementations feature UB) in the absence of UB-detection tools, to yield minimised UB-free programs that trigger miscompilations?"
+- Revisiting the Evaluation of Deep Learning-Based Compiler Testing
+	- International Joint Conference on Artificial Intelligence (IJCAI) 2023
+	- Yongqiang Tian, Zhenyang Xu, Yiwen Dong, Chengnian Sun, Shing-Chi Cheung
+	- https://doi.org/10.24963/ijcai.2023/542
+	- https://www.ijcai.org/proceedings/2023/0542.pdf
 - RustSmith: Random Differential Compiler Testing for Rust
 	- ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2023
 	- Mayank Sharma, Pingshi Yu, and Alastair F. Donaldson
