@@ -2573,6 +2573,13 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 
 ## Speculation: 2023
 
+- Downfall: Exploiting Speculative Data Gathering
+	- USENIX Security 2023
+	- Daniel Moghimi
+	- https://downfall.page/
+	- https://downfall.page/media/downfall.pdf
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/moghimi
+	- https://github.com/flowyroll/downfall
 - Hide and Seek with Spectres: Efficient discovery of speculative information leaks with random testing
 	- IEEE Symposium on Security and Privacy 2023
 	- Oleksii Oleksenko, Marco Guarnieri, Boris Köpf, Mark Silberstein
