@@ -103,6 +103,10 @@ https://riscv.org/risc-v-books/
 - RISC-V ISA online string decoder
 	- https://rv.drom.io/
 	- https://github.com/drom/rv
+- rvcodec.js: a RISC-V instruction encoder/decoder
+	- shows how each token of the assembly instruction is encoded as part of the binary representation
+	- https://gitlab.com/luplab/rvcodecjs/
+	- https://luplab.gitlab.io/rvcodecjs/
 
 ### Instruction Set Architecture: Encoding
 
