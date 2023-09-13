@@ -1384,6 +1384,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ## Crash Analysis & Reporting
 
+- Breakpad: a set of client and server components which implement a crash-reporting system
+	- https://github.com/google/breakpad
 - Crashpad: a crash-reporting system
 	- https://github.com/chromium/crashpad
 - llvm-crash-analyzer: A Tool for the Program Analysis of Corefiles
