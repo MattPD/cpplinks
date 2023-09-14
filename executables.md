@@ -1151,6 +1151,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 		- https://0xrick.github.io/win-internals/pe4/
 	- Part 4: Data Directories, Section Headers and Sections
 		- https://0xrick.github.io/win-internals/pe5/
+	- Part 5: PE Imports (Import Directory Table, ILT, IAT)
+		- https://0xrick.github.io/win-internals/pe6/
 - A smallest PE executable (x64) with every byte executed - https://drakopensulo.wordpress.com/2017/08/06/smallest-pe-executable-x64-with-every-byte-executed/
 - Abusing undocumented features to spoof PE section headers
 	- https://secret.club/2023/06/05/spoof-pe-sections.html
