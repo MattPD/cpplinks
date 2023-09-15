@@ -342,6 +342,13 @@
 	- https://www.cl.cam.ac.uk/~nl364/docs/duplo.pdf
 	- LLIR (Low-Level Intermediate Representation) cross-language post-link optimiser for OCaml and C
 		- https://github.com/nandor/llir-opt
+- Melocoton: A Program Logic for Verified Interoperability Between OCaml and C
+	- OOPSLA 2023
+	- Armaël Guéneau, Johannes Hostert, Simon Spies, Michael Sammler, Lars Birkedal, Derek Dreyer
+	- https://doi.org/10.1145/3622823
+	- https://gallium.inria.fr/~agueneau/publis/melocoton.pdf
+	- https://2023.splashcon.org/details/splash-2023-oopsla/57/Melocoton-A-Program-Logic-for-Verified-Interoperability-Between-OCaml-and-C
+	- https://melocoton-project.github.io/
 - cxx_wrapped.h
 	- simple template to wrap C++ object as OCaml custom value (used for example in ocaml-hypertable)
 	- https://github.com/ygrek/scraps/blob/master/cxx_wrapped.h
