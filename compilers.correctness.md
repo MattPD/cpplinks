@@ -429,6 +429,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 
 ### Testing: Readings: 2023
 
+- Feature-Sensitive Coverage for Conformance Testing of Programming Language Implementations
+	- PLDI 2023
+	- Jihyeok Park, Dongjun Youn, Kanguk Lee, Sukyoung Ryu
+	- https://github.com/jestfs/jestfs
+	- https://doi.org/10.1145/3591240
+	- https://pldi23.sigplan.org/details/pldi-2023-pldi/21/Feature-Sensitive-Coverage-for-Conformance-Testing-of-Programming-Language-Implementa
 - Metamorphic Shader Fusion for Testing Graphics Shader Compilers
 	- International Conference on Software Engineering (ICSE) 2023
 	- Dongwei Xiao, Zhibo Liu, Shuai Wang
