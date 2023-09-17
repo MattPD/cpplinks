@@ -2490,6 +2490,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 			- Daniel Moghimi
 			- https://moghimi.org/papers/techreport2020-IceLakeMDS.pdf
 			- https://github.com/danielmgmi/IceBreak
+	- No More Speculation: Exploiting CPU Side-Channels for Real
+		- 2023; Adam Krasuski
+		- https://bughunters.google.com/blog/4712170091839488/no-more-speculation-exploiting-cpu-side-channels-for-real
+		- https://github.com/google/security-research/tree/master/pocs/cpus/mds-x25519
 	- RIDL: Rogue In-Flight Data Load
 		- IEEE Symposium on Security and Privacy (S&P) 2019
 		- Stephan van Schaik, Alyssa Milburn, Sebastian Österlund, Pietro Frigo, Giorgi Maisuradze, Kaveh Razavi, Herbert Bos, and Cristiano Giuffrida
