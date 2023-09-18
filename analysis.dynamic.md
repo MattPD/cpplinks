@@ -681,6 +681,10 @@ See also:
 - Run-time tracking of uninitialized data with MemorySanitizer
 	- 2013 EuroLLVM Developers’ Meeting; Evgeniy Stepanov
 	- https://www.youtube.com/watch?v=2Y0T-1AB-gY
+- Teaching C++ Containers and Allocators How to Sanitize Addresses
+	- CppNorth 2023
+	- Miro Knejp
+	- https://www.youtube.com/watch?v=RCYhxIKh8rs
 - The Type Sanitizer: Free Yourself from -fno-strict-aliasing
 	- 2017 LLVM Developers’ Meeting; Hal Finkel
 	- https://www.youtube.com/watch?v=vAXJeN7k32Y
