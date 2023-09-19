@@ -126,6 +126,8 @@ See also:
 		- https://maskray.me/blog/2021-06-13-dependency-related-linker-options
 	- Linker notes on AArch64
 		- https://maskray.me/blog/2023-03-05-linker-notes-on-aarch64
+	- LLD and GNU linker incompatibilities
+		- https://maskray.me/blog/2020-12-19-lld-and-gnu-linker-incompatibilities
 	- Weak symbol
 		- https://maskray.me/blog/2021-04-25-weak-symbol
 - Nick Desaulniers
