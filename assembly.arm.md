@@ -736,22 +736,39 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ## References: Microarchitecture
 
-- A-Profile
+### References: Microarchitecture: Apple
+
+#### References: Microarchitecture: Apple: M1
+
+- Apple M1 CPU Microarchitectures Research by Dougall Johnson
+	- Research on the Apple M1 CPU microarchitectures (Firestorm and Icestorm), with instruction tables describing throughput, latency, and uops for most instructions, and detailed experiments and measurements.
+		- https://dougallj.github.io/applecpu/firestorm.html
+		- https://github.com/dougallj/applecpu
+	- Counting cycles and instructions on the Apple M1 processor
+		- https://lemire.me/blog/2021/03/24/counting-cycles-and-instructions-on-the-apple-m1-processor/
+	- Apple M1: Load and Store Queue Measurements
+		- https://dougallj.wordpress.com/2021/04/08/apple-m1-load-and-store-queue-measurements/
+
+### References: Microarchitecture: Arm
+
+#### References: Microarchitecture: Arm: Cortex
+
+- Arm Cortex-A
 	- Cortex-A57 Software Optimization Guide
 		- http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.uan0015b/
 		- https://developer.arm.com/docs/uan0015/latest/cortex-a57-software-optimization-guide-software-optimization-guide
 		- PDF: <http://infocenter.arm.com/help/topic/com.arm.doc.uan0015b/Cortex_A57_Software_Optimization_Guide_external.pdf>
-- Apple
-	- Apple M1 CPU Microarchitectures Research by Dougall Johnson
-		- Research on the Apple M1 CPU microarchitectures (Firestorm and Icestorm), with instruction tables describing throughput, latency, and uops for most instructions, and detailed experiments and measurements.
-			- https://dougallj.github.io/applecpu/firestorm.html
-			- https://github.com/dougallj/applecpu
-		- Counting cycles and instructions on the Apple M1 processor
-			- https://lemire.me/blog/2021/03/24/counting-cycles-and-instructions-on-the-apple-m1-processor/
-		- Apple M1: Load and Store Queue Measurements
-			- https://dougallj.wordpress.com/2021/04/08/apple-m1-load-and-store-queue-measurements/
-- Fujitsu
-	- Fujitsu A64FX - https://github.com/fujitsu/A64FX
+
+#### References: Microarchitecture: Arm: Neoverse
+
+##### References: Microarchitecture: Arm: Neoverse: N-Series
+
+- Arm Neoverse N2
+	- https://chipsandcheese.com/2023/08/18/arms-neoverse-n2-cortex-a710-for-servers/
+
+### References: Microarchitecture: Fujitsu
+
+- Fujitsu A64FX - https://github.com/fujitsu/A64FX
 
 ## References: OS
 
