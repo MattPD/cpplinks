@@ -1386,6 +1386,19 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 - Breakpad: a set of client and server components which implement a crash-reporting system
 	- https://github.com/google/breakpad
+- CASR: Crash Analysis and Severity Report
+	- Collect crash reports, triage, and estimate severity
+	- https://github.com/ispras/casr
+	- "CASR is a set of tools that allows you to collect crash reports in different ways. Use casr-core binary to deal with coredumps. Use casr-san to analyze ASAN reports or casr-ubsan to analyze UBSAN reports. Try casr-gdb to get reports from gdb."
+	- "Crash report contains many useful information: severity (like exploitable), OS and package versions, command line, stack trace, register values, disassembly, and even source code fragment where crash appeared. Reports are stored in JSON format. casr-cli is meant to provide TUI for viewing reports. Reports triage (deduplication, clustering) is done by casr-cluster. Triage is based on stack trace comparison from gdb-command. casr-afl is used to triage crashes found by AFL++."
+	- Casr-Cluster: Crash Clustering for Linux Applications
+		- ISPRAS 2021
+		- Georgy Savidov, Andrey Fedotov
+		- https://www.doi.org/10.1109/ISPRAS53967.2021.00012
+	- Sydr-Fuzz: Continuous Hybrid Fuzzing and Dynamic Analysis for Security Development Lifecycle
+		- ISPRAS 2022
+		- Alexey Vishnyakov, Daniil Kuts, Vlada Logunova, Darya Parygina, Eli Kobrin, Georgy Savidov, Andrey Fedotov
+		- https://arxiv.org/abs/2211.11595
 - Crashpad: a crash-reporting system
 	- https://github.com/chromium/crashpad
 - llvm-crash-analyzer: A Tool for the Program Analysis of Corefiles
