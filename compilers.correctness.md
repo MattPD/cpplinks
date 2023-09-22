@@ -761,6 +761,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Karine Even-Mendoza, Cristian Cadar, Alastair F. Donaldson
 	- https://multicore.doc.ic.ac.uk/publications/emse-22.html
 	- https://github.com/karineek/CsmithEdge
+- Generating Conforming Programs With Xsmith
+	- ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences (GPCE) 2023
+	- William Gallard Hatch, Pierce Darragh, Sorawee Porncharoenwase, Guy Watson, Eric Eide
+	- https://doi.org/10.1145/3624007.3624056
+	- https://willghatch.net/publications/xsmith-gpce-2023-preprint.pdf
+	- https://2023.splashcon.org/details/gpce-2023-papers/7/Generating-Conforming-Programs-With-Xsmith
 - Growing A Test Corpus with Bonsai Fuzzing
 	- ICSE 2021
 	- Vasudev Vikram, Rohan Padhye, Koushik Sen
