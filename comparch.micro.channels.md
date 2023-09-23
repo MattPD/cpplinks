@@ -1210,6 +1210,10 @@ See also: [Computer Architecture](comparch.md)
 	- Jiyong Yu, Aishani Dutta, Trent Jaeger, David Kohlbrenner, Christopher W. Fletcher
 	- https://www.usenix.org/conference/usenixsecurity23/presentation/yu-jiyong
 	- https://github.com/FPSG-UIUC/S2C
+- The Gates of Time: Improving Cache Attacks with Transient Execution
+	- USENIX Security 2023
+	- Daniel Katzman, William Kosasih, Chitchanok Chuengsatiansup, Eyal Ronen, Yuval Yarom
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/katzman
 
 ## Cache: 2022
 
