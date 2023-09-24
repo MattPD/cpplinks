@@ -515,6 +515,11 @@
 
 ## 2023
 
+- Exceptions in C++: Better Design Through Analysis of Real World Usage
+	- CppNow 2023
+	- Peter Muldoon
+	- https://www.youtube.com/watch?v=HXJmrMnnDYQ
+	- https://github.com/boostcon/cppnow_presentations_2023/blob/main/cppnow_slides/Exceptionally_bad_cppnow2023.pdf
 - The expected outcome
 	- Ivan Čukić
 	- Meeting C++ 2022
