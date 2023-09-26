@@ -766,6 +766,12 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - Arm Neoverse N2
 	- https://chipsandcheese.com/2023/08/18/arms-neoverse-n2-cortex-a710-for-servers/
 
+##### References: Microarchitecture: Arm: Neoverse: V-Series
+
+- Arm Neoverse V2
+	- Hot Chips 2023: Arm’s Neoverse V2
+		- https://chipsandcheese.com/2023/09/11/hot-chips-2023-arms-neoverse-v2/
+
 ### References: Microarchitecture: Fujitsu
 
 - Fujitsu A64FX - https://github.com/fujitsu/A64FX
