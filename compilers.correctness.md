@@ -1633,6 +1633,12 @@ Validation: Including translation validation, equivalence checking.
 
 ## Verification: 2023
 
+- CryptOpt: Verified Compilation with Randomized Program Search for Cryptographic Primitives
+	- PLDI 2023
+	- Joel Kuepper, Andres Erbsen, Jason Gross, Owen Conoly, Chuyue Sun, Samuel Tian, David Wu, Adam Chlipala, Chitchanok Chuengsatiansup, Daniel Genkin, Markus Wagner, Yuval Yarom
+	- https://doi.org/10.1145/3591272
+	- https://arxiv.org/abs/2211.10665
+	- https://pldi23.sigplan.org/details/pldi-2023-pldi/53/CryptOpt-Verified-Compilation-with-Randomized-Program-Search-for-Cryptographic-Primi
 - Formally Verifying Optimizations with Block Simulations
 	- 2023
 	- Léo Gourdin, Benjamin Bonneau, Sylvain Boulmé, David Monniaux, Alexandre Bérard
