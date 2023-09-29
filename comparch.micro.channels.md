@@ -631,6 +631,10 @@ See also: [Computer Architecture](comparch.md)
 	- Lesly-Ann Daniel, Marton Bognar, Job Noorman, Sébastien Bardin, Tamara Rezk, Frank Piessens
 	- https://arxiv.org/abs/2302.12108
 	- https://github.com/proteus-core/prospect
+- Specification and Verification of Side-channel Security for Open-source Processors via Leakage Contracts
+	- ACM SIGSAC Conference on Computer and Communication Security (CCS) 2023
+	- Zilong Wang, Gideon Mohr, Klaus von Gleissenthall, Jan Reineke, Marco Guarnieri
+	- https://arxiv.org/abs/2305.06979
 - Systematic Prevention of On-Core Timing Channels by Full Temporal Partitioning
 	- IEEE Transactions on Computers, Volume 72, Issue 5, 2023
 	- Nils Wistoff, Moritz Schneider, Frank K. Gürkaynak, Gernot Heiser, Luca Benini
