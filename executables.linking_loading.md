@@ -480,6 +480,10 @@ See also:
 	- https://stoppels.ch/2022/08/20/executable-shared-libraries.html
 - Shared Libraries: Understanding Dynamic Loading
 	- http://amir.rachum.com/blog/2016/09/17/shared-libraries/
+- Shrinking a Shared Library
+	- 2023-06-23
+	- Serge Sans Paille
+	- https://serge-sans-paille.github.io/pythran-stories/shrinking-a-shared-library.html
 - Software Multiplexing: Share Your Libraries and Statically Link Them Too
 	- SPLASH 2018 OOPSLA
 	- Will Dietz, Vikram Adve
