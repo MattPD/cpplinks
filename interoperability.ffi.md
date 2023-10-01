@@ -464,6 +464,13 @@
 - rustcxx: Using C++ from Rust made easy
 	- https://github.com/google/rustcxx
 
+## Rust: Readings
+
+- Aliasing Limits on Translating C to Safe Rust
+	- OOPSLA 2023
+	- Mehmet Emre, Peter Boyland, Aesha Parekh, Ryan Schroeder, Kyle Dewey, Ben Hardekopf
+	- https://2023.splashcon.org/details/splash-2023-oopsla/20/Aliasing-Limits-on-Translating-C-to-Safe-Rust
+
 ---
 
 # Scheme
