@@ -469,6 +469,13 @@ See also:
 	- https://goto.ucsd.edu/~gleissen/papers/dontlookub.pdf
 	- https://github.com/vusec/LookUB
 	- https://pldi23.sigplan.org/details/pldi-2023-pldi/38/Don-t-Look-UB-Exposing-Sanitizer-Eliding-Compiler-Optimizations
+- Finding Bugs in Sanitizer Implementations
+	- ASPLOS 2024
+	- Shaohua Li, Zhendong Su
+	- https://shao-hua-li.github.io/files/2024_ASPLOS_UBFUZZ.pdf
+	- UBGen: an automated UB program generator for C
+		- Given a valid C program, UBGen can mutate it to generate programs containing undefined behaviors. For each of the generated UB program, it only contains one kind of undefined behavior at one program location.
+		- https://github.com/shao-hua-li/UBGen
 - FloatZone: Accelerating Memory Error Detection using the Floating Point Unit
 	- USENIX Security 2023
 	- Floris Gorter, Enrico Barberis, Raphael Isemann, Erik van der Kouwe, Cristiano Giuffrida, Herbert Bos
