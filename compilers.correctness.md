@@ -461,6 +461,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- Yingquan Zhao, Junjie Chen, Ruifeng Fu, Haojie Ye, Zan Wang
 	- https://doi.org/10.1145/3597926.3598077
 	- https://2023.issta.org/details/issta-2023-technical-papers/37/Testing-the-Compiler-for-a-New-Born-Programming-Language-An-Industrial-Case-Study-E
+- Vectorizing Program Ingredients for Better JVM Testing
+	- International Symposium on Software Testing and Analysis (ISSTA) 2023
+	- Tianchang Gao, Junjie Chen, Yingquan Zhao, Yuqun Zhang, Lingming Zhang
+	- https://doi.org/10.1145/3597926.3598075
+	- https://lingming.cs.illinois.edu/publications/issta2023b.pdf
+	- https://2023.issta.org/details/issta-2023-technical-papers/35/Vectorizing-Program-Ingredients-for-Better-JVM-Testing
+	- VECT: Vectorized JVM Testing
+		- https://github.com/gaotravor/VECT
 
 ### Testing: Readings: 2022
 
