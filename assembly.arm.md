@@ -840,6 +840,9 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ### Scalable Vector Extension (SVE)
 
+- A64 SIMD Instruction List: SVE Instructions
+	- https://dougallj.github.io/asil/
+	- https://github.com/dougallj/asil
 - Arm Intrinsics reference search engine
 	- SVE: <https://developer.arm.com/architectures/instruction-sets/intrinsics/#f:@navigationhierarchiessimdisa=[sve]>
 	- SVE2: <https://developer.arm.com/architectures/instruction-sets/intrinsics/#f:@navigationhierarchiessimdisa=[sve2]>
