@@ -1160,6 +1160,10 @@ See also: [Computer Architecture](comparch.md)
 	- MICRO 2023
 	- Johannes Wikner, Daniël Trujillo, Kaveh Razavi
 	- https://comsec.ethz.ch/wp-content/files/phantom_micro23.pdf
+- You Cannot Always Win the Race: Analyzing mitigations for branch target prediction attacks
+	- IEEE European Symposium on Security and Privacy (Euro S&P) 2023
+	- Alyssa Milburn, Ke Sun, Henrique Kawakami
+	- https://doi.org/10.1109/EuroSP57164.2023.00046
 
 ## Branch Predictor: 2022
 
