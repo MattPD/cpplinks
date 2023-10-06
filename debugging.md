@@ -1256,6 +1256,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://github.com/mrexodia/TitanHide
 - udmp-parser: A Cross-Platform C++ parser library for Windows user minidumps
 	- https://github.com/0vercl0k/udmp-parser
+- WubbabooMark: Debugger Anti-Detection Benchmark
+	- https://github.com/hfiref0x/WubbabooMark
 - x64dbg
 	- https://x64dbg.com/
 	- https://github.com/x64dbg/x64dbg
