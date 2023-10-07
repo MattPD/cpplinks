@@ -1155,6 +1155,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 		- https://0xrick.github.io/win-internals/pe6/
 	- Part 6: PE Base Relocations
 		- https://0xrick.github.io/win-internals/pe7/
+	- LAB 1: Writing a PE Parser
+		- https://0xrick.github.io/win-internals/pe8/
 - A smallest PE executable (x64) with every byte executed - https://drakopensulo.wordpress.com/2017/08/06/smallest-pe-executable-x64-with-every-byte-executed/
 - Abusing undocumented features to spoof PE section headers
 	- https://secret.club/2023/06/05/spoof-pe-sections.html
