@@ -9,7 +9,7 @@ See also:
 
 - [Collections](#collections)
 - [General](#general)
-- [Readings](#readings): [Books](#readings-books), [General](#readings-general), [Evaluation](#readings-evaluation), [Practice](#readings-practice)
+- [Readings](#readings): [Books](#readings-books), [General](#readings-general), [Evaluation](#readings-evaluation), [Implementation](#readings-implementation), [Practice](#readings-practice)
 - [Software](#software)
 	- [Software: AFL](#software-afl)
 	- [Software: libFuzzer](#software-libfuzzer)
@@ -133,6 +133,23 @@ See also:
 	- https://rahul.gopinath.org/publications/2023/04/26/systematic/
 	- https://www.usenix.org/conference/usenixsecurity23/presentation/gorz
 	- https://github.com/CISPA-SysSec/mua_fuzzer_bench/
+
+## Readings: Implementation
+
+- Fuzzing Like A Caveman
+	- 2020-2022; h0mbre
+	- 1: how to create a really simple mutation fuzzer and hopefully we can find some crashes in some open source projects with it
+		- https://h0mbre.github.io/Fuzzing-Like-A-Caveman/
+	- 2: Improving Performance
+		- https://h0mbre.github.io/Fuzzing-Like-a-Caveman-2/
+	- 3: Trying to Somewhat Understand The Importance of Code Coverage
+		- https://h0mbre.github.io/Fuzzing-Like-A-Caveman-3/
+	- 4: Snapshot/Code Coverage Fuzzer!
+		- https://h0mbre.github.io/Fuzzing-Like-A-Caveman-4/
+	- 5: A Code Coverage Tour for Cavepeople
+		- https://h0mbre.github.io/Fuzzing-Like-A-Caveman-5/
+	- 6: Binary Only Snapshot Fuzzing Harness 
+		- https://h0mbre.github.io/Fuzzing-Like-A-Caveman-6/
 
 ## Readings: Practice
 
