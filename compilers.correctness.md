@@ -128,6 +128,12 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 		- https://discourse.llvm.org/t/rfc-mlir-action-tracing-and-debugging-mlir-based-compilers/68679
 	- Open MLIR Meeting 2023-02-23; Mehdi Amini
 		- https://www.youtube.com/watch?v=ayQSyekVa3c
+- Silent Compiler Bug De-duplication via Three-Dimensional Analysis
+	- ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2023
+	- Chen Yang, Junjie Chen, Xingyu Fan, Jiajun Jiang, Jun Sun
+	- https://dl.acm.org/doi/abs/10.1145/3597926.3598087
+	- https://2023.issta.org/details/issta-2023-technical-papers/47/Silent-Compiler-Bug-De-duplication-via-Three-Dimensional-Analysis
+	- "In this work, we propose a novel technique (called D3) to solve the duplication problem on silent compiler bugs. Its key insight is to characterize the silent bugs from the testing process and identify three-dimensional information (i.e., test program, optimizations, and test execution) for bug de-duplication."
 
 ### Debugging: 2022
 
