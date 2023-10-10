@@ -80,6 +80,10 @@
 	- https://github.com/aguinet/dragonffi/
 	- FOSDEM 2018 - https://fosdem.org/2018/schedule/event/dragonffi/
 	- DragonFFI: FFI/JIT for the C language using Clang/LLVM - http://blog.llvm.org/2018/03/dragonffi-ffijit-for-c-language-using.html
+- Efficient and Reliable Wrapping of C APIs Using Modern C++
+	- Vladimir Vishnevskii
+	- C++ on Sea 2023
+	- https://www.youtube.com/watch?v=SJlyMV_oTpY
 - ffi-overhead: comparing the C FFI (foreign function interface) overhead for various programming languages
 	- https://github.com/dyu/ffi-overhead
 - Hourglass Interfaces for C++ APIs - CppCon 2014
