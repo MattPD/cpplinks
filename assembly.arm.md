@@ -185,6 +185,12 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- http://www.di.ens.fr/~zappa/readings/damp09.pdf
 - The Semantics of Power and ARM Multiprocessor Programs
 	- http://www.cl.cam.ac.uk/~pes20/weakmemory/index4.html
+- TOSTING: Investigating Total Store Ordering on Arm
+	- International Conference on Architecture of Computing Systems (ARCS) 2023
+ 	- Lars Wrenger, Dominik Töllner, Daniel Lohmann
+ 	- https://link.springer.com/chapter/10.1007/978-3-031-42785-5_10
+ 	- https://sra.uni-hannover.de/Publications/2023/tosting-arcs23/wrenger_23_arcs.pdf
+ 	- https://www.sra.uni-hannover.de/Publications/2023/tosting-arcs23/wrenger_23_arcs_talk.pdf
 
 ## Readings: Emulation
 
