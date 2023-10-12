@@ -338,6 +338,8 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 
 #### Software: Linux - BCC/BPF - Software
 
+- bpftime: Userspace eBPF runtime for fast Uprobe & Syscall Hook
+	- https://github.com/eunomia-bpf/bpftime
 - BPFtrace: High-level tracing language for Linux eBPF
 	- https://github.com/iovisor/bpftrace
 	- http://www.brendangregg.com/blog/2018-10-08/dtrace-for-linux-2018.html
