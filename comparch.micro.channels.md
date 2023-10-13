@@ -2608,6 +2608,11 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- https://comsec.ethz.ch/research/microarch/inception/
 	- https://comsec.ethz.ch/wp-content/files/inception_sec23.pdf
 	- https://github.com/comsec-group/inception
+- Indirect Meltdown: Building Novel Side-Channel Attacks from Transient-Execution Attacks
+	- ESORICS 2023
+	- Daniel Weber, Fabian Thomas, Lukas Gerlach, Ruiyi Zhang, Michael Schwarz
+	- https://publications.cispa.saarland/4011/1/masc_esorics23.pdf
+	- https://github.com/cispa/indirect-meltdown
 - Speculation at Fault: Modeling and Testing Microarchitectural Leakage of CPU Exceptions
 	- USENIX Security Symposium 2023
 	- Jana Hofmann, Emanuele Vannacci, Cédric Fournet, Boris Köpf, Oleksii Oleksenko
