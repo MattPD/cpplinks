@@ -409,6 +409,13 @@ See also:
 - Resolving ELF Relocation Name / Symbols - Chris Rohlf
 	- https://em386.blogspot.com/2006/10/resolving-elf-relocation-name-symbols.html
 
+## Readings: Research
+
+- MELF: Multivariant Executables for a Heterogeneous World
+	- 2023 USENIX Annual Technical Conference (ATC)
+	- Dominik Töllner, Christian Dietrich, Illia Ostapyshyn, Florian Rommel, Daniel Lohmann
+	- https://www.usenix.org/conference/atc23/presentation/tollner
+
 ## Readings: Security
 
 - An Evil Copy: How the Loader Betrays You
