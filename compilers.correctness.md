@@ -770,6 +770,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 ### Testing: Readings: Generation
 
+- Compiler Test-Program Generation via Memoized Configuration Search
+	- International Conference on Software Engineering (ICSE) 2023
+	- Junjie Chen, Chenyao Suo, Jiajun Jiang, Peiqi Chen, Xingjian Li
+	- https://doi.org/10.1109/ICSE48619.2023.00172
+	- https://xgdsmileboy.github.io/files/paper/compiler-icse23.pdf
+	- MCS: Memoized Configuration Search
+		- https://github.com/tju-chenyaosuo/MCS
 - CsmithEdge: More Effective Compiler Testing by Handling Undefined Behaviour Less Conservatively
 	- Empirical Software Engineering (EMSE) 2022
 	- Karine Even-Mendoza, Cristian Cadar, Alastair F. Donaldson
