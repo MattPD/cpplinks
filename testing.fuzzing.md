@@ -136,6 +136,24 @@ See also:
 
 ## Readings: Implementation
 
+- Build simple fuzzer
+	- 2020-2023; Michal Melewski
+	- Very Simple Fuzzer
+		- https://github.com/carstein/vsf
+	- rFuss2 - simple rust fuzzer
+		- https://github.com/carstein/rfuss2
+	- 1: Main parts of fuzzer, Mutation engine, Program execution
+		- https://carstein.github.io/2020/04/18/writing-simple-fuzzer-1.html
+	- 2: Improved architecture, Repeatable randomness, Unique crashes
+		- https://carstein.github.io/2020/04/25/writing-simple-fuzzer-2.html
+	- 3: Measuring performance
+		- https://carstein.github.io/2020/05/02/writing-simple-fuzzer-3.html
+	- 4: Simpler and faster coverage, New mutator, Fit function
+		- https://carstein.github.io/2020/05/21/writing-simple-fuzzer-4.html
+	- 5: Rust rewrite
+		- https://carstein.github.io/2021/03/13/build-your-own-fuzzer-5.html
+	- 6: Native instrumentation
+		- https://carstein.github.io/2023/10/01/build-simple-fuzzer-part-6.html
 - Fuzzing Like A Caveman
 	- 2020-2022; h0mbre
 	- 1: how to create a really simple mutation fuzzer and hopefully we can find some crashes in some open source projects with it
