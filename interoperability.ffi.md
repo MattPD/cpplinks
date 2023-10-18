@@ -47,6 +47,8 @@
 
 - C++ Language Interface Foundation (CLIF)
 	- https://github.com/google/clif
+- CppInterOp: A Clang-based C++ Interoperability Library
+	- https://github.com/compiler-research/CppInterOp
 - libffi: A portable foreign-function interface library
 	- http://sourceware.org/libffi
 	- https://github.com/libffi/libffi
