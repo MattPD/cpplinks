@@ -2613,6 +2613,11 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Daniel Weber, Fabian Thomas, Lukas Gerlach, Ruiyi Zhang, Michael Schwarz
 	- https://publications.cispa.saarland/4011/1/masc_esorics23.pdf
 	- https://github.com/cispa/indirect-meltdown
+- Reviving Meltdown 3a
+	- ESORICS 2023
+	- Daniel Weber, Fabian Thomas, Lukas Gerlach, Ruiyi Zhang, Michael Schwarz
+	- https://publications.cispa.saarland/4010/1/meltdown3a_esorics23.pdf
+	- https://github.com/cispa/regcheck
 - Speculation at Fault: Modeling and Testing Microarchitectural Leakage of CPU Exceptions
 	- USENIX Security Symposium 2023
 	- Jana Hofmann, Emanuele Vannacci, Cédric Fournet, Boris Köpf, Oleksii Oleksenko
