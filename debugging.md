@@ -122,6 +122,10 @@ See also:
 	- Yongle Zhang, Kirk Rodrigues, Yu Luo, Michael Stumm, Ding Yuan
 	- https://dl.acm.org/citation.cfm?id=3359650
 	- https://blog.acolyer.org/2019/11/08/the-inflection-point-hypothesis/
+- Unstripping Stripped Binaries
+	- 2022; Tavis Ormandy
+	- using STABS to debug stripped code
+	- http://lock.cmpxchg8b.com/symbols.html
 - What does debugging a program look like? - Julia Evans - https://jvns.ca/blog/2019/06/23/a-few-debugging-resources/
 - When debugging a stack overflow, you want to focus on the repeating recursive part - Raymond Chen
 	- https://devblogs.microsoft.com/oldnewthing/20090107-00/?p=19573
