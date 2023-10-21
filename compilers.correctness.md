@@ -576,6 +576,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/
 	- https://github.com/evaluating-fuzzilli-for-js-jit-fuzzing
 	- https://github.com/googleprojectzero/fuzzilli
+- Fuzzing Deep Learning Compilers with HirGen
+	- International Symposium on Software Testing and Analysis (ISSTA) 2023
+	- Haoyang Ma, Qingchao Shen, Yongqiang Tian, Junjie Chen, Shing-Chi Cheung
+	- https://doi.org/10.1145/3597926.3598053
+	- https://2023.issta.org/details/issta-2023-technical-papers/13/Fuzzing-Deep-Learning-Compilers-with-HirGen
+	- https://github.com/haoyang9804/HirGen
 - FuzzJIT: Towards Fuzzing JavaScript Engine JIT Compiler
 	- USENIX Security Symposium 2023
 	- Junjie Wang, Zhiyi Zhang, Shuang Liu, Xiaoning Du, Junjie Chen
