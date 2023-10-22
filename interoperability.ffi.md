@@ -11,6 +11,14 @@
 
 ## General: Readings
 
+- Operational Semantics for Multi-Language Programs
+	- Principles of Programming Languages (POPL) 2007
+	- Jacob Matthews, Robert Bruce Findler
+	- https://dl.acm.org/doi/10.1145/1190215.1190220
+	- Formal Semantics for Multi-Language Programs
+		- Strange Loop 2023
+		- Amal Ahmed
+		- https://www.youtube.com/watch?v=xOInz_gt2Fg
 - Semantic Soundness for Language Interoperability
 	- PLDI 2022
 	- Daniel Patterson, Noble Mushtak, Andrew Wagner, Amal Ahmed
