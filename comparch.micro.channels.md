@@ -59,6 +59,11 @@ See also: [Computer Architecture](comparch.md)
 
 ## General: 2023
 
+- Adaptive Microarchitectural Optimizations to Improve Performance and Security of Multi-Core Architectures
+	- 2023 PhD Dissertation
+	- Nadja Ramhöj Holtryd
+	- https://research.chalmers.se/en/publication/534209
+	- https://research.chalmers.se/publication/534209/file/534209_Fulltext.pdf
 - (M)WAIT for It: Bridging the Gap between Microarchitectural and Architectural Side Channels
 	- USENIX Security 2023
 	- Ruiyi Zhang, Taehyun Kim, Daniel Weber, Michael Schwarz
