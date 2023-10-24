@@ -452,6 +452,10 @@ See also:
 - Cheating the ELF: Subversive Dynamic Linking to Libraries
 	- 2001; the grugq - https://grugq.github.io/docs/
 	- https://grugq.github.io/docs/subversiveld.pdf
+- Dynamic Linkers Are the Narrow Waist of Operating Systems
+	- Workshop on Programming Languages and Operating Systems (PLOS) 2023
+	- Charly Castes, Adrien Ghosn
+	- https://dl.acm.org/doi/10.1145/3623759.3624548
 - ELF dynamic linking: a brief introduction
 	- https://www.humprog.org/~stephen/blog/2021/10/18/#elf-dynamic-linking-intro
 - Fun with weak dynamic linking
