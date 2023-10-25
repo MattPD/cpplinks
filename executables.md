@@ -1044,17 +1044,40 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 
 ## Mach-O: Talks
 
-- 2018 - Mach-O Tricks
+### Mach-O: Talks: 2023
+
+- Demystify Mach-O
+	- Chaos Communication Camp (CCC) 2023
+	- Garrigan Stafford
+	- https://www.youtube.com/watch?v=S9FFzsF0aIA
+	- https://media.ccc.de/v/camp2023-57032-demystify_mach_o
+
+### Mach-O: Talks: 2018
+
+- Mach-O Tricks
 	- BaiJiuCon at Mobile Security Conference (MOSEC) 2018
+	- Luca (@qwertyoruiopz)
 	- http://iokit.racing/machotricks.pdf
-- 2013 - DEF CON 21 - Mach-O Malware Analysis: Combatting Mac OSX/iOS Malware with Data Visualization
+	- http://web.archive.org/web/20220428071443/https://iokit.racing/machotricks.pdf
+
+### Mach-O: Talks: 2013
+
+- Mach-O Malware Analysis: Combatting Mac OSX/iOS Malware with Data Visualization
+	- DEF CON 21 (2013)
+	- Remy Baumgarten
+	- https://www.youtube.com/watch?v=7yiTzyt-iRc
 	- https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20presentations/Remy%20Baumgarten/
 	- Slides: https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20presentations/Remy%20Baumgarten/DEFCON-21-Baumgarten-Mach-O-Viz.pdf
 	- Paper: https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20presentations/Remy%20Baumgarten/DEFCON-21-Baumgarten-Mach-O-Viz-WP.pdf
 	- Video: https://infocon.org/cons/DEF%20CON/DEF%20CON%2021/DEF%20CON%2021%20video%20and%20slides%20x265/DEF%20CON%2021%20Hacking%20Conference%20Presentation%20By%20Remy%20Baumgarten%20-%20Combatting%20Mac%20OSX%20iOS%20Malware%20with%20Data%20Visualization%20-%20Video%20and%20Slides.mp4
 	- http://macsecurity.net/view/42/
 	- http://www.securitytube.net/video/9133
-- 2009 - Black Hat DC - Let your Mach-O fly - Vincenzo Iozzo
+
+### Mach-O: Talks: 2009
+
+- Let your Mach-O fly
+- Black Hat DC 2009
+- Vincenzo Iozzo
 	- Slides: http://www.blackhat.com/presentations/bh-dc-09/Iozzo/BlackHat-DC-09-Iozzo-Macho-on-the-fly.pdf
 	- Paper: http://www.blackhat.com/presentations/bh-dc-09/Iozzo/BlackHat-DC-09-Iozzo-let-your-mach0-fly-whitepaper.pdf
 
