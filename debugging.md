@@ -669,6 +669,12 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://metricpanda.com/tips-for-productive-debugging-with-gdb
 - GDB helper scripts
 	- https://github.com/tromey/gdb-helpers
+- gdb-command: Library for manipulating gdb in batch mode
+	- Rust
+	- Execution of target program (Local type)
+	- Opening core of target program (Core type)
+	- Attaching to remote process (Remote type)
+	- https://github.com/anfedotoff/gdb-command
 - gdb-gui: A gdb gui written in Python, running inside gdb itself
 	- https://github.com/tromey/gdb-gui
 - gdb-helpers: GDB helper scripts
