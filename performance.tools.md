@@ -305,6 +305,10 @@
 		- 2021
 		- Andreas Abel, Jan Reineke
 		- https://arxiv.org/abs/2107.14210
+	- Facile: Fast, Accurate, and Interpretable Basic-Block Throughput Prediction
+		- IEEE International Symposium on Workload Characterization (IISWC) 2023
+		- Andreas Abel, Shrey Sharma, Jan Reineke
+		- https://arxiv.org/abs/2310.13212
 
 # Optimization
 
