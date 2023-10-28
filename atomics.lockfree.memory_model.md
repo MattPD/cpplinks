@@ -268,6 +268,12 @@
 	- POPL 2015
 	- Viktor Vafeiadis, Thibaut Balabonski, Soham Chakraborty, Robin Morisset, Francesco Zappa Nardelli
 	- http://www.di.ens.fr/~zappa/readings/c11comp.pdf
+- Compiler Testing With Relaxed Memory Models
+	- 2023
+	- Luke Geeson, Lee Smith
+	- https://arxiv.org/abs/2310.12337
+	- A Proposal Fix for C/C++ Relaxed Atomics in Practice
+		- https://lukegeeson.com/blog/2023-10-17-A-Proposal-For-Relaxed-Atomics/
 - N4455: No Sane Compiler Would Optimize Atomics
 	- http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/n4455.html
 - Partially Redundant Fence Elimination for x86, ARM, and Power Processors
