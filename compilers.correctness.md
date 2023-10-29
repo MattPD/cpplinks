@@ -982,6 +982,9 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://dl.acm.org/doi/10.1145/3338906.3338956
 	- JReduce: a tool to reduce Java ByteCode
 		- https://github.com/ucla-pls/jreduce
+- How to reduce LLVM crashes
+	- 2023; Nikita Popov
+	- https://www.npopov.com/2023/10/22/How-to-reduce-LLVM-crashes.html
 - Perses: Syntax-Directed Program Reduction
 	- https://github.com/chengniansun/perses
 	- ICSE 2018
