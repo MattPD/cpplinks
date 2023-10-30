@@ -631,6 +631,11 @@ See also: [Computer Architecture](comparch.md)
 
 ### Defense: Hardware Design & Verification: 2023
 
+- MicroProfiler: Principled Side-Channel Mitigation through Microarchitectural Profiling
+	- IEEE European Symposium on Security and Privacy (Euro S&P) 2023
+	- Marton Bognar, Hans Winderix, Jo Van Bulck, Frank Piessens
+	- https://mici.hu/papers/bognar23microprofiler.pdf
+	- https://github.com/martonbognar/microprofiler
 - ProSpeCT: Provably Secure Speculation for the Constant-Time Policy
 	- USENIX Security Symposium 2023
 	- Lesly-Ann Daniel, Marton Bognar, Job Noorman, Sébastien Bardin, Tamara Rezk, Frank Piessens
