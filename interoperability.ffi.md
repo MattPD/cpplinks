@@ -400,7 +400,8 @@
 ## Python: Software
 
 - cppyy: Python-C++ bindings interface based on Cling/LLVM
-	- https://bitbucket.org/wlav/cppyy
+	- cppyy provides fully automatic, dynamic Python-C++ bindings by leveraging the Cling C++ interpreter and LLVM. It supports both PyPy (natively), CPython, and C++ language standards through C++17 (and parts of C++20).
+	- https://github.com/wlav/cppyy
 	- https://cppyy.readthedocs.io/
 	- High-performance Python-C++ bindings with PyPy and Cling
 		- PyHPC 2016
