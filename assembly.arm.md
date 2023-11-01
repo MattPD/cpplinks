@@ -77,6 +77,10 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- 2019 International Conference on Parallel Processing (ICPP)
 	- Chih-Min Lin, Sheng-Yu Fu, Ding-Yong Hong, Yu-Ping Liu, Jan-Jan Wu, Wei-Chung Hsu
 	- https://doi.org/10.1145/3337821.3337844
+- Ground Truth for Binary Disassembly is Not Easy
+	- USENIX Security Symposium 2022
+	- Chengbin Pang, Tiantai Zhang, Ruotong Yu, Bing Mao, Jun Xu
+	- https://www.usenix.org/conference/usenixsecurity22/presentation/pang-chengbin
 - Optimising Dynamic Binary Modification across 64-bit Arm Microarchitectures
 	- VEE 2020
 	- Guillermo Callaghan, Cosmin Gorgovan, Mikel Lujan
