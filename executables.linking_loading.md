@@ -616,6 +616,13 @@ See also:
 	- Shiva is an ELF dynamic linker that is specialized for patching native Linux software. Shiva has been custom tailored towards the requirements of the DARPA AMP project and currently supports the AArch64 architecture.
 	- Patches are written in C and compiled into ELF relocatable objects. Shiva loads, links, and patches the new code into memory.
 	- https://github.com/advanced-microcode-patching/shiva
+	- Revolutionizing ELF binary patching w Shiva
+		- DEF CON 31 2023
+		- Ryan “ElfMaster” O’Neill
+		- https://www.youtube.com/watch?v=TDMWejaucdg
+		- https://media.defcon.org/DEF%20CON%2031/DEF%20CON%2031%20presentations/ElfMaster%20-%20Revolutionizing%20ELF%20binary%20patching%20with%20Shiva%20A%20JIT%20binary%20patching%20system%20for%20Linux.pdf
+	- Shiva: a programmable dynamic linker for loading ELF microprograms
+		- https://github.com/elfmaster/shiva
 - stelf-loader: A stealthy ELF loader - no files, no execve, no RWX
 	- https://github.com/DavidBuchanan314/stelf-loader
 
