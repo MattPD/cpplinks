@@ -1328,6 +1328,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Break On Process Creation in WinDbg
 	- https://shakreiner.com/posts/break-on-process-windbg/
 - Debugger Data Model, Javascript & X64 Exception Handling - https://doar-e.github.io/blog/2017/12/01/debugger-data-model/
+- Debugger Lies: Stack Corruption
+	- https://www.timdbg.com/posts/debugger-lies-part-1/
 - Debugging Tools for Windows - https://blogs.msdn.microsoft.com/windbg/
 - Exploiting flaws in WinDbg: how to escape or fool debuggers from existing flaws
 	- Journal of Computer Virology and Hacking Techniques (2020)
