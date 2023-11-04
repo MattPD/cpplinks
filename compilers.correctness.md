@@ -904,6 +904,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 #### Testing: Readings: Performance Optimization: 2023
 
+- Diagnosing Compiler Performance by Comparing Optimization Decisions
+	- International Conference on Managed Programming Languages & Runtimes (MPLR) 2023
+	- Andrej Pečimúth, David Leopoldseder, Petr Tůma
+	- https://2023.splashcon.org/details/mplr-2023-papers/12/Diagnosing-Compiler-Performance-by-Comparing-Optimization-Decisions
+	- https://doi.org/10.1145/3617651.3622994
+	- https://github.com/oracle/graal/blob/master/compiler/docs/Profdiff.md
 - Exploring Missed Optimizations in WebAssembly Optimizers
 	- ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2023
 	- Zhibo Liu, Dongwei Xiao, Zongjie Li, Shuai Wang, Wei Meng
