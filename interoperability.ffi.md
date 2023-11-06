@@ -386,6 +386,8 @@
 	- part 3 - deep dive into ctypes implementation in CPython
 		- http://yizhang82.me/python-interop-inside-ctypes
 		- https://blogs.msdn.microsoft.com/yizhang/2018/02/02/calling-c-functions-from-python-part-3-deep-dive-into-ctypes-implementation-in-cpython/
+- PEP 733 – An Evaluation of Python’s Public C API
+	- https://peps.python.org/pep-0733/
 - Python - using C and C++ libraries with ctypes
 	- https://solarianprogrammer.com/2019/07/18/python-using-c-cpp-libraries-ctypes/
 - Toward Efficient Interactions between Python and Native Libraries
