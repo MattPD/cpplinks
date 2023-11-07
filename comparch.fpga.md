@@ -33,30 +33,40 @@ https://speakerdeck.com/mattpd/fpgas-and-open-source-hardware-an-intro-meeting-c
 
 # Courses
 
-* 18-643 Reconfigurable Logic: Technology, Architecture and Applications - http://users.ece.cmu.edu/~jhoe/doku/doku.php?id=18-643_reconfigurable_logic
+- 18-643 Reconfigurable Logic: Technology, Architecture and Applications
+	- https://users.ece.cmu.edu/~jhoe/doku/doku.php?id=18-643_reconfigurable_logic
 
 # Communities
 
-* comp.arch.fpga - https://groups.google.com/d/forum/comp.arch.fpga
-* comp.lang.verilog - https://groups.google.com/d/forum/comp.lang.verilog
-* comp.lang.vhdl - https://groups.google.com/d/forum/comp.lang.vhdl
-* /r/FPGA - everything about programmable hardware - https://www.reddit.com/r/FPGA
-* IRC ​Channel #​#fpga - freenode - http://irc.netsplit.de/channels/details.php?room=%23%23fpga&net=freenode
+- comp.arch.fpga - https://groups.google.com/d/forum/comp.arch.fpga
+- comp.lang.verilog - https://groups.google.com/d/forum/comp.lang.verilog
+- comp.lang.vhdl - https://groups.google.com/d/forum/comp.lang.vhdl
+- /r/FPGA - everything about programmable hardware - https://www.reddit.com/r/FPGA
+- IRC ​Channel #​#fpga - freenode - http://irc.netsplit.de/channels/details.php?room=%23%23fpga&net=freenode
 
 # HDL
 
 ## HDL: Verilog
 
-* EDA Playground - Verilog Tutorials
-  - http://eda-playground.readthedocs.io/en/latest/code-examples/verilog.html
-  - https://www.youtube.com/playlist?list=PLScWdLzHpkAfbPhzz1NKHDv2clv1SgsMo
-* FPGA Resources - http://fpgacpu.ca/fpga/
-  - HDL References - http://fpgacpu.ca/fpga/hdl/
-* HDLBits — Verilog Practice - http://verilog.stuffedcow.net/
-* Learning Verilog for FPGAs: The Tools and Building an Adder - http://hackaday.com/2015/08/19/learning-verilog-on-a-25-fpga-part-i/
-* Open FPGA Verilog Tutorial - https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki/Home_EN
-* Quick Reference for Verilog HDL - https://github.com/parallella/oh/blob/master/docs/verilog_reference.md
-* Verilog Page - http://www.asic-world.com/verilog/
+- EDA Playground - Verilog Tutorials
+	- http://eda-playground.readthedocs.io/en/latest/code-examples/verilog.html
+	- https://www.youtube.com/playlist?list=PLScWdLzHpkAfbPhzz1NKHDv2clv1SgsMo
+- FPGA Resources - http://fpgacpu.ca/fpga/
+	- HDL References - http://fpgacpu.ca/fpga/reading.html
+- HDLBits — Verilog Practice
+	- https://hdlbits.01xz.net/
+	- http://verilog.stuffedcow.net/
+- Learning Verilog for FPGAs: The Tools and Building an Adder - https://hackaday.com/2015/08/19/learning-verilog-on-a-25-fpga-part-i/
+- Open FPGA Verilog Tutorial - https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki/Home_EN
+- Quick Reference for Verilog HDL
+	- https://github.com/aolofsson/oh/blob/master/docs/verilog_reference.md
+- The Essence of Verilog: A Tractable and Tested Operational Semantics for Verilog
+	- OOPSLA 2023
+	- Qinlin Chen, Nairen Zhang, Jinpeng Wang, Tian Tan, Chang Xu, Xiaoxing Ma, and Yue Li
+	- https://doi.org/10.1145/3622805
+	- https://qinlinchen.github.io/papers/2023_OOPSLA_LambdaV.pdf
+	- https://silverbullettt.bitbucket.io/papers/oopsla2023.pdf
+- Verilog Page - https://www.asic-world.com/verilog/
 
 ## HDL: SystemVerilog
 
