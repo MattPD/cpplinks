@@ -971,6 +971,9 @@ See also:
 		- https://github.com/timniederhausen/gn-build
 - ninjatracing: Convert .ninja_log files to chrome's about:tracing format.
 	- https://github.com/nico/ninjatracing
+- Ninja is enough build system
+	- November 4, 2023; Max Bernstein
+	- https://bernsteinbear.com/blog/ninja-is-enough/
 - The Architecture of Open Source Applications: Ninja
 	- https://www.aosabook.org/en/posa/ninja.html
 - The Success and Failure of Ninja
