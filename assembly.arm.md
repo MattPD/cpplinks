@@ -198,10 +198,13 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ## Readings: Emulation
 
-- EXAMINER: Automatically Locating Inconsistent Instructions between Real Devices and CPU Emulators for ARM
-	- ASPLOS 2022
+- Examiner: Automatically Locating Inconsistent Instructions Between Real Devices and CPU Emulators for ARM
+	- ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2022)
 	- Muhui Jiang, Tianyi Xu, Yajin Zhou, Yufeng Hu, Ming Zhong, Lei Wu, Xiapu Luo, Kui Ren
-	- https://arxiv.org/abs/2105.14273
+	- https://dl.acm.org/doi/10.1145/3503222.3507736
+	- https://yajin.org/papers/examiner_asplos22.pdf
+	- https://www.youtube.com/watch?v=n2I6VP5Wr2I
+	- https://github.com/valour01/examiner
 	- https://alastairreid.github.io/RelatedWork/papers/jiang:arxiv:2021/
 - Why is Rosetta 2 fast?
 	- 2022; Dougall Johnson
