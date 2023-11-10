@@ -603,6 +603,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Mingyuan Wu, Minghai Lu, Heming Cui, Junjie Chen, Yuqun Zhang, Lingming Zhang
 	- https://lingming.cs.illinois.edu/publications/icse2023e.pdf
 	- https://conf.researchr.org/details/icse-2023/icse-2023-technical-track/150/JITfuzz-Coverage-guided-Fuzzing-for-JVM-Just-in-Time-Compilers
+- SJFuzz: Seed and Mutator Scheduling for JVM Fuzzing
+	- ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2023
+	- Mingyuan Wu, Yicheng Ouyang, Minghai Lu, Junjie Chen, Yingquan Zhao, Heming Cui, Guowei Yang, Yuqun Zhang
+	- https://doi.org/10.1145/3611643.3616277
+	- https://shadowmydx.github.io/papers/fse2023b.pdf
+	- SJFuzz: Scheduling for JVM Fuzzing
+		- Discrepancy-driven JVM Fuzzing
+		- https://github.com/fuzzy000/SJFuzz
 
 #### Testing: Readings: Fuzzing: 2022
 
