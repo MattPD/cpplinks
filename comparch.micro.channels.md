@@ -2138,6 +2138,11 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 	- Hritvik Taneja, Jason Kim, Jie Jeff Xu, Stephan van Schaik, Daniel Genkin, Yuval Yarom
 	- https://arxiv.org/abs/2305.12784
 	- "Are software-based physical side channels present on GPUs and high-end Arm SoCs? What would it take to create such attacks and what information can be extracted using it?"
+- The Finger in the Power: How to Fingerprint PCs by Monitoring their Power Consumption
+	- 20th Conference on Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA) 2023
+	- Marina Botvinnik, Tomer Laor, Thomas Rokicki, Clémentine Maurice, Yossi Oren
+	- https://orenlab.sise.bgu.ac.il/p/FingerInThePower
+	- https://github.com/FingerInThePower/Finger_In_The_Power
 - Towards Automated Detection of Single-Trace Side-Channel Vulnerabilities in Constant-Time Cryptographic Code
 	- IEEE European Symposium on Security and Privacy (Euro S&P) 2023
 	- Ferhat Erata, Ruzica Piskac, Victor Mateu, Jakub Szefer
