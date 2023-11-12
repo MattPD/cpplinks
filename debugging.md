@@ -1345,6 +1345,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Undocumented WinDbg - https://blogs.msdn.microsoft.com/reiley/2011/10/30/undocumented-windbg/
 - Use Windows Debuggers for Non-Debugging Tasks - https://blogs.msdn.microsoft.com/reiley/2011/10/23/use-windows-debuggers-for-non-debugging-tasks/
 - Using Function Evaluation in WinDbg - https://blogs.msdn.microsoft.com/reiley/2012/08/18/using-function-evaluation-in-windbg/
+- What's the Debugger Data Model? (And Why?)
+	- 2022; Tim Misiak
+	- https://www.timdbg.com/posts/whats-the-data-model/
 - WinDbg automation and extensions - https://web.archive.org/https://nativecoding.wordpress.com/2016/01/10/automate-attach-to-process-on-windows-with-windbg/
 - WinDbg Malware Analysis Cheat Sheet
 	- https://web.archive.org/https://oalabs.openanalysis.net/2019/02/18/windbg-for-malware-analysis/
