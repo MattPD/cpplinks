@@ -410,6 +410,9 @@
 		- Wim T. L. P. Lavrijsen, Aditi Dutta
 		- https://dl.acm.org/doi/10.5555/3019083.3019087
 		- http://wlav.web.cern.ch/wlav/Cppyy_LavrijsenDutta_PyHPC16.pdf
+- CPyCppyy: Python-C++ bindings interface based on Cling/LLVM
+	- CPyCppyy is the CPython equivalent of cppyy in PyPy. It provides dynamic Python-C++ bindings by leveraging the Cling C++ interpreter and LLVM.
+	- https://github.com/wlav/CPyCppyy
 - HPy: a better API for Python
 	- https://hpyproject.org/
 	- https://github.com/hpyproject/hpy
