@@ -69,6 +69,12 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Cosmin Gorgovan, Guillermo Callaghan, Mikel Luján
 	- https://doi.org/10.1145/3377555.3377895
 	- https://www.research.manchester.ac.uk/portal/files/158729354/mambo_api_cc2020_cr_authors.pdf
+- D-ARM: Disassembling ARM Binaries by Lightweight Superset Instruction Interpretation and Graph Modeling
+	- IEEE Symposium on Security and Privacy S&P 2023
+	- Yapeng Ye, Zhuo Zhang, Qingkai Shi, Yousra Aafer, Xiangyu Zhang
+	- https://ieeexplore.ieee.org/abstract/document/10179307
+	- https://qingkaishi.github.io/public_pdfs/SP23DARM.pdf
+	- https://www.youtube.com/watch?v=HFIrYXS3A8o
 - Exploiting SIMD Asymmetry in ARM-to-x86 Dynamic Binary Translation
 	- ACM Transactions on Architecture and Code Optimization (TACO) 2019
 	- Yu-Ping Liu, Ding-Yong Hong, Jan-Jan Wu, Sheng-Yu Fu, Wei-Chung Hsu
