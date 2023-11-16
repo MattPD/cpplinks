@@ -1721,6 +1721,15 @@ Validation: Including translation validation, equivalence checking.
 	- Cyril Six, Léo Gourdin, Sylvain Boulmé, David Monniaux, Justus Fasse, Nicolas Nardino
 	- https://dl.acm.org/doi/pdf/10.1145/3497775.3503679
 	- https://gricad-gitlab.univ-grenoble-alpes.fr/certicompil/compcert-kvx/-/tree/CPP22_main
+- PureCake: A Verified Compiler for a Lazy Functional Language
+	- PLDI 2023
+	- Hrutvik Kanabar, Samuel Vivien, Oskar Abrahamsson, Magnus O. Myreen, Michael Norrish, Johannes Åman Pohjola, Riccardo Zanetti
+	- https://dl.acm.org/doi/10.1145/3591259
+	- https://pldi23.sigplan.org/details/pldi-2023-pldi/40/PureCake-A-Verified-Compiler-for-a-Lazy-Functional-Language
+	- https://hrutvik.co.uk/assets/pdf/PureCake_slides_long.pdf
+	- https://www.youtube.com/watch?v=pEVBUfEFW8k&t=558s
+	- https://cakeml.org/purecake/
+	- https://github.com/CakeML/pure
 - The Trusted Computing Base of the CompCert Verified Compiler
 	- European Symposium on Programming (ESOP) 2022
 	- David Monniaux, Sylvain Boulmé
