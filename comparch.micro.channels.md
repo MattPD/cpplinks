@@ -855,6 +855,12 @@ See also: [Computer Architecture](comparch.md)
 	- Basavesh Ammanaghatta Shivakumar, Jack Barnes, Gilles Barthe, Sunjay Cauligi, Chitchanok Chuengsatiansup, Daniel Genkin, Sioli O’Connell, Peter Schwabe, Rui Qi Sim, Yuval Yarom
 	- https://doi.ieeecomputersociety.org/10.1109/SP46215.2023.00011
 	- https://eprint.iacr.org/2022/426
+- Ultimate SLH: Taking Speculative Load Hardening to the Next Level
+	- USENIX Security 2023
+	- Zhiyuan Zhang, Gilles Barthe, Chitchanok Chuengsatiansup, Peter Schwabe, Yuval Yarom
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/zhang-zhiyuan-slh
+	- https://yuval.yarom.org/pdfs/ZhangBCSY23.pdf
+	- https://github.com/0xADE1A1DE/USLH
 
 #### Defense: Software: Compilation and Programming Languages: 2022
 
