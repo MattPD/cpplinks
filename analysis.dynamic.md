@@ -426,9 +426,15 @@ See also:
 	- https://blog.trailofbits.com/2019/06/25/creating-an-llvm-sanitizer-from-hopes-and-dreams/
 	- llvm-sanitizer-tutorial and documentation
 		- https://github.com/trailofbits/llvm-sanitizer-tutorial
-- GWP-ASan: Sampling heap memory error detection in-the-wild
-	- 2019; Vlad Tsyrklevich
-	- https://sites.google.com/a/chromium.org/dev/Home/chromium-security/articles/gwp-asan
+- GWP-ASan
+	- https://llvm.org/docs/GwpAsan.html
+	- GWP-ASan: Sampling-Based Detection of Memory-Safety Bugs in Production
+		- 2023
+		- Kostya Serebryany, Chris Kennelly, Mitch Phillips, Matt Denton, Marco Elver, Alexander Potapenko, Matt Morehouse, Vlad Tsyrklevich, Christian Holler, Julian Lettner, David Kilzer, Lander Brandt
+		 https://arxiv.org/abs/2311.09394
+	- GWP-ASan: Sampling heap memory error detection in-the-wild
+		- 2019; Vlad Tsyrklevich
+		- https://sites.google.com/a/chromium.org/dev/Home/chromium-security/articles/gwp-asan
 - Memory error checking in C and C++: Comparing Sanitizers and Valgrind
 	- https://developers.redhat.com/blog/2021/05/05/memory-error-checking-in-c-and-c-comparing-sanitizers-and-valgrind/
 - SoK: Sanitizing for Security
