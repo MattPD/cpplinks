@@ -617,6 +617,11 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 	- Peter Williamson
 	- https://www.youtube.com/watch?v=U6Eef79GRF4
 	- https://nwcpp.org/April-2023.html
+- Remedial C++ 17 Library Features - Part 2
+	- NWCPP - Northwest C++ Users Group 2023
+	- Peter Williamson
+	- https://www.youtube.com/watch?v=y3uDSkvZRT4
+	- https://nwcpp.org/November-2023.html
 - Seventeenification: Porting sqlpp11 to C++17
 	- CppCon 2017; Roland Bock
 	- https://www.youtube.com/watch?v=bA7b1HEFVFk&list=PLHTh1InhhwT6bwIpRk0ZbCA0N2p1taxd6&index=65
