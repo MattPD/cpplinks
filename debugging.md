@@ -395,6 +395,10 @@ _Books, Books Reviews_
 	- Electronic Notesin Theoretical Computer Science 1 (1995)
 	- Karen L. Bernstein, Eugene W.Stark
 	- http://dx.doi.org/10.1016/S1571-0661(04)80002-1
+- OPTVIEW: A New Approach for Examining Optimized Code
+	- ACM SIGPLAN Workshop on Program Analysis for Software Tools and Engineering (PASTE) 1998
+	- Caroline Tice and Susan L. Graham
+	- https://doi.org/10.1145/277631.277636
 - Source-Level Debugging of Scalar Optimized Code
 	- PLDI 1996
 	- Ali-Reza Adl-Tabatabai, Thomas Gross
