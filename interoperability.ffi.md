@@ -27,6 +27,14 @@
 	- https://dbp.io/pubs/2022/semint.pdf
 	- https://www.youtube.com/watch?v=uasYCcvYIkQ
 
+### General: Readings: Memory Management
+
+- Collecting Cyclic Garbage across Foreign Function Interfaces: Who Takes the Last Piece of Cake?
+	- PLDI 2023
+	- Tetsuro Yamazaki, Tomoki Nakamaru, Ryota Shioya, Tomoharu Ugawa, Shigeru Chiba
+	 - https://dl.acm.org/doi/abs/10.1145/3591244
+	 - https://pldi23.sigplan.org/details/pldi-2023-pldi/25/Collecting-Cyclic-Garbage-across-Foreign-Function-Interfaces-Who-Takes-the-Last-Piec
+
 ### General: Readings: Optimization
 
 - Low-level Cross-Language Post-Link Optimisation
