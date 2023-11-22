@@ -1692,6 +1692,10 @@ Validation: Including translation validation, equivalence checking.
 	- Léo Gourdin
 	- https://dl.acm.org/doi/abs/10.1145/3605158.3605848
 	- https://hal.science/hal-04108775
+- Verified Function Inlining Optimization for the PureCake Compiler
+	- 2023 Master's Thesis
+	- Kacper Korban
+	- http://hdl.handle.net/20.500.12380/306357
 - Verifying the Verifier: eBPF Range Analysis Verification
 	- International Conference on Computer Aided Verification (CAV) 2023
 	- Harishankar Vishwanathan, Matan Shachnai, Srinivas Narayana, Santosh Nagarakatte
