@@ -676,13 +676,21 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 	- netspooky
 	- https://tmpout.sh/2/14.html
 - A small ELF: Small 114 byte x86_64 ELF
+	- 2021; subvisor
 	- https://ftp.lol/posts/small-elf.html
 - A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux
-	- http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
+	- https://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
+	- 1999; Brian Raiter 
 	- https://github.com/abraithwaite/teensy
+- Cramming a Tiny Program into a Tiny ELF File: A Case Study
+	- tmp.0ut Volume 3; 2023-11
+	- lm978
+	- https://tmpout.sh/3/22.html
 - Smallest x86 ELF Hello World
+	- 2008; Ryan Henszey
 	- http://timelessname.com/elfbin/
 - Tiny ELF Files: Revisited in 2021
+	- 2021; Nathan Otterness
 	- https://nathanotterness.com/2021/10/tiny_elf_modernized.html
 
 ### ELF: Readings: Transformation
