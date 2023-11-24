@@ -990,6 +990,9 @@ See also: [Computer Architecture](comparch.md)
 - Conditional Speculation: An Effective Approach to Safeguard Out-of-Order Execution Against Spectre Attacks
 	- High-Performance Computer Architecture (HPCA) 2019
 	- Peinan Li, Lutan Zhao, Rui Hou; Lixin Zhang; Dan Meng
+	- https://doi.org/10.1109/HPCA.2019.00043
+	- https://www.youtube.com/watch?v=u_VxiHo5hks
+	- http://hourui-arch.net/pdf/Conditional-Speculation.pdf
 - Context-Sensitive Fencing: Securing Speculative Execution via Microcode Customization
 	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2019
 	- Mohammadkazem Taram, Ashish Venkat, Dean Tullsen
