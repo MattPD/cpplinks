@@ -561,6 +561,9 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 
 - ETW Central
 	- https://randomascii.wordpress.com/2015/09/24/etw-central/
+- ETW internals for security research and forensics
+	- https://blog.trailofbits.com/2023/11/22/etw-internals-for-security-research-and-forensics/
+	- https://github.com/trailofbits/WinDbg-JS/blob/main/EtwKernelRoutines.js
 - etrace: Command-line tool for ETW tracing on files and real-time events
 	- https://github.com/goldshtn/etrace
 - EtwConsumerNT
