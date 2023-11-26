@@ -114,6 +114,8 @@
 
 ### C++26: Trip Reports: 2023-11
 
+- 2023-11 Kona ISO C++ Committee Trip Report — Second C++26 meeting!
+	- https://old.reddit.com/r/cpp/comments/17vnfqq/202311_kona_iso_c_committee_trip_report_second/
 - Trip report: Autumn ISO C++ standards meeting (Kona, HI, USA)
 	- https://herbsutter.com/2023/11/11/trip-report-autumn-iso-c-standards-meeting-kona-hi-usa/
 
