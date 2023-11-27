@@ -329,10 +329,6 @@ _Books, Books Reviews_
 - Possible issues with debugging and inspecting compiler-optimized binaries
 	- 2020; William Cohen
 	- https://developers.redhat.com/blog/2020/03/13/possible-issues-with-debugging-and-inspecting-compiler-optimized-binaries/
-- Proving the Correctness of Algorithmic Debugging for Functional Programs
-	- Trends in Functional Programming (TFP) 2006
-	- Olaf Chitil, Yong Luo
-	- https://www.cs.kent.ac.uk/pubs/2007/2863/content.pdf
 - Secure Delivery of Program Properties Through Optimizing Compilation
 	- ACM International Conference on Compiler Construction (CC) 2020
 	- Son Tuan Vu, Karine Heydemann, Arnaud de Grandmaison, Albert Cohen
@@ -356,6 +352,17 @@ _Books, Books Reviews_
 	- ASPLOS 2021
 	- Giuseppe Antonio Di Luna, Davide Italiano, Luca Massarelli, Sebastian Osterlund, Cristiano Giuffrida, Leonardo Querzoni
 	- https://arxiv.org/abs/2011.13994
+
+#### Correctness: 2000-2009
+
+- Key Instructions: Solving the Code Location Problem for Optimized Code
+	- 2000 Compaq Systems Research Center Research Report 164
+	- Caroline Tice, Susan L. Graham
+	- https://www.hpl.hp.com/techreports/Compaq-DEC/SRC-RR-164.html
+- Proving the Correctness of Algorithmic Debugging for Functional Programs
+	- Trends in Functional Programming (TFP) 2006
+	- Olaf Chitil, Yong Luo
+	- https://www.cs.kent.ac.uk/pubs/2007/2863/content.pdf
 
 #### Correctness: 1990-1999
 
