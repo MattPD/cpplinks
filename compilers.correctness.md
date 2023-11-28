@@ -1108,6 +1108,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://github.com/csmith-project/csmith
 	- https://embed.cs.utah.edu/csmith/
 	- Csmith testing - http://blog.frama-c.com/index.php?pages/Csmith-testing
+- FuzzGen
+	- Generates fuzz programs using grammar.
+	- Provided grammars: C++, Java, LLVM IR, Scala.
+	- https://github.com/AzulSystems/FuzzGen
 - kscope
 	- a library which recursively generates randomized code while keeping it 100% equivalent to the original one
 	- http://ithare.com/c17-compiler-bug-hunt-very-first-results-12-bugs-reported-3-already-fixed/
