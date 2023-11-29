@@ -801,6 +801,10 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Linux Kernel Documentation
 		- ARM: https://www.kernel.org/doc/Documentation/arm/
 		- ARM64: https://www.kernel.org/doc/Documentation/arm64/
+		- silent syscall hooking on arm64 linux via patching svc handler
+			- tmp.0ut #003 - 2023-11
+			- wintermute
+			- https://tmpout.sh/3/23.html
 - macOS
 	- Apple Silicon - Apple Developer Documentation
 		- https://developer.apple.com/documentation/apple_silicon
