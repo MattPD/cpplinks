@@ -2810,6 +2810,11 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Jo Van Bulck, David Oswald, Eduard Marin, Abdulla Aldoseri, Flavio D.Garcia, Frank Piessens
 	- https://people.cs.kuleuven.be/~jo.vanbulck/ccs19-tale.pdf
 	- https://github.com/jovanbulck/0xbadc0de
+- CipherH: Automated Detection of Ciphertext Side-channel Vulnerabilities in Cryptographic Implementations
+	- USENIX Security 2023
+	- Sen Deng, Mengyuan Li, Yining Tang, Shuai Wang, Shoumeng Yan, Yinqian Zhang
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/deng-sen
+	- https://github.com/Sen-Deng/CipherH
 - How Trusted Execution Environments Fuel Research on Microarchitectural Attacks
 	- IEEE Security & Privacy 2020
 	- Michael Schwarz, Daniel Gruss
