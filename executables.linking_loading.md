@@ -254,6 +254,11 @@ See also:
 - ELF symbol interposition and RTLD_LOCAL
 	- 2022; Kyle Huey
 	- https://pernos.co/blog/interposition-rtld-local/
+- in-memory-only fd-less ELF execution (with Perl)
+	- tmp.0ut #003 - 2023-11
+	- isra
+	- https://tmpout.sh/3/10.html
+	- https://github.com/ilv/elf/blob/main/exec_elf64.pl
 - Linker limitations on 32-bit architectures
 	- 2019; Alexander E. Patrakov
 	- https://lwn.net/Articles/797303/
