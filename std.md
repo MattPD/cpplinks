@@ -118,6 +118,8 @@
 	- https://old.reddit.com/r/cpp/comments/17vnfqq/202311_kona_iso_c_committee_trip_report_second/
 - Trip report: Autumn ISO C++ standards meeting (Kona, HI, USA)
 	- https://herbsutter.com/2023/11/11/trip-report-autumn-iso-c-standards-meeting-kona-hi-usa/
+- Trip Report: Freestanding in Kona 2023
+	- https://old.reddit.com/r/cpp/comments/17v56oc/trip_report_freestanding_in_kona_2023/
 
 ### C++26: Trip Reports: 2023-06
 
