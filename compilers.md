@@ -50,6 +50,12 @@ See also:
 	- A book about compiling Racket to x86-64 assembly
 	- Jeremy G. Siek, Ryan R. Newton
 	- https://github.com/IUCompilerCourse/Essentials-of-Compilation
+	- Teaching and Learning Compilers Incrementally
+		- ICFP 2023 Tutorial
+		- Jeremy G. Siek
+		- https://www.youtube.com/watch?v=UJURb9H_q3A
+		- https://iucompilercourse.github.io/tutorial-web-page/
+		- https://icfp23.sigplan.org/details/icfp-2023-tutorials/2/Teaching-and-Learning-Compilers-Incrementally
 - GCC Wiki - List of compiler books
 	- https://gcc.gnu.org/wiki/ListOfCompilerBooks
 - Introduction to Compilers and Language Design
