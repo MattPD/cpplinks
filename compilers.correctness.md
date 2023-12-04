@@ -1347,6 +1347,10 @@ Validation: Including translation validation, equivalence checking.
 
 ## Validation: 2021
 
+- A Validated Semantics for LLVM IR
+	- 2021 Ph.D. dissertation
+	- Juneyoung Lee
+	- https://sf.snu.ac.kr/juneyoung.lee/thesis/
 - Alive2: Bounded Translation Validation for LLVM
 	- PLDI 2021
 	- Nuno P. Lopes, Juneyoung Lee, Chung-Kil Hur, Zhengyang Liu, John Regehr
