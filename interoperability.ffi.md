@@ -19,6 +19,13 @@
 		- Strange Loop 2023
 		- Amal Ahmed
 		- https://www.youtube.com/watch?v=xOInz_gt2Fg
+- Semantic Encapsulation using Linking Types
+	- ACM SIGPLAN International Workshop on Type-Driven Development (TyDe) 2023
+	- Daniel Patterson, Andrew Wagner, Amal Ahmed
+	- https://dl.acm.org/doi/10.1145/3609027.3609405
+	- https://icfp23.sigplan.org/details/tyde-2023/4/Semantic-Encapsulation-using-Linking-Types
+	- https://dbp.io/pubs/2023/lt.pdf
+	- https://www.youtube.com/watch?v=Uoj9rVFlOQs
 - Semantic Soundness for Language Interoperability
 	- PLDI 2022
 	- Daniel Patterson, Noble Mushtak, Andrew Wagner, Amal Ahmed
