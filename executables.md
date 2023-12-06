@@ -640,6 +640,10 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 - Targeting File Parsers with S2E and Kaitai Struct - targeted symbolic execution of readelf
 	- https://adrianherrera.github.io/post/kaitai-s2e/
 	- 2017; Adrian Herrera
+- Weird ELFs, or a tale of breaking parsers once again
+	- tmp.0ut #003 - 2023-11
+	- g1inko
+	- https://tmpout.sh/3/13.html
 
 ### Thread Local Storage (TLS)
 
