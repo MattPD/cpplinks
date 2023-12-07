@@ -1232,6 +1232,12 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.usenix.org/conference/usenixsecurity23/presentation/yuanyuanyuan
 	- Extended Version: https://arxiv.org/abs/2209.14952
 	- https://github.com/Yuanyuan-Yuan/CacheQL
+- From Dragondoom to Dragonstar: Side-channel Attacks and Formally Verified Implementation of WPA3 Dragonfly Handshake
+	- IEEE European Symposium on Security and Privacy (Euro S&P) 2023
+	- Daniel De Almeida Braga, Natalia Kulatova, Mohamed Sabt, Pierre-Alain Fouque, and Karthikeyan Bhargavan
+	- https://arxiv.org/abs/2307.09243
+	- https://github.com/ddealmei/dragonstar
+	- https://gitlab.inria.fr/ddealmei/artifact_dragondoom
 - Synchronization Storage Channels (S2C): Timer-less Cache Side-Channel Attacks on the Apple M1 via Hardware Synchronization Instructions
 	- USENIX Security Symposium 2023
 	- Jiyong Yu, Aishani Dutta, Trent Jaeger, David Kohlbrenner, Christopher W. Fletcher
