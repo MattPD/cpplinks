@@ -410,11 +410,15 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 		- <https://developer.arm.com/architectures/instruction-sets/intrinsics/#f:@navigationhierarchiessimdisa=[Helium]>
 	- Helium Programmer's Guide
 		- https://developer.arm.com/architectures/instruction-sets/simd-isas/helium/helium-programmers-guide
-- Making Helium
-	- Why not just add Neon? (1/4) - https://community.arm.com/arm-research/b/articles/posts/making-helium-why-not-just-add-neon
-	- Sudoku, registers and rabbits (2/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-sudoku-registers-and-rabbits
-	- Going around in circles (3/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-going-around-in-circles
-	- Bringing Amdahl's law to heel (4/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-bringing-amdahl-s-law-to-heel
+	- Making Helium
+		- Why not just add Neon? (1/4) - https://community.arm.com/arm-research/b/articles/posts/making-helium-why-not-just-add-neon
+		- Sudoku, registers and rabbits (2/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-sudoku-registers-and-rabbits
+		- Going around in circles (3/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-going-around-in-circles
+		- Bringing Amdahl's law to heel (4/4) - https://community.arm.com/developer/research/b/articles/posts/making-helium-bringing-amdahl-s-law-to-heel
+- Instruction set reference card for Arm M-profile CPUs
+	- Cliff L. Biffle
+	- https://docs.google.com/spreadsheets/d/1wzb5pbs7TSC63n5LNe4eYMe-3MTcLU-UzBjMo3VUHys/view
+	- https://hachyderm.io/@cliffle/111451749883598535
 - Profiling Firmware on Cortex-M
 	- https://interrupt.memfault.com/blog/profiling-firmware-on-cortex-m
 
