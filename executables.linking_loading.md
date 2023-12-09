@@ -650,6 +650,20 @@ See also:
 	- MUC++ 2023
 	- Ofek Shilon
 	- https://www.youtube.com/watch?v=H5VQhQ61aeo
+- How symbols work and why we need them
+	- NDC TechTown 2023
+	- Anders Schau Knatten
+	- https://www.youtube.com/watch?v=iBQo962Sx0g
+	- What symbols are, and why do we need them
+	- Why your program has three different symbol tables
+	- The difference between binding and visibility and how C/C++ linkage relates to the two
+	- Where symbols are stored and how to view them
+	- Global, local, weak, and unique symbols
+	- Allowing users to override your functions/globals
+	- How the linker handles C++ templates and inline variables
+	- Which entities need symbols and which don't
+	- Symbol tables used in static and dynamic linking
+	- Default vs hidden visibility and a useful idiom to work with these
 - Meet mergeable libraries
 	- WWDC 2023
 	- Cyndy Ishida
