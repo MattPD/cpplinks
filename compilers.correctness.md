@@ -1340,6 +1340,8 @@ Validation: Including translation validation, equivalence checking.
 	- CAV 2022: Computer Aided Verification
 	- Seongwon Bang, Seunghyeon Nam, Inwhan Chun, Ho Young Jhoo, Juneyoung Lee
 	- https://link.springer.com/chapter/10.1007/978-3-031-13188-2_19
+	- MLIR-TV: A translation validation framework for MLIR
+		- https://github.com/aqjune/mlir-tv
 - Translation Validation of Tensor Compilers
 	- 2022 PhD dissertation
 	- Basile Clément
