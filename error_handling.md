@@ -366,6 +366,10 @@
 	- https://doi.org/10.1109/ASE.2019.00029
 	- EH-Miner: Mining Error-Handling Bugs without Error Specification Input
 		- https://github.com/ZhouyangJia/EH-Miner
+- Detecting Exception Handling Bugs in C++ Programs
+	- IEEE/ACM International Conference on Software Engineering (ICSE) 2023
+	- Hao Zhang, Ji Luo, Mengze Hu, Jun Yan, Jian Zhang, Zongyan Qiu
+	- https://dl.acm.org/doi/abs/10.1109/ICSE48619.2023.00098
 - Effective Error-Specification Inference via Domain-Knowledge Expansion
 	- ESEC/FSE 2019
 	- Daniel DeFreez, Haaken Martinson Baldwin, Cindy Rubio-González, Aditya V. Thakur
