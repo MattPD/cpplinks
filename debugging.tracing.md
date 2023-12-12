@@ -380,6 +380,13 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- https://github.com/AonCyberLabs/Cexigua
 - dlinject: Inject a shared library (arbitrary code) into a live linux process, without ptrace
 	- https://github.com/DavidBuchanan314/dlinject
+- zpoline: system call hook for x86-64 Linux
+	- "replaces the syscall and sysenter instructions with `callq *%rax` and crafts a trampoline code at virtual address 0 (zero); this is why this technique is named zpoline"
+	- https://github.com/yasukata/zpoline
+	- zpoline: a system call hook mechanism based on binary rewriting
+		- USENIX ATC 2023
+		- Kenichi Yasukata, Hajime Tazaki, Pierre-Louis Aublin
+		- https://www.usenix.org/conference/atc23/presentation/yasukata
 
 ### Software: Linux - ftrace
 
