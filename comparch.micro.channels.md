@@ -614,6 +614,8 @@ See also: [Computer Architecture](comparch.md)
 	- Ileana Buhan, Lejla Batina, Yuval Yarom, Patrick Schaumont
 	- https://arxiv.org/abs/2104.08593
 	- https://eprint.iacr.org/2021/497
+	- AsiaCCS 2022
+	- https://yuval.yarom.org/pdfs/BuhanBYS22.pdf
 - Speculative Execution and Timing Predictability in an Open Source RISC-V Core
 	- IEEE Real Time Systems Symposium (RTSS) 2021
 	- Alban Gruin, Thomas Carle, Hugues Cassé, Christine Rochange
