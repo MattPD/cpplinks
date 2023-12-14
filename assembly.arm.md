@@ -43,6 +43,29 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 
 See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/master/assembly.arm.md#software-binary-analysis)
 
+### Readings: Binary Analysis: 2023
+
+- A Comprehensive Study on ARM Disassembly Tools
+	- IEEE Transactions on Software Engineering 49(4) 2023
+	- Muhui Jiang, Qinming Dai, Wenlong Zhang, Rui Chang, Yajin Zhou, Xiapu Luo, Ruoyu Wang, Yang Liu, Kui Ren
+	- https://ieeexplore.ieee.org/abstract/document/9814882
+	- https://dl.acm.org/doi/abs/10.1109/TSE.2022.3187811
+- ARMore: Pushing Love Back Into Binaries
+	- USENIX Security Symposium 2023
+	- Luca Di Bartolomeo, Hossein Moghaddas, Mathias Payer
+	- https://nebelwelt.net/files/23SEC3.pdf
+	- https://github.com/HexHive/RetroWrite
+	- "efficient, robust, and heuristic-free static binary rewriter for arbitrary aarch64 binaries that produces reassembleable assembly"
+	- "can rewrite binaries from different languages and compilers (even arbitrary hand-written assembly), both on PIC and non-PIC code, with or without symbols, including exception handling for C++ and Go binaries, and also including binaries with mixed data and text"
+- D-ARM: Disassembling ARM Binaries by Lightweight Superset Instruction Interpretation and Graph Modeling
+	- IEEE Symposium on Security and Privacy S&P 2023
+	- Yapeng Ye, Zhuo Zhang, Qingkai Shi, Yousra Aafer, Xiangyu Zhang
+	- https://ieeexplore.ieee.org/abstract/document/10179307
+	- https://qingkaishi.github.io/public_pdfs/SP23DARM.pdf
+	- https://www.youtube.com/watch?v=HFIrYXS3A8o
+
+### Readings: Binary Analysis: 2014-2022
+
 - A Retargetable Static Binary Translator for the ARM Architecture
 	- ACM Transactions on Architecture and Code Optimization, 11(2) 2014
 	- Shen, B.-Y., Hsu, W.-C., & Yang, W.
@@ -52,13 +75,6 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Muhui Jiang, Yajin Zhou, Xiapu Luo, Ruoyu Wang, Yang Liu, Kui Ren
 	- https://yajin.org/papers/issta20.pdf
 	- https://github.com/valour01/arm_disasssembler_study
-- ARMore: Pushing Love Back Into Binaries
-	- USENIX Security Symposium 2023
-	- Luca Di Bartolomeo, Hossein Moghaddas, Mathias Payer
-	- https://nebelwelt.net/files/23SEC3.pdf
-	- https://github.com/HexHive/RetroWrite
-	- "efficient, robust, and heuristic-free static binary rewriter for arbitrary aarch64 binaries that produces reassembleable assembly"
-	- "can rewrite binaries from different languages and compilers (even arbitrary hand-written assembly), both on PIC and non-PIC code, with or without symbols, including exception handling for C++ and Go binaries, and also including binaries with mixed data and text"
 - ArmWrestling: efficient binary rewriting for ARM
 	- 2021 Master's Thesis
 	- Luca Di Bartolomeo
@@ -69,12 +85,6 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Cosmin Gorgovan, Guillermo Callaghan, Mikel Luján
 	- https://doi.org/10.1145/3377555.3377895
 	- https://www.research.manchester.ac.uk/portal/files/158729354/mambo_api_cc2020_cr_authors.pdf
-- D-ARM: Disassembling ARM Binaries by Lightweight Superset Instruction Interpretation and Graph Modeling
-	- IEEE Symposium on Security and Privacy S&P 2023
-	- Yapeng Ye, Zhuo Zhang, Qingkai Shi, Yousra Aafer, Xiangyu Zhang
-	- https://ieeexplore.ieee.org/abstract/document/10179307
-	- https://qingkaishi.github.io/public_pdfs/SP23DARM.pdf
-	- https://www.youtube.com/watch?v=HFIrYXS3A8o
 - Exploiting SIMD Asymmetry in ARM-to-x86 Dynamic Binary Translation
 	- ACM Transactions on Architecture and Code Optimization (TACO) 2019
 	- Yu-Ping Liu, Ding-Yong Hong, Jan-Jan Wu, Sheng-Yu Fu, Wei-Chung Hsu
