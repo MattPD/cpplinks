@@ -539,6 +539,10 @@
 - The Check Tool Suite: Programmability, Correctness and Security Issues in Heterogeneous Multiprocessor and Mobile Systems
 	- Martonosi Research Group - http://mrmgroup.cs.princeton.edu/
 	- http://check.cs.princeton.edu/
+- The Danger of Atomic Operations
+	- 2014-2021
+	- Dmitry Vyukov, Sanjay Ghemawat, Mike Burrows, Jeffrey Yasskin, Kostya Serebryany, Hans Boehm, Ashley Hedberg
+	- https://abseil.io/docs/cpp/atomic_danger
 - Threads and memory model for C++
 	- http://hboehm.info/c++mm/
 - What every systems programmer should know about lockless concurrency
