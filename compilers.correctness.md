@@ -827,6 +827,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 ### Testing: Readings: Performance Optimization
 
+- An empirical study of optimization bugs in GCC and LLVM
+	- Journal of Systems and Software, 174:110884, 2021
+	- Zhide Zhou, Zhilei Ren, Guojun Gao, and He Jiang
+	- https://www.sciencedirect.com/science/article/abs/pii/S0164121220302740?via%3Dihub
+	- http://oscar-lab.org/paper/An%20empirical%20study%20of%20optimization%20bugs%20in%20GCC%20and%20LLVM.pdf
 - AnghaBench: A Suite with One Million Compilable C Benchmarks for Code-Size Reduction
 	- Angha Project
 		- http://cuda.dcc.ufmg.br/angha/
