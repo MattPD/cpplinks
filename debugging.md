@@ -1432,6 +1432,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Backtrace fork of Crashpad
 		- A fork of Crashpad with file attachment support and other improvements.
 		- https://github.com/backtrace-labs/crashpad
+- dump_syms: Rewrite of breakpad dump_syms tools in Rust
+	- a command-line utility for parsing the debugging information the compiler provides (whether as DWARF or STABS sections in an ELF file or as stand-alone PDB files) and writing that information back out in the Breakpad symbol file format.
+	- https://github.com/mozilla/dump_syms
 - llvm-crash-analyzer: A Tool for the Program Analysis of Corefiles
 	- designed to observe/triage the root cause of the crash
 	- as an outcome it will point to a blame function, machine instruction, and line of source code of the problematic piece of the program
