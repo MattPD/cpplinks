@@ -1241,6 +1241,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 - Tiny PE: Creating the smallest possible PE executable - http://www.phreedom.org/research/tinype/
 - Undocumented PECOFF - https://media.blackhat.com/bh-us-11/Vuksan/BH_US_11_VuksanPericin_PECOFF_WP.pdf
 - Why does a corrupted binary sometimes result in "Program too big to fit in memory"? - https://blogs.msdn.microsoft.com/oldnewthing/20060130-00/?p=32483
+- Why does the Windows Portable Executable (PE) format have separate tables for import names and import addresses?, part 1
+	- https://devblogs.microsoft.com/oldnewthing/20231129-00/?p=109077
 - Why is 0x00400000 the default base address for an executable? - https://blogs.msdn.microsoft.com/oldnewthing/20141003-00/?p=43923
 
 ## PE: Software
