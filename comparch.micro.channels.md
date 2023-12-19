@@ -633,6 +633,13 @@ See also: [Computer Architecture](comparch.md)
 
 ### Defense: Hardware Design & Verification: 2023
 
+- AutoCC: Automatic Discovery of Covert Channels in Time-Shared Hardware
+	- International Symposium on Microarchitecture (MICRO) 2023
+	- Marcelo Orenes-Vera, Hyunsung Yun, Nils Wistoff, Gernot Heiser, Luca Benini, David Wentzlaff, Margaret Martonosi
+	- https://trustworthy.systems/publications/papers/Orenes-Vera_YWHBWM_23.abstract
+	- http://parallel.princeton.edu/papers/micro23_marcelo.pdf
+	- AutoCC: Methodology that leverages FPV to automatically discover covert channels in hardware that is time-shared between processes. AutoCC operates at RTL to exhaustively examine any machine state left by a process after a context switch that creates an execution difference.
+		- https://github.com/morenes/AutoCC
 - MicroProfiler: Principled Side-Channel Mitigation through Microarchitectural Profiling
 	- IEEE European Symposium on Security and Privacy (Euro S&P) 2023
 	- Marton Bognar, Hans Winderix, Jo Van Bulck, Frank Piessens
