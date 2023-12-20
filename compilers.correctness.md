@@ -603,6 +603,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Mingyuan Wu, Minghai Lu, Heming Cui, Junjie Chen, Yuqun Zhang, Lingming Zhang
 	- https://lingming.cs.illinois.edu/publications/icse2023e.pdf
 	- https://conf.researchr.org/details/icse-2023/icse-2023-technical-track/150/JITfuzz-Coverage-guided-Fuzzing-for-JVM-Just-in-Time-Compilers
+- MLIRSmith: Random Program Generation for Fuzzing MLIR Compiler Infrastructure
+	- IEEE/ACM International Conference on Automated Software Engineering (ASE) 2023
+	- Haoyu Wang, Junjie Chen, Chuyue Xie, Shuang Liu, Zan Wang, Qingchao Shen, Yingquan Zhao
+	- https://ieeexplore.ieee.org/document/10298562
+	- https://tjusail.github.io/people/papers/MLIRSmith_CameraReady.pdf
+	- https://conf.researchr.org/details/ase-2023/ase-2023-papers/49/MLIRSmith-Random-Program-Generation-for-Fuzzing-MLIR-Compiler-Infrastructure
+	- https://github.com/Colloportus0/MLIRSmith
 - SJFuzz: Seed and Mutator Scheduling for JVM Fuzzing
 	- ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2023
 	- Mingyuan Wu, Yicheng Ouyang, Minghai Lu, Junjie Chen, Yingquan Zhao, Heming Cui, Guowei Yang, Yuqun Zhang
