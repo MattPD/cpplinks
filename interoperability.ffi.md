@@ -65,6 +65,10 @@
 	- Network and Distributed System Security Symposium (NDSS) 2022
 	- Samuel Mergendahl, Nathan Burow, Hamed Okhravi
 	- https://www.ndss-symposium.org/ndss-paper/auto-draft-259/
+- Exploiting Mixed Binaries
+	- ACM Transactions on Privacy and Security Volume 24, Issue 2, Article 7 (December 2020)
+	- Michalis Papaevripides and Elias Athanasopoulos
+	- https://dl.acm.org/doi/10.1145/3418898
 
 ## General: Software
 
