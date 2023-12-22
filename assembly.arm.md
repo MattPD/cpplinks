@@ -63,6 +63,10 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- https://ieeexplore.ieee.org/abstract/document/10179307
 	- https://qingkaishi.github.io/public_pdfs/SP23DARM.pdf
 	- https://www.youtube.com/watch?v=HFIrYXS3A8o
+- Revisiting Lightweight Compiler Provenance Recovery on ARM Binaries
+	- International Conference on Program Comprehension (ICPC) 2023 Replications and Negative Results (RENE) 2023
+	- Jason Kim, Daniel Genkin, Kevin Leach
+	- https://arxiv.org/abs/2305.03934
 
 ### Readings: Binary Analysis: 2014-2022
 
