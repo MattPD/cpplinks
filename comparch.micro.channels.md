@@ -654,6 +654,10 @@ See also: [Computer Architecture](comparch.md)
 	- ACM SIGSAC Conference on Computer and Communication Security (CCS) 2023
 	- Zilong Wang, Gideon Mohr, Klaus von Gleissenthall, Jan Reineke, Marco Guarnieri
 	- https://arxiv.org/abs/2305.06979
+- SpecVerilog: Adapting Information Flow Control for Secure Speculation
+	- 2023 ACM Conference on Computer and Communications Security (CCS)
+	- Drew Zagieboylo, Charles Sherk, Andrew C. Myers, G. Edward Suh
+	- https://www.cs.cornell.edu/andru/papers/specverilog/
 - Systematic Prevention of On-Core Timing Channels by Full Temporal Partitioning
 	- IEEE Transactions on Computers, Volume 72, Issue 5, 2023
 	- Nils Wistoff, Moritz Schneider, Frank K. Gürkaynak, Gernot Heiser, Luca Benini
