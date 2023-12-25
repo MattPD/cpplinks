@@ -1315,6 +1315,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Programming Language Implementation Summer School (PLISS) 2017; Alastair Donaldson
 	- https://www.youtube.com/watch?v=ZJUk8_k1HbY
 
+### Testing: Talks: Performance Optimization
+
+- Protecting Compiler Optimizations with Linaro Benchmarking CI
+	- Arm Tech Talk 2023
+	- Maxim Kuvyrkov
+	- https://www.youtube.com/watch?v=ydAOVJqeL5o&t=156s
+
 ---
 
 # Validation
