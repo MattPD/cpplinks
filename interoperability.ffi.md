@@ -500,6 +500,9 @@
 	- https://github.com/AndrewGaspar/corrosion
 - CXX: safe FFI between Rust and C++
 	- https://github.com/dtolnay/cxx
+- Diplomat: Experimental Rust tool for generating FFI definitions allowing other languages to call Rust code
+	- define Rust APIs to be exposed over FFI and get high-level C, C++, and JavaScript bindings automatically
+	- https://github.com/rust-diplomat/diplomat/
 - rustcxx: Using C++ from Rust made easy
 	- https://github.com/google/rustcxx
 
