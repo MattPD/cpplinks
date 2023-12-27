@@ -264,7 +264,11 @@ x86 Opcode Structure and Instruction Overview
 http://net.cs.uni-bonn.de/fileadmin/user_upload/plohmann/x86_opcode_structure_and_instruction_overview.pdf
  
 x86 oddities  
-http://x86.corkami.com 
+http://x86.corkami.com
+
+x86-cpuid.org: A machine-readable CPUID data repository and code generator  
+https://x86-cpuid.org/  
+https://gitlab.com/x86-cpuid.org/x86-cpuid-db
 
 ## OS-specific
 
