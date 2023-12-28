@@ -777,6 +777,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 #### References: Microarchitecture: Apple: M1
 
+- AArch64-Explore: Exploration of Apple CPUs
+	- https://github.com/name99-org/AArch64-Explore
 - Apple M1 CPU Microarchitectures Research by Dougall Johnson
 	- Research on the Apple M1 CPU microarchitectures (Firestorm and Icestorm), with instruction tables describing throughput, latency, and uops for most instructions, and detailed experiments and measurements.
 		- https://dougallj.github.io/applecpu/firestorm.html
