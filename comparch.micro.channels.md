@@ -2680,6 +2680,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 		- transient weird machines implemented for ARM64 and x86-64 machines using the exception, TSX, branch predictor, and branch target buffer as the transient execution primitives
 		- These weird machines can perform logic operations (e.g., OR, AND, NOT, ...) in the cache states using transient execution, and their computations are purely microarchitectural. This means that no existing deubgger or analysis tool can capture their computation states during execution.
 		- https://github.com/joeywang4/Transient-Weird-Machine
+- This is How You Lose the Transient Execution War
+	- 2023
+	- Allison Randal
+	- https://arxiv.org/abs/2309.03376
 - Zenbleed
 	- 2023; Tavis Ormandy
 	- https://lock.cmpxchg8b.com/zenbleed.html
