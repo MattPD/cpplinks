@@ -467,6 +467,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- Yingquan Zhao, Junjie Chen, Ruifeng Fu, Haojie Ye, Zan Wang
 	- https://doi.org/10.1145/3597926.3598077
 	- https://2023.issta.org/details/issta-2023-technical-papers/37/Testing-the-Compiler-for-a-New-Born-Programming-Language-An-Industrial-Case-Study-E
+- Validating JIT Compilers via Compilation Space Exploration
+	- ACM SIGOPS Symposium on Operating Systems Principles (SOSP) 2023
+	- Cong Li, Yanyan Jiang, Chang Xu, Zhendong Su
+	- https://doi.org/10.1145/3600006.3613140
+	- https://connglli.github.io/pdfs/artemis_sosp23.pdf
+	- Artemis: A JIT Compiler Fuzzer for JVMs via "Compilation Space Exploration" (CSE)/"JIT-Op Neutral Mutation" (JoNM) in "Validating JIT Compilers via Compilation Space Exploration"
+		- https://github.com/test-jitcomp/Artemis
+	- "This paper introduces the novel concept of compilation space, which facilitates the thorough validation of just-in-time (JIT) compilers in modern language virtual machines (LVMs). The compilation space, even for a single program, consists of an extensive array of JIT compilation choices, which can be cross-validated for the correctness of JIT compilation. To thoroughly explore the compilation space in a lightweight and LVM-agnostic manner, we strategically mutate test programs with JIT-relevant, yet semantics-preserving code structures to trigger diverse JIT compilation choices. We realize our technique in Artemis, a tool for the Java virtual machine (JVM). Our evaluation has led to 85 bug reports for three widely used production JVMs, namely HotSpot, OpenJ9, and the Android Runtime. Among them, 53 have already been confirmed or fixed with many being critical. It is also worth mentioning that all the reported bugs concern JIT compilers, demonstrating the clear effectiveness and strong practicability of our technique. We expect that the generality and practicability of our approach will make it broadly applicable for understanding and validating JIT compilers."
 - Vectorizing Program Ingredients for Better JVM Testing
 	- International Symposium on Software Testing and Analysis (ISSTA) 2023
 	- Tianchang Gao, Junjie Chen, Yingquan Zhao, Yuqun Zhang, Lingming Zhang
