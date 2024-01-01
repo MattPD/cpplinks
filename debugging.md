@@ -355,6 +355,11 @@ _Books, Books Reviews_
 
 #### Correctness: 2000-2009
 
+- A Practical, Robust Method for Generating Variable Range Tables
+	- CC 2001: Compiler Construction
+	- Caroline Tice, Susan L. Graham
+	- https://link.springer.com/chapter/10.1007/3-540-45306-7_8
+	- https://bitsavers.org/pdf/dec/tech_reports/SRC-RR-165.pdf
 - Key Instructions: Solving the Code Location Problem for Optimized Code
 	- 2000 Compaq Systems Research Center Research Report 164
 	- Caroline Tice, Susan L. Graham
