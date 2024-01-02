@@ -512,6 +512,10 @@
 	- OOPSLA 2023
 	- Mehmet Emre, Peter Boyland, Aesha Parekh, Ryan Schroeder, Kyle Dewey, Ben Hardekopf
 	- https://2023.splashcon.org/details/splash-2023-oopsla/20/Aliasing-Limits-on-Translating-C-to-Safe-Rust
+- LLVM CFI and Cross-Language LLVM CFI Support for Rust
+	- 2023-12-08
+	- Ramon de C Valle
+	- https://bughunters.google.com/blog/4805571163848704/llvm-cfi-and-cross-language-llvm-cfi-support-for-rust
 
 ---
 
