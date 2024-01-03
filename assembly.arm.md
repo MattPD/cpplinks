@@ -756,8 +756,6 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 			- <http://infocenter.arm.com/help/topic/com.arm.doc.den0024a/DEN0024A_v8_architecture_PG.pdf>
 	- R-Profile: The Real-Time profile - https://developer.arm.com/products/architecture/r-profile/docs
 	- M-Profile: The Microcontroller profile - https://developer.arm.com/products/architecture/m-profile/docs
-- Application Binary Interface for the Arm® Architecture
-	- https://github.com/ARM-software/abi-aa
 - ARM and Thumb-2 Instruction Set Quick Reference Card
 	- <http://infocenter.arm.com/help/topic/com.arm.doc.qrc0001m/QRC0001_UAL.pdf>
 - ARM Assembly Basics Cheatsheet - https://azeria-labs.com/assembly-basics-cheatsheet/
@@ -770,6 +768,13 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- https://www.youtube.com/watch?v=PRaJQepIf44
 	- https://xlogicx.net/ARM_Atlas.html
 - Works on ARM newsletter - https://github.com/vielmetti/worksonarm-news
+
+## References: Application Binary Interface (ABI)
+
+- Application Binary Interface for the Arm® Architecture
+	- https://github.com/ARM-software/abi-aa
+- Windows Arm64EC ABI Notes
+	- https://www.corsix.org/content/windows-arm64ec-notes
 
 ## References: Microarchitecture
 
