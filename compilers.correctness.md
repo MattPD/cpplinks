@@ -78,6 +78,9 @@ See also:
 	- Stefanos Chaliasos, Thodoris Sotiropoulos, Georrgios-Petros Drosos, Charalambos Mitropoulos, Dimitris Mitropoulos, Diomidis Spinellis
 	- https://dimitro.gr/assets/papers/CSDMMS21.pdf
 - What even is compiler correctness? - https://www.williamjbowman.com/blog/2017/03/24/what-even-is-compiler-correctness/
+- Why Do Peephole Optimizations Work?
+	- 2023; John Regehr
+	- https://blog.regehr.org/archives/2485
 - Write Your Compiler by Proving It Correct - http://liamoc.net/posts/2015-08-23-verified-compiler.html
 
 ## Debugging
