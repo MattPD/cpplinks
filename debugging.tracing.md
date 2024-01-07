@@ -161,6 +161,8 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- https://github.com/nyx-fuzz/libxdc
 - Linux perf Documentation: Intel Processor Trace
 	- https://github.com/torvalds/linux/blob/master/tools/perf/Documentation/intel-pt.txt
+- LLDB: Tracing with Intel Processor Trace
+	- https://lldb.llvm.org/use/intel_pt.html
 - magic-trace: Easy Intel Processor Trace Visualizer
 	- https://github.com/janestreet/magic-trace
 	- Magic-trace: Diagnosing tricky performance issues easily with Intel Processor Trace
