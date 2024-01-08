@@ -166,6 +166,9 @@ https://riscv.org/risc-v-books/
 		- https://fprox.substack.com/p/risc-v-vector-register-groups
 	- RISC-V Vector Element Groups
 		- https://fprox.substack.com/p/risc-v-vector-element-groups
+- RISC-V Vector Programming in C with Intrinsics
+	- 2023-11-23
+	- https://fprox.substack.com/p/risc-v-vector-programming-in-c-with
 
 ### Instruction Set Architecture: Profiles
 
