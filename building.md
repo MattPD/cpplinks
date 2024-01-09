@@ -336,6 +336,9 @@ See also:
 	- IEICE Transactions on Information and Systems 104.1 (2021)
 	- Takafumi Kubota, Kenji Kono
 	- https://doi.org/10.1587/transinf.2020EDP7105
+- Optimizing the unoptimizable: a journey to faster C++ compile times
+	- 2024-01-06; Victor Zverovich
+	- https://vitaut.net/posts/2024/faster-cpp-compile-times/
 - Physical Design of The Machinery
 	- http://ourmachinery.com/post/physical-design/
 - Precompiled headers
