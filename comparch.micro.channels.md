@@ -2642,6 +2642,14 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Andrea Mambretti, Alexandra Sandulescu, Matthias Neugschwandtner, Alessandro Sorniotti, Anil Kurmus
 	- http://ale.sopit.net/pdf/woot.pdf
 
+## Speculation: 2024
+
+- Leaky Address Masking: Exploiting Unmasked Spectre Gadgets with Noncanonical Address Translation
+	- IEEE Symposium on Security and Privacy (S&P) 2024
+	- Mathé Hertogh, Sander Wiebing, Cristiano Giuffrida
+	- https://www.vusec.net/projects/slam/
+	- https://github.com/vusec/slam
+
 ## Speculation: 2023
 
 - Downfall: Exploiting Speculative Data Gathering
