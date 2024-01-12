@@ -1140,6 +1140,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	- Pdb - extract .pdb information from a .dll/.exe debug directory (Pdb Guid, age, path to .pdb); download the .pdb from symbol server; determine if a .dll matches a .pdb; find a matching .pdb in a folder for a given .dll - https://github.com/KirillOsenkov/MetadataTools/tree/master/Pdb
 - microsoft-pdb: Information from Microsoft about the PDB format - https://github.com/Microsoft/microsoft-pdb
 - MSFViewer - viewing and understanding PDB Multi-Stream File (MSF) data - https://github.com/apoch/epoch-language/tree/master/Tools/MSFViewer
+- pdbdownload: A Python script to download PDB files associated with a Portable Executable (PE)
+	- https://github.com/p0dalirius/pdbdownload
 - pdbex: an utility for reconstructing structures and unions from the PDB into compilable C headers
 	- https://github.com/wbenny/pdbex
 - pdbinfo:  displays information about PDB symbol files (timestamp, GUID, and age) - https://github.com/randomascii/tools/tree/master/pdbinfo
