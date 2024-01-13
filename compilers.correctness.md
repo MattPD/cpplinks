@@ -574,6 +574,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 #### Testing: Readings: Fuzzing: 2023
 
+- A Survey of Modern Compiler Fuzzing
+	- 2023
+	- Haoyang Ma
+	- https://arxiv.org/abs/2306.06884
 - Finding Deep-Learning Compilation Bugs with NNSmith
 	- ASPLOS 2023
 	- Jiawei Liu, Jinkun Lin, Fabian Ruffy, Cheng Tan, Jinyang Li, Aurojit Panda, Lingming Zhang
