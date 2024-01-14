@@ -290,6 +290,16 @@
 
 ## Papers - Memory Model
 
+### Papers - Memory Model: 2024
+
+- How Hard Is Weak-Memory Testing?
+	- POPL 2024
+	- Soham Chakraborty, Shankara Narayanan Krishna, Umang Mathur, Andreas Pavlogiannis
+	- https://doi.org/10.1145/3632908
+	- https://www.comp.nus.edu.sg/~umathur/papers/rc20-rv-consistency-popl24.pdf
+	- https://popl24.sigplan.org/details/POPL-2024-popl-research-papers/68/How-Hard-is-Weak-Memory-Testing-
+	- https://arxiv.org/abs/2311.04302
+
 ### Papers - Memory Model: 2023
 
 - AtoMig: Automatically Migrating Millions Lines of Code from TSO to WMM
