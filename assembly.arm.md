@@ -581,6 +581,9 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - Security analysis of memory tagging
 	- 2020; Joe Bialek, Ken Johnson, Matt Miller, Tony Chen
 	- https://github.com/microsoft/MSRC-Security-Research/blob/master/papers/2020/Security%20analysis%20of%20memory%20tagging.pdf
+- Strengthening the Shield: MTE in Heap Allocators
+	- 2024
+	- https://www.darknavy.org/blog/strengthening_the_shield_mte_in_memory_allocators/
 
 ### Pointer Authentication (PAC)
 
