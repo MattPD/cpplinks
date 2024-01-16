@@ -2369,6 +2369,15 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 
 # Scheduler
 
+## Scheduler: 2024
+
+- Remote Scheduler Contention Attacks
+	- Financial Cryptography and Data Security 2024
+	- Stefan Gast, Jonas Juffinger, Lukas Maar, Christoph Royer, Andreas Kogler, Daniel Gruss
+	- https://stefangast.eu/papers/javasquip.pdf
+
+## Scheduler: 2023
+
 - Hacky Racers: Exploiting Instruction-Level Parallelism to Generate Stealthy Fine-Grained Timers
 	- ASPLOS 2023
 	- Haocheng Xiao, Sam Ainsworth
