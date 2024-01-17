@@ -1364,6 +1364,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - What's the Debugger Data Model? (And Why?)
 	- 2022; Tim Misiak
 	- https://www.timdbg.com/posts/whats-the-data-model/
+- What's the Target Model? (And Why?)
+	- 2022; Tim Misiak
+	- https://www.timdbg.com/posts/whats-the-target-model/
 - WinDbg automation and extensions - https://web.archive.org/https://nativecoding.wordpress.com/2016/01/10/automate-attach-to-process-on-windows-with-windbg/
 - WinDbg Malware Analysis Cheat Sheet
 	- https://web.archive.org/https://oalabs.openanalysis.net/2019/02/18/windbg-for-malware-analysis/
