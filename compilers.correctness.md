@@ -574,6 +574,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 #### Testing: Readings: Fuzzing: 2023
 
+- A Generative and Mutational Approach for Synthesizing Bug-exposing Test Cases to Guide Compiler Fuzzing
+	- ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 2023
+	- Guixin Ye, Tianmin Hu, Zhanyong Tang, Zhenye Fan, Shin Hwei Tan, Bo Zhang, Wenxiang Qian, Zheng Wang
+	- https://dl.acm.org/doi/10.1145/3611643.3616332
+	- https://eprints.whiterose.ac.uk/202769/
+	- https://zwang4.github.io/publications/fse23.pdf
+	- COMFUZZ: a compiler fuzzing framework that combines generative and mutation techniques
+		- https://github.com/NWU-NISL-Fuzzing/COMFUZZ
 - A Survey of Modern Compiler Fuzzing
 	- 2023
 	- Haoyang Ma
