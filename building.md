@@ -981,6 +981,8 @@ See also:
 	- https://www.aosabook.org/en/posa/ninja.html
 - The Success and Failure of Ninja
 	- http://neugierig.org/software/blog/2020/05/ninja.html
+- n2: revisiting Ninja
+	- https://neugierig.org/software/blog/2022/03/n2.html
 
 ## Tundra
 
