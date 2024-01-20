@@ -317,6 +317,9 @@ See also:
 - Continuous delivery: Patterns and antipatterns in the software life cycle
 	- DZone refcard #145, 2011; P. M. Duvall
 	- https://dzone.com/refcardz/continuous-delivery-patterns
+- Continuous Integration
+	- 2024-01-18; Martin Fowler
+	- https://martinfowler.com/articles/continuousIntegration.html
 - Continuous Integration: Improving Software Quality and Reducing Risk
 	- 2007; P. Duvall, S. M. Matyas, A. Glover
 	- http://www.integratebutton.com/
