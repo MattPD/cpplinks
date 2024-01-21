@@ -417,6 +417,9 @@
 	- ICOOOLPS 2023 
 	- Joannah Nanjekye, David Bremner, Aleksandar Micic
 	- https://conf.researchr.org/details/ecoop-issta-2023/ICOOOLPS-2023/4/Towards-Reliable-Memory-Management-for-Python-Native-Extensions
+- Type information for faster Python C extensions
+	- 2024-01-13; Max Bernstein
+	- https://bernsteinbear.com/blog/typed-c-extensions/
 
 ## Python: Software
 
