@@ -1877,6 +1877,15 @@ See also: [Computer Architecture](comparch.md)
 
 # GPU
 
+## GPU: 2024
+
+- GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression
+	- IEEE Symposium on Security and Privacy (S&P) 2024
+	- Yingchen Wang, Riccardo Paccagnella, Zhao Gang, Willy R. Vasquez, David Kohlbrenner, Hovav Shacham, Christopher W. Fletcher
+	- https://www.cs.utexas.edu/~hovav/
+	- https://www.hertzbleed.com/gpu.zip/
+	- https://github.com/UT-Security/gpu-zip
+
 ## GPU: 2023
 
 - Spy in the GPU-box: Covert and Side Channel Attacks on Multi-GPU Systems
