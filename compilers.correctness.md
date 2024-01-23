@@ -500,6 +500,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- Haoxin Tu, He Jiang, Zhide Zhou, Yixuan Tang, Zhilei Ren, Lei Qiao, Lingxiao Jiang
 	- https://haoxintu.github.io/files/tr-2022-draft.pdf
 	- https://github.com/haoxintu/CCOFT
+- Differential Testing of Simulation-Based VM Generators: Automatic Detection of VM Generator Semantic Gaps between Simulation and Generated VMs
+	- Pierre Misse-Chanabier, Guillermo Polito, Stéphane Ducasse, Noury Bouraqadi, Luc Fabresse, Pablo Tesone
+	- ACM Symposium On Applied Computing (SAC) 2022
+		- https://doi.org/10.1145/3477314.3507171
+	- International Conference on Software and Systems Reuse (ICSR) 2022
+		- https://doi.org/10.1007/978-3-031-08129-3_7
 - Interpreter-guided Differential JIT Compiler Unit Testing
 	- Programming Language Design and Implementation (PLDI) 2022
 	- Guillermo Polito, Stéphane Ducasse, Pablo Tesone
