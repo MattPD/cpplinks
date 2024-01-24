@@ -767,6 +767,9 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- https://developer.arm.com/docs/ddi0596/h/base-instructions-alphabetic-order
 - asm.thi.ng - baremetal ARM coding resources - http://asm.thi.ng/
 - Instruction Sets - https://developer.arm.com/products/architecture/instruction-sets
+- Jon's Arm Reference
+	- This site offers reference documentation for the AArch64 instruction set and system registers defined by the Armv8-A and Armv9-A architectures.
+	- https://arm.jonpalmisc.com/
 - The ARM Machinists Atlas
 	- https://www.youtube.com/watch?v=PRaJQepIf44
 	- https://xlogicx.net/ARM_Atlas.html
