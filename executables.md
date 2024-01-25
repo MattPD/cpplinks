@@ -30,6 +30,9 @@ Contents:
 	- https://github.com/jart/cosmopolitan
 - Comparison of executable file formats - https://en.wikipedia.org/wiki/Comparison_of_executable_file_formats
 - Executable and object file formats - https://en.wikipedia.org/wiki/Template:Executables
+- Exploring Object File Formats
+	- 2024; MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2024-01-14-exploring-object-file-formats
 - From Hack to Elaborate Technique—A Survey on Binary Rewriting
 	- ACM Computing Surveys 52(3) 2019
 	- Matthias Wenzl, Georg Merzdovnik, Johanna Ullrich, and Edgar Weippl
