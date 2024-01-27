@@ -196,6 +196,13 @@
 	- Yishen Chen, Ajay Brahmakshatriya, Charith Mendis, Alex Renda, Eric Atkinson, Ondrej Sykora, Saman Amarasinghe, Michael Carbin
 	- http://groups.csail.mit.edu/commit/papers/19/ithemal-measurement.pdf
 	- https://github.com/ithemal/bhive
+- GRANITE: A Graph Neural Network Model for Basic Block Throughput Estimation
+	- 2022 IEEE International Symposium on Workload Characterization (IISWC)
+	- Ondrej Sykora, Phitchaya Mangpo Phothilimthana, Charith Mendis, Amir Yazdanbakhsh
+	- https://arxiv.org/abs/2210.03894
+	- Gematria - machine learning for machine code
+		- Contains sources of Gematria, a framework for machine learning on machine code. It includes implementations of the GRANITE model and the Ithemal hierarchical LSTM model for learning inverse throughput of basic blocks.
+		- https://github.com/google/gematria
 - Intel Architecture Code Analyzer (IACA)
 	- https://software.intel.com/en-us/articles/intel-architecture-code-analyzer
 - ibench: Measure instruction latency and throughput
