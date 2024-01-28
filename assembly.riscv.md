@@ -170,6 +170,12 @@ https://riscv.org/risc-v-books/
 	- 2023-11-23
 	- https://fprox.substack.com/p/risc-v-vector-programming-in-c-with
 
+#### Instruction Set Architecture: Extensions: "Zfa" Standard Extension for Additional Floating-Point Instructions
+
+- Zfa: even more floating-point operations
+	- 2023-05-24
+	- https://fprox.substack.com/p/zfa-even-more-floating-point-operations
+
 ### Instruction Set Architecture: Profiles
 
 - RISC-V Profiles: Defining sets of extensions for coherent ecosystems
