@@ -30,6 +30,7 @@ See also: [Computer Architecture](comparch.md)
 - [Memory Management Unit (MMU)](#memory-management-unit-mmu)
 - [Memory Order Buffer (MOB)](#memory-order-buffer-mob)
 - [Micro-Op Cache](#micro-op-cache)
+- [Non-Volatile Memory (NVM)](#non-volatile-memory-nvm)
 - [Power](#power)
 - [Prefetch](#prefetch)
 - [Pseudo-Random Number Generator (PRNG)](#pseudo-random-number-generator-prng)
@@ -2153,6 +2154,15 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 	- https://dl.acm.org/doi/10.1145/3466752.3480079
 	- https://github.com/SNU-HPCS/UC-Check
 	- https://www.youtube.com/watch?v=1jvHDjxscoo
+
+---
+
+# Non-Volatile Memory (NVM)
+
+- Side-Channel Attacks on Optane Persistent Memory
+	- USENIX Security Symposium 2023
+	- Sihang Liu, Suraaj Kanniwadi, Martin Schwarzl, Andreas Kogler, Daniel Gruss, Samira Manabi Khan
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/liusihang
 
 ---
 
