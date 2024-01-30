@@ -1733,6 +1733,14 @@ Validation: Including translation validation, equivalence checking.
 	- Amal Ahmed
 	- http://www.ccs.neu.edu/home/amal/papers/verifcomp.pdf
 
+## Verification: 2024
+
+- Lightweight, Modular Verification for WebAssembly-to-Native Instruction Selection
+	- ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2024
+	- Alexa VanHattum, Monica Pardeshi, Chris Fallin, Adrian Sampson, and Fraser Brown
+	- https://doi.org/10.1145/3617232.3624862
+	- https://www.cs.cornell.edu/~avh/veri-isle-preprint.pdf
+
 ## Verification: 2023
 
 - CryptOpt: Verified Compilation with Randomized Program Search for Cryptographic Primitives
