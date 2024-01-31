@@ -17,7 +17,7 @@ See also:
 	- [Software: OS: Linux](#software-os-linux)
 	- [Software: OS: Windows](#software-os-windows)
 	- [Software: Performance](#software-performance)
-- [Talks](#talks): [2020](#talks-2020), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2015](#talks-2015), [2007](#talks-2007)
+- [Talks](#talks): [2024](#talks-2024), [2020](#talks-2020), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2015](#talks-2015), [2007](#talks-2007)
 
 ---
 
@@ -514,6 +514,13 @@ Fuzzing applied to software performance.
 ---
 
 # Talks
+
+## Talks: 2024
+
+- Underutilized Fuzzing Strategies for Modern Software Testing
+	- “Lunch and Learn” Presentation for Trail of Bits, 17 Jan 2024
+	- Addison Crump: PhD @ CISPA, Maintainer @ LibAFL
+	- https://www.youtube.com/watch?v=fMzeIv4U4LI
 
 ## Talks: 2020
 
