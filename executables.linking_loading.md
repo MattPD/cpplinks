@@ -124,6 +124,8 @@ See also:
 		- https://maskray.me/blog/2021-07-25-comdat-and-section-group
 	- Dependency related linker options
 		- https://maskray.me/blog/2021-06-13-dependency-related-linker-options
+	- Exploring the section layout in linker output
+		- https://maskray.me/blog/2023-12-17-exploring-the-section-layout-in-linker-output
 	- Linker notes on AArch64
 		- https://maskray.me/blog/2023-03-05-linker-notes-on-aarch64
 	- LLD and GNU linker incompatibilities
