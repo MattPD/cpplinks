@@ -808,6 +808,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 		- http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.uan0015b/
 		- https://developer.arm.com/docs/uan0015/latest/cortex-a57-software-optimization-guide-software-optimization-guide
 		- PDF: <http://infocenter.arm.com/help/topic/com.arm.doc.uan0015b/Cortex_A57_Software_Optimization_Guide_external.pdf>
+	- Cortex-A72: AArch64 for the Masses
+		- https://chipsandcheese.com/2022/03/06/arms-cortex-a72-aarch64-for-the-masses/
 
 #### References: Microarchitecture: Arm: Neoverse
 
