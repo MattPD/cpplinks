@@ -491,6 +491,10 @@ See also:
 	- IEEE International Conference on Software Testing, Verification and Validation (ICST) 2018
 	- Y. Kim, S. Hong, B. Ko, L. Phan, M. Kim
 	- http://swtv.kaist.ac.kr/publications/icst18-deminer.pdf
+- Modified condition/decision coverage (MC/DC) and compiler implementations
+	- 2024
+	- MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2024-01-28-mc-dc-and-compiler-implementations
 - Mythical Unit Test Coverage
 	- IEEE Software, Volume 35, Issue 3, May/June 2018
 	- V. Antinyan, J. Derehag, A. Sandberg, M. Staron
