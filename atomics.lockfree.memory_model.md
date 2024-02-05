@@ -231,6 +231,13 @@
 	- 2006; Eric Niebler
 	- http://www.artima.com/cppsource/threads_meeting.html
 
+## Correctness
+
+- How I Learned to Stop Worrying and Love Juggling C++ Atomics
+	- 2024
+	- https://brilliantsugar.github.io/posts/how-i-learned-to-stop-worrying-and-love-juggling-c++-atomics/
+	- Relacy, C11Tester, and Spin for testing lock-free C++ code
+
 ## Dissertations
 
 - Compiler optimisations and relaxed memory consistency models
