@@ -131,6 +131,12 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 		- https://discourse.llvm.org/t/rfc-mlir-action-tracing-and-debugging-mlir-based-compilers/68679
 	- Open MLIR Meeting 2023-02-23; Mehdi Amini
 		- https://www.youtube.com/watch?v=ayQSyekVa3c
+- OrdinalFix: Fixing Compilation Errors via Shortest-Path CFL Reachability with Attribute Checking
+	- IEEE/ACM International Conference on Automated Software Engineering (ASE) 2023
+	- Wenjie Zhang, Guancheng Wang, Junjie Chen, Yingfei Xiong, Yong Liu, Lu Zhang
+	- https://arxiv.org/abs/2309.06771
+	- https://github.com/myxxxsquared/OrdinalFix
+	- https://conf.researchr.org/details/ase-2023/ase-2023-papers/44/OrdinalFix-Fixing-Compilation-Errors-via-Shortest-Path-CFL-Reachability-with-Attribu
 - Silent Compiler Bug De-duplication via Three-Dimensional Analysis
 	- ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2023
 	- Chen Yang, Junjie Chen, Xingyu Fan, Jiajun Jiang, Jun Sun
