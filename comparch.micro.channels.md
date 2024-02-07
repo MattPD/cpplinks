@@ -2159,6 +2159,11 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 
 # Non-Volatile Memory (NVM)
 
+- NVLeak: Off-Chip Side-Channel Attacks via Non-Volatile Memory Systems
+	- USENIX Security Symposium 2023
+	- Zixuan Wang, Mohammadkazem Taram, Daniel Moghimi, Steven Swanson, Dean M. Tullsen, Jishen Zhao
+	- https://www.usenix.org/conference/usenixsecurity23/presentation/wangzixuan
+	- https://github.com/TheNetAdmin/NVLeak
 - Side-Channel Attacks on Optane Persistent Memory
 	- USENIX Security Symposium 2023
 	- Sihang Liu, Suraaj Kanniwadi, Martin Schwarzl, Andreas Kogler, Daniel Gruss, Samira Manabi Khan
