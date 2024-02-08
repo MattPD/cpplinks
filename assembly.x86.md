@@ -121,6 +121,9 @@ http://cs270assembly.tumblr.com/
 	- https://web.archive.org/web/20130810050325/http://www.altdevblogaday.com/author/alex-darby/  
 	- https://www.gamasutra.com/search/?search_text=Alex+Darby
 	- http://jahej.com/alt/2013_05_22_cc-low-level-curriculum-part-12-multiple-inheritance.html  
+- Understanding Windows x64 Assembly
+	- https://sonictk.github.io/asm_tutorial/
+	- https://github.com/sonictk/asm_tutorial
 
 NASM Assembly Language Tutorials - asmtutor.com  
 http://asmtutor.com/
