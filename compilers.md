@@ -363,6 +363,8 @@ See:
 
 - C/C++/Objective-C compiler warning flags collection and parsers
 	- https://github.com/Barro/compiler-warnings#ccobjective-c-compiler-warning-flags-collection-and-parsers
+- Compiler Options Hardening Guide for C and C++
+	- https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html
 - Compiler Warnings - Ian Lance Taylor - https://www.airs.com/blog/archives/159
 - leathers - Warning suppression library (C++) - https://github.com/ruslo/leathers
 	- Warnings list: https://github.com/ruslo/leathers/wiki/List
