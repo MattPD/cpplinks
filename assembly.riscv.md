@@ -140,6 +140,12 @@ https://riscv.org/risc-v-books/
 - RISC-V Compressed Instructions (part 1): C extension
 	- https://fprox.blogspot.com/2022/12/riscv-c-extension.html
 
+#### Instruction Set Architecture: Extensions: Cryptography
+
+- RISC-V Vector Cryptography Extensions (1/2)
+	- 2023-02-12
+	- https://fprox.substack.com/p/risc-v-vector-cryptography-extensions
+
 #### Instruction Set Architecture: Extensions: V Vector Extension
 
 - riscv-v-spec: Working draft of the proposed RISC-V V vector extension
