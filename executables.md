@@ -668,7 +668,7 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 - ELF Handling For Thread-Local Storage
 	- https://www.akkadia.org/drepper/tls.pdf
 - Thread Local Storage (ELF Thread Local Storage ABI)
-	- https://fuchsia.dev/fuchsia-src/development/threads/tls
+	- https://fuchsia.dev/fuchsia-src/development/kernel/threads/tls
 - TLS Examples
 	- https://github.com/stffrdhrn/tls-examples
 	- ELF Binaries and Relocation Entries
@@ -1091,8 +1091,8 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 ### Mach-O: Talks: 2009
 
 - Let your Mach-O fly
-- Black Hat DC 2009
-- Vincenzo Iozzo
+	- Black Hat DC 2009
+	- Vincenzo Iozzo
 	- Slides: http://www.blackhat.com/presentations/bh-dc-09/Iozzo/BlackHat-DC-09-Iozzo-Macho-on-the-fly.pdf
 	- Paper: http://www.blackhat.com/presentations/bh-dc-09/Iozzo/BlackHat-DC-09-Iozzo-let-your-mach0-fly-whitepaper.pdf
 
