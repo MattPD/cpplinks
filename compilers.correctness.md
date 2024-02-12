@@ -1380,6 +1380,8 @@ Validation: Including translation validation, equivalence checking.
 	- https://kristerw.github.io/2022/09/13/translation-validation/
 	- pysmtgcc: Some experiments with SMT solvers and GIMPLE IR
 		- https://github.com/kristerw/pysmtgcc
+	- smtgcc: an experimental implementation of translation validation for GCC
+		- https://github.com/kristerw/smtgcc
 	- Part 1: Writing a GCC plugin in Python
 		- https://kristerw.github.io/2022/10/20/gcc-python-plugin/
 	- Part 2: Verifying GCC optimizations using an SMT solver
