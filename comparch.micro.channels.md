@@ -2173,6 +2173,13 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 
 # Power
 
+## Power: 2024
+
+- IdleLeak: Exploiting Idle State Side Effects for Information Leakage
+	- NDSS 2024
+	- Fabian Rauscher, Andreas Kogler, Jonas Juffinger, Daniel Gruss
+	- https://www.ndss-symposium.org/wp-content/uploads/2024-78-paper.pdf
+
 ## Power: 2023
 
 - Collide+Power: Leaking Inaccessible Data with Software-based Power Side Channels
