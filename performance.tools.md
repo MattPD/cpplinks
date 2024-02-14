@@ -136,6 +136,10 @@
 		- 2019 LLVM Developers’ Meeting; Thierry Treyer
 		- https://www.youtube.com/watch?v=fm47XsATelI
 		- https://llvm.org/devmtg/2019-10/slides/Treyer-Memoro.pdf
+- Memory Profiling
+	- 2024; Denis Bakhvalov
+	- Introduction, Memory Usage Case Study (Heaptrack), Memory Footprint with Intel SDE, Memory Footprint Case Study, Data Locality and Reuse Distances
+	- https://easyperf.net/blog/2024/02/12/Memory-Profiling-Part1
 - memory-profiler: A memory profiler for Linux
 	- https://github.com/koute/memory-profiler
 - memtrail: A LD_PRELOAD based memory profiler and leak detector for Linux
