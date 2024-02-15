@@ -121,6 +121,15 @@ See also:
 	- Marcel Böhme, Laszlo Szekeres, Jonathan Metzman
 	- https://doi.org/10.1145/3510003.3510230
 	- https://mboehme.github.io/paper/ICSE22.pdf
+- SoK: Prudent Evaluation Practices for Fuzzing
+	- IEEE Symposium on Security and Privacy (S&P) 2024
+	- Moritz Schloegel, Nils Bars, Nico Schiller, Lukas Bernhard, Tobias Scharnowski, Addison Crump, Arash Ale Ebrahim, Nicolai Bissantz, Marius Muench, Thorsten Holz
+	- https://doi.ieeecomputersociety.org/10.1109/SP54263.2024.00137
+	- https://mschloegel.me/paper/schloegel2024sokfuzzevals.pdf
+	- Reproducible Fuzzer Evaluations
+		- https://github.com/fuzz-evaluator/
+	- Fuzzing Evaluation Guidelines
+		- https://github.com/fuzz-evaluator/guidelines
 - Statistical Evaluation of a Fuzzing Dictionary
 	- https://bshastry.github.io/2018/10/01/Evaluating-Dictionary-For-Fuzzing.html
 	- Static Program Analysis as a Fuzzing Aid
