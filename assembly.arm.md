@@ -120,6 +120,12 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ## Readings: Concurrency
 
+- An Axiomatic Basis for Computer Programming on the Relaxed Arm-A Architecture: The AxSL Logic
+	- POPL 2024
+	- Angus Hammond, Zongyuan Liu, Thibaut Pérami, Peter Sewell, Lars Birkedal, Jean Pichon-Pharabod
+	- https://doi.org/10.1145/3632863
+	- https://popl24.sigplan.org/details/POPL-2024-popl-research-papers/23/An-Axiomatic-Basis-for-Computer-Programming-on-the-Relaxed-Arm-A-Architecture-The-Ax
+	- https://github.com/logsem/AxSL
 - Arm and Lock-Free Programming
 	- 2020; Bruce Dawson
 	- https://randomascii.wordpress.com/2020/11/29/arm-and-lock-free-programming/
