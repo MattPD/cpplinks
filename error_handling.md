@@ -38,6 +38,9 @@
 	- The Lakos Rule - https://quuxplusone.github.io/blog/2018/04/25/the-lakos-rule/
 	- Data race when catching by non-const reference - https://quuxplusone.github.io/blog/2018/09/16/data-race-when-catch-by-nonconst-reference/
 	- MSVC can’t handle move-only exception types - https://quuxplusone.github.io/blog/2019/05/11/msvc-what-are-you-doing/
+- Bartlomiej Filipek
+	- Using std::expected from C++23
+		- https://www.cppstories.com/2024/expected-cpp23/
 - Boris Kolpackov
 	- Throwing Destructors - https://www.kolpackov.net/projects/c++/eh/dtor-1.xhtml
 - "Buckaroo" - Error Handling in C++ or: Why You Should Use Eithers in Favor of Exceptions and Error-codes
