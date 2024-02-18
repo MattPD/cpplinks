@@ -189,6 +189,12 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- Principles of Programming Languages (POPL) 1973
 	- F. Lockwood Morris
 	- https://dl.acm.org/citation.cfm?id=512941
+- Compiler Correctness Proofs
+	- Papers on Compiler Correctness and Related Topics - Mitchell Wand et al.
+	- https://www.ccs.neu.edu/home/wand/compiler-correctness-papers.html
+	- "Our work of the early 80's (POPL 1982, 1983; TOPLAS 1982; I&C 1983) established a flexible method for the correctness of semantics-based compilers. We spent most of the rest that decade trying to make that development more applicable. As part of a cooperative project with the Mitre Corporation, we applied this technique to prove the correctness of a compiler for PreScheme, a dialect of Scheme tailored for systems programming, as part of a verified implementation of Scheme called VLisp. This research was published as a special double issue of the journal Lisp and Symbolic Computation. At the time, this was the largest compiler-correctness project ever attempted."
+	- Research Interests
+		- https://www.ccs.neu.edu/home/wand/research.html
 - Compiler Verification: A Bibliography
 	- ACM SIGSOFT Software Engineering Notes 28(6) 2003
 	- Maulik A. Dave
