@@ -521,6 +521,13 @@ See also:
 	- https://github.com/dsw/build-interceptor
 - build-bom: Dynamically discover the commands used to create a piece of software
 	- https://github.com/travitch/build-bom
+- Compilation Database
+	- JSON Compilation Database Format Specification
+		- https://clang.llvm.org/docs/JSONCompilationDatabase.html
+	- Compilation Database Tips Documentation - Guillaume Papin "Sarcasm"
+		- https://sarcasm.github.io/notes/dev/compilation-database.html
+	- compdb: the Compilation Database Swiss Army Knife
+		- https://github.com/Sarcasm/compdb
 - TraceCode: Trace a build to find out which source files are built in a binary
 	- https://github.com/nexB/tracecode-toolkit
 	- Debug your build by tracing and reversing: stracing your build from sources to binaries
