@@ -67,6 +67,8 @@ https://riscv.org/publications/
 
 ## Readings: Performance
 
+- RISC-V Optimization Guide
+	- https://gitlab.com/riseproject/riscv-optimization-guide
 - Supporting RISC-V Performance Counters through Performance analysis tools for Linux (Perf)
 	- CARRV 2021
 	- Joao Mario Domingos, Pedro Tomas, Leonel Sousa
