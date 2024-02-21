@@ -366,6 +366,8 @@ See:
 - Compiler Options Hardening Guide for C and C++
 	- https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html
 - Compiler Warnings - Ian Lance Taylor - https://www.airs.com/blog/archives/159
+- Diagnostic flags in Clang
+	- https://clang.llvm.org/docs/DiagnosticsReference.html
 - leathers - Warning suppression library (C++) - https://github.com/ruslo/leathers
 	- Warnings list: https://github.com/ruslo/leathers/wiki/List
 - ListCppWarningOptions: A simple Perl script that prints GCC warning options you can apply to C++ code
