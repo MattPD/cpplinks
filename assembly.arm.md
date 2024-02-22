@@ -816,6 +816,11 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 		- PDF: <http://infocenter.arm.com/help/topic/com.arm.doc.uan0015b/Cortex_A57_Software_Optimization_Guide_external.pdf>
 	- Cortex-A72: AArch64 for the Masses
 		- https://chipsandcheese.com/2022/03/06/arms-cortex-a72-aarch64-for-the-masses/
+	- Cortex-A510: https://www.arm.com/products/silicon-ip-cpu/cortex-a/cortex-a510
+		- Cortex-A510: Two Kids in a Trench Coat
+			- https://chipsandcheese.com/2023/10/01/arms-cortex-a510-two-kids-in-a-trench-coat/
+		- WikiChip
+			- https://en.wikichip.org/wiki/arm_holdings/microarchitectures/cortex-a510
 
 #### References: Microarchitecture: Arm: Neoverse
 
