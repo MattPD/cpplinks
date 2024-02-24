@@ -38,6 +38,11 @@ See also:
 	- https://people.eecs.berkeley.edu/~necula/Papers/thesis.pdf
 - Compilers and Termination Revisited
 	- https://blog.regehr.org/archives/161
+- Correct by Construction Language Implementations
+	- 2021 PhD Dissertation
+	- Arjen Rouvoet
+	- https://doi.org/10.4233/uuid:f0312839-3444-41ee-9313-b07b21b59c11
+	- https://ajrouvoet.github.io/files/thesis.pdf
 - Formal Approaches to Secure Compilation: A Survey of Fully Abstract Compilation and Related Work
 	- ACM Computing Surveys (CSUR) 51(6) 2019
 	- Marco Patrignani, Amal Ahmed, Dave Clarke
