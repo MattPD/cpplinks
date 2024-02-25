@@ -256,6 +256,8 @@ _Books, Books Reviews_
 	 	- https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-1/
 	 - Part 2 - Register State and Stepping
 	 	- https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-2/
+ 	- Part 3 - Reading Memory
+	 	- https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-3/
 - Writing a Linux Debugger - Simon Brand
 	- 1\. Setup - https://blog.tartanllama.xyz/writing-a-linux-debugger-setup/
 	- 2\. Breakpoints - https://blog.tartanllama.xyz/writing-a-linux-debugger-breakpoints/
