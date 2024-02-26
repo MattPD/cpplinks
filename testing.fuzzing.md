@@ -68,6 +68,8 @@ See also:
 	- ESEC/FSE 2020
 	- Marcel Böhme, Brandon Falk
 	- https://mboehme.github.io/paper/FSE20.EmpiricalLaw.pdf
+- Testing Handbook Chapter: Fuzzing
+	- https://appsec.guide/docs/fuzzing/
 - The Art, Science, and Engineering of Fuzzing: A Survey
 	- IEEE Transactions on Software Engineering (2019)
 	- Valentin J.M. Manes, HyungSeok Han, Choongwoo Han, Sang Kil Cha, Manuel Egele, Edward J. Schwartz, Maverick Woo
