@@ -156,6 +156,11 @@
 	- enables on-demand, hierarchical profiling of objects in arbitrary C & C++ programs with no recompilation
 	- https://github.com/facebookexperimental/object-introspection
 	- https://facebookexperimental.github.io/object-introspection/
+	- Object Introspection: A C++ Memory Profiler
+		- CppCon 2023
+		- Jonathan Haslam & Aditya Sarwade
+		- https://www.youtube.com/watch?v=6IlTs8YRne0
+		- https://github.com/CppCon/CppCon2023/blob/main/Presentations/object_introspection_cppcon.pdf
 - PerfMemPlus: A Tool for Automatic Discovery of Memory Performance Problems
 	- Tool for memory performance analysis based on Linux perf.
 	- https://github.com/helchr/perfMemPlus
