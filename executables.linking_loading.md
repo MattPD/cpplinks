@@ -118,6 +118,8 @@ See also:
 - MaskRay (Fangrui Song)
 	- All about COMMON symbols
 		- https://maskray.me/blog/2022-02-06-all-about-common-symbols
+	- All about Procedure Linkage Table
+		- https://maskray.me/blog/2021-09-19-all-about-procedure-linkage-table
 	- Analysis and introspection options in linkers
 		- https://maskray.me/blog/2022-02-27-analysis-and-introspection-options-in-linkers
 	- COMDAT and section group
