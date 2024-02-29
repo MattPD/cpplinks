@@ -309,6 +309,14 @@ See also: [Computer Architecture](comparch.md)
 
 ## Defense: Cache
 
+### Defense: Cache: 2024
+
+- SpecLFB: Eliminating Cache Side Channels in Speculative Executions
+	- USENIX Security 2024
+	- Xiaoyu Cheng, Fei Tong, Hongyu Wang, Zhe Zhou, Fang Jiang, Yuxing Mao
+	- https://www.usenix.org/conference/usenixsecurity24/presentation/cheng-xiaoyu
+	- https://gitee.com/chip-security/SpecLFB
+
 ### Defense: Cache: 2023
 
 - ClepsydraCache - Preventing Cache Attacks with Time-Based Evictions
