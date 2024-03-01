@@ -609,6 +609,13 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 	- This article describes SHF_ALLOC|SHF_COMPRESSED sections in ELF and a proposed linker option --compress-sections to compress arbitrary sections.
 	- https://maskray.me/blog/2023-07-07-compressed-arbitrary-sections
 
+### ELF: Readings: Exception Frames
+
+- Linux/ELF .eh_frame from the bottom up
+	- 2024-02-13
+	- Pete Cawley
+	- https://www.corsix.org/content/elf-eh-frame
+
 ### ELF: Readings: Execution
 
 - How programs get run: ELF binaries - https://lwn.net/Articles/631631/
