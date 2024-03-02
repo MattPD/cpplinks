@@ -153,6 +153,11 @@
 			- http://crystalclearsoftware.com/2021cppcon/cpp23lib.pdf
 	- Meeting C++ 2021
 		- https://www.youtube.com/watch?v=rTVQe7zVQUw
+- C++23: An Overview of Almost All New and Updated Features
+	- CppCon 2023
+	- Marc Gregoire
+	- https://www.youtube.com/watch?v=Cttb8vMuq-Y
+	- https://github.com/CppCon/CppCon2023/blob/main/Presentations/CppCon_-_C23_An_Overview_of_Almost_All_New_and_Updated_Features.pptx
 - How C++23 changes the way we write code
 	- Timur Doumler
 	- 2022-11-18: Meeting C++ 2022
