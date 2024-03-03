@@ -482,6 +482,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://doi.org/10.1145/3597926.3604919
 	- https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2023/ISSTA-tool.pdf
 	- https://github.com/rustsmith/rustsmith
+- Testing a Formally Verified Compiler
+	- Tests and Proofs (TAP) 2023
+	- David Monniaux, Léo Gourdin, Sylvain Boulmé, Olivier Lebeltel
+	- https://hal.science/hal-04096390
 - Testing the Compiler for a New-Born Programming Language: An Industrial Case Study (Experience Paper)
 	- ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2023
 	- Yingquan Zhao, Junjie Chen, Ruifeng Fu, Haojie Ye, Zan Wang
