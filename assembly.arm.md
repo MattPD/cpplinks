@@ -821,6 +821,9 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 			- https://chipsandcheese.com/2023/10/01/arms-cortex-a510-two-kids-in-a-trench-coat/
 		- WikiChip
 			- https://en.wikichip.org/wiki/arm_holdings/microarchitectures/cortex-a510
+- Arm Cortex-X
+	- Cortex-X2: Arm Aims High
+		- https://chipsandcheese.com/2023/10/27/cortex-x2-arm-aims-high/
 
 #### References: Microarchitecture: Arm: Neoverse
 
