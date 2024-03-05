@@ -665,6 +665,9 @@ https://riscv.org/software-tools/
 - RISC-V 101 Webinar - https://info.sifive.com/risc-v-webinar
 - RISC-V ASM Tutorial Collection - Western Digital
 	- https://www.youtube.com/playlist?list=PL6noQ0vZDAdh_aGvqKvxd0brXImHXMuLY
+- RISC-V Assembler - Will Green
+	- Arithmetic
+		- https://projectf.io/posts/riscv-arithmetic/
 - RISC-V Assembly Language Programming
 	- https://github.com/johnwinans/rvalp
 	- CSCI 463: Computer Architecture and Systems Organization
