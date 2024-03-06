@@ -184,6 +184,10 @@ See also:
 - From Zero to main(): Demystifying Firmware Linker Scripts
 	- 2019; François Baldassari
 	- https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware
+- Linker Scripts in LLD and how they compare with GNU ld
+	- FOSDEM 2024
+	- Peter Smith
+	- https://fosdem.org/2024/schedule/event/fosdem-2024-2340-linker-scripts-in-lld-and-how-they-compare-with-gnu-ld/
 - The Most Thoroughly Commented Linker Script in The World (Probably)
 	- 2021; Thea "Stargirl" Flowers
 	- "a linker script for the Atmel/Microchip SAM D21 with an absolutely obscene amount of documentation"
