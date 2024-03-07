@@ -687,6 +687,13 @@
 
 ## Videos
 
+### 2024
+
+- What we learned from C++ atomics and memory model standardization
+	- The Future of Weak Memory (FOWM) 2024
+	- Hans-J. Boehm
+	- https://www.youtube.com/watch?v=Ss7gIs2-hzk
+
 ### 2023
 
 - Lock-free Micro Problems
