@@ -235,6 +235,10 @@ See also:
 	- ‹Programming› 2020
 	- Jeff Smits, Gabriël Konat, Eelco Visser
 	- https://2020.programming-conference.org/details/programming-2020-papers/16/Constructing-Hybrid-Incremental-Compilers-for-Cross-Module-Extensibility-with-an-Inte
+- Enabling Fine-Grained Incremental Builds by Making Compiler Stateful
+	- International Symposium on Code Generation and Optimization (CGO) 2024
+	- Ruobing Han, Jisheng Zhao, Hyesoon Kim
+	- https://conf.researchr.org/details/cgo-2024/cgo-2024-main-conference/27/Enabling-Fine-Grained-Incremental-Builds-by-Making-Compiler-Stateful
 - How does Google avoid clean builds?
 	- common failure modes affecting incremental builds that are often fixed by running clean builds
 	- https://jmmv.dev/2020/12/google-no-clean-builds.html
