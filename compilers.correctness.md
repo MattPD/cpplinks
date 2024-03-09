@@ -1766,6 +1766,12 @@ Validation: Including translation validation, equivalence checking.
 
 ## Verification: 2023
 
+- Cachet: A Domain-Specific Language for Trustworthy Just-In-Time Compilers
+	- PriSC 2023
+	- Michael Smith, Abhishek Sharma, John Renner, David Thien, Sorin Lerner, Fraser Brown, Hovav Shacham, Deian Stefan
+	- https://popl23.sigplan.org/details/prisc-2023-papers/10/Cachet-A-Domain-Specific-Language-for-Trustworthy-Just-In-Time-Compilers
+	- https://www.spinda.net/papers/smith-2023-cachet.pdf
+	- https://www.youtube.com/watch?v=LClrvto4U3E
 - CryptOpt: Verified Compilation with Randomized Program Search for Cryptographic Primitives
 	- PLDI 2023
 	- Joel Kuepper, Andres Erbsen, Jason Gross, Owen Conoly, Chuyue Sun, Samuel Tian, David Wu, Adam Chlipala, Chitchanok Chuengsatiansup, Daniel Genkin, Markus Wagner, Yuval Yarom
