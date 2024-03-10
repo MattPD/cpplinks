@@ -179,6 +179,13 @@ See also:
 		- https://h0mbre.github.io/Fuzzing-Like-A-Caveman-5/
 	- 6: Binary Only Snapshot Fuzzing Harness 
 		- https://h0mbre.github.io/Fuzzing-Like-A-Caveman-6/
+- Fuzzer Development
+	- 2023-2024; h0mbre
+	- the development process of a snapshot fuzzer that aims to utilize Bochs as a target execution engine
+	- Lucid: An educational Bochs-based snapshot fuzzer project
+		- https://github.com/h0mbre/Lucid
+	- 1: The Soul of a New Machine
+		- https://h0mbre.github.io/New_Fuzzer_Project/
 
 ## Readings: Practice
 
