@@ -74,6 +74,11 @@ See also:
 - Automated Program Transformation for Improving Software Quality
 	- 2019 PhD Dissertation; Rijnard van Tonder
 	- https://rijnard.com/pdfs/dissertation-rijnard.pdf
+- Clog: A Declarative Language for C Static Code Checkers
+	- CC 2024: ACM SIGPLAN International Conference on Compiler Construction
+	- Alexandru Dura, Christoph Reichenbach
+	- https://dl.acm.org/doi/10.1145/3640537.3641579
+	- https://github.com/lu-cs-sde/clog
 - How to Build Static Checking Systems Using Orders of Magnitude Less Code
 	- ASPLOS 2016
 	- Fraser Brown, Andres Nötzli, Dawson Engler
