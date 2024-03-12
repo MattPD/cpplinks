@@ -668,6 +668,8 @@ https://riscv.org/software-tools/
 - RISC-V Assembler - Will Green
 	- Arithmetic
 		- https://projectf.io/posts/riscv-arithmetic/
+	- Logical
+		- https://projectf.io/posts/riscv-logical/
 - RISC-V Assembly Language Programming
 	- https://github.com/johnwinans/rvalp
 	- CSCI 463: Computer Architecture and Systems Organization
