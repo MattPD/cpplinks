@@ -255,6 +255,10 @@
 	- USENIX Workshop on Industrial Experiences with Systems Software (WIESS) 2000
 	- Christophe de Dinechin
 	- http://www.usenix.org/events/wiess2000/dinechin.html
+- Enhancing Server Availability and Security Through Failure-Oblivious Computing
+	- OSDI 2004
+	- Martin C. Rinard, Cristian Cadar, Daniel Dumitran, Daniel M. Roy, Tudor Leu, William S. Beebee
+	- https://www.usenix.org/conference/osdi-04/enhancing-server-availability-and-security-through-failure-oblivious-computing
 - Exception Handling: Issues and a Proposed Notation
 	- Communications of the ACM (CACM) 18(12) 1975
 	- John B. Goodenough
