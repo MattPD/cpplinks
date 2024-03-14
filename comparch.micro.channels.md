@@ -2692,6 +2692,11 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 
 ## Speculation: 2024
 
+- GhostRace: Exploiting and Mitigating Speculative Race Conditions
+	- USENIX Security 2024
+	- Hany Ragab, Andrea Mambretti, Anil Kurmus, Cristiano Giuffrida
+	- https://www.vusec.net/projects/ghostrace/
+	- https://github.com/vusec/ghostrace
 - Leaky Address Masking: Exploiting Unmasked Spectre Gadgets with Noncanonical Address Translation
 	- IEEE Symposium on Security and Privacy (S&P) 2024
 	- Mathé Hertogh, Sander Wiebing, Cristiano Giuffrida
