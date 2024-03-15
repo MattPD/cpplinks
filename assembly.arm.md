@@ -602,6 +602,12 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- USENIX Security Symposium 2023
 	- Zechao Cai, Jiaxun Zhu, Wenbo Shen, Yutian Yang, Rui Chang, Yu Wang, Jinku Li, Kui Ren
 	- https://www.usenix.org/conference/usenixsecurity23/presentation/cai-zechao
+- Reverse Engineering the Customized Pointer Authentication Hardware Implementation on Apple M1
+	- Black Hat USA 2023
+	- Zechao Cai, Wenbo Shen, Yu Wang, Yutian Yang, Jiaxun Zhu Sean
+	- https://www.youtube.com/watch?v=RByIu2zjjVg
+	- https://i.blackhat.com/BH-US-23/Presentations/US-23-Zec-Apple-PAC-Four-Years-Later.pdf
+	- https://blackhat.com/us-23/briefings/schedule/#apple-pac-four-years-later-reverse-engineering-the-customized-pointer-authentication-hardware-implementation-on-apple-m-32824
 
 #### Pointer Authentication (PAC): 2022
 
