@@ -1778,6 +1778,12 @@ Validation: Including translation validation, equivalence checking.
 	- https://doi.org/10.1145/3591272
 	- https://arxiv.org/abs/2211.10665
 	- https://pldi23.sigplan.org/details/pldi-2023-pldi/53/CryptOpt-Verified-Compilation-with-Randomized-Program-Search-for-Cryptographic-Primi
+- FaJITa: Verifying Optimizations on Just-In-Time Programs
+	- PriSC 2023
+	- David Thien, Michael Smith, Evan Johnson, Sorin Lerner, Hovav Shacham, Deian Stefan, Fraser Brown
+	- https://popl23.sigplan.org/details/prisc-2023-papers/7/FaJITa-Verifying-Optimizations-on-Just-In-Time-Programs
+	- https://www.youtube.com/watch?v=e1zAWj-8mNc
+	- https://davidthien.com/assets/pdf/fajita-prisc23-paper.pdf
 - Formally Verifying Optimizations with Block Simulations
 	- 2023
 	- Léo Gourdin, Benjamin Bonneau, Sylvain Boulmé, David Monniaux, Alexandre Bérard
