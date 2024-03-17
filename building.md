@@ -532,6 +532,10 @@ See also:
 		- https://sarcasm.github.io/notes/dev/compilation-database.html
 	- compdb: the Compilation Database Swiss Army Knife
 		- https://github.com/Sarcasm/compdb
+	- Build your first Clang compilation database plugin
+		- FOSDEM 2024
+		- Pascal Jungblut
+		- https://fosdem.org/2024/schedule/event/fosdem-2024-2706-build-your-first-clang-compilation-database-plugin/
 - TraceCode: Trace a build to find out which source files are built in a binary
 	- https://github.com/nexB/tracecode-toolkit
 	- Debug your build by tracing and reversing: stracing your build from sources to binaries
