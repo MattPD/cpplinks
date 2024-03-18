@@ -670,6 +670,8 @@ https://riscv.org/software-tools/
 		- https://projectf.io/posts/riscv-arithmetic/
 	- Logical
 		- https://projectf.io/posts/riscv-logical/
+	- Shift
+		- https://projectf.io/posts/riscv-shift/
 - RISC-V Assembly Language Programming
 	- https://github.com/johnwinans/rvalp
 	- CSCI 463: Computer Architecture and Systems Organization
