@@ -949,6 +949,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- PyCon APAC/Taiwan 2015; Scott Tsai
 	- https://www.youtube.com/watch?v=oAYbt2PsKng
 	- https://docs.google.com/presentation/d/15qOKBh9FDjCeGS-xAHXZSJDS5_aoZk0Caz12FL_f294/
+- ROCgdb, GDB, and AMDGPU debugging
+	- FOSDEM 2024
+	- Lancelot SIX
+	- https://fosdem.org/2024/schedule/event/fosdem-2024-2392-rocgdb-gdb-and-amdgpu-debugging/
 - SecurityTube GDB Expert (SGDE)
 	- Walkthroughs: https://github.com/chaitanyakrishna/Securitytube-Gnu-Debugger-Expert
 	- Course Videos: http://www.securitytube.net/tags/sgde
