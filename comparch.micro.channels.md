@@ -1888,6 +1888,11 @@ See also: [Computer Architecture](comparch.md)
 
 ## GPU: 2024
 
+- Generic and Automated Drive-by GPU Cache Attacks from the Browser
+	- ACM Asia Conference on Computer and Communications Security (ASIA CCS) 2024
+	- Lukas Giner, Roland Czerny, Christoph Gruber, Fabian Rauscher, Andreas Kogler, Daniel De Almeida Braga, Daniel Gruss
+	- https://www.ginerlukas.com/gpuattacks/
+	- https://gruss.cc/files/WebGPUAttacks.pdf
 - GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression
 	- IEEE Symposium on Security and Privacy (S&P) 2024
 	- Yingchen Wang, Riccardo Paccagnella, Zhao Gang, Willy R. Vasquez, David Kohlbrenner, Hovav Shacham, Christopher W. Fletcher
