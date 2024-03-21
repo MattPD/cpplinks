@@ -15,8 +15,16 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 # Readings
 
 - A simple way to get more value from tracing
+	- 2020
+	- Dan Luu
 	- https://danluu.com/tracing-analytics/
+- All my favorite tracing tools: eBPF, QEMU, Perfetto, new ones I built and more
+	- 2023
+	- Tristan Hume
+	- https://thume.ca/2023/12/02/tracing-methods/
 - Debug your programs like they're closed source! (strace, ltrace)
+	- 2014
+	- Julia Evans
 	- https://jvns.ca/blog/2014/04/20/debug-your-programs-like-theyre-closed-source/
 - Hidden in Plain Sight
 	- ACM Queue 4(1) (2006); Bryan Cantrill
