@@ -131,6 +131,11 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 
 ### Debugging: 2023
 
+- FuzzyFlow: Leveraging Dataflow To Find and Squash Program Optimization Bugs
+	- International Conference for High Performance Computing, Networking, Storage and Analysis (SC) 2023
+	- Philipp Schaad, Timo Schneider, Tal Ben-Nun, Alexandru Calotoiu, Alexandros Nikolaos Ziogas, Torsten Hoefler
+	- https://arxiv.org/abs/2306.16178
+	- https://dl.acm.org/doi/10.1145/3581784.3613214
 - MLIR Actions: Tracing and Debugging MLIR-based Compilers
 	- RFC
 		- https://discourse.llvm.org/t/rfc-mlir-action-tracing-and-debugging-mlir-based-compilers/68679
