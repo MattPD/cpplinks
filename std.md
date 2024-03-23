@@ -112,6 +112,11 @@
 
 ## C++26: Trip Reports
 
+### C++26: Trip Reports: 2024-03 Tokyo
+
+- Trip report: Winter ISO C++ standards meeting (Tokyo, Japan)
+	- https://herbsutter.com/2024/03/22/trip-report-winter-iso-c-standards-meeting-tokyo-japan/
+
 ### C++26: Trip Reports: 2023-11
 
 - 2023-11 Kona ISO C++ Committee Trip Report — Second C++26 meeting!
