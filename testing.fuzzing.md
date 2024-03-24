@@ -50,6 +50,11 @@ See also:
 
 ## Readings: General
 
+- Automated Security Testing of Unexplored Targets Through Feedback-Guided Fuzzing
+	- 2022 PhD Dissertation
+	- Dominik Maier
+	- https://doi.org/10.14279/depositonce-17833
+	- https://docs.google.com/presentation/d/1ygq4aT02NER9D7RShMbyKeU3sPX68Z68MZF-7RqWrjs/view
 - Fuzzing: a survey
 	- Cybersecurity 2018
 	- Jun Li, Bodong Zhao and Chao Zhang
