@@ -737,6 +737,8 @@ See also:
 	- https://github.com/berenm/CMakeBuildPackage
 - cmake format: Source code formatter for cmake listfiles.
 	- https://github.com/cheshirekow/cmake_format
+- cmake-init: The missing CMake project initializer
+	- https://github.com/friendlyanon/cmake-init/
 - CMake Modules
 	- Additional CMake Modules
 		- https://github.com/bilke/cmake-modules
