@@ -2335,6 +2335,11 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 	- Till Schlüter, Amit Choudhari, Lorenz Hetterich, Leon Trampert, Hamed Nemati, Ahmad Ibrahim, Michael Schwarz, Christian Rossow, Nils Ole Tippenhauer
 	- https://github.com/scy-phy/FetchBench
 	- https://tschlueter.com/research/publications/23-fetchbench/ccs23-fetchbench.pdf
+- GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers
+	- USENIX Security 2024
+	- Boru Chen, Yingchen Wang, Pradyumna Shome, Christopher W. Fletcher, David Kohlbrenner, Riccardo Paccagnella, Daniel Genkin
+	- https://gofetch.fail/
+	- https://github.com/FPSG-UIUC/GoFetch
 
 ## Prefetch: 2022
 
