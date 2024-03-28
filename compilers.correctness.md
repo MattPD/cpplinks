@@ -1612,6 +1612,12 @@ Validation: Including translation validation, equivalence checking.
 - CakeML: A Verified Implementation of ML
 	- https://cakeml.org/
 	- https://github.com/CakeML/cakeml
+	- Cakes That Bake Cakes: Dynamic Computation in CakeML
+		- PLDI 2023
+		- Thomas Sewell, Magnus O. Myreen, Yong Kiam Tan, Ramana Kumar, Alexander Mihajlovic, Oskar Abrahamsson, Scott Owens
+		- https://doi.org/10.1145/3591266
+		- https://cakeml.org/pldi23-eval.pdf
+		- https://pldi23.sigplan.org/details/pldi-2023-pldi/47/Cakes-That-Bake-Cakes-Dynamic-Computation-in-CakeML
 	- Verified Compilation of CakeML to Multiple Machine-Code Targets
 		- Certified Programs and Proofs (CPP) 2017
 		- Anthony Fox, Magnus O. Myreen, Yong Kiam Tan, Ramana Kumar.
