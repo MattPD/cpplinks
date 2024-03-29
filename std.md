@@ -112,8 +112,10 @@
 
 ## C++26: Trip Reports
 
-### C++26: Trip Reports: 2024-03 Tokyo
+### C++26: Trip Reports: 2024-03
 
+- 2024-03 Tokyo ISO C++ Committee Trip Report — Third C++26 meeting!
+	- https://old.reddit.com/r/cpp/comments/1bloatw/202403_tokyo_iso_c_committee_trip_report_third/
 - Trip report: Winter ISO C++ standards meeting (Tokyo, Japan)
 	- https://herbsutter.com/2024/03/22/trip-report-winter-iso-c-standards-meeting-tokyo-japan/
 
