@@ -666,6 +666,7 @@ https://riscv.org/software-tools/
 - RISC-V ASM Tutorial Collection - Western Digital
 	- https://www.youtube.com/playlist?list=PL6noQ0vZDAdh_aGvqKvxd0brXImHXMuLY
 - RISC-V Assembler - Will Green
+	- https://projectf.io/tags/asm/
 	- Arithmetic
 		- https://projectf.io/posts/riscv-arithmetic/
 	- Logical
@@ -674,6 +675,8 @@ https://riscv.org/software-tools/
 		- https://projectf.io/posts/riscv-shift/
 	- Load Store
 		- https://projectf.io/posts/riscv-load-store/
+	- Branch Set
+		- https://projectf.io/posts/riscv-branch-set/
 - RISC-V Assembly Language Programming
 	- https://github.com/johnwinans/rvalp
 	- CSCI 463: Computer Architecture and Systems Organization
