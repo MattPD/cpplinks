@@ -284,6 +284,11 @@ _Books, Books Reviews_
 
 ### Correctness
 
+- Accurate Coverage Metrics for Compiler-Generated Debugging Information
+	- ACM SIGPLAN International Conference on Compiler Construction (CC) 2024
+	- J. Ryan Stinnett, Stephen Kell
+	- https://arxiv.org/abs/2402.04811
+	- https://dl.acm.org/doi/10.1145/3640537.3641578
 - Automatic Generation of Debug Headers through BlackBox Equivalence Checking
 	- International Symposium on Code Generation and Optimization (CGO) 2022
 	- Vaibhav Kiran Kurhe, Pratik Karia, Shubhani Gupta, Abhishek Rose, Sorav Bansal
