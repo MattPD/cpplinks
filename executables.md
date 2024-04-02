@@ -1253,6 +1253,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 - Tiny PE: Creating the smallest possible PE executable - http://www.phreedom.org/research/tinype/
 - Undocumented PECOFF - https://media.blackhat.com/bh-us-11/Vuksan/BH_US_11_VuksanPericin_PECOFF_WP.pdf
 - Why does a corrupted binary sometimes result in "Program too big to fit in memory"? - https://blogs.msdn.microsoft.com/oldnewthing/20060130-00/?p=32483
+- Why does the Windows Portable Executable (PE) format have both an import section and input directory?
+	- https://devblogs.microsoft.com/oldnewthing/20231201-17/?p=109090
 - Why does the Windows Portable Executable (PE) format have separate tables for import names and import addresses?
 	- part 1: https://devblogs.microsoft.com/oldnewthing/20231129-00/?p=109077
 	- part 2: https://devblogs.microsoft.com/oldnewthing/20231130-00/?p=109084
