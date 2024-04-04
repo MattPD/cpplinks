@@ -350,6 +350,9 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 
 - bpftime: Userspace eBPF runtime for fast Uprobe & Syscall Hook
 	- https://github.com/eunomia-bpf/bpftime
+- bpftop: dynamic real-time view of running eBPF programs
+	- displays the average runtime, events per second, and estimated total CPU % for each program
+	- https://github.com/Netflix/bpftop
 - BPFtrace: High-level tracing language for Linux eBPF
 	- https://github.com/iovisor/bpftrace
 	- http://www.brendangregg.com/blog/2018-10-08/dtrace-for-linux-2018.html
