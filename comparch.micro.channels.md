@@ -2760,6 +2760,11 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- 2023
 	- Allison Randal
 	- https://arxiv.org/abs/2309.03376
+- Transient execution vulnerabilities in the security context of server hardware
+	- 2023 PhD Dissertation
+	- Allison Randal
+	- https://doi.org/10.48456/tr-992
+	- https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-992.html
 - Zenbleed
 	- 2023; Tavis Ormandy
 	- https://lock.cmpxchg8b.com/zenbleed.html
