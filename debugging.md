@@ -1493,6 +1493,13 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://maskray.me/blog/2020-11-08-stack-unwinding
 - Unwind specification draft for GNU/Linux/ia64 (extends the exception ABI) - https://www.kernel.org/pub/linux/devel/gcc/unwind/
 
+## Defensive Programming
+- Libassert: The most over-engineered C++ assertion library
+	- Provides detailed information on assertion failures and decomposes assertion expressions
+	- https://github.com/jeremy-rifkin/libassert
+- Bloomberg's bsls_assert: Build-specific, runtime-configurable assertion macros
+	- https://bloomberg.github.io/bde-resources/doxygen/bde_api_prod/group__bsls__assert.html
+
 ---
 
 # Talks
