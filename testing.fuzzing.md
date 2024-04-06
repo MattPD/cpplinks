@@ -73,6 +73,12 @@ See also:
 	- ESEC/FSE 2020
 	- Marcel Böhme, Brandon Falk
 	- https://mboehme.github.io/paper/FSE20.EmpiricalLaw.pdf
+- Fuzzing in the 2020s: Novel Approaches and Solutions
+	- 2023 PhD Dissertation
+	- Andrea Fioraldi
+	- https://www.theses.fr/en/2023SORUS546
+	- https://theses.fr/2023SORUS546.pdf
+	- https://www.eurecom.fr/en/publication/7452
 - Testing Handbook Chapter: Fuzzing
 	- https://appsec.guide/docs/fuzzing/
 - The Art, Science, and Engineering of Fuzzing: A Survey
