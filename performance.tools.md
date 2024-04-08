@@ -310,6 +310,14 @@
 	- https://compilers.cs.uni-saarland.de/papers/ritter_pmevo_pldi20.pdf
 	- https://compilers.cs.uni-saarland.de/projects/portmap/
 	- https://github.com/cdl-saarland/pmevo-artifact
+- pmtestbench: Port Mapping Testbench
+	- A set of tools to infer port mappings of out-of-order CPUs from throughput microbenchmarks
+	- https://github.com/cdl-saarland/pmtestbench
+	- Explainable Port Mapping Inference with Sparse Performance Counters for AMD's Zen Architectures
+		- International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2024
+		- Fabian Ritter, Sebastian Hack
+		- https://arxiv.org/abs/2403.16063
+		- https://doi.org/10.1145/3620666.3651363
 - timing-harness: Harness for profiling arbitrary basic blocks.
 	- https://github.com/ithemal/timing-harness
 - uarch-bench: A benchmark for low-level CPU micro-architectural features
