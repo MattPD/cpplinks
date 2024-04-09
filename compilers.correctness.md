@@ -1774,6 +1774,10 @@ Validation: Including translation validation, equivalence checking.
 	- Alexa VanHattum, Monica Pardeshi, Chris Fallin, Adrian Sampson, and Fraser Brown
 	- https://doi.org/10.1145/3617232.3624862
 	- https://www.cs.cornell.edu/~avh/veri-isle-preprint.pdf
+- Verified inlining and specialisation for PureCake
+	- European Symposium on Programming (ESOP) 2024
+	- Hrutvik Kanabar, Kacper Korban, Magnus O. Myreen
+	- https://cakeml.org/esop24-inlining.pdf
 
 ## Verification: 2023
 
