@@ -1098,6 +1098,8 @@ See also: [Readings: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 - PROGRESS64: a C library of scalable functions for concurrent programs, primarily focused on networking applications
 	- https://github.com/ARM-software/progress64
+- Synchronization Benchmarks: Collection of synchronization micro-benchmarks and traces from infrastructure applications
+	- https://github.com/ARM-software/synchronization-benchmarks
 
 ## Software: Debugging, Tracing
 
