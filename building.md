@@ -45,7 +45,7 @@ See also:
 		- [MSBuild](#msbuild)
 	- [Xcode](#Xcode)
 	- [xmake](#xmake)
-- [Talks](#talks): [2021](#2021), [2019](#2019), [2018](#2018), [2017](#2017)
+- [Talks](#talks): [2023](#2023), [2021](#2021), [2019](#2019), [2018](#2018), [2017](#2017)
 
 ---
 
@@ -1083,6 +1083,14 @@ See also:
 ---
 
 # Talks
+
+## 2023
+
+- CMake Successor Build Systems: A World Tour of Build Systems Towards Better C++ Builds
+	- CppCon 2023
+	- Damien Buhl & Antonio Di Stefano
+	- https://www.youtube.com/watch?v=Sh3uayB9kHs
+	- https://github.com/CppCon/CppCon2023/blob/main/Presentations/CMake_Successor_Build_Systems.pdf
 
 ## 2021
 
