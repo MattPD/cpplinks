@@ -2707,6 +2707,11 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Hany Ragab, Andrea Mambretti, Anil Kurmus, Cristiano Giuffrida
 	- https://www.vusec.net/projects/ghostrace/
 	- https://github.com/vusec/ghostrace
+- InSpectre Gadget: Inspecting the Residual Attack Surface of Cross-privilege Spectre v2
+	- USENIX Security 2024
+	- Sander Wiebing, Alvise de Faveri Tron, Herbert Bos, Cristiano Giuffrida
+	- https://www.vusec.net/projects/native-bhi/
+	- https://download.vusec.net/papers/inspectre_sec24.pdf
 - Leaky Address Masking: Exploiting Unmasked Spectre Gadgets with Noncanonical Address Translation
 	- IEEE Symposium on Security and Privacy (S&P) 2024
 	- Mathé Hertogh, Sander Wiebing, Cristiano Giuffrida
