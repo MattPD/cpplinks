@@ -197,6 +197,8 @@ See also:
 		- https://github.com/h0mbre/Lucid
 	- 1: The Soul of a New Machine
 		- https://h0mbre.github.io/New_Fuzzer_Project/
+	- 2: Sandboxing Syscalls
+		- https://h0mbre.github.io/Lucid_Context_Switching/
 
 ## Readings: Practice
 
