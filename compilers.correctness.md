@@ -673,6 +673,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- SJFuzz: Scheduling for JVM Fuzzing
 		- Discrepancy-driven JVM Fuzzing
 		- https://github.com/fuzzy000/SJFuzz
+- TorchProbe: Fuzzing Dynamic Deep Learning Compilers
+	- APLAS 2023: Asian Symposium on Programming Languages and Systems
+	- Qidong Su, Chuqin Geng, Gennady Pekhimenko, Xujie Si
+	- https://arxiv.org/abs/2310.20078
+	- https://link.springer.com/chapter/10.1007/978-981-99-8311-7_15
 
 #### Testing: Readings: Fuzzing: 2022
 
