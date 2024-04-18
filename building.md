@@ -758,6 +758,8 @@ See also:
 	- https://github.com/slurps-mad-rips/ixm
 - package-example: CMake: config mode of find_package command
 	- https://github.com/forexample/package-example
+- sanitizers-cmake: CMake module to enable sanitizers for binary targets
+	- https://github.com/arsenm/sanitizers-cmake
 - ucm - useful cmake macros
 	- https://github.com/onqtam/ucm
 
