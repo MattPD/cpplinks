@@ -562,6 +562,10 @@ See also:
 		- Rui Ueyama
 		- https://www.youtube.com/watch?v=hAt3kCalE0Y
 		- https://easybuild.io/tech-talks/006_mold.html
+	- Can the mold linker be /usr/bin/ld?
+		- FOSDEM 2024
+		- Rui Ueyama
+		- https://fosdem.org/2024/schedule/event/fosdem-2024-2606-can-the-mold-linker-be-usr-bin-ld-/
 
 ## Software: OS: macOS
 
