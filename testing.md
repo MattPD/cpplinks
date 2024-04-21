@@ -1069,6 +1069,10 @@ Test Doubles: Faking, Mocking
 - Google Mock: The Google C++ mocking framework
 	- https://github.com/google/googletest/tree/master/googlemock
 	- https://github.com/google/googletest/tree/master/googlemock/docs
+	- Writing Expressive Tests with Google Test and Google Mock
+		- Utah C++ Programmers 2024
+		- Richard Thomson
+		- https://www.youtube.com/watch?v=ahIwK64BwcY
 - GUnit.GMock
 	- GoogleMock without writing and maintaining mocks by hand
 	- https://github.com/cpp-testing/GUnit/blob/master/docs/GMock.md
