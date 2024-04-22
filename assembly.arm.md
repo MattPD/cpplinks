@@ -885,6 +885,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ### Neon
 
+- Arm Neon Intrinsics Reference
+	- https://arm-software.github.io/acle/neon_intrinsics/advsimd.html
 - Neon – Arm Developer
 	- https://developer.arm.com/architectures/instruction-sets/simd-isas/neon
 	- Neon Programmer's Guide for Armv8-A
