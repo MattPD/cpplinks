@@ -58,6 +58,14 @@ See also: [Computer Architecture](comparch.md)
 	- Biswabandan Panda
 	- https://www.cse.iitk.ac.in/users/biswap/SMS.html
 
+## General: 2024
+
+- Testing Side-Channel Security of Cryptographic Implementations against Future Microarchitectures
+	- ACM Conference on Computer and Communications Security (CCS) 2024
+	- Gilles Barthe, Marcel Böhme, Sunjay Cauligi, Chitchanok Chuengsatiansup, Daniel Genkin, Marco Guarnieri, David Mateos Romero, Peter Schwabe, David Wu, Yuval Yarom
+	- https://arxiv.org/abs/2402.00641
+	- https://github.com/hw-sw-contracts/leakage-model-testing
+
 ## General: 2023
 
 - Adaptive Microarchitectural Optimizations to Improve Performance and Security of Multi-Core Architectures
