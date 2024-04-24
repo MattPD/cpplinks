@@ -199,6 +199,8 @@ See also:
 		- https://h0mbre.github.io/New_Fuzzer_Project/
 	- 2: Sandboxing Syscalls
 		- https://h0mbre.github.io/Lucid_Context_Switching/
+	- 3: Building Bochs, MMU, and File I/O
+		- https://h0mbre.github.io/Loading_Bochs/
 
 ## Readings: Practice
 
