@@ -546,6 +546,8 @@
 - Swift for C++ Practitioners
 	- Part 1: Intro & Value Types
 		- https://www.douggregor.net/posts/swift-for-cxx-practitioners-value-types/
+	- Part 2: Reference Types & Optionals
+		- https://www.douggregor.net/posts/swift-for-cxx-practitioners-reference-types/
 - Vision Documents
 	- Using C++ from Swift
 		- https://github.com/apple/swift-evolution/blob/main/visions/using-c%2B%2B-from-swift.md
