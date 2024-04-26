@@ -177,11 +177,14 @@ https://riscv.org/risc-v-books/
 - RISC-V Vector Programming in C with Intrinsics
 	- 2023-11-23
 	- https://fprox.substack.com/p/risc-v-vector-programming-in-c-with
+- Implementing Softmax using RISC-V Vector
+	- Quick and dirty method to implement a vectorized non-linear function using RVV
+	- 2024-02-12
+	- https://fprox.substack.com/p/implementing-softmax-using-risc-v
 - Transposing a Matrix using RISC-V Vector
 	- Survey of basic techniques to transform matrix layouts using RVV
 	- 2024-01-09
 	- https://fprox.substack.com/p/transposing-a-matrix-using-risc-v
-
 
 #### Instruction Set Architecture: Extensions: "Zfa" Standard Extension for Additional Floating-Point Instructions
 
