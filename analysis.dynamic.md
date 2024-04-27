@@ -465,6 +465,16 @@ See also:
 		- Konstantin Serebryany, Alexander Potapenko, Timur Iskhodzhanov, Dmitry Vyukov
 		- https://research.google/pubs/pub37278/
 
+##### Software: Sanitizers: Readings: Research: 2024
+
+- GiantSan: Efficient Memory Sanitization with Segment Fold
+	- ACM Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2024
+	- Hao Ling, Heqing Huang, Chengpeng Wang, Yuandao Cai, Charles Zhang
+	- https://dl.acm.org/doi/10.1145/3620665.3640391
+	- https://5hadowblad3.github.io/files/asplos24-GiantSan.pdf
+	- https://github.com/5hadowblad3/GiantSan-Artifact
+	- https://github.com/AceSrc/GiantSan-Artifact
+
 ##### Software: Sanitizers: Readings: Research: 2023
 
 - ASanity: On Bug Shadowing by Early ASan Exits
