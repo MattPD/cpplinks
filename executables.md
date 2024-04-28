@@ -455,6 +455,8 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 	- https://github.com/tmpout/awesome-elf
 	- https://tmpout.sh/2/15.html
 - ELF101 a Linux executable walkthrough - https://speakerdeck.com/ange/booklet-elf101-a-linux-executable-walkthrough
+- ELF Format Cheatsheet
+	- https://gist.github.com/x0nu11byt3/bcb35c3de461e5fb66173071a2379779
 - Executable and Linkable Format: format specification - https://formats.kaitai.io/elf/
 - Learning Linux Binary Analysis (2016) - Ryan O'Neill - http://www.bitlackeys.org/#research
 - linux-re-101
