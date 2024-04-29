@@ -739,6 +739,8 @@ See also:
 	- https://github.com/cheshirekow/cmake_format
 - cmake-init: The missing CMake project initializer
 	- https://github.com/friendlyanon/cmake-init/
+- cmake-tipi-provider: Automatic build caching and SBOM generation for CMake FetchContent
+	- https://github.com/tipi-build/cmake-tipi-provider
 - CMake Modules
 	- Additional CMake Modules
 		- https://github.com/bilke/cmake-modules
