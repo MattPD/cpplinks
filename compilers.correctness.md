@@ -43,6 +43,11 @@ See also:
 	- Arjen Rouvoet
 	- https://doi.org/10.4233/uuid:f0312839-3444-41ee-9313-b07b21b59c11
 	- https://ajrouvoet.github.io/files/thesis.pdf
+- Defect Categorization in Compilers: A Multi-vocal Literature Review
+	- ACM Computing Surveys (CSUR) 56(4):104 2024
+	- Akond Rahman, Dibyendu Brinto Bose, Farhat Lamia Barsha, Rahul Pandita
+	- https://dl.acm.org/doi/10.1145/3626313
+	- https://akondrahman.github.io/files/papers/csur2024.pdf
 - Formal Approaches to Secure Compilation: A Survey of Fully Abstract Compilation and Related Work
 	- ACM Computing Surveys (CSUR) 51(6) 2019
 	- Marco Patrignani, Amal Ahmed, Dave Clarke
