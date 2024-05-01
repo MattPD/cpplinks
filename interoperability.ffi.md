@@ -548,6 +548,8 @@
 		- https://www.douggregor.net/posts/swift-for-cxx-practitioners-value-types/
 	- Part 2: Reference Types & Optionals
 		- https://www.douggregor.net/posts/swift-for-cxx-practitioners-reference-types/
+	- Part 3: Extensions and Access Control
+		- https://www.douggregor.net/posts/swift-for-cxx-practitioners-extensions/
 - Vision Documents
 	- Using C++ from Swift
 		- https://github.com/apple/swift-evolution/blob/main/visions/using-c%2B%2B-from-swift.md
