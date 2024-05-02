@@ -319,6 +319,10 @@ See also: [Computer Architecture](comparch.md)
 
 ### Defense: Cache: 2024
 
+- Evict+Spec+Time: Exploiting Out-of-Order Execution to Improve Cache-Timing Attacks
+	- TCHES 2024(3) 2024
+	- Shing Hing William Cheng, Chitchanok Chuengsatiansup, Daniel Genkin, Dallas McNeil, Toby Murray, Yuval Yarom, Zhiyuan Zhang
+	- https://eprint.iacr.org/2024/149
 - SpecLFB: Eliminating Cache Side Channels in Speculative Executions
 	- USENIX Security 2024
 	- Xiaoyu Cheng, Fei Tong, Hongyu Wang, Zhe Zhou, Fang Jiang, Yuxing Mao
