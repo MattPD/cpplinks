@@ -364,6 +364,11 @@ _Books, Books Reviews_
 
 #### Correctness: 2000-2009
 
+- A Fully-Non-transparent Solution to the Code Location Problem
+	- International Workshop on Software and Compilers for Embedded Systems (SCOPES) 2008
+	- Hugo Venturini
+	- https://doi.org/10.1145/1361096.1361108
+	- https://scopesconf.org/scopes-08/presentations/13_slides.pdf
 - A Practical, Robust Method for Generating Variable Range Tables
 	- CC 2001: Compiler Construction
 	- Caroline Tice, Susan L. Graham
