@@ -128,6 +128,8 @@ See also:
 		- https://maskray.me/blog/2021-06-13-dependency-related-linker-options
 	- Exploring the section layout in linker output
 		- https://maskray.me/blog/2023-12-17-exploring-the-section-layout-in-linker-output
+	- GNU indirect function (ifunc)
+		- https://maskray.me/blog/2021-01-18-gnu-indirect-function
 	- Linker notes on AArch64
 		- https://maskray.me/blog/2023-03-05-linker-notes-on-aarch64
 	- LLD and GNU linker incompatibilities
