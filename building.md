@@ -746,6 +746,9 @@ See also:
 		- https://github.com/bilke/cmake-modules
 	- Ryan's CMake Modules
 		- https://github.com/rpavlik/cmake-modules
+- CMake SBOM generation: Guided SBOM generation from CMake
+	- CMake module that helps generating (Produce (Build)) an NTIA-compliant Software Bill of Materials (SBOM) in SPDX for an arbitrary CMake project
+	- https://github.com/DEMCON/cmake-sbom
 - cmany: CMake build tree batching tool
 	- https://github.com/biojppm/cmany
 - configure-cmake: autotools-style configure script wrapper around CMake
