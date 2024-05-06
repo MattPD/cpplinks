@@ -987,6 +987,16 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- slides: https://nebelwelt.net/publications/files/15LangSec-presentation.pdf
 	- talk: https://www.youtube.com/watch?v=g6LCtHz_MDc&list=PL0pRF4xvoD0kuECJuowraVIIHlT3pN1Cm&index=3
 
+#### Testing: Readings: Performance Optimization: 2024
+
+- Beyond a Joke: Dead Code Elimination Can Delete Live Code
+	- ICSE 2024
+	- Haoxin Tu, Lingxiao Jiang, Debin Gao, He Jiang
+	- https://conf.researchr.org/details/icse-2024/icse-2024-new-ideas-and-emerging-results/6/Beyond-a-Joke-Dead-Code-Elimination-Can-Delete-Live-Code
+	- https://haoxintu.github.io/files/icse2024-nier-camera-ready.pdf
+	- https://github.com/AnonyGiit/Xdead
+	- https://github.com/haoxintu/Xdead
+
 #### Testing: Readings: Performance Optimization: 2023
 
 - Diagnosing Compiler Performance by Comparing Optimization Decisions
