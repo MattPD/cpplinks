@@ -861,6 +861,9 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 	- https://github.com/Shizmob/smol
 	- Intricacies of sizecoding on Linux - Revision 2019 Seminar
 		- https://www.youtube.com/watch?v=a03HXo8a_Io
+- sqlelf: Explore ELF objects through the power of SQL
+	- A tool that utilizes SQLite's virtual table functionality to allow you to explore Linux ELF objects through SQL
+	- https://github.com/fzakaria/sqlelf
 - Stasis: build static position-independant-executables without any runtime requirements (no libc or ldso)
 	- https://github.com/korhalio/stasis
 - syms2elf: a plugin to export the symbols recognized to the ELF symbol table
