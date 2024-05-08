@@ -1203,6 +1203,14 @@ See also: [Computer Architecture](comparch.md)
 	- https://dl.acm.org/citation.cfm?id=2870636
 	- http://www.cs.wm.edu/~dmitry/assets/files/taco-a10-evtyushkin.pdf
 
+## Branch Predictor: 2024
+
+- Pathfinder: High-Resolution Control-Flow Attacks Exploiting the Conditional Branch Predictor
+	- ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2024
+	- Hosein Yavarzadeh, Archit Agarwal, Max Christman, Christina Garman, Daniel Genkin, Andrew Kwong, Daniel Moghimi, Deian Stefan, Kazem Taram, Dean Tullsen
+	- https://dl.acm.org/doi/10.1145/3620666.3651382
+	- https://pathfinder.cpusec.org/
+
 ## Branch Predictor: 2023
 
 - All your PC are belong to us: Exploiting Non-control-transfer Instruction BTB Updates for Dynamic PC Extraction
