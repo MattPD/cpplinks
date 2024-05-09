@@ -685,6 +685,8 @@ https://riscv.org/software-tools/
 		- https://projectf.io/posts/riscv-load-store/
 	- Branch Set
 		- https://projectf.io/posts/riscv-branch-set/
+	- Jump and Function
+		- https://projectf.io/posts/riscv-jump-function/
 - RISC-V Assembly Language Programming
 	- https://github.com/johnwinans/rvalp
 	- CSCI 463: Computer Architecture and Systems Organization
