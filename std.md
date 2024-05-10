@@ -110,6 +110,13 @@
 
 # C++26
 
+## C++26: Talks
+
+- What’s New in C++26
+	- April 2024 C++ Meetup @ Google
+	- Alexander Fokin
+	- https://www.youtube.com/watch?v=FqzrQf6Xr8g
+
 ## C++26: Trip Reports
 
 ### C++26: Trip Reports: 2024-03
