@@ -235,6 +235,11 @@ See also:
 	- ‹Programming› 2020
 	- Jeff Smits, Gabriël Konat, Eelco Visser
 	- https://2020.programming-conference.org/details/programming-2020-papers/16/Constructing-Hybrid-Incremental-Compilers-for-Cross-Module-Extensibility-with-an-Inte
+- Detecting Build Dependency Errors in Incremental Builds
+	- International Symposium on Software Testing and Analysis (ISSTA) 2024
+	- Jun Lyu, Shanshan Li, He Zhang, Yang Zhang, Guoping Rong, Manuel Rigger
+	- https://doi.org/10.1145/3650212.3652105
+	- https://arxiv.org/abs/2404.13295
 - Enabling Fine-Grained Incremental Builds by Making Compiler Stateful
 	- International Symposium on Code Generation and Optimization (CGO) 2024
 	- Ruobing Han, Jisheng Zhao, Hyesoon Kim
