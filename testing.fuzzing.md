@@ -79,6 +79,11 @@ See also:
 	- https://www.theses.fr/en/2023SORUS546
 	- https://theses.fr/2023SORUS546.pdf
 	- https://www.eurecom.fr/en/publication/7452
+- SoK: Where to Fuzz? Assessing Target Selection Methods in Directed Fuzzing
+	- ACM Asia Conference on Computer and Communications Security (ASIACCS) 2024
+	- Felix Weißberg, Jonas Möller, Tom Ganz, Erik Imgrund, Lukas Pirch, Lukas Seidel, Moritz Schloegel, Thorsten Eisenhofer, Konrad Rieck
+	- https://doi.org/10.1145/3634737.3661141
+	- https://mlsec.org/docs/2024c-asiaccs.pdf
 - Testing Handbook Chapter: Fuzzing
 	- https://appsec.guide/docs/fuzzing/
 - The Art, Science, and Engineering of Fuzzing: A Survey
@@ -93,7 +98,7 @@ See also:
 	- IEEE Security & Privacy, 17(1) 2019
 	- Mathias Payer
 	- https://ieeexplore.ieee.org/document/8674043
-
+- 
 ## Readings: Embedded
 
 - Fuzzing Embedded Systems Using Debug Interfaces
