@@ -77,6 +77,12 @@ See also: [computer architecture](comparch.md)
 - CUDA C Best Practices Guide - http://docs.nvidia.com/cuda/cuda-c-best-practices-guide/
 - CUDA Toolkit Documentation - http://docs.nvidia.com/cuda/
 
+## CUDA: Readings
+
+- How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog
+	- 2022; Simon Boehm
+	- https://siboehm.com/articles/22/CUDA-MMM
+
 ## CUDA: Software
 
 - NVBench: CUDA Kernel Benchmarking Library
