@@ -1971,6 +1971,10 @@ Validation: Including translation validation, equivalence checking.
 	- Sandrine Blazy
 	- https://www.youtube.com/watch?v=9KhagyiGQ_A
 	- https://popl23.sigplan.org/details/CPP-2023-papers/26/CompCert-a-journey-through-the-landscape-of-mechanized-semantics-for-verified-compil
+- How Badly Do We Want Correct Compilers?
+	- NDC TechTown 2023
+	- John Regehr
+	- https://www.youtube.com/watch?v=tMYYrR-hazI
 - Verifying optimizations using SMT solvers
 	- 2013 LLVM Developers’ Meeting; Nuno Lopes
 	- https://www.youtube.com/watch?v=njav5YxXaCs
