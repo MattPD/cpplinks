@@ -862,6 +862,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Apple Silicon - Apple Developer Documentation
 		- https://developer.apple.com/documentation/apple_silicon
 - Windows
+	- Windows on Arm
+		- https://learn.microsoft.com/en-us/windows/arm/overview
 	- System call dispatching on Windows ARM64
 		- https://gracefulbits.wordpress.com/2018/07/26/system-call-dispatching-for-windows-on-arm64/
 
