@@ -442,6 +442,9 @@ See also:
 	- Dokyung Song, Julian Lettner, Prabhu Rajasekaran, Yeoul Na, Stijn Volckaert, Per Larsen, Michael Franz
 	- https://ieeexplore.ieee.org/document/8835294
 	- https://github.com/securesystemslab/sanitizing-for-security-benchmarks
+- Understanding AddressSanitizer: Better memory safety for your code
+	- 2024; Dominik Klemba, Dominik Czarnota
+	- https://blog.trailofbits.com/2024/05/16/understanding-addresssanitizer-better-memory-safety-for-your-code/
 
 #### Software: Sanitizers: Readings: Research
 
