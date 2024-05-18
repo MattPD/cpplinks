@@ -127,6 +127,8 @@
 	- https://www.think-cell.com/en/career/devblog/trip-report-spring-iso-cpp-meeting-in-tokyo-japan
 - Trip report: Winter ISO C++ standards meeting (Tokyo, Japan)
 	- https://herbsutter.com/2024/03/22/trip-report-winter-iso-c-standards-meeting-tokyo-japan/
+- Trip Report: Winter ISO C++ Standards Meeting in Tokyo
+	- https://blog.developer.adobe.com/trip-report-winter-iso-c-standards-meeting-6d38b5bcec54
 
 ### C++26: Trip Reports: 2023-11
 
