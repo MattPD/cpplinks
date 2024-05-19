@@ -1498,7 +1498,12 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Stack unwinding
 	- MaskRay (Fangrui Song)
 	- https://maskray.me/blog/2020-11-08-stack-unwinding
-- Unwind specification draft for GNU/Linux/ia64 (extends the exception ABI) - https://www.kernel.org/pub/linux/devel/gcc/unwind/
+- Unwind specification draft for GNU/Linux/ia64 (extends the exception ABI)
+	- https://www.kernel.org/pub/linux/devel/gcc/unwind/
+- Unwinding the stack the hard way
+	- 2023; Kévin Lesénéchal
+	- Tutorial on how to make a stack trace or backtrace manually unwinding the stack using ELF’s .eh_frame and call frame information (CFI)
+	- https://lesenechal.fr/en/linux/unwinding-the-stack-the-hard-way
 
 ---
 
