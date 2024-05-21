@@ -463,6 +463,16 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 - The problem with differential testing is that at least one of the compilers must get it right
 	- http://blog.frama-c.com/index.php?post/2013/09/25/The-problem-with-differential-testing-is-that-at-least-one-of-the-compilers-must-get-it-right
 
+### Testing: Readings: 2024
+
+- Characterizing and Detecting WebAssembly Runtime Bugs
+	- ACM Transactions on Software Engineering and Methodology 33(2) 2024
+	- Yixuan Zhang, Shangtong Cao, Haoyu Wang, Zhenpeng Chen, Xiapu Luo, Dongliang Mu, Yun Ma, Gang Huang, Xuanzhe Liu
+	- https://arxiv.org/abs/2301.12102
+	- https://dl.acm.org/doi/10.1145/3624743
+	- https://discovery.ucl.ac.uk/id/eprint/10176723
+	- https://github.com/bnmcxlzd/TOSEM2023_Complementary_materials
+
 ### Testing: Readings: 2023
 
 - Feature-Sensitive Coverage for Conformance Testing of Programming Language Implementations
