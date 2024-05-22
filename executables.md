@@ -61,6 +61,13 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 
 ## General: Software
 
+- Assemblage: A dataset (and tool for building) binary executable corpuses
+	- Assemblage is both a dataset (of x86-64 ELF and Windows PE executables) and a cloud-based distributed system for building large, diverse, corpuses of binaries.
+	- https://assemblage-dataset.net/
+	- Assemblage: Automatic Binary Dataset Construction for Machine Learning
+		- 2024
+		- Chang Liu, Rebecca Saul, Yihao Sun, Edward Raff, Maya Fuchs, Townsend Southard Pantano, James Holt, Kristopher Micinski
+		- https://arxiv.org/abs/2405.03991
 - Backdoor Factory (BDF): patch PE, ELF, Mach-O binaries with shellcode - https://github.com/secretsquirrel/the-backdoor-factory
 - Binary2Groundtruth: Generates a ground truth map of a binary with the help of debug symbols
 	- Supports PE and ELF binaries.
