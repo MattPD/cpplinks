@@ -587,6 +587,13 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - Security analysis of memory tagging
 	- 2020; Joe Bialek, Ken Johnson, Matt Miller, Tony Chen
 	- https://github.com/microsoft/MSRC-Security-Research/blob/master/papers/2020/Security%20analysis%20of%20memory%20tagging.pdf
+- Sticky Tags: Efficient and Deterministic Spatial Memory Error Mitigation using Persistent Memory Tags
+	- IEEE Symposium on Security and Privacy (S&P) 2024
+	- Floris Gorter, Taddeus Kroes, Herbert Bos, Cristiano Giuffrida
+	- https://doi.ieeecomputersociety.org/10.1109/SP54263.2024.00182
+	- https://www.vusec.net/projects/stickytags/
+	- Arm Memory Tagging Extension: Security Update
+		- https://developer.arm.com/Arm%20Security%20Center/Arm%20Memory%20Tagging%20Extension
 - Strengthening the Shield: MTE in Heap Allocators
 	- 2024
 	- https://www.darknavy.org/blog/strengthening_the_shield_mte_in_memory_allocators/
