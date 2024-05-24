@@ -687,6 +687,8 @@ https://riscv.org/software-tools/
 		- https://projectf.io/posts/riscv-branch-set/
 	- Jump and Function
 		- https://projectf.io/posts/riscv-jump-function/
+	- Multiply Divide
+		- https://projectf.io/posts/riscv-multiply-divide/
 - RISC-V Assembly Language Programming
 	- https://github.com/johnwinans/rvalp
 	- CSCI 463: Computer Architecture and Systems Organization
