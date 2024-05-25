@@ -17,6 +17,7 @@ See also:
 	- [Books](#readings-books)
 	- [Research](#readings-research)
 		- [Correctness](#readings-research-correctness)
+		- [Usability](#readings-research-usability)
 - [Benchmarking](#benchmarking)
 - [Verification](#verification): Verification & Model Checking
 	- [Software](#verification-software): Verification Software
@@ -132,6 +133,13 @@ See also: [Compilers Correctness](https://github.com/MattPD/cpplinks/blob/master
 	- International Symposium on Software Testing and Analysis 2019
 	- Christian Klinger, Maria Christakis, Valentin Wüstholz
 	- https://arxiv.org/abs/1812.05033
+- Finding and Understanding Defects in Static Analyzers by Constructing Automated Oracles
+	- ACM International Conference on the Foundations of Software Engineering (FSE) 2024
+	- Weigang He, Peng Di, Mengli Ming, Chengyu Zhang, Ting Su, Shijie Li, Yulei Sui
+	- https://doi.org/10.1145/3660781
+	- https://2024.esec-fse.org/details/fse-2024-research-papers/29/Finding-and-Understanding-Defects-in-Static-Analyzers-by-Constructing-Automated-Oracl
+	- https://tingsu.github.io/files/fse24-sa-find-bugs.pdf
+	- https://github.com/Geoffrey1014/SA_Bugs
 - Quickchecking Static Analysis Properties
 	- Testing, Verification and Reliability 27(6) 2017
 	- Jan Midtgaard, Anders Møller
