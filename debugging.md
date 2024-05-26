@@ -260,6 +260,8 @@ _Books, Books Reviews_
 		- https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-3/
 	- Part 4 - Exports and Private Symbols
 		- https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-4/
+	- Part 5 - Breakpoints
+		- https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-5/
 - Writing a Linux Debugger - Simon Brand
 	- 1\. Setup - https://blog.tartanllama.xyz/writing-a-linux-debugger-setup/
 	- 2\. Breakpoints - https://blog.tartanllama.xyz/writing-a-linux-debugger-breakpoints/
