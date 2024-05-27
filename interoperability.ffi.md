@@ -554,6 +554,8 @@
 		- https://www.douggregor.net/posts/swift-for-cxx-practitioners-generics/
 	- Part 5: Type erasure & metatypes
 		- https://www.douggregor.net/posts/swift-for-cxx-practitioners-type-erasure/
+	- Part 6: Error Handling
+		- https://www.douggregor.net/posts/swift-for-cxx-practitioners-error-handling/
 - Vision Documents
 	- Using C++ from Swift
 		- https://github.com/apple/swift-evolution/blob/main/visions/using-c%2B%2B-from-swift.md
