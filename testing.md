@@ -681,6 +681,14 @@ Mutation Analysis, Mutation Coverage, Mutation Testing
 	- Pedro Delgado-Pérez, Sergio Segura
 	- https://doi.org/10.1145/3297280.3297499
 	- https://personal.us.es/sergiosegura/files/papers/delgado19-sac.pdf
+- Syntax Is All You Need: A Universal-Language Approach to Mutant Generation
+	- ACM International Conference on the Foundations of Software Engineering (FSE) 2024
+	- Sourav Deb, Kush Jain, Rijnard van Tonder, Claire Le Goues, Alex Groce
+	- https://doi.org/10.1145/3643756
+	- https://2024.esec-fse.org/details/fse-2024-research-papers/65/Syntax-Is-All-You-Need-A-Universal-Language-Approach-to-Mutant-Generation
+	- https://agroce.github.io/fse24.pdf
+	- universalmutator: Regexp based tool for mutating generic source code across numerous languages
+		- https://github.com/agroce/universalmutator
 - The Care and Feeding of Wild-Caught Mutants
 	- Foundations of Software Engineering (FSE) 2017
 	- David Bingham Brown, Michael Vaughn, Ben Liblit, Thomas W. Reps
