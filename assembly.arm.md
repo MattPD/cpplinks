@@ -817,6 +817,10 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 		- https://lemire.me/blog/2021/03/24/counting-cycles-and-instructions-on-the-apple-m1-processor/
 	- Apple M1: Load and Store Queue Measurements
 		- https://dougallj.wordpress.com/2021/04/08/apple-m1-load-and-store-queue-measurements/
+- Analyzing the memory ordering models of the Apple M1
+	- Journal of Systems Architecture Volume 149, April 2024
+	- Lars Wrenger, Dominik Töllner, Daniel Lohmann
+	- https://doi.org/10.1016/j.sysarc.2024.103102
 
 ### References: Microarchitecture: Arm
 
