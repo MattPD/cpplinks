@@ -647,6 +647,11 @@ See also:
 
 ## Software: OS: Windows
 
+- InflativeLoading: Dynamically convert an unmanaged EXE or DLL file to PIC shellcode by prepending a shellcode stub
+	- https://github.com/senzee1984/InflativeLoading
+	- ReflectiveLoading And InflativeLoading
+		- 2024; Winslow
+		- https://winslow1984.com/books/malware/page/reflectiveloading-and-inflativeloading
 - LoaderLog: Small application that can be used to log loader snaps and other debug output
 	- https://github.com/TimMisiak/LoaderLog
 - memory-module-loader
