@@ -1379,6 +1379,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	- https://github.com/runestubbe/Crinkler
 - fasm_packer: PE Packer written in x86 assembly (FASM syntax)
 	- https://github.com/DimitriFourny/resources/tree/master/fasm_packer
+- kkpView: Compression ratio analyzer for 64k intros through kkp files (rekkrunchy output)
+	- https://github.com/ConspiracyHu/kkpView-public
 - kkrunchy: pretty good executable compression
 	- http://www.farbrausch.de/~fg/kkrunchy/
 	- Rekkrunchy: fork of rygs kkrunchy_k7 0.23a4/asm07, with patches
