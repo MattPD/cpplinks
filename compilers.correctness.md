@@ -1804,6 +1804,12 @@ Validation: Including translation validation, equivalence checking.
 	- Alexa VanHattum, Monica Pardeshi, Chris Fallin, Adrian Sampson, and Fraser Brown
 	- https://doi.org/10.1145/3617232.3624862
 	- https://www.cs.cornell.edu/~avh/veri-isle-preprint.pdf
+- Memory Simulations, Security and Optimization in a Verified Compiler
+	- Certified Programs and Proofs (CPP) 2024
+	- David Monniaux
+	- https://dl.acm.org/doi/10.1145/3636501.3636952
+	- https://arxiv.org/abs/2312.08117
+	- https://www.youtube.com/watch?v=xXx87Ke5S3A
 - Verified inlining and specialisation for PureCake
 	- European Symposium on Programming (ESOP) 2024
 	- Hrutvik Kanabar, Kacper Korban, Magnus O. Myreen
