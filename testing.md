@@ -1036,6 +1036,11 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 	- Introduction to Google Test and Google Mock
 		- Core C++ 2022; Noam Weiss
 		- https://www.youtube.com/watch?v=N8a7IFPAPXs
+	- Rotten Green Tests in Google Test
+		- ESEC/FSE 2023: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
+		- Paul T. Robinson
+		- https://dl.acm.org/doi/10.1145/3611643.3613865
+		- https://2023.esec-fse.org/details/fse-2023-industry/6/Rotten-Green-Tests-in-Google-Test
 - GUnit - Google.Test/Google.Mock/Cucumber on steroids
 	- extends/simplifies Google.Test/Google.Mock and adds support for Gherkin (Behaviour Driven Development) to it
 	- https://github.com/cpp-testing/GUnit
