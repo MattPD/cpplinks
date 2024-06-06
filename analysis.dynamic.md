@@ -402,6 +402,9 @@ See also:
 	- High Performance Dynamic Threading Analysis for Hybrid Applications
 		- 2019 Master Thesis; Felix Mößbauer
 		- https://doi.org/10.5282/ubm/epub.60621
+- GWPSan: Sampling-Based Sanitizer Framework
+	- a framework for low-overhead sampling-based dynamic binary instrumentation, designed for implementing various bug detectors (also called "sanitizers") suitable for production uses
+	- https://github.com/google/gwpsan
 - Kernel Concurrency Sanitizer (KCSAN)
 	- https://github.com/google/ktsan/wiki/KCSAN
 	- Concurrency bugs should fear the big bad data-race detector
