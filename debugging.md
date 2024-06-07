@@ -264,6 +264,8 @@ _Books, Books Reviews_
 		- https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-5/
 	- Part 6 - Stacks
 		- https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-6/
+	- Part 7 - Disassembly
+		- https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-7/
 - Writing a Linux Debugger - Simon Brand
 	- 1\. Setup - https://blog.tartanllama.xyz/writing-a-linux-debugger-setup/
 	- 2\. Breakpoints - https://blog.tartanllama.xyz/writing-a-linux-debugger-breakpoints/
