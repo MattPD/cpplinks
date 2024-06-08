@@ -357,6 +357,9 @@ See also:
 
 ## Readings: Relocations
 
+- A compact relocation format for ELF
+	- 2024; MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2024-03-09-a-compact-relocation-format-for-elf
 - Binary Dodo - Arun
 	- Investigating linking with COMMON symbols in ELF
 		- https://binarydodo.wordpress.com/2016/05/09/investigating-linking-with-common-symbols-in-elf/
