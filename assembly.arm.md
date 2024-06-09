@@ -877,6 +877,19 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 		- https://learn.microsoft.com/en-us/windows/arm/overview
 	- System call dispatching on Windows ARM64
 		- https://gracefulbits.wordpress.com/2018/07/26/system-call-dispatching-for-windows-on-arm64/
+	- Arm64 Boot Camp: The Windows on Arm Tutorials
+		- 2024 by Darek Mihocka
+		- http://www.emulators.com/docs/nx44_intro_to_woa.htm#abc
+		- A Brief History of Windows on Arm
+			- http://www.emulators.com/docs/abc_history_of_woa.htm
+		- The Genius of Arm64
+			- http://www.emulators.com/docs/abc_genius_of_arm64.htm
+		- Installing Windows on Arm developer tools
+			- http://www.emulators.com/docs/abc_devtools.htm
+		- Arm64EC (and Arm64X) Explained
+			- http://www.emulators.com/docs/abc_arm64ec_explained.htm
+		- Understanding x86/x64 Emulation on Windows on Arm
+			- http://www.emulators.com/docs/abc_exit_xta.htm
 
 ## Intrinsics & SIMD
 
