@@ -652,6 +652,14 @@ See also: [Computer Architecture](comparch.md)
 	- Drew Zagieboylo, G. Edward Suh, Andrew C. Myers
 	- http://www.cs.cornell.edu/andru/papers/hyperisa/
 
+### Defense: Hardware Design & Verification: 2024
+
+- WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors
+	- USENIX Security 2024
+	- Pallavi Borkar, Chen Chen, Mohamadreza Rostami, Nikhilesh Singh, Rahul Kande, Ahmad-Reza Sadeghi, Chester Rebeiro, Jeyavijayan Rajendran
+	- https://www.usenix.org/conference/usenixsecurity24/presentation/borkar
+	- https://arxiv.org/abs/2402.03704
+
 ### Defense: Hardware Design & Verification: 2023
 
 - AutoCC: Automatic Discovery of Covert Channels in Time-Shared Hardware
