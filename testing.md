@@ -40,7 +40,7 @@ See also:
 	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#reduction-software)
 - [Software](#software):
 	- [Test Doubles](#software-test-doubles): [Mocking](#software-test-doubles-mocking)
-- [Talks](#talks): [2021](#talks-2021), [2020](#talks-2020), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2015](#talks-2015), [2014](#talks-2014), [2013](#talks-2013)
+- [Talks](#talks): [2024](#talks-2024), [2022](#talks-2022), [2021](#talks-2021), [2020](#talks-2020), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2015](#talks-2015), [2014](#talks-2014), [2013](#talks-2013)
 
 ---
 
@@ -1105,6 +1105,13 @@ Test Doubles: Faking, Mocking
 
 - Google Test Automation Conference (GTAC)
 	- https://developers.google.com/google-test-automation-conference/
+
+## Talks: 2024
+
+- Testing Rendering Code at Frostbite
+	- Rendering Engine Architecture Conference (REAC) 2024
+	- Jon Valdés
+	- https://www.youtube.com/watch?v=oJynPsNxYDM
 
 ## Talks: 2022
 
