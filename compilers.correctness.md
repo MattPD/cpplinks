@@ -1413,6 +1413,16 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 Validation: Including translation validation, equivalence checking.
 
+## Validation: 2024
+
+- Translation Validation for JIT Compiler in the V8 JavaScript Engine
+	- ICSE 2024
+	- Seungwan Kwon, Jaeseong Kwon, Wooseok Kang, Juneyoung Lee, Kihong Heo
+	- https://dl.acm.org/doi/10.1145/3597503.3639189
+	- https://conf.researchr.org/details/icse-2024/icse-2024-research-track/189/Translation-Validation-for-JIT-Compiler-in-the-V8-JavaScript-Engine
+	- https://kihongheo.kaist.ac.kr/publications/icse24.pdf
+	- https://github.com/prosyslab/turbo-tv-artifact
+
 ## Validation: 2022
 
 - End-to-End Translation Validation for the Halide Language
