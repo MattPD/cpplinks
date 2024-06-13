@@ -252,6 +252,8 @@ _Books, Books Reviews_
 - Writing a basic Windows debugger - https://www.codeproject.com/Articles/43682/Writing-a-basic-Windows-debugger
 - Writing a Debugger - Joseph Kain - http://system.joekain.com/debugger/
 - Writing a Debugger From Scratch - DbgRs - Tim Misiak
+	- DbgRs: A Windows debugger written in Rust, for educational purposes
+		- https://github.com/TimMisiak/dbgrs
 	- Part 1 - Attaching to a Process
 		- https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-1/
 	- Part 2 - Register State and Stepping
@@ -266,6 +268,8 @@ _Books, Books Reviews_
 		- https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-6/
 	- Part 7 - Disassembly
 		- https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-7/
+	- Part 8 - Source and Symbols
+		- https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-8/
 - Writing a Linux Debugger - Simon Brand
 	- 1\. Setup - https://blog.tartanllama.xyz/writing-a-linux-debugger-setup/
 	- 2\. Breakpoints - https://blog.tartanllama.xyz/writing-a-linux-debugger-breakpoints/
