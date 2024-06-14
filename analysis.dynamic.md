@@ -473,6 +473,11 @@ See also:
 
 ##### Software: Sanitizers: Readings: Research: 2024
 
+- Don't Waste My Efforts: Pruning Redundant Sanitizer Checks by Developer-Implemented Type Checks
+	- USENIX Security 2024
+	- Yizhuo Zhai, Zhiyun Qian, Chengyu Song, Manu Sridharan, Trent Jaeger, Paul Yu, Srikanth V. Krishnamurthy
+	- https://www.usenix.org/conference/usenixsecurity24/presentation/zhai
+	- https://github.com/seclab-ucr/TPrunify
 - GiantSan: Efficient Memory Sanitization with Segment Fold
 	- ACM Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2024
 	- Hao Ling, Heqing Huang, Chengpeng Wang, Yuandao Cai, Charles Zhang
