@@ -476,8 +476,11 @@
 		- https://doi.org/10.1007/978-3-030-50743-5_22
 - Tracy Profiler
 	- Tracy is a real time, nanosecond resolution frame profiler that can be used for remote or embedded telemetry of your application. It can profile CPU (C++, Lua), GPU (OpenGL, Vulkan) and memory. It also can display locks held by threads and their interactions with each other.
-	- https://bitbucket.org/wolfpld/tracy
+	- https://github.com/wolfpld/tracy
 	- Introduction to the Tracy profiler - https://www.youtube.com/watch?v=fB5B46lbapc
+	- How does Tracy markup become UI item?
+		- a tour of various internal systems to understand how data is processed to be presented to users
+		- https://wolf.nereid.pl/posts/tracy-internals/
 
 ## Profiling: MPI
 
