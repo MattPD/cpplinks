@@ -151,8 +151,13 @@
 		- https://sourceware.org/libabigail/manual/abidw.html
 	- abicompat - checks that an application that links against a given shared library is still ABI compatible with a subsequent version of that library
 		- https://sourceware.org/libabigail/manual/abicompat.html
-	- Comparing ABIs for Compatibility with libabigail – Part 1 - https://developers.redhat.com/blog/2014/10/23/comparing-abis-for-compatibility-with-libabigail-part-1/
-	- Comparing ABIs for Compatibility with libabigail – Part 2 - https://developers.redhat.com/blog/2014/10/28/comparing-abis-for-compatibility-libabigail-part-2/
+	- Application binary interface compatibility testing with libabigail
+		- Will your binary run on another distro or another version? Find out with abidb.
+		- https://developers.redhat.com/articles/2024/05/20/application-binary-interface-compatibility-testing-libabigail
+	- Comparing ABIs for Compatibility with libabigail – Part 1
+		- https://developers.redhat.com/blog/2014/10/23/comparing-abis-for-compatibility-with-libabigail-part-1/
+	- Comparing ABIs for Compatibility with libabigail – Part 2
+		- https://developers.redhat.com/blog/2014/10/28/comparing-abis-for-compatibility-libabigail-part-2/
 	- Pruning Dynamic Rebuilds With libabigail
 		- https://engineering.mongodb.com/post/pruning-dynamic-rebuilds-with-libabigail
 		- https://github.com/acmorrow/abilink-demo
