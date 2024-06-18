@@ -43,6 +43,13 @@ See also:
 	- Arjen Rouvoet
 	- https://doi.org/10.4233/uuid:f0312839-3444-41ee-9313-b07b21b59c11
 	- https://ajrouvoet.github.io/files/thesis.pdf
+- Correctly Compiling Proofs About Programs Without Proving Compilers Correct
+	- 15th International Conference on Interactive Theorem Proving (ITP 2024)
+	- Audrey Seo, Chris Lam, Dan Grossman, Talia Ringer
+	- https://doi.org/10.4230/LIPIcs.ITP.2024.28
+	- https://dependenttyp.es/pdf/potpie.pdf
+	- Potpie: Proof Object Transformation, Preserving Imp Embeddings: the first proof compiler to be formally proven correct
+		- https://github.com/uwplse/potpie
 - Defect Categorization in Compilers: A Multi-vocal Literature Review
 	- ACM Computing Surveys (CSUR) 56(4):104 2024
 	- Akond Rahman, Dibyendu Brinto Bose, Farhat Lamia Barsha, Rahul Pandita
