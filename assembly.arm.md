@@ -597,6 +597,11 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - Strengthening the Shield: MTE in Heap Allocators
 	- 2024
 	- https://www.darknavy.org/blog/strengthening_the_shield_mte_in_memory_allocators/
+- TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution
+	- 2024
+	- Juhee Kim, Jinbum Park, Sihyeon Roh, Jaeyoung Chung, Youngjoo Lee, Taesoo Kim, Byoungyoung Lee
+	- https://arxiv.org/abs/2406.08719
+	- https://github.com/compsec-snu/tiktag
 
 ### Pointer Authentication (PAC)
 
