@@ -419,6 +419,10 @@ See also:
 - Adding Clang Sanitizers to a CMake Build
 	- https://genbattle.bitbucket.io/blog/2018/01/05/Dev-Santa-Claus-Part-1/
 		- https://old.reddit.com/r/cpp/comments/7qzqlg/dev_santa_claus_pt1_adding_clang_sanitizers_to_a/
+- AddressSanitizer Internals
+	- 2022
+	- Benjamin Peter
+	- https://blog.gistre.epita.fr/posts/benjamin.peter-2022-10-28-address_sanitizer_internals/
 - AddressSanitizer: global variable instrumentation
 	- 2023; MaskRay (Fangrui Song)
 	- https://maskray.me/blog/2023-10-15-address-sanitizer-global-variable-instrumentation
