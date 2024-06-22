@@ -920,6 +920,8 @@ See also:
 	- http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/
 - Propositions as Filenames, Builds as Proofs: The Essence of Make
 	- https://bentnib.org/posts/2015-04-17-propositions-as-filenames-essence-of-make.html
+- Public domain POSIX make
+	- https://frippery.org/make/
 
 ### GNU Make
 
