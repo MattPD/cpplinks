@@ -2470,6 +2470,16 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 
 # SMT
 
+## SMT: 2024
+
+- Divide and Surrender: Exploiting Variable Division Instruction Timing in HQC Key Recovery Attacks
+	- USENIX Security 2024
+	- IACR Cryptology ePrint Archive 2024/299
+	- Robin Leander Schröder, Stefan Gast, Qian Guo
+	- https://stefangast.eu/papers/divide_and_surrender.pdf
+	- https://eprint.iacr.org/2024/299
+	- https://github.com/hqc-attack/divide-and-surrender
+
 ## SMT: 2022
 
 - HyperDegrade: From GHz to MHz Effective CPU Frequencies
