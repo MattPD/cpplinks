@@ -134,6 +134,8 @@ See also:
 		- https://maskray.me/blog/2023-03-05-linker-notes-on-aarch64
 	- LLD and GNU linker incompatibilities
 		- https://maskray.me/blog/2020-12-19-lld-and-gnu-linker-incompatibilities
+	- Understanding orphan sections
+		- https://maskray.me/blog/2024-06-02-understanding-orphan-sections
 	- Weak symbol
 		- https://maskray.me/blog/2021-04-25-weak-symbol
 - Nick Desaulniers
