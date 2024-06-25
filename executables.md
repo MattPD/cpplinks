@@ -529,6 +529,9 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 	- Position Independent Code (PIC) in shared libraries - https://eli.thegreenplace.net/2011/11/03/position-independent-code-pic-in-shared-libraries
 	- Position Independent Code (PIC) in shared libraries on x64 - https://eli.thegreenplace.net/2011/11/11/position-independent-code-pic-in-shared-libraries-on-x64
 	- Library order in static linking - https://eli.thegreenplace.net/2013/07/09/library-order-in-static-linking
+- Evolution of the ELF object file format
+	- 2024; MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2024-05-26-evolution-of-elf-object-file-format
 - Executable and Linkable Format 101
 	- Part 1: Sections and Segments - http://www.intezer.com/executable-linkable-format-101-part1-sections-segments/
 	- Part 2: Symbols - http://www.intezer.com/executable-linkable-format-101-part-2-symbols/
