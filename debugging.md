@@ -885,6 +885,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Part 2: All about debuginfo 
 		- https://developers.redhat.com/articles/2022/01/10/gdb-developers-gnu-debugger-tutorial-part-2-all-about-debuginfo
 - Victor Stinner's Notes - GDB: GNU debugger - http://vstinner.readthedocs.io/gdb.html
+- Why your errno value isn't printing in GDB—and what to do about it
+	- https://developers.redhat.com/articles/2024/06/05/why-your-errno-value-isnt-printing-gdb-and-what-do-about-it
 
 #### GDB: Readings: Python API
 
