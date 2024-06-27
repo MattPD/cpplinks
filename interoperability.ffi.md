@@ -560,6 +560,8 @@
 		- https://www.douggregor.net/posts/swift-for-cxx-practitioners-closures/
 	- Part 8: Global Variables
 		- https://www.douggregor.net/posts/swift-for-cxx-practitioners-global-variables/
+	- Part 9: Extensible Literals
+		- https://www.douggregor.net/posts/swift-for-cxx-practitioners-literals/
 - Vision Documents
 	- Using C++ from Swift
 		- https://github.com/apple/swift-evolution/blob/main/visions/using-c%2B%2B-from-swift.md
