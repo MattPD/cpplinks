@@ -477,6 +477,11 @@ See also:
 
 ##### Software: Sanitizers: Readings: Research: 2024
 
+- A Binary-level Thread Sanitizer or Why Sanitizing on the Binary Level is Hard
+	- USENIX Security 2024
+	- Joschua Schilling, Andreas Wendler, Philipp Görz, Nils Bars, Moritz Schloegel, Thorsten Holz
+	- https://www.usenix.org/conference/usenixsecurity24/presentation/schilling
+	- https://github.com/CISPA-SysSec/binary-tsan
 - Don't Waste My Efforts: Pruning Redundant Sanitizer Checks by Developer-Implemented Type Checks
 	- USENIX Security 2024
 	- Yizhuo Zhai, Zhiyun Qian, Chengyu Song, Manu Sridharan, Trent Jaeger, Paul Yu, Srikanth V. Krishnamurthy
