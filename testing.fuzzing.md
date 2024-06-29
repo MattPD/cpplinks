@@ -206,6 +206,8 @@ See also:
 		- https://h0mbre.github.io/Lucid_Context_Switching/
 	- 3: Building Bochs, MMU, and File I/O
 		- https://h0mbre.github.io/Loading_Bochs/
+	- 4: Snapshots, Code-Coverage, and Fuzzing
+		- https://h0mbre.github.io/Lucid_Snapshots_Coverage/
 
 ## Readings: Practice
 
