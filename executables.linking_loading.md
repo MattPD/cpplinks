@@ -126,6 +126,8 @@ See also:
 		- https://maskray.me/blog/2021-07-25-comdat-and-section-group
 	- Dependency related linker options
 		- https://maskray.me/blog/2021-06-13-dependency-related-linker-options
+	- Explain GNU style linker options
+		- https://maskray.me/blog/2020-11-15-explain-gnu-linker-options
 	- Exploring the section layout in linker output
 		- https://maskray.me/blog/2023-12-17-exploring-the-section-layout-in-linker-output
 	- GNU indirect function (ifunc)
