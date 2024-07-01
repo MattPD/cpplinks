@@ -1213,6 +1213,11 @@ See also: [Computer Architecture](comparch.md)
 
 ## Branch Predictor: 2024
 
+- Indirector: High-Precision Branch Target Injection Attacks Exploiting the Indirect Branch Predictor
+	- USENIX Security 2024
+	- Luyi Li, Hosein Yavarzadeh, Dean Tullsen
+	- https://indirector.cpusec.org/index_files/Indirector_USENIX_Security_2024.pdf
+	- https://github.com/owenlly/Indirector_Artifact
 - Pathfinder: High-Resolution Control-Flow Attacks Exploiting the Conditional Branch Predictor
 	- ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2024
 	- Hosein Yavarzadeh, Archit Agarwal, Max Christman, Christina Garman, Daniel Genkin, Andrew Kwong, Daniel Moghimi, Deian Stefan, Kazem Taram, Dean Tullsen
