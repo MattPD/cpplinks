@@ -377,6 +377,15 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 
 ## DWARF: Talks
 
+### DWARF: Talks: 2024
+
+- I Embedded a Programming Language In Debug Information
+	- Pure Virtual C++ 2024
+	- Sy Brand (TartanLlama)
+	- https://www.youtube.com/watch?v=luogje8IHpM
+	- dwarbf: A Brainfuck interpreter written in DWARF debug information
+		- https://github.com/TartanLlama/dwarbf
+
 ### DWARF: Talks: 2020
 
 - Reliable Stack Traces, the Reality of Myth: DWARF Stack Unwinding and other stories
