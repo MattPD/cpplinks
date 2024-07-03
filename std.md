@@ -119,6 +119,11 @@
 
 ## C++26: Trip Reports
 
+### C++26: Trip Reports: 2024-06
+
+- Trip report: Summer ISO C++ standards meeting (St Louis, MO, USA)
+	- https://herbsutter.com/2024/07/02/trip-report-summer-iso-c-standards-meeting-st-louis-mo-usa/
+
 ### C++26: Trip Reports: 2024-03
 
 - 2024-03 Tokyo ISO C++ Committee Trip Report — Third C++26 meeting!
