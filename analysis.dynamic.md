@@ -487,6 +487,14 @@ See also:
 	- Yizhuo Zhai, Zhiyun Qian, Chengyu Song, Manu Sridharan, Trent Jaeger, Paul Yu, Srikanth V. Krishnamurthy
 	- https://www.usenix.org/conference/usenixsecurity24/presentation/zhai
 	- https://github.com/seclab-ucr/TPrunify
+- ERASAN: Efficient Rust Address Sanitizer
+	- 2024 IEEE Symposium on Security and Privacy (S&P)
+	- Jiun Min, Dongyeon Yu, Seongyun Jeong, Dokyung Song, Yuseok Jeon
+	- https://doi.ieeecomputersociety.org/10.1109/SP54263.2024.00258
+	- https://s2-lab.github.io/assets/erasan_S&P_2024.pdf
+	- https://s2-lab.github.io/assets/ERASan_S&P24.pdf
+	- https://www.youtube.com/watch?v=r_a5zJg5jeE
+	- https://github.com/S2-Lab/ERASan
 - GiantSan: Efficient Memory Sanitization with Segment Fold
 	- ACM Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2024
 	- Hao Ling, Heqing Huang, Chengpeng Wang, Yuandao Cai, Charles Zhang
