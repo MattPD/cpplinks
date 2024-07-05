@@ -441,6 +441,13 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- https://hachyderm.io/@cliffle/111451749883598535
 - Profiling Firmware on Cortex-M
 	- https://interrupt.memfault.com/blog/profiling-firmware-on-cortex-m
+- SoK: Where's the "up"?! A Comprehensive (bottom-up) Study on the Security of Arm Cortex-M Systems
+	- USENIX WOOT Conference on Offensive Technologies 2024
+	- Xi Tan, Zheyuan Ma, Sandro Pinto, Le Guan, Ning Zhang, Jun Xu, Zhiqiang Lin, Hongxin Hu, Ziming Zhao
+	- https://www.usenix.org/conference/woot24/presentation/tan
+	- https://github.com/CactiLab/SoK-Cortex-M
+	- https://cactilab.github.io/assets/pdf/tan2024sok.pdf
+	- https://arxiv.org/abs/2401.15289
 
 ## Performance
 
