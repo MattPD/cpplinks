@@ -1013,6 +1013,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://haoxintu.github.io/files/icse2024-nier-camera-ready.pdf
 	- https://github.com/AnonyGiit/Xdead
 	- https://github.com/haoxintu/Xdead
+- Refined Input, Degraded Output: The Counterintuitive World of Compiler Behavior
+	- PLDI 2024
+	- Theodoros Theodoridis, Zhendong Su
+	- https://dl.acm.org/doi/10.1145/3656404
 
 #### Testing: Readings: Performance Optimization: 2023
 
