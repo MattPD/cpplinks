@@ -44,6 +44,11 @@
 
 ### General: Readings: Optimization
 
+- Dr Wenowdis: Specializing Dynamic Language C Extensions using Type Information
+	- SOAP 2024: ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis
+	- Maxwell Bernstein, Carl Friedrich Bolz-Tereick
+	- https://dl.acm.org/doi/10.1145/3652588.3663316
+	- https://arxiv.org/abs/2403.02420
 - Low-level Cross-Language Post-Link Optimisation
 	- 2021 PhD Dissertation
 	- Nandor Licker
