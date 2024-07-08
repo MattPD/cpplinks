@@ -323,6 +323,11 @@ See also: [Computer Architecture](comparch.md)
 	- TCHES 2024(3) 2024
 	- Shing Hing William Cheng, Chitchanok Chuengsatiansup, Daniel Genkin, Dallas McNeil, Toby Murray, Yuval Yarom, Zhiyuan Zhang
 	- https://eprint.iacr.org/2024/149
+- SoK: Can We Really Detect Cache Side-Channel Attacks by Monitoring Performance Counters?
+	- AsiaCCS 2024
+	- William Kosasih, Yusi Feng, Chitchanok Chuengsatiansup, Yuval Yarom, Ziyuan Zhu
+	- https://dl.acm.org/doi/10.1145/3634737.3637649
+	- https://yuval.yarom.org/pdfs/KosasihFCYZ24.pdf
 - SpecLFB: Eliminating Cache Side Channels in Speculative Executions
 	- USENIX Security 2024
 	- Xiaoyu Cheng, Fei Tong, Hongyu Wang, Zhe Zhou, Fang Jiang, Yuxing Mao
