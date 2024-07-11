@@ -955,6 +955,13 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - VPEXPANDB on NEON with Z3
 	- https://zeux.io/2022/09/02/vpexpandb-neon-z3/
 
+### Scalable Matrix Extension (SME)
+
+- Arm Scalable Matrix Extension (SME) Introduction
+	- Part 1: https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/arm-scalable-matrix-extension-introduction
+	- Part 2: 
+https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/arm-scalable-matrix-extension-introduction-p2
+
 ### Scalable Vector Extension (SVE)
 
 - A64 SIMD Instruction List: SVE Instructions
