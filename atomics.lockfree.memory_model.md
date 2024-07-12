@@ -306,6 +306,13 @@
 	- https://www.comp.nus.edu.sg/~umathur/papers/rc20-rv-consistency-popl24.pdf
 	- https://popl24.sigplan.org/details/POPL-2024-popl-research-papers/68/How-Hard-is-Weak-Memory-Testing-
 	- https://arxiv.org/abs/2311.04302
+- Towards Unified Analysis of GPU Consistency
+	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2024
+	- Haining Tong, Natalia Gavrilenko, Hernán Ponce de León, Keijo Heljanko
+	- https://doi.org/10.1145/3622781.3674174
+	- https://hernanponcedeleon.github.io/pdfs/asplos2024.pdf
+	- Dat3M: Memory Model Aware Verification
+		- https://github.com/hernanponcedeleon/Dat3M
 
 ### Papers - Memory Model: 2023
 
