@@ -280,6 +280,13 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 
 ## Calculation: 2020s
 
+- Beyond Trees: Calculating Graph-Based Compilers
+	- ICFP 2024
+	- Patrick Bahr, Graham Hutton
+	- https://doi.org/10.1145/3674638
+	- https://www.cs.nott.ac.uk/~pszgmh/graphs.pdf
+	- https://icfp24.sigplan.org/details/icfp-2024-papers/15/Beyond-Trees-Calculating-Graph-Based-Compilers
+	- https://github.com/pa-ba/calc-graph-comp
 - Calculating Compilers for Concurrency
 	- International Conference on Functional Programming (ICFP) 2023
 	- Patrick Bahr, Graham Hutton
