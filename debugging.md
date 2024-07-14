@@ -231,6 +231,9 @@ _Books, Books Reviews_
 	- part 1: assembly - https://web.archive.org/https://blog.asrpo.com/making_a_low_level_debugger
 	- part 2: C - https://web.archive.org/https://blog.asrpo.com/making_a_low_level_debugger_part_2
 	- part 3: our first program - https://web.archive.org/https://blog.asrpo.com/making_a_low_level_debugger_part_3
+- Making an AMDGPU debugger
+	- Marcell Kiss
+	- part I - The Plan: https://martty.github.io/posts/radbg_part_1/
 - On-Stack Replacement, Distilled
 	- Programming Language Design and Implementation (PLDI) 2018
 	- Daniele Cono D'Elia and Camil Demetrescu
