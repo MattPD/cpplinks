@@ -502,6 +502,10 @@ See also:
 	- https://5hadowblad3.github.io/files/asplos24-GiantSan.pdf
 	- https://github.com/5hadowblad3/GiantSan-Artifact
 	- https://github.com/AceSrc/GiantSan-Artifact
+- RustSan: Retrofitting AddressSanitizer for Efficient Sanitization of Rust
+	- USENIX Security 2024
+	- Kyuwon Cho, Jongyoon Kim, Kha Dinh Duy, Hajeong Lim, Hojoon Lee
+	- https://www.usenix.org/conference/usenixsecurity24/presentation/cho-kyuwon
 
 ##### Software: Sanitizers: Readings: Research: 2023
 
