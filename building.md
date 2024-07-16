@@ -262,6 +262,11 @@ See also:
 	- https://doi.org/10.1145/3238147.3238196
 	- https://eelcovisser.org/post/306/scalable-incremental-building-with-dynamic-task-dependencies
 	- https://www.student.informatik.tu-darmstadt.de/~xx00seba/publications/pie-scalable-incremental-build.pdf
+- Towards Efficient Build Ordering for Incremental Builds with Multiple Configurations
+	- ACM International Conference on the Foundations of Software Engineering (FSE) 2024
+	- Jun Lyu, Shanshan Li, He Zhang, Lanxin Yang, Bohan Liu, Manuel Rigger
+	- https://dl.acm.org/doi/10.1145/3660774
+	- https://2024.esec-fse.org/details/fse-2024-research-papers/19/Towards-Efficient-Build-Ordering-for-Incremental-Builds-with-Multiple-Configurations
 
 ## Reproducibility
 
