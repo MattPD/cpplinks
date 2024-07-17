@@ -530,6 +530,15 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 * TCP Bind Shell in Assembly (ARM 32-bit)
 	+ https://azeria-labs.com/tcp-bind-shell-in-assembly-arm-32-bit/
 
+### Security: 2023
+
+- Capacity: Cryptographically-Enforced In-Process Capabilities for Modern Arm Architectures
+	- ACM Conference on Computer and Communications Security (CCS) 2023
+	- Kha Dinh Duy, Kyuwon Cho, Taehyun Noh, Hojoon Lee
+	- https://dl.acm.org/doi/10.1145/3576915.3623079
+	- https://arxiv.org/abs/2309.11151
+	- https://github.com/sslab-skku/capacity
+
 ### Security: Arm Confidential Compute Architecture (CCA)
 
 - A verification methodology for the Arm Confidential Computing Architecture
