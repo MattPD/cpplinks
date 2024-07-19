@@ -541,6 +541,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://2023.issta.org/details/issta-2023-technical-papers/35/Vectorizing-Program-Ingredients-for-Better-JVM-Testing
 	- VECT: Vectorized JVM Testing
 		- https://github.com/gaotravor/VECT
+- WRTester: Differential Testing of WebAssembly Runtimes via Semantic-aware Binary Generation
+	- 2023
+	- Shangtong Cao, Ningyu He, Xinyu She, Yixuan Zhang, Mu Zhang, Haoyu Wang
+	- https://arxiv.org/abs/2312.10456
 
 ### Testing: Readings: 2022
 
