@@ -250,6 +250,8 @@ https://riscv.org/risc-v-books/
 	- http://www.cl.cam.ac.uk/users/pes20/sail/sail-popl2019.pdf
 	- talk; https://dl.acm.org/citation.cfm?doid=3302515.3290384&preflayout=flat#formats
 - L3 Specification of the RISC-V ISA - https://github.com/SRI-CSL/l3riscv
+- RISC-V Architectural Self Checking Tests
+	- https://github.com/tenstorrent/riscv_arch_tests
 - RISC-V Formal Verification Framework - https://github.com/cliffordwolf/riscv-formal
 - RISC-V ISA Formal Spec in BSV (Bluespec SystemVerilog) - https://github.com/rsnikhil/RISCV_ISA_Formal_Spec_in_BSV
 - RISC-V Litmus Tests
