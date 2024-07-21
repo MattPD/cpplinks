@@ -895,6 +895,13 @@ See also: [Computer Architecture](comparch.md)
 	- https://arxiv.org/abs/2102.12730
 	- https://www.usenix.org/conference/usenixsecurity21/presentation/narayan
 
+#### Defense: Software: Compilation and Programming Languages: 2024
+
+- Protecting cryptographic code against Spectre-RSB (and, in fact, all known Spectre variants)
+	- Cryptology ePrint Archive, Paper 2024/1070
+	- Santiago Arranz Olmos, Gilles Barthe, Chitchanok Chuengsatiansup, Benjamin Grégoire, Vincent Laporte, Tiago Oliveira, Peter Schwabe, Yuval Yarom, Zhiyuan Zhang
+	- https://eprint.iacr.org/2024/1070
+
 #### Defense: Software: Compilation and Programming Languages: 2023
 
 - Spectre Declassified: Reading from the Right Place at the Wrong Time
