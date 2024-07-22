@@ -468,6 +468,11 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 		- https://doi.org/10.1145/3373376.3378519
 		- https://gatowololo.github.io/resources/publications/dettrace.pdf
 		- https://www.youtube.com/watch?v=YkmS-vf12nE
+- Evolution of ptrace from strace's perspective
+	- DevConf.CZ 2024
+	- Dmitry Levin
+	- https://www.youtube.com/watch?v=EyZmYFHCys4
+	- https://pretalx.com/devconf-cz-2024/talk/HSELWM/
 - Hiding Call To Ptrace - https://github.com/yellowbyte/analysis-of-anti-analysis/blob/master/research/hiding_call_to_ptrace/hiding_call_to_ptrace.md
 - Intercepting and Emulating Linux System Calls with Ptrace - http://nullprogram.com/blog/2018/06/23/
 - Ptrace-burrito: A plugin style wrapper around ptrace on Linux.
