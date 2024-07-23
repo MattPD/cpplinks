@@ -873,8 +873,10 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 ##### References: Microarchitecture: Arm: Neoverse: V-Series
 
 - Arm Neoverse V2
-	- Hot Chips 2023: Arm’s Neoverse V2
+	- Hot Chips 2023: Arm Neoverse V2
 		- https://chipsandcheese.com/2023/09/11/hot-chips-2023-arms-neoverse-v2/
+	- Arm Neoverse V2 in AWS Graviton4
+		- https://chipsandcheese.com/2024/07/22/arms-neoverse-v2-in-awss-graviton-4/
 
 ### References: Microarchitecture: Fujitsu
 
