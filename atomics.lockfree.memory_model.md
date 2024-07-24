@@ -696,6 +696,11 @@
 
 ### 2024
 
+- A Tale of Shared Memory Concurrency in Programming Languages
+	- Programming Language Mentoring Workshop (PLMW) @ Programming Language Design and Implementation (PLDI) 2024
+	- Soham Chakraborty
+	- https://www.youtube.com/watch?v=XSg3-6RaO6A
+	- https://pldi24.sigplan.org/details/PLMW-PLDI-2024/1/A-Tale-of-Shared-Memory-Concurrency-in-Programming-Languages
 - What we learned from C++ atomics and memory model standardization
 	- The Future of Weak Memory (FOWM) 2024
 	- Hans-J. Boehm
