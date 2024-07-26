@@ -1321,6 +1321,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 		- Gleison Souza Diniz Mendonça, Chunhua Liao, Fernando Magno Quintão Pereira
 		- https://doi.org/10.1145/3392717.3392744
 		- https://www.osti.gov/servlets/purl/1635776
+- Parallel loops – A test suite for parallelizing compilers: Description and example results
+	- Parallel Computing 17, 10 (1991)
+	- Jack Dongarra, Mark Furtney, Steve Reinhardt, Jerry Russell
+	- https://doi.org/10.1016/S0167-8191(05)80036-5
 - SOLLVE V&V: OpenMP Offloading Validation & Verification Suite
 	- https://github.com/SOLLVE/sollve_vv
 	- https://crpl.cis.udel.edu/ompvvsollve
