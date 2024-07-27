@@ -140,6 +140,9 @@ See also:
 		- https://maskray.me/blog/2024-06-02-understanding-orphan-sections
 	- Weak symbol
 		- https://maskray.me/blog/2021-04-25-weak-symbol
+- Nick Clifton
+	- A practical guide to linker section ordering
+		- https://developers.redhat.com/articles/2024/06/13/practical-guide-linker-section-ordering
 - Nick Desaulniers
 	- Part 1 – Object Files and Symbols - https://nickdesaulniers.github.io/blog/2016/08/13/object-files-and-symbols/
 	- Part 2 – Static and Dynamic Libraries - https://nickdesaulniers.github.io/blog/2016/11/20/static-and-dynamic-libraries/
