@@ -1286,6 +1286,14 @@ See also: [Computer Architecture](comparch.md)
 
 # Cache
 
+## Cache: 2024
+
+- Spec-o-Scope: Cache Probing at Cache Speed
+	- ACM Conference on Computer and Communications Security (CCS) 2024
+	- Gal Horowitz, Eyal Ronen, Yuval Yarom
+	- https://eprint.iacr.org/2024/775
+	- https://github.com/eyalr0/Spec-o-Scope
+
 ## Cache: 2023
 
 - Cache Side-Channel Attacks on Existing and Emerging Computing Platforms
