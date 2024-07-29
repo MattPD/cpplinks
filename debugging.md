@@ -234,6 +234,7 @@ _Books, Books Reviews_
 - Making an AMDGPU debugger
 	- Marcell Kiss
 	- part I - The Plan: https://martty.github.io/posts/radbg_part_1/
+	- part II - The Devk: https://martty.github.io/posts/radbg_part_2/
 - On-Stack Replacement, Distilled
 	- Programming Language Design and Implementation (PLDI) 2018
 	- Daniele Cono D'Elia and Camil Demetrescu
