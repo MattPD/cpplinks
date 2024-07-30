@@ -94,9 +94,16 @@ See also:
 	- https://www.semanticscholar.org/paper/Object-Model-Construction-for-Inheritance-in-C%2B%2B-a-Yang-Balakrishnan/510501c7051c03d5e2a70089deeda8dfc3a7304f
 	- https://www.cs.colorado.edu/~srirams/papers/cc12-final.pdf
 	- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.225.2429
+- Scaling Interprocedural Static Data-Flow Analysis to Large C/C++ Applications: An Experience Report
+	- ECOOP 2024
+	- Fabian Schiebel, Florian Sattler, Philipp Dominik Schubert, Sven Apel, Eric Bodden
+	- https://doi.org/10.4230/LIPIcs.ECOOP.2024.37
+	- https://2024.ecoop.org/details/ecoop-2024-papers/22/Scaling-Interprocedural-Static-Data-Flow-Analysis-to-Large-C-C-Applications
+	- https://bodden.de/pubs/ssd+24scaling.pdf
+	- https://www.se.cs.uni-saarland.de/publications/docs/SSS+24.pdf
 - Scaling Static Analyses at Facebook
-	- Dino Distefano, Manuel Fähndrich, Francesco Logozzo, Peter W. O'Hearn
 	- Communications of the ACM, Vol. 62 No. 8, 2019
+	- Dino Distefano, Manuel Fähndrich, Francesco Logozzo, Peter W. O'Hearn
 	- https://cacm.acm.org/magazines/2019/8/238344-scaling-static-analyses-at-facebook/fulltext
 - Source Language Representation of Function Summaries in Static Analysis
 	- ICOOOLPS / ECOOP 2016
