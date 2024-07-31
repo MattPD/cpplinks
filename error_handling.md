@@ -344,12 +344,32 @@
 
 ### Papers: Correctness
 
-- APEx: Automated Inference of Error Specifications for C APIs
-	- Automated Software Engineering (ASE) 2016
-	- Yuan Jochen Kang, Baishakhi Ray, Suman Jana
-	- https://yujokang.github.io/papers/apex_2016.pdf
-	- APEx: Automated Tool for Generating Error Specifications
-		- https://github.com/yujokang/APEx
+#### Papers: Correctness: 2024
+
+- Cut to the Chase: An Error-Oriented Approach to Detect Error-Handling Bugs
+	- ACM International Conference on the Foundations of Software Engineering (FSE) 2024
+	- Haoran Liu, Zhouyang Jia, Shanshan Li, Yan Lei, Yue Yu, Yu Jiang, Xiaoguang Mao, Liao Xiangke
+	- https://2024.esec-fse.org/details/fse-2024-research-papers/40/Cut-to-the-Chase-An-Error-Oriented-Approach-to-Detect-Error-Handling-Bugs
+	- EH-Digger: a bug detection tool for error-handling bugs
+		- https://github.com/EH-Digger/EH-Digger
+
+#### Papers: Correctness: 2023
+
+- Detecting Exception Handling Bugs in C++ Programs
+	- IEEE/ACM International Conference on Software Engineering (ICSE) 2023
+	- Hao Zhang, Ji Luo, Mengze Hu, Jun Yan, Jian Zhang, Zongyan Qiu
+	- https://dl.acm.org/doi/abs/10.1109/ICSE48619.2023.00098
+
+#### Papers: Correctness: 2020
+
+- Fuzzing Error Handling Code using Context-Sensitive Software Fault Injection
+	- USENIX Security 2020
+	- Zu-Ming Jiang, Jia-Ju Bai, Kangjie Lu, Shi-Min Hu
+	- https://www-users.cs.umn.edu/~kjlu/papers/fifuzz.pdf
+	- https://www.usenix.org/conference/usenixsecurity20/presentation/jiang
+
+#### Papers: Correctness: 2019
+
 - Ares: Inferring Error Specifications through Static Analysis
 	- Automated Software Engineering (ASE) 2019
 	- Li Chi, Zuxing Gu, Min Zhou, Ming Gu, Hongyu Zhang
@@ -357,26 +377,12 @@
 	- https://www.youtube.com/watch?v=nf1QnFAmu8Q
 	- Ares: API Related Error Specification Inference
 		- https://github.com/lc3412/Ares
-- Automatically Detecting Error Handling Bugs Using Error Specifications
-	- USENIX Security 2016
-	- Suman Jana, Yuan Kang, Samuel Roth, Baishakhi Ray
-	- https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/jana
-	- EPEx: Error Path Exploration for Finding Error Handling Bugs - https://github.com/yujokang/EPEx
-- Automatically Diagnosing and Repairing Error Handling Bugs in C
-	- ESEC/FSE 2017
-	- Yuchi Tian, Baishakhi Ray
-	- https://yuchi1989.github.io/papers/fse17-ErrDoc.pdf
-	- ErrDoc: Tool for detecting, categorizing, and repairing error handling bugs - https://github.com/yuchi1989/ErrDoc/
 - Detecting Error-Handling Bugs without Error Specification Input
 	- Automated Software Engineering (ASE) 2019
 	- Zhouyang Jia, Shanshan Li, Tingting Yu, Xiangke Liao, Ji Wang, Xiaodong Liu, Yunhuai Liu
 	- https://doi.org/10.1109/ASE.2019.00029
 	- EH-Miner: Mining Error-Handling Bugs without Error Specification Input
 		- https://github.com/ZhouyangJia/EH-Miner
-- Detecting Exception Handling Bugs in C++ Programs
-	- IEEE/ACM International Conference on Software Engineering (ICSE) 2023
-	- Hao Zhang, Ji Luo, Mengze Hu, Jun Yan, Jian Zhang, Zongyan Qiu
-	- https://dl.acm.org/doi/abs/10.1109/ICSE48619.2023.00098
 - Effective Error-Specification Inference via Domain-Knowledge Expansion
 	- ESEC/FSE 2019
 	- Daniel DeFreez, Haaken Martinson Baldwin, Cindy Rubio-González, Aditya V. Thakur
@@ -384,14 +390,31 @@
 	- https://thakur.cs.ucdavis.edu/bibliography/defreez_rubio_thakur_FSE2019.html
 	- https://github.com/ucd-plse/eesi
 - Fuzzing Error Handling Code in Device Drivers Based on Software Fault Injection
-	- ISSRE 2019 - The 30th International Symposium on Software Reliability Engineering
+	- ISSRE 2019: The 30th International Symposium on Software Reliability Engineering
 	- Zu-Ming Jiang, Jia-Ju Bai, Julia Lawall, Shi-Min Hu
 	- https://hal.inria.fr/hal-02389293/
-- Fuzzing Error Handling Code using Context-Sensitive Software Fault Injection
-	- USENIX Security 2020
-	- Zu-Ming Jiang, Jia-Ju Bai, Kangjie Lu, Shi-Min Hu
-	- https://www-users.cs.umn.edu/~kjlu/papers/fifuzz.pdf
-	- https://www.usenix.org/conference/usenixsecurity20/presentation/jiang
+
+#### Papers: Correctness: 2017
+
+- Automatically Diagnosing and Repairing Error Handling Bugs in C
+	- ESEC/FSE 2017
+	- Yuchi Tian, Baishakhi Ray
+	- https://yuchi1989.github.io/papers/fse17-ErrDoc.pdf
+	- ErrDoc: Tool for detecting, categorizing, and repairing error handling bugs - https://github.com/yuchi1989/ErrDoc/
+
+#### Papers: Correctness: 2016
+
+- APEx: Automated Inference of Error Specifications for C APIs
+	- Automated Software Engineering (ASE) 2016
+	- Yuan Jochen Kang, Baishakhi Ray, Suman Jana
+	- https://yujokang.github.io/papers/apex_2016.pdf
+	- APEx: Automated Tool for Generating Error Specifications
+		- https://github.com/yujokang/APEx
+- Automatically Detecting Error Handling Bugs Using Error Specifications
+	- USENIX Security 2016
+	- Suman Jana, Yuan Kang, Samuel Roth, Baishakhi Ray
+	- https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/jana
+	- EPEx: Error Path Exploration for Finding Error Handling Bugs - https://github.com/yujokang/EPEx
 - Testing Error Handling Code in Device Drivers Using Characteristic Fault Injection
 	- 2016 USENIX Annual Technical Conference
 	- Jia-Ju Bai, Yu-Ping Wang, Jie Yin, Shi-Min Hu
