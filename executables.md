@@ -1334,6 +1334,9 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	- https://github.com/hasherezade/pe_to_shellcode
 - pedump - dump windows PE files using Ruby - http://pedump.me/ - https://github.com/zed-0xff/pedump
 - pelook: PE/COFF dump and conversion tool - http://bytepointer.com/tools/index.htm#pelook
+- pesign + efikeygen: Linux tools for signed PE-COFF binaries
+	- Signing tools for PE-COFF binaries. Compliant with the PE and Authenticode specifications.
+	- https://github.com/rhboot/pesign
 - pestudio - https://www.winitor.com/
 - peupdate: update hidden PE and PDB information in Win32/64 executables - http://bytepointer.com/tools/index.htm#peupdate
 - PortEx: Java library to analyse Portable Executable files with a special focus on malware analysis and PE malformation robustness
