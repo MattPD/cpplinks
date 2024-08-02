@@ -102,6 +102,8 @@ https://riscv.org/risc-v-books/
 	- https://fprox.blogspot.com/2022/10/risc-v-register-files.html
 - Adding custom instructions in the RISC-V ISA
 	- https://pcotret.gitlab.io/riscv-custom/
+- RISC-V Assembler Cheat Sheet
+	- https://projectf.io/posts/riscv-cheat-sheet/
 - RISC-V ISA online string decoder
 	- https://rv.drom.io/
 	- https://github.com/drom/rv
