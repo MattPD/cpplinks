@@ -1441,6 +1441,12 @@ Validation: Including translation validation, equivalence checking.
 
 ## Validation: 2024
 
+- Modeling Dynamic (De)Allocations of Local Memory for Translation Validation
+	- OOPSLA 2024
+	- Abhishek Rose, Sorav Bansal
+	- https://dl.acm.org/doi/10.1145/3649863
+	- Technical Report
+		- https://arxiv.org/abs/2403.05302
 - Translation Validation for JIT Compiler in the V8 JavaScript Engine
 	- ICSE 2024
 	- Seungwan Kwon, Jaeseong Kwon, Wooseok Kang, Juneyoung Lee, Kihong Heo
