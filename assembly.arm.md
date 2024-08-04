@@ -232,6 +232,10 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- https://www.youtube.com/watch?v=n2I6VP5Wr2I
 	- https://github.com/valour01/examiner
 	- https://alastairreid.github.io/RelatedWork/papers/jiang:arxiv:2021/
+- Project Champollion: Reverse engineering Rosetta 2 in M1 Mac
+	- 2021
+	- Koh M. Nakagawa
+	- https://github.com/FFRI/ProjectChampollion/
 - Why is Rosetta 2 fast?
 	- 2022; Dougall Johnson
 	- https://dougallj.wordpress.com/2022/11/09/why-is-rosetta-2-fast/
