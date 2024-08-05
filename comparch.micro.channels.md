@@ -1952,6 +1952,10 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.cs.utexas.edu/~hovav/
 	- https://www.hertzbleed.com/gpu.zip/
 	- https://github.com/UT-Security/gpu-zip
+- Whispering Pixels: Exploiting Uninitialized Register Accesses in Modern GPUs
+	- IEEE European Symposium on Security and Privacy (S&P) 2024
+	- Frederik Dermot Pustelnik, Xhani Marvin Saß, Jean-Pierre Seifert
+	- https://arxiv.org/abs/2401.08881
 
 ## GPU: 2023
 
