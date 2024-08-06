@@ -255,6 +255,11 @@
 	- USENIX Workshop on Industrial Experiences with Systems Software (WIESS) 2000
 	- Christophe de Dinechin
 	- http://www.usenix.org/events/wiess2000/dinechin.html
+- Contrasting exception handling code across languages: An experience report involving 50 open source projects
+	- 2015 IEEE International Symposium on Software Reliability Engineering (ISSRE)
+	- Benjamin Jakobus, Eiji Adachi Barbosa, Alessandro Garcia, Carlos José Pereira De Lucena
+	- https://doi.org/10.1109/ISSRE.2015.7381812
+	- https://www.researchgate.net/publication/295920723_Contrasting_exception_handling_code_across_languages_An_experience_report_involving_50_open_source_projects
 - Enhancing Server Availability and Security Through Failure-Oblivious Computing
 	- OSDI 2004
 	- Martin C. Rinard, Cristian Cadar, Daniel Dumitran, Daniel M. Roy, Tudor Leu, William S. Beebee
