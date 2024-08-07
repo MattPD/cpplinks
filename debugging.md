@@ -235,6 +235,7 @@ _Books, Books Reviews_
 	- Marcell Kiss
 	- part I - The Plan: https://martty.github.io/posts/radbg_part_1/
 	- part II - The Devk: https://martty.github.io/posts/radbg_part_2/
+	- part III - Trap handler: https://martty.github.io/posts/radbg_part_3/
 - On-Stack Replacement, Distilled
 	- Programming Language Design and Implementation (PLDI) 2018
 	- Daniele Cono D'Elia and Camil Demetrescu
