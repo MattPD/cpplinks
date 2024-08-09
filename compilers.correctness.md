@@ -486,6 +486,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://dl.acm.org/doi/10.1145/3624743
 	- https://discovery.ucl.ac.uk/id/eprint/10176723
 	- https://github.com/bnmcxlzd/TOSEM2023_Complementary_materials
+- Java JIT Testing with Template Extraction
+	- ACM International Conference on the Foundations of Software Engineering (FSE) 2024
+	- Zhiqiang Zang, Fu-Yao Yu, Aditya Thimmaiah, August Shi, Milos Gligoric
+	- https://doi.org/10.1145/3643777
+	- https://2024.esec-fse.org/details/fse-2024-research-papers/110/Java-JIT-Testing-with-Template-Extraction
+	- https://github.com/EngineeringSoftware/lejit
 
 ### Testing: Readings: 2023
 
