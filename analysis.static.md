@@ -214,6 +214,11 @@ _Benchmarks & comparisons_
 	- SYNASC 2017
 	- Andrei Arusoaie, Ștefan Ciobâcă, Vlad Crăciun, Dragoș Gavriluț, Dorel Lucanu
 	- https://profs.info.uaic.ro/~stefan.ciobaca/synasc2017.pdf
+- An Empirical Study of Static Analysis Tools for Secure Code Review
+	- International Symposium on Software Testing and Analysis (ISSTA) 2024
+	- Wachiraphan (Ping) Charoenwet, Patanamon Thongtanunam, Thuan Pham, Christoph Treude
+	- https://arxiv.org/abs/2407.12241
+	- https://2024.issta.org/details/issta-2024-papers/56/An-Empirical-Study-of-Static-Analysis-Tools-for-Secure-Code-Review
 - An Empirical Study on the Effectiveness of Static C Code Analyzers for Vulnerability Detection
 	- International Symposium on Software Testing and Analysis (ISSTA) 2022
 	- Stephan Lipp, Sebastian Banescu, Alexander Pretschner
