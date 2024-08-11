@@ -45,7 +45,7 @@ See also:
 		- [MSBuild](#msbuild)
 	- [Xcode](#Xcode)
 	- [xmake](#xmake)
-- [Talks](#talks): [2023](#2023), [2021](#2021), [2019](#2019), [2018](#2018), [2017](#2017)
+- [Talks](#talks): [2024](#2024), [2023](#2023), [2021](#2021), [2019](#2019), [2018](#2018), [2017](#2017)
 
 ---
 
@@ -1102,6 +1102,14 @@ See also:
 ---
 
 # Talks
+
+## 2024
+
+- The Importance of the C++ Build System Target Model
+	- C++Now 2024
+	- Bill Hoffman
+	- https://www.youtube.com/watch?v=bQQMCdIsjgw
+	- https://github.com/boostcon/cppnow_presentations_2024/blob/main/Presentations/The_importance_of_the_build_system_target_model.pdf
 
 ## 2023
 
