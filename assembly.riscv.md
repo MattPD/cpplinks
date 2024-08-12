@@ -156,6 +156,8 @@ https://riscv.org/risc-v-books/
 	- https://github.com/riscv/riscv-v-spec
 - Programming with RISC-V Vector Instructions
 	- https://gms.tf/riscv-vector.html
+- RISC-V Vector benchmarks
+	- https://github.com/camel-cdr/rvv-bench
 - RISC-V Vector Extension in a Nutshell
 	- https://fprox.substack.com/p/risc-v-vector-in-a-nutshell
 	- Part 1: Introduction
