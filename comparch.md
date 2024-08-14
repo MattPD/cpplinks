@@ -54,8 +54,9 @@ See also: [Assembly (Arm)](assembly.arm.md), [Assembly (RISC-V)](assembly.riscv.
 - ACM International Conference on Supercomputing (ICS) 25th Anniversary Volume
 	 2014
 	- https://dl.acm.org/citation.cfm?id=2591635&picked=prox
-- Synthesis Lectures on Computer Architecture - Morgan & Claypool Publishers
-	- http://www.morganclaypool.com/toc/cac/11/1
+- Synthesis Lectures on Computer Architecture
+	- https://dblp.org/db/series/synthesis-cac
+	- https://www.springer.com/series/16916
 
 ---
 
