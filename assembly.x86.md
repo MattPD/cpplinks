@@ -239,9 +239,6 @@ Links to the latest versions: http://www.nasm.us/docs.php
 Wikipedia: x86 assembly topics  
 https://en.wikipedia.org/wiki/Template:X86_assembly_topics
 
-x86 Encoding Cheat Sheet  
-https://www.akkadia.org/drepper/x86-opcode-structure.pdf
-
 x86 Instruction Set Reference  
 http://felixcloutier.com/x86/  
 https://github.com/zneak/x86doc
@@ -257,9 +254,6 @@ http://users.atw.hu/instlatx64/
 x86_64 NASM Assembly Quick Reference ("Cheat Sheet")  
 https://www.cs.uaf.edu/2010/fall/cs301/support/x86_64/index.html
 
-X86-64 Instruction Encoding  
-http://wiki.osdev.org/X86-64_Instruction_Encoding
-
 X86 Opcode and Instruction Reference  
 http://ref.x86asm.net/
 
@@ -272,6 +266,15 @@ http://x86.corkami.com
 x86-cpuid.org: A machine-readable CPUID data repository and code generator  
 https://x86-cpuid.org/  
 https://gitlab.com/x86-cpuid.org/x86-cpuid-db
+
+## References: Encoding
+
+- x86 Encoding Cheat Sheet
+	- https://www.akkadia.org/drepper/x86-opcode-structure.pdf
+- x86 prefixes and escape opcodes flowchart
+	- https://soc.me/interfaces/x86-prefixes-and-escape-opcodes-flowchart
+- X86-64 Instruction Encoding
+	- http://wiki.osdev.org/X86-64_Instruction_Encoding
 
 ## OS-specific
 
