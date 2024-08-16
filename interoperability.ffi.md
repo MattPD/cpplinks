@@ -506,6 +506,8 @@
 - Corrosion: lets you instantly start using Rust in any existing C and C++ project using CMake
 	- a tool for integrating Rust into an existing CMake project; capable of importing executables, static libraries, and dynamic libraries from a crate.
 	- https://github.com/AndrewGaspar/corrosion
+- Crubit: C++/Rust Bidirectional Interop Tool
+	- https://github.com/google/crubit
 - CXX: safe FFI between Rust and C++
 	- https://github.com/dtolnay/cxx
 - Diplomat: Experimental Rust tool for generating FFI definitions allowing other languages to call Rust code
