@@ -1110,6 +1110,9 @@ https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blo
 
 ## Software: Assembly
 
+- AsmJit: Machine code generation for C++
+	- a lightweight library for machine code generation written in C++ language
+	- https://github.com/asmjit/asmjit
 - AZM - Live ARM Assembler and Syntax Checker
 	- https://azeria-labs.com/azm/
 - Lightening: Just-in-time code generation library derived from GNU Lightning
