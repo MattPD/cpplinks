@@ -253,6 +253,10 @@ https://riscv.org/risc-v-books/
 	- https://www.cl.cam.ac.uk/~pes20/sail/
 	- http://www.cl.cam.ac.uk/users/pes20/sail/sail-popl2019.pdf
 	- talk; https://dl.acm.org/citation.cfm?doid=3302515.3290384&preflayout=flat#formats
+- KRISC-V: Semantics of RISC-V in K
+	- an executable formal semantics of the RISC-V ISA using the K framework
+	- unprivileged RV32E base ISA
+	- https://github.com/runtimeverification/riscv-semantics
 - L3 Specification of the RISC-V ISA - https://github.com/SRI-CSL/l3riscv
 - RISC-V Architectural Self Checking Tests
 	- https://github.com/tenstorrent/riscv_arch_tests
