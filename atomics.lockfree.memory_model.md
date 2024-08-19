@@ -199,6 +199,10 @@
 	- http://kukuruku.co/hub/cpp/lock-free-data-structures-the-evolution-of-a-stack
 	- http://kukuruku.co/hub/cpp/lock-free-data-structures-yet-another-treatise
 	- http://kukuruku.co/hub/cpp/lock-free-data-structures-exploring-queues
+- Lucian Radu Teodorescu
+	- In an Atomic World
+	- Overload, 32(182):6-12, August 2024
+	- https://accu.org/journals/overload/32/182/teodorescu/
 - "Moody Camel" Series:
 	- http://moodycamel.com/blog/2013/a-fast-lock-free-queue-for-c++
 	- http://moodycamel.com/blog/2014/a-fast-general-purpose-lock-free-queue-for-c++
