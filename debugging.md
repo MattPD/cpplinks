@@ -236,6 +236,7 @@ _Books, Books Reviews_
 	- part I - The Plan: https://martty.github.io/posts/radbg_part_1/
 	- part II - The Devk: https://martty.github.io/posts/radbg_part_2/
 	- part III - Trap handler: https://martty.github.io/posts/radbg_part_3/
+	- part IV - Grand finale: https://martty.github.io/posts/radbg_part_4/
 - On-Stack Replacement, Distilled
 	- Programming Language Design and Implementation (PLDI) 2018
 	- Daniele Cono D'Elia and Camil Demetrescu
