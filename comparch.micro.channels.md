@@ -940,6 +940,15 @@ See also: [Computer Architecture](comparch.md)
 - Pitchfork: Detecting Spectre vulnerabilities using symbolic execution
 	- https://github.com/cdisselkoen/pitchfork
 
+### Defense: Speculation: 2024
+
+- BeeBox: Hardening BPF against Transient Execution Attacks
+	- USENIX Security 2024
+	- Di Jin, Alexander J. Gaidis, Vasileios P. Kemerlis
+	- https://www.usenix.org/conference/usenixsecurity24/presentation/jin-di
+	- https://cs.brown.edu/~vpk/papers/beebox.sec24.pdf
+	- https://gitlab.com/brown-ssl/beebox
+
 ### Defense: Speculation: 2022
 
 - Kasper: Scanning for Generalized Transient Execution Gadgets in the Linux Kernel
