@@ -492,6 +492,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://doi.org/10.1145/3643777
 	- https://2024.esec-fse.org/details/fse-2024-research-papers/110/Java-JIT-Testing-with-Template-Extraction
 	- https://github.com/EngineeringSoftware/lejit
+- Testing the MSVC Compiler Backend
+	- 2024
+	- Troy Johnson
+	- https://devblogs.microsoft.com/cppblog/testing-the-msvc-compiler-backend/
 
 ### Testing: Readings: 2023
 
