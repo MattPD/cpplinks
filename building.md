@@ -509,6 +509,12 @@ See also:
 - Practical Techniques for Improving C++ Build Times
 	- CppCon 2017; Dmitry Panin
 	- https://www.youtube.com/watch?v=h8UoYG4dvH8
+- Reducing C++ Compilation Times Through Good Design
+	- Andrew Pearcy and Jeffrey So
+	- ACCU 2024
+		- https://www.youtube.com/watch?v=ItcGevumW-8
+	- using std::cpp 2024
+		- https://www.youtube.com/watch?v=Afc6Cjk0gJk
 - The Hitchhiker's Guide to Faster Builds
 	- Viktor Kirilov
 	- slides: https://slides.com/onqtam/faster_builds
