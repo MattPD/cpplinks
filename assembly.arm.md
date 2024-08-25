@@ -1218,6 +1218,8 @@ See also: [Readings: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 		- http://old.gem5.org/ARM_Implementation.html
 	- Building ARM Kernel - http://www.gem5.org/documentation/general_docs/fullsystem/building_arm_kernel
 	- Extending gem5 for ARM - http://www.gem5.org/documentation/learning_gem5/part1/extending_configs
+- LNSym: Armv8 Native Code Symbolic Simulator in Lean
+	- https://github.com/leanprover/LNSym
 - OakSim: Online ARM assembler and emulator
 	- https://wunkolo.github.io/OakSim/
 	- https://github.com/Wunkolo/OakSim
