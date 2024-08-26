@@ -12,76 +12,22 @@
 
 ## Blogs: Posts and Series
 
-- Akshay Kumar
-	- How McSema Handles C++ Exceptions - https://blog.trailofbits.com/2019/01/21/how-mcsema-handles-c-exceptions/
-- Andrii Batyiev - Size cost of C++ exception handling on embedded platform
-	- Uses microbenchmarking to examine the effect of exceptions on code size.
-	- https://andriidevel.blogspot.co.uk/2016/05/size-cost-of-c-exception-handling-on.html
 - Andrzej Krzemieński
-	- https://akrzemi1.wordpress.com/2011/09/21/destructors-that-throw/
-	- https://akrzemi1.wordpress.com/2012/11/14/not-using-stdthread/
-	- https://akrzemi1.wordpress.com/2013/07/18/cs-best-feature/
-	- https://akrzemi1.wordpress.com/2013/08/20/noexcept-destructors/
-	- https://akrzemi1.wordpress.com/2014/02/12/find-the-bug/
-	- https://akrzemi1.wordpress.com/2014/03/13/find-the-bug-comments/
-	- https://akrzemi1.wordpress.com/2014/04/24/noexcept-what-for/
-	- https://akrzemi1.wordpress.com/2014/09/19/destructors-2-use-cases/
-	- Handling errors is canceling operations - https://akrzemi1.wordpress.com/2019/04/25/handling-errors-is-canceling-operations/
-	- Operation cancelling and std::fstream - https://akrzemi1.wordpress.com/2019/05/23/operation-cancelling-and-stdfstream/
 	- error codes
 		- Your own error code - https://akrzemi1.wordpress.com/2017/07/12/your-own-error-code/
 		- Your own error condition - https://akrzemi1.wordpress.com/2017/08/12/your-own-error-condition/
 		- Using error codes effectively - https://akrzemi1.wordpress.com/2017/09/04/using-error-codes-effectively/
 		- error codes — some clarifications - https://akrzemi1.wordpress.com/2017/10/14/error-codes-some-clarifications/
-- Arthur O’Dwyer - https://quuxplusone.github.io/blog/tags/#exception-handling
-	- Copy Elision in Throw Statements - https://quuxplusone.github.io/blog/2018/04/09/elision-in-throw-statements/
-	- The Lakos Rule - https://quuxplusone.github.io/blog/2018/04/25/the-lakos-rule/
-	- Data race when catching by non-const reference - https://quuxplusone.github.io/blog/2018/09/16/data-race-when-catch-by-nonconst-reference/
-	- MSVC can’t handle move-only exception types - https://quuxplusone.github.io/blog/2019/05/11/msvc-what-are-you-doing/
+	- Handling errors is canceling operations
+		- https://akrzemi1.wordpress.com/2019/04/25/handling-errors-is-canceling-operations/
 - Bartlomiej Filipek
 	- Using std::expected from C++23
 		- https://www.cppstories.com/2024/expected-cpp23/
-- Boris Kolpackov
-	- Throwing Destructors - https://www.kolpackov.net/projects/c++/eh/dtor-1.xhtml
 - "Buckaroo" - Error Handling in C++ or: Why You Should Use Eithers in Favor of Exceptions and Error-codes
 	- Presents some reasons to use Eithers (A.K.A. `std::expected`) instead of other alternatives.
 	- https://hackernoon.com/error-handling-in-c-or-why-you-should-use-eithers-in-favor-of-exceptions-and-error-codes-f0640912eb45
-- Chris Brumme - The Exception Model
-	- Windows Structured Exception Handling (SEH) and C++ exceptions
-	- https://blogs.msdn.microsoft.com/cbrumme/2003/10/01/the-exception-model/
-	- https://cbrumme.dev/the-exception-model
-- Edaqa Mortoray
-	- Everything wrong with C++ exceptions
-		- Does as it says on the tin.
-		- https://mortoray.com/2012/04/02/everything-wrong-with-exceptions/
-	- The true cost of zero cost exceptions
-		- Examines how exceptions are implemented in order to show some of the real costs of them.
-		- https://mortoray.com/2013/09/12/the-true-cost-of-zero-cost-exceptions/
-- Eric Lippert
-	- I Take Exception To That - https://ericlippert.com/2003/10/15/i-take-exception-to-that/
-	- Long jumps considered way more harmful than exceptions - https://ericlippert.com/2003/10/16/long-jumps-considered-way-more-harmful-than-exceptions/
-- Fangrui Song
-	- C++ exception handling ABI
-	- https://maskray.me/blog/2020-12-12-c++-exception-handling-abi
 - Fredrik Dahlgren
 	- Finding unhandled errors using CodeQL - https://blog.trailofbits.com/2022/01/11/finding-unhandled-errors-using-codeql/
-- Herb Sutter - When and How to Use Exceptions
-	- Guidelines on which cases to use exceptions for.
-	- http://www.drdobbs.com/when-and-how-to-use-exceptions/184401836
-- Hyungjoon Koo (Kevin)
-	- ELF Sections for Exception Handling - https://dandylife.net/blog/archives/686
-- Ian Lance Taylor
-	- GCC Exception Frames - https://www.airs.com/blog/archives/166
-	- Exception Destruction - https://www.airs.com/blog/archives/257
-	- .eh_frame - https://www.airs.com/blog/archives/460
-	- .eh_frame_hdr - https://www.airs.com/blog/archives/462
-	- .gcc_except_table - https://www.airs.com/blog/archives/464
-- Jason Robert Carey Patterson - Exception Handling Considered Harmful
-	- A discussion of various problems with C++ exceptions.
-	- http://www.lighterra.com/papers/exceptionsharmful/
-- Jeff Preshing - The Cost of Enabling Exception Handling
-	- Uses microbenchmarking and assembly analysis to examine the effect of enabling exceptions.
-	- http://preshing.com/20110807/the-cost-of-enabling-exception-handling/
 - Joe Duffy - The Error Model - http://joeduffyblog.com/2016/02/07/the-error-model/
 - Jonathan Müller
 	- Exceptions vs expected: Let's find a compromise
@@ -94,32 +40,67 @@
 		- Part 2: Flexible error handling techniques in C++ - https://foonathan.net/2016/06/flexible-error-handling/
 		- Part 3: How do I implement assertions? - https://foonathan.net/2016/09/assertions/
 		- Part 4: Prevent precondition errors with the C++ type system - https://foonathan.net/2016/09/error-handling-types/
-- Joseph M. Newcomer - Mythology in C++: Exceptions are Expensive
-	- Microbenchmarks and assembly examinations to show that exceptions are not as expensive as many say.
-	- http://www.flounder.com/exceptions.htm
 - Joseph Mansfield - Exceptions, error codes, and assertions in C++
 	- A high-level look at different error handling techniques and guidelines on when to use them.
 	- http://josephmansfield.uk/articles/exceptions-error-codes-assertions-c++.html
-- Jussi Pakkanen - Are exceptions slower than error objects
+- Simon Brand
+	- Functional exceptionless error-handling with optional and expected
+		- (2017) Demonstrates how to use `optional` and `expected` with monadic extensions.
+		- https://blog.tartanllama.xyz/optional-expected/
+	- Functional exception-less error handling with C++23's `optional` and `expected`
+		- (2023) updated version
+		- https://devblogs.microsoft.com/cppblog/cpp23s-optional-and-expected/
+- Stefan Gränitz - Series: Rich Recoverable Error Handling with llvm::Expected<T>
+	- Demonstrating the motivation and use of `llvm::Expected`.
+	- https://weliveindetail.github.io/blog/post/2017/10/22/llvm-expected.html
+	- https://github.com/weliveindetail/llvm-expected
+	- Talk - C++ User Group Berlin 2017, September 19th: Rich Polymorphic Error Handling with llvm::Expected<T>
+		- Slides (PDF): https://github.com/weliveindetail/talks/raw/master/Expectify.pdf
+- Vittorio Romeo - Why choose sum types over exceptions?
+	- A case study of somewhere you might want to choose sum types over exceptions, along with some more general guidance.
+	- https://vittorioromeo.info/index/blog/adts_over_exceptions.html
+
+## Readings: Exceptions
+
+- Andrzej Krzemieński
+	- C++’s best feature - Determined object life-time; destructors & exceptions
+		- https://akrzemi1.wordpress.com/2013/07/18/cs-best-feature/
+	- Destructors that throw
+		- https://akrzemi1.wordpress.com/2011/09/21/destructors-that-throw/
+	- Destructors — 2 use cases - releasing resources, launching the cancellation cascade
+		- https://akrzemi1.wordpress.com/2014/09/19/destructors-2-use-cases/
+	- Find the bug - exception safety guarantees
+		- https://akrzemi1.wordpress.com/2014/02/12/find-the-bug/
+	- Find the bug - exception safety guarantees — comments
+		- https://akrzemi1.wordpress.com/2014/03/13/find-the-bug-comments/
+	- noexcept destructors
+		- https://akrzemi1.wordpress.com/2013/08/20/noexcept-destructors/
+	- noexcept — what for?
+		- https://akrzemi1.wordpress.com/2014/04/24/noexcept-what-for/
+	- (Not) using std::thread - exception safety guarantees
+		- https://akrzemi1.wordpress.com/2012/11/14/not-using-stdthread/
+	- Operation cancelling and std::fstream
+		- https://akrzemi1.wordpress.com/2019/05/23/operation-cancelling-and-stdfstream/
+- Are exceptions slower than error objects - Jussi Pakkanen
 	- A series of microbenchmarks examining the relative cost of exceptions and error objects.
 	- Are exceptions slower than error objects - http://nibblestew.blogspot.co.uk/2015/12/are-exceptions-slower-than-error-objects.html
 	- Comparing executable size of C++ exceptions vs plain C error structs - http://nibblestew.blogspot.com/2016/12/comparing-executable-size-of-c.html
 	- Measuring execution performance of C++ exceptions vs error codes - http://nibblestew.blogspot.com/2017/01/measuring-execution-performance-of-c.html
 	- Testing exception vs error code behaviour with real world code - http://nibblestew.blogspot.com/2017/01/testing-exception-vs-error-code.html
-- Lucian Teodorescu
-‏	- Exceptional exploration
-		- http://lucteo.ro/2018/03/18/exceptional-exploration-1/
-		- http://lucteo.ro/2018/04/21/exception-exploration-2/
-- Mike Hearn - What's wrong with exceptions? Nothing.
-	- A defense of exceptions in general, but contains discussion on issues with C++'s implementation of them.
-	- https://blog.plan99.net/what-s-wrong-with-exceptions-nothing-cee2ed0616
-- Modi Mo
-	- Making C++ Exception Handling Smaller On x64
-	- https://devblogs.microsoft.com/cppblog/making-cpp-exception-handling-smaller-x64/
-- Nemanja Trifunovic - C++ Exceptions: Pros and Cons
-	- A discussion of the pros and cons of exceptions.
-	- https://www.codeproject.com/Articles/38449/C-Exceptions-Pros-and-Cons
-- Nicolas Brailovsky - C++ exceptions under the hood
+- Arthur O’Dwyer - https://quuxplusone.github.io/blog/tags/#exception-handling
+	- Copy Elision in Throw Statements - https://quuxplusone.github.io/blog/2018/04/09/elision-in-throw-statements/
+	- The Lakos Rule - https://quuxplusone.github.io/blog/2018/04/25/the-lakos-rule/
+	- Data race when catching by non-const reference - https://quuxplusone.github.io/blog/2018/09/16/data-race-when-catch-by-nonconst-reference/
+	- MSVC can’t handle move-only exception types - https://quuxplusone.github.io/blog/2019/05/11/msvc-what-are-you-doing/
+- C++ Exception Handling - Theofilos Petsios
+	- Base ABI - http://web.archive.org/web/20141209000556/http://theofilos.cs.columbia.edu/blog/2013/09/22/base_abi/
+	- Level II ABI - http://web.archive.org/web/20141209000543/http://theofilos.cs.columbia.edu/blog/2013/09/27/c-exception-handling-level-ii-abi/
+	- Overview - http://web.archive.org/web/20141208235659/http://theofilos.cs.columbia.edu/blog/2013/09/30/c-exception-handling/
+	- Stack Frame Destruction - http://web.archive.org/web/20141208235529/http://theofilos.cs.columbia.edu/blog/2013/10/03/c-exception-handling-stack-frame-destruction/
+- C++ exception handling ABI
+	- Fangrui Song
+	- https://maskray.me/blog/2020-12-12-c++-exception-handling-abi
+- C++ exceptions under the hood - Nicolas Brailovsky
 	- A long series of posts looking at how C++ exceptions are actually implemented.
 	- https://monkeywritescode.blogspot.com/2013/02/c-exceptions-under-hood.html
 	- https://monkeywritescode.blogspot.com/2013/02/c-exceptions-under-hood-ii-tiny-abi.html
@@ -145,10 +126,66 @@
 	- https://monkeywritescode.blogspot.com/2013/06/c-exceptions-under-hood-appendix-i-true.html
 	- https://monkeywritescode.blogspot.com/2013/06/c-exceptions-under-hood-appendix-ii.html
 	- https://monkeywritescode.blogspot.com/2013/07/c-exceptions-under-hood-appendix-iii.html
-- Patrice Roy - Exceptions in C++ and their Costs
+- C++ Exceptions: Pros and Cons - Nemanja Trifunovic
+	- A discussion of the pros and cons of exceptions.
+	- https://www.codeproject.com/Articles/38449/C-Exceptions-Pros-and-Cons
+- C++ Exceptions: The Good, The Bad, And The Ugly - Shane Kirk
+	- A discussion of the pros and cons of exceptions.
+	- http://www.shanekirk.com/2015/06/c-exceptions-the-good-the-bad-and-the-ugly/
+- C++ Unwind Exception Metadata: A Hidden Reverse Engineering Bonanza
+	- August 22, 2024 Rolf Rolles
+	- https://www.msreverseengineering.com/blog/2024/8/20/c-unwind-metadata-1
+- Edaqa Mortoray
+	- Everything wrong with C++ exceptions
+		- Does as it says on the tin.
+		- https://mortoray.com/2012/04/02/everything-wrong-with-exceptions/
+	- The true cost of zero cost exceptions
+		- Examines how exceptions are implemented in order to show some of the real costs of them.
+		- https://mortoray.com/2013/09/12/the-true-cost-of-zero-cost-exceptions/
+- ELF Sections for Exception Handling
+	- 2017
+	- Hyungjoon Koo (Kevin)
+	- https://kevinkoo001.github.io/blog/2017/elf-sections-for-exception-handling/
+- Eric Lippert
+	- I Take Exception To That - https://ericlippert.com/2003/10/15/i-take-exception-to-that/
+	- Long jumps considered way more harmful than exceptions - https://ericlippert.com/2003/10/16/long-jumps-considered-way-more-harmful-than-exceptions/
+- Exception Handling Considered Harmful - Jason Robert Carey Patterson
+	- A discussion of various problems with C++ exceptions.
+	- http://www.lighterra.com/papers/exceptionsharmful/
+- Exceptional exploration - Lucian Teodorescu
+		- http://lucteo.ro/2018/03/18/exceptional-exploration-1/
+		- http://lucteo.ro/2018/04/21/exception-exploration-2/
+- Exceptions in C++ and their Costs - Patrice Roy
 	- A series of microbenchmarks looking at the tradeoffs between exceptions and error codes.
 	- http://h-deb.clg.qc.ca/Sujets/Developpement/Exceptions-Costs.html
-- Raymond Chen - The Old New Thing
+- How McSema Handles C++ Exceptions
+	- Akshay Kumar
+	- https://blog.trailofbits.com/2019/01/21/how-mcsema-handles-c-exceptions/
+- Ian Lance Taylor
+	- GCC Exception Frames - https://www.airs.com/blog/archives/166
+	- Exception Destruction - https://www.airs.com/blog/archives/257
+	- .eh_frame - https://www.airs.com/blog/archives/460
+	- .eh_frame_hdr - https://www.airs.com/blog/archives/462
+	- .gcc_except_table - https://www.airs.com/blog/archives/464
+- Making C++ Exception Handling Smaller On x64
+	- Modi Mo
+	- https://devblogs.microsoft.com/cppblog/making-cpp-exception-handling-smaller-x64/
+- Mythology in C++: Exceptions are Expensive - Joseph M. Newcomer
+	- Microbenchmarks and assembly examinations to show that exceptions are not as expensive as many say.
+	- http://www.flounder.com/exceptions.htm
+- Size cost of C++ exception handling on embedded platform
+	- Andrii Batyiev
+	- Uses microbenchmarking to examine the effect of exceptions on code size.
+	- https://andriidevel.blogspot.co.uk/2016/05/size-cost-of-c-exception-handling-on.html
+- The Cost of Enabling Exception Handling - Jeff Preshing
+	- Uses microbenchmarking and assembly analysis to examine the effect of enabling exceptions.
+	- http://preshing.com/20110807/the-cost-of-enabling-exception-handling/
+- The Exception Model
+	- Chris Brumme
+	- Windows Structured Exception Handling (SEH) and C++ exceptions
+	- https://blogs.msdn.microsoft.com/cbrumme/2003/10/01/the-exception-model/
+	- https://cbrumme.dev/the-exception-model
+- The Old New Thing - Raymond Chen
 	- Decoding the parameters of a thrown C++ exception (0xE06D7363)
 		- https://devblogs.microsoft.com/oldnewthing/20100730-00/?p=13273
 	- Decoding the parameters of a thrown C++ exception (0xE06D7363), revisited
@@ -163,33 +200,19 @@
 		- https://devblogs.microsoft.com/oldnewthing/20200116-00/?p=103333
 	- How can I turn a structured exception into a C++ exception without having to use /EHa, if I can constrain exactly where the structured exception is coming from?
 		- https://devblogs.microsoft.com/oldnewthing/20200117-00/?p=103338
-- Shane Kirk - C++ Exceptions: The Good, The Bad, And The Ugly
-	- A discussion of the pros and cons of exceptions.
-	- http://www.shanekirk.com/2015/06/c-exceptions-the-good-the-bad-and-the-ugly/
-- Simon Brand
-	- Functional exceptionless error-handling with optional and expected
-		- (2017) Demonstrates how to use `optional` and `expected` with monadic extensions.
-		- https://blog.tartanllama.xyz/optional-expected/
-	- Functional exception-less error handling with C++23's `optional` and `expected`
-		- (2023) updated version
-		- https://devblogs.microsoft.com/cppblog/cpp23s-optional-and-expected/
-- Stafford Horne
-	- Unwinding a Bug - How C++ Exceptions Work
+- Throwing Destructors
+	- 2003-2004
+	- Boris Kolpackov
+	- https://www.kolpackov.net/projects/c++/eh/dtor-1.xhtml
+- Unwinding a Bug - How C++ Exceptions Work
+	- Stafford Horne
 	- http://stffrdhrn.github.io/software/toolchain/openrisc/2020/12/13/cxx-exception-unwinding.html
-- Stefan Gränitz - Series: Rich Recoverable Error Handling with llvm::Expected<T>
-	- Demonstrating the motivation and use of `llvm::Expected`.
-	- https://weliveindetail.github.io/blog/post/2017/10/22/llvm-expected.html
-	- https://github.com/weliveindetail/llvm-expected
-	- Talk - C++ User Group Berlin 2017, September 19th: Rich Polymorphic Error Handling with llvm::Expected<T>
-		- Slides (PDF): https://github.com/weliveindetail/talks/raw/master/Expectify.pdf
-- Theofilos Petsios - C++ Exception Handling
-	- Base ABI - http://web.archive.org/web/20141209000556/http://theofilos.cs.columbia.edu/blog/2013/09/22/base_abi/
-	- Level II ABI - http://web.archive.org/web/20141209000543/http://theofilos.cs.columbia.edu/blog/2013/09/27/c-exception-handling-level-ii-abi/
-	- Overview - http://web.archive.org/web/20141208235659/http://theofilos.cs.columbia.edu/blog/2013/09/30/c-exception-handling/
-	- Stack Frame Destruction - http://web.archive.org/web/20141208235529/http://theofilos.cs.columbia.edu/blog/2013/10/03/c-exception-handling-stack-frame-destruction/
-- Vittorio Romeo - Why choose sum types over exceptions?
-	- A case study of somewhere you might want to choose sum types over exceptions, along with some more general guidance.
-	- https://vittorioromeo.info/index/blog/adts_over_exceptions.html
+- What's wrong with exceptions? Nothing. - Mike Hearn
+	- A defense of exceptions in general, but contains discussion on issues with C++'s implementation of them.
+	- https://blog.plan99.net/what-s-wrong-with-exceptions-nothing-cee2ed0616
+- When and How to Use Exceptions - Herb Sutter
+	- Guidelines on which cases to use exceptions for.
+	- http://www.drdobbs.com/when-and-how-to-use-exceptions/184401836
 
 ## Readings: Security
 
