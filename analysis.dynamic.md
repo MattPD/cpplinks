@@ -369,6 +369,8 @@ See also:
 				- 2023; MaskRay (Fangrui Song)
 				- https://maskray.me/blog/2023-02-12-all-about-leak-sanitizer
 		- MemorySanitizer - https://clang.llvm.org/docs/MemorySanitizer.html
+		- RealtimeSanitizer (RTSan): a real-time safety testing tool for C and C++ projects
+			- https://clang.llvm.org/docs/RealtimeSanitizer.html
 		- SanitizerCoverage - https://clang.llvm.org/docs/SanitizerCoverage.html
 			- SanCov: Above and Below the Sanitizer Interface
 				- https://calabi-yau.space/blog/sanitizer-coverage-interface.html
