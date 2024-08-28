@@ -2217,6 +2217,12 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 	- USENIX Security 2019
 	- Saad Islam, Ahmad Moghimi, Ida Bruhns, Moritz Krebbel, Berk Gulmezoglu, Thomas Eisenbarth, Berk Sunar
 	- https://arxiv.org/abs/1903.00446
+- TeeJam: Sub-Cache-Line Leakages Strike Back
+	- IACR Transactions on Cryptographic Hardware and Embedded Systems TCHES 2024(1)
+	- Florian Sieck, Zhiyuan Zhang, Sebastian Berndt, Chitchanok Chuengsatiansup, Thomas Eisenbarth, Yuval Yarom
+	- https://doi.org/10.46586/tches.v2024.i1.457-500
+	- https://github.com/UzL-ITS/teejam
+	- https://github.com/UzL-ITS/rsa-key-recovery
 
 ---
 
