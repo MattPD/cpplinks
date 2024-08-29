@@ -129,6 +129,9 @@
 		- Programming Language Design and Implementation (PLDI) 2021
 		- Daniel Anderson, Guy E. Blelloch, Yuanhao Wei
 		- https://doi.org/10.1145/3453483.3454060
+- Using Quiescent States to Reclaim Memory
+	- 2016; Jeff Preshing
+	- https://preshing.com/20160726/using-quiescent-states-to-reclaim-memory/
 
 ---
 
