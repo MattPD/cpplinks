@@ -1896,6 +1896,13 @@ Validation: Including translation validation, equivalence checking.
 	- Léo Gourdin
 	- https://dl.acm.org/doi/abs/10.1145/3605158.3605848
 	- https://hal.science/hal-04108775
+- Verified compilation of a purely functional language to a realistic machine semantics
+	 - 2023 PhD Dissertation
+	 - Hrutvik Kanabar
+	 - https://doi.org/10.22024/UniKent/01.02.105396
+	 - https://kar.kent.ac.uk/105396/
+	 - https://hrutvik.co.uk/assets/pdf/Hrutvik_Kanabar_thesis.pdf
+	 - https://hrutvik.co.uk/assets/pdf/viva_voce_slides.pdf
 - Verified Function Inlining Optimization for the PureCake Compiler
 	- 2023 Master's Thesis
 	- Kacper Korban
