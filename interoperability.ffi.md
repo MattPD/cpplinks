@@ -510,6 +510,8 @@
 	- https://github.com/google/crubit
 - CXX: safe FFI between Rust and C++
 	- https://github.com/dtolnay/cxx
+- CXX-Qt: a set of Rust crates for creating bidirectional Rust ⇄ C++ bindings with Qt
+	- https://github.com/KDAB/cxx-qt
 - Diplomat: Experimental Rust tool for generating FFI definitions allowing other languages to call Rust code
 	- define Rust APIs to be exposed over FFI and get high-level C, C++, and JavaScript bindings automatically
 	- https://github.com/rust-diplomat/diplomat/
