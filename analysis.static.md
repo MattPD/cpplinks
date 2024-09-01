@@ -64,6 +64,13 @@ See also:
 	- Anders Møller, Michael I. Schwartzbach
 	- https://cs.au.dk/~amoeller/spa/
 
+## Readings: Implementation
+
+- Implementing and Executing Static Analysis Using LLVM and CodeChecker
+	- 2024
+	- Gabor Horvath, Reka Kovacs, Richard Szalay, Zoltan Porkolab
+	- https://arxiv.org/abs/2408.05657
+
 ## Readings: Research
 
 - Static Analysis Symposia Central Site
