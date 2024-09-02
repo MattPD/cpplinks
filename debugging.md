@@ -894,6 +894,13 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Why your errno value isn't printing in GDB—and what to do about it
 	- https://developers.redhat.com/articles/2024/06/05/why-your-errno-value-isnt-printing-gdb-and-what-do-about-it
 
+#### GDB: Readings: Pretty Printing
+
+- Visualizing boost::unordered_map in GDB, with pretty-printer customization points
+	- 2024-08-16; Braden Ganetsky
+	- https://blog.ganets.ky/PrettyPrinter/
+	- https://github.com/boostorg/unordered/blob/develop/extra/boost_unordered_printers.py
+
 #### GDB: Readings: Python API
 
 - GDB Custom Commands: Dynamic Arrays
