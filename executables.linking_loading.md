@@ -276,6 +276,9 @@ See also:
 	- isra
 	- https://tmpout.sh/3/10.html
 	- https://github.com/ilv/elf/blob/main/exec_elf64.pl
+- Leveraging LD_AUDIT to Beat the Traditional Linux Library Preloading Technique
+	- 2020-10-13; Lior Ribak
+	- https://www.sentinelone.com/labs/leveraging-ld_audit-to-beat-the-traditional-linux-library-preloading-technique/
 - Linker limitations on 32-bit architectures
 	- 2019; Alexander E. Patrakov
 	- https://lwn.net/Articles/797303/
