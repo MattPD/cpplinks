@@ -2412,6 +2412,11 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 	- Boru Chen, Yingchen Wang, Pradyumna Shome, Christopher W. Fletcher, David Kohlbrenner, Riccardo Paccagnella, Daniel Genkin
 	- https://gofetch.fail/
 	- https://github.com/FPSG-UIUC/GoFetch
+	- The Apple M-Series GoFetch Attack
+		- 2024-03-27
+		- Casey Muratori
+		- https://www.computerenhance.com/p/the-apple-m-series-gofetch-attack
+		- https://www.youtube.com/watch?v=uZEBkOrfUzM
 
 ## Prefetch: 2022
 
