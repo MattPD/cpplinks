@@ -288,6 +288,10 @@
 	- https://arxiv.org/abs/2310.12337
 	- A Proposal Fix for C/C++ Relaxed Atomics in Practice
 		- https://lukegeeson.com/blog/2023-10-17-A-Proposal-For-Relaxed-Atomics/
+- Mix Testing: Specifying and Testing ABI Compatibility of C/C++ Atomics Implementations
+	- OOPSLA (Object-oriented Programming, Systems, Languages, and Applications) 2024
+	- Luke Geeson, James Brotherston, Wilco Dijkstra, Alastair F. Donaldson, Lee Smith, Tyler Sorensen, John Wickerson
+	- https://arxiv.org/abs/2409.01161
 - N4455: No Sane Compiler Would Optimize Atomics
 	- http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/n4455.html
 - Partially Redundant Fence Elimination for x86, ARM, and Power Processors
