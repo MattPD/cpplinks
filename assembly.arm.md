@@ -896,6 +896,16 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 			- tmp.0ut #003 - 2023-11
 			- wintermute
 			- https://tmpout.sh/3/23.html
+	- Asahi Linux documentation Wiki
+		- https://github.com/asahilinux/docs/wiki
+		- Introduction to Apple Silicon
+			- https://github.com/AsahiLinux/docs/wiki/Introduction-to-Apple-Silicon
+		- Open OS Ecosystem on Apple Silicon Macs
+			- https://github.com/AsahiLinux/docs/wiki/Open-OS-Ecosystem-on-Apple-Silicon-Macs
+		- m1n1:User Guide
+			- https://github.com/AsahiLinux/docs/wiki/m1n1%3AUser-Guide
+		- Apple Platform Security Crash Course
+			- https://github.com/AsahiLinux/docs/wiki/Apple-Platform-Security-Crash-Course
 - macOS
 	- Apple Silicon - Apple Developer Documentation
 		- https://developer.apple.com/documentation/apple_silicon
