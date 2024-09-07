@@ -1866,6 +1866,13 @@ Validation: Including translation validation, equivalence checking.
 	- European Symposium on Programming (ESOP) 2024
 	- Hrutvik Kanabar, Kacper Korban, Magnus O. Myreen
 	- https://cakeml.org/esop24-inlining.pdf
+- Verifying Peephole Rewriting in SSA Compiler IRs
+	- Interactive Theorem Proving (ITP) 2024
+	- Siddharth Bhat, Alex Keizer, Chris Hughes, Andrés Goens, Tobias Grosser
+	- https://arxiv.org/abs/2407.03685
+	- https://doi.org/10.4230/LIPIcs.ITP.2024.23
+	- Lean-MLIR: A minimal development of SSA theory
+		- https://github.com/opencompl/lean-mlir
 
 ## Verification: 2023
 
