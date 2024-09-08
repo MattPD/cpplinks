@@ -139,6 +139,13 @@ https://riscv.org/risc-v-books/
 - RISC-V Compressed Instructions (part 2): Zc extensions 
 	- https://fprox.blogspot.com/2022/12/riscv-compressed-zc-extensions.html
 
+#### Instruction Set Architecture: Extensions: Bit Manipulation
+
+- RISC-V Scalar Bit Manipulation Extensions
+	- 2024-04-08
+	- Zba (address generation), Zbb (basic bit manipulation), Zbc (carry-less multiplication), Zbs (single-bit manipulation), Zbkb (bit manipulation for cryptography), Zbkc (carry-less for cryptography), Zbkx (crossbar permutations), B Standard Extension for Bit Manipulation Instructions (Zba, Zbb, Zbs)
+	- https://fprox.substack.com/p/risc-v-scalar-bit-manipulation-extensions
+
 #### Instruction Set Architecture: Extensions: C Standard Extension for Compressed Instructions
 
 - RISC-V Compressed Instructions (part 1): C extension
