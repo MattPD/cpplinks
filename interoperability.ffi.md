@@ -300,6 +300,8 @@
 
 # JavaScript
 
+## JavaScript: Software
+
 - Embind: Emscripten's tool to generate JavaScript bindings for C++ code
 	- https://developers.google.com/web/updates/2018/08/embind
 	- https://kripken.github.io/emscripten-site/docs/porting/connecting_cpp_and_javascript/embind.html
@@ -311,6 +313,14 @@
 	- https://github.com/charto/nbind#readme
 - v8pp: Bind C++ functions and classes into V8 JavaScript engine
 	- https://github.com/pmed/v8pp
+
+## JavaScript: Talks
+
+- Modern C++ Addons for Node.js
+	- ACCU 2024
+	- Dvir Yitzchaki
+	- https://www.youtube.com/watch?v=bogYQr096h4
+	- https://dvirtz.github.io/slides/modern-js-addons/accu.html
 
 ---
 
