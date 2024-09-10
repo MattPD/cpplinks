@@ -1822,6 +1822,10 @@ See also: [Computer Architecture](comparch.md)
 	- Ilias Giechaskiel, Kasper Bonne Rasmussen, Jakub Szefer
 	- https://www.computer.org/csdl/proceedings-article/sp/2020/349700a890/1i0rIjF42ic
 	- https://ilias.giechaskiel.com/papers/capsule-sp-preprint.pdf
+- Extending FPGA Information Leaks with Trojan Phantom Circuits
+	- 2024 International Symposium on Secure and Private Execution Environment Design (SEED)
+	- Anthony Etim, Shanquan Tian, Jakub Szefer
+	- https://caslab.io/publications/etim2024extending.pdf
 - FPGAhammer: Remote Voltage Fault Attacks on Shared FPGAs, suitable for DFA on AES
 	- IACR Transactions on Cryptographic Hardware and Embedded Systems, 2018(3), 44-68.
 	- Jonas Krautter, Dennis R.E. Gnad, Mehdi B. Tahoori
