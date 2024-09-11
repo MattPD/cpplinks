@@ -446,6 +446,9 @@ See also:
 		- https://sites.google.com/a/chromium.org/dev/Home/chromium-security/articles/gwp-asan
 - Memory error checking in C and C++: Comparing Sanitizers and Valgrind
 	- https://developers.redhat.com/blog/2021/05/05/memory-error-checking-in-c-and-c-comparing-sanitizers-and-valgrind/
+- Sanitize your C++ containers: ASan annotations step-by-step
+	- 2024; Dominik Klemba, Dominik Czarnota
+	- https://blog.trailofbits.com/2024/09/10/sanitize-your-c-containers-asan-annotations-step-by-step/
 - SoK: Sanitizing for Security
 	- IEEE Symposium on Security and Privacy (S&P) 2019
 	- Dokyung Song, Julian Lettner, Prabhu Rajasekaran, Yeoul Na, Stijn Volckaert, Per Larsen, Michael Franz
