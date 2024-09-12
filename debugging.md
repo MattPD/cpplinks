@@ -1541,6 +1541,14 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Greg Law
 	- https://www.youtube.com/watch?v=qgszy9GquRs
 	- https://github.com/CppCon/CppCon2023/blob/main/Presentations/B2B_Debugging_CppCon_2023.pdf
+- Debugging C++ Code： A Practical and Interactive Guide
+	- Sebastian Theophil
+	- https://www.think-cell.com/assets/en/career/talks/pdf/think-cell_talk_debugging.pdf
+	- CppNow 2023
+		- https://www.youtube.com/watch?v=jB09yTXtFUo
+		- https://github.com/boostcon/cppnow_presentations_2023/blob/main/cppnow_slides/Nobody_Can_Program_Correctly.pdf
+	- Core C++ 2023
+		- https://www.youtube.com/watch?v=ogV0olQJax4
 
 ## 2021
 
