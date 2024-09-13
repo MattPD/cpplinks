@@ -12,6 +12,7 @@ See also:
 	- [History](#history)
 	- [Lectures](#lectures)
 - [Calculation](#calculation)
+- [Type Preservation](#type-preservation)
 - [Testing](#testing)
 	- [Readings](#testing-readings):
 		- [Performance Optimization](#testing-readings-performance-optimization): [Loops](#testing-readings-performance-optimization-loops), [Vectorization](#testing-readings-performance-optimization-vectorization)
@@ -363,6 +364,17 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 		- Higher-Order and Symbolic Computation, 11 (1998)
 		- John C. Reynolds
 		- https://homepages.inf.ed.ac.uk/wadler/papers/papers-we-love/reynolds-definitional-interpreters-revisited.pdf
+
+---
+
+# Type Preservation
+
+- From System F to Typed Assembly Language
+	- Greg Morrisett, David Walker, Karl Crary, Neal Glew
+	- POPL 1998
+		- https://doi.org/10.1145/268946.268954
+	- ACM Transactions on Programming Languages and Systems (TOPLAS) 21(3) 1999
+		- https://doi.org/10.1145/319301.319345
 
 ---
 
