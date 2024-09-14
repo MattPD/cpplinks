@@ -24,7 +24,7 @@ See also:
 	- [OS: macOS](#software-os-macos)
 	- [OS: Linux](#software-os-linux)
 	- [OS: Windows](#software-os-windows)
-- [Talks](#talks): [2023](#talks-2023), [2022](#talks-2022), [2021](#talks-2021), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2012](#talks-2012)
+- [Talks](#talks): [2024](#talks-2024), [2023](#talks-2023), [2022](#talks-2022), [2021](#talks-2021), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2012](#talks-2012)
 
 ---
 
@@ -681,6 +681,13 @@ See also:
 ---
 
 # Talks
+
+## Talks: 2024
+
+- C++ Linkers and the One Definition Rule
+	- ACCU 2024
+	- Roger Orr
+	- https://www.youtube.com/watch?v=HakSW8wIH8A
 
 ## Talks: 2023
 
