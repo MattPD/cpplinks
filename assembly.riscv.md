@@ -542,6 +542,8 @@ https://riscv.org/software-tools/
 	- C++17 RISC-V RV32GC userspace emulator library
 - MARSS-RISCV: Micro-Architectural System Simulator for RISC-V
 	- https://github.com/bucaps/marss-riscv
+- mini-rv32ima: A tiny C header-only RISC-V emulator
+	- https://github.com/cnlohr/mini-rv32ima
 - Pydrofoil: A fast RISC-V emulator based on the RISC-V Sail model
 	- https://github.com/pydrofoil/pydrofoil
 	- https://docs.pydrofoil.org/en/latest/
