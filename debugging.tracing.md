@@ -324,6 +324,8 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 
 - eBPF - Introduction, Tutorials & Community Resources
 	- https://ebpf.io/
+- Awesome eBPF: A curated list of awesome projects related to eBPF
+	- https://github.com/zoidyzoidzoid/awesome-ebpf
 - Dive into BPF: a list of reading material
 	- https://qmonnet.github.io/whirl-offload/2016/09/01/dive-into-bpf/
 - The BSD Packet Filter
