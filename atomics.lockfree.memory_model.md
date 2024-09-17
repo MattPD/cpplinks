@@ -114,6 +114,10 @@
 
 # Memory Reclamation
 
+- Comparative Performance of Memory Reclamation Strategies for Lock-free and Concurrently-readable Data Structures
+	- 2005 Masters Thesis
+	- Thomas E. Hart
+	- https://www.cs.toronto.edu/~tomhart/masters_thesis.html
 - Concurrent Deferred Reference Counting
 	- https://github.com/cmuparlay/concurrent_deferred_rc
 	- Smarter Atomic Smart Pointers: Efficient Concurrent Memory Management
