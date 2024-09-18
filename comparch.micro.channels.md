@@ -1965,6 +1965,11 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.cs.utexas.edu/~hovav/
 	- https://www.hertzbleed.com/gpu.zip/
 	- https://github.com/UT-Security/gpu-zip
+- Invalidate+Compare: A Timer-Free GPU Cache Attack Primitive
+	- USENIX Security 2024
+	- Zhenkai Zhang, Kunbei Cai, Yanan Guo, Fan Yao, Xing Gao
+	- https://github.com/0x5ec1ab/invalidate-compare
+	- https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-zhenkai
 - Whispering Pixels: Exploiting Uninitialized Register Accesses in Modern GPUs
 	- IEEE European Symposium on Security and Privacy (S&P) 2024
 	- Frederik Dermot Pustelnik, Xhani Marvin Saß, Jean-Pierre Seifert
