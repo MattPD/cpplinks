@@ -886,6 +886,12 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 - Fujitsu A64FX - https://github.com/fujitsu/A64FX
 
+### References: Microarchitecture: NVIDIA
+
+- NVIDIA Grace: https://www.nvidia.com/en-us/data-center/grace-cpu/
+	- NVIDIA Grace 72 Core Processor Cache Micro-Benchmarks
+		- https://cpufun.substack.com/p/nvidia-grace-72-core-processor-cache
+
 ## References: OS
 
 - Linux
