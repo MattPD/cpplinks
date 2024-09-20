@@ -375,6 +375,10 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 		- https://doi.org/10.1145/268946.268954
 	- ACM Transactions on Programming Languages and Systems (TOPLAS) 21(3) 1999
 		- https://doi.org/10.1145/319301.319345
+- Programming type-safe transformations using higher-order abstract syntax
+	- Journal of Formalized Reasoning (JFR) 8, 1 (2015)
+	- Olivier Savary Bélanger, Stefan Monnier, Brigitte Pientka
+	- https://doi.org/10.6092/issn.1972-5787/5122
 
 ---
 
