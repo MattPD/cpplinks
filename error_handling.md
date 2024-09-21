@@ -575,6 +575,14 @@
 
 # Talks
 
+## 2024
+
+- C++ Exceptions for Smaller Firmware
+	- CppCon 2024
+	- Khalil Estell
+	- https://www.youtube.com/watch?v=bY2FlayomlE
+	- https://github.com/CppCon/CppCon2024/blob/main/Presentations/Cpp_Exceptions_For_Smaller_Firmware.pdf
+
 ## 2023
 
 - Exceptions in C++: Better Design Through Analysis of Real World Usage
