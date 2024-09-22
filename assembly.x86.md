@@ -387,6 +387,11 @@ Assemblers - https://en.wikipedia.org/wiki/Comparison_of_assemblers#x86_assemble
 - Bluff your way in x64 assembler
 	- ACCU 2017; Roger Orr
 	- https://www.youtube.com/watch?v=RI7VL-g6J7g
+- Conversational x86 ASM: Learning to Appreciate Your Compiler
+	- YOW! 2020
+	- Matt Godbolt
+	- https://www.youtube.com/watch?v=7PFwUpXKLrg
+	- https://github.com/mattgodbolt/yow-conversational-asm
 - Deeper Dive: x86 32/64 Assembly
 	- University of Cincinnati Malware Analysis Class (CS7038): Wk06 (2017)
 	- https://www.youtube.com/watch?v=JiC0TnYtXXU
