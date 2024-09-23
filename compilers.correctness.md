@@ -12,7 +12,6 @@ See also:
 	- [History](#history)
 	- [Lectures](#lectures)
 - [Calculation](#calculation)
-- [Type Preservation](#type-preservation)
 - [Testing](#testing)
 	- [Readings](#testing-readings):
 		- [Performance Optimization](#testing-readings-performance-optimization): [Loops](#testing-readings-performance-optimization-loops), [Vectorization](#testing-readings-performance-optimization-vectorization)
@@ -22,6 +21,7 @@ See also:
 		- [Performance Optimization](#testing-software-performance-optimization): [Parallelization](#testing-software-performance-optimization-parallelization), [Vectorization](#testing-software-performance-optimization-vectorization)
 		- [Reduction](#testing-software-reduction)
 	- [Talks](#testing-talks)
+- [Type Preservation](#type-preservation)
 - [Validation](#validation)
 - [Verification](#verification)
 	- [Talks](#verification-talks)
@@ -379,6 +379,19 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- Journal of Formalized Reasoning (JFR) 8, 1 (2015)
 	- Olivier Savary Bélanger, Stefan Monnier, Brigitte Pientka
 	- https://doi.org/10.6092/issn.1972-5787/5122
+
+## Type Preservation: Testing
+
+- Fuzzing the Rust Typechecker Using CLP
+	- Automated Software Engineering (ASE) 2015
+	- Kyle Dewey, Jared Roesch, Ben Hardekopf
+	- https://ieeexplore.ieee.org/document/7372036
+	- https://hardekbc.github.io/files/dewey15fuzzing.pdf
+	- CLP: Constraint Logic Programming
+	- lecture notes: Special Topics in Software Engineering
+		- 2021
+		- Jonathan Bell
+		- https://neu-se.github.io/CS7580-Fall-2021/lecture-notes/23-rust/
 
 ---
 
