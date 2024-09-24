@@ -154,10 +154,22 @@ See also: [Compilers Correctness](https://github.com/MattPD/cpplinks/blob/master
 	- https://2024.esec-fse.org/details/fse-2024-research-papers/29/Finding-and-Understanding-Defects-in-Static-Analyzers-by-Constructing-Automated-Oracl
 	- https://tingsu.github.io/files/fse24-sa-find-bugs.pdf
 	- https://github.com/Geoffrey1014/SA_Bugs
+- Interrogation Testing of Program Analyzers for Soundness and Precision Issues
+	- IEEE/ACM International Conference on Automated Software Engineering (ASE) 2024
+	- David Kaindlstorfer, Anastasia Isychev, Valentin Wüstholz, Maria Christakis
+	- https://doi.org/10.1145/3691620.3695034
+	- https://mariachris.github.io/Pubs/ASE-2024-Sherlock.pdf
+	- Sherlock: An interrogation-testing framework for testing program analyzers
+		- https://github.com/Rigorous-Software-Engineering/sherlock
 - Quickchecking Static Analysis Properties
 	- Testing, Verification and Reliability 27(6) 2017
 	- Jan Midtgaard, Anders Møller
 	- http://janmidtgaard.dk/papers/Midtgaard-Moeller%3aSTVR17.pdf
+- Systematic Approaches for Increasing Soundness and Precision of Static Analyzers
+	- State Of the Art in Program Analysis (SOAP) 2017
+	- Esben Sparre Andreasen, Anders Møller, Benjamin Barslev Nielsen
+	- https://pldi17.sigplan.org/event/soap-2017-papers-systematic-approaches-for-increasing-soundness-and-precision-of-static-analyzers
+	- https://cs.au.dk/~amoeller/papers/tajsexperience/paper.pdf
 - Test suites for benchmarks of static analysis tools
 	- Software Reliability Engineering Workshops (ISSREW) 2015
 	- Shinichi Shiraishi, Veena Mohan, Hemalatha Marimuthu
@@ -175,11 +187,6 @@ See also: [Compilers Correctness](https://github.com/MattPD/cpplinks/blob/master
 	- Jeehoon Kang, Sungkeun Cho, Joonwon Choi, Chung-Kil Hur, Kwangkeun Yi
 	- http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.698.4724
 	- http://rosaec.snu.ac.kr/publish/2014/techmemo/ROSAEC-2014-003.pdf
-- Systematic Approaches for Increasing Soundness and Precision of Static Analyzers
-	- State Of the Art in Program Analysis (SOAP) 2017
-	- Esben Sparre Andreasen, Anders Møller, Benjamin Barslev Nielsen
-	- https://pldi17.sigplan.org/event/soap-2017-papers-systematic-approaches-for-increasing-soundness-and-precision-of-static-analyzers
-	- https://cs.au.dk/~amoeller/papers/tajsexperience/paper.pdf
 - Verasco, a formally verified C static analyzer
 	- A Formally-Verified C Static Analyzer
 		- POPL 2015
