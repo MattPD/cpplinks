@@ -260,6 +260,9 @@
 	- https://github.com/bytedeco/javacpp
 - java-native-benchmark: Benchmarking Java's native call APIs: JNI, JNA, JNR, BridJ and Project Panama
 	- https://github.com/zakgof/java-native-benchmark
+- Jenny: the JNI helper
+	- Jenny is a java annotation processor, which helps you generate C/C++ code for JNI calls according to your Java native class.
+	- https://github.com/villevoutilainen/Jenny
 - jni.hpp: a modern, type-safe, header-only, C++14 wrapper for JNI (Java Native Interface)
 	- https://github.com/mapbox/jni.hpp
 - jnr-ffi: Java Abstracted Foreign Function Layer
