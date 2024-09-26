@@ -786,6 +786,12 @@ See also:
 
 ### CMake Talks
 
+#### CMake Talks: 2024
+
+- Integrating C++ Code Generation Into a Large CMake Build
+	- ACCU 2024; CB Bailey
+	- https://www.youtube.com/watch?v=bCuH4cHPJ78
+
 #### CMake Talks: 2022
 
 - CMake 2022 C++ Modules and More
