@@ -129,6 +129,9 @@
 		- Daniel Anderson, Guy E. Blelloch, Yuanhao Wei
 		- https://arxiv.org/abs/2204.05985
 		- https://doi.org/10.1145/3519939.3523730
+		- Is it Time to Retire Manual Concurrent Memory Reclamation?
+			- https://pldi22.sigplan.org/details/pldi-2022-pldi/63/Is-it-Time-to-Retire-Manual-Concurrent-Memory-Reclamation-
+			- https://www.youtube.com/watch?v=40nJlQCgf8I
 	- Concurrent Deferred Reference Counting with Constant-Time Overhead
 		- Programming Language Design and Implementation (PLDI) 2021
 		- Daniel Anderson, Guy E. Blelloch, Yuanhao Wei
