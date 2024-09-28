@@ -382,6 +382,13 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 
 ## Type Preservation: Testing
 
+- Finding Typing Compiler Bugs
+	- PLDI 2022
+	- Stefanos Chaliasos, Thodoris Sotiropoulos, Diomidis Spinellis, Arthur Gervais, Ben Livshits, Dimitris Mitropoulos
+	- https://doi.org/10.1145/3519939.3523427
+	- http://resolver.tudelft.nl/uuid:8661c485-5d4b-48c5-bba9-8bb21f72ff72
+	- Hephaestus: A framework for testing compilers' type checkers
+		- https://github.com/hephaestus-compiler-project/hephaestus
 - Fuzzing the Rust Typechecker Using CLP
 	- Automated Software Engineering (ASE) 2015
 	- Kyle Dewey, Jared Roesch, Ben Hardekopf
