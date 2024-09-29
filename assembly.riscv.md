@@ -457,6 +457,9 @@ https://riscv.org/specifications/
 - A RISC-V ELF psABI Document - RISC-V calling convention - https://github.com/riscv/riscv-elf-psabi-doc
 - Calling Convention - http://riscv.org/wp-content/uploads/2015/01/riscv-calling.pdf
 - Documentation for RISC-V Spike - https://github.com/poweihuang17/Documentation_Spike
+- Intrinsics viewer
+	- https://dzaima.github.io/intrinsics-viewer/
+	- https://github.com/dzaima/intrinsics-viewer
 - Notes on RISC-V assembly - https://www.imperialviolet.org/2016/12/31/riscv.html
 - Reference Card - https://www.cl.cam.ac.uk/teaching/1617/ECAD+Arch/files/docs/RISCVGreenCardv8-20151013.pdf
 - RISC-V Assembly Programmer's Manual - https://github.com/riscv/riscv-asm-manual/blob/master/riscv-asm.md
