@@ -270,7 +270,7 @@ See:
 	- Matt Godbolt
 	- https://queue.acm.org/detail.cfm?id=3372264
 
-## Superoptimization
+## Optimization: Superoptimization
 
 - GNU Superoptimizer Version 2 - https://github.com/embecosm/gso2
 - Souper - a superoptimizer for LLVM IR - https://github.com/google/souper
@@ -279,76 +279,103 @@ See:
 - Superoptimizing Compilers - http://superoptimization.org/wiki/Superoptimizing_Compilers
 - Superoptimization - James Pallister - FOSDEM 2015 - https://archive.fosdem.org/2015/schedule/event/superoptimization/
 
+## Optimization: Talks
+
+### Optimization: Talks: 2022
+
+- What GCC optimization level is best for you?
+	- SUSE Labs Conference 2022
+	- Jan Hubicka
+	- https://www.youtube.com/watch?v=GufwdypTfrE
+
+### Optimization: Talks: 2016
+
+- STOKE: Search-Based Compiler Optimization
+	- UCI CS Distinguished Lecture; April 29, 2016
+	- Alex Aiken
+	- https://www.youtube.com/watch?v=rZFeTTFp7x4
+
+### Optimization: Talks: 2015
+
+- Understanding Compiler Optimization
+	- Meeting C++ 2015
+	- Chandler Carruth
+	- https://www.youtube.com/watch?v=FnGCDLhaxKU
+- Stochastic Optimization for x86 Binaries
+	- Google Tech Talks; January 12, 2015
+	- Eric Schkufza
+	- https://www.youtube.com/watch?v=aD9mZDJzb58
+
+### Optimization: Talks: 2014
+
+- Superoptimizing LLVM
+	- UW CSE Colloquium; December 2, 2014
+	- John Regehr
+	- https://www.youtube.com/watch?v=Ux0YnVEaI6A
+
 # Talks
 
-## 2019
+## Talks: 2019
 
 - An overview of Clang
-	- 2019 LLVM Developers’ Meeting; Sven van Haastregt, Anastasia Stulova
+	- 2019 LLVM Developers’ Meeting
+	- Sven van Haastregt, Anastasia Stulova
 	- https://www.youtube.com/watch?v=5kkMpJpIGYU
 	- http://llvm.org/devmtg/2019-10/talk-abstracts.html#tut8
 - GCC under the hood
-	- Linaro Connect San Diego 2019; Siddhesh Poyarekar
+	- Linaro Connect San Diego 2019
+	- Siddhesh Poyarekar
 	- https://www.youtube.com/watch?v=brxAm99w8D8
 	- https://siddhesh.in/gcc-under-the-hood.pdf
 	- https://siddhesh.in/posts/gcc-under-the-hood.html
 	- https://linaroconnectsandiego.sched.com/event/SubD/san19-221-gcc-under-the-hood
 - Introduction to LLVM
-	- 2019 LLVM Developers’ Meeting; Eric Christopher & Johannes Doerfert
+	- 2019 LLVM Developers’ Meeting
+	- Eric Christopher & Johannes Doerfert
 	- https://www.youtube.com/watch?v=J5xExRGaIIY
 
-## 2018
+## Talks: 2018
 
 - Introduction to LLVM: Building simple program analysis tools and instrumentation
-	- FOSDEM 2018; Mike Shah
+	- FOSDEM 2018
+	- Mike Shah
 	- https://fosdem.org/2018/schedule/event/introduction/
 	- https://www.youtube.com/watch?v=VKIv_Bkp4pk
 	- slides & code: http://www.mshah.io/fosdem18.html
 
-## 2017
+## Talks: 2017
 
 - Getting started with LLVM: the TL;DR version
-	- LinaroOrg Connect San Francisco 2017; Diana Picus
+	- LinaroOrg Connect San Francisco 2017
+	- Diana Picus
 	- https://connect.linaro.org/resource/sfo17/sfo17-110/
 - LLVM Internals #2
-	- Linaro Connect Budapest 2017; Renato Golin, Peter Smith, Diana Picus, Omair Javaid, Adhemerval Zanella
+	- Linaro Connect Budapest 2017
+	- Renato Golin, Peter Smith, Diana Picus, Omair Javaid, Adhemerval Zanella
 	- http://connect.linaro.org/resource/bud17/bud17-302/
 
-## 2016
+## Talks: 2016
 
 - Introduction to LLVM – Projects, Components, Integration, Internals
-	- Linaro Connect Las Vegas 2016; Renato Golin
+	- Linaro Connect Las Vegas 2016
+	- Renato Golin
 	- http://connect.linaro.org/resource/las16/las16-501/
 - Anders Hejlsberg on Modern Compiler Construction
 	- Channel 9; May 12, 2016
-	- https://channel9.msdn.com/Blogs/Seth-Juarez/Anders-Hejlsberg-on-Modern-Compiler-Construction
-- STOKE: Search-Based Compiler Optimization
-	- UCI CS Distinguished Lecture; April 29, 2016; Alex Aiken
-	- https://www.youtube.com/watch?v=rZFeTTFp7x4
-
-## 2015
-
-- Understanding Compiler Optimization
-	- Meeting C++ 2015; Chandler Carruth
-	- https://www.youtube.com/watch?v=FnGCDLhaxKU
-- Stochastic Optimization for x86 Binaries
-	- Google Tech Talks; January 12, 2015; Eric Schkufza
-	- https://www.youtube.com/watch?v=aD9mZDJzb58
-
-## 2014
-
-- Superoptimizing LLVM
-	- UW CSE Colloquium; December 2, 2014; John Regehr
-	- https://www.youtube.com/watch?v=Ux0YnVEaI6A
+	- Anders Hejlsberg & Seth Juarez
+	- https://learn.microsoft.com/en-us/shows/seth-juarez/anders-hejlsberg-on-modern-compiler-construction
 - Compiler Technologies
-	- Northwest C++ Users' Group; October 15, 2014; Jim Hogg
+	- Northwest C++ Users' Group; October 15, 2014
+	- Jim Hogg
 	- http://nwcpp.org/october-2014.html
 
-## 2013
+## Talks: 2013
 
 - Compiler Confidential
-	- GoingNative 2013; Eric Brumer
-	- https://channel9.msdn.com/Events/GoingNative/2013/Compiler-Confidential
+	- GoingNative 2013
+	- Eric Brumer
+	- https://learn.microsoft.com/en-us/shows/goingnative-2013/compiler-confidential
+	- https://www.youtube.com/watch?v=qpYdsjMaoRg
 
 # Warnings
 
