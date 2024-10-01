@@ -108,6 +108,11 @@
 
 # C
 
+- 2024 Update: Efficient and Reliable Wrapping of C APIs Using Modern C++
+	- ACCU 2024
+	- Vladimir Vishnevskii
+	- https://www.youtube.com/watch?v=8DtqDay8ko0
+	- https://github.com/vvish/lmdb-cpp
 - Cross-language interfaces between C and C++ - https://gustedt.wordpress.com/2017/08/08/cross-language-interfaces-between-c-and-c/
 - DragonFFI: C Foreign Function Interface and JIT using Clang/LLVM
 	- DragonFFI is a C Foreign Function Interface (FFI) library written in C++ and based on Clang/LLVM. It allows any language to call C functions thought the provided APIs and bindings.
