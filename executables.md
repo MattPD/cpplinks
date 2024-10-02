@@ -762,6 +762,9 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 		- https://www.youtube.com/watch?v=wxVBuZK8Dl0
 - binception: Generate hash values for functions within an ELF binary - https://github.com/enferex/binception
 - binch: a light BINary patCH tool - https://github.com/tunz/binch
+- Binsider
+	- Binsider offers powerful static and dynamic analysis tools, similar to readelf(1) and strace(1). It lets you inspect strings, examine linked libraries, and perform hexdumps, all within a user-friendly TUI.
+	- https://github.com/orhun/binsider
 - core2ELF64: Recover 64 bit ELF executables from memory dump
 	- https://github.com/enbarberis/core2ELF64
 - dnload: Minimal binary generator for \*nix operating systems
