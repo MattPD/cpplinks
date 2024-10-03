@@ -114,6 +114,8 @@
 
 # Memory Reclamation
 
+## Memory Reclamation: Readings
+
 - Comparative Performance of Memory Reclamation Strategies for Lock-free and Concurrently-readable Data Structures
 	- 2005 Masters Thesis
 	- Thomas E. Hart
@@ -139,6 +141,16 @@
 - Using Quiescent States to Reclaim Memory
 	- 2016; Jeff Preshing
 	- https://preshing.com/20160726/using-quiescent-states-to-reclaim-memory/
+
+## Memory Reclamation: Talks
+
+- Memory management for concurrent data structures
+	- SPTCC 2017
+	- Erez Petrank
+	- Part 1: https://www.youtube.com/watch?v=aedEe0Zx_g0
+	- Part 2: https://www.youtube.com/watch?v=BCXrG1M65HU
+	- Part 3: https://www.youtube.com/watch?v=u9pbPpZXu18
+	- Part 4: https://www.youtube.com/watch?v=2nc7IqfshgQ
 
 ---
 
