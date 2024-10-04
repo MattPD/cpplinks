@@ -326,15 +326,6 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- https://ebpf.io/
 - Awesome eBPF: A curated list of awesome projects related to eBPF
 	- https://github.com/zoidyzoidzoid/awesome-ebpf
-- Dive into BPF: a list of reading material
-	- https://qmonnet.github.io/whirl-offload/2016/09/01/dive-into-bpf/
-- The BSD Packet Filter
-	- USENIX Winter 1993; Steven McCanne and Van Jacobson
-	- https://www.usenix.org/conference/usenix-winter-1993-conference/presentation/bsd-packet-filter-new-architecture-user-level-
-	- PWL 2017 talk by Suchakra Sharma
-		- https://speakerdeck.com/tuxology/the-bsd-packet-filter
-		- http://step.polymtl.ca/~suchakra/PWL-Jun28-MTL.pdf
-		- Notes on BPF & eBPF - https://jvns.ca/blog/2017/06/28/notes-on-bpf---ebpf/
 - BPF and XDP Reference Guide
 	- http://docs.cilium.io/en/stable/bpf/
 - Brendan D. Gregg
@@ -342,11 +333,23 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- BPF Performance Tools: Linux System and Application Observability
 		- http://www.brendangregg.com/bpf-performance-tools-book.html
 		- https://github.com/brendangregg/bpf-perf-tools-book
+- Dive into BPF: a list of reading material
+	- https://qmonnet.github.io/whirl-offload/2016/09/01/dive-into-bpf/
 - Ferris Ellis
 	- eBPF, part 1: Past, Present, and Future - https://ferrisellis.com/content/ebpf_past_present_future/
 	- eBPF, part 2: Syscall and Map Types - https://ferrisellis.com/content/ebpf_syscall_and_maps/
+- Hello eBPF: Collection of Resources for eBPF
+	- 2024; Johannes Bechberger
+	- https://mostlynerdless.de/blog/2024/09/10/hello-ebpf-collection-of-resources-for-ebpf-14-5/
 - Linux Tracing Workshops Materials - Sasha Goldshtein
 	- https://github.com/goldshtn/linux-tracing-workshop
+- The BSD Packet Filter
+	- USENIX Winter 1993; Steven McCanne and Van Jacobson
+	- https://www.usenix.org/conference/usenix-winter-1993-conference/presentation/bsd-packet-filter-new-architecture-user-level-
+	- PWL 2017 talk by Suchakra Sharma
+		- https://speakerdeck.com/tuxology/the-bsd-packet-filter
+		- http://step.polymtl.ca/~suchakra/PWL-Jun28-MTL.pdf
+		- Notes on BPF & eBPF - https://jvns.ca/blog/2017/06/28/notes-on-bpf---ebpf/
 
 #### Software: Linux - BCC/BPF - Software
 
