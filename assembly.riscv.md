@@ -156,6 +156,9 @@ https://riscv.org/risc-v-books/
 - RISC-V Vector Cryptography Extensions (1/2)
 	- 2023-02-12
 	- https://fprox.substack.com/p/risc-v-vector-cryptography-extensions
+- RISC-V Vector Cryptography Extensions (2/2)
+	- 2023-02-20
+	- https://fprox.substack.com/p/risc-v-vector-cryptography-extension
 
 #### Instruction Set Architecture: Extensions: V Vector Extension
 
