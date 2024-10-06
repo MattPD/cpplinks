@@ -791,6 +791,11 @@ See also:
 - Integrating C++ Code Generation Into a Large CMake Build
 	- ACCU 2024; CB Bailey
 	- https://www.youtube.com/watch?v=bCuH4cHPJ78
+- Modern CMake for C++
+	- 2024-09-17 San Diego C++ Meetup #66
+	- Kobi Cohen-Arazi 
+	- https://vorbrodt.blog/2024/09/21/san-diego-c-meetup-66-modern-cmake-for-c/
+	- https://www.youtube.com/watch?v=lnUALZe7FhI
 
 #### CMake Talks: 2022
 
