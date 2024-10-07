@@ -399,6 +399,12 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 		- 2021
 		- Jonathan Bell
 		- https://neu-se.github.io/CS7580-Fall-2021/lecture-notes/23-rust/
+- Making Random Judgments: Automatically Generating Well-Typed Terms from the Definition of a Type-System
+	- European Symposium on Programming (ESOP) 2015
+	- Burke Fetscher, Koen Claessen, Michał Pałka, John Hughes, Robert Bruce Findler
+	- http://users.eecs.northwestern.edu/~baf111/random-judgments/
+	- https://users.cs.northwestern.edu/~robby/pubs/papers/esop2015-fcphf.pdf
+	- https://link.springer.com/chapter/10.1007/978-3-662-46669-8_16
 
 ---
 
