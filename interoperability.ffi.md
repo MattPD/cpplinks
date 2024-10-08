@@ -3,7 +3,7 @@
 # Contents
 
 - [General](#general)
-- Language-specific: [Bash](#bash), [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Fortran](#fortran), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Nim](#nim), [Objective-C](#objective-c), [OCaml](#ocaml), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata), [Swift](#swift), [WebAssembly](#webassembly), [Zig](#zig)
+- Language-specific: [Bash](#bash), [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [Coq][#coq], [D](#d), [Fortran](#fortran), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Nim](#nim), [Objective-C](#objective-c), [OCaml](#ocaml), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata), [Swift](#swift), [WebAssembly](#webassembly), [Zig](#zig)
 
 ---
 
@@ -194,6 +194,18 @@
 
 - Clasp — Bringing Common Lisp and C++ Together
 	- https://github.com/drmeister/clasp
+
+---
+
+# Coq
+
+- A Verified Foreign Function Interface Between Coq and C
+	- 2024 technical report
+	- Joomy Korkut, Kathrin Stark, Andrew W. Appel
+	- https://joomy.korkutblech.com/papers/veriffi.pdf
+	- VeriFFI: Verified Foreign Function Interface for connecting Coq programs to C programs at the operational and specification/verification levels; part of CertiCoq project
+	- https://github.com/CertiCoq/VeriFFI
+	- https://github.com/CertiCoq/VeriFFI/blob/main/doc/veriffi_techreport.pdf
 
 ---
 
