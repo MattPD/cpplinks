@@ -116,10 +116,15 @@
 
 ## Memory Reclamation: Readings
 
-- Comparative Performance of Memory Reclamation Strategies for Lock-free and Concurrently-readable Data Structures
-	- 2005 Masters Thesis
-	- Thomas E. Hart
-	- https://www.cs.toronto.edu/~tomhart/masters_thesis.html
+### Memory Reclamation: Readings: 2024
+
+- Concurrent Immediate Reference Counting
+	- Programming Languages Design and Implementation (PLDI) 2024
+	- Jaehwang Jung, Jeonghyeon Kim, Matthew J. Parkinson, Jeehoon Kang
+	- https://dl.acm.org/doi/abs/10.1145/3656383
+
+### Memory Reclamation: Readings: 2022
+
 - Concurrent Deferred Reference Counting
 	- https://github.com/cmuparlay/concurrent_deferred_rc
 	- Smarter Atomic Smart Pointers: Efficient Concurrent Memory Management
@@ -138,9 +143,19 @@
 		- Programming Language Design and Implementation (PLDI) 2021
 		- Daniel Anderson, Guy E. Blelloch, Yuanhao Wei
 		- https://doi.org/10.1145/3453483.3454060
+
+### Memory Reclamation: Readings: 2016
+
 - Using Quiescent States to Reclaim Memory
 	- 2016; Jeff Preshing
 	- https://preshing.com/20160726/using-quiescent-states-to-reclaim-memory/
+
+### Memory Reclamation: Readings: 2005
+
+- Comparative Performance of Memory Reclamation Strategies for Lock-free and Concurrently-readable Data Structures
+	- 2005 Masters Thesis
+	- Thomas E. Hart
+	- https://www.cs.toronto.edu/~tomhart/masters_thesis.html
 
 ## Memory Reclamation: Talks
 
