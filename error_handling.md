@@ -13,11 +13,11 @@
 ## Blogs: Posts and Series
 
 - Andrzej Krzemieński
-	- error codes
+	- Error codes
 		- Your own error code - https://akrzemi1.wordpress.com/2017/07/12/your-own-error-code/
 		- Your own error condition - https://akrzemi1.wordpress.com/2017/08/12/your-own-error-condition/
 		- Using error codes effectively - https://akrzemi1.wordpress.com/2017/09/04/using-error-codes-effectively/
-		- error codes — some clarifications - https://akrzemi1.wordpress.com/2017/10/14/error-codes-some-clarifications/
+		- Error codes — some clarifications - https://akrzemi1.wordpress.com/2017/10/14/error-codes-some-clarifications/
 	- Handling errors is canceling operations
 		- https://akrzemi1.wordpress.com/2019/04/25/handling-errors-is-canceling-operations/
 - Bartlomiej Filipek
@@ -480,6 +480,10 @@
 - P2544: C++ exceptions are becoming more and more problematic
 	- 2022-02-12; Thomas Neumann
 	- http://wg21.link/P2544
+- P3313: Impacts of noexcept on Arm table based exception metadata
+	- 2024-05-22 (P3313R0); Khalil Estell
+	- https://wg21.link/P3313
+	- https://github.com/kammce/cpp-papers/tree/main/noexcept
 
 ## References
 
