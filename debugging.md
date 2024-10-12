@@ -945,6 +945,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Chris Simmonds
 	- https://elinux.org/images/0/01/Debugging-with-gdb-csimmonds-elce-2020.pdf
 	- https://www.youtube.com/watch?v=JGhAgd2a_Ck
+- Debugging Embedded Devices Using GDB - A Review of Some Lessons Learned
+	- Embedded Linux Conference North America 2020
+	- Mike Anderson
+	- https://elinux.org/Tools_and_Debugging_Presentations#Tutorial:_Debugging_Embedded_Devices_Using_GDB_-_A_Review_of_Some_Lessons_Learned_.5BELC_2020.5D
+	- https://www.youtube.com/watch?v=FnfuxDVFcWE
 - Debugging Linux C++
 	- CppCon 2018; Greg Law
 	- https://www.youtube.com/watch?v=V1t6faOKjuQ
