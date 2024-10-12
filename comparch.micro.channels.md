@@ -810,6 +810,13 @@ See also: [Computer Architecture](comparch.md)
 	- Oleksii Oleksenko, Bohdan Trach, Tobias Reiher, Mark Silberstein, Christof Fetzer
 	- https://arxiv.org/abs/1805.08506
 
+### Defense: Software: 2024
+
+- Switchpoline: A Software Mitigation for Spectre-BTB and Spectre-BHB on ARMv8
+	- 19th ACM Asia Conference on Computer and Communications Security 2024
+	- Lorenz Hetterich, Markus Bauer, Michael Schwarz, Christian Rossow
+	- https://dl.acm.org/doi/abs/10.1145/3634737.3637662
+
 ### Defense: Software: 2023
 
 - Formalising the Prevention of Microarchitectural Timing Channels by Operating Systems
@@ -948,7 +955,37 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.usenix.org/conference/usenixsecurity24/presentation/jin-di
 	- https://cs.brown.edu/~vpk/papers/beebox.sec24.pdf
 	- https://gitlab.com/brown-ssl/beebox
+- Levioso: Efficient Compiler-Informed Secure Speculation
+	- 61st Design Automation Conference (DAC) 2024
+	- Ali Hajiabadi, Archit Agarwal, Andreas Diavastos, Trevor E. Carlson.
+	- https://hajiabadi.github.io/papers/paper_levioso_dac2024.pdf
+	- https://www.youtube.com/watch?v=1s6GXouKLGE
+	- https://github.com/Compiler-Dependency-Analysis/llvm-levioso
+- Perspective: A Principled Framework for Pliable and Secure Speculation in Operating Systems
+	- 51st Annual ACM/IEEE International Symposium on Computer Architecture (ISCA) 2024
+	- Tae Hoon Kim, David Rudo, Kaiyang Zhao, Zirui Neil Zhao, Dimitrios Skarlatos
+	- https://ieeexplore.ieee.org/document/10609597
+	- https://www.cs.cmu.edu/~dskarlat/slides/perspective_isca24_slides.pdf
 
+### Defence: Speculation: 2023
+
+- HIDFIX: Efficient Mitigation of Cache-based Spectre Attacks through Hidden Rollbacks
+	- 42nd IEEE/ACM International Conference on Computer Aided Design (ICCAD) 2023
+	- Arash Pashrashid, Ali Hajiabadi, Trevor E. Carlson
+	- https://ieeexplore.ieee.org/abstract/document/10323979
+- Okapi: Efficiently Safeguarding Speculative Data Accesses in Sandboxed Environments
+	- arXiv 2023 
+	- Philipp Schmitz, Tobias Jauch, Alex Wezel, Mohammad R. Fadiheh, Thore Tiemann, Jonah Heller, Thomas Eisenbarth, Dominik Stoffel, Wolfgang Kunz
+	- https://arxiv.org/abs/2312.08156
+- SafeBet: Secure, Simple, and Fast Speculative Execution
+	- arXiv 2023
+	- Conor Green, Cole Nelson, Mithuna Thottethodi, T. N. Vijaykumar
+	- https://arxiv.org/abs/2306.07785
+- SpecTerminator: Blocking speculative side channels based on instruction classes on RISC-V
+	- ACM Transactions on Architecture and Code Optimization (Vol. 20, No. 1) 2023
+	- Hai Jin, Zhuo He, Weizhong Qiang
+	- https://dl.acm.org/doi/full/10.1145/3566053
+	
 ### Defense: Speculation: 2022
 
 - Kasper: Scanning for Generalized Transient Execution Gadgets in the Linux Kernel
@@ -964,6 +1001,16 @@ See also: [Computer Architecture](comparch.md)
 - Understanding and Improving the Performance of Mitigating Transient Execution Attacks
 	- 2022 PhD Dissertation; Jonathan Behrens
 	- https://pdos.csail.mit.edu/papers/behrensj-phd-thesis.pdf
+- Pinned Loads: Taming Speculative Loads in Secure Processors 
+	- 27th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2022
+	- Zirui Neil Zhao, Houxiang Ji, Adam Morrison, Darko Marinov, Josep Torrellas
+	- https://dl.acm.org/doi/abs/10.1145/3503222.3507724
+	- https://www.youtube.com/watch?v=eg2rwLcDHvk
+	- https://github.com/zzrcxb/PinnedLoads
+- Secure Access Policy (SAP): Invisibly Executing Speculative Unsafe Accesses in an Isolated Environment
+	- 40th IEEE International Conference on Computer Design (ICCD) 2022
+	- Xiaoni Meng, Qiusong Yang, Yiwei Ci, Pei Zhao, Shan Zhao, Tianlin Huo, and Mingshu Li
+	- https://ieeexplore.ieee.org/document/9978372
 
 ### Defense: Speculation: 2021
 
@@ -1000,6 +1047,23 @@ See also: [Computer Architecture](comparch.md)
 	- IEEE S&P 2022
 	- Sunjay Cauligi, Craig Disselkoen, Daniel Moghimi, Gilles Barthe, Deian Stefan
 	- https://arxiv.org/abs/2105.05801
+- GhostMinion: A Strictness-Ordered Cache System for Spectre Mitigation
+	- 54th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO) 2021
+	- Sam Ainsworth
+	- https://dl.acm.org/doi/abs/10.1145/3466752.3480074
+	- https://www.youtube.com/watch?v=-aXuxqJP4Rg
+	- https://github.com/SamAinsworth/reproduce-ghostminion-paper
+- Secure speculative execution via RISC-V open hardware design
+	- Fifth Workshop on Computer Architecture Research with RISC-V (CARRV) 2021
+	- Majid Sabbagh, Yunsi Fei, David Kaeli
+	- https://carrv.github.io/2021/papers/CARRV2021_paper_22_Sabbagh.pdf
+	- https://carrv.github.io/2021/slides/CARRV2021_slides_22_Sabbagh.pdf
+- Speculative Privacy Tracking (SPT): Leaking Information From Speculative Execution Without Compromising Privacy
+	- 54th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO) 2021
+	- Rutvik Choudhary, Jiyong Yu, Christopher Fletcher, Adam Morrison
+	- https://dl.acm.org/doi/abs/10.1145/3466752.3480068
+	- https://github.com/FPSG-UIUC/SPT
+
 
 ### Defense: Speculation: 2020
 
@@ -1028,6 +1092,17 @@ See also: [Computer Architecture](comparch.md)
 	- 2020 Licentiate Dissertation; Christos Sakalis
 	- http://www.it.uu.se/research/publications/lic/2020-003/
 	- http://www.diva-portal.org/smash/get/diva2:1389898/FULLTEXT01.pdf
+- Speculation Invariance (InvarSpec): Faster Safe Execution Through Program Analysis
+	- 53rd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO) 2020
+	- Zirui Neil Zhao, Houxiang Ji, Mengjia Yan, Jiyong Yu, Christopher W. Fletcher, Adam Morrison, Darko Marinov, Josep Torrellas
+	- https://ieeexplore.ieee.org/document/9251941
+	- https://zzrcxb.me/files/slides/MICRO20-InvarSpec-Slides.pdf
+	- https://www.youtube.com/watch?v=5WXCzZFEooA
+- Speculative Data-Oblivious Execution: Mobilizing Safe Prediction For Safe and Efficient Speculative Execution
+	- 47th Annual ACM/IEEE International Symposium on Computer Architecture (ISCA) 2020
+	- Jiyong Yu, Namrata Mantri, Josep Torrellas, Adam Morrison, Christopher W. Fletcher
+	- https://ieeexplore.ieee.org/abstract/document/9138997
+	- https://github.com/cwfletcher/sdo
 
 ### Defense: Speculation: 2019
 
