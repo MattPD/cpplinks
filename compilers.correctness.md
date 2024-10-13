@@ -972,6 +972,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://janmidtgaard.dk/papers/Perenyi-Midtgaard%3aAPLAS20.pdf
 	- Property-Based Testing of WebAssembly
 		- https://github.com/jmid/wasm-prop-tester
+- Testing an Optimising Compiler by Generating Random Lambda Terms
+	- 2012 Licentiate thesis
+		- Michał H. Pałka
+		- https://research.chalmers.se/en/publication/157525
+		- https://publications.lib.chalmers.se/records/fulltext/157525.pdf
+	- AST 2011: 6th International Workshop on Automation of Software Test
+		- Michał H. Pałka, Koen Claessen, Alejandro Russo, John Hughes
+		- https://dl.acm.org/doi/10.1145/1982595.1982615
 - Writing a Test Case Generator for a Programming Language
 	- 2020
 	- Nick Fitzgerald
