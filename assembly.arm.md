@@ -1131,6 +1131,16 @@ https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blo
 	- https://github.com/asmjit/asmjit
 - AZM - Live ARM Assembler and Syntax Checker
 	- https://azeria-labs.com/azm/
+- DynASM
+	- https://luajit.org/dynasm.html
+	- https://luajit.org/dynasm_examples.html
+	- The Unofficial DynASM Documentation
+		- Peter Cawley
+		- https://corsix.github.io/dynasm-doc/
+		- https://github.com/corsix/dynasm-doc
+	- Hello, JIT World: The Joy of Simple JITs
+		- Josh Haberman
+		- https://blog.reverberate.org/2012/12/hello-jit-world-joy-of-simple-jits.html
 - Lightening: Just-in-time code generation library derived from GNU Lightning
 	- Lightening can generate code for the x86-64, i686, ARMv7, and AArch64 architectures.  It supports the calling conventions of MS Windows, GNU/Linux, and Mac OS.
 	- https://gitlab.com/wingo/lightening
