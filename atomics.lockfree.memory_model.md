@@ -116,6 +116,9 @@
 
 ## Memory Reclamation: Readings
 
+- KAIST Concurrency and Parallelism: Concurrent Garbage Collection
+	- https://cp.kaist.ac.kr/gc/
+
 ### Memory Reclamation: Readings: 2024
 
 - Concurrent Immediate Reference Counting
