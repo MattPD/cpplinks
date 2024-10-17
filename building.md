@@ -363,6 +363,11 @@ See also:
 	- Yu, Yijun; Dayani-Fard, Homayoun; Mylopoulos, John and Andritsos, Periklis
 	- http://www.cs.toronto.edu/%7Eperiklis/pubs/icsm05.pdf
 	- http://oro.open.ac.uk/6944/
+- Taking a Closer Look: An Outlier-Driven Approach to Compilation-Time Optimization
+	- 2024 European Conference on Object-Oriented Programming (ECOOP)
+	- Florian Huemer, David Leopoldseder, Aleksandar Prokopec, Raphael Mosaner, Hanspeter Mössenböck
+	- https://doi.org/10.4230/LIPIcs.ECOOP.2024.20
+	- https://2024.ecoop.org/details/ecoop-2024-papers/24/Taking-a-Closer-Look-An-Outlier-Driven-Approach-to-Compilation-Time-Optimization
 - The Little Things: Speeding up C++ compilation
 	- https://codingnest.com/the-little-things-speeding-up-c-compilation/
 - To Unify or Not to Unify: A Case Study on Unified Builds (in WebKit)
