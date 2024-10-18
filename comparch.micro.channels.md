@@ -2903,6 +2903,11 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Oleksii Oleksenko, Marco Guarnieri, Boris Köpf, Mark Silberstein
 	- https://arxiv.org/abs/2301.07642
 	- https://github.com/microsoft/sca-fuzzer
+- iLeakage: Browser-based Timerless Speculative Execution Attacks on Apple Devices
+	- 2023 ACM SIGSAC Conference on Computer and Communications Security (CCS)
+	- Jason Kim, Stephan van Schaik, Daniel Genkin, Yuval Yarom
+	- https://doi.org/10.1145/3576915.3616611
+	- https://yuval.yarom.org/pdfs/KimSGY23.pdf
 - Inception: Exposing New Attack Surfaces with Training in Transient Execution
 	- USENIX Security 2023
 	- Daniël Trujillo, Johannes Wikner, Kaveh Razavi
