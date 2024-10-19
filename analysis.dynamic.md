@@ -685,6 +685,13 @@ See also:
 
 ### Software: Sanitizers: Projects
 
+- ALSan： Attachable Leak Sanitizer
+	- https://github.com/Bojun-Seo/bcc/tree/lsan
+	- Detect C++ Memory Leaks with ALSan： Attachable Leak Sanitizer
+		- C++Now 2024
+		- Bojun Seo
+		- https://www.youtube.com/watch?v=9f5hd-8suVE
+		- https://github.com/boostcon/cppnow_presentations_2024/blob/main/Presentations/ALSAN.pdf
 - QASan: QEMU-AddressSanitizer
 	- a custom QEMU that detects memory errors in the guest using AddressSanitizer
 	- https://github.com/andreafioraldi/qasan
