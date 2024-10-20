@@ -382,6 +382,12 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 
 ## Type Preservation: Testing
 
+- Experience Report: Applying Random Testing to a Base Type Environment
+	- ICFP 2013
+	- Vincent St-Amour, Neil Toronto
+	- https://doi.org/10.1145/2500365.2500616
+	- https://users.cs.northwestern.edu/~stamourv/papers/random-testing-base-type-environment.pdf
+	- https://users.cs.northwestern.edu/~stamourv/slides/tr-random-testing-icfp13.pdf
 - Finding Typing Compiler Bugs
 	- PLDI 2022
 	- Stefanos Chaliasos, Thodoris Sotiropoulos, Diomidis Spinellis, Arthur Gervais, Ben Livshits, Dimitris Mitropoulos
