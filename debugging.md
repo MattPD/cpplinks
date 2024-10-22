@@ -1279,6 +1279,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- https://blogs.oracle.com/linux/post/live-kernel-debugging-3
 - Under Linux, libSegFault and addr2line are underrated
 	- https://lemire.me/blog/2023/05/01/under-linux-libsegfault-and-addr2line-are-underrated/
+- What's Inside a Linux Kernel Core Dump
+  - 2024-02-08; Stephen Brennan
+  - https://blogs.oracle.com/linux/post/whats-inside-a-linux-kernel-core-dump
+  - vmcoreinfo: tools related to vmcoreinfo: findvmcoreinfo.py, editvmcoreinfo.c, get_vmcoreinfo.c, vmcoreinfosize.py
+    - https://github.com/brenns10/kernel_stuff/tree/master/vmcoreinfo
 
 #### Linux: Talks
 
