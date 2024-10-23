@@ -2871,6 +2871,15 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Andrea Mambretti, Alexandra Sandulescu, Matthias Neugschwandtner, Alessandro Sorniotti, Anil Kurmus
 	- http://ale.sopit.net/pdf/woot.pdf
 
+## Speculation: 2025
+
+- Breaking the Barrier: Post-Barrier Spectre Attacks
+	- IEEE Security and Privacy (S&P) 2025
+ 	- Johannes Wikner, Kaveh Razavi
+	- https://comsec.ethz.ch/research/microarch/breaking-the-barrier/
+	- https://comsec.ethz.ch/wp-content/files/ibpb_sp25.pdf
+	- https://grsecurity.net/cross_process_spectre_exploitation
+
 ## Speculation: 2024
 
 - GhostRace: Exploiting and Mitigating Speculative Race Conditions
