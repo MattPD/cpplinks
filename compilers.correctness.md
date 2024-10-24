@@ -382,6 +382,15 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 
 ## Type Preservation: Testing
 
+- API-driven Program Synthesis for Testing Static Typing Implementations
+	- POPL 2024
+	- Thodoris Sotiropoulos, Stefanos Chaliasos, Zhendong Su
+	- https://doi.org/10.1145/3632904
+	- https://arxiv.org/abs/2311.04527
+	- https://theosotr.github.io/assets/pdf/popl24.pdf
+	- https://www.youtube.com/watch?v=lZws2_bhL58
+	- Thalia: A framework for testing compilers' type checkers
+		- https://github.com/hephaestus-compiler-project/thalia
 - Experience Report: Applying Random Testing to a Base Type Environment
 	- ICFP 2013
 	- Vincent St-Amour, Neil Toronto
