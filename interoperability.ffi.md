@@ -44,6 +44,11 @@
 
 ### General: Readings: Optimization
 
+- Cross Module Quickening - The Curious Case of C Extensions
+	- ECOOP 2024
+	- Felix Berlakovich, Stefan Brunthaler
+	- https://doi.org/10.4230/LIPIcs.ECOOP.2024.6
+	- https://github.com/fberlakovich/cmq-ae
 - Dr Wenowdis: Specializing Dynamic Language C Extensions using Type Information
 	- SOAP 2024: ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis
 	- Maxwell Bernstein, Carl Friedrich Bolz-Tereick
