@@ -2175,6 +2175,11 @@ See also: [Computer Architecture](comparch.md)
 	- Richard Gay, Heiko Mantel, Henning Sudbrock
 	- https://www.semanticscholar.org/paper/An-Empirical-Bandwidth-Analysis-of-Interrupt-Relat-Gay-Mantel/d81d95e8969edd37a3f47335b98a9b6ce9e3942f
 	- http://www.mais.informatik.tu-darmstadt.de/WebBibPHP/papers/2013/2013-GayMantelSudbrock-EmpiricalIRCC.pdf
+- Cross-Core Interrupt Detection: Exploiting User and Virtualized IPIs
+	- ACM Conference on Computer and Communications Security (CCS) 2024
+	- Fabian Rauscher, Daniel Gruss
+	- https://doi.org/10.1145/3658644.3690242
+	- https://fabianrauscher.com/papers/uintr.pdf
 - Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic
 	- Computer & Communications Security (CCS) 2018
 	- Jo Van Bulck, Frank Piessens, Raoul Strackx
