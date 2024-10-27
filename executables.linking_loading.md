@@ -663,6 +663,8 @@ See also:
 		- https://github.com/elfmaster/shiva
 - stelf-loader: A stealthy ELF loader - no files, no execve, no RWX
 	- https://github.com/DavidBuchanan314/stelf-loader
+- Superlinker: Combine executables and shared libraries into even larger products
+	- https://github.com/whitequark/superlinker
 
 ## Software: OS: Windows
 
