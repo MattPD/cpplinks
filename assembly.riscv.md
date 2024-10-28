@@ -194,6 +194,10 @@ https://riscv.org/risc-v-books/
 - RISC-V Vector Programming in C with Intrinsics
 	- 2023-11-23
 	- https://fprox.substack.com/p/risc-v-vector-programming-in-c-with
+- RVV implementation of Keccak / SHA-3 (part 1)
+	- Leveraging RISC-V Vector to slow down SHA-3 software implementation
+	- 2023-12-31
+	- https://fprox.substack.com/p/rvv-implementation-of-keccak-sha
 - Implementing Softmax using RISC-V Vector
 	- Quick and dirty method to implement a vectorized non-linear function using RVV
 	- 2024-02-12
