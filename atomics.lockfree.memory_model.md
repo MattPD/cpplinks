@@ -160,6 +160,11 @@
 	- Thomas E. Hart
 	- https://www.cs.toronto.edu/~tomhart/masters_thesis.html
 
+## Memory Reclamation: Software
+
+- SMR Benchmark: A Microbenchmark Suite for Concurrent Safe Memory Reclamation Schemes
+	- https://github.com/kaist-cp/smr-benchmark
+
 ## Memory Reclamation: Talks
 
 - Memory management for concurrent data structures
