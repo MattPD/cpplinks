@@ -414,6 +414,13 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 		- 2021
 		- Jonathan Bell
 		- https://neu-se.github.io/CS7580-Fall-2021/lecture-notes/23-rust/
+- Generating Well-Typed Terms that are not "Useless"
+	- POPL 2024
+	- Justin Frank, Benjamin Quiring, Leonidas Lampropoulos
+	- https://doi.org/10.1145/3632919
+	- https://www.youtube.com/watch?v=KkE-wVqUbVQ
+	- well-typed-term-generator: An OCaml generator for well-typed terms (that use their arguments)
+		- https://github.com/bquiring/well-typed-term-generator
 - Making Random Judgments: Automatically Generating Well-Typed Terms from the Definition of a Type-System
 	- European Symposium on Programming (ESOP) 2015
 	- Burke Fetscher, Koen Claessen, Michał Pałka, John Hughes, Robert Bruce Findler
