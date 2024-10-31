@@ -1507,6 +1507,12 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ## Stack Trace & Unwinding
 
+- Advanced Usage of the C++23 Stacktrace Library
+	- ACCU 2024
+	- James Pascoe
+	- https://www.youtube.com/watch?v=rynny8wP3M4
+	- https://github.com/jamespascoe/accu2024-example-code
+	- https://github.com/jamespascoe/accu2024-stacktrace/tree/gh-pages
 - BacktraceResolver: Very fast backtraces resolver
 	- https://github.com/markpapadakis/BacktraceResolver
 - Backward-cpp: a beautiful stack trace pretty printer for C++
