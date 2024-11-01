@@ -43,7 +43,7 @@ See also: [Computer Architecture](comparch.md)
 - [Superscalar](#superscalar)
 - [Thermal](#thermal)
 - [Translation Lookaside Buffer (TLB)](#translation-lookaside-buffer-tlb)
-- [Trusted Execution Environments (TEEs)](#trusted-execution-environments-tees): [Arm TrustZone](#arm-trustzone), [Intel SGX](#intel-sgx)
+- [Trusted Execution Environments (TEEs)](#trusted-execution-environments-tees): [AMD Secure Encrypted Virtualization (SEV)](#amd-secure-encrypted-virtualization-sev), [Arm TrustZone](#arm-trustzone), [Intel SGX](#intel-sgx)
 - [TSX](#tsx)
 - [Talks](#talks)
 
@@ -3118,6 +3118,14 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- IEEE Security & Privacy 2020
 	- Michael Schwarz, Daniel Gruss
 	- https://gruss.cc/files/tee_fuel.pdf
+
+## AMD Secure Encrypted Virtualization (SEV)
+
+- CounterSEVeillance: Performance-Counter Attacks on AMD SEV-SNP
+	- Network and Distributed System Security (NDSS) Symposium 2025
+	- Stefan Gast, Hannes Weissteiner, Robin Leander Schröder, Daniel Gruss
+	- https://dx.doi.org/10.14722/ndss.2025.241038
+	- https://stefangast.eu/papers/counterseveillance.pdf
 
 ## Arm TrustZone
 
