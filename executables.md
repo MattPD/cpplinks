@@ -910,6 +910,14 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 
 ## ELF: Talks
 
+### ELF: Talks (2024)
+
+- How Linux ELF Symbols Work and How They Are Used in C++ and C Programming
+	- C++ on Sea 2024
+	- Anders Schau Knatten
+	- https://www.youtube.com/watch?v=X2jFjeCDOYw
+	- https://github.com/philsquared/cpponsea2024-slides/blob/main/Presentations/How_Symbols_Work_and_Why_We_Need_Them.pdf
+
 ### ELF: Talks (2020)
 
 - In-depth: ELF - The Extensible & Linkable Format
