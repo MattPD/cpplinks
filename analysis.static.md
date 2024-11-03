@@ -23,6 +23,7 @@ See also:
 	- [Software](#verification-software): Verification Software
 - [Software](#software):
 	- [Compilers](#software-compilers): Clang, GCC, Visual C++ - static analysis support
+	- [Indexing](#software-indexing): source code indexing
 - [Talks](#talks): [2021](#talks-2021)
 
 ---
@@ -406,6 +407,17 @@ _Benchmarks & comparisons_
 		- https://docs.microsoft.com/en-us/visualstudio/code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects
 		- Salieri: Source-code annotation language (SAL) compatibility header
 			- https://github.com/nemequ/salieri
+
+## Software: Indexing
+
+- Glean: System for collecting, deriving, and working with facts about source code
+	- https://github.com/facebookincubator/glean
+	- https://glean.software/
+	- Glean: C++ Code Indexing at Meta
+		- C++Now 2024
+		- Michael Park
+		- https://www.youtube.com/watch?v=BAxoeCEfb1I
+		- https://github.com/boostcon/cppnow_presentations_2024/blob/main/Presentations/glean.pdf
 
 ---
 
