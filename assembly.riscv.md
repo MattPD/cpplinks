@@ -488,6 +488,12 @@ https://riscv.org/specifications/
 	- https://github.com/jameslzhu/riscv-card
 	- https://github.com/jameslzhu/riscv-card/blob/master/riscv-card.pdf
 - RISC-V Toolchain Conventions - https://github.com/lowRISC/riscv-toolchain-conventions
+- RISC-V Unified Database
+	- https://github.com/riscv-software-src/riscv-unified-db
+	- RISC-V ISA Manual
+		- https://riscv-software-src.github.io/riscv-unified-db/manual/html/landing/
+	- RISC-V Specification for generic_rv64
+		- https://riscv-software-src.github.io/riscv-unified-db/example_cfg/html/generic_rv64/landing.html
 - The Embedded RISC-V Project
 	- A complementary RISC-V specification intended for bare metal embedded applications
 	- https://emb-riscv.github.io/
