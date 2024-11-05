@@ -982,6 +982,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://rohan.padhye.org/files/bonsai-icse21.pdf
 	- Bonsai Fuzzing: a fuzz-testing algorithm that generates concise test cases for software such as compilers.
 		- https://github.com/vasumv/bonsai-fuzzing
+- Inputs from Hell: Learning Input Distributions for Grammar-Based Test Generation
+	- International Conference on Software Engineering ICSE 2021
+	- IEEE Transactions on Software Engineering (TSE) Volume 48, Issue 4, 01 2022
+	- Ezekiel Soremekun, Esteban Pavese, Nikolas Havrikov, Lars Grunske, Andreas Zeller
+	- https://doi.org/10.1109/TSE.2020.3013716
+	- https://publications.cispa.saarland/3167/
+	- https://conf.researchr.org/details/icse-2021/icse-2021-Journal-First-Papers/18/Inputs-from-Hell-Learning-Input-Distributions-for-Grammar-Based-Test-Generation
 - RemGen: Remanufacturing a Random Program Generator for Compiler Testing
 	- IEEE International Symposium on Software Reliability Engineering (ISSRE) 2022
 	- Haoxin Tu, He Jiang, Xiaochen Li, Zhilei Ren, Zhide Zhou, Lingxiao Jiang
