@@ -538,6 +538,10 @@ See also:
 	- https://www.vusec.net/projects/floatzone/
 	- https://www.usenix.org/conference/usenixsecurity23/presentation/gorter
 	- https://github.com/vusec/floatzone
+- Mapping High-Level Concurrency from OpenMP and MPI to ThreadSanitizer Fibers
+	- SC Workshops 2023
+	- Joachim Jenke, Simon Schwitanski, Isabel Thärigen, Matthias S. Müller
+	- https://dl.acm.org/doi/10.1145/3624062.3624085
 
 ##### Software: Sanitizers: Readings: Research: 2022
 
