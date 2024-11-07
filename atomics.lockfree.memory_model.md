@@ -121,6 +121,12 @@
 
 ### Memory Reclamation: Readings: 2024
 
+- A Fast Wait-Free Solution to Read-Reclaim Races in Reference Counting
+	- Euro-Par 2024: Parallel Processing: European Conference on Parallel and Distributed Processing
+	- Ivo Gabe de Wolff, Daniel Anderson, Gabriele K. Keller, Aleksei Seletskiy
+	- https://link.springer.com/chapter/10.1007/978-3-031-69583-4_8
+	- https://zenodo.org/doi/10.5281/zenodo.11775181
+	- https://github.com/ivogabe/wait-free-atomic-shared-pointer
 - Concurrent Immediate Reference Counting
 	- Programming Languages Design and Implementation (PLDI) 2024
 	- Jaehwang Jung, Jeonghyeon Kim, Matthew J. Parkinson, Jeehoon Kang
