@@ -117,6 +117,12 @@ See also:
 	- Learning From Your Bugs - https://henrikwarne.com/2016/04/28/learning-from-your-bugs/
 - How to Debug - John Regehr - https://blog.regehr.org/archives/199
 - I tend to prefer debugging with release builds instead of debug builds - Ken Johnson (Skywing) - http://www.nynaeve.net/?p=184
+- Introduction to Procedural Debugging through Binary Libification
+	- USENIX WOOT Conference on Offensive Technologies (WOOT) 2024
+	- Jonathan Brossard
+	- https://www.usenix.org/conference/woot24/presentation/brossard
+	- WCC: The Witchcraft Compiler Collection
+		- https://github.com/endrazine/wcc
 - The Inflection Point Hypothesis: A Principled Debugging Approach for Locating the Root Cause of a Failure
 	- Symposium on Operating Systems Principles (SOSP) 2019
 	- Yongle Zhang, Kirk Rodrigues, Yu Luo, Michael Stumm, Ding Yuan
