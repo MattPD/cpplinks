@@ -410,6 +410,10 @@ _Benchmarks & comparisons_
 
 ## Software: Indexing
 
+- clangd language server: provides C++ IDE features to editors
+	- https://github.com/clangd/clangd
+	- https://clangd.llvm.org/
+	- https://clangd.llvm.org/design/indexing
 - Glean: System for collecting, deriving, and working with facts about source code
 	- https://github.com/facebookincubator/glean
 	- https://glean.software/
