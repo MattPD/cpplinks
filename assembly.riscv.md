@@ -222,6 +222,9 @@ https://riscv.org/risc-v-books/
 - RISC-V Profiles: Defining sets of extensions for coherent ecosystems
 	- 2023-03-22
 	- https://fprox.substack.com/p/risc-v-profiles
+- RVB profile: application class profile with options
+	- 2023-07-15
+	- https://fprox.substack.com/p/rvb-profile-application-class-profile
 - Sneak peek at RISC-V RVA23(U64) profile
 	- 2023-02-26
 	- https://fprox.substack.com/p/risc-v-profile-rva23u64
