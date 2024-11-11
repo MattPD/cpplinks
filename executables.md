@@ -912,6 +912,10 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 
 ### ELF: Talks (2024)
 
+- ELF Loading: A Deep Dive Into Runtime Linking
+	- Denver C++ Meetup 2024-09
+	- Andrew Kaster
+	- https://www.youtube.com/watch?v=IY1FwkFu44E
 - How Linux ELF Symbols Work and How They Are Used in C++ and C Programming
 	- C++ on Sea 2024
 	- Anders Schau Knatten
