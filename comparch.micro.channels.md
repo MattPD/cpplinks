@@ -1370,6 +1370,14 @@ See also: [Computer Architecture](comparch.md)
 
 # Cache
 
+## Cache: 2025
+
+- A Systematic Evaluation of Novel and Existing Cache Side Channels
+	- Network and Distributed System Security Symposium (NDSS) 2025
+	- Fabian Rauscher, Carina Fiedler, Andreas Kogler, Daniel Gruss
+	- https://dx.doi.org/10.14722/ndss.2025.23253
+	- https://gruss.cc/files/demote.pdf
+
 ## Cache: 2024
 
 - Spec-o-Scope: Cache Probing at Cache Speed
