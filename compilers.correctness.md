@@ -379,6 +379,12 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- Journal of Formalized Reasoning (JFR) 8, 1 (2015)
 	- Olivier Savary Bélanger, Stefan Monnier, Brigitte Pientka
 	- https://doi.org/10.6092/issn.1972-5787/5122
+- Type-Preserving CPS Translation of Σ and Π Types is Not Not Possible
+	- Principles of Programming Languages (POPL) 2018
+	- William J. Bowman, Youyou Cong, Nick Rioux, Amal Ahmed
+	- https://doi.org/10.1145/3158110
+	- https://www.williamjbowman.com/#cps-sigma
+	- https://popl18.sigplan.org/details/POPL-2018-papers/69/Type-Preserving-CPS-Translation-of-and-Types-is-Not-Not-Possible
 
 ## Type Preservation: Testing
 
