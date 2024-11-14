@@ -507,6 +507,10 @@ See also:
 	- https://5hadowblad3.github.io/files/asplos24-GiantSan.pdf
 	- https://github.com/5hadowblad3/GiantSan-Artifact
 	- https://github.com/AceSrc/GiantSan-Artifact
+- RMASanitizer: Generalized Runtime Detection of Data Races in Remote Memory Access Applications
+	- ICPP 2024
+	- Simon Schwitanski, Yussur Mustafa Oraji, Cornelius Pätzold, Joachim Jenke, Felix Tomski, Matthias S. Müller
+	- https://doi.org/10.1145/3673038.3673109
 - RustSan: Retrofitting AddressSanitizer for Efficient Sanitization of Rust
 	- USENIX Security 2024
 	- Kyuwon Cho, Jongyoon Kim, Kha Dinh Duy, Hajeong Lim, Hojoon Lee
