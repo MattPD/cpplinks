@@ -422,6 +422,9 @@ _Benchmarks & comparisons_
 		- Michael Park
 		- https://www.youtube.com/watch?v=BAxoeCEfb1I
 		- https://github.com/boostcon/cppnow_presentations_2024/blob/main/Presentations/glean.pdf
+- scip-clang: SCIP indexer for C and C++
+	- https://github.com/sourcegraph/scip-clang
+	- https://sourcegraph.com/blog/announcing-scip-clang
 
 ---
 
