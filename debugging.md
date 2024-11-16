@@ -526,6 +526,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Yit Phang Khoo, Jeffrey S. Foster, Michael Hicks
 	- http://www.cs.umd.edu/~mwh/papers/khoo13expositor.html
 	- full version - http://www.cs.umd.edu/~mwh/papers/khoo13expositor-journal.html
+- Implementation of Live Reverse Debugging in LLDB
+	- 2021
+	- Anthony Savidis, Vangelis Tsiatsianas
+	- https://arxiv.org/abs/2105.12819
+	- https://github.com/vangelists/llvm-project/wiki/Reverse-Debugging
 - Improving the performance of reverse debugging
 	- Programming and Computer Software 43(1) 2017
 	- Klimushenkova, M.A. & Dovgalyuk, P.M.
