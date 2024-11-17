@@ -191,6 +191,9 @@ https://riscv.org/risc-v-books/
 		- https://fprox.substack.com/p/risc-v-vector-register-groups
 	- RISC-V Vector Element Groups
 		- https://fprox.substack.com/p/risc-v-vector-element-groups
+- RISC-V Vector Extension overview
+	- Wojciech Muła
+	- http://0x80.pl/notesen/2024-11-09-riscv-vector-extension.html
 - RISC-V Vector Programming in C with Intrinsics
 	- 2023-11-23
 	- https://fprox.substack.com/p/risc-v-vector-programming-in-c-with
