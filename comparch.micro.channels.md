@@ -38,6 +38,7 @@ See also: [Computer Architecture](comparch.md)
 - [Return Stack Buffer (RSB)](#return-stack-buffer-rsb)
 - [Scheduler](#scheduler)
 - [SMT](#smt)
+- [Solid-State Drive (SSD)](#solid-state-drive-ssd)
 - [Speculation](#speculation)
 - [Store Buffer](#store-buffer)
 - [Superscalar](#superscalar)
@@ -2674,6 +2675,15 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 	- https://eprint.iacr.org/2018/1060
 	- PortSmash (CVE-2018-5407): side-channel vulnerability on SMT/Hyper-Threading architectures
 		- https://github.com/bbbrumley/portsmash
+
+---
+
+# Solid-State Drive (SSD)
+
+- Secret Spilling Drive: Leaking User Behavior through SSD Contention
+	- Network and Distributed System Security (NDSS) Symposium 2025
+	- Jonas Juffinger, Fabian Rauscher, Giuseppe La Manna, Daniel Gruss
+	- https://www.jonasjuffinger.com/papers/ssd.pdf
 
 ---
 
