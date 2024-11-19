@@ -312,6 +312,10 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 		- Scapula: An Open-Source Toolkit For Model-Based Fuzzing and Verification of ARM CPUs
 			- HITB+ CyberWeek 2019; Jared Wright
 			- https://www.youtube.com/watch?v=v8SYv3GP3cs
+- Specifications and theorem-proving at Arm
+	- Big Specification: Specification, Proof, and Testing at Scale 2024
+	- Anthony Fox, Hrutvik Kanabar
+	- https://www.youtube.com/watch?v=bkO9ZYA04UY
 - Trustworthy Specifications of ARM v8-A and v8-M System Level Architecture
 	- FMCAD 2016
 	- Alastair Reid
