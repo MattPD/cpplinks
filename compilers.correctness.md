@@ -386,6 +386,14 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- https://www.williamjbowman.com/#cps-sigma
 	- https://popl18.sigplan.org/details/POPL-2018-papers/69/Type-Preserving-CPS-Translation-of-and-Types-is-Not-Not-Possible
 
+## Type Preservation: Intrinsically Typed Compilation
+
+- Correct by Construction Language Implementations
+	- 2021 PhD Dissertation
+	- Arjen Rouvoet
+	- https://doi.org/10.4233/uuid:f0312839-3444-41ee-9313-b07b21b59c11
+	- https://pure.tudelft.nl/ws/portalfiles/portal/100792932/thesis.pdf
+
 ## Type Preservation: Testing
 
 - API-driven Program Synthesis for Testing Static Typing Implementations
