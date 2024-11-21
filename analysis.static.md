@@ -414,6 +414,12 @@ _Benchmarks & comparisons_
 	- https://github.com/clangd/clangd
 	- https://clangd.llvm.org/
 	- https://clangd.llvm.org/design/indexing
+- Ctags
+	- https://en.wikipedia.org/wiki/Ctags
+	- https://github.com/freebsd/freebsd-src/tree/main/usr.bin/ctags
+	- Universal Ctags: A maintained ctags implementation
+		- https://ctags.io/
+		- https://github.com/universal-ctags/ctags
 - Glean: System for collecting, deriving, and working with facts about source code
 	- https://github.com/facebookincubator/glean
 	- https://glean.software/
