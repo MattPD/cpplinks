@@ -121,6 +121,12 @@
 
 ### Memory Reclamation: Readings: 2024
 
+- A Family of Fast and Memory Efficient Lock- and Wait-Free Reclamation
+	- PLDI 2024
+	- Ruslan Nikolaev, Binoy Ravindran
+	- https://dl.acm.org/doi/abs/10.1145/3658851
+	- Crystalline Reclamation
+		- https://github.com/rusnikola/wfsmr/
 - A Fast Wait-Free Solution to Read-Reclaim Races in Reference Counting
 	- Euro-Par 2024: Parallel Processing: European Conference on Parallel and Distributed Processing
 	- Ivo Gabe de Wolff, Daniel Anderson, Gabriele K. Keller, Aleksei Seletskiy
