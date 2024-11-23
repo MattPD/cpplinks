@@ -201,6 +201,10 @@ https://riscv.org/risc-v-books/
 	- Leveraging RISC-V Vector to slow down SHA-3 software implementation
 	- 2023-12-31
 	- https://fprox.substack.com/p/rvv-implementation-of-keccak-sha
+- Accelerating CRC with RISC-V Vector
+	- Zvbc(32e) for the win
+	- 2024-10-12
+	- https://fprox.substack.com/p/accelerating-crc-with-risc-v-vector
 - Implementing Softmax using RISC-V Vector
 	- Quick and dirty method to implement a vectorized non-linear function using RVV
 	- 2024-02-12
