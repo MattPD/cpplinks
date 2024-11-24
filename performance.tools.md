@@ -296,6 +296,11 @@
 		- https://hpc.fau.de/files/2020/02/Masterarbeit_JL-_final.pdf
 		- Measurements and reproducibility instructions
 			- https://github.com/RRZE-HPC/OSACA-Artifact-Appendix
+	- Microarchitectural Comparison and In-Core Modeling of State-of-the-Art CPUs: Grace, Sapphire Rapids, and Genoa
+		- IEEE International Workshop on Performance Modeling, Benchmarking, and Simulation of High-Performance Computer Systems (PMBS) 2024
+		- Jan Laukemann, Georg Hager, Gerhard Wellein
+		- https://arxiv.org/abs/2409.08108
+		- https://conferences.computer.org/sc-wpub/pdfs/SC-W2024-6oZmigAQfgJ1GhPL0yE3pS/555400b405/555400b405.pdf
 - PALMED: Throughput Characterization for Superscalar Architectures
 	- CGO 2022
 	- Nicolas Derumigny, Fabian Gruber, Théophile Bastian, Christophe Guillon, Guillaume Iooss, Louis-Noël Pouchet, Fabrice Rastello
