@@ -905,6 +905,13 @@ See also: [Computer Architecture](comparch.md)
 
 #### Defense: Software: Compilation and Programming Languages: 2024
 
+- Eclipse: Preventing Speculative Memory-error Abuse with Artificial Data Dependencies
+	- ACM SIGSAC Conference on Computer and Communications Security (CCS) 2024
+	- Neophytos Christou, Alexander Gaidis, Vaggelis Atlidakis, and Vasileios P. Kemerlis
+	- https://doi.org/10.1145/3658644.3690201
+	- https://cs.brown.edu/~vpk/papers/eclipse.ccs24.pdf
+	- https://vatlidak.github.io/resources/eclipse_ccs24_prez.pdf
+	- https://gitlab.com/brown-ssl/eclipse
 - Protecting cryptographic code against Spectre-RSB (and, in fact, all known Spectre variants)
 	- Cryptology ePrint Archive, Paper 2024/1070
 	- Santiago Arranz Olmos, Gilles Barthe, Chitchanok Chuengsatiansup, Benjamin Grégoire, Vincent Laporte, Tiago Oliveira, Peter Schwabe, Yuval Yarom, Zhiyuan Zhang
