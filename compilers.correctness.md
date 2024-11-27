@@ -1631,6 +1631,14 @@ Validation: Including translation validation, equivalence checking.
 	- https://sdasgup3.github.io/files/pldi_2020.pdf
 	- https://www.youtube.com/watch?v=veV6TuPsRYw
 	- https://pldi20.sigplan.org/details/pldi-2020-papers/4/Scalable-Validation-of-Binary-Lifters
+- Certified and Efficient Instruction Scheduling: Application to Interlocked VLIW Processors
+	- OOPSLA 2020
+	- Cyril Six, Sylvain Boulmé, David Monniaux
+	- https://doi.org/10.1145/3428197
+	- https://www.youtube.com/watch?v=a_sJr2CJ3Uk
+	- https://2020.splashcon.org/details/splash-2020-oopsla/5/Certified-and-efficient-instruction-scheduling
+	- https://hal.science/hal-02185883
+	- https://gricad-gitlab.univ-grenoble-alpes.fr/certicompil/compcert-kvx
 - Counterexample-Guided Correlation Algorithm for Translation Validation
 	- OOPSLA 2020
 	- Shubhani Gupta, Abhishek Rose, Sorav Bansal
