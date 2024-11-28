@@ -200,6 +200,11 @@
 	- https://jrb-programming.blogspot.com/2012/12/easy-binary-compatible-interfaces.html
 	- https://github.com/jbandela/cppcomponents
 	- https://github.com/jbandela/cross_compiler_call
+- Hidden Overhead of a Function API
+	- CppCon 2024
+	- Oleksandr Bacherikov
+	- https://www.youtube.com/watch?v=PCP3ckEqYK8
+	- https://github.com/CppCon/CppCon2024/blob/main/Presentations/Hidden_Overhead_of_a_Function_API.pdf
 - How Can Package Managers Handle ABI (In)compatibility in C++?
 	- CppCon 2021; Todd Gamblin
 	- https://www.youtube.com/watch?v=gWe2K_oCp6A
