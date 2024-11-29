@@ -290,6 +290,11 @@ _Benchmarks & comparisons_
 - Cppcheck: A tool for static C/C++ code analysis
 	- http://cppcheck.sourceforge.net/
 	- https://github.com/danmar/cppcheck
+	- Building Cppcheck: What We Learned from 17 Years of Development
+		- Daniel Marjamäki
+		- CppCon 2024
+		- https://www.youtube.com/watch?v=ztyhiMhvrqA
+		- https://github.com/CppCon/CppCon2024/blob/main/Presentations/Building_Cppcheck.pdf
 - cpplint: static code checker for C++
 	- https://github.com/cpplint/cpplint
 - Crab: A Language-Agnostic Library for Static Analysis
