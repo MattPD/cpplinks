@@ -1123,6 +1123,12 @@ Test Doubles: Faking, Mocking
 
 ## Talks: 2021
 
+- Programming with GUTs (Good Unit Tests)
+	- Meeting C++ 2021
+	- Kevlin Henney
+	- https://www.youtube.com/watch?v=cfh6ZrA19r4
+	- https://meetingcpp.com/mcpp/slides/2021/Program%20with%20GUTs9820.pdf
+	- https://medium.com/97-things/program-with-guts-828e69dd8e15
 - Structure and Interpretation of Test Cases
 	- C++ on Sea 2021
 	- Kevlin Henney
