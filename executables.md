@@ -260,6 +260,9 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 - ThreadContinue: Reflective DLL injection using SetThreadContext() and NtContinue()
 	- https://github.com/zerosum0x0/ThreadContinue
 	- https://zerosum0x0.blogspot.com/2017/07/threadcontinue-reflective-injection.html
+- WinDepends: Windows Dependencies
+	- a rewrite of the Dependency Walker utility
+	- https://github.com/hfiref0x/WinDepends
 
 ## DLL: Talks
 
