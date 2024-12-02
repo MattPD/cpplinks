@@ -120,6 +120,11 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ## Readings: Concurrency
 
+- A Study on the Performance Implications of AArch64 Atomics
+	- ISC High Performance 2023
+	- Ricardo Jesus, Michèle Weiland
+	- https://link.springer.com/chapter/10.1007/978-3-031-32041-5_15
+	- https://www.researchgate.net/publication/370682772_A_Study_on_the_Performance_Implications_of_AArch64_Atomics
 - An Axiomatic Basis for Computer Programming on the Relaxed Arm-A Architecture: The AxSL Logic
 	- POPL 2024
 	- Angus Hammond, Zongyuan Liu, Thibaut Pérami, Peter Sewell, Lars Birkedal, Jean Pichon-Pharabod
