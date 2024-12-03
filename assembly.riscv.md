@@ -96,6 +96,13 @@ https://riscv.org/risc-v-books/
 	- 2019 PhD dissertation; Christopher Pulte
 	- https://doi.org/10.17863/CAM.39379
 
+## Emulation & Simulation
+
+- Accelerate RISC-V Instruction Set Simulation by Tiered JIT Compilation
+	- VMIL 2024: ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages
+	- Yen-Fu Chen, Meng-Hung Chen, Ching-Chun Huang, Chia-Heng Tu
+	- https://dl.acm.org/doi/10.1145/3689490.3690399
+
 ## Instruction Set Architecture
 
 - RISC-V Register Files
