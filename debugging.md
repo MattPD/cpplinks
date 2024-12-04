@@ -634,51 +634,22 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Supports GCC, Clang and MSVC.
 	- Works well on ARM, AArch64, i686, x86-64, POWER and has a fallback code path for other architectures.
 	- https://github.com/scottt/debugbreak
-- LibVMI: Simplified Virtual Machine Introspection
-	- "LibVMI is a virtual machine introspection library. This means that it helps you access the memory of a running virtual machine. LibVMI provides primitives for accessing this memory using physical or virtual addresses and kernel symbols. LibVMI also supports accessing memory from a physical memory snapshot, which is helpful for debugging or forensic analysis."
-	- https://github.com/libvmi/libvmi
 - ppstep: Interactive C/C++ preprocessor macro debugger
 	- https://github.com/notfoundry/ppstep
-- PulseDbg: Hypervisor-based debugger
-	- https://github.com/honorarybot/PulseDBG
-- PyREBox: a Python scriptable Reverse Engineering sandbox
-	- "It is based on QEMU, and its goal is to aid reverse engineering by providing dynamic analysis and debugging capabilities from a different perspective. PyREBox allows to inspect a running QEMU VM, modify its memory or registers, and to instrument its execution, by creating simple scripts in python to automate any kind of analysis. QEMU (when working as a whole-system-emulator) emulates a complete system (CPU, memory, devices...). By using VMI techniques, it does not require to perform any modification into the guest operating system, as it transparently retrieves information from its memory at run-time."
-	- https://github.com/Cisco-Talos/pyrebox
-	- http://blog.talosintelligence.com/2017/07/pyrebox.html
-- pyvmidbg: LibVMI-based debug server, implemented in Python
-	- Building a guest aware, stealth and agentless full-system debugger
-	- https://github.com/Wenzel/pyvmidbg
-	- Building a Flexible Hypervisor-Level Debugger
-		- Insomni'hack 2019; Mathieu Tarral
-		- https://drive.google.com/open?id=1ZMUszfwWDOljdDfPOJgkEfSabNy0UAJR
-- QIRA - QEMU Interactive Runtime Analyser
+- QIRA: QEMU Interactive Runtime Analyser
 	- http://qira.me/
 	- https://github.com/BinaryAnalysisPlatform/qira/
-- Radare2
+- Radare2: Libre Reversing Framework for Unix Geeks
 	- Radare project started as a forensics tool, a scriptable commandline hexadecimal editor able to open disk files, but later support for analyzing binaries, disassembling code, debugging programs, attaching to remote gdb servers, etc.
 	- http://www.radare.org/
 	- https://github.com/radare/radare2
-	- r2vmi: Hypervisor-Level Debugger based on Radare2 / LibVMI, using VMI IO and debug plugins
-		- https://github.com/Wenzel/r2vmi
-		- Hack.lu 2018: Hypervisor-Level Debugger: Benefits And Challenges - Mathieu Tarral
-			- https://www.youtube.com/watch?v=NnWYT-kCx_s
-		- r2con2018 - Hypervisor Level Debugger with r2 - Mathieu Tarral
-			- https://www.youtube.com/watch?v=JOJMgWa7E6A
-			- https://github.com/radareorg/r2con2018/tree/master/talks/10-hypervisor-level-debugger
 - ret-sync: Reverse-Engineering Tools SYNChronization
 	- A set of plugins to synchronize a debugging session (WinDbg/GDB/LLDB/OllyDbg/OllyDbg2/x64dbg) with IDA/Ghidra disassemblers.
 	- https://github.com/bootleg/ret-sync
-- rVMI - A New Paradigm For Full System Analysis
-	- "rVMI is a debugger on steroids. It leverages Virtual Machine Introspection (VMI) and memory forensics to provide full system analysis. This means that an analyst can inspect userspace processes, kernel drivers, and preboot environments in a single tool."
-	- https://github.com/fireeye/rVMI
-	- https://www.fireeye.com/blog/threat-research/2017/09/rvmi-full-system-analysis.html
-	- Black Hat USA 2017
-		- https://www.blackhat.com/docs/us-17/thursday/us-17-Pfoh-rVMI-A-New-Paradigm-For-Full-System-Analysis.pdf
-		- https://www.youtube.com/watch?v=tEVevKVLs3s
 - Vivisect / Vdb / Vtrace
-	- Vivisect - interactive disassembler
-	- Vtrace - a cross-platform & cross-architecture debugging API
-	- VDB - a cross-platform & cross-architecture debugger using Vtrace
+	- Vivisect: interactive disassembler
+	- Vtrace: a cross-platform & cross-architecture debugging API
+	- VDB: a cross-platform & cross-architecture debugger using Vtrace
 	- https://github.com/vivisect/vivisect
 	- documentation: http://fitblip.pub/vdb-fork/sphinx/
 	- fork & documentation: http://fitblip.pub/vdb-fork/
@@ -696,12 +667,48 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- https://github.com/fireeye/flare-qdb
 		- Querying Dynamic State using the FireEye Labs Query-Oriented Debugger (flare-qdb)
 			- https://www.fireeye.com/blog/threat-research/2017/01/flare_script_series.html
-- Voltron - https://github.com/snare/voltron
-- xendbg - A modern Xen debugger
-	- https://github.com/nccgroup/xendbg
+- Voltron: A hacky debugger UI for hackers
+	- "Voltron is an extensible debugger UI toolkit written in Python. It aims to improve the user experience of various debuggers (LLDB, GDB, VDB and WinDbg) by enabling the attachment of utility views that can retrieve and display data from the debugger host. By running these views in other TTYs, you can build a customised debugger user interface to suit your needs."
+	- https://github.com/snare/voltron
+
+## Software: Virtual Machine Introspection
+
+- LibVMI: Simplified Virtual Machine Introspection
+	- "LibVMI is a virtual machine introspection library. This means that it helps you access the memory of a running virtual machine. LibVMI provides primitives for accessing this memory using physical or virtual addresses and kernel symbols. LibVMI also supports accessing memory from a physical memory snapshot, which is helpful for debugging or forensic analysis."
+	- https://github.com/libvmi/libvmi
+- PulseDbg: Hypervisor-based debugger
+	- https://github.com/honorarybot/PulseDBG
+- PyREBox: a Python scriptable Reverse Engineering sandbox
+	- "It is based on QEMU, and its goal is to aid reverse engineering by providing dynamic analysis and debugging capabilities from a different perspective. PyREBox allows to inspect a running QEMU VM, modify its memory or registers, and to instrument its execution, by creating simple scripts in python to automate any kind of analysis. QEMU (when working as a whole-system-emulator) emulates a complete system (CPU, memory, devices...). By using VMI techniques, it does not require to perform any modification into the guest operating system, as it transparently retrieves information from its memory at run-time."
+	- https://github.com/Cisco-Talos/pyrebox
+	- http://blog.talosintelligence.com/2017/07/pyrebox.html
+- pyvmidbg: LibVMI-based debug server, implemented in Python
+	- Building a guest aware, stealth and agentless full-system debugger
+	- https://github.com/Wenzel/pyvmidbg
+	- Building a Flexible Hypervisor-Level Debugger
+		- Insomni'hack 2019; Mathieu Tarral
+		- https://drive.google.com/open?id=1ZMUszfwWDOljdDfPOJgkEfSabNy0UAJR
+- r2vmi: Hypervisor-Level Debugger based on Radare2 / LibVMI, using VMI IO and debug plugins
+	- https://github.com/Wenzel/r2vmi
+	- Hack.lu 2018: Hypervisor-Level Debugger: Benefits And Challenges - Mathieu Tarral
+		- https://www.youtube.com/watch?v=NnWYT-kCx_s
+	- r2con2018 - Hypervisor Level Debugger with r2 - Mathieu Tarral
+		- https://www.youtube.com/watch?v=JOJMgWa7E6A
+		- https://github.com/radareorg/r2con2018/tree/master/talks/10-hypervisor-level-debugger
+- rVMI: A New Paradigm For Full System Analysis
+	- "rVMI is a debugger on steroids. It leverages Virtual Machine Introspection (VMI) and memory forensics to provide full system analysis. This means that an analyst can inspect userspace processes, kernel drivers, and preboot environments in a single tool."
+	- https://github.com/fireeye/rVMI
+	- https://www.fireeye.com/blog/threat-research/2017/09/rvmi-full-system-analysis.html
+	- Black Hat USA 2017
+		- https://www.blackhat.com/docs/us-17/thursday/us-17-Pfoh-rVMI-A-New-Paradigm-For-Full-System-Analysis.pdf
+		- https://www.youtube.com/watch?v=tEVevKVLs3s
+- xendbg: A modern Xen debugger
 	- "`xendbg` is a feature-complete reference implementation of a modern Xen VMI debugger, superseding Xen's own limited and rarely-maintained [`gdbsx`](https://github.com/mirage/xen/tree/master/tools/debugger/gdbsx). It can debug both paravirtualized (PV) and hardware virtualized (HVM) guests, and provides both a standalone REPL and an LLDB server mode."
+	- https://github.com/nccgroup/xendbg
 	- Xendbg: A Full-Featured Debugger for the Xen Hypervisor
 		- https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2019/january/xendbg-a-full-featured-debugger-for-the-xen-hypervisor/
+- Virtual Machine Introspection: Modular and extensible library for Virtual Machine Introspection
+	- https://github.com/vmi-rs/vmi
 
 ## GDB
 
