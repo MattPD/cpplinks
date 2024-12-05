@@ -128,6 +128,11 @@
 
 ## C++26: Trip Reports
 
+### C++26: Trip Reports: 2024-11
+
+- Trip report: November 2024 ISO C++ standards meeting (Wrocław, Poland)
+	- https://herbsutter.com/2024/11/24/wg21-2024-11/
+
 ### C++26: Trip Reports: 2024-06
 
 - Trip report: Summer ISO C++ standards meeting (St Louis, MO, USA)
