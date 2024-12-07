@@ -1372,6 +1372,9 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	- An Introduction to Dumping Malware with Process Dump - https://www.youtube.com/watch?v=dCU7N-Oh3jg
 - rcedit: Command line tool to edit resources of EXE file on Windows
 	- https://github.com/electron/rcedit
+- readpe: The PE file analysis toolkit
+	- Open source, full-featured, multiplatform command line toolkit to work with and analyze PE (Portable Executables) binaries.
+	- https://github.com/mentebinaria/readpe
 - Reflective PE Unloader
 	- This is code that can be used within a PE file to allow it to reflectively reconstruct itself in memory at runtime. The result is a byte for byte copy of the original PE file. This can be combined with Reflective DLL Injection to allow code to reconstruct itself after being loaded through an arbitrary means.
 	- https://github.com/zeroSteiner/reflective-polymorphism
