@@ -388,6 +388,11 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 
 ## Type Preservation: Intrinsically Typed Compilation
 
+- A Type-Correct, Stack-Safe, Provably Correct, Expression Compiler in Epigram
+	- 2006
+	- James McKinna, Joel Wright
+	- https://www.cs.tufts.edu/comp/150FP/archive/conor-mcbride/epigram-pearl.pdf
+	- Epigram: http://www.e-pig.org/
 - Correct by Construction Language Implementations
 	- 2021 PhD Dissertation
 	- Arjen Rouvoet
