@@ -1759,6 +1759,17 @@ See also: [Computer Architecture](comparch.md)
 
 # Electromagnetic (EM) Emanations
 
+## Electromagnetic (EM) Emanations: 2021
+
+- Let’s Take it Offline: Boosting Brute-Force Attacks on iPhone’s User Authentication through SCA
+	- IACR Transactions on Cryptographic Hardware and Embedded Systems (TCHES) 2021(3)
+	- Oleksiy Lisovets, David Knichel, Thorben Moos, Amir Moradi
+	- https://eprint.iacr.org/2021/460
+	- https://iacr.org/cryptodb/data/paper.php?pubkey=31293
+	- https://www.youtube.com/watch?v=JwOJr0JEoiM
+
+## Electromagnetic (EM) Emanations: 2002-2020
+
 - A Method for Efficient Localization of Magnetic-field Sources Excited by the Execution of Instructions in a Processor
 	- 2017 IEEE Transactions on Electromagnetic Compatibility
 	- F. Werner, D. A. Chu, A. R. Djordjevic, D. I. Olcan, M. Prvulovic, and A. Zajic.
@@ -1782,18 +1793,24 @@ See also: [Computer Architecture](comparch.md)
 	- https://doi.org/10.1109/EuCAP.2016.7481633
 	- http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2016/08/EUCap16.pdf
 - Capacity of the EM Covert/Side-Channel Created by the Execution of Instructions in a Processor
-	- 2017, IEEE Transactions on Information Forensics and Security
+	- 2017 IEEE Transactions on Information Forensics and Security
 	- http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2017/10/T-IFS-07378-2017.pdf
 - Complete Reverse Engineering of Neural Network Architectures Through Electromagnetic Side Channels
 	- USENIX Security 2019
 	- Lejla Batina, Shivam Bhasin, Dirmanto Jap, Stjepan Picek
 	- https://www.usenix.org/conference/usenixsecurity19/presentation/batina
+- Correlation power analysis with a leakage model
+	- Cryptographic Hardware and Embedded Systems (CHES) 2004
+	- Eric Brier, Christophe Clavier, and Francis Olivier
+	- Correlation EM Analysis (CEMA)
+	- https://iacr.org/cryptodb/data/paper.php?pubkey=625
+	- https://link.springer.com/chapter/10.1007/978-3-540-28632-5_2
 - Detailed Tracking of Program Control Flow Using Analog Side-Channel Signals: A Promise for IoT Malware Detection and a Threat for Many Cryptographic Implementations
 	- SPIE 2018
 	- Haider Adnan Khan, Monjur Alam, Alenka Zajic, Milos Prvulovic
 	- https://www.researchgate.net/publication/324584326_Detailed_Tracking_of_Program_Control_Flow_Using_Analog_Side-Channel_Signals_A_Promise_for_IoT_Malware_Detection_and_a_Threat_for_Many_Cryptographic_Implementations
 - EDDIE: EM-Based Detection of Deviations in Program Execution
-	- 2017, Proceedings of the 44th International Symposium on Computer Architecture (ISCA)
+	- 2017, 44th International Symposium on Computer Architecture (ISCA)
 	- http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2017/06/ISCA17.pdf
 - Electromagnetic Side Channel Information Leakage Created by Execution of Series of Instructions in a Computer Processor
 	- IEEE Transactions on Information Forensics and Security (TIFS) Vol. 15, 2020
@@ -1821,7 +1838,7 @@ See also: [Computer Architecture](comparch.md)
 	- Monjur Alam, Haider Adnan Khan, Moumita Dey, Nishith Sinha, Robert Callan, Alenka Zajic, Milos Prvulovic
 	- https://www.usenix.org/conference/usenixsecurity18/presentation/alam
 - Quantifying Information Leakage in a Processor Caused by the Execution of Instructions
-	- 2017, Proceedings of IEEE MILCOM
+	- 2017, IEEE MILCOM
 	- http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2017/10/MILCOM_Capacity.pdf
 - Screaming Channels: When Electromagnetic Side Channels Meet Radio Transceivers
 	- ACM CCS 2018; Black Hat USA 2018
@@ -1833,8 +1850,8 @@ See also: [Computer Architecture](comparch.md)
 		- GreHack 2018; Marius Muench
 		- https://www.youtube.com/watch?v=vtcoZYS_C08
 - Side-Channel-Based Code-Execution Monitoring Systems - A Survey
-	- Yi Han, Ioannis Christoudis, Konstantinos I. Diamantaras, Saman A. Zonouz, Athina P. Petropulu
 	- IEEE Signal Processing Magazine 36(2) 2019
+	- Yi Han, Ioannis Christoudis, Konstantinos I. Diamantaras, Saman A. Zonouz, Athina P. Petropulu
 	- https://ieeexplore.ieee.org/document/8653533
 	- https://www.researchgate.net/publication/330225481_Side-Channel-Based_Code-Execution_Monitoring_Systems_-_A_Survey
 - Software Profiling via Electromagnetic Side-Channel Signal
@@ -1849,22 +1866,13 @@ See also: [Computer Architecture](comparch.md)
 	- http://citeseerx.ist.psu.edu/viewdoc/summary;?doi=10.1.1.122.1646
 	- https://www.semanticscholar.org/paper/The-EM-Side-Channel-s-Attacks-and-Assessment-Metho-Agrawal-Archambeault/7d687c23e297196e4de38240f9b48eb2d31f20fe
 - Watch Me, but Don't Touch Me! Contactless Control Flow Monitoring via Electromagnetic Emanations
-	- 2017, Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security (CCS)
+	- 2017, ACM SIGSAC Conference on Computer and Communications Security (CCS)
 	- https://arxiv.org/abs/1708.09099
 - Zero-Overhead Profiling via Electromagnetic (EM) Emanations
-	- 2016, Proceedings of the 25th International Symposium on Software Testing and Analysis (ISSTA)
+	- 2016, 25th International Symposium on Software Testing and Analysis (ISSTA)
 	- https://dl.acm.org/citation.cfm?id=2931065
 	- https://issta2016.cispa.saarland/zero-overhead-profiling-via-em-emanations/
 	- http://alenka.ece.gatech.edu/wp-content/uploads/sites/463/2016/09/ZoP.pdf
-
-## Electromagnetic (EM) Emanations: 2021
-
-- Let’s Take it Offline: Boosting Brute-Force Attacks on iPhone’s User Authentication through SCA
-	- IACR Transactions on Cryptographic Hardware and Embedded Systems (TCHES) 2021(3)
-	- Oleksiy Lisovets, David Knichel, Thorben Moos, Amir Moradi
-	- https://eprint.iacr.org/2021/460
-	- https://iacr.org/cryptodb/data/paper.php?pubkey=31293
-	- https://www.youtube.com/watch?v=JwOJr0JEoiM
 
 ---
 
