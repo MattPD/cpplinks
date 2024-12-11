@@ -384,6 +384,8 @@ https://riscv.org/risc-v-books/
 	- HammerBlade IR: https://capra.cs.cornell.edu/hbir/
 	- FOSDEM 2020; Michael Taylor
 		- https://fosdem.org/2020/schedule/event/riscv_hammerblade/
+- Hazard3: 3-stage RV32IMACZb* processor with debug (Verilog)
+	- https://github.com/Wren6991/Hazard3
 - HL5: A 32-bit RISC-V Processor Designed with High-Level Synthesis (SystemC)
 	- https://github.com/sld-columbia/hl5
 	- Custom Integrated Circuits Conference (CICC) 2020
