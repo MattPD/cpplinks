@@ -130,6 +130,9 @@
 
 ### C++26: Trip Reports: 2024-11
 
+- Trip Report: Fall ISO C++ Meeting in Wrocław, Poland
+	- Jonathan Müller
+	- https://www.think-cell.com/en/career/devblog/trip-report-fall-iso-cpp-meeting-in-wroclaw-poland
 - Trip report: November 2024 ISO C++ standards meeting (Wrocław, Poland)
 	- https://herbsutter.com/2024/11/24/wg21-2024-11/
 
