@@ -797,6 +797,10 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 	- execute memory snapshots so they can start running where they left off - https://github.com/elfmaster/ecfs_exec
 - elf-bf-tools - https://github.com/bx/elf-bf-tools
 	- This project contains tools that can be used to coerce the gcc's runtime loader into performing interesting operations using only valid relocation entries and symbols.
+- ELF Parser: Cross Platform ELF analysis
+	- https://github.com/jacob-baines/elfparser
+	- elfparser-ng: Multiplatform CLI and GUI tool to show information about ELF files
+		- https://github.com/mentebinaria/elfparser-ng
 - elf-parser: identifying/extracting various sections of an ELF file
 	- https://github.com/TheCodeArtist/elf-parser
 - elf-strings: The better strings utility for the reverse engineer - https://github.com/LloydLabs/elf-strings
