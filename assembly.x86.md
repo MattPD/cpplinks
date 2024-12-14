@@ -366,6 +366,15 @@ Assemblers - https://en.wikipedia.org/wiki/Comparison_of_assemblers#x86_assemble
   - Fast and lightweight x86/x86-64 disassembler library.
   - https://github.com/zyantific/zyan-disassembler-engine
 
+### Software: Instruction Set Architecture
+
+- libLISA: Instruction Discovery and Analysis on x86-64
+	- https://liblisa.nl/
+	- https://github.com/liblisa/liblisa
+	- OOPSLA 2024
+		- Jos Craaijo, Freek Verbeek, Binoy Ravindran
+		- https://dl.acm.org/doi/abs/10.1145/3689723
+
 ### Network
 
 * asmttpd: Web server for Linux written in amd64 assembly.
