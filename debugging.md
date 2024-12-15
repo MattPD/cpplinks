@@ -1246,6 +1246,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- https://web.archive.org/http://timetobleed.com/notes-about-an-odd-esoteric-yet-incredibly-useful-library-libthread_db/
 - LIKE-DBG (LInux-KErnel-DeBuGger): Fully dockerized Linux kernel debugging environment
 	- https://github.com/0xricksanchez/like-dbg
+- makedumpfile: Make Linux crash dump small by filtering and compressing pages
+	- https://github.com/makedumpfile/makedumpfile
 - ORC (Oops Rewind Capability) Unwinder
 	- [Commit ee9f8fce9964](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ee9f8fce99640811b2b8e79d0d1dbe8bab69ba67)
 	- [Commit 39358a033b2e](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=39358a033b2e4432052265c1fa0f36f572d8cfb5)
