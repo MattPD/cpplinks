@@ -637,6 +637,14 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - Pointer authentication in AArch64 Linux
 	- https://www.kernel.org/doc/html/latest/arm64/pointer-authentication.html
 
+#### Pointer Authentication (PAC): 2024
+
+- Enabling PAC and BTI on AArch64 for Linux
+	- https://gitlab.arm.com/pac-and-bti-blog/blog-example
+	- Bill Roberts; November 2024
+	- Part 1: enabling for C & C++, instrumenting assembly code to support both PAC and BTI
+		- https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/enabling-pac-and-bti-on-aarch64
+
 #### Pointer Authentication (PAC): 2023
 
 - Demystifying Pointer Authentication on Apple M1
