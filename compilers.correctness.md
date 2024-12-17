@@ -388,6 +388,12 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 
 ## Type Preservation: Intrinsically Typed Compilation
 
+- A Certified Type-Preserving Compiler from Lambda Calculus to Assembly Language
+	- ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI) 2007
+	- Adam Chlipala
+	- https://doi.org/10.1145/1250734.1250742
+	- http://adam.chlipala.net/papers/CtpcPLDI07/
+	- Lambda Tamer: https://ltamer.sourceforge.net/
 - A Type-Correct, Stack-Safe, Provably Correct, Expression Compiler in Epigram
 	- 2006
 	- James McKinna, Joel Wright
