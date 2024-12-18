@@ -1759,6 +1759,16 @@ See also: [Computer Architecture](comparch.md)
 
 # Electromagnetic (EM) Emanations
 
+## Electromagnetic (EM) Emanations: 2025
+
+- BarraCUDA: GPUs do Leak DNN Weights
+	- USENIX Security 2025
+	- Péter Horváth, Łukasz Chmielewski, Léo Weissbart, Lejla Batina, Yuval Yarom
+	- https://yuval.yarom.org/pdfs/HorvathCWBY25.pdf
+	- HardwearIO USA 2024
+		- https://www.youtube.com/watch?v=J_gTA8lK95M
+		- https://hardwear.io/usa-2024/presentation/barracuda.pdf
+
 ## Electromagnetic (EM) Emanations: 2021
 
 - Let’s Take it Offline: Boosting Brute-Force Attacks on iPhone’s User Authentication through SCA
