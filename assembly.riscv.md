@@ -531,8 +531,6 @@ https://riscv.org/software-tools/
 
 - Compiler Explorer with RISC-V support - https://cx.rv8.io/
 - Debian port - https://wiki.debian.org/RISC-V
-- hpm_counters: A simple utility for doing RISC-V Hardware Performance Monitor (HPM) perf monitoring
-	- https://github.com/ccelio/riscv-hpmcounters
 - RISC-V Disassembler: Single file RISC-V Disassembler with support for RV32/RV64/RV128 IMAFDC
 	- https://github.com/michaeljclark/riscv-disassembler
 - RISC-V Meta – a suite of tools that operate on RISC-V ISA - https://github.com/michaeljclark/riscv-meta/
@@ -644,6 +642,17 @@ https://riscv.org/software-tools/
 	- Roberto Giorgi and Gianfranco Mariotti
 	- Paper: http://www.dii.unisi.it/~giorgi/papers/Giorgi19-wcae.pdf
 	- Slides: http://www.dii.unisi.it/~giorgi/giorgi19-wcae_slides.pdf
+
+## Software: Performance
+
+- hpm_counters: A simple utility for doing RISC-V Hardware Performance Monitor (HPM) perf monitoring
+	- https://github.com/ccelio/riscv-hpmcounters
+- Olympia: a Performance Model written in C++ for the RISC-V community as an example of an Out-of-Order RISC-V CPU Performance Model
+	- https://github.com/riscv-software-src/riscv-perf-model
+	- RISC-V CPU Development Using Olympia Performance Model
+		- RISC-V Summit North America 2024
+		- Knute Lingaard
+		- https://www.youtube.com/watch?v=Seu0FoXqkmw
 
 ## Software: Security
 
