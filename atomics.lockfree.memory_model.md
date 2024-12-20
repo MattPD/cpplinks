@@ -766,6 +766,10 @@
 	- Soham Chakraborty
 	- https://www.youtube.com/watch?v=XSg3-6RaO6A
 	- https://pldi24.sigplan.org/details/PLMW-PLDI-2024/1/A-Tale-of-Shared-Memory-Concurrency-in-Programming-Languages
+- Introduction to Wait-free Algorithms in C++ Programming
+	- CppCon 2024
+	- Daniel Anderson
+	- https://www.youtube.com/watch?v=kPh8pod0-gk
 - What we learned from C++ atomics and memory model standardization
 	- The Future of Weak Memory (FOWM) 2024
 	- Hans-J. Boehm
