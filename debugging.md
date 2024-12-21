@@ -512,6 +512,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Jakob Engblom
 	- https://ieeexplore.ieee.org/document/6338149/
 	- http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.338.3420&rep=rep1&type=pdf
+- An Interactive Debugging Approach Based on Time-traveling Queries
+	- 2023 PhD Dissertation
+	- Maximilian Ignacio Willembrinck Santander
+	- https://theses.hal.science/tel-04512544
+	- https://github.com/Willembrinck/2023-Selective-Time-Traveling-Thesis
 - Don’t Panic: Reverse Debugging of Kernel Drivers
 	- Foundations of Software Engineering (ESEC/FSE) 2015
 	- Pavel Dovgalyuk, Denis Dmitriev, Vladimir Makarov
