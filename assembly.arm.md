@@ -644,6 +644,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Bill Roberts; November 2024
 	- Part 1: enabling for C & C++, instrumenting assembly code to support both PAC and BTI
 		- https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/enabling-pac-and-bti-on-aarch64
+	- Part 2: enabling PAC and BTI together, optimizations, the hint space
+		- https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/p2-enabling-pac-and-bti-on-aarch64
 
 #### Pointer Authentication (PAC): 2023
 
