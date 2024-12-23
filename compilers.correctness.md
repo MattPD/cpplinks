@@ -399,6 +399,11 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- James McKinna, Joel Wright
 	- https://www.cs.tufts.edu/comp/150FP/archive/conor-mcbride/epigram-pearl.pdf
 	- Epigram: http://www.e-pig.org/
+- A Type-Preserving Compiler in Haskell
+	- ACM SIGPLAN International Conference on Functional Programming (ICFP) 2008
+	- Louis-Julien Guillemette, Stefan Monnier
+	- https://doi.org/10.1145/1411204.1411218
+	- https://www.iro.umontreal.ca/~monnier/icfp08.pdf
 - Correct by Construction Language Implementations
 	- 2021 PhD Dissertation
 	- Arjen Rouvoet
