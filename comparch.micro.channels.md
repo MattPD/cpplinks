@@ -660,6 +660,11 @@ See also: [Computer Architecture](comparch.md)
 
 ### Defense: Hardware Design & Verification: 2024
 
+- Principled Microarchitectural Isolation on Cloud CPUs
+	- ACM Conference on Computer and Communications Security (CCS) 2024
+	- Stavros Volos, Cédric Fournet, Jana Hofmann, Boris Köpf, Oleksii Oleksenko
+	- https://www.microsoft.com/en-us/research/publication/principled-microarchitectural-isolation-on-cloud-cpus/
+	- https://www.microsoft.com/en-us/research/blog/preventing-side-channels-in-the-cloud/
 - WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors
 	- USENIX Security 2024
 	- Pallavi Borkar, Chen Chen, Mohamadreza Rostami, Nikhilesh Singh, Rahul Kande, Ahmad-Reza Sadeghi, Chester Rebeiro, Jeyavijayan Rajendran
