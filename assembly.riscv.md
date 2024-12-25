@@ -14,7 +14,7 @@ Note: see [Computer Architecture](comparch.md) -- recommended background (which 
 - [Formalization, Specification, Verification](#formalization-specification-verification)
 - [Open-Source Hardware Projects](#open-source-hardware-projects)
 - [References](#references)
-- [Software](#software): [Binary Analysis](#software-binary-analysis), [Emulation & Simulation](#software-emulation--simulation), [Security](#software-security)
+- [Software](#software): [Binary Analysis](#software-binary-analysis), [Emulation & Simulation](#software-emulation--simulation), [Performance](#software-performance), [Security](#software-security)
 - [Talks](#talks)
 - [Tutorials](#tutorials)
 
@@ -562,6 +562,12 @@ https://riscv.org/software-tools/
 		- Samuel Riedel, Fabian Schuiki, Paul Scheffler, Florian Zaruba, Luca Benini
 		- https://pulp-platform.org/docs/Banshee_ICCAD_2021.pdf
 		- https://www.research-collection.ethz.ch/handle/20.500.11850/517913
+- Berberis: Dynamic binary translator to run Android apps with riscv64 native code on x86_64 devices or emulators
+	- https://android.googlesource.com/platform/frameworks/libs/binary_translation
+	- Berberis: Dynamic Binary Translation from RISC-V to X86_64 on Android
+		- RISC-V Summit North America 2024
+		- Lev Rumyantsev & Jeremiah Griffin
+		- https://www.youtube.com/watch?v=HjhzXZqjFrU
 - BRISC-V: an open-source, RISC-V based, full multicore, design space exploration platform
 	- https://ascslab.org/research/briscv/index.html
 	- BRISC-V Explorer (RTL) - http://ascslab.org/research/briscv/explorer/explorer.html
