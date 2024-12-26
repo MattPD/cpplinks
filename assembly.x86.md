@@ -4,33 +4,39 @@ See also: [Computer Architecture](comparch.md) -- recommended background (which 
 
 Note: The main focus is on the 64-bit variant (x86-64) -- thus, primarily up-to-date materials (i.e., 64-bit, AVX) are preferred.
 
+# Contents
+
+- [Readings](#readings)
+- [Software](#software)
+- [Videos](#videos)
+
 ---
 
 # Articles
 
-Assembler relaxation
+Assembler relaxation  
 http://eli.thegreenplace.net/2013/01/03/assembler-relaxation
 
 Displaying all argv in x64 assembly  
 http://eli.thegreenplace.net/2013/07/24/displaying-all-argv-in-x64-assembly
 
-Gentle Introduction to x86-64 Assembly
+Gentle Introduction to x86-64 Assembly  
 http://www.x86-64.org/documentation/assembly.html
 
-Introduction to x64 Assembly
+Introduction to x64 Assembly  
 https://software.intel.com/en-us/articles/introduction-to-x64-assembly
 
-Processor Architecture
+Processor Architecture  
 https://msdn.microsoft.com/en-us/library/windows/hardware/ff553442%28v=vs.85%29.aspx  
 x86-32 and x86-64: Architecture, Instructions, Annotated Disassembly
 
-Redundancy of x86 Machine Code
+Redundancy of x86 Machine Code  
 http://www.strchr.com/machine_code_redundancy
 
-Stack frame layout on x86-64
+Stack frame layout on x86-64  
 http://eli.thegreenplace.net/2011/09/06/stack-frame-layout-on-x86-64
 
-The x86 architecture is the weirdo
+The x86 architecture is the weirdo  
 http://blogs.msdn.com/b/oldnewthing/archive/2004/09/14/229387.aspx
 
 Trivia Questions for X86 Nerds  
@@ -39,7 +45,7 @@ Discussions:
 https://www.reddit.com/r/ReverseEngineering/comments/39gbxc/trivia_questions_for_x86_nerds/  
 https://twitter.com/rolfrolles/status/608789071645691904
 
-Understanding the x64 code models
+Understanding the x64 code models  
 http://eli.thegreenplace.net/2012/01/03/understanding-the-x64-code-models
 
 Where the top of the stack is on x86  
@@ -50,45 +56,6 @@ Part 1: Intro to the Windows x64 calling convention
 http://www.gamasutra.com/view/news/171088/x64_ABI_Intro_to_the_Windows_x64_calling_convention.php  
 Part 2: Stack frames  
 http://www.gamasutra.com/view/news/178446/Indepth_Windows_x64_ABI_Stack_frames.php
-
-# Books
-
-- Assembly Language Succinctly
-	- 2014; Christopher Rose
-	- https://www.syncfusion.com/resources/techportal/details/ebooks/assemblylanguage
-- Low-Level Programming
-	- 2017; Igor Zhirkov
-	- https://www.apress.com/us/book/9781484224021
-	- https://github.com/Apress/low-level-programming
-- Introduction to 64 Bit Assembly Language Programming for Linux and OS X
-	- Ray Seyfarth
-	- http://rayseyfarth.com/asm/
-- Introduction to Computer Organization with x86-64 Assembly Language & GNU/Linux
-	- Robert G. Plantz
-	- http://bob.cs.sonoma.edu/IntroCompOrg-x64/book.html
-- Modern X86 Assembly Language Programming
-	- 2018; Daniel Kusswurm
-	- Covers x86 64-bit, AVX, AVX2, and AVX-512
-	- https://github.com/Apress/modern-x86-assembly-language-programming-2e
-- Understanding Assembly Language
-	- a.k.a. Reverse Engineering for Beginners; https://yurichev.com/blog/UAL/
-	- https://beginners.re/
-- x86-64 Assembly Language Programming with Ubuntu
-	- Ed Jorgensen
-	- http://www.egr.unlv.edu/~ed/x86.html
-- Wikibooks
-	- x86 Assembly - https://en.wikibooks.org/wiki/X86_Assembly
-	- X86_Assembly: https://en.wikibooks.org/wiki/X86_Disassembly
-
-## 32-bit
-
-- Programming from the Ground Up Book  
-	- An introduction to programming using Linux assembly language
-	- https://savannah.nongnu.org/projects/pgubook/
-	- http://programminggroundup.blogspot.com/
-	- Download: http://download.savannah.gnu.org/releases/pgubook/
-- PC Assembly Language Tutorial
-	- http://web.archive.org/web/20150815073439/http://www.drpaulcarter.com/pcasm/
 
 # Communities
 
@@ -152,7 +119,65 @@ http://grail.cba.csuohio.edu/~somos/asmx86.html
 Useful assembly links
 http://www.agner.org/optimize/#links
 
-# Performance
+# Readings
+
+## Readings: Books
+
+- Assembly Language Succinctly
+	- 2014; Christopher Rose
+	- https://www.syncfusion.com/resources/techportal/details/ebooks/assemblylanguage
+- Low-Level Programming
+	- 2017; Igor Zhirkov
+	- https://www.apress.com/us/book/9781484224021
+	- https://github.com/Apress/low-level-programming
+- Introduction to 64 Bit Assembly Language Programming for Linux and OS X
+	- Ray Seyfarth
+	- http://rayseyfarth.com/asm/
+- Introduction to Computer Organization with x86-64 Assembly Language & GNU/Linux
+	- Robert G. Plantz
+	- http://bob.cs.sonoma.edu/IntroCompOrg-x64/book.html
+- Modern X86 Assembly Language Programming
+	- 2018; Daniel Kusswurm
+	- Covers x86 64-bit, AVX, AVX2, and AVX-512
+	- https://github.com/Apress/modern-x86-assembly-language-programming-2e
+- Understanding Assembly Language
+	- a.k.a. Reverse Engineering for Beginners; https://yurichev.com/blog/UAL/
+	- https://beginners.re/
+- x86-64 Assembly Language Programming with Ubuntu
+	- Ed Jorgensen
+	- http://www.egr.unlv.edu/~ed/x86.html
+- Wikibooks
+	- x86 Assembly - https://en.wikibooks.org/wiki/X86_Assembly
+	- X86_Assembly: https://en.wikibooks.org/wiki/X86_Disassembly
+
+### Readings: Books: 32-bit
+
+- Programming from the Ground Up Book  
+	- An introduction to programming using Linux assembly language
+	- https://savannah.nongnu.org/projects/pgubook/
+	- http://programminggroundup.blogspot.com/
+	- Download: http://download.savannah.gnu.org/releases/pgubook/
+- PC Assembly Language Tutorial
+	- http://web.archive.org/web/20150815073439/http://www.drpaulcarter.com/pcasm/
+
+## Readings: Lifting
+
+Binary Analysis, Disassembly, Decompilation, Recompilation
+
+- Scalable Validation of Binary Lifters
+	- PLDI 2020
+	- Sandeep Dasgupta, Sushant Dinesh, Deepan Venkatesh, Vikram S. Adve, Christopher W. Fletcher
+	- https://dl.acm.org/doi/abs/10.1145/3385412.3385964
+	- https://www.youtube.com/watch?v=veV6TuPsRYw
+	- 2020 Ph.D. Dissertation
+		- Sandeep Dasgupta
+		- http://hdl.handle.net/2142/107968
+		- https://www.ideals.illinois.edu/items/115576
+		- https://sdasgup3.github.io/files/FinalDefence.pdf
+	- validating-binary-decompilation: Scalable Validator for Binary Lifters
+		- https://github.com/sdasgup3/validating-binary-decompilation
+
+## Readings: Performance
 
 - Precise Event Sampling on AMD vs Intel: Quantitative and Qualitative Comparison
 	- IEEE Transactions on Parallel and Distributed Systems 2023
