@@ -766,6 +766,11 @@
 	- Soham Chakraborty
 	- https://www.youtube.com/watch?v=XSg3-6RaO6A
 	- https://pldi24.sigplan.org/details/PLMW-PLDI-2024/1/A-Tale-of-Shared-Memory-Concurrency-in-Programming-Languages
+- Atomic Reduction Operations
+	- 2024 LLVM Developers' Meeting
+	- Gonzalo Brito Gadeschi
+	- https://www.youtube.com/watch?v=aUwv2vlOZK4
+	- https://llvm.org/devmtg/2024-10/slides/quicktalks/Brito-Atomic-reductions.pdf
 - Introduction to Wait-free Algorithms in C++ Programming
 	- CppCon 2024
 	- Daniel Anderson
