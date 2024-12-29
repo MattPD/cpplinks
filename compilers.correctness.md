@@ -409,6 +409,10 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- Arjen Rouvoet
 	- https://doi.org/10.4233/uuid:f0312839-3444-41ee-9313-b07b21b59c11
 	- https://pure.tudelft.nl/ws/portalfiles/portal/100792932/thesis.pdf
+- Intrinsically Typed Compilation with Nameless Labels
+	- POPL 2021
+	- Arjen Rouvoet, Robbert Krebbers, Eelco Visser
+	- https://doi.org/10.1145/3434303
 
 ## Type Preservation: Testing
 
