@@ -507,6 +507,11 @@ See also:
 	- https://5hadowblad3.github.io/files/asplos24-GiantSan.pdf
 	- https://github.com/5hadowblad3/GiantSan-Artifact
 	- https://github.com/AceSrc/GiantSan-Artifact
+- (Offload) ASan via Software Managed Virtual Memory
+	- 2024 LLVM Developers' Meeting
+	- Johannes Doerfert
+	- https://www.youtube.com/watch?v=B60jp4khrvc
+	- https://llvm.org/devmtg/2024-10/slides/techtalk/Doerfert-Offload-ASAN.pdf
 - RMASanitizer: Generalized Runtime Detection of Data Races in Remote Memory Access Applications
 	- ICPP 2024
 	- Simon Schwitanski, Yussur Mustafa Oraji, Cornelius Pätzold, Joachim Jenke, Felix Tomski, Matthias S. Müller
