@@ -58,6 +58,8 @@ See also:
 	- GDB pretty-printers for libc++
 		- https://github.com/llvm/llvm-project/blob/main/libcxx/utils/gdb/libcxx/printers.py
 		- https://github.com/koutheir/libcxx-pretty-printers
+- Skipping boring functions in debuggers
+	- https://maskray.me/blog/2024-12-30-skipping-boring-functions-in-debuggers
 - Visual C++ Debug Iterator Support: https://docs.microsoft.com/en-us/cpp/standard-library/debug-iterator-support
 
 ---
