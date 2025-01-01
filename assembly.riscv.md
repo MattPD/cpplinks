@@ -354,6 +354,8 @@ https://riscv.org/risc-v-books/
 	- https://github.com/openhwgroup/cva6
 	- https://docs.openhwgroup.org/projects/cva6-user-manual/
 	- https://pulp-platform.org/docs/Ariane_detailed.pdf
+	- Ara: A 64-bit Vector Unit, compatible with the RISC-V Vector Extension Version 1.0, working as a coprocessor to CORE-V's CVA6 core
+		- https://github.com/pulp-platform/ara
 - DarkRISCV: open-source RISC-V CPU core implemented in Verilog from scratch in one night! (Verilog)
 	- https://github.com/darklife/darkriscv
 - Davis In-Order (DINO) CPU models (Chisel)
