@@ -7,7 +7,7 @@
 - [Standard](#standard)
 - [Standardization](#standardization)
 - [C++26](#c26): [C++26 Talks](#c26-talks)
-- [C++23](#c23): [C++23 Talks](#c23-talks)
+- [C++23](#c23): [C++23 Readings](#c23-readings), [C++23 Talks](#c23-talks)
 - [C++20](#c20): [C++20 Readings](#c20-readings), [C++20 Talks](#c20-talks)
 - [C++17](#c17): [C++17 Readings](#c17-readings), [C++17 Talks](#c17-talks)
 - [C++14](#c14): [C++14 Readings](#c14-readings), [C++14 Talks](#c14-talks)
@@ -175,6 +175,11 @@
 ---
 
 # C++23
+
+## C++23: Readings
+
+- C++23 language features and reference cards
+	- Https://www.cppstories.com/2024/cpp23_lang/
 
 ## C++23: Talks
 
