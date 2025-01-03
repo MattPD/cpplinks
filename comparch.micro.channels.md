@@ -660,6 +660,10 @@ See also: [Computer Architecture](comparch.md)
 
 ### Defense: Hardware Design & Verification: 2024
 
+- Gaussian Elimination of Side-channels: Linear Algebra for Memory Coloring
+	- ACM Conference on Computer and Communications Security (CCS) 2024
+	- Jana Hofmann, Cédric Fournet, Boris Köpf, Stavros Volos
+	- https://www.microsoft.com/en-us/research/publication/gaussian-elimination-of-side-channels-linear-algebra-for-memory-coloring/
 - Principled Microarchitectural Isolation on Cloud CPUs
 	- ACM Conference on Computer and Communications Security (CCS) 2024
 	- Stavros Volos, Cédric Fournet, Jana Hofmann, Boris Köpf, Oleksii Oleksenko
