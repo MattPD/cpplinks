@@ -404,6 +404,14 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- Louis-Julien Guillemette, Stefan Monnier
 	- https://doi.org/10.1145/1411204.1411218
 	- https://www.iro.umontreal.ca/~monnier/icfp08.pdf
+- An Intrinsically Typed Compiler for Algebraic Effect Handlers
+	- ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation (PEPM) 2024
+	- Syouki Tsuyama, Youyou Cong, Hidehiko Masuhara
+	- https://dl.acm.org/doi/abs/10.1145/3635800.3636968
+	- https://prg.is.titech.ac.jp/papers/pdf/pepm2024-paper.pdf
+	- https://www.youtube.com/watch?v=kPnk1BpYHuc
+	- https://popl24.sigplan.org/details/pepm-2024/1/An-Intrinsically-Typed-Compiler-for-Algebraic-Effect-Handlers
+	- https://github.com/prg-titech/Effect-Handler-Compiler
 - Correct by Construction Language Implementations
 	- 2021 PhD Dissertation
 	- Arjen Rouvoet
