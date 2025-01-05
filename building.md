@@ -93,6 +93,12 @@ See also:
 	- https://www.usenix.org/conference/atc17/technical-sessions/presentation/dietrich
 	- cHash Compiler Plugins and related tools - https://github.com/luhsra/chash
 
+### Caching: LLVM Content-Addressable Storage (llvm-cas)
+
+- RFC: Add an LLVM CAS library and experiment with fine-grained caching for builds
+	- 2022-02
+	- https://discourse.llvm.org/t/rfc-add-an-llvm-cas-library-and-experiment-with-fine-grained-caching-for-builds/59864
+
 ## Correctness
 
 - A Model for Detecting Faults in Build Specifications
