@@ -433,6 +433,9 @@ _Benchmarks & comparisons_
 		- Michael Park
 		- https://www.youtube.com/watch?v=BAxoeCEfb1I
 		- https://github.com/boostcon/cppnow_presentations_2024/blob/main/Presentations/glean.pdf
+- Multiplier: Code auditing productivity multiplier
+	- Multiplier provides precise and comprehensive code understanding capabilities. It does so by saving build artifacts into a database, and then making them persistently accessible using a C++ or Python API.
+	- https://github.com/trailofbits/multiplier
 - scip-clang: SCIP indexer for C and C++
 	- https://github.com/sourcegraph/scip-clang
 	- https://sourcegraph.com/blog/announcing-scip-clang
