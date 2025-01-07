@@ -634,6 +634,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ### Pointer Authentication (PAC)
 
+- PAuth ABI Extension to ELF for the Arm® 64-bit Architecture (AArch64)
+	- https://github.com/ARM-software/abi-aa/blob/main/pauthabielf64/pauthabielf64.rst
 - Pointer authentication in AArch64 Linux
 	- https://www.kernel.org/doc/html/latest/arm64/pointer-authentication.html
 
