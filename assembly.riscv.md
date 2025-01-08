@@ -220,6 +220,10 @@ https://riscv.org/risc-v-books/
 	- Survey of basic techniques to transform matrix layouts using RVV
 	- 2024-01-09
 	- https://fprox.substack.com/p/transposing-a-matrix-using-risc-v
+- Visualize RISC-V Vector Memory Instructions
+	- 2025-01-05
+	- Min-Yih Hsu
+	- https://myhsu.xyz/riscv-rvv-mem-visualize/
 - When LLVM scalable vector meets RISC-V: RVVBitsPerBlock
 	- 2024-10-05
 	- Min-Yih Hsu
