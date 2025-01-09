@@ -79,12 +79,6 @@
 - Concurrent data structures
 	- Compilation of concurrent data structures with at least lock-free or wait-free properties.
 	- https://github.com/jfuentes/concurrent-data-structures
-- moodycamel::ConcurrentQueue (MPMC): https://github.com/cameron314/concurrentqueue
-	- moodycamel::ReaderWriterQueue (SPSC): SPSC: https://github.com/cameron314/readerwriterqueue
-	- http://moodycamel.com/blog/2013/a-fast-lock-free-queue-for-c++
-	- http://moodycamel.com/blog/2014/a-fast-general-purpose-lock-free-queue-for-c++
-	- http://moodycamel.com/blog/2014/detailed-design-of-a-lock-free-queue
-	- http://moodycamel.com/blog/2014/solving-the-aba-problem-for-lock-free-free-lists
 - xenium: a collection of concurrent data structures and memory reclamation algorithms (a header-only library)
 	- https://github.com/mpoeter/xenium
 	- Effective Memory Reclamation for Lock-Free Data Structures in C++
@@ -92,6 +86,23 @@
 		- http://katalog.ub.tuwien.ac.at/AC14552708
 		- http://www.ub.tuwien.ac.at/dipl/VL/51367.pdf
 		- https://github.com/mpoeter/emr
+
+## Data Structures: Software: Queues
+
+- moodycamel::ConcurrentQueue (MPMC): https://github.com/cameron314/concurrentqueue
+	- moodycamel::ReaderWriterQueue (SPSC): SPSC: https://github.com/cameron314/readerwriterqueue
+	- http://moodycamel.com/blog/2013/a-fast-lock-free-queue-for-c++
+	- http://moodycamel.com/blog/2014/a-fast-general-purpose-lock-free-queue-for-c++
+	- http://moodycamel.com/blog/2014/detailed-design-of-a-lock-free-queue
+	- http://moodycamel.com/blog/2014/solving-the-aba-problem-for-lock-free-free-lists
+- MultiQueue: A Concurrent, Relaxed Priority Queue
+	- https://github.com/marvinwilliams/multiqueue
+	- https://github.com/marvinwilliams/multiqueue_experiments
+	- Engineering MultiQueues: Fast Relaxed Concurrent Priority Queues
+		- 2021 European Symposium on Algorithms (ESA)
+		- Marvin Williams, Peter Sanders, Roman Dementiev
+		- https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESA.2021.81
+		- https://arxiv.org/abs/2107.01350
 
 # Data Structures: Talks
 
