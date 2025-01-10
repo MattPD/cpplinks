@@ -585,6 +585,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 
 ### Testing: Readings: 2024
 
+- Boosting Compiler Testing by Injecting Real-World Code
+	- PLDI 2024
+	- Shaohua Li, Theodoros Theodoridis, Zhendong Su
+	- https://dl.acm.org/doi/10.1145/3656386
+	- https://shao-hua-li.github.io/assets/pdf/2024_pldi_creal_final.pdf
+	- https://pldi24.sigplan.org/details/pldi-2024-papers/10/Boosting-Compiler-Testing-by-Injecting-Real-World-Code
+	- Creal: an automated program generator for C. Given a valid C program as the seed, Creal can inject new functions into it and produce new valid programs. By default, Creal uses Csmith to produce seed programs.
+		- https://github.com/UniCodeSphere/Creal
 - Characterizing and Detecting WebAssembly Runtime Bugs
 	- ACM Transactions on Software Engineering and Methodology 33(2) 2024
 	- Yixuan Zhang, Shangtong Cao, Haoyu Wang, Zhenpeng Chen, Xiapu Luo, Dongliang Mu, Yun Ma, Gang Huang, Xuanzhe Liu
