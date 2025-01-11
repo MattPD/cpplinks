@@ -111,6 +111,15 @@ Learning assembly for linux-x64
 https://github.com/0xAX/asm
 https://0xax.github.io/categories/assembly/
 
+# Instruction Set Architecture
+
+## Instruction Set Architecture: APX (Advanced Performance Extensions)
+
+- APX: Intel’s new architecture
+	- Cesare Di Mauro
+	- 1 – Introduction
+		- https://appuntidigitali.it/20119/apx-intels-new-architecture-1-introduction/
+
 # Links
 
 Assembly Language (x86) Resources
