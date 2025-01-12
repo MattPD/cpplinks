@@ -340,6 +340,12 @@ _Books, Books Reviews_
 	- Debugging Information Testing
 		- A Python reimplementation for the debug-information testing framework for the paper
 		- https://github.com/yuanboli233/debug-info-testing
+- DTD: Comprehensive and Scalable Testing for Debuggers
+	- ACM International Conference on the Foundations of Software Engineering (FSE) 2024
+	- Hongyi Lu, Zhibo Liu, Shuai Wang, Fengwei Zhang
+	- https://doi.org/10.1145/3643779
+	- https://jwnhy.github.io/papers/dtd-fse24.pdf
+	- https://github.com/jwnhy/DTD
 - GCC gOlogy: studying the impact of optimizations on debugging
 	- 2018; Alexandre Oliva
 	- https://www.fsfla.org/~lxoliva/writeups/gOlogy/gOlogy.txt
