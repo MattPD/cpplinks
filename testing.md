@@ -26,6 +26,7 @@ See also:
 - [Coverage](#coverage):
 	- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-readings)
 	- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-software)
+	- [Talks](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-talks)
 	- [Mutation](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-mutation): Mutation Analysis, Mutation Coverage, Mutation Testing
 		- [Readings](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-mutation-readings)
 		- [Software](https://github.com/MattPD/cpplinks/blob/master/testing.md#coverage-mutation-software)
@@ -581,6 +582,13 @@ See also:
 	- https://gitlab.com/stone.code/scov
 - TestCov: Test execution, coverage measurement, and test-suite reduction
 	- https://gitlab.com/sosy-lab/software/test-suite-validator
+
+## Coverage: Talks
+
+- Path coverage in gcc
+	- NDC TechTown 2024
+	- Jørgen Kvalsvik
+	- https://www.youtube.com/watch?v=kkAsakZCCAY
 
 ## Coverage: Mutation
 
