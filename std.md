@@ -179,7 +179,9 @@
 ## C++23: Readings
 
 - C++23 language features and reference cards
-	- Https://www.cppstories.com/2024/cpp23_lang/
+	- https://www.cppstories.com/2024/cpp23_lang/
+- C++23 library features and reference cards
+	- https://www.cppstories.com/2024/cpp23_lib/
 
 ## C++23: Talks
 
