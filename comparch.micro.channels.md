@@ -2088,6 +2088,12 @@ See also: [Computer Architecture](comparch.md)
 	- Zhenkai Zhang, Kunbei Cai, Yanan Guo, Fan Yao, Xing Gao
 	- https://github.com/0x5ec1ab/invalidate-compare
 	- https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-zhenkai
+- Uncovering Real GPU NoC Characteristics: Implications on Interconnect Architecture
+	- MICRO 2024
+	- Zhixian Jin, Christopher Rocca, Jiho Kim, Hans Kasan, Minsoo Rhu, Ali Bakhoda, Tor M. Aamodt, John Kim
+	- https://people.ece.ubc.ca/aamodt/publications/papers/realgpu-noc.micro2024.pdf
+	- https://drive.google.com/file/d/1GK8Ypt_4V1LcABFtB5t_8Q4iGUse_Cia/view
+	- https://doi.org/10.1109/MICRO61859.2024.00070
 - Whispering Pixels: Exploiting Uninitialized Register Accesses in Modern GPUs
 	- IEEE European Symposium on Security and Privacy (S&P) 2024
 	- Frederik Dermot Pustelnik, Xhani Marvin Saß, Jean-Pierre Seifert
