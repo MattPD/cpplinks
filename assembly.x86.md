@@ -119,6 +119,8 @@ https://0xax.github.io/categories/assembly/
 	- Cesare Di Mauro
 	- 1 – Introduction
 		- https://appuntidigitali.it/20119/apx-intels-new-architecture-1-introduction/
+	- 2 – Innovations
+		- https://appuntidigitali.it/20156/apx-intels-new-architecture-2-innovations/
 
 # Links
 
