@@ -690,6 +690,11 @@ See also:
 	- ACCU 2024
 	- Roger Orr
 	- https://www.youtube.com/watch?v=HakSW8wIH8A
+- C++ Shared Libraries and Where To Find Them
+	- CppCon 2024
+	- Luis Caro Campos
+	- https://www.youtube.com/watch?v=Ik3gR65oVsM
+	- https://github.com/CppCon/CppCon2024/blob/main/Presentations/Shared_Libraries_and_Where_To_Find_Them.pdf
 
 ## Talks: 2023
 
