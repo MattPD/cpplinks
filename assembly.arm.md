@@ -869,6 +869,10 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Journal of Systems Architecture Volume 149, April 2024
 	- Lars Wrenger, Dominik Töllner, Daniel Lohmann
 	- https://doi.org/10.1016/j.sysarc.2024.103102
+- Apple Silicon Hardware Secrets: SPRR and Guarded Exception Levels (GXF)
+	- 2021-05-06
+	- Sven Peter
+	- https://blog.svenpeter.dev/posts/m1_sprr_gxf/
 
 ### References: Microarchitecture: Arm
 
