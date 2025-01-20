@@ -149,6 +149,16 @@
 	- Jaehwang Jung, Jeonghyeon Kim, Matthew J. Parkinson, Jeehoon Kang
 	- https://dl.acm.org/doi/abs/10.1145/3656383
 
+### Memory Reclamation: Readings: 2023
+
+- The ERA Theorem for Safe Memory Reclamation
+	- 2023 ACM Symposium on Principles of Distributed Computing (PODC)
+	- Gali Sheffi, Erez Petrank
+	- https://doi.org/10.1145/3583668.3594564
+	- https://csaws.cs.technion.ac.il/~erez/Papers/era-podc23.pdf
+	- https://arxiv.org/abs/2211.04351
+	- "Safe memory reclamation (SMR) schemes for concurrent data structures offer trade-offs between three desirable properties: ease of integration, robustness, and applicability. In this paper we rigorously define SMR and these three properties, and we present the ERA theorem, asserting that any SMR scheme can only provide at most two of the three properties."
+
 ### Memory Reclamation: Readings: 2022
 
 - Concurrent Deferred Reference Counting
