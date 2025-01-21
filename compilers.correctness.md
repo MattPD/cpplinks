@@ -1988,6 +1988,10 @@ Validation: Including translation validation, equivalence checking.
 
 ## Verification: 2024
 
+- From Mechanized Semantics to Verified Compilation: the Clight Semantics of CompCert
+	- 2024 Fundamental Approaches to Software Engineering (FASE)
+	- Sandrine Blazy
+	- https://link.springer.com/chapter/10.1007/978-3-031-57259-3_1
 - Lightweight, Modular Verification for WebAssembly-to-Native Instruction Selection
 	- ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2024
 	- Alexa VanHattum, Monica Pardeshi, Chris Fallin, Adrian Sampson, and Fraser Brown
