@@ -688,7 +688,15 @@ https://riscv.org/software-tools/
 
 # Talks
 
-## 2020
+## Talks: 2024
+
+- How to Add a Calling Convention: RISC-V Vector as an Example
+	- 2024 LLVM Developers' Meeting
+	- Brandon Wu
+	- https://www.youtube.com/watch?v=6ZaiFA8eyHk
+	- https://llvm.org/devmtg/2024-10/slides/tutorial/Wu-Support-a-NewCallingConvention.pdf
+
+## Talks: 2020
 
 - Working with RISC-V: from open ISA to open Architecture to open Hardware
 	- HiPEAC ACACES Summer School 2020
@@ -702,13 +710,13 @@ https://riscv.org/software-tools/
 		- https://pulp-platform.org/docs/hipeac/acaces2021/04_PULP_Accelerators.pdf
 		- https://pulp-platform.org/docs/hipeac/acaces2021/05_PULP_Chips.pdf
 
-## 2019
+## Talks: 2019
 
 - The Hype Around the RISC-V Hypervisor
 	- KVM Forum 2019; Alistair Francis, Anup Patel
 	- https://www.youtube.com/watch?v=2MUka4lKGFU
 
-## 2018
+## Talks: 2018
 
 - LLVM backend development by example (RISC-V)
 	- 2018 LLVM Developers’ Meeting; Alex Bradbury
@@ -720,7 +728,7 @@ https://riscv.org/software-tools/
 	- RISC-V LLVM: a series of patches implementing a RISC-V backend for LLVM as well as initial tutorial material.
 		- https://github.com/lowRISC/riscv-llvm
 
-## 2017
+## Talks: 2017
 
 - End-to-end formal ISA verification of RISC-V processors with riscv-formal
 	- 34C3 (2017), Clifford Wolf
