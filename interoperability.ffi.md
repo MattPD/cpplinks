@@ -101,6 +101,11 @@
 	- CppCon 2021
 	- Aaron R Robinson
 	- https://www.youtube.com/watch?v=4r09pv9v1w0
+- Secrets of C++ Scripting Bindings: Bridging Compile Time and Run Time
+	- CppCon 2024
+	- Jason Turner
+	- https://www.youtube.com/watch?v=Ny9-516Gh28
+	- https://github.com/CppCon/CppCon2024/blob/main/Presentations/Secrets_of_Cpp_Scripting_Bindings.pdf
 
 ---
 
