@@ -641,6 +641,11 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 #### Pointer Authentication (PAC): 2024
 
+- Adding Pointer Authentication ABI support for your ELF platform
+	- 2024 LLVM Developers' Meeting
+	- Anton Korobeynikov
+	- https://www.youtube.com/watch?v=bytWm7BzJVE
+	- https://llvm.org/devmtg/2024-10/slides/techtalk/Korobeynikov-Adding-Pointer-Authentication-ABI-support.pdf
 - Enabling PAC and BTI on AArch64 for Linux
 	- https://gitlab.arm.com/pac-and-bti-blog/blog-example
 	- Bill Roberts; November 2024
