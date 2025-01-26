@@ -121,6 +121,8 @@ https://0xax.github.io/categories/assembly/
 		- https://appuntidigitali.it/20119/apx-intels-new-architecture-1-introduction/
 	- 2 – Innovations
 		- https://appuntidigitali.it/20156/apx-intels-new-architecture-2-innovations/
+	- 3 – New instructions
+		- https://appuntidigitali.it/20205/apx-intels-new-architecture-3-new-instructions/
 
 # Links
 
