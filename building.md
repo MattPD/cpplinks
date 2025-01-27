@@ -380,6 +380,9 @@ See also:
 	- Compiler Construction (CC) 2019
 	- Takafumi Kubota, Yusuke Suzuki, and Kenji Kono
 	- https://doi.org/10.1145/3302516.3307347
+- Understanding and improving Clang -ftime-report
+	- 2024; MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2025-01-12-understanding-and-improving-clang-ftime-report
 
 ## Build Performance Software
 
