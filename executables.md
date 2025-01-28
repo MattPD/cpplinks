@@ -89,6 +89,10 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 - checksec.py: Checksec tool in Python, rich output, based on LIEF
 	- A simple tool to verify the security properties of your binaries.
 	- https://github.com/Wenzel/checksec.py
+- CLE Loads Everything (at least, many binary formats!)
+	- CLE loads binaries and their associated libraries, resolves imports and provides an abstraction of process memory the same way as if it was loader by the OS's loader.
+	- ELF, PE, Mach-O
+	- https://github.com/angr/cle
 - codesize: Code size visualization tool with PDB/ELF/Mach-O support
 	- https://github.com/zeux/codesize
 - Delinker: Unlinks a binary executable to get back a set of .o object files for further transformation and re-linking.
