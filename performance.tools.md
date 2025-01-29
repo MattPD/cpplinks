@@ -508,6 +508,8 @@
 - Event Tracing for Windows (ETW) / Windows Performance Toolkit – Xperf
 	- https://blogs.msdn.microsoft.com/ntdebugging/2008/04/03/windows-performance-toolkit-xperf/
 	- ETW Central: https://randomascii.wordpress.com/2015/09/24/etw-central/
+- Profile Explorer: a tool for viewing CPU profiling traces collected through the Event Tracing for Windows (ETW)
+	- https://github.com/microsoft/profile-explorer
 - WindowsPerf: (Linux perf inspired) Windows on Arm performance profiling tool
 	- https://gitlab.com/Linaro/WindowsPerf/windowsperf
 
