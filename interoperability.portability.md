@@ -215,6 +215,10 @@
 - Linux User/Kernel ABI: the realities of how C and C++ programs really talk to the OS
 	- ACCU 2018; Greg Law
 	- https://www.youtube.com/watch?v=4CdmGxc5BpU
+- Linux User/Kernel ABI Detail
+	- MUC++ 2024
+	- Greg Law
+	- https://www.youtube.com/watch?v=4annFXzCTNk
 - Reversing C++
 	- Black Hat USA 2007; Paul Vincent Sabanal, Mark Vincent Yason
 	- https://www.blackhat.com/presentations/bh-dc-07/Sabanal_Yason/Presentation/bh-dc-07-Sabanal_Yason.pdf
