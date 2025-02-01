@@ -157,6 +157,11 @@ _Books, Books Reviews_
 
 ## Concurrency
 
+- Debug Info for Concurrency in LLVM
+	- 2023 LLVM Developers' Meeting
+	- Adrian Prantl
+	- https://www.youtube.com/watch?v=g4fei6Vl7o8
+	- https://llvm.org/devmtg/2023-10/slides/quicktalks/Prantl-DebugInfoForConcurrency.pdf
 - Interactive Debugging of Concurrent Programs under Relaxed Memory Models
 	- CGO 2020
 	- Aakanksha Verma, Pankaj Kumar Kalita, Awanish Pandey, and Subhajit Roy
