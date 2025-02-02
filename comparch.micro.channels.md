@@ -2077,6 +2077,11 @@ See also: [Computer Architecture](comparch.md)
 	- Lukas Giner, Roland Czerny, Christoph Gruber, Fabian Rauscher, Andreas Kogler, Daniel De Almeida Braga, Daniel Gruss
 	- https://www.ginerlukas.com/gpuattacks/
 	- https://gruss.cc/files/WebGPUAttacks.pdf
+- Ghost Arbitration: Mitigating Interconnect Side-Channel Timing Attacks in GPU
+	- MICRO 2024
+	- Zhixian Jin, Jaeguk Ahn, Jiho Kim, Hans Kasan, Jina Song, Wonjun Song, John Kim
+	- https://doi.org/10.1109/MICRO61859.2024.00086
+	- https://drive.google.com/file/d/1mcFXmDbgqhS3DJEQ2xB_kWIHZIzP34nl/view
 - GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression
 	- IEEE Symposium on Security and Privacy (S&P) 2024
 	- Yingchen Wang, Riccardo Paccagnella, Zhao Gang, Willy R. Vasquez, David Kohlbrenner, Hovav Shacham, Christopher W. Fletcher
