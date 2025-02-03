@@ -28,12 +28,14 @@
 	- Clang - http://clang.llvm.org/cxx_status.html
 	- libc++ - http://libcxx.llvm.org/
 - Intel C++ Compiler
+	- C & C++ Standards Conformance: https://www.intel.com/content/www/us/en/docs/dpcpp-cpp-compiler/developer-guide-reference/current/standards-conformance.html
 	- C++11: https://software.intel.com/en-us/articles/c0x-features-supported-by-intel-c-compiler
 	- C++14: https://software.intel.com/en-us/articles/c14-features-supported-by-intel-c-compiler
 	- C++17: https://software.intel.com/en-us/articles/c17-features-supported-by-intel-c-compiler
+	- C++20: https://www.intel.com/content/www/us/en/developer/articles/technical/c20-features-supported-by-intel-cpp-compiler.html
+	- C++23: https://www.intel.com/content/www/us/en/developer/articles/technical/c23-features-supported-by-intel-c-compiler.html
 - Visual C++
-	- Support For C++11/14/17 Features: https://msdn.microsoft.com/en-us/library/hh567368.aspx
-	- Microsoft C++ language conformance table: https://docs.microsoft.com/en-us/cpp/visual-cpp-language-conformance
+	- Microsoft C & C++ language conformance by Visual Studio version: https://learn.microsoft.com/en-us/cpp/overview/visual-cpp-language-conformance
 
 ---
 
