@@ -377,6 +377,7 @@ See also:
 		- SanitizerStats - https://clang.llvm.org/docs/SanitizerStats.html
 		- Sanitizer special case list - https://clang.llvm.org/docs/SanitizerSpecialCaseList.html
 		- ThreadSanitizer - https://clang.llvm.org/docs/ThreadSanitizer.html
+		- TypeSanitizer - https://clang.llvm.org/docs/TypeSanitizer.html
 		- UndefinedBehaviorSanitizer - https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html
 			- All about UndefinedBehaviorSanitizer
 				- 2023; MaskRay (Fangrui Song)
