@@ -288,6 +288,15 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- https://www.cs.nott.ac.uk/~pszgmh/graphs.pdf
 	- https://icfp24.sigplan.org/details/icfp-2024-papers/15/Beyond-Trees-Calculating-Graph-Based-Compilers
 	- https://github.com/pa-ba/calc-graph-comp
+- Calculating Compilers Effectively (Functional Pearl)
+	- ACM SIGPLAN International Haskell Symposium 2024
+	- Zac Garby, Graham Hutton, Patrick Bahr
+	- https://dl.acm.org/doi/10.1145/3677999.3678283
+	- https://zacgarby.co.uk/posts/calculating-compilers-effectively/
+	- https://zacgarby.co.uk/posts/calculating-compilers-effectively/paper.pdf
+	- https://bahr.io/pubs/entries/effcalc.html
+	- https://www.cs.nott.ac.uk/~pszgmh/algebraic.pdf
+	- https://www.youtube.com/watch?v=_sBgDzW-F0s
 - Calculating Compilers for Concurrency
 	- International Conference on Functional Programming (ICFP) 2023
 	- Patrick Bahr, Graham Hutton
