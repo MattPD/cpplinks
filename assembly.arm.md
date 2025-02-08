@@ -655,6 +655,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 		- https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/p2-enabling-pac-and-bti-on-aarch64
 	- Part 3: C++ style exception handling, DWARF and CFI
 		- https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/p3-enabling-pac-and-bti-on-aarch64
+- LLVM RFC: `__ptrauth` qualifier
+	- https://discourse.llvm.org/t/rfc-ptrauth-qualifier/80710
 
 #### Pointer Authentication (PAC): 2023
 
