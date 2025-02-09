@@ -339,6 +339,14 @@
 		- Andreas Abel, Shrey Sharma, Jan Reineke
 		- https://arxiv.org/abs/2310.13212
 
+## Microarchitecture: Readings
+
+- Inferring and Analyzing Microarchitectural Performance Models
+	- 2024 PhD Dissertation
+	- Fabian Ritter
+	- https://dx.doi.org/10.22028/D291-43305
+	- http://hdl.handle.net/20.500.11880/38955
+
 # Optimization
 
 - BOLT: Binary Optimization and Layout Tool
