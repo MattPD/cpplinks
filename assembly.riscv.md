@@ -360,6 +360,12 @@ https://riscv.org/risc-v-books/
 	- https://pulp-platform.org/docs/Ariane_detailed.pdf
 	- Ara: A 64-bit Vector Unit, compatible with the RISC-V Vector Extension Version 1.0, working as a coprocessor to CORE-V's CVA6 core
 		- https://github.com/pulp-platform/ara
+		- Marian: Modified version of PULP Ara to support Vector Cryptography (Zvk) Instructions
+			- https://github.com/soc-hub-fi/Marian
+			- Development of the First Open-Source Implementation of the RISC-V Vector Cryptography Extension
+				- RISC-V Summit North America 2024
+				- Markku-Juhani O. Saarinen
+				- https://www.youtube.com/watch?v=0H0aQO_Wxy8
 - DarkRISCV: open-source RISC-V CPU core implemented in Verilog from scratch in one night! (Verilog)
 	- https://github.com/darklife/darkriscv
 - Davis In-Order (DINO) CPU models (Chisel)
