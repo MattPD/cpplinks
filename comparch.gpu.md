@@ -124,6 +124,10 @@ See also: [computer architecture](comparch.md)
 	- https://github.com/maidenone/ORGFXSoC
 	- http://opencores.org/project,orsoc_graphics_accelerator
 - Theia GPU Overview - http://opencores.org/project,theia_gpu
+- tiny-gpu
+	- A minimal GPU implementation in Verilog optimized for learning about how GPUs work from the ground up.
+	- Built with <15 files of fully documented Verilog, complete documentation on architecture & ISA, working matrix addition/multiplication kernels, and full support for kernel simulation & execution traces.
+	- https://github.com/adam-maj/tiny-gpu
 
 ---
 
