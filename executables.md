@@ -719,7 +719,7 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 	- https://tmpout.sh/2/14.html
 - A small ELF: Small 114 byte x86_64 ELF
 	- 2021; subvisor
-	- https://ftp.lol/posts/small-elf.html
+	- https://web.archive.org/https://ftp.lol/posts/small-elf.html
 - A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux
 	- https://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
 	- 1999; Brian Raiter 
