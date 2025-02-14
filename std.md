@@ -132,6 +132,8 @@
 
 ### C++26: Trip Reports: 2024-11
 
+- 2024-11 Wrocław ISO C++ Committee Trip Report — Fifth C++26 meeting!
+	- https://old.reddit.com/r/cpp/comments/1ienpc7/202411_wroc%C5%82aw_iso_c_committee_trip_report_fifth/
 - Trip Report: Fall ISO C++ Meeting in Wrocław, Poland
 	- Jonathan Müller
 	- https://www.think-cell.com/en/career/devblog/trip-report-fall-iso-cpp-meeting-in-wroclaw-poland
