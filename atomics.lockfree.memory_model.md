@@ -180,6 +180,19 @@
 		- Daniel Anderson, Guy E. Blelloch, Yuanhao Wei
 		- https://doi.org/10.1145/3453483.3454060
 
+### Memory Reclamation: Readings: 2021
+
+- NBR: Neutralization Based Reclamation
+	- ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming (PPoPP) 2021
+	- Ajay Singh, Trevor Brown, Ali Mashtizadeh
+	- https://doi.org/10.1145/3437801.3441625
+	- https://arxiv.org/abs/2012.14542
+	- PPoPP talk: https://www.youtube.com/watch?v=skHnhPzEr38
+	- CS798 Guest Lecture: https://www.youtube.com/watch?v=wBh19bXmIyk
+	- nbr_setbench
+		- https://gitlab.com/aajayssingh/nbr_setbench
+		- This microbenchmark uses the original setbench of Multicore Lab to test and evaluate reclamation algorithms: NBR+, DEBRA, QSBR, RCU, IBR, and Hazard Pointers. The reclamation algorithms are tested on two concurrent data structures: lazylist and David, Guerraoui, and Trigonakis's binary search tree (DGT).
+
 ### Memory Reclamation: Readings: 2016
 
 - Using Quiescent States to Reclaim Memory
