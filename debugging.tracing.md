@@ -275,6 +275,10 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- https://margin.re/blog/cannoli-the-fast-qemu-tracer.aspx
 - etrace: Utility for tracing execution of apps
 	- https://github.com/canonical/etrace
+- funtrace: a C++ function call tracer for x86/Linux
+	- https://github.com/yosefk/funtrace
+	- Profiling in production with function call traces
+		- https://yosefk.com/blog/profiling-in-production-with-function-call-traces.html
 - KUtrace
 	- Low-overhead tracing of all Linux kernel-user transitions, for serious performance analysis. Includes kernel patches, loadable module, and post-processing software. Output is HTML/SVG per-CPU-core timeline that you can pan/zoom down to the nanosecond.
 	- https://github.com/dicksites/KUtrace
