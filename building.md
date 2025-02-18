@@ -983,7 +983,10 @@ See also:
 	- https://www.cmcrossroads.com/keyword/type/3037?type=article
 	- https://www.cmcrossroads.com/keyword/type/3169?type=article
 - GNU Make meets file names with spaces in them - https://www.cmcrossroads.com/article/gnu-make-meets-file-names-spaces-them
-- GNU Make Standard Library - http://gmsl.sourceforge.net/
+- GNU Make Standard Library
+	- The GNU Make Standard Library (GMSL) is a collection of functions implemented using native GNU Make functionality that provide list and string manipulation, integer arithmetic, associative arrays, stacks, and debugging facilities. The GMSL is released under the BSD License.
+	- https://gmsl.jgc.org/
+	- https://github.com/jgrahamc/gmsl/
 - How to write vaguely acceptable makefiles
 	- 2014; Stephen Kell
 	- https://www.humprog.org/~stephen/blog/devel/writing-makefiles.html
