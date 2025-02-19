@@ -379,6 +379,11 @@ _Books, Books Reviews_
 	- https://research.google/pubs/pub48841/
 	- "We propose an approach to encode, translate, and preserve the semantics of both functional and non-functional properties along the optimizing compilation of C to machine code. The approach involves (1) capturing and translating source-level properties through lowering passes and intermediate representations, such that data and control flow optimizations will preserve their consistency with the transformed program, and (2) carrying properties and their translation as debug information down to machine code."
 	- "A fortunate side-effect of inserting artificial definitions is to prevent most optimization passes from harming the observed variables’ debug information."
+- Source-Level Debugging of Compiler-Optimised Code: Ill-Posed, but Not Impossible
+	- 2024 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward!)
+	- Stephen Kell and J. Ryan Stinnett
+	- https://doi.org/10.1145/3689492.3690047
+	- https://convolv.es/papers/2024/Onward!/debug-info-vision.pdf
 - Testing Debug Info of Optimised Programs
 	- KLEE Workshop 2022
 	- J. Ryan Stinnett, Stephen Kell
