@@ -658,6 +658,14 @@ See also: [Computer Architecture](comparch.md)
 	- Drew Zagieboylo, G. Edward Suh, Andrew C. Myers
 	- http://www.cs.cornell.edu/andru/papers/hyperisa/
 
+### Defense: Hardware Design & Verification: 2025
+
+- Oreo: Protecting ASLR Against Microarchitectural Attacks
+	- Network and Distributed System Security (NDSS) Symposium 2025
+	- Shixin Song, Joseph Zhang, Mengjia Yan
+	- https://arxiv.org/abs/2412.07135
+	- https://dx.doi.org/10.14722/ndss.2025.240264
+
 ### Defense: Hardware Design & Verification: 2024
 
 - Gaussian Elimination of Side-channels: Linear Algebra for Memory Coloring
