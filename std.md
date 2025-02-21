@@ -130,6 +130,11 @@
 
 ## C++26: Trip Reports
 
+### C++26: Trip Reports: 2025-02
+
+- 2025-02 Hagenberg ISO C++ Committee Trip Report — Sixth C++26 meeting!
+	- https://old.reddit.com/r/cpp/comments/1iqqu6d/202502_hagenberg_iso_c_committee_trip_report/
+
 ### C++26: Trip Reports: 2024-11
 
 - 2024-11 Wrocław ISO C++ Committee Trip Report — Fifth C++26 meeting!
