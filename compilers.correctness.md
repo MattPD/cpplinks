@@ -775,6 +775,17 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, Christian Holler
 	- https://www.fuzzingbook.org/html/Grammars.html
 
+#### Testing: Readings: Fuzzing: 2024
+
+- Fuzzing MLIR Compiler Infrastructure via Operation Dependency Analysis
+	- International Symposium on Software Testing and Analysis (ISSTA) 2024
+	- Chenyao Suo, Junjie Chen, Shuang Liu, Jiajun Jiang, Yingquan Zhao, Jianrong Wang
+	- https://doi.org/10.1145/3650212.3680360
+	- https://xgdsmileboy.github.io/files/paper/issta24-fuzz.pdf
+	- https://2024.issta.org/details/issta-2024-papers/103/Fuzzing-MLIR-Compiler-Infrastructure-via-Operation-Dependency-Analysis
+	- MLIRod: MLIR fuzzing guided by operation dependencies
+		- https://github.com/tju-chenyaosuo/MLIRod
+
 #### Testing: Readings: Fuzzing: 2023
 
 - A Generative and Mutational Approach for Synthesizing Bug-exposing Test Cases to Guide Compiler Fuzzing
