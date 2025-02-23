@@ -282,14 +282,16 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Alastair Reid, Rick Chen, Anastasios Deligiannis, David Gilday, David Hoyes, Will Keen, Ashan Pathirane, Owen Shepherd, Peter Vrabel, Ali Zaidi
 	- <https://alastairreid.github.io/papers/CAV_16/>
 - Formal Semantics Extraction from Natural Language Specifications for ARM
-	- FM 2019: 23rd International Symposium on Formal Methods
+	- FM 2019: International Symposium on Formal Methods
 	- Anh V. Vu and Mizuhito Ogawa
-	- https://www.cl.cam.ac.uk/~vv301/papers/fm19.pdf
+	- https://doi.org/10.1007/978-3-030-30942-8_28
+	- https://anhvvcs.github.io/static/media/vu2019formal.pdf
 	- Corana: Dynamic Symbolic Execution Engine for ARM Cortex-M
 		- https://github.com/anhvvcs/corana
 	- Formal Semantics Extraction from Natural Language Specifications for ARM
 		- 2018 Master’s Thesis; Viet Anh Vu
-		- http://www.jaist.ac.jp/~mizuhito/masterthesis/VuVietAnh.pdf
+		- https://www.jaist.ac.jp/~mizuhito/masterthesis/VuVietAnh.pdf
+		- https://www.jaist.ac.jp/~mizuhito/masterthesis/VuVietAnh_corrected17Jul2019.pdf
 - hs-arm: (Dis)assembler and analyzer generated from the machine-readable ARMv8.3-A specification
 	- https://github.com/nspin/hs-arm
 	- library for (dis)assembling and analyzing ARMv8.3-A code, part of which is generated from the MRAS.
