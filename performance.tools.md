@@ -458,6 +458,9 @@
 	- https://github.com/google/perfetto
 	- https://perfetto.dev/
 	- https://perfetto.dev/docs/
+- Perforator: a cluster-wide continuous profiling tool designed for large data centers
+	- Perforator is a production-ready, open-source Continuous Profiling app that can collect CPU profiles from your production without affecting its performance, made by Yandex and inspired by Google-Wide Profiling.
+	- https://github.com/yandex/perforator
 - Performance Application Programming Interface (PAPI)
 	- http://icl.cs.utk.edu/papi/
 	- http://icl.cs.utk.edu/projects/papi/wiki/Main_Page
