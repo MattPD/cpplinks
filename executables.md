@@ -1438,28 +1438,62 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 
 ## PE: Talks
 
-- 2018 - Reflective PE Unloading
-	- BSides Cleveland 2018; Spencer McIntyre
+### PE: Talks: 2025
+
+- PE basics
+	- A windows executable walkthrough, a.k.a. let's hexplore the Portable Executable file format!
+	- [File formats hexplorations](https://www.youtube.com/playlist?list=PL2-EpKoPE60Vh6z5zUOn6KRxB55NitlJf) 16 2025
+	- Ange Albertini
+	- https://www.youtube.com/watch?v=eJ1bQmKDZw8
+
+### PE: Talks: 2018
+
+- Reflective PE Unloading
+	- BSides Cleveland 2018
+	- Spencer McIntyre
 	- https://www.youtube.com/watch?v=GbCVVYMNUzA
 	- http://www.irongeek.com/i.php?page=videos/bsidescleveland2018/b00-reflective-pe-unloading-spencer-mcintyre
-- 2018 - DEF CON 26 - Relocation Bonus
+- Relocation Bonus
 	- A look into the Windows Portable Executable (PE) header and how it can be weaponized to destroy parsers, disassemblers, and other tools
-	- DEFCON-26-Nick-Cano-Relocation-Bonus-Attacking-the-Win-Loader.pdf
+	- DEF CON 26 (2018)
+	- Nick Cano
 	- https://media.defcon.org/DEF%20CON%2026/DEF%20CON%2026%20presentations/Nick%20Cano/
-	- https://github.com/nickcano/RelocBonus
+  	- https://github.com/nickcano/RelocBonus
 	- https://github.com/nickcano/RelocBonusSlides
-- 2013 - 44Con 2013 - Exploring the Portable Executable format - Ange Albertini
+
+### PE: Talks: 2013
+
+- Exploring the Portable Executable format
+	- 44Con 2013
+	- Ange Albertini
 	- https://speakerdeck.com/ange/workshop-exploring-the-portable-executable-format
-- 2013 - NoVA Hackers - 2013-03-11 - Joshua Pitts - Backdooring Win32 Portable Executables
+- Backdooring Win32 Portable Executables
+	- NoVA Hackers - 2013-03-11
+	- Joshua Pitts
 	- https://www.youtube.com/watch?v=SXaoVo_U7kA
-- 2012 - Hack in Paris 2012 - Ange Albertini A Bit More of PE
+
+### PE: Talks: 2012
+
+- A Bit More of PE
+	- Hack in Paris 2012
+	- Ange Albertini
 	- https://www.youtube.com/watch?v=3duSgr5b1yc
 	- https://www.youtube.com/watch?v=6HRfuN-fPwM
-- 2012 - Hashdays 2012 - Byte-ing the PE that fails you - Ange Albertini
+- Byte-ing the PE that fails you
+	- Hashdays 2012
+	- Ange Albertini
 	- https://www.youtube.com/watch?v=kibEcaG0zCk
 	- https://speakerdeck.com/ange/byte-ing-the-pe-that-fails-you
-- 2011 - Berlinsides - x86 & PE - Ange Albertini - https://speakerdeck.com/ange/x86-and-pe
-- 2011 - BlackHat 2011 - Constant Insecurity: Things you didn’t know about (PE) Portable Executable file format
+
+### PE: Talks: 2011
+
+- x86 & PE
+	- Berlinsides 2011
+	- Ange Albertini
+	- https://speakerdeck.com/ange/x86-and-pe
+- Constant Insecurity: Things you didn’t know about (PE) Portable Executable file format
+	- BlackHat 2011
+	- Mario Vuksan & Tomislav Pericin
 	- https://www.youtube.com/watch?v=uoQL3CE24ls
 	- https://www.reversinglabs.com/newsroom/blog/constant-insecurity-things-you-didnt-know-about-pe-portable-executable-file-format.html
 	- Paper - Undocumented PECOFF: https://media.blackhat.com/bh-us-11/Vuksan/BH_US_11_VuksanPericin_PECOFF_WP.pdf
