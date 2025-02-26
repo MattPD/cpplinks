@@ -125,6 +125,8 @@ https://0xax.github.io/categories/assembly/
 		- https://appuntidigitali.it/20205/apx-intels-new-architecture-3-new-instructions/
 	- 4 – Advantages & flaws
 		- https://appuntidigitali.it/20218/apx-intels-new-architecture-4-advantages-flaws/
+	- 5 – Code density
+		- https://appuntidigitali.it/20224/apx-intels-new-architecture-5-code-density/
 
 # Links
 
