@@ -216,6 +216,9 @@ https://riscv.org/risc-v-books/
 	- Quick and dirty method to implement a vectorized non-linear function using RVV
 	- 2024-02-12
 	- https://fprox.substack.com/p/implementing-softmax-using-risc-v
+- Quick Note: swapping pairs with RVV
+	- 2024-12-25
+	- https://fprox.substack.com/p/quick-note-swapping-pairs-with-rvv
 - Transposing a Matrix using RISC-V Vector
 	- Survey of basic techniques to transform matrix layouts using RVV
 	- 2024-01-09
