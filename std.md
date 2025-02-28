@@ -134,6 +134,8 @@
 
 - 2025-02 Hagenberg ISO C++ Committee Trip Report — Sixth C++26 meeting!
 	- https://old.reddit.com/r/cpp/comments/1iqqu6d/202502_hagenberg_iso_c_committee_trip_report/
+- Trip report: February 2025 ISO C++ standards meeting (Hagenberg, Austria)
+	- https://herbsutter.com/2025/02/17/trip-report-february-2025-iso-c-standards-meeting-hagenberg-austria/
 
 ### C++26: Trip Reports: 2024-11
 
