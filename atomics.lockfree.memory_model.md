@@ -151,6 +151,14 @@
 
 ### Memory Reclamation: Readings: 2023
 
+- Simple, Fast and Widely Applicable Concurrent Memory Reclamation via Neutralization
+	- IEEE Transactions on Parallel and Distributed Systems (TPDS) 2023
+	- Ajay Singh, Trevor Alexander Brown, Ali Jose Mashtizadeh
+	- https://doi.org/10.1109/TPDS.2023.3335671
+	- https://mc.uwaterloo.ca/pubs/nbr/tpds_paper.pdf
+	- https://gitlab.com/aajayssingh/nbr_setbench_plus
+	- Data Structures: Trevor Brown's external (a,b) tree, David, Guerraoui and Trigonakis's (DGT) external binary search tree using ticket locks, lazylist, Harris list, Harris-Michael list, hash table using Harris-Michael list buckets
+	- Memory reclamation algorithms: DEBRA, hazard pointers, quiescent state based reclamation, RCU reclamation, interval based reclamation, NBR, NBR+, Wait Free Eras, CrystallineL, CrystallineW, hazard eras
 - The ERA Theorem for Safe Memory Reclamation
 	- 2023 ACM Symposium on Principles of Distributed Computing (PODC)
 	- Gali Sheffi, Erez Petrank
