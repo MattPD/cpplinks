@@ -481,6 +481,15 @@ See also:
 		- Konstantin Serebryany, Alexander Potapenko, Timur Iskhodzhanov, Dmitry Vyukov
 		- https://research.google/pubs/pub37278/
 
+##### Software: Sanitizers: Readings: Research: 2025
+
+- type++: Prohibiting Type Confusion with Inline Type Information
+	- Network and Distributed System Security (NDSS) Symposium 2025
+	- Nicolas Badoux, Flavio Toffalini, Yuseok Jeon, Mathias Payer
+	- https://www.ndss-symposium.org/ndss-paper/type-prohibiting-type-confusion-with-inline-type-information/
+	- https://nebelwelt.net/files/25NDSS.pdf
+	- https://github.com/HexHive/typepp
+
 ##### Software: Sanitizers: Readings: Research: 2024
 
 - A Binary-level Thread Sanitizer or Why Sanitizing on the Binary Level is Hard
