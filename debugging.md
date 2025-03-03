@@ -694,6 +694,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- "Voltron is an extensible debugger UI toolkit written in Python. It aims to improve the user experience of various debuggers (LLDB, GDB, VDB and WinDbg) by enabling the attachment of utility views that can retrieve and display data from the debugger host. By running these views in other TTYs, you can build a customised debugger user interface to suit your needs."
 	- https://github.com/snare/voltron
 
+## Software: Editor Integration
+
+- nvim-dap: Debug Adapter Protocol client implementation for Neovim
+	- https://github.com/mfussenegger/nvim-dap
+
 ## Software: Virtual Machine Introspection
 
 - LibVMI: Simplified Virtual Machine Introspection
