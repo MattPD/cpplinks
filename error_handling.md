@@ -4,7 +4,7 @@
 
 - [Readings](#readings): [Blogs](#blogs-posts-and-series), [Documentation](#documentation), [Papers](#papers), [References](#references), [StackOverflow](#stackoverflow-questions)
 - [Software](#software): [Benchmarks](#benchmarks), [Libraries](#libraries), [Tools](#tools)
-- [Talks](#talks): [2023](#2023), [2022](#2022), [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
+- [Talks](#talks): [2024](#2024), [2023](#2023), [2022](#2022), [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
 
 ---
 
@@ -586,6 +586,11 @@
 	- Khalil Estell
 	- https://www.youtube.com/watch?v=bY2FlayomlE
 	- https://github.com/CppCon/CppCon2024/blob/main/Presentations/Cpp_Exceptions_For_Smaller_Firmware.pdf
+- Modern C++ Error Handling
+	- CppCon 2024
+	- Phil Nash
+	- https://www.youtube.com/watch?v=n1sJtsjbkKo
+	- https://github.com/CppCon/CppCon2024/blob/main/Presentations/Modern_Cpp_Error_Handling.pdf
 
 ## 2023
 
