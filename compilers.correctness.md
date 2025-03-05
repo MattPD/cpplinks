@@ -1179,6 +1179,16 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- slides: https://nebelwelt.net/publications/files/15LangSec-presentation.pdf
 	- talk: https://www.youtube.com/watch?v=g6LCtHz_MDc&list=PL0pRF4xvoD0kuECJuowraVIIHlT3pN1Cm&index=3
 
+#### Testing: Readings: Performance Optimization: 2025
+
+- Validating JVM Compilers via Maximizing Optimization Interactions
+	- ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2025
+	- Zifan Xie, Ming Wen, Shiyu Qiu, Hai Jin
+	- https://doi.org/10.1145/3622781.3674188
+	- https://xzf1234.github.io/pdfs/ASPLOS24fall-MopFuzzer.pdf
+	- MopFuzzer: a tool for automated testing of the JDK, utilizing optimization evoking mutators and profile data-based guidance to test JVM JIT compilers by maximizing optimization interactions
+		- https://github.com/CGCL-codes/MopFuzzer
+
 #### Testing: Readings: Performance Optimization: 2024
 
 - Beyond a Joke: Dead Code Elimination Can Delete Live Code
