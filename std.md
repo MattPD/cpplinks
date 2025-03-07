@@ -136,6 +136,8 @@
 	- https://old.reddit.com/r/cpp/comments/1iqqu6d/202502_hagenberg_iso_c_committee_trip_report/
 - Trip report: February 2025 ISO C++ standards meeting (Hagenberg, Austria)
 	- https://herbsutter.com/2025/02/17/trip-report-february-2025-iso-c-standards-meeting-hagenberg-austria/
+- Trip Report: Winter ISO C++ Meeting in Hagenberg, Austria
+	- https://www.think-cell.com/en/career/devblog/trip-report-winter-iso-cpp-meeting-in-hagenberg-austria
 
 ### C++26: Trip Reports: 2024-11
 
