@@ -144,6 +144,16 @@
 	- https://link.springer.com/chapter/10.1007/978-3-031-69583-4_8
 	- https://zenodo.org/doi/10.5281/zenodo.11775181
 	- https://github.com/ivogabe/wait-free-atomic-shared-pointer
+- Are Your Epochs Too Epic? Batch Free Can Be Harmful
+	- ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming (PPoPP) 2024
+	- Daewoo Kim, Trevor Brown, Ajay Singh
+	- https://arxiv.org/abs/2401.11347
+	- https://dl.acm.org/doi/abs/10.1145/3627535.3638491
+	- https://mc.uwaterloo.ca/pubs/amortizedfree/paper.pdf
+	- Amortizedfree Setbench
+		- the code and experiment setup used to evaluate the amortized freeing and token EBR algorithm presented in the paper
+		- https://gitlab.com/aajayssingh/amortizedfree-setbench
+		- https://doi.org/10.5281/zenodo.10226261
 - Concurrent Immediate Reference Counting
 	- Programming Languages Design and Implementation (PLDI) 2024
 	- Jaehwang Jung, Jeonghyeon Kim, Matthew J. Parkinson, Jeehoon Kang
