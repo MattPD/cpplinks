@@ -483,6 +483,12 @@ See also:
 
 ##### Software: Sanitizers: Readings: Research: 2025
 
+- CMASan: Custom Memory Allocator-aware Address Sanitizer
+	- IEEE Symposium on Security and Privacy (S&P) 2025
+	- Junwha Hong, Wonil Jang, Mijung Kim, Lei Yu, Yonghwi Kwon, Yuseok Jeon
+	- https://doi.ieeecomputersociety.org/10.1109/SP61157.2025.00074
+	- https://s2-lab.github.io/assets/CMASan_S&P25.pdf
+	- https://github.com/S2-Lab/CMASan
 - type++: Prohibiting Type Confusion with Inline Type Information
 	- Network and Distributed System Security (NDSS) Symposium 2025
 	- Nicolas Badoux, Flavio Toffalini, Yuseok Jeon, Mathias Payer
