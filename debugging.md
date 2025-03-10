@@ -698,6 +698,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 - nvim-dap: Debug Adapter Protocol client implementation for Neovim
 	- https://github.com/mfussenegger/nvim-dap
+- vimspector: A multi-language debugging system for Vim
+	- https://github.com/puremourning/vimspector
 
 ## Software: Virtual Machine Introspection
 
