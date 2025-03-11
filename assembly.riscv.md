@@ -219,6 +219,9 @@ https://riscv.org/risc-v-books/
 - Quick Note: swapping pairs with RVV
 	- 2024-12-25
 	- https://fprox.substack.com/p/quick-note-swapping-pairs-with-rvv
+- Taxonomy of RISC-V Vector Extensions
+	- 2025-03-05
+	- https://fprox.substack.com/p/taxonomy-of-risc-v-vector-extensions
 - Transposing a Matrix using RISC-V Vector
 	- Survey of basic techniques to transform matrix layouts using RVV
 	- 2024-01-09
