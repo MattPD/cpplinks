@@ -98,6 +98,8 @@ See also:
 - RFC: Add an LLVM CAS library and experiment with fine-grained caching for builds
 	- 2022-02
 	- https://discourse.llvm.org/t/rfc-add-an-llvm-cas-library-and-experiment-with-fine-grained-caching-for-builds/59864
+	- [CAS] LLVMCAS implementation
+		- https://github.com/llvm/llvm-project/pull/68448
 
 ## Correctness
 
