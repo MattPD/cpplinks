@@ -24,6 +24,10 @@
 - benchmark (Google)
 	- https://github.com/google/benchmark
 	- https://opensource.googleblog.com/2014/01/introducing-benchmark.html
+- BestGuess: Command-line benchmarking tool
+	- a tool for command-line benchmarking, sometimes called "macro-benchmarking" because entire programs are measured
+	- https://bestguess.org/
+	- https://gitlab.com/JamieTheRiveter/bestguess
 - Celero
 	- https://github.com/DigitalInBlue/Celero
 - hayai: the C++ benchmarking framework
