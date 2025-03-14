@@ -121,6 +121,21 @@
 	- https://github.com/itanium-cxx-abi/cxx-abi
 - Lessons from the Unix stdio ABI: 40 Years Later
 	- https://fingolfin.org/blog/20200327/stdio-abi.html
+- Realistic Realizability: Specifying ABIs You Can Count On
+	- Object-Oriented Programming Systems, Languages, and Applications (OOPSLA) 2024
+	- Andrew Wagner, Zachary Eisbach, Amal Ahmed
+	- https://doi.org/10.1145/3689755
+	- https://www.youtube.com/watch?v=bWHYm3npThA
+	- https://www.khoury.northeastern.edu/home/amal/papers/real-real.pdf
+	- https://www.andrewwagner.io/assets/papers/real-real.pdf
+	- https://www.andrewwagner.io/assets/papers/real-real-apdx.pdf
+	- https://www.andrewwagner.io/assets/slides/real-real-slides.pdf
+	- POPV Seminar; October 29, 2024
+		- https://www.andrewwagner.io/assets/slides/real-real-bupopv.pdf
+	- Formally Specifying ABIs using Realistic Realizability
+		- Big Specification: Specification, Proof, and Testing at Scale (BSPW) 2024
+		- Amal Ahmed
+		- https://www.youtube.com/watch?v=FtdSqzN6xVQ
 - Removing an empty base class can break ABI
 	- https://quuxplusone.github.io/blog/2021/05/07/std-iterator-as-a-base-class/
 - Some thoughts on binary compatibility - http://blog.qt.io/blog/2009/08/12/some-thoughts-on-binary-compatibility/
