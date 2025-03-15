@@ -775,6 +775,16 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, Christian Holler
 	- https://www.fuzzingbook.org/html/Grammars.html
 
+#### Testing: Readings: Fuzzing: 2025
+
+- Fuzzing MLIR Compilers with Custom Mutation Synthesis
+	- International Conference on Software Engineering (ICSE) 2025
+	- Ben Limpanukorn, Jiyuan Wang, Hong Jin Kang, Eric Zitong Zhou, Miryung Kim
+	- https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00037
+	- https://arxiv.org/pdf/2404.16947
+	- https://github.com/UCLA-SEAL/SynthFuzz
+	- https://web.cs.ucla.edu/~wangjiyuan/research/ICSE2025_SynthFuzz.pdf
+
 #### Testing: Readings: Fuzzing: 2024
 
 - Fuzzing MLIR Compiler Infrastructure via Operation Dependency Analysis
