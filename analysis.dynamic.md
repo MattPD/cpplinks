@@ -489,6 +489,13 @@ See also:
 	- https://doi.ieeecomputersociety.org/10.1109/SP61157.2025.00074
 	- https://s2-lab.github.io/assets/CMASan_S&P25.pdf
 	- https://github.com/S2-Lab/CMASan
+- QMSan: Efficiently Detecting Uninitialized Memory Errors During Fuzzing
+	- Network and Distributed System Security (NDSS) Symposium 2025
+	- Matteo Marini, Daniele Cono D'Elia, Mathias Payer, Leonardo Querzoni
+	- https://dx.doi.org/10.14722/ndss.2025.241133
+	- https://hexhive.epfl.ch/publications/files/25NDSS3.pdf
+	- QMSan: QEMU-based Memory Sanitizer for binary software
+		- https://github.com/heinzeen/qmsan
 - type++: Prohibiting Type Confusion with Inline Type Information
 	- Network and Distributed System Security (NDSS) Symposium 2025
 	- Nicolas Badoux, Flavio Toffalini, Yuseok Jeon, Mathias Payer
