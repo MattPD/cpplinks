@@ -158,6 +158,10 @@
 	- Programming Languages Design and Implementation (PLDI) 2024
 	- Jaehwang Jung, Jeonghyeon Kim, Matthew J. Parkinson, Jeehoon Kang
 	- https://dl.acm.org/doi/abs/10.1145/3656383
+- Safe Memory Reclamation Techniques
+	- 2024 PhD Dissertation
+	- Ajay Singh
+	- https://hdl.handle.net/10012/21183
 
 ### Memory Reclamation: Readings: 2023
 
