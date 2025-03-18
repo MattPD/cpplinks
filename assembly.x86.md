@@ -129,6 +129,8 @@ https://0xax.github.io/categories/assembly/
 		- https://appuntidigitali.it/20224/apx-intels-new-architecture-5-code-density/
 	- 6 – Implementation costs
 		- https://appuntidigitali.it/20229/apx-intels-new-architecture-6-implementation-costs/
+	- 7 – Possible improvements
+		- https://appuntidigitali.it/20234/apx-intels-new-architecture-7-possible-improvements/
 
 # Links
 
