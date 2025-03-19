@@ -100,6 +100,11 @@ See also:
 	- https://discourse.llvm.org/t/rfc-add-an-llvm-cas-library-and-experiment-with-fine-grained-caching-for-builds/59864
 	- [CAS] LLVMCAS implementation
 		- https://github.com/llvm/llvm-project/pull/68448
+- Using Content-Addressable Storage in Clang for Caching Computations and Eliminating Redundancy
+	- LLVM Developers' Meeting 2022
+	- Steven Wu, Ben Langmuir
+	- https://llvm.org/devmtg/2022-11/slides/TechTalk9-UsingContent-AddressableStorage.pdf
+	- https://www.youtube.com/watch?v=E9GdNKjGZ7Y
 
 ## Correctness
 
