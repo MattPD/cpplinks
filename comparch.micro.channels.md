@@ -2553,6 +2553,10 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 	- https://www.usenix.org/conference/usenixsecurity23/presentation/zhangzhiyuan-bunnyhop
 	- https://github.com/0xADE1A1DE/BunnyHop
 	- "What effects do the instruction prefetcher and branch predictor have on each other and what are the security implications of these effects?"
+- EntryBleed: A Universal KASLR Bypass against KPTI on Linux
+	- Hardware and Architectural Support for Security and Privacy (HASP) 2023
+	- William Liu, Joseph Ravichandran, Mengjia Yan
+	- https://doi.org/10.1145/3623652.3623669
 - FetchBench: Systematic Identification and Characterization of Proprietary Prefetchers
 	- 2023 ACM SIGSAC Conference on Computer and Communications Security (CCS)
 	- Till Schlüter, Amit Choudhari, Lorenz Hetterich, Leon Trampert, Hamed Nemati, Ahmad Ibrahim, Michael Schwarz, Christian Rossow, Nils Ole Tippenhauer
