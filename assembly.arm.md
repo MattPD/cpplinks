@@ -435,6 +435,9 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- PoC||GTFO Issue 0x11 March 2016
 	- Travis Goodspeed and Ryan Speers
 	- https://www.riverloopsecurity.com/projects/pocgtfo_tourist_armcortexm/
+- Arm M-profile Assembly Tricks
+	- 2025; Thomas Pornin
+	- https://github.com/pornin/arm-asm-notes
 - Code-Generation for the Arm M-profile Vector Extension
 	- 2019 LLVM Developers’ Meeting; Sjoerd Meijer, Sam Parker
 	- https://www.youtube.com/watch?v=TUDWpAhLjBU
