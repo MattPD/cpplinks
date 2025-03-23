@@ -489,6 +489,13 @@ See also:
 	- https://doi.ieeecomputersociety.org/10.1109/SP61157.2025.00074
 	- https://s2-lab.github.io/assets/CMASan_S&P25.pdf
 	- https://github.com/S2-Lab/CMASan
+- Evaluating the Effectiveness of Memory Safety Sanitizers
+	- 2025 IEEE Symposium on Security and Privacy (S&P)
+	- Emanuel Vintila, Philipp Zieris, Julian Horsch
+	- https://doi.org/10.24406/publica-3847
+	- https://doi.org/10.1109/SP61157.2025.00088
+	- MSET: Memory Sanitizer Evaluation Tool
+		- https://github.com/Fraunhofer-AISEC/MSET
 - QMSan: Efficiently Detecting Uninitialized Memory Errors During Fuzzing
 	- Network and Distributed System Security (NDSS) Symposium 2025
 	- Matteo Marini, Daniele Cono D'Elia, Mathias Payer, Leonardo Querzoni
