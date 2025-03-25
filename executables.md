@@ -566,6 +566,10 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 - Improving binary layout for progressive decompression (2011) - https://glandium.org/blog/?p=2320
 - In-Memory-Only ELF Execution (Without tmpfs) - https://magisterquis.github.io/2018/03/31/in-memory-only-elf-execution.html
 - In the lands of corrupted elves: Breaking ELF software with Melkor fuzzer - https://www.blackhat.com/docs/us-14/materials/arsenal/us-14-Hernandez-Melkor-Slides.pdf
+- Introduction to ELF symbols - ELF Files: Symbolic Troubles
+	- tmp.0ut Volume 4 - 2025-03
+	- deluks
+	- https://tmpout.sh/4/11.html
 - Introduction to the ELF Format
 	- Part I: The ELF Header - https://blog.k3170makan.com/2018/09/introduction-to-elf-format-elf-header.html
 	- Part II: Understanding Program Headers - https://blog.k3170makan.com/2018/09/introduction-to-elf-format-part-ii.html
