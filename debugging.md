@@ -1132,6 +1132,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://pspdfkit.com/blog/2018/how-to-extend-lldb-to-provide-a-better-debugging-experience/
 - LLDB support for fork(2) and vfork(2)
 	- https://www.moritz.systems/blog/lldb-support-for-fork-and-vfork/
+- Tips for writing LLDB pretty printers
+	- https://offlinemark.com/2022/10/13/tips-for-writing-lldb-pretty-printers/
 
 ### LLDB: Talks
 
