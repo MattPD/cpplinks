@@ -2048,6 +2048,11 @@ Validation: Including translation validation, equivalence checking.
 	- https://dl.acm.org/doi/10.1145/3636501.3636952
 	- https://arxiv.org/abs/2312.08117
 	- https://www.youtube.com/watch?v=xXx87Ke5S3A
+- Pragmatics of Formally Verified Yet Efficient Static Analysis, in particular for Formally Verified Compilers
+	- International Journal on Software Tools for Technology Transfer, Volume 26 (2024)
+	- David Monniaux
+	- https://arxiv.org/abs/2407.08258
+	- https://doi.org/10.1007/s10009-024-00760-3
 - Verified inlining and specialisation for PureCake
 	- European Symposium on Programming (ESOP) 2024
 	- Hrutvik Kanabar, Kacper Korban, Magnus O. Myreen
