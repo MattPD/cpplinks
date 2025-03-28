@@ -105,6 +105,11 @@ See also:
 	- Steven Wu, Ben Langmuir
 	- https://llvm.org/devmtg/2022-11/slides/TechTalk9-UsingContent-AddressableStorage.pdf
 	- https://www.youtube.com/watch?v=E9GdNKjGZ7Y
+- Caching Explicit Clang Modules with Content-Addressable Storage
+	- LLVM Developers' Meeting 2023
+	- Ben Langmuir
+	- https://www.youtube.com/watch?v=6P9787H_SlQ
+	- https://llvm.org/devmtg/2023-10/slides/quicktalks/Blangmuir-clang-cache-modules.pdf
 
 ## Correctness
 
