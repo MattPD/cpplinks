@@ -439,6 +439,10 @@ See also:
 - Relocation generation in assemblers
 	- MaskRay (Fangrui Song)
 	- https://maskray.me/blog/2025-03-16-relocation-generation-in-assemblers
+- Relocation Revelation: Unpacking the Secrets of ELF
+	- tmp.0ut Volume 4: 2025-03
+	- S0S4
+	- https://tmpout.sh/4/4.html
 - Relocations in ELF Toolchains - Palmer Dabbelt
 	- https://www.sifive.com/blog/2017/08/21/all-aboard-part-2-relocations/
 - Relocations: fantastic symbols, but where to find them? - Siddhesh Poyarekar
