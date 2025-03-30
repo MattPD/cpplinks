@@ -130,6 +130,17 @@
 - KAIST Concurrency and Parallelism: Concurrent Garbage Collection
 	- https://cp.kaist.ac.kr/gc/
 
+### Memory Reclamation: Readings: 2025
+
+- Publish on Ping: A Better Way to Publish Reservations in Memory Reclamation for Concurrent Data Structures
+	- ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming (PPoPP) 2025
+	- Ajay Singh, Trevor Brown
+	- https://doi.org/10.1145/3710848.3710890
+	- https://arxiv.org/abs/2501.04250
+	- https://gitlab.com/aajayssingh/pop_setbench
+	- Data structures: Trevor Brown's external (a,b) tree (ABT), David, Guerraoui and Trigonakis's external binary search tree using ticket locks (DGT), lazylist (LL), Harris list (HL), Harris-Michael list (HML), hash table using Harris-Michael list buckets (HMLHT)
+	- Memory reclamation algorithms: Hazard Pointers, QSBR, EBR, IBR, NBR, NBR+, WFE, CrystallineL, CrystallineW, Hazard Eras, HazarPtrPOP, HazardEraPOP, EpochPOP, HPAsym
+
 ### Memory Reclamation: Readings: 2024
 
 - A Family of Fast and Memory Efficient Lock- and Wait-Free Reclamation
