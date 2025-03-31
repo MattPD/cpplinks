@@ -170,6 +170,13 @@ https://riscv.org/risc-v-books/
 	- 2023-06-25
 	- https://fprox.substack.com/p/risc-v-vector-crypto-spec-freeze
 
+#### Instruction Set Architecture: Extensions: Smcntrpmf: Cycle & Instret Privilege Mode Filtering Architecture Extension
+
+- RISC-V Smcntrpmf: mode filtering for Zicntr
+	- Accurate user-mode base event counting over privilege mode flow diversion
+	- 2023-08-10
+	- https://fprox.substack.com/p/risc-v-smcntrpmf-mode-filtering-for
+
 #### Instruction Set Architecture: Extensions: V Vector Extension
 
 - riscv-v-spec: Working draft of the proposed RISC-V V vector extension
