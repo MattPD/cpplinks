@@ -1332,6 +1332,13 @@ See also: [Computer Architecture](comparch.md)
 	- https://dl.acm.org/citation.cfm?id=2870636
 	- http://www.cs.wm.edu/~dmitry/assets/files/taco-a10-evtyushkin.pdf
 
+## Branch Predictor: 2025
+
+- Analyzing and Exploiting Branch Mispredictions in Microcode
+	- 2025
+	- Nicholas Mosier, Hamed Nemati, John C. Mitchell, Caroline Trippel
+	- https://arxiv.org/abs/2501.12890
+
 ## Branch Predictor: 2024
 
 - Indirector: High-Precision Branch Target Injection Attacks Exploiting the Indirect Branch Predictor
