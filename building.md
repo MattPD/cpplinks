@@ -110,6 +110,11 @@ See also:
 	- Ben Langmuir
 	- https://www.youtube.com/watch?v=6P9787H_SlQ
 	- https://llvm.org/devmtg/2023-10/slides/quicktalks/Blangmuir-clang-cache-modules.pdf
+- Optimizing Debug Info for Caching in llvm-cas
+	- 2023 LLVM Developers' Meeting
+	- Shubham Rastogi
+	- https://www.youtube.com/watch?v=VPqZ8LoM5Z8
+	- https://llvm.org/devmtg/2023-10/slides/techtalks/Rastogi-RepresentingDebugInformationInLLVMCAS.pdf
 
 ## Correctness
 
