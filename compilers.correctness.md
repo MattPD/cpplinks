@@ -791,6 +791,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://arxiv.org/pdf/2404.16947
 	- https://github.com/UCLA-SEAL/SynthFuzz
 	- https://web.cs.ucla.edu/~wangjiyuan/research/ICSE2025_SynthFuzz.pdf
+- Reflecta: Reflection-based Scalable and Semantic Scripting Language Fuzzing
+	- ACM ASIA Conference on Computer and Communications Security (AsiaCCS) 2025
+	- Chibin Zhang, Gwangmu Lee, Qiang Liu, Mathias Payer
+	- https://doi.org/10.1145/3708821.3710818
+	- https://hexhive.epfl.ch/publications/files/25AsiaCCS.pdf
+	- https://github.com/HexHive/Reflecta
 
 #### Testing: Readings: Fuzzing: 2024
 
