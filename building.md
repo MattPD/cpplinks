@@ -115,6 +115,11 @@ See also:
 	- Shubham Rastogi
 	- https://www.youtube.com/watch?v=VPqZ8LoM5Z8
 	- https://llvm.org/devmtg/2023-10/slides/techtalks/Rastogi-RepresentingDebugInformationInLLVMCAS.pdf
+- Fine-grained compilation caching using llvm-cas
+	- 2024 LLVM Developers' Meeting
+	- Shubham Rastogi
+	- https://www.youtube.com/watch?v=c629Cggdes4
+	- https://llvm.org/devmtg/2024-10/slides/techtalk/Rastogi-Fine-grained-compilation-caching-using-llvm-cas.pdf
 
 ## Correctness
 
