@@ -560,6 +560,11 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 	- http://www.linker-aliens.org/blogs/ali/entry/gnu_hash_elf_sections/
 - Good Practices in Library Design, Implementation, and Maintenance - https://www.akkadia.org/drepper/goodpractice.pdf
 - Have fun with LIEF and Executable Formats - Play with ELF symbols - Part 2 (renaming dynamic symbols) - https://blog.quarkslab.com/have-fun-with-lief-and-executable-formats.html#elf
+- House of Pain: A practical approach for an x86-64 ELF virus
+	- tmp.0ut Volume 4: 2025-03
+	- isra
+	- https://tmpout.sh/4/15.html
+	- https://hckng.org/~isra/articles/house-of-pain.html
 - How is a binary executable organized? Let's explore it! - https://jvns.ca/blog/2014/09/06/how-to-read-an-executable/
 - How To Write Shared Libraries - https://www.akkadia.org/drepper/dsohowto.pdf
 - I/O patterns on ELF binary initialization - https://glandium.org/blog/?p=1016
