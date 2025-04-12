@@ -248,6 +248,12 @@ https://riscv.org/risc-v-books/
 	- 2023-05-24
 	- https://fprox.substack.com/p/zfa-even-more-floating-point-operations
 
+#### Instruction Set Architecture: Extensions: "Zfh" and "Zfhmin" Standard Extensions for Half-Precision Floating-Point
+
+- Support of half precision floating-point numbers in RISC-V ISA: Zfh and Zfhmin
+	- 2022-11-03
+	- https://fprox.substack.com/p/riscv-zfh-half-support
+
 ### Instruction Set Architecture: Profiles
 
 - RISC-V Profiles: Defining sets of extensions for coherent ecosystems
