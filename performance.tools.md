@@ -345,6 +345,10 @@
 
 ## Microarchitecture: Readings
 
+- Fast and Accurate Context-Aware Basic Block Timing Prediction using Transformers
+	- ACM SIGPLAN International Conference on Compiler Construction (CC) 2024
+	- Abderaouf Nassim Amalou, Elisa Fromont, Isabelle Puaut
+	- https://hal.science/hal-04406073
 - Inferring and Analyzing Microarchitectural Performance Models
 	- 2024 PhD Dissertation
 	- Fabian Ritter
