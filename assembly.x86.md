@@ -133,6 +133,8 @@ https://0xax.github.io/categories/assembly/
 		- https://appuntidigitali.it/20234/apx-intels-new-architecture-7-possible-improvements/
 	- 8 – Conclusions
 		- https://appuntidigitali.it/20239/apx-intels-new-architecture-8-conclusions/
+- Intel Advanced Performance Extensions (APX) Assembly Syntax Recommendations
+	- https://www.intel.com/content/www/us/en/content-details/817241/intel-advanced-performance-extensions-intel-apx-assembly-syntax-recommendations.html
 
 # Links
 
