@@ -2966,6 +2966,11 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- https://comsec.ethz.ch/research/microarch/breaking-the-barrier/
 	- https://comsec.ethz.ch/wp-content/files/ibpb_sp25.pdf
 	- https://grsecurity.net/cross_process_spectre_exploitation
+- FLOP: Breaking the Apple M3 CPU via False Load Output Predictions
+	- USENIX Security 2025
+	- Jason Kim, Jalen Chuang, Daniel Genkin, Yuval Yarom
+	- https://predictors.fail/
+	- https://predictors.fail/files/FLOP.pdf
 - SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon
 	- 2025 IEEE Symposium on Security and Privacy (S&P)
 	- Jason Kim, Daniel Genkin, Yuval Yarom
