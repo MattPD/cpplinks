@@ -1710,6 +1710,14 @@ Validation: Including translation validation, equivalence checking.
 	- Conference on Computer-Aided Verification (CAV) 2021
 	- Juneyoung Lee, Dongjoo Kim, Chung-Kil Hur, Nuno P. Lopes
 	- https://web.ist.utl.pt/nuno.lopes/pubs.php?id=alive2-mem-cav21
+- Cogent: Uniqueness Types and Certifying Compilation
+	- Journal of Functional Programming (JFP), Special Issue on Secure Compilation, Volume 31, 2021
+	- Liam O'Connor, Zilin Chen, Christine Rizkallah, Vincent Jackson, Sidney Amani, Gerwin Klein, Toby Murray, Thomas Sewell, Gabriele Keller
+	- https://doi.org/10.1017/S095679682100023X
+	- https://liamoc.net/jfp.pdf
+	- https://people.eng.unimelb.edu.au/rizkallahc/publications/cogent-jfp.pdf
+	- https://github.com/au-ts/cogent
+	- https://trustworthy.systems/projects/OLD/cogent/
 - Language-Parametric Compiler Validation with Application to LLVM
 	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2021
 	- Theodoros Kasampalis, Daejun Park, Zhengyao Lin, Vikram Adve, Grigore Rosu
