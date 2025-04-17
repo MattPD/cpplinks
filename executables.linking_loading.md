@@ -271,6 +271,10 @@ See also:
 - ELF symbol interposition and RTLD_LOCAL
 	- 2022; Kyle Huey
 	- https://pernos.co/blog/interposition-rtld-local/
+- FixedASLR: .o ELF loader in a CTF task
+	- tmp.0ut Volume 4: 2025-03
+	- Gynvael Coldwind
+	- https://tmpout.sh/4/8.html
 - in-memory-only fd-less ELF execution (with Perl)
 	- tmp.0ut #003 - 2023-11
 	- isra
