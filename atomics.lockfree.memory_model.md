@@ -169,6 +169,11 @@
 	- Programming Languages Design and Implementation (PLDI) 2024
 	- Jaehwang Jung, Jeonghyeon Kim, Matthew J. Parkinson, Jeehoon Kang
 	- https://dl.acm.org/doi/abs/10.1145/3656383
+- Expediting Hazard Pointers with Bounded RCU Critical Sections
+	- ACM Symposium on Parallelism in Algorithms and Architectures (SPAA) 2024
+	- Jeonghyeon Kim, Jaehwang Jung, Jeehoon Kang
+	- https://doi.org/10.1145/3626183.3659941
+	- https://drive.google.com/file/d/1nAnYJSmnK90blaLZ1179_Wx5Zwrj9XOy/view?usp=sharing
 - Safe Memory Reclamation Techniques
 	- 2024 PhD Dissertation
 	- Ajay Singh
