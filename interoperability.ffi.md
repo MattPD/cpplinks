@@ -80,6 +80,15 @@
 	- Michalis Papaevripides and Elias Athanasopoulos
 	- https://dl.acm.org/doi/10.1145/3418898
 
+### General: Readings: Verification
+
+- Overcoming Restraint: Composing Verification of Foreign Functions with Cogent
+	- CPP 2022: ACM SIGPLAN International Conference on Certified Programs and Proofs
+	- Louis Cheung, Liam O'Connor, Christine Rizkallah
+	- https://arxiv.org/abs/2102.09920
+	- https://www.doi.org/10.1145/3497775.350368
+	- https://www.youtube.com/watch?v=0x5DYZcXJcc
+
 ## General: Software
 
 - C++ Language Interface Foundation (CLIF)
