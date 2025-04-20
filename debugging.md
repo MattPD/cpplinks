@@ -804,6 +804,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- GEF Tutorials - https://www.youtube.com/playlist?list=PLjAuO31Rg972WeMvdR_57Qu-aVM8T6DkQ
 	- https://blahcat.github.io/posts/2017/08/01/gef-at-black-hat-arsenal-us-2017.html
 	- https://github.com/toolswatch/blackhat-arsenal-tools/blob/master/exploitation/gef.md
+- gf: A GDB Frontend
+	- A GDB frontend for Linux.
+	- https://github.com/nakst/gf
 - libdebugme: Automatically drop to gdb on error
 	- https://github.com/yugr/libdebugme
 - OnlineGDB
