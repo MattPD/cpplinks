@@ -824,6 +824,11 @@ See also:
 
 #### CMake Talks: 2024
 
+- Clean CMake for C++ (library) developers
+	- Meeting C++ 2024
+	- Kerstin Keller
+	- https://www.youtube.com/watch?v=k76LN8dSxx4
+	- https://meetingcpp.com/mcpp/slides/2024/CleanCMakeForC++LibraryDevelopers846225.pdf
 - Integrating C++ Code Generation Into a Large CMake Build
 	- ACCU 2024; CB Bailey
 	- https://www.youtube.com/watch?v=bCuH4cHPJ78
