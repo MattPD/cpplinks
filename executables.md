@@ -613,6 +613,10 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 	- https://archive.org/details/pocorgtfo20/page/n44/mode/1up?view=theater
 - Palindromic 64 bit ELF binaries
 	- https://n0.lol/bggp/writeup.html
+- Polyglottar, a structured ISO+TAR+ELF polyglot
+	- tmp.0ut Volume 4: 2025-03
+	- Enrique Soriano-Salvador
+	- https://tmpout.sh/4/16.html
 - Position Independent Executables - https://blog.fpmurphy.com/2008/06/position-independent-executables.html
 - Programming With Ones and Zeros
 	- Part 1 - http://www.hanshq.net/ones-and-zeros.html
