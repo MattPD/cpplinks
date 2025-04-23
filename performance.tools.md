@@ -4,8 +4,8 @@
 
 - [Benchmarking](#benchmarking)
 - [Memory](#memory):
-	- [Memory - Benchmarking](#memory---benchmarking)
-	- [Memory - Profiling](#memory---profiling)
+	- [Memory: Benchmarking](#memory-benchmarking)
+	- [Memory: Profiling](#memory-profiling)
 - [Microarchitecture](#microarchitecture)
 - [Optimization](#optimization)
 - [Profiling](#profiling)
@@ -16,7 +16,7 @@
 
 # Benchmarking
 
-## Software
+## Benchmarking: Software
 
 - ankerl::nanobench: a platform independent microbenchmarking library for C++11/14/17/20
 	- https://github.com/martinus/nanobench
@@ -56,7 +56,7 @@
 	- https://github.com/sheredom/ubench.h
 	- https://www.duskborn.com/posts/introducing_ubench_h/
 
-## Readings
+## Benchmarking: Readings
 
 - Micro benchmarking libraries for C++
 	- http://www.bfilipek.com/2016/01/micro-benchmarking-libraries-for-c.html
@@ -69,7 +69,7 @@
 
 # Memory
 
-## Memory - Benchmarking
+## Memory: Benchmarking
 
 - Intel Memory Latency Checker (MLC)
 	- a tool used to measure memory latencies and bandwidth, and how they change with increasing load on the system
@@ -102,7 +102,7 @@
 - tinymembench: simple benchmark for memory throughput and latency
 	- https://github.com/ssvb/tinymembench
 
-## Memory - Profiling
+## Memory: Profiling
 
 - Bytehound: a memory profiler for Linux
 	- https://github.com/koute/bytehound
@@ -186,6 +186,19 @@
 	- http://valgrind.org/
 	- DHAT: a dynamic heap analysis tool - http://valgrind.org/docs/manual/dh-manual.html
 	- Massif: a heap profiler - ​http://valgrind.org/docs/manual/ms-manual.html
+
+### Memory: Profiling: Readings
+
+- PROMPT: A Fast and Extensible Memory Profiling Framework
+	- OOPSLA 2024
+	- Ziyang Xu, Yebin Chon, Yian Su, Zujun Tan, Sotiris Apostolakis, Simone Campanoni, David I. August
+	- https://doi.org/10.1145/3649827
+	- https://liberty.princeton.edu/Publications/oopsla24_prompt.pdf
+	- https://www.youtube.com/watch?v=rj23NkvujfA
+	- https://github.com/PrincetonUniversity/PROMPT
+	- 2024 Ph.D. dissertation
+	- Ziyang Xu
+	- http://arks.princeton.edu/ark:/88435/dsp0137720h12v
 
 # Microarchitecture
 
