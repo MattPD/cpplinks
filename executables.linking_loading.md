@@ -345,12 +345,14 @@ See also:
 			- https://devblogs.microsoft.com/oldnewthing/20130110-00/?p=5593
 		- Understanding errors in classical linking: The delay-load catch-22
 			- https://devblogs.microsoft.com/oldnewthing/20130111-00/?p=5583
-	- Using linker segments and `__declspec(allocate(…))` to arrange data in a specific order
-		- https://blogs.msdn.microsoft.com/oldnewthing/20181107-00/?p=100155
+		- Using the classical model for linking to provide unit test overrides
+			- https://devblogs.microsoft.com/oldnewthing/20250416-00/?p=111077
 	- Gotchas when using linker sections to arrange data, part 1
 		- https://blogs.msdn.microsoft.com/oldnewthing/20181108-00/?p=100165
 	- Gotchas when using linker sections to arrange data, part 2
 		- https://blogs.msdn.microsoft.com/oldnewthing/20181109-00/?p=100175
+	- Using linker segments and `__declspec(allocate(…))` to arrange data in a specific order
+		- https://blogs.msdn.microsoft.com/oldnewthing/20181107-00/?p=100155
 	- Why would the incremental linker insert padding between section fragments?
 		- https://blogs.msdn.microsoft.com/oldnewthing/20190114-00/?p=100695
 
