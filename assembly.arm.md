@@ -308,6 +308,17 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- "In this thesis, we present a formal model of the memory management unit (MMU) in the interactive proof assistant Isabelle/HOL for the ARMv7-A architecture which includes the TLB, its maintenance operations, and its derived properties. We integrate this specification into the Cambridge ARM model. We derive sufficient conditions for TLB consistency, and we abstract away the functional details of the MMU using data refinement for simpler reasoning about executions in the presence of cached address translation, including complete and partial walks."
 	- <https://www.unsworks.unsw.edu.au/permalink/f/a5fmj0/unsworks_60079>
 	- http://unsworks.unsw.edu.au/fapi/datastream/unsworks:60079/SOURCE02?view=true
+- Puss in Boots: Formalizing Arm's Virtual Memory System Architecture
+	- IEEE Micro 44(6) 2024
+	- Jade Alglave, Richard Grisenthwaite, Artem Khyzha, Luc Maranget, Nikos Nikoleris
+	- https://doi.org/10.1109/MM.2024.3422668
+	- http://www0.cs.ucl.ac.uk/staff/j.alglave/papers/IEEEMicro24.pdf
+	- Puss In Boots: on formalising Arm’s Virtual Memory System Architecture (extended version)
+		- https://inria.hal.science/hal-04567296
+	- AArch64 VMSA experiment report
+		- https://diy.inria.fr/vmsa/
+	- Enhanced Translation Synchronisation (ETS), ETS2
+	- Translation Table Hardware Management (TTHM)
 - Renee: ARMv8 binary verification project
 	- The Renee project is investigating the formalization of ARMv8 instruction semantics and reasoning and verification of ARMv8 binaries including their security properties.
 	- https://ssrg-vt.github.io/Renee/
