@@ -830,6 +830,14 @@ See also: [Computer Architecture](comparch.md)
 
 ### Defense: Software: 2024
 
+- No Leakage Without State Change: Repurposing Configurable CPU Exceptions to Prevent Microarchitectural Attacks
+	- 2024 Annual Computer Security Applications Conference (ACSAC) 2024
+	- Daniel Weber, Leonard Niemann, Lukas Gerlach, Jan Reineke, Michael Schwarz
+	- https://doi.org/10.1109/ACSAC63791.2024.00042
+	- https://misc0110.net/files/irqguard_acsac24.pdf
+	- https://roots.ec/publications/no-leakage-without-state-change-repurposing-configurable-cpu-exceptions-to-prevent-microarchitectural-attacks/
+	- IRQGuard
+		- https://github.com/cispa/IRQGuard
 - Switchpoline: A Software Mitigation for Spectre-BTB and Spectre-BHB on ARMv8
 	- 19th ACM Asia Conference on Computer and Communications Security 2024
 	- Lorenz Hetterich, Markus Bauer, Michael Schwarz, Christian Rossow
