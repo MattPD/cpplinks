@@ -1791,6 +1791,11 @@ Validation: Including translation validation, equivalence checking.
 
 ## Validation: 2011-1978
 
+- Equality-Based Translation Validator for LLVM
+	- International Conference on Computer Aided Verification (CAV) 2011
+	- Michael Stepp, Ross Tate, Sorin Lerner
+	- https://doi.org/10.1007/978-3-642-22110-1_59
+	- https://cseweb.ucsd.edu/~lerner/papers/cav2011.pdf
 - Evaluating value-graph translation validation for LLVM
 	- Programming and Language Design Implementation (PLDI) 2011
 	- Jean-Baptiste Tristan, Paul Govereau, Greg Morrisett
