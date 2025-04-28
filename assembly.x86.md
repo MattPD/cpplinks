@@ -136,6 +136,16 @@ https://0xax.github.io/categories/assembly/
 - Intel Advanced Performance Extensions (APX) Assembly Syntax Recommendations
 	- https://www.intel.com/content/www/us/en/content-details/817241/intel-advanced-performance-extensions-intel-apx-assembly-syntax-recommendations.html
 
+## Instruction Set Architecture: Formalization
+
+- A Complete Formal Semantics of x86-64 User-Level Instruction Set Architecture
+	- PLDI 2019
+	- Sandeep Dasgupta, Daejun Park, Theodoros Kasampalis, Vikram S. Adve, Grigore Roşu
+	- https://doi.org/10.1145/3314221.3314601
+	- https://sdasgup3.github.io/files/pldi_2019.pdf
+	- https://github.com/kframework/X86-64-semantics
+	- https://www.youtube.com/watch?v=eBZtmaNAJwo
+
 # Links
 
 Assembly Language (x86) Resources
