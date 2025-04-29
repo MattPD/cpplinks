@@ -737,6 +737,19 @@
 
 ---
 
+# Remote Direct Memory Access (RDMA)
+
+## Remote Direct Memory Access (RDMA): Readings
+
+- Semantics of Remote Direct Memory Access: Operational and Declarative Models of RDMA on TSO Architectures
+	- OOPSLA 2024
+	- Guillaume Ambal, Brijesh Dongol, Haggai Eran, Vasileios Klimis, Ori Lahav, Azalea Raad
+	- https://doi.org/10.1145/3689781
+	- https://www.soundandcomplete.org/papers/OOPSLA2024/RDMA/
+	- https://www.youtube.com/watch?v=DdkAL53sX5E
+
+---
+
 # Software
 
 - act: automagic compiler tormentor
