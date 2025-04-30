@@ -248,6 +248,13 @@ https://riscv.org/risc-v-books/
 	- 2023-05-24
 	- https://fprox.substack.com/p/zfa-even-more-floating-point-operations
 
+#### Instruction Set Architecture: Extensions: "Zfbfmin, Zvfbfmin, Zvfbfwma" BF16 Extensions
+
+- RISC-V support for BFloat16
+	- Fast track extensions Zfbfmin, Zvfbfmin, Zvfbfwma
+	- 2023-09-04
+	- https://fprox.substack.com/p/bfloat16-support-in-risc-v
+
 #### Instruction Set Architecture: Extensions: "Zfh" and "Zfhmin" Standard Extensions for Half-Precision Floating-Point
 
 - Support of half precision floating-point numbers in RISC-V ISA: Zfh and Zfhmin
