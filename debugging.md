@@ -1468,6 +1468,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Stupid debugger tricks: Calling functions and methods - https://blogs.msdn.microsoft.com/oldnewthing/20070427-00/?p=27083
 - Time travel debugging: It’s a blast! (from the past)
 	- https://msrc.microsoft.com/blog/2019/05/time-travel-debugging-its-a-blast-from-the-past/
+- Tips & Tricks for better debugging with WinDbg
+	- REcon 2024
+	- Chris Alladoum
+	- https://cfp.recon.cx/recon2024/talk/GK8YDV/
+	- https://github.com/hugsy/recon_2024_windbg_workshop
 - Tutorial: Using WinDbg to call arbitrary functions — WinDBG kung-fu series
 	- http://cfc.kizzx2.com/index.php/tutorial-using-windbg-to-call-arbitrary-functions-windbg-kung-fu-series/
 - Undocumented WinDbg - https://blogs.msdn.microsoft.com/reiley/2011/10/30/undocumented-windbg/
