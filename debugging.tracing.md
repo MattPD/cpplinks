@@ -611,8 +611,8 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- Derbycon 2017; Zac Brown
 	- http://www.irongeek.com/i.php?page=videos/derbycon7/t208-hidden-treasure-detecting-intrusions-with-etw-zac-brown
 - UIforETW: User interface for recording and managing ETW traces
+	- https://github.com/randomascii/UIforETW
 	- https://randomascii.wordpress.com/2015/04/14/uiforetw-windows-performance-made-easier/
-	- https://github.com/google/UIforETW
 - wtrace: Command line tracing tool for Windows, based on ETW
 	- https://github.com/lowleveldesign/wtrace
 	- https://lowleveldesign.org/2017/10/25/wtrace-2-2/
