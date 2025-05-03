@@ -569,6 +569,13 @@
 
 ## Rust: Readings
 
+- A Study of Undefined Behavior Across Foreign Function Boundaries in Rust Libraries
+	- International Conference on Software Engineering (ICSE) 2025
+	- Ian McCormack, Joshua Sunshine, Jonathan Aldrich
+	- https://arxiv.org/pdf/2404.11671
+	- https://conf.researchr.org/details/icse-2025/icse-2025-research-track/50/A-Study-of-Undefined-Behavior-Across-Foreign-Function-Boundaries-in-Rust-Libraries
+	- MiriLLI: a tool which combines Miri with an LLVM interpreter to jointly execute programs and detect undefined behavior across foreign function boundaries
+		- https://github.com/icmccorm/mirilli
 - Aliasing Limits on Translating C to Safe Rust
 	- OOPSLA 2023
 	- Mehmet Emre, Peter Boyland, Aesha Parekh, Ryan Schroeder, Kyle Dewey, Ben Hardekopf
