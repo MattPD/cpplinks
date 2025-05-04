@@ -3227,6 +3227,12 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Stefan Gast, Hannes Weissteiner, Robin Leander Schröder, Daniel Gruss
 	- https://dx.doi.org/10.14722/ndss.2025.241038
 	- https://stefangast.eu/papers/counterseveillance.pdf
+- Reload+Reload: Exploiting Cache and Memory Contention Side Channel on AMD SEV
+	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2025
+	- Li-Chung Chiang, Shih-Wei Li
+	- https://dl.acm.org/doi/10.1145/3676641.3716017
+	- https://github.com/ntu-ssl/rr-artifact
+	- https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3010.html
 
 ## Arm TrustZone
 
