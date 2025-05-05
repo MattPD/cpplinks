@@ -800,6 +800,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 #### Testing: Readings: Fuzzing: 2024
 
+- Fuzzing JavaScript Engines with a Graph-based IR
+	- 2024 ACM SIGSAC Conference on Computer and Communications Security (CCS)
+	- Haoran Xu, Zhiyuan Jiang, Yongjun Wang, Shuhui Fan, Shenglin Xu, Peidai Xie, Shaojing Fu, Mathias Payer
+	- https://doi.org/10.1145/3658644.3690336
+	- https://nebelwelt.net/files/24CCS2.pdf
+	- https://hexhive.epfl.ch/publications/files/24CCS2-presentation.pdf
 - Fuzzing MLIR Compiler Infrastructure via Operation Dependency Analysis
 	- International Symposium on Software Testing and Analysis (ISSTA) 2024
 	- Chenyao Suo, Junjie Chen, Shuang Liu, Jiajun Jiang, Yingquan Zhao, Jianrong Wang
