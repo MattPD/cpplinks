@@ -199,6 +199,16 @@ http://www.agner.org/optimize/#links
 
 Binary Analysis, Disassembly, Decompilation, Recompilation
 
+- How Far We Have Come: Testing Decompilation Correctness of C Decompilers
+	- SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2020
+	- Zhibo Liu, Shuai Wang
+	- https://doi.org/10.1145/3395363.3397370
+	- https://www.youtube.com/watch?v=UjBH9F5p2bQ
+	- https://monkbai.github.io/files/issta-20.pdf
+	- x86 executable files to C decompilers
+	- research questions: RQ1: how difficult is it to recompile the outputs of modern C decompilers?; RQ2: what are the characteristics of typical decompilation defects?; RQ3: what insights can we deduce from analyzing the decompilation defects?
+	- DecFuzzer: Decompiler Fuzzing Test with EMI mutation
+		- https://github.com/monkbai/DecFuzzer
 - Scalable Validation of Binary Lifters
 	- PLDI 2020
 	- Sandeep Dasgupta, Sushant Dinesh, Deepan Venkatesh, Vikram S. Adve, Christopher W. Fletcher
