@@ -367,6 +367,10 @@
 	- Fabian Ritter
 	- https://dx.doi.org/10.22028/D291-43305
 	- http://hdl.handle.net/20.500.11880/38955
+- Machine learning for timing estimation
+	- 2024 PhD Dissertation
+	- Abderaouf Nassim Amalou
+	- https://hal.science/tel-04406029
 
 # Optimization
 
