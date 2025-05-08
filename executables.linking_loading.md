@@ -575,6 +575,9 @@ See also:
 - linkermapviz
 	- Interactive visualization of GNU ld’s linker map with a tree map.
 	- https://github.com/PromyLOPh/linkermapviz
+- LinkerScope: Create memory map diagrams directly from linker map files
+	- LinkerScope is a memory map diagram generator. It can be fed either with a GNU Linker map file or with a custom YAML file and generate beautiful and detailed diagrams of the different areas and sections
+	- https://github.com/raulgotor/linkerscope
 - linksem: Semantic model for aspects of ELF static linking and DWARF debug information
 	- https://github.com/rems-project/linksem
 - QuarkslaB Dynamic Loader (QBDL)
