@@ -747,6 +747,11 @@
 	- https://doi.org/10.1145/3689781
 	- https://www.soundandcomplete.org/papers/OOPSLA2024/RDMA/
 	- https://www.youtube.com/watch?v=DdkAL53sX5E
+- Sufficient Conditions for Robustness of RDMA Programs
+	- ESOP 2025
+	- Guillaume Ambal, Ori Lahav, Azalea Raad
+	- https://dx.doi.org/10.1007/978-3-031-91118-7_3
+	- https://www.soundandcomplete.org/papers/ESOP2025/RDMA/
 
 ---
 
