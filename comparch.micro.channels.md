@@ -937,10 +937,12 @@ See also: [Computer Architecture](comparch.md)
 	- https://cs.brown.edu/~vpk/papers/eclipse.ccs24.pdf
 	- https://vatlidak.github.io/resources/eclipse_ccs24_prez.pdf
 	- https://gitlab.com/brown-ssl/eclipse
-- Protecting cryptographic code against Spectre-RSB (and, in fact, all known Spectre variants)
+- Protecting Cryptographic Code Against Spectre-RSB (and, in Fact, All Known Spectre Variants)
 	- Cryptology ePrint Archive, Paper 2024/1070
+	- ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2025
 	- Santiago Arranz Olmos, Gilles Barthe, Chitchanok Chuengsatiansup, Benjamin Grégoire, Vincent Laporte, Tiago Oliveira, Peter Schwabe, Yuval Yarom, Zhiyuan Zhang
 	- https://eprint.iacr.org/2024/1070
+	- https://doi.org/10.1145/3676641.3716015
 
 #### Defense: Software: Compilation and Programming Languages: 2023
 
