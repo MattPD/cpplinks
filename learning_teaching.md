@@ -144,3 +144,7 @@ Articles and papers (focused on teaching, but also of interest for learning by s
 - Stroustrup, Bjarne (2011) *Principles and Practice Using C++*
 	- *Chapter 0: Notes to the Reader*,	<http://www.stroustrup.com/Programming/programming_ch0.pdf>
 	- *Instructor’s Guide for Programming Principles and Practice using C++*, <http://www.stroustrup.com/Programming/PPP-guide.pdf>
+- The Progression of Students’ Ability to Work With Scope, Parameter Passing and Aliasing
+	- Australasian Computing Education Conference (ACE) 2023
+	- Filip Strömbäck, Pontus Haglund, Aseel Berglund, Erik Berglund
+	- https://doi.org/10.1145/3576123.3576128
