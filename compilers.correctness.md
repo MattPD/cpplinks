@@ -814,6 +814,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://2024.issta.org/details/issta-2024-papers/103/Fuzzing-MLIR-Compiler-Infrastructure-via-Operation-Dependency-Analysis
 	- MLIRod: MLIR fuzzing guided by operation dependencies
 		- https://github.com/tju-chenyaosuo/MLIRod
+- OptFuzz: Optimization Path Guided Fuzzing for JavaScript JIT Compilers
+	- USENIX Security 2024
+	- Jiming Wang, Yan Kang, Chenggang Wu, Yuhao Hu, Yue Sun, Jikai Ren, Yuanming Lai, Mengyao Xie, Charles Zhang, Tao Li, Zhe Wang
+	- https://www.usenix.org/conference/usenixsecurity24/presentation/wang-jiming
+	- https://github.com/JimWongM/OptFuzz
 
 #### Testing: Readings: Fuzzing: 2023
 
