@@ -221,6 +221,11 @@ Binary Analysis, Disassembly, Decompilation, Recompilation
 		- https://sdasgup3.github.io/files/FinalDefence.pdf
 	- validating-binary-decompilation: Scalable Validator for Binary Lifters
 		- https://github.com/sdasgup3/validating-binary-decompilation
+- Sound C Code Decompilation for a Subset of x86-64 Binaries
+	- Software Engineering and Formal (SEFM) 2020
+	- Freek Verbeek, Pierre Olivier, Binoy Ravindran
+	- https://doi.org/10.1007/978-3-030-58768-0_14
+	- https://www.ssrg.ece.vt.edu/papers/sefm20.pdf
 
 ## Readings: Performance
 
