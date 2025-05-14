@@ -159,6 +159,13 @@
 - abi-cafe
 	- A tool to help automate testing that two languages/compilers agree on ABIs for the purposes of FFI
 	- https://github.com/Gankra/abi-cafe
+- abicorn: a Clang Tool that detects library-level API and ABI compatibility breaking changes based on source code
+	- https://github.com/isuckatcs/abicorn-on-graduation-ceremony
+	- berlin: symbol lookup error: libeurollvm.so.2025: undefined symbol: `_Z11abiBreakingChange`
+		- 2025 EuroLLVM Developers' Meeting
+		- Domján Dániel
+		- https://www.youtube.com/watch?v=u1X-l-1Gfv0
+		- https://llvm.org/devmtg/2025-04/slides/technical_talk/daniel_lookup.pdf
 - ABIGAIL: Application Binary Interface Generic Analysis and Instrumentation Library
 	- abidiff - compares the Application Binary Interfaces (ABI) of two shared libraries in ELF format
 		- https://sourceware.org/libabigail/manual/abidiff.html
