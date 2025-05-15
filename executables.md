@@ -12,6 +12,7 @@ See also:
 Contents:
 
 - [General](#general): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-software): [Debugging Information](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-software-debugging-information) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-talks)
+- [BTF](#btf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#btf-readings)
 - [DLL](#dll): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll-talks)
 - [DWARF](#dwarf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-talks)
 - [ELF](#elf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf-talks)
@@ -192,6 +193,17 @@ See also: [DWARF](#dwarf), [PDB](#pdb), [Debugging](https://github.com/MattPD/cp
 - The Life of Binaries
 	- http://www.opensecuritytraining.info/LifeOfBinaries.html
 	- https://www.youtube.com/playlist?list=PLUFkSN0XLZ-n_Na6jwqopTt1Ki57vMIc3
+
+---
+
+# BTF
+
+BTF: BPF Type Format
+
+## BTF: Readings
+
+- BPF Type Format (BTF) — The Linux Kernel documentation
+	- https://docs.kernel.org/bpf/btf.html
 
 ---
 
