@@ -1595,6 +1595,12 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Interfaces for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-s.html
 	- Interfaces Definitions for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-sman.html
 - libunwind (nongnu.org) - http://www.nongnu.org/libunwind/
+- Profiling framepointer-less code with elfutils stacktrace
+	- GNU Tools Cauldron 2024
+	- Serhei Makarov
+	- https://www.youtube.com/watch?v=IjHWbo_ZF-E
+	- http://serhei.io/files/cauldron2024-slides.pdf
+	- https://gcc.gnu.org/wiki/cauldron2024#cauldron2024talks.profiling_framepointerless_code_with_elfutils_stacktrace
 - Programmatic access to the call stack in C++ - https://eli.thegreenplace.net/2015/programmatic-access-to-the-call-stack-in-c/
 - pstack: Print stack traces of running processes. Uses its own ELF and DWARF parsing
 	- https://github.com/peadar/pstack
