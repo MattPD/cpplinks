@@ -20,6 +20,7 @@ See also:
 - [Dynamic Binary Translation (DBT)](#dynamic-binary-translation-dbt)
 - [Readings](#readings)
 - [Software](#software):
+	- [Compilers](#software-compilers)
 	- [Frida](#software-frida)
 	- [Pin](#software-pin)
 		- [Readings](https://github.com/MattPD/cpplinks/blob/master/analysis.dynamic.md#software-pin-readings)
@@ -262,6 +263,20 @@ See also:
 		- http://www.burningcutlery.com/derek/docs/drmem-CGO11.pdf
 - PANDA: Platform for Architecture-Neutral Dynamic Analysis
 	- https://github.com/panda-re/panda
+
+## Software: Compilers
+
+See also: [Sanitizers](https://github.com/MattPD/cpplinks/blob/master/analysis.dynamic.md#software-sanitizers)
+
+- -fbounds-safety
+	- -fbounds-safety: Enforcing bounds safety for C
+		- https://clang.llvm.org/docs/BoundsSafety.html
+	- Adoption Guide for -fbounds-safety
+		- https://clang.llvm.org/docs/BoundsSafetyAdoptionGuide.html
+	- Implementation plans for -fbounds-safety
+		- https://clang.llvm.org/docs/BoundsSafetyImplPlans.html
+	- RFC: Enforcing Bounds Safety in C (-fbounds-safety)
+		- https://discourse.llvm.org/t/rfc-enforcing-bounds-safety-in-c-fbounds-safety/70854
 
 ## Software: Frida
 
