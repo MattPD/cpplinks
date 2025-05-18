@@ -386,6 +386,11 @@ https://riscv.org/risc-v-books/
 	- https://pulp-platform.org/docs/Ariane_detailed.pdf
 	- Ara: A 64-bit Vector Unit, compatible with the RISC-V Vector Extension Version 1.0, working as a coprocessor to CORE-V's CVA6 core
 		- https://github.com/pulp-platform/ara
+		- Fast and Efficient Floating-Point Computation for RISC-V Architectures: A Hardware-Software Codesign Approach
+			- 2025 PhD dissertation
+			- Matteo Perotti
+			- https://doi.org/10.3929/ethz-b-000731530
+			- https://research-collection.ethz.ch/handle/20.500.11850/731530
 		- Marian: Modified version of PULP Ara to support Vector Cryptography (Zvk) Instructions
 			- https://github.com/soc-hub-fi/Marian
 			- Development of the First Open-Source Implementation of the RISC-V Vector Cryptography Extension
