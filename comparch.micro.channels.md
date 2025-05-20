@@ -928,6 +928,16 @@ See also: [Computer Architecture](comparch.md)
 	- https://arxiv.org/abs/2102.12730
 	- https://www.usenix.org/conference/usenixsecurity21/presentation/narayan
 
+#### Defense: Software: Compilation and Programming Languages: 2025
+
+- TLBlur: Compiler-Assisted Automated Hardening against Controlled Channels on Off-the-Shelf Intel SGX Platforms
+	- USENIX Security 2025
+	- Daan Vanoverloop, Andres Sanchez, Flavio Toffalini, Frank Piessens, Mathias Payer, Jo Van Bulck
+	- https://vanbulck.net/files/usenix25-tlblur.pdf
+	- https://github.com/TLBlur-SGX
+	- TLBlur is a *compiler-assisted defense* against page fault attacks on Intel SGX that leverages the AEX-Notify hardware extension.
+	- Instrumented code builds a *Page Access Map (PAM)* at runtime to inform a *page prefetcher* and reconstruct the TLB after IRQ in order to hide page accesses from the untrusted operating system.
+
 #### Defense: Software: Compilation and Programming Languages: 2024
 
 - Eclipse: Preventing Speculative Memory-error Abuse with Artificial Data Dependencies
