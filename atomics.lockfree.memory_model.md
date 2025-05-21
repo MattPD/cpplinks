@@ -251,6 +251,11 @@
 
 ## Memory Reclamation: Talks
 
+- Hazard Pointers with Reference Counters
+	- Kernel Recipes 2024
+	- Mathieu Desnoyers
+	- https://www.youtube.com/watch?v=mnQlQXZn5EI
+	- https://kernel-recipes.org/en/2024/schedule/hazard-pointers-with-reference-counter/
 - Memory management for concurrent data structures
 	- SPTCC 2017
 	- Erez Petrank
