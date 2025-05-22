@@ -106,6 +106,11 @@
 
 ## General: Talks
 
+- C++ interoperability with memory-safe languages
+	- 2025 EuroLLVM Developers' Meeting
+	- Gábor Horváth
+	- https://www.youtube.com/watch?v=AVmgL-97kqo
+	- https://llvm.org/devmtg/2025-04/slides/technical_talk/horvath_cplusplus.pdf
 - Making Libraries Consumable for Non-C++ Developers
 	- CppCon 2021
 	- Aaron R Robinson
