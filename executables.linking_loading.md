@@ -592,6 +592,10 @@ See also:
 
 ## Software: Linkers
 
+- ELD: Embedded LD
+	- https://github.com/qualcomm/eld
+	- ELD is an ELF linker designed to meet the needs of embedded software projects. It aims to be a drop-in replacement for the GNU linker, with a smaller memory footprint, faster link times and a customizable link behavior.
+	- ELD supports targets Hexagon, ARM, AArch64, and RISC-V and is designed for easy addition of more backends.
 - ld - the GNU linker
 	- https://sourceware.org/binutils/docs/ld/
 - LLD - The LLVM Linker
