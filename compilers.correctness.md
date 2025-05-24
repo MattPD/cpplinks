@@ -1351,6 +1351,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 #### Testing: Readings: Reduction: LLVM
 
+- How to Reduce an LLVM Bug
+	- 2025 EuroLLVM Developers' Meeting
+	- Matt Arsenault
+	- https://www.youtube.com/watch?v=M5eccFzr_DE
+	- https://llvm.org/devmtg/2025-04/slides/tutorial/arsenault_reduce.pdf
+	- https://github.com/arsenm/llvm-reduce-tutorial
 - LLVM bugpoint
 	- LLVM bugpoint tool: design and usage
 		- https://llvm.org/docs/Bugpoint.html
