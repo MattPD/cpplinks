@@ -199,6 +199,19 @@ http://www.agner.org/optimize/#links
 
 Binary Analysis, Disassembly, Decompilation, Recompilation
 
+### Readings: Lifting: 2022
+
+- A Broad Comparative Evaluation of x86-64 Binary Rewriters
+	- Cyber Security Experimentation and Test Workshop (CSET) 2022
+	- Eric Schulte, Michael D. Brown, Vlad Folts
+	- https://doi.org/10.1145/3546096.3546112
+	- https://arxiv.org/abs/2203.13231
+	- https://gitlab.com/GrammaTech/lifter-eval
+	- https://eschulte.github.io/data/cset22-16-slides.pdf
+	- https://cset22.isi.edu/videos/session4/binaryrewriters.mp4
+
+### Readings: Lifting: 2020
+
 - How Far We Have Come: Testing Decompilation Correctness of C Decompilers
 	- SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2020
 	- Zhibo Liu, Shuai Wang
