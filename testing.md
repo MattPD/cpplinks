@@ -408,6 +408,30 @@ See also:
 
 ## Coverage: Readings
 
+### Coverage: Readings: 2020-2025
+
+- Efficient Binary-Level Coverage Analysis
+	- ESEC/FSE 2020
+	- M. Ammar Ben Khadra, Dominik Stoffel, Wolfgang Kunz
+	- https://arxiv.org/abs/2004.14191
+	- bcov: A tool for efficient binary-level coverage analysis
+		- bcov statically instruments x86-64 ELF binaries without compiler support. It features probe pruning, precise CFG analyses, and sophisticated instrumentation techniques.
+		- https://github.com/abenkhadra/bcov
+- Modified condition/decision coverage (MC/DC) and compiler implementations
+	- 2024
+	- MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2024-01-28-mc-dc-and-compiler-implementations
+- Not All Coverage Measurements Are Equal: Fuzzing by Coverage Accounting for Input Prioritization
+	- Network and Distributed System Security Symposium (NDSS) 2020
+	- Yanhao Wang, Xiangkun Jia, Yuwei Liu, Tiffany Bao, Dinghao Wu, and Purui Su
+	- https://ndss-symposium.org/wp-content/uploads/2020/02/24422-paper.pdf
+- Prime Path Coverage in the GNU Compiler Collection
+	- 2025
+	- Jørgen Kvalsvik
+	- https://arxiv.org/abs/2505.14694
+
+### Coverage: Readings: 2010-2019
+
 - A Large-Scale, Longitudinal Study of Test Coverage Evolution
 	- Automated Software Engineering (ASE) 2018
 	- Michael Hilton, Jonathan Bell, Darko Marinov
@@ -415,10 +439,6 @@ See also:
 	- http://www.code-coverage.org/publications/
 	- Code Coverage Analytics: Understanding how lines are (un)covered
 		- http://www.code-coverage.org/
-- Applications of Synchronization Coverage
-	- Principles and Practice of Parallel Programming (PPoPP) 2005
-	- Arkady Bron, Eitan Farchi, Yonit Magid, Yarden Nir, Shmuel Ur
-	- https://doi.org/10.1145/1065944.1065972
 - Assessing Oracle Quality with Checked Coverage
 	- International Conference on Software Testing, Verification and Validation ICST 2011
 	- David Schuler and Andreas Zeller
@@ -468,22 +488,12 @@ See also:
 	- ISSTA 2014
 	- Paul Marinescu, Petr Hosek, Cristian Cadar
 	- https://srg.doc.ic.ac.uk/publications/covrig-issta-14.html
-- Efficient Binary-Level Coverage Analysis
-	- ESEC/FSE 2020
-	- M. Ammar Ben Khadra, Dominik Stoffel, Wolfgang Kunz
-	- https://arxiv.org/abs/2004.14191
-	- bcov: A tool for efficient binary-level coverage analysis
-		- bcov statically instruments x86-64 ELF binaries without compiler support. It features probe pruning, precise CFG analyses, and sophisticated instrumentation techniques.
-		- https://github.com/abenkhadra/bcov
 - Guidelines for coverage-based comparisons of non-adequate test suites
 	- ACM Transactions on Software Engineering and Methodology (2015)
 	- Gligoric, M., Groce, A., Zhang, C., Sharma, R., Alipour, A., Marinov, D.
 	- https://dl.acm.org/citation.cfm?id=2660767
 	- http://mir.cs.illinois.edu/coco/
 	- http://users.ece.utexas.edu/~gligoric/papers/GligoricETAL15CoCoJournal.pdf
-- How to Misuse Code Coverage
-	- 1999; Brian Marick
-	- http://www.exampler.com/testing-com/writings/coverage.pdf
 - Hunting for Bugs in Code Coverage Tools via Randomized Differential Testing
 	- ICSE 2019
 	- Yibiao Yang, Yuming Zhou, Hao Sun, Zhendong Su, Zhiqiang Zuo, Lei Xu, Baowen Xu
@@ -492,23 +502,11 @@ See also:
 	- IEEE International Conference on Software Testing, Verification and Validation (ICST) 2018
 	- Y. Kim, S. Hong, B. Ko, L. Phan, M. Kim
 	- http://swtv.kaist.ac.kr/publications/icst18-deminer.pdf
-- Modified condition/decision coverage (MC/DC) and compiler implementations
-	- 2024
-	- MaskRay (Fangrui Song)
-	- https://maskray.me/blog/2024-01-28-mc-dc-and-compiler-implementations
 - Mythical Unit Test Coverage
 	- IEEE Software, Volume 35, Issue 3, May/June 2018
 	- V. Antinyan, J. Derehag, A. Sandberg, M. Staron
 	- https://ieeexplore.ieee.org/document/8354427/
 	- https://www.researchgate.net/publication/324959836_Mythical_Unit_Test_Coverage
-- Not All Coverage Measurements Are Equal: Fuzzing by Coverage Accounting for Input Prioritization
-	- Network and Distributed System Security Symposium (NDSS) 2020
-	- Yanhao Wang, Xiangkun Jia, Yuwei Liu, Tiffany Bao, Dinghao Wu, and Purui Su
-	- https://ndss-symposium.org/wp-content/uploads/2020/02/24422-paper.pdf
-- Selecting Software Test Data Using Data Flow Information
-	- IEEE Transactions on Software Engineering 11(4) 1985
-	- Sandra Rapps and Elaine J. Weyuker
-	- http://ieeexplore.ieee.org/document/1702019/
 - TestCov: Robust Test-Suite Execution and Coverage Measurement
 	- ASE 2019
 	- Dirk Beyer, Thomas Lemberger
@@ -518,7 +516,26 @@ See also:
 	- Ulf Kargén and Nahid Shahmehri
 	- https://www.ida.liu.se/~ulfka17/papers/FSE2015.pdf
 - Verification, coverage and maximization: The big picture
+	- 2016
+	- Yoav Hollander
 	- https://blog.foretellix.com/2016/12/23/verification-coverage-and-maximization-the-big-picture/
+
+### Coverage: Readings: 2000-2009
+
+- Applications of Synchronization Coverage
+	- Principles and Practice of Parallel Programming (PPoPP) 2005
+	- Arkady Bron, Eitan Farchi, Yonit Magid, Yarden Nir, Shmuel Ur
+	- https://doi.org/10.1145/1065944.1065972
+
+### Coverage: Readings: 1985-1999
+
+- How to Misuse Code Coverage
+	- 1999; Brian Marick
+	- http://www.exampler.com/testing-com/writings/coverage.pdf
+- Selecting Software Test Data Using Data Flow Information
+	- IEEE Transactions on Software Engineering 11(4) 1985
+	- Sandra Rapps and Elaine J. Weyuker
+	- http://ieeexplore.ieee.org/document/1702019/
 
 ## Coverage: Software
 
