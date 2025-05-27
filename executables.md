@@ -12,7 +12,7 @@ See also:
 Contents:
 
 - [General](#general): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-software): [Debugging Information](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-software-debugging-information) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#general-talks)
-- [BTF](#btf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#btf-readings)
+- [BTF](#btf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#btf-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#btf-software)
 - [DLL](#dll): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#dll-talks)
 - [DWARF](#dwarf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#dwarf-talks)
 - [ELF](#elf): [Readings](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf-readings) - [Software](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf-software) - [Talks](https://github.com/MattPD/cpplinks/blob/master/executables.md#elf-talks)
@@ -204,6 +204,12 @@ BTF: BPF Type Format
 
 - BPF Type Format (BTF) — The Linux Kernel documentation
 	- https://docs.kernel.org/bpf/btf.html
+
+## BTF: Software
+
+- btfparse: A C++ library that parses kernel debug symbols in BTF
+	- A C++ library that parses debug information encoded in BTF (BPF Type Format)
+	- https://github.com/trailofbits/btfparse
 
 ---
 
