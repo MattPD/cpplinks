@@ -277,6 +277,11 @@ See also: [Sanitizers](https://github.com/MattPD/cpplinks/blob/master/analysis.d
 		- https://clang.llvm.org/docs/BoundsSafetyImplPlans.html
 	- RFC: Enforcing Bounds Safety in C (-fbounds-safety)
 		- https://discourse.llvm.org/t/rfc-enforcing-bounds-safety-in-c-fbounds-safety/70854
+	- Adopting -fbounds-safety in practice
+		- 2025 EuroLLVM Developers' Meeting
+		- Henrik Olsson, Patryk Stefanski
+		- https://www.youtube.com/watch?v=rlevLn831R4
+		- https://llvm.org/devmtg/2025-04/slides/tutorial/olsonn-stefaniski_fbounds.pdf
 
 ## Software: Frida
 
