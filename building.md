@@ -559,6 +559,11 @@ See also:
 	- code::dive 2018
 		- Part 1: https://www.youtube.com/watch?v=WSFbNhCbdJM
 		- Part 2: https://www.youtube.com/watch?v=9-Y5JnJlypM
+- Why Is My C++ Build So Slow? Compilation Profiling and Visualization
+	- CppCon 2024
+	- Samuel Privett
+	- https://www.youtube.com/watch?v=Oih3K-3eZ4Y
+	- https://github.com/CppCon/CppCon2024/blob/main/Presentations/Why_is_my_Build_so_Slow.pdf
 
 ---
 
