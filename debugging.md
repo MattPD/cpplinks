@@ -657,6 +657,13 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Supports GCC, Clang and MSVC.
 	- Works well on ARM, AArch64, i686, x86-64, POWER and has a fallback code path for other architectures.
 	- https://github.com/scottt/debugbreak
+- IDD: A System for Differential Debugging
+	- https://github.com/compiler-research/idd
+	- Debugging Regressions: Interactive Differential Debugging
+		- 2025 EuroLLVM Developers' Meeting
+		- Vipul Cariappa, Martin Vassilev
+		- https://www.youtube.com/watch?v=sI-jxB0tGpM
+		- https://llvm.org/devmtg/2025-04/slides/technical_talk/cariappa_Debugging.pdf
 - ppstep: Interactive C/C++ preprocessor macro debugger
 	- https://github.com/notfoundry/ppstep
 - QIRA: QEMU Interactive Runtime Analyser
