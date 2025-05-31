@@ -3234,6 +3234,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 
 ## AMD Secure Encrypted Virtualization (SEV)
 
+- Cohere+Reload: Re-enabling High-Resolution Cache Attacks on AMD SEV-SNP
+	- DIMVA 2025
+	- Lukas Giner, Sudheendra Raghav Neela, Daniel Gruss
+	- https://ginerlukas.com/publications/papers/CohereReload.pdf
 - CounterSEVeillance: Performance-Counter Attacks on AMD SEV-SNP
 	- Network and Distributed System Security (NDSS) Symposium 2025
 	- Stefan Gast, Hannes Weissteiner, Robin Leander Schröder, Daniel Gruss
