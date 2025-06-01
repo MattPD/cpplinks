@@ -2035,6 +2035,10 @@ Validation: Including translation validation, equivalence checking.
 	- a verified credible compilation (or equivalently, verified translation validation) framework for LLVM
 	- http://sf.snu.ac.kr/crellvm/
 	- https://github.com/snu-sf/crellvm-tests-parallel
+- MLIR SMT (Satisfiability Modulo Theories) dialect
+	- https://mlir.llvm.org/docs/Dialects/SMT/
+	- https://discourse.llvm.org/t/rfc-upstreaming-circts-verif-and-smt-dialects/85299
+	- https://circt.llvm.org/docs/Dialects/SMT/
 - Pilsner: A Compositionally Verified Compiler for a Higher-Order Imperative Language
 	- International Conference on Functional Programming (ICFP) 2015
 	- Georg Neis, Chung-Kil Hur, Jan-Oliver Kaiser, Craig McLaughlin, Derek Dreyer, Viktor Vafeiadis
