@@ -439,6 +439,17 @@
 
 ## Papers - Memory Model
 
+### Papers - Memory Model: 2025
+
+- Relaxed Memory Concurrency Re-executed
+	- ACM SIGPLAN Symposium on Principles of Programming Languages (POPL) 2025
+	- Evgenii Moiseenko, Matteo Meluzzi, Innokentii Meleshchenko, Ivan Kabashnyi, Anton Podkopaev, Soham Chakraborty
+	- https://doi.org/10.1145/3704908
+	- https://eupp.github.io/papers/popl2025-xmm.pdf
+	- https://www.youtube.com/watch?v=d1JOv6juMlI
+	- Xmm Model Checker Benchmarks
+		- https://doi.org/10.5281/zenodo.13912066
+
 ### Papers - Memory Model: 2024
 
 - How Hard Is Weak-Memory Testing?
