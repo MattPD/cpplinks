@@ -44,9 +44,6 @@ https://riscv.org/publications/
 - RISC-V Geneology - https://www.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-6.html
 - RISC-V International Conference Proceedings - http://rise.cse.iitm.ac.in/ric2017/index.html#Proceedings
 - RISC-V Offers Simple, Modular ISA - https://riscv.org/2016/04/risc-v-offers-simple-modular-isa/
-- rv8: a high performance RISC-V to x86 binary translator
-	- https://anarch128.org/~mclark/rv8-carrv.pdf
-	- https://carrv.github.io/papers/clark-rv8-carrv2017.pdf
 - Surveying the Free and Open Source RISC-V Ecosystem – Embecosm
 	- https://www.embecosm.com/2018/05/07/surveying-the-free-and-open-source-risc-v-ecosystem/
 - The Adventures of OS: Making a RISC-V Operating System using Rust
@@ -59,11 +56,6 @@ https://riscv.org/publications/
 	- https://arxiv.org/abs/1607.02318
 	- https://www.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-130.html
 - The VexRiscV CPU - A New Way to Design - https://tomverbeure.github.io/rtl/2018/12/06/The-VexRiscV-CPU-A-New-Way-To-Design.html
-- Towards a High-Performance RISC-V Emulator
-	- WSCAD 2018
-	- Leandro Lupori, Vanderson Martins do Rosario, Edson Borin
-	- https://www.researchgate.net/publication/328314631_Towards_a_High-Performance_RISC-V_Emulator
-	- https://www.researchgate.net/profile/Vanderson_Rosario2/publication/328314631_Towards_a_High-Performance_RISC-V_Emulator/links/5bc5e1ec458515f7d9bf6342/Towards-a-High-Performance-RISC-V-Emulator.pdf
 
 ## Readings: Performance
 
@@ -102,6 +94,17 @@ https://riscv.org/risc-v-books/
 	- VMIL 2024: ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages
 	- Yen-Fu Chen, Meng-Hung Chen, Ching-Chun Huang, Chia-Heng Tu
 	- https://dl.acm.org/doi/10.1145/3689490.3690399
+- rv8: a high performance RISC-V to x86 binary translator
+	- First Workshop on Computer Architecture Research with RISC-V (CARRV) 2017
+	- Michael Clark, Bruce Hoult
+	- https://anarch128.org/~mclark/rv8-carrv.pdf
+	- https://carrv.github.io/2017/papers/clark-rv8-carrv2017.pdf
+	- https://carrv.github.io/2017/slides/clark-rv8-carrv2017-slides.pdf
+- Towards a High-Performance RISC-V Emulator
+	- WSCAD 2018
+	- Leandro Lupori, Vanderson Martins do Rosario, Edson Borin
+	- https://www.researchgate.net/publication/328314631_Towards_a_High-Performance_RISC-V_Emulator
+	- https://www.researchgate.net/profile/Vanderson_Rosario2/publication/328314631_Towards_a_High-Performance_RISC-V_Emulator/links/5bc5e1ec458515f7d9bf6342/Towards-a-High-Performance-RISC-V-Emulator.pdf
 
 ## Instruction Set Architecture
 
