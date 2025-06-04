@@ -209,6 +209,12 @@ Binary Analysis, Disassembly, Decompilation, Recompilation
 	- https://gitlab.com/GrammaTech/lifter-eval
 	- https://eschulte.github.io/data/cset22-16-slides.pdf
 	- https://cset22.isi.edu/videos/session4/binaryrewriters.mp4
+- Formally Verified Lifting of C-Compiled x86-64 Binaries
+	- Programming Language Design and Implementation (PLDI) 2022
+	- Freek Verbeek, Joshua A. Bockenek, Zhoulai Fu, Binoy Ravindran
+	- https://doi.org/10.1145/3519939.3523702
+	- https://pldi22.sigplan.org/details/pldi-2022-pldi/35/Formally-Verified-Lifting-of-C-compiled-x86-64-Binaries
+	- https://www.youtube.com/watch?v=Kk37Z0oGFu0
 
 ### Readings: Lifting: 2020
 
