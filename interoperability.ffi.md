@@ -585,6 +585,9 @@
 	- OOPSLA 2023
 	- Mehmet Emre, Peter Boyland, Aesha Parekh, Ryan Schroeder, Kyle Dewey, Ben Hardekopf
 	- https://2023.splashcon.org/details/splash-2023-oopsla/20/Aliasing-Limits-on-Translating-C-to-Safe-Rust
+- C++ to Rust Phrasebook
+	- https://cel.cs.brown.edu/crp/
+	- https://github.com/cognitive-engineering-lab/crp
 - LLVM CFI and Cross-Language LLVM CFI Support for Rust
 	- 2023-12-08
 	- Ramon de C Valle
