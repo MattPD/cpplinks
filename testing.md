@@ -602,6 +602,10 @@ See also:
 
 ## Coverage: Talks
 
+- Modified Condition and Decision Coverage in GCC: Intro, Motivation & Tooling
+	- ACCU 2023
+	- Jørgen Kvalsvik
+	- https://www.youtube.com/watch?v=QSFlLgxXHqs
 - Path coverage in gcc
 	- NDC TechTown 2024
 	- Jørgen Kvalsvik
