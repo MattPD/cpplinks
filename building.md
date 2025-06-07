@@ -827,6 +827,14 @@ See also:
 
 ### CMake Talks
 
+#### CMake Talks: 2025
+
+- CMake: C'mon, it's 2025 already!
+	- using std::cpp 2025
+	- Raúl Huertas
+	- https://www.youtube.com/watch?v=pUtB5RHFsW4
+	- https://eventos.uc3m.es/file_manager/getfile/195695
+
 #### CMake Talks: 2024
 
 - Clean CMake for C++ (library) developers
