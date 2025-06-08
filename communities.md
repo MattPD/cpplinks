@@ -30,10 +30,10 @@ Project-specific, but likely of interest to the general C++ community.
 		- development: irc://irc.oftc.net/gcc
 	- Mailing Lists - https://gcc.gnu.org/lists.html
 - LLVM
-	- Mailing Lists - http://lists.llvm.org/mailman/listinfo
+	- Getting Involved - https://llvm.org/docs/GettingInvolved.html
 	- Discourse (Discussion Forums) - https://llvm.discourse.group/
-	- IRC - https://llvm.org/docs/#irc - irc://irc.oftc.net/llvm
 	- Discord (Chat) - https://discord.gg/xS7Z362
+	- Mailing Lists - http://lists.llvm.org/mailman/listinfo
 - MSDN, Visual C++ forums - http://social.msdn.microsoft.com/Forums/en/category/visualc/
 	- Visual C++ General - http://social.msdn.microsoft.com/Forums/en/vcgeneral/
 	- Visual C++ Language - http://social.msdn.microsoft.com/Forums/en/vclanguage/
