@@ -274,6 +274,9 @@ BTF: BPF Type Format
 		- https://sensepost.com/blog/2016/rattleridentifying-and-exploiting-dll-preloading-vulnerabilities/
 	- What the Dll? Finding and Exploiting DLL preloading vulnerabilities - Chris Le Roy
 		- https://www.youtube.com/watch?v=xvluwoPM8v8
+- Reflective DLL Injection on Windows ARM64
+	- A Proof-of-Concept implementation of Reflective DLL Injection (RDI) specifically for Windows on ARM64. Demonstrates PEB access via the x18 register and manual DLL mapping.
+	- https://github.com/xaitax/ARM64-ReflectiveDLLInjection
 - Reflective DLL Injection with PowerShell - https://clymb3r.wordpress.com/2013/04/06/reflective-dll-injection-with-powershell/
 - ReflectiveDLLInjection - https://github.com/stephenfewer/ReflectiveDLLInjection
 - ReloadLibrary
