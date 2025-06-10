@@ -581,6 +581,14 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Kapil Arya, Tyler Denniston, Ariel Rabkin, Gene Cooperman
 	- http://programming-journal.org/2017/1/16/
 
+### Reverse Debugging: Talks
+
+- How do Time Travel Debuggers Work? - Design and Implementation of a Time Travel Debugger
+	- C++Now 2024
+	- Greg Law
+	- https://www.youtube.com/watch?v=NiGzdv84iDE
+	- https://github.com/boostcon/cppnow_presentations_2024/blob/main/Presentations/How_do_Time_Travel_Debuggers_Work.pdf
+
 ## Software Engineering
 
 - A Survey on Software Fault Localization
