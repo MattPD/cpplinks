@@ -1429,6 +1429,14 @@ See also: [Computer Architecture](comparch.md)
 	- Fabian Rauscher, Carina Fiedler, Andreas Kogler, Daniel Gruss
 	- https://dx.doi.org/10.14722/ndss.2025.23253
 	- https://gruss.cc/files/demote.pdf
+- Slice+Slice Baby: Generating Last-Level Cache Eviction Sets in the Blink of an Eye
+	- 2025 IEEE Symposium on Security and Privacy (S&P)
+	- Bradley Morgan, Gal Horowitz, Sioli O'Connell, Stephan van Schaik, Chitchanok Chuengsatiansup, Daniel Genkin, Olaf Maennel, Paul Montague, Eyal Ronen, Yuval Yarom
+	- https://arxiv.org/abs/2504.11208
+	- https://yuval.yarom.org/pdfs/MorganHOSCGMMRY25.pdf
+	- https://doi.ieeecomputersociety.org/10.1109/SP61157.2025.00264
+	- accelerates state-of-the-art cache side-channel approaches such as Prime+Probe to be slice-aware
+		- https://github.com/0xADE1A1DE/Slice-Slice-Baby
 
 ## Cache: 2024
 
