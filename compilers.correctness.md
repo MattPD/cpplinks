@@ -800,6 +800,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 #### Testing: Readings: Fuzzing: 2024
 
+- AsFuzzer: Differential Testing of Assemblers with Error-Driven Grammar Inference
+  - ISSTA 2024
+  - Hyungseok Kim, Soomin Kim, Jungwoo Lee, Sang Kil Cha
+  - https://dl.acm.org/doi/10.1145/3650212.3680345
+  - https://softsec.kaist.ac.kr/~sangkilc/papers/kim-issta24.pdf
+  - https://2024.issta.org/details/issta-2024-papers/88/AsFuzzer-Differential-Testing-of-Assemblers-with-Error-Driven-Grammar-Inference
 - Fuzzing JavaScript Engines with a Graph-based IR
 	- 2024 ACM SIGSAC Conference on Computer and Communications Security (CCS)
 	- Haoran Xu, Zhiyuan Jiang, Yongjun Wang, Shuhui Fan, Shenglin Xu, Peidai Xie, Shaojing Fu, Mathias Payer
