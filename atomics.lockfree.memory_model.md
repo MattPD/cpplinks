@@ -140,6 +140,10 @@
 	- https://gitlab.com/aajayssingh/pop_setbench
 	- Data structures: Trevor Brown's external (a,b) tree (ABT), David, Guerraoui and Trigonakis's external binary search tree using ticket locks (DGT), lazylist (LL), Harris list (HL), Harris-Michael list (HML), hash table using Harris-Michael list buckets (HMLHT)
 	- Memory reclamation algorithms: Hazard Pointers, QSBR, EBR, IBR, NBR, NBR+, WFE, CrystallineL, CrystallineW, Hazard Eras, HazarPtrPOP, HazardEraPOP, EpochPOP, HPAsym
+- Verifying General-Purpose RCU for Reclamation in Relaxed Memory Separation Logic
+	- PLDI 2025
+	- Jaehwang Jung, Sunho Park, Janggun Lee, Jeho Yeon, Jeehoon Kang
+	- https://doi.org/10.1145/3729246
 
 ### Memory Reclamation: Readings: 2024
 
