@@ -421,6 +421,10 @@ See also:
 	- 2024
 	- MaskRay (Fangrui Song)
 	- https://maskray.me/blog/2024-01-28-mc-dc-and-compiler-implementations
+- Modified Condition/Decision Coverage in the GNU Compiler Collection
+	- 2025
+	- Jørgen Kvalsvik
+	- https://arxiv.org/abs/2501.02133
 - Not All Coverage Measurements Are Equal: Fuzzing by Coverage Accounting for Input Prioritization
 	- Network and Distributed System Security Symposium (NDSS) 2020
 	- Yanhao Wang, Xiangkun Jia, Yuwei Liu, Tiffany Bao, Dinghao Wu, and Purui Su
