@@ -415,48 +415,56 @@ https://gitlab.com/x86-cpuid.org/x86-cpuid-db
     - STOKE: Search-Based Compiler Optimization - Alex Aiken (2016) - https://www.youtube.com/watch?v=rZFeTTFp7x4
     - Stochastic Optimization for x86 Binaries - Eric Schkufza (2015) - https://www.youtube.com/watch?v=aD9mZDJzb58
 
-### Assemblers
+### Software: Assemblers
 
 Assemblers - https://en.wikipedia.org/wiki/Comparison_of_assemblers#x86_assemblers
 
 * FASM (flat assembler) - http://flatassembler.net/
 * GNU Assembler (as) - https://sourceware.org/binutils/docs/as/
-* Keystone assembler framework
-  - Core (Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) + bindings
-  - http://www.keystone-engine.org
-  - https://github.com/keystone-engine/keystone
 * NASM (The Netwide Assembler) - http://www.nasm.us/
 * Yasm
   - http://yasm.tortall.net/
   - https://github.com/yasm/yasm
 
-### Disassemblers
+#### Software: Assemblers: Libraries
 
-* Capstone disassembly/disassembler framework
-  - Core (Arm, Arm64, Mips, PPC, Sparc, SystemZ, X86, X86_64, XCore) + bindings (Python, Java, Ocaml)
-  - http://www.capstone-engine.org/
-  - https://github.com/aquynh/capstone
-* disasm: Interactive Disassembler GUI
+- AssemblyLine: A C library and binary for generating machine code of x86_64 assembly language and executing on the fly without invoking another compiler, assembler or linker.
+	- https://github.com/0xADE1A1DE/AssemblyLine
+- Keystone assembler framework
+  - Core (Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) + bindings
+  - http://www.keystone-engine.org
+  - https://github.com/keystone-engine/keystone
+
+### Software: Disassemblers
+
+- disasm: Interactive Disassembler GUI
   - Optional Intel Architecture Code Analyzer (IACA) integration
   - https://github.com/mongodb-labs/disasm
-* diStorm3 binary stream disassembler library project
-  - Disassembler Library For x86/AMD64: "diStorm3 is really a decomposer, which means it takes an instruction and returns a binary structure which describes it rather than static text, which is great for advanced binary code analysis."
-  - https://github.com/gdabah/distorm
-  - https://github.com/gdabah/distorm/wiki
-* EmilPRO
+- EmilPRO
   - EmilPRO is a graphical disassembler for a large number of instruction sets. It's a reimplementation and replacement for the Dissy disassembler.
   - http://www.emilpro.com/
   - https://github.com/SimonKagstrom/emilpro
-* Medusa: An open source interactive disassembler
+- Medusa: An open source interactive disassembler
   - https://github.com/wisk/medusa
-* Panopticon - A Libre Cross Platform Disassembler
+- Panopticon: A Libre Cross Platform Disassembler
   - https://github.com/das-labor/panopticon
-* Plasma is an interactive disassembler for x86/ARM/MIPS. It can generates indented pseudo-code with colored syntax.
+- Plasma: an interactive disassembler for x86/ARM/MIPS
   - https://github.com/plasma-disassembler/plasma
-  - Interactive disassembler for x86/ARM/MIPS. Generates indented pseudo-code with colored syntax code. 
-* Udis86: Disassembler Library for x86 and x86-64
+  - Generates indented pseudo-code with colored syntax code. 
+
+#### Software: Disassemblers: Libraries
+
+- Capstone disassembly/disassembler framework
+  - Core (Arm, Arm64, Mips, PPC, Sparc, SystemZ, X86, X86_64, XCore) + bindings (Python, Java, Ocaml)
+  - http://www.capstone-engine.org/
+  - https://github.com/aquynh/capstone
+- diStorm3 binary stream disassembler library project
+  - Disassembler Library For x86/AMD64: "diStorm3 is really a decomposer, which means it takes an instruction and returns a binary structure which describes it rather than static text, which is great for advanced binary code analysis."
+  - https://github.com/gdabah/distorm
+  - https://github.com/gdabah/distorm/wiki
+- Udis86: Disassembler Library for x86 and x86-64
   - https://github.com/vmt/udis86
-* Zyan Disassembler Engine (Zydis)
+- Zyan Disassembler Engine (Zydis)
   - Fast and lightweight x86/x86-64 disassembler library.
   - https://github.com/zyantific/zyan-disassembler-engine
 
@@ -469,14 +477,14 @@ Assemblers - https://en.wikipedia.org/wiki/Comparison_of_assemblers#x86_assemble
 		- Jos Craaijo, Freek Verbeek, Binoy Ravindran
 		- https://dl.acm.org/doi/abs/10.1145/3689723
 
-### Network
+### Software: Networking
 
-* asmttpd: Web server for Linux written in amd64 assembly.
+- asmttpd: Web server for Linux written in amd64 assembly.
   - https://github.com/nemasu/asmttpd
-* HeavyThing x86_64 assembly language library and showcase programs
+- HeavyThing x86_64 assembly language library and showcase programs
   - rwasa web server (bundled with the HeavyThing library): https://2ton.com.au/rwasa/
   - https://2ton.com.au/HeavyThing/
-* SERVASM: Your other webserver
+- SERVASM: Your other webserver
   - Literate webserver in assembler.
   - https://zarkzork.com/servasm.html
   - https://github.com/zarkzork/servasm
