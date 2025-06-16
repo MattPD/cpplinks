@@ -24,7 +24,7 @@ See also:
 	- [RR](#rr): [Projects](#rr-projects), [Readings](#rr-readings)
 	- [OS-specific](#os-specific): [iOS](#iOS), [Linux](#linux), [macOS](#macos), [Windows](#windows) - [WinDbg](#windbg)
 	- [Crash Analysis & Reporting](#crash-analysis--reporting)
-	- [Stack Trace & Unwinding](#stack-trace--unwinding)
+- [Stack Trace & Unwinding](#stack-trace--unwinding)
 - [Talks](#talks): [2023](#2023), [2021](#2021), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
 
 ---
@@ -1584,43 +1584,15 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- https://www.youtube.com/watch?v=Y4TkdYZfarA
 		- https://llvm.org/devmtg/2022-04-03/slides/llvm-crash-analyzer.pdf
 
-## Stack Trace & Unwinding
+# Stack Trace & Unwinding
 
-- Advanced Usage of the C++23 Stacktrace Library
-	- ACCU 2024
-	- James Pascoe
-	- https://www.youtube.com/watch?v=rynny8wP3M4
-	- https://github.com/jamespascoe/accu2024-example-code
-	- https://github.com/jamespascoe/accu2024-stacktrace/tree/gh-pages
-- BacktraceResolver: Very fast backtraces resolver
-	- https://github.com/markpapadakis/BacktraceResolver
-- Backward-cpp: a beautiful stack trace pretty printer for C++
-	- https://github.com/bombela/backward-cpp
-- Boost.Stacktrace
-	- https://github.com/boostorg/stacktrace
-	- http://www.boost.org/doc/libs/release/doc/html/stacktrace.html
-- C++ Exceptions and Stack Unwinding
-	- CppCon 2017: Dave Watson
-	- https://www.youtube.com/watch?v=_Ivd3qzgT7U
-- cpptrace: Lightweight, zero-configuration-required, and cross-platform stacktrace library for C++
-	- supports C++11 and greater on Linux, macOS, and Windows including MinGW and Cygwin environments
-	- https://github.com/jeremy-rifkin/cpptrace
-- libgcc_s (GNU) - https://gcc.gnu.org/onlinedocs/gccint/Libgcc.html
-	- Data Definitions for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-s-ddefs.html
-	- Interfaces for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-s.html
-	- Interfaces Definitions for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-sman.html
-- libunwind (nongnu.org) - http://www.nongnu.org/libunwind/
-- Profiling framepointer-less code with elfutils stacktrace
-	- GNU Tools Cauldron 2024
+## Stack Trace & Unwinding: Readings
+
+- Limitations of frame pointer unwinding
 	- Serhei Makarov
-	- https://www.youtube.com/watch?v=IjHWbo_ZF-E
-	- http://serhei.io/files/cauldron2024-slides.pdf
-	- https://gcc.gnu.org/wiki/cauldron2024#cauldron2024talks.profiling_framepointerless_code_with_elfutils_stacktrace
-- Programmatic access to the call stack in C++ - https://eli.thegreenplace.net/2015/programmatic-access-to-the-call-stack-in-c/
-- pstack: Print stack traces of running processes. Uses its own ELF and DWARF parsing
-	- https://github.com/peadar/pstack
-- quickstack: a tool to take call stack traces with minimal overheads
-	- https://github.com/yoshinorim/quickstack
+	- https://developers.redhat.com/articles/2024/10/30/limitations-frame-pointer-unwinding
+- Programmatic access to the call stack in C++
+	- https://eli.thegreenplace.net/2015/programmatic-access-to-the-call-stack-in-c/
 - Stack unwinding
 	- MaskRay (Fangrui Song)
 	- https://maskray.me/blog/2020-11-08-stack-unwinding
@@ -1630,6 +1602,46 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- 2023; Kévin Lesénéchal
 	- Tutorial on how to make a stack trace or backtrace manually unwinding the stack using ELF’s .eh_frame and call frame information (CFI)
 	- https://lesenechal.fr/en/linux/unwinding-the-stack-the-hard-way
+
+## Stack Trace & Unwinding: Software
+
+- BacktraceResolver: Very fast backtraces resolver
+	- https://github.com/markpapadakis/BacktraceResolver
+- Backward-cpp: a beautiful stack trace pretty printer for C++
+	- https://github.com/bombela/backward-cpp
+- Boost.Stacktrace
+	- https://github.com/boostorg/stacktrace
+	- http://www.boost.org/doc/libs/release/doc/html/stacktrace.html
+- cpptrace: Lightweight, zero-configuration-required, and cross-platform stacktrace library for C++
+	- supports C++11 and greater on Linux, macOS, and Windows including MinGW and Cygwin environments
+	- https://github.com/jeremy-rifkin/cpptrace
+- libgcc_s (GNU) - https://gcc.gnu.org/onlinedocs/gccint/Libgcc.html
+	- Data Definitions for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-s-ddefs.html
+	- Interfaces for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-s.html
+	- Interfaces Definitions for libgcc_s - https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/libgcc-sman.html
+- libunwind (nongnu.org) - http://www.nongnu.org/libunwind/
+- pstack: Print stack traces of running processes. Uses its own ELF and DWARF parsing
+	- https://github.com/peadar/pstack
+- quickstack: a tool to take call stack traces with minimal overheads
+	- https://github.com/yoshinorim/quickstack
+
+## Stack Trace & Unwinding: Talks
+
+- Advanced Usage of the C++23 Stacktrace Library
+	- ACCU 2024
+	- James Pascoe
+	- https://www.youtube.com/watch?v=rynny8wP3M4
+	- https://github.com/jamespascoe/accu2024-example-code
+	- https://github.com/jamespascoe/accu2024-stacktrace/tree/gh-pages
+- C++ Exceptions and Stack Unwinding
+	- CppCon 2017: Dave Watson
+	- https://www.youtube.com/watch?v=_Ivd3qzgT7U
+- Profiling framepointer-less code with elfutils stacktrace
+	- GNU Tools Cauldron 2024
+	- Serhei Makarov
+	- https://www.youtube.com/watch?v=IjHWbo_ZF-E
+	- http://serhei.io/files/cauldron2024-slides.pdf
+	- https://gcc.gnu.org/wiki/cauldron2024#cauldron2024talks.profiling_framepointerless_code_with_elfutils_stacktrace
 
 ---
 
