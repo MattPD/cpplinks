@@ -400,6 +400,11 @@ https://riscv.org/risc-v-books/
 				- RISC-V Summit North America 2024
 				- Markku-Juhani O. Saarinen
 				- https://www.youtube.com/watch?v=0H0aQO_Wxy8
+	- CVA6S+: A Superscalar RISC-V Core with High-Throughput Memory Architecture
+		- RISC-V Summit Europe 2025
+		- Riccardo Tedeschi, Gianmarco Ottavi, Côme Allart, Nils Wistoff, Zexin Fu, Filippo Grillotti, Fabio De Ambroggi, Elio Guidetti, Jean-Baptiste Rigaud, Olivier Potin, Jean Roch Coulon, César Fuguet, Luca Benini, Davide Rossi
+		- https://arxiv.org/abs/2505.03762
+		- https://www.youtube.com/watch?v=eU16AtP6Fng
 - DarkRISCV: open-source RISC-V CPU core implemented in Verilog from scratch in one night! (Verilog)
 	- https://github.com/darklife/darkriscv
 - Davis In-Order (DINO) CPU models (Chisel)
