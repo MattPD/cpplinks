@@ -121,6 +121,8 @@
 	- https://github.com/itanium-cxx-abi/cxx-abi
 - Lessons from the Unix stdio ABI: 40 Years Later
 	- https://fingolfin.org/blog/20200327/stdio-abi.html
+- libc++’s ABI Guarantees
+	- https://libcxx.llvm.org/ABIGuarantees.html
 - Realistic Realizability: Specifying ABIs You Can Count On
 	- Object-Oriented Programming Systems, Languages, and Applications (OOPSLA) 2024
 	- Andrew Wagner, Zachary Eisbach, Amal Ahmed
