@@ -518,6 +518,9 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- https://blog.packagecloud.io/eng/2015/11/15/strace-cheat-sheet/
 - Strace: The Lost Chapter
 	- http://price.mit.edu/blog/2010/08/strace-the-lost-chapter/
+- strace tips for better debugging
+	- Raunak Ramakrishnan
+	- https://rrampage.github.io/2025/06/13/strace-tips-for-better-debugging/
 
 #### Software: Linux - strace - Talks
 
