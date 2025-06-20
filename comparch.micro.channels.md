@@ -318,6 +318,15 @@ See also: [Computer Architecture](comparch.md)
 
 ## Defense: Cache
 
+### Defense: Cache: 2025
+
+- Reverse-Engineering the Address Translation Caches
+	- Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA) 2025
+	- Philipp Ertmer, Robert Dumitru, Yuval Yarom
+	- https://yuval.yarom.org/pdfs/ErtmerDY25.pdf
+	- Talbot: an automated tool for investigating translation caches
+		- https://github.com/0xADE1A1DE/Talbot
+
 ### Defense: Cache: 2024
 
 - Evict+Spec+Time: Exploiting Out-of-Order Execution to Improve Cache-Timing Attacks
