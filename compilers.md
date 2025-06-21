@@ -394,6 +394,9 @@ See:
 	- https://github.com/nkakuev/list-cpp-warning-options
 - Use The Tools Available - Compilers
 	- https://github.com/lefticus/cppbestpractices/blob/master/02-Use_the_Tools_Available.md#compilers
+- Understanding GCC warnings
+	- 2019; Martin Sebor
+	- https://developers.redhat.com/blog/2019/03/13/understanding-gcc-warnings
 - Useful GCC warning options not enabled by -Wall -Wextra
 	- https://kristerw.blogspot.com/2017/09/useful-gcc-warning-options-not-enabled.html
 - Warning Flags - http://www.iso-9899.info/wiki/WarningFlags
