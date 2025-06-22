@@ -806,6 +806,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
   - https://dl.acm.org/doi/10.1145/3650212.3680345
   - https://softsec.kaist.ac.kr/~sangkilc/papers/kim-issta24.pdf
   - https://2024.issta.org/details/issta-2024-papers/88/AsFuzzer-Differential-Testing-of-Assemblers-with-Error-Driven-Grammar-Inference
+- Evolutionary Generative Fuzzing for Differential Testing of the Kotlin Compiler
+	- ACM International Conference on the Foundations of Software Engineering (FSE) 2024
+	- Călin Georgescu, Mitchell Olsthoorn, Pouria Derakhshanfar, Marat Akhin, Annibale Panichella
+	- https://arxiv.org/abs/2401.06653
+	- https://doi.org/10.1145/3663529.3663864
+	- https://2024.esec-fse.org/details/fse-2024-industry/19/Evolutionary-Generative-Fuzzing-for-Differential-Testing-of-the-Kotlin-Compiler
 - Fuzzing JavaScript Engines with a Graph-based IR
 	- 2024 ACM SIGSAC Conference on Computer and Communications Security (CCS)
 	- Haoran Xu, Zhiyuan Jiang, Yongjun Wang, Shuhui Fan, Shenglin Xu, Peidai Xie, Shaojing Fu, Mathias Payer
