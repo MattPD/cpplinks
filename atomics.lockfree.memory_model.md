@@ -132,6 +132,10 @@
 
 ### Memory Reclamation: Readings: 2025
 
+- Leveraging Immutability to Validate Hazard Pointers for Optimistic Traversals
+	- PLDI 2025
+	- Janggun Lee, Jeonghyeon Kim, Jeehoon Kang
+	- https://doi.org/10.1145/3729247
 - Publish on Ping: A Better Way to Publish Reservations in Memory Reclamation for Concurrent Data Structures
 	- ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming (PPoPP) 2025
 	- Ajay Singh, Trevor Brown
