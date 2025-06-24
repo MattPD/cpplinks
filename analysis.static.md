@@ -88,6 +88,12 @@ See also:
 	- Alexandru Dura, Christoph Reichenbach
 	- https://dl.acm.org/doi/10.1145/3640537.3641579
 	- https://github.com/lu-cs-sde/clog
+- Detecting Element Accessing Bugs in C++ Sequence Containers
+	- 2024 International Conference on Automated Software Engineering (ASE)
+	- Zhilin Li, Xutong Ma, Mengze Hu, Jun Yan
+	- https://doi.org/10.1145/3691620.3695471
+	- Scasa: a tool based on Clang Static Analyzer (CSA) detecting Element Accessing bugs in C++ Sequence Containers
+		- https://github.com/SQUARE-RG/Scasa
 - How to Build Static Checking Systems Using Orders of Magnitude Less Code
 	- ASPLOS 2016
 	- Fraser Brown, Andres Nötzli, Dawson Engler
