@@ -516,6 +516,13 @@ See also: [Sanitizers](https://github.com/MattPD/cpplinks/blob/master/analysis.d
 	- https://doi.org/10.1109/SP61157.2025.00088
 	- MSET: Memory Sanitizer Evaluation Tool
 		- https://github.com/Fraunhofer-AISEC/MSET
+- Janitizer: Rethinking Binary Tools for Practical and Comprehensive Security
+	- International Symposium on Code Generation and Optimization (CGO) 2025
+	- Mahwish Arif, Sam Ainsworth, Timothy M. Jones
+	- https://doi.org/10.1145/3696443.3708930
+	- https://2025.cgo.org/details/cgo-2025-papers/15/Janitizer-Rethinking-Binary-Tools-for-Practical-and-Comprehensive-Security
+	- Janitizer: Hybrid binary framework, based on Janus, with implementations of address sanitizer scheme JASAN and control-flow integrity scheme JCFI. Janus: Statically Guided Dynamic Binary Modification.
+		- https://github.com/CompArchCam/Janus/tree/security
 - QMSan: Efficiently Detecting Uninitialized Memory Errors During Fuzzing
 	- Network and Distributed System Security (NDSS) Symposium 2025
 	- Matteo Marini, Daniele Cono D'Elia, Mathias Payer, Leonardo Querzoni
