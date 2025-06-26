@@ -876,14 +876,20 @@ Random Testing
 # Property-Based Testing
 
 - What is Property Based Testing?
+	- 2016
+	- David R. MacIver
 	- https://hypothesis.works/articles/what-is-property-based-testing/
 - Finding Property Tests
+	- 2019
+	- Hillel Wayne
 	- https://www.hillelwayne.com/post/contract-examples/
 - Generating Good Generators for Inductive Relations
 	- [POPL 2018](https://popl18.sigplan.org/event/popl-2018-papers-generating-good-generators-for-inductive-relations)
 	- Leonidas Lampropoulos, Zoe Paraskevopoulou, Benjamin C. Pierce
 	- https://zoep.github.io/GeneratingGoodGenerators.pdf
 - How hard is it to guide test case generators with branch coverage feedback?
+	- 2020
+	- Paul Khuong
 	- https://pvk.ca/Blog/2020/03/11/how-hard-is-it-to-guide-test-case-generators-with-branch-coverage-feedback/
 	- https://engineering.backtrace.io/2020-03-11-how-hard-is-it-to-guide-test-case-generators-with-branch-coverage-feedback/
 - How to Specify it! A Guide to Writing Properties of Pure Functions
@@ -893,6 +899,12 @@ Random Testing
 	- Lambda Days 2020
 		- https://www.youtube.com/watch?v=G0NUOst-53U
 		- https://www.infoq.com/news/2020/02/property-based-testing-guide/
+- Property-Based Testing for the People
+	- 2024 Ph.D. Dissertation
+	- Harrison Goldstein
+	- https://repository.upenn.edu/handle/20.500.14332/60400
+	- https://harrisongoldste.in/papers/dissertation.pdf
+	- https://www.youtube.com/watch?v=S05JywB-xDE
 
 ## Property-Based Testing: Metamorphic
 
