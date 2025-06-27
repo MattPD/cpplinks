@@ -435,6 +435,12 @@ Assemblers - https://en.wikipedia.org/wiki/Comparison_of_assemblers#x86_assemble
   - http://www.keystone-engine.org
   - https://github.com/keystone-engine/keystone
 
+### Software: Decompilers
+
+- FoxDec: Formally verified x86-64 decompilation
+	- https://ssrg-vt.github.io/FoxDec/
+	- https://github.com/ssrg-vt/FoxDec
+
 ### Software: Disassemblers
 
 - disasm: Interactive Disassembler GUI
