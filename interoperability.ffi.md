@@ -11,29 +11,6 @@
 
 ## General: Readings
 
-- Operational Semantics for Multi-Language Programs
-	- Principles of Programming Languages (POPL) 2007
-	- Jacob Matthews, Robert Bruce Findler
-	- https://dl.acm.org/doi/10.1145/1190215.1190220
-	- Formal Semantics for Multi-Language Programs
-		- Strange Loop 2023
-		- Amal Ahmed
-		- https://www.youtube.com/watch?v=xOInz_gt2Fg
-- Semantic Encapsulation using Linking Types
-	- ACM SIGPLAN International Workshop on Type-Driven Development (TyDe) 2023
-	- Daniel Patterson, Andrew Wagner, Amal Ahmed
-	- https://dl.acm.org/doi/10.1145/3609027.3609405
-	- https://icfp23.sigplan.org/details/tyde-2023/4/Semantic-Encapsulation-using-Linking-Types
-	- https://dbp.io/pubs/2023/lt.pdf
-	- https://www.youtube.com/watch?v=Uoj9rVFlOQs
-- Semantic Soundness for Language Interoperability
-	- PLDI 2022
-	- Daniel Patterson, Noble Mushtak, Andrew Wagner, Amal Ahmed
-	- https://doi.org/10.1145/3519939.3523703
-	- https://aps.arxiv.org/abs/2202.13158
-	- https://dbp.io/pubs/2022/semint.pdf
-	- https://www.youtube.com/watch?v=uasYCcvYIkQ
-
 ### General: Readings: Memory Management
 
 - Collecting Cyclic Garbage across Foreign Function Interfaces: Who Takes the Last Piece of Cake?
@@ -59,6 +36,44 @@
 	- Nandor Licker
 	- https://doi.org/10.17863/CAM.87641
 
+### General: Readings: Safety
+
+- Building Bridges: Safe Interactions with Foreign Languages through Omniglot
+	- 2025 USENIX Symposium on Operating Systems Design and Implementation (OSDI)
+	- Leon Schuermann, Jack Toubes, Tyler Potyondy, Pat Pannuto, Mae Milano, Amit Levy
+	- https://www.usenix.org/conference/osdi25/presentation/schuermann
+	- https://www.languagesforsyste.ms/publication/omniglot/
+	- https://patpannuto.com/pubs/schuermann2025omniglot.pdf
+	- https://doi.org/10.5281/zenodo.15602886
+	- Memory Safety is Merely Table Stakes: Safe Interactions with Foreign Languages through Omniglot
+		- USENIX ;login: 2025
+		- Leon Schuermann, Jack Toubes, Tyler Potyondy, Pat Pannuto, Mae Milano, Amit Levy
+		- https://www.usenix.org/publications/loginonline/memory-safety-merely-table-stakes
+	- Omniglot: Safe Interactions with Foreign Languages
+		- https://github.com/omniglot-rs/omniglot
+- Operational Semantics for Multi-Language Programs
+	- Principles of Programming Languages (POPL) 2007
+	- Jacob Matthews, Robert Bruce Findler
+	- https://dl.acm.org/doi/10.1145/1190215.1190220
+	- Formal Semantics for Multi-Language Programs
+		- Strange Loop 2023
+		- Amal Ahmed
+		- https://www.youtube.com/watch?v=xOInz_gt2Fg
+- Semantic Encapsulation using Linking Types
+	- ACM SIGPLAN International Workshop on Type-Driven Development (TyDe) 2023
+	- Daniel Patterson, Andrew Wagner, Amal Ahmed
+	- https://dl.acm.org/doi/10.1145/3609027.3609405
+	- https://icfp23.sigplan.org/details/tyde-2023/4/Semantic-Encapsulation-using-Linking-Types
+	- https://dbp.io/pubs/2023/lt.pdf
+	- https://www.youtube.com/watch?v=Uoj9rVFlOQs
+- Semantic Soundness for Language Interoperability
+	- PLDI 2022
+	- Daniel Patterson, Noble Mushtak, Andrew Wagner, Amal Ahmed
+	- https://doi.org/10.1145/3519939.3523703
+	- https://aps.arxiv.org/abs/2202.13158
+	- https://dbp.io/pubs/2022/semint.pdf
+	- https://www.youtube.com/watch?v=uasYCcvYIkQ
+	
 ### General: Readings: Security
 
 - BinWrap: Hybrid Protection Against Native Node.js Add-ons
