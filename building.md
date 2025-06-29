@@ -593,6 +593,13 @@ See also:
 		- FOSDEM 2024
 		- Pascal Jungblut
 		- https://fosdem.org/2024/schedule/event/fosdem-2024-2706-build-your-first-clang-compilation-database-plugin/
+- Panda: A Concurrent Scheduler for Compiler-Based Tools
+	- A parallel tooling driver based on compilation database
+	- https://github.com/SQUARE-RG/panda
+	- ISSTA 2024: ACM SIGSOFT International Symposium on Software Testing and Analysis
+		- Xutong Ma, Jiwei Yan, Jun Yan, Jian Zhang
+		- https://doi.org/10.1145/3650212.3685311
+		- https://conf.researchr.org/details/issta-ecoop-2024/issta-ecoop-2024-tool-demonstrations/13/Panda-A-Concurrent-Scheduler-for-Compiler-Based-Tools
 - TraceCode: Trace a build to find out which source files are built in a binary
 	- https://github.com/nexB/tracecode-toolkit
 	- Debug your build by tracing and reversing: stracing your build from sources to binaries
