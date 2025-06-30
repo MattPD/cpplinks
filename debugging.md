@@ -563,6 +563,15 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Jun Xu, Dongliang Mu, Xinyu Xing, Peng Liu, Ping Chen, Bing Mao
 	- https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/xu-jun
 	- https://github.com/junxzm1990/pomp
+- Processor-Oblivious Record and Replay
+	- Robert Utterback, Kunal Agrawal, I-Ting Angelina Lee, Milind Kulkarni
+	- ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP) 2017
+		- https://dl.acm.org/doi/10.1145/3018743.3018764
+	- ACM Transactions on Parallel Computing (TOPC) 6(4) 2019
+		- https://dl.acm.org/doi/abs/10.1145/3365659
+	- PORRidge: Processor Obvivious Record and Replay
+		- A runtime system to deterministically record lock acquires and replay them on an arbitrary number of cores
+		- https://github.com/wustl-pctg/PORRidge
 - REPT: Reverse Debugging of Failures in Deployed Software
 	- USENIX Symposium on Operating Systems Design and Implementation (OSDI) 2018
 	- Weidong Cui, Xinyang Ge, Baris Kasikci, Ben Niu, Upamanyu Sharma, Ruoyu Wang, Insu Yun
