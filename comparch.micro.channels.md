@@ -962,6 +962,12 @@ See also: [Computer Architecture](comparch.md)
 	- Santiago Arranz Olmos, Gilles Barthe, Chitchanok Chuengsatiansup, Benjamin Grégoire, Vincent Laporte, Tiago Oliveira, Peter Schwabe, Yuval Yarom, Zhiyuan Zhang
 	- https://eprint.iacr.org/2024/1070
 	- https://doi.org/10.1145/3676641.3716015
+- Serberus: Protecting Cryptographic Code from Spectres at Compile Time
+	- IEEE Symposium on Security and Privacy (S&P) 2024
+	- Nicholas Mosier, Hamed Nemati, John C. Mitchell, Caroline Trippel
+	- https://doi.org/10.1109/SP54263.2024.00048
+	- https://cs.stanford.edu/~trippel/pubs/mosier_SP24.pdf
+	- https://github.com/nmosier/serberus
 
 #### Defense: Software: Compilation and Programming Languages: 2023
 
