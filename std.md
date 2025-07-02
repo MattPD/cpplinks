@@ -130,6 +130,11 @@
 
 ## C++26: Trip Reports
 
+### C++26: Trip Reports: 2025-06
+
+- Trip report: June 2025 ISO C++ standards meeting (Sofia, Bulgaria)
+	- https://herbsutter.com/2025/06/21/trip-report-june-2025-iso-c-standards-meeting-sofia-bulgaria/
+
 ### C++26: Trip Reports: 2025-02
 
 - 2025-02 Hagenberg ISO C++ Committee Trip Report — Sixth C++26 meeting!
