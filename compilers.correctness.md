@@ -110,6 +110,13 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 - GCC Wiki: Finding miscompilations on large testcases
 	- https://gcc.gnu.org/wiki/Analysing_Large_Testcases
 
+### Debugging: 2024
+
+- Hash-Based Bisect Debugging in Compilers and Runtimes
+	- 2024
+	- Russ Cox
+	- https://research.swtch.com/bisect
+
 ### Debugging: 2023
 
 - FuzzyFlow: Leveraging Dataflow To Find and Squash Program Optimization Bugs
