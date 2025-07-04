@@ -189,6 +189,12 @@
 
 ### Memory Reclamation: Readings: 2023
 
+- Modular Verification of Safe Memory Reclamation in Concurrent Separation Logic
+	- OOPSLA 2023
+	- Jaehwang Jung, Janggun Lee, Jaemin Choi, Jaewoo Kim, Sunho Park, Jeehoon Kang
+	- https://doi.org/10.1145/3622827
+	- https://github.com/kaist-cp/smr-verification
+	- https://www.youtube.com/watch?v=bheUSO6cyJk
 - Simple, Fast and Widely Applicable Concurrent Memory Reclamation via Neutralization
 	- IEEE Transactions on Parallel and Distributed Systems (TPDS) 2023
 	- Ajay Singh, Trevor Alexander Brown, Ali Jose Mashtizadeh
