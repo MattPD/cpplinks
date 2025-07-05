@@ -1450,6 +1450,9 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 
 - DreamLoader: Simple 32/64-bit PEs loader
 	- https://github.com/86hh/DreamLoader
+- Fatmike's PE Loader (Manual Mapper)
+	- A Windows executable (PE) loader (x86 and x64) with full TLS (Thread Local Storage) support
+	- https://github.com/Fatmike-GH/PELoader
 - In-Memory PE Loader: A very simple PE loader for loading DLLs into memory without using LoadLibray
 	- https://github.com/nettitude/SimplePELoader
 
