@@ -222,6 +222,11 @@ https://riscv.org/risc-v-books/
 	- Zvbc(32e) for the win
 	- 2024-10-12
 	- https://fprox.substack.com/p/accelerating-crc-with-risc-v-vector
+- Accidental Dataflow Analysis: Extending the RISC-V VL Optimizer
+	- 2025 EuroLLVM Developers' Meeting
+	- Luke Lau, Michael Maitland
+	- https://www.youtube.com/watch?v=Mfb5fRSdJAc
+	- https://llvm.org/devmtg/2025-04/slides/technical_talk/lau_accidental_dataflow.pdf
 - Implementing Softmax using RISC-V Vector
 	- Quick and dirty method to implement a vectorized non-linear function using RVV
 	- 2024-02-12
