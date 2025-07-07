@@ -199,6 +199,14 @@ http://www.agner.org/optimize/#links
 
 Binary Analysis, Disassembly, Decompilation, Recompilation
 
+### Readings: Lifting: 2024
+
+- Verifiably Correct Lifting of Position-Independent x86-64 Binaries to Symbolized Assembly
+	- ACM Conference on Computer and Communications Security (CCS) 2024
+	- Freek Verbeek, Nico Naus, Binoy Ravindran
+	- https://doi.org/10.1145/3658644.3690244
+	- https://www.ssrg.ece.vt.edu/papers/ccs24.pdf
+
 ### Readings: Lifting: 2022
 
 - A Broad Comparative Evaluation of x86-64 Binary Rewriters
