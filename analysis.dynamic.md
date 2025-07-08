@@ -530,6 +530,13 @@ See also: [Sanitizers](https://github.com/MattPD/cpplinks/blob/master/analysis.d
 	- https://hexhive.epfl.ch/publications/files/25NDSS3.pdf
 	- QMSan: QEMU-based Memory Sanitizer for binary software
 		- https://github.com/heinzeen/qmsan
+- Tech-ASan: Two-stage check for Address Sanitizer
+	- Internetware 2025
+	- Yixuan Cao, Yuhong Feng, Huafeng Li, Chongyi Huang, Fangcao Jian, Haoran Li, Xu Wang
+	- https://arxiv.org/abs/2506.05022
+	- https://conf.researchr.org/details/internetware-2025/internetware-2025-research-track/38/Tech-ASan-Two-stage-check-for-Address-Sanitizer
+	- https://www.slideshare.net/slideshow/tech-asan-two-stage-check-for-address-sanitizer-yixuan-cao-pdf/280618754
+	- https://www.youtube.com/watch?v=bkVE5PIIc3g
 - type++: Prohibiting Type Confusion with Inline Type Information
 	- Network and Distributed System Security (NDSS) Symposium 2025
 	- Nicolas Badoux, Flavio Toffalini, Yuseok Jeon, Mathias Payer
