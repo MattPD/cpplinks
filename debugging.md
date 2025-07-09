@@ -367,6 +367,13 @@ _Books, Books Reviews_
 	- https://www.youtube.com/watch?v=yxuwfNnp064
 	- https://llvm.org/devmtg/2021-11/slides/2021-ImprovingDebugVariableLocations.pdf
 	- https://www.snsystems.com/technology/tech-blog/improving-debug-variable-location-coverage-by-using-even-more-ssa
+- Improving optimized code line table quality
+	- 2024 LLVM Developers' Meeting
+	- Orlando Cazalet-Hyams
+	- https://www.youtube.com/watch?v=yj1EUzXVP1I
+	- https://llvm.org/devmtg/2024-10/slides/techtalk/Cazalet-Hyams-Improving-optimized-code-line-table-quality.pdf
+	- https://discourse.llvm.org/t/rfc-proposed-update-to-handling-debug-locations-in-llvm/79244
+	- https://discourse.llvm.org/t/rfc-improving-is-stmt-placement-for-better-interactive-debugging/82668
 - LLVM and debug information quality
 	- Triplefault 2020; Djordje Todorovic
 	- https://www.youtube.com/watch?v=GpMLt1oecOk
