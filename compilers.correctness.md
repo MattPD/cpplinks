@@ -629,6 +629,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://doi.org/10.1145/3643777
 	- https://2024.esec-fse.org/details/fse-2024-research-papers/110/Java-JIT-Testing-with-Template-Extraction
 	- https://github.com/EngineeringSoftware/lejit
+- Metamorphic Testing of Secure Multi-Party Computation (MPC) Compilers
+	- ACM International Conference on the Foundations of Software Engineering (FSE) 2024
+	- Yichen Li, Dongwei Xiao, Zhibo Liu, Qi Pang, Shuai Wang
+	- https://doi.org/10.1145/3643781
+	- https://github.com/winnylyc/MT-MPC
 - Testing the MSVC Compiler Backend
 	- 2024
 	- Troy Johnson
