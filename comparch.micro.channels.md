@@ -939,6 +939,15 @@ See also: [Computer Architecture](comparch.md)
 
 #### Defense: Software: Compilation and Programming Languages: 2025
 
+- Preservation of Speculative Constant-Time by Compilation
+	- Santiago Arranz Olmos, Gilles Barthe, Lionel Blatter, Benjamin Gregoire, Vincent Laporte
+	- POPL 2025
+		- https://dl.acm.org/doi/abs/10.1145/3704880
+		- https://popl25.sigplan.org/details/POPL-2025-popl-research-papers/44/Preservation-of-speculative-constant-time-by-compilation
+		- https://www.youtube.com/watch?v=Y_WuJ5-ciLQ
+	- PriSC 2025
+		- https://popl25.sigplan.org/details/prisc-2025-PriSC-2024-1/6/Preservation-of-Speculative-Constant-time-by-Compilation
+		- https://www.youtube.com/watch?v=eWhpdP-pQp0
 - TLBlur: Compiler-Assisted Automated Hardening against Controlled Channels on Off-the-Shelf Intel SGX Platforms
 	- USENIX Security 2025
 	- Daan Vanoverloop, Andres Sanchez, Flavio Toffalini, Frank Piessens, Mathias Payer, Jo Van Bulck
