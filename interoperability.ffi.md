@@ -679,6 +679,12 @@
 	- Typescripten: Generating type-safe JavaScript bindings for emscripten
 		- CppNow 2022; Sebastian Theophil
 		- https://www.youtube.com/watch?v=fOagTqBYHug
+- wit-bindgen: A language binding generator for WebAssembly interface types
+	- Guest language bindings generator for WIT (Wasm Interface Type) and the Component Model
+	- https://github.com/bytecodealliance/wit-bindgen
+	- wit-bindgen C and C++ Bindings Generator
+		- This tool generates C bindings for a chosen WIT (Wasm Interface Type) world that are also compatible with C++.
+		- https://github.com/bytecodealliance/wit-bindgen/tree/main/crates/c
 
 ---
 
