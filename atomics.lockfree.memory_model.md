@@ -436,7 +436,11 @@
 - Mix Testing: Specifying and Testing ABI Compatibility of C/C++ Atomics Implementations
 	- OOPSLA (Object-oriented Programming, Systems, Languages, and Applications) 2024
 	- Luke Geeson, James Brotherston, Wilco Dijkstra, Alastair F. Donaldson, Lee Smith, Tyler Sorensen, John Wickerson
+	- https://doi.org/10.1145/3689727
 	- https://arxiv.org/abs/2409.01161
+	- https://www.youtube.com/watch?v=oNbZZcmDpXI
+	- https://2024.splashcon.org/details/splash-2024-oopsla/70/Mix-Testing-Specifying-and-Testing-ABI-Compatibility-of-C-C-Atomics-Implementation
+	- https://johnwickerson.wordpress.com/2024/06/28/mix-testing-revealing-a-new-class-of-compiler-bugs/
 - N4455: No Sane Compiler Would Optimize Atomics
 	- http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/n4455.html
 - Partially Redundant Fence Elimination for x86, ARM, and Power Processors
