@@ -201,6 +201,12 @@ Binary Analysis, Disassembly, Decompilation, Recompilation
 
 ### Readings: Lifting: 2024
 
+- Exceptional Interprocedural Control Flow Graphs for x86-64 Binaries
+	- Detection of Intrusions and Malware, and Vulnerability Assessment (DIMVA) 2024
+	- Joshua A. Bockenek, Freek Verbeek, Binoy Ravindran
+	- https://link.springer.com/chapter/10.1007/978-3-031-64171-8_1
+	- https://doi.org/10.5281/zenodo.11081941
+	- https://www.ssrg.ece.vt.edu/papers/dimva24.pdf
 - Verifiably Correct Lifting of Position-Independent x86-64 Binaries to Symbolized Assembly
 	- ACM Conference on Computer and Communications Security (CCS) 2024
 	- Freek Verbeek, Nico Naus, Binoy Ravindran
