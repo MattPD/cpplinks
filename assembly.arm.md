@@ -869,6 +869,8 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 - Application Binary Interface for the Arm® Architecture
 	- https://github.com/ARM-software/abi-aa
+- C/C++ Atomics ABI for the Arm® 64-bit Architecture (AArch64)
+	- https://github.com/ARM-software/abi-aa/tree/main/atomicsabi64
 - Windows Arm64EC ABI Notes
 	- https://www.corsix.org/content/windows-arm64ec-notes
 
