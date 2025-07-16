@@ -1609,6 +1609,16 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://developers.redhat.com/articles/2024/10/30/limitations-frame-pointer-unwinding
 - Programmatic access to the call stack in C++
 	- https://eli.thegreenplace.net/2015/programmatic-access-to-the-call-stack-in-c/
+- <stacktrace>
+	- Draft C++ Standard: Stacktrace
+		- https://eel.is/c++draft/stacktrace
+		- https://timsong-cpp.github.io/cppwp/stacktrace
+	- Standard library header <stacktrace> (C++23)
+		- https://en.cppreference.com/w/cpp/header/stacktrace
+	- P0881: A Proposal to Add a Stacktrace Library
+		- https://wg21.link/P0881
+	- C++23: The stacktrace library
+		- https://www.sandordargo.com/blog/2022/09/21/cpp23-stacktrace-library
 - Stack unwinding
 	- MaskRay (Fangrui Song)
 	- https://maskray.me/blog/2020-11-08-stack-unwinding
