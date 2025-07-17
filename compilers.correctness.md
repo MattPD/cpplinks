@@ -110,6 +110,15 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 - GCC Wiki: Finding miscompilations on large testcases
 	- https://gcc.gnu.org/wiki/Analysing_Large_Testcases
 
+### Debugging: 2025
+
+- DuoReduce: Bug Isolation for Multi-Layer Extensible Compilation
+	- ACM International Conference on the Foundations of Software Engineering (FSE) 2025
+	- Jiyuan Wang, Yuxin Qiu, Ben Limpanukorn, Hong Jin Kang, Qian Zhang, Miryung Kim
+	- https://doi.org/10.1145/3715747
+	- https://web.cs.ucla.edu/~wangjiyuan/research/DuoReduce_FSE2025.pdf
+	- https://github.com/UCLA-SEAL/DuoReduce
+
 ### Debugging: 2024
 
 - Hash-Based Bisect Debugging in Compilers and Runtimes
