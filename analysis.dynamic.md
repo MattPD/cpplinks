@@ -523,6 +523,12 @@ See also: [Sanitizers](https://github.com/MattPD/cpplinks/blob/master/analysis.d
 	- https://2025.cgo.org/details/cgo-2025-papers/15/Janitizer-Rethinking-Binary-Tools-for-Practical-and-Comprehensive-Security
 	- Janitizer: Hybrid binary framework, based on Janus, with implementations of address sanitizer scheme JASAN and control-flow integrity scheme JCFI. Janus: Statically Guided Dynamic Binary Modification.
 		- https://github.com/CompArchCam/Janus/tree/security
+- Practical Object-Level Sanitizer with Aggregated Memory Access and Custom Allocator
+	- ICSE 2025
+	- Xiaolei wang, Ruilin Li, Bin Zhang, Chao Feng, Chaojing Tang
+	- https://doi.org/10.1109/ICSE55347.2025.00213
+	- OLASan: Object-Level Address Sanitizer
+		- https://github.com/040840308-liu/ICSE2025-OLASan-Artifact
 - QMSan: Efficiently Detecting Uninitialized Memory Errors During Fuzzing
 	- Network and Distributed System Security (NDSS) Symposium 2025
 	- Matteo Marini, Daniele Cono D'Elia, Mathias Payer, Leonardo Querzoni
