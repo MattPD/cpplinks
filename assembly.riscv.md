@@ -269,6 +269,12 @@ https://riscv.org/risc-v-books/
 	- 2022-11-03
 	- https://fprox.substack.com/p/riscv-zfh-half-support
 
+#### Instruction Set Architecture: Extensions: Zimop, Zcmop May-Be-Operations
+
+- Extension for placeholder instructions
+	- 2023-10-15
+	- https://fprox.substack.com/p/zimopzcmop-may-be-operations
+
 ### Instruction Set Architecture: Profiles
 
 - RISC-V Profiles: Defining sets of extensions for coherent ecosystems
