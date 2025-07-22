@@ -59,6 +59,13 @@ See also: [Computer Architecture](comparch.md)
 	- Biswabandan Panda
 	- https://www.cse.iitk.ac.in/users/biswap/SMS.html
 
+## General: 2025
+
+- From Hardware to Software: An End-to-End Side-Channel Attack Surface Analysis
+	- 2025 Ph.D. Dissertation
+	- Alyssa Anne Milburn
+	- https://doi.org/10.5463/thesis.330
+
 ## General: 2024
 
 - Testing Side-Channel Security of Cryptographic Implementations against Future Microarchitectures
