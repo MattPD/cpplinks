@@ -483,6 +483,10 @@
 	- https://peps.python.org/pep-0733/
 - Python - using C and C++ libraries with ctypes
 	- https://solarianprogrammer.com/2019/07/18/python-using-c-cpp-libraries-ctypes/
+- PyXray: Practical Cross-Language Call Graph Construction through Object Layout Analysis
+	- International Conference on Software Engineering (ICSE) 2026
+	- Georgios Alexopoulos, Thodoris Sotiropoulos, Georgios Gousios, Zhendong Su, Dimitris Mitropoulos
+	- https://grgalex.gr/assets/pdf/pyxray_icse26.pdf
 - Toward Efficient Interactions between Python and Native Libraries
 	- ESEC/FSE 2021
 	- Jialiang Tan, Yu Chen, Zhenming Liu, Bin Ren, Shuaiwen Leon Song, Xipeng Shen, Xu Liu
