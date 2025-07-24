@@ -421,26 +421,14 @@
 	- https://doi.org/10.17863/CAM.39379
 	- https://www.repository.cam.ac.uk/handle/1810/292229
 
-## Papers - Implementation
+## Papers: Implementation
+
+### Papers: Implementation: Optimization
 
 - Common Compiler Optimisations are Invalid in the C11 Memory Model and what we can do about it
 	- POPL 2015
 	- Viktor Vafeiadis, Thibaut Balabonski, Soham Chakraborty, Robin Morisset, Francesco Zappa Nardelli
 	- http://www.di.ens.fr/~zappa/readings/c11comp.pdf
-- Compiler Testing With Relaxed Memory Models
-	- 2023
-	- Luke Geeson, Lee Smith
-	- https://arxiv.org/abs/2310.12337
-	- A Proposal Fix for C/C++ Relaxed Atomics in Practice
-		- https://lukegeeson.com/blog/2023-10-17-A-Proposal-For-Relaxed-Atomics/
-- Mix Testing: Specifying and Testing ABI Compatibility of C/C++ Atomics Implementations
-	- OOPSLA (Object-oriented Programming, Systems, Languages, and Applications) 2024
-	- Luke Geeson, James Brotherston, Wilco Dijkstra, Alastair F. Donaldson, Lee Smith, Tyler Sorensen, John Wickerson
-	- https://doi.org/10.1145/3689727
-	- https://arxiv.org/abs/2409.01161
-	- https://www.youtube.com/watch?v=oNbZZcmDpXI
-	- https://2024.splashcon.org/details/splash-2024-oopsla/70/Mix-Testing-Specifying-and-Testing-ABI-Compatibility-of-C-C-Atomics-Implementation
-	- https://johnwickerson.wordpress.com/2024/06/28/mix-testing-revealing-a-new-class-of-compiler-bugs/
 - N4455: No Sane Compiler Would Optimize Atomics
 	- http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/n4455.html
 - Partially Redundant Fence Elimination for x86, ARM, and Power Processors
@@ -454,6 +442,33 @@
 	- https://sf.snu.ac.kr/promising-seq/
 	- https://www.youtube.com/watch?v=Er-BI2SOe5A
 	- https://github.com/snu-sf/promising-seq-coq
+- Simuliris: A Separation Logic Framework for Verifying Concurrent Program Optimizations
+	- POPL 2022
+	- Lennard Gäher, Michael Sammler, Simon Spies, Ralf Jung, Hoang-Hai Dang, Robbert Krebbers, Jeehoon Kang, Derek Dreyer
+	- https://dl.acm.org/doi/10.1145/3498689
+	- https://www.youtube.com/watch?v=P4_FHYWnEzQ
+	- https://people.mpi-sws.org/~gaeher/slides/simuliris.pdf
+	- https://popl22.sigplan.org/details/POPL-2022-popl-research-papers/28/Simuliris-A-Separation-Logic-Framework-for-Verifying-Concurrent-Program-Optimization
+	- Simuliris Coq development
+		- https://gitlab.mpi-sws.org/iris/simuliris
+
+### Papers: Implementation: Testing
+
+- Compiler Testing With Relaxed Memory Models
+	- Code Generation and Optimization (CGO) 2024
+	- Luke Geeson, Lee Smith
+	- https://doi.org/10.1109/CGO57630.2024.10444836
+	- https://arxiv.org/abs/2310.12337
+	- A Proposal Fix for C/C++ Relaxed Atomics in Practice
+		- https://lukegeeson.com/blog/2023-10-17-A-Proposal-For-Relaxed-Atomics/
+- Mix Testing: Specifying and Testing ABI Compatibility of C/C++ Atomics Implementations
+	- OOPSLA (Object-oriented Programming, Systems, Languages, and Applications) 2024
+	- Luke Geeson, James Brotherston, Wilco Dijkstra, Alastair F. Donaldson, Lee Smith, Tyler Sorensen, John Wickerson
+	- https://doi.org/10.1145/3689727
+	- https://arxiv.org/abs/2409.01161
+	- https://www.youtube.com/watch?v=oNbZZcmDpXI
+	- https://2024.splashcon.org/details/splash-2024-oopsla/70/Mix-Testing-Specifying-and-Testing-ABI-Compatibility-of-C-C-Atomics-Implementation
+	- https://johnwickerson.wordpress.com/2024/06/28/mix-testing-revealing-a-new-class-of-compiler-bugs/
 
 ## Papers - Memory Model
 
