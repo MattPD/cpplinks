@@ -145,6 +145,14 @@ https://0xax.github.io/categories/assembly/
 	- https://sdasgup3.github.io/files/pldi_2019.pdf
 	- https://github.com/kframework/X86-64-semantics
 	- https://www.youtube.com/watch?v=eBZtmaNAJwo
+- libLISA: Instruction Discovery and Analysis on x86-64
+	- OOPSLA 2024
+	- Jos Craaijo, Freek Verbeek, Binoy Ravindran
+	- https://doi.org/10.1145/3689723
+	- https://www.youtube.com/watch?v=JBgmGzqZwUc
+	- https://harris2025.mpi-sp.org/event/HARRIS25_-_libLISA4_IJZJZuV.pdf
+	- https://github.com/libLISA/liblisa
+	- https://liblisa.nl/
 
 # Links
 
