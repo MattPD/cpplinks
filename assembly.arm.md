@@ -186,7 +186,13 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Nian Liu, Binyu Zang, Haibo Chen
 	- https://doi.org/10.1145/3332466.3374535
 	- https://ipads.se.sjtu.edu.cn/_media/publications/liuppopp20.pdf
-- Relaxed virtual memory in Armv8A-A
+- Precise Exceptions in Relaxed Architectures
+	- International Symposium on Computer Architecture (ISCA) 2025
+	- Ben Simner, Alasdair Armstrong, Thomas Bauereiss, Brian Campbell, Ohad Kammar, Jean Pichon-Pharabod, Peter Sewell
+	- https://doi.org/10.1145/3695053.3731102
+	- https://2plus2a.com/files/publications/2025-ISCA-precise-exceptions.pdf
+	- https://2plus2a.com/files/slides/2025-06-23-ISCA.pdf
+- Relaxed virtual memory in Armv8-A
 	- ESOP 2022
 	- Ben Simner, Alasdair Armstrong, Jean Pichon-Pharabod, Christopher Pulte, Richard Grisenthwaite, Peter Sewell
 	- https://www.cl.cam.ac.uk/~pes20/RelaxedVM-Arm/
