@@ -320,6 +320,10 @@ _Books, Books Reviews_
 	- J. Ryan Stinnett, Stephen Kell
 	- https://arxiv.org/abs/2402.04811
 	- https://dl.acm.org/doi/10.1145/3640537.3641578
+	- EuroLLVM 2024
+		- https://convolv.es/talks/debug-info-metrics/
+		- https://www.youtube.com/watch?v=LePAdLTRa4Q
+		- https://convolv.es/talks/2024/EuroLLVM/Debug%20info%20metrics.pdf
 - Automatic Generation of Debug Headers through BlackBox Equivalence Checking
 	- International Symposium on Code Generation and Optimization (CGO) 2022
 	- Vaibhav Kiran Kurhe, Pratik Karia, Shubhani Gupta, Abhishek Rose, Sorav Bansal
