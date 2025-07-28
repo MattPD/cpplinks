@@ -818,6 +818,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://doi.org/10.1145/3708821.3710818
 	- https://hexhive.epfl.ch/publications/files/25AsiaCCS.pdf
 	- https://github.com/HexHive/Reflecta
+- Selecting Initial Seeds for Better JVM Fuzzing
+	- International Conference on Software Engineering (ICSE) 2025
+	- Tianchang Gao, Junjie Chen, Dong Wang, Yile Guo, Yingquan Zhao, Zan Wang
+	- https://arxiv.org/abs/2408.08515
+	- https://doi.org/10.1109/ICSE55347.2025.00028
+	- https://github.com/gaotravor/Initial-seed-selection
 
 #### Testing: Readings: Fuzzing: 2024
 
