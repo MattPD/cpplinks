@@ -536,6 +536,11 @@ See also: [Sanitizers](https://github.com/MattPD/cpplinks/blob/master/analysis.d
 	- https://hexhive.epfl.ch/publications/files/25NDSS3.pdf
 	- QMSan: QEMU-based Memory Sanitizer for binary software
 		- https://github.com/heinzeen/qmsan
+- SpecASan: Mitigating Transient Execution Attacks Using Speculative Address Sanitization
+	- International Symposium on Computer Architecture (ISCA) 2025
+	- Saber Ganjisaffar, Esmaeil Mohmmadian Koruyeh, Jason Zellmer, Hodjat Asghari Esfeden, Chengyu Song, Nael B. Abu-Ghazaleh
+	- https://doi.org/10.1145/3695053.3731119
+	- https://www.cs.ucr.edu/~csong/isca25-specasan.pdf
 - Tech-ASan: Two-stage check for Address Sanitizer
 	- Internetware 2025
 	- Yixuan Cao, Yuhong Feng, Huafeng Li, Chongyi Huang, Fangcao Jian, Haoran Li, Xu Wang
