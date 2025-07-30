@@ -163,14 +163,20 @@ https://riscv.org/risc-v-books/
 
 #### Instruction Set Architecture: Extensions: Cryptography
 
+RISC-V Cryptography Extensions Volume II: Vector Instructions:
+Zvbb, Zvbc, Zvkb, Zvkg, Zvkn, Zvknc, Zvkned, Zvkng, Zvknha, Zvknhb, Zvks, Zvksc, Zvksed, Zvksg, Zvksh, Zvkt
+
 - RISC-V Vector Cryptography Extensions (1/2)
-	- 2023-02-12
+	- 2023-02-11
+	- accelerating cryptography with RISC-V Vector: Introduction and ciphers
 	- https://fprox.substack.com/p/risc-v-vector-cryptography-extensions
 - RISC-V Vector Cryptography Extensions (2/2)
-	- 2023-02-20
+	- 2023-02-19
+	- Hash, bitmanip and conclusion
 	- https://fprox.substack.com/p/risc-v-vector-cryptography-extension
 - RISC-V vector crypto spec freeze update
-	- 2023-06-25
+	- 2023-06-24
+	- Revisiting vector crypto specification on its way to ratification
 	- https://fprox.substack.com/p/risc-v-vector-crypto-spec-freeze
 
 #### Instruction Set Architecture: Extensions: Smcntrpmf: Cycle & Instret Privilege Mode Filtering Architecture Extension
