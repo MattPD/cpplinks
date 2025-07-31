@@ -844,6 +844,15 @@ See also: [Computer Architecture](comparch.md)
 	- Oleksii Oleksenko, Bohdan Trach, Tobias Reiher, Mark Silberstein, Christof Fetzer
 	- https://arxiv.org/abs/1805.08506
 
+### Defense: Software: 2025
+
+- Let's DOIT: Using Intel's Extended HW/SW Contract for Secure Compilation of Crypto Code
+	- IACR Transactions on Cryptographic Hardware and Embedded Systems (TCHES) 2025(3)
+	- Santiago Arranz-Olmos, Gilles Barthe, Benjamin Grégoire, Jan Jancar, Vincent Laporte, Tiago Oliveira, Peter Schwabe
+	- https://eprint.iacr.org/2025/759
+	- https://doi.org/10.46586/tches.v2025.i3.644-667
+	- Intel Data Operand Independent Timing (DOIT) mode
+
 ### Defense: Software: 2024
 
 - No Leakage Without State Change: Repurposing Configurable CPU Exceptions to Prevent Microarchitectural Attacks
