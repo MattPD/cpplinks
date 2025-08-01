@@ -100,6 +100,15 @@ See also:
 	- https://web.stanford.edu/~mlfbrown/paper.pdf
 	- http://lambda-the-ultimate.org/node/5348
 	- https://blog.acolyer.org/2016/05/31/how-to-build-static-checking-systems-using-orders-of-magnitude-less-code/
+- IceBear: A Fine-Grained Incremental Scheduler for C/C++ Static Analyzers
+	- ACM International Conference on the Foundations of Software Engineering (FSE Companion) 2025
+	- Yu Xiao, Xutong Ma, Zhilin Li, Jun Yan
+	- https://doi.org/10.1145/3696630.3728590
+	- https://www.youtube.com/watch?v=iI39c1Tw1F8
+	- https://conf.researchr.org/details/fse-2025/fse-2025-demonstrations/17/IceBear-A-Fine-Grained-Incremental-Scheduler-for-C-C-Static-Analyzers
+	- IceBear: a scheduler for C/C++ static analysis tools built on Bear and Panda
+		- Supported static analyzers: CSA (Clang Static Analyzer), Clang-Tidy, CppCheck, GSA (GCC Static Analyzer)
+		- https://github.com/hribz/IceBear
 - Object Model Construction for Inheritance in C++ and Its Applications to Program Analysis
 	- Compiler Construction (CC) 2012
 	- Yang, Jing, Gogul Balakrishnan, Naoto Maeda, Franjo Ivancic, Aarti Gupta, Nishant Sinha, Sriram Sankaranarayanan, Naveen Sharma
