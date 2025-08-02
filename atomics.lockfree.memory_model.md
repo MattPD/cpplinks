@@ -474,6 +474,13 @@
 
 ### Papers - Memory Model: 2025
 
+- Monadic Interpreters for Concurrent Memory Models: Executable Semantics of a Concurrent Subset of LLVM IR
+	- ACM SIGPLAN International Conference on Certified Programs and Proofs (CPP) 2025
+	- Nicolas Chappe, Ludovic Henrio, Yannick Zakowski
+	- https://doi.org/10.1145/3703595.3705890
+	- https://www.youtube.com/watch?v=f7pQd15BcDE
+	- A model of LLVM IR concurrency based on Choice Trees
+		- https://github.com/vellvm/micro-vellvm-concurrency/
 - Relaxed Memory Concurrency Re-executed
 	- ACM SIGPLAN Symposium on Principles of Programming Languages (POPL) 2025
 	- Evgenii Moiseenko, Matteo Meluzzi, Innokentii Meleshchenko, Ivan Kabashnyi, Anton Podkopaev, Soham Chakraborty
