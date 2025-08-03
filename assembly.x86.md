@@ -153,6 +153,12 @@ https://0xax.github.io/categories/assembly/
 	- https://harris2025.mpi-sp.org/event/HARRIS25_-_libLISA4_IJZJZuV.pdf
 	- https://github.com/libLISA/liblisa
 	- https://liblisa.nl/
+- X86 Instruction Semantics and Basic Block Symbolic Execution
+	- Archive of Formal Proofs 2021
+	- Freek Verbeek, Abhijith Bharadwaj, Joshua Bockenek, Ian Roessle, Timmy Weerwag, Binoy Ravindran
+	- https://www.isa-afp.org/entries/X86_Semantics.html
+	- https://www.isa-afp.org/browser_info/current/AFP/X86_Semantics/
+	- https://www.isa-afp.org/browser_info/current/AFP/X86_Semantics/document.pdf
 
 # Links
 
