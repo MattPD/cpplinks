@@ -1802,11 +1802,15 @@ See also: [Performance Tools](performance.tools.md)
 	- Sebastian Theophil
 	- https://www.youtube.com/watch?v=uyIEg0HkWrQ
 	- https://www.think-cell.com/assets/think-cell_talk_arm.pdf
-- Programming with 64-Bit ARM Assembly Language
+- Programming with 64-Bit Arm Assembly Language
+	- 2020; Stephen Smith
 	- https://www.apress.com/us/book/9781484258804
 	- https://github.com/Apress/programming-with-64-bit-ARM-assembly-language
 	- HelloSilicon: third-party Apple Silicon version
+		- Alexander von Below
 		- https://github.com/below/HelloSilicon
+		- Apple M1 Assembly Language Hello World
+			- https://smist08.wordpress.com/2021/01/08/apple-m1-assembly-language-hello-world/
 - The AArch64 processor (aka arm64) - Raymond Chen
 	- 1: Introduction
 		- https://devblogs.microsoft.com/oldnewthing/20220726-00/?p=106898
