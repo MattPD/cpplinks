@@ -546,6 +546,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Maximilian Ignacio Willembrinck Santander
 	- https://theses.hal.science/tel-04512544
 	- https://github.com/Willembrinck/2023-Selective-Time-Traveling-Thesis
+- Deterministic Replay: A Survey
+	- ACM Computing Surveys 48(2) 2015
+	- Yunji Chen, Shijin Zhang, Qi Guo, Ling Li, Ruiyang Wu, Tianshi Chen
+	- https://doi.org/10.1145/2790077
 - Don’t Panic: Reverse Debugging of Kernel Drivers
 	- Foundations of Software Engineering (ESEC/FSE) 2015
 	- Pavel Dovgalyuk, Denis Dmitriev, Vladimir Makarov
