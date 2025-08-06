@@ -2172,9 +2172,14 @@ Validation: Including translation validation, equivalence checking.
 	- https://www.youtube.com/watch?v=e1zAWj-8mNc
 	- https://davidthien.com/assets/pdf/fajita-prisc23-paper.pdf
 - Formally Verifying Optimizations with Block Simulations
-	- 2023
+	- OOPSLA 2023
 	- Léo Gourdin, Benjamin Bonneau, Sylvain Boulmé, David Monniaux, Alexandre Bérard
 	- https://hal.science/hal-04102940/
+	- https://doi.org/10.1145/3622799
+	- https://www.youtube.com/watch?v=6asi8t0_L7A
+	- https://2023.splashcon.org/details/splash-2023-oopsla/34/Formally-Verifying-Optimizations-with-Block-Simulations
+	- Chamois CompCert
+		- https://gricad-gitlab.univ-grenoble-alpes.fr/certicompil/Chamois-CompCert
 - Lazy Code Transformations in a Formally Verified Compiler
 	- ICOOOLPS 2023: ACM International Workshop on Implementation, Compilation, Optimization of OO Languages, Programs and Systems
 	- Léo Gourdin
