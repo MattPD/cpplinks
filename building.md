@@ -841,6 +841,10 @@ See also:
 	- Raúl Huertas
 	- https://www.youtube.com/watch?v=pUtB5RHFsW4
 	- https://eventos.uc3m.es/file_manager/getfile/195695
+- Pragmatic CMake: How to Avoid Headaches with Simple CMake
+	- C++Now 2025
+	- Bret Brown
+	- https://www.youtube.com/watch?v=xNHKTdnn4fY
 
 #### CMake Talks: 2024
 
