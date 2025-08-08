@@ -2615,6 +2615,17 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 	- https://www.youtube.com/watch?v=Pwq0vv4X7m4
 	- https://www.blackhat.com/docs/us-16/materials/us-16-Fogh-Using-Undocumented-CPU-Behaviour-To-See-Into-Kernel-Mode-And-Break-KASLR-In-The-Process.pdf
 
+## Prefetch: 2025
+
+- ShadowLoad: Injecting State into Hardware Prefetchers
+	- ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2025
+	- Lorenz Hetterich, Fabian Thomas, Lukas Gerlach, Ruiyi Zhang, Nils Bernsdorf, Eduard Ebert, Michael Schwarz
+	- StrideRE: a tool to automatically infer properties of hardware stride prefetchers
+	- ShadowLoad and FetchProbe: primitives available on a wide range of Intel and AMD processors
+	- https://doi.org/10.1145/3676641.3716020
+	- https://roots.ec/publications/shadowload-injecting-state-into-hardware-prefetchers/
+	- https://github.com/cispa/ShadowLoad/
+
 ## Prefetch: 2023
 
 - AfterImage: Leaking Control Flow Data and Tracking Load Operations via the Hardware Prefetcher
