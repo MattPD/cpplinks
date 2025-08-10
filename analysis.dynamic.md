@@ -376,6 +376,8 @@ See also: [Sanitizers](https://github.com/MattPD/cpplinks/blob/master/analysis.d
 
 ## Software: Sanitizers
 
+Compiler-Based Static Instrumentation
+
 - Sanitizers: AddressSanitizer, ThreadSanitizer, MemorySanitizer
 	- https://github.com/google/sanitizers
 	- https://github.com/google/sanitizers/wiki
@@ -523,6 +525,13 @@ See also: [Sanitizers](https://github.com/MattPD/cpplinks/blob/master/analysis.d
 	- https://2025.cgo.org/details/cgo-2025-papers/15/Janitizer-Rethinking-Binary-Tools-for-Practical-and-Comprehensive-Security
 	- Janitizer: Hybrid binary framework, based on Janus, with implementations of address sanitizer scheme JASAN and control-flow integrity scheme JCFI. Janus: Statically Guided Dynamic Binary Modification.
 		- https://github.com/CompArchCam/Janus/tree/security
+- Memory Safety Instrumentations in Practice: Usability, Performance, and Security Guarantees
+	- International Symposium on Code Generation and Optimization (CGO) 2025
+	- Tina Jung, Fabian Ritter, Sebastian Hack
+	- https://doi.org/10.1145/3696443.3708926
+	- MemInstrument: A framework to make C memory safe
+		- https://github.com/cdl-saarland/MemInstrument/
+		- https://compilers.cs.uni-saarland.de/projects/meminstrument/
 - Practical Object-Level Sanitizer with Aggregated Memory Access and Custom Allocator
 	- ICSE 2025
 	- Xiaolei wang, Ruilin Li, Bin Zhang, Chao Feng, Chaojing Tang
