@@ -579,6 +579,13 @@
 
 # Talks
 
+## 2025
+
+- C++ Exceptions are Code Compression
+	- ACCU 2025
+	- Khalil Estell
+	- https://www.youtube.com/watch?v=LorcxyJ9zr4
+
 ## 2024
 
 - C++ Exceptions for Smaller Firmware
