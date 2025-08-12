@@ -541,6 +541,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Jakob Engblom
 	- https://ieeexplore.ieee.org/document/6338149/
 	- http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.338.3420&rep=rep1&type=pdf
+- A Taxonomy of Execution Replay Systems
+	- 2003 International Conference on Advances in Infrastructure for Electronic Business, Education, Science, Medicine, and Mobile Technologies on the Internet
+	- Frank Cornelis, Andy Georges, Mark Christiaens, Michiel Ronsse, Tom Ghesquiere, Koen De Bosschere
+	- https://www.researchgate.net/publication/244149898_A_Taxonomy_of_Execution_Replay_Systems
 - An Interactive Debugging Approach Based on Time-traveling Queries
 	- 2023 PhD Dissertation
 	- Maximilian Ignacio Willembrinck Santander
