@@ -841,6 +841,11 @@ See also:
 	- Raúl Huertas
 	- https://www.youtube.com/watch?v=pUtB5RHFsW4
 	- https://eventos.uc3m.es/file_manager/getfile/195695
+- import CMake; // Mastering C++ Modules - Marching Towards Standard C++ Dependency Management
+	- C++Now 2025
+	- Bill Hoffman
+	- https://www.youtube.com/watch?v=uiZeCK1gWFc
+	- https://github.com/boostcon/cppnow_presentations_2025/blob/main/Presentations/Import_CMake_Mastering_Cpp_Modules.pdf
 - Pragmatic CMake: How to Avoid Headaches with Simple CMake
 	- C++Now 2025
 	- Bret Brown
