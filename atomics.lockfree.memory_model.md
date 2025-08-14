@@ -474,6 +474,12 @@
 
 ### Papers - Memory Model: 2025
 
+- A Concurrency Model Based on Monadic Interpreters: Executable semantics for a concurrent subset of LLVM IR
+	- 2024 Ph.D. dissertation
+	- Nicolas Chappe
+	- https://theses.hal.science/tel-04963647/
+	- https://github.com/vellvm/ctrees/tree/chappe-phd-final
+	- https://github.com/vellvm/micro-vellvm-concurrency/tree/chappe-phd
 - Monadic Interpreters for Concurrent Memory Models: Executable Semantics of a Concurrent Subset of LLVM IR
 	- ACM SIGPLAN International Conference on Certified Programs and Proofs (CPP) 2025
 	- Nicolas Chappe, Ludovic Henrio, Yannick Zakowski
