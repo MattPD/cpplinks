@@ -615,6 +615,16 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 - The problem with differential testing is that at least one of the compilers must get it right
 	- http://blog.frama-c.com/index.php?post/2013/09/25/The-problem-with-differential-testing-is-that-at-least-one-of-the-compilers-must-get-it-right
 
+### Testing: Readings: 2025
+
+- A Tale of Two DL Cities: When Library Tests Meet Compiler
+	- International Conference on Software Engineering (ICSE) 2025
+	- Qingchao Shen, Yongqiang Tian, Haoyang Ma, Junjie Chen, Lili Huang, Ruifeng Fu, Shing-Chi Cheung, Zan Wang
+	- https://arxiv.org/abs/2407.16626
+	- https://doi.org/10.1109/ICSE55347.2025.00025
+	- OPERA (OPERator Adapter) a migration-based technique to test DL (Deep Learning) compilers (especially the model loading stage)
+	- https://github.com/ShenQingchao/OPERA
+
 ### Testing: Readings: 2024
 
 - Boosting Compiler Testing by Injecting Real-World Code
