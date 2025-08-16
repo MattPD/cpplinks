@@ -2760,6 +2760,15 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 
 # SMT
 
+## SMT: 2025
+
+- PortPrint: Identifying Inaccessible Code with Port Contention
+	- Microarchitecture Security Conference (uASC) 2025
+	- Tristan Hornetz, Michael Schwarz
+	- https://doi.org/10.46586/uasc.2025.004
+	- https://roots.ec/publications/portprint-identifying-inaccessible-code-with-port-contention/
+	- https://github.com/cispa/PortPrint
+
 ## SMT: 2024
 
 - Divide and Surrender: Exploiting Variable Division Instruction Timing in HQC Key Recovery Attacks
