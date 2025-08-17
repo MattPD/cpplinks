@@ -220,6 +220,9 @@ Zvbb, Zvbc, Zvkb, Zvkg, Zvkn, Zvknc, Zvkned, Zvkng, Zvknha, Zvknhb, Zvks, Zvksc,
 - RISC-V Vector Programming in C with Intrinsics
 	- 2023-11-23
 	- https://fprox.substack.com/p/risc-v-vector-programming-in-c-with
+- RISC-V Vector Reduction Operations
+	- 2025-04-08
+	- https://fprox.substack.com/p/risc-v-vector-reduction-operations
 - RVV implementation of Keccak / SHA-3 (part 1)
 	- Leveraging RISC-V Vector to slow down SHA-3 software implementation
 	- 2023-12-31
