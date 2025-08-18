@@ -214,6 +214,10 @@ _Books, Books Reviews_
 	- Jie Yin, Gang Tan, Hao Li, Xiaolong Bai, Yu Ping Wang, Shi Min Hu
 	- https://www.sciencedirect.com/science/article/pii/S0167642318303629
 	- https://oslab.cs.tsinghua.edu.cn/debugopt/debugopt.html
+- Demystifying Debuggers - Ryan Fleury
+	- Demystifying Debuggers, Part 1: A Busy Intersection
+		- 2024-12-16
+		- https://www.rfleury.com/p/demystifying-debuggers-part-1-a-busy
 - Eli Bendersky - http://eli.thegreenplace.net/tag/debuggers
 	- How debuggers work
 		- Part 1 - Basics - http://eli.thegreenplace.net/2011/01/23/how-debuggers-work-part-1
