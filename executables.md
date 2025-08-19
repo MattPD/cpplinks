@@ -1458,6 +1458,9 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 
 ### PE: Software: Packers
 
+- AlushPacker: Executable file packer for Windows
+	- PE .exe packer for Windows with compression, encryption, and reflective in-memory loading
+	- https://github.com/Alon-Alush/AlushPacker
 - Amber: Reflective PE packer
 	- https://github.com/EgeBalci/Amber
 - Crinkler: an executable file compressor (or rather, a compressing linker) for Windows for compressing small demoscene executables
