@@ -487,6 +487,11 @@
 	- https://www.youtube.com/watch?v=f7pQd15BcDE
 	- A model of LLVM IR concurrency based on Choice Trees
 		- https://github.com/vellvm/micro-vellvm-concurrency/
+- Portability of Optimizations from SC to TSO
+	- Theoretical Aspects of Software Engineering (TASE) 2025
+	- Akshay Gopalakrishnan, Clark Verbrugge
+	- https://link.springer.com/chapter/10.1007/978-3-031-98208-8_8
+	- https://arxiv.org/abs/2504.17646
 - Relaxed Memory Concurrency Re-executed
 	- ACM SIGPLAN Symposium on Principles of Programming Languages (POPL) 2025
 	- Evgenii Moiseenko, Matteo Meluzzi, Innokentii Meleshchenko, Ivan Kabashnyi, Anton Podkopaev, Soham Chakraborty
