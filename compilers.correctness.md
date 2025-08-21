@@ -767,6 +767,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 - Toolchain testing
 	- 2021; MaskRay (Fangrui Song)
 	- https://maskray.me/blog/2021-08-08-toolchain-testing
+- Validating Definitional Interpreters Using Property-Based Testing
+	- 2021 Bachelor Thesis
+	- Alexandru Radu Moraru, Casper Bach Poulsen, Cas van der Rest
+	- https://resolver.tudelft.nl/uuid:29a5b7ce-895f-4853-b996-1ee659dbc4a0
+	- https://github.com/alemoraru/input-expression-generators
 
 ### Testing: Readings: 2020
 
