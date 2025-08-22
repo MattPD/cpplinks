@@ -106,16 +106,35 @@
 
 ## Memory: Profiling
 
+### Memory: Profiling: Readings
+
+- Examining Problematic Memory in C/C++ Applications with BPF, perf, and Memcheck
+	- 2021-04-01
+	- Filip Busic
+	- https://careersatdoordash.com/blog/examining-problematic-memory-with-bpf-perf-and-memcheck/
+- Memory Profiling
+	- 2024; Denis Bakhvalov
+	- Introduction, Memory Usage Case Study (Heaptrack), Memory Footprint with Intel SDE, Memory Footprint Case Study, Data Locality and Reuse Distances
+	- https://easyperf.net/blog/2024/02/12/Memory-Profiling-Part1
+- PROMPT: A Fast and Extensible Memory Profiling Framework
+	- OOPSLA 2024
+	- Ziyang Xu, Yebin Chon, Yian Su, Zujun Tan, Sotiris Apostolakis, Simone Campanoni, David I. August
+	- https://doi.org/10.1145/3649827
+	- https://liberty.princeton.edu/Publications/oopsla24_prompt.pdf
+	- https://www.youtube.com/watch?v=rj23NkvujfA
+	- https://github.com/PrincetonUniversity/PROMPT
+	- 2024 Ph.D. dissertation
+	- Ziyang Xu
+	- http://arks.princeton.edu/ark:/88435/dsp0137720h12v
+
+### Memory: Profiling: Software
+
 - Bytehound: a memory profiler for Linux
 	- https://github.com/koute/bytehound
-- Heaptrack - A Heap Memory Profiler for Linux
+- Heaptrack: A Heap Memory Profiler for Linux
 	- https://github.com/KDE/heaptrack
 	- http://milianw.de/blog/heaptrack-a-heap-memory-profiler-for-linux
 	- https://www.kdab.com/heaptrack-v1-0-0-release/
-- How to Write a Heap Memory Profiler
-	- CppCon 2019; Milian Wolff
-	- https://www.youtube.com/watch?v=YB0QoWI-g8E
-	- Slides & code: https://github.com/milianw/how-to-write-a-memory-profiler
 - MALT & NUMAPROF: Memory Profiling for HPC Applications
 	- NUMAPROF: a NUMA memory profiler based on Pintool to track remote memory accesses
 		- https://memtt.github.io/numaprof
@@ -142,20 +161,16 @@
 		- 2019 LLVM Developers’ Meeting; Thierry Treyer
 		- https://www.youtube.com/watch?v=fm47XsATelI
 		- https://llvm.org/devmtg/2019-10/slides/Treyer-Memoro.pdf
-- Memory Profiling
-	- 2024; Denis Bakhvalov
-	- Introduction, Memory Usage Case Study (Heaptrack), Memory Footprint with Intel SDE, Memory Footprint Case Study, Data Locality and Reuse Distances
-	- https://easyperf.net/blog/2024/02/12/Memory-Profiling-Part1
 - memory-profiler: A memory profiler for Linux
 	- https://github.com/koute/memory-profiler
 - memtrail: A LD_PRELOAD based memory profiler and leak detector for Linux
 	- ​https://github.com/jrfonseca/memtrail
-- memusage - profile memory usage of a program
+- memusage: profile memory usage of a program
 	- http://man7.org/linux/man-pages/man1/memusage.1.html
 - mstat: measure memory usage of a program over time (Linux)
 	- fine-grained, cgroup-based tool for profiling memory usage over time of a process tree
 	- https://github.com/bpowers/mstat
-- MTuner - a C/C++ memory profiler and memory leak finder for Windows, PlayStation 4, PlayStation 3, etc.
+- MTuner: a C/C++ memory profiler and memory leak finder for Windows, PlayStation 4, PlayStation 3, etc.
 	- https://milostosic.github.io/MTuner/
 	- https://github.com/milostosic/MTuner
 - Object Introspection: Dynamic C++ Object Profiling
@@ -189,18 +204,12 @@
 	- DHAT: a dynamic heap analysis tool - http://valgrind.org/docs/manual/dh-manual.html
 	- Massif: a heap profiler - ​http://valgrind.org/docs/manual/ms-manual.html
 
-### Memory: Profiling: Readings
+### Memory: Profiling: Talks
 
-- PROMPT: A Fast and Extensible Memory Profiling Framework
-	- OOPSLA 2024
-	- Ziyang Xu, Yebin Chon, Yian Su, Zujun Tan, Sotiris Apostolakis, Simone Campanoni, David I. August
-	- https://doi.org/10.1145/3649827
-	- https://liberty.princeton.edu/Publications/oopsla24_prompt.pdf
-	- https://www.youtube.com/watch?v=rj23NkvujfA
-	- https://github.com/PrincetonUniversity/PROMPT
-	- 2024 Ph.D. dissertation
-	- Ziyang Xu
-	- http://arks.princeton.edu/ark:/88435/dsp0137720h12v
+- How to Write a Heap Memory Profiler
+	- CppCon 2019; Milian Wolff
+	- https://www.youtube.com/watch?v=YB0QoWI-g8E
+	- Slides & code: https://github.com/milianw/how-to-write-a-memory-profiler
 
 # Microarchitecture
 
