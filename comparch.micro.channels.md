@@ -863,10 +863,6 @@ See also: [Computer Architecture](comparch.md)
 	- https://roots.ec/publications/no-leakage-without-state-change-repurposing-configurable-cpu-exceptions-to-prevent-microarchitectural-attacks/
 	- IRQGuard
 		- https://github.com/cispa/IRQGuard
-- Switchpoline: A Software Mitigation for Spectre-BTB and Spectre-BHB on ARMv8
-	- 19th ACM Asia Conference on Computer and Communications Security 2024
-	- Lorenz Hetterich, Markus Bauer, Michael Schwarz, Christian Rossow
-	- https://dl.acm.org/doi/abs/10.1145/3634737.3637662
 
 ### Defense: Software: 2023
 
@@ -993,6 +989,12 @@ See also: [Computer Architecture](comparch.md)
 	- https://doi.org/10.1109/SP54263.2024.00048
 	- https://cs.stanford.edu/~trippel/pubs/mosier_SP24.pdf
 	- https://github.com/nmosier/serberus
+- Switchpoline: A Software Mitigation for Spectre-BTB and Spectre-BHB on Armv8
+	- 19th ACM Asia Conference on Computer and Communications Security (AsiaCCS) 2024
+	- Markus Bauer, Lorenz Hetterich, Christian Rossow, Michael Schwarz
+	- https://dl.acm.org/doi/abs/10.1145/3634737.3637662
+	- https://roots.ec/publications/switchpoline-a-software-mitigation-for-spectrebtb-and-spectrebhb-on-armv/
+	- https://github.com/cispa/Switchpoline
 
 #### Defense: Software: Compilation and Programming Languages: 2023
 
