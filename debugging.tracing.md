@@ -594,7 +594,7 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 	- https://ionescu007.github.io/winipt/
 	- https://github.com/ionescu007/winipt
 
-### Software: Windows - ETW
+### Software: Windows: ETW
 
 - ETW Central
 	- https://randomascii.wordpress.com/2015/09/24/etw-central/
@@ -613,6 +613,8 @@ non-sampling-based processor tracing: [Intel BTS (Branch Trace Store)](#intel-bt
 - Hidden Treasure: Detecting Intrusions with ETW
 	- Derbycon 2017; Zac Brown
 	- http://www.irongeek.com/i.php?page=videos/derbycon7/t208-hidden-treasure-detecting-intrusions-with-etw-zac-brown
+- Profile Explorer: a tool for viewing CPU profiling traces collected through the Event Tracing for Windows (ETW) infrastructure on machines with x64 and ARM64 CPUs
+	- https://github.com/microsoft/profile-explorer
 - UIforETW: User interface for recording and managing ETW traces
 	- https://github.com/randomascii/UIforETW
 	- https://randomascii.wordpress.com/2015/04/14/uiforetw-windows-performance-made-easier/
