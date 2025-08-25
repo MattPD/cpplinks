@@ -1313,7 +1313,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://github.com/osandov/drgn/
 	- https://drgn.readthedocs.io/
 	- A kernel debugger in Python: drgn
+		- 2019-05-29; Jake Edge
 		- https://lwn.net/Articles/789641/
+	- Introducing CTF Support in Drgn for Oracle Linux
+		- 2024-10-03; Stephen Brennan
+		- https://blogs.oracle.com/linux/post/introducing-ctf-support-in-drgn-for-oracle-linux
 - edb: a cross platform x86/x86-64 debugger
 	- https://github.com/eteran/edb-debugger
 - Hermit: A reproducible container
