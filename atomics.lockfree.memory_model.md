@@ -503,6 +503,12 @@
 
 ### Papers - Memory Model: 2024
 
+- Extending the C/C++ Memory Model with Inline Assembly
+	- OOPSLA 2024
+	- Paulo Emílio de Vilhena, Ori Lahav, Viktor Vafeiadis, Azalea Raad
+	- https://doi.org/10.1145/3689749
+	- https://www.youtube.com/watch?v=nxiQZ-VgG14
+	- https://devilhena-paulo.github.io/files/inline-x86-asm-slides.pdf
 - How Hard Is Weak-Memory Testing?
 	- POPL 2024
 	- Soham Chakraborty, Shankara Narayanan Krishna, Umang Mathur, Andreas Pavlogiannis
