@@ -1467,6 +1467,8 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	- https://github.com/runestubbe/Crinkler
 - fasm_packer: PE Packer written in x86 assembly (FASM syntax)
 	- https://github.com/DimitriFourny/resources/tree/master/fasm_packer
+- Fatpack: A Windows executable (PE) packer (x64) with LZMA compression and with full TLS (Thread Local Storage) support
+	- https://github.com/Fatmike-GH/Fatpack
 - kkpView: Compression ratio analyzer for 64k intros through kkp files (rekkrunchy output)
 	- https://github.com/ConspiracyHu/kkpView-public
 - kkrunchy: pretty good executable compression
