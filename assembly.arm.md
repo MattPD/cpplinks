@@ -648,6 +648,10 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - Strengthening the Shield: MTE in Heap Allocators
 	- 2024
 	- https://www.darknavy.org/blog/strengthening_the_shield_mte_in_memory_allocators/
+- The Memory Tagging Extension MTE for Arm AArch64
+	- Lund Linux Conference (LLC) 2024
+	- Linus Walleij
+	- https://www.youtube.com/watch?v=M8BVlx-ILOM
 - TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution
 	- 2024
 	- Juhee Kim, Jinbum Park, Sihyeon Roh, Jaeyoung Chung, Youngjoo Lee, Taesoo Kim, Byoungyoung Lee
