@@ -114,8 +114,10 @@
 	- https://careersatdoordash.com/blog/examining-problematic-memory-with-bpf-perf-and-memcheck/
 - Memory Profiling
 	- 2024; Denis Bakhvalov
-	- Introduction, Memory Usage Case Study (Heaptrack), Memory Footprint with Intel SDE, Memory Footprint Case Study, Data Locality and Reuse Distances
-	- https://easyperf.net/blog/2024/02/12/Memory-Profiling-Part1
+	- 1. Introduction, Memory Usage Case Study (Heaptrack), Memory Footprint with Intel SDE, Memory Footprint Case Study, Data Locality and Reuse Distances
+		- https://easyperf.net/blog/2024/02/12/Memory-Profiling-Part1
+	- 2. Memory Usage Case Study
+		- https://easyperf.net/blog/2024/02/12/Memory-Profiling-Part2
 - PROMPT: A Fast and Extensible Memory Profiling Framework
 	- OOPSLA 2024
 	- Ziyang Xu, Yebin Chon, Yian Su, Zujun Tan, Sotiris Apostolakis, Simone Campanoni, David I. August
