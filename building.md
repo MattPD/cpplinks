@@ -95,6 +95,8 @@ See also:
 
 ### Caching: LLVM Content-Addressable Storage (llvm-cas)
 
+- Content Addressable Storage - LLVM Documentation
+	- https://llvm.org/docs/ContentAddressableStorage.html
 - RFC: Add an LLVM CAS library and experiment with fine-grained caching for builds
 	- 2022-02
 	- https://discourse.llvm.org/t/rfc-add-an-llvm-cas-library-and-experiment-with-fine-grained-caching-for-builds/59864
