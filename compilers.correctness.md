@@ -2111,6 +2111,11 @@ Validation: Including translation validation, equivalence checking.
 	- 2017 Ph.D. Dissertation; Ramana Kumar
 	- http://www.sigplan.org/Awards/Dissertation/2017_kumar.pdf
 	- https://cakeml.org/
+- Simple Relational Correctness Proofs for Static Analyses and Program Transformations
+	- Principles of Programming Languages (POPL) 2004
+	- Nick Benton
+	- https://dl.acm.org/doi/10.1145/982962.964003
+	- https://www.microsoft.com/en-us/research/publication/simple-relational-correctness-proofs-for-static-analyses-and-program-transformations/
 - Vale (Verified Assembly Language for Everest)
 	- USENIX Security Symposium 2017
 	- Barry Bond and Chris Hawblitzel, Manos Kapritsos, K. Rustan M. Leino, Jacob R. Lorch, Bryan Parno, Ashay Rane, Srinath Setty, Laure Thompson
