@@ -3282,6 +3282,11 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 		- Hardwear.io 2018
 			- https://www.youtube.com/watch?v=PQzbtrxaYWQ
 			- https://media.hardwear.io/tlbleed-when-protecting-your-cpu-caches-is-not-enough/
+- When Good Kernel Defenses Go Bad: Reliable and Stable Kernel Exploits via Defense-Amplified TLB Side-Channel Leaks
+	- USENIX Security 2025
+	- Lukas Maar, Lukas Giner, Daniel Gruss, Stefan Mangard
+	- https://gruss.cc/files/usenix25-tlbsidechannel.pdf
+	- https://www.usenix.org/conference/usenixsecurity25/presentation/maar-kernel
 
 ---
 
