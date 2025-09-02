@@ -132,6 +132,10 @@
 
 ### Memory Reclamation: Readings: 2025
 
+- Design and Verification of Concurrent Memory Reclamation Algorithms
+	- 2025 Ph.D. Dissertation
+	- Jaehwang Jung
+	- https://drive.google.com/file/d/15UaCM5oPpeoeXe0g4JRML2K_2oE4Idqy/view
 - Leveraging Immutability to Validate Hazard Pointers for Optimistic Traversals
 	- PLDI 2025
 	- Janggun Lee, Jeonghyeon Kim, Jeehoon Kang
