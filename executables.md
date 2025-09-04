@@ -495,6 +495,9 @@ BTF: BPF Type Format
 # ELF
 
 - ELF and ABI Standards - Linux Foundation Referenced Specifications - http://refspecs.linuxfoundation.org/elf/
+- ELF Object File Format: The official repository for the ELF Object File Format specification, part of the SVR4 gABI.
+	- https://github.com/xinuos/gabi
+	- HTML: https://gabi.xinuos.com/
 - Awesome ELF Resources: ELF Resources and Links
 	- https://github.com/tmpout/awesome-elf
 	- https://tmpout.sh/2/15.html
