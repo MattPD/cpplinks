@@ -848,6 +848,11 @@ See also:
 	- Bill Hoffman
 	- https://www.youtube.com/watch?v=uiZeCK1gWFc
 	- https://github.com/boostcon/cppnow_presentations_2025/blob/main/Presentations/Import_CMake_Mastering_Cpp_Modules.pdf
+- Post-Modern CMake: From 3.0 to 4.0
+	- C++Now 2025
+	- Vito Gamberini
+	- https://www.youtube.com/watch?v=K5Kg8TOTKjU
+	- https://github.com/boostcon/cppnow_presentations_2025/blob/main/Presentations/Post-Modern_Cmake.pdf
 - Pragmatic CMake: How to Avoid Headaches with Simple CMake
 	- C++Now 2025
 	- Bret Brown
