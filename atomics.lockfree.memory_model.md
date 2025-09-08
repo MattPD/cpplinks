@@ -504,6 +504,14 @@
 	- https://www.youtube.com/watch?v=d1JOv6juMlI
 	- Xmm Model Checker Benchmarks
 		- https://doi.org/10.5281/zenodo.13912066
+- Symbolic MRD: Dynamic Memory, Undefined Behaviour, and Extrinsic Choice
+	- OOPSLA 2025
+		- Jay Richards, Daniel Wright, Simon Cooksey, Mark Batty
+		- https://doi.org/10.1145/3721089
+		- https://graymalk.in/papers/oopsla25.pdf
+	- VeTSS Annual Conference 2025
+		- Mark Batty
+		- https://www.youtube.com/watch?v=Qcf_vANZdKM
 
 ### Papers - Memory Model: 2024
 
