@@ -1471,6 +1471,12 @@ See also: [Computer Architecture](comparch.md)
 	- Fabian Rauscher, Carina Fiedler, Andreas Kogler, Daniel Gruss
 	- https://dx.doi.org/10.14722/ndss.2025.23253
 	- https://gruss.cc/files/demote.pdf
+- Hidden in Plain Sight: Scriptless Microarchitectural Attacks via TrueType Font Hinting
+	- Microarchitecture Security Conference (uASC) 2025
+	- Leon Trampert, Michael Schwarz
+	- https://doi.org/10.46586/uasc.2025.005
+	- https://roots.ec/publications/hidden-in-plain-sight-scriptless-microarchitectural-attacks-via-truetype-font-hinting/
+	- https://github.com/cispa/fontention
 - Slice+Slice Baby: Generating Last-Level Cache Eviction Sets in the Blink of an Eye
 	- 2025 IEEE Symposium on Security and Privacy (S&P)
 	- Bradley Morgan, Gal Horowitz, Sioli O'Connell, Stephan van Schaik, Chitchanok Chuengsatiansup, Daniel Genkin, Olaf Maennel, Paul Montague, Eyal Ronen, Yuval Yarom
