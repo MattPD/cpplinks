@@ -590,6 +590,15 @@
 	- https://github.com/rust-diplomat/diplomat/
 - rustcxx: Using C++ from Rust made easy
 	- https://github.com/google/rustcxx
+- Zngur: A C++/Rust interop tool
+	- https://github.com/HKalbasi/zngur
+	- https://hkalbasi.github.io/zngur/
+	- Zngur: Simplified Rust/C++ Integration
+		- C++Now 2025
+		- David Sankel
+		- https://www.youtube.com/watch?v=k_sp5wvoEVM
+		- https://schedule.cppnow.org/wp-content/uploads/2025/03/Zngur.pdf
+		- https://github.com/boostcon/cppnow_presentations_2025/blob/main/Presentations/Zngur.pdf
 
 ## Rust: Readings
 
