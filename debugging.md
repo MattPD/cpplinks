@@ -215,12 +215,16 @@ _Books, Books Reviews_
 	- https://www.sciencedirect.com/science/article/pii/S0167642318303629
 	- https://oslab.cs.tsinghua.edu.cn/debugopt/debugopt.html
 - Demystifying Debuggers - Ryan Fleury
-	- Demystifying Debuggers, Part 1: A Busy Intersection
+	- https://www.rfleury.com/p/posts-table-of-contents#demystifying-debuggers-series
+	- Part 1: A Busy Intersection
 		- 2024-12-16
 		- https://www.rfleury.com/p/demystifying-debuggers-part-1-a-busy
-	- Demystifying Debuggers, Part 2: The Anatomy Of A Running Program
+	- Part 2: The Anatomy Of A Running Program
 		- 2024-12-22
 		- https://www.rfleury.com/p/demystifying-debuggers-part-2-the
+	- Part 3: Debugger-Kernel Interaction
+		- 2024-12-28
+		- https://www.rfleury.com/p/demystifying-debuggers-part-3-kernel
 - Eli Bendersky - http://eli.thegreenplace.net/tag/debuggers
 	- How debuggers work
 		- Part 1 - Basics - http://eli.thegreenplace.net/2011/01/23/how-debuggers-work-part-1
