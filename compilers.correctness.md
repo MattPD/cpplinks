@@ -2143,6 +2143,16 @@ Validation: Including translation validation, equivalence checking.
 
 ## Verification: 2024
 
+- Fixing Latent Unsound Abstract Operators in the eBPF Verifier of the Linux Kernel (NEAT paper)
+	- Static Analysis Symposium (SAS) 2024
+	- Matan Shachnai, Harishankar Vishwanathan, Srinivas Narayana, Santosh Nagarakatte
+	- https://people.cs.rutgers.edu/~santosh.nagarakatte/papers/sas24-preprint.pdf
+	- https://www.youtube.com/watch?v=DgfUqcW2BeY
+	- https://2024.splashcon.org/details/sas-2024-papers/10/Fixing-Latent-Unsound-Abstract-Operators-in-the-eBPF-Verifier-of-the-Linux-Kernel-NE
+	- Verifying the eBPF Verifier in the Linux Kernel
+		- 2025 Distinguished Speaker Webinar, Center for Cyber Security Research, UND
+		- Santosh Nagarakatte
+		- https://www.youtube.com/watch?v=vLSlRhZxeyE
 - From Mechanized Semantics to Verified Compilation: the Clight Semantics of CompCert
 	- 2024 Fundamental Approaches to Software Engineering (FASE)
 	- Sandrine Blazy
