@@ -120,6 +120,8 @@
 		- https://easyperf.net/blog/2024/02/12/Memory-Profiling-Part2
 	- 3\. Memory Footprint with SDE
 		- https://easyperf.net/blog/2024/02/12/Memory-Profiling-Part3
+	- 4\. Memory Footprint Case Study
+		- https://easyperf.net/blog/2024/02/12/Memory-Profiling-Part4
 - PROMPT: A Fast and Extensible Memory Profiling Framework
 	- OOPSLA 2024
 	- Ziyang Xu, Yebin Chon, Yian Su, Zujun Tan, Sotiris Apostolakis, Simone Campanoni, David I. August
