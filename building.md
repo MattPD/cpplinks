@@ -88,10 +88,14 @@ See also:
 	- http://www.vestasys.org/doc/pubs/pldi-00-04-20.pdf
 	- Vesta Configuration Management System - http://www.vestasys.org/#publications
 - cHash: Detection of Redundant Compilations via AST Hashing
-	- USENIX Annual Technical Conference 2017
+	- 2017 USENIX Annual Technical Conference (ATC)
 	- Christian Dietrich, Valentin Rothberg, Ludwig Füracker, Andreas Ziegler, Daniel Lohmann
 	- https://www.usenix.org/conference/atc17/technical-sessions/presentation/dietrich
 	- cHash Compiler Plugins and related tools - https://github.com/luhsra/chash
+- IRHash: Efficient Multi-Language Compiler Caching by IR-Level Hashing
+	- 2025 USENIX Annual Technical Conference (ATC)
+	- Tobias Landsberg, Johannes Grunenberg, Christian Dietrich, Daniel Lohmann
+	- https://www.usenix.org/conference/atc25/presentation/landsberg
 
 ### Caching: LLVM Content-Addressable Storage (llvm-cas)
 
