@@ -882,6 +882,9 @@
 		- Understanding Memory Ordering using LKMM and Herd7
 			- 2023; Joel Fernandes
 			- http://www.joelfernandes.org/resources/lkmm_herd7.pdf
+- GenMC: Generic Model Checking for C Programs
+	- a stateless model checker than can verify C/C++ programs under weak memory models
+	- https://github.com/MPI-SWS/genmc
 - MemSynth: An advanced automated reasoning tool for memory consistency model specifications.
 	- https://github.com/uwplse/memsynth
 	- Build an x86 memory model!
