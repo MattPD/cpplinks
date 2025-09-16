@@ -3067,6 +3067,13 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Jason Kim, Jalen Chuang, Daniel Genkin, Yuval Yarom
 	- https://predictors.fail/
 	- https://predictors.fail/files/FLOP.pdf
+- Half Spectre, Full Exploit: Hardening Rowhammer Attacks with Half Spectre Gadgets
+	- 2025 IEEE Symposium on Security and Privacy (S&P)
+	- Andrea Di Dio, Mathé Hertogh, Cristiano Giuffrida
+	- https://doi.org/10.1109/SP61157.2025.00207
+	- https://github.com/vusec/half-spectre
+	- https://www.vusec.net/projects/half-spectre/
+	- https://download.vusec.net/papers/halfspectre_sp25.pdf
 - SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon
 	- 2025 IEEE Symposium on Security and Privacy (S&P)
 	- Jason Kim, Daniel Genkin, Yuval Yarom
