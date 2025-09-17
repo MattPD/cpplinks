@@ -326,6 +326,11 @@ _Books, Books Reviews_
 
 ### Correctness
 
+- A data-driven approach to debug info quality
+	- 2024 LLVM Developers' Meeting
+	- Emil Pedersen
+	- https://www.youtube.com/watch?v=zluvVkxK6oY
+	- https://llvm.org/devmtg/2024-10/slides/studenttalks/Pedersen-DataDrivenApproachToDebugInfoQuality.pdf
 - Accurate Coverage Metrics for Compiler-Generated Debugging Information
 	- ACM SIGPLAN International Conference on Compiler Construction (CC) 2024
 	- J. Ryan Stinnett, Stephen Kell
