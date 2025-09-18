@@ -877,6 +877,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Jiming Wang, Yan Kang, Chenggang Wu, Yuhao Hu, Yue Sun, Jikai Ren, Yuanming Lai, Mengyao Xie, Charles Zhang, Tao Li, Zhe Wang
 	- https://www.usenix.org/conference/usenixsecurity24/presentation/wang-jiming
 	- https://github.com/JimWongM/OptFuzz
+- Towards Understanding the Bugs in Solidity Compiler
+	- ACM SIGSOFT International Symposium on Software Testing and Analysis ISSTA 2024
+	- Haoyang Ma, Wuqi Zhang, Qingchao Shen, Yongqiang Tian, Junjie Chen, Shing-Chi Cheung
+	- https://arxiv.org/abs/2407.05981
+	- https://doi.org/10.1145/3650212.3680362
+	- https://github.com/haoyang9804/ISSTA24-Solidity-Study
 
 #### Testing: Readings: Fuzzing: 2023
 
