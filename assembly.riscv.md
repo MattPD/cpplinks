@@ -845,11 +845,18 @@ https://riscv.org/software-tools/
 	- Multiply Divide
 		- https://projectf.io/posts/riscv-multiply-divide/
 - RISC-V Assembly Language Programming
+	- John Winans
 	- https://github.com/johnwinans/rvalp
 	- CSCI 463: Computer Architecture and Systems Organization
 		- Spring 2020; John Winans
 		- https://www.youtube.com/playlist?list=PL3by7evD3F50uclXhrmlwoWQicSDTy8yT
 		- http://faculty.cs.niu.edu/~winans/CS463/
+- RISC-V Assembly Language Programming: Unlock the Power of the RISC-V Instruction Set
+	- 2024; Stephen Smith
+	- https://smist08.wordpress.com/2024/02/16/risc-v-assembly-language-programming/
+	- Source code
+		- https://github.com/Apress/RISC-V-Assembly-Language-Programming
+		- https://github.com/smist09/riscv-assembly-language
 - RISC-V Bytes - https://danielmangum.com/categories/risc-v-bytes/
 	- Cross-Platform Debugging with QEMU and GDB - https://danielmangum.com/posts/risc-v-bytes-qemu-gdb/
 	- Caller and Callee Saved Registers - https://danielmangum.com/posts/risc-v-bytes-caller-callee-registers/
