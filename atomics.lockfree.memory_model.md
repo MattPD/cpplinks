@@ -583,6 +583,14 @@
 	- https://popl22.sigplan.org/details/POPL-2022-popl-research-papers/54/The-Leaky-Semicolon-Compositional-Semantic-Dependencies-for-Relaxed-Memory-Concurren
 	- JetBrains Research Rus 2021
 		- https://www.youtube.com/watch?v=AsrckMUlIjY
+- Verifying Optimizations of Concurrent Programs in the Promising Semantics
+	- PLDI 2022
+	- Junpeng Zha, Hongjin Liang, Xinyu Feng
+	- https://doi.org/10.1145/3519939.3523734
+	- https://www.youtube.com/watch?v=OFxKsiZeWLg
+	- https://pldi22.sigplan.org/details/pldi-2022-pldi/67/Verifying-Optimizations-of-Concurrent-Programs-in-the-Promising-Semantics
+	- Technical Appendix and Coq Development
+		- https://plax-lab.github.io/publications/promisingcomp/
 
 ### Papers - Memory Model: 2021
 
