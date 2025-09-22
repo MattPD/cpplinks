@@ -3080,6 +3080,14 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- https://predictors.fail/
 	- https://predictors.fail/files/SLAP.pdf
 	- https://github.com/slap-flop/slap-artifacts
+- Training Solo: On the Limitations of Domain Isolation Against Spectre-v2 Attacks
+	- 2025 IEEE Symposium on Security and Privacy (S&P)
+		- Sander Wiebing, Cristiano Giuffrida
+		- https://doi.org/10.1109/SP61157.2025.00253
+		- https://www.vusec.net/projects/training-solo/
+		- https://github.com/vusec/training-solo
+	- Arm CPU Security Update: Training Solo
+		- https://developer.arm.com/documentation/110504/latest/
 
 ## Speculation: 2024
 
