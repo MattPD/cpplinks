@@ -110,6 +110,17 @@ See also:
 
 ## Readings: Evaluation
 
+### Readings: Evaluation: 2025
+
+- LibAFLGo: Evaluating and Advancing Directed Greybox Fuzzing
+	- 2025 IEEE European Symposium on Security and Privacy (EuroS&P)
+	- Elia Geretto, Andrea Jemmett, Cristiano Giuffrida, Herbert Bos
+	- https://doi.org/10.1109/EuroSP63326.2025.00029
+	- https://download.vusec.net/papers/libaflgo_eurosp25.pdf
+	- https://github.com/vusec/libaflgo
+
+### Readings: Evaluation: 2017-2024
+
 - Dissecting American Fuzzy Lop - A FuzzBench Evaluation
 	- International Fuzzing Workshop (FUZZING) 2022
 	- Andrea Fioraldi, Alessandro Mantovani, Dominik Maier, Davide Balzarotti
@@ -151,6 +162,8 @@ See also:
 - Statistical Evaluation of a Fuzzing Dictionary
 	- https://bshastry.github.io/2018/10/01/Evaluating-Dictionary-For-Fuzzing.html
 	- Static Program Analysis as a Fuzzing Aid
+		- Research in Attacks, Intrusions, and Defenses (RAID 2017)
+		- Bhargava Shastry, Markus Leutner, Tobias Fiebig, Kashyap Thimmaraju, Fabian Yamaguchi, Konrad Rieck, Stefan Schmid, Jean-Pierre Seifert, Anja Feldmann
 		- https://link.springer.com/chapter/10.1007/978-3-319-66332-6_2
 	- Orthrus: A tool to manage, conduct, and assess dictionary-based fuzz testing
 		- https://github.com/test-pipeline/Orthrus
