@@ -400,6 +400,12 @@ _Books, Books Reviews_
 - Possible issues with debugging and inspecting compiler-optimized binaries
 	- 2020; William Cohen
 	- https://developers.redhat.com/blog/2020/03/13/possible-issues-with-debugging-and-inspecting-compiler-optimized-binaries/
+- Robustifying Debug Information Updates in LLVM via Control-Flow Conformance Analysis
+	- 2025 ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)
+	- Shan Huang, Jingjing Liang, Ting Su, Qirun Zhang
+	- https://doi.org/10.1145/3729267
+	- https://github.com/ecnusse/MetaLoc
+	- https://www.youtube.com/watch?v=n_Kkaa4wJCo
 - Secure Delivery of Program Properties Through Optimizing Compilation
 	- ACM International Conference on Compiler Construction (CC) 2020
 	- Son Tuan Vu, Karine Heydemann, Arnaud de Grandmaison, Albert Cohen
