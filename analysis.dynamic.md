@@ -545,6 +545,12 @@ Compiler-Based Static Instrumentation
 	- https://hexhive.epfl.ch/publications/files/25NDSS3.pdf
 	- QMSan: QEMU-based Memory Sanitizer for binary software
 		- https://github.com/heinzeen/qmsan
+- RangeSanitizer: Detecting Memory Errors with Efficient Range Checks
+	- USENIX Security Symposium 2025
+	- Floris Gorter, Cristiano Giuffrida
+	- https://www.usenix.org/conference/usenixsecurity25/presentation/gorter
+	- RangeSanitizer (RSan): detects spatial and temporal memory errors in C/C++ programs using efficient range checks
+		- https://github.com/vusec/rangesanitizer
 - SpecASan: Mitigating Transient Execution Attacks Using Speculative Address Sanitization
 	- International Symposium on Computer Architecture (ISCA) 2025
 	- Saber Ganjisaffar, Esmaeil Mohmmadian Koruyeh, Jason Zellmer, Hodjat Asghari Esfeden, Chengyu Song, Nael B. Abu-Ghazaleh
