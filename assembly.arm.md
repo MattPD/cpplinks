@@ -1008,6 +1008,10 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 - ARM Intrinsics - MSDN - Microsoft - https://docs.microsoft.com/en-us/cpp/intrinsics/arm-intrinsics
 - SIMD ISAs – Arm Developer
 	- https://developer.arm.com/architectures/instruction-sets/simd-isas
+- SIMD Loops
+	- a collection of self-contained, real-world loop kernels — written in a mix of C, ACLE intrinsics, and inline assembly — that target everything from simple arithmetic to matrix multiplication, sorting, and string processing
+	- Neon, SVE (Scalable Vector Extension), SME (Scalable Matrix Extension)
+	- https://gitlab.arm.com/architecture/simd-loops
 - Vectorization cost modeling for NEON, AVX, and SVE
 	- Performance Evaluation 140–141 (2020)
 	- Angela Pohl, Biagio Cosenza, Ben Juurlink
