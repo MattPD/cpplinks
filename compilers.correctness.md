@@ -1725,6 +1725,12 @@ Validation: Including translation validation, equivalence checking.
 	- https://dl.acm.org/doi/10.1145/3649863
 	- Technical Report
 		- https://arxiv.org/abs/2403.05302
+- Towards Trustworthy Automated Program Verifiers: Formally Validating Translations into an Intermediate Verification Language
+	- PLDI 2024
+	- Gaurav Parthasarathy, Thibault Dardinier, Benjamin Bonneau, Peter Müller, Alexander J. Summers
+	- https://doi.org/10.1145/3656438
+	- https://arxiv.org/abs/2404.03614
+	- https://www.youtube.com/watch?v=slnuZHrnqf0
 - Translation Validation for JIT Compiler in the V8 JavaScript Engine
 	- ICSE 2024
 	- Seungwan Kwon, Jaeseong Kwon, Wooseok Kang, Juneyoung Lee, Kihong Heo
