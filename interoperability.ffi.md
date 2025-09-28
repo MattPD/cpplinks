@@ -669,6 +669,8 @@
 		- https://www.douggregor.net/posts/swift-for-cxx-practitioners-dsls/
 	- Part 12: Move Semantics
 		- https://www.douggregor.net/posts/swift-for-cxx-practitioners-move/
+	- Part 13: Flexible Array Members
+		- https://www.douggregor.net/posts/swift-for-cxx-practitioners-flexible-array-members/
 - Vision Documents
 	- Using C++ from Swift
 		- https://github.com/apple/swift-evolution/blob/main/visions/using-c%2B%2B-from-swift.md
