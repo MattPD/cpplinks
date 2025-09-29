@@ -484,6 +484,11 @@
 	- https://theses.hal.science/tel-04963647/
 	- https://github.com/vellvm/ctrees/tree/chappe-phd-final
 	- https://github.com/vellvm/micro-vellvm-concurrency/tree/chappe-phd
+- Model Checking C/C++ with Mixed-Size Accesses
+	- POPL 2025
+	- Iason Marmanis, Michalis Kokologiannakis, Viktor Vafeiadis
+	- https://doi.org/10.1145/3704911
+	- https://www.youtube.com/watch?v=x-Ezy36HySA
 - Monadic Interpreters for Concurrent Memory Models: Executable Semantics of a Concurrent Subset of LLVM IR
 	- ACM SIGPLAN International Conference on Certified Programs and Proofs (CPP) 2025
 	- Nicolas Chappe, Ludovic Henrio, Yannick Zakowski
