@@ -1400,6 +1400,13 @@ See also: [Computer Architecture](comparch.md)
 	- 2025
 	- Nicholas Mosier, Hamed Nemati, John C. Mitchell, Caroline Trippel
 	- https://arxiv.org/abs/2501.12890
+- Branch Privilege Injection: Compromising Spectre v2 Hardware Mitigations by Exploiting Branch Predictor Race Conditions
+	- 2025 USENIX Security Symposium
+	- Sandro Rüegge, Johannes Wikner, Kaveh Razavi
+	- https://www.usenix.org/conference/usenixsecurity25/presentation/ruegge
+	- https://comsec.ethz.ch/research/microarch/branch-privilege-injection/
+	- https://comsec.ethz.ch/wp-content/files/bprc_sec25.pdf
+	- https://github.com/comsec-group/bprc
 
 ## Branch Predictor: 2024
 
