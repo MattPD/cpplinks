@@ -91,6 +91,10 @@ See also:
 		- Andreas Zeller, Ralf Hildebrandt
 		- https://www.st.cs.uni-saarland.de/publications/details/zeller-tse-2002/
 		- https://blog.acolyer.org/2015/11/16/simplifying-and-isolating-failure-inducing-input/
+		- Simplifying and Isolating Failure-Inducing Input: A Retrospective on Delta Debugging
+			- IEEE Transactions on Software Engineering 51(3) 2025
+			- Andreas Zeller, Ralf Hildebrandt
+			- https://doi.ieeecomputersociety.org/10.1109/TSE.2025.3537167
 	- HDD: Hierarchical Delta Debugging
 		- ICSE 2006
 		- Ghassan Misherghi, Zhendong Su
