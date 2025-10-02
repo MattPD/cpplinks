@@ -123,6 +123,20 @@
 	- https://fingolfin.org/blog/20200327/stdio-abi.html
 - libc++’s ABI Guarantees
 	- https://libcxx.llvm.org/ABIGuarantees.html
+- MPI Application Binary Interface Standardization
+	- EuroMPI 2023
+	- Jeff R. Hammond, Lisandro Dalcin, Erik Schnetter, Marc Pérache, Jean-Baptiste Besnard, Jed Brown, Gonzalo Brito Gadeschi, Joseph Schuchart, Simon Byrne, Hui Zhou
+	- https://arxiv.org/abs/2308.11214
+	- https://doi.org/10.1145/3615318.3615319
+	- https://eurompi23.github.io/assets/slides/Hammond_eurompi23.pdf
+	- MVAPICH User Group Conference (MUG) 2023
+		- Jeff R. Hammond
+		- https://www.youtube.com/watch?v=kNk9efs4m-c
+	- Modern MPI and what you need to know about it
+		- 2025 EasyBuild User Meeting Keynote
+		- Jeff R. Hammond
+		- https://www.youtube.com/watch?v=2-4ph2vryiw
+		- https://users.ugent.be/~kehoste/eum25/014_eum25_keynote_JeffHammond_MPI.pdf
 - Realistic Realizability: Specifying ABIs You Can Count On
 	- Object-Oriented Programming Systems, Languages, and Applications (OOPSLA) 2024
 	- Andrew Wagner, Zachary Eisbach, Amal Ahmed
