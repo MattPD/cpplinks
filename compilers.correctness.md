@@ -2155,6 +2155,12 @@ Validation: Including translation validation, equivalence checking.
 
 ## Verification: 2024
 
+- Chamois: agile development of CompCert extensions for optimization and security
+	- Journées Francophones des Langages Applicatifs (JFLA) 2024
+	- David Monniaux, Sylvain Boulmé
+	- https://inria.hal.science/hal-04406465/
+	- https://inria.hal.science/hal-04406465/file/JFLA_2024_presentation_Monniaux.pdf
+	- https://www-verimag.imag.fr/the-KVX-CompCert-Compiler.html
 - Fixing Latent Unsound Abstract Operators in the eBPF Verifier of the Linux Kernel (NEAT paper)
 	- Static Analysis Symposium (SAS) 2024
 	- Matan Shachnai, Harishankar Vishwanathan, Srinivas Narayana, Santosh Nagarakatte
