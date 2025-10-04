@@ -46,6 +46,20 @@
 	- (lock-free lock-free stack, queues, unordered set/map, skip-list)
 	- https://github.com/khizmax/libcds#references
 
+## Data Structures: Readings: Correctness
+
+- How I Learned to Stop Worrying and Love Juggling C++ Atomics
+	- 2024
+	- https://brilliantsugar.github.io/posts/how-i-learned-to-stop-worrying-and-love-juggling-c++-atomics/
+	- Relacy, C11Tester, and Spin for testing lock-free C++ code: lock-free triple buffer data structure
+- RELINCHE: Automatically Checking Linearizability under Relaxed Memory Consistency
+	- POPL 2025 
+	- Pavel Golovin, Michalis Kokologiannakis, Viktor Vafeiadis
+	- https://doi.org/10.1145/3704906
+	- https://doi.org/10.5281/zenodo.13935829
+	- https://github.com/MPI-SWS/genmc/tree/master/src/Verification/Relinche
+	- https://www.youtube.com/watch?v=aQ2FAsQbuRk
+
 ## Data Structures: Readings: Queues
 
 - Mechanized Verification of a Fine-Grained Concurrent Queue from Meta’s Folly Library
@@ -386,13 +400,6 @@
 - Trip Report: Ad-Hoc Meeting on Threads in C++
 	- 2006; Eric Niebler
 	- http://www.artima.com/cppsource/threads_meeting.html
-
-## Correctness
-
-- How I Learned to Stop Worrying and Love Juggling C++ Atomics
-	- 2024
-	- https://brilliantsugar.github.io/posts/how-i-learned-to-stop-worrying-and-love-juggling-c++-atomics/
-	- Relacy, C11Tester, and Spin for testing lock-free C++ code
 
 ## Dissertations
 
