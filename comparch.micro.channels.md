@@ -960,6 +960,15 @@ See also: [Computer Architecture](comparch.md)
 	- PriSC 2025
 		- https://popl25.sigplan.org/details/prisc-2025-PriSC-2024-1/6/Preservation-of-Speculative-Constant-time-by-Compilation
 		- https://www.youtube.com/watch?v=eWhpdP-pQp0
+- SNIP: Speculative Execution and Non-Interference Preservation for Compiler Transformations
+	- POPL 2025
+	- Sören van der Wall, Roland Meyer
+	- https://doi.org/10.1145/3704887
+	- https://www.youtube.com/watch?v=ZbIm5VP7T0w
+	- https://www.tu-braunschweig.de/fileadmin/Redaktionsgruppen/Institute_Fakultaet_1/TCS/vdwall/snip_popl.pdf
+	- PriSC 2025
+		- https://www.youtube.com/watch?v=AWQbr_rm5oE
+		- https://www.tu-braunschweig.de/fileadmin/Redaktionsgruppen/Institute_Fakultaet_1/TCS/vdwall/snip_prisc.pdf
 - TLBlur: Compiler-Assisted Automated Hardening against Controlled Channels on Off-the-Shelf Intel SGX Platforms
 	- USENIX Security 2025
 	- Daan Vanoverloop, Andres Sanchez, Flavio Toffalini, Frank Piessens, Mathias Payer, Jo Van Bulck
