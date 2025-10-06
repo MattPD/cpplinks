@@ -319,6 +319,15 @@ _Books, Books Reviews_
 - (Windows) Data Breakpoints - https://blogs.msdn.microsoft.com/reiley/2011/07/21/data-breakpoints/
 - (Windows) Side Effects of Debugger - https://blogs.msdn.microsoft.com/reiley/2011/08/27/side-effects-of-debugger/
 
+### Implementation: 2025
+
+- Writing a Windows ARM64 Debugger for Reverse Engineering: KoiDbg
+	- 2025-05-03
+	- João Vitor
+	- https://keowu.re/posts/Writing-a-Windows-ARM64-Debugger-for-Reverse-Engineering-KoiDbg/
+	- KoiDbg: Windows ARM64 Debugger for Reverse Engineering
+		- https://github.com/keowu/koidbg
+
 ### Implementation: 2023
 
 - D2X: An eXtensible conteXtual Debugger for Modern DSLs
