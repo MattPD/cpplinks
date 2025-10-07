@@ -2335,6 +2335,13 @@ Validation: Including translation validation, equivalence checking.
 	- Clément Pit-Claudel
 	- https://people.csail.mit.edu/cpitcla/thesis/thesis.html
 	- https://people.csail.mit.edu/cpitcla/thesis/thesis.pdf
+- Simple, Light, Yet Formally Verified, Global Common Subexpression Elimination and Loop-Invariant Code Motion
+	- LCTES 2021: ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems
+	- David Monniaux, Cyril Six
+	- https://arxiv.org/abs/2105.01344
+	- https://doi.org/10.1145/3461648.3463850
+	- https://doi.org/10.5281/zenodo.4737730
+	- https://gricad-gitlab.univ-grenoble-alpes.fr/certicompil/compcert-kvx
 
 ## Verification: 2020
 
