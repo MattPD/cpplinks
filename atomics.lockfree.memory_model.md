@@ -579,6 +579,10 @@
 	- https://arxiv.org/abs/2304.03714
 	- https://pldi23.sigplan.org/details/pldi-2023-pldi/32/Optimal-Reads-From-Consistency-Checking-for-C11-Style-Memory-Models
 	- https://doi.org/10.5281/zenodo.7816526
+- Understanding and Fulfilling the Desiderata for Relaxed Memory Models
+	- 2023 Ph.D. Dissertation
+	- Sung-Hwan Lee
+	- https://sf.snu.ac.kr/sunghwan.lee/thesis/
 
 ### Papers - Memory Model: 2022
 
