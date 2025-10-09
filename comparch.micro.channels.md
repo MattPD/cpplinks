@@ -951,6 +951,14 @@ See also: [Computer Architecture](comparch.md)
 
 #### Defense: Software: Compilation and Programming Languages: 2025
 
+- Do You Even Lift? Strengthening Compiler Security Guarantees Against Spectre Attacks
+	- POPL 2025
+	- Xaver Fabian, Marco Patrignani, Marco Guarnieri, Michael Backes
+	- https://doi.org/10.1145/3704867
+	- https://arxiv.org/abs/2405.10089
+	- https://www.youtube.com/watch?v=h7C_rF6o9xI
+	- https://xfabian.github.io/files/popl25_slides.pdf
+	- https://github.com/XFabian/secure_comp_lifting
 - Preservation of Speculative Constant-Time by Compilation
 	- Santiago Arranz Olmos, Gilles Barthe, Lionel Blatter, Benjamin Gregoire, Vincent Laporte
 	- POPL 2025
