@@ -2175,6 +2175,15 @@ Validation: Including translation validation, equivalence checking.
 	- 2024 Fundamental Approaches to Software Engineering (FASE)
 	- Sandrine Blazy
 	- https://link.springer.com/chapter/10.1007/978-3-031-57259-3_1
+- Fully Verified Instruction Scheduling
+	- OOPSLA 2024
+	- Ziteng Yang, Jun Shirako, Vivek Sarkar
+	- https://doi.org/10.1145/3689739
+	- https://doi.org/10.5281/zenodo.13625829
+	- https://github.com/Youngzt998/CompCertDev/tree/dune-ffi
+	- https://youngzt998.github.io/papers/oopsla24/oopsla24-final.pdf
+	- https://youngzt998.github.io/papers/oopsla24/oopsla24-slides.pdf
+	- https://www.youtube.com/watch?v=a5GzFGS1HYM
 - Lightweight, Modular Verification for WebAssembly-to-Native Instruction Selection
 	- ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2024
 	- Alexa VanHattum, Monica Pardeshi, Chris Fallin, Adrian Sampson, and Fraser Brown
