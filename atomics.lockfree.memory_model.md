@@ -59,6 +59,14 @@
 	- https://doi.org/10.5281/zenodo.13935829
 	- https://github.com/MPI-SWS/genmc/tree/master/src/Verification/Relinche
 	- https://www.youtube.com/watch?v=aQ2FAsQbuRk
+- Verifying Lock-Free Traversals in Relaxed Memory Separation Logic
+	- PLDI 2025
+	- Sunho Park, Jaehwang Jung, Janggun Lee, Jeehoon Kang
+	- https://doi.org/10.1145/3729248
+	- https://iris-project.org/pdfs/2025-pldi-weak-reachability.pdf
+	- https://github.com/kaist-cp/relaxed-memory-separation-logic/tree/pldi25
+	- https://doi.org/10.5281/zenodo.15004019
+	- https://www.youtube.com/watch?v=xMegZJaO5Os
 
 ## Data Structures: Readings: Queues
 
