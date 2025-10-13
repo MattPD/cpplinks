@@ -296,6 +296,10 @@ See also:
 	- https://doi.org/10.1145/3238147.3238196
 	- https://eelcovisser.org/post/306/scalable-incremental-building-with-dynamic-task-dependencies
 	- https://www.student.informatik.tu-darmstadt.de/~xx00seba/publications/pie-scalable-incremental-build.pdf
+- The Architecture of Montana: an Open and Extensible Programming Environment with an Incremental C++ Compiler
+	- ACM SIGSOFT International Symposium on Foundations of Software Engineering (FSE) 1998
+	- Michael Karasick
+	- https://doi.org/10.1145/288195.288284
 - Towards Efficient Build Ordering for Incremental Builds with Multiple Configurations
 	- ACM International Conference on the Foundations of Software Engineering (FSE) 2024
 	- Jun Lyu, Shanshan Li, He Zhang, Lanxin Yang, Bohan Liu, Manuel Rigger
