@@ -959,6 +959,10 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.youtube.com/watch?v=h7C_rF6o9xI
 	- https://xfabian.github.io/files/popl25_slides.pdf
 	- https://github.com/XFabian/secure_comp_lifting
+- FSLH: Flexible Mechanized Speculative Load Hardening
+	- 2025 IEEE Computer Security Foundations Symposium (CSF)
+	- Jonathan Baumann, Roberto Blanco, Léon Ducruet, Sebastian Harwig, Catalin Hritcu
+	- https://arxiv.org/abs/2502.03203
 - Preservation of Speculative Constant-Time by Compilation
 	- Santiago Arranz Olmos, Gilles Barthe, Lionel Blatter, Benjamin Gregoire, Vincent Laporte
 	- POPL 2025
