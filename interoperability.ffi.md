@@ -76,6 +76,11 @@
 	
 ### General: Readings: Security
 
+- Best of Both Worlds: Effective Foreign Bridge Identification in V8 Embedders for Security Analysis
+	- 2026 IEEE Symposium on Security and Privacy (S&P)
+	- Georgios Alexopoulos, Thodoris Sotiropoulos, Zhendong Su, Dimitris Mitropoulos
+	- https://grgalex.gr/assets/pdf/gasket_sp26.pdf
+	- https://github.com/theosotr/gasket-sp-eval
 - BinWrap: Hybrid Protection Against Native Node.js Add-ons
 	- ACM Asia Conference on Computer and Communications Security (ASIA CCS) 2023
 	- George Christou, Grigoris Ntousakis, Eric Lahtinen, Sotiris Ioannidis, Vasileios P. Kemerlis, Nikos Vasilakis
