@@ -1722,6 +1722,13 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- http://serhei.io/files/cauldron2024-slides.pdf
 	- https://gcc.gnu.org/wiki/cauldron2024#cauldron2024talks.profiling_framepointerless_code_with_elfutils_stacktrace
 
+## Defensive Programming
+- Libassert: The most over-engineered C++ assertion library
+	- Provides detailed information on assertion failures and decomposes assertion expressions
+	- https://github.com/jeremy-rifkin/libassert
+- Bloomberg's bsls_assert: Build-specific, runtime-configurable assertion macros
+	- https://bloomberg.github.io/bde-resources/doxygen/bde_api_prod/group__bsls__assert.html
+
 ---
 
 # Talks
