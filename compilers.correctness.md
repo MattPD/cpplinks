@@ -1739,6 +1739,16 @@ Validation: Including translation validation, equivalence checking.
 	- https://kihongheo.kaist.ac.kr/publications/icse24.pdf
 	- https://github.com/prosyslab/turbo-tv-artifact
 
+## Validation: 2023
+
+- Formal Validation of Intra-Procedural Transformations by Defensive Symbolic Simulation
+	- 2023 PhD Dissertation
+	- Léo Gourdin
+	- https://lgourd.in/defense.html
+	- https://lgourd.in/resources/thesis.pdf
+	- https://theses.hal.science/tel-04648091/
+	- https://framagit.org/yukit/compcert-chamois-gl-thesis
+
 ## Validation: 2022
 
 - End-to-End Translation Validation for the Halide Language
