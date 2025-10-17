@@ -1652,6 +1652,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- Djordje Todorovic, Bharathi Seshadri, Ananthakrishna Sowda, Nikola Tesic, Ivan Baev
 		- https://www.youtube.com/watch?v=Y4TkdYZfarA
 		- https://llvm.org/devmtg/2022-04-03/slides/llvm-crash-analyzer.pdf
+- rust-minidump: Type definitions, parsing, and analysis for the minidump file format
+	- "fairly heavily modeled after Google Breakpad for historical reasons, but there is no fundamental interoperability requirement between the two beyond the fact that they fundamentally handle the same inputs."
+	- https://github.com/rust-minidump/rust-minidump
 
 # Stack Trace & Unwinding
 
