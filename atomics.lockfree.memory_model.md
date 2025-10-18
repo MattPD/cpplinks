@@ -548,6 +548,11 @@
 	- https://www.comp.nus.edu.sg/~umathur/papers/rc20-rv-consistency-popl24.pdf
 	- https://popl24.sigplan.org/details/POPL-2024-popl-research-papers/68/How-Hard-is-Weak-Memory-Testing-
 	- https://arxiv.org/abs/2311.04302
+- Scaling Up Relaxed Memory Verification with Separation Logics
+	- 2024 Ph.D. Dissertation
+	- Hoang-Hai Dang
+	- https://dx.doi.org/10.22028/D291-43142
+	- https://iris-project.org/pdfs/2024-phd-haidang.pdf
 - Towards Unified Analysis of GPU Consistency
 	- Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2024
 	- Haining Tong, Natalia Gavrilenko, Hernán Ponce de León, Keijo Heljanko
