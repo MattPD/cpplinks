@@ -991,6 +991,11 @@ See also: [Computer Architecture](comparch.md)
 
 #### Defense: Software: Compilation and Programming Languages: 2024
 
+- Beyond Over-Protection: A Targeted Approach to Spectre Mitigation and Performance Optimization
+	- 2024 ACM ASIA Conference on Computer and Communications Security (ACM ASIACCS)
+	- Tiziano Marinaro, Pablo Buiras, Andreas Lindner, Roberto Guanciale, Hamed Nemati
+	- https://doi.org/10.1145/3634737.3637651
+	- https://arxiv.org/abs/2312.09770
 - Eclipse: Preventing Speculative Memory-error Abuse with Artificial Data Dependencies
 	- ACM SIGSAC Conference on Computer and Communications Security (CCS) 2024
 	- Neophytos Christou, Alexander Gaidis, Vaggelis Atlidakis, and Vasileios P. Kemerlis
