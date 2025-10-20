@@ -877,6 +877,18 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Jiming Wang, Yan Kang, Chenggang Wu, Yuhao Hu, Yue Sun, Jikai Ren, Yuanming Lai, Mengyao Xie, Charles Zhang, Tao Li, Zhe Wang
 	- https://www.usenix.org/conference/usenixsecurity24/presentation/wang-jiming
 	- https://github.com/JimWongM/OptFuzz
+- Rustlantis: Randomized Differential Testing of the Rust Compiler
+	- OOPSLA 2024
+	- Qian Wang, Ralf Jung
+	- https://doi.org/10.1145/3689780
+	- https://plf.inf.ethz.ch/research/oopsla24-rustlantis.html
+	- https://www.youtube.com/watch?v=0jqI8M1xzj4
+	- Rustlantis: UB-free and deterministic rustc Mid-level Intermediate Representation (MIR) fuzzer
+		- https://github.com/cbeuw/rustlantis
+	- Semantic fuzzing of the Rust compiler and interpreter
+		- 2023 Master's Thesis
+		- Qian (Andy) Wang
+		- https://ethz.ch/content/dam/ethz/special-interest/infk/inst-pls/plf-dam/documents/StudentProjects/MasterTheses/2023-Andy-Thesis.pdf
 - Towards Understanding the Bugs in Solidity Compiler
 	- ACM SIGSOFT International Symposium on Software Testing and Analysis ISSTA 2024
 	- Haoyang Ma, Wuqi Zhang, Qingchao Shen, Yongqiang Tian, Junjie Chen, Shing-Chi Cheung
