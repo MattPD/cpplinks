@@ -1655,6 +1655,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - rust-minidump: Type definitions, parsing, and analysis for the minidump file format
 	- "fairly heavily modeled after Google Breakpad for historical reasons, but there is no fundamental interoperability requirement between the two beyond the fact that they fundamentally handle the same inputs."
 	- https://github.com/rust-minidump/rust-minidump
+	- Everything Is Broken: Shipping rust-minidump at Mozilla
+		- https://hacks.mozilla.org/2022/06/everything-is-broken-shipping-rust-minidump-at-mozilla/
+
 
 # Stack Trace & Unwinding
 
