@@ -532,6 +532,10 @@
 	- VeTSS Annual Conference 2025
 		- Mark Batty
 		- https://www.youtube.com/watch?v=Qcf_vANZdKM
+- Weak Memory Model Formalisms: Introduction and Survey
+	- 2025
+	- Roger C. Su, Robert J. Colvin
+	- https://arxiv.org/abs/2508.04115
 
 ### Papers - Memory Model: 2024
 
