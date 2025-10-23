@@ -951,6 +951,12 @@ See also: [Computer Architecture](comparch.md)
 
 #### Defense: Software: Compilation and Programming Languages: 2025
 
+- Comprehensive Kernel Safety in the Spectre Era: Mitigations and Performance Evaluation
+	- ACM Transactions on Privacy and Security, Volume 28, Number 3, August 2025
+	- Davide Davoli, Martin Avanzini, Tamara Rezk
+	- https://dl.acm.org/doi/abs/10.1145/3743678
+	- https://arxiv.org/abs/2411.18094
+	- https://gitlab.inria.fr/ddavoli/comprehensive-kernel-safety-in-the-spectre-era
 - Do You Even Lift? Strengthening Compiler Security Guarantees Against Spectre Attacks
 	- POPL 2025
 	- Xaver Fabian, Marco Patrignani, Marco Guarnieri, Michael Backes
