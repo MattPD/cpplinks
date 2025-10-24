@@ -417,6 +417,12 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- https://doi.org/10.1145/3158110
 	- https://www.williamjbowman.com/#cps-sigma
 	- https://popl18.sigplan.org/details/POPL-2018-papers/69/Type-Preserving-CPS-Translation-of-and-Types-is-Not-Not-Possible
+- Type-Preserving Flat Closure Optimization
+	- OOPSLA 2025
+	- Adam T. Geller, Sean Bocirnea, Chester Gould, Paulette Koronkevich, William J. Bowman
+	- https://doi.org/10.1145/3720437
+	- https://doi.org/10.5281/zenodo.14941603
+	- https://2025.splashcon.org/details/OOPSLA/34/Type-Preserving-Flat-Closure-Optimization
 
 ## Type Preservation: Intrinsically Typed Compilation
 
