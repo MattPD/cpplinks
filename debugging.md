@@ -1657,7 +1657,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://github.com/rust-minidump/rust-minidump
 	- Everything Is Broken: Shipping rust-minidump at Mozilla
 		- https://hacks.mozilla.org/2022/06/everything-is-broken-shipping-rust-minidump-at-mozilla/
-
+	- Fuzzing rust-minidump for Embarrassment and Crashes – Part 2
+		- https://hacks.mozilla.org/2022/06/fuzzing-rust-minidump-for-embarrassment-and-crashes/
 
 # Stack Trace & Unwinding
 
