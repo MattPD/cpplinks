@@ -57,6 +57,17 @@ See also: [computer architecture](comparch.md)
 
 ---
 
+# Communication
+
+## Communication: Readings
+
+- The Landscape of GPU-Centric Communication
+	- 2024
+	- Didem Unat, Ilyas Turimbetov, Mohammed Kefah Taha Issa, Doğan Sağbili, Flavio Vella, Daniele De Sensi, Ismayil Ismayilov
+	- https://arxiv.org/abs/2409.09874
+
+---
+
 # CUDA
 
 ## CUDA: Books
