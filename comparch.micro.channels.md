@@ -3448,6 +3448,12 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Guoxing Chen, Wenhao Wang, Tianyu Chen, Sanchuan Chen, Yinqian Zhang, XiaoFeng Wang, Ten-Hwang Lai, Dongdai Lin
 	- https://yinqian.org/papers/sp18a.pdf
 	- https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a388.pdf
+- SCASE: Automated Secret Recovery via Side-Channel-Assisted Symbolic Execution
+	- USENIX Security 2025
+	- Daniel Weber, Lukas Gerlach, Leon Trampert, Youheng Lü, Jo Van Bulck, Michael Schwarz
+	- https://www.usenix.org/conference/usenixsecurity25/presentation/weber
+	- https://d-we.me/papers/scase_usenix25.pdf
+	- https://github.com/cispa/scase
 - Security Vulnerabilities of SGX and Countermeasures: A Survey
 	- ACM Computing Surveys 54(6) 2021
 	- Shufan Fei, Zheng Yan, Wenxiu Ding, Haomeng Xie
