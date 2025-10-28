@@ -123,6 +123,11 @@
 	- https://github.com/scapix-com/scapix
 - SWIG: Simplified Wrapper and Interface Generator
 	- http://www.swig.org/
+- TVM FFI: Open ABI and FFI for Machine Learning Systems
+	- https://github.com/apache/tvm-ffi/
+	- https://tvm.apache.org/ffi/
+	- Building an Open ABI and FFI for ML Systems
+		- https://tvm.apache.org/2025/10/21/tvm-ffi
 
 ## General: Talks
 
