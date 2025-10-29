@@ -2181,6 +2181,17 @@ Validation: Including translation validation, equivalence checking.
 	- Amal Ahmed
 	- http://www.ccs.neu.edu/home/amal/papers/verifcomp.pdf
 
+## Verification: 2025
+
+- TensorRight: Automated Verification of Tensor Graph Rewrites
+	- POPL 2025
+	- Jai Arora, Sirui Lu, Devansh Jain, Tianfan Xu, Farzin Houshmand, Phitchaya Mangpo Phothilimthana, Mohsen Lesani, Praveen Narayanan, Karthik Srinivasa Murthy, Rastislav Bodík, Amit Sabne, Charith Mendis
+	- https://doi.org/10.1145/3704865
+	- https://lsrcz.github.io/files/POPL25.pdf
+	- TensorRight: an automatic tool to verify tensor graph rewrites for tensors of arbitrary ranks and sizes. Tensor Graph Rewriting is one of the key optimizations in Tensor Compilers such as XLA.
+	- https://github.com/ADAPT-uiuc/TensorRight
+	- https://www.youtube.com/watch?v=k_cVLErSScI
+
 ## Verification: 2024
 
 - Chamois: agile development of CompCert extensions for optimization and security
