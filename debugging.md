@@ -1420,6 +1420,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- https://blogs.oracle.com/linux/post/live-kernel-debugging-2
 	- Part 3: advanced techniques: kdb and kgdboc, crash
 		- https://blogs.oracle.com/linux/post/live-kernel-debugging-3
+- The Definitive Guide to Linux Process Injection
+	- 2024; Ori David
+	- https://www.akamai.com/blog/security-research/the-definitive-guide-to-linux-process-injection
+	- Linux Process Injection: proof-of-concept implementations of various Linux process injection primitives
+	- https://github.com/akamai/Linux-Process-Injection
 - Under Linux, libSegFault and addr2line are underrated
 	- https://lemire.me/blog/2023/05/01/under-linux-libsegfault-and-addr2line-are-underrated/
 - What's Inside a Linux Kernel Core Dump
