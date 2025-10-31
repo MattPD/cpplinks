@@ -66,6 +66,13 @@ See also: [computer architecture](comparch.md)
 	- Didem Unat, Ilyas Turimbetov, Mohammed Kefah Taha Issa, Doğan Sağbili, Flavio Vella, Daniele De Sensi, Ismayil Ismayilov
 	- https://arxiv.org/abs/2409.09874
 
+## Communication: Talks
+
+- Multi-GPU Programming
+	- GPU MODE Lecture 64 (2025)
+	- Markus Hrywniak
+	- https://www.youtube.com/watch?v=BgeFR4UfajQ
+
 ---
 
 # CUDA
