@@ -3507,6 +3507,18 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- https://ginerlukas.com/publications/papers/lvinull.pdf
 	- https://github.com/redrabbyte/LVI-NULLify
 
+## Intel TDX
+
+Intel Trust Domain Extensions (TDX)
+
+- TDXploit: Novel Techniques for Single-Stepping and Cache Attacks on Intel TDX
+	- USENIX Security 2025
+	- Fabian Rauscher, Luca Wilke, Hannes Weissteiner, Thomas Eisenbarth, Daniel Gruss
+	- https://www.usenix.org/conference/usenixsecurity25/presentation/rauscher
+	- https://fabianrauscher.com/papers/tdxploit.pdf
+	- https://hannesweissteiner.com/publications/tdxploit/
+	- https://github.com/isec-tugraz/TDXploit
+
 ## RISC-V Physical Memory Protection (PMP)
 
 - Bypassing Isolated Execution on RISC-V using Side-Channel-Assisted Fault-Injection and Its Countermeasure
