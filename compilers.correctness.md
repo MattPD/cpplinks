@@ -1735,6 +1735,16 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 Validation: Including translation validation, equivalence checking.
 
+## Validation: 2025
+
+- CF-GKAT: Efficient Validation of Control-Flow Transformations
+	- POPL 2025
+	- Cheng Zhang, Tobias Kappé, David E. Narváez, Nico Naus
+	- https://doi.org/10.1145/3704857
+	- https://arxiv.org/abs/2411.13220
+	- https://www.youtube.com/watch?v=thNciSXrqZU
+	- https://tobias.kap.pe/slides/leiden-2024c.pdf
+
 ## Validation: 2024
 
 - Modeling Dynamic (De)Allocations of Local Memory for Translation Validation
