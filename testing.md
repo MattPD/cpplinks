@@ -1151,6 +1151,14 @@ Test Doubles: Faking, Mocking
 - Google Test Automation Conference (GTAC)
 	- https://developers.google.com/google-test-automation-conference/
 
+## Talks: 2025
+
+- Effective CTest - a Random Selection of C++ Best Practices
+	- C++Now 2025
+	- Daniel Pfeifer
+	- https://www.youtube.com/watch?v=whaPQ5BU2y8
+	- https://schedule.cppnow.org/wp-content/uploads/2025/05/effective_ctest.pdf
+
 ## Talks: 2024
 
 - Testing Rendering Code at Frostbite
