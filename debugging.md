@@ -1641,6 +1641,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 		- ISPRAS 2022
 		- Alexey Vishnyakov, Daniil Kuts, Vlada Logunova, Darya Parygina, Eli Kobrin, Georgy Savidov, Andrey Fedotov
 		- https://arxiv.org/abs/2211.11595
+- Core Explorer: A DWARF parser and core dump analyzer that runs in your browser
+	- A static analyzer for dynamic memory. Analyze core dumps to find ODR violations, memory leaks, and use-after-free hazards. List all objects, types, allocations, and threads and visualize the relationships between them.
+	- https://github.com/core-explorer/core-explorer/
 - Crashpad: a crash-reporting system
 	- https://github.com/chromium/crashpad
 	- Backtrace fork of Crashpad
