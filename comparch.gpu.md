@@ -72,6 +72,12 @@ See also: [computer architecture](comparch.md)
 	- GPU MODE Lecture 64 (2025)
 	- Markus Hrywniak
 	- https://www.youtube.com/watch?v=BgeFR4UfajQ
+- Multi-GPU Programming in NCCL and NVSHMEM
+	- GPU MODE Lecture 67 (2025)
+	- Jeff Hammond
+	- https://www.youtube.com/watch?v=zxGVvMN6WaM
+	- https://drive.google.com/file/d/1T8uHhFIeVa_g1oYb_O4d2Ltb8YQly1zK/view
+	- https://github.com/ParRes/Kernels/tree/main/Cxx11
 
 ---
 
