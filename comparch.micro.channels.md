@@ -1510,6 +1510,13 @@ See also: [Computer Architecture](comparch.md)
 	- Fabian Rauscher, Carina Fiedler, Andreas Kogler, Daniel Gruss
 	- https://dx.doi.org/10.14722/ndss.2025.23253
 	- https://gruss.cc/files/demote.pdf
+- ExfilState: Automated Discovery of Timer-Free Cache Side Channels on Arm CPUs
+	- ACM Conference on Computer and Communications Security (CCS) 2025
+	- Fabian Thomas, Michael Torres, Daniel Moghimi, Michael Schwarz
+	- https://doi.org/10.1145/3719027.3765061
+	- https://misc0110.net/files/exfilstate_ccs25.pdf
+	- ExfilState: Architectural Cache Side Channel Fuzzer
+		- https://github.com/cispa/ExfilState
 - Hidden in Plain Sight: Scriptless Microarchitectural Attacks via TrueType Font Hinting
 	- Microarchitecture Security Conference (uASC) 2025
 	- Leon Trampert, Michael Schwarz
