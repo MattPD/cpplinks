@@ -1297,6 +1297,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 #### Testing: Readings: Performance Optimization: 2025
 
+- Finding Missed Code Size Optimizations in Compilers using LLMs
+	- International Conference on Compiler Construction (CC) 2025
+	- Davide Italiano, Chris Cummins
+	- https://arxiv.org/abs/2501.00655
+	- https://doi.org/10.1145/3708493.3712686
 - Validating JVM Compilers via Maximizing Optimization Interactions
 	- ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2025
 	- Zifan Xie, Ming Wen, Shiyu Qiu, Hai Jin
