@@ -1672,6 +1672,9 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ## Stack Trace & Unwinding: Readings
 
+- Fast Call-Stack Backtrace
+	- 2025-10-20; Branimir Karadžić
+	- https://bkaradzic.github.io/posts/fast-call-stack-backtrace/
 - Limitations of frame pointer unwinding
 	- Serhei Makarov
 	- https://developers.redhat.com/articles/2024/10/30/limitations-frame-pointer-unwinding
