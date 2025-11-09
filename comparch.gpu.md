@@ -68,6 +68,10 @@ See also: [computer architecture](comparch.md)
 
 ## Communication: Talks
 
+- Landscape of GPU-Centric Communication
+	- GPU MODE Lecture 68 (2025)
+	- Didem Unat
+	- https://www.youtube.com/watch?v=beuOWBbiJfQ
 - Multi-GPU Programming
 	- GPU MODE Lecture 64 (2025)
 	- Markus Hrywniak
