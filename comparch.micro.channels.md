@@ -40,6 +40,7 @@ See also: [Computer Architecture](comparch.md)
 - [SMT](#smt)
 - [Solid-State Drive (SSD)](#solid-state-drive-ssd)
 - [Speculation](#speculation)
+- [Stack Engine](#stack-engine)
 - [Store Buffer](#store-buffer)
 - [Superscalar](#superscalar)
 - [Thermal](#thermal)
@@ -3284,6 +3285,16 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- 2020 Habilitation Thesis; Daniel Gruss
 	- https://gruss.cc/files/habil.pdf
 	- https://gruss.cc/files/habil_part1_only.pdf
+
+---
+
+# Stack Engine
+
+- One Flew over the Stack Engine’s Nest: Practical Microarchitectural Attacks on the Stack Engine
+	- International Symposium on Microarchitecture (MICRO) 2025
+	- Silvan Niederer, Sandro Rüegge, Ali Hajiabadi, Kaveh Razavi
+	- https://doi.org/10.1145/3725843.3756058
+	- https://comsec-files.ethz.ch/papers/stackengine_micro25.pdf
 
 ---
 
