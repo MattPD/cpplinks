@@ -130,6 +130,11 @@
 
 ## C++26: Trip Reports
 
+### C++26: Trip Reports: 2025-11
+
+- Trip report: November 2025 ISO C++ standards meeting (Kona, USA)
+	- https://herbsutter.com/2025/11/10/trip-report-november-2025-iso-c-standards-meeting-kona-usa/
+
 ### C++26: Trip Reports: 2025-06
 
 - Trip report: June 2025 ISO C++ standards meeting (Sofia, Bulgaria)
