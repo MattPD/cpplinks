@@ -1058,6 +1058,12 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Display dynamic content from GDB in a custom window
 	- https://developers.redhat.com/articles/2022/06/06/display-dynamic-content-gdb-custom-window
 
+#### GDB: Readings: Reverse Debugging
+
+- Using GDB to time travel
+	- https://developers.redhat.com/articles/2024/08/08/using-gdb-time-travel
+
+
 ### GDB: Talks
 
 - A flexible GDB (GNU Debugger) target description for processor diversity – SFO17-210
