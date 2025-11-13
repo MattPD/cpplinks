@@ -874,6 +874,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://2024.issta.org/details/issta-2024-papers/103/Fuzzing-MLIR-Compiler-Infrastructure-via-Operation-Dependency-Analysis
 	- MLIRod: MLIR fuzzing guided by operation dependencies
 		- https://github.com/tju-chenyaosuo/MLIRod
+- Grammar Mutation for Testing Input Parsers
+	- 2024 ACM Transactions on Software Engineering and Methodology (TOSEM)
+	- Bachir Bendrissou, Cristian Cadar, Alastair F. Donaldson
+	- https://doi.org/10.1145/3708517
+	- https://doc.ic.ac.uk/~afd/papers/2024/TOSEM.pdf
 - LOOL: Low-Overhead, Optimization-Log-Guided Compiler Fuzzing
 	- FUZZING 2024: Proceedings of the 3rd ACM International Fuzzing Workshop
 	- Florian Schwarcz, Felix Berlakovich, Gergö Barany, Hanspeter Mössenböck
