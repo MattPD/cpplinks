@@ -61,6 +61,12 @@ See also: [computer architecture](comparch.md)
 
 ## Communication: Readings
 
+- Collective Communication for 100k+ GPUs
+	- 2025
+	- https://arxiv.org/abs/2510.20171
+	- Connecting 100k+ GPUs
+		- SIGCOMM'25: Meta Sponsor Talk
+		- https://www.youtube.com/watch?v=pTu3AdfppyY
 - The Landscape of GPU-Centric Communication
 	- 2024
 	- Didem Unat, Ilyas Turimbetov, Mohammed Kefah Taha Issa, Doğan Sağbili, Flavio Vella, Daniele De Sensi, Ismayil Ismayilov
