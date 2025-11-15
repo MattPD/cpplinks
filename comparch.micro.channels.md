@@ -66,6 +66,10 @@ See also: [Computer Architecture](comparch.md)
 	- 2025 Ph.D. Dissertation
 	- Alyssa Anne Milburn
 	- https://doi.org/10.5463/thesis.330
+- Sonar: A Hardware Fuzzing Framework to Uncover Contention Side Channels in Processors
+	- MICRO 2025: International Symposium on Microarchitecture
+	- Kanqi Zhang, Peinan Li, Miao Li, Xin Tian, Zelong Du, Quanchen Liu, Yongqiang Lyu, Yu Jiang, Dan Meng, Rui Hou
+	- https://doi.org/10.1145/3725843.3756136
 
 ## General: 2024
 
