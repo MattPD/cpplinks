@@ -826,6 +826,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 #### Testing: Readings: Fuzzing: 2025
 
+- Compiler Fuzzing in Continuous Integration: A Case Study on Dafny
+	- IEEE International Conference on Software Testing, Verification and Validation (ICST) 2025
+	- Karnbongkot Boonriong, Stefan Zetzsche, Alastair F. Donaldson
+	- https://doi.org/10.1109/ICST62969.2025.10988954
+	- https://www.doc.ic.ac.uk/~afd/papers/2025/ICST-Industry.pdf
+	- https://github.com/CompFuzzCI
 - Fuzzing MLIR Compilers with Custom Mutation Synthesis
 	- International Conference on Software Engineering (ICSE) 2025
 	- Ben Limpanukorn, Jiyuan Wang, Hong Jin Kang, Eric Zitong Zhou, Miryung Kim
