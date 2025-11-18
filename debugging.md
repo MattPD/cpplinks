@@ -1062,7 +1062,8 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 - Using GDB to time travel
 	- https://developers.redhat.com/articles/2024/08/08/using-gdb-time-travel
-
+- Advanced time manipulation with GDB
+	- https://developers.redhat.com/articles/2025/06/04/advanced-time-manipulation-gdb
 
 ### GDB: Talks
 
