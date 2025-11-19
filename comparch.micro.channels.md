@@ -1431,6 +1431,17 @@ See also: [Computer Architecture](comparch.md)
 	- https://dl.acm.org/citation.cfm?id=2870636
 	- http://www.cs.wm.edu/~dmitry/assets/files/taco-a10-evtyushkin.pdf
 
+## Branch Predictor: 2026
+
+- VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation in Cloud Environments
+	- IEEE Symposium on Security and Privacy (S&P) 2026
+	- Jean-Claude Graf, Sandro Rüegge, Ali Hajiabadi, Kaveh Razavi
+	- https://doi.ieeecomputersociety.org/10.1109/SP63933.2026.00046
+	- https://comsec.ethz.ch/research/microarch/vmscape-exposing-and-exploiting-incomplete-branch-predictor-isolation-in-cloud-environments/
+	- https://comsec-files.ethz.ch/papers/vmscape_sp26.pdf
+	- https://github.com/comsec-group/vmscape
+	- https://www.intel.com/content/www/us/en/security-center/announcement/intel-security-announcement-2025-09-11-001.html
+
 ## Branch Predictor: 2025
 
 - Analyzing and Exploiting Branch Mispredictions in Microcode
