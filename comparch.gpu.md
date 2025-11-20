@@ -61,12 +61,23 @@ See also: [computer architecture](comparch.md)
 
 ## Communication: Readings
 
+### Communication: Readings: 2025
+
 - Collective Communication for 100k+ GPUs
 	- 2025
 	- https://arxiv.org/abs/2510.20171
 	- Connecting 100k+ GPUs
 		- SIGCOMM'25: Meta Sponsor Talk
 		- https://www.youtube.com/watch?v=pTu3AdfppyY
+- Demystifying NCCL: An In-depth Analysis of GPU Communication Protocols and Algorithms
+	- 32nd Annual Symposium on High-Performance Interconnects (HOTI) 2025
+	- Zhiyi Hu, Siyuan Shen, Tommaso Bonato, Sylvain Jeaugey, Cedell Alexander, Eric Spada, James Dinan, Jeff Hammond, Torsten Hoefler
+	- https://arxiv.org/abs/2507.04786
+	- https://spcl.inf.ethz.ch/Publications/index.php?pub=554
+	- https://www.youtube.com/watch?v=UDCLvBqEPcA
+
+### Communication: Readings: 2024
+
 - The Landscape of GPU-Centric Communication
 	- 2024
 	- Didem Unat, Ilyas Turimbetov, Mohammed Kefah Taha Issa, Doğan Sağbili, Flavio Vella, Daniele De Sensi, Ismayil Ismayilov
