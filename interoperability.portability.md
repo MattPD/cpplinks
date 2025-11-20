@@ -230,6 +230,11 @@
 	- C++Now 2013; Thiago Macieira
 	- https://www.youtube.com/watch?v=PHrXGHDd9no
 	- https://github.com/boostcon/cppnow_presentations_2013/blob/master/tue/binary_compat_for_cpp_devs.pdf?raw=true
+- Could C++ Developers Handle an ABI Break Today?
+	- CppCon 2025
+	- Luis Caro Campos
+	- https://www.youtube.com/watch?v=VbSKnvldtbs
+	- https://github.com/CppCon/CppCon2025/blob/main/Presentations/Could_We_Handle_An_ABI_Break_Today.pdf
 - Easy Binary Compatible C++ Interfaces Across Compilers
 	- C++Now 2013; John Bandela
 	- https://www.youtube.com/watch?v=BbbqBJ94-_E
