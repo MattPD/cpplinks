@@ -839,6 +839,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://arxiv.org/pdf/2404.16947
 	- https://github.com/UCLA-SEAL/SynthFuzz
 	- https://web.cs.ucla.edu/~wangjiyuan/research/ICSE2025_SynthFuzz.pdf
+- Mutation-based Fuzzing of the Swift Compiler With Incomplete Type Information
+	- IEEE International Conference on Software Testing, Verification and Validation (ICST) 2025
+	- Sarah Canto Hyatt, Kyle Dewey
+	- https://doi.org/10.1109/ICST62969.2025.10989032
+	- https://csun-tavlab.github.io/icst25.pdf
 - Reflecta: Reflection-based Scalable and Semantic Scripting Language Fuzzing
 	- ACM ASIA Conference on Computer and Communications Security (AsiaCCS) 2025
 	- Chibin Zhang, Gwangmu Lee, Qiang Liu, Mathias Payer
