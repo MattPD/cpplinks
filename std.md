@@ -134,6 +134,9 @@
 
 - Trip report: November 2025 ISO C++ standards meeting (Kona, USA)
 	- https://herbsutter.com/2025/11/10/trip-report-november-2025-iso-c-standards-meeting-kona-usa/
+- Virtual Trip Report: WG21 Kona 2025
+	- https://mattkretz.github.io/2025/11/13/WG21-Kona-2025-trip-report.html
+
 
 ### C++26: Trip Reports: 2025-06
 
