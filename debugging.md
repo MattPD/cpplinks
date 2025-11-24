@@ -321,6 +321,11 @@ _Books, Books Reviews_
 
 ### Implementation: 2025
 
+- Implementation of the Debugging Support for the LLVM Outlining Optimization
+	- Sinteza 2025: International Scientific Conference on Information Technology, Computer Science, and Data Science
+	- Vojislav Tomašević, Đorđe Todorović, Maja Vukasović
+	- https://doi.org/10.15308/sinteza-2025-233-240
+	- https://portal.sinteza.singidunum.ac.rs/Media/files/2025/233-240.pdf
 - Writing a Windows ARM64 Debugger for Reverse Engineering: KoiDbg
 	- 2025-05-03
 	- João Vitor
