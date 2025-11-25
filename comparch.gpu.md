@@ -83,6 +83,13 @@ See also: [computer architecture](comparch.md)
 	- Didem Unat, Ilyas Turimbetov, Mohammed Kefah Taha Issa, Doğan Sağbili, Flavio Vella, Daniele De Sensi, Ismayil Ismayilov
 	- https://arxiv.org/abs/2409.09874
 
+## Communication: Software
+
+- NVIDIA Collective Communications Library (NCCL)
+	- Optimized primitives for collective multi-GPU communication
+	- https://developer.nvidia.com/nccl
+	- https://github.com/NVIDIA/nccl
+
 ## Communication: Talks
 
 - Landscape of GPU-Centric Communication
