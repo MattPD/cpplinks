@@ -686,6 +686,13 @@ See also: [Computer Architecture](comparch.md)
 	- Shixin Song, Joseph Zhang, Mengjia Yan
 	- https://arxiv.org/abs/2412.07135
 	- https://dx.doi.org/10.14722/ndss.2025.240264
+- Phantom Trails: Practical Pre-Silicon Discovery of Transient Data Leaks
+	- USENIX Security Symposium 2025
+	- Alvise de Faveri Tron, Raphael Isemann, Hany Ragab, Cristiano Giuffrida, Klaus von Gleissenthall, Herbert Bos
+	- https://www.usenix.org/conference/usenixsecurity25/presentation/de-faveri-tron
+	- https://download.vusec.net/papers/phantom-trails_sec25.pdf
+	- Phantom Trails: Fuzzing processor simulations with (software) taint tracking
+		- https://github.com/vusec/phantom-trails
 
 ### Defense: Hardware Design & Verification: 2024
 
