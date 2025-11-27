@@ -1765,6 +1765,11 @@ Validation: Including translation validation, equivalence checking.
 	- https://arxiv.org/abs/2411.13220
 	- https://www.youtube.com/watch?v=thNciSXrqZU
 	- https://tobias.kap.pe/slides/leiden-2024c.pdf
+- Modeling Dynamic Allocations and Deallocations of Local Memory for Translation Validation
+	- 2025 PhD Dissertation
+	- Abhishek Rose
+	- https://sorav.compiler.ai/pubs/abhishek_rose_thesis.pdf
+	- https://sorav.compiler.ai/pubs/abhishek_rose_viva.pdf
 
 ## Validation: 2024
 
