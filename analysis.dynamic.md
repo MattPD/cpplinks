@@ -563,6 +563,13 @@ Compiler-Based Static Instrumentation
 	- https://conf.researchr.org/details/internetware-2025/internetware-2025-research-track/38/Tech-ASan-Two-stage-check-for-Address-Sanitizer
 	- https://www.slideshare.net/slideshow/tech-asan-two-stage-check-for-address-sanitizer-yixuan-cao-pdf/280618754
 	- https://www.youtube.com/watch?v=bkVE5PIIc3g
+- Triton-San: Toward Precise Debugging of Triton Kernels via LLVM Sanitizers
+	- 2025 US LLVM Developers' Meeting
+	- Lechen Yu, Tim Lu, Brandon Myers, Ofer Dekel
+	- https://www.youtube.com/watch?v=Ncvjewv6hZ0
+	- https://llvm.org/devmtg/2025-10/slides/technical_talks/lu.pdf
+	- Triton-San: a dynamic analysis tool that is capable of accurately detecting bugs (e.g., buffer overflow, data race) in Triton programs
+		- https://github.com/microsoft/triton-shared/tree/main/triton-san
 - type++: Prohibiting Type Confusion with Inline Type Information
 	- Network and Distributed System Security (NDSS) Symposium 2025
 	- Nicolas Badoux, Flavio Toffalini, Yuseok Jeon, Mathias Payer
