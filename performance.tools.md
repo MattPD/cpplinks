@@ -405,6 +405,11 @@
 	- BOLT: A Practical Binary Optimizer for Data Centers and Beyond
 		- Maksim Panchenko, Rafael Auler, Bill Nell, Guilherme Ottoni
 		- https://arxiv.org/abs/1807.06735
+	- BOLT tutorial on AArch64 and how it competes or complements other PGOs
+		- 2025 US LLVM Developers' Meeting
+		- Paschalis Mpeis
+		- https://www.youtube.com/watch?v=KdHtOMc5_c8
+		- https://llvm.org/devmtg/2025-10/slides/tutorials/mpeis.pdf
 - MAQAO (Modular Assembly Quality Analyzer and Optimizer)
 	- http://www.maqao.org/
 	- https://gitlab.exascale-computing.eu/MAQAO/MAQAO
