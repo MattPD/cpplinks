@@ -4,7 +4,7 @@
 
 - [Readings](#readings): [Blogs](#blogs-posts-and-series), [Documentation](#documentation), [Papers](#papers), [References](#references), [StackOverflow](#stackoverflow-questions)
 - [Software](#software): [Benchmarks](#benchmarks), [Libraries](#libraries), [Tools](#tools)
-- [Talks](#talks): [2024](#2024), [2023](#2023), [2022](#2022), [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
+- [Talks](#talks): [2025](#2025), [2024](#2024), [2023](#2023), [2022](#2022), [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017), [2016](#2016), [2015](#2015), [2014](#2014)
 
 ---
 
@@ -585,6 +585,11 @@
 	- ACCU 2025
 	- Khalil Estell
 	- https://www.youtube.com/watch?v=LorcxyJ9zr4
+- Cutting C++ Exception Time by +90%?
+	- Khalil Estell
+	- CppCon 2025
+	- https://www.youtube.com/watch?v=wNPfs8aQ4oo
+	- https://github.com/CppCon/CppCon2025/blob/main/Presentations/Cutting_C++_Exception_time_by_93.4_percent_.pdf
 
 ## 2024
 
