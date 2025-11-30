@@ -469,6 +469,12 @@ _Books, Books Reviews_
 	- 2000 Compaq Systems Research Center Research Report 164
 	- Caroline Tice, Susan L. Graham
 	- https://www.hpl.hp.com/techreports/Compaq-DEC/SRC-RR-164.html
+	- https://web.archive.org/http://www.hpl.hp.com/techreports/Compaq-DEC/SRC-RR-164.pdf
+	- Key Instructions debug info in LLVM and Clang
+		- https://llvm.org/docs/KeyInstructionsDebugInfo.html
+		- [RFC] Improving is_stmt placement for better interactive debugging
+			- 2024; Orlando Cazalet-Hyams
+			- https://discourse.llvm.org/t/rfc-improving-is-stmt-placement-for-better-interactive-debugging/82668
 - Proving the Correctness of Algorithmic Debugging for Functional Programs
 	- Trends in Functional Programming (TFP) 2006
 	- Olaf Chitil, Yong Luo
