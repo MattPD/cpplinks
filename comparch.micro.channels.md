@@ -3123,6 +3123,20 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Andrea Mambretti, Alexandra Sandulescu, Matthias Neugschwandtner, Alessandro Sorniotti, Anil Kurmus
 	- http://ale.sopit.net/pdf/woot.pdf
 
+## Speculation: 2026
+
+- Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities
+	- IEEE Symposium on Security and Privacy (S&P) 2026
+	- Mathé Hertogh, Dave Quakkelaar, Thijs Raymakers, Mahesh Hari Sarma, Marius Muench, Herbert Bos, Erik van der Kouwe
+	- https://www.vusec.net/projects/rain/
+	- https://download.vusec.net/papers/rain_sp26.pdf
+	- https://github.com/vusec/rain
+		- "The Rain research project shows how a malicious virtual machine can abuse transient execution vulnerabilities to leak data from the host, as well as from other virtual machines. This repository contains the research artifact: the L1TF Reloaded exploit and instructions on how to reproduce our results. It also includes the CPU/mitigation profiling code and the noise generation workloads."
+	- Amazon EC2 defenses against L1TF Reloaded
+		- 2025
+		- Ali Saidi, Moritz Lipp, Filippo Sironi
+		- https://aws.amazon.com/blogs/security/ec2-defenses-against-l1tf-reloaded/
+
 ## Speculation: 2025
 
 - Breaking the Barrier: Post-Barrier Spectre Attacks
