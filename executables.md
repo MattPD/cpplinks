@@ -684,6 +684,10 @@ BTF: BPF Type Format
 	- 2024-02-13
 	- Pete Cawley
 	- https://www.corsix.org/content/elf-eh-frame
+- Optimizing libdwarf .eh_frame enumeration
+	- 2025-11-24
+	- Ritesh Oedayrajsingh Varma
+	- https://rovarma.com/articles/optimizing-libdwarf-eh-frame-enumeration/
 
 ### ELF: Readings: Execution
 
