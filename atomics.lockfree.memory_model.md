@@ -978,6 +978,14 @@
 
 ## Videos
 
+### 2025
+
+- Implementing Your Own Atomics
+	- CppCon 2025
+	- Ben Saks
+	- https://www.youtube.com/watch?v=LtwQ7xZZIF4
+	- https://github.com/CppCon/CppCon2025/blob/main/Presentations/Implementing_Your_Own_Atomics.pdf
+
 ### 2024
 
 - A Tale of Shared Memory Concurrency in Programming Languages
