@@ -215,9 +215,17 @@
 ### Memory: Profiling: Talks
 
 - How to Write a Heap Memory Profiler
-	- CppCon 2019; Milian Wolff
+	- CppCon 2019
+	- Milian Wolff
 	- https://www.youtube.com/watch?v=YB0QoWI-g8E
 	- Slides & code: https://github.com/milianw/how-to-write-a-memory-profiler
+- Is Your C++ Code Leaking Memory? Discover the Power of Ownership-Aware Profiling
+	- CppCon 2025
+	- Alecto Irene Perez
+	- https://www.youtube.com/watch?v=U23WkMWIkkE
+	- https://github.com/CppCon/CppCon2025/blob/main/Presentations/Where'd_all_that_RAM_Go.pdf
+	- mem_profile: an Ownership-Aware Memory Profiler
+		- https://github.com/codeinred/mem_profile
 
 # Microarchitecture
 
