@@ -89,6 +89,10 @@ See also: [computer architecture](comparch.md)
 	- Optimized primitives for collective multi-GPU communication
 	- https://developer.nvidia.com/nccl
 	- https://github.com/NVIDIA/nccl
+- ROCm Communication Collectives Library (RCCL)
+	- a stand-alone library that provides multi-GPU and multi-node collective communication primitives optimized for AMD GPUs
+	- https://github.com/ROCm/rccl
+	- https://rocmdocs.amd.com/projects/rccl/
 
 ## Communication: Talks
 
