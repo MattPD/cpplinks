@@ -29,6 +29,17 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 - Hidden in Plain Sight
 	- ACM Queue 4(1) (2006); Bryan Cantrill
 	- https://queue.acm.org/detail.cfm?id=1117401
+- Literate Tracing
+	- SPLASH Onward! 2025
+	- Matthew Sotoudeh
+	- https://arxiv.org/abs/2510.09073
+	- https://doi.org/10.1145/3759429.3762626
+	- https://2025.splashcon.org/details/splash-2025-Onward-papers/11/Literate-Tracing
+	- https://www.youtube.com/watch?v=SXRgu8RuY8E
+	- Literate Tracing with TReX
+		- https://lair.masot.net/trex/
+	- TReX: a system for literate tracing, i.e., making pretty documents out of nasty programs
+		- https://lair.masot.net/git/trex.git
 - Multi-scale navigation of large trace data: A survey
 	- Concurrency and Computation: Practice and Experience, 29(10) 2017
 	- Ezzati-Jivan, N. & Dagenais, M. R
