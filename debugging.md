@@ -424,6 +424,12 @@ _Books, Books Reviews_
 	- https://doi.org/10.1145/3729267
 	- https://github.com/ecnusse/MetaLoc
 	- https://www.youtube.com/watch?v=n_Kkaa4wJCo
+- Save Our Source-Locations
+	- Or: Introspecting LLVM to fix bugs to improve debug info and SPGO outcomes
+	- 2025 US LLVM Developers' Meeting
+	- Stephen Livermore-Tozer
+	- https://www.youtube.com/watch?v=OJMToFlxqog
+	- https://llvm.org/devmtg/2025-10/slides/quick_talks/livermore-tozer.pdf
 - Secure Delivery of Program Properties Through Optimizing Compilation
 	- ACM International Conference on Compiler Construction (CC) 2020
 	- Son Tuan Vu, Karine Heydemann, Arnaud de Grandmaison, Albert Cohen
