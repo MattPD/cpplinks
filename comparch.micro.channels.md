@@ -1540,6 +1540,15 @@ See also: [Computer Architecture](comparch.md)
 	- https://misc0110.net/files/exfilstate_ccs25.pdf
 	- ExfilState: Architectural Cache Side Channel Fuzzer
 		- https://github.com/cispa/ExfilState
+- From Colocation to Exfiltration: Practical Cache Side-Channel Attacks in the Modern Public Cloud
+	- IEEE Micro 45(4) 2025
+	- Zirui Neil Zhao, Adam Morrison, Christopher W. Fletcher, Josep Torrellas
+	- https://doi.org/10.1109/MM.2025.3574715
+	- https://ieeexplore.ieee.org/document/11018321
+	- Everywhere All at Once: Co-Location Attacks on Public Cloud FaaS
+		- https://github.com/zzrcxb/EAAO
+	- Last-Level Cache Side-Channel Attacks Are Feasible in the Modern Public Cloud
+		- https://github.com/zzrcxb/LLCFeasible
 - Hidden in Plain Sight: Scriptless Microarchitectural Attacks via TrueType Font Hinting
 	- Microarchitecture Security Conference (uASC) 2025
 	- Leon Trampert, Michael Schwarz
