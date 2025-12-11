@@ -2262,6 +2262,17 @@ Validation: Including translation validation, equivalence checking.
 	- https://youngzt998.github.io/papers/oopsla24/oopsla24-final.pdf
 	- https://youngzt998.github.io/papers/oopsla24/oopsla24-slides.pdf
 	- https://www.youtube.com/watch?v=a5GzFGS1HYM
+- Homeostasis: Design and Implementation of a Self-Stabilizing Compiler
+	- ACM Transactions on Programming Languages and Systems 46(2):6 (2024)
+	- Aman Nougrahiya, V. Krishna Nandivada
+	- https://doi.org/10.1145/3649308
+	- https://www.cse.iitm.ac.in/~krishna/public/toplas24.pdf
+	- https://www.youtube.com/watch?v=ZAdhn9BjAUk
+	- IMOP: IIT Madras OpenMP Compiler Framework
+		- a self-stabilizing source-to-IR-to-source transformation and analysis framework for OpenMP shared memory parallel programs written in ANSI C
+		- https://www.cse.iitm.ac.in/~amannoug/imop/
+		- https://github.com/anonymousoopsla21/homeostasis
+		- https://github.com/amannougrahiya/imop-compiler
 - Lightweight, Modular Verification for WebAssembly-to-Native Instruction Selection
 	- ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2024
 	- Alexa VanHattum, Monica Pardeshi, Chris Fallin, Adrian Sampson, and Fraser Brown
