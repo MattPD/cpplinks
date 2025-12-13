@@ -505,6 +505,10 @@
 	- https://github.com/torvalds/linux/tree/master/tools/perf/Documentation
 	- https://suchakra.wordpress.com/2016/06/17/deconstructing-perfs-data-file/
 	- http://www.brendangregg.com/linuxperf.html
+	- Latency Profiling and Optimization
+		- Zürich C++ Meetup 2025
+		- Dmitry Vyukov
+		- https://www.youtube.com/watch?v=lv03NAT4Mwc
 - perf-tools - https://github.com/brendangregg/perf-tools
 - perf_events: The Unofficial Linux Perf Events Web-Page
 	- http://web.eece.maine.edu/~vweaver/projects/perf_events/
