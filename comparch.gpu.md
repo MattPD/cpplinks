@@ -85,14 +85,23 @@ See also: [computer architecture](comparch.md)
 
 ## Communication: Software
 
-- NVIDIA Collective Communications Library (NCCL)
-	- Optimized primitives for collective multi-GPU communication
-	- https://developer.nvidia.com/nccl
-	- https://github.com/NVIDIA/nccl
+### Communication: Software: AMD
+
 - ROCm Communication Collectives Library (RCCL)
 	- a stand-alone library that provides multi-GPU and multi-node collective communication primitives optimized for AMD GPUs
 	- https://github.com/ROCm/rccl
 	- https://rocmdocs.amd.com/projects/rccl/
+
+### Communication: Software: NVIDIA
+
+- NCCL: NVIDIA Collective Communications Library
+	- Optimized primitives for collective multi-GPU communication
+	- https://github.com/NVIDIA/nccl
+	- https://developer.nvidia.com/nccl
+- NVSHMEM: NVIDIA OpenSHMEM Library
+	- https://github.com/NVIDIA/nvshmem
+	- https://developer.nvidia.com/nvshmem
+	- https://docs.nvidia.com/nvshmem/
 
 ## Communication: Talks
 
