@@ -1696,6 +1696,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 
 ## Stack Trace & Unwinding: Readings
 
+- Compressing callstacks: a bitpacked DAG powered by a keyless hashmap
+	- 2025-12-01
+	- Jelle van der Beek
+	- https://superluminal.eu/compressing-callstacks/
 - Fast Call-Stack Backtrace
 	- 2025-10-20; Branimir Karadžić
 	- https://bkaradzic.github.io/posts/fast-call-stack-backtrace/
