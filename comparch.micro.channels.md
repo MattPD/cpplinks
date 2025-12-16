@@ -66,6 +66,13 @@ See also: [Computer Architecture](comparch.md)
 	- 2025 Ph.D. Dissertation
 	- Alyssa Anne Milburn
 	- https://doi.org/10.5463/thesis.330
+- Rubicon: Precise Microarchitectural Attacks with Page-Granular Massaging
+	- IEEE European Symposium on Security and Privacy (EuroS&P) 2025
+	- Matej Bölcskei, Patrick Jattke, Johannes Wikner, Kaveh Razavi
+	- https://comsec.ethz.ch/rubicon
+	- https://comsec-files.ethz.ch/papers/rubicon_eurosp25.pdf
+	- https://github.com/comsec-group/rubicon
+	- https://doi.org/10.1109/EuroSP63326.2025.00031
 - Sonar: A Hardware Fuzzing Framework to Uncover Contention Side Channels in Processors
 	- MICRO 2025: International Symposium on Microarchitecture
 	- Kanqi Zhang, Peinan Li, Miao Li, Xin Tian, Zelong Du, Quanchen Liu, Yongqiang Lyu, Yu Jiang, Dan Meng, Rui Hou
