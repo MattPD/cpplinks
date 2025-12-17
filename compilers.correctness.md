@@ -1776,6 +1776,13 @@ Validation: Including translation validation, equivalence checking.
 
 ## Validation: 2024
 
+- FlowCert: Translation Validation for Asynchronous Dataflow via Dynamic Fractional Permissions
+	- OOPSLA 2024
+	- Zhengyao Lin, Joshua Gancher, Bryan Parno
+	- https://doi.org/10.1145/3689729
+	- https://www.youtube.com/watch?v=reixJKCkM1I
+	- https://doi.org/10.5281/zenodo.12552490
+	- https://github.com/secure-foundations/riptide-verification/tree/oopsla2024-ae
 - Modeling Dynamic (De)Allocations of Local Memory for Translation Validation
 	- OOPSLA 2024
 	- Abhishek Rose, Sorav Bansal
