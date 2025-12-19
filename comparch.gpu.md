@@ -87,10 +87,13 @@ See also: [computer architecture](comparch.md)
 
 ### Communication: Software: AMD
 
-- ROCm Communication Collectives Library (RCCL)
+- RCCL: ROCm Communication Collectives Library
 	- a stand-alone library that provides multi-GPU and multi-node collective communication primitives optimized for AMD GPUs
 	- https://github.com/ROCm/rccl
 	- https://rocmdocs.amd.com/projects/rccl/
+- rocSHMEM (ROCm OpenSHMEM): intra-kernel networking runtime for AMD dGPUs on the ROCm platform
+	- https://github.com/ROCm/rocSHMEM
+	- https://rocm.docs.amd.com/projects/rocSHMEM
 
 ### Communication: Software: NVIDIA
 
