@@ -1250,6 +1250,13 @@ See also: [Readings: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Post-processing of linker output to calculate and visualize memory usage for elf-sections
 	- https://github.com/ARMmbed/mbed-os-linker-report
 	- https://os.mbed.com/blog/entry/visualizing-linker-stats/
+- svc-hook: System Call Hook for ARM64
+	- A system call hook mechanism for ARM64. Designed to be low performance overhead, independent of the target source code, without relying on kernel features. Utilizes binary rewriting, replacing every `svc` instruction with a `b` instruction in the loaded target binary code before the main function starts.
+	- https://github.com/retrage/svc-hook
+	- svc-hook: hooking system calls on ARM64 by binary rewriting
+		- ACM/IFIP International Middleware Conference 2025
+		- Akira Moroo, Hajime Tazaki, Kenichi Yasukata
+		- https://dl.acm.org/doi/10.1145/3721462.3770771
 
 ## Software: Concurrency
 
