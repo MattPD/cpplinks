@@ -302,6 +302,9 @@ _Benchmarks & comparisons_
 	- https://bloomberg.github.io/bde_verify/
 - CodeChecker: an analyzer tooling, defect database and viewer extension for the Clang Static Analyzer and Clang Tidy
 	- https://github.com/Ericsson/codechecker
+- CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security
+	- https://github.com/github/codeql
+	- https://codeql.github.com/
 - Cppcheck: A tool for static C/C++ code analysis
 	- http://cppcheck.sourceforge.net/
 	- https://github.com/danmar/cppcheck
