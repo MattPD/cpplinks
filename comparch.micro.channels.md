@@ -1562,6 +1562,11 @@ See also: [Computer Architecture](comparch.md)
 	- https://doi.org/10.46586/uasc.2025.005
 	- https://roots.ec/publications/hidden-in-plain-sight-scriptless-microarchitectural-attacks-via-truetype-font-hinting/
 	- https://github.com/cispa/fontention
+- Revisiting Prime+Prune+Probe: Pitfalls and Remedies
+	- Annual Computer Security Applications Conference (ACSAC) 2025
+	- Moritz Peters, Florian Stolz, Jan Philipp Thoma, Tim Güneysu, Yuval Yarom
+	- https://yuval.yarom.org/pdfs/PetersSTGY25.pdf
+	- https://github.com/Chair-for-Security-Engineering/Revisiting-Prime-Prune-Probe
 - Slice+Slice Baby: Generating Last-Level Cache Eviction Sets in the Blink of an Eye
 	- 2025 IEEE Symposium on Security and Privacy (S&P)
 	- Bradley Morgan, Gal Horowitz, Sioli O'Connell, Stephan van Schaik, Chitchanok Chuengsatiansup, Daniel Genkin, Olaf Maennel, Paul Montague, Eyal Ronen, Yuval Yarom
