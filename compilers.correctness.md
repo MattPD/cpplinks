@@ -1998,10 +1998,6 @@ Validation: Including translation validation, equivalence checking.
 	- 2016 PhD thesis; Yuting Wang
 	- https://arxiv.org/abs/1702.03363
 	- http://www.cs.yale.edu/homes/wang-yuting/files/phd_thesis.pdf
-- A Verified Compiler for a Linear Function/Imperative Intermediate Language
-	- 2018 PhD Thesis; Sigurd Schneider
-	- https://www.ps.uni-saarland.de/Publications/documents/Schneider_2018_PhDThesis.pdf
-	- LVC - Linear Verified Compiler: https://www.ps.uni-saarland.de/~sdschn/LVC.html
 - ALIVe: Automatic LLVM InstCombine Verifier
 	- https://github.com/nunoplopes/alive
 	- online: http://rise4fun.com/Alive
@@ -2021,9 +2017,6 @@ Validation: Including translation validation, equivalence checking.
 		- http://export.arxiv.org/abs/1603.09290
 		- https://github.com/4tXJ7f/alive
 		- http://llvm.org/devmtg/2017-03/2017/02/20/accepted-sessions.html#25
-	- Practical Formal Techniques and Tools for Developing LLVM's Peephole Optimizations
-		- 2018 PhD Thesis; David Menendez
-		- https://www.cs.rutgers.edu/~santosh.nagarakatte/david-menendez-phd-thesis.pdf
 	- Precondition Inference for Peephole Optimizations in LLVM
 		- PLDI 2017
 		- David Menendez, Santosh Nagarakatte
@@ -2169,16 +2162,6 @@ Validation: Including translation validation, equivalence checking.
 	- http://pit-claudel.fr/clement/MSc/
 	- https://dspace.mit.edu/handle/1721.1/107293
 	- http://pit-claudel.fr/clement/MSc/FiatToFacade_Pit-Claudel_2016.pdf
-- Compositional Verification of Compiler Optimisations on Relaxed Memory
-	- ESOP 2018
-	- Mike Dodds, Mark Batty, Alexey Gotsman
-	- https://arxiv.org/abs/1802.05918
-- Crellvm: Verified Credible Compilation for LLVM
-	- Programming Languages Design and Implementation (PLDI) 2018
-	- Jeehoon Kang, Yoonseung Kim, Youngju Song, Juneyoung Lee, Sanghoon Park, Mark Dongyeon Shin, Yonghyun Kim, Sungkeun Cho, Joonwon Choi,Chung-Kil Hur, Kwangkeun Yi
-	- a verified credible compilation (or equivalently, verified translation validation) framework for LLVM
-	- http://sf.snu.ac.kr/crellvm/
-	- https://github.com/snu-sf/crellvm-tests-parallel
 - MLIR SMT (Satisfiability Modulo Theories) dialect
 	- https://mlir.llvm.org/docs/Dialects/SMT/
 	- https://discourse.llvm.org/t/rfc-upstreaming-circts-verif-and-smt-dialects/85299
@@ -2192,11 +2175,6 @@ Validation: Including translation validation, equivalence checking.
 	- Andrew W. Appel with Robert Dockins, Aquinas Hobor, Lennart Beringer, Josiah Dodds, Gordon Stewart, Sandrine Blazy, Xavier Leroy
 	- Cambridge University Press, 2014
 	- https://www.cs.princeton.edu/%7Eappel/papers/plcc.pdf
-- Pushing the Limits of Compiler Verification
-	- 2018 PhD Thesis; Eric Mullen
-	- https://homes.cs.washington.edu/~djg/theses/mullen_thesis.pdf
-	- Œuf: Verified Coq Extraction in Coq - https://github.com/uwplse/oeuf
-	- Peek: Verified Peephole Optimizations for CompCert - https://github.com/uwplse/peek
 - Self-compilation and self-verification
 	- 2017 Ph.D. Dissertation; Ramana Kumar
 	- http://www.sigplan.org/Awards/Dissertation/2017_kumar.pdf
@@ -2491,6 +2469,36 @@ Validation: Including translation validation, equivalence checking.
 	- Julie L. Newcomb, Andrew Adams, Steven Johnson, Rastislav Bodik, Shoaib Kamil
 	- https://2020.splashcon.org/details/splash-2020-oopsla/42/Verifying-and-Improving-Halide-s-Term-Rewriting-System-with-Program-Synthesis
 	- https://dl.acm.org/doi/10.1145/3428234
+
+## Verification: 2018
+
+- A Verified Compiler for a Linear Function/Imperative Intermediate Language
+	- 2018 PhD Thesis; Sigurd Schneider
+	- https://www.ps.uni-saarland.de/Publications/documents/Schneider_2018_PhDThesis.pdf
+	- LVC - Linear Verified Compiler: https://www.ps.uni-saarland.de/~sdschn/LVC.html
+- Compositional Verification of Compiler Optimisations on Relaxed Memory
+	- ESOP 2018
+	- Mike Dodds, Mark Batty, Alexey Gotsman
+	- https://arxiv.org/abs/1802.05918
+- Crellvm: Verified Credible Compilation for LLVM
+	- Programming Languages Design and Implementation (PLDI) 2018
+	- Jeehoon Kang, Yoonseung Kim, Youngju Song, Juneyoung Lee, Sanghoon Park, Mark Dongyeon Shin, Yonghyun Kim, Sungkeun Cho, Joonwon Choi,Chung-Kil Hur, Kwangkeun Yi
+	- a verified credible compilation (or equivalently, verified translation validation) framework for LLVM
+	- http://sf.snu.ac.kr/crellvm/
+	- https://github.com/snu-sf/crellvm-tests-parallel
+- Formal Verification of Optimizing Compilers
+	- International Conference on Distributed Computing and Internet Technology (ICDCIT) 2018
+	- Yiji Zhang, Lenore D. Zuck
+	- https://link.springer.com/chapter/10.1007/978-3-319-72344-0_3
+	- https://www.researchgate.net/publication/321370385_Formal_Verification_of_Optimizing_Compilers
+- Practical Formal Techniques and Tools for Developing LLVM's Peephole Optimizations
+	- 2018 PhD Thesis; David Menendez
+	- https://www.cs.rutgers.edu/~santosh.nagarakatte/david-menendez-phd-thesis.pdf
+- Pushing the Limits of Compiler Verification
+	- 2018 PhD Thesis; Eric Mullen
+	- https://homes.cs.washington.edu/~djg/theses/mullen_thesis.pdf
+	- Œuf: Verified Coq Extraction in Coq - https://github.com/uwplse/oeuf
+	- Peek: Verified Peephole Optimizations for CompCert - https://github.com/uwplse/peek
 
 ## Verification: Talks
 
