@@ -873,6 +873,13 @@ Compiler-Based Static Instrumentation
 - ThreadSanitizer APIs for external libraries
 	- 2017 LLVM Developers’ Meeting; Kuba Mracek
 	- https://www.youtube.com/watch?v=-J9bMpqfc7A
+- Utilizing ThreadSanitizer for HPC Correctness Checking
+	- LLVM Meetup Darmstadt 2024-07-31
+	- Simon Schwitanski
+	- https://www.youtube.com/watch?v=IB04tyatpww
+	- MUST: a runtime error detection tool for MPI applications
+		- https://www.itc.rwth-aachen.de/MUST
+		- https://www.vi-hps.org/tools/must.html
 
 ## Software: Valgrind
 
