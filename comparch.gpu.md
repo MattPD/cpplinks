@@ -101,6 +101,9 @@ See also: [computer architecture](comparch.md)
 	- Optimized primitives for collective multi-GPU communication
 	- https://github.com/NVIDIA/nccl
 	- https://developer.nvidia.com/nccl
+- NCCLX: NVIDIA Collective Communications Library (extended)
+	- Meta's production-tested backend that powers all generative AI services
+	- https://github.com/meta-pytorch/torchcomms/tree/main/comms/ncclx
 - NVSHMEM: NVIDIA OpenSHMEM Library
 	- https://github.com/NVIDIA/nvshmem
 	- https://developer.nvidia.com/nvshmem
