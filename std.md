@@ -396,6 +396,11 @@ See also: [Coroutines](https://gist.github.com/MattPD/9b55db49537a90545a90447392
 - The C++20 Standard Library: Beyond Ranges
 	- CppCon 2019; Jeff Garland
 	- https://www.youtube.com/watch?v=fI19ttpUNRQ
+- Unlocking the value of C++20
+	- Meeting C++ 2025
+	- Alex Dathskovsky
+	- https://www.youtube.com/watch?v=5h4djuyx4Nk
+	- https://meetingcpp.com/mcpp/slides/2025/C--20.pptx%20(1)175188.pdf
 
 ## C++20: Trip Reports
 
