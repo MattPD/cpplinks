@@ -3472,6 +3472,13 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- 2020
 	- Alexander Nilsson, Pegah Nikbakht Bideh, Joakim Brorsson
 	- https://arxiv.org/abs/2006.13598
+- Activation Functions Considered Harmful: Recovering Neural Network Weights through Controlled Channels
+	- International Symposium on Research in Attacks, Intrusions and Defenses (RAID) 2025
+	- Jesse Spielman, David Oswald, Mark Ryan, Jo Van Bulck
+	- https://arxiv.org/abs/2503.19142
+	- https://vanbulck.net/files/raid25-sgx-dnn.pdf
+	- https://vanbulck.net/files/raid25-sgx-dnn-slides.pdf
+	- https://github.com/heavyimage/afch_paper
 - Cache Attacks on Intel SGX
 	- EuroSec 2017
 	- Johannes Götzfried, Moritz Eckert, Sebastian Schinzel, Tilo Müller
