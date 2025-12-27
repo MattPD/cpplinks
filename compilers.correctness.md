@@ -78,6 +78,12 @@ See also:
 	- https://arks.princeton.edu/ark:/88435/dsp01rr171x259
 	- ftp://ftp.cs.princeton.edu/reports/2012/936.pdf
 - Some Goals for High-impact Verified Compiler Research - https://blog.regehr.org/archives/1565
+- The Ethical Compiler: Addressing the Is-Ought Gap in Compilation (Invited Talk)
+	- The 2025 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation (PEPM)
+	- William J. Bowman
+	- https://popl25.sigplan.org/details/pepm-2025-papers/8/The-Ethical-Compiler-Addressing-the-Is-Ought-Gap-in-Compilation-Invited-Talk-
+	- https://doi.org/10.1145/3704253.3706135
+	- https://www.youtube.com/watch?v=72w9c2fFxW8
 - The Next 700 Compiler Correctness Theorems (Functional Pearl)
 	- ICFP 2019
 	- Daniel Patterson, Amal Ahmed
