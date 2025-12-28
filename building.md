@@ -851,6 +851,10 @@ See also:
 	- Raúl Huertas
 	- https://www.youtube.com/watch?v=pUtB5RHFsW4
 	- https://eventos.uc3m.es/file_manager/getfile/195695
+- CMake — From Basics to Building
+	- NDC TechTown 2025
+	- Petr Kmoch
+	- https://www.youtube.com/watch?v=wJIhPYNxOio
 - import CMake; // Mastering C++ Modules - Marching Towards Standard C++ Dependency Management
 	- C++Now 2025
 	- Bill Hoffman
