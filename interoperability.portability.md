@@ -156,6 +156,11 @@
 	- https://quuxplusone.github.io/blog/2021/05/07/std-iterator-as-a-base-class/
 - Some thoughts on binary compatibility - http://blog.qt.io/blog/2009/08/12/some-thoughts-on-binary-compatibility/
 - Some thoughts on calling convention - http://blog.qt.io/blog/2009/08/15/some-thoughts-on-calling-convention/
+- Specifying ABIs with Realizability and Type-Preserving Compilation
+	- Workshop on Principles of Secure Compilation (PriSC) 2026
+	- Brianna Marshall, Ryan Doenges, Owen Duckham, Ari Prakash, Maxime Legoupil, Elan Semenova, Lars Birkedal, Amal Ahmed
+	- https://ari.foo/pubs/richwasm-prisc26.pdf
+	- https://popl26.sigplan.org/details/prisc-2026-papers/11/Specifying-ABIs-with-Realizability-and-Type-Preserving-Compilation
 - The Importance of Calling Conventions - http://blog.aaronballman.com/2011/04/the-importance-of-calling-conventions/
 - The value of passing by value - https://www.macieira.org/blog/2012/02/the-value-of-passing-by-value/
 - X86-64 System V Application Binary Interface
