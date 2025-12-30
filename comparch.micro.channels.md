@@ -1533,6 +1533,15 @@ See also: [Computer Architecture](comparch.md)
 
 # Cache
 
+## Cache: 2026
+
+- Zero-Store Elimination and its Implications on the SIKE Cryptosystem
+	- Microarchitecture Security Conference (uASC) 2026
+	- Lukas Gerlach, Niklas Flentje, Michael Schwarz
+	- "We also reproduce a previous analysis that locates where zero-store elimination occurs in the memory pipeline and confirm that on the analyzed processors, the L3 cache is responsible for zero-store elimination."
+	- https://uasc.cc/proceedings26/uasc26-gerlach.pdf
+	- https://roots.ec/publications/zerostore-elimination-and-its-implications-on-the-sike-cryptosystem/
+
 ## Cache: 2025
 
 - A Systematic Evaluation of Novel and Existing Cache Side Channels
