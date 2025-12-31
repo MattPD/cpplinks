@@ -611,9 +611,11 @@ See also:
 	- Jørgen Kvalsvik
 	- https://www.youtube.com/watch?v=QSFlLgxXHqs
 - Path coverage in gcc
-	- NDC TechTown 2024
 	- Jørgen Kvalsvik
-	- https://www.youtube.com/watch?v=kkAsakZCCAY
+	- NDC TechTown 2024
+		- https://www.youtube.com/watch?v=kkAsakZCCAY
+	- NDC TechTown 2025
+		- https://www.youtube.com/watch?v=xYMkWT3ipRs
 
 ## Coverage: Mutation
 
