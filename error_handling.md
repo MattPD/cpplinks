@@ -590,6 +590,11 @@
 	- CppCon 2025
 	- https://www.youtube.com/watch?v=wNPfs8aQ4oo
 	- https://github.com/CppCon/CppCon2025/blob/main/Presentations/Cutting_C++_Exception_time_by_93.4_percent_.pdf
+- To Err is Human: Error Handling in C++26
+	- Meeting C++ 2025
+	- Sebastian Theophil
+	- https://www.youtube.com/watch?v=CbFJGjQTh8M
+	- https://meetingcpp.com/mcpp/slides/2025/toerrishuman739400.pdf
 
 ## 2024
 
