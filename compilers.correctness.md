@@ -841,6 +841,15 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://doi.org/10.1109/ICST62969.2025.10988954
 	- https://www.doc.ic.ac.uk/~afd/papers/2025/ICST-Industry.pdf
 	- https://github.com/CompFuzzCI
+- FuzzFlesh: Randomised Testing of Decompilers via Control Flow Graph-Based Program Generation
+	- European Conference on Object-Oriented Programming (ECOOP) 2025
+	- Amber Gorzynski, Alastair F. Donaldson
+	- https://doi.org/10.4230/LIPIcs.ECOOP.2025.13
+	- https://www.doc.ic.ac.uk/~afd/papers/2025/ECOOP-FuzzFlesh.pdf
+	- https://drops.dagstuhl.de/storage/00lipics/lipics-vol333-ecoop2025/LIPIcs.ECOOP.2025.13/LIPIcs.ECOOP.2025.13.pdf
+	- https://2025.ecoop.org/details/ecoop-2025-technical-papers/34/FuzzFlesh-Randomised-Testing-of-Decompilers-Via-Control-Flow-Graph-based-Program-Gen
+	- FuzzFlesh: Compiler testing using control flow graph fleshing
+		- https://github.com/ambergorzynski/control_flow_fleshing
 - Fuzzing MLIR Compilers with Custom Mutation Synthesis
 	- International Conference on Software Engineering (ICSE) 2025
 	- Ben Limpanukorn, Jiyuan Wang, Hong Jin Kang, Eric Zitong Zhou, Miryung Kim
