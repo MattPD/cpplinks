@@ -1469,6 +1469,12 @@ See also: [Computer Architecture](comparch.md)
 	- https://comsec.ethz.ch/research/microarch/branch-privilege-injection/
 	- https://comsec.ethz.ch/wp-content/files/bprc_sec25.pdf
 	- https://github.com/comsec-group/bprc
+- Exploiting Inaccurate Branch History in Side-Channel Attacks
+	- USENIX Security Symposium 2025
+	- Yuhui Zhu, Alessandro Biondi
+	- https://arxiv.org/abs/2506.07263
+	- https://www.usenix.org/conference/usenixsecurity25/presentation/zhu-yuhui
+	- https://github.com/zhuyuhui97/sec25-inaccurate-br-hist-artifact
 
 ## Branch Predictor: 2024
 
