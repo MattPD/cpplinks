@@ -576,6 +576,14 @@ Assemblers - https://en.wikipedia.org/wiki/Comparison_of_assemblers#x86_assemble
 	- https://www.youtube.com/watch?v=jmbBIYdjN2E
 	- Slides: https://courses.cs.washington.edu/courses/csep501/16wi/calendar/lecturelist.html
 
+## 2025
+
+- Microarchitecture: What Happens Beneath
+	- Jane Street Tech Talk 2025-11-24
+	- Matt Godbolt
+	- https://www.youtube.com/watch?v=BVVNtG5dgks
+	- https://mattgodbolt.github.io/janestreet-2025-what-happens-beneath
+
 ## 2021
 
 - Top 10 Craziest Assembly Language Instructions
