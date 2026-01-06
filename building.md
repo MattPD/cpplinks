@@ -846,6 +846,12 @@ See also:
 
 #### CMake Talks: 2025
 
+- Building C++: It Doesn't Have to be Painful!
+	- NDC TechTown 2025
+	- Nicole Patricia Mazzuca
+	- https://www.youtube.com/watch?v=eCepmlMW3Ig
+	- Rho: the reMarkable CMake library
+		- https://github.com/reMarkable/rho-oss
 - CMake: C'mon, it's 2025 already!
 	- using std::cpp 2025
 	- Raúl Huertas
