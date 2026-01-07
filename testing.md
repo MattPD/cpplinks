@@ -606,6 +606,10 @@ See also:
 
 ## Coverage: Talks
 
+- Coverage, quality, and Goodhart's Law
+	- NDC TechTown 2025
+	- Jørgen Kvalsvik
+	- https://www.youtube.com/watch?v=mldaRktcGl0
 - Modified Condition and Decision Coverage in GCC: Intro, Motivation & Tooling
 	- ACCU 2023
 	- Jørgen Kvalsvik
