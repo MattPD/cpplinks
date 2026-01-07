@@ -2230,6 +2230,15 @@ Validation: Including translation validation, equivalence checking.
 	- TensorRight: an automatic tool to verify tensor graph rewrites for tensors of arbitrary ranks and sizes. Tensor Graph Rewriting is one of the key optimizations in Tensor Compilers such as XLA.
 	- https://github.com/ADAPT-uiuc/TensorRight
 	- https://www.youtube.com/watch?v=k_cVLErSScI
+- Vellvm: Formalizing the Informal LLVM (Experience Report)
+	- NASA Formal Methods Symposium 2025
+	- Calvin Beck, Hanxi Chen, Steve Zdancewic
+	- https://www.cis.upenn.edu/~stevez/papers/nfm25.pdf
+	- https://www.cis.upenn.edu/~stevez/papers/abstracts.html#BCZ25
+	- https://link.springer.com/chapter/10.1007/978-3-031-93706-4_6
+	- Vellvm: Formalizing the Informal
+		- CoqPL 2025
+		- https://www.youtube.com/watch?v=oE-gtyMASHM
 
 ## Verification: 2024
 
