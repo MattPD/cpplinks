@@ -3172,6 +3172,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 		- 2025
 		- Ali Saidi, Moritz Lipp, Filippo Sironi
 		- https://aws.amazon.com/blogs/security/ec2-defenses-against-l1tf-reloaded/
+- Transient Architectural Execution: from Weird Gates to Weird Programs
+	- 2026 IEEE Symposium on Security and Privacy (S&P)
+	- Ping-Lun Wang, Fraser Brown, Eyal Ronen, Riccardo Paccagnella, Riad S. Wahby, Yuval Yarom
+	- https://doi.ieeecomputersociety.org/10.1109/SP63933.2026.00066
 
 ## Speculation: 2025
 
