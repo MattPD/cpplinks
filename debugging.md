@@ -1767,6 +1767,10 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://www.youtube.com/watch?v=IjHWbo_ZF-E
 	- http://serhei.io/files/cauldron2024-slides.pdf
 	- https://gcc.gnu.org/wiki/cauldron2024#cauldron2024talks.profiling_framepointerless_code_with_elfutils_stacktrace
+- Stack Tracing in C++
+	- Chicago C++ User Group 2024
+	- Jeremy Rifkin
+	- https://www.youtube.com/watch?v=qduj3ohxcUQ
 
 ---
 
