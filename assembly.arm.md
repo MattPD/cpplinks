@@ -1377,6 +1377,15 @@ See also: [Performance Tools](performance.tools.md)
 - Streamline Performance Analyzer
 	- https://developer.arm.com/tools-and-software/embedded/arm-development-studio/components/streamline-performance-analyzer
 
+### Software: Performance: Apple Silicon
+
+- lauka: Apple Silicon PMU recorder
+	- A minimal, predictable CLI to record Apple Silicon PMU counters and compare multiple commands.
+	- https://github.com/verte-zerg/lauka
+	- PMU Counters on Apple Silicon
+		- 2026-01-07; Mikhail Zhuk
+		- https://blog.bugsiki.dev/posts/apple-pmu/
+
 ### Software: Performance: Benchmarking
 
 - LIKWID: Performance monitoring and benchmarking suite
