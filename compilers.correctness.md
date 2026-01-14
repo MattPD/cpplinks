@@ -2222,6 +2222,17 @@ Validation: Including translation validation, equivalence checking.
 
 ## Verification: 2025
 
+- Formal Foundations for Translational Separation Logic Verifiers
+	- POPL 2025
+	- Thibault Dardinier, Michael Sammler, Gaurav Parthasarathy, Alexander J. Summers, Peter Müller
+	- https://doi.org/10.1145/3704856
+	- https://doi.org/10.5281/zenodo.13938949
+	- https://arxiv.org/abs/2407.20002
+	- https://www.youtube.com/watch?v=4_W59vnfCwg
+	- Big Specification: Specification, Proof, and Testing at Scale 2024
+		- https://www.youtube.com/watch?v=JLFP_-sQ-I4
+	- Viper Roots formalization for the Viper intermediate verification language
+		- https://github.com/viperproject/viper-roots
 - TensorRight: Automated Verification of Tensor Graph Rewrites
 	- POPL 2025
 	- Jai Arora, Sirui Lu, Devansh Jain, Tianfan Xu, Farzin Houshmand, Phitchaya Mangpo Phothilimthana, Mohsen Lesani, Praveen Narayanan, Karthik Srinivasa Murthy, Rastislav Bodík, Amit Sabne, Charith Mendis
