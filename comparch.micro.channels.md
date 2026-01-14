@@ -62,6 +62,10 @@ See also: [Computer Architecture](comparch.md)
 
 ## General: 2025
 
+- Controlled Preemption: Amplifying Side-Channel Attacks from Userspace
+	- ASPLOS 2025
+	- Yongye Zhu, Boru Chen, Zirui Neil Zhao, Christopher W. Fletcher
+	- https://doi.org/10.1145/3676641.3715985
 - From Hardware to Software: An End-to-End Side-Channel Attack Surface Analysis
 	- 2025 Ph.D. Dissertation
 	- Alyssa Anne Milburn
