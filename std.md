@@ -114,6 +114,11 @@
 
 ## C++26: Talks
 
+- C++26 - What's In It For You?
+	- CppCon 2025
+	- Marc Gregoire
+	- https://www.youtube.com/watch?v=PcidhLUYp-4
+	- <https://github.com/CppCon/CppCon2025/blob/main/Presentations/C++26_What's_In_It_For_You.pptx>
 - C++26 Preview
 	- C++Now 2024
 	- Jeffrey Garland
