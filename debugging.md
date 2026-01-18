@@ -984,8 +984,6 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Faster debugging with watchpoints
 	- https://interrupt.memfault.com/blog/cortex-m-watchpoints
 - gdb Debugging Full Example (Tutorial): ncurses - http://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html
-- GDB JIT Interface 101
-	- https://weliveindetail.github.io/blog/post/2022/11/27/gdb-jit-interface-101.html
 - GDB Tips and Tricks - Shane Kirk
 	- 1: A Tale of Two Terminals - http://www.shanekirk.com/2017/08/gdb-tips-and-tricks-1-a-tale-of-two-terminals/
 	- 2: Setting Breakpoints with Regular Expressions - http://www.shanekirk.com/2017/08/gdb-tips-and-tricks-2-setting-breakpoints-with-regular-expressions/
@@ -1039,6 +1037,15 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 - Victor Stinner's Notes - GDB: GNU debugger - http://vstinner.readthedocs.io/gdb.html
 - Why your errno value isn't printing in GDB—and what to do about it
 	- https://developers.redhat.com/articles/2024/06/05/why-your-errno-value-isnt-printing-gdb-and-what-do-about-it
+
+#### GDB: Readings: JIT Interface
+
+- GDB JIT Interface 101
+	- 2022-11-27; Stefan Gränitz
+	- https://weliveindetail.github.io/blog/post/2022/11/27/gdb-jit-interface-101.html
+- The GDB JIT Interface
+	- 2025-12-30; Max Bernstein
+	- https://bernsteinbear.com/blog/gdb-jit/
 
 #### GDB: Readings: Pretty Printing
 
