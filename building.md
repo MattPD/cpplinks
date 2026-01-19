@@ -875,6 +875,11 @@ See also:
 	- C++Now 2025
 	- Bret Brown
 	- https://www.youtube.com/watch?v=xNHKTdnn4fY
+- The Evolution of CMake: 25 Years of C++ Build Portability
+	- CppCon 2025
+	- Bill Hoffman
+	- https://www.youtube.com/watch?v=wPZV2hBNJmo
+	- https://github.com/CppCon/CppCon2025/blob/main/Presentations/Modern_CMake.pdf
 
 #### CMake Talks: 2024
 
