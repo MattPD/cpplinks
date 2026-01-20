@@ -3,7 +3,7 @@
 # Contents
 
 - [General](#general)
-- Language-specific: [Bash](#bash), [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [Coq](#coq), [D](#d), [Fortran](#fortran), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Nim](#nim), [Objective-C](#objective-c), [OCaml](#ocaml), [PHP](#php), [Python](#python), [R](#r), [Rust](#rust), [Scheme](#scheme), [Stata](#stata), [Swift](#swift), [WebAssembly](#webassembly), [Zig](#zig)
+- Language-specific: [Bash](#bash), [C](#c), [C#](#c-1), [Common Lisp](#common-lisp), [D](#d), [Fortran](#fortran), [Haskell](#haskell), [Java](#java), [JavaScript](#javascript), [Julia](#julia), [Lua](#lua), [Nim](#nim), [Objective-C](#objective-c), [OCaml](#ocaml), [PHP](#php), [Python](#python), [R](#r), [Rocq](#rocq), [Rust](#rust), [Scheme](#scheme), [Stata](#stata), [Swift](#swift), [WebAssembly](#webassembly), [Zig](#zig)
 
 ---
 
@@ -243,18 +243,6 @@
 
 - Clasp — Bringing Common Lisp and C++ Together
 	- https://github.com/drmeister/clasp
-
----
-
-# Coq
-
-- A Verified Foreign Function Interface Between Coq and C
-	- 2024 technical report
-	- Joomy Korkut, Kathrin Stark, Andrew W. Appel
-	- https://joomy.korkutblech.com/papers/veriffi.pdf
-	- VeriFFI: Verified Foreign Function Interface for connecting Coq programs to C programs at the operational and specification/verification levels; part of CertiCoq project
-	- https://github.com/CertiCoq/VeriFFI
-	- https://github.com/CertiCoq/VeriFFI/blob/main/doc/veriffi_techreport.pdf
 
 ---
 
@@ -573,6 +561,24 @@
 	- Rcpp: Seamless R and C++ Integration - CppCon 2015: Matt P. Dziubinski
 		- https://speakerdeck.com/mattpd/rcpp-seamless-r-and-c-plus-plus-integration-cppcon-2015
 		- https://www.youtube.com/watch?v=xiqYaHa2x4s
+
+---
+
+# Rocq
+
+- A Verified Foreign Function Interface Between Coq and C
+	- 2024 technical report
+	- Joomy Korkut, Kathrin Stark, Andrew W. Appel
+	- https://joomy.korkutblech.com/papers/veriffi.pdf
+	- VeriFFI: Verified Foreign Function Interface for connecting Coq programs to C programs at the operational and specification/verification levels; part of CertiCoq project
+	- https://github.com/CertiCoq/VeriFFI
+	- https://github.com/CertiCoq/VeriFFI/blob/main/doc/veriffi_techreport.pdf
+- Crane: An extraction system from Rocq to functional-style, memory-safe, thread-safe, readable, valid, performant, and modern C++
+	- https://github.com/bloomberg/crane
+	- Crane Lowers Rocq Safely into C++ (Extended Abstract)
+		- RocqPL 2026
+		- Matthew Z. Weaver, Joomy Korkut
+		- https://bloomberg.github.io/crane/papers/crane-rocqpl26.pdf
 
 ---
 
