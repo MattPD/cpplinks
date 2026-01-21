@@ -601,6 +601,15 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ### Memory Tagging Extension (MTE)
 
+#### Memory Tagging Extension (MTE): 2025
+
+- Optimized Memory Tagging on AmpereOne Processors
+	- 2025
+	- Shiv Kaushik, Mahesh Madhav, Nagi Aboulenein, Jason Bessette, Sandeep Brahmadathan, Ben Chaffin, Matthew Erler, Stephan Jourdan, Thomas Maciukenas, Ramya Masti, Jon Perry, Massimo Sutera, Scott Tetrick, Bret Toll, David Turley, Carl Worth, Atiq Bajwa
+	- https://arxiv.org/abs/2511.17773
+
+#### Memory Tagging Extension (MTE): 2018-2024
+
 - ARM Memory Tagging Extension and How It Improves C/C++ Memory Safety
 	- USENIX ;login: Vol. 44, No. 2 Summer 2019
 	- Kostya Serebryany
@@ -634,6 +643,7 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Part 3: The Kernel
 		- https://googleprojectzero.blogspot.com/2023/08/mte-as-implemented-part-3-kernel.html
 - scudo: Add initial memory tagging support
+	- 2019
 	- https://reviews.llvm.org/D70762
 - Security analysis of memory tagging
 	- 2020; Joe Bialek, Ken Johnson, Matt Miller, Tony Chen
