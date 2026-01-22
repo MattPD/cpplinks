@@ -835,6 +835,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 #### Testing: Readings: Fuzzing: 2025
 
+- A Comprehensive Study of OOP-Related Bugs in C++ Compilers
+	- IEEE Transactions on Software Engineering (TSE) 51(6) June 2025
+	- Bo Wang, Chong Chen, Junjie Chen, Bowen Xu, Chen Ye, Youfang Lin, Guoliang Dong, Jun Sun
+	- https://doi.org/10.1109/TSE.2025.3566490
+	- https://github.com/Rush10233/OOP-Related-Bugs-Study-TSE-Artifacts/blob/main/tse-A%20Comprehensive%20Study%20of%20OOP-Related%20Bugs%20in%20C%2B%2B%20Compilers.pdf
+	- OOPFuzz: a proof-of-concept compiler fuzzer specifically targeting OOP-related bugs in C++ compilers
+		- https://github.com/Rush10233/OOP-Related-Bugs-Study-TSE-Artifacts
+		- https://github.com/Rush10233/OOP-Related-Bugs-Study-TSE-Artifacts/tree/main/OOPFuzz
 - Compiler Fuzzing in Continuous Integration: A Case Study on Dafny
 	- IEEE International Conference on Software Testing, Verification and Validation (ICST) 2025
 	- Karnbongkot Boonriong, Stefan Zetzsche, Alastair F. Donaldson
