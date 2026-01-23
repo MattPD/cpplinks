@@ -314,6 +314,11 @@ See also: [Computer Architecture](comparch.md)
 	- https://sites.google.com/view/arch-sec/home
 - Timing Channels - Trustworthy Systems - Data61
 	- https://ts.data61.csiro.au/projects/TS/timeprotection/
+- WeMu: Effective and Scalable Emulation of Microarchitectural Weird Machines
+	- Microarchitecture Security Conference (uASC) 2026
+	- Dries Vanspauwen, Lesly-Ann Daniel, Jo Van Bulck
+	- https://vanbulck.net/files/uasc26-wemu.pdf
+	- https://github.com/driesvanspauwen/wemu/tree/uasc26-artifact
 
 ## Defense: Branch Predictor
 
@@ -546,7 +551,7 @@ See also: [Computer Architecture](comparch.md)
 	- https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/doychev
 	- https://github.com/cacheaudit/cacheaudit
 
-### Defense: DRAM
+## Defense: DRAM
 
 - DAGguise: Mitigating Memory Timing Side Channels
 	- ASPLOS 2022
