@@ -319,6 +319,18 @@ _Books, Books Reviews_
 - (Windows) Data Breakpoints - https://blogs.msdn.microsoft.com/reiley/2011/07/21/data-breakpoints/
 - (Windows) Side Effects of Debugger - https://blogs.msdn.microsoft.com/reiley/2011/08/27/side-effects-of-debugger/
 
+### Implementation: 2026
+
+- Towards Threading the Needle of Debuggable Optimized Binaries
+	- International Symposium on Code Generation and Optimization (CGO) 2026
+	- Cristian Assaiante, Simone Di Biasio, Snehasish Kumar, Giuseppe Antonio Di Luna, Daniele Cono D’Elia, Leonardo Querzoni
+	- https://snehasish.net/assets/pdf/assaiante-cgo26.pdf
+	- Constructing Debug-Friendly Optimization Pipelines from Individual Pass Evaluation
+		- https://discourse.llvm.org/t/constructing-debug-friendly-optimization-pipelines-from-individual-pass-evaluation/89189
+	- DebugTuner: A framework for testing the impact of individual optimization passes on debug information availability
+		- guides the construction of more debug-friendly optimization pipelines with minimal performance overhead
+		- https://github.com/Sap4Sec/debugtuner
+
 ### Implementation: 2025
 
 - Implementation of the Debugging Support for the LLVM Outlining Optimization
