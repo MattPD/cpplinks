@@ -821,6 +821,9 @@ https://riscv.org/software-tools/
 	- Part 9: Paging and the MMU in the RISC-V Linux Kernel - https://www.sifive.com/blog/2017/12/11/all-aboard-part-9-paging-and-mmu-in-risc-v-linux-kernel/
 	- Part 10: How to Contribute to the RISC-V Software Ecosystem - https://www.sifive.com/blog/2018/02/20/all-aboard-part-10-how-to-contribute-to-the-risc-v-software-ecosystem/
 - Building upstream RISC-V GCC+binutils+newlib: the quick and dirty way - http://www.lowrisc.org/blog/2017/09/building-upstream-risc-v-gccbinutilsnewlib-the-quick-and-dirty-way/
+- Easy RISC-V: An interactive introduction to RISC-V assembly programming
+	- https://dramforever.github.io/easyriscv/
+	- https://github.com/dramforever/easyriscv
 - LMARV-1 (Learn Me A RISC-V, level 1)
 	- https://github.com/RobertBaruch/lmarv
 	- https://www.youtube.com/playlist?list=PLEeZWGE3PwbansoxKjjMKHQqS_2cm8i60
