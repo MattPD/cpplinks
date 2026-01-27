@@ -603,6 +603,10 @@
 
 ### Papers - Memory Model: 2022
 
+- Away From Linear Models of Concurrent Programs
+	- 2022 PhD Dissertation
+	- Daniel Wright
+	- https://doi.org/10.22024/UniKent%2F01.02.103282
 - Mixed-Proxy Extensions for the NVIDIA PTX Memory Consistency Model
 	- International Symposium on Computer Architecture (ISCA), Industry Track, 2022
 	- Daniel Lustig, Simon Cooksey, Olivier Giroux
