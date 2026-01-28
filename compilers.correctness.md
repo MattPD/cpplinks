@@ -756,6 +756,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 		- https://doi.org/10.1145/3477314.3507171
 	- International Conference on Software and Systems Reuse (ICSR) 2022
 		- https://doi.org/10.1007/978-3-031-08129-3_7
+- Enriching Compiler Testing with Real Program from Bug Report
+	- IEEE/ACM International Conference on Automated Software Engineering ASE 2022
+	- Hao Zhong
+	- https://doi.org/10.1145/3551349.3556894
+	- https://cs.sjtu.edu.cn/~zhonghao/paper/otherreport.pdf
+	- https://www.youtube.com/watch?v=KMayhm8jd2g
+	- https://github.com/drhaozhong/otherbugreport
 - Interpreter-guided Differential JIT Compiler Unit Testing
 	- Programming Language Design and Implementation (PLDI) 2022
 	- Guillermo Polito, Stéphane Ducasse, Pablo Tesone
