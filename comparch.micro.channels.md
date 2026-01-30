@@ -3380,6 +3380,11 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- Silvan Niederer, Sandro Rüegge, Ali Hajiabadi, Kaveh Razavi
 	- https://doi.org/10.1145/3725843.3756058
 	- https://comsec-files.ethz.ch/papers/stackengine_micro25.pdf
+- StackWarp: Breaking AMD SEV-SNP Integrity via Deterministic Stack-Pointer Manipulation through the CPU’s Stack Engine
+	- USENIX Security 2026
+	- Ruiyi Zhang, Tristan Hornetz, Daniel Weber, Fabian Thomas, Michael Schwarz
+	- https://stackwarpattack.com/
+	- https://stackwarpattack.com/stackwarp_usenix26.pdf
 
 ---
 
