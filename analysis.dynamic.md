@@ -748,6 +748,15 @@ Compiler-Based Static Instrumentation
 
 ##### Software: Sanitizers: Readings: Research: 2018
 
+- Automatic fuzzy-scheduling of threads in Google Thread Sanitizer to detect errors in multithreaded code
+	- MICSECS 2018
+	- Oleg Doronin, Karina Dergun, Andrey Dergachev
+	- https://ceur-ws.org/Vol-2344/paper9.pdf
+	- [RFC] [tsan] Implementing a Fuzz Scheduler for TSAN
+		- 2024-2026; Chris Cotter
+		- https://discourse.llvm.org/t/rfc-tsan-implementing-a-fuzz-scheduler-for-tsan/80969
+		- Introduce Adaptive Delay Scheduling to TSAN
+			- https://github.com/llvm/llvm-project/pull/178836
 - CastSan: Efficient Detection of Polymorphic C++ Object Type Confusions with LLVM
 	- European Symposium on Research in Computer Security (ESORICS) 2018
 	- Muntean P., Wuerl S., Grossklags J., Eckert C.
