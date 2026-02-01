@@ -374,6 +374,9 @@ See also:
 - Linker Relaxation in the RISC-V Toolchain
 	- 2017; Palmer Dabbelt
 	- https://www.sifive.com/blog/all-aboard-part-3-linker-relaxation-in-riscv-toolchain
+- Long branches in compilers, assemblers, and linkers
+	- MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2026-01-25-long-branches-in-compilers-assemblers-and-linkers
 - RISC-V linker relaxation in lld
 	- 2022; MaskRay (Fangrui Song)
 	- https://maskray.me/blog/2022-07-10-riscv-linker-relaxation-in-lld
