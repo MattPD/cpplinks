@@ -97,6 +97,12 @@ See also:
 	- https://doi.org/10.1109/SANER50967.2021.00010
 	- https://www.youtube.com/watch?v=tWb9zwRH-1g
 	- https://github.com/DataProvided/Tool-chain-Bugs-Data
+- Understanding Compiler Bugs in Real Development
+	- 2025 IEEE/ACM International Conference on Software Engineering (ICSE)
+	- Hao Zhong
+	- https://doi.org/10.1109/ICSE55347.2025.00068
+	- https://drhaozhong.github.io/paper/understandingbug.pdf
+	- https://cs.sjtu.edu.cn/~zhonghao/paper/understandingbug.pdf
 - Well-Typed Programs Can Go Wrong: A Study of Typing-Related Bugs in JVM Compilers
 	- OOPSLA 2021
 	- Stefanos Chaliasos, Thodoris Sotiropoulos, Georrgios-Petros Drosos, Charalambos Mitropoulos, Dimitris Mitropoulos, Diomidis Spinellis
