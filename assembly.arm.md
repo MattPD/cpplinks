@@ -601,6 +601,16 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 
 ### Memory Tagging Extension (MTE)
 
+#### Memory Tagging Extension (MTE): 2026
+
+- Arm MTE Performance in Practice (Extended Version)
+	- USENIX Security 2026
+	- Taehyun Noh, Yingchen Wang, Tal Garfinkel, Mahesh Madhav, Mattan Erez, Daniel Moghimi, Shravan Narayan
+	- https://arxiv.org/abs/2601.11786
+	- https://shravanrn.com/pubs/mte-extended.pdf
+	- https://github.com/UT-Security/mte-root
+	- https://doi.org/10.5281/zenodo.17953064
+
 #### Memory Tagging Extension (MTE): 2025
 
 - Optimized Memory Tagging on AmpereOne Processors
