@@ -238,6 +238,9 @@
 	- http://infocenter.arm.com/help/topic/com.arm.doc.ihi0038b/IHI0038B_ehabi.pdf
 - Itanium C++ ABI: Exception Handling
 	- https://itanium-cxx-abi.github.io/cxx-abi/abi-eh.html
+- LLVM IR Generation for EH and Cleanups
+	- https://clang.llvm.org/docs/LLVMExceptionHandlingCodeGen.html
+	- This document describes how Clang’s LLVM IR generation represents exception handling (EH) and C++ cleanups. It focuses on the data structures and control flow patterns used to model normal and exceptional exits, and it outlines how the generated IR differs across common ABI models.
 - MSVC
 	- Exception handling in MSVC
 		- https://docs.microsoft.com/en-us/cpp/cpp/exception-handling-in-visual-cpp
