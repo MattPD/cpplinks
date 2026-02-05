@@ -322,6 +322,11 @@ See also: [Computer Architecture](comparch.md)
 
 ## Defense: Branch Predictor
 
+- BranchCloak: Mitigating Side-Channel Attacks on Directional Branch Predictors
+	- Electronics 2025, 14(9):1758
+	- Jihoon Kim, Hyerean Jang, Youngjoo Shin
+	- https://doi.org/10.3390/electronics14091758
+	- https://github.com/koreacsl/BranchCloak
 - BRB: Mitigating Branch Predictor Side-Channels
 	- High-Performance Computer Architecture (HPCA) 2019
 	- Ilias Vougioukas, Andreas Sandberg, Nikos Nikoleris, Stephan Diestelhorst, Bashir Al-Hashimi, Geoff Merrett
