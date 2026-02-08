@@ -856,6 +856,17 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- OOPFuzz: a proof-of-concept compiler fuzzer specifically targeting OOP-related bugs in C++ compilers
 		- https://github.com/Rush10233/OOP-Related-Bugs-Study-TSE-Artifacts
 		- https://github.com/Rush10233/OOP-Related-Bugs-Study-TSE-Artifacts/tree/main/OOPFuzz
+- Bin2Wrong: a Unified Fuzzing Framework for Uncovering Semantic Errors in Binary-to-C Decompilers
+	- USENIX ATC 2025
+	- Zao Yang, Stefan Nagy
+	- https://www.usenix.org/conference/atc25/presentation/yang-zao
+	- https://futures.cs.utah.edu/papers/25ATC.pdf
+	- https://futures.cs.utah.edu/papers/25ATC_slides.pdf
+	- Bin2Wrong: Fuzzing Binary Decompilers
+		- https://github.com/FuturesLab/Bin2Wrong
+	- Restructuring the Binary Ninja Decompiler
+		- 2024; Rusty Wagner
+		- https://binary.ninja/2024/06/19/restructuring-the-decompiler.html
 - Compiler Fuzzing in Continuous Integration: A Case Study on Dafny
 	- IEEE International Conference on Software Testing, Verification and Validation (ICST) 2025
 	- Karnbongkot Boonriong, Stefan Zetzsche, Alastair F. Donaldson
