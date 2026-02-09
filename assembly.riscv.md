@@ -227,6 +227,10 @@ Zvbb, Zvbc, Zvkb, Zvkg, Zvkn, Zvknc, Zvkned, Zvkng, Zvknha, Zvknhb, Zvks, Zvksc,
 	- Leveraging RISC-V Vector to slow down SHA-3 software implementation
 	- 2023-12-31
 	- https://fprox.substack.com/p/rvv-implementation-of-keccak-sha
+- Tutorial: RISC-V Vector Extension Demystified
+	- 2020 RISC-V Summit
+	- Thang Tran
+	- https://www.youtube.com/watch?v=oTaOd8qr53U
 - Accelerating CRC with RISC-V Vector
 	- Zvbc(32e) for the win
 	- 2024-10-12
