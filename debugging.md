@@ -1791,6 +1791,13 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Jeremy Rifkin
 	- https://www.youtube.com/watch?v=qduj3ohxcUQ
 
+## Defensive Programming
+- Libassert: The most over-engineered C++ assertion library
+	- Provides detailed information on assertion failures and decomposes assertion expressions
+	- https://github.com/jeremy-rifkin/libassert
+- Bloomberg's bsls_assert: Build-specific, runtime-configurable assertion macros
+	- https://bloomberg.github.io/bde-resources/doxygen/bde_api_prod/group__bsls__assert.html
+
 ---
 
 # Talks
