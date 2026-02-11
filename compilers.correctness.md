@@ -642,6 +642,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://doi.org/10.1109/ICSE55347.2025.00025
 	- OPERA (OPERator Adapter) a migration-based technique to test DL (Deep Learning) compilers (especially the model loading stage)
 	- https://github.com/ShenQingchao/OPERA
+- MTZK: Testing and Exploring Bugs in Zero-Knowledge (ZK) Compilers
+	- NDSS 2025
+	- Dongwei Xiao, Zhibo Liu, Yiteng Peng, Shuai Wang
+	- https://www.ndss-symposium.org/ndss-paper/mtzk-testing-and-exploring-bugs-in-zero-knowledge-zk-compilers/
 
 ### Testing: Readings: 2024
 
