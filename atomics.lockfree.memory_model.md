@@ -529,6 +529,7 @@
 		- Jay Richards, Daniel Wright, Simon Cooksey, Mark Batty
 		- https://doi.org/10.1145/3721089
 		- https://graymalk.in/papers/oopsla25.pdf
+		- https://www.youtube.com/watch?v=BNQt_1L5WxE
 	- VeTSS Annual Conference 2025
 		- Mark Batty
 		- https://www.youtube.com/watch?v=Qcf_vANZdKM
