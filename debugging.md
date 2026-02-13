@@ -171,6 +171,11 @@ _Books, Books Reviews_
 	- Aakanksha Verma, Pankaj Kumar Kalita, Awanish Pandey, and Subhajit Roy
 	- Gambit: GDB Assisted Memory Behavior and Interference Tester
 	- https://doi.org/10.1145/3368826.3377910
+- Multiverse Debugging: Non-deterministic Debugging for Non-deterministic Programs
+	- ECOOP 2019
+	- Carmen Torres Lopez, Robbert Gurdeep Singh, Stefan Marr, Elisa Gonzalez Boix, Christophe Scholliers
+	- https://doi.org/10.4230/LIPIcs.ECOOP.2019.27
+	- https://2019.ecoop.org/details/ecoop-2019-papers/9/Multiverse-Debugging-Non-deterministic-Debugging-for-Non-deterministic-Programs
 
 ### Probe Effect
 
