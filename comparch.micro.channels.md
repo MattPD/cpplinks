@@ -60,6 +60,15 @@ See also: [Computer Architecture](comparch.md)
 	- Biswabandan Panda
 	- https://www.cse.iitk.ac.in/users/biswap/SMS.html
 
+## General: 2026
+
+- Memory DisOrder: Memory Re-orderings as a Timerless Side-channel
+	- 2026
+	- Sean Siddens, Sanya Srivastava, Reese Levine, Josiah Dykstra, Tyler Sorensen
+	- https://arxiv.org/abs/2601.08770
+	- Memory Re-orderings as a Timerless Side-channel
+		- https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7038.html
+
 ## General: 2025
 
 - Controlled Preemption: Amplifying Side-Channel Attacks from Userspace
