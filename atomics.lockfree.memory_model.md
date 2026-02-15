@@ -534,9 +534,11 @@
 		- Mark Batty
 		- https://www.youtube.com/watch?v=Qcf_vANZdKM
 - Weak Memory Model Formalisms: Introduction and Survey
-	- 2025
+	- arXiv 2025
+	- Concurrency and Computation: Practice and Experience 38(2) 2026
 	- Roger C. Su, Robert J. Colvin
 	- https://arxiv.org/abs/2508.04115
+	- https://doi.org/10.1002/cpe.70484
 
 ### Papers - Memory Model: 2024
 
