@@ -872,9 +872,12 @@ See also:
 	- https://www.youtube.com/watch?v=K5Kg8TOTKjU
 	- https://github.com/boostcon/cppnow_presentations_2025/blob/main/Presentations/Post-Modern_Cmake.pdf
 - Pragmatic CMake: How to Avoid Headaches with Simple CMake
-	- C++Now 2025
 	- Bret Brown
-	- https://www.youtube.com/watch?v=xNHKTdnn4fY
+	- C++Now 2025 (April 2025)
+		- https://www.youtube.com/watch?v=xNHKTdnn4fY
+	- CppCon 2025 (September 2025)
+		- https://www.youtube.com/watch?v=NDfTwOvWIao
+		- https://github.com/CppCon/CppCon2025/blob/main/Presentations/Pragmatic_CMake.pdf
 - The Evolution of CMake: 25 Years of C++ Build Portability
 	- CppCon 2025
 	- Bill Hoffman
