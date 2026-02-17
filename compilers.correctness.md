@@ -904,6 +904,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://doi.org/10.1145/3708821.3710818
 	- https://hexhive.epfl.ch/publications/files/25AsiaCCS.pdf
 	- https://github.com/HexHive/Reflecta
+- RVISmith: Fuzzing Compilers for RVV Intrinsics
+	- ACM SIGSAC Conference on Computer and Communications Security (CCS) 2025
+	- Yibo He, Cunjian Huang, Xianmiao Qu, Hongdeng Chen, Wei Yang, Tao Xie
+	- https://arxiv.org/abs/2507.03773
+	- https://doi.org/10.1145/3719027.3744790
+	- https://github.com/yibo2000/RVISmith
 - Selecting Initial Seeds for Better JVM Fuzzing
 	- International Conference on Software Engineering (ICSE) 2025
 	- Tianchang Gao, Junjie Chen, Dong Wang, Yile Guo, Yingquan Zhao, Zan Wang
