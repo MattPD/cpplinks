@@ -435,6 +435,8 @@ See also:
 - MaskRay (Fangrui Song)
 	- All about Global Offset Table
 		- https://maskray.me/blog/2021-08-29-all-about-global-offset-table
+	- Call relocation types
+		- https://maskray.me/blog/2026-02-16-call-relocation-types
 	- Copy relocations, canonical PLT entries and protected visibility
 		- https://maskray.me/blog/2021-01-09-copy-relocations-canonical-plt-entries-and-protected
 	- Relocatable linking
