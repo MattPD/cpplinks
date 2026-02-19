@@ -44,6 +44,12 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 	- Concurrency and Computation: Practice and Experience, 29(10) 2017
 	- Ezzati-Jivan, N. & Dagenais, M. R
 	- https://publications.polymtl.ca/2980/
+- RTrace: Towards Better Visibility of Shared Library Execution
+	- Network and Distributed System Security (NDSS) Symposium 2026
+	- Huaifeng Zhang, Ahmed Ali-Eldin Hassan
+	- https://dx.doi.org/10.14722/ndss.2026.231243
+	- https://www.ndss-symposium.org/ndss-paper/rtrace-towards-better-visibility-of-shared-library-execution/
+	- https://github.com/negativa-ai/rtrace
 - Survey and Analysis of Kernel and Userspace Tracers on Linux: Design, Implementation, and Overhead
 	- ACM Computing Surveys (CSUR) Volume 51 Issue 2, March 2018
 	- Mohamad Gebai, Michel R. Dagenais
