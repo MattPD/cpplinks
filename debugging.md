@@ -646,6 +646,15 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- Programming and Computer Software 43(1) 2017
 	- Klimushenkova, M.A. & Dovgalyuk, P.M.
 	- https://link.springer.com/article/10.1134/S0361768817010042
+- MIO: Multiverse Debugging in the Face of Input/Output
+	- OOPSLA 2025
+	- Tom Lauwaerts, Maarten Steevens, Christophe Scholliers
+	- https://doi.org/10.1145/3763136
+	- https://www.youtube.com/watch?v=NGa4hMJ6lac
+	- Extended Version with Additional Appendices
+		- https://arxiv.org/abs/2509.06845
+	- MIO Debugger: A multiverse debugger for WARDuino
+		- https://github.com/TOPLLab/MIO
 - POMP: Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts
 	- USENIX Security 2017
 	- Jun Xu, Dongliang Mu, Xinyu Xing, Peng Liu, Ping Chen, Bing Mao
