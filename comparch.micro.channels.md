@@ -991,6 +991,14 @@ See also: [Computer Architecture](comparch.md)
 	- https://arxiv.org/abs/2102.12730
 	- https://www.usenix.org/conference/usenixsecurity21/presentation/narayan
 
+#### Defense: Software: Compilation and Programming Languages: 2026
+
+- SSMR: Statically Detecting Speculation Safe Memory Regions to Mitigate Transient Execution Attacks
+	- ACM SIGPLAN International Conference on Compiler Construction (CC) 2026
+	- Ange-Thierry Ishimwe, Sam Mcdiarmid-sterling, Zack McKevitt, Tamara Silbergleit Lehman
+	- https://doi.org/10.1145/3771775.3786272
+	- https://doi.org/10.5281/zenodo.17959089
+
 #### Defense: Software: Compilation and Programming Languages: 2025
 
 - Comprehensive Kernel Safety in the Spectre Era: Mitigations and Performance Evaluation
