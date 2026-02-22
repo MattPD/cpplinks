@@ -877,6 +877,16 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://doi.org/10.1109/ICST62969.2025.10988954
 	- https://www.doc.ic.ac.uk/~afd/papers/2025/ICST-Industry.pdf
 	- https://github.com/CompFuzzCI
+- Finding Compiler Bugs through Cross-Language Code Generator and Differential Testing
+	- ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA) 2025
+	- Qiong Feng, Xiaotian Ma, Ziyuan Feng, Marat Akhin, Wei Song, Peng Liang
+	- https://arxiv.org/abs/2507.06584
+	- https://doi.org/10.1145/3763152
+	- https://www.youtube.com/watch?v=yoOJyvzODQ8
+	- CrossLangFuzzer
+		- fuzzing tool designed specifically for testing JVM-based language compilers
+		- supports generating structurally valid cross-language programs in Kotlin, Java, Groovy, Scala 2, and Scala 3
+		- https://github.com/XYZboom/CrossLangFuzzer
 - FuzzFlesh: Randomised Testing of Decompilers via Control Flow Graph-Based Program Generation
 	- European Conference on Object-Oriented Programming (ECOOP) 2025
 	- Amber Gorzynski, Alastair F. Donaldson
