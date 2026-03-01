@@ -1412,6 +1412,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://haoxintu.github.io/files/icse2024-nier-camera-ready.pdf
 	- https://github.com/AnonyGiit/Xdead
 	- https://github.com/haoxintu/Xdead
+- Finding Cross-Rule Optimization Bugs in Datalog Engines
+	- ACM SIGPLAN Conference on Object Oriented Programming, Systems, Languages, and Applications (OOPSLA) 2024
+	- Chi Zhang, Linzhang Wang, Manuel Rigger
+	- https://doi.org/10.1145/3649815
+	- https://arxiv.org/abs/2402.12863
+	- https://www.youtube.com/watch?v=TXmlTD399rI
+	- Deopt: Datalog Engines OPtimization Tester
+		- https://github.com/nus-test/Deopt
 - Refined Input, Degraded Output: The Counterintuitive World of Compiler Behavior
 	- PLDI 2024
 	- Theodoros Theodoridis, Zhendong Su
