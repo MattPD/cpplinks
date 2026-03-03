@@ -91,6 +91,9 @@ See also: [computer architecture](comparch.md)
 	- a stand-alone library that provides multi-GPU and multi-node collective communication primitives optimized for AMD GPUs
 	- https://github.com/ROCm/rccl
 	- https://rocmdocs.amd.com/projects/rccl/
+- RCCLX: ROCm Communication Collectives Library (extended)
+	- https://github.com/meta-pytorch/torchcomms/tree/main/comms/rcclx/develop
+	- https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/
 - rocSHMEM (ROCm OpenSHMEM): intra-kernel networking runtime for AMD dGPUs on the ROCm platform
 	- https://github.com/ROCm/rocSHMEM
 	- https://rocm.docs.amd.com/projects/rocSHMEM
