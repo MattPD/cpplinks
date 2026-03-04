@@ -2305,6 +2305,13 @@ See also: [Computer Architecture](comparch.md)
 
 # GPU
 
+## GPU: 2026
+
+- Exploiting TLBs in Virtualized GPUs for Cross-VM Side-Channel Attacks
+	- Network and Distributed System Security Symposium (NDSS) 2026
+	- Hongyue Jin, Yanan Guo, Zhenkai Zhang
+	- https://www.ndss-symposium.org/ndss-paper/exploiting-tlbs-in-virtualized-gpus-for-cross-vm-side-channel-attacks/
+
 ## GPU: 2024
 
 - Generic and Automated Drive-by GPU Cache Attacks from the Browser
