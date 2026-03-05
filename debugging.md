@@ -1426,6 +1426,11 @@ See also: [RR](#rr), [WinDbg - Time Travel Debugging](https://github.com/MattPD/
 	- https://github.com/0xricksanchez/like-dbg
 - makedumpfile: Make Linux crash dump small by filtering and compressing pages
 	- https://github.com/makedumpfile/makedumpfile
+- mquire: Zero-dependency Linux memory forensics PoC
+	- leverages kernel-embedded BTF and kallsyms for type-aware memory analysis without external debug info
+	- https://github.com/trailofbits/mquire
+	- mquire: Linux memory forensics without external dependencies
+		- https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/
 - nnd: A debugger for Linux
 	- https://github.com/al13n321/nnd
 - ORC (Oops Rewind Capability) Unwinder
