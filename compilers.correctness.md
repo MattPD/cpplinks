@@ -360,6 +360,11 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- https://bahr.io/pubs/entries/calctyper.html
 	- https://zacgarby.co.uk/posts/the-calculated-typer/
 	- https://www.youtube.com/watch?v=UKJU7-IOwhk
+- Towards type-directed compiler calculation
+	- Journal of Functional Programming 35 (2025)
+	- Wouter Swierstra
+	- https://doi.org/10.1017/S0956796825100087
+	- https://webspace.science.uu.nl/~swier004/publications/2025-jfp.pdf
 
 ## Calculation: 2010s
 
