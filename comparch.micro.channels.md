@@ -3707,6 +3707,13 @@ Intel Trust Domain Extensions (TDX)
 
 # Talks
 
+## Talks: 2025
+
+- Modern memory error exploitation via speculative execution attacks
+	- Hardwear.io NL 2025
+	- Anil Kurmus
+	- https://www.youtube.com/watch?v=5zy0vJGILUM
+
 ## Talks: 2022
 
 - Tutorial: Microarchitectural Side Channel Attacks
