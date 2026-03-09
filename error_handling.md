@@ -230,24 +230,13 @@
 
 ## Documentation
 
-- Dwarf2 Exception Handler HOWTO
-	- https://gcc.gnu.org/wiki/Dwarf2EHNewbiesHowto
-- Exception Handling in LLVM
-	- http://llvm.org/docs/ExceptionHandling.html
-- Exception Handling ABI for the ARM Architecture
-	- http://infocenter.arm.com/help/topic/com.arm.doc.ihi0038b/IHI0038B_ehabi.pdf
+### Documentation: ABI
+
+- Exception Handling ABI for the Arm 32-bit Architecture
+	- https://github.com/ARM-software/abi-aa/blob/main/ehabi32/ehabi32.rst
+	- https://github.com/ARM-software/abi-aa/tree/main/legacy-documents/ehabi32
 - Itanium C++ ABI: Exception Handling
 	- https://itanium-cxx-abi.github.io/cxx-abi/abi-eh.html
-- LLVM IR Generation for EH and Cleanups
-	- https://clang.llvm.org/docs/LLVMExceptionHandlingCodeGen.html
-	- This document describes how Clang’s LLVM IR generation represents exception handling (EH) and C++ cleanups. It focuses on the data structures and control flow patterns used to model normal and exceptional exits, and it outlines how the generated IR differs across common ABI models.
-- MSVC
-	- Exception handling in MSVC
-		- https://docs.microsoft.com/en-us/cpp/cpp/exception-handling-in-visual-cpp
-	- x64 exception handling
-		- https://docs.microsoft.com/en-us/cpp/build/exception-handling-x64
-- Using Exceptions in GCC
-	- https://gcc.gnu.org/onlinedocs/libstdc++/manual/using_exceptions.html
 - Windows SEH
 	- Windows SEH Support in LLVM
 		- https://github.com/tentzen/llvm-project/wiki
@@ -257,6 +246,25 @@
 			- https://lists.llvm.org/pipermail/llvm-dev/2020-March/140541.html
 		- [llvm-dev] [RFC] [Windows SEH][-EHa] Support Hardware Exception Handling
 			- https://lists.llvm.org/pipermail/llvm-dev/2020-April/140991.html
+
+### Documentation: Compilers
+
+- Clang & LLVM
+	- Exception Handling in LLVM
+		- http://llvm.org/docs/ExceptionHandling.html
+	- LLVM IR Generation for EH and Cleanups
+		- https://clang.llvm.org/docs/LLVMExceptionHandlingCodeGen.html
+		- This document describes how Clang’s LLVM IR generation represents exception handling (EH) and C++ cleanups. It focuses on the data structures and control flow patterns used to model normal and exceptional exits, and it outlines how the generated IR differs across common ABI models.
+- GCC
+	- Dwarf2 Exception Handler HOWTO
+		- https://gcc.gnu.org/wiki/Dwarf2EHNewbiesHowto
+	- Using Exceptions in GCC
+		- https://gcc.gnu.org/onlinedocs/libstdc++/manual/using_exceptions.html
+- MSVC
+	- Exception handling in MSVC
+		- https://docs.microsoft.com/en-us/cpp/cpp/exception-handling-in-visual-cpp
+	- x64 exception handling
+		- https://docs.microsoft.com/en-us/cpp/build/exception-handling-x64
 
 ## Papers
 
