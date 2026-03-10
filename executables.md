@@ -405,6 +405,19 @@ BTF: BPF Type Format
 
 ## DWARF: Talks
 
+### DWARF: Talks: 2026
+
+- Overview of a DWARF-6 change: Locations on the stack
+- FOSDEM 2026
+- Lancelot Six
+	- https://fosdem.org/2026/schedule/event/T8R9E8-overview_of_a_dwarf-6_change_locations_on_the_stack/
+	- Issue 230524.1: Location Descriptions on the DWARF Stack
+		- https://dwarfstd.org/issues/230524.1.html
+	- Location Descriptions on the DWARF Stack
+		- https://github.com/ccoutant/dwarf-locations/blob/main/005-locations-on-stack.md
+	- Allow Location Descriptions on the DWARF Expression Stack
+		- https://llvm.org/docs/AMDGPUDwarfExtensionAllowLocationDescriptionOnTheDwarfExpressionStack/AMDGPUDwarfExtensionAllowLocationDescriptionOnTheDwarfExpressionStack.html
+
 ### DWARF: Talks: 2024
 
 - I Embedded a Programming Language In Debug Information
