@@ -350,7 +350,16 @@ _Books, Books Reviews_
 	- KoiDbg: Windows ARM64 Debugger for Reverse Engineering
 		- https://github.com/keowu/koidbg
 
-### Implementation: 2023
+### Implementation: DSLs
+
+#### Implementation: DSLs: 2024
+
+- Protocol-Based Debugging for Domain-Specific Languages
+	- 2024 PhD Dissertation
+	- Josselin Enet
+	- https://theses.hal.science/tel-05007544/
+
+#### Implementation: DSLs: 2023
 
 - D2X: An eXtensible conteXtual Debugger for Modern DSLs
 	- CGO 2023
