@@ -73,7 +73,7 @@
 	- https://aps.arxiv.org/abs/2202.13158
 	- https://dbp.io/pubs/2022/semint.pdf
 	- https://www.youtube.com/watch?v=uasYCcvYIkQ
-	
+
 ### General: Readings: Security
 
 - Best of Both Worlds: Effective Foreign Bridge Identification in V8 Embedders for Security Analysis
@@ -99,6 +99,10 @@
 	- ACM Transactions on Privacy and Security Volume 24, Issue 2, Article 7 (December 2020)
 	- Michalis Papaevripides and Elias Athanasopoulos
 	- https://dl.acm.org/doi/10.1145/3418898
+- FIDES: End-to-end Compartments for Mixed-language Systems
+	- AsiaCCS 2026
+	- Sai Venkata Krishnan, Arjun Menon, Chester Rebeiro, KC Sivaramakrishnan
+	- https://kcsrk.info/papers/fides_asiaccs_2026.pdf
 
 ### General: Readings: Verification
 
