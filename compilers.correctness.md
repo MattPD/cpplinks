@@ -2294,6 +2294,13 @@ Validation: Including translation validation, equivalence checking.
 
 ## Verification: 2025
 
+- CompCertOC: Verified Compositional Compilation of Multi-threaded Programs with Shared Stacks
+	- PLDI 2025
+	- Ling Zhang, Yuting Wang, Yalun Liang, Zhong Shao
+	- https://doi.org/10.1145/3729276
+	- https://flint.cs.yale.edu/flint/publications/compcertoc-tr.pdf
+	- https://github.com/SJTU-PLV/compcertoc-pldi25-artifact
+	- https://www.youtube.com/watch?v=P4v2rCsQb8M
 - Formal Foundations for Translational Separation Logic Verifiers
 	- POPL 2025
 	- Thibault Dardinier, Michael Sammler, Gaurav Parthasarathy, Alexander J. Summers, Peter Müller
