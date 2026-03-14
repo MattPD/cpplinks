@@ -309,10 +309,15 @@ _Benchmarks & comparisons_
 	- http://cppcheck.sourceforge.net/
 	- https://github.com/danmar/cppcheck
 	- Building Cppcheck: What We Learned from 17 Years of Development
-		- Daniel Marjamäki
 		- CppCon 2024
+		- Daniel Marjamäki
 		- https://www.youtube.com/watch?v=ztyhiMhvrqA
 		- https://github.com/CppCon/CppCon2024/blob/main/Presentations/Building_Cppcheck.pdf
+	- Seamless Static Analysis with Cppcheck: From IDE to CI and Code Review
+		- CppCon 2025
+		- Daniel Marjamäki
+		- https://www.youtube.com/watch?v=7u97LZYxu3g
+		- https://github.com/CppCon/CppCon2025/blob/main/Presentations/Seamless_Static_Analysis_with_CppCheck.pdf
 - cpplint: static code checker for C++
 	- https://github.com/cpplint/cpplint
 - Crab: A Language-Agnostic Library for Static Analysis
