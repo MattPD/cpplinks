@@ -3207,6 +3207,13 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 
 ## Speculation: 2026
 
+- Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer
+	- Network and Distributed System Security Symposium (NDSS) 2026
+	- Johannes Lenzen, Mohamadreza Rostami, Lichao Wu, Ahmad-Reza Sadeghi
+	- https://www.ndss-symposium.org/ndss-paper/fuzzilicon-a-post-silicon-microcode-guided-x86-cpu-fuzzer/
+	- https://arxiv.org/abs/2512.23438
+	- Fuzzilicon: A microcode-feedback-enhaced post-silicon x86 CPU fuzzer
+		- https://github.com/0xCCF4/ufuzz
 - Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities
 	- IEEE Symposium on Security and Privacy (S&P) 2026
 	- Mathé Hertogh, Dave Quakkelaar, Thijs Raymakers, Mahesh Hari Sarma, Marius Muench, Herbert Bos, Erik van der Kouwe
