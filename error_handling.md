@@ -250,6 +250,8 @@
 ### Documentation: Compilers
 
 - Clang & LLVM
+	- ClangIR Cleanup and Exception Handling Design
+		- https://clang.llvm.org/docs/ClangIRCleanupAndEHDesign.html
 	- Exception Handling in LLVM
 		- http://llvm.org/docs/ExceptionHandling.html
 	- LLVM IR Generation for EH and Cleanups
