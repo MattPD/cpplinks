@@ -66,6 +66,15 @@ https://riscv.org/publications/
 	- Joao Mario Domingos, Pedro Tomas, Leonel Sousa
 	- https://arxiv.org/abs/2112.11767
 
+### Readings: Performance: Research
+
+- Icicle: Open-Source Hardware Support for Top-Down Microarchitectural Analysis on RISC-V
+	- IEEE International Symposium on Workload Characterization (IISWC) 2025
+	- Matthew Edwin Weingarten, Michael Grieco, Stephen A. Edwards, Tanvir Ahmed Khan
+	- https://doi.org/10.1109/IISWC66894.2025.00045
+	- https://www.cs.columbia.edu/~sedwards/papers/weingarten2025icicle.pdf
+	- https://github.com/ice-rlab/Icicle
+
 ## Readings: Security
 
 - Return-Oriented Programming on RISC-V
