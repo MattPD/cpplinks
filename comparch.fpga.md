@@ -70,6 +70,8 @@ https://speakerdeck.com/mattpd/fpgas-and-open-source-hardware-an-intro-meeting-c
 
 ## HDL: SystemVerilog
 
+### HDL: SystemVerilog: Readings
+
 - Appendix A "Hardware Description Languages" from Neil Weste, David Harris (2010) "CMOS VLSI Design: A Circuits and Systems Perspective" (4th Edition)
 	- http://pages.hmc.edu/harris/cmosvlsi/4e/cmosvlsidesign_4e_App.pdf
 - IEEE Standard 1800-2012
@@ -86,6 +88,11 @@ https://speakerdeck.com/mattpd/fpgas-and-open-source-hardware-an-intro-meeting-c
 	- http://www.asic-world.com/systemverilog/
 - SystemVerilog Training and Examples from Doulos - The Guide to SystemVerilog
 	- https://www.doulos.com/knowhow/sysverilog/
+
+### HDL: SystemVerilog: Software
+
+- Slang Server: A SystemVerilog language server based on the Slang library
+	- https://github.com/hudson-trading/slang-server
 - SystemVerilog Tester
 	- Test suite designed to check compliance with the SystemVerilog standard
 	- https://github.com/chipsalliance/sv-tests
