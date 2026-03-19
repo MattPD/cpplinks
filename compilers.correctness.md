@@ -124,6 +124,13 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 
 ### Debugging: 2025
 
+- De-duplicating Silent Compiler Bugs via Deep Semantic Representation
+	- ACM International Conference on the Foundations of Software Engineering (FSE) 2025
+	- Junjie Chen, Xingyu Fan, Chen Yang, Shuang Liu, Jun Sun
+	- https://dl.acm.org/doi/abs/10.1145/3729375
+	- https://conf.researchr.org/details/fse-2025/fse-2025-research-papers/61/De-duplicating-Silent-Compiler-Bugs-via-Deep-Semantic-Representation
+	- BLADE (black-box de-duplication)
+		- https://github.com/FxyQwQ/BLADE
 - DuoReduce: Bug Isolation for Multi-Layer Extensible Compilation
 	- ACM International Conference on the Foundations of Software Engineering (FSE) 2025
 	- Jiyuan Wang, Yuxin Qiu, Ben Limpanukorn, Hong Jin Kang, Qian Zhang, Miryung Kim
