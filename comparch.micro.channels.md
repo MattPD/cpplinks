@@ -1486,6 +1486,11 @@ See also: [Computer Architecture](comparch.md)
 
 ## Branch Predictor: 2026
 
+- Occupy+Probe: Cross-Privilege Branch Target Buffer Side-Channel Attacks at Instruction Granularity
+	- Network and Distributed System Security Symposium (NDSS) 2026
+	- Kaiyuan Rong, Junqi Fang, Haixia Wang, Dapeng Ju, Dongsheng Wang
+	- https://www.ndss-symposium.org/ndss-paper/occupyprobe-cross-privilege-branch-target-buffer-side-channel-attacks-at-instruction-granularity/
+	- https://github.com/CPU-Security/Occupy_Probe
 - VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation in Cloud Environments
 	- IEEE Symposium on Security and Privacy (S&P) 2026
 	- Jean-Claude Graf, Sandro Rüegge, Ali Hajiabadi, Kaveh Razavi
