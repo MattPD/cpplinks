@@ -98,7 +98,7 @@ See also:
 	- IEEE Security & Privacy, 17(1) 2019
 	- Mathias Payer
 	- https://ieeexplore.ieee.org/document/8674043
-- 
+
 ## Readings: Embedded
 
 - Fuzzing Embedded Systems Using Debug Interfaces
@@ -173,6 +173,15 @@ See also:
 	- https://rahul.gopinath.org/publications/2023/04/26/systematic/
 	- https://www.usenix.org/conference/usenixsecurity23/presentation/gorz
 	- https://github.com/CISPA-SysSec/mua_fuzzer_bench/
+
+## Readings: GPU
+
+- Hunting CUDA Bugs at Scale with cuFuzz
+	- OOPSLA 2026
+	- Mohamed Tarek Ibn ziad, Christos Kozyrakis
+	- https://doi.org/10.1145/3798231
+	- cuFuzz: A GPU-oriented coverage-guided fuzzer for userland CUDA applications
+		- https://github.com/NVlabs/cuFuzz/
 
 ## Readings: Implementation
 
