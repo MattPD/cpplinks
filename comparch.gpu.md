@@ -85,6 +85,9 @@ See also: [computer architecture](comparch.md)
 
 ## Communication: Software
 
+- MSCCL++: A GPU-driven communication stack for scalable AI applications
+	- https://github.com/microsoft/mscclpp
+
 ### Communication: Software: AMD
 
 - RCCL: ROCm Communication Collectives Library
