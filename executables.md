@@ -357,6 +357,13 @@ BTF: BPF Type Format
 - dsymutil - manipulate archived DWARF debug symbol files
 	- https://llvm.org/docs/CommandGuide/dsymutil.html
 	- https://github.com/llvm-mirror/llvm/tree/master/tools/dsymutil
+- dwarf-evaluator: an evaluator for DWARF expressions implemented in OCaml
+	- https://github.com/intel/dwarf-evaluator
+	- https://intel.github.io/dwarf-evaluator/
+	- An evaluator and a web playground for DWARF-6 expressions
+		- FOSDEM 2026
+		- Baris Aktemur
+		- https://fosdem.org/2026/schedule/event/99DLGQ-dwarf-evaluator/
 - DWARF Explorer - a GUI utility for navigating the DWARF debug information
 	- https://github.com/sevaa/dwex
 - dwarfexport: Export dwarf debug information from IDA Pro - https://github.com/ALSchwalm/dwarfexport
