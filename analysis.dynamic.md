@@ -158,6 +158,12 @@ See also:
 	- Code Generation and Optimization (CGO) 2017
 	- Emilio G. Cota, Paolo Bonzini, Alex Bennée, Luca P. Carloni
 	- https://sld.cs.columbia.edu/pubs/cota_cgo17.pdf
+- CrossMapping: Harmonizing Memory Consistency in Cross-ISA Binary Translation
+	- 2024 USENIX Annual Technical Conference
+	- Chen Gao, Xiangwei Meng, Wei Li, Jinhui Lai, Yiran Zhang, Fengyuan Ren
+	- https://www.usenix.org/conference/atc24/presentation/gao-chen
+	- CrossMapping implementation for x86, ARMv8, and RISC-V based on QEMU
+		- https://github.com/ChenGao1999/CrossMapping-for-QEMU
 - Dynamic Binary Modification: Tools, Techniques, and Applications
 	- 2011 Book; Kim Hazelwood
 	- http://www.morganclaypool.com/doi/abs/10.2200/S00345ED1V01Y201104CAC015
