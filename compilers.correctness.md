@@ -2358,6 +2358,14 @@ Validation: Including translation validation, equivalence checking.
 
 ## Verification: 2025
 
+- A Foundationally Verified Intermediate Verification Language
+	- 2025 PhD Dissertation
+	- Joshua M. Cohen
+	- https://arks.princeton.edu/ark:/88435/dsp01nz806311z
+	- https://joscoh.github.io/docs/thesis.pdf
+	- https://joscoh.github.io/docs/thesis_slides.pdf
+	- why3-semantics: A Formal Semantics and Verified Implementation of Why3
+	- https://github.com/joscoh/why3-semantics
 - CompCertOC: Verified Compositional Compilation of Multi-threaded Programs with Shared Stacks
 	- PLDI 2025
 	- Ling Zhang, Yuting Wang, Yalun Liang, Zhong Shao
