@@ -673,8 +673,9 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- Lund Linux Conference (LLC) 2024
 	- Linus Walleij
 	- https://www.youtube.com/watch?v=M8BVlx-ILOM
-- TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution
+- TikTag: Breaking Arm's Memory Tagging Extension with Speculative Execution
 	- 2024
+	- IEEE Symposium on Security and Privacy (S&P) 2025
 	- Juhee Kim, Jinbum Park, Sihyeon Roh, Jaeyoung Chung, Youngjoo Lee, Taesoo Kim, Byoungyoung Lee
 	- https://arxiv.org/abs/2406.08719
 	- https://github.com/compsec-snu/tiktag
