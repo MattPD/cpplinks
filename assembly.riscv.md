@@ -123,6 +123,8 @@ https://riscv.org/risc-v-books/
 
 ## Instruction Set Architecture
 
+- RISC-V and Floating-Point
+	- https://fprox.substack.com/p/risc-v-and-floating-point
 - RISC-V Register Files
 	- https://fprox.blogspot.com/2022/10/risc-v-register-files.html
 - Adding custom instructions in the RISC-V ISA
