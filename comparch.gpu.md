@@ -83,6 +83,10 @@ See also: [computer architecture](comparch.md)
 	- https://arxiv.org/abs/2507.04786
 	- https://spcl.inf.ethz.ch/Publications/index.php?pub=554
 	- https://www.youtube.com/watch?v=UDCLvBqEPcA
+- GPU-Initiated Networking for NCCL
+	- 2025
+	- Khaled Hamidouche, John Bachan, Pak Markthub, Peter-Jan Gootzen, Elena Agostini, Sylvain Jeaugey, Aamir Shafi, Georgios Theodorakis, Manjunath Gorentla Venkata
+	- https://arxiv.org/abs/2511.15076
 
 ### Communication: Readings: 2024
 
