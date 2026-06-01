@@ -214,6 +214,10 @@ See also:
 	- Mathias Payer
 	- https://nebelwelt.net/publications/files/16FEAST.pdf
 	- https://github.com/HexHive/libdetox
+- Low-Compilation-Cost Register Allocation in LLVM-Based Binary Translation
+	- EuroSys 2026
+	- Xiangwei Meng, Chen Gao, Wei Li, Fengyuan Ren
+	- https://doi.org/10.1145/3767295.3803591
 - Optimizing Binary Translation of Dynamically Generated Code
 	- Code Generation and Optimization (CGO) 2015
 	- Byron Hawkins, Brian Demsky, Derek Bruening, Qin Zhao
