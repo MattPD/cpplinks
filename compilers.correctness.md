@@ -1903,6 +1903,13 @@ Validation: Including translation validation, equivalence checking.
 
 ## Validation: 2025
 
+- A Layered Certifying Compiler Architecture
+	- ACM SIGPLAN International Workshop on Functional Software Architecture (FUNARCH) 2025
+	- Jacco O.G. Krijnen, Wouter Swierstra, Manuel Chakravarty, Joris Dral, Gabriele Keller
+	- https://doi.org/10.1145/3759163.3760427
+	- https://webspace.science.uu.nl/~swier004/publications/2025-funarch.pdf
+	- IFIP WG 2.8 (24 April 2024)
+	- https://wg28.cs.uchicago.edu/42-utrecht-2024/13-krijnen-slides.pdf
 - CF-GKAT: Efficient Validation of Control-Flow Transformations
 	- POPL 2025
 	- Cheng Zhang, Tobias Kappé, David E. Narváez, Nico Naus
