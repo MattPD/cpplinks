@@ -611,6 +611,12 @@ See also: [Software: Binary Analysis](https://github.com/MattPD/cpplinks/blob/ma
 	- https://shravanrn.com/pubs/mte-extended.pdf
 	- https://github.com/UT-Security/mte-root
 	- https://doi.org/10.5281/zenodo.17953064
+- NanoTag: Systems Support for Efficient Byte-Granular Overflow Detection on Arm MTE
+	- IEEE Symposium on Security and Privacy (S&P) 2026
+	- Mingkai Li, Hang Ye, Joseph Devietti, Suman Jana, Tanvir Ahmed Khan
+	- https://arxiv.org/abs/2509.22027
+	- https://takhandipu.github.io/papers/li-nanotag-oakland-2026.pdf
+	- https://github.com/ice-rlab/NanoTag
 
 #### Memory Tagging Extension (MTE): 2025
 
