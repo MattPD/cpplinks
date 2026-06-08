@@ -473,6 +473,17 @@
 
 # Python
 
+## Python: PyTorch
+
+- PyTorch C++ API: C++ Extensions
+	- https://docs.pytorch.org/cppdocs/#c-extensions
+	- https://docs.pytorch.org/tutorials/extension.html
+- Torch Stable API
+	- The PyTorch Stable C++ API provides a binary-compatible interface for calling tensor operations and utilities that is guaranteed to remain stable across PyTorch versions. This enables ahead-of-time compiled extensions that don’t need recompilation when PyTorch is updated.
+	- https://docs.pytorch.org/cppdocs/api/stable/
+- C++ extensions in PyTorch
+	- https://github.com/pytorch/extension-cpp
+
 ## Python: Readings
 
 - Calling C functions from Python
