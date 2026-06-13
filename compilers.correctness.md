@@ -1939,6 +1939,10 @@ Validation: Including translation validation, equivalence checking.
 	- https://www.youtube.com/watch?v=reixJKCkM1I
 	- https://doi.org/10.5281/zenodo.12552490
 	- https://github.com/secure-foundations/riptide-verification/tree/oopsla2024-ae
+- Formally Validating Translational Program Verifiers
+	- 2024 PhD Dissertation
+	- Gaurav Parthasarathy
+	- https://doi.org/https://doi.org/10.3929/ethz-b-000716048
 - Modeling Dynamic (De)Allocations of Local Memory for Translation Validation
 	- OOPSLA 2024
 	- Abhishek Rose, Sorav Bansal
