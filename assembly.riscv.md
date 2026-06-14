@@ -541,6 +541,10 @@ Zvbb, Zvbc, Zvkb, Zvkg, Zvkn, Zvknc, Zvkned, Zvkng, Zvknha, Zvknhb, Zvks, Zvksc,
 		- IEEE International Conference on Field-Programmable Technology (FPT) 2019
 		- Susumu Mashimo, Akifumi Fujita, Reoma Matsuo, Seiya Akaki, Akifumi Fukuda, Toru Koizumi, Junichiro Kadomoto, Hidetsugu Irie, Masahiro Goshima, Koji Inoue, Ryota Shioya
 		- http://sv.rsg.ci.i.u-tokyo.ac.jp/pdfs/Mashimo-FPT'19.pdf
+- RXV RISC-V soft core (SystemVerilog)
+	- https://github.com/jamieiles/rxv
+	- An RV32IMAZicsrZifencei core written in SystemVerilog offering good performance and synthesizable for a variety of FPGAs
+	- Additional standard extensions include: SSTC (supervisor timer compare), Sscofpmf (supervisor PMU + filter)
 - SCR1: an open-source RISC-V compatible MCU core (SystemVerilog)
 	- https://github.com/syntacore/scr1
 - SERV: The SErial RISC-V CPU (Verilog)
