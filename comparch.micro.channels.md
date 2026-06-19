@@ -3567,6 +3567,12 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 	- https://dl.acm.org/doi/10.1145/3676641.3716017
 	- https://github.com/ntu-ssl/rr-artifact
 	- https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3010.html
+- SNPeek: Side-Channel Analysis for Privacy Applications on Confidential VMs
+	- Network and Distributed System Security Symposium (NDSS) 2026
+	- Ruiyi Zhang, Albert Cheu, Adria Gascon, Daniel Moghimi, Phillipp Schoppmann, Michael Schwarz, Octavian Suciu
+	- https://www.ndss-symposium.org/ndss-paper/snpeek-side-channel-analysis-for-privacy-applications-on-confidential-vms/
+	- CVM Side Channel Analysis Framework
+		- https://github.com/google-parfait/cvm-side-channel-analysis
 
 ## Arm TrustZone
 
