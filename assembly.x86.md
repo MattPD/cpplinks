@@ -113,6 +113,11 @@ https://0xax.github.io/categories/assembly/
 
 # Instruction Set Architecture
 
+## Instruction Set Architecture: AI Compute Extensions (ACE)
+
+- AI Compute Extensions (ACE) Specification
+	- https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/
+
 ## Instruction Set Architecture: APX (Advanced Performance Extensions)
 
 - APX: Intel’s new architecture
