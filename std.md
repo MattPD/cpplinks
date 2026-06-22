@@ -6,6 +6,7 @@
 - [References](#references)
 - [Standard](#standard)
 - [Standardization](#standardization)
+- [C++29](#c29)
 - [C++26](#c26): [C++26 Talks](#c26-talks)
 - [C++23](#c23): [C++23 Readings](#c23-readings), [C++23 Talks](#c23-talks)
 - [C++20](#c20): [C++20 Readings](#c20-readings), [C++20 Talks](#c20-talks)
@@ -110,6 +111,17 @@
 
 ---
 
+# C++29
+
+## C++29: Trip Reports
+
+### C++29: Trip Reports: 2026-06
+
+- Trip report: June 2026 ISO C++ standards meeting (Brno, Czechia)
+	- https://herbsutter.com/2026/06/13/brno-trip-report/
+
+---
+
 # C++26
 
 ## C++26: Talks
@@ -134,6 +146,7 @@
 	- https://www.youtube.com/watch?v=FqzrQf6Xr8g
 
 ## C++26: Trip Reports
+
 
 ### C++26: Trip Reports: 2026-03
 
