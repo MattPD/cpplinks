@@ -985,6 +985,14 @@
 
 ## Videos
 
+### 2026
+
+- Lock-free Queues in the Multiverse of Madness
+	- C++Online 2026
+	- Dave Rowland
+	- https://www.youtube.com/watch?v=eHmjkFdQl00
+	- https://github.com/drowaudio/presentations/blob/master/README.md#c-online-2026-lock-free-queues-in-the-multiverse-of-madness
+
 ### 2025
 
 - Beyond Sequential Consistency: Leveraging Atomics for Fun & Profit
