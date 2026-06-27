@@ -954,6 +954,13 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://arxiv.org/pdf/2404.16947
 	- https://github.com/UCLA-SEAL/SynthFuzz
 	- https://web.cs.ucla.edu/~wangjiyuan/research/ICSE2025_SynthFuzz.pdf
+- Interleaved Learning and Exploration: A Self-Adaptive Fuzz Testing Framework for MLIR
+	- International Conference on Automated Software Engineering (ASE) 2025
+	- Zeyu Sun, Jingjing Liang, Weiyi Wang, Chenyao Suo, Junjie Chen, Fanjiang Xu
+	- https://arxiv.org/abs/2510.07815
+	- https://doi.org/10.1109/ASE63991.2025.00196
+	- FLEX: Fuzzing with Learning and EXploration
+		- https://github.com/zys-szy/FLEX
 - Mutation-based Fuzzing of the Swift Compiler With Incomplete Type Information
 	- IEEE International Conference on Software Testing, Verification and Validation (ICST) 2025
 	- Sarah Canto Hyatt, Kyle Dewey
