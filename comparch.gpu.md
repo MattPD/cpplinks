@@ -68,6 +68,10 @@ See also: [computer architecture](comparch.md)
 	- Changho Hwang, Peng Cheng, Roshan Dathathri, Abhinav Jangda, Saeed Maleki, Madan Musuvathi, Olli Saarikivi, Aashaka Shah, Ziyue Yang, Binyang Li, Caio Rocha, Qinghua Zhou, Mahdieh Ghazimirsaeed, Sreevatsa Anantharamu, Jithin Jose
 	- https://arxiv.org/abs/2504.09014
 	- https://doi.org/10.1145/3779212.3790188
+- NCCL EP: Towards a Unified Expert Parallel Communication API for NCCL
+	- 2026
+	- Amos Goldman, Nimrod Boker, Maayan Sheraizin, Nimrod Admoni, Artem Polyakov, Subhadeep Bhattacharya, Fan Yu, Kai Sun, Georgios Theodorakis, Hsin-Chun Yin, Peter-Jan Gootzen, Aamir Shafi, Assaf Ravid, Salvatore Di Girolamo, James Dinan, Xiaofan Li, Manjunath Gorentla Venkata, Gil Bloch
+	- https://arxiv.org/abs/2603.13606
 
 ### Communication: Readings: 2025
 
@@ -123,6 +127,10 @@ See also: [computer architecture](comparch.md)
 	- Optimized primitives for collective multi-GPU communication
 	- https://github.com/NVIDIA/nccl
 	- https://developer.nvidia.com/nccl
+	- NCCL EP (Expert Parallelism) API
+		- a high-performance NCCL API extension for efficient Mixture-of-Experts (MoE) communication
+		- provides optimized dispatch and combine primitives for Expert Parallelism (EP) across distributed GPU systems implemented on top of NCCL Device API: Load-Store Accessible (LSA) and GPU-Initiated Networking (GIN) operations
+https://github.com/NVIDIA/nccl/tree/master/contrib/nccl_ep
 - NCCLX: NVIDIA Collective Communications Library (extended)
 	- Meta's production-tested backend that powers all generative AI services
 	- https://github.com/meta-pytorch/torchcomms/tree/main/comms/ncclx
