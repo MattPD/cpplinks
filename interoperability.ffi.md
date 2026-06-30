@@ -483,6 +483,11 @@
 	- https://docs.pytorch.org/cppdocs/api/stable/
 - C++ extensions in PyTorch
 	- https://github.com/pytorch/extension-cpp
+- How To Write C++ Extensions in 2026
+	- PyTorch Conference Europe 2026
+	- Jane Xu, Mikayla Gawarecki
+	- https://www.youtube.com/watch?v=v2LcTzpUOYU
+	- https://pytorchconferenceeu2026.sched.com/event/2Hip2/how-to-write-c++-extensions-in-2026-jane-xu-meta-mikayla-gawarecki-meta
 
 ## Python: Readings
 
