@@ -300,9 +300,6 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 
 ## Lectures
 
-- Compiler Verification: The Next Generation
-	- PurPL Fest 2019; Amal Ahmed
-	- https://www.youtube.com/watch?v=KcOxdyq1vs0
 - OPLSS (Oregon Programming Languages Summer School)
 	- 2019 - https://www.cs.uoregon.edu/research/summerschool/summer19/topics.php
 		- Secure Compilation - Amal Ahmed
@@ -324,6 +321,18 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- 2012 - https://www.cs.uoregon.edu/research/summerschool/summer12/curriculum.html
 		- Logical Relations - Amal Ahmed
 		- Compiler verification - Xavier Leroy
+
+## Talks
+
+- Compiler Verification: The Next Generation
+	- PurPL Fest 2019
+	- Amal Ahmed
+	- https://www.youtube.com/watch?v=KcOxdyq1vs0
+- The Quest Toward that Perfect Compiler
+	- SPLASH / OOPSLA 2025 Keynote
+	- Zhendong Su
+	- https://www.youtube.com/watch?v=Af70DptYlYQ
+	- https://people.inf.ethz.ch/suz/oopsla25-keynote.pdf
 
 ---
 
