@@ -992,6 +992,11 @@
 	- Dave Rowland
 	- https://www.youtube.com/watch?v=eHmjkFdQl00
 	- https://github.com/drowaudio/presentations/blob/master/README.md#c-online-2026-lock-free-queues-in-the-multiverse-of-madness
+- Wait-Free Programming From Scratch
+	- NWCPP - Northwest C++ Users Group 2026
+	- Jatin Chowdhury
+	- https://www.youtube.com/watch?v=A9Gf0wFz3kQ
+	- https://jatinchowdhury18.medium.com/wait-free-programming-from-scratch-5ac6a65c23c4
 
 ### 2025
 
