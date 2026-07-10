@@ -1471,6 +1471,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Davide Italiano, Chris Cummins
 	- https://arxiv.org/abs/2501.00655
 	- https://doi.org/10.1145/3708493.3712686
+- Synchronized Behavior Checking: A Method for Finding Missed Compiler Optimizations
+	- OOPSLA 2025
+	- Yi Zhang, Yu Wang, Linzhang Wang, Ke Wang
+	- https://doi.org/10.1145/3763105
+	- https://github.com/SBC-opt/OptChecker
+	- https://www.youtube.com/watch?v=ov09dMiV-nE
 - Validating JVM Compilers via Maximizing Optimization Interactions
 	- ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2025
 	- Zifan Xie, Ming Wen, Shiyu Qiu, Hai Jin
