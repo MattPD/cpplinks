@@ -63,6 +63,10 @@ See also: [computer architecture](comparch.md)
 
 ### Communication: Readings: 2026
 
+- Demystifying NVSHMEM: A System-Level Analysis on Symmetric Memory and Device-Initiated Operations in GPU Communication
+	- 2026
+	- Yijun Ma, Siyuan Shen, Tiancheng Chen, Akhil Langer, Jiri Kraus, Benjamin Glick, Craig Belusar, Jeff Hammond, Torsten Hoefler
+	- https://arxiv.org/abs/2606.05951
 - MSCCL++: Rethinking GPU Communication Abstractions for AI Inference
 	- ASPLOS 2026
 	- Changho Hwang, Peng Cheng, Roshan Dathathri, Abhinav Jangda, Saeed Maleki, Madan Musuvathi, Olli Saarikivi, Aashaka Shah, Ziyue Yang, Binyang Li, Caio Rocha, Qinghua Zhou, Mahdieh Ghazimirsaeed, Sreevatsa Anantharamu, Jithin Jose
