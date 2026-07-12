@@ -1006,6 +1006,12 @@ See also: [Computer Architecture](comparch.md)
 
 #### Defense: Software: Compilation and Programming Languages: 2026
 
+- SplittingSecrets: A Compiler-Based Defense for Preventing Data Memory-Dependent Prefetcher Side-Channels
+	- Microarchitecture Security Conference (uASC) 2026
+	- Reshabh K Sharma, Dan Grossman, David Kohlbrenner
+	- https://arxiv.org/abs/2601.12270
+	- https://homes.cs.washington.edu/~djg/papers/uasc26.pdf
+	- https://github.com/dmp-mitigation
 - SSMR: Statically Detecting Speculation Safe Memory Regions to Mitigate Transient Execution Attacks
 	- ACM SIGPLAN International Conference on Compiler Construction (CC) 2026
 	- Ange-Thierry Ishimwe, Sam Mcdiarmid-sterling, Zack McKevitt, Tamara Silbergleit Lehman
