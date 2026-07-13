@@ -514,8 +514,13 @@
 	- Joannah Nanjekye, David Bremner, Aleksandar Micic
 	- https://conf.researchr.org/details/ecoop-issta-2023/ICOOOLPS-2023/4/Towards-Reliable-Memory-Management-for-Python-Native-Extensions
 - Type information for faster Python C extensions
-	- 2024-01-13; Max Bernstein
+	- 2024-01-13
+	- Max Bernstein
 	- https://bernsteinbear.com/blog/typed-c-extensions/
+- What Every Python Developer Should Know About the CPython ABI
+	- 2026-07-10
+	- Nathan Goldbaum
+	- https://labs.quansight.org/blog/python-abi-abi3t
 
 ## Python: Software
 
