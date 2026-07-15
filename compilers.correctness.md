@@ -1643,6 +1643,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://github.com/llvm/llvm-project/blob/main/llvm/utils/reduce_pipeline.py
 	- https://reviews.llvm.org/D110908
 
+#### Testing: Readings: Reduction: MLIR
+
+- Understanding MLIR Crash Reproducers: Debugging, Application, and Best Practices
+	- Artemiy Bulavin
+	- 2025 US LLVM Developers' Meeting
+	- https://www.youtube.com/watch?v=joTDLdiJpmo
+	- https://llvm.org/devmtg/2025-10/slides/tutorials/bulavin.pdf
+
 ## Testing: Software
 
 - DejaGnu - GNU Test Framework
