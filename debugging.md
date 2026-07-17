@@ -367,6 +367,11 @@ _Books, Books Reviews_
 	- https://dl.acm.org/doi/abs/10.1145/3579990.3580014
 	- http://groups.csail.mit.edu/commit/papers/2023/ajay-cgo23-d2x.pdf
 	- https://zenodo.org/record/7459640
+- Protocol-Based Interactive Debugging for Domain-Specific Languages
+	- Journal of Object Technology, Volume 22, no. 2 (July 2023)
+	- Josselin Enet, Erwan Bousse, Massimo Tisi, Gerson Sunyé
+	- https://doi.org/10.5381/jot.2023.22.2.a6
+	- https://www.jot.fm/contents/issue_2023_02/article6.html
 
 ### Correctness
 
