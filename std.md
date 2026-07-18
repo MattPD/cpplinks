@@ -158,6 +158,8 @@
 	- https://old.reddit.com/r/cpp/comments/1s7m2x5/c26c29_progress_report_for_my_papers_seen_during/
 - Report from the Croydon 2026 ISO C++ Committee meeting
 	- https://mpusz.github.io/mp-units/HEAD/blog/2026/03/28/report-from-the-croydon-2026-iso-c-committee-meeting/
+- WG21 Croydon Trip Report
+	- https://www.vinniefalco.com/p/wg21-croydon-trip-report
 
 ### C++26: Trip Reports: 2025-11
 
