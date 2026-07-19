@@ -22,6 +22,7 @@ See also:
 - [Software](#software):
 	- [Compilers](#software-compilers)
 	- [Frida](#software-frida)
+	- [Memory Forensics](#software-memory-forensics)
 	- [Pin](#software-pin)
 		- [Readings](https://github.com/MattPD/cpplinks/blob/master/analysis.dynamic.md#software-pin-readings)
 		- [Projects](https://github.com/MattPD/cpplinks/blob/master/analysis.dynamic.md#software-pin-projects)
@@ -307,6 +308,12 @@ See also: [Sanitizers](https://github.com/MattPD/cpplinks/blob/master/analysis.d
 	- https://github.com/dweinstein/awesome-frida
 - MemREPL: Memory inspection REPL interface
 	- https://github.com/agustingianni/memrepl
+
+## Software: Memory Forensics
+
+- Volatility 3: The volatile memory extraction framework
+	- https://github.com/volatilityfoundation/volatility3
+	- https://volatilityfoundation.org/the-volatility-framework/
 
 ## Software: Pin
 
