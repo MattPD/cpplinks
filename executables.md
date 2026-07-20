@@ -982,6 +982,12 @@ BTF: BPF Type Format
 		- https://www.ekoparty.org/archivo/2007/eko3-Julio%20Auto%20-%20Next-Generation%20Debuggers%20For%20Reverse%20Engineering.pdf
 - Vtable-Dumper - a tool to list content of virtual tables in a C++ shared library - https://github.com/lvc/vtable-dumper
 
+### ELF: Software: CUDA Binary (cubin)
+
+- CUDA Binary Utilities
+	- cuobjdump, nvdisasm, cu++filt, and nvprune
+	- https://docs.nvidia.com/cuda/cuda-binary-utilities/
+
 ### ELF: Software: Transformation
 
 - elfloader: An architecture-agnostic ELF file flattener for shellcode
