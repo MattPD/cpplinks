@@ -992,6 +992,11 @@
 	- Dave Rowland
 	- https://www.youtube.com/watch?v=eHmjkFdQl00
 	- https://github.com/drowaudio/presentations/blob/master/README.md#c-online-2026-lock-free-queues-in-the-multiverse-of-madness
+- The Morning Briefing: C++ Concurrency Before the Hardware Reckoning
+	- C++Now 2026
+	- Fedor Pikus
+	- https://www.youtube.com/watch?v=WtChBezurj8
+	- https://github.com/boostcon/cppnow_presentations_2026/blob/main/Presentations/The_Morning_Briefing.pdf
 - Wait-Free Programming From Scratch
 	- NWCPP - Northwest C++ Users Group 2026
 	- Jatin Chowdhury
