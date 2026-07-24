@@ -107,6 +107,12 @@ See also: [computer architecture](comparch.md)
 
 - MSCCL++: A GPU-driven communication stack for scalable AI applications
 	- https://github.com/microsoft/mscclpp
+- torchcomms: a modern PyTorch communications API
+	- https://github.com/meta-pytorch/torchcomms
+	- torchcomms: a lightweight communication API for PyTorch Distributed
+		- https://meta-pytorch.org/torchcomms/
+	- simplified, object-oriented interface for distributed collective operations, high-level collective APIs, multiple out-of-the-box backends
+		- https://pytorch.org/blog/torchcomms/
 - UCCL: Ultra and Unified Collective Communication Library
 	- an efficient communication library for GPUs, covering collectives, P2P (e.g., KV cache transfer, RL weight transfer), and EP (e.g., GPU-driven)
 	- https://github.com/uccl-project/uccl
