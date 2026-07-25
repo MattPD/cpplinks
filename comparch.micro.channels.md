@@ -1596,6 +1596,14 @@ See also: [Computer Architecture](comparch.md)
 
 ## Cache: 2026
 
+- RISCy Cache Coherence: Timer-Free Architectural Cache Attacks via Instruction/Data Cache Incoherence
+	- IEEE Symposium on Security and Privacy (S&P) 2026
+	- Fabian Thomas, Michael Schwarz
+	- https://doi.org/10.1109/SP63933.2026.00192
+	- https://doi.org/10.60882/cispa.31998651
+	- https://misc0110.net/files/i2sc_sp26.pdf
+	- https://fabianthomas.de/publications/2026/thomas2026riscy/
+	- https://github.com/cispa/RISCy-cache-coherence
 - Zero-Store Elimination and its Implications on the SIKE Cryptosystem
 	- Microarchitecture Security Conference (uASC) 2026
 	- Lukas Gerlach, Niklas Flentje, Michael Schwarz
