@@ -993,6 +993,10 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://arxiv.org/abs/2408.08515
 	- https://doi.org/10.1109/ICSE55347.2025.00028
 	- https://github.com/gaotravor/Initial-seed-selection
+- Waltzz: WebAssembly Runtime Fuzzing with Stack-Invariant Transformation
+	- USENIX Security 2025
+	- Lingming Zhang, Binbin Zhao, Jiacheng Xu, Peiyu Liu, Qinge Xie, Yuan Tian, Jianhai Chen, Shouling Ji
+	- https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-lingming
 
 #### Testing: Readings: Fuzzing: 2024
 
