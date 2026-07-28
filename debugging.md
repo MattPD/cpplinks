@@ -354,6 +354,10 @@ _Books, Books Reviews_
 
 #### Implementation: DSLs: 2024
 
+- Language Protocols for Domain-Specific Debugging
+	- MoDELS (Companion) 2024
+	- Josselin Enet
+	- https://dl.acm.org/doi/abs/10.1145/3652620.3676881
 - Protocol-Based Debugging for Domain-Specific Languages
 	- 2024 PhD Dissertation
 	- Josselin Enet
