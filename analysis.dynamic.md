@@ -311,6 +311,9 @@ See also: [Sanitizers](https://github.com/MattPD/cpplinks/blob/master/analysis.d
 
 ## Software: Memory Forensics
 
+- AVML: Acquire Volatile Memory for Linux
+	- A portable volatile memory acquisition tool for Linux
+	- https://github.com/microsoft/avml
 - Volatility 3: The volatile memory extraction framework
 	- https://github.com/volatilityfoundation/volatility3
 	- https://volatilityfoundation.org/the-volatility-framework/
