@@ -885,6 +885,10 @@ Random Testing
 	- 2016
 	- David R. MacIver
 	- https://hypothesis.works/articles/what-is-property-based-testing/
+- Designing Effective Property-Based Testing Frameworks
+	- 2026 PhD Dissertation
+	- Alperen Keleş
+	- https://alperenkeles.com/documents/thesis.pdf
 - Finding Property Tests
 	- 2019
 	- Hillel Wayne
