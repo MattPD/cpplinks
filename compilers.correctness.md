@@ -963,6 +963,12 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://arxiv.org/pdf/2404.16947
 	- https://github.com/UCLA-SEAL/SynthFuzz
 	- https://web.cs.ucla.edu/~wangjiyuan/research/ICSE2025_SynthFuzz.pdf
+- Fuzzing the PHP Interpreter via Dataflow Fusion
+	- USENIX Security 2025
+	- Yuancheng Jiang, Chuqi Zhang, Bonan Ruan, Jiahao Liu, Manuel Rigger, Roland H. C. Yap, Zhenkai Liang
+	- https://www.usenix.org/conference/usenixsecurity25/presentation/jiang-yuancheng
+	- FlowFusion: A Dataflow-Driven and Automated Fuzzer for the PHP Interpreter
+		- https://github.com/php/flowfusion
 - Interleaved Learning and Exploration: A Self-Adaptive Fuzz Testing Framework for MLIR
 	- International Conference on Automated Software Engineering (ASE) 2025
 	- Zeyu Sun, Jingjing Liang, Weiyi Wang, Chenyao Suo, Junjie Chen, Fanjiang Xu
