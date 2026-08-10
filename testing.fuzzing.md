@@ -239,6 +239,13 @@ See also:
 
 ## Readings: Practice
 
+- An Empirical Study of Fuzz Harness Degradation
+	- FSE 2026 Distinguished Paper Award
+	- Philipp Görz, Joschua Schilling, Nicolai Bissantz, Thorsten Holz
+	- https://doi.org/10.1145/3808172
+	- https://arxiv.org/abs/2505.06177
+	- Artifact: https://github.com/CISPA-SysSec/fuzz-harness-degradation
+	- Dataset: https://doi.org/10.5281/zenodo.14000867
 - Billions and billions of constraints: Whitebox fuzz testing in production
 	- International Conference on Software Engineering ICSE 2013
 	- E. Bounimova, P. Godefroid, D. Molnar
