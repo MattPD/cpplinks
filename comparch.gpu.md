@@ -67,6 +67,11 @@ See also: [computer architecture](comparch.md)
 	- 2026
 	- Yijun Ma, Siyuan Shen, Tiancheng Chen, Akhil Langer, Jiri Kraus, Benjamin Glick, Craig Belusar, Jeff Hammond, Torsten Hoefler
 	- https://arxiv.org/abs/2606.05951
+- Inside TPU and GPU Clusters: The Anatomy of Collective Communication
+	- A deep dive into All-Gather, Reduce-Scatter, All-Reduce, and All-to-All across TPU and GPU clusters
+	- 2026
+	- Aleksa Gordić
+	- https://www.aleksagordic.com/blog/collective-operations
 - MSCCL++: Rethinking GPU Communication Abstractions for AI Inference
 	- ASPLOS 2026
 	- Changho Hwang, Peng Cheng, Roshan Dathathri, Abhinav Jangda, Saeed Maleki, Madan Musuvathi, Olli Saarikivi, Aashaka Shah, Ziyue Yang, Binyang Li, Caio Rocha, Qinghua Zhou, Mahdieh Ghazimirsaeed, Sreevatsa Anantharamu, Jithin Jose
