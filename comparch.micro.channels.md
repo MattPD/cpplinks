@@ -3236,6 +3236,14 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 
 ## Speculation: 2026
 
+- Crucible: Retrofitting Commodity CPUs with Vulnerabilities via Transparent Software Emulation
+	- IEEE Symposium on Security and Privacy (S&P) 2026
+	- Tristan Hornetz, Lukas Gerlach, Michael Schwarz
+	- https://doi.org/10.1109/SP63933.2026.00186
+	- https://misc0110.net/files/crucible_sp26.pdf
+	- Crucible: a library that transparently retrofits Meltdown-type transient execution vulnerabilities on any x86_64 Linux machine
+		- https://github.com/cispa/Crucible
+		- https://doi.org/10.5281/zenodo.19498819
 - Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer
 	- Network and Distributed System Security Symposium (NDSS) 2026
 	- Johannes Lenzen, Mohamadreza Rostami, Lichao Wu, Ahmad-Reza Sadeghi
