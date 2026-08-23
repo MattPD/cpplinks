@@ -145,6 +145,11 @@ See also: Section 6.3 (Compiler Bug Debugging) in ["A Survey of Compiler Testing
 	- https://doi.org/10.1145/3715747
 	- https://web.cs.ucla.edu/~wangjiyuan/research/DuoReduce_FSE2025.pdf
 	- https://github.com/UCLA-SEAL/DuoReduce
+- Solving Compiler Puzzles: Debug Methods in MLIR
+	- 2025 EuroLLVM Developers' Meeting
+	- Christopher McGirr
+	- https://www.youtube.com/watch?v=iyfW6uIRtTU
+	- https://llvm.org/devmtg/2025-04/slides/technical_talk/mcgirr_solving_compiler_puzzlespdf.pdf
 
 ### Debugging: 2024
 
