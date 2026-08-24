@@ -987,6 +987,12 @@
 
 ### 2026
 
+- Lock-free Programming is Dead - Long Live Lock-free Programming!
+	- Fedor G Pikus
+	- C++Now 2026
+	- https://www.youtube.com/watch?v=UdKqfQ3a_sY
+	- https://github.com/boostcon/cppnow_presentations_2026/blob/main/Presentations/Lock-free-Programming-is-Dead.pdf
+	- https://github.com/fpikus/LockFree
 - Lock-free Queues in the Multiverse of Madness
 	- C++Online 2026
 	- Dave Rowland
