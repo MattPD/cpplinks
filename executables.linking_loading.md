@@ -361,6 +361,10 @@ See also:
 - Design and implementation of mold
 	- 2021; Rui Ueyama
 	- https://github.com/rui314/mold/blob/main/docs/design.md
+- mold: A Massively Parallel Linker
+	- ASPLOS 2027
+	- Rui Ueyama
+	- https://arxiv.org/abs/2608.23228
 - Why isn't ld.lld faster?
 	- 2021; MaskRay (Fangrui Song)
 	- https://maskray.me/blog/2021-12-19-why-isnt-ld.lld-faster
