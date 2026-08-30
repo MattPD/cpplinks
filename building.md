@@ -835,6 +835,10 @@ See also:
 	- https://github.com/TheLartians/CPM.cmake
 - Izzy's eXtension Modules: Make CMake less painful when trying to write Modern Flexible CMake
 	- https://github.com/slurps-mad-rips/ixm
+- link-what-you-include: Maintain a coherent build system target model
+	- a tool that can be used to check that a C++ build system has correctly specified the dependencies between targets based on what files the source code includes
+	- analogous to Include What You Use (IWYU) but targeting inter-library dependencies rather than inter-file dependencies
+	- https://github.com/Esri/link-what-you-include
 - package-example: CMake: config mode of find_package command
 	- https://github.com/forexample/package-example
 - sanitizers-cmake: CMake module to enable sanitizers for binary targets
@@ -843,6 +847,14 @@ See also:
 	- https://github.com/onqtam/ucm
 
 ### CMake Talks
+
+#### CMake Talks: 2026
+
+- Link What You Include: Maintain a Coherent CMake Target Model
+	- C++Now 2026
+	- Frank Miller
+	- https://www.youtube.com/watch?v=ssTG6uzxXm4
+	- https://github.com/boostcon/cppnow_presentations_2026/blob/main/Presentations/Link_What_you_Include.pdf
 
 #### CMake Talks: 2025
 
