@@ -87,6 +87,9 @@ See also: [Assembly (Arm)](assembly.arm.md), [Assembly (RISC-V)](assembly.riscv.
 	- https://cbp-ng.bpchamp.com/
 	- The CBP-NG Simulator
 		- https://github.com/AmpereComputing/cbp-ng/
+	- 7th Branch Prediction Championship: Part I
+		- Digvijay Singh
+		- https://www.sigarch.org/7th-branch-prediction-championship-part-i/
 - The 4th Data Prefetching Championship (DPC-4) 2026
 	- https://sites.google.com/view/dpc4-2026
 	- https://github.com/CMU-SAFARI/DPC4
