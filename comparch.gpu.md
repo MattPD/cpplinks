@@ -67,6 +67,14 @@ See also: [computer architecture](comparch.md)
 	- 2026
 	- Yijun Ma, Siyuan Shen, Tiancheng Chen, Akhil Langer, Jiri Kraus, Benjamin Glick, Craig Belusar, Jeff Hammond, Torsten Hoefler
 	- https://arxiv.org/abs/2606.05951
+- Every Microsecond Matters: Achieving Near Speed-of-Light Latency in GPU Collectives
+	- Siyuan Shen, Anton Korzh, John Bachan, Tiancheng Chen, Arnav Goel, Ludwig Schneider, Pouya Kousha, Zhenhao He, Sylvain Jeaugey, Kamil Iskra, Nishank Chandawala, Jeff R. Hammond, Torsten Hoefler
+	- 2026
+		- https://arxiv.org/abs/2607.16100
+		- https://github.com/ss16118/low-latency-nccl
+	- GPU MODE Lecture 113
+		- Siyuan Shen
+		- https://www.youtube.com/watch?v=J7-uvBSG7ho
 - Inside TPU and GPU Clusters: The Anatomy of Collective Communication
 	- A deep dive into All-Gather, Reduce-Scatter, All-Reduce, and All-to-All across TPU and GPU clusters
 	- 2026
