@@ -24,7 +24,7 @@ See also:
 	- [OS: macOS](#software-os-macos)
 	- [OS: Linux](#software-os-linux)
 	- [OS: Windows](#software-os-windows)
-- [Talks](#talks): [2024](#talks-2024), [2023](#talks-2023), [2022](#talks-2022), [2021](#talks-2021), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2012](#talks-2012)
+- [Talks](#talks): [2026](#talks-2026), [2024](#talks-2024), [2023](#talks-2023), [2022](#talks-2022), [2021](#talks-2021), [2019](#talks-2019), [2018](#talks-2018), [2017](#talks-2017), [2016](#talks-2016), [2012](#talks-2012)
 
 ---
 
@@ -724,6 +724,17 @@ See also:
 ---
 
 # Talks
+
+## Talks: 2026
+
+- A Tour of Link-Time Operations and their Practical Applications
+	- C++Now 2026
+	- Vito Gamberini
+	- https://www.youtube.com/watch?v=ntp7_oWz2E4
+	- https://github.com/boostcon/cppnow_presentations_2026/blob/main/Presentations/Leveraging_the_Linker.pdf
+	- linker_set: C++ Linker Sets
+		- Header-only C++20 macros for defining "linker sets": arrays of pointers that the linker gathers across translation units. This is handy for registries, allowing discovery without a central list.
+		- https://github.com/nickelpro/linker_set
 
 ## Talks: 2024
 
