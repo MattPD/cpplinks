@@ -1009,6 +1009,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- https://arxiv.org/abs/2408.08515
 	- https://doi.org/10.1109/ICSE55347.2025.00028
 	- https://github.com/gaotravor/Initial-seed-selection
+- TeTRIS: General-purpose Fuzzing for Translation Bugs in Source-to-Source Code Transpilers
+	- 2025 IEEE Annual Computer Security Applications Conference (ACSAC)
+	- Yeaseen Arafat, Stefan Nagy
+	- https://doi.org/10.1109/ACSAC67867.2025.00025
+	- https://futures.cs.utah.edu/papers/25ACSAC.pdf
+	- https://futures.cs.utah.edu/papers/25ACSAC_slides.pdf
+	- https://github.com/FuturesLab/TeTRIS
+	- https://www.youtube.com/watch?v=-bNP7ZNClTo
 - Waltzz: WebAssembly Runtime Fuzzing with Stack-Invariant Transformation
 	- USENIX Security 2025
 	- Lingming Zhang, Binbin Zhao, Jiacheng Xu, Peiyu Liu, Qinge Xie, Yuan Tian, Jianhai Chen, Shouling Ji
