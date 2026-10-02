@@ -31,6 +31,7 @@ See also: [Computer Architecture](comparch.md)
 - [Memory Order Buffer (MOB)](#memory-order-buffer-mob)
 - [Micro-Op Cache](#micro-op-cache)
 - [Non-Volatile Memory (NVM)](#non-volatile-memory-nvm)
+- [On-Core AI Accelerators](#on-core-ai-accelerators)
 - [Power](#power)
 - [Prefetch](#prefetch)
 - [Pseudo-Random Number Generator (PRNG)](#pseudo-random-number-generator-prng)
@@ -301,6 +302,15 @@ See also: [Computer Architecture](comparch.md)
 ---
 
 # Defense, Mitigation, Protection
+
+- PerSpectron: Detecting Invariant Footprints of Microarchitectural Attacks with Perceptron
+	- MICRO 2020
+	- Samira Mirbagher Ajorpaz, Gilles Pokam, Elba Garza, Esmaeil Mohammadian Koruyeh, Nael Abu-Ghazaleh, Daniel A. Jimenez
+	- https://people.engr.tamu.edu/djimenez/pdfs/PerSpectron_Micro2020_camera.pdf
+- EVAX: Towards a Practical, Pro-active & Adaptive Architecture for High Performance & Security
+	- MICRO 2022
+	- Samira Mirbagher Ajorpaz, Daniel Moghimi, Jeffrey Neal Collins, Gilles Pokam, Nael Abu-Ghazaleh, Dean Tullsen
+	- https://doi.org/10.1109/MICRO56248.2022.00085
 
 - Guidelines for Mitigating Timing Side Channels Against Cryptographic Implementations
 	- https://software.intel.com/security-software-guidance/insights/guidelines-mitigating-timing-side-channels-against-cryptographic-implementations
@@ -2670,6 +2680,24 @@ https://www.intel.com/content/www/us/en/developer/articles/technical/software-se
 
 ---
 
+# On-Core AI Accelerators
+
+- FeatureBleed: Inferring Private Enriched Attributes From Sparsity-Optimized AI Accelerators
+	- IEEE Computer Architecture Letters 2026
+	- https://arxiv.org/abs/2602.18304
+- GateBleed: Exploiting On-Core Accelerator Power Gating for High Performance and Stealthy Attacks on AI
+	- MICRO 2025
+	- https://doi.org/10.1145/3725843.3756097
+	- https://research.ece.ncsu.edu/gatebleed/
+	- https://github.com/jkalya/gatebleed
+	- Top Picks companion (author manuscript): https://research.ece.ncsu.edu/gatebleed/wp-content/uploads/sites/44/2026/06/gatebleed-toppicks.pdf
+- Thor: A Non-Speculative Value Dependent Timing Side Channel Attack Exploiting Intel AMX
+	- IEEE Computer Architecture Letters 2025
+	- https://arxiv.org/abs/2502.17658
+- Exploiting Intel AMX Power Gating (NetLoki)
+	- IEEE Computer Architecture Letters 2025
+	- https://research.ece.ncsu.edu/brainspec/wp-content/uploads/sites/35/2026/06/exploiting_intel_amx_power_gating.pdf
+
 # Power
 
 ## Power: 2024
@@ -3340,6 +3368,10 @@ https://software.intel.com/security-software-guidance/insights/refined-speculati
 
 ## Speculation: 2023
 
+- An Attack on The Speculative Vectorization: Leakage from Higher Dimensional Speculation
+	- arXiv 2023
+	- Sayinath Karuppanan, Samira Mirbagher Ajorpaz
+	- https://arxiv.org/abs/2302.01131
 - Downfall: Exploiting Speculative Data Gathering
 	- USENIX Security 2023
 	- Daniel Moghimi
