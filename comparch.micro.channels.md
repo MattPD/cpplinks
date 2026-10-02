@@ -305,7 +305,7 @@ See also: [Computer Architecture](comparch.md)
 
 - PerSpectron: Detecting Invariant Footprints of Microarchitectural Attacks with Perceptron
 	- MICRO 2020
-	- Samira Mirbagher Ajorpaz, Gilles Pokam, Elba Garza, Esmaeil Mohammadian Koruyeh, Nael Abu-Ghazaleh, Daniel A. Jimenez
+	- Samira Mirbagher-Ajorpaz, Gilles Pokam, Esmaeil Mohammadian-Koruyeh, Elba Garza, Nael Abu-Ghazaleh, Daniel A. Jiménez
 	- https://people.engr.tamu.edu/djimenez/pdfs/PerSpectron_Micro2020_camera.pdf
 - EVAX: Towards a Practical, Pro-active & Adaptive Architecture for High Performance & Security
 	- MICRO 2022
