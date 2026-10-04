@@ -75,6 +75,14 @@ See also: [computer architecture](comparch.md)
 	- GPU MODE Lecture 113
 		- Siyuan Shen
 		- https://www.youtube.com/watch?v=J7-uvBSG7ho
+- GPU-Initiated Communication: Dissecting Down to the Bone
+	- 2026
+	- Javid Baydamirli, Ismayil Ismayilov, Kaan Oktay, Didem Unat
+	- https://arxiv.org/abs/2610.01380
+	- GPU-Initiated Communication Experiments
+		- Experiments, results, and misc. scripts
+		- The experiments measure what it costs a GPU kernel to drive an RDMA NIC: issue and completion cost, ordering, CPU-proxy designs, message rate, the cost to the enclosing kernel, and NIC connection scaling. Stacks: NVSHMEM IBGDA and IBRC, NCCL GIN (GDAKI and GIN Proxy), UCCL-EP, MSCCL++, fabric-lib, and two minimal implementations written for this study, mini-gda (GPU-initiated) and mini-proxy (CPU proxy).
+		- https://github.com/ParCoreLab/Dissecting-GPU-Communication-Experiments
 - Inside TPU and GPU Clusters: The Anatomy of Collective Communication
 	- A deep dive into All-Gather, Reduce-Scatter, All-Reduce, and All-to-All across TPU and GPU clusters
 	- 2026
