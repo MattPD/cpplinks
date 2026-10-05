@@ -552,6 +552,12 @@ Compiler-Based Static Instrumentation
 	- https://doi.ieeecomputersociety.org/10.1109/SP61157.2025.00074
 	- https://s2-lab.github.io/assets/CMASan_S&P25.pdf
 	- https://github.com/S2-Lab/CMASan
+- Détection à faible surcoût des conditions de course et des violations de la sûreté de la mémoire de tas (Low-overhead detection of race conditions and heap memory safety violations)
+	- 2025 PhD dissertation
+	- Farzam Dorostkar
+	- Chapter 6, "Identifying and mitigating implementation-induced data race detection blind spots in ThreadSanitizer v3"
+	- https://publications.polymtl.ca/70029/
+	- https://publications.polymtl.ca/70029/15/2025_FarzamDorostkar.pdf
 - Evaluating the Effectiveness of Memory Safety Sanitizers
 	- 2025 IEEE Symposium on Security and Privacy (S&P)
 	- Emanuel Vintila, Philipp Zieris, Julian Horsch
