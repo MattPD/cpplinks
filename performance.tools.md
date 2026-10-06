@@ -392,6 +392,14 @@
 
 ## Microarchitecture: Readings
 
+- Catscan: Visualizing Pipelines of CPU Performance Simulation
+	- 2026
+	- Aaron Lindsay, Nicholas Kelly, Scott Witscher, Mahesh Madhav
+	- https://arxiv.org/abs/2610.02121
+	- catscan: a terminal UI for understanding performance event streams
+		- https://github.com/AmpereComputing/catscan
+	- Performance Streams: traces / collections of events / other messages, used for CPU performance simulation & analysis
+		- https://github.com/AmpereComputing/perf-streams
 - Fast and Accurate Context-Aware Basic Block Timing Prediction using Transformers
 	- ACM SIGPLAN International Conference on Compiler Construction (CC) 2024
 	- Abderaouf Nassim Amalou, Elisa Fromont, Isabelle Puaut
