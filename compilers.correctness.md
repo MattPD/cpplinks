@@ -2456,6 +2456,15 @@ Validation: Including translation validation, equivalence checking.
 		- https://www.youtube.com/watch?v=JLFP_-sQ-I4
 	- Viper Roots formalization for the Viper intermediate verification language
 		- https://github.com/viperproject/viper-roots
+- Scaling Instruction-Selection Verification against Authoritative ISA Semantics
+	- OOPSLA 2025
+	- Michael McLoughlin, Ashley Sheng, Chris Fallin, Bryan Parno, Fraser Brown, Alexa VanHattum
+	- https://dl.acm.org/doi/10.1145/3764383
+	- https://cfallin.org/pubs/oopsla2025_arrival.pdf
+	- https://cs.wellesley.edu/~avh/scaling-isa-preprint.pdf
+	- https://www.youtube.com/watch?v=RnwVWmvXgW4
+	- Arrival: Instruction-selection verifier for the Cranelift compiler
+		- https://github.com/mmcloughlin/arrival
 - TensorRight: Automated Verification of Tensor Graph Rewrites
 	- POPL 2025
 	- Jai Arora, Sirui Lu, Devansh Jain, Tianfan Xu, Farzin Houshmand, Phitchaya Mangpo Phothilimthana, Mohsen Lesani, Praveen Narayanan, Karthik Srinivasa Murthy, Rastislav Bodík, Amit Sabne, Charith Mendis
