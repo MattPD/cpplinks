@@ -283,6 +283,11 @@
 	- https://www.youtube.com/watch?v=5FU7Gtkb0IA
 	- https://github.com/codereport/Content/tree/main/Talks/2023-06-ItalianC%2B%2B
 	- https://github.com/italiancpp/itcppcon23/blob/main/New%20Algorithms%20in%20C%2B%2B23%20-%20Conor%20Hoekstra.pdf
+- Taming C++23 - The Things About C++23 You Do Not Know
+	- ACCU on Sea 2026
+	- Nicolai M. Josuttis
+	- https://www.youtube.com/watch?v=IVee1JXbrQE
+	- https://github.com/Digital-Medium/ACCU-On-Sea-Slides-2026/blob/main/Presentations/Taming_Cpp23.pdf
 - What's New In C++23
 	- Sy Brand
 	- CppCon 2022
