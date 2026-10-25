@@ -855,6 +855,11 @@ See also:
 	- Frank Miller
 	- https://www.youtube.com/watch?v=ssTG6uzxXm4
 	- https://github.com/boostcon/cppnow_presentations_2026/blob/main/Presentations/Link_What_you_Include.pdf
+- The Secret to C++ Reflection Now: CMake Code Generation
+	- Bret Brown
+	- C++Now 2026
+	- https://www.youtube.com/watch?v=OW_h9oyHQ-0
+	- https://github.com/boostcon/cppnow_presentations_2026/blob/main/Presentations/Until_Reflection.pdf
 
 #### CMake Talks: 2025
 
