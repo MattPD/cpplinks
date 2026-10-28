@@ -1476,6 +1476,16 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- slides: https://nebelwelt.net/publications/files/15LangSec-presentation.pdf
 	- talk: https://www.youtube.com/watch?v=g6LCtHz_MDc&list=PL0pRF4xvoD0kuECJuowraVIIHlT3pN1Cm&index=3
 
+#### Testing: Readings: Performance Optimization: 2026
+
+- Optimization-Aware Test Generation for Deep Learning Compilers
+	- IEEE/ACM International Conference on Software Engineering (ICSE) 2026
+	- Qingchao Shen, Zan Wang, Haoyang Ma, Yongqiang Tian, Lili Huang, Zibo Xiao, Junjie Chen, Shing-Chi Cheung
+	- https://arxiv.org/abs/2511.18918
+	- https://dl.acm.org/doi/10.1145/3744916.3773216
+	- OATest: An optimization-aware test generator for fuzzing DL compilers
+		- https://github.com/ShenQingchao/OATest
+
 #### Testing: Readings: Performance Optimization: 2025
 
 - Compiler Optimization Testing Based on Optimization-Guided Equivalence Transformations
