@@ -1033,6 +1033,8 @@ See also: [Debugging](https://github.com/MattPD/cpplinks/blob/master/debugging.m
 		- https://github.com/dsw/delta
 - halfempty: Fast, Parallel Testcase Minimization
 	- https://github.com/googleprojectzero/halfempty
+- ReproMin: Pre-alpha repository-scale test-case reduction with a command-based failure oracle, fingerprinted payloads, and fresh-copy replay
+	- https://github.com/fly1d/repomin
 - Shrink Ray: a test-case reducer designed to be effective on a wide range of formats
 	- https://github.com/DRMacIver/shrinkray
 - Structured Shrinking: Structured shrinking of unknown file formats
