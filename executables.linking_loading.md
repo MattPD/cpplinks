@@ -365,6 +365,9 @@ See also:
 	- ASPLOS 2027
 	- Rui Ueyama
 	- https://arxiv.org/abs/2608.23228
+- Recent lld/ELF performance improvements
+	- 2026; MaskRay (Fangrui Song)
+	- https://maskray.me/blog/2026-04-12-recent-lld-elf-performance-improvements
 - Why isn't ld.lld faster?
 	- 2021; MaskRay (Fangrui Song)
 	- https://maskray.me/blog/2021-12-19-why-isnt-ld.lld-faster
