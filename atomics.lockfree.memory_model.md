@@ -152,6 +152,17 @@
 - KAIST Concurrency and Parallelism: Concurrent Garbage Collection
 	- https://cp.kaist.ac.kr/gc/
 
+### Memory Reclamation: Readings: 2026
+
+- Revisiting Partial Tracing for Safe, Efficient, and Concurrent Garbage Collection in Unmanaged Languages
+	- PLDI 2026
+	- Jeonghyeon Kim, Jongse Park, Youngjin Kwon, Jeehoon Kang
+	- https://doi.org/10.1145/3808310
+	- https://www.youtube.com/watch?v=Vtm_c-v8wYw
+	- CDPT: Concurrent Deferred Partial Tracing
+		- An automatic, safe, and concurrent garbage collector for Rust
+		- https://github.com/kaist-cp/cdpt
+
 ### Memory Reclamation: Readings: 2025
 
 - Design and Verification of Concurrent Memory Reclamation Algorithms
