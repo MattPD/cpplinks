@@ -117,6 +117,10 @@
 
 ### C++29: Trip Reports: 2026-06
 
+- C++ Lifetime-End Pointer-Zap and OOTA Progress
+	- 2026-06-16
+	- Paul E. McKenney
+	- https://people.kernel.org/paulmck/c-pointer-zap-and-oota-progress
 - Report from the Brno 2026 ISO C++ Committee meeting
 	- https://mpusz.github.io/mp-units/HEAD/blog/2026/06/13/report-from-the-brno-2026-iso-c-committee-meeting/
 - Trip report: June 2026 ISO C++ standards meeting (Brno, Czechia)
