@@ -684,6 +684,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md)
 	- https://www.doc.ic.ac.uk/~afd/papers/2026/ICSE.pdf
 	- Erwin: A random Solidity program generator
 		- https://github.com/haoyang9804/Erwin
+- CombCT: Compiler Testing via Combinatorial Testing
+	- International Conference on Software Engineering (ICSE) 2026
+	- Chuan Luo, Shaoke Cui, Jiahao Yan, Junjie Chen, Chenyao Suo, Wei Wu, Chanjuan Liu, Chunming Hu
+	- https://doi.org/10.1145/3744916.3764548
+	- https://conf.researchr.org/details/icse-2026/icse-2026-research-track/31/CombCT-Compiler-Testing-via-Combinatorial-Testing
 
 ### Testing: Readings: 2025
 
