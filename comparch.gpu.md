@@ -172,6 +172,8 @@ https://github.com/NVIDIA/nccl/tree/master/contrib/nccl_ep
 
 ## Communication: Talks
 
+### Communication: Talks: 2025
+
 - Landscape of GPU-Centric Communication
 	- GPU MODE Lecture 68 (2025)
 	- Didem Unat
@@ -186,6 +188,13 @@ https://github.com/NVIDIA/nccl/tree/master/contrib/nccl_ep
 	- https://www.youtube.com/watch?v=zxGVvMN6WaM
 	- https://drive.google.com/file/d/1T8uHhFIeVa_g1oYb_O4d2Ltb8YQly1zK/view
 	- https://github.com/ParRes/Kernels/tree/main/Cxx11
+- Tutorial: GPU Communication Libraries for Accelerating HPC and AI Applications
+	- IEEE Symposium on High-Performance Interconnects (HotI) 2025
+	- Benjamin Glick, Pouya Kousha, Arnav Goel, Andreas Herten
+	- https://www.youtube.com/watch?v=rlA5QreHekk
+	- https://hoti.org/tutorials-nccl-nvshmem.html
+	- https://github.com/NVIDIA/hoti-2025-gpu-comms-tutorial
+	- https://hoti.org/2025/assets/slides/2025_08_22_day3_Tutorial_NVIDIA_Julich_GPU_Communications_v2.pdf
 
 ---
 
