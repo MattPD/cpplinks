@@ -628,6 +628,9 @@ See also:
 		- FOSDEM 2024
 		- Rui Ueyama
 		- https://fosdem.org/2024/schedule/event/fosdem-2024-2606-can-the-mold-linker-be-usr-bin-ld-/
+- RAD Linker
+	- https://github.com/EpicGames/raddebugger#the-rad-linker
+	- linker for generating x64 PE/COFF binaries, designed to be very fast when creating gigantic executables, generates standard PDB files for debugging, but it can also (optionally) natively create RAD Debug Info
 
 ## Software: OS: macOS
 
