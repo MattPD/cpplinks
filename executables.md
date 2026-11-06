@@ -231,6 +231,9 @@ BTF: BPF Type Format
 - Import by Hash in x64 Assembly - https://emsea.github.io/2017/12/04/import-by-hash/
 - Isolating a plugin into its own directory
 	- http://web.archive.org/web/20171011141708/https://blogs.msdn.microsoft.com/talagrand/2010/03/08/isolating-a-plugin-into-its-own-directory/
+- Notes on dllexport and dllimport
+	- 2026-10-05; Hans Wennborg
+	- https://www.hanshq.net/dllexport.html
 - Rpath emulation: absolute DLL references on Windows - http://blog.omega-prime.co.uk/2012/12/06/rpath-emulation-absolute-dll-references-on-windows/
 - Shellcode: In-Memory Execution of DLL - https://modexp.wordpress.com/2019/06/24/inmem-exec-dll/
 - Ten Process Injection Techniques: A Technical Survey of Common and Trending Process Injection Techniques
