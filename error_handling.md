@@ -363,6 +363,12 @@
 
 ### Papers: Binary Analysis
 
+- Abstract Interpretation for Exception-Aware Function Summaries in Binaries
+	- IEEE International Conference on Source Code Analysis and Manipulation (SCAM) 2026
+	- Daniel Engel, Freek Verbeek, Binoy Ravindran
+	- https://ssrg.ece.vt.edu/papers/scam26.pdf
+	- FoxDec: Formally Verified x86-64 Decompilation
+		- https://github.com/ssrg-vt/FoxDec
 - On the Impact of Exception Handling Compatibility on Binary Instrumentation
 	- 2020 Workshop on Forming an Ecosystem Around Software Transformation (FEAST)
 	- Soumyakant Priyadarshan, Huan Nguyen, R. Sekar
