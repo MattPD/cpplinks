@@ -1653,6 +1653,11 @@ See also: [Computer Architecture](comparch.md)
 	- https://doi.ieeecomputersociety.org/10.1109/SP61157.2025.00264
 	- accelerates state-of-the-art cache side-channel approaches such as Prime+Probe to be slice-aware
 		- https://github.com/0xADE1A1DE/Slice-Slice-Baby
+- SPAM: Streamlined Prefetcher-Aware Multi-threaded Cache Covert-Channel Attack
+	- IEEE Computer Architecture Letters 2025
+	- E. Kritheesh, Biswabandan Panda
+	- https://doi.org/10.1109/LCA.2025.3529213
+	- https://www.cse.iitb.ac.in/~biswa/CAL25.pdf
 
 ## Cache: 2024
 
