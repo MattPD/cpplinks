@@ -919,6 +919,14 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, Christian Holler
 	- https://www.fuzzingbook.org/html/Grammars.html
 
+#### Testing: Readings: Fuzzing: 2026
+
+- Random Test Generators Demystified: Differences and Potential for Compiler Reliability
+	- Science of Computer Programming 247 (2026)
+	- Yang Wang, Zeyu Lu, Beining Wu, Yibiao Yang, Hongmin Lu, Yuming Zhou
+	- https://doi.org/10.1016/j.scico.2025.103359
+	- https://doi.org/10.5281/zenodo.15709842
+
 #### Testing: Readings: Fuzzing: 2025
 
 - A Comprehensive Study of OOP-Related Bugs in C++ Compilers
