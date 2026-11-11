@@ -146,6 +146,11 @@
 	- Jeff Garland
 	- https://www.youtube.com/watch?v=xmqkRcAslw8
 	- https://github.com/CppCon/CppCon2024/blob/main/Presentations/Cpp_26_Preview.pdf
+- C++26 Uncovered: Everything You Need to Know About the New Standard
+	- ACCU 2026
+	- Inbal Levi
+	- https://www.youtube.com/watch?v=1r5Hl1EoaYo
+	- https://slides.com/inballevi/cpp-26
 - What’s New in C++26
 	- April 2024 C++ Meetup @ Google
 	- Alexander Fokin
