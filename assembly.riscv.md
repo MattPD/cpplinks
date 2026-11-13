@@ -727,6 +727,8 @@ https://riscv.org/software-tools/
 	- an S-mode trap-and-emulate hypervisor for RISC-V
 - semu: A minimalist RISC-V emulator capable of running xv6
 	- https://github.com/jserv/semu
+- Simmerv: Fast, feature-rich, RISC-V RVA22/RVA23 SoC emulator
+	- https://github.com/tommythorn/simmerv
 - Spike, a RISC-V ISA Simulator
 	- https://github.com/riscv/riscv-isa-sim
 	- Adding a new RISC-V extension (to Spike)
