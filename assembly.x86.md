@@ -111,6 +111,14 @@ Learning assembly for linux-x64
 https://github.com/0xAX/asm
 https://0xax.github.io/categories/assembly/
 
+# Emulation & Simulation
+
+- Sem86: A Full-System Emulator Without Hard-Coded Semantics
+	- International Conference on Software Quality, Reliability, and Security (QRS) 2026
+	- Jos Craaijo, Freek Verbeek, Binoy Ravindran
+	- https://liblisa.nl/sem86/
+	- https://github.com/liblisa/sem86
+
 # Instruction Set Architecture
 
 ## Instruction Set Architecture: AI Compute Extensions (ACE)
