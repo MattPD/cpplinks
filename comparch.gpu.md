@@ -4,6 +4,14 @@ See also: [computer architecture](comparch.md)
 
 ---
 
+# Intro
+
+- Inside NVIDIA GPUs: Anatomy of high performance matmul kernels
+	- 2025; Aleksa Gordić
+	- https://www.aleksagordic.com/blog/matmul
+
+---
+
 # Articles & Papers
 
 - A closer look at GPUs
