@@ -1308,6 +1308,11 @@ Various tools and helpers to read assembly metadata - https://github.com/KirillO
 	- R. Kleckner
 	- https://www.youtube.com/watch?v=5twzd06NqGU
 	- http://www.llvm.org/devmtg/2016-11/Slides/Kleckner-CodeViewInLLVM.pdf
+- Windows Debug Info: CodeView and PDB Files
+	- StockholmCpp 2026-10-22
+	- Hans Wennborg
+	- https://www.youtube.com/watch?v=kKczw8AYKjo
+	- https://www.hanshq.net/files/pdb-talk.pdf
 
 ---
 
