@@ -1038,11 +1038,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 #### Testing: Readings: Fuzzing: 2024
 
 - AsFuzzer: Differential Testing of Assemblers with Error-Driven Grammar Inference
-  - ISSTA 2024
-  - Hyungseok Kim, Soomin Kim, Jungwoo Lee, Sang Kil Cha
-  - https://dl.acm.org/doi/10.1145/3650212.3680345
-  - https://softsec.kaist.ac.kr/~sangkilc/papers/kim-issta24.pdf
-  - https://2024.issta.org/details/issta-2024-papers/88/AsFuzzer-Differential-Testing-of-Assemblers-with-Error-Driven-Grammar-Inference
+	- ISSTA 2024
+	- Hyungseok Kim, Soomin Kim, Jungwoo Lee, Sang Kil Cha
+	- https://dl.acm.org/doi/10.1145/3650212.3680345
+	- https://softsec.kaist.ac.kr/~sangkilc/papers/kim-issta24.pdf
+	- https://2024.issta.org/details/issta-2024-papers/88/AsFuzzer-Differential-Testing-of-Assemblers-with-Error-Driven-Grammar-Inference
 - Evolutionary Generative Fuzzing for Differential Testing of the Kotlin Compiler
 	- ACM International Conference on the Foundations of Software Engineering (FSE) 2024
 	- Călin Georgescu, Mitchell Olsthoorn, Pouria Derakhshanfar, Marat Akhin, Annibale Panichella
@@ -1068,6 +1068,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 	- Bachir Bendrissou, Cristian Cadar, Alastair F. Donaldson
 	- https://doi.org/10.1145/3708517
 	- https://doc.ic.ac.uk/~afd/papers/2024/TOSEM.pdf
+- History-driven Compiler Fuzzing via Assembling and Scheduling Bug-triggering Code Segments
+	- 2024 IEEE International Symposium on Software Reliability Engineering (ISSRE)
+	- Zhenye Fan, Guixin Ye, Tianmin Hu, Zhanyong Tang
+	- https://doi.org/10.1109/ISSRE62328.2024.00040
+	- https://github.com/ASMFuzz/ASMFuzz
 - LOOL: Low-Overhead, Optimization-Log-Guided Compiler Fuzzing
 	- FUZZING 2024: Proceedings of the 3rd ACM International Fuzzing Workshop
 	- Florian Schwarcz, Felix Berlakovich, Gergö Barany, Hanspeter Mössenböck
