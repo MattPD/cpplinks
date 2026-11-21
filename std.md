@@ -132,7 +132,12 @@
 
 ## C++26: Talks
 
-- C++26 - What's In It For You?
+- C++26: A Curated Tour of What's New
+	- CppCon 2026
+	- Marc Gregoire
+	- https://www.youtube.com/watch?v=ak1zrDo2y-U
+	- https://github.com/CppCon/CppCon2026/blob/main/Presentations/Cpp26_A_Curated_Tour_of_Whats_New.pdf
+- C++26: What's In It For You?
 	- CppCon 2025
 	- Marc Gregoire
 	- https://www.youtube.com/watch?v=PcidhLUYp-4
@@ -141,7 +146,7 @@
 	- C++Now 2024
 	- Jeffrey Garland
 	- https://www.youtube.com/watch?v=CwYILWyTRMQ
-- C++26 Preview - The Smaller Features
+- C++26 Preview: The Smaller Features
 	- CppCon 2024
 	- Jeff Garland
 	- https://www.youtube.com/watch?v=xmqkRcAslw8
