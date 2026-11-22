@@ -952,6 +952,10 @@ BTF: BPF Type Format
 	- Doesn't use `dlopen` and can inject into statically linked targets by mapping manually the ELF in memory from syscalls only
 	- https://github.com/ixty/mandibule
 - Melkor - An ELF File Format Fuzzer - https://github.com/IOActive/Melkor_ELF_Fuzzer
+- MemBrowse: Memory footprint (flash and RAM) analysis and tracking for ELF binaries
+	- Parses ELF files, DWARF debug info, and GNU linker scripts to report per-region, per-section, and per-symbol memory usage; tracks changes across commits and targets in CI.
+	- https://github.com/membrowse/membrowse-action
+	- https://membrowse.com/
 - niche-elf: A small library that optimizes some niche operations commonly used by debugger extensions
 	- Main use-case currently is building an ELF from a list of symbols for the purposes of add-symbol-fileing it into the debbuger. This is useful for stuff like ks --apply and syncing symbols for decompiler integration.
 	- https://github.com/pwndbg/niche-elf
