@@ -2345,6 +2345,12 @@ See also: [Computer Architecture](comparch.md)
 	- Rui Xiao, Sibo Feng, Soundarya Ramesh, Jun Han, Jinsong Han
 	- https://www.ndss-symposium.org/ndss-paper/peering-inside-the-black-box-long-range-and-scalable-model-architecture-snooping-via-gpu-electromagnetic-side-channel/
 	- https://doi.org/10.5281/zenodo.17080117
+- Practical Covert Channel across Isolated Browser Instances via GPU Command Queue Contention
+	- IEEE Symposium on Security and Privacy (S&P) 2026
+	- Junhong Liu, Zifeng Kang, Song Li, Yinzhi Cao
+	- https://doi.org/10.1109/SP63933.2026.00254
+	- https://yinzhicao.org/RenderingChannel/Command-Queue-Contention.pdf
+	- https://doi.org/10.5281/zenodo.17368240
 
 ## GPU: 2024
 
