@@ -162,6 +162,10 @@
 	- CDPT: Concurrent Deferred Partial Tracing
 		- An automatic, safe, and concurrent garbage collector for Rust
 		- https://github.com/kaist-cp/cdpt
+- Understanding C++26 hazard pointers
+	- 2026-11-11
+	- Marius Bancila
+	- https://mariusbancila.ro/blog/2026/11/11/understanding-cpp26-hazard_pointers/
 
 ### Memory Reclamation: Readings: 2025
 
