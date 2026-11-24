@@ -921,6 +921,11 @@ See also: [Testing](https://github.com/MattPD/cpplinks/blob/master/testing.md): 
 
 #### Testing: Readings: Fuzzing: 2026
 
+- FeatureFuzz: Treating Bug-prone Features as Core Primitives for Compiler Fuzzing
+	- CCS 2026: ACM SIGSAC Conference on Computer and Communications Security
+	- Xingbang He, Yuanwei Chen, Hao Wu, Jikang Zhang, Zicheng Wang, Ligeng Chen, Junjie Peng, Haiyang Wei, Yi Qian, Tiantai Zhang, Linzhang Wang, Bing Mao
+	- https://doi.org/10.1145/3830454.3832578
+	- https://github.com/addaddgo/FeatureFuzz
 - Random Test Generators Demystified: Differences and Potential for Compiler Reliability
 	- Science of Computer Programming 247 (2026)
 	- Yang Wang, Zeyu Lu, Beining Wu, Yibiao Yang, Hongmin Lu, Yuming Zhou
