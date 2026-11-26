@@ -631,6 +631,9 @@ See also:
 - RAD Linker
 	- https://github.com/EpicGames/raddebugger#the-rad-linker
 	- linker for generating x64 PE/COFF binaries, designed to be very fast when creating gigantic executables, generates standard PDB files for debugging, but it can also (optionally) natively create RAD Debug Info
+- Wild linker
+	- https://github.com/wild-linker/wild
+	- a linker with the goal of being very fast for iterative development
 
 ## Software: OS: macOS
 
