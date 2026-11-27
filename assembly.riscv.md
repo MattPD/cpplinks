@@ -555,6 +555,8 @@ Zvbb, Zvbc, Zvkb, Zvkg, Zvkn, Zvknc, Zvkned, Zvkng, Zvknha, Zvknhb, Zvks, Zvksc,
 	- https://bitbucket.org/casl/shakti_public
 - SiFive's Freedom platforms RTL source files (Chisel)
 	- https://github.com/sifive/freedom
+- SmolRV64: high performance FPGA-focused 64-bit RISC-V RVA22 4-way issue OoO Soft SoC (Verilog)
+	- https://github.com/tommythorn/smolrv64
 - Sodor Processor Collection - educational microarchitectures (Chisel)
 	- https://github.com/ucb-bar/riscv-sodor
 - SweRV RISC-V core from Western Digital (SystemVerilog)
